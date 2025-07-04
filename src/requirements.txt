@@ -1,0 +1,50 @@
+# Core RAG Dependencies
+chromadb==0.4.18
+openai
+langchain
+langchain-openai
+langchain-community
+langchain-google-genai
+langgraph==0.0.55
+google-generativeai==0.3.2
+
+# Document Processing
+PyPDF2
+pdfplumber
+camelot-py
+pandas
+
+# Embeddings and ML
+sentence-transformers
+numpy
+scikit-learn
+
+# Configuration and Environment
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+pyyaml
+
+# API and Web Framework (for future milestones)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Testing
+pytest
+pytest-asyncio
+requests
+
+# Utilities
+tqdm
+click
+colorama
+
+# Development Tools
+black
+flake8
+isort
+
+# Additional dependencies
+python-multipart==0.0.6
+pathlib==1.0.1
+typing-extensions==4.8.0
