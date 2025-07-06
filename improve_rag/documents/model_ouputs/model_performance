@@ -419,3 +419,39 @@ SUMMARY for HB300_HD1:
     appropriations_mof_2026_2027: 27
   Percentage with unknowns: 24.7%
   Saved to: ./model_ouputs/processed_documents/processed_HB300_HD1_geminiV4.json
+
+  SUMMARY for HB300:
+  Total pages: 154
+  Pages processed: 154
+  Budget items extracted: 887
+  Text items extracted: 154
+  Budget items with unknowns: 81
+  Total unknown fields: 219
+  Unknown field breakdown:
+    program: 36
+    program_id: 27
+    expending_agency: 31
+    fiscal_year_2025_2026_amount: 14
+    appropriations_mof_2025_2026: 16
+    fiscal_year_2026_2027_amount: 44
+    appropriations_mof_2026_2027: 51
+  Percentage with unknowns: 9.1%
+  Saved to: ./model_ouputs/processed_documents/processed_HB300_geminiV4.json
+
+  SUMMARY for HB300_SD1:
+  Total pages: 154
+  Pages processed: 154
+  Budget items extracted: 857
+  Text items extracted: 154
+  Budget items with unknowns: 177
+  Total unknown fields: 221
+  Unknown field breakdown:
+    program: 33
+    program_id: 143
+    expending_agency: 29
+    fiscal_year_2025_2026_amount: 1
+    appropriations_mof_2025_2026: 6
+    fiscal_year_2026_2027_amount: 2
+    appropriations_mof_2026_2027: 7
+  Percentage with unknowns: 20.7%
+  Saved to: ./model_ouputs/processed_documents/processed_HB300_SD1_geminiV4.json

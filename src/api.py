@@ -142,7 +142,8 @@ class SearchQuery(BaseModel):
 
 class IntelligentQuery(BaseModel):
     query: str = Field(..., description="User's question about the budget")
-    max_results: int = Field(default=10, ge=1, le=100, description="Maximum number of documents to retrieve")
+    max_results: int = Field(default=1000, ge=1, le=10000, description="Maximum number of documents to retrieve")
+    use_top_n_results: Optional[int] = Field(default=None, ge=1, le=1000, description="Number of top documents to use for answer generation (None = use all)")
 
 class ReasoningStep(BaseModel):
     step: str
@@ -173,6 +174,18 @@ class SearchResponse(BaseModel):
     total_results: int
     budget_results: int
     text_results: int
+
+class MetadataSearchQuery(BaseModel):
+    where: Dict[str, Any] = Field(..., description="Metadata filter conditions")
+    n_results: int = Field(default=50, ge=1, le=1000, description="Number of results to return")
+    collection_type: str = Field(default="both", description="Which collection to search: 'budget', 'text', or 'both'")
+
+class FieldSearchQuery(BaseModel):
+    field_name: str = Field(..., description="Name of the metadata field to search")
+    search_value: str = Field(..., description="Value to search for")
+    exact_match: bool = Field(default=True, description="If True, exact match; if False, contains match")
+    n_results: int = Field(default=50, ge=1, le=1000, description="Number of results to return")
+    collection_type: str = Field(default="both", description="Which collection to search: 'budget', 'text', or 'both'")
 
 class DocumentInfo(BaseModel):
     filename: str
@@ -261,9 +274,9 @@ def analyze_user_query(query: str) -> ReasoningStep:
         print("DEBUG: Using fallback reasoning")
         return reasoning
 
-def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 10) -> Dict[str, Any]:
-    """Search for relevant documents in both collections based on the reasoning"""
-    print("DEBUG: Starting document search in both collections")
+def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 1000) -> Dict[str, Any]:
+    """Search for relevant documents in both collections based on the reasoning using flexible metadata search"""
+    print("DEBUG: Starting document search in both collections using flexible metadata search")
     
     budget_documents = []
     text_documents = []
@@ -287,87 +300,237 @@ def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 10) -
     
     print(f"DEBUG: Built {len(search_queries)} search queries: {search_queries}")
     
-    # Search both collections
+    # Search both collections using flexible metadata search
     half_results = max_results // 2
     
-    # Search budget collection
+    # Search budget collection with flexible metadata search
     budget_seen_ids = set()
+    
+    # First pass: search with specific queries
     for i, search_query in enumerate(search_queries):
-        print(f"DEBUG: Searching budget collection with query {i+1}/{len(search_queries)}: '{search_query}'")
+        print(f"DEBUG: Searching budget collection with flexible metadata search {i+1}/{len(search_queries)}: '{search_query}'")
         try:
-            results = budget_manager.query_documents(
-                query_text=search_query,
-                n_results=half_results // len(search_queries) + 1
+            # Request more results per query to increase chances of finding documents
+            results_per_query = min(200, half_results // max(1, len(search_queries) // 2))
+            results = budget_manager.flexible_metadata_search(
+                query=search_query,
+                n_results=results_per_query
             )
             
-            results_count = len(results["ids"][0]) if results["ids"] else 0
+            results_count = len(results["documents"][0]) if results["documents"] else 0
             print(f"DEBUG: Found {results_count} budget results for query '{search_query}'")
             
-            for doc_id, content, score, metadata in zip(
+            # Process results and avoid duplicates
+            for doc_id, content, metadata in zip(
                 results["ids"][0],
                 results["documents"][0], 
-                results["distances"][0],
                 results["metadatas"][0]
             ):
                 if doc_id not in budget_seen_ids:
                     budget_documents.append({
                         "id": doc_id,
                         "content": content,
-                        "score": 1 - score,  # Convert distance to similarity
+                        "score": 1.0,  # Metadata matches are binary (match or no match)
                         "metadata": metadata,
                         "search_query": search_query,
                         "collection_type": "budget_item"
                     })
                     budget_seen_ids.add(doc_id)
-                    
-                    if len(budget_documents) >= half_results:
-                        break
+                        
         except Exception as e:
             print(f"DEBUG: Error searching budget collection for '{search_query}': {e}")
             continue
     
-    # Search text collection
+    # Second pass: if we don't have enough results, try broader searches
+    if len(budget_documents) < half_results:
+        print(f"DEBUG: Only found {len(budget_documents)} budget documents, trying broader searches...")
+        
+        # Try searching for just department codes
+        for dept in reasoning.departments:
+            if dept in DEPARTMENT_MAPPINGS and len(budget_documents) < half_results:
+                try:
+                    results = budget_manager.flexible_metadata_search(
+                        query=dept,  # Just the department code
+                        n_results=100
+                    )
+                    
+                    results_count = len(results["documents"][0]) if results["documents"] else 0
+                    print(f"DEBUG: Broader search for '{dept}' found {results_count} budget results")
+                    
+                    for doc_id, content, metadata in zip(
+                        results["ids"][0],
+                        results["documents"][0], 
+                        results["metadatas"][0]
+                    ):
+                        if doc_id not in budget_seen_ids:
+                            budget_documents.append({
+                                "id": doc_id,
+                                "content": content,
+                                "score": 0.8,  # Slightly lower score for broader matches
+                                "metadata": metadata,
+                                "search_query": f"broad_{dept}",
+                                "collection_type": "budget_item"
+                            })
+                            budget_seen_ids.add(doc_id)
+                            
+                except Exception as e:
+                    print(f"DEBUG: Error in broader search for '{dept}': {e}")
+                    continue
+    
+    # Search text collection with flexible metadata search
     text_seen_ids = set()
+    
+    # First pass: search with specific queries
     for i, search_query in enumerate(search_queries):
-        print(f"DEBUG: Searching text collection with query {i+1}/{len(search_queries)}: '{search_query}'")
+        print(f"DEBUG: Searching text collection with flexible metadata search {i+1}/{len(search_queries)}: '{search_query}'")
         try:
-            results = text_manager.query_documents(
-                query_text=search_query,
-                n_results=half_results // len(search_queries) + 1
+            # Request more results per query to increase chances of finding documents
+            results_per_query = min(200, half_results // max(1, len(search_queries) // 2))
+            results = text_manager.flexible_metadata_search(
+                query=search_query,
+                n_results=results_per_query
             )
             
-            results_count = len(results["ids"][0]) if results["ids"] else 0
+            results_count = len(results["documents"][0]) if results["documents"] else 0
             print(f"DEBUG: Found {results_count} text results for query '{search_query}'")
             
-            for doc_id, content, score, metadata in zip(
+            # Process results and avoid duplicates
+            for doc_id, content, metadata in zip(
                 results["ids"][0],
                 results["documents"][0], 
-                results["distances"][0],
                 results["metadatas"][0]
             ):
                 if doc_id not in text_seen_ids:
                     text_documents.append({
                         "id": doc_id,
                         "content": content,
-                        "score": 1 - score,  # Convert distance to similarity
+                        "score": 1.0,  # Metadata matches are binary (match or no match)
                         "metadata": metadata,
                         "search_query": search_query,
                         "collection_type": "text_item"
                     })
                     text_seen_ids.add(doc_id)
-                    
-                    if len(text_documents) >= half_results:
-                        break
+                        
         except Exception as e:
             print(f"DEBUG: Error searching text collection for '{search_query}': {e}")
             continue
     
-    # Combine and sort all documents
-    all_documents = budget_documents + text_documents
-    all_documents.sort(key=lambda x: x["score"], reverse=True)
-    result_documents = all_documents[:max_results]
+    # Second pass for text collection: if we don't have enough results, try broader searches
+    if len(text_documents) < half_results:
+        print(f"DEBUG: Only found {len(text_documents)} text documents, trying broader searches...")
+        
+        # Try searching for just department codes
+        for dept in reasoning.departments:
+            if dept in DEPARTMENT_MAPPINGS and len(text_documents) < half_results:
+                try:
+                    results = text_manager.flexible_metadata_search(
+                        query=dept,  # Just the department code
+                        n_results=100
+                    )
+                    
+                    results_count = len(results["documents"][0]) if results["documents"] else 0
+                    print(f"DEBUG: Broader search for '{dept}' found {results_count} text results")
+                    
+                    for doc_id, content, metadata in zip(
+                        results["ids"][0],
+                        results["documents"][0], 
+                        results["metadatas"][0]
+                    ):
+                        if doc_id not in text_seen_ids:
+                            text_documents.append({
+                                "id": doc_id,
+                                "content": content,
+                                "score": 0.8,  # Slightly lower score for broader matches
+                                "metadata": metadata,
+                                "search_query": f"broad_{dept}",
+                                "collection_type": "text_item"
+                            })
+                            text_seen_ids.add(doc_id)
+                            
+                except Exception as e:
+                    print(f"DEBUG: Error in broader search for '{dept}': {e}")
+                    continue
     
-    print(f"DEBUG: Document search completed - found {len(budget_documents)} budget docs, {len(text_documents)} text docs, returning top {len(result_documents)}")
+    # Third pass: if we still don't have enough results, try semantic search as fallback
+    total_found = len(budget_documents) + len(text_documents)
+    if total_found < max_results // 2:  # If we have less than 50% of desired results
+        print(f"DEBUG: Only found {total_found} total documents, trying semantic search fallback...")
+        
+        # Try semantic search on budget collection
+        if len(budget_documents) < half_results:
+            try:
+                # Use the main search terms for semantic search
+                main_query = " ".join(reasoning.search_terms[:3])  # Use first 3 search terms
+                semantic_results = budget_manager.query_documents(
+                    query_text=main_query,
+                    n_results=min(100, half_results - len(budget_documents))
+                )
+                
+                results_count = len(semantic_results["documents"][0]) if semantic_results["documents"] else 0
+                print(f"DEBUG: Semantic search for '{main_query}' found {results_count} budget results")
+                
+                for i, doc in enumerate(semantic_results["documents"][0]):
+                    doc_id = f"semantic_budget_{i}_{len(budget_documents)}"
+                    if doc_id not in budget_seen_ids:
+                        budget_documents.append({
+                            "id": doc_id,
+                            "content": doc,
+                            "score": 0.6,  # Lower score for semantic matches
+                            "metadata": semantic_results["metadatas"][0][i],
+                            "search_query": f"semantic_{main_query}",
+                            "collection_type": "budget_item"
+                        })
+                        budget_seen_ids.add(doc_id)
+                        
+            except Exception as e:
+                print(f"DEBUG: Error in semantic search for budget collection: {e}")
+        
+        # Try semantic search on text collection
+        if len(text_documents) < half_results:
+            try:
+                # Use the main search terms for semantic search
+                main_query = " ".join(reasoning.search_terms[:3])  # Use first 3 search terms
+                semantic_results = text_manager.query_documents(
+                    query_text=main_query,
+                    n_results=min(100, half_results - len(text_documents))
+                )
+                
+                results_count = len(semantic_results["documents"][0]) if semantic_results["documents"] else 0
+                print(f"DEBUG: Semantic search for '{main_query}' found {results_count} text results")
+                
+                for i, doc in enumerate(semantic_results["documents"][0]):
+                    doc_id = f"semantic_text_{i}_{len(text_documents)}"
+                    if doc_id not in text_seen_ids:
+                        text_documents.append({
+                            "id": doc_id,
+                            "content": doc,
+                            "score": 0.6,  # Lower score for semantic matches
+                            "metadata": semantic_results["metadatas"][0][i],
+                            "search_query": f"semantic_{main_query}",
+                            "collection_type": "text_item"
+                        })
+                        text_seen_ids.add(doc_id)
+                        
+            except Exception as e:
+                print(f"DEBUG: Error in semantic search for text collection: {e}")
+    
+    # Combine all documents and ensure no cross-collection duplicates
+    all_documents = budget_documents + text_documents
+    
+    # Additional deduplication check across collections (in case same ID exists in both)
+    seen_all_ids = set()
+    deduplicated_documents = []
+    for doc in all_documents:
+        if doc["id"] not in seen_all_ids:
+            deduplicated_documents.append(doc)
+            seen_all_ids.add(doc["id"])
+    
+    # Sort by score (prioritize exact matches over broader matches)
+    deduplicated_documents.sort(key=lambda x: x["score"], reverse=True)
+    result_documents = deduplicated_documents[:max_results]
+    
+    print(f"DEBUG: Document search completed - found {len(budget_documents)} budget docs, {len(text_documents)} text docs")
+    print(f"DEBUG: After deduplication: {len(deduplicated_documents)} unique docs, returning top {len(result_documents)}")
     
     return {
         "documents": result_documents,
@@ -375,18 +538,24 @@ def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 10) -
         "text_count": len(text_documents)
     }
 
-def generate_comprehensive_answer(query: str, reasoning: ReasoningStep, search_results: Dict[str, Any]) -> str:
+def generate_comprehensive_answer(query: str, reasoning: ReasoningStep, search_results: Dict[str, Any], use_top_n_results: int = None) -> str:
     """Generate a comprehensive answer based on retrieved documents from both collections"""
     documents = search_results["documents"]
     budget_count = search_results["budget_count"]
     text_count = search_results["text_count"]
     
+    # Use all documents by default, or limit to specified number
+    if use_top_n_results is None:
+        docs_to_use = documents
+    else:
+        docs_to_use = documents[:use_top_n_results]
+    
     print("DEBUG: Starting answer generation")
-    print(f"DEBUG: Generating answer from {len(documents)} documents ({budget_count} budget, {text_count} text)")
+    print(f"DEBUG: Generating answer from {len(docs_to_use)} documents (out of {len(documents)} total) ({budget_count} budget, {text_count} text)")
     
     # Prepare context from documents
     context_parts = []
-    for i, doc in enumerate(documents[:5]):  # Use top 5 documents
+    for i, doc in enumerate(docs_to_use):
         metadata = doc["metadata"]
         collection_type = doc["collection_type"]
         
@@ -413,7 +582,7 @@ Content: {doc["content"][:300]}...
 """)
     
     context = "\n".join(context_parts)
-    print(f"DEBUG: Prepared context from top {min(5, len(documents))} documents")
+    print(f"DEBUG: Prepared context from {len(docs_to_use)} documents")
     
     # Generate answer
     prompt = f"""
@@ -428,6 +597,7 @@ Analysis performed:
 - Search terms used: {reasoning.search_terms}
 - Reasoning: {reasoning.reasoning}
 - Documents found: {budget_count} structured budget items, {text_count} text documents
+- Documents used for analysis: {len(docs_to_use)} out of {len(documents)} total documents
 
 Provide a detailed answer that:
 1. Directly answers the user's question
@@ -452,7 +622,7 @@ Answer:
 
 # API Endpoints
 
-def ingest_processed_documents(file_path: str = "documents/processed_all_documents_gemini_expanded.json") -> Dict[str, Any]:
+def ingest_processed_documents(file_path: str = "documents/processed_all_documents_geminiV4_expanded.json") -> Dict[str, Any]:
     """
     Ingest processed budget documents into both budget and text collections
     
@@ -474,6 +644,21 @@ def ingest_processed_documents(file_path: str = "documents/processed_all_documen
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"Processed documents file not found: {file_path}")
     
+    def clean_metadata_value(value):
+        """Convert None values to 'unknown' string for ChromaDB compatibility"""
+        if value is None:
+            return 'unknown'
+        if isinstance(value, (int, float)):
+            return str(value)
+        return str(value)
+    
+    def clean_metadata_dict(metadata):
+        """Clean all values in metadata dictionary for ChromaDB compatibility"""
+        cleaned = {}
+        for key, value in metadata.items():
+            cleaned[key] = clean_metadata_value(value)
+        return cleaned
+    
     try:
         # Load the processed JSON data
         print("📖 Loading processed document data...")
@@ -485,6 +670,7 @@ def ingest_processed_documents(file_path: str = "documents/processed_all_documen
         budget_count = 0
         text_count = 0
         errors = []
+        unknown_items_count = 0
         
         # Count total items for overall progress
         total_budget_items = sum(len(doc_data.get('budget_items', [])) for doc_data in all_documents.values())
@@ -509,34 +695,67 @@ def ingest_processed_documents(file_path: str = "documents/processed_all_documen
                     
                     for item in tqdm(budget_items, desc=f"Budget items in {doc_name}", position=3, leave=False):
                         try:
-                            # Create searchable content for budget items
-                            program = item.get('program', 'unknown')
-                            program_id = item.get('program_id', 'unknown')
-                            agency = item.get('expending_agency', 'unknown')
-                            amount_2025 = item.get('fiscal_year_2025_2026_amount', 'unknown')
-                            amount_2026 = item.get('fiscal_year_2026_2027_amount', 'unknown')
-                            mof_2025 = item.get('appropriations_mof_2025_2026_expanded', 'unknown')
-                            mof_2026 = item.get('appropriations_mof_2026_2027_expanded', 'unknown')
+                            # Create document text with key budget information
+                            doc_parts = []
+                            
+                            # Add program if available
+                            if item.get('program') and item.get('program') != 'unknown':
+                                doc_parts.append(f"Program: {item.get('program')}")
+                            
+                            # Add program_id if available
+                            if item.get('program_id') and item.get('program_id') != 'unknown':
+                                doc_parts.append(f"Program ID: {item.get('program_id')}")
+                            
+                            # Add expending_agency if available
+                            if item.get('expending_agency') and item.get('expending_agency') != 'unknown':
+                                doc_parts.append(f"Expending Agency: {item.get('expending_agency')}")
+                            
+                            # Add expanded expending_agency if available
+                            if item.get('expending_agency_expanded') and item.get('expending_agency_expanded') != 'unknown':
+                                doc_parts.append(f"Department: {item.get('expending_agency_expanded')}")
+                            
+                            # Add fiscal year amounts if available
+                            if item.get('fiscal_year_2025_2026_amount') and item.get('fiscal_year_2025_2026_amount') != 'unknown':
+                                doc_parts.append(f"FY 2025-2026 Amount: ${item.get('fiscal_year_2025_2026_amount')}")
+                            
+                            if item.get('fiscal_year_2026_2027_amount') and item.get('fiscal_year_2026_2027_amount') != 'unknown':
+                                doc_parts.append(f"FY 2026-2027 Amount: ${item.get('fiscal_year_2026_2027_amount')}")
+                            
+                            # Add appropriations MOF if available
+                            if item.get('appropriations_mof_2025_2026') and item.get('appropriations_mof_2025_2026') != 'unknown':
+                                doc_parts.append(f"FY 2025-2026 Funding Type: {item.get('appropriations_mof_2025_2026')}")
+                            
+                            if item.get('appropriations_mof_2026_2027') and item.get('appropriations_mof_2026_2027') != 'unknown':
+                                doc_parts.append(f"FY 2026-2027 Funding Type: {item.get('appropriations_mof_2026_2027')}")
+                            
+                            # Add expanded appropriations MOF if available
+                            if item.get('appropriations_mof_2025_2026_expanded') and item.get('appropriations_mof_2025_2026_expanded') != 'unknown':
+                                doc_parts.append(f"FY 2025-2026 Funding: {item.get('appropriations_mof_2025_2026_expanded')}")
+                            
+                            if item.get('appropriations_mof_2026_2027_expanded') and item.get('appropriations_mof_2026_2027_expanded') != 'unknown':
+                                doc_parts.append(f"FY 2026-2027 Funding: {item.get('appropriations_mof_2026_2027_expanded')}")
+                            
+                            # Check if we have any meaningful content
+                            if not doc_parts:
+                                print(f"   ⚠️  Unknown budget item found: {item}")
+                                unknown_items_count += 1
+                                overall_budget_progress.update(1)
+                                continue
                             
                             # Create comprehensive searchable text
-                            searchable_content = f"""
-                            Program: {program}
-                            Program ID: {program_id}
-                            Agency: {agency}
-                            FY 2025-2026 Amount: ${amount_2025}
-                            FY 2026-2027 Amount: ${amount_2026}
-                            FY 2025-2026 Funding: {mof_2025}
-                            FY 2026-2027 Funding: {mof_2026}
-                            Document: {doc_name}
-                            """.strip()
+                            searchable_content = "\n".join(doc_parts)
+                            searchable_content += f"\nDocument: {doc_name}"
                             
                             # Generate unique ID
                             item_id = f"{doc_name}_budget_{item.get('page_number', 'unknown')}_{budget_count}"
                             
+                            # Clean metadata for ChromaDB compatibility
+                            cleaned_metadata = clean_metadata_dict(item)
+                            
                             # Add to budget collection
                             budget_manager.collection.add(
                                 documents=[searchable_content],
-                                metadatas=[item],
+                                metadatas=[cleaned_metadata],
                                 ids=[item_id]
                             )
                             
@@ -563,10 +782,13 @@ def ingest_processed_documents(file_path: str = "documents/processed_all_documen
                                 # Generate unique ID
                                 item_id = f"{doc_name}_text_{item.get('page_number', 'unknown')}_{text_count}"
                                 
+                                # Clean metadata for ChromaDB compatibility
+                                cleaned_metadata = clean_metadata_dict(item)
+                                
                                 # Add to text collection
                                 text_manager.collection.add(
                                     documents=[text_content],
-                                    metadatas=[item],
+                                    metadatas=[cleaned_metadata],
                                     ids=[item_id]
                                 )
                                 
@@ -598,6 +820,7 @@ def ingest_processed_documents(file_path: str = "documents/processed_all_documen
         print(f"\n✅ Ingestion completed in {total_time:.2f} seconds!")
         print(f"   📊 Budget items ingested: {budget_count}")
         print(f"   📄 Text items ingested: {text_count}")
+        print(f"   ⚠️  Unknown budget items skipped: {unknown_items_count}")
         print(f"   ⏱️  Average rate: {(budget_count + text_count) / total_time:.1f} items/second")
         if errors:
             print(f"   ⚠️  Errors encountered: {len(errors)}")
@@ -610,6 +833,7 @@ def ingest_processed_documents(file_path: str = "documents/processed_all_documen
             "success": True,
             "budget_items_ingested": budget_count,
             "text_items_ingested": text_count,
+            "unknown_items_skipped": unknown_items_count,
             "total_documents_processed": len(all_documents),
             "processing_time_seconds": total_time,
             "items_per_second": (budget_count + text_count) / total_time if total_time > 0 else 0,
@@ -625,6 +849,7 @@ def ingest_processed_documents(file_path: str = "documents/processed_all_documen
             "error": error_msg,
             "budget_items_ingested": 0,
             "text_items_ingested": 0,
+            "unknown_items_skipped": 0,
             "total_documents_processed": 0,
             "processing_time_seconds": 0,
             "items_per_second": 0,
@@ -660,68 +885,149 @@ async def get_stats():
 
 @app.post("/search", response_model=SearchResponse, summary="Search Documents")
 async def search_documents(search_query: SearchQuery):
-    """Search for documents using semantic similarity in one or both collections"""
+    """Search documents using semantic similarity."""
     try:
+        all_results = []
         budget_results = []
         text_results = []
         
-        # Search budget collection
         if search_query.collection_type in ["budget", "both"]:
-            budget_raw = budget_manager.query_documents(
+            # Search budget collection
+            budget_search_results = budget_manager.query_documents(
                 query_text=search_query.query,
                 n_results=search_query.n_results
             )
             
-            for i, (doc_id, content, score, metadata) in enumerate(zip(
-                budget_raw["ids"][0],
-                budget_raw["documents"][0],
-                budget_raw["distances"][0],
-                budget_raw["metadatas"][0] if search_query.include_metadata else [None] * len(budget_raw["ids"][0])
-            )):
-                budget_results.append(SearchResult(
-                    id=doc_id,
-                    content=content,
-                    score=1 - score,  # Convert distance to similarity score
-                    collection_type="budget_item",
-                    metadata=metadata if search_query.include_metadata else None
-                ))
+            # Process budget results
+            for i, doc in enumerate(budget_search_results['documents'][0]):
+                result = SearchResult(
+                    id=f"budget_{i}",
+                    content=doc,
+                    score=1.0 - budget_search_results['distances'][0][i],  # Convert distance to similarity
+                    collection_type="budget",
+                    metadata=budget_search_results['metadatas'][0][i] if search_query.include_metadata else None
+                )
+                all_results.append(result)
+                budget_results.append(result)
         
-        # Search text collection
         if search_query.collection_type in ["text", "both"]:
-            text_raw = text_manager.query_documents(
+            # Search text collection
+            text_search_results = text_manager.query_documents(
                 query_text=search_query.query,
                 n_results=search_query.n_results
             )
             
-            for i, (doc_id, content, score, metadata) in enumerate(zip(
-                text_raw["ids"][0],
-                text_raw["documents"][0],
-                text_raw["distances"][0],
-                text_raw["metadatas"][0] if search_query.include_metadata else [None] * len(text_raw["ids"][0])
-            )):
-                text_results.append(SearchResult(
-                    id=doc_id,
-                    content=content,
-                    score=1 - score,  # Convert distance to similarity score
-                    collection_type="text_item",
-                    metadata=metadata if search_query.include_metadata else None
-                ))
+            # Process text results
+            for i, doc in enumerate(text_search_results['documents'][0]):
+                result = SearchResult(
+                    id=f"text_{i}",
+                    content=doc,
+                    score=1.0 - text_search_results['distances'][0][i],  # Convert distance to similarity
+                    collection_type="text",
+                    metadata=text_search_results['metadatas'][0][i] if search_query.include_metadata else None
+                )
+                all_results.append(result)
+                text_results.append(result)
         
-        # Combine and sort results
-        all_results = budget_results + text_results
+        # Sort all results by score (highest first)
         all_results.sort(key=lambda x: x.score, reverse=True)
-        final_results = all_results[:search_query.n_results]
+        
+        # Limit to requested number of results
+        all_results = all_results[:search_query.n_results]
         
         return SearchResponse(
             query=search_query.query,
-            results=final_results,
-            total_results=len(final_results),
+            results=all_results,
+            total_results=len(all_results),
             budget_results=len(budget_results),
             text_results=len(text_results)
         )
-    
+        
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error searching documents: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Search failed: {str(e)}")
+
+@app.post("/search/metadata", response_model=SearchResponse, summary="Search Documents by Metadata")
+async def search_by_metadata(search_query: MetadataSearchQuery):
+    """Search documents using flexible metadata matching with case-insensitive partial string search."""
+    try:
+        all_results = []
+        budget_results = []
+        text_results = []
+        
+        # Extract search query from the where clause for flexible search
+        # Handle both direct field queries and $or queries
+        search_terms = []
+        
+        if "$or" in search_query.where:
+            # Extract search terms from $or clauses
+            for condition in search_query.where["$or"]:
+                for field, value in condition.items():
+                    if isinstance(value, dict) and "$contains" in value:
+                        search_terms.append(value["$contains"])
+                    elif isinstance(value, str):
+                        search_terms.append(value)
+        else:
+            # Handle direct field queries
+            for field, value in search_query.where.items():
+                if isinstance(value, dict) and "$contains" in value:
+                    search_terms.append(value["$contains"])
+                elif isinstance(value, str):
+                    search_terms.append(value)
+        
+        # Use the first search term for flexible search (most common case)
+        query_term = search_terms[0] if search_terms else ""
+        
+        if search_query.collection_type in ["budget", "both"]:
+            # Use flexible metadata search for budget collection
+            budget_search_results = budget_manager.flexible_metadata_search(
+                query=query_term,
+                n_results=search_query.n_results
+            )
+            
+            # Process budget results
+            for i, doc in enumerate(budget_search_results['documents'][0]):
+                result = SearchResult(
+                    id=budget_search_results['ids'][0][i] if 'ids' in budget_search_results else f"budget_{i}",
+                    content=doc,
+                    score=1.0,  # Metadata matches are binary (match or no match)
+                    collection_type="budget",
+                    metadata=budget_search_results['metadatas'][0][i]
+                )
+                all_results.append(result)
+                budget_results.append(result)
+        
+        if search_query.collection_type in ["text", "both"]:
+            # Use flexible metadata search for text collection
+            text_search_results = text_manager.flexible_metadata_search(
+                query=query_term,
+                n_results=search_query.n_results
+            )
+            
+            # Process text results
+            for i, doc in enumerate(text_search_results['documents'][0]):
+                result = SearchResult(
+                    id=text_search_results['ids'][0][i] if 'ids' in text_search_results else f"text_{i}",
+                    content=doc,
+                    score=1.0,  # Metadata matches are binary (match or no match)
+                    collection_type="text",
+                    metadata=text_search_results['metadatas'][0][i]
+                )
+                all_results.append(result)
+                text_results.append(result)
+        
+        # Limit to requested number of results
+        all_results = all_results[:search_query.n_results]
+        
+        return SearchResponse(
+            query=f"Flexible metadata search: {query_term}",
+            results=all_results,
+            total_results=len(all_results),
+            budget_results=len(budget_results),
+            text_results=len(text_results)
+        )
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Metadata search failed: {str(e)}")
 
 @app.delete("/reset", summary="Reset Collections")
 async def reset_collections():
@@ -770,7 +1076,7 @@ async def intelligent_query(query: IntelligentQuery):
         # Execute intelligent query processing
         reasoning = analyze_user_query(query.query)
         search_results = search_relevant_documents(reasoning, query.max_results)
-        answer = generate_comprehensive_answer(query.query, reasoning, search_results)
+        answer = generate_comprehensive_answer(query.query, reasoning, search_results, query.use_top_n_results)
         
         end_time = time.time()
         print(f"DEBUG: Intelligent query processing completed in {end_time - start_time:.2f} seconds")

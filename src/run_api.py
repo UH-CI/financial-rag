@@ -46,7 +46,23 @@ def main():
         if args.ingest or args.ingest_only:
             print("\n📥 Ingesting processed documents...")
             try:
-                from api import ingest_processed_documents
+                from api import ingest_processed_documents, budget_manager, text_manager
+                
+                # Reset collections before ingestion to avoid duplicates
+                print("🔄 Resetting collections to avoid duplicates...")
+                budget_manager.reset_collection()
+                text_manager.reset_collection()
+                print("✅ Collections reset successfully")
+                
+                # Reinitialize the managers to get fresh collection references
+                print("🔄 Reinitializing collection managers...")
+                from api import BudgetChromeManager, TextChromeManager
+                import api
+                api.budget_manager = BudgetChromeManager()
+                api.text_manager = TextChromeManager()
+                print("✅ Collection managers reinitialized")
+                
+                # Now ingest the documents
                 result = ingest_processed_documents()
                 print(f"✅ Document ingestion completed: {result}")
             except Exception as e:

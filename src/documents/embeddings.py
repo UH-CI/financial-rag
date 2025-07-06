@@ -243,6 +243,122 @@ class ChromaDBManager:
             logger.error(f"Failed to query documents: {str(e)}")
             return {"documents": [[]], "metadatas": [[]], "distances": [[]]}
     
+    def query_by_metadata(self, where: Dict[str, Any], n_results: int = None) -> Dict[str, Any]:
+        """Query documents by metadata only (no semantic search).
+        
+        Args:
+            where: Metadata filter conditions
+            n_results: Number of results to return
+            
+        Returns:
+            Query results dictionary
+        """
+        try:
+            if n_results is None:
+                n_results = settings.default_k
+            
+            # Get all documents that match the metadata filter
+            results = self.collection.get(
+                where=where,
+                limit=n_results
+            )
+            
+            logger.info(f"Metadata query returned {len(results['documents'])} results")
+            
+            # Convert to same format as query() for consistency
+            return {
+                "documents": [results['documents']],
+                "metadatas": [results['metadatas']], 
+                "distances": [[0.0] * len(results['documents'])],  # No distances for metadata-only
+                "ids": [results['ids']]
+            }
+            
+        except Exception as e:
+            logger.error(f"Failed to query by metadata: {str(e)}")
+            return {"documents": [[]], "metadatas": [[]], "distances": [[]], "ids": [[]]}
+    
+    def search_metadata_fields(self, field_name: str, search_value: str, 
+                              exact_match: bool = True, n_results: int = None) -> Dict[str, Any]:
+        """Search for documents with specific metadata field values.
+        
+        Args:
+            field_name: Name of the metadata field to search
+            search_value: Value to search for
+            exact_match: If True, exact match; if False, contains match
+            n_results: Number of results to return
+            
+        Returns:
+            Query results dictionary
+        """
+        try:
+            if exact_match:
+                where = {field_name: search_value}
+            else:
+                where = {field_name: {"$contains": search_value}}
+            
+            return self.query_by_metadata(where, n_results)
+            
+        except Exception as e:
+            logger.error(f"Failed to search metadata field {field_name}: {str(e)}")
+            return {"documents": [[]], "metadatas": [[]], "distances": [[]], "ids": [[]]}
+    
+    def flexible_metadata_search(self, query: str, n_results: int = None) -> Dict[str, Any]:
+        """Flexible search across all metadata fields with case-insensitive partial matching.
+        
+        Args:
+            query: Search query string
+            n_results: Number of results to return
+            
+        Returns:
+            Query results dictionary
+        """
+        try:
+            if n_results is None:
+                n_results = settings.default_k
+            
+            # Get all documents and filter in Python for maximum flexibility
+            all_docs = self.collection.get(limit=n_results * 10)  # Get more docs to filter from
+            
+            query_lower = query.lower()
+            matching_docs = []
+            matching_metadatas = []
+            matching_ids = []
+            
+            for doc_id, doc_content, metadata in zip(
+                all_docs['ids'], 
+                all_docs['documents'], 
+                all_docs['metadatas']
+            ):
+                # Check if query appears in any metadata field (case-insensitive)
+                match_found = False
+                for key, value in metadata.items():
+                    if value and isinstance(value, str) and query_lower in value.lower():
+                        match_found = True
+                        break
+                
+                if match_found:
+                    matching_docs.append(doc_content)
+                    matching_metadatas.append(metadata)
+                    matching_ids.append(doc_id)
+                    
+                    # Stop if we have enough results
+                    if len(matching_docs) >= n_results:
+                        break
+            
+            logger.info(f"Flexible metadata search returned {len(matching_docs)} results")
+            
+            # Return in same format as other query methods
+            return {
+                "documents": [matching_docs],
+                "metadatas": [matching_metadatas],
+                "distances": [[0.0] * len(matching_docs)],  # No distances for metadata-only
+                "ids": [matching_ids]
+            }
+            
+        except Exception as e:
+            logger.error(f"Failed to perform flexible metadata search: {str(e)}")
+            return {"documents": [[]], "metadatas": [[]], "distances": [[]], "ids": [[]]}
+    
     def get_collection_stats(self) -> Dict[str, Any]:
         """Get collection statistics.
         

@@ -9,6 +9,7 @@ import socketserver
 import webbrowser
 import threading
 import time
+import argparse
 from pathlib import Path
 
 class TestServer:
@@ -80,5 +81,9 @@ class TestServer:
             self.server.server_close()
 
 if __name__ == "__main__":
-    server = TestServer()
+    parser = argparse.ArgumentParser(description='House Finance Test Server')
+    parser.add_argument('--port', type=int, default=8080, help='Port to run the server on (default: 8080)')
+    args = parser.parse_args()
+    
+    server = TestServer(port=args.port)
     server.start() 

@@ -122,11 +122,25 @@
             align-items: center;
         }
 
+        .table-section {
+            margin-bottom: 40px;
+        }
+
+        .table-section h3 {
+            margin-bottom: 15px;
+            color: #2c3e50;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+
         .table-container {
-            max-height: 600px;
+            max-height: 400px;
             overflow-y: auto;
             border: 1px solid #e9ecef;
             border-radius: 10px;
+            margin-bottom: 20px;
         }
 
         .budget-table {
@@ -215,6 +229,65 @@
             border: 1px solid #e9ecef;
             box-shadow: 0 3px 10px rgba(0,0,0,0.1);
             word-wrap: break-word;
+            line-height: 1.6;
+        }
+
+        .answer-content {
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .answer-content h3 {
+            color: #2c3e50;
+            font-size: 16px;
+            margin: 20px 0 10px 0;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .answer-content h4 {
+            color: #34495e;
+            font-size: 14px;
+            margin: 15px 0 8px 0;
+            font-weight: 600;
+        }
+
+        .answer-content ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        .answer-content li {
+            margin: 5px 0;
+            line-height: 1.5;
+        }
+
+        .answer-content p {
+            margin: 12px 0;
+            text-align: justify;
+        }
+
+        .answer-content strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .budget-amount {
+            background: #e8f5e8;
+            color: #27ae60;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-family: monospace;
+        }
+
+        .department-tag {
+            background: #3498db;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
         }
 
         .reasoning-section {
@@ -260,13 +333,66 @@
             font-size: 14px;
         }
 
+        .documents-container {
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            background: white;
+        }
+
         .document-item {
             background: white;
-            padding: 10px;
-            margin: 5px 0;
-            border-radius: 8px;
-            border: 1px solid #e9ecef;
+            padding: 12px;
+            margin: 0;
+            border-bottom: 1px solid #f0f0f0;
             font-size: 12px;
+            transition: background-color 0.2s ease;
+        }
+
+        .document-item:last-child {
+            border-bottom: none;
+        }
+
+        .document-item:hover {
+            background: #f8f9fa;
+        }
+
+        .document-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .document-type {
+            background: #ff9800;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        .document-score {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 10px;
+        }
+
+        .document-content {
+            color: #555;
+            line-height: 1.4;
+        }
+
+        .document-metadata {
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 1px solid #f0f0f0;
+            font-size: 11px;
+            color: #666;
         }
 
         .chat-input-container {
@@ -367,6 +493,14 @@
             background: #e9ecef;
             border-color: #3498db;
         }
+
+        .metadata-table {
+            background: #fff9f0;
+        }
+
+        .metadata-table th {
+            background: #fff3e0;
+        }
     </style>
 </head>
 <body>
@@ -391,33 +525,74 @@
             
             <div id="budget-stats" class="stats-bar" style="display: none;">
                 <span>Total Items: <strong id="total-items">0</strong></span>
-                <span>Showing: <strong id="showing-items">0</strong></span>
+                <span>Semantic Results: <strong id="semantic-showing">0</strong></span>
+                <span>Metadata Results: <strong id="metadata-showing">0</strong></span>
                 <span>Budget Items: <strong id="budget-count">0</strong></span>
                 <span>Text Items: <strong id="text-count">0</strong></span>
             </div>
 
-            <div class="table-container">
-                <table class="budget-table">
-                    <thead>
-                        <tr>
-                            <th>Program</th>
-                            <th>Program ID</th>
-                            <th>Agency</th>
-                            <th>FY 2025-2026</th>
-                            <th>FY 2026-2027</th>
-                            <th>Funding Source</th>
-                            <th>Document</th>
-                            <th>Page</th>
-                        </tr>
-                    </thead>
-                    <tbody id="budget-table-body">
-                        <tr>
-                            <td colspan="8" style="text-align: center; padding: 40px; color: #6c757d;">
-                                Click "Load Budget Items" to fetch data from the API
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+            <!-- Debug Info Section -->
+            <div id="debug-info" class="stats-bar" style="display: none; background: #fff3cd; border: 1px solid #ffeaa7; color: #856404; flex-direction: column; align-items: flex-start;">
+                <h4 style="margin: 0 0 10px 0;">🐛 Debug Information</h4>
+                <div id="debug-content"></div>
+            </div>
+
+            <!-- Semantic Search Results Table -->
+            <div class="table-section">
+                <h3>🔍 Semantic Search Results (Vector Similarity)</h3>
+                <div class="table-container">
+                    <table class="budget-table">
+                        <thead>
+                            <tr>
+                                <th>Program</th>
+                                <th>Program ID</th>
+                                <th>Agency</th>
+                                <th>FY 2025-2026</th>
+                                <th>FY 2026-2027</th>
+                                <th>Funding Source</th>
+                                <th>Document</th>
+                                <th>Page</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody id="semantic-table-body">
+                            <tr>
+                                <td colspan="9" style="text-align: center; padding: 40px; color: #6c757d;">
+                                    Click "Load Budget Items" to fetch data from the API
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Metadata Search Results Table -->
+            <div class="table-section">
+                <h3>📊 Metadata Search Results (Exact Field Matching)</h3>
+                <div class="table-container">
+                    <table class="budget-table metadata-table">
+                        <thead>
+                            <tr>
+                                <th>Program</th>
+                                <th>Program ID</th>
+                                <th>Agency</th>
+                                <th>FY 2025-2026</th>
+                                <th>FY 2026-2027</th>
+                                <th>Funding Source</th>
+                                <th>Document</th>
+                                <th>Page</th>
+                                <th>Match Type</th>
+                            </tr>
+                        </thead>
+                        <tbody id="metadata-table-body">
+                            <tr>
+                                <td colspan="9" style="text-align: center; padding: 40px; color: #6c757d;">
+                                    Click "Load Budget Items" to fetch data from the API
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
 
@@ -443,7 +618,7 @@
                 </div>
 
                 <div class="chat-input-container">
-                    <input type="text" id="chat-input" class="chat-input" placeholder="Ask about budget items, funding, departments..." onkeypress="handleEnterKey(event)">
+                    <input type="text" id="chat-input" class="chat-input" placeholder="Ask about budget items, funding, departments..." onkeydown="handleChatEnterKey(event)">
                     <button id="send-btn" class="send-btn" onclick="sendMessage()">Send</button>
                 </div>
             </div>
@@ -470,17 +645,46 @@
             event.target.classList.add('active');
         }
 
+        // Filter function to remove items with unknown values
+        function filterUnknownItems(items) {
+            return items.filter(item => {
+                const meta = item.metadata || {};
+                
+                // Check all metadata values for "unknown" patterns (case-insensitive)
+                const unknownRegex = /^(unknown|\$unknown|null|undefined|n\/a|na)$/i;
+                
+                let hasUnknownValues = false;
+                
+                // Check key fields for unknown values
+                const keyFields = ['program', 'program_id', 'expending_agency', 'fiscal_year_2025_2026_amount', 'fiscal_year_2026_2027_amount'];
+                
+                for (const field of keyFields) {
+                    const value = meta[field];
+                    if (value && typeof value === 'string' && unknownRegex.test(value.trim())) {
+                        hasUnknownValues = true;
+                        break;
+                    }
+                }
+                
+                return !hasUnknownValues;
+            });
+        }
+
         // Budget Items Functions
         async function loadBudgetItems() {
             const loadBtn = document.getElementById('load-budget-btn');
-            const tableBody = document.getElementById('budget-table-body');
+            const semanticTableBody = document.getElementById('semantic-table-body');
+            const metadataTableBody = document.getElementById('metadata-table-body');
             const statsBar = document.getElementById('budget-stats');
             
             loadBtn.disabled = true;
             loadBtn.textContent = 'Loading...';
             
+            console.log('=== loadBudgetItems Debug ===');
+            console.log('Making API call to:', `${API_BASE}/search`);
+            
             try {
-                // First get budget items
+                // First get budget items using semantic search
                 const budgetResponse = await fetch(`${API_BASE}/search`, {
                     method: 'POST',
                     headers: {
@@ -494,11 +698,17 @@
                     })
                 });
 
+                console.log('Budget response status:', budgetResponse.status);
+                console.log('Budget response ok:', budgetResponse.ok);
+
                 if (!budgetResponse.ok) {
                     throw new Error(`HTTP error! status: ${budgetResponse.status}`);
                 }
 
                 const budgetData = await budgetResponse.json();
+                console.log('Budget data received:', budgetData);
+                console.log('Budget results length:', budgetData.results?.length || 0);
+                
                 allBudgetItems = budgetData.results || [];
 
                 // Then get text items
@@ -517,16 +727,31 @@
 
                 if (textResponse.ok) {
                     const textData = await textResponse.json();
+                    console.log('Text data received:', textData);
+                    console.log('Text results length:', textData.results?.length || 0);
                     allTextItems = textData.results || [];
                 }
 
                 // Update stats
+                const filteredBudgetItems = filterUnknownItems(allBudgetItems);
                 document.getElementById('total-items').textContent = allBudgetItems.length + allTextItems.length;
+                document.getElementById('semantic-showing').textContent = filteredBudgetItems.length;
+                document.getElementById('metadata-showing').textContent = 0;
                 document.getElementById('budget-count').textContent = allBudgetItems.length;
                 document.getElementById('text-count').textContent = allTextItems.length;
                 
-                // Display budget items
-                displayBudgetItems(allBudgetItems);
+                // Display budget items in semantic table
+                displaySemanticResults(filteredBudgetItems);
+                
+                // Clear metadata table for initial load
+                metadataTableBody.innerHTML = `
+                    <tr>
+                        <td colspan="9" style="text-align: center; padding: 40px; color: #6c757d;">
+                            Perform a search to see metadata-based results
+                        </td>
+                    </tr>
+                `;
+                
                 statsBar.style.display = 'flex';
                 
                 // Setup search
@@ -534,30 +759,76 @@
                 
             } catch (error) {
                 console.error('Error loading budget items:', error);
-                tableBody.innerHTML = `
+                semanticTableBody.innerHTML = `
                     <tr>
-                        <td colspan="8" style="text-align: center; padding: 40px; color: #e74c3c;">
+                        <td colspan="9" style="text-align: center; padding: 40px; color: #e74c3c;">
                             Error loading data: ${error.message}
                             <br><br>
                             Make sure the API server is running at ${API_BASE}
                         </td>
                     </tr>
                 `;
+                metadataTableBody.innerHTML = semanticTableBody.innerHTML;
             } finally {
                 loadBtn.disabled = false;
                 loadBtn.textContent = 'Load All Items';
             }
         }
 
-        function displayBudgetItems(items) {
-            const tableBody = document.getElementById('budget-table-body');
-            document.getElementById('showing-items').textContent = items.length;
+        function displaySemanticResults(items) {
+            const tableBody = document.getElementById('semantic-table-body');
+            
+            console.log('=== displaySemanticResults Debug ===');
+            console.log('Total items received:', items.length);
             
             if (items.length === 0) {
                 tableBody.innerHTML = `
                     <tr>
-                        <td colspan="8" style="text-align: center; padding: 40px; color: #6c757d;">
-                            No budget items found
+                        <td colspan="9" style="text-align: center; padding: 40px; color: #6c757d;">
+                            No budget items found (items with unknown values filtered out)
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+
+            // Sort by relevance score (higher scores first)
+            const sortedItems = [...items].sort((a, b) => {
+                const scoreA = a.score || 0;
+                const scoreB = b.score || 0;
+                return scoreB - scoreA;
+            });
+
+            tableBody.innerHTML = sortedItems.map(item => {
+                const meta = item.metadata || {};
+                const score = item.score || 0;
+                return `
+                    <tr>
+                        <td>${meta.program || 'Unknown'}</td>
+                        <td><span class="program-id">${meta.program_id || 'Unknown'}</span></td>
+                        <td>${meta.expending_agency || 'Unknown'}</td>
+                        <td class="amount">$${meta.fiscal_year_2025_2026_amount || 'Unknown'}</td>
+                        <td class="amount">$${meta.fiscal_year_2026_2027_amount || 'Unknown'}</td>
+                        <td>${meta.appropriations_mof_2025_2026_expanded || meta.appropriations_mof_2025_2026 || 'Unknown'}</td>
+                        <td>${meta.document_name || 'Unknown'}</td>
+                        <td>${meta.page_number || 'Unknown'}</td>
+                        <td>${score.toFixed(3)}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        function displayMetadataResults(items, searchType = 'contains') {
+            const tableBody = document.getElementById('metadata-table-body');
+            
+            console.log('=== displayMetadataResults Debug ===');
+            console.log('Total items received:', items.length);
+            
+            if (items.length === 0) {
+                tableBody.innerHTML = `
+                    <tr>
+                        <td colspan="9" style="text-align: center; padding: 40px; color: #6c757d;">
+                            No metadata matches found
                         </td>
                     </tr>
                 `;
@@ -576,6 +847,7 @@
                         <td>${meta.appropriations_mof_2025_2026_expanded || meta.appropriations_mof_2025_2026 || 'Unknown'}</td>
                         <td>${meta.document_name || 'Unknown'}</td>
                         <td>${meta.page_number || 'Unknown'}</td>
+                        <td><span class="tag">${searchType}</span></td>
                     </tr>
                 `;
             }).join('');
@@ -584,17 +856,10 @@
         function setupSearch() {
             const searchInput = document.getElementById('search-input');
             
-            // Remove the old input event listener for filtering
-            // Add new event listener for Enter key to trigger API search
-            searchInput.addEventListener('keypress', function(event) {
+            // Set up Enter key handler
+            searchInput.addEventListener('keydown', function(event) {
                 if (event.key === 'Enter') {
-                    performSearch();
-                }
-            });
-            
-            // Also trigger search when input loses focus (optional)
-            searchInput.addEventListener('blur', function() {
-                if (this.value.trim()) {
+                    event.preventDefault();
                     performSearch();
                 }
             });
@@ -607,94 +872,121 @@
             
             if (!query) {
                 // If empty, reload original data
-                displayBudgetItems(allBudgetItems);
+                const filteredBudgetItems = filterUnknownItems(allBudgetItems);
+                displaySemanticResults(filteredBudgetItems);
+                document.getElementById('metadata-table-body').innerHTML = `
+                    <tr>
+                        <td colspan="9" style="text-align: center; padding: 40px; color: #6c757d;">
+                            Perform a search to see metadata-based results
+                        </td>
+                    </tr>
+                `;
                 return;
             }
             
-            const tableBody = document.getElementById('budget-table-body');
+            const semanticTableBody = document.getElementById('semantic-table-body');
+            const metadataTableBody = document.getElementById('metadata-table-body');
             const statsBar = document.getElementById('budget-stats');
             
             // Disable search button and show loading state
             searchBtn.disabled = true;
             searchBtn.textContent = 'Searching...';
             
-            // Show loading state
-            tableBody.innerHTML = `
+            // Show loading state in both tables
+            const loadingRow = `
                 <tr>
-                    <td colspan="8" style="text-align: center; padding: 40px;">
+                    <td colspan="9" style="text-align: center; padding: 40px;">
                         <div class="loading"></div>
                         <br>Searching for "${query}"...
                     </td>
                 </tr>
             `;
+            semanticTableBody.innerHTML = loadingRow;
+            metadataTableBody.innerHTML = loadingRow;
             
             try {
-                // Search both collections with the user's query
-                const [budgetResponse, textResponse] = await Promise.all([
-                    fetch(`${API_BASE}/search`, {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify({
-                            query: query,
-                            n_results: 50,
-                            include_metadata: true,
-                            collection_type: "budget"
-                        })
-                    }),
-                    fetch(`${API_BASE}/search`, {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify({
-                            query: query,
-                            n_results: 50,
-                            include_metadata: true,
-                            collection_type: "text"
-                        })
+                // Perform semantic search
+                const semanticResponse = await fetch(`${API_BASE}/search`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        query: query,
+                        n_results: 1000,
+                        include_metadata: true,
+                        collection_type: "budget"
                     })
-                ]);
+                });
 
-                if (!budgetResponse.ok) {
-                    throw new Error(`Budget search failed: ${budgetResponse.status}`);
-                }
-                
-                const budgetData = await budgetResponse.json();
-                const searchBudgetItems = budgetData.results || [];
-                
-                let searchTextItems = [];
-                if (textResponse.ok) {
-                    const textData = await textResponse.json();
-                    searchTextItems = textData.results || [];
+                // Perform metadata search (search multiple fields for the query)
+                const metadataResponse = await fetch(`${API_BASE}/search/metadata`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        where: {
+                            "$or": [
+                                {"program": {"$contains": query}},
+                                {"program_id": {"$contains": query}},
+                                {"expending_agency": {"$contains": query}},
+                                {"expending_agency_expanded": {"$contains": query}},
+                                {"appropriations_mof_2025_2026": {"$contains": query}},
+                                {"appropriations_mof_2026_2027": {"$contains": query}},
+                                {"appropriations_mof_2025_2026_expanded": {"$contains": query}},
+                                {"appropriations_mof_2026_2027_expanded": {"$contains": query}}
+                            ]
+                        },
+                        n_results: 1000,
+                        collection_type: "budget"
+                    })
+                });
+
+                // Process semantic results
+                let semanticItems = [];
+                if (semanticResponse.ok) {
+                    const semanticData = await semanticResponse.json();
+                    semanticItems = filterUnknownItems(semanticData.results || []);
+                } else {
+                    console.error('Semantic search failed:', semanticResponse.status);
                 }
 
-                // Update stats for search results
-                document.getElementById('total-items').textContent = searchBudgetItems.length + searchTextItems.length;
-                document.getElementById('showing-items').textContent = searchBudgetItems.length;
-                document.getElementById('budget-count').textContent = searchBudgetItems.length;
-                document.getElementById('text-count').textContent = searchTextItems.length;
+                // Process metadata results
+                let metadataItems = [];
+                if (metadataResponse.ok) {
+                    const metadataData = await metadataResponse.json();
+                    metadataItems = filterUnknownItems(metadataData.results || []);
+                } else {
+                    console.error('Metadata search failed:', metadataResponse.status);
+                }
+
+                // Update stats
+                document.getElementById('semantic-showing').textContent = semanticItems.length;
+                document.getElementById('metadata-showing').textContent = metadataItems.length;
                 
-                // Display search results (only budget items in the table)
-                displayBudgetItems(searchBudgetItems);
+                // Display results
+                displaySemanticResults(semanticItems);
+                displayMetadataResults(metadataItems, 'contains');
                 
                 // Update stats bar to show this is a search result
                 statsBar.style.display = 'flex';
                 
             } catch (error) {
                 console.error('Error performing search:', error);
-                tableBody.innerHTML = `
+                const errorRow = `
                     <tr>
-                        <td colspan="8" style="text-align: center; padding: 40px; color: #e74c3c;">
+                        <td colspan="9" style="text-align: center; padding: 40px; color: #e74c3c;">
                             Search failed: ${error.message}
                             <br><br>
-                            <button onclick="displayBudgetItems(allBudgetItems)" style="padding: 10px 20px; background: #3498db; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                            <button onclick="displaySemanticResults(filterUnknownItems(allBudgetItems))" style="padding: 10px 20px; background: #3498db; color: white; border: none; border-radius: 5px; cursor: pointer;">
                                 Return to Full Data
                             </button>
                         </td>
                     </tr>
                 `;
+                semanticTableBody.innerHTML = errorRow;
+                metadataTableBody.innerHTML = errorRow;
             } finally {
                 // Re-enable search button
                 searchBtn.disabled = false;
@@ -703,10 +995,70 @@
         }
 
         // Chat Functions
-        function handleEnterKey(event) {
+        function handleChatEnterKey(event) {
             if (event.key === 'Enter') {
+                event.preventDefault();
                 sendMessage();
             }
+        }
+
+        function formatAnswerText(text) {
+            // Split text into paragraphs
+            let paragraphs = text.split('\n\n');
+            let formattedHtml = '';
+            
+            paragraphs.forEach(paragraph => {
+                paragraph = paragraph.trim();
+                if (!paragraph) return;
+                
+                // Check if it's a header (starts with **)
+                if (paragraph.startsWith('**') && paragraph.includes(':**')) {
+                    const headerMatch = paragraph.match(/\*\*(.*?):\*\*/);
+                    if (headerMatch) {
+                        const headerText = headerMatch[1];
+                        const restOfParagraph = paragraph.replace(headerMatch[0], '').trim();
+                        formattedHtml += `<h3>${headerText}</h3>`;
+                        if (restOfParagraph) {
+                            formattedHtml += `<p>${formatInlineText(restOfParagraph)}</p>`;
+                        }
+                        return;
+                    }
+                }
+                
+                // Check if it's a bullet point list
+                if (paragraph.includes('* **')) {
+                    const items = paragraph.split('* **').filter(item => item.trim());
+                    if (items.length > 1) {
+                        formattedHtml += '<ul>';
+                        items.forEach(item => {
+                            if (item.trim()) {
+                                const formattedItem = formatInlineText('**' + item);
+                                formattedHtml += `<li>${formattedItem}</li>`;
+                            }
+                        });
+                        formattedHtml += '</ul>';
+                        return;
+                    }
+                }
+                
+                // Regular paragraph
+                formattedHtml += `<p>${formatInlineText(paragraph)}</p>`;
+            });
+            
+            return formattedHtml;
+        }
+
+        function formatInlineText(text) {
+            // Format bold text
+            text = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            
+            // Format dollar amounts
+            text = text.replace(/\$([0-9,]+)/g, '<span class="budget-amount">$$$1</span>');
+            
+            // Format department codes (EDN, HTH, TRN, etc.)
+            text = text.replace(/\b(EDN|HTH|TRN|BED|BUF|CCA|DEF|GOV|HHL|HMS|HRD|LAW|LBR|LNR|LTG|PSD|SUB|TAX|UOH|CCH|COH|COM)\b/g, '<span class="department-tag">$1</span>');
+            
+            return text;
         }
 
         function sendPresetQuery(query) {
@@ -738,7 +1090,7 @@
                     },
                     body: JSON.stringify({
                         query: query,
-                        max_results: 10
+                        max_results: 1000
                     })
                 });
 
@@ -807,19 +1159,48 @@
                 documentsHtml = `
                     <div class="documents-section">
                         <h4>📄 Found ${data.total_documents_found} documents (${data.budget_documents_found} budget, ${data.text_documents_found} text)</h4>
-                        ${data.retrieved_documents.slice(0, 3).map(doc => `
-                            <div class="document-item">
-                                <strong>${doc.collection_type.toUpperCase()}</strong> - Score: ${doc.score.toFixed(3)}
-                                <br>${doc.content.substring(0, 150)}...
-                            </div>
-                        `).join('')}
+                        <div class="documents-container">
+                            ${data.retrieved_documents.map(doc => {
+                                const meta = doc.metadata || {};
+                                let metadataInfo = '';
+                                
+                                if (doc.collection_type === 'budget_item') {
+                                    metadataInfo = `
+                                        <strong>Program:</strong> ${meta.program || 'Unknown'} |
+                                        <strong>Agency:</strong> ${meta.expending_agency || 'Unknown'} |
+                                        <strong>FY 2025-26:</strong> $${meta.fiscal_year_2025_2026_amount || 'Unknown'} |
+                                        <strong>Page:</strong> ${meta.page_number || 'Unknown'}
+                                    `;
+                                } else {
+                                    metadataInfo = `
+                                        <strong>Document:</strong> ${meta.document_name || 'Unknown'} |
+                                        <strong>Page:</strong> ${meta.page_number || 'Unknown'}
+                                    `;
+                                }
+                                
+                                return `
+                                    <div class="document-item">
+                                        <div class="document-header">
+                                            <span class="document-type">${doc.collection_type.toUpperCase()}</span>
+                                            <span class="document-score">Score: ${doc.score.toFixed(3)}</span>
+                                        </div>
+                                        <div class="document-content">${doc.content.substring(0, 200)}...</div>
+                                        <div class="document-metadata">
+                                            ${metadataInfo}
+                                        </div>
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
                     </div>
                 `;
             }
             
             messageDiv.innerHTML = `
                 <div class="message-bubble">
-                    <p>${data.answer}</p>
+                    <div class="answer-content">
+                        ${formatAnswerText(data.answer)}
+                    </div>
                     ${reasoningHtml}
                     ${documentsHtml}
                 </div>

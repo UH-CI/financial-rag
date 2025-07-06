@@ -16,19 +16,24 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY . .
 
-# Create data directories
-RUN mkdir -p chroma_db/data
+# Copy ChromaDB data (pre-processed collections)
+COPY chroma_db/ ./chroma_db/
 
 # Set environment variables
 ENV PYTHONPATH=/app
 ENV PYTHONUNBUFFERED=1
 
-# Expose port
-EXPOSE 8000
+# Expose ports (8000 for API, 8080 for test interface)
+EXPOSE 8000 8080
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
     CMD curl -f http://localhost:8000/ || exit 1
 
-# Run the application
-CMD ["python", "run_api.py"] 
+# Default command runs API server
+CMD ["python", "run_api.py"]
+
+# Alternative commands:
+# docker run -p 8000:8000 your-image                    # API server
+# docker run -p 8080:8080 your-image python tests/test_server.py  # Test interface
+# docker run -p 8000:8000 -p 8080:8080 your-image bash # Interactive 

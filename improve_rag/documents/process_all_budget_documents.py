@@ -5,6 +5,7 @@ import google.generativeai as genai
 from typing import Dict, List, Union, Any
 import time
 import glob
+import sys
 
 # Configure Gemini API
 genai.configure(api_key=os.environ.get('GEMINI_API_KEY'))
@@ -508,8 +509,21 @@ if __name__ == "__main__":
         print("Please set the GEMINI_API_KEY environment variable")
         exit(1)
     
-    # Process only HB300_HD1 with context
-    target_document = "HB300_HD1"
+    # Get target document from command line argument
+    if len(sys.argv) < 2:
+        print("Usage: python process_all_budget_documents.py <document_name>")
+        print("Available documents: HB300, HB300_SD1, HB300_HD1, HB300_CD1")
+        exit(1)
+    
+    target_document = sys.argv[1]
+    
+    # Validate document name
+    valid_documents = ["HB300", "HB300_SD1", "HB300_HD1", "HB300_CD1"]
+    if target_document not in valid_documents:
+        print(f"Error: Invalid document name '{target_document}'")
+        print(f"Valid options: {', '.join(valid_documents)}")
+        exit(1)
+    
     dual_extraction_path = f'./model_ouputs/text_extractions/{target_document}__dual_extraction.json'
     classification_path = f'./model_ouputs/page_classifications/{target_document}_page_classifications.json'
     
@@ -568,7 +582,7 @@ if __name__ == "__main__":
                 print(f"  Has Unknowns: {item.get('has_unknown_values', 'N/A')}")
         
         print(f"\n{'='*60}")
-        print("Processing completed successfully!")
+        print(f"Processing of {target_document} completed successfully!")
         
     except Exception as e:
         print(f"Error processing {target_document}: {e}")
