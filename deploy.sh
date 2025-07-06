@@ -15,6 +15,17 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
+# Function to detect docker compose command
+get_docker_compose_cmd() {
+    if command -v docker-compose &> /dev/null; then
+        echo "docker-compose"
+    elif docker compose version &> /dev/null; then
+        echo "docker compose"
+    else
+        echo "none"
+    fi
+}
+
 case "${1:-help}" in
     "local")
         echo -e "${BLUE}🚀 Starting local development...${NC}"
@@ -38,12 +49,30 @@ case "${1:-help}" in
     
     "docker")
         echo -e "${BLUE}🐳 Building and running with Docker...${NC}"
-        docker-compose up --build -d
-        echo -e "${GREEN}✅ Docker services started!${NC}"
+        DOCKER_COMPOSE_CMD=$(get_docker_compose_cmd)
+        if [ "$DOCKER_COMPOSE_CMD" = "none" ]; then
+            echo -e "${RED}❌ Docker Compose not found!${NC}"
+            echo "Trying alternative single-container deployment..."
+            echo "Building image..."
+            docker build -t house-finance:latest ./src
+            echo "Starting API server..."
+            docker run -d --name house-finance-api -p 8000:8000 \
+                -v "$(pwd)/src/.env:/app/.env:ro" \
+                house-finance:latest python run_api.py &
+            sleep 3
+            echo "Starting test interface..."
+            docker run -d --name house-finance-test -p 8081:8081 \
+                -v "$(pwd)/src/.env:/app/.env:ro" \
+                house-finance:latest python tests/test_server.py --port 8081
+            echo -e "${GREEN}✅ Docker containers started!${NC}"
+        else
+            $DOCKER_COMPOSE_CMD up --build -d
+            echo -e "${GREEN}✅ Docker services started!${NC}"
+        fi
         echo "🔗 API: http://localhost:8000"
         echo "🔗 Test Interface: http://localhost:8081/budget_test_interface.html"
-        echo "Run 'docker-compose logs -f' to see logs"
-        echo "Run 'docker-compose down' to stop"
+        echo "Run './deploy.sh logs' to see logs"
+        echo "Run './deploy.sh stop' to stop"
         ;;
     
     "build")
@@ -76,16 +105,40 @@ case "${1:-help}" in
         echo "Option 2 - Docker from Docker Hub:"
         echo "  docker run -d -p 8000:8000 -p 8081:8081 yourusername/house-finance:latest"
         echo ""
-        echo "Option 3 - Docker Compose:"
+        echo "Option 3 - Docker Compose (if available):"
         echo "  git clone https://github.com/yourusername/house-finance.git"
         echo "  cd house-finance"
-        echo "  docker-compose up -d"
+        echo "  ./deploy.sh docker"
+        echo ""
+        echo "Option 4 - Simple Docker containers:"
+        echo "  docker run -d --name api -p 8000:8000 yourusername/house-finance:latest"
+        echo "  docker run -d --name test -p 8081:8081 yourusername/house-finance:latest python tests/test_server.py --port 8081"
+        ;;
+    
+    "logs")
+        echo -e "${BLUE}📋 Showing container logs...${NC}"
+        DOCKER_COMPOSE_CMD=$(get_docker_compose_cmd)
+        if [ "$DOCKER_COMPOSE_CMD" != "none" ]; then
+            $DOCKER_COMPOSE_CMD logs -f
+        else
+            echo "API Server logs:"
+            docker logs house-finance-api
+            echo ""
+            echo "Test Interface logs:"
+            docker logs house-finance-test
+        fi
         ;;
     
     "status")
         echo -e "${BLUE}📊 Checking service status...${NC}"
-        echo "Docker services:"
-        docker-compose ps 2>/dev/null || echo "Docker Compose not running"
+        DOCKER_COMPOSE_CMD=$(get_docker_compose_cmd)
+        if [ "$DOCKER_COMPOSE_CMD" != "none" ]; then
+            echo "Docker Compose services:"
+            $DOCKER_COMPOSE_CMD ps 2>/dev/null || echo "Docker Compose not running"
+        else
+            echo "Docker containers:"
+            docker ps | grep house-finance || echo "No house-finance containers running"
+        fi
         echo ""
         echo "Local processes:"
         pgrep -f "python.*run_api.py" && echo "✅ API server running" || echo "❌ API server not running"
@@ -98,7 +151,13 @@ case "${1:-help}" in
     
     "stop")
         echo -e "${YELLOW}🛑 Stopping services...${NC}"
-        docker-compose down 2>/dev/null || echo "Docker Compose not running"
+        DOCKER_COMPOSE_CMD=$(get_docker_compose_cmd)
+        if [ "$DOCKER_COMPOSE_CMD" != "none" ]; then
+            $DOCKER_COMPOSE_CMD down 2>/dev/null || echo "Docker Compose not running"
+        else
+            docker stop house-finance-api house-finance-test 2>/dev/null || echo "No containers to stop"
+            docker rm house-finance-api house-finance-test 2>/dev/null || echo "No containers to remove"
+        fi
         pkill -f "python.*run_api.py" 2>/dev/null || echo "No API server to stop"
         pkill -f "python.*test_server.py" 2>/dev/null || echo "No test server to stop"
         echo -e "${GREEN}✅ Services stopped${NC}"
@@ -107,11 +166,12 @@ case "${1:-help}" in
     "help"|*)
         echo -e "${YELLOW}Available commands:${NC}"
         echo "  local   - Run locally with Python"
-        echo "  docker  - Run with Docker Compose"
+        echo "  docker  - Run with Docker (auto-detects compose vs containers)"
         echo "  build   - Build Docker image"
         echo "  push    - Push to Docker Hub"
         echo "  server  - Show server deployment commands"
         echo "  status  - Check service status"
+        echo "  logs    - Show container logs"
         echo "  stop    - Stop all services"
         echo "  help    - Show this help"
         echo ""
