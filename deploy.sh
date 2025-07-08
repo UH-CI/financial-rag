@@ -49,24 +49,42 @@ case "${1:-help}" in
     
     "docker")
         echo -e "${BLUE}🐳 Building and running with Docker...${NC}"
+        
+        # Check for Google API key
+        if [ -z "$GOOGLE_API_KEY" ]; then
+            echo -e "${YELLOW}⚠️  WARNING: GOOGLE_API_KEY not set!${NC}"
+            echo "The intelligent-query endpoint requires a Google API key."
+            echo "Set it with: export GOOGLE_API_KEY='your_key_here'"
+            echo "Other endpoints will still work."
+        fi
+        
         DOCKER_COMPOSE_CMD=$(get_docker_compose_cmd)
         if [ "$DOCKER_COMPOSE_CMD" = "none" ]; then
             echo -e "${RED}❌ Docker Compose not found!${NC}"
             echo "Trying alternative single-container deployment..."
+            
+            # Stop existing containers
+            docker stop house-finance-api house-finance-test 2>/dev/null || true
+            docker rm house-finance-api house-finance-test 2>/dev/null || true
+            
             echo "Building image..."
             docker build -t house-finance:latest ./src
+            
             echo "Starting API server..."
             docker run -d --name house-finance-api -p 8000:8000 \
-                -e GOOGLE_API_KEY="$GOOGLE_API_KEY" \
-                -v "$(pwd)/src/chroma_db:/app/chroma_db" \
+                -e GOOGLE_API_KEY="${GOOGLE_API_KEY:-}" \
+                -v "$(pwd)/src/chroma_db/data:/app/chroma_db/data" \
                 -v "$(pwd)/src/.env:/app/.env:ro" \
-                house-finance:latest python run_api.py &
-            sleep 3
+                house-finance:latest python run_api.py
+            
+            sleep 5
+            
             echo "Starting test interface..."
             docker run -d --name house-finance-test -p 8081:8080 \
-                -e GOOGLE_API_KEY="$GOOGLE_API_KEY" \
-                -v "$(pwd)/src/chroma_db:/app/chroma_db" \
-                house-finance:latest python tests/test_server.py --port 8080 &
+                -e GOOGLE_API_KEY="${GOOGLE_API_KEY:-}" \
+                -v "$(pwd)/src/chroma_db/data:/app/chroma_db/data" \
+                house-finance:latest python tests/test_server.py --port 8080
+            
             echo -e "${GREEN}✅ Docker containers started!${NC}"
         else
             $DOCKER_COMPOSE_CMD up --build -d

@@ -16,7 +16,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY . .
 
+# Create ChromaDB directory structure for volume mounting
+RUN mkdir -p chroma_db/data
+
 # Copy ChromaDB data (pre-processed collections)
+# Note: This will be overridden by volume mount in production
 COPY chroma_db/ ./chroma_db/
 
 # Set environment variables
