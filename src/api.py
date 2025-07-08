@@ -57,6 +57,25 @@ class BudgetChromeManager(ChromaDBManager):
                 embedding_function=self.embedding_function,
                 metadata={"hnsw:space": "cosine"}
             )
+    
+    def get_collection_stats(self):
+        """Get collection statistics for budget collection."""
+        try:
+            count = self.collection.count()
+            return {
+                "collection_name": self.collection_name,
+                "document_count": count,
+                "embedding_model": config.embedding_model,
+                "embedding_dimensions": config.embedding_dimensions
+            }
+        except Exception as e:
+            print(f"Failed to get budget collection stats: {str(e)}")
+            return {
+                "collection_name": self.collection_name,
+                "document_count": 0,
+                "embedding_model": config.embedding_model,
+                "embedding_dimensions": config.embedding_dimensions
+            }
 
 class TextChromeManager(ChromaDBManager):
     def __init__(self):
@@ -77,9 +96,62 @@ class TextChromeManager(ChromaDBManager):
                 embedding_function=self.embedding_function,
                 metadata={"hnsw:space": "cosine"}
             )
+    
+    def get_collection_stats(self):
+        """Get collection statistics for text collection."""
+        try:
+            count = self.collection.count()
+            return {
+                "collection_name": self.collection_name,
+                "document_count": count,
+                "embedding_model": config.embedding_model,
+                "embedding_dimensions": config.embedding_dimensions
+            }
+        except Exception as e:
+            print(f"Failed to get text collection stats: {str(e)}")
+            return {
+                "collection_name": self.collection_name,
+                "document_count": 0,
+                "embedding_model": config.embedding_model,
+                "embedding_dimensions": config.embedding_dimensions
+            }
 
 budget_manager = BudgetChromeManager()
 text_manager = TextChromeManager()
+
+# Debug: Check what collections exist in the database
+try:
+    existing_collections = budget_manager.client.list_collections()
+    print(f"📊 Found {len(existing_collections)} existing collections in database:")
+    for collection in existing_collections:
+        count = collection.count()
+        print(f"   - {collection.name}: {count} documents")
+    
+    # Check if we're using the expected collections
+    budget_count = budget_manager.collection.count()
+    text_count = text_manager.collection.count()
+    print(f"💾 Current manager stats:")
+    print(f"   - Budget collection ({budget_manager.collection_name}): {budget_count} documents")
+    print(f"   - Text collection ({text_manager.collection_name}): {text_count} documents")
+    
+    # If collections are empty but 'financial_documents' has data, suggest migration
+    if budget_count == 0 and text_count == 0:
+        financial_docs_collection = None
+        for collection in existing_collections:
+            if collection.name == "financial_documents":
+                financial_docs_collection = collection
+                break
+        
+        if financial_docs_collection and financial_docs_collection.count() > 0:
+            print(f"⚠️  NOTICE: Found {financial_docs_collection.count()} documents in 'financial_documents' collection")
+            print("💡 This suggests the data was ingested into the wrong collection.")
+            print("🔧 The current API expects separate 'budget_items' and 'text_items' collections.")
+            print("📝 To fix this, either:")
+            print("   1. Re-run ingestion to populate the correct collections, or")
+            print("   2. Access the API at /ingest to populate the collections with new data")
+            
+except Exception as e:
+    print(f"❌ Error checking collections: {e}")
 
 # Initialize Gemini for LangGraph - with better error handling
 try:
