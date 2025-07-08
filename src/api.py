@@ -28,7 +28,7 @@ app = FastAPI(
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Configure appropriately for production
+    allow_origins=["*"],  # For production, replace with specific domains: ["https://yourdomain.com", "http://yourserver-ip:3000"]
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -142,7 +142,8 @@ class SearchQuery(BaseModel):
 
 class IntelligentQuery(BaseModel):
     query: str = Field(..., description="User's question about the budget")
-    max_results: int = Field(default=1000, ge=1, le=10000, description="Maximum number of documents to retrieve")
+    max_budget_results: int = Field(default=50, ge=1, le=5000, description="Maximum number of budget documents to retrieve")
+    max_text_results: int = Field(default=50, ge=1, le=5000, description="Maximum number of text documents to retrieve")
     use_top_n_results: Optional[int] = Field(default=None, ge=1, le=1000, description="Number of top documents to use for answer generation (None = use all)")
 
 class ReasoningStep(BaseModel):
@@ -206,7 +207,8 @@ class CollectionStats(BaseModel):
 # State class for LangGraph  
 class QueryState(TypedDict):
     query: str
-    max_results: int
+    max_budget_results: int
+    max_text_results: int
     reasoning: Optional[ReasoningStep]
     retrieved_documents: Optional[List[Dict[str, Any]]]
     answer: Optional[str]
@@ -274,7 +276,7 @@ def analyze_user_query(query: str) -> ReasoningStep:
         print("DEBUG: Using fallback reasoning")
         return reasoning
 
-def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 1000) -> Dict[str, Any]:
+def search_relevant_documents(reasoning: ReasoningStep, max_budget_results: int = 500, max_text_results: int = 500) -> Dict[str, Any]:
     """Search for relevant documents in both collections based on the reasoning using flexible metadata search"""
     print("DEBUG: Starting document search in both collections using flexible metadata search")
     
@@ -300,9 +302,6 @@ def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 1000)
     
     print(f"DEBUG: Built {len(search_queries)} search queries: {search_queries}")
     
-    # Search both collections using flexible metadata search
-    half_results = max_results // 2
-    
     # Search budget collection with flexible metadata search
     budget_seen_ids = set()
     
@@ -311,7 +310,7 @@ def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 1000)
         print(f"DEBUG: Searching budget collection with flexible metadata search {i+1}/{len(search_queries)}: '{search_query}'")
         try:
             # Request more results per query to increase chances of finding documents
-            results_per_query = min(200, half_results // max(1, len(search_queries) // 2))
+            results_per_query = min(200, max_budget_results // max(1, len(search_queries) // 2))
             results = budget_manager.flexible_metadata_search(
                 query=search_query,
                 n_results=results_per_query
@@ -326,7 +325,7 @@ def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 1000)
                 results["documents"][0], 
                 results["metadatas"][0]
             ):
-                if doc_id not in budget_seen_ids:
+                if doc_id not in budget_seen_ids and len(budget_documents) < max_budget_results:
                     budget_documents.append({
                         "id": doc_id,
                         "content": content,
@@ -341,17 +340,17 @@ def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 1000)
             print(f"DEBUG: Error searching budget collection for '{search_query}': {e}")
             continue
     
-    # Second pass: if we don't have enough results, try broader searches
-    if len(budget_documents) < half_results:
+    # Second pass: if we don't have enough budget results, try broader searches
+    if len(budget_documents) < max_budget_results:
         print(f"DEBUG: Only found {len(budget_documents)} budget documents, trying broader searches...")
         
         # Try searching for just department codes
         for dept in reasoning.departments:
-            if dept in DEPARTMENT_MAPPINGS and len(budget_documents) < half_results:
+            if dept in DEPARTMENT_MAPPINGS and len(budget_documents) < max_budget_results:
                 try:
                     results = budget_manager.flexible_metadata_search(
                         query=dept,  # Just the department code
-                        n_results=100
+                        n_results=min(100, max_budget_results - len(budget_documents))
                     )
                     
                     results_count = len(results["documents"][0]) if results["documents"] else 0
@@ -362,7 +361,7 @@ def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 1000)
                         results["documents"][0], 
                         results["metadatas"][0]
                     ):
-                        if doc_id not in budget_seen_ids:
+                        if doc_id not in budget_seen_ids and len(budget_documents) < max_budget_results:
                             budget_documents.append({
                                 "id": doc_id,
                                 "content": content,
@@ -385,7 +384,7 @@ def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 1000)
         print(f"DEBUG: Searching text collection with flexible metadata search {i+1}/{len(search_queries)}: '{search_query}'")
         try:
             # Request more results per query to increase chances of finding documents
-            results_per_query = min(200, half_results // max(1, len(search_queries) // 2))
+            results_per_query = min(200, max_text_results // max(1, len(search_queries) // 2))
             results = text_manager.flexible_metadata_search(
                 query=search_query,
                 n_results=results_per_query
@@ -400,7 +399,7 @@ def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 1000)
                 results["documents"][0], 
                 results["metadatas"][0]
             ):
-                if doc_id not in text_seen_ids:
+                if doc_id not in text_seen_ids and len(text_documents) < max_text_results:
                     text_documents.append({
                         "id": doc_id,
                         "content": content,
@@ -416,16 +415,16 @@ def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 1000)
             continue
     
     # Second pass for text collection: if we don't have enough results, try broader searches
-    if len(text_documents) < half_results:
+    if len(text_documents) < max_text_results:
         print(f"DEBUG: Only found {len(text_documents)} text documents, trying broader searches...")
         
         # Try searching for just department codes
         for dept in reasoning.departments:
-            if dept in DEPARTMENT_MAPPINGS and len(text_documents) < half_results:
+            if dept in DEPARTMENT_MAPPINGS and len(text_documents) < max_text_results:
                 try:
                     results = text_manager.flexible_metadata_search(
                         query=dept,  # Just the department code
-                        n_results=100
+                        n_results=min(100, max_text_results - len(text_documents))
                     )
                     
                     results_count = len(results["documents"][0]) if results["documents"] else 0
@@ -436,7 +435,7 @@ def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 1000)
                         results["documents"][0], 
                         results["metadatas"][0]
                     ):
-                        if doc_id not in text_seen_ids:
+                        if doc_id not in text_seen_ids and len(text_documents) < max_text_results:
                             text_documents.append({
                                 "id": doc_id,
                                 "content": content,
@@ -452,64 +451,65 @@ def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 1000)
                     continue
     
     # Third pass: if we still don't have enough results, try semantic search as fallback
-    total_found = len(budget_documents) + len(text_documents)
-    if total_found < max_results // 2:  # If we have less than 50% of desired results
-        print(f"DEBUG: Only found {total_found} total documents, trying semantic search fallback...")
+    if len(budget_documents) < max_budget_results or len(text_documents) < max_text_results:
+        print(f"DEBUG: Found {len(budget_documents)} budget docs and {len(text_documents)} text docs, trying semantic search fallback...")
         
-        # Try semantic search on budget collection
-        if len(budget_documents) < half_results:
+        # Try semantic search on budget collection if needed
+        if len(budget_documents) < max_budget_results:
             try:
                 # Use the main search terms for semantic search
                 main_query = " ".join(reasoning.search_terms[:3])  # Use first 3 search terms
                 semantic_results = budget_manager.query_documents(
                     query_text=main_query,
-                    n_results=min(100, half_results - len(budget_documents))
+                    n_results=min(100, max_budget_results - len(budget_documents))
                 )
                 
                 results_count = len(semantic_results["documents"][0]) if semantic_results["documents"] else 0
                 print(f"DEBUG: Semantic search for '{main_query}' found {results_count} budget results")
                 
                 for i, doc in enumerate(semantic_results["documents"][0]):
-                    doc_id = f"semantic_budget_{i}_{len(budget_documents)}"
-                    if doc_id not in budget_seen_ids:
-                        budget_documents.append({
-                            "id": doc_id,
-                            "content": doc,
-                            "score": 0.6,  # Lower score for semantic matches
-                            "metadata": semantic_results["metadatas"][0][i],
-                            "search_query": f"semantic_{main_query}",
-                            "collection_type": "budget_item"
-                        })
-                        budget_seen_ids.add(doc_id)
+                    if len(budget_documents) < max_budget_results:
+                        doc_id = f"semantic_budget_{i}_{len(budget_documents)}"
+                        if doc_id not in budget_seen_ids:
+                            budget_documents.append({
+                                "id": doc_id,
+                                "content": doc,
+                                "score": 0.6,  # Lower score for semantic matches
+                                "metadata": semantic_results["metadatas"][0][i],
+                                "search_query": f"semantic_{main_query}",
+                                "collection_type": "budget_item"
+                            })
+                            budget_seen_ids.add(doc_id)
                         
             except Exception as e:
                 print(f"DEBUG: Error in semantic search for budget collection: {e}")
         
-        # Try semantic search on text collection
-        if len(text_documents) < half_results:
+        # Try semantic search on text collection if needed
+        if len(text_documents) < max_text_results:
             try:
                 # Use the main search terms for semantic search
                 main_query = " ".join(reasoning.search_terms[:3])  # Use first 3 search terms
                 semantic_results = text_manager.query_documents(
                     query_text=main_query,
-                    n_results=min(100, half_results - len(text_documents))
+                    n_results=min(100, max_text_results - len(text_documents))
                 )
                 
                 results_count = len(semantic_results["documents"][0]) if semantic_results["documents"] else 0
                 print(f"DEBUG: Semantic search for '{main_query}' found {results_count} text results")
                 
                 for i, doc in enumerate(semantic_results["documents"][0]):
-                    doc_id = f"semantic_text_{i}_{len(text_documents)}"
-                    if doc_id not in text_seen_ids:
-                        text_documents.append({
-                            "id": doc_id,
-                            "content": doc,
-                            "score": 0.6,  # Lower score for semantic matches
-                            "metadata": semantic_results["metadatas"][0][i],
-                            "search_query": f"semantic_{main_query}",
-                            "collection_type": "text_item"
-                        })
-                        text_seen_ids.add(doc_id)
+                    if len(text_documents) < max_text_results:
+                        doc_id = f"semantic_text_{i}_{len(text_documents)}"
+                        if doc_id not in text_seen_ids:
+                            text_documents.append({
+                                "id": doc_id,
+                                "content": doc,
+                                "score": 0.6,  # Lower score for semantic matches
+                                "metadata": semantic_results["metadatas"][0][i],
+                                "search_query": f"semantic_{main_query}",
+                                "collection_type": "text_item"
+                            })
+                            text_seen_ids.add(doc_id)
                         
             except Exception as e:
                 print(f"DEBUG: Error in semantic search for text collection: {e}")
@@ -527,13 +527,12 @@ def search_relevant_documents(reasoning: ReasoningStep, max_results: int = 1000)
     
     # Sort by score (prioritize exact matches over broader matches)
     deduplicated_documents.sort(key=lambda x: x["score"], reverse=True)
-    result_documents = deduplicated_documents[:max_results]
     
     print(f"DEBUG: Document search completed - found {len(budget_documents)} budget docs, {len(text_documents)} text docs")
-    print(f"DEBUG: After deduplication: {len(deduplicated_documents)} unique docs, returning top {len(result_documents)}")
+    print(f"DEBUG: After deduplication: {len(deduplicated_documents)} unique docs")
     
     return {
-        "documents": result_documents,
+        "documents": deduplicated_documents,
         "budget_count": len(budget_documents),
         "text_count": len(text_documents)
     }
@@ -622,12 +621,13 @@ Answer:
 
 # API Endpoints
 
-def ingest_processed_documents(file_path: str = "documents/processed_all_documents_geminiV4_expanded.json") -> Dict[str, Any]:
+def ingest_processed_documents(file_path: str = "documents/processed_all_documents_geminiV4_expanded.json", reset_collections: bool = True) -> Dict[str, Any]:
     """
     Ingest processed budget documents into both budget and text collections
     
     Args:
         file_path: Path to the processed JSON file (relative to src directory)
+        reset_collections: Whether to reset collections before ingestion (default: True)
     
     Returns:
         Dictionary with ingestion statistics
@@ -636,6 +636,10 @@ def ingest_processed_documents(file_path: str = "documents/processed_all_documen
     start_time = time.time()
     
     print(f"📥 Starting document ingestion from {file_path}")
+    if reset_collections:
+        print("🔄 Collections will be reset before ingestion")
+    else:
+        print("➕ Documents will be added to existing collections")
     
     # Make sure file path is relative to src directory
     if not os.path.isabs(file_path):
@@ -776,7 +780,7 @@ def ingest_processed_documents(file_path: str = "documents/processed_all_documen
                     for item in tqdm(text_items, desc=f"Text items in {doc_name}", position=3, leave=False):
                         try:
                             # Use the text content directly for embedding
-                            text_content = item.get('text_content', '')
+                            text_content = item.get('text', '')
                             
                             if text_content.strip():  # Only add non-empty text
                                 # Generate unique ID
@@ -856,6 +860,370 @@ def ingest_processed_documents(file_path: str = "documents/processed_all_documen
             "errors": [error_msg],
             "file_path": file_path
         }
+
+def ingest_budget_worksheets(file_path: str = "documents/all_budget_worksheets_processed.json", reset_collections: bool = True) -> Dict[str, Any]:
+    """
+    Ingest budget worksheet documents processed by process_budget_worksheets.py
+    
+    Args:
+        file_path: Path to the budget worksheets JSON file (relative to src directory)
+        reset_collections: Whether to reset collections before ingestion (default: True)
+    
+    Returns:
+        Dictionary with ingestion statistics
+    """
+    import time
+    start_time = time.time()
+    
+    print(f"📥 Starting budget worksheet ingestion from {file_path}")
+    if reset_collections:
+        print("🔄 Collections will be reset before ingestion")
+    else:
+        print("➕ Documents will be added to existing collections")
+    
+    # Make sure file path is relative to src directory
+    if not os.path.isabs(file_path):
+        file_path = os.path.join(os.path.dirname(__file__), file_path)
+    
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"Budget worksheets file not found: {file_path}")
+    
+    def clean_metadata_value(value):
+        """Convert None values to 'unknown' string for ChromaDB compatibility"""
+        if value is None:
+            return 'unknown'
+        if isinstance(value, (int, float)):
+            return str(value)
+        return str(value)
+    
+    def clean_metadata_dict(metadata):
+        """Clean all values in metadata dictionary for ChromaDB compatibility"""
+        cleaned = {}
+        for key, value in metadata.items():
+            cleaned[key] = clean_metadata_value(value)
+        return cleaned
+    
+    try:
+        # Load the budget worksheets JSON data
+        print("📖 Loading budget worksheet data...")
+        with open(file_path, 'r', encoding='utf-8') as f:
+            all_documents = json.load(f)
+        
+        print(f"✅ Loaded data for {len(all_documents)} documents")
+        
+        budget_count = 0
+        text_count = 0
+        errors = []
+        unknown_items_count = 0
+        
+        # Count total items for overall progress
+        total_worksheet_items = sum(len(doc_data.get('worksheet_items', [])) for doc_data in all_documents.values() if isinstance(doc_data, dict) and 'worksheet_items' in doc_data)
+        total_text_items = sum(len(doc_data.get('text_items', [])) for doc_data in all_documents.values() if isinstance(doc_data, dict) and 'text_items' in doc_data)
+        
+        print(f"📊 Total items to process: {total_worksheet_items} worksheet items, {total_text_items} text items")
+        
+        # Create overall progress bars
+        overall_budget_progress = tqdm(total=total_worksheet_items, desc="Overall Worksheet Items", position=0)
+        overall_text_progress = tqdm(total=total_text_items, desc="Overall Text Items", position=1)
+        
+        # Process each document
+        for doc_name, doc_data in tqdm(all_documents.items(), desc="Processing documents", position=2, leave=False):
+            doc_start_time = time.time()
+            print(f"\n🔄 Processing document: {doc_name}")
+            
+            # Skip error documents
+            if isinstance(doc_data, dict) and 'error' in doc_data:
+                print(f"   ⚠️  Skipping document with error: {doc_data['error']}")
+                continue
+            
+            try:
+                # Process worksheet items (budget items)
+                if 'worksheet_items' in doc_data:
+                    worksheet_items = doc_data['worksheet_items']
+                    print(f"   📊 Found {len(worksheet_items)} worksheet items")
+                    
+                    for item in tqdm(worksheet_items, desc=f"Worksheet items in {doc_name}", position=3, leave=False):
+                        try:
+                            # Create document text with key worksheet information
+                            doc_parts = []
+                            
+                            # Add program information
+                            if item.get('program_id') and item.get('program_id') != 'unknown':
+                                doc_parts.append(f"Program ID: {item.get('program_id')}")
+                            
+                            if item.get('program_name') and item.get('program_name') != 'unknown':
+                                doc_parts.append(f"Program Name: {item.get('program_name')}")
+                            
+                            # Add structure and committee info
+                            if item.get('structure_number') and item.get('structure_number') != 'unknown':
+                                doc_parts.append(f"Structure Number: {item.get('structure_number')}")
+                            
+                            if item.get('subject_committee') and item.get('subject_committee') != 'unknown':
+                                doc_parts.append(f"Subject Committee: {item.get('subject_committee')}")
+                            
+                            # Add sequence and explanation
+                            if item.get('sequence_number') and item.get('sequence_number') != 'unknown':
+                                doc_parts.append(f"Sequence Number: {item.get('sequence_number')}")
+                            
+                            if item.get('explanation') and item.get('explanation') != 'unknown':
+                                doc_parts.append(f"Explanation: {item.get('explanation')}")
+                            
+                            # Add fiscal year amounts
+                            if item.get('fy26_amount') and item.get('fy26_amount') != 'unknown':
+                                doc_parts.append(f"FY26 Amount: ${item.get('fy26_amount')}")
+                            
+                            if item.get('fy27_amount') and item.get('fy27_amount') != 'unknown':
+                                doc_parts.append(f"FY27 Amount: ${item.get('fy27_amount')}")
+                            
+                            # Add method of financing
+                            if item.get('fy26_mof') and item.get('fy26_mof') != 'unknown':
+                                doc_parts.append(f"FY26 Funding Type: {item.get('fy26_mof')}")
+                            
+                            if item.get('fy27_mof') and item.get('fy27_mof') != 'unknown':
+                                doc_parts.append(f"FY27 Funding Type: {item.get('fy27_mof')}")
+                            
+                            # Add position changes
+                            if item.get('position_change_perm') and item.get('position_change_perm') != 'unknown':
+                                doc_parts.append(f"Permanent Position Change: {item.get('position_change_perm')}")
+                            
+                            if item.get('position_change_temp') and item.get('position_change_temp') != 'unknown':
+                                doc_parts.append(f"Temporary Position Change: {item.get('position_change_temp')}")
+                            
+                            # Add request type and metadata
+                            if item.get('request_type') and item.get('request_type') != 'unknown':
+                                doc_parts.append(f"Request Type: {item.get('request_type')}")
+                            
+                            if item.get('date') and item.get('date') != 'unknown':
+                                doc_parts.append(f"Date: {item.get('date')}")
+                            
+                            if item.get('worksheet_title') and item.get('worksheet_title') != 'unknown':
+                                doc_parts.append(f"Worksheet Title: {item.get('worksheet_title')}")
+                            
+                            # Check if we have any meaningful content
+                            if not doc_parts:
+                                print(f"   ⚠️  Unknown worksheet item found: {item}")
+                                unknown_items_count += 1
+                                overall_budget_progress.update(1)
+                                continue
+                            
+                            # Create comprehensive searchable text
+                            searchable_content = "\n".join(doc_parts)
+                            searchable_content += f"\nDocument: {doc_name}"
+                            
+                            # Generate unique ID
+                            item_id = f"{doc_name}_worksheet_{item.get('page_number', 'unknown')}_{budget_count}"
+                            
+                            # Clean metadata for ChromaDB compatibility
+                            cleaned_metadata = clean_metadata_dict(item)
+                            
+                            # Add to budget collection
+                            budget_manager.collection.add(
+                                documents=[searchable_content],
+                                metadatas=[cleaned_metadata],
+                                ids=[item_id]
+                            )
+                            
+                            budget_count += 1
+                            overall_budget_progress.update(1)
+                            
+                        except Exception as e:
+                            error_msg = f"Error processing worksheet item in {doc_name}: {str(e)}"
+                            print(f"   ⚠️  {error_msg}")
+                            errors.append(error_msg)
+                            overall_budget_progress.update(1)
+                
+                # Process text items
+                if 'text_items' in doc_data:
+                    text_items = doc_data['text_items']
+                    print(f"   📄 Found {len(text_items)} text items")
+                    
+                    for item in tqdm(text_items, desc=f"Text items in {doc_name}", position=3, leave=False):
+                        try:
+                            # Use the text content directly for embedding
+                            text_content = item.get('text', '')
+                            
+                            if text_content.strip():  # Only add non-empty text
+                                # Generate unique ID
+                                item_id = f"{doc_name}_text_{item.get('page_number', 'unknown')}_{text_count}"
+                                
+                                # Clean metadata for ChromaDB compatibility
+                                cleaned_metadata = clean_metadata_dict(item)
+                                
+                                # Add to text collection
+                                text_manager.collection.add(
+                                    documents=[text_content],
+                                    metadatas=[cleaned_metadata],
+                                    ids=[item_id]
+                                )
+                                
+                                text_count += 1
+                            
+                            overall_text_progress.update(1)
+                            
+                        except Exception as e:
+                            error_msg = f"Error processing text item in {doc_name}: {str(e)}"
+                            print(f"   ⚠️  {error_msg}")
+                            errors.append(error_msg)
+                            overall_text_progress.update(1)
+                
+                # Show timing for this document
+                doc_time = time.time() - doc_start_time
+                print(f"   ✅ Completed {doc_name} in {doc_time:.2f} seconds")
+                
+            except Exception as e:
+                error_msg = f"Error processing document {doc_name}: {str(e)}"
+                print(f"❌ {error_msg}")
+                errors.append(error_msg)
+        
+        # Close progress bars
+        overall_budget_progress.close()
+        overall_text_progress.close()
+        
+        # Summary
+        total_time = time.time() - start_time
+        print(f"\n✅ Budget worksheet ingestion completed in {total_time:.2f} seconds!")
+        print(f"   📊 Worksheet items ingested: {budget_count}")
+        print(f"   📄 Text items ingested: {text_count}")
+        print(f"   ⚠️  Unknown worksheet items skipped: {unknown_items_count}")
+        print(f"   ⏱️  Average rate: {(budget_count + text_count) / total_time:.1f} items/second")
+        if errors:
+            print(f"   ⚠️  Errors encountered: {len(errors)}")
+            for error in errors[:5]:  # Show first 5 errors
+                print(f"      - {error}")
+            if len(errors) > 5:
+                print(f"      ... and {len(errors) - 5} more errors")
+        
+        return {
+            "success": True,
+            "worksheet_items_ingested": budget_count,
+            "text_items_ingested": text_count,
+            "unknown_items_skipped": unknown_items_count,
+            "total_documents_processed": len(all_documents),
+            "processing_time_seconds": total_time,
+            "items_per_second": (budget_count + text_count) / total_time if total_time > 0 else 0,
+            "errors": errors,
+            "file_path": file_path
+        }
+        
+    except Exception as e:
+        error_msg = f"Fatal error during budget worksheet ingestion: {str(e)}"
+        print(f"❌ {error_msg}")
+        return {
+            "success": False,
+            "error": error_msg,
+            "worksheet_items_ingested": 0,
+            "text_items_ingested": 0,
+            "unknown_items_skipped": 0,
+            "total_documents_processed": 0,
+            "processing_time_seconds": 0,
+            "items_per_second": 0,
+            "errors": [error_msg],
+            "file_path": file_path
+        }
+
+@app.post("/ingest/budget-worksheets", response_model=IngestionResponse, summary="Ingest Budget Worksheet Documents")
+async def ingest_budget_worksheet_documents(
+    file_path: str = "documents/all_budget_worksheets_processed.json",
+    reset_collections: bool = True
+):
+    """
+    Ingest budget worksheet documents processed by process_budget_worksheets.py
+    
+    Args:
+        file_path: Path to the budget worksheets JSON file
+        reset_collections: Whether to reset collections before ingestion (default: True)
+    """
+    try:
+        result = ingest_budget_worksheets(file_path, reset_collections)
+        
+        if result["success"]:
+            return IngestionResponse(
+                success=True,
+                message=f"Successfully ingested {result['worksheet_items_ingested']} worksheet items and {result['text_items_ingested']} text items from {result['total_documents_processed']} documents in {result['processing_time_seconds']:.2f} seconds",
+                documents=[
+                    DocumentInfo(
+                        filename=file_path,
+                        size=0,  # File size not tracked for budget worksheets
+                        chunks_created=result['worksheet_items_ingested'] + result['text_items_ingested'],
+                        metadata={
+                            "worksheet_items": result['worksheet_items_ingested'],
+                            "text_items": result['text_items_ingested'],
+                            "unknown_items_skipped": result['unknown_items_skipped'],
+                            "processing_time": result['processing_time_seconds'],
+                            "items_per_second": result['items_per_second'],
+                            "errors": len(result['errors'])
+                        }
+                    )
+                ]
+            )
+        else:
+            raise HTTPException(status_code=500, detail=result["error"])
+            
+    except FileNotFoundError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error ingesting budget worksheets: {str(e)}")
+
+@app.post("/ingest", response_model=IngestionResponse, summary="Ingest Processed Documents")
+async def ingest_documents(
+    file_path: str = "documents/processed_all_documents_geminiV4_expanded.json",
+    file_type: str = "standard",  # "standard" or "worksheets"
+    reset_collections: bool = True # Added reset_collections parameter
+):
+    """
+    Ingest processed documents. Supports both standard format and budget worksheet format.
+    
+    Args:
+        file_path: Path to the processed JSON file
+        file_type: Type of file - "standard" for regular processed docs, "worksheets" for budget worksheets
+        reset_collections: Whether to reset collections before ingestion (default: True)
+    """
+    try:
+        if file_type == "worksheets":
+            result = ingest_budget_worksheets(file_path, reset_collections)
+            success_message = f"Successfully ingested {result['worksheet_items_ingested']} worksheet items and {result['text_items_ingested']} text items from {result['total_documents_processed']} documents in {result['processing_time_seconds']:.2f} seconds"
+            chunks_created = result['worksheet_items_ingested'] + result['text_items_ingested']
+            metadata = {
+                "worksheet_items": result['worksheet_items_ingested'],
+                "text_items": result['text_items_ingested'],
+                "unknown_items_skipped": result['unknown_items_skipped'],
+                "processing_time": result['processing_time_seconds'],
+                "items_per_second": result['items_per_second'],
+                "errors": len(result['errors'])
+            }
+        else:
+            result = ingest_processed_documents(file_path, reset_collections)
+            success_message = f"Successfully ingested {result['budget_items_ingested']} budget items and {result['text_items_ingested']} text items from {result['total_documents_processed']} documents in {result['processing_time_seconds']:.2f} seconds"
+            chunks_created = result['budget_items_ingested'] + result['text_items_ingested']
+            metadata = {
+                "budget_items": result['budget_items_ingested'],
+                "text_items": result['text_items_ingested'],
+                "unknown_items_skipped": result['unknown_items_skipped'],
+                "processing_time": result['processing_time_seconds'],
+                "items_per_second": result['items_per_second'],
+                "errors": len(result['errors'])
+            }
+        
+        if result["success"]:
+            return IngestionResponse(
+                success=True,
+                message=success_message,
+                documents=[
+                    DocumentInfo(
+                        filename=file_path,
+                        size=0,  # File size not tracked
+                        chunks_created=chunks_created,
+                        metadata=metadata
+                    )
+                ]
+            )
+        else:
+            raise HTTPException(status_code=500, detail=result["error"])
+            
+    except FileNotFoundError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error ingesting documents: {str(e)}")
 
 @app.get("/", summary="Health Check")
 async def root():
@@ -1067,7 +1435,7 @@ async def get_document(document_id: str, collection: str = Query(default="budget
 async def intelligent_query(query: IntelligentQuery):
     """Get a comprehensive answer to a budget-related question using both collections"""
     try:
-        print(f"DEBUG: Received intelligent query: '{query.query}' with max_results={query.max_results}")
+        print(f"DEBUG: Received intelligent query: '{query.query}' with max_budget_results={query.max_budget_results}, max_text_results={query.max_text_results}")
         
         print("DEBUG: Starting intelligent query processing...")
         import time
@@ -1075,7 +1443,7 @@ async def intelligent_query(query: IntelligentQuery):
         
         # Execute intelligent query processing
         reasoning = analyze_user_query(query.query)
-        search_results = search_relevant_documents(reasoning, query.max_results)
+        search_results = search_relevant_documents(reasoning, query.max_budget_results, query.max_text_results)
         answer = generate_comprehensive_answer(query.query, reasoning, search_results, query.use_top_n_results)
         
         end_time = time.time()
@@ -1119,8 +1487,14 @@ async def intelligent_query(query: IntelligentQuery):
 # Run the server
 if __name__ == "__main__":
     import uvicorn
+    
+    # Simple direct server startup for development
+    print("🚀 Starting House Finance Document API on localhost:8000")
+    print("💡 For production use, run with: python run_api.py")
+    print("📖 API Documentation: http://localhost:8000/docs")
+    
     uvicorn.run(
-        "src.api:app",
+        "api:app",
         host="0.0.0.0",
         port=8000,
         reload=True,

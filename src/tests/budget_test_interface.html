@@ -594,6 +594,54 @@
                     </table>
                 </div>
             </div>
+
+            <!-- Text Documents Semantic Search Results Table -->
+            <div class="table-section">
+                <h3>📄 Text Documents - Semantic Search Results (Vector Similarity)</h3>
+                <div class="table-container">
+                    <table class="budget-table">
+                        <thead>
+                            <tr>
+                                <th>Document Name</th>
+                                <th>Page</th>
+                                <th>Content Preview</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody id="text-semantic-table-body">
+                            <tr>
+                                <td colspan="4" style="text-align: center; padding: 40px; color: #6c757d;">
+                                    Click "Load Budget Items" to fetch data from the API
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Text Documents Metadata Search Results Table -->
+            <div class="table-section">
+                <h3>📄 Text Documents - Metadata Search Results (Exact Field Matching)</h3>
+                <div class="table-container">
+                    <table class="budget-table metadata-table">
+                        <thead>
+                            <tr>
+                                <th>Document Name</th>
+                                <th>Page</th>
+                                <th>Content Preview</th>
+                                <th>Match Type</th>
+                            </tr>
+                        </thead>
+                        <tbody id="text-metadata-table-body">
+                            <tr>
+                                <td colspan="4" style="text-align: center; padding: 40px; color: #6c757d;">
+                                    Click "Load Budget Items" to fetch data from the API
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
 
         <!-- Chat Tab -->
@@ -626,7 +674,13 @@
     </div>
 
     <script>
-        const API_BASE = 'http://localhost:8000';
+        // Dynamically determine API base URL based on current host
+        const currentHost = window.location.hostname;
+        const API_BASE = `http://${currentHost}:8000`;
+        
+        console.log('Frontend URL:', window.location.href);
+        console.log('API Base URL:', API_BASE);
+        
         let allBudgetItems = [];
         let allTextItems = [];
 
@@ -684,53 +738,38 @@
             console.log('Making API call to:', `${API_BASE}/search`);
             
             try {
-                // First get budget items using semantic search
-                const budgetResponse = await fetch(`${API_BASE}/search`, {
+                // Get both budget and text items using a single search
+                const allResponse = await fetch(`${API_BASE}/search`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
                     },
                     body: JSON.stringify({
-                        query: "budget program funding",
-                        n_results: 1000,
+                        query: "budget program funding text content document",
+                        n_results: 2000,
                         include_metadata: true,
-                        collection_type: "budget"
+                        collection_type: "both"
                     })
                 });
 
-                console.log('Budget response status:', budgetResponse.status);
-                console.log('Budget response ok:', budgetResponse.ok);
+                console.log('All items response status:', allResponse.status);
+                console.log('All items response ok:', allResponse.ok);
 
-                if (!budgetResponse.ok) {
-                    throw new Error(`HTTP error! status: ${budgetResponse.status}`);
+                if (!allResponse.ok) {
+                    throw new Error(`HTTP error! status: ${allResponse.status}`);
                 }
 
-                const budgetData = await budgetResponse.json();
-                console.log('Budget data received:', budgetData);
-                console.log('Budget results length:', budgetData.results?.length || 0);
+                const allData = await allResponse.json();
+                console.log('All data received:', allData);
+                console.log('All results length:', allData.results?.length || 0);
                 
-                allBudgetItems = budgetData.results || [];
-
-                // Then get text items
-                const textResponse = await fetch(`${API_BASE}/search`, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        query: "text content document",
-                        n_results: 1000,
-                        include_metadata: true,
-                        collection_type: "text"
-                    })
-                });
-
-                if (textResponse.ok) {
-                    const textData = await textResponse.json();
-                    console.log('Text data received:', textData);
-                    console.log('Text results length:', textData.results?.length || 0);
-                    allTextItems = textData.results || [];
-                }
+                // Separate budget and text items
+                const allItems = allData.results || [];
+                allBudgetItems = allItems.filter(item => item.collection_type === 'budget');
+                allTextItems = allItems.filter(item => item.collection_type === 'text');
+                
+                console.log('Budget items found:', allBudgetItems.length);
+                console.log('Text items found:', allTextItems.length);
 
                 // Update stats
                 const filteredBudgetItems = filterUnknownItems(allBudgetItems);
@@ -743,10 +782,22 @@
                 // Display budget items in semantic table
                 displaySemanticResults(filteredBudgetItems);
                 
-                // Clear metadata table for initial load
+                // Display text documents in semantic table
+                displayTextSemanticResults(allTextItems);
+                
+                // Clear metadata tables for initial load
                 metadataTableBody.innerHTML = `
                     <tr>
                         <td colspan="9" style="text-align: center; padding: 40px; color: #6c757d;">
+                            Perform a search to see metadata-based results
+                        </td>
+                    </tr>
+                `;
+                
+                const textMetadataTableBody = document.getElementById('text-metadata-table-body');
+                textMetadataTableBody.innerHTML = `
+                    <tr>
+                        <td colspan="4" style="text-align: center; padding: 40px; color: #6c757d;">
                             Perform a search to see metadata-based results
                         </td>
                     </tr>
@@ -769,6 +820,20 @@
                     </tr>
                 `;
                 metadataTableBody.innerHTML = semanticTableBody.innerHTML;
+                
+                // Also clear text tables
+                const textSemanticTableBody = document.getElementById('text-semantic-table-body');
+                const textMetadataTableBody = document.getElementById('text-metadata-table-body');
+                textSemanticTableBody.innerHTML = `
+                    <tr>
+                        <td colspan="4" style="text-align: center; padding: 40px; color: #e74c3c;">
+                            Error loading data: ${error.message}
+                            <br><br>
+                            Make sure the API server is running at ${API_BASE}
+                        </td>
+                    </tr>
+                `;
+                textMetadataTableBody.innerHTML = textSemanticTableBody.innerHTML;
             } finally {
                 loadBtn.disabled = false;
                 loadBtn.textContent = 'Load All Items';
@@ -853,6 +918,77 @@
             }).join('');
         }
 
+        function displayTextSemanticResults(items) {
+            const tableBody = document.getElementById('text-semantic-table-body');
+            
+            console.log('=== displayTextSemanticResults Debug ===');
+            console.log('Total text items received:', items.length);
+            
+            if (items.length === 0) {
+                tableBody.innerHTML = `
+                    <tr>
+                        <td colspan="4" style="text-align: center; padding: 40px; color: #6c757d;">
+                            No text documents found
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+
+            tableBody.innerHTML = items.map(item => {
+                const meta = item.metadata || {};
+                const content = item.content || '';
+                const score = item.score || 0;
+                
+                // Truncate content for preview
+                const contentPreview = content.length > 200 ? content.substring(0, 200) + '...' : content;
+                
+                return `
+                    <tr>
+                        <td>${meta.document_name || 'Unknown'}</td>
+                        <td>${meta.page_number || 'Unknown'}</td>
+                        <td style="max-width: 300px; word-wrap: break-word;">${contentPreview}</td>
+                        <td>${score.toFixed(3)}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        function displayTextMetadataResults(items, searchType = 'contains') {
+            const tableBody = document.getElementById('text-metadata-table-body');
+            
+            console.log('=== displayTextMetadataResults Debug ===');
+            console.log('Total text metadata items received:', items.length);
+            
+            if (items.length === 0) {
+                tableBody.innerHTML = `
+                    <tr>
+                        <td colspan="4" style="text-align: center; padding: 40px; color: #6c757d;">
+                            No text metadata matches found
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+
+            tableBody.innerHTML = items.map(item => {
+                const meta = item.metadata || {};
+                const content = item.content || '';
+                
+                // Truncate content for preview
+                const contentPreview = content.length > 200 ? content.substring(0, 200) + '...' : content;
+                
+                return `
+                    <tr>
+                        <td>${meta.document_name || 'Unknown'}</td>
+                        <td>${meta.page_number || 'Unknown'}</td>
+                        <td style="max-width: 300px; word-wrap: break-word;">${contentPreview}</td>
+                        <td><span class="tag">${searchType}</span></td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
         function setupSearch() {
             const searchInput = document.getElementById('search-input');
             
@@ -874,9 +1010,17 @@
                 // If empty, reload original data
                 const filteredBudgetItems = filterUnknownItems(allBudgetItems);
                 displaySemanticResults(filteredBudgetItems);
+                displayTextSemanticResults(allTextItems);
                 document.getElementById('metadata-table-body').innerHTML = `
                     <tr>
                         <td colspan="9" style="text-align: center; padding: 40px; color: #6c757d;">
+                            Perform a search to see metadata-based results
+                        </td>
+                    </tr>
+                `;
+                document.getElementById('text-metadata-table-body').innerHTML = `
+                    <tr>
+                        <td colspan="4" style="text-align: center; padding: 40px; color: #6c757d;">
                             Perform a search to see metadata-based results
                         </td>
                     </tr>
@@ -901,8 +1045,21 @@
                     </td>
                 </tr>
             `;
+            const textLoadingRow = `
+                <tr>
+                    <td colspan="4" style="text-align: center; padding: 40px;">
+                        <div class="loading"></div>
+                        <br>Searching for "${query}"...
+                    </td>
+                </tr>
+            `;
             semanticTableBody.innerHTML = loadingRow;
             metadataTableBody.innerHTML = loadingRow;
+            
+            const textSemanticTableBody = document.getElementById('text-semantic-table-body');
+            const textMetadataTableBody = document.getElementById('text-metadata-table-body');
+            textSemanticTableBody.innerHTML = textLoadingRow;
+            textMetadataTableBody.innerHTML = textLoadingRow;
             
             try {
                 // Perform semantic search
@@ -915,7 +1072,7 @@
                         query: query,
                         n_results: 1000,
                         include_metadata: true,
-                        collection_type: "budget"
+                        collection_type: "both"
                     })
                 });
 
@@ -935,39 +1092,69 @@
                                 {"appropriations_mof_2025_2026": {"$contains": query}},
                                 {"appropriations_mof_2026_2027": {"$contains": query}},
                                 {"appropriations_mof_2025_2026_expanded": {"$contains": query}},
-                                {"appropriations_mof_2026_2027_expanded": {"$contains": query}}
+                                {"appropriations_mof_2026_2027_expanded": {"$contains": query}},
+                                {"document_name": {"$contains": query}},
+                                {"text": {"$contains": query}}
                             ]
                         },
                         n_results: 1000,
-                        collection_type: "budget"
+                        collection_type: "both"
                     })
                 });
 
                 // Process semantic results
                 let semanticItems = [];
+                let semanticBudgetItems = [];
+                let semanticTextItems = [];
                 if (semanticResponse.ok) {
                     const semanticData = await semanticResponse.json();
-                    semanticItems = filterUnknownItems(semanticData.results || []);
+                    semanticItems = semanticData.results || [];
+                    // Separate budget and text items
+                    semanticBudgetItems = semanticItems.filter(item => item.collection_type === 'budget');
+                    semanticTextItems = semanticItems.filter(item => item.collection_type === 'text');
+                    // Filter unknown values only for budget items (text items don't have budget metadata)
+                    semanticBudgetItems = filterUnknownItems(semanticBudgetItems);
                 } else {
                     console.error('Semantic search failed:', semanticResponse.status);
                 }
 
                 // Process metadata results
                 let metadataItems = [];
+                let metadataBudgetItems = [];
+                let metadataTextItems = [];
                 if (metadataResponse.ok) {
                     const metadataData = await metadataResponse.json();
-                    metadataItems = filterUnknownItems(metadataData.results || []);
+                    metadataItems = metadataData.results || [];
+                    // Separate budget and text items
+                    metadataBudgetItems = metadataItems.filter(item => item.collection_type === 'budget');
+                    metadataTextItems = metadataItems.filter(item => item.collection_type === 'text');
+                    // Filter unknown values only for budget items
+                    metadataBudgetItems = filterUnknownItems(metadataBudgetItems);
                 } else {
                     console.error('Metadata search failed:', metadataResponse.status);
                 }
 
-                // Update stats
-                document.getElementById('semantic-showing').textContent = semanticItems.length;
-                document.getElementById('metadata-showing').textContent = metadataItems.length;
+                // Update stats to show both budget and text results
+                document.getElementById('semantic-showing').textContent = semanticBudgetItems.length;
+                document.getElementById('metadata-showing').textContent = metadataBudgetItems.length;
+                document.getElementById('budget-count').textContent = semanticBudgetItems.length + metadataBudgetItems.length;
+                document.getElementById('text-count').textContent = semanticTextItems.length + metadataTextItems.length;
                 
-                // Display results
-                displaySemanticResults(semanticItems);
-                displayMetadataResults(metadataItems, 'contains');
+                // Display results for both budget and text items
+                displaySemanticResults(semanticBudgetItems);
+                displayMetadataResults(metadataBudgetItems, 'contains');
+                displayTextSemanticResults(semanticTextItems);
+                displayTextMetadataResults(metadataTextItems, 'contains');
+                
+                // Log text items for debugging
+                console.log('Semantic text items found:', semanticTextItems.length);
+                console.log('Metadata text items found:', metadataTextItems.length);
+                if (semanticTextItems.length > 0) {
+                    console.log('Sample semantic text item:', semanticTextItems[0]);
+                }
+                if (metadataTextItems.length > 0) {
+                    console.log('Sample metadata text item:', metadataTextItems[0]);
+                }
                 
                 // Update stats bar to show this is a search result
                 statsBar.style.display = 'flex';
@@ -987,6 +1174,20 @@
                 `;
                 semanticTableBody.innerHTML = errorRow;
                 metadataTableBody.innerHTML = errorRow;
+                
+                const textErrorRow = `
+                    <tr>
+                        <td colspan="4" style="text-align: center; padding: 40px; color: #e74c3c;">
+                            Search failed: ${error.message}
+                            <br><br>
+                            <button onclick="displayTextSemanticResults(allTextItems)" style="padding: 10px 20px; background: #3498db; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                                Return to Full Data
+                            </button>
+                        </td>
+                    </tr>
+                `;
+                textSemanticTableBody.innerHTML = textErrorRow;
+                textMetadataTableBody.innerHTML = textErrorRow;
             } finally {
                 // Re-enable search button
                 searchBtn.disabled = false;
