@@ -57,11 +57,13 @@ case "${1:-help}" in
             docker build -t house-finance:latest ./src
             echo "Starting API server..."
             docker run -d --name house-finance-api -p 8000:8000 \
+                -e GOOGLE_API_KEY="$GOOGLE_API_KEY" \
                 -v "$(pwd)/src/.env:/app/.env:ro" \
                 house-finance:latest python run_api.py &
             sleep 3
             echo "Starting test interface..."
             docker run -d --name house-finance-test -p 8081:8081 \
+                -e GOOGLE_API_KEY="$GOOGLE_API_KEY" \
                 -v "$(pwd)/src/.env:/app/.env:ro" \
                 house-finance:latest python tests/test_server.py --port 8081
             echo -e "${GREEN}✅ Docker containers started!${NC}"
@@ -95,24 +97,29 @@ case "${1:-help}" in
     "server")
         echo -e "${BLUE}🖥️  Server deployment commands:${NC}"
         echo ""
+        echo "⚠️  IMPORTANT: Set GOOGLE_API_KEY environment variable first!"
+        echo "  export GOOGLE_API_KEY='your_api_key_here'"
+        echo ""
         echo "Option 1 - Direct GitHub clone:"
         echo "  git clone https://github.com/yourusername/house-finance.git"
         echo "  cd house-finance"
         echo "  pip install -r src/requirements.txt"
+        echo "  export GOOGLE_API_KEY='your_api_key_here'"
         echo "  python src/run_api.py &"
         echo "  cd src/tests && python test_server.py --port 8081"
         echo ""
         echo "Option 2 - Docker from Docker Hub:"
-        echo "  docker run -d -p 8000:8000 -p 8081:8081 yourusername/house-finance:latest"
+        echo "  docker run -d -p 8000:8000 -p 8081:8081 -e GOOGLE_API_KEY=\$GOOGLE_API_KEY yourusername/house-finance:latest"
         echo ""
         echo "Option 3 - Docker Compose (if available):"
         echo "  git clone https://github.com/yourusername/house-finance.git"
         echo "  cd house-finance"
+        echo "  export GOOGLE_API_KEY='your_api_key_here'"
         echo "  ./deploy.sh docker"
         echo ""
         echo "Option 4 - Simple Docker containers:"
-        echo "  docker run -d --name api -p 8000:8000 yourusername/house-finance:latest"
-        echo "  docker run -d --name test -p 8081:8081 yourusername/house-finance:latest python tests/test_server.py --port 8081"
+        echo "  docker run -d --name api -p 8000:8000 -e GOOGLE_API_KEY=\$GOOGLE_API_KEY yourusername/house-finance:latest"
+        echo "  docker run -d --name test -p 8081:8081 -e GOOGLE_API_KEY=\$GOOGLE_API_KEY yourusername/house-finance:latest python tests/test_server.py --port 8081"
         ;;
     
     "logs")

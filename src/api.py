@@ -81,8 +81,24 @@ class TextChromeManager(ChromaDBManager):
 budget_manager = BudgetChromeManager()
 text_manager = TextChromeManager()
 
-# Initialize Gemini for LangGraph
-genai.configure(api_key=config.google_api_key)
+# Initialize Gemini for LangGraph - with better error handling
+try:
+    if not config.google_api_key:
+        print("⚠️  WARNING: GOOGLE_API_KEY not found in environment variables!")
+        print("💡 The intelligent-query endpoint requires a Google API key.")
+        print("   Get your key from: https://makersuite.google.com/app/apikey")
+        print("   Set it as an environment variable: export GOOGLE_API_KEY='your_key_here'")
+        print("   Or add it to your .env file: GOOGLE_API_KEY=your_key_here")
+        print("🔧 Other endpoints (search, metadata search) will work without the API key.")
+        # Don't configure Gemini if no API key
+        gemini_available = False
+    else:
+        genai.configure(api_key=config.google_api_key)
+        gemini_available = True
+        print("✅ Google AI API key configured successfully")
+except Exception as e:
+    print(f"❌ Error configuring Google AI: {e}")
+    gemini_available = False
 
 # Department and funding mappings
 DEPARTMENT_MAPPINGS = {
@@ -1435,6 +1451,15 @@ async def get_document(document_id: str, collection: str = Query(default="budget
 async def intelligent_query(query: IntelligentQuery):
     """Get a comprehensive answer to a budget-related question using both collections"""
     try:
+        # Check if Gemini is available
+        if not gemini_available:
+            raise HTTPException(
+                status_code=503, 
+                detail="Intelligent query service unavailable: Google API key not configured. "
+                       "Please set the GOOGLE_API_KEY environment variable. "
+                       "Other endpoints (search, metadata search) are still available."
+            )
+        
         print(f"DEBUG: Received intelligent query: '{query.query}' with max_budget_results={query.max_budget_results}, max_text_results={query.max_text_results}")
         
         print("DEBUG: Starting intelligent query processing...")

@@ -9,5 +9,4 @@
 __pycache__/
 *.pyc
 documents/test_chroma_db/
-*.sqlite3
 
