@@ -2,11 +2,12 @@
 /old
 /output
 /cleaned_output
-# /chroma_db
 /budget_output
 
 .DS_Store
 __pycache__/
 *.pyc
 documents/test_chroma_db/
+
+# Temporarily removed ChromaDB ignores to commit database
 
