@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # House Finance Deployment Script
-# Usage: ./deploy.sh [option]
+# Usage: ./deploy.sh [option] [run_api.py flags]
 
 set -e
 
@@ -26,22 +26,31 @@ get_docker_compose_cmd() {
     fi
 }
 
-case "${1:-help}" in
+# Extract deployment mode and API flags
+DEPLOY_MODE="${1:-help}"
+shift || true  # Remove first argument (deploy mode)
+API_FLAGS="$@"  # Capture remaining arguments as API flags
+
+case "$DEPLOY_MODE" in
     "local")
         echo -e "${BLUE}🚀 Starting local development...${NC}"
         echo "Installing dependencies..."
         pip install -r src/requirements.txt
         echo "Starting API server on port 8000..."
-        python src/run_api.py &
+        cd src
+        python run_api.py $API_FLAGS &
         API_PID=$!
         sleep 3
         echo "Starting test interface on port 8081..."
-        cd src/tests && python test_server.py --port 8081 &
+        cd tests && python test_server.py --port 8081 &
         TEST_PID=$!
         cd ../..
         echo -e "${GREEN}✅ Services started!${NC}"
         echo "🔗 API: http://localhost:8000"
         echo "🔗 Test Interface: http://localhost:8081/budget_test_interface.html"
+        if [ -n "$API_FLAGS" ]; then
+            echo "🚀 API started with flags: $API_FLAGS"
+        fi
         echo "Press Ctrl+C to stop both services"
         trap "kill $API_PID $TEST_PID 2>/dev/null || true" EXIT
         wait
@@ -75,7 +84,7 @@ case "${1:-help}" in
                 -e GOOGLE_API_KEY="${GOOGLE_API_KEY:-}" \
                 -v "$(pwd)/src/chroma_db/data:/app/chroma_db/data" \
                 -v "$(pwd)/src/.env:/app/.env:ro" \
-                house-finance:latest python run_api.py
+                house-finance:latest python run_api.py $API_FLAGS
             
             sleep 5
             
@@ -87,11 +96,31 @@ case "${1:-help}" in
             
             echo -e "${GREEN}✅ Docker containers started!${NC}"
         else
+            # Create a temporary docker-compose override for API flags
+            if [ -n "$API_FLAGS" ]; then
+                echo "🚀 Starting with API flags: $API_FLAGS"
+                cat > docker-compose.override.yml << EOF
+version: '3.8'
+services:
+  api:
+    command: python run_api.py $API_FLAGS
+EOF
+            else
+                # Remove any existing override
+                rm -f docker-compose.override.yml
+            fi
+            
             $DOCKER_COMPOSE_CMD up --build -d
             echo -e "${GREEN}✅ Docker services started!${NC}"
+            
+            # Clean up override file
+            rm -f docker-compose.override.yml
         fi
         echo "🔗 API: http://localhost:8000"
         echo "🔗 Test Interface: http://localhost:8081/budget_test_interface.html"
+        if [ -n "$API_FLAGS" ]; then
+            echo "🚀 API started with flags: $API_FLAGS"
+        fi
         echo "Run './deploy.sh logs' to see logs"
         echo "Run './deploy.sh stop' to stop"
         ;;
@@ -119,26 +148,26 @@ case "${1:-help}" in
         echo "⚠️  IMPORTANT: Set GOOGLE_API_KEY environment variable first!"
         echo "  export GOOGLE_API_KEY='your_api_key_here'"
         echo ""
-        echo "Option 1 - Direct GitHub clone:"
+        echo "Option 1 - Direct GitHub clone with ingestion:"
         echo "  git clone https://github.com/yourusername/house-finance.git"
         echo "  cd house-finance"
         echo "  pip install -r src/requirements.txt"
         echo "  export GOOGLE_API_KEY='your_api_key_here'"
-        echo "  python src/run_api.py &"
-        echo "  cd src/tests && python test_server.py --port 8081"
+        echo "  ./deploy.sh local --ingest --ingest-type worksheets"
         echo ""
-        echo "Option 2 - Docker from Docker Hub:"
-        echo "  docker run -d -p 8000:8000 -p 8081:8081 -e GOOGLE_API_KEY=\$GOOGLE_API_KEY yourusername/house-finance:latest"
+        echo "Option 2 - Docker with ingestion:"
+        echo "  ./deploy.sh docker --ingest --ingest-type worksheets"
         echo ""
-        echo "Option 3 - Docker Compose (if available):"
-        echo "  git clone https://github.com/yourusername/house-finance.git"
-        echo "  cd house-finance"
-        echo "  export GOOGLE_API_KEY='your_api_key_here'"
-        echo "  ./deploy.sh docker"
+        echo "Option 3 - Append mode (add to existing data):"
+        echo "  ./deploy.sh docker --ingest --append"
         echo ""
-        echo "Option 4 - Simple Docker containers:"
-        echo "  docker run -d --name api -p 8000:8000 -e GOOGLE_API_KEY=\$GOOGLE_API_KEY yourusername/house-finance:latest"
-        echo "  docker run -d --name test -p 8081:8081 -e GOOGLE_API_KEY=\$GOOGLE_API_KEY yourusername/house-finance:latest python tests/test_server.py --port 8081"
+        echo "Available --ingest flags:"
+        echo "  --ingest                     # Ingest and start server"
+        echo "  --ingest-only                # Only ingest, don't start server"
+        echo "  --ingest-type worksheets     # Use budget worksheets"
+        echo "  --ingest-type standard       # Use standard documents"
+        echo "  --append or --no-reset       # Don't reset collections"
+        echo ""
         ;;
     
     "logs")
@@ -191,24 +220,26 @@ case "${1:-help}" in
     
     "help"|*)
         echo -e "${YELLOW}Available commands:${NC}"
-        echo "  local   - Run locally with Python"
-        echo "  docker  - Run with Docker (auto-detects compose vs containers)"
-        echo "  build   - Build Docker image"
-        echo "  push    - Push to Docker Hub"
-        echo "  server  - Show server deployment commands"
-        echo "  status  - Check service status"
-        echo "  logs    - Show container logs"
-        echo "  stop    - Stop all services"
-        echo "  help    - Show this help"
+        echo "  local [API_FLAGS]   - Run locally with Python (pass API flags)"
+        echo "  docker [API_FLAGS]  - Run with Docker (pass API flags)"
+        echo "  build               - Build Docker image"
+        echo "  push                - Push to Docker Hub"
+        echo "  server              - Show server deployment commands"
+        echo "  status              - Check service status"
+        echo "  logs                - Show container logs"
+        echo "  stop                - Stop services"
         echo ""
-        echo -e "${BLUE}Quick start:${NC}"
-        echo "  ./deploy.sh local   # For development"
-        echo "  ./deploy.sh docker  # For production"
+        echo -e "${YELLOW}API Flags (can be passed after command):${NC}"
+        echo "  --ingest                     # Reset collections and ingest documents"
+        echo "  --ingest-only                # Only ingest, don't start server"
+        echo "  --ingest-type worksheets     # Ingest budget worksheets"
+        echo "  --ingest-type standard       # Ingest standard documents (default)"
+        echo "  --append or --no-reset       # Don't reset collections before ingestion"
+        echo "  --ingest-file path/file.json # Custom file to ingest"
         echo ""
-        echo -e "${YELLOW}Updated ports (no conflicts):${NC}"
-        echo "  API: http://localhost:8000"
-        echo "  Test Interface: http://localhost:8081"
-        echo ""
-        echo -e "${GREEN}✅ Completely avoids port 8080 conflicts with Watchtower${NC}"
+        echo -e "${YELLOW}Examples:${NC}"
+        echo "  ./deploy.sh docker --ingest --ingest-type worksheets"
+        echo "  ./deploy.sh local --ingest --append"
+        echo "  ./deploy.sh docker --ingest-only --ingest-type standard"
         ;;
 esac 
