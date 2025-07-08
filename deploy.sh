@@ -58,14 +58,15 @@ case "${1:-help}" in
             echo "Starting API server..."
             docker run -d --name house-finance-api -p 8000:8000 \
                 -e GOOGLE_API_KEY="$GOOGLE_API_KEY" \
+                -v "$(pwd)/src/chroma_db:/app/chroma_db" \
                 -v "$(pwd)/src/.env:/app/.env:ro" \
                 house-finance:latest python run_api.py &
             sleep 3
             echo "Starting test interface..."
-            docker run -d --name house-finance-test -p 8081:8081 \
+            docker run -d --name house-finance-test -p 8081:8080 \
                 -e GOOGLE_API_KEY="$GOOGLE_API_KEY" \
-                -v "$(pwd)/src/.env:/app/.env:ro" \
-                house-finance:latest python tests/test_server.py --port 8081
+                -v "$(pwd)/src/chroma_db:/app/chroma_db" \
+                house-finance:latest python tests/test_server.py --port 8080 &
             echo -e "${GREEN}✅ Docker containers started!${NC}"
         else
             $DOCKER_COMPOSE_CMD up --build -d
