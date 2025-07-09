@@ -81,6 +81,7 @@ Thumbs.db
 chroma_db/data/
 *.sqlite3
 *.db
+/src/chroma_db/data/
 
 # Document uploads and processing
 uploads/

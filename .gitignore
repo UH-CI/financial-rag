@@ -7,7 +7,12 @@
 .DS_Store
 __pycache__/
 *.pyc
-documents/test_chroma_db/
 
 # Temporarily removed ChromaDB ignores to commit database
 
+
+# Database files
+*.sqlite3
+*.db
+chroma_db/
+src/chroma_db/
