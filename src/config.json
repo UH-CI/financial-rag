@@ -1,0 +1,51 @@
+{
+  "collections": ["courses", "programs", "combined_pathways"],
+  "default_collection": "courses",
+  "ingestion_configs": [
+    {
+      "collection_name": "courses",
+      "source_file": "UH-Manoa_courses.json",
+      "contents_to_embed": ["course_id", "subject", "title", "description", "credits", "prerequisites", "program", "department", "institution"]
+    },
+    {
+      "collection_name": "programs", 
+      "source_file": "UH-Manoa-programs.json",
+      "contents_to_embed": ["name", "program", "department", "college", "institution", "course_count", "courses"]
+    },
+    {
+        "collection_name": "combined_pathways", 
+        "source_file": "combined_pathways.json",
+        "contents_to_embed": ["program_name", "institution", "total_credits", "years"]
+    }
+  ],
+  "search": {
+    "default_results": 5,
+    "max_results": 100,
+    "supported_search_types": ["semantic", "metadata", "both"]
+  },
+  "api": {
+    "title": "Document RAG API",
+    "description": "API for managing and searching documents using ChromaDB and RAG",
+    "version": "1.0.0"
+  },
+  "system": {
+    "documents_path": "./documents",
+    "chroma_db_path": "./chroma_db/data",
+    "chroma_collection_name": "default_collection",
+    "chroma_distance_function": "cosine",
+    "embedding_model": "text-embedding-004",
+    "embedding_provider": "google",
+    "embedding_dimensions": 768,
+    "llm_model": "gemini-1.5-flash",
+    "llm_provider": "google",
+    "llm_temperature": 0.1,
+    "llm_max_tokens": 1000,
+    "chunk_size": 1000,
+    "chunk_overlap": 200,
+    "default_k": 5,
+    "max_k": 20,
+    "batch_size": 10,
+    "max_workers": 4,
+    "supported_file_types": [".txt", ".pdf", ".json"]
+  }
+} 
