@@ -1,26 +1,26 @@
 {
-  "collections": ["courses", "programs", "combined_pathways"],
-  "default_collection": "courses",
+  "collections": ["budget", "text", "fiscal"],
+  "default_collection": "budget",
   "ingestion_configs": [
     {
-      "collection_name": "courses",
-      "source_file": "UH-Manoa_courses.json",
-      "contents_to_embed": ["course_id", "subject", "title", "description", "credits", "prerequisites", "program", "department", "institution"]
+      "collection_name": "budget",
+      "source_file": "budget_items.json",
+      "contents_to_embed": ["program", "program_id", "expending_agency_expanded", "document_name", "appropriations_mof_2025_2026_expanded", "appropriations_mof_2026_2027_expanded"]
     },
     {
-      "collection_name": "programs", 
-      "source_file": "UH-Manoa-programs.json",
-      "contents_to_embed": ["name", "program", "department", "college", "institution", "course_count", "courses"]
+      "collection_name": "text", 
+      "source_file": "text_items.json",
+      "contents_to_embed": ["text"]
     },
     {
-        "collection_name": "combined_pathways", 
-        "source_file": "combined_pathways.json",
-        "contents_to_embed": ["program_name", "institution", "total_credits", "years"]
+        "collection_name": "fiscal", 
+        "source_file": "fiscal_notes.json",
+        "contents_to_embed": ["text"]
     }
   ],
   "search": {
     "default_results": 5,
-    "max_results": 100,
+    "max_results": 300,
     "supported_search_types": ["semantic", "metadata", "both"]
   },
   "api": {
