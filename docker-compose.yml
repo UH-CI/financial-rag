@@ -1,11 +1,8 @@
 version: '3.8'
-
 services:
   # API Server
   api:
-    build: 
-      context: ./src
-      dockerfile: Dockerfile
+    image: ghcr.io/uh-ci/rag-system-src
     container_name: rag-api
     ports:
       - "8200:8200"
@@ -20,7 +17,4 @@ services:
       retries: 3
     volumes:
       - ./src/.env:/src/.env:ro  # Mount environment file
-      - chroma_data:/src/chroma_db
-
-volumes:
-  chroma_data:
+      - ./src/chroma_db:/src/chroma_db
