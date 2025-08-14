@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  daily-rainfall:
+  rag-src:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
