@@ -1,3 +1,4 @@
+#trigger
 """
 Multi-step Query Processor for Course RAG System
 Implements reasoning -> searching -> answering pipeline
