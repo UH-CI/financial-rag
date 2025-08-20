@@ -1,13 +1,13 @@
 {
-  "collections": ["policy_documents"],
-  "default_collection": "budget",
+  "collections": ["gateways"],
+  "default_collection": "gateways",
   "ingestion_configs": [
     {
-      "collection_name": "policy_documents",
-      "original_document_dir": "./documents/storage_documents/policy_documents",
-      "source_file": "chunked_text/policies/policies.json",
-      "contents_to_embed": ["text"],
-      "description": "Policy documents represent the the policy documents for the university of Hawaii at Manoa"
+      "collection_name": "gateways",
+      "original_document_dir": "./documents/storage_documents/gateways",
+      "source_file": "chunked_text/gateways/jos_resources_escape.json",
+      "contents_to_embed": ["fulltxt", "title"],
+      "description": "Papers published in the Science Gateways conference."
     }
   ],
   "search": {
