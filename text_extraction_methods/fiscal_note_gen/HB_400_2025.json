@@ -51,6 +51,26 @@
       "47. 1/16/2025 | H | Pending introduction."
     ],
     "links": [
+      {
+        "name": "HB400_HSCR286_",
+        "url": "/sessions/session2025/CommReports/HB400_HSCR286_.htm"
+      },
+      {
+        "name": "HB400_HD1_HSCR1171_",
+        "url": "/sessions/session2025/CommReports/HB400_HD1_HSCR1171_.htm"
+      },
+      {
+        "name": "HB400_SD1_SSCR1253_",
+        "url": "/sessions/session2025/CommReports/HB400_SD1_SSCR1253_.htm"
+      },
+      {
+        "name": "HB400_SD2_SSCR1841_",
+        "url": "/sessions/session2025/CommReports/HB400_SD2_SSCR1841_.htm"
+      },
+      {
+        "name": "HB400_CD1_CCR157_",
+        "url": "/sessions/session2025/CommReports/HB400_CD1_CCR157_.htm"
+      },
       "https://www.capitol.hawaii.gov/sessions/session2025/bills/HB400_SD2_.HTM",
       "https://www.capitol.hawaii.gov/sessions/session2025/bills/HB400_SD2_.PDF",
       "https://www.capitol.hawaii.gov/sessions/session2025/bills/HB400_CD1_.HTM",
@@ -145,6 +165,13 @@
         "name": "HB400_SD1_TESTIMONY_WAM_03-31-25_",
         "url": "https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB400_SD1_TESTIMONY_WAM_03-31-25_.PDF"
       }
+    ],
+    "comittee_reports": [
+      "HB400_HSCR286_",
+      "HB400_HD1_HSCR1171_",
+      "HB400_SD1_SSCR1253_",
+      "HB400_SD2_SSCR1841_",
+      "HB400_CD1_CCR157_"
     ]
   }
 ]
