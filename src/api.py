@@ -939,22 +939,14 @@ async def debug_managers():
 
 
 
-    # Ordered list of fiscal note JSON files
+# Ordered list of fiscal note JSON files
 fiscal_note_files = [
     "HB400.json",
-    "HB400_TESTIMONY_JHA_01-30-25_.json",
     "HB400_HSCR286_.json",
-    "HB400_TESTIMONY_FIN_03-05-25_.json",
-    "HB400_HD1.json",
     "HB400_HD1_HSCR1171_.json",
-    "HB400_HD1_TESTIMONY_JDC_03-19-25_.json",
-    "HB400_SD1.json",
     "HB400_SD1_SSCR1253_.json",
-    "HB400_SD1_TESTIMONY_WAM_03-31-25_.json",
-    "HB400_SD2.json",
     "HB400_SD2_SSCR1841_.json",
-    "HB400_CD1.json",
-    "HB400_CD1_CCR157_.json"
+        "HB400_CD1_CCR157_.json"
 ]
 
 timeline_data = [
