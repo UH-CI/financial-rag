@@ -1,5 +1,5 @@
 {
-  "collections": ["budget", "text", "fiscal", "budget_worksheet", "text_worksheet_items", "hawaii_statutes", "bills"],
+  "collections": ["budget", "text", "fiscal", "budget_worksheet", "text_worksheet_items", "hawaii_statutes"],
   "default_collection": "budget",
   "ingestion_configs": [
     {
@@ -43,13 +43,6 @@
         "source_file": "./documents/chunked_text/hawaii_statutes/hawaii_statutes.json",
         "contents_to_embed": ["text"],
         "description": "Hawaii statutes represent the statutes of the state of Hawaii. Use this collection to find information about the state of Hawaii and its laws."
-    },
-    {
-        "collection_name": "bills", 
-        "original_document_dir": "./documents/storage_documents/bills",
-        "source_file": "./documents/chunked_text/bills/bills_chunked.json",
-        "contents_to_embed": ["text"],
-        "description": "Bills represent the bills of the state of Hawaii. Use this collection to find information about the state of Hawaii and its laws."
     }
 
   ],
