@@ -6,7 +6,6 @@ on:
     - "fin_autobuild"
     paths:
     - "src/**"
-    - "!src/requirements.txt"
     - "!src/README.md"
   workflow_run:
     workflows:
@@ -31,7 +30,7 @@ jobs:
         username: ${{ secrets.PUSH_PACKAGE_USERNAME }}
         password: ${{ secrets.PUSH_PACKAGE_TOKEN }}
     - name: Build container
-      run: docker build . --file src/Dockerfile --tag ghcr.io/uh-ci/${{ env.CONTAINER_NAME }}:${{ env.TAG }}
+      run: docker build src --tag ghcr.io/uh-ci/${{ env.CONTAINER_NAME }}:${{ env.TAG }}
     - name: Tag the container as latest
       run: docker tag ghcr.io/uh-ci/${{ env.CONTAINER_NAME }}:${{ env.TAG }} ghcr.io/uh-ci/${{ env.CONTAINER_NAME }}:latest
     - name: Push the container
