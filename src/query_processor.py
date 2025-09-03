@@ -97,33 +97,16 @@ USER QUERY: "{user_query}"
 
 Analyze the user's query and provide a structured response with:
 
-1. INTENT: What is the user trying to accomplish? Examples:
-   - "find courses" (educational queries)
-   - "compare programs" (educational queries)
-   - "create fiscal note" (budget/financial analysis)
-   - "analyze budget impact" (budget/financial analysis)
-   - "search documents" (general information retrieval)
-   - "generate report" (document analysis/synthesis)
+1. TARGET_COLLECTIONS: Which collections should be searched? Choose from: {', '.join(self.collection_names)}
 
-2. QUERY_TYPE: Classify the query type:
-   - "educational" (courses, programs, requirements)
-   - "fiscal_analysis" (budget items, fiscal notes, financial impact)
-   - "document_search" (general information retrieval)
-   - "data_analysis" (analytical or comparative queries)
-   - "report_generation" (creating structured outputs)
+2. SEARCH_TERMS: Generate 3-5 specific search terms or phrases that would help find relevant documents. This may consist of:
 
-3. TARGET_COLLECTIONS: Which collections should be searched? Choose from: {', '.join(self.collection_names)}
+- Specific terms from the user query
+- Bill numbers, statutes, or specific identifiers
+- numbers, dates, or ranges
+- budget items, appropriations, program IDs, dollar amounts
 
-4. SEARCH_TERMS: Generate 3-5 specific search terms or phrases that would help find relevant documents. Think about:
-   - Key concepts from the query
-   - Synonyms and related terms
-   - Domain-specific terminology that might appear in documents
-   - For fiscal queries: budget items, appropriations, program IDs, dollar amounts
-   - For educational queries: course codes, program names, requirements
-
-5. SEARCH_STRATEGY: Brief explanation of how to approach this search
-
-6. OUTPUT_FORMAT: What type of response would be most helpful?
+3. OUTPUT_FORMAT: What type of response would be most helpful?
    - "informational" (explanatory text)
    - "structured_data" (tables, lists, formatted data)
    - "analysis" (comparative analysis or synthesis)
@@ -131,13 +114,9 @@ Analyze the user's query and provide a structured response with:
 
 Respond in JSON format:
 {{
-    "intent": "brief description of user intent",
-    "query_type": "one of: educational, fiscal_analysis, document_search, data_analysis, report_generation",
     "target_collections": ["collection1", "collection2"],
     "search_terms": ["term1", "term2", "term3"],
-    "search_strategy": "explanation of search approach",
     "output_format": "one of: informational, structured_data, analysis, template",
-    "confidence": "high/medium/low"
 }}
 """
         
