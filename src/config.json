@@ -1,26 +1,54 @@
 {
-  "collections": ["courses", "programs", "combined_pathways"],
-  "default_collection": "courses",
+  "collections": ["budget", "text", "fiscal", "budget_worksheet", "text_worksheet_items", "hawaii_statutes"],
+  "default_collection": "budget",
   "ingestion_configs": [
     {
-      "collection_name": "courses",
-      "source_file": "UH-Manoa_courses.json",
-      "contents_to_embed": ["course_id", "subject", "title", "description", "credits", "prerequisites", "program", "department", "institution"]
+      "collection_name": "budget",
+      "original_document_dir": "./documents/storage_documents/budget",
+      "source_file": "./documents/chunked_text/budget/budget_items.json",
+      "contents_to_embed": ["program", "program_id", "expending_agency_expanded", "document_name", "appropriations_mof_2025_2026_expanded", "appropriations_mof_2026_2027_expanded"],
+      "description": "Budget items represent the appropriation bill for the state of Hawaii. The collection consists of 4 documents, HB300, HB300_HD1, HB300_SD1, and HB300_CD1,"
     },
     {
-      "collection_name": "programs", 
-      "source_file": "UH-Manoa-programs.json",
-      "contents_to_embed": ["name", "program", "department", "college", "institution", "course_count", "courses"]
+      "collection_name": "text", 
+      "original_document_dir": "./documents/storage_documents/budget",
+      "source_file": "./documents/chunked_text/budget/text_items.json",
+      "contents_to_embed": ["text"],
+      "description": "Text items represent the text of the appropriation bill for the state of Hawaii. The collection consists of 4 documents, HB300, HB300_HD1, HB300_SD1, and HB300_CD1,"
     },
     {
-        "collection_name": "combined_pathways", 
-        "source_file": "combined_pathways.json",
-        "contents_to_embed": ["program_name", "institution", "total_credits", "years"]
+        "collection_name": "fiscal",
+        "original_document_dir": "./documents/storage_documents/fiscal_notes",
+        "source_file": "./documents/chunked_text/fiscal_notes/fiscal_notes.json",
+        "contents_to_embed": ["text"],
+        "description": "Fiscal notes represents a guideline on creating fiscal notes."
+    },
+    {
+        "collection_name": "budget_worksheet", 
+        "original_document_dir": "./documents/storage_documents/budget_worksheet",
+        "source_file": "./documents/chunked_text/budget_worksheet/budget_worksheet_items.json",
+        "contents_to_embed": ["program", "program_name", "subject_committee", "explanation", "worksheet_title", "program_expanded"],
+        "description": "Budget worksheet items represent the budget worksheet for the state of Hawaii. These consists of explanations of budgets and how the money is allocated."
+    },
+    {
+        "collection_name": "text_worksheet_items", 
+        "original_document_dir": "./documents/storage_documents/text_worksheet_items",
+        "source_file": "./documents/chunked_text/text_worksheet_items/text_worksheet_items.json",
+        "contents_to_embed": ["text"],
+        "description": "Text worksheet items represent the text of the budget worksheet for the state of Hawaii. These consists of explanations of budgets and how the money is allocated."
+    },
+    {
+        "collection_name": "hawaii_statutes", 
+        "original_document_dir": "./documents/storage_documents/hawaii_statutes",
+        "source_file": "./documents/chunked_text/hawaii_statutes/hawaii_statutes.json",
+        "contents_to_embed": ["text"],
+        "description": "Hawaii statutes represent the statutes of the state of Hawaii. Use this collection to find information about the state of Hawaii and its laws."
     }
+
   ],
   "search": {
-    "default_results": 5,
-    "max_results": 100,
+    "default_results": 50,
+    "max_results": 300,
     "supported_search_types": ["semantic", "metadata", "both"]
   },
   "api": {
@@ -42,7 +70,7 @@
     "llm_max_tokens": 1000,
     "chunk_size": 1000,
     "chunk_overlap": 200,
-    "default_k": 5,
+    "default_k": 50,
     "max_k": 20,
     "batch_size": 10,
     "max_workers": 4,
