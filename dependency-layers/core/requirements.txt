@@ -38,19 +38,10 @@ pyyaml
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 
-# Testing
-pytest
-pytest-asyncio
-
 # Utilities
 tqdm
 click
 colorama
-
-# Development Tools
-black
-flake8
-isort
 
 # Additional dependencies
 python-multipart==0.0.6
@@ -66,3 +57,5 @@ google-api-python-client
 google_auth
 google-auth-oauthlib
 google-auth-httplib2
+
+

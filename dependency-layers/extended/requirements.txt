@@ -1,0 +1,8 @@
+# Testing
+pytest
+pytest-asyncio
+
+# Development Tools
+black
+flake8
+isort
