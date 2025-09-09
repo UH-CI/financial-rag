@@ -1,4 +1,4 @@
-FROM ghcr.io/uh-ci/rag-system-extended-dependencies:latest
+FROM ghcr.io/UH-CI/rag-system-extended-dependencies:latest
 
 # Set working directory
 WORKDIR /src
