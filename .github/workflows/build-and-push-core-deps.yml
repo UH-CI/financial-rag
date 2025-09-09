@@ -6,7 +6,7 @@ on:
     - "main"
     paths:
     - ".github/workflows/build-and-push-core-deps.yml"
-    - "dependency-layers/extended/**"
+    - "dependency-layers/core/**"
   workflow_dispatch:
 
 jobs:
