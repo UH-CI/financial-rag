@@ -3,13 +3,13 @@ name: build_and_push_src
 on:
   push:
     branches:
-    - "fin_autobuild"
+    - "main"
     paths:
     - "src/**"
     - "!src/README.md"
   workflow_run:
     workflows:
-      - build_and_push_deps
+      - build_and_push_extended_deps
     types:
       - completed
   workflow_dispatch:
