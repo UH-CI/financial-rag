@@ -30,6 +30,7 @@ from settings import Settings
 from documents.embeddings import DynamicChromeManager
 from query_processor import QueryProcessor
 from langgraph_agent import LangGraphRAGAgent
+from chatbot_engine.nlp_backend import NLPBackend
 
 # Load configuration
 def load_config() -> Dict[str, Any]:
@@ -69,6 +70,17 @@ for collection_name in collection_names:
 
 # Initialize query processor with collection managers and config
 query_processor = QueryProcessor(collection_managers, config)
+
+# Initialize NLP Backend
+try:
+    nlp_backend = NLPBackend(collection_managers, config)
+    print("✅ NLP Backend initialized successfully")
+    USE_NLP_BACKEND = True
+except Exception as e:
+    print(f"⚠️  NLP Backend initialization failed: {e}")
+    print("🔄 Falling back to traditional QueryProcessor")
+    nlp_backend = None
+    USE_NLP_BACKEND = False
 
 # Initialize LangGraph RAG Agent
 try:
@@ -285,7 +297,12 @@ def search_relevant_documents(query: str, collections: Optional[List[str]] = Non
 
 @app.get("/")
 async def root():
-    processing_method = "LangGraph Agentic Workflow" if USE_LANGGRAPH else "Multi-step Reasoning"
+    if USE_NLP_BACKEND:
+        processing_method = "Advanced NLP Backend (6-step pipeline)"
+    elif USE_LANGGRAPH:
+        processing_method = "LangGraph Agentic Workflow"
+    else:
+        processing_method = "Multi-step Reasoning"
     
     return {
         "message": f"Welcome to {config['api']['title']}",
@@ -293,13 +310,21 @@ async def root():
         "available_collections": collection_names,
         "processing_method": processing_method,
         "features": [
-            "🤖 Agentic query processing with LangGraph tools" if USE_LANGGRAPH else "Multi-step query processing with reasoning",
-            "🔍 Intelligent tool-based document search" if USE_LANGGRAPH else "Semantic search across collections",
+            "🧠 Advanced NLP Backend with 6-step pipeline" if USE_NLP_BACKEND else ("🤖 Agentic query processing with LangGraph tools" if USE_LANGGRAPH else "Multi-step query processing with reasoning"),
+            "🔍 LLM-guided retrieval method selection" if USE_NLP_BACKEND else ("Intelligent tool-based document search" if USE_LANGGRAPH else "Semantic search across collections"),
             "📊 Dynamic context building and analysis",
             "📚 Document ingestion and management",
             "📈 Collection statistics and management"
         ],
         "endpoints": ["/search", "/query", "/ingest", "/reset", "/collections"],
+        "nlp_backend_features": [
+            "LLM-guided document retrieval decisions",
+            "Intelligent query generation and method selection",
+            "4 retrieval methods: keyword, dense encoder, BM25, multi-hop",
+            "Conversation state management and follow-up detection",
+            "LLM-based reranking for improved precision",
+            "Context-aware answer generation with history"
+        ] if USE_NLP_BACKEND else None,
         "agentic_features": [
             "Query analysis and intent detection",
             "Strategic tool-based search execution", 
@@ -431,27 +456,41 @@ async def search_documents(request: SearchRequest):
 async def query_documents(request: QueryRequest):
     """Advanced query processing with agentic LangGraph workflow or multi-step reasoning fallback"""
     try:
-        # if USE_LANGGRAPH and langgraph_agent is not None:
-        #     # Use LangGraph RAG Agent (agentic approach)
-        #     print(f"🤖 Using LangGraph Agent for query: '{request.query}'")
-        #     result = langgraph_agent.process_query(request.query, threshold=request.threshold)
-            
-        #     # Add metadata about the request
-        #     result["query"] = request.query
-        #     result["collections_available"] = collection_names
-        #     result["processing_method"] = "langgraph-agentic"
-        #     result["threshold_used"] = request.threshold
-            
-        # else:
-        # Fallback to traditional multi-step query processor
-        print(f"🔄 Using traditional QueryProcessor for query: '{request.query}'")
-        result = query_processor.process_query(request.query, threshold=request.threshold)
+        # Use conversation ID from request or generate one
+        conversation_id = request.conversation_id or f"api_session_{hash(request.query) % 10000}"
         
-        # Add metadata about the request
-        result["query"] = request.query
-        result["collections_available"] = collection_names
-        result["processing_method"] = "multi-step-reasoning"
-        result["threshold_used"] = request.threshold
+        if USE_NLP_BACKEND and nlp_backend is not None:
+            # Use Advanced NLP Backend (6-step pipeline)
+            print(f"🧠 Using NLP Backend for query: '{request.query}'")
+            result = nlp_backend.process_query(request.query, conversation_id=conversation_id)
+            
+            # Add metadata about the request
+            result["query"] = request.query
+            result["collections_available"] = collection_names
+            result["processing_method"] = "nlp-backend-6-step"
+            result["conversation_id"] = conversation_id
+            
+        elif USE_LANGGRAPH and langgraph_agent is not None:
+            # Use LangGraph RAG Agent (agentic approach)
+            print(f"🤖 Using LangGraph Agent for query: '{request.query}'")
+            result = langgraph_agent.process_query(request.query, threshold=request.threshold)
+            
+            # Add metadata about the request
+            result["query"] = request.query
+            result["collections_available"] = collection_names
+            result["processing_method"] = "langgraph-agentic"
+            result["threshold_used"] = request.threshold
+            
+        else:
+            # Fallback to traditional multi-step query processor
+            print(f"🔄 Using traditional QueryProcessor for query: '{request.query}'")
+            result = query_processor.process_query(request.query, threshold=request.threshold)
+            
+            # Add metadata about the request
+            result["query"] = request.query
+            result["collections_available"] = collection_names
+            result["processing_method"] = "multi-step-reasoning"
+            result["threshold_used"] = request.threshold
         
         return result
                             
@@ -459,6 +498,34 @@ async def query_documents(request: QueryRequest):
         raise HTTPException(status_code=500, detail=f"Error processing query: {str(e)}")
 
 
+# NLP Backend conversation management endpoints
+@app.get("/conversation/{conversation_id}")
+async def get_conversation_state(conversation_id: str):
+    """Get the current state of a conversation (NLP Backend only)"""
+    if not USE_NLP_BACKEND or nlp_backend is None:
+        raise HTTPException(status_code=404, detail="NLP Backend not available")
+    
+    try:
+        state = nlp_backend.get_conversation_state(conversation_id)
+        return state
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error getting conversation state: {str(e)}")
+
+@app.delete("/conversation/{conversation_id}")
+async def reset_conversation(conversation_id: str):
+    """Reset a conversation state (NLP Backend only)"""
+    if not USE_NLP_BACKEND or nlp_backend is None:
+        raise HTTPException(status_code=404, detail="NLP Backend not available")
+    
+    try:
+        success = nlp_backend.reset_conversation(conversation_id)
+        return {
+            "success": success, 
+            "conversation_id": conversation_id, 
+            "message": "Conversation reset successfully" if success else "Conversation not found"
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error resetting conversation: {str(e)}")
 
 
 @app.post("/step2-chunking")

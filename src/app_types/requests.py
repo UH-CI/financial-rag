@@ -22,7 +22,9 @@ class SearchRequest(BaseModel):
 class QueryRequest(BaseModel):
     query: str = Field(..., description="User query")
     collections: Optional[List[str]] = Field(default=None, description="Collections to search in")
-    threshold: float = Field(default=0.0, ge=0.0, le=1.0, description="Similarity threshold (0.0 to 1.0) - only return documents with similarity scores above this threshold")
+    threshold: float = Field(default=0.5, ge=0.0, le=1.0, description="Similarity threshold (0.0 to 1.0) - only return documents with similarity scores above this threshold")
+    source_references: Optional[List[Dict[str, Any]]] = None
+    conversation_id: Optional[str] = None
 
 class DocumentResponse(BaseModel):
     content: str

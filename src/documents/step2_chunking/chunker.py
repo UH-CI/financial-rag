@@ -6,6 +6,7 @@ a simple sliding window method or an advanced AI-powered extraction method.
 import json
 import logging
 import os
+import re
 from datetime import datetime
 from typing import List, Dict, Any, Optional
 
@@ -47,23 +48,94 @@ def _call_llm_for_extraction(prompt: str) -> List[Dict[str, Any]]:
 # --- End LLM Placeholders ---
 
 
-def _simple_chunker(text: str, chunk_size: int, overlap: int) -> List[str]:
+def _split_into_sentences(text: str) -> List[str]:
+    """
+    Splits text into sentences using regex patterns.
+    Handles common sentence endings and abbreviations.
+    """
+    # Pattern to match sentence endings while avoiding common abbreviations
+    sentence_pattern = r'(?<![A-Z][a-z]\.)|(?<![A-Z]\.)|(?<=\w[.!?])\s+(?=[A-Z])'
+    
+    # Split by the pattern and filter out empty strings
+    sentences = [s.strip() for s in re.split(sentence_pattern, text) if s.strip()]
+    
+    # If no sentences found, return the original text as a single sentence
+    if not sentences:
+        return [text] if text.strip() else []
+    
+    return sentences
+
+
+def _simple_chunker(text: str, chunk_size: int, overlap: int, use_sentence: bool = False) -> List[str]:
     """
     Splits a text into overlapping chunks using a sliding window.
+    
+    Args:
+        text: The text to chunk
+        chunk_size: Maximum size of each chunk in characters
+        overlap: Number of characters to overlap between chunks
+        use_sentence: If True, preserves sentence boundaries when possible
     """
     if not text:
         return []
     if len(text) <= chunk_size:
         return [text]
     
+    if not use_sentence:
+        # Original simple chunking logic
+        chunks = []
+        start = 0
+        while start < len(text):
+            end = start + chunk_size
+            chunks.append(text[start:end])
+            if end >= len(text):
+                break
+            start += (chunk_size - overlap)
+        return chunks
+    
+    # Sentence-aware chunking
+    sentences = _split_into_sentences(text)
     chunks = []
-    start = 0
-    while start < len(text):
-        end = start + chunk_size
-        chunks.append(text[start:end])
-        if end >= len(text):
-            break
-        start += (chunk_size - overlap)
+    current_chunk = ""
+    
+    i = 0
+    while i < len(sentences):
+        sentence = sentences[i]
+        
+        # If adding this sentence would exceed chunk_size and we have content
+        if current_chunk and len(current_chunk) + len(sentence) + 1 > chunk_size:
+            # Save current chunk
+            chunks.append(current_chunk.strip())
+            
+            # Start new chunk with overlap if possible
+            if overlap > 0 and chunks:
+                # Find sentences to include for overlap
+                overlap_text = ""
+                temp_sentences = current_chunk.strip().split('. ')
+                
+                # Add sentences from the end until we reach overlap limit
+                for j in range(len(temp_sentences) - 1, -1, -1):
+                    test_overlap = '. '.join(temp_sentences[j:]) + ('. ' if j < len(temp_sentences) - 1 else '')
+                    if len(test_overlap) <= overlap:
+                        overlap_text = test_overlap
+                        break
+                
+                current_chunk = overlap_text
+            else:
+                current_chunk = ""
+        
+        # Add sentence to current chunk
+        if current_chunk:
+            current_chunk += " " + sentence
+        else:
+            current_chunk = sentence
+            
+        i += 1
+    
+    # Add the last chunk if it has content
+    if current_chunk.strip():
+        chunks.append(current_chunk.strip())
+    
     return chunks
 
 
@@ -81,6 +153,7 @@ def chunk_document(
     # Non-AI (simple chunking) parameters
     chunk_size: int = 1000, # N: Character count for simple chunking
     overlap: int = 100,     # J: Character overlap for simple chunking
+    use_sentence: bool = False, # Whether to preserve sentence boundaries in simple chunking
 ):
     """
     Chunks a document from an extracted text JSON using either simple or AI-powered methods.
@@ -101,6 +174,7 @@ def chunk_document(
         -- Simple Chunker Parameters --
         chunk_size: Size of each chunk in characters.
         overlap: Number of characters to overlap between chunks.
+        use_sentence: If True, preserves sentence boundaries when chunking (simple chunking only).
     """
     # --- Parameter Validation ---
     if use_ai:
@@ -117,13 +191,6 @@ def chunk_document(
     # Assume the JSON structure is a list of pages/documents, each with various text extraction methods
     pages_data = data if isinstance(data, list) else [data]
     
-    # Extract source identifier from the first document using the specified identifier field
-    source_identifier = "unknown_source"
-    if pages_data and identifier in pages_data[0]:
-        source_identifier = pages_data[0][identifier]
-        # If it's a URL, extract a meaningful filename
-        if identifier == 'url' and isinstance(source_identifier, str):
-            source_identifier = source_identifier.split('/')[-1] or source_identifier.split('/')[-2] or source_identifier
     final_results = []
 
     if use_ai:
@@ -135,6 +202,14 @@ def chunk_document(
             logger.info(f"Using rewritten prompt: {effective_prompt}")
         
         for i, page in enumerate(pages_data):
+            # Extract source identifier from current document
+            page_source_identifier = "unknown_source"
+            if identifier in page:
+                page_source_identifier = page[identifier]
+                # If it's a URL, extract a meaningful filename
+                if identifier == 'url' and isinstance(page_source_identifier, str):
+                    page_source_identifier = page_source_identifier.split('/')[-1] or page_source_identifier.split('/')[-2] or page_source_identifier
+            
             # 1. Assemble context from previous pages
             context_start_index = max(0, i - previous_pages_to_include)
             context_pages = pages_data[context_start_index:i]
@@ -173,30 +248,45 @@ def chunk_document(
             # 5. Call LLM and add metadata to results
             extracted_items = _call_llm_for_extraction(full_prompt)
             for item in extracted_items:
-                item['source_identifier'] = source_identifier
+                item['source_identifier'] = page_source_identifier
                 item['source_page'] = page.get('page_number', i)
             final_results.extend(extracted_items)
 
     else:
         logger.info("Starting simple sliding-window chunking...")
-        # 1. Concatenate all text from the chosen methods
-        full_text = "\n".join(
-            "\n".join(page.get(method, "") for method in chosen_methods)
-            for page in pages_data
-        )
         
-        # 2. Chunk the combined text
-        text_chunks = _simple_chunker(full_text, chunk_size, overlap)
-        
-        # 3. Structure the output
-        for i, chunk in enumerate(text_chunks):
-            final_results.append({
-                "chunk_id": i,
-                "text": chunk,
-                "source_identifier": source_identifier,
-                "chunking_method": "simple_sliding_window",
-                "source_extraction_methods": chosen_methods
-            })
+        # Process each document separately to maintain proper source identifiers
+        chunk_id_counter = 0
+        for page in pages_data:
+            # Extract source identifier from current document
+            page_source_identifier = "unknown_source"
+            if identifier in page:
+                page_source_identifier = page[identifier]
+                # If it's a URL, extract a meaningful filename
+                if identifier == 'url' and isinstance(page_source_identifier, str):
+                    page_source_identifier = page_source_identifier.split('/')[-1] or page_source_identifier.split('/')[-2] or page_source_identifier
+            
+            # Get text from current document
+            page_text = "\n".join(page.get(method, "") for method in chosen_methods)
+            if not page_text.strip():
+                continue
+            
+            # Chunk the current document's text
+            text_chunks = _simple_chunker(page_text, chunk_size, overlap, use_sentence)
+            
+            # Structure the output with proper source identifier for each chunk
+            chunking_method = "sentence_aware_chunking" if use_sentence else "simple_sliding_window"
+            for chunk in text_chunks:
+                final_results.append({
+                    "chunk_id": chunk_id_counter,
+                    "text": chunk,
+                    "source_identifier": page_source_identifier,
+                    "chunking_method": chunking_method,
+                    "source_extraction_methods": chosen_methods,
+                    "sentence_preserved": use_sentence,
+                    "source_page": page.get('page_number', len(final_results))
+                })
+                chunk_id_counter += 1
 
     # --- Save Final Results ---
     with open(output_json_path, 'w', encoding='utf-8') as f:
@@ -213,11 +303,12 @@ def chunk_document(
             "identifier": identifier,
             "use_ai": use_ai,
             "chunk_size": chunk_size,
-            "overlap": overlap
+            "overlap": overlap,
+            "use_sentence": use_sentence
         },
         "results": {
             "total_chunks": len(final_results),
-            "source_identifier": source_identifier,
+            "source_identifier": identifier,
             "input_documents_count": len(pages_data)
         }
     }
@@ -232,7 +323,7 @@ def chunk_document(
         })
         metadata["results"]["chunking_method"] = "ai_extraction"
     else:
-        metadata["results"]["chunking_method"] = "simple_sliding_window"
+        metadata["results"]["chunking_method"] = "sentence_aware_chunking" if use_sentence else "simple_sliding_window"
         
         # Calculate text statistics for simple chunking
         if final_results:
@@ -261,21 +352,37 @@ if __name__ == '__main__':
     # The logger is already configured at the top level, so no need to reconfigure here.
     
     # Create a dummy input file for testing
-    input_path = "../step1_text_extraction/output/bills.json"
-    output_path = "../step2_chunking/output/bills_chunked.json"
+    input_path = "../extracted_text/bills/filtered_documents.json"
+    output_path = "../chunked_text/bills/bills_chunked.json"
 
-    # --- Example 1: Simple Chunker ---
-    logger.info("--- Running Simple Chunker Example ---")
+    # # --- Example 1: Simple Chunker --- ## THIS IS BROKEN. DO NOT USE use_sentence
+    # logger.info("--- Running Simple Chunker Example ---")
+    # chunk_document(
+    #     input_json_path=input_path,
+    #     output_json_path=output_path,
+    #     chosen_methods=['text'],  # Use 'text' field from your JSON
+    #     identifier='url',         # Use 'url' field as source identifier
+    #     use_ai=False,
+    #     chunk_size=15000,
+    #     overlap=500,
+    #     use_sentence=True  # Enable sentence preservation
+    # )
+    # print(f"Simple chunking output saved to {output_path}")
+    
+    # --- Example 1b: Simple Chunker without sentence preservation ---
+    logger.info("--- Running Simple Chunker Example (No Sentence Preservation) ---")
+    output_path_no_sentence = output_path.replace('.json', '_no_sentence.json')
     chunk_document(
         input_json_path=input_path,
-        output_json_path=output_path,
+        output_json_path=output_path_no_sentence,
         chosen_methods=['text'],  # Use 'text' field from your JSON
         identifier='url',         # Use 'url' field as source identifier
         use_ai=False,
-        chunk_size=1000,
-        overlap=200
+        chunk_size=15000,
+        overlap=500,
+        use_sentence=False  # Disable sentence preservation
     )
-    print(f"Simple chunking output saved to {output_path}")
+    print(f"Simple chunking (no sentence preservation) output saved to {output_path_no_sentence}")
 
     # # --- Example 2: AI Chunker ---
     # logger.info("--- Running AI Chunker Example ---")

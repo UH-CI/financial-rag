@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { MessageSquare, AlertCircle, Loader2, FileText } from 'lucide-react';
 // import CollectionsSidebar from './components/CollectionsSidebar';
-import ChatInterface from './components/ChatInterface';
+import { ConversationChat } from './components/ConversationChat';
 import CreateGroupModal from './components/CreateGroupModal';
 import FiscalNoteGeneration from './components/FiscalNoteGeneration';
 import BillFiscalNote from './components/BillFiscalNote';
@@ -54,7 +54,7 @@ function App() {
   // Handle sending a message
   const handleSendMessage = useCallback(async (messageText: string) => {
     const userMessage: ChatMessage = {
-      id: `user_${Date.now()}`,
+      id: `user_${Date.now()}a`,
       type: 'user',
       content: messageText,
       timestamp: new Date(),
@@ -203,7 +203,7 @@ function App() {
                   <FileText className="w-4 h-4 inline mr-2" />
                   Fiscal Note
                 </button> */}
-                <button
+                {/* <button
                   onClick={() => setCurrentView('bill-fiscal-note')}
                   className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
                     currentView === 'bill-fiscal-note'
@@ -213,7 +213,7 @@ function App() {
                 >
                   <FileText className="w-4 h-4 inline mr-2" />
                   Bill Fiscal Note
-                </button>
+                </button> */}
               </nav>
               
               {/* Status Indicator */}
@@ -288,11 +288,7 @@ function App() {
               </div>
             </div>
           ) : (
-              <ChatInterface
-                messages={messages}
-                onSendMessage={handleSendMessage}
-                loading={loading}
-              />
+              <ConversationChat className="h-full" />
             )
           )}
         </div>
