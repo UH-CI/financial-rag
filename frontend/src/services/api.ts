@@ -94,21 +94,32 @@ export const searchDocuments = async (
  * Ask a question and get an AI-generated answer across all collections
  */
 export const askQuestion = async (
-  question: string
+  question: string,
+  conversationId?: string,
+  sourceReferences?: any[]
 ): Promise<QuestionResponse> => {
-  const response = await api.post('/query', {
+  const requestBody: any = {
     query: question,
-    // Don't specify collections - let it search across all collections
     threshold: 0,  // Default threshold for similarity filtering
-  },{
-    timeout: 300000, // 24 seconds
+  };
+
+  // Add conversation context if provided
+  if (conversationId) {
+    requestBody.conversation_id = conversationId;
+  }
+  if (sourceReferences && sourceReferences.length > 0) {
+    requestBody.source_references = sourceReferences;
+  }
+
+  const response = await api.post('/query', requestBody, {
+    timeout: 300000, // 5 minutes for complex queries
   });
 
   // Transform the backend response to match our frontend types
   const backendData = response.data;
   
   return {
-    answer: backendData.response || 'No answer available',
+    answer: backendData.answer || 'No answer available',
     sources: (backendData.sources || []).map((source: any) => ({
       id: source.metadata?.id || `source_${Math.random()}`,
       content: source.content,
@@ -117,6 +128,9 @@ export const askQuestion = async (
     })),
     query: question,
     collection: 'all', // Indicate it searched across all collections
+    conversation_id: backendData.conversation_id,
+    immediate_response: backendData.immediate_response,
+    processing_time: backendData.processing_time,
   };
 };
 

@@ -5,6 +5,7 @@ Integrates ChromaDB with Google AI embeddings for document storage and retrieval
 
 import os
 import time
+import json
 from typing import List, Dict, Any, Optional, Tuple
 import chromadb
 from chromadb.config import Settings

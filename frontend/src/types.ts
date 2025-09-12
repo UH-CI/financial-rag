@@ -38,6 +38,9 @@ export interface QuestionResponse {
   sources: SearchResult[];
   query: string;
   collection: string;
+  conversation_id?: string;
+  immediate_response?: boolean;
+  processing_time?: number;
 }
 
 export interface ChatMessage {
@@ -48,6 +51,15 @@ export interface ChatMessage {
   collection?: string;
   sources?: SearchResult[];
   isLoading?: boolean;
+  conversation_id?: string;
+}
+
+export interface ConversationState {
+  conversation_id: string;
+  messages: ChatMessage[];
+  source_references: any[];
+  created_at: Date;
+  last_updated: Date;
 }
 
 export interface ApiError {
