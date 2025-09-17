@@ -181,7 +181,7 @@ Respond in JSON format:
         
         # Search with each term across target collections
         # Use a high num_results to get more candidates for threshold filtering
-        max_candidates = 150  # Get more results to filter by threshold
+        max_candidates = 5  # Get more results to filter by threshold
         
         for search_term in search_terms:
             for collection_name in target_collections:
