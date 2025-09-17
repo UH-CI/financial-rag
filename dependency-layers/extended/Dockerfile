@@ -1,4 +1,4 @@
-FROM rag-system-core-dependencies:latest
+FROM ghcr.io/uh-ci/rag-system-core-dependencies:latest
 
 
 # Copy requirements and install Python dependencies
