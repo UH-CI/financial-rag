@@ -38,3 +38,6 @@ src/chroma_db/
 /text_extraction_methods/fiscal_note_gen
 /src/neo4j_credentials.txt
 /src/src
+
+/k8s-deployment.yaml
+/k8s-secrets.yaml
