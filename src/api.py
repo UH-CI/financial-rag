@@ -1,4 +1,5 @@
-from fastapi import FastAPI, HTTPException, Query, Form, File, UploadFile, Request
+from fastapi import FastAPI, HTTPException, Query, Form, File, UploadFile, Request, BackgroundTasks, WebSocket, WebSocketDisconnect
+import asyncio
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
 from typing import List, Dict, Any, Optional, Union
@@ -12,6 +13,16 @@ from datetime import datetime
 from documents.step0_document_upload.web_scraper import ai_crawler
 from typing import Generator
 from fastapi.templating import Jinja2Templates
+
+from fiscal_notes.generation.step1_get_context import fetch_documents
+from fiscal_notes.generation.step2_reorder_context import reorder_documents
+from fiscal_notes.generation.step3_retrieve_docs import retrieve_documents
+from fiscal_notes.generation.step4_get_numbers import extract_number_context
+from fiscal_notes.generation.step5_fiscal_note_gen import generate_fiscal_notes
+
+import shutil
+from enum import Enum
+
 
 from app_types.requests import (
     CollectionRequest, SearchRequest, QueryRequest,
@@ -1007,95 +1018,408 @@ async def debug_managers():
 
 
 # Ordered list of fiscal note JSON files
-fiscal_note_files = [
-    "HB400.json",
-    "HB400_HSCR286_.json",
-    "HB400_HD1_HSCR1171_.json",
-    "HB400_SD1_SSCR1253_.json",
-    "HB400_SD2_SSCR1841_.json",
-        "HB400_CD1_CCR157_.json"
-]
+# fiscal_note_files = [
+#     "HB400.json",
+#     "HB400_HSCR286_.json",
+#     "HB400_HD1_HSCR1171_.json",
+#     "HB400_SD1_SSCR1253_.json",
+#     "HB400_SD2_SSCR1841_.json",
+#         "HB400_CD1_CCR157_.json"
+# ]
 
-timeline_data = [
-    {'date': '1/16/2025', 'text': 'Pending introduction.', 'documents': []},
-    {'date': '1/17/2025', 'text': 'Introduced and Pass First Reading.', 'documents': ['HB400.json']},
-    {'date': '1/21/2025', 'text': 'Referred to JHA, FIN, referral sheet 1', 'documents': []},
-    {'date': '1/24/2025', 'text': 'Bill scheduled to be heard by JHA on Thursday, 01-30-25 2:00PM in House conference room 325 VIA VIDEOCONFERENCE.', 'documents': ['HB400_TESTIMONY_JHA_01-30-25_.json']},
-    {'date': '1/30/2025', 'text': 'The committee on JHA recommend that the measure be PASSED, UNAMENDED. The votes were as follows: 8 Ayes: Representative(s) Tarnas, Poepoe, Belatti, Kahaloa, Perruso, Takayama, Garcia, Shimizu; Ayes with reservations: none;  Noes: none; and 3 Excused: Representative(s) Cochran, Hashem, Todd.', 'documents': []},
-    {'date': '2/10/2025', 'text': 'Reported from JHA (Stand. Com. Rep. No. 286), recommending passage on Second Reading and referral to FIN.', 'documents': ['HB400_HSCR286_.json']},
-    {'date': '2/10/2025', 'text': 'Passed Second Reading and referred to the committee(s) on FIN with none voting aye with reservations; none voting no (0) and Representative(s) Belatti, Cochran, Kila, Ward excused (4).', 'documents': []},
-    {'date': '3/3/2025', 'text': 'Bill scheduled to be heard by FIN on Wednesday, 03-05-25 9:00AM in House conference room 308 VIA VIDEOCONFERENCE.', 'documents': ['HB400_TESTIMONY_FIN_03-05-25_.json']},
-    {'date': '3/5/2025', 'text': 'The committee on FIN recommend that the measure be PASSED, WITH AMENDMENTS. The votes were as follows: 14 Ayes: Representative(s) Yamashita, Takenouchi, Grandinetti, Holt, Keohokapu-Lee Loy, Kitagawa, Kusch, Lamosao, Lee, M., Miyake, Morikawa, Templo, Alcos, Reyes Oda; Ayes with reservations: none;  Noes: none; and 2 Excused: Representative(s) Hussey, Ward.', 'documents': []},
-    {'date': '3/10/2025', 'text': 'Reported from FIN (Stand. Com. Rep. No. 1171) as amended in HD 1, recommending passage on Third Reading.', 'documents': ['HB400_HD1.json', 'HB400_HD1_HSCR1171_.json']},
-    {'date': '3/10/2025', 'text': 'Forty-eight (48) hours notice Wednesday,  03-12-25.', 'documents': []},
-    {'date': '3/12/2025', 'text': 'Passed Third Reading as amended in HD 1 with none voting aye with reservations; none voting no (0) and Representative(s) Alcos, Cochran, Holt, Sayama, Ward excused (5).  Transmitted to Senate.', 'documents': []},
-    {'date': '3/13/2025', 'text': 'Received from House (Hse. Com. No. 382).', 'documents': []},
-    {'date': '3/13/2025', 'text': 'Passed First Reading.', 'documents': []},
-    {'date': '3/13/2025', 'text': 'Referred to JDC, WAM.', 'documents': []},
-    {'date': '3/14/2025', 'text': 'The committee(s) on JDC has scheduled a public hearing on 03-19-25 9:45AM; Conference Room 016 & Videoconference.', 'documents': ['HB400_HD1_TESTIMONY_JDC_03-19-25_.json']},
-    {'date': '3/19/2025', 'text': 'The committee(s) on  JDC recommend(s) that the measure be PASSED, WITH AMENDMENTS.  The votes in JDC were as follows: 4 Aye(s): Senator(s) Rhoads, Gabbard, San Buenaventura, Awa; Aye(s) with reservations: none ; 0 No(es): none; and 1 Excused: Senator(s) Chang.', 'documents': []},
-    {'date': '3/21/2025', 'text': 'Reported from JDC (Stand. Com. Rep. No. 1253) with recommendation of passage on Second Reading, as amended (SD 1) and referral to WAM.', 'documents': ['HB400_SD1.json', 'HB400_SD1_SSCR1253_.json']},
-    {'date': '3/21/2025', 'text': 'Report adopted; Passed Second Reading, as amended (SD 1) and referred to WAM.', 'documents': []},
-    {'date': '3/24/2025', 'text': 'The committee(s) on WAM will hold a public decision making on 03-31-25 10:01AM; Conference Room 211 & Videoconference.', 'documents': ['HB400_SD1_TESTIMONY_WAM_03-31-25_.json']},
-    {'date': '3/31/2025', 'text': 'The committee(s) on  WAM recommend(s) that the measure be PASSED, WITH AMENDMENTS.  The votes in WAM were as follows: 13 Aye(s): Senator(s) Dela Cruz, Moriwaki, Aquino, DeCoite, Elefante, Hashimoto, Inouye, Kanuha, Kidani, Kim, Lee, C., Wakai, Fevella; Aye(s) with reservations: none ; 0 No(es): none; and 0 Excused: none.', 'documents': []},
-    {'date': '4/4/2025', 'text': 'Reported from WAM (Stand. Com. Rep. No. 1841) with recommendation of passage on Third Reading, as amended (SD 2).', 'documents': ['HB400_SD2.json', 'HB400_SD2_SSCR1841_.json']},
-    {'date': '4/4/2025', 'text': '48 Hrs. Notice 04-08-25.', 'documents': []},
-    {'date': '4/8/2025', 'text': 'Report adopted; Passed Third Reading, as amended (SD  2). Ayes, 25; Aye(s) with reservations: none .  Noes, 0 (none). Excused, 0 (none).  Transmitted to House.', 'documents': []},
-    {'date': '4/8/2025', 'text': 'Returned from Senate (Sen. Com. No.  628) in amended form (SD 2).', 'documents': []},
-    {'date': '4/10/2025', 'text': 'House disagrees with Senate amendment (s).', 'documents': []},
-    {'date': '4/11/2025', 'text': 'Received notice of disagreement (Hse. Com. No. 704).', 'documents': []},
-    {'date': '4/14/2025', 'text': 'House Conferees Appointed: Tarnas, Yamashita Co-Chairs; Poepoe, Takenouchi, Garcia.', 'documents': []},
-    {'date': '4/15/2025', 'text': 'Senate Conferees Appointed: Rhoads Chair; Moriwaki Co-Chair; Awa.', 'documents': []},
-    {'date': '4/15/2025', 'text': 'Received notice of appointment of House conferees (Hse. Com. No. 732).', 'documents': []},
-    {'date': '4/15/2025', 'text': 'Received notice of Senate conferees (Sen. Com. No. 790).', 'documents': []},
-    {'date': '4/16/2025', 'text': 'Bill scheduled for Conference Committee Meeting on Thursday, 04-17-25 3:46PM in conference room 325.', 'documents': []},
-    {'date': '4/17/2025', 'text': 'Conference Committee Meeting will reconvene on Monday 04-21-25 2:05PM in conference room 325.', 'documents': []},
-    {'date': '4/21/2025', 'text': 'The Conference Committee recommends that the measure be Passed, with Amendments. The votes were as follows: 5 Ayes: Representative(s) Tarnas, Yamashita, Poepoe, Takenouchi, Garcia; Ayes with reservations: none; 0 Noes: none; and 0 Excused: none.', 'documents': []},
-    {'date': '4/21/2025', 'text': 'The Conference committee recommends that the measure be PASSED, WITH AMENDMENTS. The votes of the Senate Conference Managers were as follows: 2 Aye(s): Senator(s) Rhoads, Moriwaki; Aye(s) with reservations: none ; 0 No(es): none; and 1 Excused: Senator(s) Awa.', 'documents': []},
-    {'date': '4/21/2025', 'text': 'Conference Committee Meeting will reconvene on Monday, 04-21-25 at 5:10PM in Conference Room 309.', 'documents': []},
-    {'date': '4/25/2025', 'text': 'Reported from Conference Committee (Conf Com. Rep. No. 157) as amended in (CD 1).', 'documents': ['HB400_CD1.json', 'HB400_CD1_CCR157_.json']},
-    {'date': '4/25/2025', 'text': 'Forty-eight (48) hours notice Wednesday, 04-30-25.', 'documents': []},
-    {'date': '4/30/2025', 'text': 'Passed Final Reading, as amended (CD 1). Ayes, 25; Aye(s) with reservations: none . 0 No(es): none.  0 Excused: none.', 'documents': []},
-    {'date': '4/30/2025', 'text': 'Passed Final Reading as amended in CD 1 with none voting aye with reservations; none voting no (0) and Representative(s) Cochran, Pierick excused (2).', 'documents': []},
-    {'date': '5/1/2025', 'text': 'Received notice of Final Reading (Sen. Com. No. 888).', 'documents': []},
-    {'date': '5/1/2025', 'text': 'Transmitted to Governor.', 'documents': []},
-    {'date': '5/2/2025', 'text': 'Received notice of passage on Final Reading in House (Hse. Com. No. 821).', 'documents': []},
-    {'date': '6/26/2025', 'text': 'Act 227, on 06/26/2025 (Gov. Msg. No. 1329).', 'documents': []}
-]
+# timeline_data = [
+#     {'date': '1/16/2025', 'text': 'Pending introduction.', 'documents': []},
+#     {'date': '1/17/2025', 'text': 'Introduced and Pass First Reading.', 'documents': ['HB400.json']},
+#     {'date': '1/21/2025', 'text': 'Referred to JHA, FIN, referral sheet 1', 'documents': []},
+#     {'date': '1/24/2025', 'text': 'Bill scheduled to be heard by JHA on Thursday, 01-30-25 2:00PM in House conference room 325 VIA VIDEOCONFERENCE.', 'documents': ['HB400_TESTIMONY_JHA_01-30-25_.json']},
+#     {'date': '1/30/2025', 'text': 'The committee on JHA recommend that the measure be PASSED, UNAMENDED. The votes were as follows: 8 Ayes: Representative(s) Tarnas, Poepoe, Belatti, Kahaloa, Perruso, Takayama, Garcia, Shimizu; Ayes with reservations: none;  Noes: none; and 3 Excused: Representative(s) Cochran, Hashem, Todd.', 'documents': []},
+#     {'date': '2/10/2025', 'text': 'Reported from JHA (Stand. Com. Rep. No. 286), recommending passage on Second Reading and referral to FIN.', 'documents': ['HB400_HSCR286_.json']},
+#     {'date': '2/10/2025', 'text': 'Passed Second Reading and referred to the committee(s) on FIN with none voting aye with reservations; none voting no (0) and Representative(s) Belatti, Cochran, Kila, Ward excused (4).', 'documents': []},
+#     {'date': '3/3/2025', 'text': 'Bill scheduled to be heard by FIN on Wednesday, 03-05-25 9:00AM in House conference room 308 VIA VIDEOCONFERENCE.', 'documents': ['HB400_TESTIMONY_FIN_03-05-25_.json']},
+#     {'date': '3/5/2025', 'text': 'The committee on FIN recommend that the measure be PASSED, WITH AMENDMENTS. The votes were as follows: 14 Ayes: Representative(s) Yamashita, Takenouchi, Grandinetti, Holt, Keohokapu-Lee Loy, Kitagawa, Kusch, Lamosao, Lee, M., Miyake, Morikawa, Templo, Alcos, Reyes Oda; Ayes with reservations: none;  Noes: none; and 2 Excused: Representative(s) Hussey, Ward.', 'documents': []},
+#     {'date': '3/10/2025', 'text': 'Reported from FIN (Stand. Com. Rep. No. 1171) as amended in HD 1, recommending passage on Third Reading.', 'documents': ['HB400_HD1.json', 'HB400_HD1_HSCR1171_.json']},
+#     {'date': '3/10/2025', 'text': 'Forty-eight (48) hours notice Wednesday,  03-12-25.', 'documents': []},
+#     {'date': '3/12/2025', 'text': 'Passed Third Reading as amended in HD 1 with none voting aye with reservations; none voting no (0) and Representative(s) Alcos, Cochran, Holt, Sayama, Ward excused (5).  Transmitted to Senate.', 'documents': []},
+#     {'date': '3/13/2025', 'text': 'Received from House (Hse. Com. No. 382).', 'documents': []},
+#     {'date': '3/13/2025', 'text': 'Passed First Reading.', 'documents': []},
+#     {'date': '3/13/2025', 'text': 'Referred to JDC, WAM.', 'documents': []},
+#     {'date': '3/14/2025', 'text': 'The committee(s) on JDC has scheduled a public hearing on 03-19-25 9:45AM; Conference Room 016 & Videoconference.', 'documents': ['HB400_HD1_TESTIMONY_JDC_03-19-25_.json']},
+#     {'date': '3/19/2025', 'text': 'The committee(s) on  JDC recommend(s) that the measure be PASSED, WITH AMENDMENTS.  The votes in JDC were as follows: 4 Aye(s): Senator(s) Rhoads, Gabbard, San Buenaventura, Awa; Aye(s) with reservations: none ; 0 No(es): none; and 1 Excused: Senator(s) Chang.', 'documents': []},
+#     {'date': '3/21/2025', 'text': 'Reported from JDC (Stand. Com. Rep. No. 1253) with recommendation of passage on Second Reading, as amended (SD 1) and referral to WAM.', 'documents': ['HB400_SD1.json', 'HB400_SD1_SSCR1253_.json']},
+#     {'date': '3/21/2025', 'text': 'Report adopted; Passed Second Reading, as amended (SD 1) and referred to WAM.', 'documents': []},
+#     {'date': '3/24/2025', 'text': 'The committee(s) on WAM will hold a public decision making on 03-31-25 10:01AM; Conference Room 211 & Videoconference.', 'documents': ['HB400_SD1_TESTIMONY_WAM_03-31-25_.json']},
+#     {'date': '3/31/2025', 'text': 'The committee(s) on  WAM recommend(s) that the measure be PASSED, WITH AMENDMENTS.  The votes in WAM were as follows: 13 Aye(s): Senator(s) Dela Cruz, Moriwaki, Aquino, DeCoite, Elefante, Hashimoto, Inouye, Kanuha, Kidani, Kim, Lee, C., Wakai, Fevella; Aye(s) with reservations: none ; 0 No(es): none; and 0 Excused: none.', 'documents': []},
+#     {'date': '4/4/2025', 'text': 'Reported from WAM (Stand. Com. Rep. No. 1841) with recommendation of passage on Third Reading, as amended (SD 2).', 'documents': ['HB400_SD2.json', 'HB400_SD2_SSCR1841_.json']},
+#     {'date': '4/4/2025', 'text': '48 Hrs. Notice 04-08-25.', 'documents': []},
+#     {'date': '4/8/2025', 'text': 'Report adopted; Passed Third Reading, as amended (SD  2). Ayes, 25; Aye(s) with reservations: none .  Noes, 0 (none). Excused, 0 (none).  Transmitted to House.', 'documents': []},
+#     {'date': '4/8/2025', 'text': 'Returned from Senate (Sen. Com. No.  628) in amended form (SD 2).', 'documents': []},
+#     {'date': '4/10/2025', 'text': 'House disagrees with Senate amendment (s).', 'documents': []},
+#     {'date': '4/11/2025', 'text': 'Received notice of disagreement (Hse. Com. No. 704).', 'documents': []},
+#     {'date': '4/14/2025', 'text': 'House Conferees Appointed: Tarnas, Yamashita Co-Chairs; Poepoe, Takenouchi, Garcia.', 'documents': []},
+#     {'date': '4/15/2025', 'text': 'Senate Conferees Appointed: Rhoads Chair; Moriwaki Co-Chair; Awa.', 'documents': []},
+#     {'date': '4/15/2025', 'text': 'Received notice of appointment of House conferees (Hse. Com. No. 732).', 'documents': []},
+#     {'date': '4/15/2025', 'text': 'Received notice of Senate conferees (Sen. Com. No. 790).', 'documents': []},
+#     {'date': '4/16/2025', 'text': 'Bill scheduled for Conference Committee Meeting on Thursday, 04-17-25 3:46PM in conference room 325.', 'documents': []},
+#     {'date': '4/17/2025', 'text': 'Conference Committee Meeting will reconvene on Monday 04-21-25 2:05PM in conference room 325.', 'documents': []},
+#     {'date': '4/21/2025', 'text': 'The Conference Committee recommends that the measure be Passed, with Amendments. The votes were as follows: 5 Ayes: Representative(s) Tarnas, Yamashita, Poepoe, Takenouchi, Garcia; Ayes with reservations: none; 0 Noes: none; and 0 Excused: none.', 'documents': []},
+#     {'date': '4/21/2025', 'text': 'The Conference committee recommends that the measure be PASSED, WITH AMENDMENTS. The votes of the Senate Conference Managers were as follows: 2 Aye(s): Senator(s) Rhoads, Moriwaki; Aye(s) with reservations: none ; 0 No(es): none; and 1 Excused: Senator(s) Awa.', 'documents': []},
+#     {'date': '4/21/2025', 'text': 'Conference Committee Meeting will reconvene on Monday, 04-21-25 at 5:10PM in Conference Room 309.', 'documents': []},
+#     {'date': '4/25/2025', 'text': 'Reported from Conference Committee (Conf Com. Rep. No. 157) as amended in (CD 1).', 'documents': ['HB400_CD1.json', 'HB400_CD1_CCR157_.json']},
+#     {'date': '4/25/2025', 'text': 'Forty-eight (48) hours notice Wednesday, 04-30-25.', 'documents': []},
+#     {'date': '4/30/2025', 'text': 'Passed Final Reading, as amended (CD 1). Ayes, 25; Aye(s) with reservations: none . 0 No(es): none.  0 Excused: none.', 'documents': []},
+#     {'date': '4/30/2025', 'text': 'Passed Final Reading as amended in CD 1 with none voting aye with reservations; none voting no (0) and Representative(s) Cochran, Pierick excused (2).', 'documents': []},
+#     {'date': '5/1/2025', 'text': 'Received notice of Final Reading (Sen. Com. No. 888).', 'documents': []},
+#     {'date': '5/1/2025', 'text': 'Transmitted to Governor.', 'documents': []},
+#     {'date': '5/2/2025', 'text': 'Received notice of passage on Final Reading in House (Hse. Com. No. 821).', 'documents': []},
+#     {'date': '6/26/2025', 'text': 'Act 227, on 06/26/2025 (Gov. Msg. No. 1329).', 'documents': []}
+# ]
 
 # Get the correct path to the fiscal notes directory
 # The api.py file and fiscal_notes directory are both in src/
-fiscal_notes_dir = Path(__file__).parent / "fiscal_notes"
 
-@app.get("/fiscal-notes")
-async def get_fiscal_notes(request: Request):
-    fiscal_notes_data = []
-    for filename in fiscal_note_files:
+# For multi-worker setup, we need shared state
+# Option 1: Redis (recommended)
+try:
+    import redis
+    redis_client = redis.Redis(host='localhost', port=6379, db=0, decode_responses=True)
+    # Test connection
+    redis_client.ping()
+    USE_REDIS = True
+    print("✅ Redis connected for multi-worker job tracking")
+except Exception as e:
+    print(f"⚠️  Redis not available: {e}")
+    print("🔄 Falling back to in-memory jobs (single worker only)")
+    USE_REDIS = False
+    jobs = {}
+fiscal_notes_dir = Path(__file__).parent /"fiscal_notes" / "generation"
+
+# Job management functions that work with both Redis and in-memory
+def set_job_status(job_id: str, status: bool):
+    """Set job status - works with Redis or in-memory"""
+    if USE_REDIS:
+        if status:
+            redis_client.set(f"job:{job_id}", "true", ex=3600)  # Expire after 1 hour
+        else:
+            redis_client.delete(f"job:{job_id}")
+    else:
+        jobs[job_id] = status
+
+def get_job_status(job_id: str) -> bool:
+    """Get job status - works with Redis or in-memory"""
+    if USE_REDIS:
+        return redis_client.exists(f"job:{job_id}") > 0
+    else:
+        return job_id in jobs
+
+def cleanup_job(job_id: str):
+    """Clean up job status"""
+    if USE_REDIS:
+        redis_client.delete(f"job:{job_id}")
+    else:
+        jobs.pop(job_id, None)
+
+# WebSocket connection manager
+class ConnectionManager:
+    def __init__(self):
+        self.active_connections: List[WebSocket] = []
+        if USE_REDIS:
+            # Subscribe to Redis for cross-worker broadcasts
+            self.pubsub = redis_client.pubsub()
+            self.pubsub.subscribe('fiscal_note_updates')
+            # Start Redis listener in background
+            asyncio.create_task(self._redis_listener())
+
+    async def connect(self, websocket: WebSocket):
+        await websocket.accept()
+        self.active_connections.append(websocket)
+
+    def disconnect(self, websocket: WebSocket):
+        if websocket in self.active_connections:
+            self.active_connections.remove(websocket)
+
+    async def send_personal_message(self, message: str, websocket: WebSocket):
         try:
-            # Construct the full path to the json file
-            file_path = fiscal_notes_dir / filename
-            with open(file_path, 'r') as f:
-                data = json.load(f)
-                fiscal_notes_data.append({
-                    'filename': filename,
-                    'data': data
-                })
-        except FileNotFoundError:
-            fiscal_notes_data.append({
-                'filename': filename,
-                'data': f'File not found at {file_path}'
-            })
-        except json.JSONDecodeError:
-            fiscal_notes_data.append({
-                'filename': filename,
-                'data': 'Invalid JSON format.'
-            })
+            await websocket.send_text(message)
+        except Exception as e:
+            print(f"Error sending personal message: {e}")
+            self.disconnect(websocket)
+
+    async def broadcast(self, message: str):
+        # Broadcast to local connections
+        await self._local_broadcast(message)
+        
+        # If using Redis, also publish to other workers
+        if USE_REDIS:
+            try:
+                redis_client.publish('fiscal_note_updates', message)
+            except Exception as e:
+                print(f"Error publishing to Redis: {e}")
+
+    async def _local_broadcast(self, message: str):
+        """Broadcast to connections on this worker only"""
+        disconnected = []
+        for connection in self.active_connections:
+            try:
+                await connection.send_text(message)
+            except Exception as e:
+                print(f"Error broadcasting to connection: {e}")
+                disconnected.append(connection)
+        
+        # Remove disconnected connections
+        for connection in disconnected:
+            self.disconnect(connection)
+
+    async def _redis_listener(self):
+        """Listen for Redis messages from other workers"""
+        if not USE_REDIS:
+            return
+            
+        try:
+            while True:
+                message = self.pubsub.get_message(timeout=1.0)
+                if message and message['type'] == 'message':
+                    # Broadcast Redis message to local connections
+                    await self._local_broadcast(message['data'])
+                await asyncio.sleep(0.1)
+        except Exception as e:
+            print(f"Redis listener error: {e}")
+
+manager = ConnectionManager()
+
+class Bill_type_options(str, Enum):
+    HB = "HB"
+    SB = "SB"
+
+class Year_options(str, Enum):
+    YEAR_2025 = "2025"
+
+@app.post("/delete_fiscal_note")
+async def delete_fiscal_note(request: Request, bill_type: Bill_type_options, bill_number: str, year: Year_options = Year_options.YEAR_2025):
+    bill_type = bill_type
+    bill_number = bill_number
+    year = year
+    job_id = f"{bill_type.value}_{bill_number}_{year}"
+    fiscal_notes_path = os.path.join(fiscal_notes_dir, f"{bill_type.value}_{bill_number}_{year.value}")
+    print("Before checking if fiscal notes path exists", fiscal_notes_path)
+    if os.path.exists(fiscal_notes_path):
+        print(f"Fiscal notes path: {fiscal_notes_path}")
+        shutil.rmtree(fiscal_notes_path)
+        cleanup_job(job_id)
+        return {
+            "message": "Fiscal note generation deleted"
+        }
+    else:
+        return {
+            "message": "Fiscal note generation not found"
+        }
+
+@app.get("/get_fiscal_note_files")
+async def get_fiscal_note_files():
+    files = os.listdir(fiscal_notes_dir)
+    dirs = []
+    for file in files:
+        if os.path.isdir(os.path.join(fiscal_notes_dir, file)) and not file.startswith('.') and not file.startswith("__"):
+            print(f"Directory: {file}")
+            # Check if this directory name matches any active job_id
+            is_generating = get_job_status(file)
+            if is_generating:
+                dirs.append({"name": file, "status": "generating"})
+            else:
+                dirs.append({"name": file, "status": "ready"})
+    return dirs
+
+@app.post("/get_fiscal_note")
+async def get_fiscal_note(request: Request, bill_type: Bill_type_options, bill_number: str, year: Year_options = Year_options.YEAR_2025):
+    bill_type = bill_type
+    bill_number = bill_number
+    year = year
+
+    job_id = f"{bill_type.value}_{bill_number}_{year}"
+    if get_job_status(job_id):
+        return {
+            "message": "Fiscal note generation already in progress"
+        }
+
+    chronological_path = os.path.join(fiscal_notes_dir, f"{bill_type.value}_{bill_number}_{year.value}", f"{bill_type.value}_{bill_number}_{year.value}_chronological.json")
+    try:
+        fiscal_notes_path = os.path.join(fiscal_notes_dir, f"{bill_type.value}_{bill_number}_{year.value}", "fiscal_notes")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Fiscal Note Not Found")
+
+    timeline_path = os.path.join(fiscal_notes_dir, f"{bill_type.value}_{bill_number}_{year.value}", f"{bill_type.value}_{bill_number}_{year.value}_timeline.json")
     
+    # get jsons in fiscal_notes_path
+    fiscal_notes = []
+
+    with open(chronological_path, 'r') as f:
+        print(f"Chronological path: {chronological_path}")
+        chronological = json.load(f)
+        files = os.listdir(fiscal_notes_path)
+        for file in chronological:
+            print(f"File: {file['name'] + '.json'}")
+            if file['name'] + '.json' in files: 
+                print(f"File found: {file['name'] + '.json'}")
+                with open(os.path.join(fiscal_notes_path, file['name'] + '.json'), 'r') as f:
+                    fiscal_notes.append({
+                        'filename': file['name'],
+                        'data': json.load(f)
+                    })
+
+    with open(timeline_path, 'r') as f:
+        timeline = json.load(f)
+
+
     return templates.TemplateResponse(
         "index.html",
         {
             "request": request,
-            "fiscal_notes": fiscal_notes_data,
-            "timeline": timeline_data
+            "fiscal_notes": fiscal_notes,
+            "timeline": timeline
         }
     )
+
+async def create_fiscal_note_job(bill_type: Bill_type_options, bill_number: str, year: str):
+    job_id = f"{bill_type.value}_{bill_number}_{year}"
+    try:
+        print(f"Starting fiscal note generation for {job_id}")
+        
+        base_url = "https://www.capitol.hawaii.gov/session/measure_indiv.aspx"
+        measure_url = f"{base_url}?billtype={bill_type.value}&billnumber={bill_number}&year={year}"
+        
+        # Send progress update
+        await manager.broadcast(json.dumps({
+            "type": "job_progress",
+            "job_id": job_id,
+            "status": "fetching_documents",
+            "message": "Fetching documents from Hawaii Capitol website..."
+        }))
+        
+        saved_path = fetch_documents(measure_url)
+        
+        await manager.broadcast(json.dumps({
+            "type": "job_progress",
+            "job_id": job_id,
+            "status": "reordering_documents",
+            "message": "Reordering documents chronologically..."
+        }))
+        
+        chronological_path = reorder_documents(saved_path)
+        documents_path = retrieve_documents(chronological_path)
+        
+        await manager.broadcast(json.dumps({
+            "type": "job_progress",
+            "job_id": job_id,
+            "status": "extracting_numbers",
+            "message": "Extracting financial numbers and context..."
+        }))
+        
+        base_dir = os.path.dirname(documents_path)
+        numbers_file_path = os.path.join(base_dir, f"{bill_type.value}_{bill_number}_{year}_numbers.json")
+        extract_number_context(documents_path, numbers_file_path)
+        
+        await manager.broadcast(json.dumps({
+            "type": "job_progress",
+            "job_id": job_id,
+            "status": "generating_fiscal_notes",
+            "message": "Generating fiscal note content..."
+        }))
+        
+        fiscal_notes_path = generate_fiscal_notes(documents_path, numbers_file_path)
+        
+        # Send completion notification
+        await manager.broadcast(json.dumps({
+            "type": "job_completed",
+            "job_id": job_id,
+            "status": "ready",
+            "message": f"Fiscal note for {job_id} has been generated successfully!"
+        }))
+        
+        print(f"Fiscal note generation completed for {job_id}")
+        
+    except Exception as e:
+        error_msg = f"Error in fiscal note generation job {job_id}: {str(e)}"
+        print(error_msg)
+        
+        # Send error notification
+        await manager.broadcast(json.dumps({
+            "type": "job_error",
+            "job_id": job_id,
+            "status": "error",
+            "message": f"Failed to generate fiscal note for {job_id}: {str(e)}"
+        }))
+    finally:
+        cleanup_job(job_id)
+
+@app.post("/generate-fiscal-note")
+async def generate_fiscal_note(request: Request, bill_type: Bill_type_options, bill_number: str, year: str = "2025"):
+    bill_type = bill_type
+    bill_number = bill_number
+    year = year
+
+    job_id = f"{bill_type.value}_{bill_number}_{year}"
+    if get_job_status(job_id):
+        return {
+            "message": "Fiscal note generation already in progress"
+        }
+    set_job_status(job_id, True)
+    
+    # Create independent background task with error handling
+    task = asyncio.create_task(create_fiscal_note_job(bill_type, bill_number, year))
+    # Add done callback to handle any unhandled exceptions
+    task.add_done_callback(lambda t: t.exception() if t.exception() else None)
+
+    return {
+        "message": "Fiscal note queued for generation",
+        "job_id": job_id
+    }
+
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    print(f"🔌 WebSocket connection attempt from {websocket.client}")
+    await manager.connect(websocket)
+    print(f"✅ WebSocket connected. Total connections: {len(manager.active_connections)}")
+    try:
+        while True:
+            # Keep the connection alive and handle any incoming messages
+            data = await websocket.receive_text()
+            print(f"📨 Received WebSocket message: {data}")
+            # You can handle client messages here if needed
+    except WebSocketDisconnect:
+        print(f"🔌 WebSocket disconnected from {websocket.client}")
+        manager.disconnect(websocket)
+    except Exception as e:
+        print(f"❌ WebSocket error: {e}")
+        manager.disconnect(websocket)
+
+# @app.get("/fiscal-notes")
+# async def get_fiscal_notes(request: Request):
+#     fiscal_notes_data = []
+#     for filename in fiscal_note_files:
+#         try:
+#             # Construct the full path to the json file
+#             file_path = fiscal_notes_dir / filename
+#             with open(file_path, 'r') as f:
+#                 data = json.load(f)
+#                 fiscal_notes_data.append({
+#                     'filename': filename,
+#                     'data': data
+#                 })
+#         except FileNotFoundError:
+#             fiscal_notes_data.append({
+#                 'filename': filename,
+#                 'data': f'File not found at {file_path}'
+#             })
+#         except json.JSONDecodeError:
+#             fiscal_notes_data.append({
+#                 'filename': filename,
+#                 'data': 'Invalid JSON format.'
+#             })
+    
+#     return templates.TemplateResponse(
+#         "index.html",
+#         {
+#             "request": request,
+#             "fiscal_notes": fiscal_notes_data,
+#             "timeline": timeline_data
+#         }
+#     )

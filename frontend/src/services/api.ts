@@ -51,6 +51,69 @@ api.interceptors.response.use(
 );
 
 /**
+ * Get available fiscal note files
+ */
+export const getFiscalNoteFiles = async (): Promise<{ name: string; status: string }[]> => {
+  const response = await api.get('/get_fiscal_note_files');
+  return response.data;
+};
+
+/**
+ * Create a new fiscal note
+ */
+export const createFiscalNote = async (
+  billType: 'HB' | 'SB',
+  billNumber: string,
+  year: string = '2025'
+): Promise<{ message: string; job_id: string }> => {
+  const response = await api.post('/generate-fiscal-note', null, {
+    params: {
+      bill_type: billType,
+      bill_number: billNumber,
+      year: year
+    }
+  });
+  return response.data;
+};
+
+/**
+ * Get fiscal note HTML content
+ */
+export const getFiscalNote = async (
+  billType: 'HB' | 'SB',
+  billNumber: string,
+  year: string = '2025'
+): Promise<string | { message: string }> => {
+  const response = await api.post('/get_fiscal_note', null, {
+    params: {
+      bill_type: billType,
+      bill_number: billNumber,
+      year: year
+    },
+    responseType: 'text' // Important: expect HTML response
+  });
+  return response.data;
+};
+
+/**
+ * Delete a fiscal note
+ */
+export const deleteFiscalNote = async (
+  billType: 'HB' | 'SB',
+  billNumber: string,
+  year: string = '2025'
+): Promise<{ message: string }> => {
+  const response = await api.post('/delete_fiscal_note', null, {
+    params: {
+      bill_type: billType,
+      bill_number: billNumber,
+      year: year
+    }
+  });
+  return response.data;
+};
+
+/**
  * Get available collections and their stats
  */
 export const getCollections = async (): Promise<CollectionsResponse> => {
