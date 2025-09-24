@@ -257,7 +257,7 @@ const FiscalNoteGeneration = () => {
                   {fiscalNoteFiles.map((file) => (
                     <tr key={file.name} className={`hover:bg-gray-50 ${file.name == selectedFiscalNote ? 'bg-blue-100' : ''}`}>
 
-                      <td className="px-3 py-2 whitespace-nowrap">
+                      <td className="px-3 py-2 whitespace-nowrap relative z-[10000]">
                         <div className="flex flex-col">
                           {/* Status Button with Tooltip */}
                           <div className="relative group">
@@ -274,24 +274,24 @@ const FiscalNoteGeneration = () => {
                             </button>
                             
                             {/* Tooltip */}
-                            <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 text-xs text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-10">
+                            <div className="absolute bottom-full left-1/2 transform -translate-x-2 mb-2 px-2 py-1 text-xs text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-[99999] shadow-lg border border-gray-700">
                               {jobErrors[file.name] 
                                 ? 'Error - Generation failed' 
                                 : file.status === 'ready'
                                   ? 'Ready - Click to view'
-                                  : 'In Progress - Generating...'}
+                                  : 'In Progress - ' + jobProgress[file.name]}
                             </div>
                           </div>
                           
                           {/* Progress message */}
-                          {jobProgress[file.name] && (
+                          {/* {jobProgress[file.name] && (
                             <span className="text-xs text-gray-500 mt-1 max-w-32 truncate">
                               {jobProgress[file.name]}
                             </span>
-                          )}
+                          )} */}
                         </div>
                       </td>
-                      <td className="px-3 py-2 whitespace-nowrap text-sm text-gray-500 cursor-pointer" onClick={() => handleSelectFile(file.name)}>
+                      <td className="px-3 py-2 whitespace-nowrap text-sm text-gray-500 cursor-pointer max-w-26 truncate" onClick={() => handleSelectFile(file.name)}>
                         {file.name}
                       </td>
                       <td className="px-3 py-2 whitespace-nowrap text-sm text-gray-500">

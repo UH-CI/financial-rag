@@ -1,0 +1,93 @@
+[
+  {
+    "document": {
+      "name": "HB70",
+      "url": "https://www.capitol.hawaii.gov/sessions/session2025/bills/HB70_.HTM"
+    },
+    "result": "✅ Saved text: /Users/rodericktabalba/Documents/GitHub/financial-rag/src/fiscal_notes/generation/HB_70_2025/documents/HB70_.HTM.txt"
+  },
+  {
+    "document": {
+      "name": "HB70_TESTIMONY_CPC_01-30-25_",
+      "url": "https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB70_TESTIMONY_CPC_01-30-25_.PDF"
+    },
+    "result": "✅ Saved text: /Users/rodericktabalba/Documents/GitHub/financial-rag/src/fiscal_notes/generation/HB_70_2025/documents/HB70_TESTIMONY_CPC_01-30-25_.PDF.txt"
+  },
+  {
+    "document": {
+      "name": "HB70_HD1",
+      "url": "https://www.capitol.hawaii.gov/sessions/session2025/bills/HB70_HD1_.HTM"
+    },
+    "result": "✅ Saved text: /Users/rodericktabalba/Documents/GitHub/financial-rag/src/fiscal_notes/generation/HB_70_2025/documents/HB70_HD1_.HTM.txt"
+  },
+  {
+    "document": {
+      "name": "HB70_HD1_HSCR253_",
+      "url": "https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB70_HD1_HSCR253_.htm"
+    },
+    "result": "✅ Saved text: /Users/rodericktabalba/Documents/GitHub/financial-rag/src/fiscal_notes/generation/HB_70_2025/documents/HB70_HD1_HSCR253_.htm.txt"
+  },
+  {
+    "document": {
+      "name": "HB70_HD1_TESTIMONY_JHA_02-25-25_",
+      "url": "https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB70_HD1_TESTIMONY_JHA_02-25-25_.PDF"
+    },
+    "result": "✅ Saved text: /Users/rodericktabalba/Documents/GitHub/financial-rag/src/fiscal_notes/generation/HB_70_2025/documents/HB70_HD1_TESTIMONY_JHA_02-25-25_.PDF.txt"
+  },
+  {
+    "document": {
+      "name": "HB70_HD1_HSCR1060_",
+      "url": "https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB70_HD1_HSCR1060_.htm"
+    },
+    "result": "✅ Saved text: /Users/rodericktabalba/Documents/GitHub/financial-rag/src/fiscal_notes/generation/HB_70_2025/documents/HB70_HD1_HSCR1060_.htm.txt"
+  },
+  {
+    "document": {
+      "name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+      "url": "https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF"
+    },
+    "result": "✅ Saved text: /Users/rodericktabalba/Documents/GitHub/financial-rag/src/fiscal_notes/generation/HB_70_2025/documents/HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt"
+  },
+  {
+    "document": {
+      "name": "HB70_SD1",
+      "url": "https://www.capitol.hawaii.gov/sessions/session2025/bills/HB70_SD1_.HTM"
+    },
+    "result": "✅ Saved text: /Users/rodericktabalba/Documents/GitHub/financial-rag/src/fiscal_notes/generation/HB_70_2025/documents/HB70_SD1_.HTM.txt"
+  },
+  {
+    "document": {
+      "name": "HB70_SD1_SSCR1254_",
+      "url": "https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB70_SD1_SSCR1254_.htm"
+    },
+    "result": "❌ Failed to parse https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB70_SD1_SSCR1254_.htm: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=140.0.7339.207)\nStacktrace:\n0   undetected_chromedriver             0x00000001009e5908 undetected_chromedriver + 6379784\n1   undetected_chromedriver             0x00000001009dd00a undetected_chromedriver + 6344714\n2   undetected_chromedriver             0x0000000100438df0 undetected_chromedriver + 429552\n3   undetected_chromedriver             0x000000010040da80 undetected_chromedriver + 252544\n4   undetected_chromedriver             0x00000001004b9278 undetected_chromedriver + 955000\n5   undetected_chromedriver             0x00000001004d7f4c undetected_chromedriver + 1081164\n6   undetected_chromedriver             0x00000001004b0ea3 undetected_chromedriver + 921251\n7   undetected_chromedriver             0x000000010047d39a undetected_chromedriver + 709530\n8   undetected_chromedriver             0x000000010047e061 undetected_chromedriver + 712801\n9   undetected_chromedriver             0x00000001009a37b0 undetected_chromedriver + 6109104\n10  undetected_chromedriver             0x00000001009a7635 undetected_chromedriver + 6125109\n11  undetected_chromedriver             0x000000010097ec67 undetected_chromedriver + 5958759\n12  undetected_chromedriver             0x00000001009a80af undetected_chromedriver + 6127791\n13  undetected_chromedriver             0x000000010096dfe4 undetected_chromedriver + 5890020\n14  undetected_chromedriver             0x00000001009ca258 undetected_chromedriver + 6267480\n15  undetected_chromedriver             0x00000001009ca41c undetected_chromedriver + 6267932\n16  undetected_chromedriver             0x00000001009dcbe1 undetected_chromedriver + 6343649\n17  libsystem_pthread.dylib             0x00007ff8095e1202 _pthread_start + 99\n18  libsystem_pthread.dylib             0x00007ff8095dcbab thread_start + 15\n"
+  },
+  {
+    "document": {
+      "name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+      "url": "https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF"
+    },
+    "result": "✅ Saved text: /Users/rodericktabalba/Documents/GitHub/financial-rag/src/fiscal_notes/generation/HB_70_2025/documents/HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt"
+  },
+  {
+    "document": {
+      "name": "HB70_SD1_SSCR1509_",
+      "url": "https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB70_SD1_SSCR1509_.htm"
+    },
+    "result": "❌ Failed to parse https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB70_SD1_SSCR1509_.htm: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=140.0.7339.207)\nStacktrace:\n0   undetected_chromedriver             0x0000000101239908 undetected_chromedriver + 6379784\n1   undetected_chromedriver             0x000000010123100a undetected_chromedriver + 6344714\n2   undetected_chromedriver             0x0000000100c8cdf0 undetected_chromedriver + 429552\n3   undetected_chromedriver             0x0000000100c61a80 undetected_chromedriver + 252544\n4   undetected_chromedriver             0x0000000100d0d278 undetected_chromedriver + 955000\n5   undetected_chromedriver             0x0000000100d2bf4c undetected_chromedriver + 1081164\n6   undetected_chromedriver             0x0000000100d04ea3 undetected_chromedriver + 921251\n7   undetected_chromedriver             0x0000000100cd139a undetected_chromedriver + 709530\n8   undetected_chromedriver             0x0000000100cd2061 undetected_chromedriver + 712801\n9   undetected_chromedriver             0x00000001011f77b0 undetected_chromedriver + 6109104\n10  undetected_chromedriver             0x00000001011fb635 undetected_chromedriver + 6125109\n11  undetected_chromedriver             0x00000001011d2c67 undetected_chromedriver + 5958759\n12  undetected_chromedriver             0x00000001011fc0af undetected_chromedriver + 6127791\n13  undetected_chromedriver             0x00000001011c1fe4 undetected_chromedriver + 5890020\n14  undetected_chromedriver             0x000000010121e258 undetected_chromedriver + 6267480\n15  undetected_chromedriver             0x000000010121e41c undetected_chromedriver + 6267932\n16  undetected_chromedriver             0x0000000101230be1 undetected_chromedriver + 6343649\n17  libsystem_pthread.dylib             0x00007ff8095e1202 _pthread_start + 99\n18  libsystem_pthread.dylib             0x00007ff8095dcbab thread_start + 15\n"
+  },
+  {
+    "document": {
+      "name": "HB70_CD1",
+      "url": "https://www.capitol.hawaii.gov/sessions/session2025/bills/HB70_CD1_.HTM"
+    },
+    "result": "✅ Saved text: /Users/rodericktabalba/Documents/GitHub/financial-rag/src/fiscal_notes/generation/HB_70_2025/documents/HB70_CD1_.HTM.txt"
+  },
+  {
+    "document": {
+      "name": "HB70_CD1_CCR43_",
+      "url": "https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB70_CD1_CCR43_.htm"
+    },
+    "result": "✅ Saved text: /Users/rodericktabalba/Documents/GitHub/financial-rag/src/fiscal_notes/generation/HB_70_2025/documents/HB70_CD1_CCR43_.htm.txt"
+  }
+]
