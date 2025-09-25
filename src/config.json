@@ -1,26 +1,19 @@
 {
-  "collections": ["courses", "programs", "combined_pathways"],
-  "default_collection": "courses",
+  "collections": ["bills"],
+  "default_collection": "budget",
   "ingestion_configs": [
     {
-      "collection_name": "courses",
-      "source_file": "UH-Manoa_courses.json",
-      "contents_to_embed": ["course_id", "subject", "title", "description", "credits", "prerequisites", "program", "department", "institution"]
-    },
-    {
-      "collection_name": "programs", 
-      "source_file": "UH-Manoa-programs.json",
-      "contents_to_embed": ["name", "program", "department", "college", "institution", "course_count", "courses"]
-    },
-    {
-        "collection_name": "combined_pathways", 
-        "source_file": "combined_pathways.json",
-        "contents_to_embed": ["program_name", "institution", "total_credits", "years"]
+      "collection_name": "bills",
+      "original_document_dir": "./documents/storage_documents/bills",
+      "source_file": "chunked_text/bills/bills_chunked_no_sentence.json",
+      "contents_to_embed": ["text"],
+      "description": "Hawaii Bilss"
     }
+
   ],
   "search": {
-    "default_results": 5,
-    "max_results": 100,
+    "default_results": 50,
+    "max_results": 300,
     "supported_search_types": ["semantic", "metadata", "both"]
   },
   "api": {
@@ -42,7 +35,7 @@
     "llm_max_tokens": 1000,
     "chunk_size": 1000,
     "chunk_overlap": 200,
-    "default_k": 5,
+    "default_k": 50,
     "max_k": 20,
     "batch_size": 10,
     "max_workers": 4,

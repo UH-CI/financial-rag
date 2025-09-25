@@ -1,26 +1,20 @@
-FROM python:3.11-slim
+FROM ghcr.io/uh-ci/rag-system-extended-dependencies:latest
 
 # Set working directory
-WORKDIR /app
-
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    curl \
-    && rm -rf /var/lib/apt/lists/*
+WORKDIR /src
 
 # Copy requirements and install Python dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code
+# Copy application code into a src subdirectory
 COPY . .
 
 # Note: ChromaDB data will be provided via volume mount in production
 # (chroma_db/ should be excluded via .dockerignore to avoid conflicts)
 
 # Set environment variables
-ENV PYTHONPATH=/app
+ENV PYTHONPATH=/src
 ENV PYTHONUNBUFFERED=1
 
 # Expose ports (8200 for API, 8280 for test interface)
