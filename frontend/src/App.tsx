@@ -10,7 +10,7 @@ import { getCollections } from './services/api';
 type AppView = 'chat' | 'fiscal-note-generation';
 
 function App() {
-  const [currentView, setCurrentView] = useState<AppView>('chat');
+  const [currentView, setCurrentView] = useState<AppView>('fiscal-note-generation');
   const [collections, setCollections] = useState<Collection[]>([]);
   const [collectionsLoading, setCollectionsLoading] = useState(true);
   const [collectionsError, setCollectionsError] = useState<string | null>(null);
