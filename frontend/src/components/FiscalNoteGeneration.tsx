@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { getFiscalNoteFiles, createFiscalNote, getFiscalNote, deleteFiscalNote } from "../services/api";
+import { Loader2 } from "lucide-react";
 
 interface CreateFiscalNoteForm {
   billType: 'HB' | 'SB';
@@ -20,6 +21,7 @@ const FiscalNoteGeneration = () => {
   });
   const [jobProgress, setJobProgress] = useState<{ [jobId: string]: string }>({});
   const [jobErrors, setJobErrors] = useState<{ [jobId: string]: boolean }>({});
+  const [loadingFiscalNote, setLoadingFiscalNote] = useState<boolean>(false);
   const wsRef = useRef<WebSocket | null>(null);
 
   useEffect(() => {
@@ -151,6 +153,7 @@ const FiscalNoteGeneration = () => {
 
   const handleSelectFile = async (fileName: string) => {
     try {
+      setLoadingFiscalNote(true);
       // Extract bill type and number from filename (assuming format like "HB_400_2025")
       const parts = fileName.split('_');
       if (parts.length >= 2) {
@@ -180,6 +183,8 @@ const FiscalNoteGeneration = () => {
     } catch (error) {
       console.error('Error loading fiscal note:', error);
       alert('Error loading fiscal note. Please try again.');
+    } finally {
+      setLoadingFiscalNote(false);
     }
   };
 
@@ -279,7 +284,7 @@ const FiscalNoteGeneration = () => {
                                 ? 'Error - Generation failed' 
                                 : file.status === 'ready'
                                   ? 'Ready - Click to view'
-                                  : 'In Progress - ' + jobProgress[file.name]}
+                                  : 'In Progress - ' + (jobProgress[file.name] ? jobProgress[file.name] : '')}
                             </div>
                           </div>
                           
@@ -340,6 +345,12 @@ const FiscalNoteGeneration = () => {
       <div className="flex-1 flex flex-col">
         {fiscalNoteHtml ? (
           <div className="flex-1 overflow-auto p-6">
+            {loadingFiscalNote && (
+              <div className="flex items-center justify-center">
+                <Loader2 className="w-8 h-8 text-blue-600 animate-spin" />
+                <p className="ml-2">Generating fiscal note...</p>
+              </div>
+            )}
             <div 
               className="prose max-w-none"
               dangerouslySetInnerHTML={{ __html: fiscalNoteHtml }}
