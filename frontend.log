@@ -1,0 +1,95 @@
+nohup: ignoring input
+
+> rag-frontend@1.0.0 dev
+> vite --host 0.0.0.0 --port 3000
+
+Port 3000 is in use, trying another one...
+
+  VITE v6.3.5  ready in 242 ms
+
+  ➜  Local:   http://localhost:3001/
+  ➜  Network: http://192.168.2.83:3001/
+  ➜  Network: http://172.18.0.1:3001/
+  ➜  Network: http://172.19.0.1:3001/
+8:34:23 PM [vite] changed tsconfig file detected: /home/exouser/RAG-system/frontend/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+12:31:57 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+12:31:57 AM [vite] (client) hmr update /src/App.tsx, /src/index.css, /src/components/CreateGroupModal.tsx, /src/components/FiscalNoteGeneration.tsx
+12:31:57 AM [vite] (client) page reload src/types.ts
+12:32:25 AM [vite] (client) hmr update /src/App.tsx, /src/index.css, /src/components/CreateGroupModal.tsx, /src/components/FiscalNoteGeneration.tsx
+12:36:46 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+12:37:14 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:38:47 AM [vite] (client) page reload src/components/CollectionsSidebar.tsx
+1:38:47 AM [vite] (client) hmr update /src/components/CreateGroupModal.tsx, /src/index.css
+1:38:47 AM [vite] (client) hmr update /src/components/FiscalNoteGeneration.tsx, /src/index.css
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/ConfirmationStep.tsx
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/DocumentUploadStep.tsx
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/GroupNameStep.tsx
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/ParsingTypeStep.tsx
+1:38:47 AM [vite] (client) hmr update /src/components/ChatInterface.tsx, /src/index.css
+1:38:47 AM [vite] (client) hmr update /src/components/ChatInterface.tsx, /src/index.css
+1:38:47 AM [vite] (client) page reload src/components/CollectionsSidebar.tsx
+1:38:47 AM [vite] (client) hmr update /src/components/CreateGroupModal.tsx, /src/index.css
+1:38:47 AM [vite] (client) hmr update /src/components/FiscalNoteGeneration.tsx, /src/index.css
+1:38:47 AM [vite] (client) hmr update /src/components/ChatInterface.tsx, /src/index.css
+1:38:47 AM [vite] (client) page reload src/components/CollectionsSidebar.tsx
+1:38:47 AM [vite] (client) hmr update /src/components/FiscalNoteGeneration.tsx, /src/index.css
+1:38:47 AM [vite] (client) hmr update /src/components/CreateGroupModal.tsx, /src/index.css
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/ConfirmationStep.tsx
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/DocumentUploadStep.tsx
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/GroupNameStep.tsx
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/ParsingTypeStep.tsx
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/ConfirmationStep.tsx
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/DocumentUploadStep.tsx
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/GroupNameStep.tsx
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/ParsingTypeStep.tsx
+1:38:58 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:39:55 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:40:07 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:46:18 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:46:23 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:52:37 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:53:55 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:21:56 AM [vite] vite.config.ts changed, restarting server...
+failed to load config from /home/exouser/RAG-system/frontend/vite.config.ts
+2:21:56 AM [vite] EACCES: permission denied, open '/home/exouser/RAG-system/frontend/node_modules/.vite-temp/vite.config.ts.timestamp-1757643716945-e58484e70dac.mjs'
+2:21:56 AM [vite] server restart failed
+2:22:07 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:22:44 AM [vite] vite.config.ts changed, restarting server...
+failed to load config from /home/exouser/RAG-system/frontend/vite.config.ts
+2:22:44 AM [vite] EACCES: permission denied, open '/home/exouser/RAG-system/frontend/node_modules/.vite-temp/vite.config.ts.timestamp-1757643764592-e711826a80aef.mjs'
+2:22:44 AM [vite] server restart failed
+2:22:44 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:23:50 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:29:55 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:30:06 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+ypeStep.tsx
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/ConfirmationStep.tsx
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/DocumentUploadStep.tsx
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/GroupNameStep.tsx
+1:38:47 AM [vite] (client) page reload src/components/CreateGroupModal/ParsingTypeStep.tsx
+1:38:58 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:39:55 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:40:07 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:46:18 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:46:23 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:52:37 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:53:55 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:21:56 AM [vite] vite.config.ts changed, restarting server...
+failed to load config from /home/exouser/RAG-system/frontend/vite.config.ts
+2:21:56 AM [vite] EACCES: permission denied, open '/home/exouser/RAG-system/frontend/node_modules/.vite-temp/vite.config.ts.timestamp-1757643716946-a67c2217a5356.mjs'
+2:21:56 AM [vite] server restart failed
+2:22:07 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:22:44 AM [vite] vite.config.ts changed, restarting server...
+failed to load config from /home/exouser/RAG-system/frontend/vite.config.ts
+2:22:44 AM [vite] EACCES: permission denied, open '/home/exouser/RAG-system/frontend/node_modules/.vite-temp/vite.config.ts.timestamp-1757643764594-0fc0f54d3cf5a.mjs'
+2:22:44 AM [vite] server restart failed
+2:22:44 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:23:50 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:29:55 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:30:06 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+The request url "/home/exouser/RAG-system/frontend/.env.production" is outside of Vite serving allow list.
+
+- /home/exouser/RAG-system/frontend
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+

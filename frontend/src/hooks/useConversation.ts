@@ -95,8 +95,8 @@ export const useConversation = () => {
         content: question,
       });
 
-      // Add loading assistant message
-      const loadingMessage = addMessage({
+      // Add loading message for assistant response
+      addMessage({
         type: 'assistant',
         content: '',
         isLoading: true,

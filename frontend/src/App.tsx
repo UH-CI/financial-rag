@@ -5,16 +5,14 @@ import { ConversationChat } from './components/ConversationChat';
 import CreateGroupModal from './components/CreateGroupModal';
 import FiscalNoteGeneration from './components/FiscalNoteGeneration';
 import BillFiscalNote from './components/BillFiscalNote';
-import type { Collection, ChatMessage } from './types';
-import { getCollections, askQuestion } from './services/api';
+import type { Collection } from './types';
+import { getCollections } from './services/api';
 
 type AppView = 'chat' | 'fiscal-note' | 'bill-fiscal-note';
 
 function App() {
   const [currentView, setCurrentView] = useState<AppView>('chat');
   const [collections, setCollections] = useState<Collection[]>([]);
-  const [messages, setMessages] = useState<ChatMessage[]>([]);
-  const [loading, setLoading] = useState(false);
   const [collectionsLoading, setCollectionsLoading] = useState(true);
   const [collectionsError, setCollectionsError] = useState<string | null>(null);
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
@@ -51,62 +49,7 @@ function App() {
     loadCollections();
   }, [loadCollections]);
 
-  // Handle sending a message
-  const handleSendMessage = useCallback(async (messageText: string) => {
-    const userMessage: ChatMessage = {
-      id: `user_${Date.now()}a`,
-      type: 'user',
-      content: messageText,
-      timestamp: new Date(),
-    };
-
-    // Add user message
-    setMessages(prev => [...prev, userMessage]);
-    setLoading(true);
-
-    // Add loading message
-    const loadingMessage: ChatMessage = {
-      id: `loading_${Date.now()}`,
-      type: 'assistant',
-      content: '',
-      timestamp: new Date(),
-      isLoading: true,
-    };
-
-    setMessages(prev => [...prev, loadingMessage]);
-
-    try {
-      const response = await askQuestion(messageText);
-      
-      // Remove loading message and add real response
-      setMessages(prev => {
-        const withoutLoading = prev.filter(msg => msg.id !== loadingMessage.id);
-        const assistantMessage: ChatMessage = {
-          id: `assistant_${Date.now()}`,
-          type: 'assistant',
-          content: response.answer,
-          timestamp: new Date(),
-          sources: response.sources,
-        };
-        return [...withoutLoading, assistantMessage];
-      });
-    } catch (err) {
-      // Remove loading message and show error
-      setMessages(prev => prev.filter(msg => msg.id !== loadingMessage.id));
-      
-      // Add error message to chat
-      const errorMessage: ChatMessage = {
-        id: `error_${Date.now()}`,
-        type: 'assistant',
-        content: `Sorry, I encountered an error: ${err instanceof Error ? err.message : 'Unknown error'}`,
-        timestamp: new Date(),
-      };
-      setMessages(prev => [...prev, errorMessage]);
-    } finally {
-      setLoading(false);
-    }
-  }, []);
-
+  
   // Handle collection selection
   // const handleCollectionSelect = useCallback((collectionId: string) => {
   //   setSelectedCollection(collectionId);
