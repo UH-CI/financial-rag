@@ -1,12 +1,14 @@
-name: build_and_push_core_deps
+name: build_and_push_deps
 
 on:
   push:
     branches:
-    - "main"
+    - "fin_autobuild"
     paths:
     - ".github/workflows/build-and-push-core-deps.yml"
-    - "dependency-layers/core/**"
+    - "dependency-layers/extended/**"
+  repository_dispatch:
+    types: [trigger-workflow]
   workflow_dispatch:
 
 jobs:

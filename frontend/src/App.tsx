@@ -48,7 +48,6 @@ function App() {
     loadCollections();
   }, [loadCollections]);
 
-
   // Handle collection selection
   // const handleCollectionSelect = useCallback((collectionId: string) => {
   //   setSelectedCollection(collectionId);
