@@ -116,3 +116,4 @@ else
     print_error "Check logs: cat $LOG_DIR/uvicorn.log"
     exit 1
 fi
+

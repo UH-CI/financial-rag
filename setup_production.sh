@@ -135,3 +135,4 @@ print_warning "⚠️  Remember to:"
 print_warning "   1. Edit src/.env with your actual API keys"
 print_warning "   2. Configure firewall for port 8200"
 print_warning "   3. Setup reverse proxy (nginx) if needed"
+

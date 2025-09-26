@@ -3061,3 +3061,1195 @@ Directory: SB_933_2025
 Directory: HB_72_2025
 Directory: HB_3_2025
 INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Found collection: bills
+INFO:     174.202.4.15:0 - "GET /collections HTTP/1.0" 200 OK
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_400_2025
+Directory: HB_934_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     174.202.4.15:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_400_2025
+Directory: HB_934_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     54.148.169.97:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Found collection: bills
+INFO:     54.148.169.97:0 - "GET /collections HTTP/1.0" 200 OK
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_400_2025
+Directory: HB_934_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     141.239.250.78:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Found collection: bills
+INFO:     141.239.250.78:0 - "GET /collections HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_727_2025/HB_727_2025_chronological.json
+File: HB727.json
+File found: HB727.json
+File: HB727_TESTIMONY_JHA_01-30-25_.json
+File: HB727_HD1.json
+File: HB727_HD1_HSCR624_.json
+File found: HB727_HD1_HSCR624_.json
+File: HB727_HD1_TESTIMONY_FIN_02-25-25_.json
+File: HB727_HD1_HSCR1142_.json
+File found: HB727_HD1_HSCR1142_.json
+File: HB727_HD1_TESTIMONY_JDC_03-19-25_.json
+File: HB727_SD1.json
+File: HB727_SD1_SSCR1240_.json
+File found: HB727_SD1_SSCR1240_.json
+File: HB727_SD1_TESTIMONY_WAM_03-31-25_.json
+File: HB727_SD2.json
+File: HB727_SD2_SSCR1531_.json
+File found: HB727_SD2_SSCR1531_.json
+File: HB727_CD1.json
+File: HB727_CD1_CCR58_.json
+File found: HB727_CD1_CCR58_.json
+INFO:     141.239.250.78:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=727&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_431_2025/HB_431_2025_chronological.json
+File: HB431.json
+File found: HB431.json
+File: HB431_TESTIMONY_HSH_01-28-25_.json
+File: HB431_HD1.json
+File: HB431_HD1_HSCR3_.json
+File found: HB431_HD1_HSCR3_.json
+File: HB431_HD1_TESTIMONY_HSG_02-12-25_.json
+File: HB431_HD2.json
+File: HB431_HD2_HSCR765_.json
+File found: HB431_HD2_HSCR765_.json
+File: HB431_HD2_TESTIMONY_FIN_02-24-25_.json
+File: HB431_HD2_HSCR962_.json
+File found: HB431_HD2_HSCR962_.json
+File: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.json
+File: HB431_SD1.json
+File: HB431_SD1_SSCR1287_.json
+File found: HB431_SD1_SSCR1287_.json
+File: HB431_SD1_TESTIMONY_WAM_03-28-25_.json
+File: HB431_SD2.json
+File: HB431_SD2_SSCR1528_.json
+File found: HB431_SD2_SSCR1528_.json
+File: HB431_CD1.json
+File: HB431_CD1_CCR189_.json
+File found: HB431_CD1_CCR189_.json
+INFO:     141.239.250.78:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=431&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/SB_933_2025/SB_933_2025_chronological.json
+File: SB933.json
+File found: SB933.json
+File: SB933_SD1_PROPOSED.json
+File: SB933_SD1.json
+File: SB933_SD1_SSCR548_.json
+File found: SB933_SD1_SSCR548_.json
+File: SB933_SD1_TESTIMONY_WAM_02-26-25_.json
+File: SB933_SD2.json
+File: SB933_SD2_SSCR822_.json
+File found: SB933_SD2_SSCR822_.json
+File: SB933_SD2_TESTIMONY_FIN_03-27-25_.json
+File: SB933_HD1.json
+File: SB933_HD1_HSCR1945_.json
+File found: SB933_HD1_HSCR1945_.json
+File: SB933_CD1.json
+File: SB933_CD1_CCR127_.json
+File found: SB933_CD1_CCR127_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=SB&bill_number=933&year=2025 HTTP/1.0" 200 OK
+INFO:     162.221.246.39:0 - "POST /generate-fiscal-note?bill_type=HB&bill_number=990&year=2025 HTTP/1.0" 200 OK
+2025-09-26 20:29:31,939 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-26 20:29:33,388 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-26 20:30:06,408 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-09-26 20:30:06,482 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-26 20:31:17,730 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-26 20:31:17,738 - INFO - AFC remote call 1 is done.
+2025-09-26 20:31:19,690 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-26 20:31:21,102 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-26 20:32:22,169 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-09-26 20:32:22,237 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-26 20:32:42,861 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-26 20:32:42,863 - INFO - AFC remote call 1 is done.
+2025-09-26 20:32:42,870 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-09-26 20:32:42,937 - INFO - AFC is enabled with max remote calls: 10.
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_431_2025/HB_431_2025_chronological.json
+File: HB431.json
+File found: HB431.json
+File: HB431_TESTIMONY_HSH_01-28-25_.json
+File: HB431_HD1.json
+File: HB431_HD1_HSCR3_.json
+File found: HB431_HD1_HSCR3_.json
+File: HB431_HD1_TESTIMONY_HSG_02-12-25_.json
+File: HB431_HD2.json
+File: HB431_HD2_HSCR765_.json
+File found: HB431_HD2_HSCR765_.json
+File: HB431_HD2_TESTIMONY_FIN_02-24-25_.json
+File: HB431_HD2_HSCR962_.json
+File found: HB431_HD2_HSCR962_.json
+File: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.json
+File: HB431_SD1.json
+File: HB431_SD1_SSCR1287_.json
+File found: HB431_SD1_SSCR1287_.json
+File: HB431_SD1_TESTIMONY_WAM_03-28-25_.json
+File: HB431_SD2.json
+File: HB431_SD2_SSCR1528_.json
+File found: HB431_SD2_SSCR1528_.json
+File: HB431_CD1.json
+File: HB431_CD1_CCR189_.json
+File found: HB431_CD1_CCR189_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=431&year=2025 HTTP/1.0" 200 OK
+2025-09-26 20:33:18,359 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-26 20:33:18,360 - INFO - AFC remote call 1 is done.
+Starting fiscal note generation for HB_990_2025
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x64f1a896bfba <unknown>
+#1 0x64f1a83f06d0 <unknown>
+#2 0x64f1a841d6d5 <unknown>
+#3 0x64f1a841ec45 <unknown>
+#4 0x64f1a8419dec <unknown>
+#5 0x64f1a8474648 <unknown>
+#6 0x64f1a8473f9e <unknown>
+#7 0x64f1a8475b72 <unknown>
+#8 0x64f1a8475946 <unknown>
+#9 0x64f1a8467c03 <unknown>
+#10 0x64f1a84347a8 <unknown>
+#11 0x64f1a8435421 <unknown>
+#12 0x64f1a8930b28 <unknown>
+#13 0x64f1a893487f <unknown>
+#14 0x64f1a8918c49 <unknown>
+#15 0x64f1a8935405 <unknown>
+#16 0x64f1a88fe4ff <unknown>
+#17 0x64f1a8959258 <unknown>
+#18 0x64f1a8959432 <unknown>
+#19 0x64f1a896afa3 <unknown>
+#20 0x7eb33749caa4 <unknown>
+#21 0x7eb337529c6c <unknown>
+
+Page loaded successfully. First 500 chars: <html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete" data-uw-w-loader="" data-uw-rm-lang="false"><head id="Head1"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="content-type" content="text/html;charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></scri
+✅ Timeline data saved to /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/HB_990_2025_timeline.json
+🚀 Initializing Chrome driver for document retrieval...
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: useAutomationExtension
+Stacktrace:
+#0 0x5717adfd0fba <unknown>
+#1 0x5717ada556d0 <unknown>
+#2 0x5717ada826d5 <unknown>
+#3 0x5717ada83c45 <unknown>
+#4 0x5717ada7edec <unknown>
+#5 0x5717adad9648 <unknown>
+#6 0x5717adad8f9e <unknown>
+#7 0x5717adadab72 <unknown>
+#8 0x5717adada946 <unknown>
+#9 0x5717adaccc03 <unknown>
+#10 0x5717ada997a8 <unknown>
+#11 0x5717ada9a421 <unknown>
+#12 0x5717adf95b28 <unknown>
+#13 0x5717adf9987f <unknown>
+#14 0x5717adf7dc49 <unknown>
+#15 0x5717adf9a405 <unknown>
+#16 0x5717adf634ff <unknown>
+#17 0x5717adfbe258 <unknown>
+#18 0x5717adfbe432 <unknown>
+#19 0x5717adfcffa3 <unknown>
+#20 0x73ac1389caa4 <unknown>
+#21 0x73ac13929c6c <unknown>
+
+✅ Chrome driver initialized successfully
+Processing document 1/14: HB990
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB990_.HTM
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/documents/HB990_.HTM.txt
+Processing document 2/14: HB990_TESTIMONY_JHA_02-12-25_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB990_TESTIMONY_JHA_02-12-25_.PDF
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/documents/HB990_TESTIMONY_JHA_02-12-25_.PDF.txt
+Processing document 3/14: HB990_HD1
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB990_HD1_.HTM
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/documents/HB990_HD1_.HTM.txt
+Processing document 4/14: HB990_HD1_HSCR686_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB990_HD1_HSCR686_.htm
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/documents/HB990_HD1_HSCR686_.htm.txt
+Processing document 5/14: HB990_HD1_TESTIMONY_FIN_02-25-25_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB990_HD1_TESTIMONY_FIN_02-25-25_.PDF
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/documents/HB990_HD1_TESTIMONY_FIN_02-25-25_.PDF.txt
+Processing document 6/14: HB990_HD2
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB990_HD2_.HTM
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/documents/HB990_HD2_.HTM.txt
+Processing document 7/14: HB990_HD2_HSCR1146_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB990_HD2_HSCR1146_.htm
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/documents/HB990_HD2_HSCR1146_.htm.txt
+Processing document 8/14: HB990_HD2_TESTIMONY_JDC_03-13-25_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB990_HD2_TESTIMONY_JDC_03-13-25_.PDF
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/documents/HB990_HD2_TESTIMONY_JDC_03-13-25_.PDF.txt
+Processing document 9/14: HB990_SD1
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB990_SD1_.HTM
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/documents/HB990_SD1_.HTM.txt
+Processing document 10/14: HB990_SD1_SSCR1165_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB990_SD1_SSCR1165_.htm
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/documents/HB990_SD1_SSCR1165_.htm.txt
+Processing document 11/14: HB990_SD1_TESTIMONY_WAM_04-01-25_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB990_SD1_TESTIMONY_WAM_04-01-25_.PDF
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/documents/HB990_SD1_TESTIMONY_WAM_04-01-25_.PDF.txt
+Processing document 12/14: HB990_SD1_SSCR1686_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB990_SD1_SSCR1686_.htm
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/documents/HB990_SD1_SSCR1686_.htm.txt
+Processing document 13/14: HB990_CD1
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB990_CD1_.HTM
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/documents/HB990_CD1_.HTM.txt
+Processing document 14/14: HB990_CD1_CCR132_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB990_CD1_CCR132_.htm
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/documents/HB990_CD1_CCR132_.htm.txt
+✅ All documents retrieved and saved to: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/documents
+📋 Retrieval log saved to: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/retrieval_log.json
+🔄 Cleaning up Chrome driver...
+✅ Chrome driver closed successfully
+✅ Temporary download directory cleaned up
+Processing document 1/14: HB990, text: HB990 HD1
+HOUSE OF REPRESENTATIVES
+H.B. NO.
+990
+THIRTY-THIRD LEGISLATURE, 2025
+H.D. 1
+STATE OF HAWAI
+📋 Generating fiscal note for bill introduction: HB990
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/fiscal_notes/HB990.json
+Processing document 2/14: HB990_TESTIMONY_JHA_02-12-25_, text:     JOSH GREEN, M.D. 
+             GOVERNOR 
+             KE KIAʻĀINA 
+ 
+ 
+STATE OF HAWAIʻI | KA MOK
+Processing document 3/14: HB990_HD1, text: HB990 HD1
+HOUSE OF REPRESENTATIVES
+H.B. NO.
+990
+THIRTY-THIRD LEGISLATURE, 2025
+H.D. 1
+STATE OF HAWAI
+Processing document 4/14: HB990_HD1_HSCR686_, text: HSCR686
+STAND.
+COM. REP. NO.
+686
+Honolulu, Hawaii
+,
+2025
+RE:
+H.B. No. 990
+H.D.
+1
+Honorable Nadine K.
+📋 Generating fiscal note for committee report: HB990_HD1_HSCR686_
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/fiscal_notes/HB990_HD1_HSCR686_.json
+Processing document 5/14: HB990_HD1_TESTIMONY_FIN_02-25-25_, text:     JOSH GREEN, M.D. 
+             GOVERNOR 
+             KE KIAʻĀINA 
+ 
+ 
+STATE OF HAWAIʻI | KA MOK
+Processing document 6/14: HB990_HD2, text: HSCR1146
+STAND.
+COM. REP. NO.
+1146
+Honolulu, Hawaii
+,
+2025
+RE:
+H.B. No. 990
+H.D.
+2
+Honorable Nadine 
+Processing document 7/14: HB990_HD2_HSCR1146_, text: HSCR1146
+STAND.
+COM. REP. NO.
+1146
+Honolulu, Hawaii
+,
+2025
+RE:
+H.B. No. 990
+H.D.
+2
+Honorable Nadine 
+2025-09-26 20:33:18,368 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-09-26 20:33:18,434 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-26 20:33:40,548 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-26 20:33:40,549 - INFO - AFC remote call 1 is done.
+2025-09-26 20:33:40,557 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-09-26 20:33:40,623 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-26 20:34:14,697 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-26 20:34:14,698 - INFO - AFC remote call 1 is done.
+2025-09-26 20:34:14,704 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-09-26 20:34:14,770 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-26 20:35:03,675 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-26 20:35:03,677 - INFO - AFC remote call 1 is done.
+2025-09-26 20:35:03,683 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-09-26 20:35:03,749 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-26 20:35:48,201 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-26 20:35:48,202 - INFO - AFC remote call 1 is done.
+Found collection: bills
+INFO:     162.221.246.39:0 - "GET /collections HTTP/1.0" 200 OK
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_400_2025
+Directory: HB_990_2025
+Directory: HB_934_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     162.221.246.39:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_934_2025/HB_934_2025_chronological.json
+File: HB934.json
+File found: HB934.json
+File: HB934_TESTIMONY_ECD_02-05-25_.json
+File: HB934_HD1.json
+File: HB934_HD1_HSCR329_.json
+File found: HB934_HD1_HSCR329_.json
+File: HB934_HD1_TESTIMONY_FIN_02-24-25_.json
+File: HB934_HD1_HSCR987_.json
+File found: HB934_HD1_HSCR987_.json
+File: HB934_HD1_TESTIMONY_EDT_03-11-25_.json
+File: HB934_SD1.json
+File: HB934_SD1_SSCR1126_.json
+File found: HB934_SD1_SSCR1126_.json
+File: HB934_SD1_TESTIMONY_WAM_04-01-25_.json
+File: HB934_SD2.json
+File: HB934_SD2_SSCR1752_.json
+File found: HB934_SD2_SSCR1752_.json
+File: HB934_CD1.json
+File: HB934_CD1_CCR222_.json
+File found: HB934_CD1_CCR222_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=934&year=2025 HTTP/1.0" 200 OK
+📋 Generating fiscal note for committee report: HB990_HD2_HSCR1146_
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/fiscal_notes/HB990_HD2_HSCR1146_.json
+Processing document 8/14: HB990_HD2_TESTIMONY_JDC_03-13-25_, text: TESTIMONY OF 
+THE DEPARTMENT OF THE ATTORNEY GENERAL 
+KA ‘OIHANA O KA LOIO KUHINA 
+THIRTY-THIRD LEGI
+Processing document 9/14: HB990_SD1, text:     JOSH GREEN, M.D. 
+             GOVERNOR 
+             KE KIAʻĀINA 
+ 
+ 
+STATE OF HAWAIʻI | KA MOK
+Processing document 10/14: HB990_SD1_SSCR1165_, text: SSCR1165
+STAND. COM. REP. NO.
+1165
+Honolulu,
+Hawaii
+RE:
+H.B. No. 990
+H.D. 2
+S.D. 1
+Honorable Ronald 
+📋 Generating fiscal note for committee report: HB990_SD1_SSCR1165_
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/fiscal_notes/HB990_SD1_SSCR1165_.json
+Processing document 11/14: HB990_SD1_TESTIMONY_WAM_04-01-25_, text:     JOSH GREEN, M.D. 
+             GOVERNOR 
+             KE KIAʻĀINA 
+ 
+ 
+STATE OF HAWAIʻI | KA MOK
+Processing document 12/14: HB990_SD1_SSCR1686_, text: SSCR1686
+STAND. COM. REP. NO.
+1686
+Honolulu,
+Hawaii
+RE:
+H.B. No. 990
+H.D. 2
+S.D. 1
+Honorable Ronald 
+📋 Generating fiscal note for committee report: HB990_SD1_SSCR1686_
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/fiscal_notes/HB990_SD1_SSCR1686_.json
+Processing document 13/14: HB990_CD1, text: HB990 CD1
+HOUSE OF REPRESENTATIVES
+H.B. NO.
+990
+THIRTY-THIRD LEGISLATURE, 2025
+H.D. 2
+STATE OF HAWAI
+Processing document 14/14: HB990_CD1_CCR132_, text: CCR132
+CONFERENCE
+COMMITTEE REP. NO.
+132
+Honolulu,
+Hawaii
+,
+2025
+RE:
+H.B. No. 990
+H.D. 2
+S.D. 1
+C.D.
+📋 Generating fiscal note for committee report: HB990_CD1_CCR132_
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/fiscal_notes/HB990_CD1_CCR132_.json
+✅ Fiscal notes generated and saved to: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/fiscal_notes
+Fiscal note generation completed for HB_990_2025
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/SB_933_2025/SB_933_2025_chronological.json
+File: SB933.json
+File found: SB933.json
+File: SB933_SD1_PROPOSED.json
+File: SB933_SD1.json
+File: SB933_SD1_SSCR548_.json
+File found: SB933_SD1_SSCR548_.json
+File: SB933_SD1_TESTIMONY_WAM_02-26-25_.json
+File: SB933_SD2.json
+File: SB933_SD2_SSCR822_.json
+File found: SB933_SD2_SSCR822_.json
+File: SB933_SD2_TESTIMONY_FIN_03-27-25_.json
+File: SB933_HD1.json
+File: SB933_HD1_HSCR1945_.json
+File found: SB933_HD1_HSCR1945_.json
+File: SB933_CD1.json
+File: SB933_CD1_CCR127_.json
+File found: SB933_CD1_CCR127_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=SB&bill_number=933&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_431_2025/HB_431_2025_chronological.json
+File: HB431.json
+File found: HB431.json
+File: HB431_TESTIMONY_HSH_01-28-25_.json
+File: HB431_HD1.json
+File: HB431_HD1_HSCR3_.json
+File found: HB431_HD1_HSCR3_.json
+File: HB431_HD1_TESTIMONY_HSG_02-12-25_.json
+File: HB431_HD2.json
+File: HB431_HD2_HSCR765_.json
+File found: HB431_HD2_HSCR765_.json
+File: HB431_HD2_TESTIMONY_FIN_02-24-25_.json
+File: HB431_HD2_HSCR962_.json
+File found: HB431_HD2_HSCR962_.json
+File: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.json
+File: HB431_SD1.json
+File: HB431_SD1_SSCR1287_.json
+File found: HB431_SD1_SSCR1287_.json
+File: HB431_SD1_TESTIMONY_WAM_03-28-25_.json
+File: HB431_SD2.json
+File: HB431_SD2_SSCR1528_.json
+File found: HB431_SD2_SSCR1528_.json
+File: HB431_CD1.json
+File: HB431_CD1_CCR189_.json
+File found: HB431_CD1_CCR189_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=431&year=2025 HTTP/1.0" 200 OK
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_400_2025
+Directory: HB_990_2025
+Directory: HB_934_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     162.221.246.39:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Found collection: bills
+INFO:     162.221.246.39:0 - "GET /collections HTTP/1.0" 200 OK
+INFO:     162.221.246.39:0 - "POST /generate-fiscal-note?bill_type=HB&bill_number=hb1308&year=2025 HTTP/1.0" 200 OK
+2025-09-26 22:09:53,037 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-26 22:09:54,461 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_727_2025/HB_727_2025_chronological.json
+File: HB727.json
+File found: HB727.json
+File: HB727_TESTIMONY_JHA_01-30-25_.json
+File: HB727_HD1.json
+File: HB727_HD1_HSCR624_.json
+File found: HB727_HD1_HSCR624_.json
+File: HB727_HD1_TESTIMONY_FIN_02-25-25_.json
+File: HB727_HD1_HSCR1142_.json
+File found: HB727_HD1_HSCR1142_.json
+File: HB727_HD1_TESTIMONY_JDC_03-19-25_.json
+File: HB727_SD1.json
+File: HB727_SD1_SSCR1240_.json
+File found: HB727_SD1_SSCR1240_.json
+File: HB727_SD1_TESTIMONY_WAM_03-31-25_.json
+File: HB727_SD2.json
+File: HB727_SD2_SSCR1531_.json
+File found: HB727_SD2_SSCR1531_.json
+File: HB727_CD1.json
+File: HB727_CD1_CCR58_.json
+File found: HB727_CD1_CCR58_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=727&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_431_2025/HB_431_2025_chronological.json
+File: HB431.json
+File found: HB431.json
+File: HB431_TESTIMONY_HSH_01-28-25_.json
+File: HB431_HD1.json
+File: HB431_HD1_HSCR3_.json
+File found: HB431_HD1_HSCR3_.json
+File: HB431_HD1_TESTIMONY_HSG_02-12-25_.json
+File: HB431_HD2.json
+File: HB431_HD2_HSCR765_.json
+File found: HB431_HD2_HSCR765_.json
+File: HB431_HD2_TESTIMONY_FIN_02-24-25_.json
+File: HB431_HD2_HSCR962_.json
+File found: HB431_HD2_HSCR962_.json
+File: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.json
+File: HB431_SD1.json
+File: HB431_SD1_SSCR1287_.json
+File found: HB431_SD1_SSCR1287_.json
+File: HB431_SD1_TESTIMONY_WAM_03-28-25_.json
+File: HB431_SD2.json
+File: HB431_SD2_SSCR1528_.json
+File found: HB431_SD2_SSCR1528_.json
+File: HB431_CD1.json
+File: HB431_CD1_CCR189_.json
+File found: HB431_CD1_CCR189_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=431&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/SB_933_2025/SB_933_2025_chronological.json
+File: SB933.json
+File found: SB933.json
+File: SB933_SD1_PROPOSED.json
+File: SB933_SD1.json
+File: SB933_SD1_SSCR548_.json
+File found: SB933_SD1_SSCR548_.json
+File: SB933_SD1_TESTIMONY_WAM_02-26-25_.json
+File: SB933_SD2.json
+File: SB933_SD2_SSCR822_.json
+File found: SB933_SD2_SSCR822_.json
+File: SB933_SD2_TESTIMONY_FIN_03-27-25_.json
+File: SB933_HD1.json
+File: SB933_HD1_HSCR1945_.json
+File found: SB933_HD1_HSCR1945_.json
+File: SB933_CD1.json
+File: SB933_CD1_CCR127_.json
+File found: SB933_CD1_CCR127_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=SB&bill_number=933&year=2025 HTTP/1.0" 200 OK
+Starting fiscal note generation for HB_hb1308_2025
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x61b3986d3fba <unknown>
+#1 0x61b3981586d0 <unknown>
+#2 0x61b3981856d5 <unknown>
+#3 0x61b398186c45 <unknown>
+#4 0x61b398181dec <unknown>
+#5 0x61b3981dc648 <unknown>
+#6 0x61b3981dbf9e <unknown>
+#7 0x61b3981ddb72 <unknown>
+#8 0x61b3981dd946 <unknown>
+#9 0x61b3981cfc03 <unknown>
+#10 0x61b39819c7a8 <unknown>
+#11 0x61b39819d421 <unknown>
+#12 0x61b398698b28 <unknown>
+#13 0x61b39869c87f <unknown>
+#14 0x61b398680c49 <unknown>
+#15 0x61b39869d405 <unknown>
+#16 0x61b3986664ff <unknown>
+#17 0x61b3986c1258 <unknown>
+#18 0x61b3986c1432 <unknown>
+#19 0x61b3986d2fa3 <unknown>
+#20 0x7af36f49caa4 <unknown>
+#21 0x7af36f529c6c <unknown>
+
+Page loaded successfully. First 500 chars: <html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete" data-uw-w-loader="" data-uw-rm-lang="false"><head id="Head1"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="content-type" content="text/html;charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></scri
+Error in fiscal note generation job HB_hb1308_2025: 'NoneType' object has no attribute 'find_parent'
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_72_2025/HB_72_2025_chronological.json
+File: HB72.json
+File found: HB72.json
+File: HB72_TESTIMONY_HLT_01-31-25_.json
+File: HB72_HD1.json
+File: HB72_HD1_HSCR68_.json
+File found: HB72_HD1_HSCR68_.json
+File: HB72_HD1_TESTIMONY_CPC_02-06-25_.json
+File: HB72_HD2.json
+File: HB72_HD2_HSCR529_.json
+File found: HB72_HD2_HSCR529_.json
+File: HB72_HD2_TESTIMONY_FIN_02-21-25_.json
+File: HB72_HD2_HSCR948_.json
+File found: HB72_HD2_HSCR948_.json
+File: HB72_HD2_TESTIMONY_HHS_03-10-25_.json
+File: HB72_SD1.json
+File: HB72_SD1_SSCR1082_.json
+File found: HB72_SD1_SSCR1082_.json
+File: HB72_SD1_TESTIMONY_CPN_03-27-25_.json
+File: HB72_SD1_SSCR1642_.json
+File found: HB72_SD1_SSCR1642_.json
+File: HB72_CD1.json
+File: HB72_CD1_CCR182_.json
+File found: HB72_CD1_CCR182_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=72&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_3_2025/HB_3_2025_chronological.json
+File: HB3.json
+File found: HB3.json
+File: HB3_TESTIMONY_WAL_01-28-25_.json
+File: HB3_HD1.json
+File: HB3_HD1_HSCR17_.json
+File found: HB3_HD1_HSCR17_.json
+File: HB3_HD1_TESTIMONY_HED-EDN_02-05-25_.json
+File: HB3_HD1_HSCR295_.json
+File found: HB3_HD1_HSCR295_.json
+File: HB3_HD1_TESTIMONY_FIN_02-24-25_.json
+File: HB3_HD2.json
+File: HB3_HD2_HSCR1030_.json
+File found: HB3_HD2_HSCR1030_.json
+File: HB3_HD2_TESTIMONY_HRE_03-13-25_.json
+File: HB3_SD1.json
+File: HB3_SD1_SSCR1131_.json
+File found: HB3_SD1_SSCR1131_.json
+File: HB3_SD1_TESTIMONY_WAM_03-31-25_.json
+File: HB3_SD1_SSCR1514_.json
+File found: HB3_SD1_SSCR1514_.json
+File: HB3_CD1.json
+File: HB3_CD1_CCR40_.json
+File found: HB3_CD1_CCR40_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=3&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/HB_70_2025_chronological.json
+File: HB70.json
+File found: HB70.json
+File: HB70_TESTIMONY_CPC_01-30-25_.json
+File: HB70_HD1.json
+File: HB70_HD1_HSCR253_.json
+File found: HB70_HD1_HSCR253_.json
+File: HB70_HD1_TESTIMONY_JHA_02-25-25_.json
+File: HB70_HD1_HSCR1060_.json
+File found: HB70_HD1_HSCR1060_.json
+File: HB70_HD1_TESTIMONY_CPN_03-14-25_.json
+File: HB70_SD1.json
+File: HB70_SD1_SSCR1254_.json
+File found: HB70_SD1_SSCR1254_.json
+File: HB70_SD1_TESTIMONY_JDC_03-25-25_.json
+File: HB70_SD1_SSCR1509_.json
+File found: HB70_SD1_SSCR1509_.json
+File: HB70_CD1.json
+File: HB70_CD1_CCR43_.json
+File found: HB70_CD1_CCR43_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=70&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_302_2025/HB_302_2025_chronological.json
+File: HB302.json
+File found: HB302.json
+File: HB302_TESTIMONY_HLT_01-29-25_.json
+File: HB302_HD1.json
+File: HB302_HD1_HSCR33_.json
+File found: HB302_HD1_HSCR33_.json
+File: HB302_HD1_TESTIMONY_CPC_02-06-25_.json
+File: HB302_HD2.json
+File: HB302_HD2_HSCR428_.json
+File found: HB302_HD2_HSCR428_.json
+File: HB302_HD2_TESTIMONY_JHA_02-25-25_.json
+File: HB302_HD2_HSCR1079_.json
+File found: HB302_HD2_HSCR1079_.json
+File: HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_.json
+File: HB302_SD1.json
+File: HB302_SD1_SSCR1329_.json
+File found: HB302_SD1_SSCR1329_.json
+File: HB302_SD1_TESTIMONY_WAM-JDC_04-01-25_.json
+File: HB302_SD2.json
+File: HB302_SD2_SSCR1816_.json
+File found: HB302_SD2_SSCR1816_.json
+File: HB302_CD1.json
+File: HB302_CD1_CCR255_.json
+File found: HB302_CD1_CCR255_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=302&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_934_2025/HB_934_2025_chronological.json
+File: HB934.json
+File found: HB934.json
+File: HB934_TESTIMONY_ECD_02-05-25_.json
+File: HB934_HD1.json
+File: HB934_HD1_HSCR329_.json
+File found: HB934_HD1_HSCR329_.json
+File: HB934_HD1_TESTIMONY_FIN_02-24-25_.json
+File: HB934_HD1_HSCR987_.json
+File found: HB934_HD1_HSCR987_.json
+File: HB934_HD1_TESTIMONY_EDT_03-11-25_.json
+File: HB934_SD1.json
+File: HB934_SD1_SSCR1126_.json
+File found: HB934_SD1_SSCR1126_.json
+File: HB934_SD1_TESTIMONY_WAM_04-01-25_.json
+File: HB934_SD2.json
+File: HB934_SD2_SSCR1752_.json
+File found: HB934_SD2_SSCR1752_.json
+File: HB934_CD1.json
+File: HB934_CD1_CCR222_.json
+File found: HB934_CD1_CCR222_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=934&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_990_2025/HB_990_2025_chronological.json
+File: HB990.json
+File found: HB990.json
+File: HB990_TESTIMONY_JHA_02-12-25_.json
+File: HB990_HD1.json
+File: HB990_HD1_HSCR686_.json
+File found: HB990_HD1_HSCR686_.json
+File: HB990_HD1_TESTIMONY_FIN_02-25-25_.json
+File: HB990_HD2.json
+File: HB990_HD2_HSCR1146_.json
+File found: HB990_HD2_HSCR1146_.json
+File: HB990_HD2_TESTIMONY_JDC_03-13-25_.json
+File: HB990_SD1.json
+File: HB990_SD1_SSCR1165_.json
+File found: HB990_SD1_SSCR1165_.json
+File: HB990_SD1_TESTIMONY_WAM_04-01-25_.json
+File: HB990_SD1_SSCR1686_.json
+File found: HB990_SD1_SSCR1686_.json
+File: HB990_CD1.json
+File: HB990_CD1_CCR132_.json
+File found: HB990_CD1_CCR132_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=990&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/HB_400_2025_chronological.json
+File: HB400.json
+File found: HB400.json
+File: HB400_TESTIMONY_JHA_01-30-25_.json
+File: HB400_HSCR286_.json
+File found: HB400_HSCR286_.json
+File: HB400_TESTIMONY_FIN_03-05-25_.json
+File: HB400_HD1.json
+File: HB400_HD1_HSCR1171_.json
+File found: HB400_HD1_HSCR1171_.json
+File: HB400_HD1_TESTIMONY_JDC_03-19-25_.json
+File: HB400_SD1.json
+File: HB400_SD1_SSCR1253_.json
+File found: HB400_SD1_SSCR1253_.json
+File: HB400_SD1_TESTIMONY_WAM_03-31-25_.json
+File: HB400_SD2.json
+File: HB400_SD2_SSCR1841_.json
+File found: HB400_SD2_SSCR1841_.json
+File: HB400_CD1.json
+File: HB400_CD1_CCR157_.json
+File found: HB400_CD1_CCR157_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=400&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_300_2025/HB_300_2025_chronological.json
+File: HB300.json
+File found: HB300.json
+File: HB300_TESTIMONY_FIN_03-05-25_.json
+File: HB300_HD1.json
+File: HB300_HD1_HSCR1172_.json
+File found: HB300_HD1_HSCR1172_.json
+File: HB300_HD1_TESTIMONY_WAM_03-18-25_.json
+File: HB300_SD1.json
+File: HB300_SD1_SSCR1743_.json
+File found: HB300_SD1_SSCR1743_.json
+File: HB300_CD1.json
+File: HB300_CD1_CCR45_.json
+File found: HB300_CD1_CCR45_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=300&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_431_2025/HB_431_2025_chronological.json
+File: HB431.json
+File found: HB431.json
+File: HB431_TESTIMONY_HSH_01-28-25_.json
+File: HB431_HD1.json
+File: HB431_HD1_HSCR3_.json
+File found: HB431_HD1_HSCR3_.json
+File: HB431_HD1_TESTIMONY_HSG_02-12-25_.json
+File: HB431_HD2.json
+File: HB431_HD2_HSCR765_.json
+File found: HB431_HD2_HSCR765_.json
+File: HB431_HD2_TESTIMONY_FIN_02-24-25_.json
+File: HB431_HD2_HSCR962_.json
+File found: HB431_HD2_HSCR962_.json
+File: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.json
+File: HB431_SD1.json
+File: HB431_SD1_SSCR1287_.json
+File found: HB431_SD1_SSCR1287_.json
+File: HB431_SD1_TESTIMONY_WAM_03-28-25_.json
+File: HB431_SD2.json
+File: HB431_SD2_SSCR1528_.json
+File found: HB431_SD2_SSCR1528_.json
+File: HB431_CD1.json
+File: HB431_CD1_CCR189_.json
+File found: HB431_CD1_CCR189_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=431&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_727_2025/HB_727_2025_chronological.json
+File: HB727.json
+File found: HB727.json
+File: HB727_TESTIMONY_JHA_01-30-25_.json
+File: HB727_HD1.json
+File: HB727_HD1_HSCR624_.json
+File found: HB727_HD1_HSCR624_.json
+File: HB727_HD1_TESTIMONY_FIN_02-25-25_.json
+File: HB727_HD1_HSCR1142_.json
+File found: HB727_HD1_HSCR1142_.json
+File: HB727_HD1_TESTIMONY_JDC_03-19-25_.json
+File: HB727_SD1.json
+File: HB727_SD1_SSCR1240_.json
+File found: HB727_SD1_SSCR1240_.json
+File: HB727_SD1_TESTIMONY_WAM_03-31-25_.json
+File: HB727_SD2.json
+File: HB727_SD2_SSCR1531_.json
+File found: HB727_SD2_SSCR1531_.json
+File: HB727_CD1.json
+File: HB727_CD1_CCR58_.json
+File found: HB727_CD1_CCR58_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=727&year=2025 HTTP/1.0" 200 OK
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_hb1308_2025
+Directory: HB_400_2025
+Directory: HB_990_2025
+Directory: HB_934_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Found collection: bills
+INFO:     76.39.15.190:0 - "GET /collections HTTP/1.0" 200 OK
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=hb1308&year=2025 HTTP/1.0" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/api.py", line 1254, in get_fiscal_note
+    with open(chronological_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/exouser/RAG-system/src/fiscal_notes/generation/HB_hb1308_2025/HB_hb1308_2025_chronological.json'
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_300_2025/HB_300_2025_chronological.json
+File: HB300.json
+File found: HB300.json
+File: HB300_TESTIMONY_FIN_03-05-25_.json
+File: HB300_HD1.json
+File: HB300_HD1_HSCR1172_.json
+File found: HB300_HD1_HSCR1172_.json
+File: HB300_HD1_TESTIMONY_WAM_03-18-25_.json
+File: HB300_SD1.json
+File: HB300_SD1_SSCR1743_.json
+File found: HB300_SD1_SSCR1743_.json
+File: HB300_CD1.json
+File: HB300_CD1_CCR45_.json
+File found: HB300_CD1_CCR45_.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=300&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/HB_400_2025_chronological.json
+File: HB400.json
+File found: HB400.json
+File: HB400_TESTIMONY_JHA_01-30-25_.json
+File: HB400_HSCR286_.json
+File found: HB400_HSCR286_.json
+File: HB400_TESTIMONY_FIN_03-05-25_.json
+File: HB400_HD1.json
+File: HB400_HD1_HSCR1171_.json
+File found: HB400_HD1_HSCR1171_.json
+File: HB400_HD1_TESTIMONY_JDC_03-19-25_.json
+File: HB400_SD1.json
+File: HB400_SD1_SSCR1253_.json
+File found: HB400_SD1_SSCR1253_.json
+File: HB400_SD1_TESTIMONY_WAM_03-31-25_.json
+File: HB400_SD2.json
+File: HB400_SD2_SSCR1841_.json
+File found: HB400_SD2_SSCR1841_.json
+File: HB400_CD1.json
+File: HB400_CD1_CCR157_.json
+File found: HB400_CD1_CCR157_.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=400&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_431_2025/HB_431_2025_chronological.json
+File: HB431.json
+File found: HB431.json
+File: HB431_TESTIMONY_HSH_01-28-25_.json
+File: HB431_HD1.json
+File: HB431_HD1_HSCR3_.json
+File found: HB431_HD1_HSCR3_.json
+File: HB431_HD1_TESTIMONY_HSG_02-12-25_.json
+File: HB431_HD2.json
+File: HB431_HD2_HSCR765_.json
+File found: HB431_HD2_HSCR765_.json
+File: HB431_HD2_TESTIMONY_FIN_02-24-25_.json
+File: HB431_HD2_HSCR962_.json
+File found: HB431_HD2_HSCR962_.json
+File: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.json
+File: HB431_SD1.json
+File: HB431_SD1_SSCR1287_.json
+File found: HB431_SD1_SSCR1287_.json
+File: HB431_SD1_TESTIMONY_WAM_03-28-25_.json
+File: HB431_SD2.json
+File: HB431_SD2_SSCR1528_.json
+File found: HB431_SD2_SSCR1528_.json
+File: HB431_CD1.json
+File: HB431_CD1_CCR189_.json
+File found: HB431_CD1_CCR189_.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=431&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_727_2025/HB_727_2025_chronological.json
+File: HB727.json
+File found: HB727.json
+File: HB727_TESTIMONY_JHA_01-30-25_.json
+File: HB727_HD1.json
+File: HB727_HD1_HSCR624_.json
+File found: HB727_HD1_HSCR624_.json
+File: HB727_HD1_TESTIMONY_FIN_02-25-25_.json
+File: HB727_HD1_HSCR1142_.json
+File found: HB727_HD1_HSCR1142_.json
+File: HB727_HD1_TESTIMONY_JDC_03-19-25_.json
+File: HB727_SD1.json
+File: HB727_SD1_SSCR1240_.json
+File found: HB727_SD1_SSCR1240_.json
+File: HB727_SD1_TESTIMONY_WAM_03-31-25_.json
+File: HB727_SD2.json
+File: HB727_SD2_SSCR1531_.json
+File found: HB727_SD2_SSCR1531_.json
+File: HB727_CD1.json
+File: HB727_CD1_CCR58_.json
+File found: HB727_CD1_CCR58_.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=727&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/HB_400_2025_chronological.json
+File: HB400.json
+File found: HB400.json
+File: HB400_TESTIMONY_JHA_01-30-25_.json
+File: HB400_HSCR286_.json
+File found: HB400_HSCR286_.json
+File: HB400_TESTIMONY_FIN_03-05-25_.json
+File: HB400_HD1.json
+File: HB400_HD1_HSCR1171_.json
+File found: HB400_HD1_HSCR1171_.json
+File: HB400_HD1_TESTIMONY_JDC_03-19-25_.json
+File: HB400_SD1.json
+File: HB400_SD1_SSCR1253_.json
+File found: HB400_SD1_SSCR1253_.json
+File: HB400_SD1_TESTIMONY_WAM_03-31-25_.json
+File: HB400_SD2.json
+File: HB400_SD2_SSCR1841_.json
+File found: HB400_SD2_SSCR1841_.json
+File: HB400_CD1.json
+File: HB400_CD1_CCR157_.json
+File found: HB400_CD1_CCR157_.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=400&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/SB_933_2025/SB_933_2025_chronological.json
+File: SB933.json
+File found: SB933.json
+File: SB933_SD1_PROPOSED.json
+File: SB933_SD1.json
+File: SB933_SD1_SSCR548_.json
+File found: SB933_SD1_SSCR548_.json
+File: SB933_SD1_TESTIMONY_WAM_02-26-25_.json
+File: SB933_SD2.json
+File: SB933_SD2_SSCR822_.json
+File found: SB933_SD2_SSCR822_.json
+File: SB933_SD2_TESTIMONY_FIN_03-27-25_.json
+File: SB933_HD1.json
+File: SB933_HD1_HSCR1945_.json
+File found: SB933_HD1_HSCR1945_.json
+File: SB933_CD1.json
+File: SB933_CD1_CCR127_.json
+File found: SB933_CD1_CCR127_.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=SB&bill_number=933&year=2025 HTTP/1.0" 200 OK
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=hb1308&year=2025 HTTP/1.0" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/api.py", line 1254, in get_fiscal_note
+    with open(chronological_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/exouser/RAG-system/src/fiscal_notes/generation/HB_hb1308_2025/HB_hb1308_2025_chronological.json'
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/HB_400_2025_chronological.json
+File: HB400.json
+File found: HB400.json
+File: HB400_TESTIMONY_JHA_01-30-25_.json
+File: HB400_HSCR286_.json
+File found: HB400_HSCR286_.json
+File: HB400_TESTIMONY_FIN_03-05-25_.json
+File: HB400_HD1.json
+File: HB400_HD1_HSCR1171_.json
+File found: HB400_HD1_HSCR1171_.json
+File: HB400_HD1_TESTIMONY_JDC_03-19-25_.json
+File: HB400_SD1.json
+File: HB400_SD1_SSCR1253_.json
+File found: HB400_SD1_SSCR1253_.json
+File: HB400_SD1_TESTIMONY_WAM_03-31-25_.json
+File: HB400_SD2.json
+File: HB400_SD2_SSCR1841_.json
+File found: HB400_SD2_SSCR1841_.json
+File: HB400_CD1.json
+File: HB400_CD1_CCR157_.json
+File found: HB400_CD1_CCR157_.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=400&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_934_2025/HB_934_2025_chronological.json
+File: HB934.json
+File found: HB934.json
+File: HB934_TESTIMONY_ECD_02-05-25_.json
+File: HB934_HD1.json
+File: HB934_HD1_HSCR329_.json
+File found: HB934_HD1_HSCR329_.json
+File: HB934_HD1_TESTIMONY_FIN_02-24-25_.json
+File: HB934_HD1_HSCR987_.json
+File found: HB934_HD1_HSCR987_.json
+File: HB934_HD1_TESTIMONY_EDT_03-11-25_.json
+File: HB934_SD1.json
+File: HB934_SD1_SSCR1126_.json
+File found: HB934_SD1_SSCR1126_.json
+File: HB934_SD1_TESTIMONY_WAM_04-01-25_.json
+File: HB934_SD2.json
+File: HB934_SD2_SSCR1752_.json
+File found: HB934_SD2_SSCR1752_.json
+File: HB934_CD1.json
+File: HB934_CD1_CCR222_.json
+File found: HB934_CD1_CCR222_.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=934&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_302_2025/HB_302_2025_chronological.json
+File: HB302.json
+File found: HB302.json
+File: HB302_TESTIMONY_HLT_01-29-25_.json
+File: HB302_HD1.json
+File: HB302_HD1_HSCR33_.json
+File found: HB302_HD1_HSCR33_.json
+File: HB302_HD1_TESTIMONY_CPC_02-06-25_.json
+File: HB302_HD2.json
+File: HB302_HD2_HSCR428_.json
+File found: HB302_HD2_HSCR428_.json
+File: HB302_HD2_TESTIMONY_JHA_02-25-25_.json
+File: HB302_HD2_HSCR1079_.json
+File found: HB302_HD2_HSCR1079_.json
+File: HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_.json
+File: HB302_SD1.json
+File: HB302_SD1_SSCR1329_.json
+File found: HB302_SD1_SSCR1329_.json
+File: HB302_SD1_TESTIMONY_WAM-JDC_04-01-25_.json
+File: HB302_SD2.json
+File: HB302_SD2_SSCR1816_.json
+File found: HB302_SD2_SSCR1816_.json
+File: HB302_CD1.json
+File: HB302_CD1_CCR255_.json
+File found: HB302_CD1_CCR255_.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=302&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_302_2025/HB_302_2025_chronological.json
+File: HB302.json
+File found: HB302.json
+File: HB302_TESTIMONY_HLT_01-29-25_.json
+File: HB302_HD1.json
+File: HB302_HD1_HSCR33_.json
+File found: HB302_HD1_HSCR33_.json
+File: HB302_HD1_TESTIMONY_CPC_02-06-25_.json
+File: HB302_HD2.json
+File: HB302_HD2_HSCR428_.json
+File found: HB302_HD2_HSCR428_.json
+File: HB302_HD2_TESTIMONY_JHA_02-25-25_.json
+File: HB302_HD2_HSCR1079_.json
+File found: HB302_HD2_HSCR1079_.json
+File: HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_.json
+File: HB302_SD1.json
+File: HB302_SD1_SSCR1329_.json
+File found: HB302_SD1_SSCR1329_.json
+File: HB302_SD1_TESTIMONY_WAM-JDC_04-01-25_.json
+File: HB302_SD2.json
+File: HB302_SD2_SSCR1816_.json
+File found: HB302_SD2_SSCR1816_.json
+File: HB302_CD1.json
+File: HB302_CD1_CCR255_.json
+File found: HB302_CD1_CCR255_.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=302&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/HB_70_2025_chronological.json
+File: HB70.json
+File found: HB70.json
+File: HB70_TESTIMONY_CPC_01-30-25_.json
+File: HB70_HD1.json
+File: HB70_HD1_HSCR253_.json
+File found: HB70_HD1_HSCR253_.json
+File: HB70_HD1_TESTIMONY_JHA_02-25-25_.json
+File: HB70_HD1_HSCR1060_.json
+File found: HB70_HD1_HSCR1060_.json
+File: HB70_HD1_TESTIMONY_CPN_03-14-25_.json
+File: HB70_SD1.json
+File: HB70_SD1_SSCR1254_.json
+File found: HB70_SD1_SSCR1254_.json
+File: HB70_SD1_TESTIMONY_JDC_03-25-25_.json
+File: HB70_SD1_SSCR1509_.json
+File found: HB70_SD1_SSCR1509_.json
+File: HB70_CD1.json
+File: HB70_CD1_CCR43_.json
+File found: HB70_CD1_CCR43_.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=70&year=2025 HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/SB_933_2025/SB_933_2025_chronological.json
+File: SB933.json
+File found: SB933.json
+File: SB933_SD1_PROPOSED.json
+File: SB933_SD1.json
+File: SB933_SD1_SSCR548_.json
+File found: SB933_SD1_SSCR548_.json
+File: SB933_SD1_TESTIMONY_WAM_02-26-25_.json
+File: SB933_SD2.json
+File: SB933_SD2_SSCR822_.json
+File found: SB933_SD2_SSCR822_.json
+File: SB933_SD2_TESTIMONY_FIN_03-27-25_.json
+File: SB933_HD1.json
+File: SB933_HD1_HSCR1945_.json
+File found: SB933_HD1_HSCR1945_.json
+File: SB933_CD1.json
+File: SB933_CD1_CCR127_.json
+File found: SB933_CD1_CCR127_.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=SB&bill_number=933&year=2025 HTTP/1.0" 200 OK
