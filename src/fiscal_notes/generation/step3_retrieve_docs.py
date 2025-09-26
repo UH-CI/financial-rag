@@ -51,8 +51,7 @@ def create_stealth_driver(download_dir=None):
             "safebrowsing.enabled": True
         })
     
-    # Additional experimental options to avoid detection
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    # Additional experimental options to avoid detection (removed excludeSwitches due to compatibility issues)
     options.add_experimental_option('useAutomationExtension', False)
     
     try:
@@ -105,9 +104,9 @@ def retry_with_backoff(func, max_retries=3, base_delay=2):
             print(f"Attempt {attempt + 1} failed: {e}. Retrying in {delay:.1f} seconds...")
             time.sleep(delay)
 
-def parse_web_document_selenium(url, output_dir):
+def parse_web_document_selenium_with_driver(url, output_dir, driver, download_dir):
     """
-    Fetch a single HTML or PDF page using Selenium (undetected) to bypass Cloudflare,
+    Fetch a single HTML or PDF page using an existing Selenium driver,
     extract text, and save it as a .txt file.
     """
     os.makedirs(output_dir, exist_ok=True)
@@ -116,12 +115,6 @@ def parse_web_document_selenium(url, output_dir):
     path = urlparse(url).path
     filename_base = os.path.basename(path) or "document"
     txt_filename = os.path.join(output_dir, f"{filename_base}.txt")
-
-    # Setup temp download directory for PDFs
-    download_dir = tempfile.mkdtemp()
-
-    # Use the new stealth driver
-    driver = create_stealth_driver(download_dir)
 
     def clean_html_text(html):
         soup = BeautifulSoup(html, "html.parser")
@@ -140,7 +133,8 @@ def parse_web_document_selenium(url, output_dir):
 
     def load_page_with_retry():
         driver.get(url)
-        wait_with_random_delay(3, 6)  # Wait longer to bypass Cloudflare
+        # Reduced delay since we're reusing the driver
+        wait_with_random_delay(1, 2)  # Reduced from 3-6 to 1-2 seconds
         
         # Check if we hit Cloudflare protection
         page_source = driver.page_source.lower()
@@ -152,16 +146,21 @@ def parse_web_document_selenium(url, output_dir):
 
     try:
         # Try to load the page with retry logic
-        retry_with_backoff(load_page_with_retry, max_retries=3, base_delay=5)
+        retry_with_backoff(load_page_with_retry, max_retries=3, base_delay=2)  # Reduced base delay
 
         if url.lower().endswith((".htm", ".html")):
             html = driver.page_source
             text = clean_html_text(html)
 
         if url.lower().endswith(".pdf"):
+            # Clear any existing PDF files first
+            for f in os.listdir(download_dir):
+                if f.lower().endswith(".pdf"):
+                    os.remove(os.path.join(download_dir, f))
+                    
             # Navigate directly to the PDF URL
             driver.get(url)
-            wait_with_random_delay(3, 6)  # give time for PDF to download
+            wait_with_random_delay(2, 4)  # Reduced delay for PDF downloads
 
             # Find the downloaded PDF
             downloaded_pdf = next((os.path.join(download_dir, f)
@@ -172,7 +171,6 @@ def parse_web_document_selenium(url, output_dir):
             else:
                 return f"❌ PDF not downloaded: {url}"
 
-
         # Save text
         with open(txt_filename, "w", encoding="utf-8") as f:
             f.write(text)
@@ -182,8 +180,23 @@ def parse_web_document_selenium(url, output_dir):
     except Exception as e:
         return f"❌ Failed to parse {url}: {e}"
 
+
+def parse_web_document_selenium(url, output_dir):
+    """
+    Legacy function that creates a new driver for each document (kept for compatibility).
+    Use parse_web_document_selenium_with_driver for better performance.
+    """
+    # Setup temp download directory for PDFs
+    download_dir = tempfile.mkdtemp()
+    
+    try:
+        # Use the new stealth driver
+        driver = create_stealth_driver(download_dir)
+        result = parse_web_document_selenium_with_driver(url, output_dir, driver, download_dir)
+        return result
     finally:
-        driver.quit()
+        if 'driver' in locals():
+            driver.quit()
         shutil.rmtree(download_dir)
 
 
@@ -191,6 +204,7 @@ def retrieve_documents(chronological_json_path: str) -> str:
     """
     Takes a chronological JSON file path and retrieves all documents,
     saving them as text files in the same bill directory.
+    Uses a single Chrome instance for all documents to improve performance.
     Returns the path to the documents directory.
     """
     # Load the chronological documents
@@ -202,30 +216,61 @@ def retrieve_documents(chronological_json_path: str) -> str:
     documents_dir = os.path.join(base_dir, "documents")
     os.makedirs(documents_dir, exist_ok=True)
     
-    # Retrieve each document
-    results = []
-    for i, doc in enumerate(documents_chronological):
-        print(f"Processing document {i+1}/{len(documents_chronological)}: {doc.get('name', 'Unknown')}")
-        result = parse_web_document_selenium(doc['url'], documents_dir)
-        results.append({
-            "document": doc,
-            "result": result
-        })
-        print(result)
+    # Setup temp download directory for PDFs (shared across all documents)
+    download_dir = tempfile.mkdtemp()
+    
+    # Create a single Chrome driver instance for all documents
+    print("🚀 Initializing Chrome driver for document retrieval...")
+    driver = None
+    
+    try:
+        driver = create_stealth_driver(download_dir)
+        print("✅ Chrome driver initialized successfully")
         
-        # Add random delay between documents to appear more human-like
-        if i < len(documents_chronological) - 1:  # Don't wait after the last document
-            wait_with_random_delay(1, 3)
-    
-    # Save retrieval results log
-    log_file = os.path.join(base_dir, "retrieval_log.json")
-    with open(log_file, 'w', encoding='utf-8') as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
-    
-    print(f"✅ All documents retrieved and saved to: {documents_dir}")
-    print(f"📋 Retrieval log saved to: {log_file}")
-    
-    return documents_dir
+        # Retrieve each document using the shared driver
+        results = []
+        for i, doc in enumerate(documents_chronological):
+            print(f"Processing document {i+1}/{len(documents_chronological)}: {doc.get('name', 'Unknown')}")
+            result = parse_web_document_selenium_with_driver(doc['url'], documents_dir, driver, download_dir)
+            results.append({
+                "document": doc,
+                "result": result
+            })
+            print(result)
+            
+            # Reduced delay between documents since we're reusing the driver
+            if i < len(documents_chronological) - 1:  # Don't wait after the last document
+                wait_with_random_delay(0.5, 1)  # Reduced from 1-3 to 0.5-1 seconds
+        
+        # Save retrieval results log
+        log_file = os.path.join(base_dir, "retrieval_log.json")
+        with open(log_file, 'w', encoding='utf-8') as f:
+            json.dump(results, f, ensure_ascii=False, indent=2)
+        
+        print(f"✅ All documents retrieved and saved to: {documents_dir}")
+        print(f"📋 Retrieval log saved to: {log_file}")
+        
+        return documents_dir
+        
+    except Exception as e:
+        print(f"❌ Error during document retrieval: {e}")
+        raise e
+        
+    finally:
+        # Clean up: close driver and remove temp directory
+        if driver:
+            try:
+                print("🔄 Cleaning up Chrome driver...")
+                driver.quit()
+                print("✅ Chrome driver closed successfully")
+            except Exception as e:
+                print(f"⚠️ Warning: Error closing Chrome driver: {e}")
+        
+        try:
+            shutil.rmtree(download_dir)
+            print("✅ Temporary download directory cleaned up")
+        except Exception as e:
+            print(f"⚠️ Warning: Error cleaning up temp directory: {e}")
 
 
 __all__ = ["retrieve_documents"]

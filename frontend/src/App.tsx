@@ -121,7 +121,7 @@ function App() {
             {/* Navigation */}
             <div className="flex items-center space-x-4">
               <nav className="flex space-x-1">
-                <button
+                {/* <button
                   onClick={() => setCurrentView('chat')}
                   className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
                     currentView === 'chat'
@@ -131,7 +131,7 @@ function App() {
                 >
                   <MessageSquare className="w-4 h-4 inline mr-2" />
                   Chat
-                </button>
+                </button> */}
                 {/* <button
                   onClick={() => setCurrentView('fiscal-note-generation')}
                   className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${

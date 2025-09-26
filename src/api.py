@@ -1391,35 +1391,3 @@ async def websocket_endpoint(websocket: WebSocket):
         print(f"❌ WebSocket error: {e}")
         manager.disconnect(websocket)
 
-# @app.get("/fiscal-notes")
-# async def get_fiscal_notes(request: Request):
-#     fiscal_notes_data = []
-#     for filename in fiscal_note_files:
-#         try:
-#             # Construct the full path to the json file
-#             file_path = fiscal_notes_dir / filename
-#             with open(file_path, 'r') as f:
-#                 data = json.load(f)
-#                 fiscal_notes_data.append({
-#                     'filename': filename,
-#                     'data': data
-#                 })
-#         except FileNotFoundError:
-#             fiscal_notes_data.append({
-#                 'filename': filename,
-#                 'data': f'File not found at {file_path}'
-#             })
-#         except json.JSONDecodeError:
-#             fiscal_notes_data.append({
-#                 'filename': filename,
-#                 'data': 'Invalid JSON format.'
-#             })
-    
-#     return templates.TemplateResponse(
-#         "index.html",
-#         {
-#             "request": request,
-#             "fiscal_notes": fiscal_notes_data,
-#             "timeline": timeline_data
-#         }
-#     )

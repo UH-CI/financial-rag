@@ -1,0 +1,31 @@
+[Unit]
+Description=RAG System API Server
+After=network.target redis.service
+Wants=redis.service
+
+[Service]
+Type=notify
+User=exouser
+Group=exouser
+WorkingDirectory=/home/exouser/RAG-system/src
+Environment=PATH=/home/exouser/RAG-system/src/myenv/bin
+ExecStart=/home/exouser/RAG-system/src/myenv/bin/uvicorn api:app --host 0.0.0.0 --port 8200 --workers 4 --log-level info --access-log --no-reload --loop uvloop --worker-class uvicorn.workers.UvicornWorker
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=mixed
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=30
+
+# Performance optimizations
+LimitNOFILE=65536
+LimitNPROC=4096
+
+# Security (optional)
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/home/exouser/RAG-system
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

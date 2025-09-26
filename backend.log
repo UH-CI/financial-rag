@@ -1,0 +1,948 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/home/exouser/RAG-system/src']
+INFO:     Uvicorn running on http://0.0.0.0:8200 (Press CTRL+C to quit)
+INFO:     Started reloader process [751712] using WatchFiles
+🚀 Starting House Finance Document API...
+📚 Loading ChromaDB and embedding models...
+✅ Configuration loaded:
+   - Documents Path: documents
+   - ChromaDB Path: chroma_db/data
+   - Collection: default_collection
+   - Embedding Model: text-embedding-004 (google)
+============================================================
+
+🌐 Starting server at http://0.0.0.0:8200
+📖 API Documentation: http://localhost:8200/docs
+🔍 Interactive API: http://localhost:8200/redoc
+
+Press Ctrl+C to stop the server
+
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+2025-09-25 20:09:01,611 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-09-25 20:09:01,611 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-09-25 20:09:01,612 - INFO - Google embedding function initialized
+2025-09-25 20:09:01,613 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-09-25 20:09:01,613 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-09-25 20:09:01,613 - INFO - NLP Backend initialized
+INFO:     Started server process [751716]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     ('127.0.0.1', 41384) - "WebSocket /ws" [accepted]
+INFO:     connection open
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
+🔌 WebSocket connection attempt from Address(host='127.0.0.1', port=41384)
+✅ WebSocket connected. Total connections: 1
+Directory: HB_727_2025
+Directory: HB_302_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Found collection: bills
+INFO:     76.39.15.190:0 - "GET /collections HTTP/1.0" 200 OK
+INFO:     ('127.0.0.1', 53192) - "WebSocket /ws" [accepted]
+INFO:     connection open
+🔌 WebSocket connection attempt from Address(host='127.0.0.1', port=53192)
+✅ WebSocket connected. Total connections: 2
+Found collection: bills
+INFO:     76.39.15.190:0 - "GET /collections HTTP/1.0" 200 OK
+INFO:     ('127.0.0.1', 34520) - "WebSocket /ws" [accepted]
+🔌 WebSocket disconnected from Address(host='127.0.0.1', port=53192)
+🔌 WebSocket connection attempt from Address(host='127.0.0.1', port=34520)
+✅ WebSocket connected. Total connections: 2
+Directory: HB_727_2025
+Directory: HB_302_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+INFO:     connection open
+INFO:     connection closed
+INFO:     76.39.15.190:0 - "POST /generate-fiscal-note?bill_type=HB&bill_number=70&year=2025 HTTP/1.0" 200 OK
+2025-09-25 20:19:06,794 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:19:08,141 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:19:41,924 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-09-25 20:19:42,058 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-25 20:21:14,311 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-25 20:21:14,314 - INFO - AFC remote call 1 is done.
+2025-09-25 20:23:28,999 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:25:44,214 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:26:18,820 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:26:20,150 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:26:59,708 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:29:17,206 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:29:52,703 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:32:09,138 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:32:42,614 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:32:44,039 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:35:40,406 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:37:57,667 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+Starting fiscal note generation for HB_70_2025
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x6488f7ec3fba <unknown>
+#1 0x6488f79486d0 <unknown>
+#2 0x6488f79756d5 <unknown>
+#3 0x6488f7976c45 <unknown>
+#4 0x6488f7971dec <unknown>
+#5 0x6488f79cc648 <unknown>
+#6 0x6488f79cbf9e <unknown>
+#7 0x6488f79cdb72 <unknown>
+#8 0x6488f79cd946 <unknown>
+#9 0x6488f79bfc03 <unknown>
+#10 0x6488f798c7a8 <unknown>
+#11 0x6488f798d421 <unknown>
+#12 0x6488f7e88b28 <unknown>
+#13 0x6488f7e8c87f <unknown>
+#14 0x6488f7e70c49 <unknown>
+#15 0x6488f7e8d405 <unknown>
+#16 0x6488f7e564ff <unknown>
+#17 0x6488f7eb1258 <unknown>
+#18 0x6488f7eb1432 <unknown>
+#19 0x6488f7ec2fa3 <unknown>
+#20 0x733e87a9caa4 <unknown>
+#21 0x733e87b29c6c <unknown>
+
+Page loaded successfully. First 500 chars: <html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete" data-uw-w-loader="" data-uw-rm-lang="false"><head id="Head1"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="content-type" content="text/html;charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></scri
+✅ Timeline data saved to /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/HB_70_2025_timeline.json
+Processing document 1/13: HB70
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x64193634cfba <unknown>
+#1 0x641935dd16d0 <unknown>
+#2 0x641935dfe6d5 <unknown>
+#3 0x641935dffc45 <unknown>
+#4 0x641935dfadec <unknown>
+#5 0x641935e55648 <unknown>
+#6 0x641935e54f9e <unknown>
+#7 0x641935e56b72 <unknown>
+#8 0x641935e56946 <unknown>
+#9 0x641935e48c03 <unknown>
+#10 0x641935e157a8 <unknown>
+#11 0x641935e16421 <unknown>
+#12 0x641936311b28 <unknown>
+#13 0x64193631587f <unknown>
+#14 0x6419362f9c49 <unknown>
+#15 0x641936316405 <unknown>
+#16 0x6419362df4ff <unknown>
+#17 0x64193633a258 <unknown>
+#18 0x64193633a432 <unknown>
+#19 0x64193634bfa3 <unknown>
+#20 0x77a70c49caa4 <unknown>
+#21 0x77a70c529c6c <unknown>
+
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB70_.HTM
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/documents/HB70_.HTM.txt
+Processing document 2/13: HB70_TESTIMONY_CPC_01-30-25_
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x6364e9a04fba <unknown>
+#1 0x6364e94896d0 <unknown>
+#2 0x6364e94b66d5 <unknown>
+#3 0x6364e94b7c45 <unknown>
+#4 0x6364e94b2dec <unknown>
+#5 0x6364e950d648 <unknown>
+#6 0x6364e950cf9e <unknown>
+#7 0x6364e950eb72 <unknown>
+#8 0x6364e950e946 <unknown>
+#9 0x6364e9500c03 <unknown>
+#10 0x6364e94cd7a8 <unknown>
+#11 0x6364e94ce421 <unknown>
+#12 0x6364e99c9b28 <unknown>
+#13 0x6364e99cd87f <unknown>
+#14 0x6364e99b1c49 <unknown>
+#15 0x6364e99ce405 <unknown>
+#16 0x6364e99974ff <unknown>
+#17 0x6364e99f2258 <unknown>
+#18 0x6364e99f2432 <unknown>
+#19 0x6364e9a03fa3 <unknown>
+#20 0x7d2d4d09caa4 <unknown>
+#21 0x7d2d4d129c6c <unknown>
+
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB70_TESTIMONY_CPC_01-30-25_.PDF
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/documents/HB70_TESTIMONY_CPC_01-30-25_.PDF.txt
+Processing document 3/13: HB70_HD1
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x5b25db5d2fba <unknown>
+#1 0x5b25db0576d0 <unknown>
+#2 0x5b25db0846d5 <unknown>
+#3 0x5b25db085c45 <unknown>
+#4 0x5b25db080dec <unknown>
+#5 0x5b25db0db648 <unknown>
+#6 0x5b25db0daf9e <unknown>
+#7 0x5b25db0dcb72 <unknown>
+#8 0x5b25db0dc946 <unknown>
+#9 0x5b25db0cec03 <unknown>
+#10 0x5b25db09b7a8 <unknown>
+#11 0x5b25db09c421 <unknown>
+#12 0x5b25db597b28 <unknown>
+#13 0x5b25db59b87f <unknown>
+#14 0x5b25db57fc49 <unknown>
+#15 0x5b25db59c405 <unknown>
+#16 0x5b25db5654ff <unknown>
+#17 0x5b25db5c0258 <unknown>
+#18 0x5b25db5c0432 <unknown>
+#19 0x5b25db5d1fa3 <unknown>
+#20 0x76a2a589caa4 <unknown>
+#21 0x76a2a5929c6c <unknown>
+
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB70_HD1_.HTM
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/documents/HB70_HD1_.HTM.txt
+Processing document 4/13: HB70_HD1_HSCR253_
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x641136bfcfba <unknown>
+#1 0x6411366816d0 <unknown>
+#2 0x6411366ae6d5 <unknown>
+#3 0x6411366afc45 <unknown>
+#4 0x6411366aadec <unknown>
+#5 0x641136705648 <unknown>
+#6 0x641136704f9e <unknown>
+#7 0x641136706b72 <unknown>
+#8 0x641136706946 <unknown>
+#9 0x6411366f8c03 <unknown>
+#10 0x6411366c57a8 <unknown>
+#11 0x6411366c6421 <unknown>
+#12 0x641136bc1b28 <unknown>
+#13 0x641136bc587f <unknown>
+#14 0x641136ba9c49 <unknown>
+#15 0x641136bc6405 <unknown>
+#16 0x641136b8f4ff <unknown>
+#17 0x641136bea258 <unknown>
+#18 0x641136bea432 <unknown>
+#19 0x641136bfbfa3 <unknown>
+#20 0x77adc669caa4 <unknown>
+#21 0x77adc6729c6c <unknown>
+
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB70_HD1_HSCR253_.htm
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/documents/HB70_HD1_HSCR253_.htm.txt
+Processing document 5/13: HB70_HD1_TESTIMONY_JHA_02-25-25_
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x5ba48582bfba <unknown>
+#1 0x5ba4852b06d0 <unknown>
+#2 0x5ba4852dd6d5 <unknown>
+#3 0x5ba4852dec45 <unknown>
+#4 0x5ba4852d9dec <unknown>
+#5 0x5ba485334648 <unknown>
+#6 0x5ba485333f9e <unknown>
+#7 0x5ba485335b72 <unknown>
+#8 0x5ba485335946 <unknown>
+#9 0x5ba485327c03 <unknown>
+#10 0x5ba4852f47a8 <unknown>
+#11 0x5ba4852f5421 <unknown>
+#12 0x5ba4857f0b28 <unknown>
+#13 0x5ba4857f487f <unknown>
+#14 0x5ba4857d8c49 <unknown>
+#15 0x5ba4857f5405 <unknown>
+#16 0x5ba4857be4ff <unknown>
+#17 0x5ba485819258 <unknown>
+#18 0x5ba485819432 <unknown>
+#19 0x5ba48582afa3 <unknown>
+#20 0x7a22e2a9caa4 <unknown>
+#21 0x7a22e2b29c6c <unknown>
+
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB70_HD1_TESTIMONY_JHA_02-25-25_.PDF
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/documents/HB70_HD1_TESTIMONY_JHA_02-25-25_.PDF.txt
+Processing document 6/13: HB70_HD1_HSCR1060_
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x5a0a9d4fffba <unknown>
+#1 0x5a0a9cf846d0 <unknown>
+#2 0x5a0a9cfb16d5 <unknown>
+#3 0x5a0a9cfb2c45 <unknown>
+#4 0x5a0a9cfaddec <unknown>
+#5 0x5a0a9d008648 <unknown>
+#6 0x5a0a9d007f9e <unknown>
+#7 0x5a0a9d009b72 <unknown>
+#8 0x5a0a9d009946 <unknown>
+#9 0x5a0a9cffbc03 <unknown>
+#10 0x5a0a9cfc87a8 <unknown>
+#11 0x5a0a9cfc9421 <unknown>
+#12 0x5a0a9d4c4b28 <unknown>
+#13 0x5a0a9d4c887f <unknown>
+#14 0x5a0a9d4acc49 <unknown>
+#15 0x5a0a9d4c9405 <unknown>
+#16 0x5a0a9d4924ff <unknown>
+#17 0x5a0a9d4ed258 <unknown>
+#18 0x5a0a9d4ed432 <unknown>
+#19 0x5a0a9d4fefa3 <unknown>
+#20 0x7024fb69caa4 <unknown>
+#21 0x7024fb729c6c <unknown>
+
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB70_HD1_HSCR1060_.htm
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/documents/HB70_HD1_HSCR1060_.htm.txt
+2025-09-25 20:38:35,645 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:38:40,970 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:39:19,024 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:39:20,954 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:39:56,944 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:42:13,056 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:42:48,149 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:42:50,034 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:43:28,931 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:43:30,654 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:46:21,326 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:48:36,508 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:51:24,419 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:51:26,081 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-09-25 20:51:57,888 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-09-25 20:51:57,959 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-25 20:52:25,019 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-25 20:52:25,022 - INFO - AFC remote call 1 is done.
+Processing document 7/13: HB70_HD1_TESTIMONY_CPN_03-14-25_
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x576b09473fba <unknown>
+#1 0x576b08ef86d0 <unknown>
+#2 0x576b08f256d5 <unknown>
+#3 0x576b08f26c45 <unknown>
+#4 0x576b08f21dec <unknown>
+#5 0x576b08f7c648 <unknown>
+#6 0x576b08f7bf9e <unknown>
+#7 0x576b08f7db72 <unknown>
+#8 0x576b08f7d946 <unknown>
+#9 0x576b08f6fc03 <unknown>
+#10 0x576b08f3c7a8 <unknown>
+#11 0x576b08f3d421 <unknown>
+#12 0x576b09438b28 <unknown>
+#13 0x576b0943c87f <unknown>
+#14 0x576b09420c49 <unknown>
+#15 0x576b0943d405 <unknown>
+#16 0x576b094064ff <unknown>
+#17 0x576b09461258 <unknown>
+#18 0x576b09461432 <unknown>
+#19 0x576b09472fa3 <unknown>
+#20 0x71ce8b69caa4 <unknown>
+#21 0x71ce8b729c6c <unknown>
+
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/documents/HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt
+Processing document 8/13: HB70_SD1
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x583af529dfba <unknown>
+#1 0x583af4d226d0 <unknown>
+#2 0x583af4d4f6d5 <unknown>
+#3 0x583af4d50c45 <unknown>
+#4 0x583af4d4bdec <unknown>
+#5 0x583af4da6648 <unknown>
+#6 0x583af4da5f9e <unknown>
+#7 0x583af4da7b72 <unknown>
+#8 0x583af4da7946 <unknown>
+#9 0x583af4d99c03 <unknown>
+#10 0x583af4d667a8 <unknown>
+#11 0x583af4d67421 <unknown>
+#12 0x583af5262b28 <unknown>
+#13 0x583af526687f <unknown>
+#14 0x583af524ac49 <unknown>
+#15 0x583af5267405 <unknown>
+#16 0x583af52304ff <unknown>
+#17 0x583af528b258 <unknown>
+#18 0x583af528b432 <unknown>
+#19 0x583af529cfa3 <unknown>
+#20 0x7f426b69caa4 <unknown>
+#21 0x7f426b729c6c <unknown>
+
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB70_SD1_.HTM
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/documents/HB70_SD1_.HTM.txt
+Processing document 9/13: HB70_SD1_SSCR1254_
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x60dcc06c6fba <unknown>
+#1 0x60dcc014b6d0 <unknown>
+#2 0x60dcc01786d5 <unknown>
+#3 0x60dcc0179c45 <unknown>
+#4 0x60dcc0174dec <unknown>
+#5 0x60dcc01cf648 <unknown>
+#6 0x60dcc01cef9e <unknown>
+#7 0x60dcc01d0b72 <unknown>
+#8 0x60dcc01d0946 <unknown>
+#9 0x60dcc01c2c03 <unknown>
+#10 0x60dcc018f7a8 <unknown>
+#11 0x60dcc0190421 <unknown>
+#12 0x60dcc068bb28 <unknown>
+#13 0x60dcc068f87f <unknown>
+#14 0x60dcc0673c49 <unknown>
+#15 0x60dcc0690405 <unknown>
+#16 0x60dcc06594ff <unknown>
+#17 0x60dcc06b4258 <unknown>
+#18 0x60dcc06b4432 <unknown>
+#19 0x60dcc06c5fa3 <unknown>
+#20 0x726358c9caa4 <unknown>
+#21 0x726358d29c6c <unknown>
+
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB70_SD1_SSCR1254_.htm
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/documents/HB70_SD1_SSCR1254_.htm.txt
+Processing document 10/13: HB70_SD1_TESTIMONY_JDC_03-25-25_
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x5995e7f4ffba <unknown>
+#1 0x5995e79d46d0 <unknown>
+#2 0x5995e7a016d5 <unknown>
+#3 0x5995e7a02c45 <unknown>
+#4 0x5995e79fddec <unknown>
+#5 0x5995e7a58648 <unknown>
+#6 0x5995e7a57f9e <unknown>
+#7 0x5995e7a59b72 <unknown>
+#8 0x5995e7a59946 <unknown>
+#9 0x5995e7a4bc03 <unknown>
+#10 0x5995e7a187a8 <unknown>
+#11 0x5995e7a19421 <unknown>
+#12 0x5995e7f14b28 <unknown>
+#13 0x5995e7f1887f <unknown>
+#14 0x5995e7efcc49 <unknown>
+#15 0x5995e7f19405 <unknown>
+#16 0x5995e7ee24ff <unknown>
+#17 0x5995e7f3d258 <unknown>
+#18 0x5995e7f3d432 <unknown>
+#19 0x5995e7f4efa3 <unknown>
+#20 0x77711e69caa4 <unknown>
+#21 0x77711e729c6c <unknown>
+
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/documents/HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt
+Processing document 11/13: HB70_SD1_SSCR1509_
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x578bf6d9bfba <unknown>
+#1 0x578bf68206d0 <unknown>
+#2 0x578bf684d6d5 <unknown>
+#3 0x578bf684ec45 <unknown>
+#4 0x578bf6849dec <unknown>
+#5 0x578bf68a4648 <unknown>
+#6 0x578bf68a3f9e <unknown>
+#7 0x578bf68a5b72 <unknown>
+#8 0x578bf68a5946 <unknown>
+#9 0x578bf6897c03 <unknown>
+#10 0x578bf68647a8 <unknown>
+#11 0x578bf6865421 <unknown>
+#12 0x578bf6d60b28 <unknown>
+#13 0x578bf6d6487f <unknown>
+#14 0x578bf6d48c49 <unknown>
+#15 0x578bf6d65405 <unknown>
+#16 0x578bf6d2e4ff <unknown>
+#17 0x578bf6d89258 <unknown>
+#18 0x578bf6d89432 <unknown>
+#19 0x578bf6d9afa3 <unknown>
+#20 0x7b821c89caa4 <unknown>
+#21 0x7b821c929c6c <unknown>
+
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB70_SD1_SSCR1509_.htm
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/documents/HB70_SD1_SSCR1509_.htm.txt
+Processing document 12/13: HB70_CD1
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x5ea959108fba <unknown>
+#1 0x5ea958b8d6d0 <unknown>
+#2 0x5ea958bba6d5 <unknown>
+#3 0x5ea958bbbc45 <unknown>
+#4 0x5ea958bb6dec <unknown>
+#5 0x5ea958c11648 <unknown>
+#6 0x5ea958c10f9e <unknown>
+#7 0x5ea958c12b72 <unknown>
+#8 0x5ea958c12946 <unknown>
+#9 0x5ea958c04c03 <unknown>
+#10 0x5ea958bd17a8 <unknown>
+#11 0x5ea958bd2421 <unknown>
+#12 0x5ea9590cdb28 <unknown>
+#13 0x5ea9590d187f <unknown>
+#14 0x5ea9590b5c49 <unknown>
+#15 0x5ea9590d2405 <unknown>
+#16 0x5ea95909b4ff <unknown>
+#17 0x5ea9590f6258 <unknown>
+#18 0x5ea9590f6432 <unknown>
+#19 0x5ea959107fa3 <unknown>
+#20 0x75ed5bc9caa4 <unknown>
+#21 0x75ed5bd29c6c <unknown>
+
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB70_CD1_.HTM
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/documents/HB70_CD1_.HTM.txt
+Processing document 13/13: HB70_CD1_CCR43_
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x589bdc9cafba <unknown>
+#1 0x589bdc44f6d0 <unknown>
+#2 0x589bdc47c6d5 <unknown>
+#3 0x589bdc47dc45 <unknown>
+#4 0x589bdc478dec <unknown>
+#5 0x589bdc4d3648 <unknown>
+#6 0x589bdc4d2f9e <unknown>
+#7 0x589bdc4d4b72 <unknown>
+#8 0x589bdc4d4946 <unknown>
+#9 0x589bdc4c6c03 <unknown>
+#10 0x589bdc4937a8 <unknown>
+#11 0x589bdc494421 <unknown>
+#12 0x589bdc98fb28 <unknown>
+#13 0x589bdc99387f <unknown>
+#14 0x589bdc977c49 <unknown>
+#15 0x589bdc994405 <unknown>
+#16 0x589bdc95d4ff <unknown>
+#17 0x589bdc9b8258 <unknown>
+#18 0x589bdc9b8432 <unknown>
+#19 0x589bdc9c9fa3 <unknown>
+#20 0x75e8d609caa4 <unknown>
+#21 0x75e8d6129c6c <unknown>
+
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB70_CD1_CCR43_.htm
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/documents/HB70_CD1_CCR43_.htm.txt
+✅ All documents retrieved and saved to: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/documents
+📋 Retrieval log saved to: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/retrieval_log.json
+Processing document 1/13: HB70, text: HB70
+HOUSE OF REPRESENTATIVES
+H.B. NO.
+70
+THIRTY-THIRD LEGISLATURE, 2025
+STATE OF HAWAII
+A BILL FOR 
+📋 Generating fiscal note for bill introduction: HB70
+2025-09-25 20:52:25,025 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-09-25 20:52:25,091 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-25 20:52:49,389 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-25 20:52:49,390 - INFO - AFC remote call 1 is done.
+2025-09-25 20:52:49,393 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-09-25 20:52:49,459 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-25 20:53:15,510 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-25 20:53:15,511 - INFO - AFC remote call 1 is done.
+2025-09-25 20:53:15,514 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-09-25 20:53:15,581 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-25 20:53:48,492 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-25 20:53:48,494 - INFO - AFC remote call 1 is done.
+2025-09-25 20:53:48,496 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-09-25 20:53:48,562 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-25 20:54:37,105 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-25 20:54:37,106 - INFO - AFC remote call 1 is done.
+2025-09-25 20:54:37,109 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-09-25 20:54:37,175 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-25 20:55:01,955 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-25 20:55:01,956 - INFO - AFC remote call 1 is done.
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/fiscal_notes/HB70.json
+Processing document 2/13: HB70_TESTIMONY_CPC_01-30-25_, text: 
+HAWAII FIRST REALTY LLC 
+4162 Kaimanahila Street 
+Honolulu, HI 96816 
+808-282-8051 
+richard.hawaiif
+Processing document 3/13: HB70_HD1, text: 
+
+HAWAII FIRST REALTY LLC 
+4162 Kaimanahila Street 
+Honolulu, HI 96816 
+808-282-8051 
+richard.hawaii
+Processing document 4/13: HB70_HD1_HSCR253_, text: HSCR253
+STAND.
+COM. REP. NO.
+253
+Honolulu, Hawaii
+,
+2025
+RE:
+H.B. No. 70
+H.D.
+1
+Honorable Nadine K. 
+📋 Generating fiscal note for committee report: HB70_HD1_HSCR253_
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/fiscal_notes/HB70_HD1_HSCR253_.json
+Processing document 5/13: HB70_HD1_TESTIMONY_JHA_02-25-25_, text: 
+
+HAWAII FIRST REALTY LLC 
+4162 Kaimanahila Street 
+Honolulu, HI 96816 
+808-282-8051 
+richard.hawaii
+Processing document 6/13: HB70_HD1_HSCR1060_, text: HSCR1060
+STAND.
+COM. REP. NO.
+1060
+Honolulu, Hawaii
+,
+2025
+RE:
+H.B. No. 70
+H.D.
+1
+Honorable Nadine K
+📋 Generating fiscal note for committee report: HB70_HD1_HSCR1060_
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/fiscal_notes/HB70_HD1_HSCR1060_.json
+Processing document 7/13: HB70_HD1_TESTIMONY_CPN_03-14-25_, text: HB-70-HD-1 
+Submitted on: 3/8/2025 1:50:33 PM 
+Testimony for CPN on 3/14/2025 9:30:00 AM 
+Submitted 
+Processing document 8/13: HB70_SD1, text: HB70 SD1
+HOUSE OF REPRESENTATIVES
+H.B. NO.
+70
+THIRTY-THIRD LEGISLATURE, 2025
+H.D. 1
+STATE OF HAWAII
+
+Processing document 9/13: HB70_SD1_SSCR1254_, text: SSCR1254
+STAND. COM. REP. NO.
+1254
+Honolulu,
+Hawaii
+RE:
+H.B. No. 70
+H.D. 1
+S.D. 1
+Honorable Ronald D
+📋 Generating fiscal note for committee report: HB70_SD1_SSCR1254_
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/fiscal_notes/HB70_SD1_SSCR1254_.json
+Processing document 10/13: HB70_SD1_TESTIMONY_JDC_03-25-25_, text:  
+REALTOR® is a registered collective membership mark which may be used only by real estate professi
+Processing document 11/13: HB70_SD1_SSCR1509_, text: SSCR1509
+STAND. COM. REP. NO.
+1509
+Honolulu,
+Hawaii
+RE:
+H.B. No. 70
+H.D. 1
+S.D. 1
+Honorable Ronald D
+📋 Generating fiscal note for committee report: HB70_SD1_SSCR1509_
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/fiscal_notes/HB70_SD1_SSCR1509_.json
+Processing document 12/13: HB70_CD1, text: HB70 CD1
+HOUSE OF REPRESENTATIVES
+H.B. NO.
+70
+THIRTY-THIRD LEGISLATURE, 2025
+H.D. 1
+STATE OF HAWAII
+
+Processing document 13/13: HB70_CD1_CCR43_, text: CCR43
+CONFERENCE
+COMMITTEE REP. NO.
+43
+Honolulu,
+Hawaii
+,
+2025
+RE:
+H.B. No. 70
+H.D. 1
+S.D. 1
+C.D. 1
+
+📋 Generating fiscal note for committee report: HB70_CD1_CCR43_
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/fiscal_notes/HB70_CD1_CCR43_.json
+✅ Fiscal notes generated and saved to: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/fiscal_notes
+Fiscal note generation completed for HB_70_2025
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_727_2025/HB_727_2025_chronological.json
+File: HB727.json
+File: HB727_TESTIMONY_JHA_01-30-25_.json
+File: HB727_HD1.json
+File: HB727_HD1_HSCR624_.json
+File found: HB727_HD1_HSCR624_.json
+File: HB727_HD1_TESTIMONY_FIN_02-25-25_.json
+File: HB727_HD1_HSCR1142_.json
+File found: HB727_HD1_HSCR1142_.json
+File: HB727_HD1_TESTIMONY_JDC_03-19-25_.json
+File: HB727_SD1.json
+File: HB727_SD1_SSCR1240_.json
+File found: HB727_SD1_SSCR1240_.json
+File: HB727_SD1_TESTIMONY_WAM_03-31-25_.json
+File: HB727_SD2.json
+File: HB727_SD2_SSCR1531_.json
+File found: HB727_SD2_SSCR1531_.json
+File: HB727_CD1.json
+File: HB727_CD1_CCR58_.json
+File found: HB727_CD1_CCR58_.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=727&year=2025 HTTP/1.0" 200 OK
+Directory: HB_727_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Directory: HB_727_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Directory: HB_727_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_70_2025/HB_70_2025_chronological.json
+File: HB70.json
+File found: HB70.json
+File: HB70_TESTIMONY_CPC_01-30-25_.json
+File: HB70_HD1.json
+File: HB70_HD1_HSCR253_.json
+File found: HB70_HD1_HSCR253_.json
+File: HB70_HD1_TESTIMONY_JHA_02-25-25_.json
+File: HB70_HD1_HSCR1060_.json
+File found: HB70_HD1_HSCR1060_.json
+File: HB70_HD1_TESTIMONY_CPN_03-14-25_.json
+File: HB70_SD1.json
+File: HB70_SD1_SSCR1254_.json
+File found: HB70_SD1_SSCR1254_.json
+File: HB70_SD1_TESTIMONY_JDC_03-25-25_.json
+File: HB70_SD1_SSCR1509_.json
+File found: HB70_SD1_SSCR1509_.json
+File: HB70_CD1.json
+File: HB70_CD1_CCR43_.json
+File found: HB70_CD1_CCR43_.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=70&year=2025 HTTP/1.0" 200 OK
+WARNING:  WatchFiles detected changes in 'fiscal_notes/generation/step3_retrieve_docs.py'. Reloading...
+INFO:     Shutting down
+INFO:     connection closed
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [751716]
+🔌 WebSocket disconnected from Address(host='127.0.0.1', port=34520)
+🔌 WebSocket disconnected from Address(host='127.0.0.1', port=41384)
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+WARNING:  WatchFiles detected changes in 'fiscal_notes/generation/step3_retrieve_docs.py'. Reloading...
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+2025-09-25 20:56:51,801 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-09-25 20:56:51,801 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-09-25 20:56:51,801 - INFO - Google embedding function initialized
+2025-09-25 20:56:51,802 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-09-25 20:56:51,802 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-09-25 20:56:51,802 - INFO - NLP Backend initialized
+INFO:     Started server process [797031]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     ('127.0.0.1', 56340) - "WebSocket /ws" [accepted]
+INFO:     connection open
+WARNING:  WatchFiles detected changes in 'fiscal_notes/generation/step3_retrieve_docs.py'. Reloading...
+INFO:     Shutting down
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [797031]
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
+🔌 WebSocket connection attempt from Address(host='127.0.0.1', port=56340)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket disconnected from Address(host='127.0.0.1', port=56340)
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+WARNING:  WatchFiles detected changes in 'fiscal_notes/generation/step3_retrieve_docs.py'. Reloading...
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+WARNING:  WatchFiles detected changes in 'fiscal_notes/generation/step3_retrieve_docs.py'. Reloading...
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+2025-09-25 20:57:25,829 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-09-25 20:57:25,829 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-09-25 20:57:25,829 - INFO - Google embedding function initialized
+2025-09-25 20:57:25,830 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-09-25 20:57:25,830 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-09-25 20:57:25,830 - INFO - NLP Backend initialized
+INFO:     Started server process [797426]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     ('127.0.0.1', 56070) - "WebSocket /ws" [accepted]
+INFO:     connection open
+WARNING:  WatchFiles detected changes in 'fiscal_notes/generation/test_step3_optimization.py'. Reloading...
+INFO:     Shutting down
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [797426]
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
+🔌 WebSocket connection attempt from Address(host='127.0.0.1', port=56070)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket disconnected from Address(host='127.0.0.1', port=56070)
+WARNING:  WatchFiles detected changes in 'fiscal_notes/generation/test_step3_optimization.py'. Reloading...
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+2025-09-25 20:57:52,853 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-09-25 20:57:52,853 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-09-25 20:57:52,853 - INFO - Google embedding function initialized
+2025-09-25 20:57:52,854 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-09-25 20:57:52,854 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-09-25 20:57:52,854 - INFO - NLP Backend initialized
+INFO:     Started server process [797902]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     ('127.0.0.1', 45090) - "WebSocket /ws" [accepted]
+INFO:     connection open
+WARNING:  WatchFiles detected changes in 'fiscal_notes/generation/test_step3_optimization.py'. Reloading...
+INFO:     Shutting down
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [797902]
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
+🔌 WebSocket connection attempt from Address(host='127.0.0.1', port=45090)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket disconnected from Address(host='127.0.0.1', port=45090)
+WARNING:  WatchFiles detected changes in 'fiscal_notes/generation/test_step3_optimization.py'. Reloading...
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+2025-09-25 20:58:24,704 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-09-25 20:58:24,704 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-09-25 20:58:24,704 - INFO - Google embedding function initialized
+2025-09-25 20:58:24,705 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-09-25 20:58:24,705 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-09-25 20:58:24,705 - INFO - NLP Backend initialized
+INFO:     Started server process [798322]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     ('127.0.0.1', 52448) - "WebSocket /ws" [accepted]
+INFO:     connection open
+WARNING:  WatchFiles detected changes in 'test_step3_optimization.py'. Reloading...
+INFO:     Shutting down
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [798322]
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
+🔌 WebSocket connection attempt from Address(host='127.0.0.1', port=52448)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket disconnected from Address(host='127.0.0.1', port=52448)
+WARNING:  WatchFiles detected changes in 'test_step3_optimization.py'. Reloading...
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+2025-09-25 20:59:19,505 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-09-25 20:59:19,505 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-09-25 20:59:19,505 - INFO - Google embedding function initialized
+2025-09-25 20:59:19,506 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-09-25 20:59:19,506 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-09-25 20:59:19,506 - INFO - NLP Backend initialized
+INFO:     Started server process [799116]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     ('127.0.0.1', 35872) - "WebSocket /ws" [accepted]
+INFO:     connection open
+WARNING:  WatchFiles detected changes in 'test_step3_optimization.py'. Reloading...
+INFO:     Shutting down
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [799116]
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
+🔌 WebSocket connection attempt from Address(host='127.0.0.1', port=35872)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket disconnected from Address(host='127.0.0.1', port=35872)
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+2025-09-25 21:00:30,529 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-09-25 21:00:30,529 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-09-25 21:00:30,529 - INFO - Google embedding function initialized
+2025-09-25 21:00:30,530 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-09-25 21:00:30,530 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-09-25 21:00:30,530 - INFO - NLP Backend initialized
+INFO:     Started server process [800436]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     ('127.0.0.1', 45072) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     Shutting down
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [800436]
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
+🔌 WebSocket connection attempt from Address(host='127.0.0.1', port=45072)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket disconnected from Address(host='127.0.0.1', port=45072)
+INFO:     Stopping reloader process [751712]
+/usr/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 3 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
