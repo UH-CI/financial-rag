@@ -28,7 +28,7 @@ from app_types.requests import (
     CollectionRequest, SearchRequest, QueryRequest,
     ChunkingRequest, DocumentResponse, CrawlRequest,
     UploadPDFRequest, ChatWithPDFRequest, DriveUploadRequest,
-    CollectionStatistics, CollectionsStatsResponse
+    CollectionStatistics, CollectionsStatsResponse, LLMRequest
 )
 
 from documents.step0_document_upload.google_upload import download_pdfs_from_drive
@@ -77,7 +77,7 @@ app.add_middleware(
 bill_similarity_searcher = BillSimilaritySearcher("./bill_data/introduction_document_vectors.json")
 bill_similarity_searcher.load_data()
 
-model = genai.GenerativeModel('gemini-2.5-flash')
+model = genai.GenerativeModel('gemini-2.5-pro')
 
 # Create collection managers dynamically from config
 collection_names = config["collections"]
@@ -1403,22 +1403,25 @@ async def get_bill_summary(request: Request, bill_type: Bill_type_options, bill_
     year = year
     bill_name = f"{bill_type.value}{bill_number}_"
 
-    tfidf_results, vector_results = bill_similarity_searcher.search_similar_bills(bill_name)
+    tfidf_results, vector_results, search_bill = bill_similarity_searcher.search_similar_bills(bill_name)
     print(tfidf_results)
     print(vector_results)
+    print(search_bill)
     return {
         "tfidf_results": tfidf_results,
-        "vector_results": vector_results
+        "vector_results": vector_results,
+        "search_bill": search_bill
     }
 
+
 @app.post("/ask_llm")
-async def ask_llm(request: Request, question: str):
+async def ask_llm(request: LLMRequest):
     try:
-        print(f"Received question: {question[:100]}...")
-        response = model.generate_content(question)
+        print(f"Received question: {request.question[:100]}...")
+        response = model.generate_content(request.question)
         print(f"Generated response: {response}")
         return {
-            "question": question,
+            "question": request.question,
             "response": response.text
         }
     except Exception as e:

@@ -38,8 +38,8 @@ def create_stealth_driver(download_dir=None):
     # Headless mode with new implementation
     options.add_argument('--headless=new')
     
-    # Set a realistic user agent
-    options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
+    # Set a realistic user agent matching Chrome 141
+    options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36')
     
     # Window size to appear more realistic
     options.add_argument('--window-size=1920,1080')
@@ -59,8 +59,8 @@ def create_stealth_driver(download_dir=None):
     options.add_experimental_option('useAutomationExtension', False)
     
     try:
-        # Create driver with version_main to avoid compatibility issues
-        driver = uc.Chrome(options=options, version_main=None)
+        # Create driver with version_main set to 141 to match the installed Chrome
+        driver = uc.Chrome(options=options, version_main=141)
         
         # Execute script to remove webdriver property
         driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
@@ -73,7 +73,7 @@ def create_stealth_driver(download_dir=None):
         basic_options.add_argument('--headless=new')
         basic_options.add_argument('--no-sandbox')
         basic_options.add_argument('--disable-dev-shm-usage')
-        basic_options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
+        basic_options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36')
         
         if download_dir:
             basic_options.add_experimental_option("prefs", {
@@ -83,13 +83,19 @@ def create_stealth_driver(download_dir=None):
             })
         
         try:
-            driver = uc.Chrome(options=basic_options, version_main=None)
+            driver = uc.Chrome(options=basic_options, version_main=141)
             driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
             return driver
         except Exception as e2:
             print(f"Error creating basic driver: {e2}")
-            # Ultimate fallback
-            return uc.Chrome()
+            # Ultimate fallback - let undetected-chromedriver auto-detect
+            try:
+                driver = uc.Chrome(version_main=141)
+                return driver
+            except Exception as e3:
+                print(f"Error with version_main=141: {e3}")
+                # Final fallback
+                return uc.Chrome()
 
 def wait_with_random_delay(min_seconds=2, max_seconds=5):
     """Wait with a random delay to appear more human-like."""

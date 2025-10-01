@@ -7,7 +7,7 @@ import type { BillSimilaritySearch, BillVectors } from '../types';
 const SimilarBillSearch = () => {
   const [billType, setBillType] = useState<'HB' | 'SB'>('HB');
   const [billNumber, setBillNumber] = useState('');
-  const [searchResults, setSearchResults] = useState<BillSimilaritySearch>({tfidf_results: [], vector_results: []});
+  const [searchResults, setSearchResults] = useState<BillSimilaritySearch>({tfidf_results: [], vector_results: [], search_bill: {bill_name: '', summary: '', score: 0}});
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [expandedSummaries, setExpandedSummaries] = useState<Set<string>>(new Set());
@@ -30,7 +30,7 @@ const SimilarBillSearch = () => {
       setSearchResults(results);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to search for similar bills');
-      setSearchResults({tfidf_results: [], vector_results: []});
+      setSearchResults({tfidf_results: [], vector_results: [], search_bill: {bill_name: '', summary: '', score: 0}});
     } finally {
       setIsLoading(false);
     }
@@ -62,23 +62,27 @@ const SimilarBillSearch = () => {
     setAnalysisError(null);
     
     try {
+      // Combine all search results into a unique array
+      const allBills = [...searchResults.tfidf_results, ...searchResults.vector_results];
+      const uniqueBills = allBills.filter((bill, index, self) => 
+        index === self.findIndex(b => b.bill_name === bill.bill_name)
+      );
+
       // Construct the prompt with all the search results
       const prompt = `
-Analyze the following similar bills found for ${billType}${billNumber}:
+Analyze the following similar bills found for ${searchResults.search_bill.bill_name}:
 
-**TF-IDF Search Results:**
-${searchResults.tfidf_results.map((bill, index) => 
+**Search Bill:**
+${searchResults.search_bill.bill_name}: ${searchResults.search_bill.summary}
+
+**Similar Bills:**
+${uniqueBills.map((bill, index) => 
   `${index + 1}. ${bill.bill_name}: ${bill.summary}`
 ).join('\n')}
 
-**Semantic/Vector Search Results:**
-${searchResults.vector_results.map((bill, index) => 
-  `${index + 1}. ${bill.bill_name}: ${bill.summary}`
-).join('\n')}
+Please analyze all of the bills and answer the following questions:
 
-Please analyze these bills and answer the following questions:
-
-1. Are these bills similar? Can they be combined into a single bill? Be specific about how they are similar and what aspects could be consolidated.
+1. Are any of the bills similar or grouped together? Can they be combined into a single bill? Be specific about how they are similar and what aspects could be consolidated.
 
 2. Do they have competing agendas? Are they in contradiction with each other? If they don't compete, explain that they are fine and affect unrelated matters.
 

@@ -160,4 +160,5 @@ export interface BillVectors {
 export interface BillSimilaritySearch {
   tfidf_results: BillVectors[];
   vector_results: BillVectors[];
+  search_bill: BillVectors;
 }

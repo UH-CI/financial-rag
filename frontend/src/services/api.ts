@@ -57,10 +57,9 @@ api.interceptors.response.use(
 export const askLLM = async (question: string): Promise<string> => {
   try {
     console.log('Making request to /ask_llm with question:', question.substring(0, 100) + '...');
-    const response = await api.post('/ask_llm', null, {
-      params: {
-        question: question,
-      },
+    const response = await api.post('/ask_llm', {
+      question: question,
+    }, {
       timeout: 120000, // 2 minutes timeout for LLM generation
     });
     console.log('Response received:', response.data);

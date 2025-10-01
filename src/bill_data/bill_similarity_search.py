@@ -171,13 +171,12 @@ class BillSimilaritySearcher:
         
         # Display results
         # self.display_results(query_idx, tfidf_results, embedding_results)
-        print(self.documents[tfidf_results[0][0]].keys())
         for idx, score in tfidf_results:
             tfidf_documents.append({"bill_name": self.documents[idx]['bill_name'], "summary": self.documents[idx]['summary'], "score": score})
         for idx, score in embedding_results:
             embedding_documents.append({"bill_name": self.documents[idx]['bill_name'], "summary": self.documents[idx]['summary'], "score": score})
-
-        return tfidf_documents, embedding_documents
+        search_bill = {"bill_name": self.documents[query_idx]['bill_name'], "summary": self.documents[query_idx]['summary'], "score": 1.0}
+        return tfidf_documents, embedding_documents, search_bill
     
     def interactive_search(self) -> None:
         """Interactive search mode."""
