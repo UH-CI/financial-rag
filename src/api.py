@@ -43,6 +43,8 @@ from query_processor import QueryProcessor
 from langgraph_agent import LangGraphRAGAgent
 from chatbot_engine.nlp_backend import NLPBackend
 
+from bill_data.bill_similarity_search import BillSimilaritySearcher
+
 # Load configuration
 def load_config() -> Dict[str, Any]:
     """Load configuration from config.json"""
@@ -71,6 +73,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Initialize BillSimilaritySearcher
+bill_similarity_searcher = BillSimilaritySearcher("./bill_data/introduction_document_vectors.json")
+bill_similarity_searcher.load_data()
+
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 # Create collection managers dynamically from config
 collection_names = config["collections"]
@@ -1372,6 +1379,51 @@ async def generate_fiscal_note(request: Request, bill_type: Bill_type_options, b
         "message": "Fiscal note queued for generation",
         "job_id": job_id
     }
+
+@app.post("/bill_search_query")
+async def bill_search_query(request: Request, bill_type: Bill_type_options, bill_number: str, year: str = "2025"):
+    bill_type = bill_type
+    bill_number = bill_number
+    year = year
+    bill_name = f"{bill_type.value}{bill_number}_"
+
+    tfidf_results, vector_results = bill_similarity_searcher.search_similar_bills(bill_name)
+    print(tfidf_results)
+    print(vector_results)
+    return {
+        "tfidf_results": tfidf_results,
+        "vector_results": vector_results
+    }
+
+
+@app.post("/get_similar_bills")
+async def get_bill_summary(request: Request, bill_type: Bill_type_options, bill_number: str, year: str = "2025"):
+    bill_type = bill_type
+    bill_number = bill_number
+    year = year
+    bill_name = f"{bill_type.value}{bill_number}_"
+
+    tfidf_results, vector_results = bill_similarity_searcher.search_similar_bills(bill_name)
+    print(tfidf_results)
+    print(vector_results)
+    return {
+        "tfidf_results": tfidf_results,
+        "vector_results": vector_results
+    }
+
+@app.post("/ask_llm")
+async def ask_llm(request: Request, question: str):
+    try:
+        print(f"Received question: {question[:100]}...")
+        response = model.generate_content(question)
+        print(f"Generated response: {response}")
+        return {
+            "question": question,
+            "response": response.text
+        }
+    except Exception as e:
+        print(f"Error generating LLM response: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to generate LLM response: {str(e)}")
 
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):

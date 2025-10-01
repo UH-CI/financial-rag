@@ -1,13 +1,14 @@
 import { useState, useEffect, useCallback } from 'react';
-import { MessageSquare, AlertCircle, Loader2, FileText } from 'lucide-react';
+import { MessageSquare, AlertCircle, Loader2, FileText, Search } from 'lucide-react';
 // import CollectionsSidebar from './components/CollectionsSidebar';
 import { ConversationChat } from './components/ConversationChat';
 import CreateGroupModal from './components/CreateGroupModal';
 import FiscalNoteGeneration from './components/FiscalNoteGeneration';
+import SimilarBillSearch from './components/SimilarBillSearch';
   import type { Collection } from './types';
 import { getCollections } from './services/api';
 
-type AppView = 'chat' | 'fiscal-note-generation';
+type AppView = 'chat' | 'fiscal-note-generation' | 'similar-bill-search';
 
 function App() {
   const [currentView, setCurrentView] = useState<AppView>('fiscal-note-generation');
@@ -94,24 +95,30 @@ function App() {
             </button>
               )} */}
               <div className={`rounded-lg p-2 ${
-                currentView === 'chat' ? 'bg-blue-600' : 'bg-green-600'
+                currentView === 'chat' ? 'bg-blue-600' : 
+                currentView === 'fiscal-note-generation' ? 'bg-green-600' : 'bg-purple-600'
               }`}>
                 {currentView === 'chat' ? (
                   <MessageSquare className="w-6 h-6 text-white" />
-                ) : (
+                ) : currentView === 'fiscal-note-generation' ? (
                   <FileText className="w-6 h-6 text-white" />
+                ) : (
+                  <Search className="w-6 h-6 text-white" />
                 )}
               </div>
               <div>
                 <h1 className="text-xl font-bold text-gray-900">
                   {currentView === 'chat' && 'FinBot'}
                   {currentView === 'fiscal-note-generation' && 'Fiscal Note Generation'}
+                  {currentView === 'similar-bill-search' && 'Similar Bill Search'}
                 </h1>
                 <p className="text-sm text-gray-500">
                   {currentView === 'chat'
                     ? `Ask questions about the state budget and the state of Hawaii. This interface has access to the <sappropriation bill 300, statutes, budget worksheets, and bills.`
                     : currentView === 'fiscal-note-generation'
                     ? 'Upload documents and analyze using selected collections'
+                    : currentView === 'similar-bill-search'
+                    ? 'Search for bills similar to a specific bill using advanced algorithms'
                     : 'Generate a fiscal note for a specific bill'
                   }
                 </p>
@@ -154,6 +161,17 @@ function App() {
                   <FileText className="w-4 h-4 inline mr-2" />
                   Fiscal Note Generation
                 </button>
+                <button
+                  onClick={() => setCurrentView('similar-bill-search')}
+                  className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+                    currentView === 'similar-bill-search'
+                      ? 'bg-purple-100 text-purple-700'
+                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+                  }`}
+                >
+                  <Search className="w-4 h-4 inline mr-2" />
+                  Similar Bill Search
+                </button>
               </nav>
               
               {/* Status Indicator */}
@@ -187,6 +205,8 @@ function App() {
         <div className="flex-1 overflow-hidden">
           {currentView === 'fiscal-note-generation' ? (
             <FiscalNoteGeneration />
+          ) : currentView === 'similar-bill-search' ? (
+            <SimilarBillSearch />
           ) : (
             collectionsLoading ? (
             <div className="flex items-center justify-center h-full">

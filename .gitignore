@@ -42,3 +42,6 @@ src/chroma_db/
 /k8s-deployment.yaml
 /k8s-secrets.yaml
 /src/myenv
+
+/src/bill_data/document_vectors.json
+/src/bill_data/introduction_document_vectors.json

@@ -5,12 +5,16 @@ import type {
   ApiError, 
   CollectionsResponse,
   Bill,
-  FiscalNote
+  FiscalNote,
+  BillSimilaritySearch
 } from '../types';
 
 // API configuration
 // For production deployment, use the same domain with /api path
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://finbot.its.hawaii.edu/api';
+let API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://finbot.its.hawaii.edu/api';
+if (window.location.hostname === 'localhost') {
+  API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8200/';
+}
 
 const api = axios.create({
   baseURL: API_BASE_URL,
@@ -49,6 +53,33 @@ api.interceptors.response.use(
     }
   }
 );
+
+export const askLLM = async (question: string): Promise<string> => {
+  try {
+    console.log('Making request to /ask_llm with question:', question.substring(0, 100) + '...');
+    const response = await api.post('/ask_llm', null, {
+      params: {
+        question: question,
+      },
+      timeout: 120000, // 2 minutes timeout for LLM generation
+    });
+    console.log('Response received:', response.data);
+    return response.data.response; // Extract the 'response' field from the returned object
+  } catch (error) {
+    console.error('askLLM API call failed:', error);
+    throw error;
+  }
+};
+
+export const getBillSimilaritySearch = async (billType: 'HB' | 'SB', billNumber: string): Promise<BillSimilaritySearch> => {
+  const response = await api.post('/get_similar_bills', null, {
+    params: {
+      bill_type: billType,
+      bill_number: billNumber,
+    }
+  });
+  return response.data;
+};
 
 /**
  * Get available fiscal note files
@@ -644,3 +675,4 @@ export const getBillFiscalNote = async (billId: string): Promise<FiscalNote> => 
         }, 1000);
     });
 }; 
+

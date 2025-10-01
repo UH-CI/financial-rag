@@ -150,3 +150,14 @@ export interface FiscalNote {
   operating_revenue_impact: string;
   capital_expenditure_impact: string;
 } 
+
+export interface BillVectors {
+  bill_name: string;
+  summary: string;
+  score: number;
+}
+
+export interface BillSimilaritySearch {
+  tfidf_results: BillVectors[];
+  vector_results: BillVectors[];
+}

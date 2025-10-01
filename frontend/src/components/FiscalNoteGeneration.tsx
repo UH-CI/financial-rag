@@ -38,6 +38,8 @@ const FiscalNoteGeneration = () => {
 
     // WebSocket connection
     const connectWebSocket = () => {
+      if (window.location.hostname === 'localhost')
+        return
       const wsUrl = import.meta.env.VITE_WS_URL || 'ws://finbot.its.hawaii.edu/wsdo I ';
       console.log('Attempting to connect to WebSocket:', wsUrl);
       
