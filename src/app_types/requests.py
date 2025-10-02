@@ -43,6 +43,10 @@ class ChunkingRequest(BaseModel):
     rewrite_query: bool = False
     chosen_methods: List[str] = ["pymupdf_extraction_text"]
 
+
+class LLMRequest(BaseModel):
+    question: str
+
 class ChatWithPDFRequest(BaseModel):
     query: str = Field(..., description="User's question about the document")
     session_collection: str = Field(..., description="Unique collection ID for the uploaded document")

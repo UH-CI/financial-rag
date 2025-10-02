@@ -57,10 +57,9 @@ api.interceptors.response.use(
 export const askLLM = async (question: string): Promise<string> => {
   try {
     console.log('Making request to /ask_llm with question:', question.substring(0, 100) + '...');
-    const response = await api.post('/ask_llm', null, {
-      params: {
-        question: question,
-      },
+    const response = await api.post('/ask_llm', {
+      question: question,
+    }, {
       timeout: 120000, // 2 minutes timeout for LLM generation
     });
     console.log('Response received:', response.data);
@@ -96,7 +95,7 @@ export const createFiscalNote = async (
   billType: 'HB' | 'SB',
   billNumber: string,
   year: string = '2025'
-): Promise<{ message: string; job_id: string }> => {
+): Promise<{ message: string; job_id?: string, success: boolean }> => {
   const response = await api.post('/generate-fiscal-note', null, {
     params: {
       bill_type: billType,
