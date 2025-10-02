@@ -1397,7 +1397,7 @@ async def generate_fiscal_note(request: Request, bill_type: Bill_type_options, b
         # Count active jobs in memory
         active_jobs = len(jobs)
     
-    MAX_CONCURRENT_FISCAL_NOTES = 5
+    MAX_CONCURRENT_FISCAL_NOTES = 1
     if active_jobs >= MAX_CONCURRENT_FISCAL_NOTES:
         return {
             "message": f"Only {MAX_CONCURRENT_FISCAL_NOTES} fiscal notes can be generated at the same time. Currently {active_jobs} jobs are running. Please try again later.",
