@@ -1242,6 +1242,7 @@ async def get_fiscal_note_files():
             print(f"Directory: {file}")
             # Check if this directory name matches any active job_id
             is_generating = get_job_status(file)
+            print(f"Is generating: {is_generating} for {file}")
             if is_generating:
                 dirs.append({"name": file, "status": "generating"})
             else:
@@ -1397,7 +1398,7 @@ async def generate_fiscal_note(request: Request, bill_type: Bill_type_options, b
         # Count active jobs in memory
         active_jobs = len(jobs)
     
-    MAX_CONCURRENT_FISCAL_NOTES = 5
+    MAX_CONCURRENT_FISCAL_NOTES = 1
     if active_jobs >= MAX_CONCURRENT_FISCAL_NOTES:
         return {
             "message": f"Only {MAX_CONCURRENT_FISCAL_NOTES} fiscal notes can be generated at the same time. Currently {active_jobs} jobs are running. Please try again later.",

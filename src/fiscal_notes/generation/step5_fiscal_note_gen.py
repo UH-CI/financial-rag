@@ -108,7 +108,7 @@ def generate_fiscal_notes_chronologically(documents, chronological_documents, ou
     doc_url_map = {doc['name']: doc['url'] for doc in chronological_documents}
     
     for i, doc in enumerate(documents, start=1):
-        print(f"Processing document {i}/{len(documents)}: {doc['name']}, text: {doc['text'][:100]}")
+        print(f"Processing document {i}/{len(documents)}: {doc['name']}, text: {doc['text'][:10]}")
         
         # Append the new document to the cumulative context
         cumulative_context += f"\n\n=== Document: {doc['name']} ===\n{doc['text']}"
