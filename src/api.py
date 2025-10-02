@@ -1242,6 +1242,7 @@ async def get_fiscal_note_files():
             print(f"Directory: {file}")
             # Check if this directory name matches any active job_id
             is_generating = get_job_status(file)
+            print(f"Is generating: {is_generating} for {file}")
             if is_generating:
                 dirs.append({"name": file, "status": "generating"})
             else:

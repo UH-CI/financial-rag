@@ -15,7 +15,7 @@ let API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://finbot.its.hawa
 if (window.location.hostname === 'localhost') {
   API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8200/';
 }
-
+console.log(window.location.hostname, API_BASE_URL)
 const api = axios.create({
   baseURL: API_BASE_URL,
   timeout: 30000,

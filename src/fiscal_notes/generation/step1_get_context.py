@@ -68,6 +68,8 @@ def create_stealth_driver(download_dir=None):
         return driver
     except Exception as e:
         print(f"Error creating stealth driver with full options: {e}")
+        if "version" in str(e).lower() or "chrome" in str(e).lower():
+            print("Chrome/ChromeDriver version mismatch detected. Trying fallback options...")
         # Fallback to basic driver with minimal options
         basic_options = uc.ChromeOptions()
         basic_options.add_argument('--headless=new')
