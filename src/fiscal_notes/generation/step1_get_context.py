@@ -60,6 +60,7 @@ def create_stealth_driver(download_dir=None):
     
     try:
         # Create driver with version_main to avoid compatibility issues
+        # Let undetected_chromedriver auto-detect the Chrome version
         driver = uc.Chrome(options=options, version_main=None)
         
         # Execute script to remove webdriver property
@@ -68,6 +69,8 @@ def create_stealth_driver(download_dir=None):
         return driver
     except Exception as e:
         print(f"Error creating stealth driver with full options: {e}")
+        if "version" in str(e).lower() or "chrome" in str(e).lower():
+            print("Chrome/ChromeDriver version mismatch detected. Trying fallback options...")
         # Fallback to basic driver with minimal options
         basic_options = uc.ChromeOptions()
         basic_options.add_argument('--headless=new')
@@ -88,8 +91,14 @@ def create_stealth_driver(download_dir=None):
             return driver
         except Exception as e2:
             print(f"Error creating basic driver: {e2}")
-            # Ultimate fallback
-            return uc.Chrome()
+            if "version" in str(e2).lower() or "chrome" in str(e2).lower():
+                print("Chrome/ChromeDriver version issues persist. Consider updating Chrome or ChromeDriver.")
+            # Ultimate fallback - let undetected_chromedriver handle version automatically
+            try:
+                return uc.Chrome()
+            except Exception as e3:
+                print(f"Ultimate fallback failed: {e3}")
+                raise Exception(f"Unable to create Chrome driver. Chrome/ChromeDriver version mismatch. Current Chrome: 140.0.7339.208. Please update Chrome or use compatible ChromeDriver version.")
 
 def wait_with_random_delay(min_seconds=2, max_seconds=5):
     """Wait with a random delay to appear more human-like."""
