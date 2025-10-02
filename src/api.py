@@ -22,6 +22,7 @@ from fiscal_notes.generation.step5_fiscal_note_gen import generate_fiscal_notes
 
 import shutil
 from enum import Enum
+import requests
 
 
 from app_types.requests import (
@@ -350,6 +351,18 @@ async def root():
             "Multi-collection intelligent search"
         ] if USE_LANGGRAPH else None
     }
+
+@app.get("/health")
+async def health_check():
+    slack_webhook = os.getenv("SLACK_WEBHOOK")
+    slack_payload = {
+        "text": "Health check passed",
+        "username": "RAG-System Health Check",
+        "icon_emoji": ":ok:",
+        "webhook_url": slack_webhook
+    }
+    requests.post(slack_webhook, json=slack_payload)
+    return {"status": "ok"}
 
 @app.get("/chunked_text")
 async def get_chunked_text():
@@ -1232,7 +1245,10 @@ async def get_fiscal_note_files():
             if is_generating:
                 dirs.append({"name": file, "status": "generating"})
             else:
-                dirs.append({"name": file, "status": "ready"})
+                if os.path.exists(os.path.join(fiscal_notes_dir, file, "fiscal_notes")) and len(os.listdir(os.path.join(fiscal_notes_dir, file, "fiscal_notes"))) > 0:
+                    dirs.append({"name": file, "status": "ready"})
+                else:
+                    dirs.append({"name": file, "status": "error"})
     return dirs
 
 @app.post("/get_fiscal_note")
@@ -1300,9 +1316,12 @@ async def create_fiscal_note_job(bill_type: Bill_type_options, bill_number: str,
             "status": "fetching_documents",
             "message": "Fetching documents from Hawaii Capitol website..."
         }))
+        print("Entering fetch_documents")
         
         saved_path = fetch_documents(measure_url)
-        
+
+        print("Exiting fetch_documents")
+
         await manager.broadcast(json.dumps({
             "type": "job_progress",
             "job_id": job_id,
@@ -1366,8 +1385,25 @@ async def generate_fiscal_note(request: Request, bill_type: Bill_type_options, b
     job_id = f"{bill_type.value}_{bill_number}_{year}"
     if get_job_status(job_id):
         return {
-            "message": "Fiscal note generation already in progress"
+            "message": "Fiscal note generation already in progress",
+            "success": False
         }
+    
+    # Check concurrent job limit
+    if USE_REDIS:
+        # Count active jobs in Redis
+        active_jobs = len([key for key in redis_client.scan_iter(match="job:*")])
+    else:
+        # Count active jobs in memory
+        active_jobs = len(jobs)
+    
+    MAX_CONCURRENT_FISCAL_NOTES = 5
+    if active_jobs >= MAX_CONCURRENT_FISCAL_NOTES:
+        return {
+            "message": f"Only {MAX_CONCURRENT_FISCAL_NOTES} fiscal notes can be generated at the same time. Currently {active_jobs} jobs are running. Please try again later.",
+            "success": False
+        }
+    
     set_job_status(job_id, True)
     
     # Create independent background task with error handling
@@ -1377,7 +1413,8 @@ async def generate_fiscal_note(request: Request, bill_type: Bill_type_options, b
 
     return {
         "message": "Fiscal note queued for generation",
-        "job_id": job_id
+        "job_id": job_id,
+        "success": True
     }
 
 @app.post("/bill_search_query")

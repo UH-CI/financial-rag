@@ -8,7 +8,7 @@ set -e  # Exit on any error
 # Configuration
 HOST="0.0.0.0"
 PORT="8200"
-WORKERS="4"
+WORKERS="12"  # Optimized for 16-core system with 60GB RAM
 LOG_LEVEL="info"
 LOG_DIR="/home/exouser/RAG-system/logs"
 PID_FILE="/home/exouser/RAG-system/uvicorn.pid"
@@ -59,19 +59,62 @@ if ! pgrep -x "redis-server" > /dev/null; then
 fi
 
 # Stop existing uvicorn processes
+print_info "Checking for existing processes on port $PORT..."
+
+# Find all processes using the port
+PIDS_ON_PORT=$(lsof -t -i:$PORT 2>/dev/null || true)
+
+if [ ! -z "$PIDS_ON_PORT" ]; then
+    print_info "Found processes using port $PORT: $PIDS_ON_PORT"
+    
+    # Try graceful shutdown first
+    for pid in $PIDS_ON_PORT; do
+        if ps -p $pid > /dev/null 2>&1; then
+            print_info "Gracefully stopping process $pid..."
+            kill -TERM $pid 2>/dev/null || true
+        fi
+    done
+    
+    
+    # Wait for graceful shutdown
+    sleep 5
+    
+    # Force kill any remaining processes
+    REMAINING_PIDS=$(lsof -t -i:$PORT 2>/dev/null || true)
+    if [ ! -z "$REMAINING_PIDS" ]; then
+        print_warning "Force killing remaining processes: $REMAINING_PIDS"
+        for pid in $REMAINING_PIDS; do
+            if ps -p $pid > /dev/null 2>&1; then
+                kill -9 $pid 2>/dev/null || true
+            fi
+        done
+        sleep 2
+    fi
+fi
+
+# Also check PID file and clean up
 if [ -f "$PID_FILE" ]; then
     OLD_PID=$(cat "$PID_FILE")
     if ps -p $OLD_PID > /dev/null 2>&1; then
-        print_info "Stopping existing uvicorn process (PID: $OLD_PID)..."
-        kill $OLD_PID
+        print_info "Stopping process from PID file (PID: $OLD_PID)..."
+        kill -TERM $OLD_PID 2>/dev/null || true
         sleep 2
         if ps -p $OLD_PID > /dev/null 2>&1; then
-            print_warning "Process still running, force killing..."
-            kill -9 $OLD_PID
+            print_warning "Force killing PID file process..."
+            kill -9 $OLD_PID 2>/dev/null || true
         fi
     fi
     rm -f "$PID_FILE"
 fi
+
+# Final verification that port is free
+if lsof -i:$PORT > /dev/null 2>&1; then
+    print_error "Port $PORT is still in use after cleanup attempts"
+    print_error "Manual intervention required. Try: sudo lsof -i:$PORT"
+    exit 1
+fi
+
+print_success "Port $PORT is now available"
 
 # Start uvicorn with multiple workers
 print_info "Starting uvicorn with $WORKERS workers..."

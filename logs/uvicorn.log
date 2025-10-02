@@ -1,5 +1,5 @@
 INFO:     Uvicorn running on http://0.0.0.0:8200 (Press CTRL+C to quit)
-INFO:     Started parent process [1895718]
+INFO:     Started parent process [1937688]
 /home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
   warnings.warn(
 /home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
@@ -32,79 +32,181 @@ INFO:     Started parent process [1895718]
   warnings.warn(
 /home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
   warnings.warn(
-2025-10-01 21:56:34,215 - INFO - ChromaDB persistent client initialized at: chroma_db/data
-2025-10-01 21:56:34,215 - INFO - Initialized Google embeddings with model: text-embedding-004
-2025-10-01 21:56:34,215 - INFO - Google embedding function initialized
-2025-10-01 21:56:34,216 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
-2025-10-01 21:56:34,216 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
-2025-10-01 21:56:34,216 - INFO - NLP Backend initialized
-INFO:     Started server process [1895721]
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
+  warnings.warn(
+2025-10-02 00:14:19,890 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-10-02 00:14:19,890 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-10-02 00:14:19,890 - INFO - Google embedding function initialized
+2025-10-02 00:14:20,106 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-10-02 00:14:20,106 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-10-02 00:14:20,107 - INFO - Google embedding function initialized
+2025-10-02 00:14:20,114 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-10-02 00:14:20,114 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-10-02 00:14:20,114 - INFO - Google embedding function initialized
+2025-10-02 00:14:20,115 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-10-02 00:14:20,115 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-10-02 00:14:20,115 - INFO - NLP Backend initialized
+2025-10-02 00:14:20,131 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-10-02 00:14:20,131 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-10-02 00:14:20,131 - INFO - Google embedding function initialized
+INFO:     Started server process [1937703]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-2025-10-01 21:56:34,687 - INFO - ChromaDB persistent client initialized at: chroma_db/data
-2025-10-01 21:56:34,687 - INFO - Initialized Google embeddings with model: text-embedding-004
-2025-10-01 21:56:34,687 - INFO - Google embedding function initialized
-2025-10-01 21:56:35,265 - INFO - ChromaDB persistent client initialized at: chroma_db/data
-2025-10-01 21:56:35,266 - INFO - Initialized Google embeddings with model: text-embedding-004
-2025-10-01 21:56:35,266 - INFO - Google embedding function initialized
-2025-10-01 21:56:35,267 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
-2025-10-01 21:56:35,267 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
-2025-10-01 21:56:35,267 - INFO - NLP Backend initialized
-INFO:     Started server process [1895724]
-INFO:     ('76.39.15.190', 0) - "WebSocket /ws" [accepted]
+2025-10-02 00:14:20,211 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-10-02 00:14:20,211 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-10-02 00:14:20,211 - INFO - NLP Backend initialized
+2025-10-02 00:14:20,211 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-10-02 00:14:20,211 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-10-02 00:14:20,211 - INFO - NLP Backend initialized
+2025-10-02 00:14:20,217 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-10-02 00:14:20,217 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-10-02 00:14:20,217 - INFO - Google embedding function initialized
+2025-10-02 00:14:20,218 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-10-02 00:14:20,218 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-10-02 00:14:20,218 - INFO - NLP Backend initialized
+2025-10-02 00:14:20,220 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-10-02 00:14:20,220 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-10-02 00:14:20,220 - INFO - NLP Backend initialized
+2025-10-02 00:14:20,245 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-10-02 00:14:20,245 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-10-02 00:14:20,245 - INFO - Google embedding function initialized
+2025-10-02 00:14:20,249 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-10-02 00:14:20,249 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-10-02 00:14:20,249 - INFO - NLP Backend initialized
+2025-10-02 00:14:20,266 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-10-02 00:14:20,266 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-10-02 00:14:20,266 - INFO - Google embedding function initialized
+2025-10-02 00:14:20,267 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-10-02 00:14:20,268 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-10-02 00:14:20,268 - INFO - NLP Backend initialized
+INFO:     Started server process [1937695]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     connection open
-2025-10-01 21:56:35,918 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
-2025-10-01 21:56:35,918 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
-2025-10-01 21:56:35,918 - INFO - NLP Backend initialized
-2025-10-01 21:56:35,934 - INFO - ChromaDB persistent client initialized at: chroma_db/data
-2025-10-01 21:56:35,934 - INFO - Initialized Google embeddings with model: text-embedding-004
-2025-10-01 21:56:35,934 - INFO - Google embedding function initialized
-2025-10-01 21:56:35,935 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
-2025-10-01 21:56:35,935 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
-2025-10-01 21:56:35,935 - INFO - NLP Backend initialized
-INFO:     Started server process [1895722]
+INFO:     Started server process [1937707]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     Started server process [1895723]
+INFO:     Started server process [1937696]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-Loading data from ./bill_data/introduction_document_vectors.json...
-Loaded 4053 documents
-TF-IDF vectors shape: (4053, 5000)
-Embeddings shape: (4053, 768)
-✅ Retrieved existing collection: bills
-✅ NLP Backend initialized successfully
-✅ LangGraph RAG Agent initialized successfully
-✅ Redis connected for multi-worker job tracking
-Found collection: bills
-INFO:     76.39.15.190:0 - "GET /collections HTTP/1.0" 200 OK
-Directory: HB_727_2025
-Directory: HB_431_2025
-Directory: HB_300_2025
-Directory: HB_740_2025
-Directory: SB_260_2025
-Directory: HB_1169_2025
-Directory: HB_47_2025
-Directory: HB_990_2025
-Directory: HB_934_2025
-Directory: HB_441_2025
-Directory: HB_302_2025
-Directory: HB_70_2025
-Directory: HB_1483_2025
-Directory: HB_2_2025
-Directory: SB_933_2025
-Directory: HB_72_2025
-Directory: HB_3_2025
-INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+2025-10-02 00:14:20,312 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-10-02 00:14:20,313 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-10-02 00:14:20,313 - INFO - Google embedding function initialized
+2025-10-02 00:14:20,314 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-10-02 00:14:20,314 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-10-02 00:14:20,314 - INFO - NLP Backend initialized
+INFO:     Started server process [1937708]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [1937699]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [1937702]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [1937698]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2025-10-02 00:14:20,412 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-10-02 00:14:20,412 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-10-02 00:14:20,412 - INFO - Google embedding function initialized
+2025-10-02 00:14:20,413 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-10-02 00:14:20,413 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-10-02 00:14:20,413 - INFO - NLP Backend initialized
+2025-10-02 00:14:20,428 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-10-02 00:14:20,428 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-10-02 00:14:20,428 - INFO - Google embedding function initialized
+2025-10-02 00:14:20,429 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-10-02 00:14:20,429 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-10-02 00:14:20,429 - INFO - NLP Backend initialized
+INFO:     Started server process [1937706]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2025-10-02 00:14:20,512 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-10-02 00:14:20,512 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-10-02 00:14:20,512 - INFO - Google embedding function initialized
+2025-10-02 00:14:20,513 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-10-02 00:14:20,513 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-10-02 00:14:20,513 - INFO - NLP Backend initialized
+INFO:     Started server process [1937697]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [1937709]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2025-10-02 00:14:20,632 - INFO - ChromaDB persistent client initialized at: chroma_db/data
+2025-10-02 00:14:20,632 - INFO - Initialized Google embeddings with model: text-embedding-004
+2025-10-02 00:14:20,632 - INFO - Google embedding function initialized
+2025-10-02 00:14:20,634 - ERROR - Failed to load chunked data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json'
+2025-10-02 00:14:20,634 - ERROR - Failed to load extracted data: [Errno 2] No such file or directory: '/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json'
+2025-10-02 00:14:20,634 - INFO - NLP Backend initialized
+INFO:     Started server process [1937705]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
 INFO:     ('76.39.15.190', 0) - "WebSocket /ws" [accepted]
 INFO:     connection open
 INFO:     connection closed
-🔌 WebSocket connection attempt from Address(host='76.39.15.190', port=0)
-✅ WebSocket connected. Total connections: 1
-INFO:     76.39.15.190:0 - "POST /generate-fiscal-note?bill_type=HB&bill_number=400&year=2025 HTTP/1.0" 200 OK
-2025-10-01 21:57:02,714 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
 Loading data from ./bill_data/introduction_document_vectors.json...
 Loaded 4053 documents
 TF-IDF vectors shape: (4053, 5000)
@@ -118,6 +220,14 @@ Embeddings shape: (4053, 768)
 🔌 WebSocket disconnected from Address(host='76.39.15.190', port=0)
 Found collection: bills
 INFO:     76.39.15.190:0 - "GET /collections HTTP/1.0" 200 OK
+Loading data from ./bill_data/introduction_document_vectors.json...
+Loaded 4053 documents
+TF-IDF vectors shape: (4053, 5000)
+Embeddings shape: (4053, 768)
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
 Directory: HB_727_2025
 Directory: HB_431_2025
 Directory: HB_300_2025
@@ -139,197 +249,6 @@ Directory: HB_3_2025
 INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
 INFO:     ('76.39.15.190', 0) - "WebSocket /ws" [accepted]
 INFO:     connection open
-2025-10-01 21:59:17,766 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
-2025-10-01 21:59:53,239 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
-2025-10-01 21:59:53,378 - INFO - AFC is enabled with max remote calls: 10.
-2025-10-01 22:00:42,639 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
-2025-10-01 22:00:42,642 - INFO - AFC remote call 1 is done.
-2025-10-01 22:00:43,914 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
-2025-10-01 22:00:45,326 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
-2025-10-01 22:01:57,111 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
-2025-10-01 22:01:57,178 - INFO - AFC is enabled with max remote calls: 10.
-2025-10-01 22:02:28,637 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
-2025-10-01 22:02:28,639 - INFO - AFC remote call 1 is done.
-2025-10-01 22:02:28,643 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
-2025-10-01 22:02:28,710 - INFO - AFC is enabled with max remote calls: 10.
-2025-10-01 22:03:06,633 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
-2025-10-01 22:03:06,635 - INFO - AFC remote call 1 is done.
-2025-10-01 22:03:06,639 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
-2025-10-01 22:03:06,706 - INFO - AFC is enabled with max remote calls: 10.
-2025-10-01 22:03:50,621 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
-2025-10-01 22:03:50,622 - INFO - AFC remote call 1 is done.
-Starting fiscal note generation for HB_400_2025
-Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
-from invalid argument: unrecognized chrome option: excludeSwitches
-Stacktrace:
-#0 0x5cf779e1733a <unknown>
-#1 0x5cf7798956e6 <unknown>
-#2 0x5cf7798c2abc <unknown>
-#3 0x5cf7798c4215 <unknown>
-#4 0x5cf7798bef78 <unknown>
-#5 0x5cf77991a118 <unknown>
-#6 0x5cf779919a30 <unknown>
-#7 0x5cf77991b652 <unknown>
-#8 0x5cf77991b426 <unknown>
-#9 0x5cf77990d5b3 <unknown>
-#10 0x5cf7798d9cc2 <unknown>
-#11 0x5cf7798da981 <unknown>
-#12 0x5cf779dd9ba8 <unknown>
-#13 0x5cf779ddda17 <unknown>
-#14 0x5cf779dc10c9 <unknown>
-#15 0x5cf779dde5c5 <unknown>
-#16 0x5cf779da690f <unknown>
-#17 0x5cf779e03898 <unknown>
-#18 0x5cf779e03a73 <unknown>
-#19 0x5cf779e162d3 <unknown>
-#20 0x76b51d49caa4 <unknown>
-#21 0x76b51d529c6c <unknown>
-
-Page loaded successfully. First 500 chars: <html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete" data-uw-w-loader="" data-uw-rm-lang="false"><head id="Head1"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="content-type" content="text/html;charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></scri
-✅ Timeline data saved to /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/HB_400_2025_timeline.json
-🚀 Initializing Chrome driver for document retrieval...
-Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
-from invalid argument: unrecognized chrome option: useAutomationExtension
-Stacktrace:
-#0 0x5de4176ca33a <unknown>
-#1 0x5de4171486e6 <unknown>
-#2 0x5de417175abc <unknown>
-#3 0x5de417177215 <unknown>
-#4 0x5de417171f78 <unknown>
-#5 0x5de4171cd118 <unknown>
-#6 0x5de4171cca30 <unknown>
-#7 0x5de4171ce652 <unknown>
-#8 0x5de4171ce426 <unknown>
-#9 0x5de4171c05b3 <unknown>
-#10 0x5de41718ccc2 <unknown>
-#11 0x5de41718d981 <unknown>
-#12 0x5de41768cba8 <unknown>
-#13 0x5de417690a17 <unknown>
-#14 0x5de4176740c9 <unknown>
-#15 0x5de4176915c5 <unknown>
-#16 0x5de41765990f <unknown>
-#17 0x5de4176b6898 <unknown>
-#18 0x5de4176b6a73 <unknown>
-#19 0x5de4176c92d3 <unknown>
-#20 0x74845509caa4 <unknown>
-#21 0x748455129c6c <unknown>
-
-✅ Chrome driver initialized successfully
-Processing document 1/14: HB400
-Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB400_.HTM
-✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/documents/HB400_.HTM.txt
-Processing document 2/14: HB400_TESTIMONY_JHA_01-30-25_
-Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB400_TESTIMONY_JHA_01-30-25_.PDF
-✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/documents/HB400_TESTIMONY_JHA_01-30-25_.PDF.txt
-Processing document 3/14: HB400_HSCR286_
-Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB400_HSCR286_.htm
-✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/documents/HB400_HSCR286_.htm.txt
-Processing document 4/14: HB400_TESTIMONY_FIN_03-05-25_
-Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB400_TESTIMONY_FIN_03-05-25_.PDF
-✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/documents/HB400_TESTIMONY_FIN_03-05-25_.PDF.txt
-Processing document 5/14: HB400_HD1
-Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB400_HD1_.HTM
-✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/documents/HB400_HD1_.HTM.txt
-Processing document 6/14: HB400_HD1_HSCR1171_
-Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB400_HD1_HSCR1171_.htm
-✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/documents/HB400_HD1_HSCR1171_.htm.txt
-Processing document 7/14: HB400_HD1_TESTIMONY_JDC_03-19-25_
-Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB400_HD1_TESTIMONY_JDC_03-19-25_.PDF
-✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/documents/HB400_HD1_TESTIMONY_JDC_03-19-25_.PDF.txt
-Processing document 8/14: HB400_SD1
-Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB400_SD1_.HTM
-✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/documents/HB400_SD1_.HTM.txt
-Processing document 9/14: HB400_SD1_SSCR1253_
-Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB400_SD1_SSCR1253_.htm
-✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/documents/HB400_SD1_SSCR1253_.htm.txt
-Processing document 10/14: HB400_SD1_TESTIMONY_WAM_03-31-25_
-Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB400_SD1_TESTIMONY_WAM_03-31-25_.PDF
-✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/documents/HB400_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt
-Processing document 11/14: HB400_SD2
-Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB400_SD2_.HTM
-✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/documents/HB400_SD2_.HTM.txt
-Processing document 12/14: HB400_SD2_SSCR1841_
-Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB400_SD2_SSCR1841_.htm
-✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/documents/HB400_SD2_SSCR1841_.htm.txt
-Processing document 13/14: HB400_CD1
-Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB400_CD1_.HTM
-✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/documents/HB400_CD1_.HTM.txt
-Processing document 14/14: HB400_CD1_CCR157_
-Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB400_CD1_CCR157_.htm
-✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/documents/HB400_CD1_CCR157_.htm.txt
-✅ All documents retrieved and saved to: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/documents
-📋 Retrieval log saved to: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/retrieval_log.json
-🔄 Cleaning up Chrome driver...
-✅ Chrome driver closed successfully
-✅ Temporary download directory cleaned up
-Processing document 1/14: HB400, text: JOSH GREEN, M.D.
-  GOVERNOR
-STATE OF HAWAI`I
-DEPARTMENT OF EDUCATION
-KA ‘OIHANA HO‘ONA‘AUAO
-P.O. BOX
-📋 Generating fiscal note for bill introduction: HB400
-✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/fiscal_notes/HB400.json
-Processing document 2/14: HB400_TESTIMONY_JHA_01-30-25_, text:  
- 
- 
- 
-The Judiciary, State of Hawai‘i  
-Testimony to the Thirty-Third State Legislature 
-2025 Regu
-Processing document 3/14: HB400_HSCR286_, text: HSCR286
-STAND.
-COM. REP. NO.
-286
-Honolulu, Hawaii
-,
-2025
-RE:
-H.B. No. 400
-Honorable Nadine K. Nakamu
-📋 Generating fiscal note for committee report: HB400_HSCR286_
-✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/fiscal_notes/HB400_HSCR286_.json
-Processing document 4/14: HB400_TESTIMONY_FIN_03-05-25_, text:  
- 
- 
- 
-The Judiciary, State of Hawai‘i  
-Testimony to the Thirty-Third State Legislature 
-2025 Regu
-Processing document 5/14: HB400_HD1, text: HB400 HD1
-HOUSE OF REPRESENTATIVES
-H.B. NO.
-400
-THIRTY-THIRD LEGISLATURE, 2025
-H.D. 1
-STATE OF HAWAI
-Processing document 6/14: HB400_HD1_HSCR1171_, text: HSCR1171
-STAND.
-COM. REP. NO.
-1171
-Honolulu, Hawaii
-,
-2025
-RE:
-H.B. No. 400
-H.D.
-1
-Honorable Nadine 
-📋 Generating fiscal note for committee report: HB400_HD1_HSCR1171_
-2025-10-01 22:03:50,627 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
-2025-10-01 22:03:50,694 - INFO - AFC is enabled with max remote calls: 10.
-2025-10-01 22:04:17,359 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
-2025-10-01 22:04:17,360 - INFO - AFC remote call 1 is done.
-2025-10-01 22:04:17,365 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
-2025-10-01 22:04:17,431 - INFO - AFC is enabled with max remote calls: 10.
-2025-10-01 22:05:11,311 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
-2025-10-01 22:05:11,312 - INFO - AFC remote call 1 is done.
-2025-10-01 22:05:11,317 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
-2025-10-01 22:05:11,384 - INFO - AFC is enabled with max remote calls: 10.
-2025-10-01 22:05:46,321 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
-2025-10-01 22:05:46,323 - INFO - AFC remote call 1 is done.
-INFO:     connection closed
 Loading data from ./bill_data/introduction_document_vectors.json...
 Loaded 4053 documents
 TF-IDF vectors shape: (4053, 5000)
@@ -338,6 +257,8 @@ Embeddings shape: (4053, 768)
 ✅ NLP Backend initialized successfully
 ✅ LangGraph RAG Agent initialized successfully
 ✅ Redis connected for multi-worker job tracking
+Found collection: bills
+INFO:     76.39.15.190:0 - "GET /collections HTTP/1.0" 200 OK
 Directory: HB_727_2025
 Directory: HB_431_2025
 Directory: HB_300_2025
@@ -357,6 +278,9 @@ Directory: SB_933_2025
 Directory: HB_72_2025
 Directory: HB_3_2025
 INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+INFO:     ('76.39.15.190', 0) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     connection closed
 Loading data from ./bill_data/introduction_document_vectors.json...
 Loaded 4053 documents
 TF-IDF vectors shape: (4053, 5000)
@@ -365,25 +289,27 @@ Embeddings shape: (4053, 768)
 ✅ NLP Backend initialized successfully
 ✅ LangGraph RAG Agent initialized successfully
 ✅ Redis connected for multi-worker job tracking
-Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_400_2025/HB_400_2025_chronological.json
-File: HB400.json
-File found: HB400.json
-File: HB400_TESTIMONY_JHA_01-30-25_.json
-File: HB400_HSCR286_.json
-File found: HB400_HSCR286_.json
-File: HB400_TESTIMONY_FIN_03-05-25_.json
-File: HB400_HD1.json
-File: HB400_HD1_HSCR1171_.json
-File found: HB400_HD1_HSCR1171_.json
-File: HB400_HD1_TESTIMONY_JDC_03-19-25_.json
-File: HB400_SD1.json
-File: HB400_SD1_SSCR1253_.json
-File found: HB400_SD1_SSCR1253_.json
-File: HB400_SD1_TESTIMONY_WAM_03-31-25_.json
-File: HB400_SD2.json
-File: HB400_SD2_SSCR1841_.json
-File found: HB400_SD2_SSCR1841_.json
-File: HB400_CD1.json
-File: HB400_CD1_CCR157_.json
-File found: HB400_CD1_CCR157_.json
-INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=400&year=2025 HTTP/1.0" 200 OK
+Found collection: bills
+INFO:     76.39.15.190:0 - "GET /collections HTTP/1.0" 200 OK
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_740_2025
+Directory: SB_260_2025
+Directory: HB_1169_2025
+Directory: HB_400_2025
+Directory: HB_47_2025
+Directory: HB_990_2025
+Directory: HB_934_2025
+Directory: HB_441_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: HB_1483_2025
+Directory: HB_2_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+INFO:     ('76.39.15.190', 0) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     connection closed

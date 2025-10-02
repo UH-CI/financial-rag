@@ -95,7 +95,7 @@ export const createFiscalNote = async (
   billType: 'HB' | 'SB',
   billNumber: string,
   year: string = '2025'
-): Promise<{ message: string; job_id: string }> => {
+): Promise<{ message: string; job_id?: string, success: boolean }> => {
   const response = await api.post('/generate-fiscal-note', null, {
     params: {
       bill_type: billType,

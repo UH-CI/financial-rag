@@ -42,7 +42,7 @@ const FiscalNoteGeneration = () => {
         return
       const wsUrl = import.meta.env.VITE_WS_URL || 'wss://finbot.its.hawaii.edu/ws';
       console.log('Attempting to connect to WebSocket:', wsUrl);
-      
+
       try {
         wsRef.current = new WebSocket(wsUrl);
 
@@ -71,10 +71,10 @@ const FiscalNoteGeneration = () => {
                 delete newErrors[data.job_id];
                 return newErrors;
               });
-              
+
               // Refresh the fiscal note files list
               fetchFiscalNoteFiles();
-              
+
               // Show success notification
               alert(data.message);
             } else if (data.type === 'job_error') {
@@ -87,7 +87,7 @@ const FiscalNoteGeneration = () => {
                 ...prev,
                 [data.job_id]: true
               }));
-              
+
               // Show error notification
               alert(data.message);
             }
@@ -135,16 +135,18 @@ const FiscalNoteGeneration = () => {
       console.log('🚀 Starting fiscal note creation...');
       const result = await createFiscalNote(formData.billType, formData.billNumber, formData.year);
       console.log('✅ Create fiscal note response:', result);
-      
+
       // Close modal immediately after API call succeeds
       setIsCreateModalOpen(false);
       setFormData({ billType: 'HB', billNumber: '', year: '2025' });
-      
-      alert('Fiscal note generation started! This will take 5-10 minutes to create, depending on how complex the bill is.');
-      
 
-      setFiscalNoteFiles(prev => [...prev, { name: result.job_id, status: 'generating' }]);
-      
+      if (result.success) {
+        alert('Fiscal note generation started! This will take 5-10 minutes to create, depending on how complex the bill is.');
+        setFiscalNoteFiles(prev => [...prev, { name: result.job_id || '', status: 'generating' }]);
+      } else {
+        alert(result.message);
+      }
+
     } catch (error) {
       console.error('❌ Error creating fiscal note:', error);
       alert('Error creating fiscal note. Please try again.');
@@ -164,7 +166,7 @@ const FiscalNoteGeneration = () => {
         const year = parts[2] || '2025';
         setSelectedFiscalNote(fileName);
         const response = await getFiscalNote(billType, billNumber, year);
-        
+
         // Check if response is a message object (job in progress) or HTML content
         if (typeof response === 'object' && 'message' in response) {
           setFiscalNoteHtml(`
@@ -204,14 +206,14 @@ const FiscalNoteGeneration = () => {
         const year = parts[2] || '2025';
 
         await deleteFiscalNote(billType, billNumber, year);
-        
+
         // Clear the HTML if this was the selected file
         setFiscalNoteHtml('');
-        
+
         // Refresh the fiscal note files list
         const updatedFiles = await getFiscalNoteFiles();
         setFiscalNoteFiles(updatedFiles as { name: string; status: string }[]);
-        
+
       }
     } catch (error) {
       console.error('Error deleting fiscal note:', error);
@@ -226,7 +228,7 @@ const FiscalNoteGeneration = () => {
         <div className="p-6 border-b border-gray-200">
           <h1 className="text-2xl font-bold text-gray-900">Fiscal Note Generation</h1>
         </div>
-        
+
         <div className="flex-1 p-6 space-y-4">
           {/* Create New Button */}
           <button
@@ -248,7 +250,7 @@ const FiscalNoteGeneration = () => {
               <table className="min-w-full divide-y divide-gray-200">
                 <thead className="bg-gray-50">
                   <tr>
-                  <th className="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    <th className="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                       Status
                     </th>
 
@@ -269,27 +271,30 @@ const FiscalNoteGeneration = () => {
                           {/* Status Button with Tooltip */}
                           <div className="relative group">
                             <button
-                              className={`w-6 h-6 rounded-full flex items-center justify-center text-white text-sm font-bold ${
-                                jobErrors[file.name] 
-                                  ? 'bg-red-500 hover:bg-red-600' 
+                              className={`w-6 h-6 rounded-full flex items-center justify-center text-white text-sm font-bold ${jobErrors[file.name]
+                                  ? 'bg-red-500 hover:bg-red-600'
+                                  : file.status === 'error'
+                                    ? 'bg-red-500 hover:bg-red-600'
                                   : file.status === 'ready'
                                     ? 'bg-green-500 hover:bg-green-600'
                                     : 'bg-yellow-500 hover:bg-yellow-600'
-                              }`}
+                                }`}
                             >
-                              {jobErrors[file.name] ? '!' : file.status === 'ready' ? '✓' : '⧗'}
+                              {jobErrors[file.name] ? '!' : file.status === 'ready' ? '✓' : (file.status === 'error' ? '✗' : '⧗')}
                             </button>
-                            
+
                             {/* Tooltip */}
                             <div className="absolute bottom-full left-1/2 transform -translate-x-2 mb-2 px-2 py-1 text-xs text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-[99999] shadow-lg border border-gray-700">
-                              {jobErrors[file.name] 
-                                ? 'Error - Generation failed' 
+                              {jobErrors[file.name]
+                                ? 'Error - Generation failed'
+                                : file.status === 'error'
+                                  ? 'Error - Generation failed'
                                 : file.status === 'ready'
                                   ? 'Ready - Click to view'
                                   : 'In Progress - ' + (jobProgress[file.name] ? jobProgress[file.name] : '')}
                             </div>
                           </div>
-                          
+
                           {/* Progress message */}
                           {/* {jobProgress[file.name] && (
                             <span className="text-xs text-gray-500 mt-1 max-w-32 truncate">
@@ -303,7 +308,7 @@ const FiscalNoteGeneration = () => {
                       </td>
                       <td className="px-3 py-2 whitespace-nowrap text-sm text-gray-500">
                         <div className="flex items-center space-x-2">
-                                                    
+
                           {/* Delete Button */}
                           <button
                             onClick={() => handleDeleteFile(file.name)}
@@ -353,7 +358,7 @@ const FiscalNoteGeneration = () => {
                 <p className="ml-2">Generating fiscal note...</p>
               </div>
             )}
-            <div 
+            <div
               className="prose max-w-none"
               dangerouslySetInnerHTML={{ __html: fiscalNoteHtml }}
             />
@@ -379,7 +384,7 @@ const FiscalNoteGeneration = () => {
           <div className="bg-white rounded-lg shadow-xl max-w-md w-full mx-4">
             <div className="p-6">
               <h2 className="text-xl font-bold text-gray-900 mb-4">Create New Fiscal Note</h2>
-              
+
               <div className="space-y-4">
                 {/* Bill Type */}
                 <div>
