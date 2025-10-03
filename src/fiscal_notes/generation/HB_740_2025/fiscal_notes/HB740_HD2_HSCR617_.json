@@ -1,4 +1,18 @@
 {
+<<<<<<< HEAD
+  "overview": "The measure was amended to establish legally sufficient standards for the award of grants involving public money, addressing a constitutional issue raised by the Department of the Attorney General. It also clarifies the scope of the conveyance tax exemption for properties with a county-owned deed restriction. The core purpose of creating the Accessory Dwelling Unit Financing and Deed Restriction Program remains unchanged.",
+  "appropriations": "",
+  "assumptions_and_methodology": "The methodology for awarding grants is now governed by specific legal standards inserted into the bill. Counties must use these prescribed criteria to evaluate applications and award funds, adding a formal compliance layer to the process. This ensures grant distribution aligns with constitutional requirements for the use of public money.",
+  "agency_impact": "Counties are now required to administer the grant program according to newly inserted legal standards, which will add a compliance and verification step to their application review process. The Department of Taxation's implementation of the conveyance tax exemption is affected by the clarification of the exemption's scope. This requires updating forms and guidance to reflect the specific types of conveyances that are exempt.",
+  "economic_impact": "",
+  "policy_impact": "This measure has been amended to include specific legal standards for grant awards, resolving a constitutional concern and ensuring a transparent and accountable process for distributing public funds. The scope of the conveyance tax exemption has been clarified, providing greater certainty for homeowners, counties, and the Department of Taxation. These changes strengthen the legal framework of the program without altering its fundamental policy goals.",
+  "revenue_sources": "",
+  "six_year_fiscal_implications": "",
+  "operating_revenue_impact": "The conveyance tax exemption has been clarified, which may affect the projected revenue loss by defining more precisely which transactions qualify. This clarification provides a more certain basis for estimating the fiscal impact. The effective date for this provision is still anticipated to be delayed to allow for administrative adjustments.",
+  "capital_expenditure_impact": "",
+  "fiscal_implications_after_6_years": "",
+  "updates_from_previous_fiscal_note": "The bill has been amended to incorporate specific, legally sufficient standards for the awarding of grants by counties, a change made to address constitutional concerns raised by the Department of the Attorney General. Additionally, the scope and application of the conveyance tax exemption have been clarified to provide greater certainty for implementation."
+=======
   "overview": "To address constitutional concerns raised by the Department of the Attorney General, the measure has been amended to include legally sufficient standards for the award of public grants. This change establishes a formal set of criteria that applicants must meet to receive funding. The program's core function of providing grants for Accessory Dwelling Unit (ADU) construction in exchange for a deed restriction remains the same.",
   "appropriations": "The funding source for the program is specified as the Dwelling Unit Revolving Fund (DURF), not the Rental Housing Revolving Fund as previously noted. The bill authorizes the Hawaii Housing Finance and Development Corporation (HHFDC) to allocate funds from the DURF to the counties. No specific appropriation amount is included in this measure.",
   "assumptions_and_methodology": "The methodology has been updated to incorporate specific legal standards for grant eligibility and awards, as recommended by the Attorney General. Counties will now be required to assess applications against these new, mandated criteria. This ensures compliance with state constitutional requirements for the use of public funds.",
@@ -11,4 +25,5 @@
   "capital_expenditure_impact": "",
   "fiscal_implications_after_6_years": "The program's fiscal obligation is an ongoing, indeterminate draw on the Dwelling Unit Revolving Fund, as the measure does not establish a sunset clause or an annual funding cap. The long-term cost will depend on future participation rates and fund allocations. This differs from the previously noted specific annual cap.",
   "updates_from_previous_fiscal_note": "The primary updates to the measure include the addition of legally-required standards for grant awards to address constitutional concerns raised by the Attorney General. The funding source has been corrected to the Dwelling Unit Revolving Fund (DURF). Additionally, the conveyance tax exemption has been clarified based on input from the Department of Taxation."
+>>>>>>> 70bba9109948ee91112a751bb8a694e54dbab033
 }

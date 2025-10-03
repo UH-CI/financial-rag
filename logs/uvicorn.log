@@ -313,3 +313,1010 @@ INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
 INFO:     ('76.39.15.190', 0) - "WebSocket /ws" [accepted]
 INFO:     connection open
 INFO:     connection closed
+INFO:     connection closed
+INFO:     ('76.39.15.190', 0) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     ('174.202.5.149', 0) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     ('174.202.5.149', 0) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     connection closed
+Loading data from ./bill_data/introduction_document_vectors.json...
+Loaded 4053 documents
+TF-IDF vectors shape: (4053, 5000)
+Embeddings shape: (4053, 768)
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
+🔌 WebSocket connection attempt from Address(host='76.39.15.190', port=0)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket disconnected from Address(host='76.39.15.190', port=0)
+🔌 WebSocket connection attempt from Address(host='76.39.15.190', port=0)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket connection attempt from Address(host='174.202.5.149', port=0)
+✅ WebSocket connected. Total connections: 2
+🔌 WebSocket connection attempt from Address(host='174.202.5.149', port=0)
+✅ WebSocket connected. Total connections: 3
+🔌 WebSocket disconnected from Address(host='174.202.5.149', port=0)
+🔌 WebSocket disconnected from Address(host='174.202.5.149', port=0)
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_740_2025
+Directory: SB_260_2025
+Directory: HB_1169_2025
+Directory: HB_400_2025
+Directory: HB_47_2025
+Directory: HB_990_2025
+Directory: HB_934_2025
+Directory: HB_441_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: HB_1483_2025
+Directory: HB_2_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Found collection: bills
+INFO:     76.39.15.190:0 - "GET /collections HTTP/1.0" 200 OK
+INFO:     ('76.39.15.190', 0) - "WebSocket /ws" [accepted]
+INFO:     connection open
+Before checking if fiscal notes path exists /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025
+Fiscal notes path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025
+INFO:     76.39.15.190:0 - "POST /delete_fiscal_note?bill_type=HB&bill_number=740&year=2025 HTTP/1.0" 200 OK
+Loading data from ./bill_data/introduction_document_vectors.json...
+Loaded 4053 documents
+TF-IDF vectors shape: (4053, 5000)
+Embeddings shape: (4053, 768)
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: SB_260_2025
+Directory: HB_1169_2025
+Directory: HB_400_2025
+Directory: HB_47_2025
+Directory: HB_990_2025
+Directory: HB_934_2025
+Directory: HB_441_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: HB_1483_2025
+Directory: HB_2_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+INFO:     76.39.15.190:0 - "POST /generate-fiscal-note?bill_type=HB&bill_number=740&year=2025 HTTP/1.0" 200 OK
+2025-10-02 01:18:33,101 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-10-02 01:18:34,628 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+INFO:     ('76.39.15.190', 0) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+Loading data from ./bill_data/introduction_document_vectors.json...
+Loaded 4053 documents
+TF-IDF vectors shape: (4053, 5000)
+Embeddings shape: (4053, 768)
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
+Found collection: bills
+INFO:     76.39.15.190:0 - "GET /collections HTTP/1.0" 200 OK
+Loading data from ./bill_data/introduction_document_vectors.json...
+Loaded 4053 documents
+TF-IDF vectors shape: (4053, 5000)
+Embeddings shape: (4053, 768)
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
+🔌 WebSocket connection attempt from Address(host='76.39.15.190', port=0)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket disconnected from Address(host='76.39.15.190', port=0)
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_740_2025
+Directory: SB_260_2025
+Directory: HB_1169_2025
+Directory: HB_400_2025
+Directory: HB_47_2025
+Directory: HB_990_2025
+Directory: HB_934_2025
+Directory: HB_441_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: HB_1483_2025
+Directory: HB_2_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+2025-10-02 01:19:07,867 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-10-02 01:19:09,833 - INFO - AFC is enabled with max remote calls: 10.
+INFO:     ('162.221.246.39', 0) - "WebSocket /ws" [accepted]
+INFO:     connection open
+Loading data from ./bill_data/introduction_document_vectors.json...
+Loaded 4053 documents
+TF-IDF vectors shape: (4053, 5000)
+Embeddings shape: (4053, 768)
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_740_2025
+Directory: SB_260_2025
+Directory: HB_1169_2025
+Directory: HB_400_2025
+Directory: HB_47_2025
+Directory: HB_990_2025
+Directory: HB_934_2025
+Directory: HB_441_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: HB_1483_2025
+Directory: HB_2_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     162.221.246.39:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Found collection: bills
+INFO:     162.221.246.39:0 - "GET /collections HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_727_2025/HB_727_2025_chronological.json
+File: HB727.json
+File found: HB727.json
+File: HB727_TESTIMONY_JHA_01-30-25_.json
+File: HB727_HD1.json
+File: HB727_HD1_HSCR624_.json
+File found: HB727_HD1_HSCR624_.json
+File: HB727_HD1_TESTIMONY_FIN_02-25-25_.json
+File: HB727_HD1_HSCR1142_.json
+File found: HB727_HD1_HSCR1142_.json
+File: HB727_HD1_TESTIMONY_JDC_03-19-25_.json
+File: HB727_SD1.json
+File: HB727_SD1_SSCR1240_.json
+File found: HB727_SD1_SSCR1240_.json
+File: HB727_SD1_TESTIMONY_WAM_03-31-25_.json
+File: HB727_SD2.json
+File: HB727_SD2_SSCR1531_.json
+File found: HB727_SD2_SSCR1531_.json
+File: HB727_CD1.json
+File: HB727_CD1_CCR58_.json
+File found: HB727_CD1_CCR58_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=727&year=2025 HTTP/1.0" 200 OK
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=SB&bill_number=260&year=2025 HTTP/1.0" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/api.py", line 1277, in get_fiscal_note
+    with open(chronological_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/exouser/RAG-system/src/fiscal_notes/generation/SB_260_2025/SB_260_2025_chronological.json'
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_727_2025/HB_727_2025_chronological.json
+File: HB727.json
+File found: HB727.json
+File: HB727_TESTIMONY_JHA_01-30-25_.json
+File: HB727_HD1.json
+File: HB727_HD1_HSCR624_.json
+File found: HB727_HD1_HSCR624_.json
+File: HB727_HD1_TESTIMONY_FIN_02-25-25_.json
+File: HB727_HD1_HSCR1142_.json
+File found: HB727_HD1_HSCR1142_.json
+File: HB727_HD1_TESTIMONY_JDC_03-19-25_.json
+File: HB727_SD1.json
+File: HB727_SD1_SSCR1240_.json
+File found: HB727_SD1_SSCR1240_.json
+File: HB727_SD1_TESTIMONY_WAM_03-31-25_.json
+File: HB727_SD2.json
+File: HB727_SD2_SSCR1531_.json
+File found: HB727_SD2_SSCR1531_.json
+File: HB727_CD1.json
+File: HB727_CD1_CCR58_.json
+File found: HB727_CD1_CCR58_.json
+INFO:     162.221.246.39:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=727&year=2025 HTTP/1.0" 200 OK
+2025-10-02 01:20:56,576 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-10-02 01:20:56,580 - INFO - AFC remote call 1 is done.
+Loading data from ./bill_data/introduction_document_vectors.json...
+Loaded 4053 documents
+TF-IDF vectors shape: (4053, 5000)
+Embeddings shape: (4053, 768)
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
+Found collection: bills
+INFO:     76.39.15.190:0 - "GET /collections HTTP/1.0" 200 OK
+INFO:     connection closed
+INFO:     ('76.39.15.190', 0) - "WebSocket /ws" [accepted]
+INFO:     connection open
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_740_2025
+Directory: SB_260_2025
+Directory: HB_1169_2025
+Directory: HB_400_2025
+Directory: HB_47_2025
+Directory: HB_990_2025
+Directory: HB_934_2025
+Directory: HB_441_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: HB_1483_2025
+Directory: HB_2_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/HB_740_2025_chronological.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=740&year=2025 HTTP/1.0" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/api.py", line 1280, in get_fiscal_note
+    files = os.listdir(fiscal_notes_path)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/fiscal_notes'
+2025-10-02 01:23:12,642 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-10-02 01:23:14,142 - INFO - patching driver executable /home/exouser/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-10-02 01:24:34,878 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-10-02 01:24:34,945 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-02 01:25:06,930 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-10-02 01:25:06,931 - INFO - AFC remote call 1 is done.
+2025-10-02 01:25:06,934 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-10-02 01:25:07,000 - INFO - AFC is enabled with max remote calls: 10.
+Found collection: bills
+INFO:     76.39.15.190:0 - "GET /collections HTTP/1.0" 200 OK
+INFO:     connection closed
+INFO:     ('76.39.15.190', 0) - "WebSocket /ws" [accepted]
+INFO:     connection open
+Loading data from ./bill_data/introduction_document_vectors.json...
+Loaded 4053 documents
+TF-IDF vectors shape: (4053, 5000)
+Embeddings shape: (4053, 768)
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_740_2025
+Directory: SB_260_2025
+Directory: HB_1169_2025
+Directory: HB_400_2025
+Directory: HB_47_2025
+Directory: HB_990_2025
+Directory: HB_934_2025
+Directory: HB_441_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: HB_1483_2025
+Directory: HB_2_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+2025-10-02 01:25:40,907 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-10-02 01:25:40,908 - INFO - AFC remote call 1 is done.
+Starting fiscal note generation for HB_740_2025
+Entering fetch_documents
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+#0 0x5ff9f1cb033a <unknown>
+#1 0x5ff9f172e6e6 <unknown>
+#2 0x5ff9f175babc <unknown>
+#3 0x5ff9f175d215 <unknown>
+#4 0x5ff9f1757f78 <unknown>
+#5 0x5ff9f17b3118 <unknown>
+#6 0x5ff9f17b2a30 <unknown>
+#7 0x5ff9f17b4652 <unknown>
+#8 0x5ff9f17b4426 <unknown>
+#9 0x5ff9f17a65b3 <unknown>
+#10 0x5ff9f1772cc2 <unknown>
+#11 0x5ff9f1773981 <unknown>
+#12 0x5ff9f1c72ba8 <unknown>
+#13 0x5ff9f1c76a17 <unknown>
+#14 0x5ff9f1c5a0c9 <unknown>
+#15 0x5ff9f1c775c5 <unknown>
+#16 0x5ff9f1c3f90f <unknown>
+#17 0x5ff9f1c9c898 <unknown>
+#18 0x5ff9f1c9ca73 <unknown>
+#19 0x5ff9f1caf2d3 <unknown>
+#20 0x749cb4a9caa4 <unknown>
+#21 0x749cb4b29c6c <unknown>
+
+Page loaded successfully. First 500 chars: <html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete" data-uw-w-loader="" data-uw-rm-lang="false"><head id="Head1"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="content-type" content="text/html;charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></scri
+✅ Timeline data saved to /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/HB_740_2025_timeline.json
+Exiting fetch_documents
+🚀 Initializing Chrome driver for document retrieval...
+Error creating stealth driver with full options: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: useAutomationExtension
+Stacktrace:
+#0 0x63c3fb43033a <unknown>
+#1 0x63c3faeae6e6 <unknown>
+#2 0x63c3faedbabc <unknown>
+#3 0x63c3faedd215 <unknown>
+#4 0x63c3faed7f78 <unknown>
+#5 0x63c3faf33118 <unknown>
+#6 0x63c3faf32a30 <unknown>
+#7 0x63c3faf34652 <unknown>
+#8 0x63c3faf34426 <unknown>
+#9 0x63c3faf265b3 <unknown>
+#10 0x63c3faef2cc2 <unknown>
+#11 0x63c3faef3981 <unknown>
+#12 0x63c3fb3f2ba8 <unknown>
+#13 0x63c3fb3f6a17 <unknown>
+#14 0x63c3fb3da0c9 <unknown>
+#15 0x63c3fb3f75c5 <unknown>
+#16 0x63c3fb3bf90f <unknown>
+#17 0x63c3fb41c898 <unknown>
+#18 0x63c3fb41ca73 <unknown>
+#19 0x63c3fb42f2d3 <unknown>
+#20 0x76b6d389caa4 <unknown>
+#21 0x76b6d3929c6c <unknown>
+
+✅ Chrome driver initialized successfully
+Processing document 1/15: HB740
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB740_.HTM
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents/HB740_.HTM.txt
+Processing document 2/15: HB740_TESTIMONY_HSG_01-29-25_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB740_TESTIMONY_HSG_01-29-25_.PDF
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents/HB740_TESTIMONY_HSG_01-29-25_.PDF.txt
+Processing document 3/15: HB740_HD1
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB740_HD1_.HTM
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents/HB740_HD1_.HTM.txt
+Processing document 4/15: HB740_HD1_HSCR53_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB740_HD1_HSCR53_.htm
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents/HB740_HD1_HSCR53_.htm.txt
+Processing document 5/15: HB740_HD1_TESTIMONY_JHA_02-06-25_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB740_HD1_TESTIMONY_JHA_02-06-25_.PDF
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents/HB740_HD1_TESTIMONY_JHA_02-06-25_.PDF.txt
+Processing document 6/15: HB740_HD2
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB740_HD2_.HTM
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents/HB740_HD2_.HTM.txt
+Processing document 7/15: HB740_HD2_HSCR617_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB740_HD2_HSCR617_.htm
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents/HB740_HD2_HSCR617_.htm.txt
+Processing document 8/15: HB740_HD2_TESTIMONY_FIN_02-25-25_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents/HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt
+Processing document 9/15: HB740_HD2_HSCR1128_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB740_HD2_HSCR1128_.htm
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents/HB740_HD2_HSCR1128_.htm.txt
+Processing document 10/15: HB740_HD2_TESTIMONY_HOU_03-11-25_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB740_HD2_TESTIMONY_HOU_03-11-25_.PDF
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents/HB740_HD2_TESTIMONY_HOU_03-11-25_.PDF.txt
+Processing document 11/15: HB740_SD1
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB740_SD1_.HTM
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents/HB740_SD1_.HTM.txt
+Processing document 12/15: HB740_SD1_SSCR1179_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB740_SD1_SSCR1179_.htm
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents/HB740_SD1_SSCR1179_.htm.txt
+Processing document 13/15: HB740_SD1_TESTIMONY_WAM_03-31-25_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/Testimony/HB740_SD1_TESTIMONY_WAM_03-31-25_.PDF
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents/HB740_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt
+Processing document 14/15: HB740_SD2
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB740_SD2_.HTM
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents/HB740_SD2_.HTM.txt
+Processing document 15/15: HB740_SD2_SSCR1659_
+Page loaded successfully for: https://www.capitol.hawaii.gov/sessions/session2025/CommReports/HB740_SD2_SSCR1659_.htm
+✅ Saved text: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents/HB740_SD2_SSCR1659_.htm.txt
+✅ All documents retrieved and saved to: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/documents
+📋 Retrieval log saved to: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/retrieval_log.json
+🔄 Cleaning up Chrome driver...
+✅ Chrome driver closed successfully
+✅ Temporary download directory cleaned up
+Processing document 1/15: HB740, text: HB740
+HOUSE OF REPRESENTATIVES
+H.B. NO.
+740
+THIRTY-THIRD LEGISLATURE, 2025
+STATE OF HAWAII
+A BILL FO
+📋 Generating fiscal note for bill introduction: HB740
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/fiscal_notes/HB740.json
+Processing document 2/15: HB740_TESTIMONY_HSG_01-29-25_, text:  
+ 
+ 
+ 
+JOSH GREEN M.D. 
+GOVERNOR 
+ 
+SYLVIA LUKE 
+LT. GOVERNOR 
+STATE OF HAWAI‘I 
+DEPARTMENT OF TAXA
+Processing document 3/15: HB740_HD1, text: HSCR53
+STAND.
+COM. REP. NO.
+53
+Honolulu, Hawaii
+,
+2025
+RE:
+H.B. No. 740
+H.D.
+1
+Honorable Nadine K. N
+Processing document 4/15: HB740_HD1_HSCR53_, text: HSCR53
+STAND.
+COM. REP. NO.
+53
+Honolulu, Hawaii
+,
+2025
+RE:
+H.B. No. 740
+H.D.
+1
+Honorable Nadine K. N
+📋 Generating fiscal note for committee report: HB740_HD1_HSCR53_
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/fiscal_notes/HB740_HD1_HSCR53_.json
+2025-10-02 01:25:40,911 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-10-02 01:25:40,977 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-02 01:26:09,399 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-10-02 01:26:09,401 - INFO - AFC remote call 1 is done.
+2025-10-02 01:26:09,403 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-10-02 01:26:09,470 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-02 01:27:02,956 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-10-02 01:27:02,957 - INFO - AFC remote call 1 is done.
+2025-10-02 01:27:02,960 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-10-02 01:27:03,026 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-02 01:27:51,823 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-10-02 01:27:51,825 - INFO - AFC remote call 1 is done.
+2025-10-02 01:27:51,828 - WARNING - Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+2025-10-02 01:27:51,894 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-02 01:28:23,970 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-10-02 01:28:23,971 - INFO - AFC remote call 1 is done.
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_740_2025
+Directory: SB_260_2025
+Directory: HB_1169_2025
+Directory: HB_400_2025
+Directory: HB_47_2025
+Directory: HB_990_2025
+Directory: HB_934_2025
+Directory: HB_441_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: HB_1483_2025
+Directory: HB_2_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_740_2025
+Directory: SB_260_2025
+Directory: HB_1169_2025
+Directory: HB_400_2025
+Directory: HB_47_2025
+Directory: HB_990_2025
+Directory: HB_934_2025
+Directory: HB_441_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: HB_1483_2025
+Directory: HB_2_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     162.221.246.39:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_740_2025
+Directory: SB_260_2025
+Directory: HB_1169_2025
+Directory: HB_400_2025
+Directory: HB_47_2025
+Directory: HB_990_2025
+Directory: HB_934_2025
+Directory: HB_441_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: HB_1483_2025
+Directory: HB_2_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+INFO:     ('76.39.15.190', 0) - "WebSocket /ws" [accepted]
+INFO:     connection open
+Loading data from ./bill_data/introduction_document_vectors.json...
+Loaded 4053 documents
+TF-IDF vectors shape: (4053, 5000)
+Embeddings shape: (4053, 768)
+✅ Retrieved existing collection: bills
+✅ NLP Backend initialized successfully
+✅ LangGraph RAG Agent initialized successfully
+✅ Redis connected for multi-worker job tracking
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_740_2025
+Directory: SB_260_2025
+Directory: HB_1169_2025
+Directory: HB_400_2025
+Directory: HB_47_2025
+Directory: HB_990_2025
+Directory: HB_934_2025
+Directory: HB_441_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: HB_1483_2025
+Directory: HB_2_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+Found collection: bills
+INFO:     76.39.15.190:0 - "GET /collections HTTP/1.0" 200 OK
+INFO:     connection closed
+Found collection: bills
+INFO:     76.39.15.190:0 - "GET /collections HTTP/1.0" 200 OK
+INFO:     connection closed
+Directory: HB_727_2025
+Directory: HB_431_2025
+Directory: HB_300_2025
+Directory: HB_740_2025
+Directory: SB_260_2025
+Directory: HB_1169_2025
+Directory: HB_400_2025
+Directory: HB_47_2025
+Directory: HB_990_2025
+Directory: HB_934_2025
+Directory: HB_441_2025
+Directory: HB_302_2025
+Directory: HB_70_2025
+Directory: HB_1483_2025
+Directory: HB_2_2025
+Directory: SB_933_2025
+Directory: HB_72_2025
+Directory: HB_3_2025
+INFO:     76.39.15.190:0 - "GET /get_fiscal_note_files HTTP/1.0" 200 OK
+INFO:     ('76.39.15.190', 0) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=SB&bill_number=260&year=2025 HTTP/1.0" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/api.py", line 1277, in get_fiscal_note
+    with open(chronological_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/exouser/RAG-system/src/fiscal_notes/generation/SB_260_2025/SB_260_2025_chronological.json'
+Processing document 5/15: HB740_HD1_TESTIMONY_JHA_02-06-25_, text:  
+ 
+ 
+ 
+ 
+ 
+ 
+JOSH GREEN, M.D. 
+GOVERNOR 
+ 
+SYLVIA LUKE 
+LT. GOVERNOR 
+ 
+ 
+ 
+ 
+ 
+DEAN MINAKAMI 
+EXEC
+Processing document 6/15: HB740_HD2, text: HSCR617
+STAND.
+COM. REP. NO.
+617
+Honolulu, Hawaii
+,
+2025
+RE:
+H.B. No. 740
+H.D.
+2
+Honorable Nadine K.
+Processing document 7/15: HB740_HD2_HSCR617_, text: HSCR617
+STAND.
+COM. REP. NO.
+617
+Honolulu, Hawaii
+,
+2025
+RE:
+H.B. No. 740
+H.D.
+2
+Honorable Nadine K.
+📋 Generating fiscal note for committee report: HB740_HD2_HSCR617_
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/fiscal_notes/HB740_HD2_HSCR617_.json
+Processing document 8/15: HB740_HD2_TESTIMONY_FIN_02-25-25_, text:  
+ 
+ 
+ 
+ 
+ 
+ 
+JOSH GREEN, M.D. 
+GOVERNOR 
+ 
+SYLVIA LUKE 
+LT. GOVERNOR 
+ 
+ 
+ 
+ 
+ 
+DEAN MINAKAMI 
+EXEC
+Processing document 9/15: HB740_HD2_HSCR1128_, text: HSCR1128
+STAND.
+COM. REP. NO.
+1128
+Honolulu, Hawaii
+,
+2025
+RE:
+H.B. No. 740
+H.D.
+2
+Honorable Nadine 
+📋 Generating fiscal note for committee report: HB740_HD2_HSCR1128_
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/fiscal_notes/HB740_HD2_HSCR1128_.json
+Processing document 10/15: HB740_HD2_TESTIMONY_HOU_03-11-25_, text:  
+ 
+ 
+ 
+ 
+ 
+ 
+JOSH GREEN, M.D. 
+GOVERNOR 
+ 
+SYLVIA LUKE 
+LT. GOVERNOR 
+ 
+ 
+ 
+ 
+ 
+DEAN MINAKAMI 
+EXEC
+Processing document 11/15: HB740_SD1, text: SSCR1179
+STAND. COM. REP. NO.
+1179
+Honolulu,
+Hawaii
+RE:
+H.B. No. 740
+H.D. 2
+S.D. 1
+Honorable Ronald 
+Processing document 12/15: HB740_SD1_SSCR1179_, text: SSCR1179
+STAND. COM. REP. NO.
+1179
+Honolulu,
+Hawaii
+RE:
+H.B. No. 740
+H.D. 2
+S.D. 1
+Honorable Ronald 
+📋 Generating fiscal note for committee report: HB740_SD1_SSCR1179_
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/fiscal_notes/HB740_SD1_SSCR1179_.json
+Processing document 13/15: HB740_SD1_TESTIMONY_WAM_03-31-25_, text:  
+ 
+ 
+ 
+ 
+ 
+ 
+JOSH GREEN, M.D. 
+GOVERNOR 
+ 
+SYLVIA LUKE 
+LT. GOVERNOR 
+ 
+ 
+ 
+ 
+ 
+DEAN MINAKAMI 
+EXEC
+Processing document 14/15: HB740_SD2, text: HB740 SD2
+HOUSE OF REPRESENTATIVES
+H.B. NO.
+740
+THIRTY-THIRD LEGISLATURE, 2025
+H.D. 2
+STATE OF HAWAI
+Processing document 15/15: HB740_SD2_SSCR1659_, text: SSCR1659
+STAND. COM. REP. NO.
+1659
+Honolulu,
+Hawaii
+RE:
+H.B. No. 740
+H.D. 2
+S.D. 2
+Honorable Ronald 
+📋 Generating fiscal note for committee report: HB740_SD2_SSCR1659_
+✅ Fiscal note saved: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/fiscal_notes/HB740_SD2_SSCR1659_.json
+✅ Fiscal notes generated and saved to: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/fiscal_notes
+Fiscal note generation completed for HB_740_2025
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=1169&year=2025 HTTP/1.0" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/myenv/lib/python3.12/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/exouser/RAG-system/src/api.py", line 1277, in get_fiscal_note
+    with open(chronological_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/exouser/RAG-system/src/fiscal_notes/generation/HB_1169_2025/HB_1169_2025_chronological.json'
+🔌 WebSocket connection attempt from Address(host='76.39.15.190', port=0)
+✅ WebSocket connected. Total connections: 1
+Chronological path: /home/exouser/RAG-system/src/fiscal_notes/generation/HB_740_2025/HB_740_2025_chronological.json
+File: HB740.json
+File found: HB740.json
+File: HB740_TESTIMONY_HSG_01-29-25_.json
+File: HB740_HD1.json
+File: HB740_HD1_HSCR53_.json
+File found: HB740_HD1_HSCR53_.json
+File: HB740_HD1_TESTIMONY_JHA_02-06-25_.json
+File: HB740_HD2.json
+File: HB740_HD2_HSCR617_.json
+File found: HB740_HD2_HSCR617_.json
+File: HB740_HD2_TESTIMONY_FIN_02-25-25_.json
+File: HB740_HD2_HSCR1128_.json
+File found: HB740_HD2_HSCR1128_.json
+File: HB740_HD2_TESTIMONY_HOU_03-11-25_.json
+File: HB740_SD1.json
+File: HB740_SD1_SSCR1179_.json
+File found: HB740_SD1_SSCR1179_.json
+File: HB740_SD1_TESTIMONY_WAM_03-31-25_.json
+File: HB740_SD2.json
+File: HB740_SD2_SSCR1659_.json
+File found: HB740_SD2_SSCR1659_.json
+INFO:     76.39.15.190:0 - "POST /get_fiscal_note?bill_type=HB&bill_number=740&year=2025 HTTP/1.0" 200 OK
+INFO:     Shutting down
+INFO:     connection closed
+INFO:     Shutting down
+INFO:     Shutting down
+INFO:     Shutting down
+INFO:     Shutting down
+INFO:     connection closed
+INFO:     Shutting down
+INFO:     Shutting down
+INFO:     Shutting down
+INFO:     Shutting down
+INFO:     Shutting down
+INFO:     Shutting down
+INFO:     Shutting down
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1937697]
+🔌 WebSocket disconnected from Address(host='76.39.15.190', port=0)
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1937706]
+🔌 WebSocket connection attempt from Address(host='76.39.15.190', port=0)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket disconnected from Address(host='76.39.15.190', port=0)
+🔌 WebSocket connection attempt from Address(host='76.39.15.190', port=0)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket disconnected from Address(host='76.39.15.190', port=0)
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1937709]
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Waiting for application shutdown.
+INFO:     Finished server process [1937705]
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1937707]
+🔌 WebSocket connection attempt from Address(host='76.39.15.190', port=0)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket disconnected from Address(host='76.39.15.190', port=0)
+🔌 WebSocket connection attempt from Address(host='76.39.15.190', port=0)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket disconnected from Address(host='76.39.15.190', port=0)
+🔌 WebSocket connection attempt from Address(host='76.39.15.190', port=0)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket disconnected from Address(host='76.39.15.190', port=0)
+🔌 WebSocket connection attempt from Address(host='76.39.15.190', port=0)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket disconnected from Address(host='76.39.15.190', port=0)
+🔌 WebSocket connection attempt from Address(host='162.221.246.39', port=0)
+✅ WebSocket connected. Total connections: 1
+🔌 WebSocket disconnected from Address(host='162.221.246.39', port=0)
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1937702]
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1937695]
+INFO:     Waiting for application shutdown.
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1937699]
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1937696]
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1937698]
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1937708]
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1937703]
+🔌 WebSocket disconnected from Address(host='76.39.15.190', port=0)
