@@ -1252,6 +1252,56 @@ async def get_fiscal_note_files():
                     dirs.append({"name": file, "status": "error"})
     return dirs
 
+def process_fiscal_note_references(fiscal_note_data, document_mapping):
+    """
+    Process fiscal note data to replace filename references with numbered references.
+    """
+    import re
+    
+    def replace_filename_with_number(text):
+        if not isinstance(text, str):
+            return text
+        
+        # Pattern to match any content in parentheses that looks like a document reference
+        pattern = r'\(([^)]+)\)'
+        
+        def replacement(match):
+            content = match.group(1)
+            
+            # Look for the content in the document mapping (exact match first)
+            for doc_name, doc_number in document_mapping.items():
+                if doc_name == content:
+                    return f'<span class="doc-reference" data-tooltip="{content}" title="{content}">[{doc_number}]</span>'
+            
+            # Try partial matches - check if content contains any document name
+            for doc_name, doc_number in document_mapping.items():
+                if doc_name in content or content in doc_name:
+                    return f'<span class="doc-reference" data-tooltip="{content}" title="{content}">[{doc_number}]</span>'
+            
+            # If not found, return original
+            return match.group(0)
+        
+        return re.sub(pattern, replacement, text)
+    
+    # Process all string values in the fiscal note data
+    processed_data = {}
+    for key, value in fiscal_note_data.items():
+        if isinstance(value, str):
+            processed_data[key] = replace_filename_with_number(value)
+        elif isinstance(value, dict):
+            processed_data[key] = process_fiscal_note_references(value, document_mapping)
+        elif isinstance(value, list):
+            processed_data[key] = [
+                process_fiscal_note_references(item, document_mapping) if isinstance(item, dict)
+                else replace_filename_with_number(item) if isinstance(item, str)
+                else item
+                for item in value
+            ]
+        else:
+            processed_data[key] = value
+    
+    return processed_data
+
 @app.post("/get_fiscal_note")
 async def get_fiscal_note(request: Request, bill_type: Bill_type_options, bill_number: str, year: Year_options = Year_options.YEAR_2025):
     bill_type = bill_type
@@ -1274,19 +1324,52 @@ async def get_fiscal_note(request: Request, bill_type: Bill_type_options, bill_n
     
     # get jsons in fiscal_notes_path
     fiscal_notes = []
+    
+    # Create or load document mapping: filename -> number
+    base_dir = os.path.dirname(chronological_path)
+    mapping_file = os.path.join(base_dir, "document_mapping.json")
+    
+    # Try to load existing mapping
+    document_mapping = {}
+    if os.path.exists(mapping_file):
+        try:
+            with open(mapping_file, 'r') as f:
+                document_mapping = json.load(f)
+            print(f"Loaded existing document mapping with {len(document_mapping)} documents")
+        except Exception as e:
+            print(f"Error loading document mapping: {e}")
 
     with open(chronological_path, 'r') as f:
         print(f"Chronological path: {chronological_path}")
         chronological = json.load(f)
         files = os.listdir(fiscal_notes_path)
+        
+        # Create mapping of document names to numbers (if not already loaded)
+        if not document_mapping:
+            for index, file in enumerate(chronological, 1):
+                document_mapping[file['name']] = index
+            
+            # Save the mapping for future use
+            try:
+                with open(mapping_file, 'w') as f:
+                    json.dump(document_mapping, f, indent=2)
+                print(f"Saved document mapping to {mapping_file}")
+            except Exception as e:
+                print(f"Error saving document mapping: {e}")
+        
         for file in chronological:
             print(f"File: {file['name'] + '.json'}")
             if file['name'] + '.json' in files: 
                 print(f"File found: {file['name'] + '.json'}")
                 with open(os.path.join(fiscal_notes_path, file['name'] + '.json'), 'r') as f:
+                    fiscal_note_data = json.load(f)
+                    
+                    # Process fiscal note data to replace filenames with numbered references
+                    processed_data = process_fiscal_note_references(fiscal_note_data, document_mapping)
+                    
                     fiscal_notes.append({
                         'filename': file['name'],
-                        'data': json.load(f)
+                        'data': processed_data
                     })
 
     with open(timeline_path, 'r') as f:
@@ -1298,7 +1381,8 @@ async def get_fiscal_note(request: Request, bill_type: Bill_type_options, bill_n
         {
             "request": request,
             "fiscal_notes": fiscal_notes,
-            "timeline": timeline
+            "timeline": timeline,
+            "document_mapping": document_mapping
         }
     )
 
@@ -1398,7 +1482,7 @@ async def generate_fiscal_note(request: Request, bill_type: Bill_type_options, b
         # Count active jobs in memory
         active_jobs = len(jobs)
     
-    MAX_CONCURRENT_FISCAL_NOTES = 1
+    MAX_CONCURRENT_FISCAL_NOTES = 4  # Allow 4 concurrent jobs across workers
     if active_jobs >= MAX_CONCURRENT_FISCAL_NOTES:
         return {
             "message": f"Only {MAX_CONCURRENT_FISCAL_NOTES} fiscal notes can be generated at the same time. Currently {active_jobs} jobs are running. Please try again later.",

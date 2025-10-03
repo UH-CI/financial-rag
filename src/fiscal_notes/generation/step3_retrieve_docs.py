@@ -13,7 +13,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, WebDriverException
 
-def create_stealth_driver(download_dir=None):
+def create_stealth_driver(download_dir=None, port=None):
     """
     Create a more stealth-oriented Chrome driver to bypass Cloudflare bot detection.
     """
@@ -54,9 +54,13 @@ def create_stealth_driver(download_dir=None):
     # Additional experimental options to avoid detection (removed excludeSwitches due to compatibility issues)
     options.add_experimental_option('useAutomationExtension', False)
     
+    # Add unique port if specified to avoid conflicts
+    if port:
+        options.add_argument(f'--remote-debugging-port={port}')
+    
     try:
         # Create driver with version_main to avoid compatibility issues
-        driver = uc.Chrome(options=options, version_main=None)
+        driver = uc.Chrome(options=options, version_main=None, port=port if port else 0)
         
         # Execute script to remove webdriver property
         driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
@@ -79,13 +83,13 @@ def create_stealth_driver(download_dir=None):
             })
         
         try:
-            driver = uc.Chrome(options=basic_options, version_main=None)
+            driver = uc.Chrome(options=basic_options, version_main=None, port=port if port else 0)
             driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
             return driver
         except Exception as e2:
             print(f"Error creating basic driver: {e2}")
             # Ultimate fallback
-            return uc.Chrome()
+            return uc.Chrome(port=port if port else 0)
 
 def wait_with_random_delay(min_seconds=2, max_seconds=5):
     """Wait with a random delay to appear more human-like."""
@@ -190,8 +194,13 @@ def parse_web_document_selenium(url, output_dir):
     download_dir = tempfile.mkdtemp()
     
     try:
+        # Generate unique port for this document
+        import hashlib
+        url_hash = hashlib.md5(url.encode()).hexdigest()[:8]
+        unique_port = 9222 + int(url_hash, 16) % 1000
+        
         # Use the new stealth driver
-        driver = create_stealth_driver(download_dir)
+        driver = create_stealth_driver(download_dir, port=unique_port)
         result = parse_web_document_selenium_with_driver(url, output_dir, driver, download_dir)
         return result
     finally:
@@ -219,12 +228,17 @@ def retrieve_documents(chronological_json_path: str) -> str:
     # Setup temp download directory for PDFs (shared across all documents)
     download_dir = tempfile.mkdtemp()
     
+    # Generate unique port for this job to avoid conflicts
+    import hashlib
+    job_hash = hashlib.md5(chronological_json_path.encode()).hexdigest()[:8]
+    unique_port = 9222 + int(job_hash, 16) % 1000  # Port range 9222-10222
+    
     # Create a single Chrome driver instance for all documents
-    print("🚀 Initializing Chrome driver for document retrieval...")
+    print(f"🚀 Initializing Chrome driver for document retrieval on port {unique_port}...")
     driver = None
     
     try:
-        driver = create_stealth_driver(download_dir)
+        driver = create_stealth_driver(download_dir, port=unique_port)
         print("✅ Chrome driver initialized successfully")
         
         # Retrieve each document using the shared driver

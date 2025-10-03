@@ -50,7 +50,7 @@ PROPERTY_PROMPTS = {
     "updates_from_previous_fiscal_note" : {"prompt": "If you are given a previous fisacl not. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fisacl note."}
     }
 
-def generate_fiscal_note_for_context(context_text, previous_note=None):
+def generate_fiscal_note_for_context(context_text, numbers_data=None, previous_note=None):
     """
     Generate a full fiscal note (all properties at once) using PROPERTY_PROMPTS.
     If previous_note is provided, instruct the LLM to avoid repeating information.
@@ -61,7 +61,32 @@ def generate_fiscal_note_for_context(context_text, previous_note=None):
     for key, prop in PROPERTY_PROMPTS.items():
         combined_prompt += f"- {key}: {prop['prompt']}\n"
 
+    # Add specific instructions about using numbers
+    combined_prompt += "\n**CRITICAL INSTRUCTIONS FOR FINANCIAL NUMBERS:**\n"
+    combined_prompt += "1. EVERY financial number MUST be immediately followed by its source in parentheses\n"
+    combined_prompt += "2. Use document-type-specific language when citing numbers:\n"
+    combined_prompt += "   - For 'introduction' documents: 'The introduction allocates $X (filename)' or 'The bill appropriates $X (filename)'\n"
+    combined_prompt += "   - For 'testimony' documents: 'The testimony requests $X (filename)' or 'Testimony indicates $X (filename)'\n"
+    combined_prompt += "   - For 'committee_hearing' documents: 'The committee hearing determines $X (filename)' or 'It is decided in the committee hearing that $X (filename)'\n"
+    combined_prompt += "   - For 'document' documents: 'The legislative document specifies $X (filename)'\n"
+    combined_prompt += "3. Do NOT put citations at the end of sentences - put them immediately after each number\n"
+    combined_prompt += "4. Do NOT make up or estimate numbers - only use numbers from the provided financial data\n"
+    combined_prompt += "5. Be VERY SPECIFIC about what each dollar amount is for\n"
+    combined_prompt += "6. Example: 'The introduction allocates $50,000 (HB123.HTM.txt) for staff training and testimony requests $25,000 (HB123_TESTIMONY_EDU.PDF.txt) for equipment.'\n\n"
 
+    # Add numbers data if available
+    if numbers_data:
+        combined_prompt += "**FINANCIAL NUMBERS FOUND IN DOCUMENTS:**\n"
+        for number_item in numbers_data:
+            doc_type_desc = {
+                'introduction': 'Bill introduction',
+                'committee_hearing': 'Committee hearing',
+                'testimony': 'Public testimony',
+                'document': 'Legislative document'
+            }.get(number_item.get('document_type', 'document'), 'Document')
+            
+            combined_prompt += f"- ${number_item['number']:,.2f} from {doc_type_desc} ({number_item['filename']})\n"
+            combined_prompt += f"  Context: {number_item['text'][:200]}...\n\n"
 
     combined_prompt += f"\nContext:\n{context_text}\n"
 
@@ -97,12 +122,21 @@ def generate_fiscal_notes_chronologically(documents, chronological_documents, ou
     Generate fiscal notes sequentially for a list of chronologically ordered documents.
     Each document adds to the cumulative context, but previous fiscal note is given to reduce redundancy.
     
-    documents: list of dicts with {"name": ..., "text": ...}
+    documents: list of dicts with {"name": ..., "text": ...} from retrieved documents
     chronological_documents: list of dicts with {"name": ..., "url": ...} from chronological JSON
     """
     os.makedirs(output_dir, exist_ok=True)
     cumulative_context = ""
     previous_fiscal_note = None
+    processed_documents = []  # Track documents processed so far
+    
+    # Load all numbers data once
+    all_numbers = []
+    try:
+        with open(numbers_file_path, "r") as f:
+            all_numbers = json.load(f)
+    except Exception as e:
+        print(f"Warning: Could not load numbers data: {e}")
     
     # Create a mapping of document names to URLs for committee report detection
     doc_url_map = {doc['name']: doc['url'] for doc in chronological_documents}
@@ -112,14 +146,7 @@ def generate_fiscal_notes_chronologically(documents, chronological_documents, ou
         
         # Append the new document to the cumulative context
         cumulative_context += f"\n\n=== Document: {doc['name']} ===\n{doc['text']}"
-        numbers = None
-        with open(numbers_file_path, "r") as f:
-            numbers = json.load(f)
-
-        if numbers:
-            for number in numbers:
-                if number['filename'] == doc['name'].split('.')[0]:
-                    cumulative_context += f"- {number['text']}: {number['number']}\n"
+        processed_documents.append(doc['name'])  # Track this document as processed
         
         # Check if this document should generate a fiscal note:
         # 1. If it's the first document (bill introduction)
@@ -133,8 +160,27 @@ def generate_fiscal_notes_chronologically(documents, chronological_documents, ou
             print(f"📋 Generating fiscal note for committee report: {doc['name']}")
         
         if should_generate:
+            # Filter numbers data to only include documents processed so far
+            numbers_data = []
+            for number_item in all_numbers:
+                # Check if this number's document has been processed
+                number_doc_name = number_item['filename']
+                # Match against processed document names (handle .txt extension)
+                for processed_doc in processed_documents:
+                    if (number_doc_name == processed_doc or 
+                        number_doc_name == processed_doc + '.txt' or
+                        number_doc_name + '.txt' == processed_doc):
+                        numbers_data.append(number_item)
+                        break
+            
+            print(f"📊 Using {len(numbers_data)} numbers from {len(processed_documents)} processed documents")
+            
             # Generate fiscal note for the current cumulative context
-            fiscal_note, combined_prompt = generate_fiscal_note_for_context(cumulative_context, previous_fiscal_note)
+            fiscal_note, combined_prompt = generate_fiscal_note_for_context(
+                cumulative_context, 
+                numbers_data=numbers_data, 
+                previous_note=previous_fiscal_note
+            )
             # Save to a JSON file (filename = new document name)
             out_path = os.path.join(output_dir, f"{doc['name']}.json")
             with open(out_path, "w", encoding="utf-8") as f:

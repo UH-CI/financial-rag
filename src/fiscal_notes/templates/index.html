@@ -11,7 +11,7 @@
             display: flex;
         }
         #timeline-panel {
-            width: 300px;
+            width: 380px;
             height: 95vh;
             overflow-y: auto;
             padding: 20px;
@@ -23,7 +23,7 @@
             flex-grow: 1;
             padding: 40px;
             overflow-y: auto;
-            margin-left: 340px; /* Same as timeline-panel width */
+            margin-left: 420px; /* Same as timeline-panel width + padding */
 
         }
         .timeline-item {
@@ -80,10 +80,79 @@
         li {
             margin-bottom: 5px;
         }
+        
+        /* Document reference styles */
+        .doc-reference {
+            color: #007bff;
+            cursor: pointer;
+            text-decoration: underline;
+            font-size: inherit;
+            font-weight: normal;
+            position: relative;
+            transition: color 0.2s ease;
+        }
+        
+        .doc-reference:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+        
+        /* Tooltip styles */
+        .tooltip {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #333;
+            color: white;
+            padding: 16px 20px;
+            border-radius: 10px;
+            font-size: 16px;
+            white-space: nowrap;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.1s, visibility 0.1s;
+            margin-bottom: 10px;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.5);
+            max-width: 500px;
+            word-wrap: break-word;
+            white-space: normal;
+            font-weight: 500;
+        }
+        
+        .tooltip::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 5px solid transparent;
+            border-top-color: #333;
+        }
+        .doc-reference:hover .tooltip {
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 0.2s ease, visibility 0.2s ease;
+        }
+        
     </style>
 </head>
 <body>
     <div id="timeline-panel">
+        <!-- Document Reference Key -->
+        {% if document_mapping %}
+        <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px;">
+            <h4 style="margin: 0 0 10px 0; font-size: 14px; color: #495057; border-bottom: 1px solid #dee2e6; padding-bottom: 5px;">Document References</h4>
+            {% for doc_name, doc_number in document_mapping.items() %}
+            <div style="display: flex; align-items: baseline; margin-bottom: 6px; padding: 2px 0;">
+                <span style="color: #007bff; font-size: 12px; margin-right: 8px; min-width: 25px;">[{{ doc_number }}]</span>
+                <span style="color: #495057; font-size: 12px; line-height: 1.3;">{{ doc_name }}</span>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        
         <h3>Timeline</h3>
         {% for item in timeline %}
         <div class="timeline-item">
@@ -96,7 +165,9 @@
             </div>
         </div>
         {% endfor %}
+        
     </div>
+
     <div id="content">
         <h1>Fiscal Notes</h1>
         {% for note in fiscal_notes %}
@@ -112,7 +183,7 @@
                                     {% for sub_key, sub_value in value.items() %}
                                         <li>
                                             <span class="json-key">{{ sub_key.replace('_', ' ') }}:</span>
-                                            <div class="json-value">{{ sub_value }}</div>
+                                            <div class="json-value">{{ sub_value | safe }}</div>
                                         </li>
                                     {% endfor %}
                                 </ul>
@@ -123,7 +194,7 @@
                                     {% endfor %}
                                 </ul>
                             {% else %}
-                                <div class="json-value">{{ value }}</div>
+                                <div class="json-value">{{ value | safe }}</div>
                             {% endif %}
                         </li>
                     {% endfor %}
@@ -140,6 +211,25 @@
             const timelineLinks = document.querySelectorAll('#timeline-panel a');
             const content = document.getElementById('content');
             let lastHighlightedLink = null;
+            
+            // Initialize document reference tooltips
+            initializeDocumentReferences();
+            
+            
+            function initializeDocumentReferences() {
+                const docReferences = document.querySelectorAll('.doc-reference');
+                
+                docReferences.forEach(ref => {
+                    const tooltipText = ref.getAttribute('data-tooltip');
+                    if (tooltipText) {
+                        // Create tooltip element
+                        const tooltip = document.createElement('div');
+                        tooltip.className = 'tooltip';
+                        tooltip.textContent = tooltipText;
+                        ref.appendChild(tooltip);
+                    }
+                });
+            }
 
             function highlightTimelineLink() {
                 let currentNoteId = '';

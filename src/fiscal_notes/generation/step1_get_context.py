@@ -16,7 +16,7 @@ from selenium.common.exceptions import TimeoutException, WebDriverException
 
 from bs4 import BeautifulSoup
 
-def create_stealth_driver(download_dir=None):
+def create_stealth_driver(download_dir=None, port=None):
     """
     Create a more stealth-oriented Chrome driver to bypass Cloudflare bot detection.
     """
@@ -58,9 +58,13 @@ def create_stealth_driver(download_dir=None):
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option('useAutomationExtension', False)
     
+    # Add unique port if specified to avoid conflicts
+    if port:
+        options.add_argument(f'--remote-debugging-port={port}')
+    
     try:
         # Create driver with version_main set to 141 to match the installed Chrome
-        driver = uc.Chrome(options=options, version_main=141)
+        driver = uc.Chrome(options=options, version_main=141, port=port if port else 0)
         
         # Execute script to remove webdriver property
         driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
@@ -85,19 +89,19 @@ def create_stealth_driver(download_dir=None):
             })
         
         try:
-            driver = uc.Chrome(options=basic_options, version_main=141)
+            driver = uc.Chrome(options=basic_options, version_main=141, port=port if port else 0)
             driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
             return driver
         except Exception as e2:
             print(f"Error creating basic driver: {e2}")
             # Ultimate fallback - let undetected-chromedriver auto-detect
             try:
-                driver = uc.Chrome(version_main=141)
+                driver = uc.Chrome(version_main=141, port=port if port else 0)
                 return driver
             except Exception as e3:
                 print(f"Error with version_main=141: {e3}")
                 # Final fallback
-                return uc.Chrome()
+                return uc.Chrome(port=port if port else 0)
 
 def wait_with_random_delay(min_seconds=2, max_seconds=5):
     """Wait with a random delay to appear more human-like."""
@@ -269,8 +273,13 @@ def fetch_documents(measure_url: str) -> str:
     # Setup download directory for PDFs
     download_dir = tempfile.mkdtemp()
 
-    # Use the new stealth driver
-    driver = create_stealth_driver(download_dir)
+    # Generate unique port for this job to avoid conflicts
+    import hashlib
+    job_hash = hashlib.md5(f"{billtype}_{billnumber}_{year}".encode()).hexdigest()[:8]
+    unique_port = 9222 + int(job_hash, 16) % 1000  # Port range 9222-10222
+
+    # Use the new stealth driver with unique port
+    driver = create_stealth_driver(download_dir, port=unique_port)
 
     def load_page_with_retry():
         driver.get(measure_url)
