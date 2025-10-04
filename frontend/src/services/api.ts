@@ -22,7 +22,22 @@ const api = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
+  maxRedirects: 5,
 });
+
+// Add request interceptor for debugging (excluding fiscal note creation which uses fetch)
+api.interceptors.request.use(
+  (config) => {
+    if (!config.url?.includes('generate-fiscal-note')) {
+      console.log(`📡 Outgoing axios request: ${config.method?.toUpperCase()} ${config.url}`, config.params);
+    }
+    return config;
+  },
+  (error) => {
+    console.error('❌ Request interceptor error:', error);
+    return Promise.reject(error);
+  }
+);
 
 // Add response interceptor for error handling
 api.interceptors.response.use(
@@ -89,6 +104,14 @@ export const getFiscalNoteFiles = async (): Promise<{ name: string; status: stri
 };
 
 /**
+ * Get available September fiscal note files (archived)
+ */
+export const getFiscalNoteFilesSeptember = async (): Promise<{ name: string; status: string }[]> => {
+  const response = await api.get('/get_fiscal_note_files_september');
+  return response.data;
+};
+
+/**
  * Create a new fiscal note
  */
 export const createFiscalNote = async (
@@ -96,14 +119,54 @@ export const createFiscalNote = async (
   billNumber: string,
   year: string = '2025'
 ): Promise<{ message: string; job_id?: string, success: boolean }> => {
-  const response = await api.post('/generate-fiscal-note', null, {
-    params: {
-      bill_type: billType,
-      bill_number: billNumber,
-      year: year
+  console.log(`🚀 API: Starting request for ${billType} ${billNumber} ${year}`);
+  
+  const url = new URL('/generate-fiscal-note', API_BASE_URL);
+  url.searchParams.append('bill_type', billType);
+  url.searchParams.append('bill_number', billNumber);
+  url.searchParams.append('year', year);
+  
+  const requestId = `${billType}_${billNumber}_${Date.now()}`;
+  console.log(`📤 API: [${requestId}] Making fetch request to:`, url.toString());
+  
+  try {
+    // Use fetch instead of axios to avoid connection pooling issues
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => {
+      console.log(`⏰ API: [${requestId}] Request timed out after 15 seconds`);
+      controller.abort();
+    }, 15000);
+    
+    console.log(`🌐 API: [${requestId}] About to make fetch request...`);
+    
+    const response = await fetch(url.toString(), {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Request-ID': requestId
+      },
+      signal: controller.signal
+    });
+    
+    clearTimeout(timeoutId);
+    
+    console.log(`✅ API: [${requestId}] Response received:`, response.status, response.statusText);
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status} ${response.statusText}`);
     }
-  });
-  return response.data;
+    
+    console.log(`📥 API: [${requestId}] About to parse JSON response...`);
+    const data = await response.json();
+    console.log(`✅ API: [${requestId}] Response data:`, data);
+    return data;
+  } catch (error: any) {
+    console.error(`❌ API: [${requestId}] Request failed:`, error);
+    if (error.name === 'AbortError') {
+      console.error(`❌ API: [${requestId}] Request was aborted (timeout or manual cancel)`);
+    }
+    throw error;
+  }
 };
 
 /**
@@ -122,6 +185,26 @@ export const getFiscalNote = async (
     },
     responseType: 'text' // Important: expect HTML response
   });
+  return response.data;
+};
+
+/**
+ * Get September fiscal note HTML content (archived)
+ */
+export const getFiscalNoteSeptember = async (
+  billType: 'HB' | 'SB',
+  billNumber: string,
+  year: string = '2025'
+): Promise<string | { message: string }> => {
+  const response = await api.post('/get_fiscal_note_september', null, {
+    params: {
+      bill_type: billType,
+      bill_number: billNumber,
+      year: year
+    },
+    responseType: 'text' // Important: expect HTML response
+  });
+  console.log(response.data)
   return response.data;
 };
 

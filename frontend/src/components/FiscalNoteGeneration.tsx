@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { getFiscalNoteFiles, createFiscalNote, getFiscalNote, deleteFiscalNote } from "../services/api";
+import { getFiscalNoteFiles, createFiscalNote, getFiscalNote, deleteFiscalNote, getFiscalNoteFilesSeptember, getFiscalNoteSeptember } from "../services/api";
 import { Loader2 } from "lucide-react";
 
 interface CreateFiscalNoteForm {
@@ -10,6 +10,7 @@ interface CreateFiscalNoteForm {
 
 const FiscalNoteGeneration = () => {
   const [fiscalNoteFiles, setFiscalNoteFiles] = useState<{ name: string; status: string }[]>([]);
+  const [fiscalNoteFilesSeptember, setFiscalNoteFilesSeptember] = useState<{ name: string; status: string }[]>([]);
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
   const [isCreating, setIsCreating] = useState(false);
   const [fiscalNoteHtml, setFiscalNoteHtml] = useState<string>('');
@@ -22,19 +23,35 @@ const FiscalNoteGeneration = () => {
   const [jobProgress, setJobProgress] = useState<{ [jobId: string]: string }>({});
   const [jobErrors, setJobErrors] = useState<{ [jobId: string]: boolean }>({});
   const [loadingFiscalNote, setLoadingFiscalNote] = useState<boolean>(false);
+  const [isSeptemberExpanded, setIsSeptemberExpanded] = useState<boolean>(false);
+  const [wsConnected, setWsConnected] = useState<boolean>(false);
   const wsRef = useRef<WebSocket | null>(null);
+  const pendingRequestsRef = useRef<Set<string>>(new Set());
+
+  // Move fetch functions outside useEffect so WebSocket can access them
+  const fetchFiscalNoteFiles = async () => {
+    try {
+      const response = await getFiscalNoteFiles();
+      console.log(response);
+      setFiscalNoteFiles(response as { name: string; status: string }[]);
+    } catch (error) {
+      console.error('Error fetching fiscal note files:', error);
+    }
+  }
+
+  const fetchFiscalNoteFilesSeptember = async () => {
+    try {
+      const response = await getFiscalNoteFilesSeptember();
+      console.log('September files:', response);
+      setFiscalNoteFilesSeptember(response as { name: string; status: string }[]);
+    } catch (error) {
+      console.error('Error fetching September fiscal note files:', error);
+    }
+  }
 
   useEffect(() => {
-    const fetchFiscalNoteFiles = async () => {
-      try {
-        const response = await getFiscalNoteFiles();
-        console.log(response);
-        setFiscalNoteFiles(response as { name: string; status: string }[]);
-      } catch (error) {
-        console.error('Error fetching fiscal note files:', error);
-      }
-    }
     fetchFiscalNoteFiles();
+    fetchFiscalNoteFilesSeptember();
 
     // WebSocket connection
     const connectWebSocket = () => {
@@ -53,6 +70,7 @@ const FiscalNoteGeneration = () => {
 
         wsRef.current.onopen = () => {
           console.log('✅ WebSocket connected successfully');
+          setWsConnected(true);
         };
 
         wsRef.current.onmessage = (event) => {
@@ -78,6 +96,7 @@ const FiscalNoteGeneration = () => {
               });
 
               // Refresh the fiscal note files list
+              console.log('🔄 Job completed, refreshing fiscal note files...');
               fetchFiscalNoteFiles();
 
               // Show success notification
@@ -103,15 +122,22 @@ const FiscalNoteGeneration = () => {
 
         wsRef.current.onclose = (event) => {
           console.log('🔌 WebSocket disconnected. Code:', event.code, 'Reason:', event.reason);
-          if (event.code !== 1000) { // Don't reconnect if it was a normal closure
-            console.log('🔄 Attempting to reconnect in 3 seconds...');
-            setTimeout(connectWebSocket, 3000);
+          setWsConnected(false);
+          if (event.code !== 1000 && event.code !== 1001) { // Don't reconnect if it was a normal closure or going away
+            console.log('🔄 Attempting to reconnect in 5 seconds...');
+            setTimeout(() => {
+              // Only reconnect if the component is still mounted
+              if (wsRef.current === null || wsRef.current.readyState === WebSocket.CLOSED) {
+                connectWebSocket();
+              }
+            }, 5000);
           }
         };
 
         wsRef.current.onerror = (error) => {
           console.error('❌ WebSocket error:', error);
           console.log('💡 Make sure the FastAPI server is running with WebSocket support');
+          setWsConnected(false);
         };
       } catch (error) {
         console.error('❌ Failed to create WebSocket connection:', error);
@@ -135,27 +161,76 @@ const FiscalNoteGeneration = () => {
       return;
     }
 
-    setIsCreating(true);
-    try {
-      console.log('🚀 Starting fiscal note creation...');
-      const result = await createFiscalNote(formData.billType, formData.billNumber, formData.year);
-      console.log('✅ Create fiscal note response:', result);
+    // Prevent multiple submissions
+    if (isCreating) {
+      console.log('⚠️ Already creating a fiscal note, please wait...');
+      return;
+    }
 
-      // Close modal immediately after API call succeeds
-      setIsCreateModalOpen(false);
-      setFormData({ billType: 'HB', billNumber: '', year: '2025' });
+    // Check if this fiscal note already exists
+    const jobId = `${formData.billType}_${formData.billNumber}_${formData.year}`;
+    const existingJob = fiscalNoteFiles.find(file => file.name === jobId);
+    if (existingJob) {
+      alert(`A fiscal note for ${formData.billType} ${formData.billNumber} (${formData.year}) already exists or is being generated.`);
+      return;
+    }
+
+    setIsCreating(true);
+    
+    // Store current form data to avoid race conditions
+    const currentFormData = { ...formData };
+    const requestId = `${currentFormData.billType}_${currentFormData.billNumber}_${Date.now()}`;
+    
+    try {
+      console.log(`🚀 [${requestId}] Starting fiscal note creation...`, currentFormData);
+      console.log(`📡 WebSocket connected: ${wsConnected}, WebSocket state: ${wsRef.current?.readyState}`);
+      console.log(`📊 Pending requests: ${Array.from(pendingRequestsRef.current).join(', ')}`);
+      
+      // Track this request
+      pendingRequestsRef.current.add(requestId);
+      
+      const result = await createFiscalNote(
+        currentFormData.billType, 
+        currentFormData.billNumber, 
+        currentFormData.year
+      );
+      
+      // Remove from pending requests
+      pendingRequestsRef.current.delete(requestId);
+      
+      console.log(`✅ [${requestId}] Create fiscal note response:`, result);
 
       if (result.success) {
+        // Add to the list with the job_id first
+        if (result.job_id) {
+          setFiscalNoteFiles(prev => [...prev, { name: result.job_id!, status: 'generating' }]);
+        }
+        
+        // Close modal and reset form immediately
+        setIsCreateModalOpen(false);
+        setFormData({ billType: 'HB', billNumber: '', year: '2025' });
+        
+        // Show success message after UI updates
         alert('Fiscal note generation started! This will take 5-10 minutes to create, depending on how complex the bill is.');
-        setFiscalNoteFiles(prev => [...prev, { name: result.job_id || '', status: 'generating' }]);
       } else {
-        alert(result.message);
+        alert(result.message || 'Failed to start fiscal note generation');
       }
+      
 
-    } catch (error) {
+    } catch (error: any) {
       console.error('❌ Error creating fiscal note:', error);
-      alert('Error creating fiscal note. Please try again.');
+      
+      // More specific error handling
+      if (error.name === 'AbortError') {
+        alert('Request timed out: The server may be busy. Please try again in a moment.');
+      } else if (error.message?.includes('Failed to fetch')) {
+        alert('Connection error: Please check if the server is running and try again.');
+      } else {
+        alert(`Error creating fiscal note: ${error.message || 'Unknown error'}. Please try again.`);
+      }
     } finally {
+      // Always reset the creating state and clean up pending requests
+      pendingRequestsRef.current.delete(requestId);
       setIsCreating(false);
     }
   };
@@ -197,6 +272,43 @@ const FiscalNoteGeneration = () => {
     }
   };
 
+  const handleSelectSeptemberFile = async (fileName: string) => {
+    try {
+      setLoadingFiscalNote(true);
+      // Extract bill type and number from filename (assuming format like "HB_400_2025")
+      const parts = fileName.split('_');
+      if (parts.length >= 2) {
+        const billType = parts[0] as 'HB' | 'SB';
+        const billNumber = parts[1];
+        const year = parts[2] || '2025';
+        setSelectedFiscalNote(fileName);
+        const response = await getFiscalNoteSeptember(billType, billNumber, year);
+
+        // Check if response is a message object (job in progress) or HTML content
+        if (typeof response === 'object' && 'message' in response) {
+          setFiscalNoteHtml(`
+            <div class="text-center p-8">
+              <div class="inline-flex items-center px-4 py-2 font-semibold leading-6 text-sm shadow rounded-md text-blue-500 bg-blue-100">
+                <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-blue-500" fill="none" viewBox="0 0 24 24">
+                  <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                  <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                ${response.message}
+              </div>
+            </div>
+          `);
+        } else {
+          setFiscalNoteHtml(response as string);
+        }
+      }
+    } catch (error) {
+      console.error('Error loading September fiscal note:', error);
+      alert('Error loading September fiscal note. Please try again.');
+    } finally {
+      setLoadingFiscalNote(false);
+    }
+  };
+
   const handleDeleteFile = async (fileName: string) => {
     if (!confirm(`Are you sure you want to delete ${fileName}? This action cannot be undone.`)) {
       return;
@@ -231,10 +343,18 @@ const FiscalNoteGeneration = () => {
       {/* Left Sidebar */}
       <div className="w-80 bg-white shadow-lg border-r border-gray-200 flex flex-col">
         <div className="p-6 border-b border-gray-200">
-          <h1 className="text-2xl font-bold text-gray-900">Fiscal Note Generation</h1>
+          <div className="flex items-center justify-between">
+            <h1 className="text-2xl font-bold text-gray-900">Fiscal Note Generation</h1>
+            <div className="flex items-center space-x-2">
+              <div className={`w-3 h-3 rounded-full ${wsConnected ? 'bg-green-500' : 'bg-red-500'}`}></div>
+              <span className="text-sm text-gray-600">
+                {wsConnected ? 'Connected' : 'Disconnected'}
+              </span>
+            </div>
+          </div>
         </div>
 
-        <div className="flex-1 p-6 space-y-4">
+        <div className="flex-1 p-6 space-y-4 overflow-y-auto pb-32">
           {/* Create New Button */}
           <button
             onClick={() => setIsCreateModalOpen(true)}
@@ -350,6 +470,95 @@ const FiscalNoteGeneration = () => {
               )}
             </div>
           </div>
+
+          {/* September Archive Section */}
+          <div>
+            <div className="flex items-center justify-between mb-2">
+              <label className="block text-sm font-medium text-gray-700">
+                September Archive
+              </label>
+              <button
+                onClick={() => setIsSeptemberExpanded(!isSeptemberExpanded)}
+                className="text-sm text-blue-600 hover:text-blue-800 flex items-center space-x-1"
+              >
+                <span>{isSeptemberExpanded ? 'Collapse' : 'Expand'}</span>
+                <svg 
+                  className={`w-4 h-4 transform transition-transform ${isSeptemberExpanded ? 'rotate-180' : ''}`} 
+                  fill="none" 
+                  stroke="currentColor" 
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+            </div>
+            
+            {isSeptemberExpanded && (
+              <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">
+                <table className="min-w-full divide-y divide-gray-200">
+                  <thead className="bg-gray-50">
+                    <tr>
+                      <th className="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Status
+                      </th>
+                      <th className="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Bill
+                      </th>
+                      <th className="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Actions
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="bg-white divide-y divide-gray-200">
+                    {fiscalNoteFilesSeptember.map((file) => (
+                      <tr key={file.name} className={`hover:bg-gray-50 ${file.name == selectedFiscalNote ? 'bg-blue-100' : ''}`}>
+                        <td className="px-3 py-2 whitespace-nowrap">
+                          <div className="flex flex-col">
+                            <div className="relative group">
+                              <button
+                                className={`w-6 h-6 rounded-full flex items-center justify-center text-white text-sm font-bold bg-green-500 hover:bg-green-600
+                                `}
+                              >
+                                {file.status === 'ready' ? '✓' : (file.status === 'error' ? '✗' : '⧗')}
+                              </button>
+                              <div className="absolute bottom-full left-1/2 transform -translate-x-2 mb-2 px-2 py-1 text-xs text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-[99999] shadow-lg border border-gray-700">
+                                Ready - Click to view
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                        <td className="px-3 py-2 whitespace-nowrap text-sm text-gray-500 cursor-pointer max-w-26 truncate" onClick={() => handleSelectSeptemberFile(file.name)}>
+                          {file.name}
+                        </td>
+                        <td className="px-3 py-2 whitespace-nowrap text-sm text-gray-500">
+                          <div className="flex items-center space-x-2">
+                            <button
+                              onClick={() => handleSelectSeptemberFile(file.name)}
+                              disabled={file.status !== 'ready'}
+                              className={`text-blue-600 hover:text-blue-900 p-1 rounded hover:bg-blue-50 transition-colors duration-200 ${
+                                file.status !== 'ready' ? 'opacity-50 cursor-not-allowed' : ''
+                              }`}
+                              title={file.status === 'ready' ? 'View fiscal note' : 'Cannot view - not ready'}
+                            >
+                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                              </svg>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+                {fiscalNoteFilesSeptember.length === 0 && (
+                  <div className="text-center py-4 text-gray-500 text-sm">
+                    No September fiscal notes available
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
         </div>
       </div>
 
@@ -437,9 +646,11 @@ const FiscalNoteGeneration = () => {
 
               <div className="mt-6 flex space-x-3">
                 <button
-                  onClick={() => setIsCreateModalOpen(false)}
+                  onClick={() => {
+                    setIsCreateModalOpen(false);
+                    setFormData({ billType: 'HB', billNumber: '', year: '2025' });
+                  }}
                   className="flex-1 bg-gray-300 hover:bg-gray-400 text-gray-700 font-medium py-2 px-4 rounded-lg transition-colors duration-200"
-                  disabled={isCreating}
                 >
                   Cancel
                 </button>

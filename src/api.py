@@ -112,6 +112,26 @@ except Exception as e:
     langgraph_agent = None
     USE_LANGGRAPH = False
 
+def send_error_to_slack(error_message):
+    slack_webhook = os.getenv("SLACK_WEBHOOK")
+    slack_payload = {
+        "text": error_message,
+        "username": "RAG-System Error",
+        "icon_emoji": ":warning:",
+        "webhook_url": slack_webhook
+    }
+    requests.post(slack_webhook, json=slack_payload)
+
+def send_success_msg_to_slack(success_message):
+    slack_webhook = os.getenv("SLACK_WEBHOOK")
+    slack_payload = {
+        "text": success_message,
+        "username": "RAG-System Success",
+        "icon_emoji": ":white_check_mark:",
+        "webhook_url": slack_webhook
+    }
+    requests.post(slack_webhook, json=slack_payload)
+
 # Helper functions for collection management
 def get_collection_manager(collection_name: str) -> DynamicChromeManager:
     """Get collection manager by name"""
@@ -352,7 +372,7 @@ async def root():
         ] if USE_LANGGRAPH else None
     }
 
-@app.get("/health")
+@app.post("/health")
 async def health_check():
     slack_webhook = os.getenv("SLACK_WEBHOOK")
     slack_payload = {
@@ -1112,6 +1132,7 @@ except Exception as e:
     USE_REDIS = False
     jobs = {}
 fiscal_notes_dir = Path(__file__).parent /"fiscal_notes" / "generation"
+fiscal_notes_dir_september = Path(__file__).parent /"fiscal_notes" /"generation" / "september_archive"
 
 # Job management functions that work with both Redis and in-memory
 def set_job_status(job_id: str, status: bool):
@@ -1233,6 +1254,25 @@ async def delete_fiscal_note(request: Request, bill_type: Bill_type_options, bil
             "message": "Fiscal note generation not found"
         }
 
+@app.get("/get_fiscal_note_files_september")
+async def get_fiscal_note_files_september():
+    files = os.listdir(fiscal_notes_dir_september)
+    dirs = []
+    for file in files:
+        if os.path.isdir(os.path.join(fiscal_notes_dir_september, file)) and not file.startswith('.') and not file.startswith("__"):
+            print(f"Directory: {file}")
+            # Check if this directory name matches any active job_id
+            is_generating = get_job_status(file)
+            print(f"Is generating: {is_generating} for {file}")
+            if is_generating:
+                dirs.append({"name": file, "status": "generating"})
+            else:
+                if os.path.exists(os.path.join(fiscal_notes_dir_september, file, "fiscal_notes")) and len(os.listdir(os.path.join(fiscal_notes_dir_september, file, "fiscal_notes"))) > 0:
+                    dirs.append({"name": file, "status": "ready"})
+                else:
+                    dirs.append({"name": file, "status": "error"})
+    return dirs
+
 @app.get("/get_fiscal_note_files")
 async def get_fiscal_note_files():
     files = os.listdir(fiscal_notes_dir)
@@ -1240,6 +1280,8 @@ async def get_fiscal_note_files():
     for file in files:
         if os.path.isdir(os.path.join(fiscal_notes_dir, file)) and not file.startswith('.') and not file.startswith("__"):
             print(f"Directory: {file}")
+            if file == "september_archive":
+                continue
             # Check if this directory name matches any active job_id
             is_generating = get_job_status(file)
             print(f"Is generating: {is_generating} for {file}")
@@ -1301,6 +1343,60 @@ def process_fiscal_note_references(fiscal_note_data, document_mapping):
             processed_data[key] = value
     
     return processed_data
+
+@app.post("/get_fiscal_note_september")
+async def get_fiscal_note_september(request: Request, bill_type: Bill_type_options, bill_number: str, year: Year_options = Year_options.YEAR_2025):
+    bill_type = bill_type
+    bill_number = bill_number
+    year = year
+
+    job_id = f"{bill_type.value}_{bill_number}_{year}"
+    if get_job_status(job_id):
+        return {
+            "message": "Fiscal note generation already in progress"
+        }
+
+    chronological_path = os.path.join(fiscal_notes_dir_september, f"{bill_type.value}_{bill_number}_{year.value}", f"{bill_type.value}_{bill_number}_{year.value}_chronological.json")
+    try:
+        fiscal_notes_path = os.path.join(fiscal_notes_dir_september, f"{bill_type.value}_{bill_number}_{year.value}", "fiscal_notes")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Fiscal Note Not Found")
+
+    timeline_path = os.path.join(fiscal_notes_dir_september, f"{bill_type.value}_{bill_number}_{year.value}", f"{bill_type.value}_{bill_number}_{year.value}_timeline.json")
+    # get jsons in fiscal_notes_path
+    fiscal_notes = []
+
+    with open(chronological_path, 'r') as f:
+        print(f"Chronological path: {chronological_path}")
+        chronological = json.load(f)
+        files = os.listdir(fiscal_notes_path)
+        
+        
+        for file in chronological:
+            print(f"File: {file['name'] + '.json'}")
+            if file['name'] + '.json' in files: 
+                print(f"File found: {file['name'] + '.json'}")
+                with open(os.path.join(fiscal_notes_path, file['name'] + '.json'), 'r') as f:
+                    fiscal_note_data = json.load(f)
+                    
+                    fiscal_notes.append({
+                        'filename': file['name'],
+                        'data': fiscal_note_data
+                    })
+
+    with open(timeline_path, 'r') as f:
+        timeline = json.load(f)
+
+
+    return templates.TemplateResponse(
+        "index.html",
+        {
+            "request": request,
+            "fiscal_notes": fiscal_notes,
+            "timeline": timeline,
+            "document_mapping": {}
+        }
+    )
 
 @app.post("/get_fiscal_note")
 async def get_fiscal_note(request: Request, bill_type: Bill_type_options, bill_number: str, year: Year_options = Year_options.YEAR_2025):
@@ -1446,11 +1542,13 @@ async def create_fiscal_note_job(bill_type: Bill_type_options, bill_number: str,
         }))
         
         print(f"Fiscal note generation completed for {job_id}")
+        send_success_msg_to_slack(f"Fiscal note for {job_id} has been generated successfully!")
         
     except Exception as e:
         error_msg = f"Error in fiscal note generation job {job_id}: {str(e)}"
-        print(error_msg)
         
+        send_error_to_slack(error_msg)
+
         # Send error notification
         await manager.broadcast(json.dumps({
             "type": "job_error",
@@ -1482,7 +1580,7 @@ async def generate_fiscal_note(request: Request, bill_type: Bill_type_options, b
         # Count active jobs in memory
         active_jobs = len(jobs)
     
-    MAX_CONCURRENT_FISCAL_NOTES = 4  # Allow 4 concurrent jobs across workers
+    MAX_CONCURRENT_FISCAL_NOTES = 10  # Allow 4 concurrent jobs across workers
     if active_jobs >= MAX_CONCURRENT_FISCAL_NOTES:
         return {
             "message": f"Only {MAX_CONCURRENT_FISCAL_NOTES} fiscal notes can be generated at the same time. Currently {active_jobs} jobs are running. Please try again later.",
