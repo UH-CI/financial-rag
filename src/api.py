@@ -1296,9 +1296,32 @@ async def get_fiscal_note_files():
 
 def process_fiscal_note_references(fiscal_note_data, document_mapping):
     """
-    Process fiscal note data to replace filename references with numbered references.
+    Process fiscal note data to replace filename references with numbered references and clickable links.
     """
     import re
+    
+    def get_document_info(doc_name):
+        """
+        Get document URL and type information based on document name.
+        Returns tuple: (url, document_type, description)
+        """
+        base_url = "https://www.capitol.hawaii.gov/sessions/session2025"
+        
+        # Check document type based on filename patterns
+        if "TESTIMONY" in doc_name.upper():
+            url = f"{base_url}/Testimony/{doc_name}.PDF"
+            return url, "Testimony", f"Public testimony document"
+        elif doc_name.startswith(("HB", "SB")) and not any(pattern in doc_name.upper() for pattern in ["TESTIMONY", "HSCR", "CCR", "SSCR"]):
+            # This is a bill version (original or amended)
+            url = f"{base_url}/bills/{doc_name}_.HTM"
+            if any(suffix in doc_name for suffix in ["_HD", "_SD", "_CD"]):
+                return url, "Version of Bill", f"Amended version of the bill"
+            else:
+                return url, "Version of Bill", f"Original version of the bill"
+        else:
+            # Default fallback - assume committee report
+            url = f"{base_url}/CommReports/{doc_name}.htm"
+            return url, "Committee Report", f"Legislative committee report"
     
     def replace_filename_with_number(text):
         if not isinstance(text, str):
@@ -1313,12 +1336,16 @@ def process_fiscal_note_references(fiscal_note_data, document_mapping):
             # Look for the content in the document mapping (exact match first)
             for doc_name, doc_number in document_mapping.items():
                 if doc_name == content:
-                    return f'<span class="doc-reference" data-tooltip="{content}" title="{content}">[{doc_number}]</span>'
+                    url, doc_type, description = get_document_info(doc_name)
+                    tooltip_content = f"<h1>{doc_type}</h1><div class='tooltip-body'>{doc_name}<br/><small>{description}</small></div>"
+                    return f'<a href="{url}" target="_blank" class="doc-reference" data-tooltip-html="{tooltip_content}" title="{doc_type}: {doc_name}">[{doc_number}]</a>'
             
             # Try partial matches - check if content contains any document name
             for doc_name, doc_number in document_mapping.items():
                 if doc_name in content or content in doc_name:
-                    return f'<span class="doc-reference" data-tooltip="{content}" title="{content}">[{doc_number}]</span>'
+                    url, doc_type, description = get_document_info(doc_name)
+                    tooltip_content = f"<h1>{doc_type}</h1><div class='tooltip-body'>{doc_name}<br/><small>{description}</small></div>"
+                    return f'<a href="{url}" target="_blank" class="doc-reference" data-tooltip-html="{tooltip_content}" title="{doc_type}: {doc_name}">[{doc_number}]</a>'
             
             # If not found, return original
             return match.group(0)

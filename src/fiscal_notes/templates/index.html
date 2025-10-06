@@ -121,6 +121,58 @@
             font-weight: 500;
         }
         
+        /* Custom HTML tooltip styles */
+        .custom-tooltip {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 8px;
+            font-size: 14px;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s, visibility 0.2s;
+            margin-bottom: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            max-width: 300px;
+            min-width: 200px;
+        }
+        
+        .tooltip-header {
+            background-color: #34495e;
+            padding: 8px 12px;
+            font-weight: bold;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-radius: 8px 8px 0 0;
+            border-bottom: 1px solid #4a5f7a;
+        }
+        
+        .tooltip-body {
+            padding: 10px 12px;
+            line-height: 1.4;
+        }
+        
+        .tooltip-body small {
+            color: #bdc3c7;
+            font-size: 11px;
+            font-style: italic;
+        }
+        
+        .custom-tooltip::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 6px solid transparent;
+            border-top-color: #2c3e50;
+        }
+        
         .tooltip::after {
             content: '';
             position: absolute;
@@ -131,6 +183,12 @@
             border-top-color: #333;
         }
         .doc-reference:hover .tooltip {
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 0.2s ease, visibility 0.2s ease;
+        }
+        
+        .doc-reference:hover .custom-tooltip {
             opacity: 1;
             visibility: visible;
             transition: opacity 0.2s ease, visibility 0.2s ease;
@@ -220,9 +278,17 @@
                 const docReferences = document.querySelectorAll('.doc-reference');
                 
                 docReferences.forEach(ref => {
+                    const tooltipHtml = ref.getAttribute('data-tooltip-html');
                     const tooltipText = ref.getAttribute('data-tooltip');
-                    if (tooltipText) {
-                        // Create tooltip element
+                    
+                    if (tooltipHtml) {
+                        // Create custom HTML tooltip element
+                        const tooltip = document.createElement('div');
+                        tooltip.className = 'custom-tooltip';
+                        tooltip.innerHTML = tooltipHtml;
+                        ref.appendChild(tooltip);
+                    } else if (tooltipText) {
+                        // Create simple text tooltip element
                         const tooltip = document.createElement('div');
                         tooltip.className = 'tooltip';
                         tooltip.textContent = tooltipText;
