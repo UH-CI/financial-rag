@@ -1,0 +1,229 @@
+{
+  "overview": "",
+  "appropriations": "The Judiciary testimony requests $9.9M (HB400_TESTIMONY_JHA_01-30-25_) in bond funds for capital improvement projects in FY 2026. A subsequent committee hearing recommends that the Committee on Finance consider authorizing an additional $2,000,000 (HB400_HSCR286_) specifically for the relocation of the Children's Justice Center. This differs from the previous note which presented the combined total as a final appropriation.",
+  "assumptions_and_methodology": "",
+  "agency_impact": "",
+  "economic_impact": "Testimony requests a $1,000,000 (HB400_TESTIMONY_JHA_01-30-25_) increase to the budget line-item for statewide civil legal services to address the unmet legal needs of low-income residents. The funding would support providers like the Legal Aid Society of Hawaii and Volunteer Legal Services Hawai‘i. This specific monetary request was not detailed in the prior fiscal note.",
+  "policy_impact": "",
+  "revenue_sources": "",
+  "six_year_fiscal_implications": "",
+  "operating_revenue_impact": "",
+  "capital_expenditure_impact": "The Judiciary testimony requests capital expenditures totaling $9.9M (HB400_TESTIMONY_JHA_01-30-25_) in FY 2026, which includes $4.0 million (HB400_TESTIMONY_JHA_01-30-25_) for a new South Kohala District Courthouse design and $5.0 million (HB400_TESTIMONY_JHA_01-30-25_) in lump sum funds. The House Committee on Judiciary & Hawaiian Affairs report recommends adding $2,000,000 (HB400_HSCR286_) to the lump sum funds to cover costs for relocating the Children's Justice Center. This brings the potential lump sum amount to $7,000,000 (HB400_HSCR286_).",
+  "fiscal_implications_after_6_years": "",
+  "updates_from_previous_fiscal_note": "The primary update from the previous fiscal note involves clarifying the status of the Capital Improvement Project (CIP) funding. This note specifies that the Judiciary's request is for $9.9M (HB400_TESTIMONY_JHA_01-30-25_), with a subsequent committee recommendation to consider adding $2,000,000 (HB400_HSCR286_), rather than treating the total as a finalized appropriation. Additionally, this note incorporates the specific request from legal aid organizations for an additional $1,000,000 (HB400_TESTIMONY_JHA_01-30-25_) for civil legal services, a detail not previously included.",
+  "appropriations_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 0,
+        "text": "The Judiciary testimony requests $9.9M (HB400_TESTIMONY_JHA_01-30-25_) in bond funds for capital improvement projects in FY 2026.",
+        "references": [
+          "HB400_TESTIMONY_JHA_01-30-25_"
+        ],
+        "clean_text": "The Judiciary testimony requests $9.9M  in bond funds for capital improvement projects in FY 2026."
+      },
+      "chunk_matches": {
+        "HB400_TESTIMONY_JHA_01-30-25_": {
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF",
+          "chunk": {
+            "id": 40,
+            "text": "This is unsustainable without detrimental impacts to other operations. (5) \nAdministration \nRestored funding of $71,016 in FY 2026 and $71,016 in FY 2027 for a Purchasing and \nSpecifications Specialist in the Judiciary’s Financial Services Department. This position is in a \ndivision that is responsible for a high volume of purchasing, procurement, and contracts. Among \nother things, this division annually processes over 1,000 purchase requisitions, nearly 900 \ncontracts, and approximately 12 Competitive Sealed Bids and 17 Competitive Purchase of Service \nand Competitive Sealed Proposals solicitations. Capital Improvement Requests: \nCapital Improvement Project (CIP) requirements continue to remain a major item of \nconcern as the Judiciary’s infrastructure continues to age and deteriorate, and as the population \nserved and services provided by the Judiciary continue to expand. We request CIP bond funds \ntotaling $9.9 million for FY 2026 to address critical needs, some of which relate to the health and \nsafety of Judiciary employees and the public. Specifically, the Judiciary is requesting $4.0 million to design a new South Kohala District \nCourthouse.",
+            "start_sentence": 153,
+            "end_sentence": 159,
+            "token_count": 196,
+            "sentence_count": 7,
+            "similarity_score": 0.6584851741790771
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 1,
+        "text": "A subsequent committee hearing recommends that the Committee on Finance consider authorizing an additional $2,000,000 (HB400_HSCR286_) specifically for the relocation of the Children's Justice Center.",
+        "references": [
+          "HB400_HSCR286_"
+        ],
+        "clean_text": "A subsequent committee hearing recommends that the Committee on Finance consider authorizing an additional $2,000,000  specifically for the relocation of the Children's Justice Center."
+      },
+      "chunk_matches": {
+        "HB400_HSCR286_": {
+          "document_name": "HB400_HSCR286_.htm",
+          "chunk": {
+            "id": 2,
+            "text": "Your Committee respectfully requests your Committee on Finance,\nshould it deliberate on this measure, to consider authorizing $7,000,000 in\nlump sum general obligation bond funds for capital improvement projects for\nJudiciary facilities to account for the additional cost of $2,000,000 to\nrelocate the Children's Justice Center. As affirmed by the\nrecord of votes of the members of your Committee on Judiciary & Hawaiian\nAffairs that is attached to this report, your Committee is in accord with the\nintent and purpose of H.B. No. 400 and recommends that it pass Second Reading\nand be referred to your Committee on Finance. Respectfully\nsubmitted on behalf of the members of the Committee on Judiciary & Hawaiian\nAffairs,\n____________________________\nDAVID A. TARNAS, Chair",
+            "start_sentence": 10,
+            "end_sentence": 14,
+            "token_count": 131,
+            "sentence_count": 5,
+            "similarity_score": 0.6189334988594055
+          }
+        }
+      }
+    }
+  ],
+  "economic_impact_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 0,
+        "text": "Testimony requests a $1,000,000 (HB400_TESTIMONY_JHA_01-30-25_) increase to the budget line-item for statewide civil legal services to address the unmet legal needs of low-income residents.",
+        "references": [
+          "HB400_TESTIMONY_JHA_01-30-25_"
+        ],
+        "clean_text": "Testimony requests a $1,000,000  increase to the budget line-item for statewide civil legal services to address the unmet legal needs of low-income residents."
+      },
+      "chunk_matches": {
+        "HB400_TESTIMONY_JHA_01-30-25_": {
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF",
+          "chunk": {
+            "id": 62,
+            "text": "HB-400 \nSubmitted on: 1/30/2025 10:25:18 AM \nTestimony for JHA on 1/30/2025 2:00:00 PM \nSubmitted By \nOrganization \nTestifier Position \nTestify \nMihoko Ito  \nIndividual \nSupport \nWritten Testimony \nOnly \n \n \nComments:  \nThank you for the opportunity to submit testimony in strong support of the Judiciary Budget, HB \n400. I am very supportive of the Judiciary and all of the work that they do in and for our \ncommunity. I am also very much in support of the current line item in the budget that supports \nfunding for civil legal services (currently funded at $1.2M), but would respectfully request \nthat the amount be increased by and additional $1M. Having worked on civil legal service provider funding for many years, I am aware that civil legal \nservice providers are chronically underfunded. With all the uncertainties at the federal level, this \nfunding is more critical than ever. Legal service providers are often the last line of defense \nprotecting individuals from eviction, deportation, homelessness, family separation and other \nbarriers to basic survival in our community.",
+            "start_sentence": 235,
+            "end_sentence": 240,
+            "token_count": 185,
+            "sentence_count": 6,
+            "similarity_score": 0.686809778213501
+          }
+        }
+      }
+    }
+  ],
+  "capital_expenditure_impact_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 0,
+        "text": "The Judiciary testimony requests capital expenditures totaling $9.9M (HB400_TESTIMONY_JHA_01-30-25_) in FY 2026, which includes $4.0 million (HB400_TESTIMONY_JHA_01-30-25_) for a new South Kohala District Courthouse design and $5.0 million (HB400_TESTIMONY_JHA_01-30-25_) in lump sum funds.",
+        "references": [
+          "HB400_TESTIMONY_JHA_01-30-25_",
+          "HB400_TESTIMONY_JHA_01-30-25_",
+          "HB400_TESTIMONY_JHA_01-30-25_"
+        ],
+        "clean_text": "The Judiciary testimony requests capital expenditures totaling $9.9M  in FY 2026, which includes $4.0 million  for a new South Kohala District Courthouse design and $5.0 million  in lump sum funds."
+      },
+      "chunk_matches": {
+        "HB400_TESTIMONY_JHA_01-30-25_": {
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF",
+          "chunk": {
+            "id": 40,
+            "text": "This is unsustainable without detrimental impacts to other operations. (5) \nAdministration \nRestored funding of $71,016 in FY 2026 and $71,016 in FY 2027 for a Purchasing and \nSpecifications Specialist in the Judiciary’s Financial Services Department. This position is in a \ndivision that is responsible for a high volume of purchasing, procurement, and contracts. Among \nother things, this division annually processes over 1,000 purchase requisitions, nearly 900 \ncontracts, and approximately 12 Competitive Sealed Bids and 17 Competitive Purchase of Service \nand Competitive Sealed Proposals solicitations. Capital Improvement Requests: \nCapital Improvement Project (CIP) requirements continue to remain a major item of \nconcern as the Judiciary’s infrastructure continues to age and deteriorate, and as the population \nserved and services provided by the Judiciary continue to expand. We request CIP bond funds \ntotaling $9.9 million for FY 2026 to address critical needs, some of which relate to the health and \nsafety of Judiciary employees and the public. Specifically, the Judiciary is requesting $4.0 million to design a new South Kohala District \nCourthouse.",
+            "start_sentence": 153,
+            "end_sentence": 159,
+            "token_count": 196,
+            "sentence_count": 7,
+            "similarity_score": 0.7272999286651611
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 1,
+        "text": "The House Committee on Judiciary & Hawaiian Affairs report recommends adding $2,000,000 (HB400_HSCR286_) to the lump sum funds to cover costs for relocating the Children's Justice Center.",
+        "references": [
+          "HB400_HSCR286_"
+        ],
+        "clean_text": "The House Committee on Judiciary & Hawaiian Affairs report recommends adding $2,000,000  to the lump sum funds to cover costs for relocating the Children's Justice Center."
+      },
+      "chunk_matches": {
+        "HB400_HSCR286_": {
+          "document_name": "HB400_HSCR286_.htm",
+          "chunk": {
+            "id": 1,
+            "text": "400 entitled:\n\"A BILL FOR AN ACT RELATING TO THE JUDICIARY,\"\nbegs leave to report as follows:\nThe\npurpose of this measure is to appropriate funds for the 2025-2027 fiscal\nbiennium for certain operating expenses of the Judiciary. Your Committee received testimony in support of this measure\nfrom the Judiciary; Volunteer Legal Services Hawai\nʻ\ni;\nLegal Aid Society of Hawai\nʻ\ni; The Legal Clinic;\nand two individuals. Your Committee finds that the appropriations made by this\nmeasure will assist the Judiciary in its efforts to fulfill its constitutional,\nstatutory, and public service duties. Your Committee respectfully requests your Committee on Finance,\nshould it deliberate on this measure, to consider authorizing $7,000,000 in\nlump sum general obligation bond funds for capital improvement projects for\nJudiciary facilities to account for the additional cost of $2,000,000 to\nrelocate the Children's Justice Center. As affirmed by the\nrecord of votes of the members of your Committee on Judiciary & Hawaiian\nAffairs that is attached to this report, your Committee is in accord with the\nintent and purpose of H.B.",
+            "start_sentence": 7,
+            "end_sentence": 11,
+            "token_count": 199,
+            "sentence_count": 5,
+            "similarity_score": 0.6609208583831787
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 2,
+        "text": "This brings the potential lump sum amount to $7,000,000 (HB400_HSCR286_).",
+        "references": [
+          "HB400_HSCR286_"
+        ],
+        "clean_text": "This brings the potential lump sum amount to $7,000,000 ."
+      },
+      "chunk_matches": {
+        "HB400_HSCR286_": {
+          "document_name": "HB400_HSCR286_.htm",
+          "chunk": {
+            "id": 1,
+            "text": "400 entitled:\n\"A BILL FOR AN ACT RELATING TO THE JUDICIARY,\"\nbegs leave to report as follows:\nThe\npurpose of this measure is to appropriate funds for the 2025-2027 fiscal\nbiennium for certain operating expenses of the Judiciary. Your Committee received testimony in support of this measure\nfrom the Judiciary; Volunteer Legal Services Hawai\nʻ\ni;\nLegal Aid Society of Hawai\nʻ\ni; The Legal Clinic;\nand two individuals. Your Committee finds that the appropriations made by this\nmeasure will assist the Judiciary in its efforts to fulfill its constitutional,\nstatutory, and public service duties. Your Committee respectfully requests your Committee on Finance,\nshould it deliberate on this measure, to consider authorizing $7,000,000 in\nlump sum general obligation bond funds for capital improvement projects for\nJudiciary facilities to account for the additional cost of $2,000,000 to\nrelocate the Children's Justice Center. As affirmed by the\nrecord of votes of the members of your Committee on Judiciary & Hawaiian\nAffairs that is attached to this report, your Committee is in accord with the\nintent and purpose of H.B.",
+            "start_sentence": 7,
+            "end_sentence": 11,
+            "token_count": 199,
+            "sentence_count": 5,
+            "similarity_score": 0.3965757489204407
+          }
+        }
+      }
+    }
+  ],
+  "updates_from_previous_fiscal_note_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 1,
+        "text": "This note specifies that the Judiciary's request is for $9.9M (HB400_TESTIMONY_JHA_01-30-25_), with a subsequent committee recommendation to consider adding $2,000,000 (HB400_HSCR286_), rather than treating the total as a finalized appropriation.",
+        "references": [
+          "HB400_TESTIMONY_JHA_01-30-25_",
+          "HB400_HSCR286_"
+        ],
+        "clean_text": "This note specifies that the Judiciary's request is for $9.9M , with a subsequent committee recommendation to consider adding $2,000,000 , rather than treating the total as a finalized appropriation."
+      },
+      "chunk_matches": {
+        "HB400_TESTIMONY_JHA_01-30-25_": {
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF",
+          "chunk": {
+            "id": 64,
+            "text": "With respect to the line item for funding in the Judiciary budget, the purchase of services funding \nthe Legislature has provided was historically for statewide general civil legal services, but under \nthe current Judiciary criteria is now open to all civil legal services providers. This has ultimately \ndiluted critical safety net funding, so we are asking for a $1M increase to support the critical \nwork that these organizations provide. To be clear, I do not want our request to supplant any of \nthe Judiciary's other priorities, but respecfully ask that consideration be given to this request for \nan increase in legal service providers funding. Thank you for the opportunity to submit testimony in strong support of this measure. Mihoko Ito \n \n LATE *Testimony submitted late may not be considered by the Committee for decision making purposes.",
+            "start_sentence": 241,
+            "end_sentence": 245,
+            "token_count": 148,
+            "sentence_count": 5,
+            "similarity_score": 0.5916239023208618
+          }
+        },
+        "HB400_HSCR286_": {
+          "document_name": "HB400_HSCR286_.htm",
+          "chunk": {
+            "id": 1,
+            "text": "400 entitled:\n\"A BILL FOR AN ACT RELATING TO THE JUDICIARY,\"\nbegs leave to report as follows:\nThe\npurpose of this measure is to appropriate funds for the 2025-2027 fiscal\nbiennium for certain operating expenses of the Judiciary. Your Committee received testimony in support of this measure\nfrom the Judiciary; Volunteer Legal Services Hawai\nʻ\ni;\nLegal Aid Society of Hawai\nʻ\ni; The Legal Clinic;\nand two individuals. Your Committee finds that the appropriations made by this\nmeasure will assist the Judiciary in its efforts to fulfill its constitutional,\nstatutory, and public service duties. Your Committee respectfully requests your Committee on Finance,\nshould it deliberate on this measure, to consider authorizing $7,000,000 in\nlump sum general obligation bond funds for capital improvement projects for\nJudiciary facilities to account for the additional cost of $2,000,000 to\nrelocate the Children's Justice Center. As affirmed by the\nrecord of votes of the members of your Committee on Judiciary & Hawaiian\nAffairs that is attached to this report, your Committee is in accord with the\nintent and purpose of H.B.",
+            "start_sentence": 7,
+            "end_sentence": 11,
+            "token_count": 199,
+            "sentence_count": 5,
+            "similarity_score": 0.6299859881401062
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 2,
+        "text": "Additionally, this note incorporates the specific request from legal aid organizations for an additional $1,000,000 (HB400_TESTIMONY_JHA_01-30-25_) for civil legal services, a detail not previously included.",
+        "references": [
+          "HB400_TESTIMONY_JHA_01-30-25_"
+        ],
+        "clean_text": "Additionally, this note incorporates the specific request from legal aid organizations for an additional $1,000,000  for civil legal services, a detail not previously included."
+      },
+      "chunk_matches": {
+        "HB400_TESTIMONY_JHA_01-30-25_": {
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF",
+          "chunk": {
+            "id": 43,
+            "text": "Thank you for the opportunity to testify on this measure. 70170 \n  \nNickolas Kacprowski \nBoard President  \nRachel Figueroa \nExecutive Director  \n  \n545 Queen Street, Suite 100 \nHonolulu, Hawai`i 96813  \nPhone: (808) 528-7050  \nFax: (808) 524-2147  \n www.vlsh.org  \n \nTESTIMONY IN SUPPORT OF H.B. 400 \nRELATING TO THE JUDICIARY \nCommittee on Judiciary & Hawaiian Affairs – January 30, 2025  2:00 p.m. CHAIR TARNAS, VICE CHAIR POEPOE AND MEMBERS OF THE COMMITTEE ON \nJUDICIARY & HAWAIIAN AFFAIRS:   \n  \nVolunteer Legal Services Hawai‘i supports the passage of H.B. 400. This critical funding would go to funding civil legal services, including but not limited to the \ndelivery of civil legal services to low- and moderate- income individuals in Hawai‘i. Volunteer Legal is pursuing a one million (1,000,000) dollar increase in funding for the civil \nlegal services line item for providers. The civil legal services line item was initially intended for \nstatewide general civil legal service providers. Other important legal service providers are now \naccessing the funding, and we anticipate that more will apply.",
+            "start_sentence": 167,
+            "end_sentence": 175,
+            "token_count": 192,
+            "sentence_count": 9,
+            "similarity_score": 0.5789968967437744
+          }
+        }
+      }
+    }
+  ]
+}

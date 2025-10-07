@@ -1371,6 +1371,150 @@ def process_fiscal_note_references(fiscal_note_data, document_mapping):
     
     return processed_data
 
+def process_fiscal_note_references_structured(fiscal_note_data, document_mapping):
+    """
+    Process fiscal note data to replace filename references with structured document references for React frontend.
+    Includes chunk reference information if available.
+    """
+    import re
+    import json
+    
+    def get_document_info(doc_name):
+        """
+        Get document URL and type information based on document name.
+        Returns tuple: (url, document_type, description)
+        """
+        base_url = "https://www.capitol.hawaii.gov/sessions/session2025"
+        
+        # Check document type based on filename patterns
+        if "TESTIMONY" in doc_name.upper():
+            url = f"{base_url}/Testimony/{doc_name}.PDF"
+            return url, "Testimony", f"Public testimony document"
+        elif doc_name.startswith(("HB", "SB")) and not any(pattern in doc_name.upper() for pattern in ["TESTIMONY", "HSCR", "CCR", "SSCR"]):
+            # This is a bill version (original or amended)
+            url = f"{base_url}/bills/{doc_name}_.HTM"
+            if any(suffix in doc_name for suffix in ["_HD", "_SD", "_CD"]):
+                return url, "Version of Bill", f"Amended version of the bill"
+            else:
+                return url, "Version of Bill", f"Original version of the bill"
+        else:
+            # Default fallback - assume committee report
+            url = f"{base_url}/CommReports/{doc_name}.htm"
+            return url, "Committee Report", f"Legislative committee report"
+    
+    def get_chunk_info_for_reference(field_name, reference_content):
+        """
+        Get chunk information for a specific reference if available.
+        """
+        chunk_field_name = f"{field_name}_chunk_references"
+        if chunk_field_name in fiscal_note_data:
+            chunk_references = fiscal_note_data[chunk_field_name]
+            
+            # Look for chunk info matching this reference
+            for sentence_mapping in chunk_references:
+                chunk_matches = sentence_mapping.get('chunk_matches', {})
+                if reference_content in chunk_matches:
+                    chunk_info = chunk_matches[reference_content]
+                    chunk_data = chunk_info.get('chunk', {})
+                    
+                    # Return chunk information
+                    return {
+                        'chunk_id': chunk_data.get('id', 0),
+                        'chunk_text': chunk_data.get('text', ''),
+                        'similarity_score': chunk_data.get('similarity_score', 0.0),
+                        'token_count': chunk_data.get('token_count', 0)
+                    }
+                # Try partial matching if exact match not found
+                for ref_key in chunk_matches.keys():
+                    if reference_content in ref_key or ref_key in reference_content:
+                        chunk_info = chunk_matches[ref_key]
+                        chunk_data = chunk_info.get('chunk', {})
+                        
+                        # Return chunk information
+                        return {
+                            'chunk_id': chunk_data.get('id', 0),
+                            'chunk_text': chunk_data.get('text', ''),
+                            'similarity_score': chunk_data.get('similarity_score', 0.0),
+                            'token_count': chunk_data.get('token_count', 0)
+                        }
+        return None
+    
+    def replace_filename_with_structured_reference(text, field_name=""):
+        if not isinstance(text, str):
+            return text
+        
+        # Pattern to match any content in parentheses that looks like a document reference
+        pattern = r'\(([^)]+)\)'
+        
+        def replacement(match):
+            content = match.group(1)
+            
+            # Look for the content in the document mapping (exact match first)
+            for doc_name, doc_number in document_mapping.items():
+                if doc_name == content:
+                    url, doc_type, description = get_document_info(doc_name)
+                    
+                    # Get chunk information if available
+                    chunk_info = get_chunk_info_for_reference(field_name, content)
+                    
+                    # Use a simple pipe-separated format to avoid JSON parsing issues
+                    # Format: number|url|type|name|description|chunk_text|similarity_score
+                    safe_description = description.replace('|', '&#124;')  # Escape pipes in description
+                    safe_name = doc_name.replace('|', '&#124;')  # Escape pipes in name
+                    safe_type = doc_type.replace('|', '&#124;')  # Escape pipes in type
+                    
+                    if chunk_info:
+                        safe_chunk_text = chunk_info['chunk_text'].replace('|', '&#124;')[:200]  # Limit chunk text length
+                        similarity_score = chunk_info['similarity_score']
+                        return f'{{DOCREF:{doc_number}|{url}|{safe_type}|{safe_name}|{safe_description}|{safe_chunk_text}|{similarity_score:.3f}}}'
+                    else:
+                        return f'{{DOCREF:{doc_number}|{url}|{safe_type}|{safe_name}|{safe_description}|||}}'
+            
+            # Try partial matches - check if content contains any document name
+            for doc_name, doc_number in document_mapping.items():
+                if doc_name in content or content in doc_name:
+                    url, doc_type, description = get_document_info(doc_name)
+                    
+                    # Get chunk information if available
+                    chunk_info = get_chunk_info_for_reference(field_name, content)
+                    
+                    # Use a simple pipe-separated format to avoid JSON parsing issues
+                    # Format: number|url|type|name|description|chunk_text|similarity_score
+                    safe_description = description.replace('|', '&#124;')  # Escape pipes in description
+                    safe_name = doc_name.replace('|', '&#124;')  # Escape pipes in name
+                    safe_type = doc_type.replace('|', '&#124;')  # Escape pipes in type
+                    
+                    if chunk_info:
+                        safe_chunk_text = chunk_info['chunk_text'].replace('|', '&#124;')[:200]  # Limit chunk text length
+                        similarity_score = chunk_info['similarity_score']
+                        return f'{{DOCREF:{doc_number}|{url}|{safe_type}|{safe_name}|{safe_description}|{safe_chunk_text}|{similarity_score:.3f}}}'
+                    else:
+                        return f'{{DOCREF:{doc_number}|{url}|{safe_type}|{safe_name}|{safe_description}|||}}'
+            
+            # If not found, return original
+            return match.group(0)
+        
+        return re.sub(pattern, replacement, text)
+    
+    # Process all string values in the fiscal note data
+    processed_data = {}
+    for key, value in fiscal_note_data.items():
+        if isinstance(value, str):
+            processed_data[key] = replace_filename_with_structured_reference(value, key)
+        elif isinstance(value, dict):
+            processed_data[key] = process_fiscal_note_references_structured(value, document_mapping)
+        elif isinstance(value, list):
+            processed_data[key] = [
+                process_fiscal_note_references_structured(item, document_mapping) if isinstance(item, dict)
+                else replace_filename_with_structured_reference(item, key) if isinstance(item, str)
+                else item
+                for item in value
+            ]
+        else:
+            processed_data[key] = value
+    
+    return processed_data
+
 @app.post("/get_fiscal_note_september")
 async def get_fiscal_note_september(request: Request, bill_type: Bill_type_options, bill_number: str, year: Year_options = Year_options.YEAR_2025):
     bill_type = bill_type
@@ -1439,7 +1583,15 @@ async def get_fiscal_note(request: Request, bill_type: Bill_type_options, bill_n
 
     chronological_path = os.path.join(fiscal_notes_dir, f"{bill_type.value}_{bill_number}_{year.value}", f"{bill_type.value}_{bill_number}_{year.value}_chronological.json")
     try:
+        # Try to load enhanced fiscal notes with chunks first, fall back to regular fiscal notes
+        fiscal_notes_with_chunks_path = os.path.join(fiscal_notes_dir, f"{bill_type.value}_{bill_number}_{year.value}", "fiscal_notes_with_chunks")
         fiscal_notes_path = os.path.join(fiscal_notes_dir, f"{bill_type.value}_{bill_number}_{year.value}", "fiscal_notes")
+        
+        if os.path.exists(fiscal_notes_with_chunks_path):
+            fiscal_notes_path = fiscal_notes_with_chunks_path
+            print(f"Using enhanced fiscal notes with chunks: {fiscal_notes_path}")
+        else:
+            print(f"Using regular fiscal notes: {fiscal_notes_path}")
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Fiscal Note Not Found")
 
@@ -1508,6 +1660,101 @@ async def get_fiscal_note(request: Request, bill_type: Bill_type_options, bill_n
             "document_mapping": document_mapping
         }
     )
+
+@app.post("/get_fiscal_note_data")
+async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, year: Year_options = Year_options.YEAR_2025):
+    """
+    New endpoint that returns structured JSON data for React frontend
+    """
+    bill_type = bill_type
+    bill_number = bill_number
+    year = year
+
+    job_id = f"{bill_type.value}_{bill_number}_{year}"
+    if get_job_status(job_id):
+        return {
+            "message": "Fiscal note generation already in progress",
+            "status": "generating"
+        }
+
+    chronological_path = os.path.join(fiscal_notes_dir, f"{bill_type.value}_{bill_number}_{year.value}", f"{bill_type.value}_{bill_number}_{year.value}_chronological.json")
+    try:
+        # Try to load enhanced fiscal notes with chunks first, fall back to regular fiscal notes
+        fiscal_notes_with_chunks_path = os.path.join(fiscal_notes_dir, f"{bill_type.value}_{bill_number}_{year.value}", "fiscal_notes_with_chunks")
+        fiscal_notes_path = os.path.join(fiscal_notes_dir, f"{bill_type.value}_{bill_number}_{year.value}", "fiscal_notes")
+        
+        if os.path.exists(fiscal_notes_with_chunks_path):
+            fiscal_notes_path = fiscal_notes_with_chunks_path
+            print(f"Using enhanced fiscal notes with chunks: {fiscal_notes_path}")
+        else:
+            print(f"Using regular fiscal notes: {fiscal_notes_path}")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Fiscal Note Not Found")
+
+    timeline_path = os.path.join(fiscal_notes_dir, f"{bill_type.value}_{bill_number}_{year.value}", f"{bill_type.value}_{bill_number}_{year.value}_timeline.json")
+    
+    # get jsons in fiscal_notes_path
+    fiscal_notes = []
+    
+    # Create or load document mapping: filename -> number
+    base_dir = os.path.dirname(chronological_path)
+    mapping_file = os.path.join(base_dir, "document_mapping.json")
+    
+    # Try to load existing mapping
+    document_mapping = {}
+    if os.path.exists(mapping_file):
+        try:
+            with open(mapping_file, 'r') as f:
+                document_mapping = json.load(f)
+            print(f"Loaded existing document mapping with {len(document_mapping)} documents")
+        except Exception as e:
+            print(f"Error loading document mapping: {e}")
+
+    with open(chronological_path, 'r') as f:
+        print(f"Chronological path: {chronological_path}")
+        chronological = json.load(f)
+        files = os.listdir(fiscal_notes_path)
+        
+        # Create mapping of document names to numbers (if not already loaded)
+        if not document_mapping:
+            for index, file in enumerate(chronological, 1):
+                document_mapping[file['name']] = index
+            
+            # Save the mapping for future use
+            try:
+                with open(mapping_file, 'w') as f:
+                    json.dump(document_mapping, f, indent=2)
+                print(f"Saved document mapping to {mapping_file}")
+            except Exception as e:
+                print(f"Error saving document mapping: {e}")
+        
+        for file in chronological:
+            print(f"File: {file['name'] + '.json'}")
+            if file['name'] + '.json' in files: 
+                print(f"File found: {file['name'] + '.json'}")
+                with open(os.path.join(fiscal_notes_path, file['name'] + '.json'), 'r') as f:
+                    fiscal_note_data = json.load(f)
+                    
+                    # Process fiscal note data with structured references instead of HTML
+                    processed_data = process_fiscal_note_references_structured(fiscal_note_data, document_mapping)
+                    
+                    # Filter out chunk reference properties for frontend display
+                    filtered_data = {k: v for k, v in processed_data.items() if not k.endswith('_chunk_references')}
+                    
+                    fiscal_notes.append({
+                        'filename': file['name'],
+                        'data': filtered_data
+                    })
+
+    with open(timeline_path, 'r') as f:
+        timeline = json.load(f)
+
+    return {
+        "status": "ready",
+        "fiscal_notes": fiscal_notes,
+        "timeline": timeline,
+        "document_mapping": document_mapping
+    }
 
 async def create_fiscal_note_job(bill_type: Bill_type_options, bill_number: str, year: str):
     job_id = f"{bill_type.value}_{bill_number}_{year}"

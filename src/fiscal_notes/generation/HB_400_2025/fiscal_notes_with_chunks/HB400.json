@@ -1,0 +1,422 @@
+{
+  "overview": "House Bill 400, House Draft 1, appropriates funds for the Judiciary's operating and capital improvement project (CIP) budget for the 2025–2027 fiscal biennium. The measure aims to support essential court operations by funding permanent and temporary positions, making pilot programs permanent, and addressing critical infrastructure needs. Key components include funding for specialty courts, staffing for new facilities, additional judgeships, and significant cybersecurity upgrades.",
+  "appropriations": "The Judiciary requests additional operating resources of $6.17M (HB400) in FY 2026 and $6.25M (HB400) in FY 2027, along with 17.0 permanent FTE and 1.0 temporary FTE (HB400). For capital improvements, the bill appropriates $11.9M (HB400) in bond funds for FY 2026. These funds are intended for staffing various courts, expanding specialty court programs, cybersecurity enhancements, and constructing and maintaining court facilities.",
+  "assumptions_and_methodology": "The financial projections are based on the Judiciary's detailed testimony outlining its resource requirements for the upcoming biennium. The methodology involves aggregating specific line-item requests for personnel, technology contracts, security services, and capital projects based on projected needs and current operational circumstances. Costs for staffing are based on position salaries and benefits, while technology and capital costs are based on vendor estimates and project assessments, such as the increased cost for the Children's Justice Center relocation.",
+  "agency_impact": "This measure will significantly impact the Judiciary by expanding its capacity to serve the public and enhance security. It will allow for the permanent establishment of the Women's Court and DWI Court Program, the full staffing of the new Wahiawā District Court, and the addition of a much-needed District Court Judge in Kona to address high caseloads. Furthermore, the funding will improve the Judiciary's cybersecurity posture and replace end-of-life technology infrastructure, ensuring operational continuity.",
+  "economic_impact": "The measure is expected to yield positive economic effects by funding programs aimed at reducing recidivism, such as the Women’s Court, which helps participants improve their economic conditions. The Early Education Intervention Program, supported by this bill, addresses truancy to foster long-term academic and career success. Additionally, funding for civil legal services, as requested in testimony (HB-400-HD-1 Submitted on: 3/18/2025 9:07:44 AM), helps prevent costly outcomes like eviction and homelessness for low-income individuals.",
+  "policy_impact": "This bill modifies existing state policy by transitioning pilot projects, like the Women’s Court established by Act 243/22 (HB400), into permanent programs, thereby embedding them into the state's justice system. It expands the Judiciary's footprint and services in rural communities with the new Wahiawā District Court and addresses long-standing judicial shortages in high-growth areas like Kona. The measure reinforces the state's commitment to modernizing court operations through significant investments in technology and cybersecurity infrastructure.",
+  "revenue_sources": "The operating budget requests, totaling $6.17M (HB400) in FY 2026 and $6.25M (HB400) in FY 2027, are expected to be funded from the state's general fund. The Capital Improvement Project requests, totaling $11.9M (HB400) for FY 2026, will be financed through the issuance of general obligation bonds. The provided documents do not specify any other revenue sources such as grants or fees to support these specific appropriations.",
+  "six_year_fiscal_implications": "The six-year fiscal outlook includes significant recurring costs for the Judiciary's operating budget, with requested increases of $6.17M (HB400) in FY 2026 and $6.25M (HB400) in FY 2027. These costs are driven by the addition of 17.0 permanent FTE and 1.0 temporary FTE (HB400), with associated salary and benefits expected to continue annually. Key recurring program costs include the Women’s Court at $705,416 (HB400) annually, the DWI Court at $232,412 (HB400) in FY 2026 and $237,612 (HB400) in FY 2027, and the new Kona District Court Judge and staff at $368,943 (HB400) in FY 2026 and $360,048 (HB400) in FY 2027. Technology expenses will also be ongoing, with a major cybersecurity email upgrade costing $1,175,300 (HB400) per year and cybersecurity staff and tools costing $458,224 (HB400) annually. The Criminal Justice Research Institute requires continued funding of $583,640 (HB400) in FY 2026 and $648,074 (HB400) in FY 2027. On the capital side, the $11.9M (HB400) in bond funds for FY 2026 is a one-time expenditure, but the new facilities will introduce new, ongoing operating and maintenance costs in future years. These projections assume that the programs made permanent will continue operations without significant changes in scope. The recurring costs are expected to increase over time with inflation and salary adjustments.",
+  "operating_revenue_impact": "Based on the provided documents, this measure is not anticipated to have any direct impact on the Judiciary's operating revenues. The bill exclusively concerns appropriations for expenditures and does not introduce new fees, fines, or other revenue-generating mechanisms. Therefore, no significant increase, decrease, or change in revenue streams is expected as a result of this measure.",
+  "capital_expenditure_impact": "The measure requests a total of $11.9M (HB400) in bond funds for capital expenditures in FY 2026. This includes $4.0 million (HB400) for the design of a new South Kohala District Courthouse and $900,000 (HB400) to replace an A/C chiller at Pu‘uhonua Kaulike on Kaua‘i. The remaining $7.0 million (HB400) is requested as lump sum funds for statewide building issues, which includes $2.0 million (HB400) to address a funding shortfall for the relocation of the Children’s Justice Center on O‘ahu.",
+  "fiscal_implications_after_6_years": "After the initial six-year period, the fiscal obligations from this measure will be ongoing, primarily driven by recurring personnel and operational costs. The 17.0 permanent positions (HB400) will represent a sustained annual expense for salaries and benefits, adjusted for inflation. Programs made permanent, along with technology subscriptions like the M365 G5 email upgrade at $1,175,300 (HB400) annually, will require continuous funding from the general fund to maintain service levels.",
+  "updates_from_previous_fiscal_note": "No previous fiscal note was provided in the context documents. Therefore, a comparison of updates cannot be made.",
+  "appropriations_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 0,
+        "text": "The Judiciary requests additional operating resources of $6.17M (HB400) in FY 2026 and $6.25M (HB400) in FY 2027, along with 17.0 permanent FTE and 1.0 temporary FTE (HB400).",
+        "references": [
+          "HB400",
+          "HB400",
+          "HB400"
+        ],
+        "clean_text": "The Judiciary requests additional operating resources of $6.17M  in FY 2026 and $6.25M  in FY 2027, along with 17.0 permanent FTE and 1.0 temporary FTE ."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_HD1_TESTIMONY_JDC_03-19-25_.PDF",
+          "chunk": {
+            "id": 1,
+            "text": "400, House Draft 1, which \nreflects the Judiciary’s resource requirements for Fiscal Biennium 2025–2027. Based on current circumstances and projected resource needs for the future, the Judiciary \nrequests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary \nFTE, and $6.17M in FY 2026, and $6.25M in FY 2027. This is an addition of approximately 3% \nto the Judiciary’s operating budget. The Judiciary remains vigilant during this period of uncertainty \nover federal funding and the possible impact on the State and Judiciary budgets and operations. We have assessed federally-funded grant projects of the Judiciary and are committed to ongoing \ncommunication with the Legislature and with local non-governmental partners of the Judiciary \nwho rely on federal funding. The Judiciary also requests a total of $11.9M in bond funds for capital improvement \nprojects in FY 2026. This amount in bond funds, reflected in House Draft 1, includes a request for \n$2M more in lump sum than the measure as introduced.",
+            "start_sentence": 5,
+            "end_sentence": 11,
+            "token_count": 182,
+            "sentence_count": 7,
+            "similarity_score": 0.723570704460144
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 1,
+        "text": "For capital improvements, the bill appropriates $11.9M (HB400) in bond funds for FY 2026.",
+        "references": [
+          "HB400"
+        ],
+        "clean_text": "For capital improvements, the bill appropriates $11.9M  in bond funds for FY 2026."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_SD1_TESTIMONY_WAM_03-31-25_.PDF",
+          "chunk": {
+            "id": 60,
+            "text": "400, House Draft 1, Senate Draft 1, Relating to the Judiciary \n \nSenate Committee on Ways and Means \n \nMonday, March 31, 2025 \n \nPage 9  \n \n \n(5) \nAdministration \nRestored funding of $71,016 in FY 2026 and $71,016 in FY 2027 for a Purchasing and \nSpecifications Specialist in the Judiciary’s Financial Services Department. This position is in a \ndivision that is responsible for a high volume of purchasing, procurement, and contracts. Among \nother things, this division annually processes over 1,000 purchase requisitions, nearly 900 \ncontracts, and approximately 12 Competitive Sealed Bids and 17 Competitive Purchase of Service \nand Competitive Sealed Proposals solicitations. Capital Improvement Requests: \nCapital Improvement Project (CIP) requirements continue to remain a major item of \nconcern as the Judiciary’s infrastructure continues to age and deteriorate, and as the population \nserved and services provided by the Judiciary continue to expand. We request CIP bond funds \ntotaling $11.9 million for FY 2026 to address critical needs, some of which relate to the health and \nsafety of Judiciary employees and the public.",
+            "start_sentence": 231,
+            "end_sentence": 235,
+            "token_count": 196,
+            "sentence_count": 5,
+            "similarity_score": 0.6722792387008667
+          }
+        }
+      }
+    }
+  ],
+  "policy_impact_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 0,
+        "text": "This bill modifies existing state policy by transitioning pilot projects, like the Women’s Court established by Act 243/22 (HB400), into permanent programs, thereby embedding them into the state's justice system.",
+        "references": [
+          "HB400"
+        ],
+        "clean_text": "This bill modifies existing state policy by transitioning pilot projects, like the Women’s Court established by Act 243/22 , into permanent programs, thereby embedding them into the state's justice system."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_HD1_TESTIMONY_JDC_03-19-25_.PDF",
+          "chunk": {
+            "id": 5,
+            "text": "As for positions, nine of the 18 (17.0 permanent and 1.0 temporary) are requested to \ncontinue current staffing. This is because seven temporary positions for the Women’s Court Pilot \nProject, along with one permanent position and one temporary position for the CJRI, will expire, \nbut there are compelling reasons to continue these programs and the necessary staffing. The \nremaining requested positions will significantly expand capacity to certain operations. Brief details of each request are provided below: \nWomen’s Court – The Women’s Court Pilot Project was established by the Legislature in \nJuly of 2022 (Act 243/22) with funding for a three-year pilot that included seven temporary \npositions, which are set to expire at the end of FY 2025. The request of $705,416 in FY 2026 and \n$705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s \nCourt.",
+            "start_sentence": 16,
+            "end_sentence": 20,
+            "token_count": 165,
+            "sentence_count": 5,
+            "similarity_score": 0.6429663896560669
+          }
+        }
+      }
+    }
+  ],
+  "revenue_sources_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 0,
+        "text": "The operating budget requests, totaling $6.17M (HB400) in FY 2026 and $6.25M (HB400) in FY 2027, are expected to be funded from the state's general fund.",
+        "references": [
+          "HB400",
+          "HB400"
+        ],
+        "clean_text": "The operating budget requests, totaling $6.17M  in FY 2026 and $6.25M  in FY 2027, are expected to be funded from the state's general fund."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_HD1_TESTIMONY_JDC_03-19-25_.PDF",
+          "chunk": {
+            "id": 1,
+            "text": "400, House Draft 1, which \nreflects the Judiciary’s resource requirements for Fiscal Biennium 2025–2027. Based on current circumstances and projected resource needs for the future, the Judiciary \nrequests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary \nFTE, and $6.17M in FY 2026, and $6.25M in FY 2027. This is an addition of approximately 3% \nto the Judiciary’s operating budget. The Judiciary remains vigilant during this period of uncertainty \nover federal funding and the possible impact on the State and Judiciary budgets and operations. We have assessed federally-funded grant projects of the Judiciary and are committed to ongoing \ncommunication with the Legislature and with local non-governmental partners of the Judiciary \nwho rely on federal funding. The Judiciary also requests a total of $11.9M in bond funds for capital improvement \nprojects in FY 2026. This amount in bond funds, reflected in House Draft 1, includes a request for \n$2M more in lump sum than the measure as introduced.",
+            "start_sentence": 5,
+            "end_sentence": 11,
+            "token_count": 182,
+            "sentence_count": 7,
+            "similarity_score": 0.6593799591064453
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 1,
+        "text": "The Capital Improvement Project requests, totaling $11.9M (HB400) for FY 2026, will be financed through the issuance of general obligation bonds.",
+        "references": [
+          "HB400"
+        ],
+        "clean_text": "The Capital Improvement Project requests, totaling $11.9M  for FY 2026, will be financed through the issuance of general obligation bonds."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_HD1_.HTM",
+          "chunk": {
+            "id": 8,
+            "text": "General obligation bonds may be issued, as provided by law, to yield the\namount that may be necessary to finance projects authorized in part II and\nlisted in part IV of this Act; provided that the sum total of the general\nobligation bonds so issued shall not exceed $11,900,000\n. PART VI. SPECIAL PROVISIONS\nSECTION 9. Any law or any provision of this Act to the\ncontrary notwithstanding, the appropriations made for capital improvement\nprojects authorized in part II and listed in part IV of this Act shall not\nlapse at the end of the fiscal year for which the appropriations are made;\nprovided that all appropriations made for fiscal year 2025-2026 and fiscal year\n2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that\ndate. SECTION 10. The judiciary may delegate to other state or county agencies the\nplanning, acquisition of land, design, construction, and equipment of any\ncapital improvement project when it is determined by the judiciary to be advantageous\nto do so. SECTION 11.",
+            "start_sentence": 41,
+            "end_sentence": 47,
+            "token_count": 187,
+            "sentence_count": 7,
+            "similarity_score": 0.7118132710456848
+          }
+        }
+      }
+    }
+  ],
+  "six_year_fiscal_implications_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 0,
+        "text": "The six-year fiscal outlook includes significant recurring costs for the Judiciary's operating budget, with requested increases of $6.17M (HB400) in FY 2026 and $6.25M (HB400) in FY 2027.",
+        "references": [
+          "HB400",
+          "HB400"
+        ],
+        "clean_text": "The six-year fiscal outlook includes significant recurring costs for the Judiciary's operating budget, with requested increases of $6.17M  in FY 2026 and $6.25M  in FY 2027."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_HD1_TESTIMONY_JDC_03-19-25_.PDF",
+          "chunk": {
+            "id": 1,
+            "text": "400, House Draft 1, which \nreflects the Judiciary’s resource requirements for Fiscal Biennium 2025–2027. Based on current circumstances and projected resource needs for the future, the Judiciary \nrequests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary \nFTE, and $6.17M in FY 2026, and $6.25M in FY 2027. This is an addition of approximately 3% \nto the Judiciary’s operating budget. The Judiciary remains vigilant during this period of uncertainty \nover federal funding and the possible impact on the State and Judiciary budgets and operations. We have assessed federally-funded grant projects of the Judiciary and are committed to ongoing \ncommunication with the Legislature and with local non-governmental partners of the Judiciary \nwho rely on federal funding. The Judiciary also requests a total of $11.9M in bond funds for capital improvement \nprojects in FY 2026. This amount in bond funds, reflected in House Draft 1, includes a request for \n$2M more in lump sum than the measure as introduced.",
+            "start_sentence": 5,
+            "end_sentence": 11,
+            "token_count": 182,
+            "sentence_count": 7,
+            "similarity_score": 0.6571241021156311
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 1,
+        "text": "These costs are driven by the addition of 17.0 permanent FTE and 1.0 temporary FTE (HB400), with associated salary and benefits expected to continue annually.",
+        "references": [
+          "HB400"
+        ],
+        "clean_text": "These costs are driven by the addition of 17.0 permanent FTE and 1.0 temporary FTE , with associated salary and benefits expected to continue annually."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_CD1_.HTM",
+          "chunk": {
+            "id": 6,
+            "text": "SECTION 6. Provided that the judiciary may transfer savings from its general fund\nappropriation to the driver education and training fund to accommodate any\ntemporary cash flow deficits. SECTION 7. Provided that of the general fund appropriation for administration\n(JUD601), the sum of $2,218,922 or so much thereof as may be necessary for\nfiscal year 2025-2026 shall be expended for salary adjustments as recommended\nby the commission on salaries; provided further that the chief justice may\ntransfer funds between programs to implement any salary adjustments as\nrecommended by the commission on salaries. PART IV. CAPITAL IMPROVEMENT PROJECTS\nSECTION 8. The sum of $12,900,000 appropriated or authorized in part II of this Act\nfor capital improvement projects shall be expended by the judiciary for the\nprojects listed below; provided that several related or similar projects may be\ncombined into a single project, if a combination is advantageous or convenient\nfor implementation; provided further that the total cost of the projects thus\ncombined shall not exceed the total of the sums specified for the projects\nseparately.",
+            "start_sentence": 30,
+            "end_sentence": 36,
+            "token_count": 187,
+            "sentence_count": 7,
+            "similarity_score": 0.3874634802341461
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 2,
+        "text": "Key recurring program costs include the Women’s Court at $705,416 (HB400) annually, the DWI Court at $232,412 (HB400) in FY 2026 and $237,612 (HB400) in FY 2027, and the new Kona District Court Judge and staff at $368,943 (HB400) in FY 2026 and $360,048 (HB400) in FY 2027.",
+        "references": [
+          "HB400",
+          "HB400",
+          "HB400",
+          "HB400",
+          "HB400"
+        ],
+        "clean_text": "Key recurring program costs include the Women’s Court at $705,416  annually, the DWI Court at $232,412  in FY 2026 and $237,612  in FY 2027, and the new Kona District Court Judge and staff at $368,943  in FY 2026 and $360,048  in FY 2027."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_HD1_TESTIMONY_JDC_03-19-25_.PDF",
+          "chunk": {
+            "id": 19,
+            "text": "Restoring the funding for these \npositions will allow the West and Central O‘ahu court users to expeditiously access and attend \nDistrict Court business and enable the District Courts to facilitate and adjudicate cases in a more \nefficient manner. Kona District Court Judge – The Judiciary requests $368,943 in FY 2026 and $360,048 in \nFY 2027, and 4.0 FTE permanent positions, for an additional District Court Judge and three \nnecessary support staff. The additional judgeship is needed to address the current extraordinary \ncaseload in Kona, as well as the continuing increases in complexity of cases and the time required \nto schedule and hear cases on the court calendars, and to improve public service and safety. The \nKona District Court is assigned to hear all District Court criminal, traffic, and civil matters for the \ndivisions of North Kona, South Kona, and Ka‘ū. The first Kona District Court Judge was sworn in \nnearly forty years ago. Since then, the combined population of North and South Kona and Ka‘ū \nhas more than doubled.",
+            "start_sentence": 62,
+            "end_sentence": 67,
+            "token_count": 192,
+            "sentence_count": 6,
+            "similarity_score": 0.6653956174850464
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 3,
+        "text": "Technology expenses will also be ongoing, with a major cybersecurity email upgrade costing $1,175,300 (HB400) per year and cybersecurity staff and tools costing $458,224 (HB400) annually.",
+        "references": [
+          "HB400",
+          "HB400"
+        ],
+        "clean_text": "Technology expenses will also be ongoing, with a major cybersecurity email upgrade costing $1,175,300  per year and cybersecurity staff and tools costing $458,224  annually."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_.PDF",
+          "chunk": {
+            "id": 21,
+            "text": "First, is a request for $1,175,300 in FY 2026 and $1,175,300 in FY 2027 to upgrade email \nsubscriptions to improve security capabilities. The Judiciary currently uses Microsoft O365 for \nbasic email with multifactor authentication and basic threat detection and protection. With \ngovernment agencies and courts increasingly being targeted for cybersecurity attacks, this level of \nsecurity is no longer sufficient. Upgrading from O365 basic email to M365 G5 email would \nsignificantly enhance the Judiciary’s cybersecurity posture. M365 G5 email—the same level of \nthe State of Hawai‘i Executive Branch, which the Legislature funded during the 2024 Regular \nSession—includes robust cybersecurity features that address prevention, detection, investigation, \nand remediation of cybersecurity attacks on emails and Sharepoint data. House Bill No. 400, Relating to the Judiciary \n \nHouse Committee on Finance \n \nWednesday, March 5, 2025 \n \nPage 5  \n \n \nThe second cybersecurity-related request is for $458,224 in FYs 2026 and 2027 to restore \nfunding for four positions that have since been redescribed to a modern need—a dedicated \ncybersecurity staff.",
+            "start_sentence": 71,
+            "end_sentence": 77,
+            "token_count": 185,
+            "sentence_count": 7,
+            "similarity_score": 0.5624455213546753
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 4,
+        "text": "The Criminal Justice Research Institute requires continued funding of $583,640 (HB400) in FY 2026 and $648,074 (HB400) in FY 2027.",
+        "references": [
+          "HB400",
+          "HB400"
+        ],
+        "clean_text": "The Criminal Justice Research Institute requires continued funding of $583,640  in FY 2026 and $648,074  in FY 2027."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_SD1_TESTIMONY_WAM_03-31-25_.PDF",
+          "chunk": {
+            "id": 41,
+            "text": "More specifically, the first is $512,624 in FY 2026 and \n$577,058 in FY 2027, for a 1.0 FTE permanent Project Specialist position and software. Act 147 \n(SLH 2023) appropriated funds for a permanent Project Specialist and software/technology costs \nfor two years to begin to establish a centralized statewide criminal pretrial justice data reporting \nand collection system. Since then, CJRI has developed the foundation, including continuing to \ncreate a data warehouse and software tool that will modernize data sharing and create a centralized \nsource of pretrial data. CJRI has obtained 15 years of pretrial data from the Department of Law \nEnforcement, the Department of Attorney General, and the Judiciary, and has partnered with these \nagencies to begin mapping data to draft data pipelines. Staff have been trained with software to \ningest data into the data warehouse and established preliminary datasets for pretrial research. The \nProject Specialist position was created to support CJRI with in-house IT expertise. Although the \nposition is permanent, funding ends on June 30, 2025.",
+            "start_sentence": 158,
+            "end_sentence": 164,
+            "token_count": 186,
+            "sentence_count": 7,
+            "similarity_score": 0.55588299036026
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 5,
+        "text": "On the capital side, the $11.9M (HB400) in bond funds for FY 2026 is a one-time expenditure, but the new facilities will introduce new, ongoing operating and maintenance costs in future years.",
+        "references": [
+          "HB400"
+        ],
+        "clean_text": "On the capital side, the $11.9M  in bond funds for FY 2026 is a one-time expenditure, but the new facilities will introduce new, ongoing operating and maintenance costs in future years."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_.PDF",
+          "chunk": {
+            "id": 1,
+            "text": "400, which reflects the \nJudiciary’s resource requirements for Fiscal Biennium 2025–2027. Based on current circumstances and projected resource needs for the future, the Judiciary \nrequests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary \nFTE, and $6.17M in FY 2026, and $6.25M in FY 2027. This is an addition of approximately 3% \nto the Judiciary’s operating budget. The Judiciary remains vigilant during this period of uncertainty \nover federal funding and the possible impact on the State and Judiciary budgets and operations. We have assessed federally-funded grant projects of the Judiciary and are committed to ongoing \ncommunication with the Legislature and with local non-governmental partners of the Judiciary \nwho rely on federal funding. The Judiciary also requests a total of $11.9M in bond funds for capital improvement \nprojects in FY 2026. This amount in bond funds includes a request for $2M more in lump sum \nbond funds than the Judiciary’s request as introduced.",
+            "start_sentence": 5,
+            "end_sentence": 11,
+            "token_count": 176,
+            "sentence_count": 7,
+            "similarity_score": 0.5804638862609863
+          }
+        }
+      }
+    }
+  ],
+  "capital_expenditure_impact_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 0,
+        "text": "The measure requests a total of $11.9M (HB400) in bond funds for capital expenditures in FY 2026.",
+        "references": [
+          "HB400"
+        ],
+        "clean_text": "The measure requests a total of $11.9M  in bond funds for capital expenditures in FY 2026."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_HD1_TESTIMONY_JDC_03-19-25_.PDF",
+          "chunk": {
+            "id": 1,
+            "text": "400, House Draft 1, which \nreflects the Judiciary’s resource requirements for Fiscal Biennium 2025–2027. Based on current circumstances and projected resource needs for the future, the Judiciary \nrequests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary \nFTE, and $6.17M in FY 2026, and $6.25M in FY 2027. This is an addition of approximately 3% \nto the Judiciary’s operating budget. The Judiciary remains vigilant during this period of uncertainty \nover federal funding and the possible impact on the State and Judiciary budgets and operations. We have assessed federally-funded grant projects of the Judiciary and are committed to ongoing \ncommunication with the Legislature and with local non-governmental partners of the Judiciary \nwho rely on federal funding. The Judiciary also requests a total of $11.9M in bond funds for capital improvement \nprojects in FY 2026. This amount in bond funds, reflected in House Draft 1, includes a request for \n$2M more in lump sum than the measure as introduced.",
+            "start_sentence": 5,
+            "end_sentence": 11,
+            "token_count": 182,
+            "sentence_count": 7,
+            "similarity_score": 0.626497745513916
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 1,
+        "text": "This includes $4.0 million (HB400) for the design of a new South Kohala District Courthouse and $900,000 (HB400) to replace an A/C chiller at Pu‘uhonua Kaulike on Kaua‘i.",
+        "references": [
+          "HB400",
+          "HB400"
+        ],
+        "clean_text": "This includes $4.0 million  for the design of a new South Kohala District Courthouse and $900,000  to replace an A/C chiller at Pu‘uhonua Kaulike on Kaua‘i."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_.PDF",
+          "chunk": {
+            "id": 44,
+            "text": "400, Relating to the Judiciary \n \nHouse Committee on Finance \n \nWednesday, March 5, 2025 \n \nPage 9  \n \n \nserved and services provided by the Judiciary continue to expand. We request CIP bond funds \ntotaling $11.9 million for FY 2026 to address critical needs, some of which relate to the health and \nsafety of Judiciary employees and the public. Specifically, the Judiciary is requesting $4.0 million to design a new South Kohala District \nCourthouse. The current South Kohala District Court carries significant concerns for safety, space, \ntemperature, noise, and is quite simply inadequate to serve the community’s court-related needs. The Judiciary also requests $900,000 to replace an A/C chiller on Kaua‘i, at Pu‘uhonua Kaulike. The chiller is near the end of its lifecycle, and A/C manufacturing is experiencing hardships \nresulting in long lead times. The Judiciary also requests $7.0 million in lump sum bond funds to address both continuing \nand emerging building issues statewide.",
+            "start_sentence": 163,
+            "end_sentence": 169,
+            "token_count": 178,
+            "sentence_count": 7,
+            "similarity_score": 0.7749722599983215
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 2,
+        "text": "The remaining $7.0 million (HB400) is requested as lump sum funds for statewide building issues, which includes $2.0 million (HB400) to address a funding shortfall for the relocation of the Children’s Justice Center on O‘ahu.",
+        "references": [
+          "HB400",
+          "HB400"
+        ],
+        "clean_text": "The remaining $7.0 million  is requested as lump sum funds for statewide building issues, which includes $2.0 million  to address a funding shortfall for the relocation of the Children’s Justice Center on O‘ahu."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_HD1_TESTIMONY_JDC_03-19-25_.PDF",
+          "chunk": {
+            "id": 46,
+            "text": "The Judiciary also requests $7.0 million in lump sum bond funds to address both continuing \nand emerging building issues statewide. As stated above, this includes $2.0 million that will be \ndirected to a shortfall in funding for relocation of the Children’s Justice Center on Oʻahu. The \nLegislature provided $6.0 million for that project in 2023. Since then, we have located a site and, \nalong with DAGS, are proceeding. While the final amount remains uncertain, the latest estimate \nis that the project cost will exceed $8.0 million. Accordingly we make this request for additional \nlump sum funds to maintain flexibility. The Judiciary respectfully requests your support of House Bill No. 400, House Draft 1, the \nJudiciary’s biennium budget request. Thank you for the opportunity to testify on this measure.",
+            "start_sentence": 169,
+            "end_sentence": 177,
+            "token_count": 151,
+            "sentence_count": 9,
+            "similarity_score": 0.7820369005203247
+          }
+        }
+      }
+    }
+  ],
+  "fiscal_implications_after_6_years_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 1,
+        "text": "The 17.0 permanent positions (HB400) will represent a sustained annual expense for salaries and benefits, adjusted for inflation.",
+        "references": [
+          "HB400"
+        ],
+        "clean_text": "The 17.0 permanent positions  will represent a sustained annual expense for salaries and benefits, adjusted for inflation."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_HD1_TESTIMONY_JDC_03-19-25_.PDF",
+          "chunk": {
+            "id": 5,
+            "text": "As for positions, nine of the 18 (17.0 permanent and 1.0 temporary) are requested to \ncontinue current staffing. This is because seven temporary positions for the Women’s Court Pilot \nProject, along with one permanent position and one temporary position for the CJRI, will expire, \nbut there are compelling reasons to continue these programs and the necessary staffing. The \nremaining requested positions will significantly expand capacity to certain operations. Brief details of each request are provided below: \nWomen’s Court – The Women’s Court Pilot Project was established by the Legislature in \nJuly of 2022 (Act 243/22) with funding for a three-year pilot that included seven temporary \npositions, which are set to expire at the end of FY 2025. The request of $705,416 in FY 2026 and \n$705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s \nCourt.",
+            "start_sentence": 16,
+            "end_sentence": 20,
+            "token_count": 165,
+            "sentence_count": 5,
+            "similarity_score": 0.4366770386695862
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 2,
+        "text": "Programs made permanent, along with technology subscriptions like the M365 G5 email upgrade at $1,175,300 (HB400) annually, will require continuous funding from the general fund to maintain service levels.",
+        "references": [
+          "HB400"
+        ],
+        "clean_text": "Programs made permanent, along with technology subscriptions like the M365 G5 email upgrade at $1,175,300  annually, will require continuous funding from the general fund to maintain service levels."
+      },
+      "chunk_matches": {
+        "HB400": {
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_.PDF",
+          "chunk": {
+            "id": 22,
+            "text": "M365 G5 email—the same level of \nthe State of Hawai‘i Executive Branch, which the Legislature funded during the 2024 Regular \nSession—includes robust cybersecurity features that address prevention, detection, investigation, \nand remediation of cybersecurity attacks on emails and Sharepoint data. House Bill No. 400, Relating to the Judiciary \n \nHouse Committee on Finance \n \nWednesday, March 5, 2025 \n \nPage 5  \n \n \nThe second cybersecurity-related request is for $458,224 in FYs 2026 and 2027 to restore \nfunding for four positions that have since been redescribed to a modern need—a dedicated \ncybersecurity staff. In addition, this funding would allow for additional tools required to manage \nthe Judiciary’s inventory of assets in an efficient and secure way. Specifically, this includes a suite \nthat can create strong access control, maintain a current inventory and patch the assets, and \nmaintain configuration baselines. The third technology-focused request is for $560,000 in FY 2026 and $420,000 in FY 2027 \nto replace network switches in courthouses across the state that have reached their end-of-life.",
+            "start_sentence": 75,
+            "end_sentence": 80,
+            "token_count": 186,
+            "sentence_count": 6,
+            "similarity_score": 0.5042774677276611
+          }
+        }
+      }
+    }
+  ]
+}

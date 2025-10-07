@@ -162,3 +162,33 @@ export interface BillSimilaritySearch {
   vector_results: BillVectors[];
   search_bill: BillVectors;
 }
+
+export interface DocumentReference {
+  type: 'document_reference';
+  number: number;
+  url: string;
+  document_type: string;
+  document_name: string;
+  description: string;
+  chunk_text?: string;
+  similarity_score?: number;
+}
+
+export interface TimelineItem {
+  date: string;
+  text: string;
+  documents: string[];
+}
+
+export interface FiscalNoteItem {
+  filename: string;
+  data: Record<string, any>;
+}
+
+export interface FiscalNoteData {
+  status: 'ready' | 'generating' | 'error';
+  message?: string;
+  fiscal_notes: FiscalNoteItem[];
+  timeline: TimelineItem[];
+  document_mapping: Record<string, number>;
+}

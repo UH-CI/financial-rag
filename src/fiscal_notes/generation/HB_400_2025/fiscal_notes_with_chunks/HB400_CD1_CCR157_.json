@@ -1,0 +1,346 @@
+{
+  "overview": "This measure finalizes the Judiciary's budget for the 2025-2027 fiscal biennium, appropriating funds for both operating expenses and capital improvement projects. It establishes the specific operating budget totals for fiscal years 2025-2026 and 2026-2027, which were not detailed in the previous version of the bill. The measure also confirms the capital improvement funding of $12,900,000 (HB400_CD1) for fiscal year 2025-2026.",
+  "appropriations": "The final version of the bill appropriates general funds for operating costs amounting to $201,725,676 (HB400_CD1) for fiscal year 2025-2026 and $199,579,345 (HB400_CD1) for fiscal year 2026-2027. These amounts provide the Judiciary's finalized operating budget for the biennium. The measure also confirms a capital improvement appropriation of $12,900,000 (HB400_CD1) in general obligation bonds for FY 2025-2026.",
+  "assumptions_and_methodology": "",
+  "agency_impact": "The finalized operating budget appropriations of $201,725,676 (HB400_CD1) for FY 2025-2026 and $199,579,345 (HB400_CD1) for FY 2026-2027 will determine the Judiciary's staffing, programs, and service levels for the biennium. These figures provide the agency with a concrete financial framework for operational planning. The agency will also move forward with managing the capital improvement projects funded by the $12,900,000 (HB400_CD1) appropriation.",
+  "economic_impact": "",
+  "policy_impact": "This final version of the budget solidifies the legislature's funding priorities for the Judiciary for the next two years. By setting specific operating fund levels, the measure directly impacts the Judiciary's capacity to administer justice and manage its operations. The bill reaffirms the policy of investing in court infrastructure by finalizing the capital improvement budget for the biennium.",
+  "revenue_sources": "The Judiciary's operating budget is now set to be funded primarily by General Fund appropriations of $201,725,676 (HB400_CD1) for FY 2025-2026 and $199,579,345 (HB400_CD1) for FY 2026-2027. Capital improvement projects will be funded through the issuance of $12,900,000 (HB400_CD1) in general obligation bonds. These funding sources are finalized in this conference draft.",
+  "six_year_fiscal_implications": "This measure establishes the Judiciary's baseline operating budget for the next two years, with General Fund appropriations of $201,725,676 (HB400_CD1) for FY 2025-2026 and $199,579,345 (HB400_CD1) for FY 2026-2027. These totals will serve as the foundation for budget requests in subsequent biennia. The total operating budget from all means of finance is set at $214,571,429 (HB400_CD1) for FY 2025-2026 and $212,425,098 (HB400_CD1) for FY 2026-2027. The capital improvement appropriation of $12,900,000 (HB400_CD1) for FY 2025-2026 will create long-term fiscal obligations in the form of debt service payments. Projects funded by this appropriation will likely necessitate future funding requests for construction and will add to recurring operational and maintenance costs beyond the six-year period.",
+  "operating_revenue_impact": "",
+  "capital_expenditure_impact": "This measure finalizes the capital improvement expenditure for the Judiciary at $12,900,000 (HB400_CD1) for fiscal year 2025-2026. This entire amount is funded through the issuance of general obligation bonds. This appropriation confirms the total capital budget discussed in the previous version of the bill.",
+  "fiscal_implications_after_6_years": "",
+  "updates_from_previous_fiscal_note": "The primary update from the previous fiscal note is the finalization of the Judiciary's operating budget for the 2025-2027 fiscal biennium, which was not previously specified. The measure now appropriates General Funds for operations totaling $201,725,676 (HB400_CD1) for FY 2025-2026 and $199,579,345 (HB400_CD1) for FY 2026-2027. This conference draft also formally confirms the capital improvement appropriation of $12,900,000 (HB400_CD1) in general obligation bond funds for FY 2025-2026.",
+  "overview_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 2,
+        "text": "The measure also confirms the capital improvement funding of $12,900,000 (HB400_CD1) for fiscal year 2025-2026.",
+        "references": [
+          "HB400_CD1"
+        ],
+        "clean_text": "The measure also confirms the capital improvement funding of $12,900,000  for fiscal year 2025-2026."
+      },
+      "chunk_matches": {
+        "HB400_CD1": {
+          "document_name": "HB400_CD1_.HTM",
+          "chunk": {
+            "id": 6,
+            "text": "SECTION 6. Provided that the judiciary may transfer savings from its general fund\nappropriation to the driver education and training fund to accommodate any\ntemporary cash flow deficits. SECTION 7. Provided that of the general fund appropriation for administration\n(JUD601), the sum of $2,218,922 or so much thereof as may be necessary for\nfiscal year 2025-2026 shall be expended for salary adjustments as recommended\nby the commission on salaries; provided further that the chief justice may\ntransfer funds between programs to implement any salary adjustments as\nrecommended by the commission on salaries. PART IV. CAPITAL IMPROVEMENT PROJECTS\nSECTION 8. The sum of $12,900,000 appropriated or authorized in part II of this Act\nfor capital improvement projects shall be expended by the judiciary for the\nprojects listed below; provided that several related or similar projects may be\ncombined into a single project, if a combination is advantageous or convenient\nfor implementation; provided further that the total cost of the projects thus\ncombined shall not exceed the total of the sums specified for the projects\nseparately.",
+            "start_sentence": 30,
+            "end_sentence": 36,
+            "token_count": 187,
+            "sentence_count": 7,
+            "similarity_score": 0.7150654792785645
+          }
+        }
+      }
+    }
+  ],
+  "appropriations_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 0,
+        "text": "The final version of the bill appropriates general funds for operating costs amounting to $201,725,676 (HB400_CD1) for fiscal year 2025-2026 and $199,579,345 (HB400_CD1) for fiscal year 2026-2027.",
+        "references": [
+          "HB400_CD1",
+          "HB400_CD1"
+        ],
+        "clean_text": "The final version of the bill appropriates general funds for operating costs amounting to $201,725,676  for fiscal year 2025-2026 and $199,579,345  for fiscal year 2026-2027."
+      },
+      "chunk_matches": {
+        "HB400_CD1": {
+          "document_name": "HB400_CD1_CCR157_.htm",
+          "chunk": {
+            "id": 1,
+            "text": "1,\nS.D. 2, entitled:\n\"A BILL FOR AN ACT RELATING TO THE JUDICIARY,\"\nhaving met, and after full and free discussion, has agreed\nto recommend and does recommend to the respective Houses the final passage of\nthis bill in an amended form. The purpose of this measure is to appropriate funds for the\noperating and capital improvement costs of the Judiciary for the fiscal\nbiennium beginning on July 1, 2025, and ending on June 30, 2027. As introduced,\nthis budget measure appropriated:\nOperating\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n203,319,009\n203,391,600\nALL MEANS OF FINANCE\n216,164,762\n216,237,353\nCapital Improvements\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n0\n0\nGENERAL OBLIGATION BONDS\n9,900,000\n0\nALL MEANS OF FINANCE\n9,900,000\n0\nYour Committee on\nConference has amended this measure by:\n(1)\nInserting appropriate operating and capital\nimprovement amounts for fiscal biennium 2025-2027;\n(2)\nChanging the effective date to July 1, 2025;\nand\n(3)\nMaking\ntechnical, nonsubstantive amendments for the purposes of clarity, consistency,\nand style.",
+            "start_sentence": 9,
+            "end_sentence": 12,
+            "token_count": 191,
+            "sentence_count": 4,
+            "similarity_score": 0.5989129543304443
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 2,
+        "text": "The measure also confirms a capital improvement appropriation of $12,900,000 (HB400_CD1) in general obligation bonds for FY 2025-2026.",
+        "references": [
+          "HB400_CD1"
+        ],
+        "clean_text": "The measure also confirms a capital improvement appropriation of $12,900,000  in general obligation bonds for FY 2025-2026."
+      },
+      "chunk_matches": {
+        "HB400_CD1": {
+          "document_name": "HB400_CD1_.HTM",
+          "chunk": {
+            "id": 9,
+            "text": "General obligation bonds may be issued, as provided by law, to yield the\namount that may be necessary to finance projects authorized in part II and\nlisted in part IV of this Act; provided that the sum total of the general\nobligation bonds so issued shall not exceed $12,900,000\n. PART VI. SPECIAL PROVISIONS\nSECTION 10. Any law or any provision of this Act to the contrary notwithstanding,\nthe appropriations made for capital improvement projects authorized in part II\nand listed in part IV of this Act shall not lapse at the end of the fiscal year\nfor which the appropriations are made; provided that all appropriations made\nfor fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of\nJune 30, 2028, shall lapse as of that date. SECTION 11. The judiciary may delegate to other state or county agencies the\nplanning, acquisition of land, design, construction, and equipment of any\ncapital improvement project when it is determined by the judiciary to be advantageous\nto do so. SECTION 12.",
+            "start_sentence": 46,
+            "end_sentence": 52,
+            "token_count": 187,
+            "sentence_count": 7,
+            "similarity_score": 0.7204736471176147
+          }
+        }
+      }
+    }
+  ],
+  "agency_impact_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 0,
+        "text": "The finalized operating budget appropriations of $201,725,676 (HB400_CD1) for FY 2025-2026 and $199,579,345 (HB400_CD1) for FY 2026-2027 will determine the Judiciary's staffing, programs, and service levels for the biennium.",
+        "references": [
+          "HB400_CD1",
+          "HB400_CD1"
+        ],
+        "clean_text": "The finalized operating budget appropriations of $201,725,676  for FY 2025-2026 and $199,579,345  for FY 2026-2027 will determine the Judiciary's staffing, programs, and service levels for the biennium."
+      },
+      "chunk_matches": {
+        "HB400_CD1": {
+          "document_name": "HB400_CD1_CCR157_.htm",
+          "chunk": {
+            "id": 2,
+            "text": "The purpose of this measure is to appropriate funds for the\noperating and capital improvement costs of the Judiciary for the fiscal\nbiennium beginning on July 1, 2025, and ending on June 30, 2027. As introduced,\nthis budget measure appropriated:\nOperating\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n203,319,009\n203,391,600\nALL MEANS OF FINANCE\n216,164,762\n216,237,353\nCapital Improvements\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n0\n0\nGENERAL OBLIGATION BONDS\n9,900,000\n0\nALL MEANS OF FINANCE\n9,900,000\n0\nYour Committee on\nConference has amended this measure by:\n(1)\nInserting appropriate operating and capital\nimprovement amounts for fiscal biennium 2025-2027;\n(2)\nChanging the effective date to July 1, 2025;\nand\n(3)\nMaking\ntechnical, nonsubstantive amendments for the purposes of clarity, consistency,\nand style. Specifically, this\nbudget measure, as amended, appropriates operating totals of:\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n201,725,676\n199,579,345\nALL MEANS OF FINANCE\n214,571,429\n212,425,098\nAdditionally, this\nbudget measure, as amended, appropriates capital improvement totals of:\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n0\n0\nGENERAL OBLIGATION BONDS\n12,900,000\n0\nALL MEANS OF FINANCE\n12,900,000\n0\nAs affirmed by the\nrecord of votes of the managers of your Committee on Conference that is\nattached to this report, your Committee on Conference is in accord with the\nintent and purpose of H.B.",
+            "start_sentence": 11,
+            "end_sentence": 13,
+            "token_count": 238,
+            "sentence_count": 3,
+            "similarity_score": 0.6784530282020569
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 2,
+        "text": "The agency will also move forward with managing the capital improvement projects funded by the $12,900,000 (HB400_CD1) appropriation.",
+        "references": [
+          "HB400_CD1"
+        ],
+        "clean_text": "The agency will also move forward with managing the capital improvement projects funded by the $12,900,000  appropriation."
+      },
+      "chunk_matches": {
+        "HB400_CD1": {
+          "document_name": "HB400_CD1_.HTM",
+          "chunk": {
+            "id": 6,
+            "text": "SECTION 6. Provided that the judiciary may transfer savings from its general fund\nappropriation to the driver education and training fund to accommodate any\ntemporary cash flow deficits. SECTION 7. Provided that of the general fund appropriation for administration\n(JUD601), the sum of $2,218,922 or so much thereof as may be necessary for\nfiscal year 2025-2026 shall be expended for salary adjustments as recommended\nby the commission on salaries; provided further that the chief justice may\ntransfer funds between programs to implement any salary adjustments as\nrecommended by the commission on salaries. PART IV. CAPITAL IMPROVEMENT PROJECTS\nSECTION 8. The sum of $12,900,000 appropriated or authorized in part II of this Act\nfor capital improvement projects shall be expended by the judiciary for the\nprojects listed below; provided that several related or similar projects may be\ncombined into a single project, if a combination is advantageous or convenient\nfor implementation; provided further that the total cost of the projects thus\ncombined shall not exceed the total of the sums specified for the projects\nseparately.",
+            "start_sentence": 30,
+            "end_sentence": 36,
+            "token_count": 187,
+            "sentence_count": 7,
+            "similarity_score": 0.6962919235229492
+          }
+        }
+      }
+    }
+  ],
+  "revenue_sources_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 0,
+        "text": "The Judiciary's operating budget is now set to be funded primarily by General Fund appropriations of $201,725,676 (HB400_CD1) for FY 2025-2026 and $199,579,345 (HB400_CD1) for FY 2026-2027.",
+        "references": [
+          "HB400_CD1",
+          "HB400_CD1"
+        ],
+        "clean_text": "The Judiciary's operating budget is now set to be funded primarily by General Fund appropriations of $201,725,676  for FY 2025-2026 and $199,579,345  for FY 2026-2027."
+      },
+      "chunk_matches": {
+        "HB400_CD1": {
+          "document_name": "HB400_CD1_CCR157_.htm",
+          "chunk": {
+            "id": 2,
+            "text": "The purpose of this measure is to appropriate funds for the\noperating and capital improvement costs of the Judiciary for the fiscal\nbiennium beginning on July 1, 2025, and ending on June 30, 2027. As introduced,\nthis budget measure appropriated:\nOperating\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n203,319,009\n203,391,600\nALL MEANS OF FINANCE\n216,164,762\n216,237,353\nCapital Improvements\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n0\n0\nGENERAL OBLIGATION BONDS\n9,900,000\n0\nALL MEANS OF FINANCE\n9,900,000\n0\nYour Committee on\nConference has amended this measure by:\n(1)\nInserting appropriate operating and capital\nimprovement amounts for fiscal biennium 2025-2027;\n(2)\nChanging the effective date to July 1, 2025;\nand\n(3)\nMaking\ntechnical, nonsubstantive amendments for the purposes of clarity, consistency,\nand style. Specifically, this\nbudget measure, as amended, appropriates operating totals of:\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n201,725,676\n199,579,345\nALL MEANS OF FINANCE\n214,571,429\n212,425,098\nAdditionally, this\nbudget measure, as amended, appropriates capital improvement totals of:\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n0\n0\nGENERAL OBLIGATION BONDS\n12,900,000\n0\nALL MEANS OF FINANCE\n12,900,000\n0\nAs affirmed by the\nrecord of votes of the managers of your Committee on Conference that is\nattached to this report, your Committee on Conference is in accord with the\nintent and purpose of H.B.",
+            "start_sentence": 11,
+            "end_sentence": 13,
+            "token_count": 238,
+            "sentence_count": 3,
+            "similarity_score": 0.6446953415870667
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 1,
+        "text": "Capital improvement projects will be funded through the issuance of $12,900,000 (HB400_CD1) in general obligation bonds.",
+        "references": [
+          "HB400_CD1"
+        ],
+        "clean_text": "Capital improvement projects will be funded through the issuance of $12,900,000  in general obligation bonds."
+      },
+      "chunk_matches": {
+        "HB400_CD1": {
+          "document_name": "HB400_CD1_.HTM",
+          "chunk": {
+            "id": 9,
+            "text": "General obligation bonds may be issued, as provided by law, to yield the\namount that may be necessary to finance projects authorized in part II and\nlisted in part IV of this Act; provided that the sum total of the general\nobligation bonds so issued shall not exceed $12,900,000\n. PART VI. SPECIAL PROVISIONS\nSECTION 10. Any law or any provision of this Act to the contrary notwithstanding,\nthe appropriations made for capital improvement projects authorized in part II\nand listed in part IV of this Act shall not lapse at the end of the fiscal year\nfor which the appropriations are made; provided that all appropriations made\nfor fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of\nJune 30, 2028, shall lapse as of that date. SECTION 11. The judiciary may delegate to other state or county agencies the\nplanning, acquisition of land, design, construction, and equipment of any\ncapital improvement project when it is determined by the judiciary to be advantageous\nto do so. SECTION 12.",
+            "start_sentence": 46,
+            "end_sentence": 52,
+            "token_count": 187,
+            "sentence_count": 7,
+            "similarity_score": 0.7142680883407593
+          }
+        }
+      }
+    }
+  ],
+  "six_year_fiscal_implications_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 0,
+        "text": "This measure establishes the Judiciary's baseline operating budget for the next two years, with General Fund appropriations of $201,725,676 (HB400_CD1) for FY 2025-2026 and $199,579,345 (HB400_CD1) for FY 2026-2027.",
+        "references": [
+          "HB400_CD1",
+          "HB400_CD1"
+        ],
+        "clean_text": "This measure establishes the Judiciary's baseline operating budget for the next two years, with General Fund appropriations of $201,725,676  for FY 2025-2026 and $199,579,345  for FY 2026-2027."
+      },
+      "chunk_matches": {
+        "HB400_CD1": {
+          "document_name": "HB400_CD1_CCR157_.htm",
+          "chunk": {
+            "id": 2,
+            "text": "The purpose of this measure is to appropriate funds for the\noperating and capital improvement costs of the Judiciary for the fiscal\nbiennium beginning on July 1, 2025, and ending on June 30, 2027. As introduced,\nthis budget measure appropriated:\nOperating\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n203,319,009\n203,391,600\nALL MEANS OF FINANCE\n216,164,762\n216,237,353\nCapital Improvements\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n0\n0\nGENERAL OBLIGATION BONDS\n9,900,000\n0\nALL MEANS OF FINANCE\n9,900,000\n0\nYour Committee on\nConference has amended this measure by:\n(1)\nInserting appropriate operating and capital\nimprovement amounts for fiscal biennium 2025-2027;\n(2)\nChanging the effective date to July 1, 2025;\nand\n(3)\nMaking\ntechnical, nonsubstantive amendments for the purposes of clarity, consistency,\nand style. Specifically, this\nbudget measure, as amended, appropriates operating totals of:\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n201,725,676\n199,579,345\nALL MEANS OF FINANCE\n214,571,429\n212,425,098\nAdditionally, this\nbudget measure, as amended, appropriates capital improvement totals of:\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n0\n0\nGENERAL OBLIGATION BONDS\n12,900,000\n0\nALL MEANS OF FINANCE\n12,900,000\n0\nAs affirmed by the\nrecord of votes of the managers of your Committee on Conference that is\nattached to this report, your Committee on Conference is in accord with the\nintent and purpose of H.B.",
+            "start_sentence": 11,
+            "end_sentence": 13,
+            "token_count": 238,
+            "sentence_count": 3,
+            "similarity_score": 0.7133885622024536
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 2,
+        "text": "The total operating budget from all means of finance is set at $214,571,429 (HB400_CD1) for FY 2025-2026 and $212,425,098 (HB400_CD1) for FY 2026-2027.",
+        "references": [
+          "HB400_CD1",
+          "HB400_CD1"
+        ],
+        "clean_text": "The total operating budget from all means of finance is set at $214,571,429  for FY 2025-2026 and $212,425,098  for FY 2026-2027."
+      },
+      "chunk_matches": {
+        "HB400_CD1": {
+          "document_name": "HB400_CD1_CCR157_.htm",
+          "chunk": {
+            "id": 2,
+            "text": "The purpose of this measure is to appropriate funds for the\noperating and capital improvement costs of the Judiciary for the fiscal\nbiennium beginning on July 1, 2025, and ending on June 30, 2027. As introduced,\nthis budget measure appropriated:\nOperating\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n203,319,009\n203,391,600\nALL MEANS OF FINANCE\n216,164,762\n216,237,353\nCapital Improvements\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n0\n0\nGENERAL OBLIGATION BONDS\n9,900,000\n0\nALL MEANS OF FINANCE\n9,900,000\n0\nYour Committee on\nConference has amended this measure by:\n(1)\nInserting appropriate operating and capital\nimprovement amounts for fiscal biennium 2025-2027;\n(2)\nChanging the effective date to July 1, 2025;\nand\n(3)\nMaking\ntechnical, nonsubstantive amendments for the purposes of clarity, consistency,\nand style. Specifically, this\nbudget measure, as amended, appropriates operating totals of:\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n201,725,676\n199,579,345\nALL MEANS OF FINANCE\n214,571,429\n212,425,098\nAdditionally, this\nbudget measure, as amended, appropriates capital improvement totals of:\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n0\n0\nGENERAL OBLIGATION BONDS\n12,900,000\n0\nALL MEANS OF FINANCE\n12,900,000\n0\nAs affirmed by the\nrecord of votes of the managers of your Committee on Conference that is\nattached to this report, your Committee on Conference is in accord with the\nintent and purpose of H.B.",
+            "start_sentence": 11,
+            "end_sentence": 13,
+            "token_count": 238,
+            "sentence_count": 3,
+            "similarity_score": 0.6187121868133545
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 3,
+        "text": "The capital improvement appropriation of $12,900,000 (HB400_CD1) for FY 2025-2026 will create long-term fiscal obligations in the form of debt service payments.",
+        "references": [
+          "HB400_CD1"
+        ],
+        "clean_text": "The capital improvement appropriation of $12,900,000  for FY 2025-2026 will create long-term fiscal obligations in the form of debt service payments."
+      },
+      "chunk_matches": {
+        "HB400_CD1": {
+          "document_name": "HB400_CD1_.HTM",
+          "chunk": {
+            "id": 6,
+            "text": "SECTION 6. Provided that the judiciary may transfer savings from its general fund\nappropriation to the driver education and training fund to accommodate any\ntemporary cash flow deficits. SECTION 7. Provided that of the general fund appropriation for administration\n(JUD601), the sum of $2,218,922 or so much thereof as may be necessary for\nfiscal year 2025-2026 shall be expended for salary adjustments as recommended\nby the commission on salaries; provided further that the chief justice may\ntransfer funds between programs to implement any salary adjustments as\nrecommended by the commission on salaries. PART IV. CAPITAL IMPROVEMENT PROJECTS\nSECTION 8. The sum of $12,900,000 appropriated or authorized in part II of this Act\nfor capital improvement projects shall be expended by the judiciary for the\nprojects listed below; provided that several related or similar projects may be\ncombined into a single project, if a combination is advantageous or convenient\nfor implementation; provided further that the total cost of the projects thus\ncombined shall not exceed the total of the sums specified for the projects\nseparately.",
+            "start_sentence": 30,
+            "end_sentence": 36,
+            "token_count": 187,
+            "sentence_count": 7,
+            "similarity_score": 0.6965930461883545
+          }
+        }
+      }
+    }
+  ],
+  "capital_expenditure_impact_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 0,
+        "text": "This measure finalizes the capital improvement expenditure for the Judiciary at $12,900,000 (HB400_CD1) for fiscal year 2025-2026.",
+        "references": [
+          "HB400_CD1"
+        ],
+        "clean_text": "This measure finalizes the capital improvement expenditure for the Judiciary at $12,900,000  for fiscal year 2025-2026."
+      },
+      "chunk_matches": {
+        "HB400_CD1": {
+          "document_name": "HB400_CD1_.HTM",
+          "chunk": {
+            "id": 6,
+            "text": "SECTION 6. Provided that the judiciary may transfer savings from its general fund\nappropriation to the driver education and training fund to accommodate any\ntemporary cash flow deficits. SECTION 7. Provided that of the general fund appropriation for administration\n(JUD601), the sum of $2,218,922 or so much thereof as may be necessary for\nfiscal year 2025-2026 shall be expended for salary adjustments as recommended\nby the commission on salaries; provided further that the chief justice may\ntransfer funds between programs to implement any salary adjustments as\nrecommended by the commission on salaries. PART IV. CAPITAL IMPROVEMENT PROJECTS\nSECTION 8. The sum of $12,900,000 appropriated or authorized in part II of this Act\nfor capital improvement projects shall be expended by the judiciary for the\nprojects listed below; provided that several related or similar projects may be\ncombined into a single project, if a combination is advantageous or convenient\nfor implementation; provided further that the total cost of the projects thus\ncombined shall not exceed the total of the sums specified for the projects\nseparately.",
+            "start_sentence": 30,
+            "end_sentence": 36,
+            "token_count": 187,
+            "sentence_count": 7,
+            "similarity_score": 0.7487726211547852
+          }
+        }
+      }
+    }
+  ],
+  "updates_from_previous_fiscal_note_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 1,
+        "text": "The measure now appropriates General Funds for operations totaling $201,725,676 (HB400_CD1) for FY 2025-2026 and $199,579,345 (HB400_CD1) for FY 2026-2027.",
+        "references": [
+          "HB400_CD1",
+          "HB400_CD1"
+        ],
+        "clean_text": "The measure now appropriates General Funds for operations totaling $201,725,676  for FY 2025-2026 and $199,579,345  for FY 2026-2027."
+      },
+      "chunk_matches": {
+        "HB400_CD1": {
+          "document_name": "HB400_CD1_CCR157_.htm",
+          "chunk": {
+            "id": 2,
+            "text": "The purpose of this measure is to appropriate funds for the\noperating and capital improvement costs of the Judiciary for the fiscal\nbiennium beginning on July 1, 2025, and ending on June 30, 2027. As introduced,\nthis budget measure appropriated:\nOperating\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n203,319,009\n203,391,600\nALL MEANS OF FINANCE\n216,164,762\n216,237,353\nCapital Improvements\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n0\n0\nGENERAL OBLIGATION BONDS\n9,900,000\n0\nALL MEANS OF FINANCE\n9,900,000\n0\nYour Committee on\nConference has amended this measure by:\n(1)\nInserting appropriate operating and capital\nimprovement amounts for fiscal biennium 2025-2027;\n(2)\nChanging the effective date to July 1, 2025;\nand\n(3)\nMaking\ntechnical, nonsubstantive amendments for the purposes of clarity, consistency,\nand style. Specifically, this\nbudget measure, as amended, appropriates operating totals of:\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n201,725,676\n199,579,345\nALL MEANS OF FINANCE\n214,571,429\n212,425,098\nAdditionally, this\nbudget measure, as amended, appropriates capital improvement totals of:\nFY 2025-2026\nFY 2026-2027\nGENERAL FUNDS\n0\n0\nGENERAL OBLIGATION BONDS\n12,900,000\n0\nALL MEANS OF FINANCE\n12,900,000\n0\nAs affirmed by the\nrecord of votes of the managers of your Committee on Conference that is\nattached to this report, your Committee on Conference is in accord with the\nintent and purpose of H.B.",
+            "start_sentence": 11,
+            "end_sentence": 13,
+            "token_count": 238,
+            "sentence_count": 3,
+            "similarity_score": 0.6472979784011841
+          }
+        }
+      }
+    },
+    {
+      "sentence": {
+        "sentence_id": 2,
+        "text": "This conference draft also formally confirms the capital improvement appropriation of $12,900,000 (HB400_CD1) in general obligation bond funds for FY 2025-2026.",
+        "references": [
+          "HB400_CD1"
+        ],
+        "clean_text": "This conference draft also formally confirms the capital improvement appropriation of $12,900,000  in general obligation bond funds for FY 2025-2026."
+      },
+      "chunk_matches": {
+        "HB400_CD1": {
+          "document_name": "HB400_CD1_.HTM",
+          "chunk": {
+            "id": 9,
+            "text": "General obligation bonds may be issued, as provided by law, to yield the\namount that may be necessary to finance projects authorized in part II and\nlisted in part IV of this Act; provided that the sum total of the general\nobligation bonds so issued shall not exceed $12,900,000\n. PART VI. SPECIAL PROVISIONS\nSECTION 10. Any law or any provision of this Act to the contrary notwithstanding,\nthe appropriations made for capital improvement projects authorized in part II\nand listed in part IV of this Act shall not lapse at the end of the fiscal year\nfor which the appropriations are made; provided that all appropriations made\nfor fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of\nJune 30, 2028, shall lapse as of that date. SECTION 11. The judiciary may delegate to other state or county agencies the\nplanning, acquisition of land, design, construction, and equipment of any\ncapital improvement project when it is determined by the judiciary to be advantageous\nto do so. SECTION 12.",
+            "start_sentence": 46,
+            "end_sentence": 52,
+            "token_count": 187,
+            "sentence_count": 7,
+            "similarity_score": 0.6955071687698364
+          }
+        }
+      }
+    }
+  ]
+}

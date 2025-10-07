@@ -1,0 +1,146 @@
+{
+  "overview": "This measure still appropriates funds for the Judiciary's biennium budget, but it has been amended to address federal actions impacting immigration. In addition to funding Judiciary operations and capital projects, the bill now also includes appropriations for civil and immigration-related legal services. This addition reflects testimony concerning the increased need for legal support for low-income and immigrant communities.",
+  "appropriations": "The Senate Committee on Judiciary has increased the appropriation for the Administration (JUD601) program. The committee report increases the appropriation by $1,750,000 (HB400_SD1_SSCR1253_) to fund civil legal services and legal representation in immigration-related proceedings. This is in addition to the operating and capital funds detailed previously.",
+  "assumptions_and_methodology": "",
+  "agency_impact": "While the impact on core Judiciary operations remains as previously described, the department will now have an expanded administrative role. The Judiciary will be responsible for administering and disbursing the newly appropriated funds for civil and immigration legal services to external non-profit organizations. This adds a new layer of fiscal and programmatic oversight to the Administration (JUD601) program.",
+  "economic_impact": "The measure now directly addresses requests from legal aid organizations by providing new funding for their services. Testimony from The Legal Clinic requested $750,000 (HB400_HD1_TESTIMONY_JDC_03-19-25_) for immigration-related proceedings, and multiple organizations pursued an additional $1,000,000 (HB400_HD1_TESTIMONY_JDC_03-19-25_) for civil legal services. The committee report recommends funding these requests, which will expand the capacity of providers to assist low-income residents facing eviction, deportation, and family separation.",
+  "policy_impact": "This measure now establishes a new state policy of providing dedicated funding for legal services related to immigration court proceedings. This change, reflected in the committee report's specific allocation of $750,000 (HB400_SD1_SSCR1253_) for this purpose, is a direct response to concerns over federal immigration enforcement. It represents a significant expansion of the state's role in ensuring access to justice for non-citizen residents.",
+  "revenue_sources": "",
+  "six_year_fiscal_implications": "In addition to the Judiciary's internal operating requests, the six-year outlook now includes a significant new recurring expenditure for legal services. The committee report's addition of $1,750,000 (HB400_SD1_SSCR1253_) for civil and immigration legal services in FY 2026 establishes a new baseline for the JUD601 program budget. Testimony from multiple legal aid societies suggests this need is ongoing, indicating that these funds will likely be requested in subsequent biennia. This creates a new, sustained general fund obligation administered through the Judiciary.",
+  "operating_revenue_impact": "",
+  "capital_expenditure_impact": "",
+  "fiscal_implications_after_6_years": "The newly established funding streams for civil and immigration-related legal services are likely to become an ongoing fiscal obligation. As these funds are intended to address systemic needs highlighted in testimony, there will be an expectation for their continuation beyond the initial six-year period. This institutionalizes a new category of state expenditure administered by the Judiciary.",
+  "updates_from_previous_fiscal_note": "The primary update from the previous fiscal note is the amendment to the Judiciary's budget to include substantial new funding for external legal services providers. While the prior note finalized the HD1 budget, this note reflects the changes in SD1, which adds $1,750,000 (HB400_SD1_SSCR1253_) to the Administration (JUD601) budget. This new appropriation is specifically designated for civil legal services and, for the first time, for legal services for individuals in immigration-related court proceedings, based on testimony from several legal aid organizations.",
+  "appropriations_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 1,
+        "text": "The committee report increases the appropriation by $1,750,000 (HB400_SD1_SSCR1253_) to fund civil legal services and legal representation in immigration-related proceedings.",
+        "references": [
+          "HB400_SD1_SSCR1253_"
+        ],
+        "clean_text": "The committee report increases the appropriation by $1,750,000  to fund civil legal services and legal representation in immigration-related proceedings."
+      },
+      "chunk_matches": {
+        "HB400_SD1_SSCR1253_": {
+          "document_name": "HB400_SD1_SSCR1253_.htm",
+          "chunk": {
+            "id": 2,
+            "text": "Your Committee finds\nthat the appropriations made by this measure are intended to assist the\nJudiciary in its efforts to fulfill its constitutional and statutory duties\nduring the 2025‑2027 fiscal biennium. Your Committee\nrecognizes the current efforts of the federal government to downsize or\neliminate certain federal programs and to increase the number and rate of\ndeportations. Your Committee further\nrecognizes the potential impacts of these actions on people in Hawaii,\nincluding increased costs and adverse consequences for families and businesses. Accordingly, your Committee recommends that\nthe Judiciary budget be amended by providing an additional $1,000,000 for civil\nlegal services and $750,000 for legal services to individuals in\nimmigration-related court proceedings.",
+            "start_sentence": 13,
+            "end_sentence": 16,
+            "token_count": 119,
+            "sentence_count": 4,
+            "similarity_score": 0.724905252456665
+          }
+        }
+      }
+    }
+  ],
+  "economic_impact_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 1,
+        "text": "Testimony from The Legal Clinic requested $750,000 (HB400_HD1_TESTIMONY_JDC_03-19-25_) for immigration-related proceedings, and multiple organizations pursued an additional $1,000,000 (HB400_HD1_TESTIMONY_JDC_03-19-25_) for civil legal services.",
+        "references": [
+          "HB400_HD1_TESTIMONY_JDC_03-19-25_",
+          "HB400_HD1_TESTIMONY_JDC_03-19-25_"
+        ],
+        "clean_text": "Testimony from The Legal Clinic requested $750,000  for immigration-related proceedings, and multiple organizations pursued an additional $1,000,000  for civil legal services."
+      },
+      "chunk_matches": {
+        "HB400_HD1_TESTIMONY_JDC_03-19-25_": {
+          "document_name": "HB400_HD1_TESTIMONY_JDC_03-19-25_.PDF",
+          "chunk": {
+            "id": 71,
+            "text": "For example, with the \ncurrent federal administration’s immigration enforcement actions and rhetoric, TLC is expecting a surge \nin Hawai‘i immigration court cases. TLC is already experiencing an increased demand for pro bono legal \nimmigration services. Thus, TLC supports the current budget of $1.2 million and an increase of an additional $1 million to the \nJudiciary’s civil legal services fund. TLC additionally respectfully requests funding of $750,000 to provide \naccess for legal representation to individuals in immigration-related proceedings in immigration court, \nincluding deportation defense, asylum applications, and other immigration relief processes, ensuring \ndue process and promoting family unity, community stability, and economic security. TLC notes that our \nrequests should not supplant any of the Judiciary’s budget priorities. Thank you for the opportunity to testify in support of HB400, HD1, and TLC respectfully urges the \nCommittee members to pass HB400 , HD1 out of your Committee. If you have questions of me, please \ncontact us at sma@tlchawaii.org.",
+            "start_sentence": 280,
+            "end_sentence": 286,
+            "token_count": 187,
+            "sentence_count": 7,
+            "similarity_score": 0.5848357677459717
+          }
+        }
+      }
+    }
+  ],
+  "policy_impact_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 1,
+        "text": "This change, reflected in the committee report's specific allocation of $750,000 (HB400_SD1_SSCR1253_) for this purpose, is a direct response to concerns over federal immigration enforcement.",
+        "references": [
+          "HB400_SD1_SSCR1253_"
+        ],
+        "clean_text": "This change, reflected in the committee report's specific allocation of $750,000  for this purpose, is a direct response to concerns over federal immigration enforcement."
+      },
+      "chunk_matches": {
+        "HB400_SD1_SSCR1253_": {
+          "document_name": "HB400_SD1_SSCR1253_.htm",
+          "chunk": {
+            "id": 2,
+            "text": "Your Committee finds\nthat the appropriations made by this measure are intended to assist the\nJudiciary in its efforts to fulfill its constitutional and statutory duties\nduring the 2025‑2027 fiscal biennium. Your Committee\nrecognizes the current efforts of the federal government to downsize or\neliminate certain federal programs and to increase the number and rate of\ndeportations. Your Committee further\nrecognizes the potential impacts of these actions on people in Hawaii,\nincluding increased costs and adverse consequences for families and businesses. Accordingly, your Committee recommends that\nthe Judiciary budget be amended by providing an additional $1,000,000 for civil\nlegal services and $750,000 for legal services to individuals in\nimmigration-related court proceedings.",
+            "start_sentence": 13,
+            "end_sentence": 16,
+            "token_count": 119,
+            "sentence_count": 4,
+            "similarity_score": 0.7066990733146667
+          }
+        }
+      }
+    }
+  ],
+  "six_year_fiscal_implications_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 1,
+        "text": "The committee report's addition of $1,750,000 (HB400_SD1_SSCR1253_) for civil and immigration legal services in FY 2026 establishes a new baseline for the JUD601 program budget.",
+        "references": [
+          "HB400_SD1_SSCR1253_"
+        ],
+        "clean_text": "The committee report's addition of $1,750,000  for civil and immigration legal services in FY 2026 establishes a new baseline for the JUD601 program budget."
+      },
+      "chunk_matches": {
+        "HB400_SD1_SSCR1253_": {
+          "document_name": "HB400_SD1_SSCR1253_.htm",
+          "chunk": {
+            "id": 3,
+            "text": "Your Committee further\nrecognizes the potential impacts of these actions on people in Hawaii,\nincluding increased costs and adverse consequences for families and businesses. Accordingly, your Committee recommends that\nthe Judiciary budget be amended by providing an additional $1,000,000 for civil\nlegal services and $750,000 for legal services to individuals in\nimmigration-related court proceedings. Your Committee has\namended this measure by:\n(1)\nIncreasing the appropriation for Administration\n(JUD601) by $1,750,000;\n(2)\nProviding for an unspecified sum to be\nexpended by Administration (JUD601) for civil legal services;\n(3)\nProviding for an unspecified sum to be\nexpended by Administration (JUD601) for legal services for individuals in\nimmigration-related proceedings in immigration court; and\n(4)\nChanging the effective date to April 23, 2057,\nto facilitate further discussion on the measure. As affirmed by the\nrecord of votes of the members of your Committee on Judiciary that is attached\nto this report, your Committee is in accord with the intent and purpose of H.B. No. 400, H.D.",
+            "start_sentence": 15,
+            "end_sentence": 20,
+            "token_count": 195,
+            "sentence_count": 6,
+            "similarity_score": 0.6857104301452637
+          }
+        }
+      }
+    }
+  ],
+  "updates_from_previous_fiscal_note_chunk_references": [
+    {
+      "sentence": {
+        "sentence_id": 1,
+        "text": "While the prior note finalized the HD1 budget, this note reflects the changes in SD1, which adds $1,750,000 (HB400_SD1_SSCR1253_) to the Administration (JUD601) budget.",
+        "references": [
+          "HB400_SD1_SSCR1253_",
+          "JUD601"
+        ],
+        "clean_text": "While the prior note finalized the HD1 budget, this note reflects the changes in SD1, which adds $1,750,000  to the Administration  budget."
+      },
+      "chunk_matches": {
+        "HB400_SD1_SSCR1253_": {
+          "document_name": "HB400_SD1_SSCR1253_.htm",
+          "chunk": {
+            "id": 3,
+            "text": "Your Committee further\nrecognizes the potential impacts of these actions on people in Hawaii,\nincluding increased costs and adverse consequences for families and businesses. Accordingly, your Committee recommends that\nthe Judiciary budget be amended by providing an additional $1,000,000 for civil\nlegal services and $750,000 for legal services to individuals in\nimmigration-related court proceedings. Your Committee has\namended this measure by:\n(1)\nIncreasing the appropriation for Administration\n(JUD601) by $1,750,000;\n(2)\nProviding for an unspecified sum to be\nexpended by Administration (JUD601) for civil legal services;\n(3)\nProviding for an unspecified sum to be\nexpended by Administration (JUD601) for legal services for individuals in\nimmigration-related proceedings in immigration court; and\n(4)\nChanging the effective date to April 23, 2057,\nto facilitate further discussion on the measure. As affirmed by the\nrecord of votes of the members of your Committee on Judiciary that is attached\nto this report, your Committee is in accord with the intent and purpose of H.B. No. 400, H.D.",
+            "start_sentence": 15,
+            "end_sentence": 20,
+            "token_count": 195,
+            "sentence_count": 6,
+            "similarity_score": 0.42745664715766907
+          }
+        }
+      }
+    }
+  ]
+}

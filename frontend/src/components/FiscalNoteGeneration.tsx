@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { getFiscalNoteFiles, createFiscalNote, getFiscalNote, deleteFiscalNote, getFiscalNoteFilesSeptember, getFiscalNoteSeptember } from "../services/api";
 import { Loader2 } from "lucide-react";
+import FiscalNoteViewer from "./FiscalNoteViewer";
 
 interface CreateFiscalNoteForm {
   billType: 'HB' | 'SB';
@@ -15,6 +16,7 @@ const FiscalNoteGeneration = () => {
   const [isCreating, setIsCreating] = useState(false);
   const [fiscalNoteHtml, setFiscalNoteHtml] = useState<string>('');
   const [selectedFiscalNote, setSelectedFiscalNote] = useState<string>('');
+  const [useNewViewer, setUseNewViewer] = useState<boolean>(true);
   const [formData, setFormData] = useState<CreateFiscalNoteForm>({
     billType: 'HB',
     billNumber: '',
@@ -339,9 +341,9 @@ const FiscalNoteGeneration = () => {
   };
 
   return (
-    <div className="flex h-screen bg-gray-50">
+    <div className="flex h-screen w-screen bg-gray-50 overflow-x-hidden">
       {/* Left Sidebar */}
-      <div className="w-80 bg-white shadow-lg border-r border-gray-200 flex flex-col">
+      <div className="w-80 min-w-0 bg-white shadow-lg border-r border-gray-200 flex flex-col flex-shrink-0 sticky top-0 h-screen overflow-y-auto">
         <div className="p-6 border-b border-gray-200">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold text-gray-900">Fiscal Note Generation</h1>
@@ -563,8 +565,34 @@ const FiscalNoteGeneration = () => {
       </div>
 
       {/* Main Content Area */}
-      <div className="flex-1 flex flex-col">
-        {fiscalNoteHtml ? (
+      <div className="flex-1 flex flex-col min-w-0">
+        {selectedFiscalNote && useNewViewer ? (
+          <div className="flex-1 h-full overflow-hidden">
+            {(() => {
+              const parts = selectedFiscalNote.split('_');
+              if (parts.length >= 2) {
+                const billType = parts[0] as 'HB' | 'SB';
+                const billNumber = parts[1];
+                const year = parts[2] || '2025';
+                return (
+                  <FiscalNoteViewer
+                    billType={billType}
+                    billNumber={billNumber}
+                    year={year}
+                  />
+                );
+              }
+              return (
+                <div className="flex items-center justify-center h-64">
+                  <div className="text-center">
+                    <div className="text-red-600 mb-2">⚠️ Error</div>
+                    <div className="text-gray-600">Invalid fiscal note format</div>
+                  </div>
+                </div>
+              );
+            })()}
+          </div>
+        ) : fiscalNoteHtml ? (
           <div className="flex-1 overflow-auto p-6">
             {loadingFiscalNote && (
               <div className="flex items-center justify-center">
@@ -572,6 +600,15 @@ const FiscalNoteGeneration = () => {
                 <p className="ml-2">Generating fiscal note...</p>
               </div>
             )}
+            <div className="mb-4 flex items-center justify-between">
+              <h2 className="text-lg font-semibold text-gray-900">Legacy Viewer</h2>
+              <button
+                onClick={() => setUseNewViewer(true)}
+                className="px-3 py-1 text-sm bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
+              >
+                Switch to New Viewer
+              </button>
+            </div>
             <div
               className="prose max-w-none"
               dangerouslySetInnerHTML={{ __html: fiscalNoteHtml }}

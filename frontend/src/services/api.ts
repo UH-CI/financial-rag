@@ -6,7 +6,8 @@ import type {
   CollectionsResponse,
   Bill,
   FiscalNote,
-  BillSimilaritySearch
+  BillSimilaritySearch,
+  FiscalNoteData
 } from '../types';
 
 // API configuration
@@ -170,7 +171,7 @@ export const createFiscalNote = async (
 };
 
 /**
- * Get fiscal note HTML content
+ * Get fiscal note HTML content (legacy)
  */
 export const getFiscalNote = async (
   billType: 'HB' | 'SB',
@@ -185,6 +186,26 @@ export const getFiscalNote = async (
     },
     responseType: 'text' // Important: expect HTML response
   });
+  return response.data;
+};
+
+/**
+ * Get fiscal note structured data for React frontend
+ */
+export const getFiscalNoteData = async (
+  billType: 'HB' | 'SB',
+  billNumber: string,
+  year: string = '2025'
+): Promise<FiscalNoteData> => {
+  const response = await api.post('/get_fiscal_note_data', null, {
+    params: {
+      bill_type: billType,
+      bill_number: billNumber,
+      year: year
+    }
+  });
+  console.log(response.data)
+
   return response.data;
 };
 
