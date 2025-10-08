@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import { Search, Loader2, AlertCircle, ChevronDown, ChevronUp, Brain } from 'lucide-react';
-import ReactMarkdown from 'react-markdown';
+import React, { useState, useEffect } from 'react';
+import { Search, Loader2, Brain, AlertCircle, ChevronDown, ChevronUp, X } from 'lucide-react';
 import { getBillSimilaritySearch, askLLM } from '../services/api';
 import type { BillSimilaritySearch, BillVectors } from '../types';
+import ReactMarkdown from 'react-markdown';
 
 const SimilarBillSearch = () => {
   const [billType, setBillType] = useState<'HB' | 'SB'>('HB');
@@ -12,8 +12,24 @@ const SimilarBillSearch = () => {
   const [error, setError] = useState<string | null>(null);
   const [expandedSummaries, setExpandedSummaries] = useState<Set<string>>(new Set());
   const [llmAnalysis, setLlmAnalysis] = useState<string | null>(null);
+  const [billClassification, setBillClassification] = useState<any>(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [analysisError, setAnalysisError] = useState<string | null>(null);
+  const [selectedBill, setSelectedBill] = useState<BillVectors | null>(null);
+  const [tooltipPosition, setTooltipPosition] = useState<{x: number, y: number} | null>(null);
+
+  // Close tooltip on scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      if (selectedBill) {
+        setSelectedBill(null);
+        setTooltipPosition(null);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll, true);
+    return () => window.removeEventListener('scroll', handleScroll, true);
+  }, [selectedBill]);
 
   const handleSearch = async () => {
     if (!billNumber.trim()) {
@@ -52,6 +68,48 @@ const SimilarBillSearch = () => {
     }
     setExpandedSummaries(newExpanded);
   };
+
+  // Helper function to get cluster colors
+  const getClusterColor = (cluster: number) => {
+    const colors = [
+      '#3B82F6', // blue
+      '#10B981', // emerald
+      '#F59E0B', // amber
+      '#EF4444', // red
+      '#8B5CF6', // violet
+      '#06B6D4', // cyan
+      '#84CC16', // lime
+      '#F97316', // orange
+      '#EC4899', // pink
+      '#6B7280', // gray
+    ];
+    return colors[cluster % colors.length];
+  };
+
+  // Helper function to handle bill click
+  const handleBillClick = (bill: BillVectors, event: React.MouseEvent) => {
+    // If clicking the same bill, close tooltip
+    if (selectedBill && selectedBill.bill_name === bill.bill_name) {
+      setSelectedBill(null);
+      setTooltipPosition(null);
+      return;
+    }
+
+    // Simple viewport positioning
+    const rect = event.currentTarget.getBoundingClientRect();
+    const tooltipX = rect.left + rect.width / 2;
+    const tooltipY = rect.bottom + 10;
+
+    setSelectedBill(bill);
+    setTooltipPosition({ x: tooltipX, y: tooltipY });
+  };
+
+  // Helper function to get bill classification
+  const getBillClassification = (billName: string) => {
+    if (!billClassification) return null;
+    return billClassification.find((b: any) => b.bill_name === billName);
+  };
+
 
   const handleLLMAnalysis = async () => {
     if (!searchResults || (searchResults.tfidf_results.length === 0 && searchResults.vector_results.length === 0)) {
@@ -92,12 +150,251 @@ Be very specific in your analysis about how the bills are either competing, simi
       const analysis = await askLLM(prompt);
       console.log('Received analysis:', analysis);
       setLlmAnalysis(analysis);
+
+      // Second LLM call for bill classification
+      const classificationPrompt = `
+Analyze the following similar bills found for ${searchResults.search_bill.bill_name}:
+
+**Search Bill:**
+${searchResults.search_bill.bill_name}: ${searchResults.search_bill.summary}
+
+**Similar Bills:**
+${uniqueBills.map((bill, index) => 
+  `${index + 1}. ${bill.bill_name}: ${bill.summary}`
+).join('\n')}
+
+Based on the analysis above, classify each similar bill with the following properties:
+1. The name of the bill
+2. The relationship to the original bill with one of these three options:
+   - "supporting": The bill supports or advances the same cause as the original bill
+   - "contracting": The bill opposes or contradicts the original bill's cause
+   - "unrelated": The bill is totally unrelated to the original bill's cause
+3. A cluster number (integer) to group bills that address similar themes together
+4. A cluster name (string) to describe the theme of the cluster
+
+Return ONLY a valid JSON array with this exact structure:
+[
+  {
+    "bill_name": "bill_name_here",
+    "relationship": "supporting/contracting/unrelated",
+    "cluster": 1
+    "cluster_name": "cluster_name_here"
+  }
+]
+
+Do not include any other text, explanation, or markdown formatting, only the raw JSON array.`;
+
+      console.log('Sending classification prompt to LLM...');
+      const classificationResponse = await askLLM(classificationPrompt);
+      console.log('Received classification response:', classificationResponse);
+      
+      try {
+        // Clean the response by removing markdown code block formatting
+        let cleanedResponse = classificationResponse.trim();
+        
+        // Remove ```json and ``` markers if present
+        if (cleanedResponse.startsWith('```json')) {
+          cleanedResponse = cleanedResponse.replace(/^```json\s*/, '');
+        }
+        if (cleanedResponse.startsWith('```')) {
+          cleanedResponse = cleanedResponse.replace(/^```\s*/, '');
+        }
+        if (cleanedResponse.endsWith('```')) {
+          cleanedResponse = cleanedResponse.replace(/\s*```$/, '');
+        }
+        
+        console.log('Cleaned response:', cleanedResponse);
+        const parsedClassification = JSON.parse(cleanedResponse);
+        setBillClassification(parsedClassification);
+        console.log('Parsed classification:', parsedClassification);
+      } catch (parseError) {
+        console.error('Failed to parse classification JSON:', parseError);
+        setAnalysisError('Failed to parse bill classification response as JSON');
+      }
     } catch (err) {
       console.error('LLM Analysis error:', err);
       setAnalysisError(err instanceof Error ? err.message : 'Failed to analyze bills with LLM');
     } finally {
       setIsAnalyzing(false);
     }
+  };
+
+  // Bill Visualization Component
+  const BillVisualization = () => {
+    if (!searchResults || !billClassification || (searchResults.tfidf_results.length === 0 && searchResults.vector_results.length === 0)) {
+      return null;
+    }
+
+    // Combine results and remove duplicates, keeping highest score
+    const combinedBills = new Map();
+    
+    // Add TF-IDF results
+    searchResults.tfidf_results.forEach(bill => {
+      if (!combinedBills.has(bill.bill_name) || combinedBills.get(bill.bill_name).score < bill.score) {
+        combinedBills.set(bill.bill_name, { ...bill, source: 'tfidf' });
+      }
+    });
+    
+    // Add vector results
+    searchResults.vector_results.forEach(bill => {
+      if (!combinedBills.has(bill.bill_name) || combinedBills.get(bill.bill_name).score < bill.score) {
+        combinedBills.set(bill.bill_name, { ...bill, source: 'vector' });
+      }
+    });
+    
+    // Convert to array
+    const uniqueBills = Array.from(combinedBills.values());
+
+    // Find min and max scores for normalization
+    const scores = uniqueBills.map(bill => bill.score);
+    const minScore = Math.min(...scores);
+    const maxScore = Math.max(...scores);
+
+    // Normalize scores to 0-1 range
+    const normalizeScore = (score: number) => {
+      if (maxScore === minScore) return 0.5;
+      return (score - minScore) / (maxScore - minScore);
+    };
+
+    // Create 10 bins and categorize bills (flipped: higher similarity at top)
+    const getSimilarityLabel = (binIndex: number) => {
+      if (binIndex === 0) return "Very Similar";
+      if (binIndex === 9) return "Not Very Similar";
+      return "|";
+    };
+
+    const bins = Array.from({ length: 10 }, (_, i) => ({
+      index: i,
+      label: getSimilarityLabel(i),
+      leftBills: [] as any[],
+      rightBills: [] as any[]
+    }));
+
+    // Assign bills to bins based on normalized scores (flipped order)
+    uniqueBills.forEach(bill => {
+      const classification = getBillClassification(bill.bill_name);
+      const normalizedScore = normalizeScore(bill.score);
+      // Flip the bin assignment: higher scores (more similar) go to lower indices (top)
+      const binIndex = Math.min(Math.floor((1 - normalizedScore) * 10), 9);
+      
+      const billWithClassification = {
+        ...bill,
+        classification,
+        normalizedScore
+      };
+
+      if (classification?.relationship === 'supporting') {
+        bins[binIndex].rightBills.push(billWithClassification);
+      } else {
+        bins[binIndex].leftBills.push(billWithClassification);
+      }
+    });
+
+    return (
+      <div className="bg-white rounded-lg shadow p-6 relative">
+        <h3 className="text-lg font-semibold text-gray-900 mb-6 flex items-center">
+          <Brain className="w-5 h-5 mr-2 text-purple-600" />
+          Bill Relationship Visualization
+        </h3>
+        
+        {/* Vertical layout container */}
+        <div className="flex flex-col items-center space-y-4">
+          {/* Original bill at top */}
+          <div className="flex flex-col items-center mb-4">
+            <div 
+              className="w-24 h-24 rounded-full bg-gray-800 flex items-center justify-center text-white text-lg font-bold cursor-pointer hover:bg-gray-700 transition-colors shadow-lg"
+              onClick={(e) => handleBillClick(searchResults.search_bill, e)}
+              title={searchResults.search_bill.bill_name}
+            >
+              {searchResults.search_bill.bill_name.replace(/_/g, '')}
+            </div>
+            <div className="text-sm text-center mt-2 font-semibold">Original Bill</div>
+            <div className="text-xs text-center text-gray-600">{searchResults.search_bill.bill_name}</div>
+          </div>
+
+          {/* Vertical line */}
+          <div className="w-1 h-8 bg-gray-300 rounded"></div>
+
+          {/* Bins container */}
+          <div className="w-full max-w-6xl">
+            {/* Column headers */}
+            <div className="flex justify-between mb-4 text-sm font-semibold text-gray-700">
+              <div className="w-1/3 text-center">Contracting/Unrelated</div>
+              <div className="w-1/3 text-center">Similarity Level</div>
+              <div className="w-1/3 text-center">Supporting</div>
+            </div>
+
+            {/* Bins */}
+            {bins.map((bin, binIndex) => {
+              // Show labels for "Very Similar", "Not Very Similar", and every "|" 
+              const showLabel = bin.label === "Very Similar" || bin.label === "Not Very Similar" || bin.label === "|";
+              
+              return (
+                <div key={binIndex} className="flex items-center justify-between mb-3 min-h-[60px] border-b border-gray-100 pb-3">
+                  {/* Left side - Contracting/Unrelated bills */}
+                  <div className="w-1/3 flex flex-wrap justify-end gap-2 pr-4">
+                    {bin.leftBills.map((bill, billIndex) => {
+                      const cluster = bill.classification?.cluster || 0;
+                      const color = getClusterColor(cluster);
+                      
+                      return (
+                        <div
+                          key={billIndex}
+                          className="cursor-pointer hover:scale-110 transition-transform"
+                          onClick={(e) => handleBillClick(bill, e)}
+                          title={`${bill.bill_name} - ${bill.classification?.relationship || 'unknown'}`}
+                        >
+                          <div 
+                            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-base font-bold shadow-lg"
+                            style={{ backgroundColor: color }}
+                          >
+                            {bill.bill_name.replace(/_/g, '')}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+
+                  {/* Center - Similarity label (only show for first occurrence) */}
+                  <div className="w-1/3 text-center">
+                    {showLabel && (
+                      <div className="text-xs text-gray-600 bg-gray-50 px-3 py-2 rounded-full inline-block">
+                        {bin.label}
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Right side - Supporting bills */}
+                  <div className="w-1/3 flex flex-wrap justify-start gap-2 pl-4">
+                    {bin.rightBills.map((bill, billIndex) => {
+                      const cluster = bill.classification?.cluster || 0;
+                      const color = getClusterColor(cluster);
+                      
+                      return (
+                        <div
+                          key={billIndex}
+                          className="cursor-pointer hover:scale-110 transition-transform"
+                          onClick={(e) => handleBillClick(bill, e)}
+                          title={`${bill.bill_name} - ${bill.classification?.relationship || 'unknown'}`}
+                        >
+                          <div 
+                            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-base font-bold shadow-lg"
+                            style={{ backgroundColor: color }}
+                          >
+                            {bill.bill_name.replace(/_/g, '')}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+      </div>
+    );
   };
 
   const ResultsTable = ({ title, results }: { title: string; results: BillVectors[] }) => (
@@ -268,7 +565,7 @@ Be very specific in your analysis about how the bills are either competing, simi
       </div>
 
       {/* Results Section */}
-      <div className="flex-1 overflow-auto p-6">
+      <div className="flex-1 overflow-auto p-6 relative">
         {isLoading ? (
           <div className="flex items-center justify-center h-64">
             <div className="text-center">
@@ -278,9 +575,105 @@ Be very specific in your analysis about how the bills are either competing, simi
           </div>
         ) : searchResults ? (
           <div className="w-full max-w-none mx-auto space-y-6">
-            <div className="flex flex-col space-y-4 lg:flex-row lg:space-y-0 lg:space-x-4">
-              <ResultsTable title="Search Results 1" results={searchResults.tfidf_results} />
-              <ResultsTable title="Search Results 2" results={searchResults.vector_results} />
+            {/* Combined Results Table */}
+            <div className="bg-white rounded-lg shadow p-6 max-w-7xl mx-auto">
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Similar Bills Found</h3>
+              <div className="overflow-x-auto">
+                <table className="w-full divide-y divide-gray-200">
+                  <thead className="bg-gray-50">
+                    <tr>
+                      <th className="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider w-8">
+                        #
+                      </th>
+                      <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-8">
+                        Bill Name
+                      </th>
+                      <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-2/3">
+                        Summary
+                      </th>
+                      <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-12">
+                        
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="bg-white divide-y divide-gray-200">
+                    {(() => {
+                      const combinedMap = new Map<string, BillVectors>();
+                      searchResults.tfidf_results.forEach(bill => combinedMap.set(bill.bill_name, bill));
+                      searchResults.vector_results.forEach(bill => combinedMap.set(bill.bill_name, bill));
+                      
+                      return Array.from(combinedMap.values())
+                        .sort((a, b) => b.score - a.score)
+                        .map((result, index) => {
+                          const tableTitle = "Combined";
+                          const key = `${tableTitle}-${result.bill_name}`;
+                          const isExpanded = expandedSummaries.has(key);
+                          
+                          return (
+                            <tr key={index} className="hover:bg-gray-50">
+                              <td className="px-2 py-1 text-center text-sm font-medium text-gray-500">
+                                {index + 1}
+                              </td>
+                              <td className="px-2 py-1 text-sm font-medium text-gray-900">
+                                {result.bill_name}
+                              </td>
+                              <td className="px-4 py-3 text-sm text-gray-700">
+                                <div className={isExpanded ? '' : 'line-clamp-2'}>
+                                  {result.summary}
+                                </div>
+                              </td>
+                              <td className="px-4 py-3 text-center">
+                                <button
+                                  onClick={() => toggleSummary(result.bill_name, tableTitle)}
+                                  className="text-blue-600 hover:text-blue-800 transition-colors"
+                                >
+                                  {isExpanded ? (
+                                    <ChevronUp className="w-3 h-3" />
+                                  ) : (
+                                    <ChevronDown className="w-3 h-3" />
+                                  )}
+                                </button>
+                              </td>
+                            </tr>
+                          );
+                        });
+                    })()}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            
+            {/* Bill Visualization */}
+            <div className="relative">
+              <BillVisualization />
+              
+              {/* Floating Legend Box */}
+              {billClassification && (
+                <div className="absolute top-4 left-4 bg-white rounded-lg shadow-lg border border-gray-200 p-4 z-10 max-w-xs">
+                  <h4 className="text-sm font-semibold text-gray-900 mb-3">Legend</h4>
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2">
+                      <div className="w-3 h-3 rounded-full bg-gray-800"></div>
+                      <span className="text-xs text-gray-600">Original Bill</span>
+                    </div>
+                    {Array.from(new Set(billClassification.map((b: any) => b.cluster))).map((cluster) => {
+                      // Find a bill in this cluster to get the cluster name
+                      const billInCluster = billClassification.find((b: any) => b.cluster === cluster);
+                      const clusterName = billInCluster?.cluster_name || `Cluster ${cluster}`;
+                      
+                      return (
+                        <div key={cluster as number} className="flex items-center gap-2">
+                          <div 
+                            className="w-3 h-3 rounded-full" 
+                            style={{ backgroundColor: getClusterColor(cluster as number) }}
+                          ></div>
+                          <span className="text-xs text-gray-600">{clusterName}</span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
             </div>
             
             {/* LLM Analysis Section */}
@@ -297,9 +690,9 @@ Be very specific in your analysis about how the bills are either competing, simi
                       h2: ({children}) => <h2 className="text-xl font-semibold text-gray-900 mt-6 mb-3">{children}</h2>,
                       h3: ({children}) => <h3 className="text-lg font-semibold text-gray-900 mt-4 mb-2">{children}</h3>,
                       p: ({children}) => <p className="mb-3 text-gray-700">{children}</p>,
-                      ul: ({children}) => <ul className="list-disc list-inside mb-3 space-y-1">{children}</ul>,
-                      ol: ({children}) => <ol className="list-decimal list-inside mb-3 space-y-1">{children}</ol>,
-                      li: ({children}) => <li className="text-gray-700 ml-4">{children}</li>,
+                      ul: ({children}) => <ul className="list-disc list-outside mb-3 space-y-1 ml-6">{children}</ul>,
+                      ol: ({children}) => <ol className="list-decimal list-outside mb-3 space-y-1 ml-6">{children}</ol>,
+                      li: ({children}) => <li className="text-gray-700">{children}</li>,
                       strong: ({children}) => <strong className="font-semibold text-gray-900">{children}</strong>,
                       em: ({children}) => <em className="italic">{children}</em>,
                     }}
@@ -309,6 +702,9 @@ Be very specific in your analysis about how the bills are either competing, simi
                 </div>
               </div>
             )}
+
+            {/* Bill Classification Section */}
+            
           </div>
         ) : (
           <div className="flex items-center justify-center h-64">
@@ -322,6 +718,105 @@ Be very specific in your analysis about how the bills are either competing, simi
           </div>
         )}
       </div>
+
+      {/* Simple Tooltip */}
+      {selectedBill && tooltipPosition && (
+        <div 
+          className="fixed z-50 pointer-events-none"
+          style={{ 
+            left: tooltipPosition.x,
+            top: tooltipPosition.y,
+            transform: 'translateX(-50%)'
+          }}
+        >
+          <div className="bg-white rounded-lg shadow-xl border border-gray-200 w-80 pointer-events-auto">
+            {/* Arrow pointing up */}
+            <div className="absolute -top-2 left-1/2 transform -translate-x-1/2">
+              <div className="w-0 h-0 border-l-6 border-r-6 border-b-6 border-l-transparent border-r-transparent border-b-white"></div>
+            </div>
+            
+            <div className="p-3">
+              {(() => {
+                const classification = getBillClassification(selectedBill.bill_name);
+                const cluster = classification?.cluster || 0;
+                const color = getClusterColor(cluster);
+                
+                return (
+                  <div>
+                    {/* Header */}
+                    <div className="flex items-center justify-between mb-2">
+                      <h3 className="text-sm font-semibold text-gray-900">
+                        {selectedBill.bill_name}
+                      </h3>
+                      <button
+                        onClick={() => {
+                          setSelectedBill(null);
+                          setTooltipPosition(null);
+                        }}
+                        className="text-gray-400 hover:text-gray-600 transition-colors"
+                      >
+                        <X className="w-4 h-4" />
+                      </button>
+                    </div>
+
+                    {/* Classification badges */}
+                    <div className="flex flex-wrap gap-1 mb-2">
+                      {classification && (
+                        <>
+                          <span className={`inline-flex px-2 py-1 text-xs font-medium rounded-full ${
+                            classification.relationship === 'supporting' 
+                              ? 'bg-green-100 text-green-800' 
+                              : classification.relationship === 'contracting'
+                              ? 'bg-red-100 text-red-800'
+                              : 'bg-gray-100 text-gray-800'
+                          }`}>
+                            {classification.relationship === 'supporting' ? 'Supporting' : 
+                             classification.relationship === 'contracting' ? 'Contracting' : 'Unrelated'}
+                          </span>
+                          <span 
+                            className="inline-flex px-2 py-1 text-xs font-medium rounded-full text-white"
+                            style={{ backgroundColor: color }}
+                          >
+                            {classification.cluster_name || `Cluster ${cluster}`}
+                          </span>
+                        </>
+                      )}
+                      <span className="inline-flex px-2 py-1 text-xs font-medium rounded-full bg-blue-100 text-blue-800">
+                        Score: {selectedBill.score.toFixed(3)}
+                      </span>
+                    </div>
+
+                    {/* Bill summary */}
+                    <div 
+                      className="p-2 rounded border-l-3 text-gray-700 leading-tight mb-2"
+                      style={{ 
+                        borderLeftColor: color,
+                        backgroundColor: `${color}10`
+                      }}
+                    >
+                      <h4 className="font-medium text-gray-900 mb-1 text-xs">Bill Summary:</h4>
+                      <p className="text-xs leading-tight">{selectedBill.summary}</p>
+                    </div>
+
+                    {/* Link to full bill */}
+                    <div>
+                      <a
+                        href={`https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=${selectedBill.bill_name.match(/^(HB|SB)/)?.[0] || 'HB'}&billnumber=${selectedBill.bill_name.match(/\d+/)?.[0] || ''}&year=2025`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center px-2 py-1 border border-transparent text-xs font-medium rounded shadow-sm text-white hover:opacity-90 transition-colors w-full justify-center"
+                        style={{ backgroundColor: color }}
+                      >
+                        View Full Bill
+                      </a>
+                    </div>
+                  </div>
+                );
+              })()}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
