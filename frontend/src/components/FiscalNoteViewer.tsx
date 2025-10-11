@@ -155,12 +155,20 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
             <FiscalNoteContent
               fiscalNote={fiscalNoteData.fiscal_notes[selectedNoteIndex]}
               documentMapping={fiscalNoteData.document_mapping}
+              enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
+              numbersData={fiscalNoteData.numbers_data || []}
+              numberCitationMap={fiscalNoteData.number_citation_map || {}}
+              chunkTextMap={fiscalNoteData.chunk_text_map || {}}
             />
           </div>
         ) : (
           <FiscalNoteContent
             fiscalNote={fiscalNoteData.fiscal_notes[selectedNoteIndex]}
             documentMapping={fiscalNoteData.document_mapping}
+            enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
+            numbersData={fiscalNoteData.numbers_data || []}
+            numberCitationMap={fiscalNoteData.number_citation_map || {}}
+            chunkTextMap={fiscalNoteData.chunk_text_map || {}}
           />
         )}
       </div>

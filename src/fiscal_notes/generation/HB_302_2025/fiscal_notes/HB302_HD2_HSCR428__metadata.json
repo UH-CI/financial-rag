@@ -1,0 +1,949 @@
+{
+  "document_name": "HB302_HD2_HSCR428_",
+  "new_documents_processed": [
+    "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+    "HB302_HD2",
+    "HB302_HD2_HSCR428_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB302",
+    "HB302_TESTIMONY_HLT_01-29-25_",
+    "HB302_HD1",
+    "HB302_HD1_HSCR33_",
+    "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+    "HB302_HD2",
+    "HB302_HD2_HSCR428_"
+  ],
+  "numbers_used": 3,
+  "prompt_length": 59976,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"The purpose of this measure is to repeal the requirement that a provider-patient relationship be established in person for purposes of obtaining a certification for medical cannabis (HB302_HD2_HSCR428_). Your Committee has amended this measure by deleting language that allowed applicants or primary caregivers to temporarily purchase medical cannabis after the submission of the applicant's certification form (HB302_HD2_HSCR428_). The measure now also specifies that written certifications must originate from within the State (HB302_HD2_HSCR428_).\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The Department of Health supports the amended measure, appreciating the removal of the provision that would have allowed patients to purchase cannabis without first having their applications processed (HB302_HD2). The Department notes this provision posed risks, including exposing patients to arrest and creating inaccuracies in sales tracking and patient verification systems within state-licensed dispensaries (HB302_HD2). The Department is also grateful for the inclusion of the amendment to limit medical cannabis certifications to those originating from within the state, which serves to prevent mainland-based cannabis telehealth companies from operating in Hawaii (HB302_HD2).\",\n\"economic_impact\": \"Testimony indicates that the number of registered medical cannabis patients has declined 15% over the past 3 years, with one of the primary causes being regulatory barriers for patients (HB302_HD2). The high barriers to access include the uninsured and uncontrolled cost of a medical cannabis card, which can range from $100.00 (HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt) to $300.00 (HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt) omit the $38.50 (HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt) state fee (HB302_HD1_TESTIMONY_CPC_02-06-25_). This measure is intended to ease the difficulties on patients and primary caregivers by repealing the requirement that a provider-patient relationship be established in person (HB302_HD2).\",\n\"policy_impact\": \"This measure has been amended to delete the provision allowing applicants to purchase medical cannabis before receiving a confirmed registration, a change supported by the Department of Health and the Department of the Attorney General (HB302_HD2_HSCR428_). However, industry stakeholders request that the language be re-inserted to help avoid patient access delays (HB302_HD2). A new provision was added specifying that written certifications must originate from within the State to prevent mainland-based telehealth companies, which have faced scrutiny for questionable practices, from operating in Hawaii (HB302_HD2).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The most significant change from the previous version of the bill is the deletion of language that would have allowed applicants or primary caregivers to temporarily purchase medical cannabis after submitting a certification form; this removal was supported by the Department of Health (HB302_HD2_HSCR428_). Concurrently, a new provision has been added specifying that written certifications for medical cannabis must originate from within the State, which serves as a safeguard against certain mainland-based telehealth companies (HB302_HD2). Industry testimony now requests the re-insertion of the deleted temporary purchase provision to avoid patient access delays (HB302_HD2).\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 19442,
+      "candidates_token_count": 851,
+      "total_token_count": 24262
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"The purpose of this measure is to repeal the requirement that a provider-patient relationship be established in person for purposes of obtaining a certification for medical cannabis (HB302_HD2_HSCR428_). Your Committee has amended this measure by deleting language that allowed applicants or primary caregivers to temporarily purchase medical cannabis after the submission of the applicant's certification form (HB302_HD2_HSCR428_). The measure now also specifies that written certifications must originate from within the State (HB302_HD2_HSCR428_).\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The Department of Health supports the amended measure, appreciating the removal of the provision that would have allowed patients to purchase cannabis without first having their applications processed (HB302_HD2). The Department notes this provision posed risks, including exposing patients to arrest and creating inaccuracies in sales tracking and patient verification systems within state-licensed dispensaries (HB302_HD2). The Department is also grateful for the inclusion of the amendment to limit medical cannabis certifications to those originating from within the state, which serves to prevent mainland-based cannabis telehealth companies from operating in Hawaii (HB302_HD2).\",\n\"economic_impact\": \"Testimony indicates that the number of registered medical cannabis patients has declined 15% over the past 3 years, with one of the primary causes being regulatory barriers for patients (HB302_HD2). The high barriers to access include the uninsured and uncontrolled cost of a medical cannabis card, which can range from $100.00 (HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt) to $300.00 (HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt) omit the $38.50 (HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt) state fee (HB302_HD1_TESTIMONY_CPC_02-06-25_). This measure is intended to ease the difficulties on patients and primary caregivers by repealing the requirement that a provider-patient relationship be established in person (HB302_HD2).\",\n\"policy_impact\": \"This measure has been amended to delete the provision allowing applicants to purchase medical cannabis before receiving a confirmed registration, a change supported by the Department of Health and the Department of the Attorney General (HB302_HD2_HSCR428_). However, industry stakeholders request that the language be re-inserted to help avoid patient access delays (HB302_HD2). A new provision was added specifying that written certifications must originate from within the State to prevent mainland-based telehealth companies, which have faced scrutiny for questionable practices, from operating in Hawaii (HB302_HD2).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The most significant change from the previous version of the bill is the deletion of language that would have allowed applicants or primary caregivers to temporarily purchase medical cannabis after submitting a certification form; this removal was supported by the Department of Health (HB302_HD2_HSCR428_). Concurrently, a new provision has been added specifying that written certifications for medical cannabis must originate from within the State, which serves as a safeguard against certain mainland-based telehealth companies (HB302_HD2). Industry testimony now requests the re-insertion of the deleted temporary purchase provision to avoid patient access delays (HB302_HD2).\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"The purpose of this measure is to repeal the requirement that a provider-patient relationship be established in person for purposes of obtaining a certification for medical cannabis (HB302_HD2_HSCR428_)",
+          "attributed_chunk_id": 43,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2_HSCR428_ (score: 0.800)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Your Committee has amended this measure by deleting language that allowed applicants or primary caregivers to temporarily purchase medical cannabis after the submission of the applicant's certification form (HB302_HD2_HSCR428_)",
+          "attributed_chunk_id": 40,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7894736842105263,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2_HSCR428_ (score: 0.789)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure now also specifies that written certifications must originate from within the State (HB302_HD2_HSCR428_)",
+          "attributed_chunk_id": 43,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2_HSCR428_ (score: 0.700)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The Department of Health supports the amended measure, appreciating the removal of the provision that would have allowed patients to purchase cannabis without first having their applications processed (HB302_HD2)",
+          "attributed_chunk_id": 22,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6190476190476191,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2 (score: 0.619)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Department notes this provision posed risks, including exposing patients to arrest and creating inaccuracies in sales tracking and patient verification systems within state-licensed dispensaries (HB302_HD2)",
+          "attributed_chunk_id": 23,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.95,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2 (score: 0.950)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Department is also grateful for the inclusion of the amendment to limit medical cannabis certifications to those originating from within the state, which serves to prevent mainland-based cannabis telehealth companies from operating in Hawaii (HB302_HD2)",
+          "attributed_chunk_id": 21,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8333333333333334,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2 (score: 0.833)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"Testimony indicates that the number of registered medical cannabis patients has declined 15% over the past 3 years, with one of the primary causes being regulatory barriers for patients (HB302_HD2)",
+          "attributed_chunk_id": 30,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.47368421052631576,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2 (score: 0.474)",
+          "numbers_found": [
+            3.0,
+            15.0
+          ]
+        },
+        {
+          "sentence": "The high barriers to access include the uninsured and uncontrolled cost of a medical cannabis card, which can range from $100",
+          "attributed_chunk_id": "NUMBER_100",
+          "attribution_method": "number_based",
+          "attribution_score": 0.7333333333333333,
+          "attribution_reason": "Number $100 from HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt (score: 0.733)",
+          "numbers_found": [
+            100.0
+          ]
+        },
+        {
+          "sentence": "00 (HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            6.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) to $300",
+          "attributed_chunk_id": "NUMBER_300",
+          "attribution_method": "number_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Number $300 from HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt (score: 0.333)",
+          "numbers_found": [
+            300.0
+          ]
+        },
+        {
+          "sentence": "00 (HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            6.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) omit the $38",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            38.0
+          ]
+        },
+        {
+          "sentence": "50 (HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            50.0,
+            6.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) state fee (HB302_HD1_TESTIMONY_CPC_02-06-25_)",
+          "attributed_chunk_id": 1,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.03225806451612903,
+          "attribution_reason": "Document citation + semantic similarity: HB302_HD1_TESTIMONY_CPC_02-06-25_ (score: 0.032)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This measure is intended to ease the difficulties on patients and primary caregivers by repealing the requirement that a provider-patient relationship be established in person (HB302_HD2)",
+          "attributed_chunk_id": 43,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5714285714285714,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2 (score: 0.571)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"policy_impact\": \"This measure has been amended to delete the provision allowing applicants to purchase medical cannabis before receiving a confirmed registration, a change supported by the Department of Health and the Department of the Attorney General (HB302_HD2_HSCR428_)",
+          "attributed_chunk_id": 41,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2_HSCR428_ (score: 0.333)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "However, industry stakeholders request that the language be re-inserted to help avoid patient access delays (HB302_HD2)",
+          "attributed_chunk_id": 27,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7272727272727273,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2 (score: 0.727)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "A new provision was added specifying that written certifications must originate from within the State to prevent mainland-based telehealth companies, which have faced scrutiny for questionable practices, from operating in Hawaii (HB302_HD2)",
+          "attributed_chunk_id": 21,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5652173913043478,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2 (score: 0.565)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The most significant change from the previous version of the bill is the deletion of language that would have allowed applicants or primary caregivers to temporarily purchase medical cannabis after submitting a certification form; this removal was supported by the Department of Health (HB302_HD2_HSCR428_)",
+          "attributed_chunk_id": 44,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.41935483870967744,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2_HSCR428_ (score: 0.419)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Concurrently, a new provision has been added specifying that written certifications for medical cannabis must originate from within the State, which serves as a safeguard against certain mainland-based telehealth companies (HB302_HD2)",
+          "attributed_chunk_id": 21,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5909090909090909,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2 (score: 0.591)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Industry testimony now requests the re-insertion of the deleted temporary purchase provision to avoid patient access delays (HB302_HD2)",
+          "attributed_chunk_id": 27,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.3076923076923077,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2 (score: 0.308)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 1,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 1,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": [
+            "Document citation + semantic similarity: HB302_HD1_TESTIMONY_CPC_02-06-25_ (score: 0.032)"
+          ]
+        },
+        "2": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "3": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "4": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "5": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": []
+        },
+        "20": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": []
+        },
+        "21": {
+          "usage_count": 3,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_HD2 (score: 0.833)",
+            "Document citation + word frequency: HB302_HD2 (score: 0.565)",
+            "Document citation + word frequency: HB302_HD2 (score: 0.591)"
+          ]
+        },
+        "22": {
+          "usage_count": 1,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_HD2 (score: 0.619)"
+          ]
+        },
+        "23": {
+          "usage_count": 1,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_HD2 (score: 0.950)"
+          ]
+        },
+        "24": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": []
+        },
+        "25": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": []
+        },
+        "26": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": []
+        },
+        "27": {
+          "usage_count": 2,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_HD2 (score: 0.727)",
+            "Document citation + word frequency: HB302_HD2 (score: 0.308)"
+          ]
+        },
+        "28": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": []
+        },
+        "29": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": []
+        },
+        "30": {
+          "usage_count": 1,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_HD2 (score: 0.474)"
+          ]
+        },
+        "31": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": []
+        },
+        "32": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": []
+        },
+        "33": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": []
+        },
+        "34": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": []
+        },
+        "35": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": []
+        },
+        "36": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": []
+        },
+        "37": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2",
+          "attribution_reasons": []
+        },
+        "38": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_HSCR428_",
+          "attribution_reasons": []
+        },
+        "39": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_HSCR428_",
+          "attribution_reasons": []
+        },
+        "40": {
+          "usage_count": 1,
+          "document_name": "HB302_HD2_HSCR428_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_HD2_HSCR428_ (score: 0.789)"
+          ]
+        },
+        "41": {
+          "usage_count": 1,
+          "document_name": "HB302_HD2_HSCR428_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_HD2_HSCR428_ (score: 0.333)"
+          ]
+        },
+        "42": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_HSCR428_",
+          "attribution_reasons": []
+        },
+        "43": {
+          "usage_count": 3,
+          "document_name": "HB302_HD2_HSCR428_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_HD2_HSCR428_ (score: 0.800)",
+            "Document citation + word frequency: HB302_HD2_HSCR428_ (score: 0.700)",
+            "Document citation + word frequency: HB302_HD2 (score: 0.571)"
+          ]
+        },
+        "44": {
+          "usage_count": 1,
+          "document_name": "HB302_HD2_HSCR428_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_HD2_HSCR428_ (score: 0.419)"
+          ]
+        },
+        "45": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_HSCR428_",
+          "attribution_reasons": []
+        },
+        "46": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_HSCR428_",
+          "attribution_reasons": []
+        },
+        "NUMBER_100.0": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_300.0": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_38.5": {
+          "usage_count": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_100": {
+          "usage_count": 1,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $100 from HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt (score: 0.733)"
+          ]
+        },
+        "NUMBER_300": {
+          "usage_count": 1,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $300 from HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt (score: 0.333)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 15,
+        "number_based": 2,
+        "word_frequency_based": 0,
+        "semantic_similarity": 0,
+        "fallback": 1,
+        "no_attribution": 4
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 47,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "TESTIMONY OF THE DEPARTMENT OF THE ATTORNEY GENERAL KA ‘OIHANA O KA LOIO KUHINA THIRTY-THIRD LEGISLATURE, 2025 ON THE FOLLOWING MEASURE: H.B. NO. 302, H.D. 1, RELATING TO CANNABIS. BEFORE THE: HOUSE COMMITTEE ON CONSUMER PROTECTION & COMMERCE DATE: Thursday, February 6, 2025 TIME: 2:00 p.m. LOCATION: State Capitol, Room",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "February 6, 2025 TIME: 2:00 p.m. LOCATION: State Capitol, Room 329 TESTIFIER(S): Anne E. Lopez, Attorney General, or Andrew Goff, Deputy Attorney General Chair Matayoshi and Members of the Committee: The Department of the Attorney General (Department) offers the following comments. The purposes of the bill are to: (1) remove",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "comments. The purposes of the bill are to: (1) remove the requirement that prospective medical cannabis patients meet in person with a physician or advanced practice registered nurse prior to being certified for the medical use of cannabis; and (2) allow applicants or the primary caregiver of applicants to purchase",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "allow applicants or the primary caregiver of applicants to purchase medical cannabis prior to approval by the Department of Health (DOH). The Department is concerned that allowing applicants for the medical use of cannabis to purchase cannabis before the DOH approves their application could expose ineligible individuals to liability. Legal",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "approves their application could expose ineligible individuals to liability. Legal protections under Hawaii’s medical cannabis laws, as outlined in section 329-125, Hawaii Revised Statutes (HRS), apply only to medical cannabis patients who strictly comply with these laws, even if the individual mistakenly believed they were compliant with the law. Under",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "individual mistakenly believed they were compliant with the law. Under the proposed bill, an applicant could purchase and possess up to two ounces of usable cannabis before the DOH has determined their eligibility for medical use. If the application is denied, the applicant may already possess cannabis without legal authorization.",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "denied, the applicant may already possess cannabis without legal authorization. If that occurs, then the person's possession of the cannabis would be a violation of law, and the bill makes no provision for what happens to that illegally possessed cannabis. We strongly recommend that the bill clarify what happens to",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "We strongly recommend that the bill clarify what happens to the Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 2 of 2 applicant and the cannabis if the application is denied or otherwise recommend deleting the authorization for an applicant or primary caregiver to purchase cannabis",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "authorization for an applicant or primary caregiver to purchase cannabis prior to DOH approval found on page 4, lines 7-17. Thank you for the opportunity to provide comments. STATE OF HAWAII DEPARTMENT OF HEALTH P. O. Box 3378 Honolulu, HI 96801-3378 doh.testimony@doh.hawaii.gov Testimony COMMENTING on HB302_HD1 RELATING TO CANNABIS REP.",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "96801-3378 doh.testimony@doh.hawaii.gov Testimony COMMENTING on HB302_HD1 RELATING TO CANNABIS REP. SCOT Z. MATAYOSHI, CHAIR HOUSE COMMITTEE ON CONSUMER PROTECTION & COMMERCE Hearing Date: February 06, 2025 Room Number: 329 Department Testimony: The Department of Health (DOH) appreciates the intent of HB302 to 1 reduce barriers to accessing medical cannabis and",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "HB302 to 1 reduce barriers to accessing medical cannabis and recommends conforming amendments to do so 2 more safely. 3 4 DOH notes that repealing the requirement for an in-person consultation with a healthcare 5 provider to obtain a certification for medical cannabis conflicts with section 453-1.3(c), Hawaii 6 Revised",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "for medical cannabis conflicts with section 453-1.3(c), Hawaii 6 Revised Statutes (HRS), which explicitly requires an in-person consultation and would need 7 revision. DOH also notes that authorizing online consultations may open access to Hawaii 8 patients to mainland-based telehealth companies, some of which have been under scrutiny in 9",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "companies, some of which have been under scrutiny in 9 other states for questionable practices, and recommends amending chapter 329, HRS, the 10 Uniform Controlled Substances Act, to limit prescriptions, or in the case of medical cannabis 11 certifications, to those that “shall originate from within the State.” 12 Given",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "those that “shall originate from within the State.” 12 Given that the current processing time for a complete application is 2–3 business days, DOH has 13 concern that authorizing purchases of medical cannabis prior to the approval of their application 14 will cause more potential harm than benefit. Unintended consequences",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "14 will cause more potential harm than benefit. Unintended consequences may include: 15 • Exposing a subset of patients to arrest for possession of a controlled substance without a 16 physical medical cannabis card; 17 • Leading to purchases over the legal limit if an approved patient without a card",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "the legal limit if an approved patient without a card makes 18 purchases from different dispensaries; and 19 JOSH GREEN, M.D. GOVERNOR OF HAWAIʻI KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI KENNETH S. FINK, M.D., M.G.A., M.P.H. DIRECTOR OF HEALTH KA LUNA HOʻOKELE HB302_HD1 Page 2 of 2 • Creating",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "KA LUNA HOʻOKELE HB302_HD1 Page 2 of 2 • Creating inaccuracies in inventory control systems at dispensaries since sales records are 1 based on the unique patient program registration number, which is provided on the card. 2 The Department respectfully requests that this provision be omitted. 3 4 Thank you",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "requests that this provision be omitted. 3 4 Thank you for the opportunity to testify. 5 Hawaiʻi Cannabis Industry Association (HICIA) 220 S King St #1600, Honolulu, HI 96813 www.808hcia.com To: Representative Scot Matayoshi, Chair Representative Cory Chun, Vice-Chair Members of the House Consumer Protection and Commerce Committee Fr: TY",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+          "chunk_text": "of the House Consumer Protection and Commerce Committee Fr: TY Cheng, on behalf of Hawaiʻi Cannabis Industry Associatio",
+          "start_word": 720,
+          "end_word": 738,
+          "word_count": 18
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB302_HD2",
+          "chunk_text": "STATE OF HAWAII DEPARTMENT OF HEALTH P. O. Box 3378 Honolulu, HI 96801-3378 doh.testimony@doh.hawaii.gov Testimony in SUPPORT of HB302 HD2 RELATING TO CANNABIS REP. DAVID A. TARNAS, CHAIR HOUSE COMMITTEE ON JUDICIARY & HAWAIIAN AFFAIRS Hearing Date: February 25, 2025 Room Number: 325 Department Position: The Department of Health (“Department”)",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB302_HD2",
+          "chunk_text": "Room Number: 325 Department Position: The Department of Health (“Department”) supports this measure. 1 2 Department Testimony: The Department appreciates the intent of HB302 HD2 to reduce 3 barriers to medical cannabis access. The Department is grateful for the inclusion of its previously 4 requested amendment to limit medical cannabis",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB302_HD2",
+          "chunk_text": "of its previously 4 requested amendment to limit medical cannabis certifications to those originating from within 5 the state, which serves to prevent mainland-based cannabis telehealth companies from operating 6 in Hawaii. This safeguard is especially important, as some of these companies have faced 7 scrutiny in other jurisdictions for",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB302_HD2",
+          "chunk_text": "these companies have faced 7 scrutiny in other jurisdictions for questionable practices. 8 9 Furthermore, the Department appreciates the removal of the provision that would have allowed 10 patients to purchase cannabis without first having their applications processed and receiving a 11 registration card from the Department. This provision posed",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB302_HD2",
+          "chunk_text": "a 11 registration card from the Department. This provision posed risks, including exposing a subset of 12 patients to arrest for possession of a controlled substance without a physical medical cannabis 13 card and creating inaccuracies in sales tracking and patient verification systems within state- 14 licensed dispensaries. 15 Thank",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB302_HD2",
+          "chunk_text": "patient verification systems within state- 14 licensed dispensaries. 15 Thank you for the opportunity to testify. 16 JOSH GREEN, M.D. GOVERNOR OF HAWAIʻI KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI KENNETH S. FINK, M.D., M.G.A., M.P.H. DIRECTOR OF HEALTH KA LUNA HOʻOKELE To: Representative David Tarnas, Chair Representative Mahina Poepoe,",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB302_HD2",
+          "chunk_text": "LUNA HOʻOKELE To: Representative David Tarnas, Chair Representative Mahina Poepoe, Vice-Chair Members of the House Judiciary and Hawaiian Affairs Committee Fr: TY Cheng, Preident of Aloha Green Apothecary Re: Testimony In Support with Requested Amendments on House Bill (HB) 302, House Draft (HD) 2 RELATING TO CANNABIS Repeals the requirement",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB302_HD2",
+          "chunk_text": "House Draft (HD) 2 RELATING TO CANNABIS Repeals the requirement that a provider-patient relationship be established in person. sEffective 7/1/3000. Dear Chair Tarnas, Vice-Chair Poepoe and Members of the Committee: Aloha Green Apothecary (“Aloha”) is a state licensed medical cannabis dispensary in Honolulu. Aloha supports HB302, HD1 which eases access",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB302_HD2",
+          "chunk_text": "dispensary in Honolulu. Aloha supports HB302, HD1 which eases access issues for medical cannabis patients, but we request that the language which was removed in the prior committee be re-inserted to help avoid patient access delays. When created in 2015, the medical cannabis dispensary laws were one of the most",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB302_HD2",
+          "chunk_text": "the medical cannabis dispensary laws were one of the most rigorous and strict systems amongst the dozens of states that allowed medical cannabis. Since that time, the nation’s landscape and our state’s attitudes over cannabis have also changed dramatically such that many states allow for adult use, and our state",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB302_HD2",
+          "chunk_text": "that many states allow for adult use, and our state has decriminalized non-medical use. There is a thriving illicit market that makes it easy and cheaper to access cannabis, and there is now increased availability of THC through hemp-derived products. Yet, Hawaii’s medical cannabis system has hardly changed. This appears",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 30,
+          "document_name": "HB302_HD2",
+          "chunk_text": "Yet, Hawaii’s medical cannabis system has hardly changed. This appears to be one of the driving reasons why the number of registered patients has declined 15% over the past 3 years. While Aloha continues to provide safe products that are tracked from seed to sale, 3rd party lab tested against",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 31,
+          "document_name": "HB302_HD2",
+          "chunk_text": "tracked from seed to sale, 3rd party lab tested against impurities and pesticides, labeled with dosage and warnings – less patients are getting their cannabis from dispensaries due to price and ease. The purpose of this bill is to ease some of the archaic hurdles in the law that have",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 32,
+          "document_name": "HB302_HD2",
+          "chunk_text": "some of the archaic hurdles in the law that have been in place since 2015 that no longer seem necessary. The laws on telehealth were already revised in 2021 for parity of in-person and telehealth visits to create a bona fide physician-patient relationship, except for opiates and medical cannabis. That",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 33,
+          "document_name": "HB302_HD2",
+          "chunk_text": "fide physician-patient relationship, except for opiates and medical cannabis. That distinction for medical cannabis at this stage appears arbitrary, and the bill proposes to eliminate that difference. The bill in its original and HD1 form, also had language to allows a qualifying patient immediate access to enter a dispensary and",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 34,
+          "document_name": "HB302_HD2",
+          "chunk_text": "a qualifying patient immediate access to enter a dispensary and purchase a limited amount of medical cannabis upon the Department of Health’s registry system recognizing the submission of a complete application. Currently, a patient may wait anywhere from 3 days to a week to obtain their medical cannabis card or",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 35,
+          "document_name": "HB302_HD2",
+          "chunk_text": "to a week to obtain their medical cannabis card or “329 card” which will then allow them to enter into a licensed dispensary. This delay is often a significant barrier for patients who need their cannabis medication right away. It not only is a possible deterrent to obtain a 329",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 36,
+          "document_name": "HB302_HD2",
+          "chunk_text": "not only is a possible deterrent to obtain a 329 card, but can also serve to push a patient towards obtaining product from the illicit market. At the prior hearings, we heard concerns from the Department of Health and AG about this immediate access – that there was little to",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 37,
+          "document_name": "HB302_HD2",
+          "chunk_text": "about this immediate access – that there was little to no wait time as it currently stands; that a person who obtained this amount could be found to guilty for as much as a class C felony. We disagree. While it is tru",
+          "start_word": 720,
+          "end_word": 763,
+          "word_count": 43
+        },
+        {
+          "chunk_id": 38,
+          "document_name": "HB302_HD2_HSCR428_",
+          "chunk_text": "HSCR428 STAND. COM. REP. NO. 428 Honolulu, Hawaii , 2025 RE: H.B. No. 302 H.D. 2 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Consumer Protection & Commerce, to which was referred H.B. No. 302, H.D.",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 39,
+          "document_name": "HB302_HD2_HSCR428_",
+          "chunk_text": "& Commerce, to which was referred H.B. No. 302, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO CANNABIS,\" begs leave to report as follows: The purpose of this measure is to: (1) Repeal the requirement that a provider-patient relationship be established in person for purposes of obtaining a",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 40,
+          "document_name": "HB302_HD2_HSCR428_",
+          "chunk_text": "relationship be established in person for purposes of obtaining a certification for medical cannabis; and (2) Allow applicants or primary caregivers to temporarily purchase medical cannabis after the submission of the applicant's certification form. Your Committee received testimony in support of this measure from the Hawai ʻ i Cannabis Industry",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 41,
+          "document_name": "HB302_HD2_HSCR428_",
+          "chunk_text": "of this measure from the Hawai ʻ i Cannabis Industry Association; Cure Oahu; Big Island Grown; Noa Botanicals; and one individual. Your Committee received comments on this measure from the Department of the Attorney General; Department of Health; and Akamai Cannabis Consulting. Your Committee finds that the number of registered",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 42,
+          "document_name": "HB302_HD2_HSCR428_",
+          "chunk_text": "Cannabis Consulting. Your Committee finds that the number of registered medical cannabis patients has been in decline since 2021. There are various issues with the registration process, particularly the number of providers participating in the certification process. This measure eases the hurdle of access to participating providers by repealing the",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 43,
+          "document_name": "HB302_HD2_HSCR428_",
+          "chunk_text": "the hurdle of access to participating providers by repealing the requirement that a provider-patient relationship be established in person for purposes of obtaining a certification for medical cannabis. Your Committee has amended this measure by: (1) Specifying that written certifications must originate from within the State; (2) Deleting language that",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 44,
+          "document_name": "HB302_HD2_HSCR428_",
+          "chunk_text": "must originate from within the State; (2) Deleting language that allowed applicants or primary caregivers to temporarily purchase medical cannabis after the submission of the applicant's certification form; and (3) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed by the record of votes of",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 45,
+          "document_name": "HB302_HD2_HSCR428_",
+          "chunk_text": "and style. As affirmed by the record of votes of the members of your Committee on Consumer Protection & Commerce that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 302, H.D. 1, as amended herein, and recommends that it be",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 46,
+          "document_name": "HB302_HD2_HSCR428_",
+          "chunk_text": "H.D. 1, as amended herein, and recommends that it be referred to your Committee on Judiciary & Hawaiian Affairs in the form attached hereto as H.B. No. 302, H.D. 2. Respectfully submitted on behalf of the members of the Committee on Consumer Protection & Commerce, ____________________________ SCOT Z. MATAYOSHI, Chair",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "include- 1. Limited physician participation statewide with only 237 physicians and APRN’s registered as of December 2024. 2. The requirement of an in-person physician-patient visit to establish a bona-ﬁde relationship with a card issuer is burdensome. 3. The uninsured and uncontrolled cost of a medical cannabis card can range from $100 to $300 omit the $38.50 state fee, depending on the provider and island. 4. With limited physician participation, mandatory in-person visits, and high cost of entry, the program has become unaffordable and unattractive. LATE *Testimony submitted late may not be considered by the Committee for decision making purposes. \u0010\u0005\u0018 5.",
+        "number": 100.0,
+        "filename": "HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Limited physician participation statewide with only 237 physicians and APRN’s registered as of December 2024. 2. The requirement of an in-person physician-patient visit to establish a bona-ﬁde relationship with a card issuer is burdensome. 3. The uninsured and uncontrolled cost of a medical cannabis card can range from $100 to $300 omit the $38.50 state fee, depending on the provider and island. 4. With limited physician participation, mandatory in-person visits, and high cost of entry, the program has become unaffordable and unattractive. LATE *Testimony submitted late may not be considered by the Committee for decision making purposes. \u0010\u0005\u0018 5. The next",
+        "number": 300.0,
+        "filename": "HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "statewide with only 237 physicians and APRN’s registered as of December 2024. 2. The requirement of an in-person physician-patient visit to establish a bona-ﬁde relationship with a card issuer is burdensome. 3. The uninsured and uncontrolled cost of a medical cannabis card can range from $100 to $300 omit the $38.50 state fee, depending on the provider and island. 4. With limited physician participation, mandatory in-person visits, and high cost of entry, the program has become unaffordable and unattractive. LATE *Testimony submitted late may not be considered by the Committee for decision making purposes. \u0010\u0005\u0018 5. The next largest impacting factor",
+        "number": 38.5,
+        "filename": "HB302_HD1_TESTIMONY_CPC_02-06-25_.PDF.txt",
+        "document_type": "testimony"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T14:59:59.351329",
+  "generation_timestamp_unix": 1760144399.351337
+}

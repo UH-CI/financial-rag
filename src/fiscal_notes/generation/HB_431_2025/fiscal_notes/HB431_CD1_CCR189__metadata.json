@@ -1,0 +1,278 @@
+{
+  "document_name": "HB431_CD1_CCR189_",
+  "new_documents_processed": [
+    "HB431_CD1_CCR189_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB431_CD1",
+    "HB431_CD1_CCR189_"
+  ],
+  "numbers_used": 0,
+  "prompt_length": 14315,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The measure has been amended by changing references to the Governor's Coordinator on Homelessness to \\\"Coordinator on Homelessness\\\" (HB431_CD1_CCR189_).\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The previous fiscal note captured the major components and appropriations detailed in the conference committee report. This update adds a new detail to the Agency Impact section, which was omitted previously: the measure was amended by \\\"Changing references to the Governor's Coordinator on Homelessness to 'Coordinator on Homelessness'\\\" (HB431_CD1_CCR189_). All other sections reflect no change from the previous fiscal note as no other new information was presented.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 4933,
+      "candidates_token_count": 245,
+      "total_token_count": 9144
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The measure has been amended by changing references to the Governor's Coordinator on Homelessness to \\\"Coordinator on Homelessness\\\" (HB431_CD1_CCR189_).\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The previous fiscal note captured the major components and appropriations detailed in the conference committee report. This update adds a new detail to the Agency Impact section, which was omitted previously: the measure was amended by \\\"Changing references to the Governor's Coordinator on Homelessness to 'Coordinator on Homelessness'\\\" (HB431_CD1_CCR189_). All other sections reflect no change from the previous fiscal note as no other new information was presented.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The measure has been amended by changing references to the Governor's Coordinator on Homelessness to \\\"Coordinator on Homelessness\\\" (HB431_CD1_CCR189_)",
+          "attributed_chunk_id": 8,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5384615384615384,
+          "attribution_reason": "Document citation + word frequency: HB431_CD1_CCR189_ (score: 0.538)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The previous fiscal note captured the major components and appropriations detailed in the conference committee report",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This update adds a new detail to the Agency Impact section, which was omitted previously: the measure was amended by \\\"Changing references to the Governor's Coordinator on Homelessness to 'Coordinator on Homelessness'\\\" (HB431_CD1_CCR189_)",
+          "attributed_chunk_id": 8,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.3684210526315789,
+          "attribution_reason": "Document citation + word frequency: HB431_CD1_CCR189_ (score: 0.368)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "All other sections reflect no change from the previous fiscal note as no other new information was presented",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.07692307692307693,
+          "attribution_reason": "Word frequency match score: 0.077",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 1,
+          "document_name": "HB431_CD1_CCR189_",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1_CCR189_",
+          "attribution_reasons": []
+        },
+        "2": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1_CCR189_",
+          "attribution_reasons": []
+        },
+        "3": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1_CCR189_",
+          "attribution_reasons": []
+        },
+        "4": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1_CCR189_",
+          "attribution_reasons": []
+        },
+        "5": {
+          "usage_count": 1,
+          "document_name": "HB431_CD1_CCR189_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.077"
+          ]
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1_CCR189_",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1_CCR189_",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 2,
+          "document_name": "HB431_CD1_CCR189_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_CD1_CCR189_ (score: 0.538)",
+            "Document citation + word frequency: HB431_CD1_CCR189_ (score: 0.368)"
+          ]
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1_CCR189_",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1_CCR189_",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1_CCR189_",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1_CCR189_",
+          "attribution_reasons": []
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 2,
+        "number_based": 0,
+        "word_frequency_based": 1,
+        "semantic_similarity": 0,
+        "fallback": 1,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 13,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB431_CD1_CCR189_",
+          "chunk_text": "CCR189 CONFERENCE COMMITTEE REP. NO. 189 Honolulu, Hawaii , 2025 RE: H.B. No. 431 H.D. 2 S.D. 2 C.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB431_CD1_CCR189_",
+          "chunk_text": "D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madam and Sir: Your Committee on Conference on the disagreeing vote of the House of Representatives to the amendments proposed by the Senate in H.B. No. 431, H.D. 2, S.D. 2, entitled: \"A BILL",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB431_CD1_CCR189_",
+          "chunk_text": "H.B. No. 431, H.D. 2, S.D. 2, entitled: \"A BILL FOR AN ACT RELATING TO HOUSING,\" having met, and after full and free discussion, has agreed to recommend and does recommend to the respective Houses the final passage of this bill in an amended form. The purpose of this measure",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB431_CD1_CCR189_",
+          "chunk_text": "bill in an amended form. The purpose of this measure is to appropriate funds for: (1) The continued implementation of the Kauhale Initiative and Ohana Zones Pilot Program; and (2) The development of supportive housing projects and the provision of supportive services for certain households in the supportive housing projects.",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB431_CD1_CCR189_",
+          "chunk_text": "supportive services for certain households in the supportive housing projects. Your Committee on Conference has amended this measure by: (1) Establishing requirements for kauhale projects, including reporting requirements by the Statewide Office on Homelessness and Housing Solutions; (2) Requiring the Auditor to conduct a management and performance audit of the",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB431_CD1_CCR189_",
+          "chunk_text": "Auditor to conduct a management and performance audit of the Kauhale Initiative and report to the Legislature; (3) Inserting appropriation amounts of $18,575,000 for fiscal year 2025-2026 and $24,325,000 for fiscal year 2026-2027 for the continued operation of the Kauhale Initiative; (4) Establishing the Ohana Zones Program as a permanent",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB431_CD1_CCR189_",
+          "chunk_text": "Initiative; (4) Establishing the Ohana Zones Program as a permanent program within the Statewide Office on Homelessness and Housing Solutions; (5) Inserting appropriation amounts of $2,525,000 for fiscal year 2025-2026 and $5,855,000 for fiscal year 2026-2027 for the continued implementation of the Ohana Zones Pilot Program; (6) Deleting language that",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB431_CD1_CCR189_",
+          "chunk_text": "of the Ohana Zones Pilot Program; (6) Deleting language that would have appropriated funds for supportive housing projects and supportive services for certain households in those projects; (7) Requiring the Statewide Office on Homelessness and Housing Solutions to submit a report every four months to the Legislature detailing the expenditure",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB431_CD1_CCR189_",
+          "chunk_text": "report every four months to the Legislature detailing the expenditure of funds appropriated toward the Kauhale and Ohana Zones initiatives and conduct a comprehensive needs assessment and submit a report on the assessment to the Legislature; (8) Changing references to the Governor's Coordinator on Homelessness to \"Coordinator on Homelessness\"; (9)",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB431_CD1_CCR189_",
+          "chunk_text": "the Governor's Coordinator on Homelessness to \"Coordinator on Homelessness\"; (9) Specifying that the Coordinator on Homelessness shall report directly to the Director of Human Services; (10) Changing the effective date to July 1, 2025; and (11) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB431_CD1_CCR189_",
+          "chunk_text": "for the purposes of clarity, consistency, and style. As affirmed by the record of votes of the managers of your Committee on Conference that is attached to this report, your Committee on Conference is in accord with the intent and purpose of H.B. No. 431, H.D. 2, S.D. 2, as",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB431_CD1_CCR189_",
+          "chunk_text": "purpose of H.B. No. 431, H.D. 2, S.D. 2, as amended herein, and recommends that it pass Final Reading in the form attached hereto as H.B. No. 431, H.D. 2, S.D. 2, C.D. 1. Respectfully submitted on behalf of the managers: ON THE PART OF THE SENATE ON THE PART",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB431_CD1_CCR189_",
+          "chunk_text": "managers: ON THE PART OF THE SENATE ON THE PART OF THE HOUSE ____________________________ JOY A. SAN BUENAVENTURA Chair ____________________________ LISA MARTEN Co-Chair ____________________________ STANLEY CHANG Co-Chair ____________________________ LUKE A. EVSLIN Co-Chair ____________________________ HENRY J.C. AQUINO Co-Chair ____________________________ JENNA TAKENOUCHI Co-Chair",
+          "start_word": 480,
+          "end_word": 521,
+          "word_count": 41
+        }
+      ]
+    },
+    "numbers_data": []
+  },
+  "generation_timestamp": "2025-10-10T15:12:32.585455",
+  "generation_timestamp_unix": 1760145152.5854669
+}

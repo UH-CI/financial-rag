@@ -1,0 +1,784 @@
+{
+  "document_name": "HB72",
+  "new_documents_processed": [
+    "HB72"
+  ],
+  "all_documents_processed_so_far": [
+    "HB72"
+  ],
+  "numbers_used": 2,
+  "prompt_length": 21163,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"Beginning 1/1/2026, this bill requires pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy. It imposes a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians. The measure also specifies that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns.\",\n\"appropriations\": \"The provided legislative documents do not specify any appropriations for this measure. The program is expected to be supported by the fees it generates.\",\n\"assumptions_and_methodology\": \"The fiscal analysis is based on the fee and fine structure established in the bill. The bill sets a registration fee for a pharmacy technician at $20 (HB72) and specifies that any person who violates the provisions shall be fined no less than $100 (HB72_.HTM.txt) and no more than $1,000 (HB72_.HTM.txt) for each violation. The total revenue impact is indeterminate as the number of pharmacy technicians who will register and the number of potential violations are unknown.\",\n\"agency_impact\": \"The Board of Pharmacy will be required to \\\"issue certificates of registration for registered pharmacy technicians\\\" (HB72). The board will also manage biennial renewals and will have the authority to \\\"fine, suspend, or revoke any license, registration, or permit\\\" (HB72) for non-compliance. These new responsibilities will increase the administrative and operational workload of the board.\",\n\"economic_impact\": \"This measure imposes a \\\"registration fee for a pharmacy technician\\\" of $20 (HB72), which will be paid biennially. Additionally, any person who violates the provisions of this chapter \\\"shall be fined no less than $100 and no more than $1,000 for each violation\\\" (HB72_.HTM.txt). These fees and potential fines represent a new cost for pharmacy technicians.\",\n\"policy_impact\": \"This bill amends Chapter 461, Hawaii Revised Statutes, by adding a new requirement for pharmacy technicians to be registered beginning January 1, 2026. It establishes a formal \\\"certificate of registration\\\" (HB72) and amends several sections of the statute to define the roles and responsibilities of a \\\"registered pharmacy technician\\\" (HB72). This creates a new regulatory framework for the profession under the Board of Pharmacy.\",\n\"revenue_sources\": \"The primary revenue source for this program will be \\\"The registration fee for a pharmacy technician,\\\" which \\\"shall be $20\\\" (HB72). Additional revenue may be generated from disciplinary actions, as the bill allows for fines of \\\"no less than $100\\\" (HB72_.HTM.txt) and \\\"no more than $1,000\\\" (HB72_.HTM.txt) for each violation. These revenues are intended to cover the administrative costs of the registration program.\",\n\"six_year_fiscal_implications\": \"Beginning January 1, 2026, the Board of Pharmacy will implement the new registration requirement for pharmacy technicians. The bill states, \\\"Each certificate of registration shall be valid through December 31 of each odd-numbered year,\\\" (HB72) establishing a biennial renewal cycle. Revenue from the $20 (HB72) registration fee will be collected in the fiscal years corresponding to these odd-numbered year renewals. Within a six-year period from implementation, revenues would be collected in FY27, FY29, and FY31. The total revenue is indeterminate as the number of registered pharmacy technicians is unknown. The state may also see intermittent revenue from fines ranging from $100 (HB72_.HTM.txt) to $1,000 (HB72_.HTM.txt). The Board of Pharmacy will incur ongoing administrative costs for processing applications, managing renewals, and handling disciplinary actions related to the new registration requirements.\",\n\"operating_revenue_impact\": \"This measure will generate a new source of operating revenue for the Board of Pharmacy. The revenue will come from a biennial $20 (HB72) \\\"registration fee for a pharmacy technician\\\" (HB72). Additional, but less predictable, operating revenue may result from fines for violations, which are set at \\\"no less than $100 and no more than $1,000 for each violation\\\" (HB72_.HTM.txt).\",\n\"capital_expenditure_impact\": \"The legislative documents provided do not identify any capital expenditures associated with this bill. It is possible that minor investments in software or technology may be required to manage the new registration process for pharmacy technicians. However, no specific funding for capital projects is mentioned.\",\n\"fiscal_implications_after_6_years\": \"The fiscal implications of this measure are expected to be ongoing beyond the initial six-year period. The biennial registration requirement will provide a recurring source of revenue from the $20 (HB72) fee. The Board of Pharmacy will have continuing administrative costs associated with managing the registration program for pharmacy technicians.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison. This is the initial fiscal analysis for this measure.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 6736,
+      "candidates_token_count": 1106,
+      "total_token_count": 9940
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"Beginning 1/1/2026, this bill requires pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy. It imposes a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians. The measure also specifies that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns.\",\n\"appropriations\": \"The provided legislative documents do not specify any appropriations for this measure. The program is expected to be supported by the fees it generates.\",\n\"assumptions_and_methodology\": \"The fiscal analysis is based on the fee and fine structure established in the bill. The bill sets a registration fee for a pharmacy technician at $20 (HB72) and specifies that any person who violates the provisions shall be fined no less than $100 (HB72_.HTM.txt) and no more than $1,000 (HB72_.HTM.txt) for each violation. The total revenue impact is indeterminate as the number of pharmacy technicians who will register and the number of potential violations are unknown.\",\n\"agency_impact\": \"The Board of Pharmacy will be required to \\\"issue certificates of registration for registered pharmacy technicians\\\" (HB72). The board will also manage biennial renewals and will have the authority to \\\"fine, suspend, or revoke any license, registration, or permit\\\" (HB72) for non-compliance. These new responsibilities will increase the administrative and operational workload of the board.\",\n\"economic_impact\": \"This measure imposes a \\\"registration fee for a pharmacy technician\\\" of $20 (HB72), which will be paid biennially. Additionally, any person who violates the provisions of this chapter \\\"shall be fined no less than $100 and no more than $1,000 for each violation\\\" (HB72_.HTM.txt). These fees and potential fines represent a new cost for pharmacy technicians.\",\n\"policy_impact\": \"This bill amends Chapter 461, Hawaii Revised Statutes, by adding a new requirement for pharmacy technicians to be registered beginning January 1, 2026. It establishes a formal \\\"certificate of registration\\\" (HB72) and amends several sections of the statute to define the roles and responsibilities of a \\\"registered pharmacy technician\\\" (HB72). This creates a new regulatory framework for the profession under the Board of Pharmacy.\",\n\"revenue_sources\": \"The primary revenue source for this program will be \\\"The registration fee for a pharmacy technician,\\\" which \\\"shall be $20\\\" (HB72). Additional revenue may be generated from disciplinary actions, as the bill allows for fines of \\\"no less than $100\\\" (HB72_.HTM.txt) and \\\"no more than $1,000\\\" (HB72_.HTM.txt) for each violation. These revenues are intended to cover the administrative costs of the registration program.\",\n\"six_year_fiscal_implications\": \"Beginning January 1, 2026, the Board of Pharmacy will implement the new registration requirement for pharmacy technicians. The bill states, \\\"Each certificate of registration shall be valid through December 31 of each odd-numbered year,\\\" (HB72) establishing a biennial renewal cycle. Revenue from the $20 (HB72) registration fee will be collected in the fiscal years corresponding to these odd-numbered year renewals. Within a six-year period from implementation, revenues would be collected in FY27, FY29, and FY31. The total revenue is indeterminate as the number of registered pharmacy technicians is unknown. The state may also see intermittent revenue from fines ranging from $100 (HB72_.HTM.txt) to $1,000 (HB72_.HTM.txt). The Board of Pharmacy will incur ongoing administrative costs for processing applications, managing renewals, and handling disciplinary actions related to the new registration requirements.\",\n\"operating_revenue_impact\": \"This measure will generate a new source of operating revenue for the Board of Pharmacy. The revenue will come from a biennial $20 (HB72) \\\"registration fee for a pharmacy technician\\\" (HB72). Additional, but less predictable, operating revenue may result from fines for violations, which are set at \\\"no less than $100 and no more than $1,000 for each violation\\\" (HB72_.HTM.txt).\",\n\"capital_expenditure_impact\": \"The legislative documents provided do not identify any capital expenditures associated with this bill. It is possible that minor investments in software or technology may be required to manage the new registration process for pharmacy technicians. However, no specific funding for capital projects is mentioned.\",\n\"fiscal_implications_after_6_years\": \"The fiscal implications of this measure are expected to be ongoing beyond the initial six-year period. The biennial registration requirement will provide a recurring source of revenue from the $20 (HB72) fee. The Board of Pharmacy will have continuing administrative costs associated with managing the registration program for pharmacy technicians.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison. This is the initial fiscal analysis for this measure.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"Beginning 1/1/2026, this bill requires pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5714285714285714,
+          "attribution_reason": "Word frequency match score: 0.571",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "It imposes a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure also specifies that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5384615384615384,
+          "attribution_reason": "Word frequency match score: 0.538",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"The provided legislative documents do not specify any appropriations for this measure",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2222222222222222,
+          "attribution_reason": "Word frequency match score: 0.222",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The program is expected to be supported by the fees it generates",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"assumptions_and_methodology\": \"The fiscal analysis is based on the fee and fine structure established in the bill",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill sets a registration fee for a pharmacy technician at $20 (HB72) and specifies that any person who violates the provisions shall be fined no less than $100 (HB72_",
+          "attributed_chunk_id": "NUMBER_100.0",
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Number $100 in HB72 (score: 0.500)",
+          "numbers_found": [
+            100.0,
+            20.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) and no more than $1,000 (HB72_",
+          "attributed_chunk_id": "NUMBER_1000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Number $1,000 from HB72_.HTM.txt (score: 0.500)",
+          "numbers_found": [
+            1000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for each violation",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The total revenue impact is indeterminate as the number of pharmacy technicians who will register and the number of potential violations are unknown",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.15384615384615385,
+          "attribution_reason": "Word frequency match score: 0.154",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"agency_impact\": \"The Board of Pharmacy will be required to \\\"issue certificates of registration for registered pharmacy technicians\\\" (HB72)",
+          "attributed_chunk_id": 1,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Document citation + word frequency: HB72 (score: 0.600)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The board will also manage biennial renewals and will have the authority to \\\"fine, suspend, or revoke any license, registration, or permit\\\" (HB72) for non-compliance",
+          "attributed_chunk_id": 4,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.13333333333333333,
+          "attribution_reason": "Document citation + word frequency: HB72 (score: 0.133)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "These new responsibilities will increase the administrative and operational workload of the board",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Word frequency match score: 0.286",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"This measure imposes a \\\"registration fee for a pharmacy technician\\\" of $20 (HB72), which will be paid biennially",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.45454545454545453,
+          "attribution_reason": "Document citation + word frequency: HB72 (score: 0.455)",
+          "numbers_found": [
+            20.0
+          ]
+        },
+        {
+          "sentence": "Additionally, any person who violates the provisions of this chapter \\\"shall be fined no less than $100 and no more than $1,000 for each violation\\\" (HB72_",
+          "attributed_chunk_id": "NUMBER_1000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.8823529411764706,
+          "attribution_reason": "Number $1,000 from HB72_.HTM.txt (score: 0.882)",
+          "numbers_found": [
+            1000.0,
+            100.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). These fees and potential fines represent a new cost for pharmacy technicians",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3,
+          "attribution_reason": "Word frequency match score: 0.300",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"policy_impact\": \"This bill amends Chapter 461, Hawaii Revised Statutes, by adding a new requirement for pharmacy technicians to be registered beginning January 1, 2026",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7058823529411765,
+          "attribution_reason": "Word frequency match score: 0.706",
+          "numbers_found": [
+            1.0,
+            461.0
+          ]
+        },
+        {
+          "sentence": "It establishes a formal \\\"certificate of registration\\\" (HB72) and amends several sections of the statute to define the roles and responsibilities of a \\\"registered pharmacy technician\\\" (HB72)",
+          "attributed_chunk_id": 1,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.35714285714285715,
+          "attribution_reason": "Document citation + word frequency: HB72 (score: 0.357)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This creates a new regulatory framework for the profession under the Board of Pharmacy",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Word frequency match score: 0.375",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"The primary revenue source for this program will be \\\"The registration fee for a pharmacy technician,\\\" which \\\"shall be $20\\\" (HB72)",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.36363636363636365,
+          "attribution_reason": "Document citation + word frequency: HB72 (score: 0.364)",
+          "numbers_found": [
+            20.0
+          ]
+        },
+        {
+          "sentence": "Additional revenue may be generated from disciplinary actions, as the bill allows for fines of \\\"no less than $100\\\" (HB72_",
+          "attributed_chunk_id": "NUMBER_100",
+          "attribution_method": "number_based",
+          "attribution_score": 0.23076923076923078,
+          "attribution_reason": "Number $100 from HB72_.HTM.txt (score: 0.231)",
+          "numbers_found": [
+            100.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) and \\\"no more than $1,000\\\" (HB72_",
+          "attributed_chunk_id": "NUMBER_1000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Number $1,000 from HB72_.HTM.txt (score: 0.500)",
+          "numbers_found": [
+            1000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for each violation",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": []
+        },
+        {
+          "sentence": "These revenues are intended to cover the administrative costs of the registration program",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Word frequency match score: 0.143",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"six_year_fiscal_implications\": \"Beginning January 1, 2026, the Board of Pharmacy will implement the new registration requirement for pharmacy technicians",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "The bill states, \\\"Each certificate of registration shall be valid through December 31 of each odd-numbered year,\\\" (HB72) establishing a biennial renewal cycle",
+          "attributed_chunk_id": 2,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Document citation + word frequency: HB72 (score: 0.625)",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "Revenue from the $20 (HB72) registration fee will be collected in the fiscal years corresponding to these odd-numbered year renewals",
+          "attributed_chunk_id": 2,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.23076923076923078,
+          "attribution_reason": "Document citation + word frequency: HB72 (score: 0.231)",
+          "numbers_found": [
+            20.0
+          ]
+        },
+        {
+          "sentence": "Within a six-year period from implementation, revenues would be collected in FY27, FY29, and FY31",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.09090909090909091,
+          "attribution_reason": "Word frequency match score: 0.091",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The total revenue is indeterminate as the number of registered pharmacy technicians is unknown",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Word frequency match score: 0.375",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The state may also see intermittent revenue from fines ranging from $100 (HB72_",
+          "attributed_chunk_id": "NUMBER_100",
+          "attribution_method": "number_based",
+          "attribution_score": 0.09090909090909091,
+          "attribution_reason": "Number $100 from HB72_.HTM.txt (score: 0.091)",
+          "numbers_found": [
+            100.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) to $1,000 (HB72_",
+          "attributed_chunk_id": "NUMBER_1000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Number $1,000 from HB72_.HTM.txt (score: 0.250)",
+          "numbers_found": [
+            1000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). The Board of Pharmacy will incur ongoing administrative costs for processing applications, managing renewals, and handling disciplinary actions related to the new registration requirements",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.21052631578947367,
+          "attribution_reason": "Word frequency match score: 0.211",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"This measure will generate a new source of operating revenue for the Board of Pharmacy",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The revenue will come from a biennial $20 (HB72) \\\"registration fee for a pharmacy technician\\\" (HB72)",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5555555555555556,
+          "attribution_reason": "Document citation + word frequency: HB72 (score: 0.556)",
+          "numbers_found": [
+            20.0
+          ]
+        },
+        {
+          "sentence": "Additional, but less predictable, operating revenue may result from fines for violations, which are set at \\\"no less than $100 and no more than $1,000 for each violation\\\" (HB72_",
+          "attributed_chunk_id": "NUMBER_1000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Number $1,000 from HB72_.HTM.txt (score: 0.400)",
+          "numbers_found": [
+            1000.0,
+            100.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). \",\n\"capital_expenditure_impact\": \"The legislative documents provided do not identify any capital expenditures associated with this bill",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.15384615384615385,
+          "attribution_reason": "Word frequency match score: 0.154",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It is possible that minor investments in software or technology may be required to manage the new registration process for pharmacy technicians",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4166666666666667,
+          "attribution_reason": "Word frequency match score: 0.417",
+          "numbers_found": []
+        },
+        {
+          "sentence": "However, no specific funding for capital projects is mentioned",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"fiscal_implications_after_6_years\": \"The fiscal implications of this measure are expected to be ongoing beyond the initial six-year period",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The biennial registration requirement will provide a recurring source of revenue from the $20 (HB72) fee",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.3,
+          "attribution_reason": "Document citation + word frequency: HB72 (score: 0.300)",
+          "numbers_found": [
+            20.0
+          ]
+        },
+        {
+          "sentence": "The Board of Pharmacy will have continuing administrative costs associated with managing the registration program for pharmacy technicians",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.36363636363636365,
+          "attribution_reason": "Word frequency match score: 0.364",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This is the initial fiscal analysis for this measure",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 6,
+          "document_name": "HB72",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 11,
+          "document_name": "HB72",
+          "attribution_reasons": [
+            "Word frequency match score: 0.571",
+            "Word frequency match score: 0.154",
+            "Document citation + word frequency: HB72 (score: 0.600)",
+            "Word frequency match score: 0.300",
+            "Word frequency match score: 0.706",
+            "Document citation + word frequency: HB72 (score: 0.357)",
+            "Word frequency match score: 0.143",
+            "Word frequency match score: 0.667",
+            "Word frequency match score: 0.375",
+            "Word frequency match score: 0.417",
+            "Word frequency match score: 0.364"
+          ]
+        },
+        "2": {
+          "usage_count": 8,
+          "document_name": "HB72",
+          "attribution_reasons": [
+            "Word frequency match score: 0.250",
+            "Word frequency match score: 0.286",
+            "Word frequency match score: 0.375",
+            "Word frequency match score: 0.250",
+            "Document citation + word frequency: HB72 (score: 0.625)",
+            "Document citation + word frequency: HB72 (score: 0.231)",
+            "Word frequency match score: 0.211",
+            "Word frequency match score: 0.333"
+          ]
+        },
+        "3": {
+          "usage_count": 5,
+          "document_name": "HB72",
+          "attribution_reasons": [
+            "Word frequency match score: 0.400",
+            "Document citation + word frequency: HB72 (score: 0.455)",
+            "Document citation + word frequency: HB72 (score: 0.364)",
+            "Document citation + word frequency: HB72 (score: 0.556)",
+            "Document citation + word frequency: HB72 (score: 0.300)"
+          ]
+        },
+        "4": {
+          "usage_count": 1,
+          "document_name": "HB72",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB72 (score: 0.133)"
+          ]
+        },
+        "5": {
+          "usage_count": 1,
+          "document_name": "HB72",
+          "attribution_reasons": [
+            "Word frequency match score: 0.538"
+          ]
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB72",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 3,
+          "document_name": "HB72",
+          "attribution_reasons": [
+            "Word frequency match score: 0.222",
+            "Word frequency match score: 0.091",
+            "Word frequency match score: 0.154"
+          ]
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB72",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB72",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB72",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB72",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB72",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB72",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB72",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB72",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB72",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB72",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB72",
+          "attribution_reasons": []
+        },
+        "NUMBER_100.0": {
+          "usage_count": 1,
+          "document_name": "HB72_.HTM.txt",
+          "attribution_reasons": [
+            "Number $100 in HB72 (score: 0.500)"
+          ]
+        },
+        "NUMBER_1000.0": {
+          "usage_count": 0,
+          "document_name": "HB72_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1000": {
+          "usage_count": 5,
+          "document_name": "HB72_.HTM.txt",
+          "attribution_reasons": [
+            "Number $1,000 from HB72_.HTM.txt (score: 0.500)",
+            "Number $1,000 from HB72_.HTM.txt (score: 0.882)",
+            "Number $1,000 from HB72_.HTM.txt (score: 0.500)",
+            "Number $1,000 from HB72_.HTM.txt (score: 0.250)",
+            "Number $1,000 from HB72_.HTM.txt (score: 0.400)"
+          ]
+        },
+        "NUMBER_100": {
+          "usage_count": 2,
+          "document_name": "HB72_.HTM.txt",
+          "attribution_reasons": [
+            "Number $100 from HB72_.HTM.txt (score: 0.231)",
+            "Number $100 from HB72_.HTM.txt (score: 0.091)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 10,
+        "number_based": 7,
+        "word_frequency_based": 20,
+        "semantic_similarity": 0,
+        "fallback": 6,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 19,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB72",
+          "chunk_text": "HB72 SD1 HOUSE OF REPRESENTATIVES H.B. NO. 72 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII S.D. 1 A BILL FOR AN ACT RELATING TO PHARMACY . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 461, Hawaii Revised Statutes, is amended by adding a",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB72",
+          "chunk_text": "Chapter 461, Hawaii Revised Statutes, is amended by adding a new section to be appropriately designated and to read as follows: \" §461- Registered pharmacy technicians; certificate of registration required. (a) Beginning January 1, 2026, no person shall act as a pharmacy technician without first obtaining a valid certificate of",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB72",
+          "chunk_text": "a pharmacy technician without first obtaining a valid certificate of registration issued by the board pursuant to this section. (b) Each certificate of registration shall be valid through December 31 of each odd-numbered year, upon which the registration shall lapse and a new registration shall be required. (c) The registration",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB72",
+          "chunk_text": "and a new registration shall be required. (c) The registration fee for a pharmacy technician shall be $20. (d) Beginning January 1, 2026, a pharmacy shall only employ registered pharmacy technicians to perform pharmacy technician duties. The pharmacist-in-charge shall verify that the person is registered as a pharmacy technician and",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB72",
+          "chunk_text": "that the person is registered as a pharmacy technician and that the board has issued a certificate of registration for the pharmacy technician before the pharmacy technician performs any tasks identified in this chapter or rules adopted pursuant to this chapter. The supervising registered pharmacist shall be responsible for the",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB72",
+          "chunk_text": "chapter. The supervising registered pharmacist shall be responsible for the actions of the registered pharmacy technician. (e) The certificate of registration shall be prominently displayed in an area accessible to the public in the workplace where the registered pharmacy technician is employed or practices. (f) If the registered pharmacy technician",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB72",
+          "chunk_text": "is employed or practices. (f) If the registered pharmacy technician is suspected to have violated any law or rule regarding the practice of pharmacy, legend drugs, or controlled substances or if there is evidence that a registered pharmacy technician may have violated any of these laws or rules, the pharmacist-in-charge",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB72",
+          "chunk_text": "have violated any of these laws or rules, the pharmacist-in-charge shall notify the board, in writing, within ten days or, if any danger to the public health or safety exists, immediately. Any registered pharmacist, whether or not practicing in the same pharmacy, who has knowledge or suspicion of another registered",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB72",
+          "chunk_text": "same pharmacy, who has knowledge or suspicion of another registered pharmacy technician in violation of any law or rule regarding the practice of pharmacy, legend drugs, or controlled substances shall notify the board, in writing, within ten days or, if any danger to the public health or safety exists, immediately.",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB72",
+          "chunk_text": "any danger to the public health or safety exists, immediately. \" SECTION 2. Section 461-1, Hawaii Revised Statutes, is amended by adding three new definitions to be appropriately inserted and to read as follows: \" \"Auxiliary pharmacy personnel\" means a person who works in a pharmacy assisting a registered pharmacist",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB72",
+          "chunk_text": "person who works in a pharmacy assisting a registered pharmacist or registered pharmacy technician and who may perform the following: (1) Retrieval tasks, such as retrieving prescriptions or files; (2) Clerical tasks, such as data entry, typing labels, and maintaining patient profiles; (3) Tasks such as selling prescriptions, telephoning, filing,",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB72",
+          "chunk_text": "patient profiles; (3) Tasks such as selling prescriptions, telephoning, filing, and typing; (4) Accounting tasks, such as recordkeeping, maintaining accounts receivables, third-party billing, and posting; (5) Inventory control tasks, such as monitoring, pricing, dating, invoicing, stocking pharmacy, and preparing purchase orders; and (6) Custodial tasks, such as helping maintain a",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB72",
+          "chunk_text": "orders; and (6) Custodial tasks, such as helping maintain a clean and orderly pharmacy. \"Registered pharmacy technician\" means a person, exclusive of pharmacy interns and auxiliary pharmacy personnel, registered with the board pursuant to section 461- , who may, in addition to the tasks of an auxiliary pharmacy personnel, perform",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB72",
+          "chunk_text": "addition to the tasks of an auxiliary pharmacy personnel, perform filling, packaging, manipulative, repetitive, or other nondiscretionary tasks, and tasks specified in section 461-11.4, only while assisting and while under the supervision and control of a registered pharmacist. \"Supervision\" means the direction and oversight of a registered pharmacy technician or",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB72",
+          "chunk_text": "the direction and oversight of a registered pharmacy technician or pharmacy intern by a responsible registered pharmacist at all times when the registered pharmacy technician or pharmacy intern performs acts specified in this chapter or rules adopted pursuant to this chapter. \" SECTION 3 . Section 461-4.5, Hawaii Revised Statutes,",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB72",
+          "chunk_text": "chapter. \" SECTION 3 . Section 461-4.5, Hawaii Revised Statutes, is amended by amending subsection (a) to read as follows: \"(a) In addition to any other powers and duties authorized by law, the board: (1) Shall adopt, amend, and repeal rules pursuant to chapter 91, as it deems proper for",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB72",
+          "chunk_text": "rules pursuant to chapter 91, as it deems proper for the purposes of this chapter, Public Law 100-293, and title 21 Code of Federal Regulations part 205; (2) Shall examine, license, reinstate, and renew the licenses of qualified applicants for registered pharmacists and wholesale prescription drug distributors[ , ] ;",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB72",
+          "chunk_text": "registered pharmacists and wholesale prescription drug distributors[ , ] ; issue certificates of registration for registered pharmacy technicians; and issue and renew permits to operate pharmacies; (3) May require the inspection of any wholesale prescription drug distributor premises in the State to ensure compliance with this chapter and rules adopted",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB72",
+          "chunk_text": "State to ensure compliance with this chapter and rules adopted under this chapter, or may require an applicant for a pharmacy license to submit a statement that the premises, including but not limited to security and sanitation, are",
+          "start_word": 720,
+          "end_word": 758,
+          "word_count": 38
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "pertussis), meningococcal, or influenza vaccine, without complying with section 461-11.4; or (12) Prescribing or dispensing contraceptive supplies without complying with section 461-11.6. (b) Any person who violates any of the provisions of this chapter or the rules adopted pursuant [ thereto ] this chapter shall be fined not less than $100 nor more than $1,000 for each violation. (c) All proceedings for denial, suspension, fine, or revocation of a license , registration, or permit on any grounds specified in subsection (a) shall be conducted pursuant to chapter 91, including the right of judicial review.\" SECTION 9. Statutory material to be repealed",
+        "number": 100.0,
+        "filename": "HB72_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "vaccine, without complying with section 461-11.4; or (12) Prescribing or dispensing contraceptive supplies without complying with section 461-11.6. (b) Any person who violates any of the provisions of this chapter or the rules adopted pursuant [ thereto ] this chapter shall be fined not less than $100 nor more than $1,000 for each violation. (c) All proceedings for denial, suspension, fine, or revocation of a license , registration, or permit on any grounds specified in subsection (a) shall be conducted pursuant to chapter 91, including the right of judicial review.\" SECTION 9. Statutory material to be repealed is bracketed and stricken.",
+        "number": 1000.0,
+        "filename": "HB72_.HTM.txt",
+        "document_type": "document"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:31:44.733563",
+  "generation_timestamp_unix": 1760146304.733571
+}

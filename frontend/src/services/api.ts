@@ -88,6 +88,7 @@ export const askLLM = async (question: string): Promise<string> => {
 
 export const getBillSimilaritySearch = async (billType: 'HB' | 'SB', billNumber: string): Promise<BillSimilaritySearch> => {
   const response = await api.post('/get_similar_bills', null, {
+    timeout: 120000,
     params: {
       bill_type: billType,
       bill_number: billNumber,

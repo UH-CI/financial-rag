@@ -126,7 +126,7 @@ const SimilarBillSearch = () => {
         index === self.findIndex(b => b.bill_name === bill.bill_name)
       );
 
-      // Construct the prompt with all the search results
+      // Single comprehensive prompt for analysis and classification
       const prompt = `
 Analyze the following similar bills found for ${searchResults.search_bill.bill_name}:
 
@@ -138,78 +138,126 @@ ${uniqueBills.map((bill, index) =>
   `${index + 1}. ${bill.bill_name}: ${bill.summary}`
 ).join('\n')}
 
-Please analyze all of the bills and answer the following questions:
+Please provide a comprehensive analysis with clear sections, then follow with structured data for parsing.
 
-1. Are any of the bills similar or grouped together? Can they be combined into a single bill? Be specific about how they are similar and what aspects could be consolidated.
+Format your response as follows:
 
-2. Do they have competing agendas? Are they in contradiction with each other? If they don't compete, explain that they are fine and affect unrelated matters.
+## Analysis
 
-Be very specific in your analysis about how the bills are either competing, similar, or unrelated. Focus on the actual policy content and legislative intent.`;
+[Your comprehensive analysis here explaining the relationships and themes]
 
-      console.log('Sending prompt to LLM:', prompt.substring(0, 200) + '...');
-      const analysis = await askLLM(prompt);
-      console.log('Received analysis:', analysis);
-      setLlmAnalysis(analysis);
+## Supporting Bills
+[List and explain bills that support or advance the same cause as the original bill]
 
-      // Second LLM call for bill classification
-      const classificationPrompt = `
-Analyze the following similar bills found for ${searchResults.search_bill.bill_name}:
+## Contracting/Competing Bills  
+[List and explain bills that oppose or contradict the original bill's cause]
 
-**Search Bill:**
-${searchResults.search_bill.bill_name}: ${searchResults.search_bill.summary}
+## Unrelated Bills
+[List and explain bills that are unrelated to the original bill's cause]
 
-**Similar Bills:**
-${uniqueBills.map((bill, index) => 
-  `${index + 1}. ${bill.bill_name}: ${bill.summary}`
-).join('\n')}
+## JSON_DATA_START
+{
+  "supporting_bills": [
+    {
+      "bill_name": "exact_bill_name_here",
+      "cluster_name": "descriptive_theme_name",
+      "explanation": "brief explanation"
+    }
+  ],
+  "contracting_bills": [
+    {
+      "bill_name": "exact_bill_name_here", 
+      "cluster_name": "descriptive_theme_name",
+      "explanation": "brief explanation"
+    }
+  ],
+  "unrelated_bills": [
+    {
+      "bill_name": "exact_bill_name_here",
+      "cluster_name": "descriptive_theme_name", 
+      "explanation": "brief explanation"
+    }
+  ]
+}
+## JSON_DATA_END
 
-Based on the analysis above, classify each similar bill with the following properties:
-1. The name of the bill
-2. The relationship to the original bill with one of these three options:
-   - "supporting": The bill supports or advances the same cause as the original bill
-   - "contracting": The bill opposes or contradicts the original bill's cause
-   - "unrelated": The bill is totally unrelated to the original bill's cause
-3. A cluster number (integer) to group bills that address similar themes together
-4. A cluster name (string) to describe the theme of the cluster
+IMPORTANT: 
+- Use the exact bill names as they appear in the list above
+- Each bill should appear in exactly one category
+- Cluster names should be 2-3 words describing the common theme
+- Include both the readable analysis sections AND the JSON data between the markers`;
 
-Return ONLY a valid JSON array with this exact structure:
-[
-  {
-    "bill_name": "bill_name_here",
-    "relationship": "supporting/contracting/unrelated",
-    "cluster": 1
-    "cluster_name": "cluster_name_here"
-  }
-]
-
-Do not include any other text, explanation, or markdown formatting, only the raw JSON array.`;
-
-      console.log('Sending classification prompt to LLM...');
-      const classificationResponse = await askLLM(classificationPrompt);
-      console.log('Received classification response:', classificationResponse);
+      console.log('Sending comprehensive analysis prompt to LLM...');
+      const response = await askLLM(prompt);
+      console.log('Received comprehensive response:', response);
       
       try {
-        // Clean the response by removing markdown code block formatting
-        let cleanedResponse = classificationResponse.trim();
+        // Extract the readable analysis (everything before JSON_DATA_START)
+        const jsonStartMarker = '## JSON_DATA_START';
+        const jsonEndMarker = '## JSON_DATA_END';
         
-        // Remove ```json and ``` markers if present
-        if (cleanedResponse.startsWith('```json')) {
-          cleanedResponse = cleanedResponse.replace(/^```json\s*/, '');
-        }
-        if (cleanedResponse.startsWith('```')) {
-          cleanedResponse = cleanedResponse.replace(/^```\s*/, '');
-        }
-        if (cleanedResponse.endsWith('```')) {
-          cleanedResponse = cleanedResponse.replace(/\s*```$/, '');
+        const jsonStartIndex = response.indexOf(jsonStartMarker);
+        const jsonEndIndex = response.indexOf(jsonEndMarker);
+        
+        if (jsonStartIndex === -1 || jsonEndIndex === -1) {
+          throw new Error('JSON data markers not found in response');
         }
         
-        console.log('Cleaned response:', cleanedResponse);
-        const parsedClassification = JSON.parse(cleanedResponse);
-        setBillClassification(parsedClassification);
-        console.log('Parsed classification:', parsedClassification);
+        // Extract the readable analysis text (everything before JSON_DATA_START)
+        const analysisText = response.substring(0, jsonStartIndex).trim();
+        setLlmAnalysis(analysisText);
+        
+        // Extract and parse the JSON data
+        const jsonData = response.substring(
+          jsonStartIndex + jsonStartMarker.length, 
+          jsonEndIndex
+        ).trim();
+        
+        console.log('Extracted JSON data:', jsonData);
+        const parsedResponse = JSON.parse(jsonData);
+        
+        // Convert the structured response to the format expected by the visualization
+        const billClassification: any[] = [];
+        let clusterCounter = 1;
+        
+        // Process supporting bills
+        parsedResponse.supporting_bills?.forEach((bill: any) => {
+          billClassification.push({
+            bill_name: bill.bill_name,
+            relationship: 'supporting',
+            cluster: clusterCounter,
+            cluster_name: bill.cluster_name
+          });
+          clusterCounter++;
+        });
+        
+        // Process contracting bills
+        parsedResponse.contracting_bills?.forEach((bill: any) => {
+          billClassification.push({
+            bill_name: bill.bill_name,
+            relationship: 'contracting',
+            cluster: clusterCounter,
+            cluster_name: bill.cluster_name
+          });
+          clusterCounter++;
+        });
+        
+        // Process unrelated bills
+        parsedResponse.unrelated_bills?.forEach((bill: any) => {
+          billClassification.push({
+            bill_name: bill.bill_name,
+            relationship: 'unrelated',
+            cluster: clusterCounter,
+            cluster_name: bill.cluster_name
+          });
+          clusterCounter++;
+        });
+        
+        setBillClassification(billClassification);
+        console.log('Processed classification:', billClassification);
       } catch (parseError) {
-        console.error('Failed to parse classification JSON:', parseError);
-        setAnalysisError('Failed to parse bill classification response as JSON');
+        console.error('Failed to parse comprehensive response JSON:', parseError);
+        setAnalysisError('Failed to parse comprehensive analysis response as JSON');
       }
     } catch (err) {
       console.error('LLM Analysis error:', err);
@@ -614,8 +662,15 @@ Do not include any other text, explanation, or markdown formatting, only the raw
                               <td className="px-2 py-1 text-center text-sm font-medium text-gray-500">
                                 {index + 1}
                               </td>
-                              <td className="px-2 py-1 text-sm font-medium text-gray-900">
-                                {result.bill_name}
+                              <td className="px-2 py-1 text-sm font-medium">
+                                <a
+                                  href={`https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=${result.bill_name.match(/^(HB|SB)/)?.[0] || 'HB'}&billnumber=${result.bill_name.match(/\d+/)?.[0] || ''}&year=2025`}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-blue-600 hover:text-blue-800 hover:underline transition-colors"
+                                >
+                                  {result.bill_name}
+                                </a>
                               </td>
                               <td className="px-4 py-3 text-sm text-gray-700">
                                 <div className={isExpanded ? '' : 'line-clamp-2'}>
@@ -649,7 +704,7 @@ Do not include any other text, explanation, or markdown formatting, only the raw
               
               {/* Floating Legend Box */}
               {billClassification && (
-                <div className="absolute top-4 left-4 bg-white rounded-lg shadow-lg border border-gray-200 p-4 z-10 max-w-xs">
+                <div className="absolute top-32 left-4 bg-white rounded-lg shadow-lg border border-gray-200 p-4 z-10 max-w-xs">
                   <h4 className="text-sm font-semibold text-gray-900 mb-3">Legend</h4>
                   <div className="space-y-2">
                     <div className="flex items-center gap-2">

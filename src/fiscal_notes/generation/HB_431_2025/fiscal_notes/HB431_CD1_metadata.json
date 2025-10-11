@@ -1,0 +1,769 @@
+{
+  "document_name": "HB431_CD1",
+  "new_documents_processed": [
+    "HB431_CD1"
+  ],
+  "all_documents_processed_so_far": [
+    "HB431_CD1"
+  ],
+  "numbers_used": 4,
+  "prompt_length": 9049,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"The purpose of this measure is to appropriate funds for the continued implementation of the Kauhale Initiative and Ohana Zones Pilot Program. The measure establishes the Ohana Zones Program as a permanent program within the Statewide Office on Homelessness and Housing Solutions. It also establishes reporting requirements for kauhale projects and requires the Auditor to conduct a management and performance audit of the Kauhale Initiative.\",\n\"appropriations\": \"The measure inserts appropriation amounts of $18,575,000 (HB431_CD1_.HTM.txt) for fiscal year 2025-2026 and $24,325,000 (HB431_CD1_.HTM.txt) for fiscal year 2026-2027 for the continued operation of the Kauhale Initiative. It also inserts appropriation amounts of $2,525,000 (HB431_CD1_.HTM.txt) for fiscal year 2025-2026 and $5,855,000 (HB431_CD1_.HTM.txt) for fiscal year 2026-2027 for the continued implementation of the Ohana Zones Pilot Program. Language that would have appropriated funds for supportive housing projects was deleted.\",\n\"assumptions_and_methodology\": \"The provided legislative document specifies appropriation amounts for the continued operation and implementation of the Kauhale Initiative and Ohana Zones Pilot Program for fiscal years 2025-2026 and 2026-2027. The document does not detail the cost estimation methods or data sources used to determine these appropriation amounts. The funding is intended for the continuation of existing programs, suggesting the amounts may be based on current operational costs and anticipated needs.\",\n\"agency_impact\": \"This measure impacts the Statewide Office on Homelessness and Housing Solutions by establishing the Ohana Zones Program as a permanent program within the office. The office is required to submit a report every four months to the Legislature detailing the expenditure of funds appropriated toward the Kauhale and Ohana Zones initiatives. Additionally, the office must conduct a comprehensive needs assessment and submit a report on the assessment to the Legislature.\",\n\"economic_impact\": \"The measure appropriates funds for the continued implementation of programs aimed at addressing homelessness through the Kauhale Initiative and Ohana Zones Program. The legislative document does not specify expected economic effects such as cost savings, potential reductions in related expenditures, or specific benefits to the community. No performance or participation statistics are provided in the text.\",\n\"policy_impact\": \"This measure amends existing policy by establishing the Ohana Zones Program as a permanent program within the Statewide Office on Homelessness and Housing Solutions. It also requires the Auditor to conduct a management and performance audit of the Kauhale Initiative and report to the Legislature. Furthermore, the measure specifies that the Coordinator on Homelessness shall report directly to the Director of Human Services and changes the effective date to July 1, 2025.\",\n\"revenue_sources\": \"The legislative document specifies that the appropriations for the Kauhale Initiative and the Ohana Zones Program will come from the general revenues of the State of Hawaii. No other revenue sources such as grants, fees, or other revenue streams are mentioned. The total appropriation from general revenues is $21,100,000 for FY 2025-2026 and $30,180,000 for FY 2026-2027.\",\n\"six_year_fiscal_implications\": \"The six-year fiscal implications are detailed for a two-year period. The measure appropriates $18,575,000 (HB431_CD1_.HTM.txt) in fiscal year 2025-2026 and $24,325,000 (HB431_CD1_.HTM.txt) in fiscal year 2026-2027 for the continued operation of the Kauhale Initiative. For the Ohana Zones Program, the measure appropriates $2,525,000 (HB431_CD1_.HTM.txt) in fiscal year 2025-2026 and $5,855,000 (HB431_CD1_.HTM.txt) in fiscal year 2026-2027 for its continued implementation. The total appropriation is $21,100,000 for FY 2025-2026 and $30,180,000 for FY 2026-2027. The Ohana Zones Program is established as a permanent program, which implies recurring expenses beyond this two-year period. However, projections for the subsequent four years are not provided in the document. The bill also requires the Auditor to conduct a management and performance audit of the Kauhale Initiative, which may have future fiscal implications based on its findings.\",\n\"operating_revenue_impact\": \"The provided legislative document does not indicate any anticipated impacts on operating revenues. The measure is funded through appropriations from the general revenues of the State of Hawaii. No new fees, charges, or other revenue-generating mechanisms are established by this bill.\",\n\"capital_expenditure_impact\": \"The provided legislative document does not outline any specific capital expenditures. The appropriations are designated for the 'continued implementation' and 'continued operation' of the Kauhale Initiative and Ohana Zones Program. These terms suggest the funds are intended for operating costs rather than investments in facilities, equipment, or technology infrastructure.\",\n\"fiscal_implications_after_6_years\": \"The measure establishes the Ohana Zones Program as a permanent program, suggesting ongoing fiscal obligations beyond the initial two-year appropriation period. Annual operating costs for this program will likely continue, though the document does not specify amounts beyond fiscal year 2026-2027. The long-term sustainability of funding for both the permanent Ohana Zones Program and the Kauhale Initiative is not detailed.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison. This fiscal note is based solely on the text of H.B. No. 431, H.D. 2, S.D. 2, C.D. 1.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 3926,
+      "candidates_token_count": 1365,
+      "total_token_count": 6740
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"The purpose of this measure is to appropriate funds for the continued implementation of the Kauhale Initiative and Ohana Zones Pilot Program. The measure establishes the Ohana Zones Program as a permanent program within the Statewide Office on Homelessness and Housing Solutions. It also establishes reporting requirements for kauhale projects and requires the Auditor to conduct a management and performance audit of the Kauhale Initiative.\",\n\"appropriations\": \"The measure inserts appropriation amounts of $18,575,000 (HB431_CD1_.HTM.txt) for fiscal year 2025-2026 and $24,325,000 (HB431_CD1_.HTM.txt) for fiscal year 2026-2027 for the continued operation of the Kauhale Initiative. It also inserts appropriation amounts of $2,525,000 (HB431_CD1_.HTM.txt) for fiscal year 2025-2026 and $5,855,000 (HB431_CD1_.HTM.txt) for fiscal year 2026-2027 for the continued implementation of the Ohana Zones Pilot Program. Language that would have appropriated funds for supportive housing projects was deleted.\",\n\"assumptions_and_methodology\": \"The provided legislative document specifies appropriation amounts for the continued operation and implementation of the Kauhale Initiative and Ohana Zones Pilot Program for fiscal years 2025-2026 and 2026-2027. The document does not detail the cost estimation methods or data sources used to determine these appropriation amounts. The funding is intended for the continuation of existing programs, suggesting the amounts may be based on current operational costs and anticipated needs.\",\n\"agency_impact\": \"This measure impacts the Statewide Office on Homelessness and Housing Solutions by establishing the Ohana Zones Program as a permanent program within the office. The office is required to submit a report every four months to the Legislature detailing the expenditure of funds appropriated toward the Kauhale and Ohana Zones initiatives. Additionally, the office must conduct a comprehensive needs assessment and submit a report on the assessment to the Legislature.\",\n\"economic_impact\": \"The measure appropriates funds for the continued implementation of programs aimed at addressing homelessness through the Kauhale Initiative and Ohana Zones Program. The legislative document does not specify expected economic effects such as cost savings, potential reductions in related expenditures, or specific benefits to the community. No performance or participation statistics are provided in the text.\",\n\"policy_impact\": \"This measure amends existing policy by establishing the Ohana Zones Program as a permanent program within the Statewide Office on Homelessness and Housing Solutions. It also requires the Auditor to conduct a management and performance audit of the Kauhale Initiative and report to the Legislature. Furthermore, the measure specifies that the Coordinator on Homelessness shall report directly to the Director of Human Services and changes the effective date to July 1, 2025.\",\n\"revenue_sources\": \"The legislative document specifies that the appropriations for the Kauhale Initiative and the Ohana Zones Program will come from the general revenues of the State of Hawaii. No other revenue sources such as grants, fees, or other revenue streams are mentioned. The total appropriation from general revenues is $21,100,000 for FY 2025-2026 and $30,180,000 for FY 2026-2027.\",\n\"six_year_fiscal_implications\": \"The six-year fiscal implications are detailed for a two-year period. The measure appropriates $18,575,000 (HB431_CD1_.HTM.txt) in fiscal year 2025-2026 and $24,325,000 (HB431_CD1_.HTM.txt) in fiscal year 2026-2027 for the continued operation of the Kauhale Initiative. For the Ohana Zones Program, the measure appropriates $2,525,000 (HB431_CD1_.HTM.txt) in fiscal year 2025-2026 and $5,855,000 (HB431_CD1_.HTM.txt) in fiscal year 2026-2027 for its continued implementation. The total appropriation is $21,100,000 for FY 2025-2026 and $30,180,000 for FY 2026-2027. The Ohana Zones Program is established as a permanent program, which implies recurring expenses beyond this two-year period. However, projections for the subsequent four years are not provided in the document. The bill also requires the Auditor to conduct a management and performance audit of the Kauhale Initiative, which may have future fiscal implications based on its findings.\",\n\"operating_revenue_impact\": \"The provided legislative document does not indicate any anticipated impacts on operating revenues. The measure is funded through appropriations from the general revenues of the State of Hawaii. No new fees, charges, or other revenue-generating mechanisms are established by this bill.\",\n\"capital_expenditure_impact\": \"The provided legislative document does not outline any specific capital expenditures. The appropriations are designated for the 'continued implementation' and 'continued operation' of the Kauhale Initiative and Ohana Zones Program. These terms suggest the funds are intended for operating costs rather than investments in facilities, equipment, or technology infrastructure.\",\n\"fiscal_implications_after_6_years\": \"The measure establishes the Ohana Zones Program as a permanent program, suggesting ongoing fiscal obligations beyond the initial two-year appropriation period. Annual operating costs for this program will likely continue, though the document does not specify amounts beyond fiscal year 2026-2027. The long-term sustainability of funding for both the permanent Ohana Zones Program and the Kauhale Initiative is not detailed.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison. This fiscal note is based solely on the text of H.B. No. 431, H.D. 2, S.D. 2, C.D. 1.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"The purpose of this measure is to appropriate funds for the continued implementation of the Kauhale Initiative and Ohana Zones Pilot Program",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.9230769230769231,
+          "attribution_reason": "Word frequency match score: 0.923",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure establishes the Ohana Zones Program as a permanent program within the Statewide Office on Homelessness and Housing Solutions",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8461538461538461,
+          "attribution_reason": "Word frequency match score: 0.846",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It also establishes reporting requirements for kauhale projects and requires the Auditor to conduct a management and performance audit of the Kauhale Initiative",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6428571428571429,
+          "attribution_reason": "Word frequency match score: 0.643",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"The measure inserts appropriation amounts of $18,575,000 (HB431_CD1_",
+          "attributed_chunk_id": "NUMBER_18575000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Number $18,575,000 from HB431_CD1_.HTM.txt (score: 0.143)",
+          "numbers_found": [
+            18575000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for fiscal year 2025-2026 and $24,325,000 (HB431_CD1_",
+          "attributed_chunk_id": "NUMBER_24325000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Number $24,325,000 from HB431_CD1_.HTM.txt (score: 0.625)",
+          "numbers_found": [
+            24325000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for fiscal year 2026-2027 for the continued operation of the Kauhale Initiative",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8,
+          "attribution_reason": "Word frequency match score: 0.800",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It also inserts appropriation amounts of $2,525,000 (HB431_CD1_",
+          "attributed_chunk_id": "NUMBER_2525000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Number $2,525,000 from HB431_CD1_.HTM.txt (score: 0.167)",
+          "numbers_found": [
+            2525000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for fiscal year 2025-2026 and $5,855,000 (HB431_CD1_",
+          "attributed_chunk_id": "NUMBER_5855000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Number $5,855,000 from HB431_CD1_.HTM.txt (score: 0.625)",
+          "numbers_found": [
+            5855000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for fiscal year 2026-2027 for the continued implementation of the Ohana Zones Pilot Program",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8333333333333334,
+          "attribution_reason": "Word frequency match score: 0.833",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Language that would have appropriated funds for supportive housing projects was deleted",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8571428571428571,
+          "attribution_reason": "Word frequency match score: 0.857",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"assumptions_and_methodology\": \"The provided legislative document specifies appropriation amounts for the continued operation and implementation of the Kauhale Initiative and Ohana Zones Pilot Program for fiscal years 2025-2026 and 2026-2027",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6363636363636364,
+          "attribution_reason": "Word frequency match score: 0.636",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The document does not detail the cost estimation methods or data sources used to determine these appropriation amounts",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.15384615384615385,
+          "attribution_reason": "Word frequency match score: 0.154",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The funding is intended for the continuation of existing programs, suggesting the amounts may be based on current operational costs and anticipated needs",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.07692307692307693,
+          "attribution_reason": "Word frequency match score: 0.077",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"agency_impact\": \"This measure impacts the Statewide Office on Homelessness and Housing Solutions by establishing the Ohana Zones Program as a permanent program within the office",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Word frequency match score: 0.750",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The office is required to submit a report every four months to the Legislature detailing the expenditure of funds appropriated toward the Kauhale and Ohana Zones initiatives",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8823529411764706,
+          "attribution_reason": "Word frequency match score: 0.882",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Additionally, the office must conduct a comprehensive needs assessment and submit a report on the assessment to the Legislature",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8,
+          "attribution_reason": "Word frequency match score: 0.800",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"The measure appropriates funds for the continued implementation of programs aimed at addressing homelessness through the Kauhale Initiative and Ohana Zones Program",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5625,
+          "attribution_reason": "Word frequency match score: 0.562",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The legislative document does not specify expected economic effects such as cost savings, potential reductions in related expenditures, or specific benefits to the community",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.05555555555555555,
+          "attribution_reason": "Word frequency match score: 0.056",
+          "numbers_found": []
+        },
+        {
+          "sentence": "No performance or participation statistics are provided in the text",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Word frequency match score: 0.200",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"policy_impact\": \"This measure amends existing policy by establishing the Ohana Zones Program as a permanent program within the Statewide Office on Homelessness and Housing Solutions",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7058823529411765,
+          "attribution_reason": "Word frequency match score: 0.706",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It also requires the Auditor to conduct a management and performance audit of the Kauhale Initiative and report to the Legislature",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8181818181818182,
+          "attribution_reason": "Word frequency match score: 0.818",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Furthermore, the measure specifies that the Coordinator on Homelessness shall report directly to the Director of Human Services and changes the effective date to July 1, 2025",
+          "attributed_chunk_id": 9,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7333333333333333,
+          "attribution_reason": "Word frequency match score: 0.733",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"The legislative document specifies that the appropriations for the Kauhale Initiative and the Ohana Zones Program will come from the general revenues of the State of Hawaii",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3125,
+          "attribution_reason": "Word frequency match score: 0.312",
+          "numbers_found": []
+        },
+        {
+          "sentence": "No other revenue sources such as grants, fees, or other revenue streams are mentioned",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The total appropriation from general revenues is $21,100,000 for FY 2025-2026 and $30,180,000 for FY 2026-2027",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.45454545454545453,
+          "attribution_reason": "Word frequency match score: 0.455",
+          "numbers_found": [
+            21100000.0,
+            30180000.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"six_year_fiscal_implications\": \"The six-year fiscal implications are detailed for a two-year period",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure appropriates $18,575,000 (HB431_CD1_",
+          "attributed_chunk_id": "NUMBER_18575000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Number $18,575,000 from HB431_CD1_.HTM.txt (score: 0.250)",
+          "numbers_found": [
+            18575000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) in fiscal year 2025-2026 and $24,325,000 (HB431_CD1_",
+          "attributed_chunk_id": "NUMBER_24325000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Number $24,325,000 from HB431_CD1_.HTM.txt (score: 0.625)",
+          "numbers_found": [
+            24325000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) in fiscal year 2026-2027 for the continued operation of the Kauhale Initiative",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8,
+          "attribution_reason": "Word frequency match score: 0.800",
+          "numbers_found": []
+        },
+        {
+          "sentence": "For the Ohana Zones Program, the measure appropriates $2,525,000 (HB431_CD1_",
+          "attributed_chunk_id": "NUMBER_2525000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.42857142857142855,
+          "attribution_reason": "Number $2,525,000 from HB431_CD1_.HTM.txt (score: 0.429)",
+          "numbers_found": [
+            2525000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) in fiscal year 2025-2026 and $5,855,000 (HB431_CD1_",
+          "attributed_chunk_id": "NUMBER_5855000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Number $5,855,000 from HB431_CD1_.HTM.txt (score: 0.625)",
+          "numbers_found": [
+            5855000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) in fiscal year 2026-2027 for its continued implementation",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The total appropriation is $21,100,000 for FY 2025-2026 and $30,180,000 for FY 2026-2027",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Word frequency match score: 0.625",
+          "numbers_found": [
+            21100000.0,
+            30180000.0
+          ]
+        },
+        {
+          "sentence": "The Ohana Zones Program is established as a permanent program, which implies recurring expenses beyond this two-year period",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.35714285714285715,
+          "attribution_reason": "Word frequency match score: 0.357",
+          "numbers_found": []
+        },
+        {
+          "sentence": "However, projections for the subsequent four years are not provided in the document",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.125,
+          "attribution_reason": "Word frequency match score: 0.125",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill also requires the Auditor to conduct a management and performance audit of the Kauhale Initiative, which may have future fiscal implications based on its findings",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4117647058823529,
+          "attribution_reason": "Word frequency match score: 0.412",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"The provided legislative document does not indicate any anticipated impacts on operating revenues",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.08333333333333333,
+          "attribution_reason": "Word frequency match score: 0.083",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure is funded through appropriations from the general revenues of the State of Hawaii",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "No new fees, charges, or other revenue-generating mechanisms are established by this bill",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1111111111111111,
+          "attribution_reason": "Word frequency match score: 0.111",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"capital_expenditure_impact\": \"The provided legislative document does not outline any specific capital expenditures",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.09090909090909091,
+          "attribution_reason": "Word frequency match score: 0.091",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The appropriations are designated for the 'continued implementation' and 'continued operation' of the Kauhale Initiative and Ohana Zones Program",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6363636363636364,
+          "attribution_reason": "Word frequency match score: 0.636",
+          "numbers_found": []
+        },
+        {
+          "sentence": "These terms suggest the funds are intended for operating costs rather than investments in facilities, equipment, or technology infrastructure",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.07692307692307693,
+          "attribution_reason": "Word frequency match score: 0.077",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"fiscal_implications_after_6_years\": \"The measure establishes the Ohana Zones Program as a permanent program, suggesting ongoing fiscal obligations beyond the initial two-year appropriation period",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3888888888888889,
+          "attribution_reason": "Word frequency match score: 0.389",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Annual operating costs for this program will likely continue, though the document does not specify amounts beyond fiscal year 2026-2027",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.35294117647058826,
+          "attribution_reason": "Word frequency match score: 0.353",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The long-term sustainability of funding for both the permanent Ohana Zones Program and the Kauhale Initiative is not detailed",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.46153846153846156,
+          "attribution_reason": "Word frequency match score: 0.462",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Word frequency match score: 0.167",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This fiscal note is based solely on the text of H",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Word frequency match score: 0.200",
+          "numbers_found": []
+        },
+        {
+          "sentence": "B. No. 431, H. D. 2, S. D. 2, C. D. 1. \"\n}.",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": [
+            1.0,
+            2.0,
+            431.0
+          ]
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 2,
+          "document_name": "HB431_CD1",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 2,
+          "document_name": "HB431_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.111",
+            "Word frequency match score: 1.000"
+          ]
+        },
+        "2": {
+          "usage_count": 3,
+          "document_name": "HB431_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.056",
+            "Word frequency match score: 0.083",
+            "Word frequency match score: 0.091"
+          ]
+        },
+        "3": {
+          "usage_count": 5,
+          "document_name": "HB431_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.923",
+            "Word frequency match score: 0.562",
+            "Word frequency match score: 0.312",
+            "Word frequency match score: 0.636",
+            "Word frequency match score: 0.077"
+          ]
+        },
+        "4": {
+          "usage_count": 2,
+          "document_name": "HB431_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.643",
+            "Word frequency match score: 0.200"
+          ]
+        },
+        "5": {
+          "usage_count": 16,
+          "document_name": "HB431_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.800",
+            "Word frequency match score: 0.636",
+            "Word frequency match score: 0.154",
+            "Word frequency match score: 0.077",
+            "Word frequency match score: 0.818",
+            "Word frequency match score: 0.455",
+            "Word frequency match score: 0.333",
+            "Word frequency match score: 0.800",
+            "Word frequency match score: 0.625",
+            "Word frequency match score: 0.357",
+            "Word frequency match score: 0.412",
+            "Word frequency match score: 0.389",
+            "Word frequency match score: 0.353",
+            "Word frequency match score: 0.462",
+            "Word frequency match score: 0.167",
+            "Word frequency match score: 0.200"
+          ]
+        },
+        "6": {
+          "usage_count": 5,
+          "document_name": "HB431_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.846",
+            "Word frequency match score: 0.833",
+            "Word frequency match score: 0.750",
+            "Word frequency match score: 0.706",
+            "Word frequency match score: 0.667"
+          ]
+        },
+        "7": {
+          "usage_count": 2,
+          "document_name": "HB431_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.857",
+            "Word frequency match score: 0.125"
+          ]
+        },
+        "8": {
+          "usage_count": 2,
+          "document_name": "HB431_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.882",
+            "Word frequency match score: 0.800"
+          ]
+        },
+        "9": {
+          "usage_count": 1,
+          "document_name": "HB431_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.733"
+          ]
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1",
+          "attribution_reasons": []
+        },
+        "NUMBER_18575000.0": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_24325000.0": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_2525000.0": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_5855000.0": {
+          "usage_count": 0,
+          "document_name": "HB431_CD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_18575000": {
+          "usage_count": 2,
+          "document_name": "HB431_CD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $18,575,000 from HB431_CD1_.HTM.txt (score: 0.143)",
+            "Number $18,575,000 from HB431_CD1_.HTM.txt (score: 0.250)"
+          ]
+        },
+        "NUMBER_24325000": {
+          "usage_count": 2,
+          "document_name": "HB431_CD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $24,325,000 from HB431_CD1_.HTM.txt (score: 0.625)",
+            "Number $24,325,000 from HB431_CD1_.HTM.txt (score: 0.625)"
+          ]
+        },
+        "NUMBER_2525000": {
+          "usage_count": 2,
+          "document_name": "HB431_CD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $2,525,000 from HB431_CD1_.HTM.txt (score: 0.167)",
+            "Number $2,525,000 from HB431_CD1_.HTM.txt (score: 0.429)"
+          ]
+        },
+        "NUMBER_5855000": {
+          "usage_count": 2,
+          "document_name": "HB431_CD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $5,855,000 from HB431_CD1_.HTM.txt (score: 0.625)",
+            "Number $5,855,000 from HB431_CD1_.HTM.txt (score: 0.625)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 0,
+        "number_based": 8,
+        "word_frequency_based": 38,
+        "semantic_similarity": 0,
+        "fallback": 2,
+        "no_attribution": 0
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 13,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB431_CD1",
+          "chunk_text": "CCR189 CONFERENCE COMMITTEE REP. NO. 189 Honolulu, Hawaii , 2025 RE: H.B. No. 431 H.D. 2 S.D. 2 C.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB431_CD1",
+          "chunk_text": "D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madam and Sir: Your Committee on Conference on the disagreeing vote of the House of Representatives to the amendments proposed by the Senate in H.B. No. 431, H.D. 2, S.D. 2, entitled: \"A BILL",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB431_CD1",
+          "chunk_text": "H.B. No. 431, H.D. 2, S.D. 2, entitled: \"A BILL FOR AN ACT RELATING TO HOUSING,\" having met, and after full and free discussion, has agreed to recommend and does recommend to the respective Houses the final passage of this bill in an amended form. The purpose of this measure",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB431_CD1",
+          "chunk_text": "bill in an amended form. The purpose of this measure is to appropriate funds for: (1) The continued implementation of the Kauhale Initiative and Ohana Zones Pilot Program; and (2) The development of supportive housing projects and the provision of supportive services for certain households in the supportive housing projects.",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB431_CD1",
+          "chunk_text": "supportive services for certain households in the supportive housing projects. Your Committee on Conference has amended this measure by: (1) Establishing requirements for kauhale projects, including reporting requirements by the Statewide Office on Homelessness and Housing Solutions; (2) Requiring the Auditor to conduct a management and performance audit of the",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB431_CD1",
+          "chunk_text": "Auditor to conduct a management and performance audit of the Kauhale Initiative and report to the Legislature; (3) Inserting appropriation amounts of $18,575,000 for fiscal year 2025-2026 and $24,325,000 for fiscal year 2026-2027 for the continued operation of the Kauhale Initiative; (4) Establishing the Ohana Zones Program as a permanent",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB431_CD1",
+          "chunk_text": "Initiative; (4) Establishing the Ohana Zones Program as a permanent program within the Statewide Office on Homelessness and Housing Solutions; (5) Inserting appropriation amounts of $2,525,000 for fiscal year 2025-2026 and $5,855,000 for fiscal year 2026-2027 for the continued implementation of the Ohana Zones Pilot Program; (6) Deleting language that",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB431_CD1",
+          "chunk_text": "of the Ohana Zones Pilot Program; (6) Deleting language that would have appropriated funds for supportive housing projects and supportive services for certain households in those projects; (7) Requiring the Statewide Office on Homelessness and Housing Solutions to submit a report every four months to the Legislature detailing the expenditure",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB431_CD1",
+          "chunk_text": "report every four months to the Legislature detailing the expenditure of funds appropriated toward the Kauhale and Ohana Zones initiatives and conduct a comprehensive needs assessment and submit a report on the assessment to the Legislature; (8) Changing references to the Governor's Coordinator on Homelessness to \"Coordinator on Homelessness\"; (9)",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB431_CD1",
+          "chunk_text": "the Governor's Coordinator on Homelessness to \"Coordinator on Homelessness\"; (9) Specifying that the Coordinator on Homelessness shall report directly to the Director of Human Services; (10) Changing the effective date to July 1, 2025; and (11) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB431_CD1",
+          "chunk_text": "for the purposes of clarity, consistency, and style. As affirmed by the record of votes of the managers of your Committee on Conference that is attached to this report, your Committee on Conference is in accord with the intent and purpose of H.B. No. 431, H.D. 2, S.D. 2, as",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB431_CD1",
+          "chunk_text": "purpose of H.B. No. 431, H.D. 2, S.D. 2, as amended herein, and recommends that it pass Final Reading in the form attached hereto as H.B. No. 431, H.D. 2, S.D. 2, C.D. 1. Respectfully submitted on behalf of the managers: ON THE PART OF THE SENATE ON THE PART",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB431_CD1",
+          "chunk_text": "managers: ON THE PART OF THE SENATE ON THE PART OF THE HOUSE ____________________________ JOY A. SAN BUENAVENTURA Chair ____________________________ LISA MARTEN Co-Chair ____________________________ STANLEY CHANG Co-Chair ____________________________ LUKE A. EVSLIN Co-Chair ____________________________ HENRY J.C. AQUINO Co-Chair ____________________________ JENNA TAKENOUCHI Co-Chair",
+          "start_word": 480,
+          "end_word": 521,
+          "word_count": 41
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "auditor shall submit the audit with any findings and recommendations, including any proposed legislation, to the legislature no later than twenty days prior to the convening of the regular session of 2026. SECTION 4. There is appropriated out of the general revenues of the State of Hawaii the sum of $18,575,000 or so much thereof as may be necessary for fiscal year 2025-2026 and $24,325,000 or so much thereof as may be necessary for fiscal year 2026-2027 for the continued operation of the kauhale initiative , including expenses related to: (1) The development and operation of kauhale; (2) The provision of",
+        "number": 18575000.0,
+        "filename": "HB431_CD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "to the legislature no later than twenty days prior to the convening of the regular session of 2026. SECTION 4. There is appropriated out of the general revenues of the State of Hawaii the sum of $18,575,000 or so much thereof as may be necessary for fiscal year 2025-2026 and $24,325,000 or so much thereof as may be necessary for fiscal year 2026-2027 for the continued operation of the kauhale initiative , including expenses related to: (1) The development and operation of kauhale; (2) The provision of project-based rent supplement payments; (3) The provision of support services for qualified individuals and",
+        "number": 24325000.0,
+        "filename": "HB431_CD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "and (2) Where wrap-around services, social and health care services, transportation, and other services may be offered with the goals of alleviating poverty and transitioning individuals experiencing homelessness into affordable housing. \" SECTION 7. There is appropriated out of the general revenues of the State of Hawaii the sum of $2,525,000 or so much thereof as may be necessary for fiscal year 2025-2026 and $5,855,000 or so much thereof as may be necessary for fiscal year 2026-2027 for the continued implementation of the ohana zones pilot program established under Act 209, Session Laws of Hawaii 2018. The sums appropriated shall be",
+        "number": 2525000.0,
+        "filename": "HB431_CD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "may be offered with the goals of alleviating poverty and transitioning individuals experiencing homelessness into affordable housing. \" SECTION 7. There is appropriated out of the general revenues of the State of Hawaii the sum of $2,525,000 or so much thereof as may be necessary for fiscal year 2025-2026 and $5,855,000 or so much thereof as may be necessary for fiscal year 2026-2027 for the continued implementation of the ohana zones pilot program established under Act 209, Session Laws of Hawaii 2018. The sums appropriated shall be expended by the department of human services for the purposes of this part. PART",
+        "number": 5855000.0,
+        "filename": "HB431_CD1_.HTM.txt",
+        "document_type": "document"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:12:00.405095",
+  "generation_timestamp_unix": 1760145120.4051032
+}

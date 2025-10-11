@@ -1,0 +1,458 @@
+{
+  "document_name": "HB2",
+  "new_documents_processed": [
+    "HB2"
+  ],
+  "all_documents_processed_so_far": [
+    "HB2"
+  ],
+  "numbers_used": 0,
+  "prompt_length": 6797,
+  "response_metadata": {
+    "response_text": "{\n  \"overview\": \"The purpose of this Act is to provide communities the opportunity to protest the renewal of certain liquor licenses. The legislature finds that section 281-39.5, Hawaii Revised Statutes, currently applies only to the issuance of new liquor licenses, but not the renewal of current licenses, thus creating a safe harbor for existing establishments. This bill amends section 281-39.5, Hawaii Revised Statutes, to apply to both the issuance of new liquor licenses and the renewal of existing liquor licenses for on-site sale and consumption by the drink.\",\n  \"appropriations\": \"This measure does not contain any appropriations.\",\n  \"assumptions_and_methodology\": \"This bill has no financial impact on the State General Fund, as it pertains to the administrative functions of county liquor commissions. Therefore, no assumptions or methodology for financial projections are required.\",\n  \"agency_impact\": \"This bill will impact the Liquor Commission or other licensing agency of each county. These agencies shall deny the renewal of certain current liquor licenses upon receipt of sufficient protests. This expands their responsibility from only handling protests for new licenses to also managing protests for license renewals.\",\n  \"economic_impact\": \"This bill is not expected to have a significant economic impact on the State. Its primary focus is to address how patrons leaving a liquor establishment can adversely affect neighboring residents and users of nearby public facilities. There may be an economic impact on establishments whose license renewals are successfully protested and denied, but the provided documents do not quantify this potential effect.\",\n  \"policy_impact\": \"This Act amends section 281-39.5, Hawaii Revised Statutes, to apply to the renewal of existing liquor licenses, not just the issuance of new ones. Previously, the statute created a 'safe harbor for existing establishments seeking a renewal of their liquor license.' The policy change is intended to promote an environment in which alcohol imbibing patrons do not interfere with minors or other residents near establishments located near schools or parks.\",\n  \"revenue_sources\": \"This measure does not generate any revenue, nor does it require any funding sources.\",\n  \"six_year_fiscal_implications\": \"This bill has no fiscal implications for the State of Hawaii. The administration of liquor licensing is a county function, and any potential increase in administrative workload or decrease in license renewal fee revenue would be borne by the respective counties. No state funds are involved, and no six-year fiscal impact is anticipated at the state level.\",\n  \"operating_revenue_impact\": \"This measure is not anticipated to have any impact on state operating revenues.\",\n  \"capital_expenditure_impact\": \"This measure does not require any capital expenditures.\",\n  \"fiscal_implications_after_6_years\": \"There are no fiscal implications for the State of Hawaii after six years as a result of this measure.\",\n  \"updates_from_previous_fiscal_note\": \"This is the first fiscal note for this bill.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 2357,
+      "candidates_token_count": 619,
+      "total_token_count": 3691
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n  \"overview\": \"The purpose of this Act is to provide communities the opportunity to protest the renewal of certain liquor licenses. The legislature finds that section 281-39.5, Hawaii Revised Statutes, currently applies only to the issuance of new liquor licenses, but not the renewal of current licenses, thus creating a safe harbor for existing establishments. This bill amends section 281-39.5, Hawaii Revised Statutes, to apply to both the issuance of new liquor licenses and the renewal of existing liquor licenses for on-site sale and consumption by the drink.\",\n  \"appropriations\": \"This measure does not contain any appropriations.\",\n  \"assumptions_and_methodology\": \"This bill has no financial impact on the State General Fund, as it pertains to the administrative functions of county liquor commissions. Therefore, no assumptions or methodology for financial projections are required.\",\n  \"agency_impact\": \"This bill will impact the Liquor Commission or other licensing agency of each county. These agencies shall deny the renewal of certain current liquor licenses upon receipt of sufficient protests. This expands their responsibility from only handling protests for new licenses to also managing protests for license renewals.\",\n  \"economic_impact\": \"This bill is not expected to have a significant economic impact on the State. Its primary focus is to address how patrons leaving a liquor establishment can adversely affect neighboring residents and users of nearby public facilities. There may be an economic impact on establishments whose license renewals are successfully protested and denied, but the provided documents do not quantify this potential effect.\",\n  \"policy_impact\": \"This Act amends section 281-39.5, Hawaii Revised Statutes, to apply to the renewal of existing liquor licenses, not just the issuance of new ones. Previously, the statute created a 'safe harbor for existing establishments seeking a renewal of their liquor license.' The policy change is intended to promote an environment in which alcohol imbibing patrons do not interfere with minors or other residents near establishments located near schools or parks.\",\n  \"revenue_sources\": \"This measure does not generate any revenue, nor does it require any funding sources.\",\n  \"six_year_fiscal_implications\": \"This bill has no fiscal implications for the State of Hawaii. The administration of liquor licensing is a county function, and any potential increase in administrative workload or decrease in license renewal fee revenue would be borne by the respective counties. No state funds are involved, and no six-year fiscal impact is anticipated at the state level.\",\n  \"operating_revenue_impact\": \"This measure is not anticipated to have any impact on state operating revenues.\",\n  \"capital_expenditure_impact\": \"This measure does not require any capital expenditures.\",\n  \"fiscal_implications_after_6_years\": \"There are no fiscal implications for the State of Hawaii after six years as a result of this measure.\",\n  \"updates_from_previous_fiscal_note\": \"This is the first fiscal note for this bill.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": {
+          "citations": []
+        },
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n  \"overview\": \"The purpose of this Act is to provide communities the opportunity to protest the renewal of certain liquor licenses",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.9090909090909091,
+          "attribution_reason": "Word frequency match score: 0.909",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The legislature finds that section 281-39",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": [
+            281.0,
+            39.0
+          ]
+        },
+        {
+          "sentence": "5, Hawaii Revised Statutes, currently applies only to the issuance of new liquor licenses, but not the renewal of current licenses, thus creating a safe harbor for existing establishments",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.9,
+          "attribution_reason": "Word frequency match score: 0.900",
+          "numbers_found": [
+            5.0
+          ]
+        },
+        {
+          "sentence": "This bill amends section 281-39",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            281.0,
+            39.0
+          ]
+        },
+        {
+          "sentence": "5, Hawaii Revised Statutes, to apply to both the issuance of new liquor licenses and the renewal of existing liquor licenses for on-site sale and consumption by the drink",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8823529411764706,
+          "attribution_reason": "Word frequency match score: 0.882",
+          "numbers_found": [
+            5.0
+          ]
+        },
+        {
+          "sentence": "\",\n  \"appropriations\": \"This measure does not contain any appropriations",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.42857142857142855,
+          "attribution_reason": "Word frequency match score: 0.429",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"assumptions_and_methodology\": \"This bill has no financial impact on the State General Fund, as it pertains to the administrative functions of county liquor commissions",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Therefore, no assumptions or methodology for financial projections are required",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"agency_impact\": \"This bill will impact the Liquor Commission or other licensing agency of each county",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7,
+          "attribution_reason": "Word frequency match score: 0.700",
+          "numbers_found": []
+        },
+        {
+          "sentence": "These agencies shall deny the renewal of certain current liquor licenses upon receipt of sufficient protests",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.9090909090909091,
+          "attribution_reason": "Word frequency match score: 0.909",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This expands their responsibility from only handling protests for new licenses to also managing protests for license renewals",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.21428571428571427,
+          "attribution_reason": "Word frequency match score: 0.214",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"economic_impact\": \"This bill is not expected to have a significant economic impact on the State",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Its primary focus is to address how patrons leaving a liquor establishment can adversely affect neighboring residents and users of nearby public facilities",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7222222222222222,
+          "attribution_reason": "Word frequency match score: 0.722",
+          "numbers_found": []
+        },
+        {
+          "sentence": "There may be an economic impact on establishments whose license renewals are successfully protested and denied, but the provided documents do not quantify this potential effect",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1875,
+          "attribution_reason": "Word frequency match score: 0.188",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"policy_impact\": \"This Act amends section 281-39",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Word frequency match score: 0.600",
+          "numbers_found": [
+            281.0,
+            39.0
+          ]
+        },
+        {
+          "sentence": "5, Hawaii Revised Statutes, to apply to the renewal of existing liquor licenses, not just the issuance of new ones",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7692307692307693,
+          "attribution_reason": "Word frequency match score: 0.769",
+          "numbers_found": [
+            5.0
+          ]
+        },
+        {
+          "sentence": "Previously, the statute created a 'safe harbor for existing establishments seeking a renewal of their liquor license",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Word frequency match score: 0.750",
+          "numbers_found": []
+        },
+        {
+          "sentence": "' The policy change is intended to promote an environment in which alcohol imbibing patrons do not interfere with minors or other residents near establishments located near schools or parks",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.55,
+          "attribution_reason": "Word frequency match score: 0.550",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"revenue_sources\": \"This measure does not generate any revenue, nor does it require any funding sources",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.23076923076923078,
+          "attribution_reason": "Word frequency match score: 0.231",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"six_year_fiscal_implications\": \"This bill has no fiscal implications for the State of Hawaii",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The administration of liquor licensing is a county function, and any potential increase in administrative workload or decrease in license renewal fee revenue would be borne by the respective counties",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2222222222222222,
+          "attribution_reason": "Word frequency match score: 0.222",
+          "numbers_found": []
+        },
+        {
+          "sentence": "No state funds are involved, and no six-year fiscal impact is anticipated at the state level",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"operating_revenue_impact\": \"This measure is not anticipated to have any impact on state operating revenues",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2222222222222222,
+          "attribution_reason": "Word frequency match score: 0.222",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"capital_expenditure_impact\": \"This measure does not require any capital expenditures",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Word frequency match score: 0.375",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"fiscal_implications_after_6_years\": \"There are no fiscal implications for the State of Hawaii after six years as a result of this measure",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"updates_from_previous_fiscal_note\": \"This is the first fiscal note for this bill",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 8,
+          "document_name": "HB2",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 1,
+          "document_name": "HB2",
+          "attribution_reasons": [
+            "Word frequency match score: 0.722"
+          ]
+        },
+        "2": {
+          "usage_count": 3,
+          "document_name": "HB2",
+          "attribution_reasons": [
+            "Word frequency match score: 1.000",
+            "Word frequency match score: 0.900",
+            "Word frequency match score: 0.550"
+          ]
+        },
+        "3": {
+          "usage_count": 2,
+          "document_name": "HB2",
+          "attribution_reasons": [
+            "Word frequency match score: 0.188",
+            "Word frequency match score: 0.750"
+          ]
+        },
+        "4": {
+          "usage_count": 2,
+          "document_name": "HB2",
+          "attribution_reasons": [
+            "Word frequency match score: 0.909",
+            "Word frequency match score: 0.600"
+          ]
+        },
+        "5": {
+          "usage_count": 3,
+          "document_name": "HB2",
+          "attribution_reasons": [
+            "Word frequency match score: 0.882",
+            "Word frequency match score: 0.214",
+            "Word frequency match score: 0.769"
+          ]
+        },
+        "6": {
+          "usage_count": 4,
+          "document_name": "HB2",
+          "attribution_reasons": [
+            "Word frequency match score: 0.429",
+            "Word frequency match score: 0.231",
+            "Word frequency match score: 0.222",
+            "Word frequency match score: 0.375"
+          ]
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB2",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 3,
+          "document_name": "HB2",
+          "attribution_reasons": [
+            "Word frequency match score: 0.700",
+            "Word frequency match score: 0.909",
+            "Word frequency match score: 0.222"
+          ]
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB2",
+          "attribution_reasons": []
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 0,
+        "number_based": 0,
+        "word_frequency_based": 18,
+        "semantic_similarity": 0,
+        "fallback": 8,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 10,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB2",
+          "chunk_text": "HB2 HOUSE OF REPRESENTATIVES H.B. NO. 2 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO LIQUOR LICENSES . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that patrons leaving a liquor establishment can adversely affect neighboring residents",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB2",
+          "chunk_text": "patrons leaving a liquor establishment can adversely affect neighboring residents and users of nearby public facilities. The legislature enacted section 281-39.5, Hawaii Revised Statutes, which allows for the denial or restriction of liquor licenses for certain establishments near schools or parks, to promote an environment in which alcohol imbibing patrons",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB2",
+          "chunk_text": "parks, to promote an environment in which alcohol imbibing patrons do not interfere with minors or other residents. The legislature further finds that section 281-39.5, Hawaii Revised Statutes, currently applies only to the issuance of new liquor licenses, but not the renewal of current licenses, thus creating a safe harbor",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB2",
+          "chunk_text": "the renewal of current licenses, thus creating a safe harbor for existing establishments seeking a renewal of their liquor license. Although registered voters within five hundred feet of a liquor establishment may not be inclined to protest the initial issuance of a liquor license, they may wish to do so",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB2",
+          "chunk_text": "of a liquor license, they may wish to do so when the license becomes subject to renewal and they have learned more about the establishment. Accordingly, the purpose of this Act is to provide communities the opportunity to protest the renewal of certain liquor licenses. SECTION 2 . Section 281-39.5,",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB2",
+          "chunk_text": "renewal of certain liquor licenses. SECTION 2 . Section 281-39.5, Hawaii Revised Statutes, is amended by amending subsection (b) to read as follows: \"(b) This section shall apply [ only ] to both the issuance of new liquor licenses , and the renewal of existing liquor licenses, for on-site sale",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB2",
+          "chunk_text": "and the renewal of existing liquor licenses, for on-site sale and consumption by the drink [ and not to any renewal of such licenses ].\" SECTION 3. This Act does not affect rights and duties that matured, penalties that were incurred, and proceedings that were begun before its effective date.",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB2",
+          "chunk_text": "incurred, and proceedings that were begun before its effective date. SECTION 4. Statutory material to be repealed is bracketed and stricken. New statutory material is underscored. SECTION 5. This Act shall take effect upon its approval. INTRODUCED BY: _____________________________ Report Title: Liquor Licenses; Renewal; Protest; Denial Description: Provides that the",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB2",
+          "chunk_text": "Title: Liquor Licenses; Renewal; Protest; Denial Description: Provides that the Liquor Commission or other licensing agency of each county shall deny the renewal of certain current liquor licenses upon receipt of sufficient protests. The summary description of legislation appearing on this page is for informational purposes only and is not",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB2",
+          "chunk_text": "this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+          "start_word": 360,
+          "end_word": 376,
+          "word_count": 16
+        }
+      ]
+    },
+    "numbers_data": []
+  },
+  "generation_timestamp": "2025-10-10T14:49:20.790791",
+  "generation_timestamp_unix": 1760143760.7907991
+}

@@ -1,0 +1,588 @@
+{
+  "document_name": "HB70",
+  "new_documents_processed": [
+    "HB70"
+  ],
+  "all_documents_processed_so_far": [
+    "HB70"
+  ],
+  "numbers_used": 0,
+  "prompt_length": 10246,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"The purpose of this Act is to emphasize the importance of compliance with the requirements enacted by Acts 62 and 199 by specifying that the budget summary must contain all required information without referring the reader to other portions of the budget, and clarifying a unit owner's ability to enforce compliance with budget summary and replacement reserves requirements (HB70). The legislature finds that condominium unit owners are entitled to disclosure of information about the replacement reserves maintained by the condominium association in which they own a unit (HB70). This Act requires budget summaries to contain all required information and clarifies a unit owner's ability to enforce compliance (HB70).\",\n\"appropriations\": \"This measure does not contain any appropriations.\",\n\"assumptions_and_methodology\": \"This measure has no financial impact on the State of Hawaii. Therefore, no assumptions or methodology are necessary to calculate financial projections.\",\n\"agency_impact\": \"This measure is not anticipated to have any operational, administrative, or budgetary impact on any government agency or department. The bill clarifies that enforcement of compliance is through legal action brought by a unit owner against their association, stating, \\\"Any unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of\\\" (HB70).\",\n\"economic_impact\": \"The economic impact of this measure is primarily on private condominium associations and their owners, not on the state. The Act is intended to \\\"better inform owners of the financial condition of an association\\\" (HB70). By increasing transparency and accountability regarding replacement reserves, the measure may lead to better-funded reserves and more stable financial conditions for condominium associations.\",\n\"policy_impact\": \"This Act amends Section 514B-148, Hawaii Revised Statutes, to build upon recent efforts to increase transparency, such as Act 62, Session Laws of Hawaii 2022, and Act 199, Session Laws of Hawaii 2023 (HB70). The measure modifies existing law by specifying that a \\\"budget summary shall contain all required information without referring the reader to other portions of the budget\\\" (HB70). It also clarifies policy by explicitly granting any unit owner standing to bring an action to enforce compliance with budget summary and replacement reserves requirements (HB70).\",\n\"revenue_sources\": \"This measure does not identify or create any revenue sources for the State of Hawaii.\",\n\"six_year_fiscal_implications\": \"This measure is not expected to have any fiscal implications for the State of Hawaii over the next six years. The bill's requirements apply to private condominium associations and do not impose any costs or responsibilities on state or county governments. The enforcement mechanism established by the bill relies on private action by unit owners, as it states, \\\"Any unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association's board\\\" (HB70). Therefore, no state funds are required for implementation or oversight. There are no projected costs, staffing changes, or recurring expenses for any state agency resulting from this Act.\",\n\"operating_revenue_impact\": \"This measure is not expected to have any impact on the operating revenues of the State of Hawaii. The bill does not introduce any new state fees, taxes, or other revenue streams.\",\n\"capital_expenditure_impact\": \"This measure does not require any capital expenditures by the State of Hawaii. No investments in facilities, equipment, or technology infrastructure are mandated by this Act.\",\n\"fiscal_implications_after_6_years\": \"There are no ongoing fiscal obligations for the State of Hawaii after the initial six-year period resulting from this measure. The requirements of the bill are directed at private condominium associations and do not create any long-term costs for the state.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 3967,
+      "candidates_token_count": 842,
+      "total_token_count": 5814
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"The purpose of this Act is to emphasize the importance of compliance with the requirements enacted by Acts 62 and 199 by specifying that the budget summary must contain all required information without referring the reader to other portions of the budget, and clarifying a unit owner's ability to enforce compliance with budget summary and replacement reserves requirements (HB70). The legislature finds that condominium unit owners are entitled to disclosure of information about the replacement reserves maintained by the condominium association in which they own a unit (HB70). This Act requires budget summaries to contain all required information and clarifies a unit owner's ability to enforce compliance (HB70).\",\n\"appropriations\": \"This measure does not contain any appropriations.\",\n\"assumptions_and_methodology\": \"This measure has no financial impact on the State of Hawaii. Therefore, no assumptions or methodology are necessary to calculate financial projections.\",\n\"agency_impact\": \"This measure is not anticipated to have any operational, administrative, or budgetary impact on any government agency or department. The bill clarifies that enforcement of compliance is through legal action brought by a unit owner against their association, stating, \\\"Any unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of\\\" (HB70).\",\n\"economic_impact\": \"The economic impact of this measure is primarily on private condominium associations and their owners, not on the state. The Act is intended to \\\"better inform owners of the financial condition of an association\\\" (HB70). By increasing transparency and accountability regarding replacement reserves, the measure may lead to better-funded reserves and more stable financial conditions for condominium associations.\",\n\"policy_impact\": \"This Act amends Section 514B-148, Hawaii Revised Statutes, to build upon recent efforts to increase transparency, such as Act 62, Session Laws of Hawaii 2022, and Act 199, Session Laws of Hawaii 2023 (HB70). The measure modifies existing law by specifying that a \\\"budget summary shall contain all required information without referring the reader to other portions of the budget\\\" (HB70). It also clarifies policy by explicitly granting any unit owner standing to bring an action to enforce compliance with budget summary and replacement reserves requirements (HB70).\",\n\"revenue_sources\": \"This measure does not identify or create any revenue sources for the State of Hawaii.\",\n\"six_year_fiscal_implications\": \"This measure is not expected to have any fiscal implications for the State of Hawaii over the next six years. The bill's requirements apply to private condominium associations and do not impose any costs or responsibilities on state or county governments. The enforcement mechanism established by the bill relies on private action by unit owners, as it states, \\\"Any unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association's board\\\" (HB70). Therefore, no state funds are required for implementation or oversight. There are no projected costs, staffing changes, or recurring expenses for any state agency resulting from this Act.\",\n\"operating_revenue_impact\": \"This measure is not expected to have any impact on the operating revenues of the State of Hawaii. The bill does not introduce any new state fees, taxes, or other revenue streams.\",\n\"capital_expenditure_impact\": \"This measure does not require any capital expenditures by the State of Hawaii. No investments in facilities, equipment, or technology infrastructure are mandated by this Act.\",\n\"fiscal_implications_after_6_years\": \"There are no ongoing fiscal obligations for the State of Hawaii after the initial six-year period resulting from this measure. The requirements of the bill are directed at private condominium associations and do not create any long-term costs for the state.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"The purpose of this Act is to emphasize the importance of compliance with the requirements enacted by Acts 62 and 199 by specifying that the budget summary must contain all required information without referring the reader to other portions of the budget, and clarifying a unit owner's ability to enforce compliance with budget summary and replacement reserves requirements (HB70)",
+          "attributed_chunk_id": 4,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7647058823529411,
+          "attribution_reason": "Document citation + word frequency: HB70 (score: 0.765)",
+          "numbers_found": [
+            62.0,
+            199.0
+          ]
+        },
+        {
+          "sentence": "The legislature finds that condominium unit owners are entitled to disclosure of information about the replacement reserves maintained by the condominium association in which they own a unit (HB70)",
+          "attributed_chunk_id": 1,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB70 (score: 1.000)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This Act requires budget summaries to contain all required information and clarifies a unit owner's ability to enforce compliance (HB70)",
+          "attributed_chunk_id": 4,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7142857142857143,
+          "attribution_reason": "Document citation + word frequency: HB70 (score: 0.714)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"This measure does not contain any appropriations",
+          "attributed_chunk_id": 15,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Word frequency match score: 0.286",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"assumptions_and_methodology\": \"This measure has no financial impact on the State of Hawaii",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Therefore, no assumptions or methodology are necessary to calculate financial projections",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Word frequency match score: 0.143",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"agency_impact\": \"This measure is not anticipated to have any operational, administrative, or budgetary impact on any government agency or department",
+          "attributed_chunk_id": 19,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.23076923076923078,
+          "attribution_reason": "Word frequency match score: 0.231",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill clarifies that enforcement of compliance is through legal action brought by a unit owner against their association, stating, \\\"Any unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of\\\" (HB70)",
+          "attributed_chunk_id": 19,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Document citation + word frequency: HB70 (score: 0.286)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"The economic impact of this measure is primarily on private condominium associations and their owners, not on the state",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Act is intended to \\\"better inform owners of the financial condition of an association\\\" (HB70)",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.875,
+          "attribution_reason": "Document citation + word frequency: HB70 (score: 0.875)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "By increasing transparency and accountability regarding replacement reserves, the measure may lead to better-funded reserves and more stable financial conditions for condominium associations",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.23529411764705882,
+          "attribution_reason": "Word frequency match score: 0.235",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"policy_impact\": \"This Act amends Section 514B-148, Hawaii Revised Statutes, to build upon recent efforts to increase transparency, such as Act 62, Session Laws of Hawaii 2022, and Act 199, Session Laws of Hawaii 2023 (HB70)",
+          "attributed_chunk_id": 2,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.39285714285714285,
+          "attribution_reason": "Document citation + word frequency: HB70 (score: 0.393)",
+          "numbers_found": [
+            148.0,
+            62.0,
+            199.0
+          ]
+        },
+        {
+          "sentence": "The measure modifies existing law by specifying that a \\\"budget summary shall contain all required information without referring the reader to other portions of the budget\\\" (HB70)",
+          "attributed_chunk_id": 4,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7647058823529411,
+          "attribution_reason": "Document citation + word frequency: HB70 (score: 0.765)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It also clarifies policy by explicitly granting any unit owner standing to bring an action to enforce compliance with budget summary and replacement reserves requirements (HB70)",
+          "attributed_chunk_id": 4,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Document citation + word frequency: HB70 (score: 0.500)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"This measure does not identify or create any revenue sources for the State of Hawaii",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"six_year_fiscal_implications\": \"This measure is not expected to have any fiscal implications for the State of Hawaii over the next six years",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill's requirements apply to private condominium associations and do not impose any costs or responsibilities on state or county governments",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The enforcement mechanism established by the bill relies on private action by unit owners, as it states, \\\"Any unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association's board\\\" (HB70)",
+          "attributed_chunk_id": 19,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.3125,
+          "attribution_reason": "Document citation + word frequency: HB70 (score: 0.312)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Therefore, no state funds are required for implementation or oversight",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "There are no projected costs, staffing changes, or recurring expenses for any state agency resulting from this Act",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"This measure is not expected to have any impact on the operating revenues of the State of Hawaii",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3,
+          "attribution_reason": "Word frequency match score: 0.300",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill does not introduce any new state fees, taxes, or other revenue streams",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"capital_expenditure_impact\": \"This measure does not require any capital expenditures by the State of Hawaii",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "No investments in facilities, equipment, or technology infrastructure are mandated by this Act",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"fiscal_implications_after_6_years\": \"There are no ongoing fiscal obligations for the State of Hawaii after the initial six-year period resulting from this measure",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The requirements of the bill are directed at private condominium associations and do not create any long-term costs for the state",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison",
+          "attributed_chunk_id": 13,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 12,
+          "document_name": "HB70",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 2,
+          "document_name": "HB70",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB70 (score: 1.000)",
+            "Word frequency match score: 0.235"
+          ]
+        },
+        "2": {
+          "usage_count": 1,
+          "document_name": "HB70",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB70 (score: 0.393)"
+          ]
+        },
+        "3": {
+          "usage_count": 2,
+          "document_name": "HB70",
+          "attribution_reasons": [
+            "Word frequency match score: 0.143",
+            "Document citation + word frequency: HB70 (score: 0.875)"
+          ]
+        },
+        "4": {
+          "usage_count": 4,
+          "document_name": "HB70",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB70 (score: 0.765)",
+            "Document citation + word frequency: HB70 (score: 0.714)",
+            "Document citation + word frequency: HB70 (score: 0.765)",
+            "Document citation + word frequency: HB70 (score: 0.500)"
+          ]
+        },
+        "5": {
+          "usage_count": 1,
+          "document_name": "HB70",
+          "attribution_reasons": [
+            "Word frequency match score: 0.300"
+          ]
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB70",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB70",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB70",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB70",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB70",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB70",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB70",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 1,
+          "document_name": "HB70",
+          "attribution_reasons": [
+            "Word frequency match score: 0.333"
+          ]
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB70",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 1,
+          "document_name": "HB70",
+          "attribution_reasons": [
+            "Word frequency match score: 0.286"
+          ]
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB70",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB70",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB70",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 3,
+          "document_name": "HB70",
+          "attribution_reasons": [
+            "Word frequency match score: 0.231",
+            "Document citation + word frequency: HB70 (score: 0.286)",
+            "Document citation + word frequency: HB70 (score: 0.312)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 9,
+        "number_based": 0,
+        "word_frequency_based": 6,
+        "semantic_similarity": 0,
+        "fallback": 12,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 20,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB70",
+          "chunk_text": "HB70 CD1 HOUSE OF REPRESENTATIVES H.B. NO. 70 THIRTY-THIRD LEGISLATURE, 2025 H.D. 1 STATE OF HAWAII S.D. 1 C.D. 1 A BILL FOR AN ACT RELATING TO CONDOMINIUM . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that condominium unit owners are",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB70",
+          "chunk_text": "SECTION 1. The legislature finds that condominium unit owners are entitled to disclosure of information about the replacement reserves maintained by the condominium association in which they own a unit. Recent efforts to increase transparency and accuracy include Act 62, Session Laws of Hawaii 2022 (Act 62), which, among other",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB70",
+          "chunk_text": "Session Laws of Hawaii 2022 (Act 62), which, among other things, provides for periodic review of a reserve study by an independent reserve study preparer and also lengthens the study period to thirty years. Act 199, Session Laws of Hawaii 2023 (Act 199), requires that a budget summary be prepared,",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB70",
+          "chunk_text": "2023 (Act 199), requires that a budget summary be prepared, with additional detail, to better inform owners of the financial condition of an association. Accordingly, the purpose of this Act is to emphasize the importance of compliance with the requirements enacted by Acts 62 and 199 by: (1) Specifying that",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB70",
+          "chunk_text": "enacted by Acts 62 and 199 by: (1) Specifying that the budget summary must contain all required information without referring the reader to other portions of the budget; and (2) Clarifying a unit owner's ability to enforce compliance with budget summary and replacement reserves requirements. SECTION 2 . Section 514B-148,",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB70",
+          "chunk_text": "summary and replacement reserves requirements. SECTION 2 . Section 514B-148, Hawaii Revised Statutes, is amended as follows: 1. By amending subsection (a) to read: \" (a) The budget required under section 514B-144(a) shall include a summary with at least the following details: (1) The estimated revenues and operating expenses of",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB70",
+          "chunk_text": "following details: (1) The estimated revenues and operating expenses of the association; (2) Disclosure as to whether the budget has been prepared on a cash or accrual basis; (3) The estimated costs of fire safety equipment or installations that meet the requirements of a building fire and life safety evaluation",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB70",
+          "chunk_text": "the requirements of a building fire and life safety evaluation required by the applicable county for any building located in a county with a population greater than five hundred thousand; provided that the reserve study may forecast a loan or special assessment to fund building fire and life safety components",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB70",
+          "chunk_text": "special assessment to fund building fire and life safety components or installation; (4) The balance of the total replacement reserves fund of the association as of the date of the budget; (5) The estimated replacement reserves assessments that the association will require to maintain the property based on a reserve",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB70",
+          "chunk_text": "will require to maintain the property based on a reserve study performed by or on behalf of the association ; provided that the reserve study, if not prepared by an independent reserve study preparer, shall be reviewed by an independent reserve study preparer [ not ] no less than every",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB70",
+          "chunk_text": "reserve study preparer [ not ] no less than every three years; provided further that a managing agent with industry reserve study designations shall not be considered as having a conflict of interest for purposes of this paragraph; (6) A general explanation of how the estimated replacement reserves assessments are",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB70",
+          "chunk_text": "general explanation of how the estimated replacement reserves assessments are computed and detailing: (A) The identity, qualifications, and potential conflicts of interest of the person or entity performing the reserve study, update, or any review thereof; (B) Disclosure of any component of association property omitted from the reserve study and",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB70",
+          "chunk_text": "component of association property omitted from the reserve study and the basis for the omission; (C) Planned increases in the estimated replacement reserve assessments over the thirty-year plan; and (D) Whether the actual estimated replacement reserves assessments for the prior year as defined in the study [ was ] were",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB70",
+          "chunk_text": "year as defined in the study [ was ] were less than the assessments provided for in the reserve study, and, if so, by how much, and explaining the impact of the lesser assessments on future estimated replacement reserves assessments; (7) The amount the association must collect for the fiscal",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB70",
+          "chunk_text": "(7) The amount the association must collect for the fiscal year to fund the estimated replacement reserves assessments; and (8) Information as to whether the amount the association must collect for the fiscal year to fund the estimated replacement reserves assessments was calculated using a per cent funded or cash",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB70",
+          "chunk_text": "assessments was calculated using a per cent funded or cash flow plan. The method or plan shall not circumvent the estimated replacement reserves assessments amount determined by the reserve study pursuant to paragraph (5). The budget summary shall contain all required information without referring the reader to other portions of",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB70",
+          "chunk_text": "required information without referring the reader to other portions of the budget. \" 2. By amending subsection (d) to read: \" (d) No association or [ unit owner, director, officer, managing agent, or employee of an association ] entity that, and no person who , makes a good faith effort",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB70",
+          "chunk_text": "and no person who , makes a good faith effort to calculate the estimated replacement reserves assessments [ for an association ] required by this section shall be liable [ if ] in the event that the estimate subsequently proves incorrect.\" 3. By amending subsection (g) to read: \"(g) [",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB70",
+          "chunk_text": "incorrect.\" 3. By amending subsection (g) to read: \"(g) [ Subject to the procedures of section 514B‑157 and any rules adopted by the commission, any unit owner whose association board fails to comply with this section may enforce compliance by the board. In any proceeding to enforce compliance, a board",
+          "start_word": 720,
+          "end_word": 770,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB70",
+          "chunk_text": "the board. In any proceeding to enforce compliance, a board that has not prepared an annual operating budget and reserve study shall have the burden of proving it has complied with this section. ] Any unit owner shall have standing to bring an action alleging",
+          "start_word": 760,
+          "end_word": 805,
+          "word_count": 45
+        }
+      ]
+    },
+    "numbers_data": []
+  },
+  "generation_timestamp": "2025-10-10T15:26:01.315925",
+  "generation_timestamp_unix": 1760145961.315933
+}

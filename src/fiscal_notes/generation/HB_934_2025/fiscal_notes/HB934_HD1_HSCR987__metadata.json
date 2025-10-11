@@ -1,0 +1,1017 @@
+{
+  "document_name": "HB934_HD1_HSCR987_",
+  "new_documents_processed": [
+    "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+    "HB934_HD1_HSCR987_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB934",
+    "HB934_TESTIMONY_ECD_02-05-25_",
+    "HB934_HD1",
+    "HB934_HD1_HSCR329_",
+    "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+    "HB934_HD1_HSCR987_"
+  ],
+  "numbers_used": 6,
+  "prompt_length": 35124,
+  "response_metadata": {
+    "response_text": "{\n  \"overview\": \"\",\n  \"appropriations\": \"While the bill appropriates an unspecified amount, the Office of Enterprise Technology Services (ETS) testimony indicates that the Hawaiʻi Broadband and Digital Equity Office (HBDEO) had asked for $777,090 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for FY 26. This request is composed of $452,302 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for personal services and $324,788 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for other expenses. ETS asks that this funding be included in the bill to ensure the office can meet its objectives.\",\n  \"assumptions_and_methodology\": \"The fiscal projections are based on the HBDEO's Form A request for Fiscal Year 25-27. According to testimony, the current budget is $360,000 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) to fund four staff and operating expenses. The testimony notes that with this funding, the \\\"HBDEO has been operating with essentially no operating expenses for the past two fiscal years.\\\"\",\n  \"agency_impact\": \"The Office of Enterprise Technology Services (ETS) testimony states that \\\"Taking over the responsibility of running and managing the Hawaiʻi Broadband and Digital Equity Office will be a huge endeavor for ETS.\\\" The testimony warns that without proper funding, moving the HBDEO to DAGS-ETS \\\"would not improve the functioning of the HBDEO but would in fact negatively impact critical services delivered through our existing program.\\\" Testimony from the University of Hawai‘i supports the transfer, stating it \\\"will properly align the functions of the HBDEO together with other statewide technology infrastructure oversight, management and operations.\\\"\",\n  \"economic_impact\": \"Testimony from the Lieutenant Governor states that federal and state governments have committed over $400.00 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) to modernize infrastructure. The state anticipates generating revenue from negotiated lease agreements which will be used to reduce the cost of internet services and support broadband projects. Additionally, testimony notes the Broadband Equity, Access, and Deployment (“BEAD”) Program allocates $42.45 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) billion to expand high-speed internet access.\",\n  \"policy_impact\": \"New testimony provides context on the bill's restriction prohibiting the special fund from supporting the provision of retail service. One individual's testimony suggests this change \\\"was made at the request of Charter Communications\\\" and that \\\"Possible interpretations of Charter’s language could prevent even small, innovative projects in unserved or underserved communities.\\\" Another individual testified that the amendment was for \\\"anti-competitive purposes at the request of Charter, a regulated communications utility serving the Islands.\\\"\",\n  \"revenue_sources\": \"A new potential revenue source for the Broadband and Digital Equity Special Fund is identified in testimony from the Lieutenant Governor. It states, \\\"With the construction of new subsea broadband infrastructure, our state anticipates generating revenue from negotiated lease agreements.\\\" The Department of Budget and Finance reiterates in its testimony that \\\"it is difficult to determine whether the BDESF would be self-sustaining.\\\"\",\n  \"six_year_fiscal_implications\": \"New testimony from the Office of Enterprise Technology Services (ETS) provides updated context for the fiscal implications, contrasting the current budget with future needs. According to the HBDEO’s Form A request, the office has a \\\"current budget of $360,000 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) to fund four staff and operating expenses.\\\" The testimony states that with this budget, \\\"HBDEO has been operating with essentially no operating expenses for the past two fiscal years.\\\" To address this, the HBDEO requested $777,090 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for FY 26, which includes $452,302 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for personal services and $324,788 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for other expenses. ETS testimony states that \\\"Proper funding will enable the office to meet its objectives, especially in community outreach to rural, non-Oahu areas of the state.\\\" The agency believes these figures provide for a sound budget and asks that the funding be included in the bill. Without proper funding, ETS believes moving the office would \\\"negatively impact critical services.\\\"\",\n  \"operating_revenue_impact\": \"Testimony from the Lieutenant Governor indicates a potential positive impact on operating revenue. It states that \\\"With the construction of new subsea broadband infrastructure, our state anticipates generating revenue from negotiated lease agreements.\\\" These funds are intended to be deposited into the new special fund to support broadband initiatives.\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"Regarding long-term sustainability, testimony from the University of Hawai‘i states the special fund will help \\\"ensure the funds are used to support long term sustainability of the state's broadband infrastructure assets.\\\" However, the Department of Budget and Finance testimony reiterates that \\\"it is difficult to determine whether the BDESF would be self-sustaining.\\\" The ongoing fiscal obligations will depend on future appropriations and the revenue generated for the special fund.\",\n  \"updates_from_previous_fiscal_note\": \"New testimony introduces a specific FY 26 budget request of $777,090 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt), comprising $452,302 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for personnel and $324,788 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for operations, and provides the current budget of $360,000 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for context. The Office of Enterprise Technology Services now explicitly warns that the transfer without this funding would \\\"negatively impact critical services.\\\" A new potential revenue stream from \\\"negotiated lease agreements\\\" on subsea infrastructure is identified. Finally, testimony provides new critical context on the policy change restricting retail service, attributing the amendment to Charter Communications and raising anti-competitive concerns.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 12035,
+      "candidates_token_count": 1549,
+      "total_token_count": 17660
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n  \"overview\": \"\",\n  \"appropriations\": \"While the bill appropriates an unspecified amount, the Office of Enterprise Technology Services (ETS) testimony indicates that the Hawaiʻi Broadband and Digital Equity Office (HBDEO) had asked for $777,090 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for FY 26. This request is composed of $452,302 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for personal services and $324,788 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for other expenses. ETS asks that this funding be included in the bill to ensure the office can meet its objectives.\",\n  \"assumptions_and_methodology\": \"The fiscal projections are based on the HBDEO's Form A request for Fiscal Year 25-27. According to testimony, the current budget is $360,000 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) to fund four staff and operating expenses. The testimony notes that with this funding, the \\\"HBDEO has been operating with essentially no operating expenses for the past two fiscal years.\\\"\",\n  \"agency_impact\": \"The Office of Enterprise Technology Services (ETS) testimony states that \\\"Taking over the responsibility of running and managing the Hawaiʻi Broadband and Digital Equity Office will be a huge endeavor for ETS.\\\" The testimony warns that without proper funding, moving the HBDEO to DAGS-ETS \\\"would not improve the functioning of the HBDEO but would in fact negatively impact critical services delivered through our existing program.\\\" Testimony from the University of Hawai‘i supports the transfer, stating it \\\"will properly align the functions of the HBDEO together with other statewide technology infrastructure oversight, management and operations.\\\"\",\n  \"economic_impact\": \"Testimony from the Lieutenant Governor states that federal and state governments have committed over $400.00 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) to modernize infrastructure. The state anticipates generating revenue from negotiated lease agreements which will be used to reduce the cost of internet services and support broadband projects. Additionally, testimony notes the Broadband Equity, Access, and Deployment (“BEAD”) Program allocates $42.45 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) billion to expand high-speed internet access.\",\n  \"policy_impact\": \"New testimony provides context on the bill's restriction prohibiting the special fund from supporting the provision of retail service. One individual's testimony suggests this change \\\"was made at the request of Charter Communications\\\" and that \\\"Possible interpretations of Charter’s language could prevent even small, innovative projects in unserved or underserved communities.\\\" Another individual testified that the amendment was for \\\"anti-competitive purposes at the request of Charter, a regulated communications utility serving the Islands.\\\"\",\n  \"revenue_sources\": \"A new potential revenue source for the Broadband and Digital Equity Special Fund is identified in testimony from the Lieutenant Governor. It states, \\\"With the construction of new subsea broadband infrastructure, our state anticipates generating revenue from negotiated lease agreements.\\\" The Department of Budget and Finance reiterates in its testimony that \\\"it is difficult to determine whether the BDESF would be self-sustaining.\\\"\",\n  \"six_year_fiscal_implications\": \"New testimony from the Office of Enterprise Technology Services (ETS) provides updated context for the fiscal implications, contrasting the current budget with future needs. According to the HBDEO’s Form A request, the office has a \\\"current budget of $360,000 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) to fund four staff and operating expenses.\\\" The testimony states that with this budget, \\\"HBDEO has been operating with essentially no operating expenses for the past two fiscal years.\\\" To address this, the HBDEO requested $777,090 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for FY 26, which includes $452,302 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for personal services and $324,788 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for other expenses. ETS testimony states that \\\"Proper funding will enable the office to meet its objectives, especially in community outreach to rural, non-Oahu areas of the state.\\\" The agency believes these figures provide for a sound budget and asks that the funding be included in the bill. Without proper funding, ETS believes moving the office would \\\"negatively impact critical services.\\\"\",\n  \"operating_revenue_impact\": \"Testimony from the Lieutenant Governor indicates a potential positive impact on operating revenue. It states that \\\"With the construction of new subsea broadband infrastructure, our state anticipates generating revenue from negotiated lease agreements.\\\" These funds are intended to be deposited into the new special fund to support broadband initiatives.\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"Regarding long-term sustainability, testimony from the University of Hawai‘i states the special fund will help \\\"ensure the funds are used to support long term sustainability of the state's broadband infrastructure assets.\\\" However, the Department of Budget and Finance testimony reiterates that \\\"it is difficult to determine whether the BDESF would be self-sustaining.\\\" The ongoing fiscal obligations will depend on future appropriations and the revenue generated for the special fund.\",\n  \"updates_from_previous_fiscal_note\": \"New testimony introduces a specific FY 26 budget request of $777,090 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt), comprising $452,302 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for personnel and $324,788 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for operations, and provides the current budget of $360,000 (HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt) for context. The Office of Enterprise Technology Services now explicitly warns that the transfer without this funding would \\\"negatively impact critical services.\\\" A new potential revenue stream from \\\"negotiated lease agreements\\\" on subsea infrastructure is identified. Finally, testimony provides new critical context on the policy change restricting retail service, attributing the amendment to Charter Communications and raising anti-competitive concerns.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n  \"overview\": \"\",\n  \"appropriations\": \"While the bill appropriates an unspecified amount, the Office of Enterprise Technology Services (ETS) testimony indicates that the Hawaiʻi Broadband and Digital Equity Office (HBDEO) had asked for $777,090 (HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4090909090909091,
+          "attribution_reason": "Word frequency match score: 0.409",
+          "numbers_found": [
+            24.0,
+            777090.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for FY 26",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            26.0
+          ]
+        },
+        {
+          "sentence": "This request is composed of $452,302 (HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attributed_chunk_id": "NUMBER_452302",
+          "attribution_method": "number_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Number $452,302 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.200)",
+          "numbers_found": [
+            24.0,
+            452302.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for personal services and $324,788 (HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attributed_chunk_id": "NUMBER_324788",
+          "attribution_method": "number_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Number $324,788 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.286)",
+          "numbers_found": [
+            24.0,
+            324788.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for other expenses",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": []
+        },
+        {
+          "sentence": "ETS asks that this funding be included in the bill to ensure the office can meet its objectives",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2727272727272727,
+          "attribution_reason": "Word frequency match score: 0.273",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"assumptions_and_methodology\": \"The fiscal projections are based on the HBDEO's Form A request for Fiscal Year 25-27",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1111111111111111,
+          "attribution_reason": "Word frequency match score: 0.111",
+          "numbers_found": [
+            25.0,
+            27.0
+          ]
+        },
+        {
+          "sentence": "According to testimony, the current budget is $360,000 (HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attributed_chunk_id": "NUMBER_360000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5714285714285714,
+          "attribution_reason": "Number $360,000 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.571)",
+          "numbers_found": [
+            360000.0,
+            24.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) to fund four staff and operating expenses",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Word frequency match score: 0.143",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The testimony notes that with this funding, the \\\"HBDEO has been operating with essentially no operating expenses for the past two fiscal years",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\"\",\n  \"agency_impact\": \"The Office of Enterprise Technology Services (ETS) testimony states that \\\"Taking over the responsibility of running and managing the Hawaiʻi Broadband and Digital Equity Office will be a huge endeavor for ETS",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.45,
+          "attribution_reason": "Word frequency match score: 0.450",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\" The testimony warns that without proper funding, moving the HBDEO to DAGS-ETS \\\"would not improve the functioning of the HBDEO but would in fact negatively impact critical services delivered through our existing program",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.08695652173913043,
+          "attribution_reason": "Word frequency match score: 0.087",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\" Testimony from the University of Hawai‘i supports the transfer, stating it \\\"will properly align the functions of the HBDEO together with other statewide technology infrastructure oversight, management and operations",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.21052631578947367,
+          "attribution_reason": "Word frequency match score: 0.211",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\"\",\n  \"economic_impact\": \"Testimony from the Lieutenant Governor states that federal and state governments have committed over $400",
+          "attributed_chunk_id": "NUMBER_400",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5833333333333334,
+          "attribution_reason": "Number $400 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.583)",
+          "numbers_found": [
+            400.0
+          ]
+        },
+        {
+          "sentence": "00 (HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            24.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) to modernize infrastructure",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The state anticipates generating revenue from negotiated lease agreements which will be used to reduce the cost of internet services and support broadband projects",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7647058823529411,
+          "attribution_reason": "Word frequency match score: 0.765",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Additionally, testimony notes the Broadband Equity, Access, and Deployment (“BEAD”) Program allocates $42",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            42.0
+          ]
+        },
+        {
+          "sentence": "45 (HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            24.0,
+            45.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) billion to expand high-speed internet access",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"policy_impact\": \"New testimony provides context on the bill's restriction prohibiting the special fund from supporting the provision of retail service",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.26666666666666666,
+          "attribution_reason": "Word frequency match score: 0.267",
+          "numbers_found": []
+        },
+        {
+          "sentence": "One individual's testimony suggests this change \\\"was made at the request of Charter Communications\\\" and that \\\"Possible interpretations of Charter’s language could prevent even small, innovative projects in unserved or underserved communities",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\" Another individual testified that the amendment was for \\\"anti-competitive purposes at the request of Charter, a regulated communications utility serving the Islands",
+          "attributed_chunk_id": 12,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.07142857142857142,
+          "attribution_reason": "Word frequency match score: 0.071",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\"\",\n  \"revenue_sources\": \"A new potential revenue source for the Broadband and Digital Equity Special Fund is identified in testimony from the Lieutenant Governor",
+          "attributed_chunk_id": 21,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Word frequency match score: 0.600",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It states, \\\"With the construction of new subsea broadband infrastructure, our state anticipates generating revenue from negotiated lease agreements",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.9333333333333333,
+          "attribution_reason": "Word frequency match score: 0.933",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\" The Department of Budget and Finance reiterates in its testimony that \\\"it is difficult to determine whether the BDESF would be self-sustaining",
+          "attributed_chunk_id": 16,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\"\",\n  \"six_year_fiscal_implications\": \"New testimony from the Office of Enterprise Technology Services (ETS) provides updated context for the fiscal implications, contrasting the current budget with future needs",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "According to the HBDEO’s Form A request, the office has a \\\"current budget of $360,000 (HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attributed_chunk_id": "NUMBER_360000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.7,
+          "attribution_reason": "Number $360,000 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.700)",
+          "numbers_found": [
+            360000.0,
+            24.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) to fund four staff and operating expenses",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Word frequency match score: 0.143",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\" The testimony states that with this budget, \\\"HBDEO has been operating with essentially no operating expenses for the past two fiscal years",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\" To address this, the HBDEO requested $777,090 (HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attributed_chunk_id": "NUMBER_777090",
+          "attribution_method": "number_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Number $777,090 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.286)",
+          "numbers_found": [
+            24.0,
+            777090.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for FY 26, which includes $452,302 (HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attributed_chunk_id": "NUMBER_452302",
+          "attribution_method": "number_based",
+          "attribution_score": 0.125,
+          "attribution_reason": "Number $452,302 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.125)",
+          "numbers_found": [
+            24.0,
+            26.0,
+            452302.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for personal services and $324,788 (HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attributed_chunk_id": "NUMBER_324788",
+          "attribution_method": "number_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Number $324,788 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.286)",
+          "numbers_found": [
+            24.0,
+            324788.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for other expenses",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": []
+        },
+        {
+          "sentence": "ETS testimony states that \\\"Proper funding will enable the office to meet its objectives, especially in community outreach to rural, non-Oahu areas of the state",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Word frequency match score: 0.167",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\" The agency believes these figures provide for a sound budget and asks that the funding be included in the bill",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Word frequency match score: 0.200",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Without proper funding, ETS believes moving the office would \\\"negatively impact critical services",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2727272727272727,
+          "attribution_reason": "Word frequency match score: 0.273",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\"\",\n  \"operating_revenue_impact\": \"Testimony from the Lieutenant Governor indicates a potential positive impact on operating revenue",
+          "attributed_chunk_id": 21,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.36363636363636365,
+          "attribution_reason": "Word frequency match score: 0.364",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It states that \\\"With the construction of new subsea broadband infrastructure, our state anticipates generating revenue from negotiated lease agreements",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.9333333333333333,
+          "attribution_reason": "Word frequency match score: 0.933",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\" These funds are intended to be deposited into the new special fund to support broadband initiatives",
+          "attributed_chunk_id": 21,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Word frequency match score: 0.600",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"Regarding long-term sustainability, testimony from the University of Hawai‘i states the special fund will help \\\"ensure the funds are used to support long term sustainability of the state's broadband infrastructure assets",
+          "attributed_chunk_id": 21,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\" However, the Department of Budget and Finance testimony reiterates that \\\"it is difficult to determine whether the BDESF would be self-sustaining",
+          "attributed_chunk_id": 16,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\" The ongoing fiscal obligations will depend on future appropriations and the revenue generated for the special fund",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3,
+          "attribution_reason": "Word frequency match score: 0.300",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"updates_from_previous_fiscal_note\": \"New testimony introduces a specific FY 26 budget request of $777,090 (HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attributed_chunk_id": "NUMBER_777090",
+          "attribution_method": "number_based",
+          "attribution_score": 0.1,
+          "attribution_reason": "Number $777,090 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.100)",
+          "numbers_found": [
+            24.0,
+            777090.0,
+            26.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt), comprising $452,302 (HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attributed_chunk_id": "NUMBER_452302",
+          "attribution_method": "number_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Number $452,302 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.167)",
+          "numbers_found": [
+            24.0,
+            452302.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for personnel and $324,788 (HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attributed_chunk_id": "NUMBER_324788",
+          "attribution_method": "number_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Number $324,788 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.167)",
+          "numbers_found": [
+            24.0,
+            324788.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for operations, and provides the current budget of $360,000 (HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attributed_chunk_id": "NUMBER_360000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Number $360,000 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.333)",
+          "numbers_found": [
+            360000.0,
+            24.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for context",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Office of Enterprise Technology Services now explicitly warns that the transfer without this funding would \\\"negatively impact critical services",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.35714285714285715,
+          "attribution_reason": "Word frequency match score: 0.357",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\" A new potential revenue stream from \\\"negotiated lease agreements\\\" on subsea infrastructure is identified",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6363636363636364,
+          "attribution_reason": "Word frequency match score: 0.636",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Finally, testimony provides new critical context on the policy change restricting retail service, attributing the amendment to Charter Communications and raising anti-competitive concerns",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 7,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": []
+        },
+        "2": {
+          "usage_count": 8,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.409",
+            "Word frequency match score: 0.273",
+            "Word frequency match score: 0.450",
+            "Word frequency match score: 0.087",
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.167",
+            "Word frequency match score: 0.273",
+            "Word frequency match score: 0.357"
+          ]
+        },
+        "3": {
+          "usage_count": 1,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.500"
+          ]
+        },
+        "4": {
+          "usage_count": 8,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.143",
+            "Word frequency match score: 0.765",
+            "Word frequency match score: 0.267",
+            "Word frequency match score: 0.933",
+            "Word frequency match score: 0.143",
+            "Word frequency match score: 0.933",
+            "Word frequency match score: 0.300",
+            "Word frequency match score: 0.636"
+          ]
+        },
+        "5": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": []
+        },
+        "6": {
+          "usage_count": 2,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.250",
+            "Word frequency match score: 0.250"
+          ]
+        },
+        "7": {
+          "usage_count": 1,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.200"
+          ]
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 3,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.111",
+            "Word frequency match score: 0.211",
+            "Word frequency match score: 0.333"
+          ]
+        },
+        "12": {
+          "usage_count": 1,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.071"
+          ]
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 2,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.500"
+          ]
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR987_",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR987_",
+          "attribution_reasons": []
+        },
+        "20": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR987_",
+          "attribution_reasons": []
+        },
+        "21": {
+          "usage_count": 4,
+          "document_name": "HB934_HD1_HSCR987_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.600",
+            "Word frequency match score: 0.364",
+            "Word frequency match score: 0.600",
+            "Word frequency match score: 0.400"
+          ]
+        },
+        "22": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR987_",
+          "attribution_reasons": []
+        },
+        "23": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR987_",
+          "attribution_reasons": []
+        },
+        "24": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR987_",
+          "attribution_reasons": []
+        },
+        "NUMBER_400.0": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_360000.0": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_777090.0": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_452302.0": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_324788.0": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_42.45": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_452302": {
+          "usage_count": 3,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $452,302 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.200)",
+            "Number $452,302 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.125)",
+            "Number $452,302 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.167)"
+          ]
+        },
+        "NUMBER_324788": {
+          "usage_count": 3,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $324,788 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.286)",
+            "Number $324,788 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.286)",
+            "Number $324,788 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.167)"
+          ]
+        },
+        "NUMBER_360000": {
+          "usage_count": 3,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $360,000 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.571)",
+            "Number $360,000 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.700)",
+            "Number $360,000 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.333)"
+          ]
+        },
+        "NUMBER_400": {
+          "usage_count": 1,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $400 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.583)"
+          ]
+        },
+        "NUMBER_777090": {
+          "usage_count": 2,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $777,090 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.286)",
+            "Number $777,090 from HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt (score: 0.100)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 0,
+        "number_based": 12,
+        "word_frequency_based": 30,
+        "semantic_similarity": 0,
+        "fallback": 7,
+        "no_attribution": 3
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 25,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "SYLVIA LUKE L I E U T E N A N T G O V E R N O R Ke Keʻena O Ka Hope Kiaʻāina The 33rd Legislature, State of Hawaii House Committee on Finance February 24, 2025 Testimony on H.B. 934 - RELATING TO THE HAWAII BROADBAND AND",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "on H.B. 934 - RELATING TO THE HAWAII BROADBAND AND DIGITAL EQUITY OFFICE Chair Yamashita, Vice Chair Takenouchi, and Members of the Committee: Thank you for the opportunity to provide testimony in support of H.B. 934, H.D. 1 which transfers the Hawaii Broadband Office from the Department of Business, Economic",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "the Hawaii Broadband Office from the Department of Business, Economic Development, and Tourism (DBEDT) to the Office of Enterprise Technology Services (ETS) in the Department of Accounting and General Services, establishes the Hawaii Broadband and Digital Equity Special Fund, and appropriates additional funding. Reliable, affordable high speed internet access is",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "appropriates additional funding. Reliable, affordable high speed internet access is essential for ensuring greater educational, economic, and social opportunities for all. The federal and state governments have committed over $400 million to modernize our subsea and terrestrial infrastructure and equip residents with the tools and knowledge to safely navigate the",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "residents with the tools and knowledge to safely navigate the internet. With the construction of new subsea broadband infrastructure, our state anticipates generating revenue from negotiated lease agreements and the creation of a special fund will ensure these funds are used to reduce the cost of internet services, provide technical",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "used to reduce the cost of internet services, provide technical assistance to communities, and support broadband projects. Given the increasingly vital role of broadband in our daily lives, the transfer of the Hawaii Broadband Office from DBEDT to ETS provides an opportunity to consolidate and centralize broadband responsibilities currently dispersed",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "an opportunity to consolidate and centralize broadband responsibilities currently dispersed across state government, including those of the Hawaii Broadband Assistance Advisory Council and other reporting requirements. Our office will work closely with the relevant departments to compile all broadband functions for the Legislature’s consideration. Thank you for the opportunity to",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "for the Legislature’s consideration. Thank you for the opportunity to provide testimony in support of H.B. 934, H.D. 1. STATE OF HAWAI‘I DEPARTMENT OF BUDGET AND FINANCE Ka ʻOihana Mālama Mo‘ohelu a Kālā P.O. BOX 150 HONOLULU, HAWAI‘I 96810-0150 JOSH GREEN, M.D. LUIS P. SALAVERIA GOVERNOR DIRECTOR SYLVIA LUKE SABRINA",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "GREEN, M.D. LUIS P. SALAVERIA GOVERNOR DIRECTOR SYLVIA LUKE SABRINA NASIR LIEUTENANT GOVERNOR DEPUTY DIRECTOR ADMINISTRATIVE AND RESEARCH OFFICE EMPLOYEES’ RETIREMENT SYSTEM BUDGET, PROGRAM PLANNING AND MANAGEMENT DIVISION HAWAI‘I EMPLOYER-UNION HEALTH BENEFITS TRUST FUND FINANCIAL ADMINISTRATION DIVISION OFFICE OF THE PUBLIC DEFENDER OFFICE OF FEDERAL AWARDS MANAGEMENT No. 1 Capitol",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "PUBLIC DEFENDER OFFICE OF FEDERAL AWARDS MANAGEMENT No. 1 Capitol District Building, 250 S. Hotel Street, Honolulu, Hawaii 96813 WRITTEN ONLY TESTIMONY BY LUIS P. SALAVERIA DIRECTOR, DEPARTMENT OF BUDGET AND FINANCE TO THE HOUSE COMMITTEE ON FINANCE ON HOUSE BILL NO. 934, H.D. 1 February 24, 2025 10:00 a.m.",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "BILL NO. 934, H.D. 1 February 24, 2025 10:00 a.m. Room 308 and Videoconference RELATING TO THE HAWAII BROADBAND AND DIGITAL EQUITY OFFICE The Department of Budget and Finance (B&F) offers comments on this bill. House Bill (H.B.) No. 934, H.D. 1: 1) transfers the Hawai‘i Broadband and Digital Equity",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "H.D. 1: 1) transfers the Hawai‘i Broadband and Digital Equity Office (HBDEO) from the Department of Business, Economic Development and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services by repealing Chapter 206S, HRS, and adding a new part in Chapter 27, HRS;",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "HRS, and adding a new part in Chapter 27, HRS; 2) establishes the Broadband and Digital Equity Special Fund (BDESF) to be administered by HBDEO for the purposes of supporting broadband projects, defraying the cost of internet services, and funding positions for personnel to provide technical assistance for the community;",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "positions for personnel to provide technical assistance for the community; 3) appropriates an unspecified amount in general funds for FY 26 to be deposited into the BDESF; and 4) appropriates an unspecified amount in special fund ceiling for the BDESF for FY 26. As a matter of general policy, B&F",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "for FY 26. As a matter of general policy, B&F does not support the creation of any special fund, which does not meet the requirements of Section 37-52.3, HRS. Special funds should: 1) serve a need as demonstrated by the purpose, scope of work, and an -2- explanation why the",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "purpose, scope of work, and an -2- explanation why the program cannot be implemented successfully under the general fund appropriation process; 2) reflect a clear nexus between the benefits sought and charges made upon the users or beneficiaries or a clear link between the program and the sources of revenue;",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "clear link between the program and the sources of revenue; 3) provide an appropriate means of financing for the program or activity; and 4) demonstrate the capacity to be financially self-sustaining. Regarding H.B. No. 934, H.D. 1, it is difficult to determine whether the BDESF would be self-sustaining. Thank you",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+          "chunk_text": "to determine whether the BDESF would be self-sustaining. Thank you for your consideration of our comments. JOSH GREEN, M.D. GOVERNOR SYLVIA LUKE LT. GOVERNOR JAMES KUNANE TOKIOKA DIRECTOR DANE K. WICKER DEPUTY DIRECTOR DEPARTMENT OF BUSINESS, ECONOMIC DEVELOPMENT & TOURISM KA ʻOIHANA HOʻOMOHALA PĀʻ",
+          "start_word": 680,
+          "end_word": 724,
+          "word_count": 44
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB934_HD1_HSCR987_",
+          "chunk_text": "HSCR987 STAND. COM. REP. NO. 987 Honolulu, Hawaii , 2025 RE: H.B. No. 934 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 934, H.D. 1, entitled: \"A",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB934_HD1_HSCR987_",
+          "chunk_text": "which was referred H.B. No. 934, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO THE HAWAII BROADBAND AND DIGITAL EQUITY OFFICE,\" begs leave to report as follows: The purpose of this measure is to: (1) Transfer the Hawaii Broadband and Digital Equity Office from the Department of Business,",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB934_HD1_HSCR987_",
+          "chunk_text": "Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services; (2) Establish the Broadband and Digital Equity Special Fund; and (3) Appropriate funds into and out of the Broadband and Digital",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB934_HD1_HSCR987_",
+          "chunk_text": "Appropriate funds into and out of the Broadband and Digital Equity Special Fund for the purposes of the fund. Your Committee received testimony in support of this measure from the Lieutenant Governor; University of Hawai ʻ i System; and Hawai ʻ i State Council on Developmental Disabilities. Your Committee received",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB934_HD1_HSCR987_",
+          "chunk_text": "ʻ i State Council on Developmental Disabilities. Your Committee received comments on this measure from the Department of Budget and Finance; Department of Business, Economic Development, and Tourism; Office of Enterprise Technology Services; Hawaiian Telecom; and two individuals. As affirmed by the record of votes of the members of your",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB934_HD1_HSCR987_",
+          "chunk_text": "by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 934, H.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB934_HD1_HSCR987_",
+          "chunk_text": "Third Reading. Respectfully submitted on behalf of the members of the Committee on Finance, ____________________________ KYLE T. YAMASHITA, Chair",
+          "start_word": 240,
+          "end_word": 259,
+          "word_count": 19
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "Technology Services (ETS) in the Department of Accounting and General Services, establishes the Hawaii Broadband and Digital Equity Special Fund, and appropriates additional funding. Reliable, affordable high speed internet access is essential for ensuring greater educational, economic, and social opportunities for all. The federal and state governments have committed over $400 million to modernize our subsea and terrestrial infrastructure and equip residents with the tools and knowledge to safely navigate the internet. With the construction of new subsea broadband infrastructure, our state anticipates generating revenue from negotiated lease agreements and the creation of a special fund will ensure these funds are",
+        "number": 400.0,
+        "filename": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "managing the Hawaiʻi Broadband and Digital Equity Office will be a huge endeavor for ETS. To be successful in this transfer we would ask to be funded appropriately from both state and federal sources. According to the HBDEO’s Form A request for Fiscal Year 25-27: “With the current budget of $360,000 to fund four staff and operating expenses, HBDEO has been operating with essentially no operating expenses for the past two fiscal years. Proper funding will enable the office to meet its objectives, especially in community outreach to rural, non-Oahu areas of the state.” The HBDEO had asked for $777,090 for",
+        "number": 360000.0,
+        "filename": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "of $360,000 to fund four staff and operating expenses, HBDEO has been operating with essentially no operating expenses for the past two fiscal years. Proper funding will enable the office to meet its objectives, especially in community outreach to rural, non-Oahu areas of the state.” The HBDEO had asked for $777,090 for FY 26 with $452,302 for personal services, and $324,788 for other expenses. ETS believes that these figures provide for a sound budget, and we ask that this funding be included in the bill. We believe that, without proper funding for both salaries and operations, moving the KEITH A. REGAN",
+        "number": 777090.0,
+        "filename": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "staff and operating expenses, HBDEO has been operating with essentially no operating expenses for the past two fiscal years. Proper funding will enable the office to meet its objectives, especially in community outreach to rural, non-Oahu areas of the state.” The HBDEO had asked for $777,090 for FY 26 with $452,302 for personal services, and $324,788 for other expenses. ETS believes that these figures provide for a sound budget, and we ask that this funding be included in the bill. We believe that, without proper funding for both salaries and operations, moving the KEITH A. REGAN COMPTROLLER KA LUNA HOʻOMALU HANA",
+        "number": 452302.0,
+        "filename": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "has been operating with essentially no operating expenses for the past two fiscal years. Proper funding will enable the office to meet its objectives, especially in community outreach to rural, non-Oahu areas of the state.” The HBDEO had asked for $777,090 for FY 26 with $452,302 for personal services, and $324,788 for other expenses. ETS believes that these figures provide for a sound budget, and we ask that this funding be included in the bill. We believe that, without proper funding for both salaries and operations, moving the KEITH A. REGAN COMPTROLLER KA LUNA HOʻOMALU HANA LAULĀ CHRISTINE M. SAKUDA CHIEF",
+        "number": 324788.0,
+        "filename": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "resources and promote efficiency and efficacy. As the State and broadband service providers navigate the evolving landscape of broadband infrastructure and funding with the new federal administration, we must consider strategic approaches that maximize efficiency and align with federal initiatives. The Broadband Equity, Access, and Deployment (“BEAD”) Program, which allocates $42.45 billion to expand high-speed internet access, presents a unique opportunity for our state to enhance its broadband capabilities. The State share of BEAD funding is $149.5M plus $46M in state matching funds to increase broadband infrastructure and promote digital literacy services. Additionally, as a broadband service provider, Hawaiian Telcom continues",
+        "number": 42.45,
+        "filename": "HB934_HD1_TESTIMONY_FIN_02-24-25_.PDF.txt",
+        "document_type": "testimony"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:53:23.852597",
+  "generation_timestamp_unix": 1760147603.852608
+}

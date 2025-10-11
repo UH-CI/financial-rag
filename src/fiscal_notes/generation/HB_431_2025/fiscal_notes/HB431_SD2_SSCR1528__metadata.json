@@ -1,0 +1,657 @@
+{
+  "document_name": "HB431_SD2_SSCR1528_",
+  "new_documents_processed": [
+    "HB431_SD2",
+    "HB431_SD2_SSCR1528_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB431_CD1",
+    "HB431_CD1_CCR189_",
+    "HB431_SD2",
+    "HB431_SD2_SSCR1528_"
+  ],
+  "numbers_used": 0,
+  "prompt_length": 12846,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"The purpose and intent of this measure is to appropriate moneys for housing programs (HB431_SD2_SSCR1528_). The measure appropriates funds to the Department of Human Services for the \\\"continued implementation of the Kauhale Initiative and Ohana Zones Pilot Program\\\" (HB431_SD2). It also appropriates funds to the Hawaii Housing Finance and Development Corporation for \\\"the development of supportive housing projects and the provision of supportive services for certain households in the supportive housing projects\\\" (HB431_SD2_SSCR1528_).\",\n\"appropriations\": \"The bill appropriates an unspecified sum from general revenues for fiscal year 2025-2026 (HB431_SD2) and the same sum for fiscal year 2026-2027 (HB431_SD2) for three purposes. These include the \\\"continued operation of the kauhale initiative\\\" (HB431_SD2), the \\\"continued implementation of the ohana zones pilot program\\\" (HB431_SD2), and the \\\"development, operation, and maintenance of affordable, supportive housing projects\\\" (HB431_SD2).\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The measure has been amended by \\\"Changing the appropriation expending agency for the Kauhale Initiative and Ohana Zones Pilot Program from the Office of the Governor to the Department of Human Services\\\" (HB431_SD2_SSCR1528_). The sums for these programs \\\"shall be expended by the department of human services\\\" (HB431_SD2). Appropriations for supportive housing projects \\\"shall be expended by the Hawaii housing finance and development corporation\\\" (HB431_SD2).\",\n\"economic_impact\": \"The Committee on Ways and Means \\\"finds that Hawaii has the highest homelessness rate per capita in the United States\\\" (HB431_SD2_SSCR1528_). The Committee \\\"recognizes that the Kauhale Initiative and Ohana Zones Pilot Program have successfully helped address homelessness in the State\\\" (HB431_SD2_SSCR1528_). This appropriation will \\\"enable the development of supportive housing units for households with special needs\\\" (HB431_SD2_SSCR1528_).\",\n\"policy_impact\": \"The measure now requires that \\\"all kauhale projects shall be connected to public utilities, including water, sewer, and electricity\\\" (HB431_SD2). It also authorizes the \\\"kauhale initiative may charge monthly rents of no more than thirty per cent of the area median income level\\\" (HB431_SD2). The Act is to \\\"take effect on July 1, 3000\\\" (HB431_SD2).\",\n\"revenue_sources\": \"The bill specifies that appropriations for the Kauhale Initiative, Ohana Zones Pilot Program, and supportive housing projects are \\\"appropriated out of the general revenues of the State of Hawaii\\\" (HB431_SD2).\",\n\"six_year_fiscal_implications\": \"The bill appropriates an unspecified sum for fiscal year 2025-2026 (HB431_SD2) and the same sum for fiscal year 2026-2027 (HB431_SD2) for the \\\"continued operation of the kauhale initiative\\\" (HB431_SD2), the \\\"continued implementation of the ohana zones pilot program\\\" (HB431_SD2), and for \\\"affordable, supportive housing projects\\\" (HB431_SD2). Expenses for the kauhale initiative include \\\"The development and operation of kauhale\\\" (HB431_SD2), \\\"project-based rent supplement payments\\\" (HB431_SD2), \\\"support services for qualified individuals and families in kauhale\\\" (HB431_SD2), and \\\"Staffing and related costs\\\" (HB431_SD2).\",\n\"operating_revenue_impact\": \"The measure provides that the \\\"kauhale initiative may charge monthly rents of no more than thirty per cent of the area median income level\\\" (HB431_SD2).\",\n\"capital_expenditure_impact\": \"Funds are appropriated for \\\"The development and operation of kauhale\\\" (HB431_SD2) and the \\\"development, operation, and maintenance of affordable, supportive housing projects\\\" (HB431_SD2). The measure also adds a new requirement that \\\"all kauhale projects shall be connected to public utilities, including water, sewer, and electricity\\\" (HB431_SD2).\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note is updated to reflect significant changes in the measure. The primary change is \\\"Changing the appropriation expending agency for the Kauhale Initiative and Ohana Zones Pilot Program from the Office of the Governor to the Department of Human Services\\\" (HB431_SD2_SSCR1528_). New policy provisions have been added, including \\\"Requiring kauhale to be connected to public utilities\\\" (HB431_SD2_SSCR1528_) and \\\"Authorizing monthly rents of no more than thirty per cent of the area median income level to be charged for kauhale\\\" (HB431_SD2_SSCR1528_). The bill now makes appropriations from general revenues for fiscal years 2025-2026 and 2026-2027, although the specific dollar amounts are not included in the bill draft (HB431_SD2).\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 5582,
+      "candidates_token_count": 1246,
+      "total_token_count": 12223
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"The purpose and intent of this measure is to appropriate moneys for housing programs (HB431_SD2_SSCR1528_). The measure appropriates funds to the Department of Human Services for the \\\"continued implementation of the Kauhale Initiative and Ohana Zones Pilot Program\\\" (HB431_SD2). It also appropriates funds to the Hawaii Housing Finance and Development Corporation for \\\"the development of supportive housing projects and the provision of supportive services for certain households in the supportive housing projects\\\" (HB431_SD2_SSCR1528_).\",\n\"appropriations\": \"The bill appropriates an unspecified sum from general revenues for fiscal year 2025-2026 (HB431_SD2) and the same sum for fiscal year 2026-2027 (HB431_SD2) for three purposes. These include the \\\"continued operation of the kauhale initiative\\\" (HB431_SD2), the \\\"continued implementation of the ohana zones pilot program\\\" (HB431_SD2), and the \\\"development, operation, and maintenance of affordable, supportive housing projects\\\" (HB431_SD2).\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The measure has been amended by \\\"Changing the appropriation expending agency for the Kauhale Initiative and Ohana Zones Pilot Program from the Office of the Governor to the Department of Human Services\\\" (HB431_SD2_SSCR1528_). The sums for these programs \\\"shall be expended by the department of human services\\\" (HB431_SD2). Appropriations for supportive housing projects \\\"shall be expended by the Hawaii housing finance and development corporation\\\" (HB431_SD2).\",\n\"economic_impact\": \"The Committee on Ways and Means \\\"finds that Hawaii has the highest homelessness rate per capita in the United States\\\" (HB431_SD2_SSCR1528_). The Committee \\\"recognizes that the Kauhale Initiative and Ohana Zones Pilot Program have successfully helped address homelessness in the State\\\" (HB431_SD2_SSCR1528_). This appropriation will \\\"enable the development of supportive housing units for households with special needs\\\" (HB431_SD2_SSCR1528_).\",\n\"policy_impact\": \"The measure now requires that \\\"all kauhale projects shall be connected to public utilities, including water, sewer, and electricity\\\" (HB431_SD2). It also authorizes the \\\"kauhale initiative may charge monthly rents of no more than thirty per cent of the area median income level\\\" (HB431_SD2). The Act is to \\\"take effect on July 1, 3000\\\" (HB431_SD2).\",\n\"revenue_sources\": \"The bill specifies that appropriations for the Kauhale Initiative, Ohana Zones Pilot Program, and supportive housing projects are \\\"appropriated out of the general revenues of the State of Hawaii\\\" (HB431_SD2).\",\n\"six_year_fiscal_implications\": \"The bill appropriates an unspecified sum for fiscal year 2025-2026 (HB431_SD2) and the same sum for fiscal year 2026-2027 (HB431_SD2) for the \\\"continued operation of the kauhale initiative\\\" (HB431_SD2), the \\\"continued implementation of the ohana zones pilot program\\\" (HB431_SD2), and for \\\"affordable, supportive housing projects\\\" (HB431_SD2). Expenses for the kauhale initiative include \\\"The development and operation of kauhale\\\" (HB431_SD2), \\\"project-based rent supplement payments\\\" (HB431_SD2), \\\"support services for qualified individuals and families in kauhale\\\" (HB431_SD2), and \\\"Staffing and related costs\\\" (HB431_SD2).\",\n\"operating_revenue_impact\": \"The measure provides that the \\\"kauhale initiative may charge monthly rents of no more than thirty per cent of the area median income level\\\" (HB431_SD2).\",\n\"capital_expenditure_impact\": \"Funds are appropriated for \\\"The development and operation of kauhale\\\" (HB431_SD2) and the \\\"development, operation, and maintenance of affordable, supportive housing projects\\\" (HB431_SD2). The measure also adds a new requirement that \\\"all kauhale projects shall be connected to public utilities, including water, sewer, and electricity\\\" (HB431_SD2).\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note is updated to reflect significant changes in the measure. The primary change is \\\"Changing the appropriation expending agency for the Kauhale Initiative and Ohana Zones Pilot Program from the Office of the Governor to the Department of Human Services\\\" (HB431_SD2_SSCR1528_). New policy provisions have been added, including \\\"Requiring kauhale to be connected to public utilities\\\" (HB431_SD2_SSCR1528_) and \\\"Authorizing monthly rents of no more than thirty per cent of the area median income level to be charged for kauhale\\\" (HB431_SD2_SSCR1528_). The bill now makes appropriations from general revenues for fiscal years 2025-2026 and 2026-2027, although the specific dollar amounts are not included in the bill draft (HB431_SD2).\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"The purpose and intent of this measure is to appropriate moneys for housing programs (HB431_SD2_SSCR1528_)",
+          "attributed_chunk_id": 15,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.875,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 0.875)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure appropriates funds to the Department of Human Services for the \\\"continued implementation of the Kauhale Initiative and Ohana Zones Pilot Program\\\" (HB431_SD2)",
+          "attributed_chunk_id": 11,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.9285714285714286,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2 (score: 0.929)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It also appropriates funds to the Hawaii Housing Finance and Development Corporation for \\\"the development of supportive housing projects and the provision of supportive services for certain households in the supportive housing projects\\\" (HB431_SD2_SSCR1528_)",
+          "attributed_chunk_id": 12,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.85,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 0.850)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"The bill appropriates an unspecified sum from general revenues for fiscal year 2025-2026 (HB431_SD2) and the same sum for fiscal year 2026-2027 (HB431_SD2) for three purposes",
+          "attributed_chunk_id": 1,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.65,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2 (score: 0.650)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "These include the \\\"continued operation of the kauhale initiative\\\" (HB431_SD2), the \\\"continued implementation of the ohana zones pilot program\\\" (HB431_SD2), and the \\\"development, operation, and maintenance of affordable, supportive housing projects\\\" (HB431_SD2)",
+          "attributed_chunk_id": 16,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6111111111111112,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2 (score: 0.611)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The measure has been amended by \\\"Changing the appropriation expending agency for the Kauhale Initiative and Ohana Zones Pilot Program from the Office of the Governor to the Department of Human Services\\\" (HB431_SD2_SSCR1528_)",
+          "attributed_chunk_id": 23,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 0.800)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The sums for these programs \\\"shall be expended by the department of human services\\\" (HB431_SD2)",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8333333333333334,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2 (score: 0.833)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Appropriations for supportive housing projects \\\"shall be expended by the Hawaii housing finance and development corporation\\\" (HB431_SD2)",
+          "attributed_chunk_id": 10,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.9,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2 (score: 0.900)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"The Committee on Ways and Means \\\"finds that Hawaii has the highest homelessness rate per capita in the United States\\\" (HB431_SD2_SSCR1528_)",
+          "attributed_chunk_id": 19,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7692307692307693,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 0.769)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Committee \\\"recognizes that the Kauhale Initiative and Ohana Zones Pilot Program have successfully helped address homelessness in the State\\\" (HB431_SD2_SSCR1528_)",
+          "attributed_chunk_id": 20,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.9230769230769231,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 0.923)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This appropriation will \\\"enable the development of supportive housing units for households with special needs\\\" (HB431_SD2_SSCR1528_)",
+          "attributed_chunk_id": 21,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 1.000)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"policy_impact\": \"The measure now requires that \\\"all kauhale projects shall be connected to public utilities, including water, sewer, and electricity\\\" (HB431_SD2)",
+          "attributed_chunk_id": 4,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7142857142857143,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2 (score: 0.714)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It also authorizes the \\\"kauhale initiative may charge monthly rents of no more than thirty per cent of the area median income level\\\" (HB431_SD2)",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.875,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2 (score: 0.875)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Act is to \\\"take effect on July 1, 3000\\\" (HB431_SD2)",
+          "attributed_chunk_id": 10,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2 (score: 1.000)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"The bill specifies that appropriations for the Kauhale Initiative, Ohana Zones Pilot Program, and supportive housing projects are \\\"appropriated out of the general revenues of the State of Hawaii\\\" (HB431_SD2)",
+          "attributed_chunk_id": 10,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.47368421052631576,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2 (score: 0.474)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"six_year_fiscal_implications\": \"The bill appropriates an unspecified sum for fiscal year 2025-2026 (HB431_SD2) and the same sum for fiscal year 2026-2027 (HB431_SD2) for the \\\"continued operation of the kauhale initiative\\\" (HB431_SD2), the \\\"continued implementation of the ohana zones pilot program\\\" (HB431_SD2), and for \\\"affordable, supportive housing projects\\\" (HB431_SD2)",
+          "attributed_chunk_id": 1,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.41379310344827586,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2 (score: 0.414)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Expenses for the kauhale initiative include \\\"The development and operation of kauhale\\\" (HB431_SD2), \\\"project-based rent supplement payments\\\" (HB431_SD2), \\\"support services for qualified individuals and families in kauhale\\\" (HB431_SD2), and \\\"Staffing and related costs\\\" (HB431_SD2)",
+          "attributed_chunk_id": 2,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.9047619047619048,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2 (score: 0.905)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"The measure provides that the \\\"kauhale initiative may charge monthly rents of no more than thirty per cent of the area median income level\\\" (HB431_SD2)",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8235294117647058,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2 (score: 0.824)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"capital_expenditure_impact\": \"Funds are appropriated for \\\"The development and operation of kauhale\\\" (HB431_SD2) and the \\\"development, operation, and maintenance of affordable, supportive housing projects\\\" (HB431_SD2)",
+          "attributed_chunk_id": 9,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6153846153846154,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2 (score: 0.615)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure also adds a new requirement that \\\"all kauhale projects shall be connected to public utilities, including water, sewer, and electricity\\\" (HB431_SD2)",
+          "attributed_chunk_id": 4,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2 (score: 0.667)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note is updated to reflect significant changes in the measure",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1111111111111111,
+          "attribution_reason": "Word frequency match score: 0.111",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The primary change is \\\"Changing the appropriation expending agency for the Kauhale Initiative and Ohana Zones Pilot Program from the Office of the Governor to the Department of Human Services\\\" (HB431_SD2_SSCR1528_)",
+          "attributed_chunk_id": 23,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8888888888888888,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 0.889)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "New policy provisions have been added, including \\\"Requiring kauhale to be connected to public utilities\\\" (HB431_SD2_SSCR1528_) and \\\"Authorizing monthly rents of no more than thirty per cent of the area median income level to be charged for kauhale\\\" (HB431_SD2_SSCR1528_)",
+          "attributed_chunk_id": 22,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 0.750)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill now makes appropriations from general revenues for fiscal years 2025-2026 and 2026-2027, although the specific dollar amounts are not included in the bill draft (HB431_SD2)",
+          "attributed_chunk_id": 1,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Document citation + word frequency: HB431_SD2 (score: 0.286)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 0,
+          "document_name": "HB431_SD2",
+          "attribution_reasons": []
+        },
+        "1": {
+          "usage_count": 4,
+          "document_name": "HB431_SD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_SD2 (score: 0.650)",
+            "Document citation + word frequency: HB431_SD2 (score: 0.414)",
+            "Word frequency match score: 0.111",
+            "Document citation + word frequency: HB431_SD2 (score: 0.286)"
+          ]
+        },
+        "2": {
+          "usage_count": 1,
+          "document_name": "HB431_SD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_SD2 (score: 0.905)"
+          ]
+        },
+        "3": {
+          "usage_count": 0,
+          "document_name": "HB431_SD2",
+          "attribution_reasons": []
+        },
+        "4": {
+          "usage_count": 2,
+          "document_name": "HB431_SD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_SD2 (score: 0.714)",
+            "Document citation + word frequency: HB431_SD2 (score: 0.667)"
+          ]
+        },
+        "5": {
+          "usage_count": 3,
+          "document_name": "HB431_SD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_SD2 (score: 0.833)",
+            "Document citation + word frequency: HB431_SD2 (score: 0.875)",
+            "Document citation + word frequency: HB431_SD2 (score: 0.824)"
+          ]
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB431_SD2",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB431_SD2",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB431_SD2",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 1,
+          "document_name": "HB431_SD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_SD2 (score: 0.615)"
+          ]
+        },
+        "10": {
+          "usage_count": 3,
+          "document_name": "HB431_SD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_SD2 (score: 0.900)",
+            "Document citation + word frequency: HB431_SD2 (score: 1.000)",
+            "Document citation + word frequency: HB431_SD2 (score: 0.474)"
+          ]
+        },
+        "11": {
+          "usage_count": 1,
+          "document_name": "HB431_SD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_SD2 (score: 0.929)"
+          ]
+        },
+        "12": {
+          "usage_count": 1,
+          "document_name": "HB431_SD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 0.850)"
+          ]
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB431_SD2",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 1,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 0.875)"
+          ]
+        },
+        "16": {
+          "usage_count": 1,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_SD2 (score: 0.611)"
+          ]
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 1,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 0.769)"
+          ]
+        },
+        "20": {
+          "usage_count": 1,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 0.923)"
+          ]
+        },
+        "21": {
+          "usage_count": 1,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 1.000)"
+          ]
+        },
+        "22": {
+          "usage_count": 1,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 0.750)"
+          ]
+        },
+        "23": {
+          "usage_count": 2,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 0.800)",
+            "Document citation + word frequency: HB431_SD2_SSCR1528_ (score: 0.889)"
+          ]
+        },
+        "24": {
+          "usage_count": 0,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "attribution_reasons": []
+        },
+        "25": {
+          "usage_count": 0,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "attribution_reasons": []
+        },
+        "26": {
+          "usage_count": 0,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "attribution_reasons": []
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 23,
+        "number_based": 0,
+        "word_frequency_based": 1,
+        "semantic_similarity": 0,
+        "fallback": 0,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 27,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB431_SD2",
+          "chunk_text": "HB431 SD2 HOUSE OF REPRESENTATIVES H.B. NO. 431 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII S.D. 2 A BILL FOR AN ACT RELATING TO HOUSING . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. There is appropriated out of the general revenues",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB431_SD2",
+          "chunk_text": "SECTION 1. There is appropriated out of the general revenues of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for the continued",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB431_SD2",
+          "chunk_text": "may be necessary for fiscal year 2026-2027 for the continued operation of the kauhale initiative , including expenses related to: (1) The development and operation of kauhale; (2) The provision of project-based rent supplement payments; (3) The provision of support services for qualified individuals and families in kauhale; (4) Staffing",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB431_SD2",
+          "chunk_text": "services for qualified individuals and families in kauhale; (4) Staffing and related costs to administer the kauhale initiative; (5) Addressing basic needs of individuals and families experiencing homelessness; (6) Wrap around services; (7) Social and health care services; (8) Transportation; and (9) Other services with the goal of alleviating poverty",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB431_SD2",
+          "chunk_text": "and (9) Other services with the goal of alleviating poverty and transitioning individuals and families experiencing homelessness or housing instability into supportive or affordable housing; provided that all kauhale projects shall be connected to public utilities, including water, sewer, and electricity; provided further that the kauhale initiative may charge monthly",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB431_SD2",
+          "chunk_text": "electricity; provided further that the kauhale initiative may charge monthly rents of no more than thirty per cent of the area median income level. The sums appropriated shall be expended by the department of human services for the purposes of this part. SECTION 2. There is appropriated out of the",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB431_SD2",
+          "chunk_text": "this part. SECTION 2. There is appropriated out of the general revenues of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB431_SD2",
+          "chunk_text": "thereof as may be necessary for fiscal year 2026-2027 for the continued implementation of the ohana zones pilot program established under Act 209, Session Laws of Hawaii 2018. The sums appropriated shall be expended by the department of human services for the purposes of this Act. PART II SECTION 3.",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB431_SD2",
+          "chunk_text": "for the purposes of this Act. PART II SECTION 3. There is appropriated out of the general revenues of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB431_SD2",
+          "chunk_text": "the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for the development, operation, and maintenance of affordable, supportive housing projects and the provision of supportive services for households with special needs who reside in the supportive housing projects . The sums appropriated shall be",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB431_SD2",
+          "chunk_text": "the supportive housing projects . The sums appropriated shall be expended by the Hawaii housing finance and development corporation for the purposes of this part. PART III SECTION 4. This Act shall take effect on July 1, 3000. Report Title: DHS; HHFDC; Housing; Kauhale Initiative; Ohana Zones Pilot Program; Supportive",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB431_SD2",
+          "chunk_text": "DHS; HHFDC; Housing; Kauhale Initiative; Ohana Zones Pilot Program; Supportive Housing; Appropriations Description: Appropriates funds to the Department of Human Services for the continued implementation of the Kauhale Initiative and Ohana Zones Pilot Program. Requires kauhale to be connected to public utilities. Authorizes monthly rents of no more than 30%",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB431_SD2",
+          "chunk_text": "public utilities. Authorizes monthly rents of no more than 30% of the area median income level to be charged for kauhale. Appropriates funds to the Hawaii Housing Finance and Development Corporation for the development of supportive housing projects and the provision of supportive services for certain households in the supportive",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB431_SD2",
+          "chunk_text": "provision of supportive services for certain households in the supportive housing projects. Effective 7/1/3000. (SD2) The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+          "start_word": 520,
+          "end_word": 558,
+          "word_count": 38
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "chunk_text": "SSCR1528 STAND. COM. REP. NO. 1528 Honolulu, Hawaii RE: H.B. No. 431 H.D. 2 S.D. 2 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 431, H.D. 2,",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "chunk_text": "Means, to which was referred H.B. No. 431, H.D. 2, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO HOUSING,\" begs leave to report as follows: The purpose and intent of this measure is to appropriate moneys for housing programs. More specifically, the measure appropriates moneys to: (1) The",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "chunk_text": "programs. More specifically, the measure appropriates moneys to: (1) The Office of the Governor for the continued implementation of the Kauhale Initiative and Ohana Zones Pilot Program; and (2) The Hawaii Housing Finance and Development Corporation for the development of supportive housing projects and the provision of supportive services for",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "chunk_text": "supportive housing projects and the provision of supportive services for certain households in the supportive housing projects. Your Committee received written comments in support of this measure from the Office of the Governor, Department of Human Services, Hawaii Housing Finance and Development Corporation, State Council on Developmental Disabilities, Statewide Office",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "chunk_text": "and Development Corporation, State Council on Developmental Disabilities, Statewide Office on Homelessness and Housing Solutions, County of Hawaii Office of Housing and Community Development, Ava Sofia Foundation DBA Autism Moms of Kona, Catholic Charities Hawaii, Easterseals Hawaii, Full Life, Hawaii Community Foundation, Hawaii Substance Abuse Coalition, Kokua Kona, Maui Chamber",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "chunk_text": "Community Foundation, Hawaii Substance Abuse Coalition, Kokua Kona, Maui Chamber of Commerce, Pacific Housing Assistance Corporation, and six individuals. Your Committee finds that Hawaii has the highest homelessness rate per capita in the United States. Your Committee also finds that there is a need for affordable housing that includes access",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "chunk_text": "there is a need for affordable housing that includes access to services for special needs populations. Your Committee recognizes that the Kauhale Initiative and Ohana Zones Pilot Program have successfully helped address homelessness in the State, and that the appropriations in this measure will continue to support these critical programs.",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "chunk_text": "in this measure will continue to support these critical programs. Your Committee further recognizes that the appropriation to the Hawaii Housing Finance and Development Corporation in this measure will enable the development of supportive housing units for households with special needs. Your Committee has amended this measure by: (1) Removing",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "chunk_text": "needs. Your Committee has amended this measure by: (1) Removing the preambles contained in sections 1 and 4 of the measure; (2) Requiring kauhale to be connected to public utilities; (3) Authorizing monthly rents of no more than thirty per cent of the area median income level to be charged",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "chunk_text": "cent of the area median income level to be charged for kauhale; (4) Changing the appropriation expending agency for the Kauhale Initiative and Ohana Zones Pilot Program from the Office of the Governor to the Department of Human Services; and (5) Making technical, nonsubstantive changes for purposes of clarity, consistency",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "chunk_text": "(5) Making technical, nonsubstantive changes for purposes of clarity, consistency and style. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 431, H.D.",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "chunk_text": "with the intent and purpose of H.B. No. 431, H.D. 2, S.D. 1, as amended herein, and recommends that it pass Third Reading in the form attached hereto as H.B. No. 431, H.D. 2, S.D. 2. Respectfully submitted on behalf of the members of the Committee on Ways and Means,",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB431_SD2_SSCR1528_",
+          "chunk_text": "of the members of the Committee on Ways and Means, ________________________________ DONOVAN M. DELA CRUZ, Chair",
+          "start_word": 480,
+          "end_word": 496,
+          "word_count": 16
+        }
+      ]
+    },
+    "numbers_data": []
+  },
+  "generation_timestamp": "2025-10-10T15:13:18.591721",
+  "generation_timestamp_unix": 1760145198.5917299
+}

@@ -1,0 +1,1083 @@
+{
+  "document_name": "HB70_SD1_SSCR1254_",
+  "new_documents_processed": [
+    "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+    "HB70_SD1",
+    "HB70_SD1_SSCR1254_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB70",
+    "HB70_TESTIMONY_CPC_01-30-25_",
+    "HB70_HD1",
+    "HB70_HD1_HSCR253_",
+    "HB70_HD1_TESTIMONY_JHA_02-25-25_",
+    "HB70_HD1_HSCR1060_",
+    "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+    "HB70_SD1",
+    "HB70_SD1_SSCR1254_"
+  ],
+  "numbers_used": 4,
+  "prompt_length": 111267,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"The purpose of this measure is to specify that a condominium association's budget summary shall have all required information without referring the reader to other portions of the budget and to clarify the ability to enforce compliance with the budget summary and replacement reserves requirements by providing that an association has the burden of proving compliance (HB70_SD1_SSCR1254_). This version of the bill has been amended to remove language that would have made the defense of good faith unavailable to an association whose board adopts a budget that omits the required budget summary (HB70_SD1_SSCR1254_). The bill is now designated as H.B. No. 70, H.D. 1, S.D. 1, and has been referred to the Committee on Judiciary (HB70_SD1_SSCR1254_).\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"Public testimony indicates that one condominium's liability insurance premium rose to over $1,037,000 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt) annually, resulting in owners being assessed fees exceeding $5,200 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt). Another individual testified to paying approximately $15,000 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt) in yearly fees. One owner reported reserve fees doubled with a deficit of $14,783 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt) per unit.\",\n\"policy_impact\": \"The Committee on Commerce and Consumer Protection has amended this measure by \\\"Removing language that would have barred the defense of good faith for any condominium association whose board adopts a budget that omits the budget summary required by section 514B-148(a), Hawaii Revised Statutes\\\" (HB70_SD1_SSCR1254_). This change was made to \\\"prevent unnecessary litigation or disputes\\\" because \\\"an association could easily inadvertently omit information from the summary... even if the association acted in good faith\\\" (HB70_SD1_SSCR1254_). As a result, opposition testimony now focuses on the remaining provision that \\\"shifts the burden of proof to the association,\\\" arguing it is \\\"inconsistent with general principles of law\\\" (HB70_SD1).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The most significant update is a major amendment by the Committee on Commerce and Consumer Protection, which removed the provision making the \\\"defense of good faith compliance\\\" unavailable to associations that omit a budget summary (HB70_SD1_SSCR1254_). The committee made this change due to concerns that \\\"an association could easily inadvertently omit information from the summary... even if the association acted in good faith\\\" and to \\\"prevent unnecessary litigation\\\" (HB70_SD1_SSCR1254_). Consequently, opposition testimony has shifted to focus on deleting the provision that places the \\\"burden of proving substantial compliance\\\" on the association, which opponents argue is \\\"inconsistent with general principles of law to shift the burden of proof entirely to the defendant\\\" (HB70_SD1). New economic testimony details one condominium's liability insurance premium rising to over $1,037,000 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt) annually, leading to owner assessment fees \\\"exceeding $5,200 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt).\\\" Testimony also reiterated previously mentioned figures from a new source, including a deficit of $14,783 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt) per unit and yearly fees of approximately $15,000 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt). Procedurally, the bill passed Second Reading as H.B. No. 70, H.D. 1, S.D. 1 and was referred to the Committee on Judiciary (HB70_SD1_SSCR1254_).\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 34830,
+      "candidates_token_count": 1060,
+      "total_token_count": 38629
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"The purpose of this measure is to specify that a condominium association's budget summary shall have all required information without referring the reader to other portions of the budget and to clarify the ability to enforce compliance with the budget summary and replacement reserves requirements by providing that an association has the burden of proving compliance (HB70_SD1_SSCR1254_). This version of the bill has been amended to remove language that would have made the defense of good faith unavailable to an association whose board adopts a budget that omits the required budget summary (HB70_SD1_SSCR1254_). The bill is now designated as H.B. No. 70, H.D. 1, S.D. 1, and has been referred to the Committee on Judiciary (HB70_SD1_SSCR1254_).\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"Public testimony indicates that one condominium's liability insurance premium rose to over $1,037,000 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt) annually, resulting in owners being assessed fees exceeding $5,200 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt). Another individual testified to paying approximately $15,000 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt) in yearly fees. One owner reported reserve fees doubled with a deficit of $14,783 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt) per unit.\",\n\"policy_impact\": \"The Committee on Commerce and Consumer Protection has amended this measure by \\\"Removing language that would have barred the defense of good faith for any condominium association whose board adopts a budget that omits the budget summary required by section 514B-148(a), Hawaii Revised Statutes\\\" (HB70_SD1_SSCR1254_). This change was made to \\\"prevent unnecessary litigation or disputes\\\" because \\\"an association could easily inadvertently omit information from the summary... even if the association acted in good faith\\\" (HB70_SD1_SSCR1254_). As a result, opposition testimony now focuses on the remaining provision that \\\"shifts the burden of proof to the association,\\\" arguing it is \\\"inconsistent with general principles of law\\\" (HB70_SD1).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The most significant update is a major amendment by the Committee on Commerce and Consumer Protection, which removed the provision making the \\\"defense of good faith compliance\\\" unavailable to associations that omit a budget summary (HB70_SD1_SSCR1254_). The committee made this change due to concerns that \\\"an association could easily inadvertently omit information from the summary... even if the association acted in good faith\\\" and to \\\"prevent unnecessary litigation\\\" (HB70_SD1_SSCR1254_). Consequently, opposition testimony has shifted to focus on deleting the provision that places the \\\"burden of proving substantial compliance\\\" on the association, which opponents argue is \\\"inconsistent with general principles of law to shift the burden of proof entirely to the defendant\\\" (HB70_SD1). New economic testimony details one condominium's liability insurance premium rising to over $1,037,000 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt) annually, leading to owner assessment fees \\\"exceeding $5,200 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt).\\\" Testimony also reiterated previously mentioned figures from a new source, including a deficit of $14,783 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt) per unit and yearly fees of approximately $15,000 (HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt). Procedurally, the bill passed Second Reading as H.B. No. 70, H.D. 1, S.D. 1 and was referred to the Committee on Judiciary (HB70_SD1_SSCR1254_).\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"The purpose of this measure is to specify that a condominium association's budget summary shall have all required information without referring the reader to other portions of the budget and to clarify the ability to enforce compliance with the budget summary and replacement reserves requirements by providing that an association has the burden of proving compliance (HB70_SD1_SSCR1254_)",
+          "attributed_chunk_id": 22,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7096774193548387,
+          "attribution_reason": "Document citation + word frequency: HB70_SD1_SSCR1254_ (score: 0.710)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This version of the bill has been amended to remove language that would have made the defense of good faith unavailable to an association whose board adopts a budget that omits the required budget summary (HB70_SD1_SSCR1254_)",
+          "attributed_chunk_id": 48,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7368421052631579,
+          "attribution_reason": "Document citation + word frequency: HB70_SD1_SSCR1254_ (score: 0.737)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill is now designated as H",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "B. No. 70, H. D. 1, S. D. 1, and has been referred to the Committee on Judiciary (HB70_SD1_SSCR1254_)",
+          "attributed_chunk_id": 20,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Document citation + word frequency: HB70_SD1_SSCR1254_ (score: 0.750)",
+          "numbers_found": [
+            1.0,
+            70.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"Public testimony indicates that one condominium's liability insurance premium rose to over $1,037,000 (HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attributed_chunk_id": "NUMBER_1037000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.35294117647058826,
+          "attribution_reason": "Number $1,037,000 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.353)",
+          "numbers_found": [
+            1037000.0,
+            14.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) annually, resulting in owners being assessed fees exceeding $5,200 (HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attributed_chunk_id": "NUMBER_5200",
+          "attribution_method": "number_based",
+          "attribution_score": 0.4166666666666667,
+          "attribution_reason": "Number $5,200 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.417)",
+          "numbers_found": [
+            5200.0,
+            14.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). Another individual testified to paying approximately $15,000 (HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attributed_chunk_id": "NUMBER_15000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Number $15,000 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.200)",
+          "numbers_found": [
+            15000.0,
+            14.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) in yearly fees",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "One owner reported reserve fees doubled with a deficit of $14,783 (HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attributed_chunk_id": "NUMBER_14783",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Number $14,783 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.500)",
+          "numbers_found": [
+            14.0,
+            14783.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) per unit",
+          "attributed_chunk_id": 28,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"policy_impact\": \"The Committee on Commerce and Consumer Protection has amended this measure by \\\"Removing language that would have barred the defense of good faith for any condominium association whose board adopts a budget that omits the budget summary required by section 514B-148(a), Hawaii Revised Statutes\\\" (HB70_SD1_SSCR1254_)",
+          "attributed_chunk_id": 48,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8333333333333334,
+          "attribution_reason": "Word frequency match score: 0.833",
+          "numbers_found": [
+            148.0
+          ]
+        },
+        {
+          "sentence": "This change was made to \\\"prevent unnecessary litigation or disputes\\\" because \\\"an association could easily inadvertently omit information from the summary",
+          "attributed_chunk_id": 46,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "even if the association acted in good faith\\\" (HB70_SD1_SSCR1254_)",
+          "attributed_chunk_id": 47,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB70_SD1_SSCR1254_ (score: 1.000)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "As a result, opposition testimony now focuses on the remaining provision that \\\"shifts the burden of proof to the association,\\\" arguing it is \\\"inconsistent with general principles of law\\\" (HB70_SD1)",
+          "attributed_chunk_id": 32,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Document citation + word frequency: HB70_SD1 (score: 0.375)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The most significant update is a major amendment by the Committee on Commerce and Consumer Protection, which removed the provision making the \\\"defense of good faith compliance\\\" unavailable to associations that omit a budget summary (HB70_SD1_SSCR1254_)",
+          "attributed_chunk_id": 45,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Document citation + word frequency: HB70_SD1_SSCR1254_ (score: 0.250)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The committee made this change due to concerns that \\\"an association could easily inadvertently omit information from the summary",
+          "attributed_chunk_id": 46,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5833333333333334,
+          "attribution_reason": "Word frequency match score: 0.583",
+          "numbers_found": []
+        },
+        {
+          "sentence": "even if the association acted in good faith\\\" and to \\\"prevent unnecessary litigation\\\" (HB70_SD1_SSCR1254_)",
+          "attributed_chunk_id": 47,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB70_SD1_SSCR1254_ (score: 1.000)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Consequently, opposition testimony has shifted to focus on deleting the provision that places the \\\"burden of proving substantial compliance\\\" on the association, which opponents argue is \\\"inconsistent with general principles of law to shift the burden of proof entirely to the defendant\\\" (HB70_SD1)",
+          "attributed_chunk_id": 32,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Document citation + word frequency: HB70_SD1 (score: 0.400)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "New economic testimony details one condominium's liability insurance premium rising to over $1,037,000 (HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attributed_chunk_id": "NUMBER_1037000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Number $1,037,000 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.500)",
+          "numbers_found": [
+            1037000.0,
+            14.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) annually, leading to owner assessment fees \\\"exceeding $5,200 (HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attributed_chunk_id": "NUMBER_5200",
+          "attribution_method": "number_based",
+          "attribution_score": 0.2727272727272727,
+          "attribution_reason": "Number $5,200 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.273)",
+          "numbers_found": [
+            5200.0,
+            14.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). \\\" Testimony also reiterated previously mentioned figures from a new source, including a deficit of $14,783 (HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attributed_chunk_id": "NUMBER_14783",
+          "attribution_method": "number_based",
+          "attribution_score": 0.1875,
+          "attribution_reason": "Number $14,783 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.188)",
+          "numbers_found": [
+            14.0,
+            14783.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) per unit and yearly fees of approximately $15,000 (HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attributed_chunk_id": "NUMBER_15000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Number $15,000 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.500)",
+          "numbers_found": [
+            15000.0,
+            14.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). Procedurally, the bill passed Second Reading as H",
+          "attributed_chunk_id": 50,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Word frequency match score: 0.286",
+          "numbers_found": []
+        },
+        {
+          "sentence": "B. No. 70, H. D. 1, S. D. 1 and was referred to the Committee on Judiciary (HB70_SD1_SSCR1254_)",
+          "attributed_chunk_id": 20,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Document citation + word frequency: HB70_SD1_SSCR1254_ (score: 0.750)",
+          "numbers_found": [
+            1.0,
+            70.0
+          ]
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 1,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "2": {
+          "usage_count": 1,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.333"
+          ]
+        },
+        "3": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "4": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "5": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": []
+        },
+        "20": {
+          "usage_count": 2,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB70_SD1_SSCR1254_ (score: 0.750)",
+            "Document citation + word frequency: HB70_SD1_SSCR1254_ (score: 0.750)"
+          ]
+        },
+        "21": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": []
+        },
+        "22": {
+          "usage_count": 1,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB70_SD1_SSCR1254_ (score: 0.710)"
+          ]
+        },
+        "23": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": []
+        },
+        "24": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": []
+        },
+        "25": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": []
+        },
+        "26": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": []
+        },
+        "27": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": []
+        },
+        "28": {
+          "usage_count": 1,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.250"
+          ]
+        },
+        "29": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": []
+        },
+        "30": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": []
+        },
+        "31": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": []
+        },
+        "32": {
+          "usage_count": 2,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB70_SD1 (score: 0.375)",
+            "Document citation + word frequency: HB70_SD1 (score: 0.400)"
+          ]
+        },
+        "33": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": []
+        },
+        "34": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": []
+        },
+        "35": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": []
+        },
+        "36": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": []
+        },
+        "37": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1",
+          "attribution_reasons": []
+        },
+        "38": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "attribution_reasons": []
+        },
+        "39": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "attribution_reasons": []
+        },
+        "40": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "attribution_reasons": []
+        },
+        "41": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "attribution_reasons": []
+        },
+        "42": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "attribution_reasons": []
+        },
+        "43": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "attribution_reasons": []
+        },
+        "44": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "attribution_reasons": []
+        },
+        "45": {
+          "usage_count": 1,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB70_SD1_SSCR1254_ (score: 0.250)"
+          ]
+        },
+        "46": {
+          "usage_count": 2,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.583"
+          ]
+        },
+        "47": {
+          "usage_count": 2,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB70_SD1_SSCR1254_ (score: 1.000)",
+            "Document citation + word frequency: HB70_SD1_SSCR1254_ (score: 1.000)"
+          ]
+        },
+        "48": {
+          "usage_count": 2,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB70_SD1_SSCR1254_ (score: 0.737)",
+            "Word frequency match score: 0.833"
+          ]
+        },
+        "49": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "attribution_reasons": []
+        },
+        "50": {
+          "usage_count": 1,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.286"
+          ]
+        },
+        "51": {
+          "usage_count": 0,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "attribution_reasons": []
+        },
+        "NUMBER_1037000.0": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_5200.0": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_14783.0": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_15000.0": {
+          "usage_count": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1037000": {
+          "usage_count": 2,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $1,037,000 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.353)",
+            "Number $1,037,000 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.500)"
+          ]
+        },
+        "NUMBER_5200": {
+          "usage_count": 2,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $5,200 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.417)",
+            "Number $5,200 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.273)"
+          ]
+        },
+        "NUMBER_15000": {
+          "usage_count": 2,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $15,000 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.200)",
+            "Number $15,000 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.500)"
+          ]
+        },
+        "NUMBER_14783": {
+          "usage_count": 2,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $14,783 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.500)",
+            "Number $14,783 from HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt (score: 0.188)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 9,
+        "number_based": 8,
+        "word_frequency_based": 6,
+        "semantic_similarity": 0,
+        "fallback": 1,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 52,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "HB-70-HD-1 Submitted on: 3/8/2025 1:50:33 PM Testimony for CPN on 3/14/2025 9:30:00 AM Submitted By Organization Testifier Position Testify Richard Emery Testifying for Hawaii First Realty Support In Person Comments: There is no current penalty for not complying with the current law. Owners and Buyers need accurate reserve information currently",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "current law. Owners and Buyers need accurate reserve information currently defined in HRS 514B-148 by the mandatory Budget Summary enacted in 2023. REALTOR® is a registered collective membership mark which may be used only by real estate professionals who are members of the NATIONAL ASSOCIATION OF REALTORS® and subscribe to",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "members of the NATIONAL ASSOCIATION OF REALTORS® and subscribe to its strict Code of Ethics. 808-733-7060 1259 A‘ala Street, Suite 300 Honolulu, HI 96817 808-737-4977 March 14, 2025 The Honorable Jarrett Keohokalole, Chair Senate Committee on Commerce and Consumer Protection State Capitol, Conference Room 229 & Videoconference RE: House Bill",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "State Capitol, Conference Room 229 & Videoconference RE: House Bill 70, HD1, Relating to Condominium HEARING: Friday, March 14, 2025, at 9:30 a.m. Aloha Chair Keohokalole, Vice Chair Fukunaga, and Members of the Committee: My name is Lyndsey Garcia, Director of Advocacy, testifying on behalf of the Hawai‘i Association of",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "of Advocacy, testifying on behalf of the Hawai‘i Association of REALTORS® (“HAR”), the voice of real estate in Hawaii and its over 10,000 members. HAR supports House Bill 70, HD1, which requires budget summaries to contain all required information without referring the reader to other portions of the budget. States",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "referring the reader to other portions of the budget. States that the defense of good faith compliance is unavailable to any association whose board adopts a budget that omits the required budget summary. Clarifies the ability to enforce compliance with budget summary and replacement reserves requirements and provides that an",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "budget summary and replacement reserves requirements and provides that an association has the burden of proving compliance. Effective 7/1/3000. In 2023, the Legislature passed, and Act 199 was signed into law, requiring a budget summary with additional details to be prepared on the financial condition of an association. As such,",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "prepared on the financial condition of an association. As such, requiring these budget summaries to contain all required information enhances transparency and provides both owners and prospective purchasers with valuable insights into the association's financial health. Mahalo for the opportunity to provide testimony on this measure. HAWAl‘l if § REALTORS”",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "to provide testimony on this measure. HAWAl‘l if § REALTORS” '5’ ﬁ‘ '550 §.2£¥!.§§}kE£¥}.E Z2¥12'»'.‘§§.L‘.§?I%¥€ ’ . \\ P.O. Box 976 Honolulu, Hawaii 96808 March 10, 2025 Honorable Jarret Keohokalole Honorable Carol Fukunaga Committee on Commerce and Consumer Protection 415 South Beretania Street Honolulu, Hawaii 96813 Re: EB 70 HD1",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "South Beretania Street Honolulu, Hawaii 96813 Re: EB 70 HD1 SUPPORT Dear Chair Keohokalole, Vice Chair Fukunaga and Committee Members: CAI supports HB 70 HD1. HB 70 HD1 will protect consumers by excluding the defense of good faith for an association if its board adopts a budget that omits the",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "association if its board adopts a budget that omits the required detailed budget summary. HB 70 HD1 also clarifies standing requirements and the burden of proving substantial compliance. Financial transparency is fundamental. The requirement of a budget summary is an important tool to enable owners to easily understand the financial",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "important tool to enable owners to easily understand the financial condition of the Association. The items to be included in the summary are expressed in Hawaii Revised Statutes (“HRS”) §5l4B—l48(a)(l—8). Those items must be determined through the budgeting process, so the burden of including a substantially compliant summary is light.",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "the burden of including a substantially compliant summary is light. This is particularly so since most of those items reference objective matters (e.g., disclose “cash or accrual” budgeting) and the estimated amounts to be included are to be derived from the work of experts. Association directors are entitled to reasonably",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "the work of experts. Association directors are entitled to reasonably rely upon experts. HRS §5l4B—lO6 provides, in relevant part, that: In the performance of their duties, officers and members of the board shall owe the association a fiduciary duty and exercise the degree of care and loyalty required of an",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "exercise the degree of care and loyalty required of an officer or director of a corporation organized under chapter 414D. The general standards for directors are detailed in HRS §414D—149. That section provides, in relevant part, that: Honorable Jarret Keohokalole Honorable Carol Fukunaga March 10, 2025 Page 2 of 2",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "Honorable Carol Fukunaga March 10, 2025 Page 2 of 2 (b) In discharging the director's duties, a director is entitled to rely on information, opinions, reports, or statements, including financial statements and other financial data, if prepared or presented by: *** (2) Legal counsel, public accountants, or other persons as",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "*** (2) Legal counsel, public accountants, or other persons as to matters the director reasonably believes are within the person's professional or expert competence[.]1 HB 70 HD1 provides that “The association shall have the burden of proving substantial compliance with this section”, which is in accord with an association's existing",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "this section”, which is in accord with an association's existing burden under current law. HRS §514B—l48(g) presently provides, in relevant part, that: In any proceeding to enforce compliance, a board that has not prepared an annual operating budget and reserve study shall have the burden of proving it has complied",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB70_HD1_TESTIMONY_CPN_03-14-25_",
+          "chunk_text": "study shall have the burden of proving it has complied with this section. HB 70 HD1 will enforce budget discipline in a",
+          "start_word": 720,
+          "end_word": 742,
+          "word_count": 22
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB70_SD1",
+          "chunk_text": "REALTOR® is a registered collective membership mark which may be used only by real estate professionals who are members of the NATIONAL ASSOCIATION OF REALTORS® and subscribe to its strict Code of Ethics. 808-733-7060 1259 A‘ala Street, Suite 300 Honolulu, HI 96817 808-737-4977 March 25, 2025 The Honorable Karl Rhoads",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB70_SD1",
+          "chunk_text": "HI 96817 808-737-4977 March 25, 2025 The Honorable Karl Rhoads Chair Senate Committee on Judiciary State Capitol, Conference Room 229 & Videoconference RE: House Bill 70, HD1, SD1, Relating to Condominium HEARING: Tuesday, March 25, 2025, at 10:01 a.m. Aloha Chair Rhoads, Vice Chair Gabbard, and Members of the Committee:",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB70_SD1",
+          "chunk_text": "Chair Rhoads, Vice Chair Gabbard, and Members of the Committee: My name is Lyndsey Garcia, Director of Advocacy, testifying on behalf of the Hawai‘i Association of REALTORS® (“HAR”), the voice of real estate in Hawaii and its over 10,000 members. HAR supports House Bill 70, HD1, SD1, which requires budget",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB70_SD1",
+          "chunk_text": "HAR supports House Bill 70, HD1, SD1, which requires budget summaries to contain all required information without referring the reader to other portions of the budget. Clarifies the ability to enforce compliance with budget summary and replacement reserves requirements and provides that an association has the burden of proving compliance.",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB70_SD1",
+          "chunk_text": "provides that an association has the burden of proving compliance. Effective 7/1/3000. In 2023, the Legislature passed, and Act 199 was signed into law, requiring a budget summary with additional details to be prepared on the financial condition of an association. As such, requiring these budget summaries to contain all",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB70_SD1",
+          "chunk_text": "association. As such, requiring these budget summaries to contain all required information enhances transparency and provides both owners and prospective purchasers with valuable insights into the association's financial health. Mahalo for the opportunity to provide testimony on this measure. HB-70-SD-1 Submitted on: 3/21/2025 11:09:17 AM Testimony for JDC on 3/25/2025",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB70_SD1",
+          "chunk_text": "Submitted on: 3/21/2025 11:09:17 AM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Philip Nerney Testifying for CAI Support Written Testimony Only Comments: CAI supports this bill. The required budget summary enables owners and purchasers to have a ready understanding of the financial condition of",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB70_SD1",
+          "chunk_text": "to have a ready understanding of the financial condition of an association. All required information should be contained in the budget summary itself. The burden of proving substantial compliance is appropriate. HB-70-SD-1 Submitted on: 3/21/2025 12:30:48 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB70_SD1",
+          "chunk_text": "on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Mike Golojuch, Sr. Testifying for Palehua Townhouse Association Oppose Written Testimony Only Comments: Request that this bill be deferred. Mahalo. HB-70-SD-1 Submitted on: 3/22/2025 11:45:15 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Idor",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB70_SD1",
+          "chunk_text": "3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Idor Harris Testifying for Honolulu Tower AOAO Oppose Written Testimony Only Comments: Honolulu Tower is a 396 unit high rise located at Beretania and Maunakea Streets. On Feb. 3, 2025 the Board of Directors of the Association of Apartment Owners of",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB70_SD1",
+          "chunk_text": "Board of Directors of the Association of Apartment Owners of Honolulu Tower unanimously voted to oppose HB70 and asks that you defer this measure. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 30,
+          "document_name": "HB70_SD1",
+          "chunk_text": "alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 31,
+          "document_name": "HB70_SD1",
+          "chunk_text": "substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example,",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 32,
+          "document_name": "HB70_SD1",
+          "chunk_text": "burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 33,
+          "document_name": "HB70_SD1",
+          "chunk_text": "an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Idor Harris Resident Manager HB-70-SD-1 Submitted on: 3/23/2025 3:33:15 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Mark",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 34,
+          "document_name": "HB70_SD1",
+          "chunk_text": "3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Mark McKellar Testifying for Law Offices of Mark K. McKellar, LLLC Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 35,
+          "document_name": "HB70_SD1",
+          "chunk_text": "H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 36,
+          "document_name": "HB70_SD1",
+          "chunk_text": "seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 37,
+          "document_name": "HB70_SD1",
+          "chunk_text": "the association should be deleted. A party who brings an action should have the burden of proof. In some",
+          "start_word": 720,
+          "end_word": 739,
+          "word_count": 19
+        },
+        {
+          "chunk_id": 38,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "chunk_text": "SSCR1254 STAND. COM. REP. NO. 1254 Honolulu, Hawaii RE: H.B. No. 70 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Commerce and Consumer Protection, to which was referred H.B. No. 70, H.D.",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 39,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "chunk_text": "Consumer Protection, to which was referred H.B. No. 70, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO CONDOMINIUM,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Specify that a condominium association's budget summary shall have all required information without referring",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 40,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "chunk_text": "association's budget summary shall have all required information without referring the reader to other portions of the budget; (2) Explicitly state that the defense of good faith compliance is not available to a condominium association whose board adopts a budget that omits the required budget summary; and (3) Clarify the",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 41,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "chunk_text": "that omits the required budget summary; and (3) Clarify the ability to enforce compliance with the budget summary and replacement reserves requirements and provide that an association has the burden of proving compliance. Your Committee received testimony in support of this measure from Hawaii First Realty, Hawai ʻ i Association",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 42,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "chunk_text": "this measure from Hawaii First Realty, Hawai ʻ i Association of REALTORS, Community Associations Institute, and seven individuals. Your Committee received testimony in opposition to this measure from Honolulu Tower; Hawaii Council of Community Associations; Law Offices of Mark K. McKellar, LLLC; and fifteen individuals. Your Committee finds that the",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 43,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "chunk_text": "McKellar, LLLC; and fifteen individuals. Your Committee finds that the financial transparency of a condominium association is essential for condominium unit owners to keep informed of an association's financial health. Recent amendments to existing law require, among other things, that condominium associations prepare a detailed budget summary to better inform",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 44,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "chunk_text": "condominium associations prepare a detailed budget summary to better inform unit owners of their financial condition. Your Committee further finds that additional clarification is needed to further effectuate the goal to increase financial transparency between associations and condominium unit owners. This measure also aims to prevent associations from misleading consumers",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 45,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "chunk_text": "This measure also aims to prevent associations from misleading consumers by omitting important financial information from their budget summaries under the good-faith defense provisions. Your Committee notes the concerns raised in testimony, however, that given the comprehensive list of requirements for the budget summary required by this measure, an association",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 46,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "chunk_text": "for the budget summary required by this measure, an association could easily inadvertently omit information from the summary, or the information provided in the summary may later turn out to be inaccurate or incomplete. If a specific component is inadvertently omitted from the summary and the omission is not disclosed,",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 47,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "chunk_text": "omitted from the summary and the omission is not disclosed, an association could be accused of breaching its duty by failing to meet all the budget summary requirements, even if the association acted in good faith. Therefore, to prevent unnecessary litigation or disputes, amendments are necessary to address this issue.",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 48,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "chunk_text": "litigation or disputes, amendments are necessary to address this issue. Accordingly, your Committee has amended this measure by: (1) Removing language that would have barred the defense of good faith for any condominium association whose board adopts a budget that omits the budget summary required by section 514B-148(a), Hawaii Revised",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 49,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "chunk_text": "omits the budget summary required by section 514B-148(a), Hawaii Revised Statutes; and (2) Amending section 1 to reflect its amended purpose. As affirmed by the record of votes of the members of your Committee on Commerce and Consumer Protection that is attached to this report, your Committee is in accord",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 50,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "chunk_text": "is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 70, H.D. 1, as amended herein, and recommends that it pass Second Reading in the form attached hereto as H.B. No. 70, H.D. 1, S.D. 1, and be referred to your Committee",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 51,
+          "document_name": "HB70_SD1_SSCR1254_",
+          "chunk_text": "H.D. 1, S.D. 1, and be referred to your Committee on Judiciary. Respectfully submitted on behalf of the members of the Committee on Commerce and Consumer Protection, ________________________________ JARRETT KEOHOKALOLE, Chair",
+          "start_word": 520,
+          "end_word": 551,
+          "word_count": 31
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "of authority, selective enforcement and a complete lack of transparency in operations and administration. This includes issues with financial data, meeting minutes, contractor vetting, bids, scope of work, invoices, reserve fund management, and much more. In 2024, our condominium's liability insurance premium skyrocketed by an alarming 829%, rising to over $1,037,000 annually. This sharp increase came without sufficient explanation or any fair warning. As a result, all owners were unilaterally assessed fees exceeding $5,200 in some cases, to cover the depleted reserve funds that were used to pay for this insurance increase. There is a complete lack of accountability from the",
+        "number": 1037000.0,
+        "filename": "HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "vetting, bids, scope of work, invoices, reserve fund management, and much more. In 2024, our condominium's liability insurance premium skyrocketed by an alarming 829%, rising to over $1,037,000 annually. This sharp increase came without sufficient explanation or any fair warning. As a result, all owners were unilaterally assessed fees exceeding $5,200 in some cases, to cover the depleted reserve funds that were used to pay for this insurance increase. There is a complete lack of accountability from the Board of Directors (BOD), property management agencies, and on-site management and unskilled maintenance workers/vendors. The BOD clearly demonstrates a troubling lack of knowledge",
+        "number": 5200.0,
+        "filename": "HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "HB-70-HD-1 Submitted on: 3/12/2025 6:03:59 PM Testimony for CPN on 3/14/2025 9:30:00 AM Submitted By Organization Testifier Position Testify christine morrison Individual Support Remotely Via Zoom Comments: 1. Reserve studies have not been conducted for ~8 years. In 2025: my reserve fees doubled with a 20.15% increase and deficit of $14,783 per unit, to be made up in 3 years by the increase in HOA fees. 2. I pay~ $15,000 in yearly fees. Developer litigation started in 2018 and settled in April 2024 =15 M. I still have no unit “common element” repairs since the litigation. \u0010\u0005\u0018 1 TESTIMONY IN SUPPORT",
+        "number": 14783.0,
+        "filename": "HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "christine morrison Individual Support Remotely Via Zoom Comments: 1. Reserve studies have not been conducted for ~8 years. In 2025: my reserve fees doubled with a 20.15% increase and deficit of $14,783 per unit, to be made up in 3 years by the increase in HOA fees. 2. I pay~ $15,000 in yearly fees. Developer litigation started in 2018 and settled in April 2024 =15 M. I still have no unit “common element” repairs since the litigation. \u0010\u0005\u0018 1 TESTIMONY IN SUPPORT OF HB70 HD1 For: The Committee on Commerce and Consumer Protection DATE: Friday, March 14, 2025 TIME: 9:30 AM",
+        "number": 15000.0,
+        "filename": "HB70_HD1_TESTIMONY_CPN_03-14-25_.PDF.txt",
+        "document_type": "testimony"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:27:28.124543",
+  "generation_timestamp_unix": 1760146048.124554
+}

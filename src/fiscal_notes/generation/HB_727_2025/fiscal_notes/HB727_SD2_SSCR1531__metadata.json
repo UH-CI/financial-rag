@@ -1,0 +1,2281 @@
+{
+  "document_name": "HB727_SD2_SSCR1531_",
+  "new_documents_processed": [
+    "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+    "HB727_SD2",
+    "HB727_SD2_SSCR1531_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB727",
+    "HB727_TESTIMONY_JHA_01-30-25_",
+    "HB727_HD1",
+    "HB727_HD1_HSCR624_",
+    "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+    "HB727_HD1_HSCR1142_",
+    "HB727_HD1_TESTIMONY_JDC_03-19-25_",
+    "HB727_SD1",
+    "HB727_SD1_SSCR1240_",
+    "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+    "HB727_SD2",
+    "HB727_SD2_SSCR1531_"
+  ],
+  "numbers_used": 106,
+  "prompt_length": 112710,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"The Judiciary's proposal for the Kona Women’s Court pilot project has been updated from a two-year to a \\\"three-year pilot project\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). The purpose remains to make the First Circuit's Women's Court permanent and establish a pilot in the Third Circuit's Kona division (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). The Judiciary requests modifications to appropriations to ensure the pilot is \\\"fully funded through fiscal year 2027-2028\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt).\",\n\"appropriations\": \"The Committee on Ways and Means has \\\"amended this measure by changing the appropriations to unspecified amounts to facilitate further discussion on the measure\\\" (HB727_SD2). This replaces the specific amounts listed in the previous version of the bill. The Department of Health also submitted a request for a budget of \\\"$221,788 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt) to support the Kona division pilot project,\\\" which includes funding for a Clinical Psychologist and a Social Worker (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt).\",\n\"assumptions_and_methodology\": \"The Judiciary's proposal has been updated from a two-year pilot project to a \\\"three-year pilot project\\\" to reflect the current version of the bill (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). The financial projections are now based on a three-year timeline with a total requested budget of just over \\\"$1.50 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt) million\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). The assumption is that this investment will result in cost savings, as it is anticipated the program will help more than six women avoid incarceration (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt).\",\n\"agency_impact\": \"The Department of Health has submitted testimony requesting a budget of \\\"$221,788 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt) to support the Kona division pilot project\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). This funding is for two specific positions: a \\\"1.0 FTE Clinical Psychologist [$145,000] (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt) to provide forensic psychological consultation\\\" and a \\\"1.0 FTE Social Worker/Human Services Professional IV [$76,788] (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt) to conduct screenings and provide forensic coordination\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Your Committee notes that the Department of Health requests $221,788 (HB727_SD2) to support the Kona division pilot program.\",\n\"economic_impact\": \"The Judiciary testimony provides a new cost-benefit analysis, stating that the \\\"cost of incarceration of just one person for three years is $277,035.10 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Based on this figure, the testimony projects that \\\"if KWC helps keep just six (6) women out of prison, the program will have already paid for itself\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). This suggests a significant potential for cost savings to the state by reducing incarceration rates (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt).\",\n\"policy_impact\": \"\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"The Judiciary has updated its proposal to a three-year pilot project with a total cost of \\\"$1,576,900.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). The proposed budget is now broken down over three fiscal years. The cost for fiscal year 2025-2026 is \\\"$514,900.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). The cost for fiscal year 2026-2027 is now projected to be \\\"$547,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). A new budget for fiscal year 2027-2028 has been added, with a cost of \\\"$515,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Recurring annual costs include \\\"$175,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for a Women's Mental Health Professional, \\\"$100,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for Women's Behavioral Health Beds, and \\\"$85,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for a Kona Drug Court Probation Supervisor (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Additional annual costs are \\\"$80,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for a Peer Specialist, \\\"$30,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for a Cultural Practitioner, \\\"$25,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for Moral Reconation Therapy, and \\\"$10,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for Increased Drug Testing/Lab confirmation (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Training costs are specified as \\\"$5,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" in Year 1 and \\\"$42,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" in Year 2 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Year 3 includes \\\"$10,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for Program Evaluation (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Despite this detailed request, the Committee on Ways and Means has amended the measure to have unspecified appropriations (HB727_SD2).\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"The Judiciary's updated testimony clarifies the long-term goal for the program after the now proposed \\\"3-year project period\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). If the pilot is successful, the intent is to \\\"expand the Women’s Court program to Hilo and make the program permanent\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). This extends the timeline for considering permanence and expansion from two years to three (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt).\",\n\"updates_from_previous_fiscal_note\": \"The pilot program's duration has been extended from two years to a \\\"three-year pilot project\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt), with the total requested budget from the Judiciary increasing to \\\"$1,576,900.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). A new budget for a third year has been introduced at \\\"$515,000 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Most significantly, the Committee on Ways and Means has \\\"amended this measure by changing the appropriations to unspecified amounts\\\" (HB727_SD2), removing the specific funding amounts that were in the prior version of the bill. A new agency impact has been identified, with the Department of Health requesting \\\"$221,788 (HB727_SD2)\\\" to support the pilot with a Clinical Psychologist and a Social Worker. Finally, the Judiciary provided new data for economic impact, citing the three-year cost of incarceration for one person as \\\"$277,035.10 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" and stating the program could pay for itself by keeping six women out of prison (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt).\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 55485,
+      "candidates_token_count": 2639,
+      "total_token_count": 60731
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"The Judiciary's proposal for the Kona Women’s Court pilot project has been updated from a two-year to a \\\"three-year pilot project\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). The purpose remains to make the First Circuit's Women's Court permanent and establish a pilot in the Third Circuit's Kona division (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). The Judiciary requests modifications to appropriations to ensure the pilot is \\\"fully funded through fiscal year 2027-2028\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt).\",\n\"appropriations\": \"The Committee on Ways and Means has \\\"amended this measure by changing the appropriations to unspecified amounts to facilitate further discussion on the measure\\\" (HB727_SD2). This replaces the specific amounts listed in the previous version of the bill. The Department of Health also submitted a request for a budget of \\\"$221,788 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt) to support the Kona division pilot project,\\\" which includes funding for a Clinical Psychologist and a Social Worker (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt).\",\n\"assumptions_and_methodology\": \"The Judiciary's proposal has been updated from a two-year pilot project to a \\\"three-year pilot project\\\" to reflect the current version of the bill (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). The financial projections are now based on a three-year timeline with a total requested budget of just over \\\"$1.50 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt) million\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). The assumption is that this investment will result in cost savings, as it is anticipated the program will help more than six women avoid incarceration (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt).\",\n\"agency_impact\": \"The Department of Health has submitted testimony requesting a budget of \\\"$221,788 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt) to support the Kona division pilot project\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). This funding is for two specific positions: a \\\"1.0 FTE Clinical Psychologist [$145,000] (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt) to provide forensic psychological consultation\\\" and a \\\"1.0 FTE Social Worker/Human Services Professional IV [$76,788] (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt) to conduct screenings and provide forensic coordination\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Your Committee notes that the Department of Health requests $221,788 (HB727_SD2) to support the Kona division pilot program.\",\n\"economic_impact\": \"The Judiciary testimony provides a new cost-benefit analysis, stating that the \\\"cost of incarceration of just one person for three years is $277,035.10 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Based on this figure, the testimony projects that \\\"if KWC helps keep just six (6) women out of prison, the program will have already paid for itself\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). This suggests a significant potential for cost savings to the state by reducing incarceration rates (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt).\",\n\"policy_impact\": \"\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"The Judiciary has updated its proposal to a three-year pilot project with a total cost of \\\"$1,576,900.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). The proposed budget is now broken down over three fiscal years. The cost for fiscal year 2025-2026 is \\\"$514,900.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). The cost for fiscal year 2026-2027 is now projected to be \\\"$547,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). A new budget for fiscal year 2027-2028 has been added, with a cost of \\\"$515,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Recurring annual costs include \\\"$175,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for a Women's Mental Health Professional, \\\"$100,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for Women's Behavioral Health Beds, and \\\"$85,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for a Kona Drug Court Probation Supervisor (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Additional annual costs are \\\"$80,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for a Peer Specialist, \\\"$30,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for a Cultural Practitioner, \\\"$25,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for Moral Reconation Therapy, and \\\"$10,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for Increased Drug Testing/Lab confirmation (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Training costs are specified as \\\"$5,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" in Year 1 and \\\"$42,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" in Year 2 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Year 3 includes \\\"$10,000.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" for Program Evaluation (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Despite this detailed request, the Committee on Ways and Means has amended the measure to have unspecified appropriations (HB727_SD2).\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"The Judiciary's updated testimony clarifies the long-term goal for the program after the now proposed \\\"3-year project period\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). If the pilot is successful, the intent is to \\\"expand the Women’s Court program to Hilo and make the program permanent\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). This extends the timeline for considering permanence and expansion from two years to three (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt).\",\n\"updates_from_previous_fiscal_note\": \"The pilot program's duration has been extended from two years to a \\\"three-year pilot project\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt), with the total requested budget from the Judiciary increasing to \\\"$1,576,900.00 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). A new budget for a third year has been introduced at \\\"$515,000 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt). Most significantly, the Committee on Ways and Means has \\\"amended this measure by changing the appropriations to unspecified amounts\\\" (HB727_SD2), removing the specific funding amounts that were in the prior version of the bill. A new agency impact has been identified, with the Department of Health requesting \\\"$221,788 (HB727_SD2)\\\" to support the pilot with a Clinical Psychologist and a Social Worker. Finally, the Judiciary provided new data for economic impact, citing the three-year cost of incarceration for one person as \\\"$277,035.10 (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt)\\\" and stating the program could pay for itself by keeping six women out of prison (HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt).\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"The Judiciary's proposal for the Kona Women’s Court pilot project has been updated from a two-year to a \\\"three-year pilot project\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 14,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7222222222222222,
+          "attribution_reason": "Word frequency match score: 0.722",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). The purpose remains to make the First Circuit's Women's Court permanent and establish a pilot in the Third Circuit's Kona division (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 12,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6111111111111112,
+          "attribution_reason": "Word frequency match score: 0.611",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). The Judiciary requests modifications to appropriations to ensure the pilot is \\\"fully funded through fiscal year 2027-2028\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 13,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7058823529411765,
+          "attribution_reason": "Word frequency match score: 0.706",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). \",\n\"appropriations\": \"The Committee on Ways and Means has \\\"amended this measure by changing the appropriations to unspecified amounts to facilitate further discussion on the measure\\\" (HB727_SD2)",
+          "attributed_chunk_id": 24,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8125,
+          "attribution_reason": "Document citation + word frequency: HB727_SD2 (score: 0.812)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This replaces the specific amounts listed in the previous version of the bill",
+          "attributed_chunk_id": 16,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Word frequency match score: 0.286",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Department of Health also submitted a request for a budget of \\\"$221,788 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": "NUMBER_221788",
+          "attribution_method": "number_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Number $221,788 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.333)",
+          "numbers_found": [
+            221788.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) to support the Kona division pilot project,\\\" which includes funding for a Clinical Psychologist and a Social Worker (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 23,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). \",\n\"assumptions_and_methodology\": \"The Judiciary's proposal has been updated from a two-year pilot project to a \\\"three-year pilot project\\\" to reflect the current version of the bill (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 14,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6190476190476191,
+          "attribution_reason": "Word frequency match score: 0.619",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). The financial projections are now based on a three-year timeline with a total requested budget of just over \\\"$1",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Word frequency match score: 0.143",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "50 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            50.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) million\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). The assumption is that this investment will result in cost savings, as it is anticipated the program will help more than six women avoid incarceration (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 19,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Word frequency match score: 0.167",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). \",\n\"agency_impact\": \"The Department of Health has submitted testimony requesting a budget of \\\"$221,788 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": "NUMBER_221788",
+          "attribution_method": "number_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Number $221,788 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.250)",
+          "numbers_found": [
+            221788.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) to support the Kona division pilot project\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 12,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4444444444444444,
+          "attribution_reason": "Word frequency match score: 0.444",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). This funding is for two specific positions: a \\\"1",
+          "attributed_chunk_id": 12,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Word frequency match score: 0.167",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "0 FTE Clinical Psychologist [$145,000] (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 23,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": [
+            145000.0,
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) to provide forensic psychological consultation\\\" and a \\\"1",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "0 FTE Social Worker/Human Services Professional IV [$76,788] (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 23,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7777777777777778,
+          "attribution_reason": "Word frequency match score: 0.778",
+          "numbers_found": [
+            0.0,
+            76788.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) to conduct screenings and provide forensic coordination\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). Your Committee notes that the Department of Health requests $221,788 (HB727_SD2) to support the Kona division pilot program",
+          "attributed_chunk_id": 23,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7857142857142857,
+          "attribution_reason": "Document citation + word frequency: HB727_SD2 (score: 0.786)",
+          "numbers_found": [
+            221788.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"The Judiciary testimony provides a new cost-benefit analysis, stating that the \\\"cost of incarceration of just one person for three years is $277,035",
+          "attributed_chunk_id": 13,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.17647058823529413,
+          "attribution_reason": "Word frequency match score: 0.176",
+          "numbers_found": [
+            277035.0
+          ]
+        },
+        {
+          "sentence": "10 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            10.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). Based on this figure, the testimony projects that \\\"if KWC helps keep just six (6) women out of prison, the program will have already paid for itself\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 14,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.15,
+          "attribution_reason": "Word frequency match score: 0.150",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). This suggests a significant potential for cost savings to the state by reducing incarceration rates (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). \",\n\"policy_impact\": \"\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"The Judiciary has updated its proposal to a three-year pilot project with a total cost of \\\"$1,576,900",
+          "attributed_chunk_id": "NUMBER_1576900",
+          "attribution_method": "number_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Number $1,576,900 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.250)",
+          "numbers_found": [
+            1576900.0
+          ]
+        },
+        {
+          "sentence": "00 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). The proposed budget is now broken down over three fiscal years",
+          "attributed_chunk_id": 15,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2727272727272727,
+          "attribution_reason": "Word frequency match score: 0.273",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The cost for fiscal year 2025-2026 is \\\"$514,900",
+          "attributed_chunk_id": "NUMBER_514900",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Number $514,900 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.500)",
+          "numbers_found": [
+            514900.0
+          ]
+        },
+        {
+          "sentence": "00 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). The cost for fiscal year 2026-2027 is now projected to be \\\"$547,000",
+          "attributed_chunk_id": "NUMBER_547000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Number $547,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.600)",
+          "numbers_found": [
+            547000.0
+          ]
+        },
+        {
+          "sentence": "00 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). A new budget for fiscal year 2027-2028 has been added, with a cost of \\\"$515,000",
+          "attributed_chunk_id": "NUMBER_515000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5454545454545454,
+          "attribution_reason": "Number $515,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.545)",
+          "numbers_found": [
+            515000.0
+          ]
+        },
+        {
+          "sentence": "00 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). Recurring annual costs include \\\"$175,000",
+          "attributed_chunk_id": "NUMBER_175000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Number $175,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.286)",
+          "numbers_found": [
+            175000.0
+          ]
+        },
+        {
+          "sentence": "00 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" for a Women's Mental Health Professional, \\\"$100,000",
+          "attributed_chunk_id": "NUMBER_100000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.42857142857142855,
+          "attribution_reason": "Number $100,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.429)",
+          "numbers_found": [
+            100000.0
+          ]
+        },
+        {
+          "sentence": "00 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" for Women's Behavioral Health Beds, and \\\"$85,000",
+          "attributed_chunk_id": "NUMBER_85000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.42857142857142855,
+          "attribution_reason": "Number $85,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.429)",
+          "numbers_found": [
+            85000.0
+          ]
+        },
+        {
+          "sentence": "00 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" for a Kona Drug Court Probation Supervisor (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 16,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). Additional annual costs are \\\"$80,000",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            80000.0
+          ]
+        },
+        {
+          "sentence": "00 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" for a Peer Specialist, \\\"$30,000",
+          "attributed_chunk_id": "NUMBER_30000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Number $30,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.200)",
+          "numbers_found": [
+            30000.0
+          ]
+        },
+        {
+          "sentence": "00 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" for a Cultural Practitioner, \\\"$25,000",
+          "attributed_chunk_id": "NUMBER_25000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Number $25,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.200)",
+          "numbers_found": [
+            25000.0
+          ]
+        },
+        {
+          "sentence": "00 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" for Moral Reconation Therapy, and \\\"$10,000",
+          "attributed_chunk_id": "NUMBER_10000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Number $10,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.333)",
+          "numbers_found": [
+            10000.0
+          ]
+        },
+        {
+          "sentence": "00 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" for Increased Drug Testing/Lab confirmation (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1111111111111111,
+          "attribution_reason": "Word frequency match score: 0.111",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). Training costs are specified as \\\"$5,000",
+          "attributed_chunk_id": "NUMBER_5000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Number $5,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.500)",
+          "numbers_found": [
+            5000.0
+          ]
+        },
+        {
+          "sentence": "00 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" in Year 1 and \\\"$42,000",
+          "attributed_chunk_id": "NUMBER_42000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Number $42,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.250)",
+          "numbers_found": [
+            42000.0,
+            1.0
+          ]
+        },
+        {
+          "sentence": "00 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" in Year 2 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Word frequency match score: 0.200",
+          "numbers_found": [
+            2.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). Year 3 includes \\\"$10,000",
+          "attributed_chunk_id": "NUMBER_10000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Number $10,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.200)",
+          "numbers_found": [
+            10000.0,
+            3.0
+          ]
+        },
+        {
+          "sentence": "00 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" for Program Evaluation (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Word frequency match score: 0.167",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). Despite this detailed request, the Committee on Ways and Means has amended the measure to have unspecified appropriations (HB727_SD2)",
+          "attributed_chunk_id": 24,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5833333333333334,
+          "attribution_reason": "Document citation + word frequency: HB727_SD2 (score: 0.583)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"The Judiciary's updated testimony clarifies the long-term goal for the program after the now proposed \\\"3-year project period\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 12,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.21052631578947367,
+          "attribution_reason": "Word frequency match score: 0.211",
+          "numbers_found": [
+            3.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). If the pilot is successful, the intent is to \\\"expand the Women’s Court program to Hilo and make the program permanent\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 20,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). This extends the timeline for considering permanence and expansion from two years to three (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 14,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.15384615384615385,
+          "attribution_reason": "Word frequency match score: 0.154",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). \",\n\"updates_from_previous_fiscal_note\": \"The pilot program's duration has been extended from two years to a \\\"three-year pilot project\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 12,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Word frequency match score: 0.375",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt), with the total requested budget from the Judiciary increasing to \\\"$1,576,900",
+          "attributed_chunk_id": "NUMBER_1576900",
+          "attribution_method": "number_based",
+          "attribution_score": 0.1111111111111111,
+          "attribution_reason": "Number $1,576,900 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.111)",
+          "numbers_found": [
+            1576900.0
+          ]
+        },
+        {
+          "sentence": "00 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). A new budget for a third year has been introduced at \\\"$515,000 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": "NUMBER_515000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Number $515,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.200)",
+          "numbers_found": [
+            515000.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). Most significantly, the Committee on Ways and Means has \\\"amended this measure by changing the appropriations to unspecified amounts\\\" (HB727_SD2), removing the specific funding amounts that were in the prior version of the bill",
+          "attributed_chunk_id": 24,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.45,
+          "attribution_reason": "Document citation + word frequency: HB727_SD2 (score: 0.450)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "A new agency impact has been identified, with the Department of Health requesting \\\"$221,788 (HB727_SD2)\\\" to support the pilot with a Clinical Psychologist and a Social Worker",
+          "attributed_chunk_id": 23,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6428571428571429,
+          "attribution_reason": "Document citation + word frequency: HB727_SD2 (score: 0.643)",
+          "numbers_found": [
+            221788.0
+          ]
+        },
+        {
+          "sentence": "Finally, the Judiciary provided new data for economic impact, citing the three-year cost of incarceration for one person as \\\"$277,035",
+          "attributed_chunk_id": 15,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.26666666666666666,
+          "attribution_reason": "Word frequency match score: 0.267",
+          "numbers_found": [
+            277035.0
+          ]
+        },
+        {
+          "sentence": "10 (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            10.0,
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" and stating the program could pay for itself by keeping six women out of prison (HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.15384615384615385,
+          "attribution_reason": "Word frequency match score: 0.154",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). \"\n}.",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 13,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": []
+        },
+        "2": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": []
+        },
+        "3": {
+          "usage_count": 1,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.111"
+          ]
+        },
+        "4": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": []
+        },
+        "5": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": []
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 4,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.143",
+            "Word frequency match score: 0.200",
+            "Word frequency match score: 0.167",
+            "Word frequency match score: 0.154"
+          ]
+        },
+        "12": {
+          "usage_count": 5,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.611",
+            "Word frequency match score: 0.444",
+            "Word frequency match score: 0.167",
+            "Word frequency match score: 0.211",
+            "Word frequency match score: 0.375"
+          ]
+        },
+        "13": {
+          "usage_count": 2,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.706",
+            "Word frequency match score: 0.176"
+          ]
+        },
+        "14": {
+          "usage_count": 4,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.722",
+            "Word frequency match score: 0.619",
+            "Word frequency match score: 0.150",
+            "Word frequency match score: 0.154"
+          ]
+        },
+        "15": {
+          "usage_count": 2,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.273",
+            "Word frequency match score: 0.267"
+          ]
+        },
+        "16": {
+          "usage_count": 2,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.286",
+            "Word frequency match score: 0.333"
+          ]
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB727_SD2",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 1,
+          "document_name": "HB727_SD2",
+          "attribution_reasons": [
+            "Word frequency match score: 0.167"
+          ]
+        },
+        "20": {
+          "usage_count": 1,
+          "document_name": "HB727_SD2",
+          "attribution_reasons": [
+            "Word frequency match score: 0.400"
+          ]
+        },
+        "21": {
+          "usage_count": 0,
+          "document_name": "HB727_SD2",
+          "attribution_reasons": []
+        },
+        "22": {
+          "usage_count": 0,
+          "document_name": "HB727_SD2",
+          "attribution_reasons": []
+        },
+        "23": {
+          "usage_count": 5,
+          "document_name": "HB727_SD2",
+          "attribution_reasons": [
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.667",
+            "Word frequency match score: 0.778",
+            "Document citation + word frequency: HB727_SD2 (score: 0.786)",
+            "Document citation + word frequency: HB727_SD2 (score: 0.643)"
+          ]
+        },
+        "24": {
+          "usage_count": 3,
+          "document_name": "HB727_SD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB727_SD2 (score: 0.812)",
+            "Document citation + word frequency: HB727_SD2 (score: 0.583)",
+            "Document citation + word frequency: HB727_SD2 (score: 0.450)"
+          ]
+        },
+        "25": {
+          "usage_count": 0,
+          "document_name": "HB727_SD2",
+          "attribution_reasons": []
+        },
+        "26": {
+          "usage_count": 0,
+          "document_name": "HB727_SD2",
+          "attribution_reasons": []
+        },
+        "27": {
+          "usage_count": 0,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "attribution_reasons": []
+        },
+        "28": {
+          "usage_count": 0,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "attribution_reasons": []
+        },
+        "29": {
+          "usage_count": 0,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "attribution_reasons": []
+        },
+        "30": {
+          "usage_count": 0,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "attribution_reasons": []
+        },
+        "31": {
+          "usage_count": 0,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "attribution_reasons": []
+        },
+        "32": {
+          "usage_count": 0,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "attribution_reasons": []
+        },
+        "33": {
+          "usage_count": 0,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "attribution_reasons": []
+        },
+        "34": {
+          "usage_count": 0,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "attribution_reasons": []
+        },
+        "35": {
+          "usage_count": 0,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "attribution_reasons": []
+        },
+        "NUMBER_514000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_547000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_515000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1.5": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_277035.1": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_253.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_92945.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_50313.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_175000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_525000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_100000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_300000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_85000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_255000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_30000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_90000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_80000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_240000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_25000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_75000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_10000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_5000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_42000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_47000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_4900.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_514900.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1576900.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1200.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_500.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_221788.0": {
+          "usage_count": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_221788": {
+          "usage_count": 2,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $221,788 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.333)",
+            "Number $221,788 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.250)"
+          ]
+        },
+        "NUMBER_1576900": {
+          "usage_count": 2,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $1,576,900 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.250)",
+            "Number $1,576,900 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.111)"
+          ]
+        },
+        "NUMBER_514900": {
+          "usage_count": 1,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $514,900 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.500)"
+          ]
+        },
+        "NUMBER_547000": {
+          "usage_count": 1,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $547,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.600)"
+          ]
+        },
+        "NUMBER_515000": {
+          "usage_count": 2,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $515,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.545)",
+            "Number $515,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.200)"
+          ]
+        },
+        "NUMBER_175000": {
+          "usage_count": 1,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $175,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.286)"
+          ]
+        },
+        "NUMBER_100000": {
+          "usage_count": 1,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $100,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.429)"
+          ]
+        },
+        "NUMBER_85000": {
+          "usage_count": 1,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $85,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.429)"
+          ]
+        },
+        "NUMBER_30000": {
+          "usage_count": 1,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $30,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.200)"
+          ]
+        },
+        "NUMBER_25000": {
+          "usage_count": 1,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $25,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.200)"
+          ]
+        },
+        "NUMBER_10000": {
+          "usage_count": 2,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $10,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.333)",
+            "Number $10,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.200)"
+          ]
+        },
+        "NUMBER_5000": {
+          "usage_count": 1,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $5,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.500)"
+          ]
+        },
+        "NUMBER_42000": {
+          "usage_count": 1,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $42,000 from HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt (score: 0.250)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 5,
+        "number_based": 17,
+        "word_frequency_based": 25,
+        "semantic_similarity": 0,
+        "fallback": 13,
+        "no_attribution": 18
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 36,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "STATE COUNCIL ON MENTAL HEALTH Testimony to the Senate Committee on Ways and Means In Support of HB727 HD1 SD1 March 31, 2025 10:02 a.m., Room 211 and Video Chair Dela Cruz, Vice Chair Moriwaki, and Members of the Committee: Hawaiʻi law, HRS §334-10, established the State Council on Mental",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "Hawaiʻi law, HRS §334-10, established the State Council on Mental Health as a 21-member body to advise on the allocation of resources, statewide needs, and programs affecting more than one county as well as to advocate for adults with serious mental illness, children with serious emotional disturbances, individuals with mental",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "mental illness, children with serious emotional disturbances, individuals with mental illness or emotional problems, including those with co-occurring substance abuse disorders. Members are residents from diverse backgrounds representing mental health service providers and recipients, students and youth, parents, and family members. Members include representatives of state agencies on mental health,",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "members. Members include representatives of state agencies on mental health, criminal justice, housing, Medicaid/MedQUEST, social services, vocational rehabilitation, and education. Members include representatives from the Hawaiʻi Advisory Commission on Drug Abuse and Controlled Substances and county service area boards on mental health and substance abuse. Most of the State Council",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "mental health and substance abuse. Most of the State Council on Mental Health members support this measure. The Women’s Court is one of the specialty courts that can be life- changing for people with mental illness or substance use disorders who become involved in the criminal justice system. The Women’s",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "who become involved in the criminal justice system. The Women’s Court will primarily address those who suffer from high trauma. Thank you for the opportunity to testify. Should you have any questions, please contact us at DOH.SCMHChairperson@doh.hawaii.gov. . VISION: A Hawaiʻi where people of all ages with mental health challenges",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "Hawaiʻi where people of all ages with mental health challenges can enjoy recovery in the community of their choice. MISSON: To advocate for a Hawaiʻi where all persons affected by mental illness can access necessary treatment and support to live full lives in the community of their choice. JOSH B.",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "full lives in the community of their choice. JOSH B. GREEN, M.D. GOVERNOR OF HAWAIʻI KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI KATHERINE AUMER, PhD COUNCIL CHAIRPERSON LUNA HOʻOMALU O KA PAPA STATE OF HAWAIʻI DEPARTMENT OF HEALTH KA ʻOIHANA OLAKINO STATE COUNCIL ON MENTAL HEALTH P.O. Box 3378, Room",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "OLAKINO STATE COUNCIL ON MENTAL HEALTH P.O. Box 3378, Room 256 HONOLULU, HAWAIʻI 96801-3378 CHAIRPERSON Katherine Aumer, PhD 1st VICE CHAIRPERSON Kathleen Merriam, LCSW CSAC 2nd VICE CHAIRPERSON John Betlach SECRETARY Mary Pat Waterhouse, MHA MBA MEMBERS: Tianna Celis-Webster Naomi Crozier, CPS Lea Dias, MEd Jon Fujii, MBA Heidi Ilyavi",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "Crozier, CPS Lea Dias, MEd Jon Fujii, MBA Heidi Ilyavi Jackie Jackson, CFPS Christine Montague-Hicks. MEd Ray Rice, MEd Asianna Saragosa-Torres Forrest Wells, MSCP, LMHC Kristin Will, MACL, CSAC EX-OFFICIO: Marian Tsuji, Deputy Director Behavioral Health Administration WEBSITE: scmh.hawaii.gov EMAIL ADDRESS: doh.scmhchairperson@ doh.hawaii.gov The Judiciary, State of Hawai‘i Testimony to",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "ADDRESS: doh.scmhchairperson@ doh.hawaii.gov The Judiciary, State of Hawai‘i Testimony to the Thirty-Third Legislature, 2025 Regular Session Senate Committee on Ways and Means Senator Donavan M. Dela Cruz, Chair Senator Sharon Y. Moriwaki, Vice Chair Monday, March 31, 2025, 10:02 a.m. State Capitol, Conference Room 211 by Robert D. S. Kim",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "State Capitol, Conference Room 211 by Robert D. S. Kim Chief Court Administrator Third Circuit Court Bill No. and Title: House Bill No. 727, H.D. 1, S.D. 1, Relating to the Women’s Court. Purpose: Makes the Women's Court Pilot Program in the First Circuit permanent. Establishes a temporary three-year Women's",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "in the First Circuit permanent. Establishes a temporary three-year Women's Court Pilot Program within the Kona division of the Third Circuit. Requires reports. Establishes temporary positions. Appropriates funds. Sunsets 6/30/2028. Effective 4/23/2057. (SD1) Judiciary's Position: The Judiciary supports this bill that would establish a three-year Women’s Court Pilot Project in",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "that would establish a three-year Women’s Court Pilot Project in the Third Circuit. However, the Judiciary respectfully requests modifications to the appropriations under this bill that would allow the pilot project to be fully funded through fiscal year 2027-2028. Attached to this testimony is a detailed proposal for the establishment",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "to this testimony is a detailed proposal for the establishment of a Kona Women’s Court (“KWC”) pilot project in the Third Circuit. This proposal—originally submitted as a proposal for a two-year pilot project—has been updated to reflect the current version of the bill, which calls for a three-year pilot project.",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "of the bill, which calls for a three-year pilot project. As set forth in the proposed budget, the cost for a three-year pilot project would be $514,000 for fiscal year 2025-2026; $547,000 for fiscal year 2026-2027; and $515,000 for fiscal year 2027-2028. The Judiciary supports the current version of this",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "year 2027-2028. The Judiciary supports the current version of this bill, which would situate this pilot project under the supervision of Big Island Drug Court (“BIDC”). Our proposal calls for the KWC program to be supervised by the Kona Division of BIDC. This administrative structure is \u0010\u0005\u0018 House Bill No.",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+          "chunk_text": "of BIDC. This administrative structure is \u0010\u0005\u0018 House Bill No. 727, H.D. 1, S.D. 1, Relating to the Women’s Court Senate Committee on Ways and Means Monday, March 31, 2025 Page 2 similar to the other",
+          "start_word": 680,
+          "end_word": 716,
+          "word_count": 36
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB727_SD2",
+          "chunk_text": "SSCR1531 STAND. COM. REP. NO. 1531 Honolulu, Hawaii RE: H.B. No. 727 H.D. 1 S.D. 2 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 727, H.D. 1,",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB727_SD2",
+          "chunk_text": "Means, to which was referred H.B. No. 727, H.D. 1, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO THE WOMEN'S COURT,\" begs leave to report as follows: The purpose and intent of this measure is to extend and appropriate moneys for the Women's Court pilot program. More specifically,",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB727_SD2",
+          "chunk_text": "appropriate moneys for the Women's Court pilot program. More specifically, the measure: (1) Makes permanent the Women's Court pilot program in the First Circuit; and (2) Establishes a three-year Women's Court pilot program in the Kona division of the Third Circuit. Your Committee received written comments in support of this",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB727_SD2",
+          "chunk_text": "Circuit. Your Committee received written comments in support of this measure from the Judiciary, Department of Health, Maui County Department of the Prosecuting Attorney, State Council on Mental Health, League of Women Voters of Hawaii, Hawaii Substance Abuse Coalition, Community Alliance on Prisons, and one individual. Your Committee finds that",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB727_SD2",
+          "chunk_text": "Alliance on Prisons, and one individual. Your Committee finds that establishing a permanent Women's Court in the First Circuit and a Women's Court pilot program in the Third Circuit will help reduce recidivism by providing trauma‑informed, gender-responsive treatment programs for incarcerated women in the State. Your Committee notes that the",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB727_SD2",
+          "chunk_text": "incarcerated women in the State. Your Committee notes that the Department of Health requests $221,788 to support the Kona division pilot program, including: (1) $145,000 for one full-time equivalent (1.0 FTE) Clinical Psychologist; and (2) $76,788 for one full-time equivalent (1.0 FTE) Social Worker or Human Services professional. Your Committee",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB727_SD2",
+          "chunk_text": "(1.0 FTE) Social Worker or Human Services professional. Your Committee has amended this measure by changing the appropriations to unspecified amounts to facilitate further discussion on the measure. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached to this",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB727_SD2",
+          "chunk_text": "Committee on Ways and Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 727, H.D. 1, S.D. 1, as amended herein, and recommends that it pass Third Reading in the form attached hereto as H.B. No. 727, H.D. 1,",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB727_SD2",
+          "chunk_text": "the form attached hereto as H.B. No. 727, H.D. 1, S.D. 2. Respectfully submitted on behalf of the members of the Committee on Ways and Means, ________________________________ DONOVAN M. DELA CRUZ, Chair",
+          "start_word": 320,
+          "end_word": 352,
+          "word_count": 32
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "chunk_text": "SSCR1531 STAND. COM. REP. NO. 1531 Honolulu, Hawaii RE: H.B. No. 727 H.D. 1 S.D. 2 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 727, H.D. 1,",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "chunk_text": "Means, to which was referred H.B. No. 727, H.D. 1, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO THE WOMEN'S COURT,\" begs leave to report as follows: The purpose and intent of this measure is to extend and appropriate moneys for the Women's Court pilot program. More specifically,",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "chunk_text": "appropriate moneys for the Women's Court pilot program. More specifically, the measure: (1) Makes permanent the Women's Court pilot program in the First Circuit; and (2) Establishes a three-year Women's Court pilot program in the Kona division of the Third Circuit. Your Committee received written comments in support of this",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 30,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "chunk_text": "Circuit. Your Committee received written comments in support of this measure from the Judiciary, Department of Health, Maui County Department of the Prosecuting Attorney, State Council on Mental Health, League of Women Voters of Hawaii, Hawaii Substance Abuse Coalition, Community Alliance on Prisons, and one individual. Your Committee finds that",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 31,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "chunk_text": "Alliance on Prisons, and one individual. Your Committee finds that establishing a permanent Women's Court in the First Circuit and a Women's Court pilot program in the Third Circuit will help reduce recidivism by providing trauma‑informed, gender-responsive treatment programs for incarcerated women in the State. Your Committee notes that the",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 32,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "chunk_text": "incarcerated women in the State. Your Committee notes that the Department of Health requests $221,788 to support the Kona division pilot program, including: (1) $145,000 for one full-time equivalent (1.0 FTE) Clinical Psychologist; and (2) $76,788 for one full-time equivalent (1.0 FTE) Social Worker or Human Services professional. Your Committee",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 33,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "chunk_text": "(1.0 FTE) Social Worker or Human Services professional. Your Committee has amended this measure by changing the appropriations to unspecified amounts to facilitate further discussion on the measure. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached to this",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 34,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "chunk_text": "Committee on Ways and Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 727, H.D. 1, S.D. 1, as amended herein, and recommends that it pass Third Reading in the form attached hereto as H.B. No. 727, H.D. 1,",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 35,
+          "document_name": "HB727_SD2_SSCR1531_",
+          "chunk_text": "the form attached hereto as H.B. No. 727, H.D. 1, S.D. 2. Respectfully submitted on behalf of the members of the Committee on Ways and Means, ________________________________ DONOVAN M. DELA CRUZ, Chair",
+          "start_word": 320,
+          "end_word": 352,
+          "word_count": 32
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "pilot project in the Third Circuit. This proposal—originally submitted as a proposal for a two-year pilot project—has been updated to reflect the current version of the bill, which calls for a three-year pilot project. As set forth in the proposed budget, the cost for a three-year pilot project would be $514,000 for fiscal year 2025-2026; $547,000 for fiscal year 2026-2027; and $515,000 for fiscal year 2027-2028. The Judiciary supports the current version of this bill, which would situate this pilot project under the supervision of Big Island Drug Court (“BIDC”). Our proposal calls for the KWC program to be supervised by",
+        "number": 514000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Circuit. This proposal—originally submitted as a proposal for a two-year pilot project—has been updated to reflect the current version of the bill, which calls for a three-year pilot project. As set forth in the proposed budget, the cost for a three-year pilot project would be $514,000 for fiscal year 2025-2026; $547,000 for fiscal year 2026-2027; and $515,000 for fiscal year 2027-2028. The Judiciary supports the current version of this bill, which would situate this pilot project under the supervision of Big Island Drug Court (“BIDC”). Our proposal calls for the KWC program to be supervised by the Kona Division of BIDC.",
+        "number": 547000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "proposal for a two-year pilot project—has been updated to reflect the current version of the bill, which calls for a three-year pilot project. As set forth in the proposed budget, the cost for a three-year pilot project would be $514,000 for fiscal year 2025-2026; $547,000 for fiscal year 2026-2027; and $515,000 for fiscal year 2027-2028. The Judiciary supports the current version of this bill, which would situate this pilot project under the supervision of Big Island Drug Court (“BIDC”). Our proposal calls for the KWC program to be supervised by the Kona Division of BIDC. This administrative structure is \u0010\u0005\u0018 House",
+        "number": 515000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "the attached proposal. Given that this HD1, SD1 contemplates a three-year pilot, the only modification to the current bill that is being requested is additional appropriations to ensure that the pilot project is fully funded for the duration of the project period. The proposed budget for KWC is just over $1.5 million in total for the three-year pilot project. This investment in KWC will ultimately result in House Bill No. 727, H.D. 1, S.D. 1, Relating to the Women’s Court Senate Committee on Ways and Means Monday, March 31, 2025 Page 3 cost savings. The cost of incarceration of just one",
+        "number": 1.5,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "three-year pilot project. This investment in KWC will ultimately result in House Bill No. 727, H.D. 1, S.D. 1, Relating to the Women’s Court Senate Committee on Ways and Means Monday, March 31, 2025 Page 3 cost savings. The cost of incarceration of just one person for three years is $277,035.1 This means that if KWC helps keep just six (6) women out of prison, the program will have already paid for itself, and it is anticipated that this program will help many more women than that. If the Legislature is supportive of the Judiciary’s proposal, we welcome continued discussions during",
+        "number": 277035.1,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "as long as we have the requested mental health professionals on contract or hired by the Judiciary, along with additional staff members to be hired by BIDC. Thank you for the opportunity to offer testimony on this important bill. 1 The average cost of housing an inmate in Hawaiʻi is $253 dollars per day, which totals $92,945 per year. See Hawaiʻi Prison Chief Wants Department Changes To Bring ‘Paradigm Shift’, Civil Beat, Retrieved on 03-29-25 from <https://www.civilbeat.org/2023/12/hawaii-prison-chief-wants-department-changes-to- bring-paradigm-shift/>. 1 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit KONA WOMEN’S COURT: A Proposal for a Women’s Justice and Treatment Program",
+        "number": 253.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "requested mental health professionals on contract or hired by the Judiciary, along with additional staff members to be hired by BIDC. Thank you for the opportunity to offer testimony on this important bill. 1 The average cost of housing an inmate in Hawaiʻi is $253 dollars per day, which totals $92,945 per year. See Hawaiʻi Prison Chief Wants Department Changes To Bring ‘Paradigm Shift’, Civil Beat, Retrieved on 03-29-25 from <https://www.civilbeat.org/2023/12/hawaii-prison-chief-wants-department-changes-to- bring-paradigm-shift/>. 1 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit KONA WOMEN’S COURT: A Proposal for a Women’s Justice and Treatment Program in West Hawaiʻi Pilot Program: 3",
+        "number": 92945.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "and have poor or nonexistent access to critical services, such as public transportation and medical care. Hawaiʻi County also has the highest poverty rate in the State at 13.8%, with an average household income of only $68,3998—with the poorest areas of the County having a median household income of only $50,313 per year.9 Hawaiʻi Island also has high rates of domestic violence. Between 2021 and 2023, there was over a 60% increase in the number of participants in programs aimed at the prevention of domestic violence.10 Child and Family Services (“CFS”) has reported that between 2018 and 2020, one domestic violence",
+        "number": 50313.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "time they come to court would be a significant step to closing this digital divide. B. 3-Year Pilot Program Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $",
+        "number": 175000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "they come to court would be a significant step to closing this digital divide. B. 3-Year Pilot Program Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00",
+        "number": 175000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "come to court would be a significant step to closing this digital divide. B. 3-Year Pilot Program Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $",
+        "number": 175000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "to court would be a significant step to closing this digital divide. B. 3-Year Pilot Program Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00",
+        "number": 175000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "court would be a significant step to closing this digital divide. B. 3-Year Pilot Program Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $",
+        "number": 175000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "would be a significant step to closing this digital divide. B. 3-Year Pilot Program Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00",
+        "number": 525000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "be a significant step to closing this digital divide. B. 3-Year Pilot Program Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $",
+        "number": 525000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "a significant step to closing this digital divide. B. 3-Year Pilot Program Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral",
+        "number": 525000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "this digital divide. B. 3-Year Pilot Program Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00",
+        "number": 100000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "digital divide. B. 3-Year Pilot Program Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $",
+        "number": 100000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "divide. B. 3-Year Pilot Program Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00",
+        "number": 100000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "B. 3-Year Pilot Program Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $",
+        "number": 100000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "3-Year Pilot Program Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00",
+        "number": 100000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Pilot Program Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $",
+        "number": 300000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Program Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased",
+        "number": 300000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Budget Three-Year Pilot Program Budget: Breakdown of Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug",
+        "number": 300000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Estimated Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00",
+        "number": 85000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Training Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $",
+        "number": 85000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Costs: Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00",
+        "number": 85000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Year 1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $",
+        "number": 85000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "1 Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training",
+        "number": 85000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Year 2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00",
+        "number": 255000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "2 Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $",
+        "number": 255000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Year 3 Services Annual Cost Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00",
+        "number": 255000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Annual Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $",
+        "number": 30000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Cost Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology",
+        "number": 30000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Annual Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00",
+        "number": 30000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Cost n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $",
+        "number": 30000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "n Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ -",
+        "number": 30000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Total Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $",
+        "number": 90000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Cost Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ -",
+        "number": 90000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Women's Mental Health Professional (1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $",
+        "number": 90000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "(1FTE) 175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation",
+        "number": 80000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "175,000.00 $ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation -",
+        "number": 80000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ 175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $",
+        "number": 80000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "175,000.00 $ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ -",
+        "number": 80000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ 175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $",
+        "number": 80000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "175,000.00 $ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00",
+        "number": 240000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ 525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $",
+        "number": 240000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "525,000.00 $ Womens Behavioral Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00",
+        "number": 240000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Health Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $",
+        "number": 25000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Beds 100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00",
+        "number": 25000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "100,000.00 $ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $",
+        "number": 25000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ 100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00",
+        "number": 25000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "100,000.00 $ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $",
+        "number": 25000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ 100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00",
+        "number": 75000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "100,000.00 $ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $",
+        "number": 75000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ 300,000.00 $ Kona Drug Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training:",
+        "number": 75000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Court Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and",
+        "number": 10000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Probation Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other",
+        "number": 10000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Supervisor (1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings",
+        "number": 10000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "(1FTE) 85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000",
+        "number": 10000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "85,000.00 $ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year",
+        "number": 10000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ 85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2:",
+        "number": 30000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "85,000.00 $ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona",
+        "number": 30000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ 85,000.00 $ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team",
+        "number": 30000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ 255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All",
+        "number": 5000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "255,000.00 $ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise",
+        "number": 42000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National",
+        "number": 42000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Cultural Practitioner and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference",
+        "number": 42000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "and Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC)",
+        "number": 47000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Advisor 30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00",
+        "number": 47000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "30,000.00 $ 30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $",
+        "number": 47000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "30,000.00 $ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training",
+        "number": 4900.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ 30,000.00 $ 90,000.00 $ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost:",
+        "number": 4900.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative",
+        "number": 4900.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Peer Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session",
+        "number": 4900.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Specialist (1FTE) 80,000.00 $ 80,000.00 $ 80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona",
+        "number": 4900.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "80,000.00 $ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit",
+        "number": 10000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ 240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown",
+        "number": 10000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "240,000.00 $ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of",
+        "number": 10000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated",
+        "number": 10000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Moral Reconation Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology",
+        "number": 10000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Therapy 25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology:",
+        "number": 514900.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "25,000.00 $ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona",
+        "number": 547000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ 25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost",
+        "number": 547000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "25,000.00 $ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer",
+        "number": 515000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ 25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation",
+        "number": 515000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "25,000.00 $ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in",
+        "number": 1576900.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ 75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation",
+        "number": 1576900.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "75,000.00 $ Increased Drug Testing/Lab confirmation 10,000.00 $ 10,000.00 $ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting",
+        "number": 1576900.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ 10,000.00 $ 30,000.00 $ Training 5,000.00 $ 42,000.00 $ - $ 47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00",
+        "number": 5000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "47,000.00 $ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00 $ Printer for Kona Probation Supervisor 1,000.00 $ Cellphone for Field Work",
+        "number": 42000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$ Technology 4,900.00 $ - $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00 $ Printer for Kona Probation Supervisor 1,000.00 $ Cellphone for Field Work Kona",
+        "number": 42000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "- $ - $ 4,900.00 $ Program Evaluation - $ - $ 10,000.00 $ 10,000.00 $ Total 514,900.00 $ 547,000.00 $ 515,000.00 $ 1,576,900.00 $ Training: Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00 $ Printer for Kona Probation Supervisor 1,000.00 $ Cellphone for Field Work Kona Prob . Sup 500.00",
+        "number": 47000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Cost Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00 $ Printer for Kona Probation Supervisor 1,000.00 $ Cellphone for Field Work Kona Prob . Sup 500.00 $ Kona Laptop for Work in Rural Communities 1,200.00 $ Total: 4,900.00 $ JOSH GREEN, M.D. GOVERNOR OF HAWAII KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI",
+        "number": 1200.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Year 1: Local and Other Trainings $5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00 $ Printer for Kona Probation Supervisor 1,000.00 $ Cellphone for Field Work Kona Prob . Sup 500.00 $ Kona Laptop for Work in Rural Communities 1,200.00 $ Total: 4,900.00 $ JOSH GREEN, M.D. GOVERNOR OF HAWAII KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI KENNETH",
+        "number": 1200.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$5,000 Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00 $ Printer for Kona Probation Supervisor 1,000.00 $ Cellphone for Field Work Kona Prob . Sup 500.00 $ Kona Laptop for Work in Rural Communities 1,200.00 $ Total: 4,900.00 $ JOSH GREEN, M.D. GOVERNOR OF HAWAII KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI KENNETH S. FINK, M.D., M.G.A, M.P.H DIRECTOR",
+        "number": 1000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Year 2: Kona Team : All Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00 $ Printer for Kona Probation Supervisor 1,000.00 $ Cellphone for Field Work Kona Prob . Sup 500.00 $ Kona Laptop for Work in Rural Communities 1,200.00 $ Total: 4,900.00 $ JOSH GREEN, M.D. GOVERNOR OF HAWAII KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI KENNETH S. FINK, M.D., M.G.A, M.P.H DIRECTOR OF",
+        "number": 1000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Rise National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00 $ Printer for Kona Probation Supervisor 1,000.00 $ Cellphone for Field Work Kona Prob . Sup 500.00 $ Kona Laptop for Work in Rural Communities 1,200.00 $ Total: 4,900.00 $ JOSH GREEN, M.D. GOVERNOR OF HAWAII KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI KENNETH S. FINK, M.D., M.G.A, M.P.H DIRECTOR OF HEALTH KA LUNA HOʻOKELE STATE OF",
+        "number": 1000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "National Conference (Washington DC) 42,000.00 $ Total Training Cost: $47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00 $ Printer for Kona Probation Supervisor 1,000.00 $ Cellphone for Field Work Kona Prob . Sup 500.00 $ Kona Laptop for Work in Rural Communities 1,200.00 $ Total: 4,900.00 $ JOSH GREEN, M.D. GOVERNOR OF HAWAII KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI KENNETH S. FINK, M.D., M.G.A, M.P.H DIRECTOR OF HEALTH KA LUNA HOʻOKELE STATE OF HAWAII",
+        "number": 1000.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "$47,000 13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00 $ Printer for Kona Probation Supervisor 1,000.00 $ Cellphone for Field Work Kona Prob . Sup 500.00 $ Kona Laptop for Work in Rural Communities 1,200.00 $ Total: 4,900.00 $ JOSH GREEN, M.D. GOVERNOR OF HAWAII KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI KENNETH S. FINK, M.D., M.G.A, M.P.H DIRECTOR OF HEALTH KA LUNA HOʻOKELE STATE OF HAWAII DEPARTMENT OF HEALTH KA ʻOIHANA OLAKINO P. O. Box",
+        "number": 500.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "13 2025 Legislative Session Kona Women’s Court Proposal – Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00 $ Printer for Kona Probation Supervisor 1,000.00 $ Cellphone for Field Work Kona Prob . Sup 500.00 $ Kona Laptop for Work in Rural Communities 1,200.00 $ Total: 4,900.00 $ JOSH GREEN, M.D. GOVERNOR OF HAWAII KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI KENNETH S. FINK, M.D., M.G.A, M.P.H DIRECTOR OF HEALTH KA LUNA HOʻOKELE STATE OF HAWAII DEPARTMENT OF HEALTH KA ʻOIHANA OLAKINO P. O. Box 3378",
+        "number": 500.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "– Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00 $ Printer for Kona Probation Supervisor 1,000.00 $ Cellphone for Field Work Kona Prob . Sup 500.00 $ Kona Laptop for Work in Rural Communities 1,200.00 $ Total: 4,900.00 $ JOSH GREEN, M.D. GOVERNOR OF HAWAII KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI KENNETH S. FINK, M.D., M.G.A, M.P.H DIRECTOR OF HEALTH KA LUNA HOʻOKELE STATE OF HAWAII DEPARTMENT OF HEALTH KA ʻOIHANA OLAKINO P. O. Box 3378 Honolulu, HI 96801-3378 doh.testimony@doh.hawaii.gov Testimony in SUPPORT of",
+        "number": 1200.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Third Circuit Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00 $ Printer for Kona Probation Supervisor 1,000.00 $ Cellphone for Field Work Kona Prob . Sup 500.00 $ Kona Laptop for Work in Rural Communities 1,200.00 $ Total: 4,900.00 $ JOSH GREEN, M.D. GOVERNOR OF HAWAII KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI KENNETH S. FINK, M.D., M.G.A, M.P.H DIRECTOR OF HEALTH KA LUNA HOʻOKELE STATE OF HAWAII DEPARTMENT OF HEALTH KA ʻOIHANA OLAKINO P. O. Box 3378 Honolulu, HI 96801-3378 doh.testimony@doh.hawaii.gov Testimony in SUPPORT of HB727",
+        "number": 1200.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Breakdown of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00 $ Printer for Kona Probation Supervisor 1,000.00 $ Cellphone for Field Work Kona Prob . Sup 500.00 $ Kona Laptop for Work in Rural Communities 1,200.00 $ Total: 4,900.00 $ JOSH GREEN, M.D. GOVERNOR OF HAWAII KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI KENNETH S. FINK, M.D., M.G.A, M.P.H DIRECTOR OF HEALTH KA LUNA HOʻOKELE STATE OF HAWAII DEPARTMENT OF HEALTH KA ʻOIHANA OLAKINO P. O. Box 3378 Honolulu, HI 96801-3378 doh.testimony@doh.hawaii.gov Testimony in SUPPORT of HB727 HD1 SD1",
+        "number": 4900.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "of Estimated Technology Costs: Technology: Kona Cost Computer Workstation (in Probation Waiting A 1,200.00 $ Computer for Kona Probation Supervisor 1,000.00 $ Printer for Kona Probation Supervisor 1,000.00 $ Cellphone for Field Work Kona Prob . Sup 500.00 $ Kona Laptop for Work in Rural Communities 1,200.00 $ Total: 4,900.00 $ JOSH GREEN, M.D. GOVERNOR OF HAWAII KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI KENNETH S. FINK, M.D., M.G.A, M.P.H DIRECTOR OF HEALTH KA LUNA HOʻOKELE STATE OF HAWAII DEPARTMENT OF HEALTH KA ʻOIHANA OLAKINO P. O. Box 3378 Honolulu, HI 96801-3378 doh.testimony@doh.hawaii.gov Testimony in SUPPORT of HB727 HD1 SD1 RELATING",
+        "number": 4900.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "the program. The services offered by the program are 4 comprehensive and provide an opportunity for participants to achieve meaningful and lasting 5 recovery. The Department defers to the Judiciary on the feasibility of a pilot project and study 6 implementation. 7 Offered Amendments: The Department requests a budget of $221,788 to support the Kona 8 division pilot project, which is based on the Department’s staffing requirements for the 9 operation of the existing Women’s Court pilot project of the First Circuit. The Department’s role 10 has been to provide screening and assessments of possible eligible participants for the 11 program,",
+        "number": 221788.0,
+        "filename": "HB727_SD1_TESTIMONY_WAM_03-31-25_.PDF.txt",
+        "document_type": "testimony"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:40:24.319229",
+  "generation_timestamp_unix": 1760146824.319238
+}

@@ -1,0 +1,1383 @@
+{
+  "document_name": "HB400_HSCR286_",
+  "new_documents_processed": [
+    "HB400_TESTIMONY_JHA_01-30-25_",
+    "HB400_HSCR286_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB400",
+    "HB400_TESTIMONY_JHA_01-30-25_",
+    "HB400_HSCR286_"
+  ],
+  "numbers_used": 58,
+  "prompt_length": 70174,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"\",\n\"appropriations\": \"Testimony from the Legal Aid Society of Hawaii supports an additional $1,000,000.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) increase in the budget line-item for statewide civil legal services. The Legal Clinic supports the current budget of $1.20 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million and an increase of an additional $1.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million to support the work of safety net providers in the local community. Volunteer Legal Services Hawai‘i is also pursuing a one million ($1,000,000.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt)) dollar increase in funding for the civil legal services line item for providers.\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"In addition to the Judiciary's budget request, testimony was submitted supporting an increase for civil legal services. The Legal Aid Society of Hawaii requests an additional $1,000,000.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) to the line item for legal services. The Legal Clinic supports the current budget of $1.20 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million and an increase of an additional $1.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million to the Judiciary’s civil legal services fund.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"The Judiciary requests CIP bond funds totaling $9.90 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million for FY 2026. This request includes $4.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million to design a new South Kohala District Courthouse, $900,000.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) to replace an A/C chiller on Kaua‘i, and $5.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million in lump sum bond funds (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt). The Committee on Judiciary & Hawaiian Affairs requests the Committee on Finance consider authorizing lump sum general obligation bond funds for capital improvement projects for Judiciary facilities to account for the additional cost to relocate the Children's Justice Center (HB400_HSCR286_.PDF.txt).\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The primary updates involve requests from external organizations for increased funding for civil legal services and revised capital expenditure figures from the Judiciary. Multiple testimonies request an additional $1,000,000.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) for civil legal services, a component not detailed in the prior note. The Judiciary's Capital Improvement Project (CIP) request is now specified as $9.90 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million, which differs from the amount cited in the previous note, and a House committee report recommends considering a larger lump sum for CIP to cover costs to relocate the Children's Justice Center (HB400_HSCR286_.PDF.txt).\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 25794,
+      "candidates_token_count": 942,
+      "total_token_count": 32499
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"\",\n\"appropriations\": \"Testimony from the Legal Aid Society of Hawaii supports an additional $1,000,000.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) increase in the budget line-item for statewide civil legal services. The Legal Clinic supports the current budget of $1.20 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million and an increase of an additional $1.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million to support the work of safety net providers in the local community. Volunteer Legal Services Hawai‘i is also pursuing a one million ($1,000,000.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt)) dollar increase in funding for the civil legal services line item for providers.\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"In addition to the Judiciary's budget request, testimony was submitted supporting an increase for civil legal services. The Legal Aid Society of Hawaii requests an additional $1,000,000.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) to the line item for legal services. The Legal Clinic supports the current budget of $1.20 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million and an increase of an additional $1.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million to the Judiciary’s civil legal services fund.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"The Judiciary requests CIP bond funds totaling $9.90 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million for FY 2026. This request includes $4.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million to design a new South Kohala District Courthouse, $900,000.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) to replace an A/C chiller on Kaua‘i, and $5.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million in lump sum bond funds (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt). The Committee on Judiciary & Hawaiian Affairs requests the Committee on Finance consider authorizing lump sum general obligation bond funds for capital improvement projects for Judiciary facilities to account for the additional cost to relocate the Children's Justice Center (HB400_HSCR286_.PDF.txt).\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The primary updates involve requests from external organizations for increased funding for civil legal services and revised capital expenditure figures from the Judiciary. Multiple testimonies request an additional $1,000,000.00 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) for civil legal services, a component not detailed in the prior note. The Judiciary's Capital Improvement Project (CIP) request is now specified as $9.90 (HB400_TESTIMONY_JHA_01-30-25_.PDF.txt) million, which differs from the amount cited in the previous note, and a House committee report recommends considering a larger lump sum for CIP to cover costs to relocate the Children's Justice Center (HB400_HSCR286_.PDF.txt).\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"\",\n\"appropriations\": \"Testimony from the Legal Aid Society of Hawaii supports an additional $1,000,000",
+          "attributed_chunk_id": "NUMBER_1000000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.6363636363636364,
+          "attribution_reason": "Number $1,000,000 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.636)",
+          "numbers_found": [
+            1000000.0
+          ]
+        },
+        {
+          "sentence": "00 (HB400_TESTIMONY_JHA_01-30-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) increase in the budget line-item for statewide civil legal services",
+          "attributed_chunk_id": 21,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Word frequency match score: 0.200",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Legal Clinic supports the current budget of $1",
+          "attributed_chunk_id": "NUMBER_1",
+          "attribution_method": "number_based",
+          "attribution_score": 0.8,
+          "attribution_reason": "Number $1 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.800)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "20 (HB400_TESTIMONY_JHA_01-30-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            20.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) million and an increase of an additional $1",
+          "attributed_chunk_id": "NUMBER_1",
+          "attribution_method": "number_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Number $1 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.600)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "00 (HB400_TESTIMONY_JHA_01-30-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) million to support the work of safety net providers in the local community",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1,
+          "attribution_reason": "Word frequency match score: 0.100",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Volunteer Legal Services Hawai‘i is also pursuing a one million ($1,000,000",
+          "attributed_chunk_id": "NUMBER_1000000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Number $1,000,000 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.333)",
+          "numbers_found": [
+            1000000.0
+          ]
+        },
+        {
+          "sentence": "00 (HB400_TESTIMONY_JHA_01-30-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)) dollar increase in funding for the civil legal services line item for providers",
+          "attributed_chunk_id": 13,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.18181818181818182,
+          "attribution_reason": "Word frequency match score: 0.182",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"In addition to the Judiciary's budget request, testimony was submitted supporting an increase for civil legal services",
+          "attributed_chunk_id": 21,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.23529411764705882,
+          "attribution_reason": "Word frequency match score: 0.235",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Legal Aid Society of Hawaii requests an additional $1,000,000",
+          "attributed_chunk_id": "NUMBER_1000000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.8571428571428571,
+          "attribution_reason": "Number $1,000,000 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.857)",
+          "numbers_found": [
+            1000000.0
+          ]
+        },
+        {
+          "sentence": "00 (HB400_TESTIMONY_JHA_01-30-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) to the line item for legal services",
+          "attributed_chunk_id": 21,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Legal Clinic supports the current budget of $1",
+          "attributed_chunk_id": "NUMBER_1",
+          "attribution_method": "number_based",
+          "attribution_score": 0.8,
+          "attribution_reason": "Number $1 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.800)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "20 (HB400_TESTIMONY_JHA_01-30-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            20.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) million and an increase of an additional $1",
+          "attributed_chunk_id": "NUMBER_1",
+          "attribution_method": "number_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Number $1 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.600)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "00 (HB400_TESTIMONY_JHA_01-30-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) million to the Judiciary’s civil legal services fund",
+          "attributed_chunk_id": 21,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Word frequency match score: 0.375",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"The Judiciary requests CIP bond funds totaling $9",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": [
+            9.0
+          ]
+        },
+        {
+          "sentence": "90 (HB400_TESTIMONY_JHA_01-30-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            90.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) million for FY 2026",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This request includes $4",
+          "attributed_chunk_id": "NUMBER_4",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Number $4 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.500)",
+          "numbers_found": [
+            4.0
+          ]
+        },
+        {
+          "sentence": "00 (HB400_TESTIMONY_JHA_01-30-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) million to design a new South Kohala District Courthouse, $900,000",
+          "attributed_chunk_id": "NUMBER_900000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.7,
+          "attribution_reason": "Number $900,000 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.700)",
+          "numbers_found": [
+            900000.0
+          ]
+        },
+        {
+          "sentence": "00 (HB400_TESTIMONY_JHA_01-30-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) to replace an A/C chiller on Kaua‘i, and $5",
+          "attributed_chunk_id": "NUMBER_5",
+          "attribution_method": "number_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Number $5 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.400)",
+          "numbers_found": [
+            5.0
+          ]
+        },
+        {
+          "sentence": "00 (HB400_TESTIMONY_JHA_01-30-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) million in lump sum bond funds (HB400_TESTIMONY_JHA_01-30-25_",
+          "attributed_chunk_id": 22,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4444444444444444,
+          "attribution_reason": "Word frequency match score: 0.444",
+          "numbers_found": [
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). The Committee on Judiciary & Hawaiian Affairs requests the Committee on Finance consider authorizing lump sum general obligation bond funds for capital improvement projects for Judiciary facilities to account for the additional cost to relocate the Children's Justice Center (HB400_HSCR286_",
+          "attributed_chunk_id": 23,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7333333333333333,
+          "attribution_reason": "Word frequency match score: 0.733",
+          "numbers_found": []
+        },
+        {
+          "sentence": "PDF. txt). \",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The primary updates involve requests from external organizations for increased funding for civil legal services and revised capital expenditure figures from the Judiciary",
+          "attributed_chunk_id": 21,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.18181818181818182,
+          "attribution_reason": "Word frequency match score: 0.182",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Multiple testimonies request an additional $1,000,000",
+          "attributed_chunk_id": "NUMBER_1000000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Number $1,000,000 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.600)",
+          "numbers_found": [
+            1000000.0
+          ]
+        },
+        {
+          "sentence": "00 (HB400_TESTIMONY_JHA_01-30-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            0.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for civil legal services, a component not detailed in the prior note",
+          "attributed_chunk_id": 21,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1,
+          "attribution_reason": "Word frequency match score: 0.100",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Judiciary's Capital Improvement Project (CIP) request is now specified as $9",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.42857142857142855,
+          "attribution_reason": "Word frequency match score: 0.429",
+          "numbers_found": [
+            9.0
+          ]
+        },
+        {
+          "sentence": "90 (HB400_TESTIMONY_JHA_01-30-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            90.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) million, which differs from the amount cited in the previous note, and a House committee report recommends considering a larger lump sum for CIP to cover costs to relocate the Children's Justice Center (HB400_HSCR286_",
+          "attributed_chunk_id": 23,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2692307692307692,
+          "attribution_reason": "Word frequency match score: 0.269",
+          "numbers_found": []
+        },
+        {
+          "sentence": "PDF. txt). \"\n}.",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 1,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 1,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.100"
+          ]
+        },
+        "2": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": []
+        },
+        "3": {
+          "usage_count": 3,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.250",
+            "Word frequency match score: 0.429"
+          ]
+        },
+        "4": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": []
+        },
+        "5": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": []
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 1,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.182"
+          ]
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 0,
+          "document_name": "HB400_HSCR286_",
+          "attribution_reasons": []
+        },
+        "20": {
+          "usage_count": 0,
+          "document_name": "HB400_HSCR286_",
+          "attribution_reasons": []
+        },
+        "21": {
+          "usage_count": 6,
+          "document_name": "HB400_HSCR286_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.200",
+            "Word frequency match score: 0.235",
+            "Word frequency match score: 0.333",
+            "Word frequency match score: 0.375",
+            "Word frequency match score: 0.182",
+            "Word frequency match score: 0.100"
+          ]
+        },
+        "22": {
+          "usage_count": 1,
+          "document_name": "HB400_HSCR286_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.444"
+          ]
+        },
+        "23": {
+          "usage_count": 2,
+          "document_name": "HB400_HSCR286_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.733",
+            "Word frequency match score: 0.269"
+          ]
+        },
+        "24": {
+          "usage_count": 0,
+          "document_name": "HB400_HSCR286_",
+          "attribution_reasons": []
+        },
+        "25": {
+          "usage_count": 0,
+          "document_name": "HB400_HSCR286_",
+          "attribution_reasons": []
+        },
+        "NUMBER_705416.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_188388.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_183288.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_232412.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_237612.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_192408.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_27084.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_54168.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_346209.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_486967.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_52908.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_317448.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_368943.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_360048.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1175300.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_458224.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_560000.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_420000.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_512624.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_577058.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_71016.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_136314.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_125424.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_151000.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_11.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_72372.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_47004.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_105816.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_151032.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_73836.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_57192.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_9.9": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_4.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_900000.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_5.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1000000.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1.2": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1.0": {
+          "usage_count": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1000000": {
+          "usage_count": 4,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $1,000,000 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.636)",
+            "Number $1,000,000 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.333)",
+            "Number $1,000,000 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.857)",
+            "Number $1,000,000 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.600)"
+          ]
+        },
+        "NUMBER_1": {
+          "usage_count": 4,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $1 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.800)",
+            "Number $1 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.600)",
+            "Number $1 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.800)",
+            "Number $1 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.600)"
+          ]
+        },
+        "NUMBER_4": {
+          "usage_count": 1,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $4 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.500)"
+          ]
+        },
+        "NUMBER_900000": {
+          "usage_count": 1,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $900,000 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.700)"
+          ]
+        },
+        "NUMBER_5": {
+          "usage_count": 1,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $5 from HB400_TESTIMONY_JHA_01-30-25_.PDF.txt (score: 0.400)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 0,
+        "number_based": 11,
+        "word_frequency_based": 14,
+        "semantic_similarity": 0,
+        "fallback": 1,
+        "no_attribution": 13
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 26,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "The Judiciary, State of Hawai‘i Testimony to the Thirty-Third State Legislature 2025 Regular Session House Committee on Judiciary and Hawaiian Affairs Representative David Tarnas, Chair Representative Mahina Poepoe, Vice Chair Thursday, January 30, 2025, 2:00 p.m. State Capitol, Conference Room 325 and Videoconference by: Brandon M. Kimura Policy and Planning",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "325 and Videoconference by: Brandon M. Kimura Policy and Planning Department Director Bill No. and Title: House Bill No. 400, Relating to the Judiciary. Purpose: Appropriates funds for the Judiciary for the 2025–2027 biennium. Judiciary’s Position: The Judiciary strongly urges your support of House Bill No. 400, which reflects the",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "your support of House Bill No. 400, which reflects the Judiciary’s resource requirements for Fiscal Biennium 2025–2027. Based on current circumstances and projected resource needs for the future, the Judiciary requests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary FTE, and $6.17M in FY 2026,",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "FTE and 1.0 temporary FTE, and $6.17M in FY 2026, and $6.25M in FY 2027. This is an addition of approximately 3% to the Judiciary’s operating budget. The Judiciary also requests a total of $9.9M in bond funds for capital improvement projects in FY 2026. Operating Requests: These resource requests",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "improvement projects in FY 2026. Operating Requests: These resource requests center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court that will open during this biennium, an additional District Court Judge and support staff in Kona, cybersecurity and critical",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "Court Judge and support staff in Kona, cybersecurity and critical technology costs, funding for the Criminal Justice Research Institute (CJRI), and restoration of funding for essential staffing that was defunded during the early part of the COVID-19 pandemic. House Bill No. 400, Relating to the Judiciary House Committee on Judiciary",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "No. 400, Relating to the Judiciary House Committee on Judiciary and Hawaiian Affairs Thursday, January 30, 2025 Page 2 As for positions, nine of the 18 (17.0 permanent and 1.0 temporary) are requested to continue current staffing. This is because seven temporary positions for the Women’s Court Pilot Project, along",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "seven temporary positions for the Women’s Court Pilot Project, along with one permanent position and one temporary position for the CJRI, will expire, but there are compelling reasons to continue these programs and the necessary staffing. The remaining requested positions will significantly expand capacity to certain operations. Brief details of",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "will significantly expand capacity to certain operations. Brief details of each request are provided below: Women’s Court – The Women’s Court Pilot Project was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot that included seven temporary positions, which are set to expire",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "that included seven temporary positions, which are set to expire at the end of FY 2025. The request of $705,416 in FY 2026 and $705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s Court. The Women’s Court, also known as Mohala Wahine, was created to",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "Women’s Court, also known as Mohala Wahine, was created to address the rapid growth in the incarceration of women in the United States by providing comprehensive court- supervised treatment, opportunities, and resources as an alternative to incarceration for women in the criminal justice system who have suffered trauma, abuse, poverty,",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "the criminal justice system who have suffered trauma, abuse, poverty, mental illness, substance use disorders, and/or unhealthy relationships. The goal of the program is for the participants to identify and address issues, to prevent re-entry into criminality, and to aid the participants in bettering their economic conditions and life circumstances.",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "the participants in bettering their economic conditions and life circumstances. Given the need for the program, a strong start as a three-year pilot created by the Legislature, and that the program (and positions and funding) will expire at the end of FY 2025, the Judiciary requests funding and eight positions",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "of FY 2025, the Judiciary requests funding and eight positions (a net increase of one), including one substance use counselor. Truancy Court and Early Education Intervention Program (EEIP) – The Judiciary requests funding of $188,388 in FY 2026 and $183,288 in FY 2027 to restore funding for three redescribed Social",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "in FY 2027 to restore funding for three redescribed Social Worker positions and additional expenses to significantly expand the Truancy Court and EEIP on O‘ahu. Truancy Court and EEIP are designed to identify and address, where possible, the difficulties underlying chronic school truancy. The focus of Truancy Court is diversion",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "chronic school truancy. The focus of Truancy Court is diversion from the formal court process. The bulk of the preventative work is done on the front-end to stop truancy petitions from being filed in court by addressing barriers to school attendance. To accomplish this, Persons in Need of Supervision (PINS)",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "attendance. To accomplish this, Persons in Need of Supervision (PINS) Social Workers visit campuses weekly to meet with students identified as having attendance issues. Driving While Impaired (DWI) Court Program – The Judiciary requests funding of $232,412 in FY 2026 and $237,612 in FY 2027 for two positions that will",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "and $237,612 in FY 2027 for two positions that will be redescribed to be a Social Worker IV and Specialty Court Coordinator, and additional expenses, to make the DWI Court Program permanent. The DWI Court Program was established in April 2012 and has been operational since January 2013, with initial",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB400_TESTIMONY_JHA_01-30-25_",
+          "chunk_text": "2012 and has been operational since January 2013, with initial federal funding for the program from the National Highway Traffic Safety Administration (NHTSA) through a grant administered by the State Department of Transportatio",
+          "start_word": 720,
+          "end_word": 753,
+          "word_count": 33
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB400_HSCR286_",
+          "chunk_text": "HSCR286 STAND. COM. REP. NO. 286 Honolulu, Hawaii , 2025 RE: H.B. No. 400 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Judiciary & Hawaiian Affairs, to which was referred H.B. No. 400 entitled: \"A BILL",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB400_HSCR286_",
+          "chunk_text": "to which was referred H.B. No. 400 entitled: \"A BILL FOR AN ACT RELATING TO THE JUDICIARY,\" begs leave to report as follows: The purpose of this measure is to appropriate funds for the 2025-2027 fiscal biennium for certain operating expenses of the Judiciary. Your Committee received testimony in support",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB400_HSCR286_",
+          "chunk_text": "expenses of the Judiciary. Your Committee received testimony in support of this measure from the Judiciary; Volunteer Legal Services Hawai ʻ i; Legal Aid Society of Hawai ʻ i; The Legal Clinic; and two individuals. Your Committee finds that the appropriations made by this measure will assist the Judiciary in",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB400_HSCR286_",
+          "chunk_text": "appropriations made by this measure will assist the Judiciary in its efforts to fulfill its constitutional, statutory, and public service duties. Your Committee respectfully requests your Committee on Finance, should it deliberate on this measure, to consider authorizing $7,000,000 in lump sum general obligation bond funds for capital improvement projects",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB400_HSCR286_",
+          "chunk_text": "lump sum general obligation bond funds for capital improvement projects for Judiciary facilities to account for the additional cost of $2,000,000 to relocate the Children's Justice Center. As affirmed by the record of votes of the members of your Committee on Judiciary & Hawaiian Affairs that is attached to this",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB400_HSCR286_",
+          "chunk_text": "on Judiciary & Hawaiian Affairs that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 400 and recommends that it pass Second Reading and be referred to your Committee on Finance. Respectfully submitted on behalf of the members of the Committee",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB400_HSCR286_",
+          "chunk_text": "Respectfully submitted on behalf of the members of the Committee on Judiciary & Hawaiian Affairs, ____________________________ DAVID A. TARNAS, Chair",
+          "start_word": 240,
+          "end_word": 260,
+          "word_count": 20
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "of each request are provided below: Women’s Court – The Women’s Court Pilot Project was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot that included seven temporary positions, which are set to expire at the end of FY 2025. The request of $705,416 in FY 2026 and $705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s Court. The Women’s Court, also known as Mohala Wahine, was created to address the rapid growth in the incarceration of women in the United States by providing comprehensive court- supervised treatment, opportunities,",
+        "number": 705416.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "below: Women’s Court – The Women’s Court Pilot Project was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot that included seven temporary positions, which are set to expire at the end of FY 2025. The request of $705,416 in FY 2026 and $705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s Court. The Women’s Court, also known as Mohala Wahine, was created to address the rapid growth in the incarceration of women in the United States by providing comprehensive court- supervised treatment, opportunities, and resources as an alternative",
+        "number": 705416.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "by the Legislature, and that the program (and positions and funding) will expire at the end of FY 2025, the Judiciary requests funding and eight positions (a net increase of one), including one substance use counselor. Truancy Court and Early Education Intervention Program (EEIP) – The Judiciary requests funding of $188,388 in FY 2026 and $183,288 in FY 2027 to restore funding for three redescribed Social Worker positions and additional expenses to significantly expand the Truancy Court and EEIP on O‘ahu. Truancy Court and EEIP are designed to identify and address, where possible, the difficulties underlying chronic school truancy. The focus",
+        "number": 188388.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "the program (and positions and funding) will expire at the end of FY 2025, the Judiciary requests funding and eight positions (a net increase of one), including one substance use counselor. Truancy Court and Early Education Intervention Program (EEIP) – The Judiciary requests funding of $188,388 in FY 2026 and $183,288 in FY 2027 to restore funding for three redescribed Social Worker positions and additional expenses to significantly expand the Truancy Court and EEIP on O‘ahu. Truancy Court and EEIP are designed to identify and address, where possible, the difficulties underlying chronic school truancy. The focus of Truancy Court is diversion",
+        "number": 183288.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "to stop truancy petitions from being filed in court by addressing barriers to school attendance. To accomplish this, Persons in Need of Supervision (PINS) Social Workers visit campuses weekly to meet with students identified as having attendance issues. Driving While Impaired (DWI) Court Program – The Judiciary requests funding of $232,412 in FY 2026 and $237,612 in FY 2027 for two positions that will be redescribed to be a Social Worker IV and Specialty Court Coordinator, and additional expenses, to make the DWI Court Program permanent. The DWI Court Program was established in April 2012 and has been operational since January",
+        "number": 232412.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "being filed in court by addressing barriers to school attendance. To accomplish this, Persons in Need of Supervision (PINS) Social Workers visit campuses weekly to meet with students identified as having attendance issues. Driving While Impaired (DWI) Court Program – The Judiciary requests funding of $232,412 in FY 2026 and $237,612 in FY 2027 for two positions that will be redescribed to be a Social Worker IV and Specialty Court Coordinator, and additional expenses, to make the DWI Court Program permanent. The DWI Court Program was established in April 2012 and has been operational since January 2013, with initial federal funding",
+        "number": 237612.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "accountability and monitoring of the treatment and recovery process for repeat and high-risk offenders. Wahiawā District Court – There are five requests related to the Wahiawā District Court, which will open to the public in Spring 2026. The first relates to restoring funding for three positions in the amount of $192,408 in FY 2026 and $192,408 in FY 2027 to transition to a full complement of adult client services to the new Wahiawā District Court to support case management of probation cases. The planned Adult Client Services Branch (ACSB) Wahiawā District Court Unit will play a critical role in bringing court",
+        "number": 192408.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "treatment and recovery process for repeat and high-risk offenders. Wahiawā District Court – There are five requests related to the Wahiawā District Court, which will open to the public in Spring 2026. The first relates to restoring funding for three positions in the amount of $192,408 in FY 2026 and $192,408 in FY 2027 to transition to a full complement of adult client services to the new Wahiawā District Court to support case management of probation cases. The planned Adult Client Services Branch (ACSB) Wahiawā District Court Unit will play a critical role in bringing court services to the community. When",
+        "number": 192408.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "When the ACSB Wahiawā District Court Unit is operational, it will service an estimated 200 to 300 cases based on the current clients that reside in the designated geographic areas: Waimea, Mililani, Kunia, Whitmore Village, Waialua, Hale‘iwa, and Sunset. The second request for Wahiawā District Court is for funding of $27,084 in FY 2026 (six months’ salary only) and $54,168 in FY 2027, and 1.0 FTE permanent position for a Janitor II. The existing Wahiawā District Courthouse is in a rental space and janitorial services are covered by the lease. This position is necessary to support cleaning levels for the types",
+        "number": 27084.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "it will service an estimated 200 to 300 cases based on the current clients that reside in the designated geographic areas: Waimea, Mililani, Kunia, Whitmore Village, Waialua, Hale‘iwa, and Sunset. The second request for Wahiawā District Court is for funding of $27,084 in FY 2026 (six months’ salary only) and $54,168 in FY 2027, and 1.0 FTE permanent position for a Janitor II. The existing Wahiawā District Courthouse is in a rental space and janitorial services are covered by the lease. This position is necessary to support cleaning levels for the types of uses in the new facility. For instance, the",
+        "number": 54168.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "not include a probation unit which performs drug testing and will require additional cleaning. This position is requested to provide the level of cleaning required to provide a clean and healthy environment for all who enter and use the facility. The third request for Wahiawā District Court is funding of $346,209 in FY 2026 and $486,967 in FY 2027 to provide contracted security personnel for patrol, primarily interior. The new courthouse will have two courtrooms and expand its services to include Ho‘okele (court information services), civil case processing, and probation services. Courthouse security for the current location consists of two unarmed",
+        "number": 346209.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "which performs drug testing and will require additional cleaning. This position is requested to provide the level of cleaning required to provide a clean and healthy environment for all who enter and use the facility. The third request for Wahiawā District Court is funding of $346,209 in FY 2026 and $486,967 in FY 2027 to provide contracted security personnel for patrol, primarily interior. The new courthouse will have two courtrooms and expand its services to include Ho‘okele (court information services), civil case processing, and probation services. Courthouse security for the current location consists of two unarmed contracted private security personnel and",
+        "number": 486967.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "District Court would need one sergeant and three Deputy Sheriffs assigned to patrol the new Wahiawā District Court. Contracted security services could provide an alternative, albeit less than optimal. Funding this request would support this critical safety function. The fourth request for Wahiawā District Court is to restore funding of $52,908 in FY 2026 and $52,908 in FY 2027 for a position redescribed to an IT Tech III and dedicated to this facility. This IT Tech will provide support for courtroom video recording and video conferencing systems that enable litigants to participate in court hearings remotely. The new Wahiawā District Court",
+        "number": 52908.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "sergeant and three Deputy Sheriffs assigned to patrol the new Wahiawā District Court. Contracted security services could provide an alternative, albeit less than optimal. Funding this request would support this critical safety function. The fourth request for Wahiawā District Court is to restore funding of $52,908 in FY 2026 and $52,908 in FY 2027 for a position redescribed to an IT Tech III and dedicated to this facility. This IT Tech will provide support for courtroom video recording and video conferencing systems that enable litigants to participate in court hearings remotely. The new Wahiawā District Court will feature an additional courtroom,",
+        "number": 52908.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Circuit has permitted most District Court litigants to opt for remote hearing appearances by Zoom. At some hearings, dozens of litigants do so. A functioning courtroom AV system is therefore critical to the core operations of the court. The fifth request for Wahiawā District Court is to restore funding of $317,448 in FY 2026 and $317,448 in FY 2027 for four District Court Clerk II and two Bailiff II positions. These positions, based in Wahiawā, will also support ‘Ewa and Wai‘anae District Courts, thereby enhancing the services available at these three rural courts. These positions provide courtroom House Bill No. 400,",
+        "number": 317448.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Court litigants to opt for remote hearing appearances by Zoom. At some hearings, dozens of litigants do so. A functioning courtroom AV system is therefore critical to the core operations of the court. The fifth request for Wahiawā District Court is to restore funding of $317,448 in FY 2026 and $317,448 in FY 2027 for four District Court Clerk II and two Bailiff II positions. These positions, based in Wahiawā, will also support ‘Ewa and Wai‘anae District Courts, thereby enhancing the services available at these three rural courts. These positions provide courtroom House Bill No. 400, Relating to the Judiciary House",
+        "number": 317448.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "would be the hub. Restoring the funding for these positions will allow the West and Central O‘ahu court users to expeditiously access and attend District Court business and enable the District Courts to facilitate and adjudicate cases in a more efficient manner. Kona District Court Judge – The Judiciary requests $368,943 in FY 2026 and $360,048 in FY 2027, and 4.0 FTE permanent positions, for an additional District Court Judge and three necessary support staff. The additional judgeship is needed to address the current extraordinary caseload in Kona, as well as the continuing increases in complexity of cases and the time",
+        "number": 368943.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "the funding for these positions will allow the West and Central O‘ahu court users to expeditiously access and attend District Court business and enable the District Courts to facilitate and adjudicate cases in a more efficient manner. Kona District Court Judge – The Judiciary requests $368,943 in FY 2026 and $360,048 in FY 2027, and 4.0 FTE permanent positions, for an additional District Court Judge and three necessary support staff. The additional judgeship is needed to address the current extraordinary caseload in Kona, as well as the continuing increases in complexity of cases and the time required to schedule and hear",
+        "number": 360048.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Court is nearly 16,000 cases annually, which are all currently being handled by one judge in one courtroom. This combination of factors has led to unsustainable court congestion and delays. Cybersecurity and Technology – The Judiciary has three requests pertaining to cybersecurity and other technology. First, is a request for $1,175,300 in FY 2026 and $1,175,300 in FY 2027 to upgrade email subscriptions to improve security capabilities. The Judiciary currently uses Microsoft O365 for basic email with multifactor authentication and basic threat detection and protection. With government agencies and courts increasingly being targeted for cybersecurity attacks, this level of security is",
+        "number": 1175300.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "annually, which are all currently being handled by one judge in one courtroom. This combination of factors has led to unsustainable court congestion and delays. Cybersecurity and Technology – The Judiciary has three requests pertaining to cybersecurity and other technology. First, is a request for $1,175,300 in FY 2026 and $1,175,300 in FY 2027 to upgrade email subscriptions to improve security capabilities. The Judiciary currently uses Microsoft O365 for basic email with multifactor authentication and basic threat detection and protection. With government agencies and courts increasingly being targeted for cybersecurity attacks, this level of security is no longer sufficient. Upgrading from",
+        "number": 1175300.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "enhance the Judiciary’s cybersecurity posture. M365 G5 email—the same level of the State of Hawai‘i Executive Branch, which the Legislature funded during the 2024 Regular Session—includes robust cybersecurity features that address prevention, detection, investigation, and remediation of cybersecurity attacks on emails and Sharepoint data. The second cybersecurity-related request is for $458,224 in FYs 2026 and 2027 to restore funding for four positions that have since been redescribed to a modern need—a dedicated cybersecurity staff. In addition, this funding would allow for additional tools required to manage the Judiciary’s inventory of assets in an efficient and secure way. Specifically, this includes a",
+        "number": 458224.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "this funding would allow for additional tools required to manage the Judiciary’s inventory of assets in an efficient and secure way. Specifically, this includes a suite that can create strong access control, maintain a current inventory and patch the assets, and maintain configuration baselines. The third technology-focused request is for $560,000 in FY 2026 and $420,000 in FY 2027 to replace network switches in courthouses across the state that have reached their end-of-life. House Bill No. 400, Relating to the Judiciary House Committee on Judiciary and Hawaiian Affairs Thursday, January 30, 2025 Page 5 Network switches provide internet and phone connections",
+        "number": 560000.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "additional tools required to manage the Judiciary’s inventory of assets in an efficient and secure way. Specifically, this includes a suite that can create strong access control, maintain a current inventory and patch the assets, and maintain configuration baselines. The third technology-focused request is for $560,000 in FY 2026 and $420,000 in FY 2027 to replace network switches in courthouses across the state that have reached their end-of-life. House Bill No. 400, Relating to the Judiciary House Committee on Judiciary and Hawaiian Affairs Thursday, January 30, 2025 Page 5 Network switches provide internet and phone connections to PCs, Cisco phones, printers,",
+        "number": 420000.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "network switches have reached the end of their useful lifespan. Criminal Justice Research Institute (CJRI) – There are two requests related to the Criminal Justice Research Institute, established by Act 179 (SLH 2019). Both are to continue the resources appropriated in Act 147 (SLH 2023). More specifically, the first is $512,624 in FY 2026 and $577,058 in FY 2027, for a 1.0 FTE permanent Project Specialist position and software. Act 147 (SLH 2023) appropriated funds for a permanent Project Specialist and software/technology costs for two years to begin to establish a centralized statewide criminal pretrial justice data reporting and collection system.",
+        "number": 512624.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "end of their useful lifespan. Criminal Justice Research Institute (CJRI) – There are two requests related to the Criminal Justice Research Institute, established by Act 179 (SLH 2019). Both are to continue the resources appropriated in Act 147 (SLH 2023). More specifically, the first is $512,624 in FY 2026 and $577,058 in FY 2027, for a 1.0 FTE permanent Project Specialist position and software. Act 147 (SLH 2023) appropriated funds for a permanent Project Specialist and software/technology costs for two years to begin to establish a centralized statewide criminal pretrial justice data reporting and collection system. Since then, CJRI has developed",
+        "number": 577058.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "upon this firm foundation, continue work to establish a centralized statewide criminal pretrial justice data reporting and collection system, as well as continue to assess data and be available to inform policymakers, CJRI requires that resources continue. The second CJRI-related request is to continue 1.0 FTE temporary Project Specialist and $71,016 in both years of the biennium. In addition to the permanent position with two-year funding described above, Act 147 (SLH 2023) authorized a temporary full-time Project Specialist position, also with two-year funding ending on June 30, 2025. This position ensures that the Judiciary can fully support CJRI’s technical needs with",
+        "number": 71016.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "IT department focused on the CJRI. As Judiciary data is ingested into the data warehouse, CJRI researchers need support from the Judiciary technical staff to ensure that the data is transformed into criminal pretrial data for meaningful use for research. Office of the Public Guardian (OPG) – The Judiciary requests $136,314 in FY 2026 and $125,424 in FY 2027, and 3.0 FTE permanent positions, for three Social Services Assistant IV positions and related equipment for the Office of the Public Guardian. The positions will assist the Third Circuit (Hawai‘i County) and First Circuit (City and County of Honolulu) guardians. OPG personnel",
+        "number": 136314.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "CJRI. As Judiciary data is ingested into the data warehouse, CJRI researchers need support from the Judiciary technical staff to ensure that the data is transformed into criminal pretrial data for meaningful use for research. Office of the Public Guardian (OPG) – The Judiciary requests $136,314 in FY 2026 and $125,424 in FY 2027, and 3.0 FTE permanent positions, for three Social Services Assistant IV positions and related equipment for the Office of the Public Guardian. The positions will assist the Third Circuit (Hawai‘i County) and First Circuit (City and County of Honolulu) guardians. OPG personnel are court-appointed to make informed",
+        "number": 125424.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Staff sometimes enter homes where other residents who are not under OPG’s care are unstable. Guardians have experienced threats of violence, dog bites, and other safety concerns. The Social Services Assistants would enable guardians to increase visits and care to all OPG wards. Risk Management Cost – The Judiciary requests $151,000 in FY 2026 and $151,000 in FY 2027 to cover an increase in the risk management costs owed to the Department of Accounting and General Services (DAGS). Pursuant to Comptroller Memoranda 1999-28 and 2007-05, and HRS § 41-D(4), DAGS bills the Judiciary annually for its share of the state’s risk",
+        "number": 151000.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "other residents who are not under OPG’s care are unstable. Guardians have experienced threats of violence, dog bites, and other safety concerns. The Social Services Assistants would enable guardians to increase visits and care to all OPG wards. Risk Management Cost – The Judiciary requests $151,000 in FY 2026 and $151,000 in FY 2027 to cover an increase in the risk management costs owed to the Department of Accounting and General Services (DAGS). Pursuant to Comptroller Memoranda 1999-28 and 2007-05, and HRS § 41-D(4), DAGS bills the Judiciary annually for its share of the state’s risk management costs which include insurance",
+        "number": 151000.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "management costs which include insurance policy premiums. DAGS notified the Judiciary that its share of the risk management costs would increase by approximately $151,000. Targeted Funding Restoration – The Judiciary’s next group of requests is to restore funding for selected defunded positions. During the early part of the pandemic, over $11 million was removed from the Judiciary’s budget for 192 vacant positions, to help the State’s economic crisis at that time. The Judiciary has continued to refine staffing statewide, including redescribing positions to modern needs and employing additional recruitment methods, particularly for positions where there have been recruiting difficulties. Nevertheless, these",
+        "number": 11.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "has continued to refine staffing statewide, including redescribing positions to modern needs and employing additional recruitment methods, particularly for positions where there have been recruiting difficulties. Nevertheless, these requests to restore funding are for positions critical to operations now and going forward. Specifically: (1) Courts of Appeal Restored funding of $72,372 for FY 2026 and $72,372 in FY 2027 for a Judicial Assistant II at the Intermediate Court of Appeals (ICA) would ensure necessary support to each judge of this Court. There are positions for six Associate Judges in the ICA and one Chief Judge. Each judge has a single Judicial",
+        "number": 72372.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "statewide, including redescribing positions to modern needs and employing additional recruitment methods, particularly for positions where there have been recruiting difficulties. Nevertheless, these requests to restore funding are for positions critical to operations now and going forward. Specifically: (1) Courts of Appeal Restored funding of $72,372 for FY 2026 and $72,372 in FY 2027 for a Judicial Assistant II at the Intermediate Court of Appeals (ICA) would ensure necessary support to each judge of this Court. There are positions for six Associate Judges in the ICA and one Chief Judge. Each judge has a single Judicial Assistant II, and each position",
+        "number": 72372.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Attorneys, provide coverage as needed for other Judicial Assistants and Appellate Clerks, assist with screening of cases for conflicts of interest, and undertake numerous housekeeping and institutional tasks that maintain the high standard and spirit of aloha that is the hallmark of the ICA. (2) First Circuit Restored funding of $47,004 in FY 2026 and $47,004 in FY 2027 for one position redescribed to a Judicial Clerk III. The shift in court operations to many virtual hearings has benefitted court-users, but has strained staffing. This position, updated to a modern need, would host remote hearings, process calendars for various case types,",
+        "number": 47004.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "for other Judicial Assistants and Appellate Clerks, assist with screening of cases for conflicts of interest, and undertake numerous housekeeping and institutional tasks that maintain the high standard and spirit of aloha that is the hallmark of the ICA. (2) First Circuit Restored funding of $47,004 in FY 2026 and $47,004 in FY 2027 for one position redescribed to a Judicial Clerk III. The shift in court operations to many virtual hearings has benefitted court-users, but has strained staffing. This position, updated to a modern need, would host remote hearings, process calendars for various case types, obtain and review efiled documents",
+        "number": 47004.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "documents in traffic and criminal cases, and more. Existing staff have covered these responsibilities, sometimes leading to delays or backlogs in other sections. This is unsustainable. House Bill No. 400, Relating to the Judiciary House Committee on Judiciary and Hawaiian Affairs Thursday, January 30, 2025 Page 7 Restored funding of $105,816 in FY 2026 and $105,816 in FY 2027 for two hybrid District Court Clerks IIs and Bailiffs. Two District Court Clerk positions will be redescribed to hybrid Clerks and Bailiffs to increase flexibility to address court needs. Specifically, these hybrid positions would increase the Honolulu District Court’s capacity to meet",
+        "number": 105816.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "cases, and more. Existing staff have covered these responsibilities, sometimes leading to delays or backlogs in other sections. This is unsustainable. House Bill No. 400, Relating to the Judiciary House Committee on Judiciary and Hawaiian Affairs Thursday, January 30, 2025 Page 7 Restored funding of $105,816 in FY 2026 and $105,816 in FY 2027 for two hybrid District Court Clerks IIs and Bailiffs. Two District Court Clerk positions will be redescribed to hybrid Clerks and Bailiffs to increase flexibility to address court needs. Specifically, these hybrid positions would increase the Honolulu District Court’s capacity to meet needs in courtrooms, including processing",
+        "number": 105816.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Honolulu District Court’s capacity to meet needs in courtrooms, including processing witness certification fees and implementing in-court processing, which would reduce delays in updating and processing the court record and delays in litigants’ ability to obtain case-related court dates. (3) Second Circuit The Judiciary requests restoration of a subtotal of $151,032 for both years of the biennium for a District Court Clerk in Lahaina, a District Court Clerk in Wailuku, and an Account Clerk. The District Court Clerk in Lahaina is responsible for the official court records in arraignment and trial proceedings. This position issues disposition slips to the public as",
+        "number": 151032.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "the amount assigned to this defunded position has increased by over 25% since FY 2021. Since this position was defunded, the Second Circuit’s Fiscal Office assumed the responsibilities, thereby diverting focus from the Fiscal Office’s primary duties. (4) Third Circuit A key request in the Third Circuit is to restore $73,836 in FY 2026 and $73,836 in FY 2027 for a Social Worker IV in the Kona Juvenile Client Services Branch. While this position was defunded early in the pandemic, Third Circuit decided to fill the position in March 2022 because the remaining two staff were overwhelmed by attempting to address",
+        "number": 73836.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "defunded position has increased by over 25% since FY 2021. Since this position was defunded, the Second Circuit’s Fiscal Office assumed the responsibilities, thereby diverting focus from the Fiscal Office’s primary duties. (4) Third Circuit A key request in the Third Circuit is to restore $73,836 in FY 2026 and $73,836 in FY 2027 for a Social Worker IV in the Kona Juvenile Client Services Branch. While this position was defunded early in the pandemic, Third Circuit decided to fill the position in March 2022 because the remaining two staff were overwhelmed by attempting to address all informal status offenses, law",
+        "number": 73836.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "violators, and school nonattendance referrals. The Third Circuit used resources from funded vacancies, fewer jury trials, and other areas to fund and fill this position at that time. Due to increasing budget constraints, this is not sustainable without detrimental effects on other court operations. Next is a request to restore $57,192 in FY 2026 and $57,192 in FY 2027 for a Court Documents Clerk III in the Hilo Legal Documents Branch. This position, among other duties, House Bill No. 400, Relating to the Judiciary House Committee on Judiciary and Hawaiian Affairs Thursday, January 30, 2025 Page 8 assists with Circuit and",
+        "number": 57192.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "The Third Circuit used resources from funded vacancies, fewer jury trials, and other areas to fund and fill this position at that time. Due to increasing budget constraints, this is not sustainable without detrimental effects on other court operations. Next is a request to restore $57,192 in FY 2026 and $57,192 in FY 2027 for a Court Documents Clerk III in the Hilo Legal Documents Branch. This position, among other duties, House Bill No. 400, Relating to the Judiciary House Committee on Judiciary and Hawaiian Affairs Thursday, January 30, 2025 Page 8 assists with Circuit and Family Court filings. This includes",
+        "number": 57192.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "(SRLs) at the counter and over the phone. There has been a steady and significant increase in TROs filed in Hilo. Indeed, from 2019 to 2022, TRO filings in Hilo, particularly related to domestic abuse cases, have more than doubled the amount in Kona. The next request is to restore $47,004 in FY 2026 and $47,004 in FY 2027 for a Judicial Clerk III position in the Kona Traffic Violations Branch. This section supports one District Court Judge that hears cases from the North and South Kona and Ka‘ū Districts. The vacancy of this position has caused a backlog in creating",
+        "number": 47004.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "over the phone. There has been a steady and significant increase in TROs filed in Hilo. Indeed, from 2019 to 2022, TRO filings in Hilo, particularly related to domestic abuse cases, have more than doubled the amount in Kona. The next request is to restore $47,004 in FY 2026 and $47,004 in FY 2027 for a Judicial Clerk III position in the Kona Traffic Violations Branch. This section supports one District Court Judge that hears cases from the North and South Kona and Ka‘ū Districts. The vacancy of this position has caused a backlog in creating citations in the Judiciary Information",
+        "number": 47004.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "processing default judgments. Although some automation has made many tasks easier, automation in this unit has not offset added demands. The complexity of the legal process requires staff to articulate the information to self-represented litigants (SRLs) and process the work accurately and efficiently. Finally, the Third Circuit requests to restore $52,908 in FY 2026 and $52,908 in FY 2027 for an IT Support Technician III in Hilo. Third Circuit’s limited IT support must cover a large land area and three facilities. Indeed, these responsibilities are so important that the Third Circuit redescribed a defunded position into this IT Support Technician III",
+        "number": 52908.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "automation has made many tasks easier, automation in this unit has not offset added demands. The complexity of the legal process requires staff to articulate the information to self-represented litigants (SRLs) and process the work accurately and efficiently. Finally, the Third Circuit requests to restore $52,908 in FY 2026 and $52,908 in FY 2027 for an IT Support Technician III in Hilo. Third Circuit’s limited IT support must cover a large land area and three facilities. Indeed, these responsibilities are so important that the Third Circuit redescribed a defunded position into this IT Support Technician III and filled the position, using",
+        "number": 52908.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "that the Third Circuit redescribed a defunded position into this IT Support Technician III and filled the position, using internal funding from other areas available due to the COVID-19 pandemic leading to temporary shifts in operations. This is unsustainable without detrimental impacts to other operations. (5) Administration Restored funding of $71,016 in FY 2026 and $71,016 in FY 2027 for a Purchasing and Specifications Specialist in the Judiciary’s Financial Services Department. This position is in a division that is responsible for a high volume of purchasing, procurement, and contracts. Among other things, this division annually processes over 1,000 purchase requisitions, nearly",
+        "number": 71016.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "a defunded position into this IT Support Technician III and filled the position, using internal funding from other areas available due to the COVID-19 pandemic leading to temporary shifts in operations. This is unsustainable without detrimental impacts to other operations. (5) Administration Restored funding of $71,016 in FY 2026 and $71,016 in FY 2027 for a Purchasing and Specifications Specialist in the Judiciary’s Financial Services Department. This position is in a division that is responsible for a high volume of purchasing, procurement, and contracts. Among other things, this division annually processes over 1,000 purchase requisitions, nearly 900 contracts, and approximately 12",
+        "number": 71016.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "and Competitive Sealed Proposals solicitations. Capital Improvement Requests: Capital Improvement Project (CIP) requirements continue to remain a major item of concern as the Judiciary’s infrastructure continues to age and deteriorate, and as the population served and services provided by the Judiciary continue to expand. We request CIP bond funds totaling $9.9 million for FY 2026 to address critical needs, some of which relate to the health and safety of Judiciary employees and the public. Specifically, the Judiciary is requesting $4.0 million to design a new South Kohala District Courthouse. The current South Kohala District Court carries significant concerns for safety, space,",
+        "number": 9.9,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "deteriorate, and as the population served and services provided by the Judiciary continue to expand. We request CIP bond funds totaling $9.9 million for FY 2026 to address critical needs, some of which relate to the health and safety of Judiciary employees and the public. Specifically, the Judiciary is requesting $4.0 million to design a new South Kohala District Courthouse. The current South Kohala District Court carries significant concerns for safety, space, temperature, noise, and is quite simply inadequate to serve the community’s court-related needs. The Judiciary also requests $900,000 to replace an A/C chiller on Kaua‘i, at Pu‘uhonua Kaulike. The",
+        "number": 4.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "of Judiciary employees and the public. Specifically, the Judiciary is requesting $4.0 million to design a new South Kohala District Courthouse. The current South Kohala District Court carries significant concerns for safety, space, temperature, noise, and is quite simply inadequate to serve the community’s court-related needs. The Judiciary also requests $900,000 to replace an A/C chiller on Kaua‘i, at Pu‘uhonua Kaulike. The chiller is near the end of its lifecycle, and A/C manufacturing is experiencing hardships House Bill No. 400, Relating to the Judiciary House Committee on Judiciary and Hawaiian Affairs Thursday, January 30, 2025 Page 9 resulting in long lead",
+        "number": 900000.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "on Kaua‘i, at Pu‘uhonua Kaulike. The chiller is near the end of its lifecycle, and A/C manufacturing is experiencing hardships House Bill No. 400, Relating to the Judiciary House Committee on Judiciary and Hawaiian Affairs Thursday, January 30, 2025 Page 9 resulting in long lead times. The Judiciary also requests $5.0 million in lump sum bond funds to address both continuing and emerging building issues statewide. The Judiciary respectfully requests your support of House Bill No. 400, the Judiciary’s biennium budget request. Thank you for the opportunity to testify on this measure. 70170 Nickolas Kacprowski Board President Rachel Figueroa Executive Director",
+        "number": 5.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Committee on Judiciary & Hawaiian Affairs Rep. David A. Tarnas, Chair Rep. Mahina Poepoe, Vice-Chair Thursday January 30, 2025 at 2:00 p.m. The Legal Aid Society of Hawaii submits testimony in strong support of HB400–Relating to the Judiciary. In addition to supporting the Judiciary’s budget priorities, we support an additional $1,000,000 increase in the budget line-item for statewide civil legal services. HB400 contains a line-item for statewide civil legal services, which the Judiciary administers to the State’s qualifying legal services providers to provide “general civil legal services without charge to indigent residents of the State of Hawaiʻi.” This line-item is vital",
+        "number": 1000000.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "current administration was previously in office. There are now four legal service providers recieving this critical funding, and all of our low- income and vulnerable populations statewide and across demographics are positively impacted by this support. We respectfully request that you increase support for legal services by adding an additional $1,000,000 to the line item for legal services, which is an important part of the safety net of social services that Hawaiʻi’s residents need. The Judiciary has been a leader in supporting “access to justice” initiatives here in Hawaiʻi, and has generously provided a home for this line-item. Our ask is",
+        "number": 1000000.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "TLC recognizes that every person needs and deserves to feel a sense of trust, welcome, and belonging. TLC is a current grantee under the Judiciary’s civil legal services fund. The Judiciary’s civil legal services fund is critical to supporting safety net providers in Hawaii. TLC supports the current budget of $1.2 million and an increase of an additional $1 million to support the work of safety net providers in the local community. The needs of local safety net providers are continually growing. For example, with the current federal administration’s immigration enforcement actions and rhetoric, TLC anticipates an exponential increase in those",
+        "number": 1.2,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "to feel a sense of trust, welcome, and belonging. TLC is a current grantee under the Judiciary’s civil legal services fund. The Judiciary’s civil legal services fund is critical to supporting safety net providers in Hawaii. TLC supports the current budget of $1.2 million and an increase of an additional $1 million to support the work of safety net providers in the local community. The needs of local safety net providers are continually growing. For example, with the current federal administration’s immigration enforcement actions and rhetoric, TLC anticipates an exponential increase in those needing support in immigration proceedings. Thus, TLC supports",
+        "number": 1.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "work of safety net providers in the local community. The needs of local safety net providers are continually growing. For example, with the current federal administration’s immigration enforcement actions and rhetoric, TLC anticipates an exponential increase in those needing support in immigration proceedings. Thus, TLC supports the current budget of $1.2 million and an increase of an additional $1 million to the the Judiciary’s civil legal services fund. Thank you for the opportunity to testify in support of HB400 and TLC respectfully urges the Committee members to pass HB400 out of your Committee. If you have questions of me, please contact",
+        "number": 1.2,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "community. The needs of local safety net providers are continually growing. For example, with the current federal administration’s immigration enforcement actions and rhetoric, TLC anticipates an exponential increase in those needing support in immigration proceedings. Thus, TLC supports the current budget of $1.2 million and an increase of an additional $1 million to the the Judiciary’s civil legal services fund. Thank you for the opportunity to testify in support of HB400 and TLC respectfully urges the Committee members to pass HB400 out of your Committee. If you have questions of me, please contact me at sma@tlchawaii.org. Very respectfully yours, Amy Agbayani",
+        "number": 1.0,
+        "filename": "HB400_TESTIMONY_JHA_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:06:37.909506",
+  "generation_timestamp_unix": 1760144797.9095192
+}

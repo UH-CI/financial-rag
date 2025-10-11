@@ -1,0 +1,492 @@
+{
+  "document_name": "HB1169_SD2_SSCR1484_",
+  "new_documents_processed": [
+    "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
+    "HB1169_SD2",
+    "HB1169_SD2_SSCR1484_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB1169",
+    "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+    "HB1169_HD1",
+    "HB1169_HD1_HSCR308_",
+    "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
+    "HB1169_HD1_HSCR862_",
+    "HB1169_HD1_TESTIMONY_HRE_03-11-25_",
+    "HB1169_SD1",
+    "HB1169_SD1_SSCR1134_",
+    "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
+    "HB1169_SD2",
+    "HB1169_SD2_SSCR1484_"
+  ],
+  "numbers_used": 0,
+  "prompt_length": 16353,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"The purpose and intent of this measure is to establish the university of Hawaii conference center revolving fund and repeal two existing conference center funds (HB1169_SD2). The University of Hawai‘i (UH) supports HB 1169 HD1 SD1, which will establish the fund and accounts to \\\"facilitate the administration of the fund for conference center programs among various campuses and operating units of the UH system\\\" (HB1169_SD1_TESTIMONY_WAM_03-28-25_). The Committee on Ways and Means finds that a single revolving fund will \\\"help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys\\\" (HB1169_SD2).\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"The Committee on Ways and Means has amended this measure by \\\"(1) Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund; and (2) Making technical nonsubstantive amendments for purposes of clarity, consistency, and style\\\" (HB1169_SD2). The committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, S.D. 1, as amended (HB1169_SD2). It now recommends that the bill pass Third Reading in the form of H.B. No. 1169, H.D. 1, S.D. 2 (HB1169_SD2).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The bill has progressed to the Senate Committee on Ways and Means, which received testimony in support from the University of Hawai‘i's Vice President for Budget and Finance/Chief Financial Officer (HB1169_SD1_TESTIMONY_WAM_03-28-25_). The primary update is that the Committee on Ways and Means has amended the measure by \\\"Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund\\\" and making other technical amendments (HB1169_SD2). Consequently, the committee recommends that the bill, now designated as H.B. No. 1169, H.D. 1, S.D. 2, pass Third Reading (HB1169_SD2).\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 5997,
+      "candidates_token_count": 600,
+      "total_token_count": 8365
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"The purpose and intent of this measure is to establish the university of Hawaii conference center revolving fund and repeal two existing conference center funds (HB1169_SD2). The University of Hawai‘i (UH) supports HB 1169 HD1 SD1, which will establish the fund and accounts to \\\"facilitate the administration of the fund for conference center programs among various campuses and operating units of the UH system\\\" (HB1169_SD1_TESTIMONY_WAM_03-28-25_). The Committee on Ways and Means finds that a single revolving fund will \\\"help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys\\\" (HB1169_SD2).\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"The Committee on Ways and Means has amended this measure by \\\"(1) Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund; and (2) Making technical nonsubstantive amendments for purposes of clarity, consistency, and style\\\" (HB1169_SD2). The committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, S.D. 1, as amended (HB1169_SD2). It now recommends that the bill pass Third Reading in the form of H.B. No. 1169, H.D. 1, S.D. 2 (HB1169_SD2).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The bill has progressed to the Senate Committee on Ways and Means, which received testimony in support from the University of Hawai‘i's Vice President for Budget and Finance/Chief Financial Officer (HB1169_SD1_TESTIMONY_WAM_03-28-25_). The primary update is that the Committee on Ways and Means has amended the measure by \\\"Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund\\\" and making other technical amendments (HB1169_SD2). Consequently, the committee recommends that the bill, now designated as H.B. No. 1169, H.D. 1, S.D. 2, pass Third Reading (HB1169_SD2).\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"The purpose and intent of this measure is to establish the university of Hawaii conference center revolving fund and repeal two existing conference center funds (HB1169_SD2)",
+          "attributed_chunk_id": 8,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8235294117647058,
+          "attribution_reason": "Document citation + word frequency: HB1169_SD2 (score: 0.824)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The University of Hawai‘i (UH) supports HB 1169 HD1 SD1, which will establish the fund and accounts to \\\"facilitate the administration of the fund for conference center programs among various campuses and operating units of the UH system\\\" (HB1169_SD1_TESTIMONY_WAM_03-28-25_)",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6363636363636364,
+          "attribution_reason": "Word frequency match score: 0.636",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Committee on Ways and Means finds that a single revolving fund will \\\"help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys\\\" (HB1169_SD2)",
+          "attributed_chunk_id": 9,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8695652173913043,
+          "attribution_reason": "Document citation + word frequency: HB1169_SD2 (score: 0.870)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"The Committee on Ways and Means has amended this measure by \\\"(1) Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund; and (2) Making technical nonsubstantive amendments for purposes of clarity, consistency, and style\\\" (HB1169_SD2)",
+          "attributed_chunk_id": 10,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7666666666666667,
+          "attribution_reason": "Document citation + word frequency: 1 (score: 0.767)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The committee is in accord with the intent and purpose of H",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": []
+        },
+        {
+          "sentence": "B. No. 1169, H",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": []
+        },
+        {
+          "sentence": "D. 1, S. D. 1, as amended (HB1169_SD2)",
+          "attributed_chunk_id": 9,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB1169_SD2 (score: 1.000)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "It now recommends that the bill pass Third Reading in the form of H",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7142857142857143,
+          "attribution_reason": "Word frequency match score: 0.714",
+          "numbers_found": []
+        },
+        {
+          "sentence": "B. No. 1169, H",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": []
+        },
+        {
+          "sentence": "D. 1, S. D. 2 (HB1169_SD2)",
+          "attributed_chunk_id": 6,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.1,
+          "attribution_reason": "Document citation fallback: HB1169_SD2",
+          "numbers_found": [
+            1.0,
+            2.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The bill has progressed to the Senate Committee on Ways and Means, which received testimony in support from the University of Hawai‘i's Vice President for Budget and Finance/Chief Financial Officer (HB1169_SD1_TESTIMONY_WAM_03-28-25_)",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The primary update is that the Committee on Ways and Means has amended the measure by \\\"Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund\\\" and making other technical amendments (HB1169_SD2)",
+          "attributed_chunk_id": 10,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.782608695652174,
+          "attribution_reason": "Document citation + word frequency: HB1169_SD2 (score: 0.783)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Consequently, the committee recommends that the bill, now designated as H",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "B. No. 1169, H",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": []
+        },
+        {
+          "sentence": "D. 1, S. D. 2, pass Third Reading (HB1169_SD2)",
+          "attributed_chunk_id": 11,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB1169_SD2 (score: 1.000)",
+          "numbers_found": [
+            1.0,
+            2.0
+          ]
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 1,
+          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 0,
+          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
+          "attribution_reasons": []
+        },
+        "2": {
+          "usage_count": 1,
+          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.636"
+          ]
+        },
+        "3": {
+          "usage_count": 0,
+          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
+          "attribution_reasons": []
+        },
+        "4": {
+          "usage_count": 0,
+          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
+          "attribution_reasons": []
+        },
+        "5": {
+          "usage_count": 0,
+          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
+          "attribution_reasons": []
+        },
+        "6": {
+          "usage_count": 4,
+          "document_name": "HB1169_SD2",
+          "attribution_reasons": [
+            "Word frequency match score: 1.000",
+            "Word frequency match score: 1.000",
+            "Document citation fallback: HB1169_SD2",
+            "Word frequency match score: 1.000"
+          ]
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB1169_SD2",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 1,
+          "document_name": "HB1169_SD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1169_SD2 (score: 0.824)"
+          ]
+        },
+        "9": {
+          "usage_count": 2,
+          "document_name": "HB1169_SD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1169_SD2 (score: 0.870)",
+            "Document citation + word frequency: HB1169_SD2 (score: 1.000)"
+          ]
+        },
+        "10": {
+          "usage_count": 2,
+          "document_name": "HB1169_SD2",
+          "attribution_reasons": [
+            "Document citation + word frequency: 1 (score: 0.767)",
+            "Document citation + word frequency: HB1169_SD2 (score: 0.783)"
+          ]
+        },
+        "11": {
+          "usage_count": 4,
+          "document_name": "HB1169_SD2",
+          "attribution_reasons": [
+            "Word frequency match score: 1.000",
+            "Word frequency match score: 0.714",
+            "Word frequency match score: 0.333",
+            "Document citation + word frequency: HB1169_SD2 (score: 1.000)"
+          ]
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB1169_SD2",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB1169_SD2_SSCR1484_",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB1169_SD2_SSCR1484_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB1169_SD2_SSCR1484_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB1169_SD2_SSCR1484_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB1169_SD2_SSCR1484_",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB1169_SD2_SSCR1484_",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 0,
+          "document_name": "HB1169_SD2_SSCR1484_",
+          "attribution_reasons": []
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 7,
+        "number_based": 0,
+        "word_frequency_based": 7,
+        "semantic_similarity": 0,
+        "fallback": 1,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 20,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
+          "chunk_text": "UNIVERSITY OF HAWAI‘I SYSTEM ʻŌNAEHANA KULANUI O HAWAIʻI Legislative Testimony Hōʻike Manaʻo I Mua O Ka ʻAhaʻōlelo _____________________________________________________________ Testimony Presented Before the Senate Committee on Ways and Means March 28, 2025 at 10:02 a.m. By Kalbert K. Young Vice President for Budget and Finance/Chief Financial Officer University of Hawai‘i System",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
+          "chunk_text": "for Budget and Finance/Chief Financial Officer University of Hawai‘i System HB 1169 HD1 SD1 – RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND Chair Dela Cruz, Vice Chair Moriwaki, and Members of the Committee: Thank you for the opportunity to present testimony today. The University of Hawai‘i (UH) supports",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
+          "chunk_text": "to present testimony today. The University of Hawai‘i (UH) supports HB 1169 HD1 SD1, Relating to University of Hawaii Conference Center Revolving Fund. This bill establishes the University of Hawaii Conference Center Revolving Fund and accounts under the fund to facilitate the administration of the fund for conference center programs",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
+          "chunk_text": "facilitate the administration of the fund for conference center programs among various campuses and operating units of the UH system. Conference Center Revolving Funds currently exist for the Community Colleges and UH-Hilo. This bill would create one UH Conference Center Revolving Fund and allow all campuses to utilize their own",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
+          "chunk_text": "Revolving Fund and allow all campuses to utilize their own account within this overarching fund. This would allow all campuses to standardize conference center programs across all campuses while eliminating unnecessary duplication of statutes. This structure would mirror successful models of other UH funds, notably the Tuition and Fees Special",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
+          "chunk_text": "of other UH funds, notably the Tuition and Fees Special Fund, the Auxiliary Enterprises Special Fund, and the Student Activities Revolving Fund. Thank you for this opportunity to testify.",
+          "start_word": 200,
+          "end_word": 229,
+          "word_count": 29
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "SSCR1484 STAND. COM. REP. NO. 1484 Honolulu, Hawaii RE: H.B. No. 1169 H.D. 1 S.D. 2 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1169, H.D. 1,",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "Means, to which was referred H.B. No. 1169, H.D. 1, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND,\" begs leave to report as follows: The purpose and intent of this measure is to establish the university of Hawaii conference center revolving",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "is to establish the university of Hawaii conference center revolving fund and repeal two existing conference center funds. Your Committee received written comments in support of this measure from the University of Hawaii System. Your Committee finds that establishing a single revolving fund for all conference center activities will help",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "single revolving fund for all conference center activities will help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys. Your Committee has amended this measure by (1) Clarifying the permissible uses of moneys appropriated from the university",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund ; and (2) Making technical nonsubstantive amendments for purposes of clarity, consistency, and style. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "of your Committee on Ways and Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, S.D. 1, as amended herein, and recommends that it pass Third Reading in the form attached hereto as H.B. No. 1169,",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "Reading in the form attached hereto as H.B. No. 1169, H.D. 1, S.D. 2. Respectfully submitted on behalf of the members of the Committee on Ways and Means, ________________________________ DONOVAN M. DELA CRUZ, Chair",
+          "start_word": 240,
+          "end_word": 274,
+          "word_count": 34
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB1169_SD2_SSCR1484_",
+          "chunk_text": "SSCR1484 STAND. COM. REP. NO. 1484 Honolulu, Hawaii RE: H.B. No. 1169 H.D. 1 S.D. 2 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1169, H.D. 1,",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB1169_SD2_SSCR1484_",
+          "chunk_text": "Means, to which was referred H.B. No. 1169, H.D. 1, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND,\" begs leave to report as follows: The purpose and intent of this measure is to establish the university of Hawaii conference center revolving",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB1169_SD2_SSCR1484_",
+          "chunk_text": "is to establish the university of Hawaii conference center revolving fund and repeal two existing conference center funds. Your Committee received written comments in support of this measure from the University of Hawaii System. Your Committee finds that establishing a single revolving fund for all conference center activities will help",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB1169_SD2_SSCR1484_",
+          "chunk_text": "single revolving fund for all conference center activities will help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys. Your Committee has amended this measure by (1) Clarifying the permissible uses of moneys appropriated from the university",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB1169_SD2_SSCR1484_",
+          "chunk_text": "Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund ; and (2) Making technical nonsubstantive amendments for purposes of clarity, consistency, and style. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB1169_SD2_SSCR1484_",
+          "chunk_text": "of your Committee on Ways and Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, S.D. 1, as amended herein, and recommends that it pass Third Reading in the form attached hereto as H.B. No. 1169,",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB1169_SD2_SSCR1484_",
+          "chunk_text": "Reading in the form attached hereto as H.B. No. 1169, H.D. 1, S.D. 2. Respectfully submitted on behalf of the members of the Committee on Ways and Means, ________________________________ DONOVAN M. DELA CRUZ, Chair",
+          "start_word": 240,
+          "end_word": 274,
+          "word_count": 34
+        }
+      ]
+    },
+    "numbers_data": []
+  },
+  "generation_timestamp": "2025-10-10T14:43:00.445757",
+  "generation_timestamp_unix": 1760143380.445767
+}

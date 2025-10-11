@@ -1,0 +1,723 @@
+{
+  "document_name": "HB934_CD1_CCR222_",
+  "new_documents_processed": [
+    "HB934_CD1",
+    "HB934_CD1_CCR222_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB934",
+    "HB934_TESTIMONY_ECD_02-05-25_",
+    "HB934_HD1",
+    "HB934_HD1_HSCR329_",
+    "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+    "HB934_HD1_HSCR987_",
+    "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+    "HB934_SD1",
+    "HB934_SD1_SSCR1126_",
+    "HB934_SD1_TESTIMONY_WAM_04-01-25_",
+    "HB934_SD2",
+    "HB934_SD2_SSCR1752_",
+    "HB934_CD1",
+    "HB934_CD1_CCR222_"
+  ],
+  "numbers_used": 3,
+  "prompt_length": 15992,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"The purpose of this measure is to rename the Hawaii Broadband and Digital Equity Office as the Broadband Office and transfer the Office from the Department of Business, Economic Development, and Tourism to the Department of Accounting and General Services (HB934_CD1). The measure also repeals the Broadband Assistance Advisory Council, establishes the Broadband Revolving Fund, and appropriates funds for contracts and to establish Digital Navigator positions (HB934_CD1). The effective date has been changed to July 1, 2025 (HB934_CD1).\",\n\"appropriations\": \"The legislative document specifies an appropriation of the sum of $200,000 (HB934_CD1_.HTM.txt) for fiscal year 2025-2026 to be deposited into the broadband revolving fund (HB934_CD1_.HTM.txt). It also inserts an appropriation amount of $800,000 (HB934_CD1_.HTM.txt) out of the Broadband Revolving Fund for fiscal year 2025-2026 (HB934_CD1_.HTM.txt) to fund and establish six full-time equivalent Digital Navigator positions (HB934_CD1). This sum is for the reimbursement of contracts executed by the broadband office (HB934_CD1_.HTM.txt).\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"This measure amends the placement of the Broadband Office by \\\"Establishing the Broadband Office within the Department of Accounting and General Services instead of specifically in the Office of Enterprise and Technology Services\\\" (HB934_CD1). The bill clarifies that the office shall advise the Comptroller, instead of the Chief Information Officer, on broadband deployment (HB934_CD1). Furthermore, \\\"expenditures from the Broadband Revolving Fund shall be made by the Broadband Office advised by the Information Technology Steering Committee and subject to prior approval by the Comptroller\\\" (HB934_CD1).\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure repeals the Broadband Assistance Advisory Council and renames the Hawaii Broadband and Digital Equity Office as the Broadband Office (HB934_CD1). A significant policy change is the transfer of the Office to the Department of Accounting and General Services (HB934_CD1). It also clarifies the oversight structure, making expenditures subject to prior approval by the Comptroller (HB934_CD1).\",\n\"revenue_sources\": \"This measure establishes the Broadband Revolving Fund as a new revenue source (HB934_CD1). For fiscal year 2025-2026, the legislative document specifies a deposit of $200,000 (HB934_CD1_.HTM.txt) into the fund (HB934_CD1_.HTM.txt).\",\n\"six_year_fiscal_implications\": \"With an effective date of July 1, 2025, the fiscal implications for fiscal year 2025-2026 are now specified (HB934_CD1). The legislative document specifies that the sum of $200,000 (HB934_CD1_.HTM.txt) will be deposited into the newly established Broadband Revolving Fund (HB934_CD1_.HTM.txt). Out of this fund, the legislative document specifies an appropriation amount of $800,000 (HB934_CD1_.HTM.txt) for the reimbursement of contracts executed by the broadband office (HB934_CD1_.HTM.txt). This funding is designated to \\\"fund and establish six full-time equivalent Digital Navigator positions\\\" (HB934_CD1).\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The latest version of the bill inserts specific appropriation amounts, including $200,000 (HB934_CD1_.HTM.txt) to be deposited into the newly established Broadband Revolving Fund and $800,000 (HB934_CD1_.HTM.txt) from the fund to establish six full-time equivalent Digital Navigator positions (HB934_CD1). A significant structural change moves the Broadband Office into the Department of Accounting and General Services, advising the Comptroller, who must provide prior approval for expenditures from the revolving fund (HB934_CD1). The measure also formally repeals the Broadband Assistance Advisory Council and changes the effective date to July 1, 2025 (HB934_CD1).\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 6683,
+      "candidates_token_count": 1045,
+      "total_token_count": 9888
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"The purpose of this measure is to rename the Hawaii Broadband and Digital Equity Office as the Broadband Office and transfer the Office from the Department of Business, Economic Development, and Tourism to the Department of Accounting and General Services (HB934_CD1). The measure also repeals the Broadband Assistance Advisory Council, establishes the Broadband Revolving Fund, and appropriates funds for contracts and to establish Digital Navigator positions (HB934_CD1). The effective date has been changed to July 1, 2025 (HB934_CD1).\",\n\"appropriations\": \"The legislative document specifies an appropriation of the sum of $200,000 (HB934_CD1_.HTM.txt) for fiscal year 2025-2026 to be deposited into the broadband revolving fund (HB934_CD1_.HTM.txt). It also inserts an appropriation amount of $800,000 (HB934_CD1_.HTM.txt) out of the Broadband Revolving Fund for fiscal year 2025-2026 (HB934_CD1_.HTM.txt) to fund and establish six full-time equivalent Digital Navigator positions (HB934_CD1). This sum is for the reimbursement of contracts executed by the broadband office (HB934_CD1_.HTM.txt).\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"This measure amends the placement of the Broadband Office by \\\"Establishing the Broadband Office within the Department of Accounting and General Services instead of specifically in the Office of Enterprise and Technology Services\\\" (HB934_CD1). The bill clarifies that the office shall advise the Comptroller, instead of the Chief Information Officer, on broadband deployment (HB934_CD1). Furthermore, \\\"expenditures from the Broadband Revolving Fund shall be made by the Broadband Office advised by the Information Technology Steering Committee and subject to prior approval by the Comptroller\\\" (HB934_CD1).\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure repeals the Broadband Assistance Advisory Council and renames the Hawaii Broadband and Digital Equity Office as the Broadband Office (HB934_CD1). A significant policy change is the transfer of the Office to the Department of Accounting and General Services (HB934_CD1). It also clarifies the oversight structure, making expenditures subject to prior approval by the Comptroller (HB934_CD1).\",\n\"revenue_sources\": \"This measure establishes the Broadband Revolving Fund as a new revenue source (HB934_CD1). For fiscal year 2025-2026, the legislative document specifies a deposit of $200,000 (HB934_CD1_.HTM.txt) into the fund (HB934_CD1_.HTM.txt).\",\n\"six_year_fiscal_implications\": \"With an effective date of July 1, 2025, the fiscal implications for fiscal year 2025-2026 are now specified (HB934_CD1). The legislative document specifies that the sum of $200,000 (HB934_CD1_.HTM.txt) will be deposited into the newly established Broadband Revolving Fund (HB934_CD1_.HTM.txt). Out of this fund, the legislative document specifies an appropriation amount of $800,000 (HB934_CD1_.HTM.txt) for the reimbursement of contracts executed by the broadband office (HB934_CD1_.HTM.txt). This funding is designated to \\\"fund and establish six full-time equivalent Digital Navigator positions\\\" (HB934_CD1).\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The latest version of the bill inserts specific appropriation amounts, including $200,000 (HB934_CD1_.HTM.txt) to be deposited into the newly established Broadband Revolving Fund and $800,000 (HB934_CD1_.HTM.txt) from the fund to establish six full-time equivalent Digital Navigator positions (HB934_CD1). A significant structural change moves the Broadband Office into the Department of Accounting and General Services, advising the Comptroller, who must provide prior approval for expenditures from the revolving fund (HB934_CD1). The measure also formally repeals the Broadband Assistance Advisory Council and changes the effective date to July 1, 2025 (HB934_CD1).\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"The purpose of this measure is to rename the Hawaii Broadband and Digital Equity Office as the Broadband Office and transfer the Office from the Department of Business, Economic Development, and Tourism to the Department of Accounting and General Services (HB934_CD1)",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.782608695652174,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.783)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure also repeals the Broadband Assistance Advisory Council, establishes the Broadband Revolving Fund, and appropriates funds for contracts and to establish Digital Navigator positions (HB934_CD1)",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.500)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The effective date has been changed to July 1, 2025 (HB934_CD1)",
+          "attributed_chunk_id": 8,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.800)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"The legislative document specifies an appropriation of the sum of $200,000 (HB934_CD1_",
+          "attributed_chunk_id": "NUMBER_200000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Number $200,000 from HB934_CD1_.HTM.txt (score: 0.250)",
+          "numbers_found": [
+            200000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for fiscal year 2025-2026 to be deposited into the broadband revolving fund (HB934_CD1_",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). It also inserts an appropriation amount of $800,000 (HB934_CD1_",
+          "attributed_chunk_id": "NUMBER_800000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.125,
+          "attribution_reason": "Number $800,000 from HB934_CD1_.HTM.txt (score: 0.125)",
+          "numbers_found": [
+            800000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) out of the Broadband Revolving Fund for fiscal year 2025-2026 (HB934_CD1_",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.45454545454545453,
+          "attribution_reason": "Word frequency match score: 0.455",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt) to fund and establish six full-time equivalent Digital Navigator positions (HB934_CD1)",
+          "attributed_chunk_id": 8,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8181818181818182,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.818)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This sum is for the reimbursement of contracts executed by the broadband office (HB934_CD1_",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7142857142857143,
+          "attribution_reason": "Word frequency match score: 0.714",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). \",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"This measure amends the placement of the Broadband Office by \\\"Establishing the Broadband Office within the Department of Accounting and General Services instead of specifically in the Office of Enterprise and Technology Services\\\" (HB934_CD1)",
+          "attributed_chunk_id": 6,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7391304347826086,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.739)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill clarifies that the office shall advise the Comptroller, instead of the Chief Information Officer, on broadband deployment (HB934_CD1)",
+          "attributed_chunk_id": 7,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8181818181818182,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.818)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Furthermore, \\\"expenditures from the Broadband Revolving Fund shall be made by the Broadband Office advised by the Information Technology Steering Committee and subject to prior approval by the Comptroller\\\" (HB934_CD1)",
+          "attributed_chunk_id": 7,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8888888888888888,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.889)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure repeals the Broadband Assistance Advisory Council and renames the Hawaii Broadband and Digital Equity Office as the Broadband Office (HB934_CD1)",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.500)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "A significant policy change is the transfer of the Office to the Department of Accounting and General Services (HB934_CD1)",
+          "attributed_chunk_id": 4,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.667)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It also clarifies the oversight structure, making expenditures subject to prior approval by the Comptroller (HB934_CD1)",
+          "attributed_chunk_id": 8,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.500)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"This measure establishes the Broadband Revolving Fund as a new revenue source (HB934_CD1)",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.333)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "For fiscal year 2025-2026, the legislative document specifies a deposit of $200,000 (HB934_CD1_",
+          "attributed_chunk_id": "NUMBER_200000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Number $200,000 from HB934_CD1_.HTM.txt (score: 0.400)",
+          "numbers_found": [
+            200000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) into the fund (HB934_CD1_",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). \",\n\"six_year_fiscal_implications\": \"With an effective date of July 1, 2025, the fiscal implications for fiscal year 2025-2026 are now specified (HB934_CD1)",
+          "attributed_chunk_id": 8,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.26666666666666666,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.267)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "The legislative document specifies that the sum of $200,000 (HB934_CD1_",
+          "attributed_chunk_id": "NUMBER_200000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Number $200,000 from HB934_CD1_.HTM.txt (score: 0.333)",
+          "numbers_found": [
+            200000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) will be deposited into the newly established Broadband Revolving Fund (HB934_CD1_",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). Out of this fund, the legislative document specifies an appropriation amount of $800,000 (HB934_CD1_",
+          "attributed_chunk_id": "NUMBER_800000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.18181818181818182,
+          "attribution_reason": "Number $800,000 from HB934_CD1_.HTM.txt (score: 0.182)",
+          "numbers_found": [
+            800000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for the reimbursement of contracts executed by the broadband office (HB934_CD1_",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Word frequency match score: 0.625",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). This funding is designated to \\\"fund and establish six full-time equivalent Digital Navigator positions\\\" (HB934_CD1)",
+          "attributed_chunk_id": 8,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6923076923076923,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.692)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The latest version of the bill inserts specific appropriation amounts, including $200,000 (HB934_CD1_",
+          "attributed_chunk_id": "NUMBER_200000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.07142857142857142,
+          "attribution_reason": "Number $200,000 from HB934_CD1_.HTM.txt (score: 0.071)",
+          "numbers_found": [
+            200000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) to be deposited into the newly established Broadband Revolving Fund and $800,000 (HB934_CD1_",
+          "attributed_chunk_id": "NUMBER_800000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.36363636363636365,
+          "attribution_reason": "Number $800,000 from HB934_CD1_.HTM.txt (score: 0.364)",
+          "numbers_found": [
+            800000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) from the fund to establish six full-time equivalent Digital Navigator positions (HB934_CD1)",
+          "attributed_chunk_id": 8,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.750)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "A significant structural change moves the Broadband Office into the Department of Accounting and General Services, advising the Comptroller, who must provide prior approval for expenditures from the revolving fund (HB934_CD1)",
+          "attributed_chunk_id": 7,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.42857142857142855,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.429)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure also formally repeals the Broadband Assistance Advisory Council and changes the effective date to July 1, 2025 (HB934_CD1)",
+          "attributed_chunk_id": 8,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.38461538461538464,
+          "attribution_reason": "Document citation + word frequency: HB934_CD1 (score: 0.385)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1",
+          "attribution_reasons": []
+        },
+        "1": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1",
+          "attribution_reasons": []
+        },
+        "2": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1",
+          "attribution_reasons": []
+        },
+        "3": {
+          "usage_count": 2,
+          "document_name": "HB934_CD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB934_CD1 (score: 0.783)",
+            "Document citation + word frequency: HB934_CD1 (score: 0.500)"
+          ]
+        },
+        "4": {
+          "usage_count": 1,
+          "document_name": "HB934_CD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB934_CD1 (score: 0.667)"
+          ]
+        },
+        "5": {
+          "usage_count": 7,
+          "document_name": "HB934_CD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB934_CD1 (score: 0.500)",
+            "Word frequency match score: 0.333",
+            "Word frequency match score: 0.714",
+            "Document citation + word frequency: HB934_CD1 (score: 0.333)",
+            "Word frequency match score: 0.400",
+            "Word frequency match score: 0.400",
+            "Word frequency match score: 0.625"
+          ]
+        },
+        "6": {
+          "usage_count": 1,
+          "document_name": "HB934_CD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB934_CD1 (score: 0.739)"
+          ]
+        },
+        "7": {
+          "usage_count": 3,
+          "document_name": "HB934_CD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB934_CD1 (score: 0.818)",
+            "Document citation + word frequency: HB934_CD1 (score: 0.889)",
+            "Document citation + word frequency: HB934_CD1 (score: 0.429)"
+          ]
+        },
+        "8": {
+          "usage_count": 8,
+          "document_name": "HB934_CD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB934_CD1 (score: 0.800)",
+            "Word frequency match score: 0.455",
+            "Document citation + word frequency: HB934_CD1 (score: 0.818)",
+            "Document citation + word frequency: HB934_CD1 (score: 0.500)",
+            "Document citation + word frequency: HB934_CD1 (score: 0.267)",
+            "Document citation + word frequency: HB934_CD1 (score: 0.692)",
+            "Document citation + word frequency: HB934_CD1 (score: 0.750)",
+            "Document citation + word frequency: HB934_CD1 (score: 0.385)"
+          ]
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1_CCR222_",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1_CCR222_",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1_CCR222_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1_CCR222_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1_CCR222_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1_CCR222_",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1_CCR222_",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1_CCR222_",
+          "attribution_reasons": []
+        },
+        "20": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1_CCR222_",
+          "attribution_reasons": []
+        },
+        "21": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1_CCR222_",
+          "attribution_reasons": []
+        },
+        "22": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1_CCR222_",
+          "attribution_reasons": []
+        },
+        "23": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1_CCR222_",
+          "attribution_reasons": []
+        },
+        "NUMBER_200000.0": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_800000.0": {
+          "usage_count": 0,
+          "document_name": "HB934_CD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_200000": {
+          "usage_count": 4,
+          "document_name": "HB934_CD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $200,000 from HB934_CD1_.HTM.txt (score: 0.250)",
+            "Number $200,000 from HB934_CD1_.HTM.txt (score: 0.400)",
+            "Number $200,000 from HB934_CD1_.HTM.txt (score: 0.333)",
+            "Number $200,000 from HB934_CD1_.HTM.txt (score: 0.071)"
+          ]
+        },
+        "NUMBER_800000": {
+          "usage_count": 3,
+          "document_name": "HB934_CD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $800,000 from HB934_CD1_.HTM.txt (score: 0.125)",
+            "Number $800,000 from HB934_CD1_.HTM.txt (score: 0.182)",
+            "Number $800,000 from HB934_CD1_.HTM.txt (score: 0.364)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 16,
+        "number_based": 7,
+        "word_frequency_based": 6,
+        "semantic_similarity": 0,
+        "fallback": 0,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 24,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB934_CD1",
+          "chunk_text": "CCR222 CONFERENCE COMMITTEE REP. NO. 222 Honolulu, Hawaii , 2025 RE: H.B. No. 934 H.D. 1 S.D. 2 C.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB934_CD1",
+          "chunk_text": "D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madam and Sir: Your Committee on Conference on the disagreeing vote of the House of Representatives to the amendments proposed by the Senate in H.B. No. 934, H.D. 1, S.D. 2, entitled: \"A BILL",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB934_CD1",
+          "chunk_text": "H.B. No. 934, H.D. 1, S.D. 2, entitled: \"A BILL FOR AN ACT RELATING TO THE HAWAII BROADBAND AND DIGITAL EQUITY OFFICE,\" having met, and after full and free discussion, has agreed to recommend and does recommend to the respective Houses the final passage of this bill in an amended",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB934_CD1",
+          "chunk_text": "Houses the final passage of this bill in an amended form. The purpose of this measure is to: (1) Rename the Hawaii Broadband and Digital Equity Office as the Broadband Office and transfer the Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB934_CD1",
+          "chunk_text": "Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services; (2) Repeal broadband duties assigned to the Director of Commerce and Consumer Affairs; (3) Repeal the Broadband Assistance Advisory Council; (4) Transfer the duty of collecting and posting certain broadband infrastructure",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB934_CD1",
+          "chunk_text": "Transfer the duty of collecting and posting certain broadband infrastructure notices to the Broadband Office; (5) Establish the Broadband Revolving Fund; and (6) Appropriate funds into and out of the Broadband Revolving Fund for the reimbursement of contracts executed by the Broadband Office and to establish Digital Navigator positions. Your",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB934_CD1",
+          "chunk_text": "the Broadband Office and to establish Digital Navigator positions. Your Committee on Conference has amended this measure by: (1) Establishing the Broadband Office within the Department of Accounting and General Services instead of specifically in the Office of Enterprise and Technology Services; (2) Clarifying that the Broadband Office shall advise",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB934_CD1",
+          "chunk_text": "Technology Services; (2) Clarifying that the Broadband Office shall advise the Comptroller, instead of the Chief Information Officer, on broadband deployment; (3) Clarifying that expenditures from the Broadband Revolving Fund shall be made by the Broadband Office advised by the Information Technology Steering Committee and subject to prior approval by",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB934_CD1",
+          "chunk_text": "Information Technology Steering Committee and subject to prior approval by the Comptroller; (4) Inserting an appropriation amount of $800,000 out of the Broadband Revolving Fund to fund and establish six full-time equivalent Digital Navigator positions; (5) Changing the effective date to July 1, 2025; and (6) Making technical, nonsubstantive amendments",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB934_CD1",
+          "chunk_text": "to July 1, 2025; and (6) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed by the record of votes of the managers of your Committee on Conference that is attached to this report, your Committee on Conference is in accord with the intent and",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB934_CD1",
+          "chunk_text": "Committee on Conference is in accord with the intent and purpose of H.B. No. 934, H.D. 1, S.D. 2, as amended herein, and recommends that it pass Final Reading in the form attached hereto as H.B. No. 934, H.D. 1, S.D. 2, C.D. 1. Respectfully submitted on behalf of the",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB934_CD1",
+          "chunk_text": "S.D. 2, C.D. 1. Respectfully submitted on behalf of the managers: ON THE PART OF THE SENATE ON THE PART OF THE HOUSE ____________________________ LYNN DECOITE Chair ____________________________ GREGGOR ILAGAN Co-Chair ____________________________ GLENN WAKAI Co-Chair ____________________________ KYLE T. YAMASHITA Co-Chair",
+          "start_word": 440,
+          "end_word": 480,
+          "word_count": 40
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB934_CD1_CCR222_",
+          "chunk_text": "CCR222 CONFERENCE COMMITTEE REP. NO. 222 Honolulu, Hawaii , 2025 RE: H.B. No. 934 H.D. 1 S.D. 2 C.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB934_CD1_CCR222_",
+          "chunk_text": "D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madam and Sir: Your Committee on Conference on the disagreeing vote of the House of Representatives to the amendments proposed by the Senate in H.B. No. 934, H.D. 1, S.D. 2, entitled: \"A BILL",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB934_CD1_CCR222_",
+          "chunk_text": "H.B. No. 934, H.D. 1, S.D. 2, entitled: \"A BILL FOR AN ACT RELATING TO THE HAWAII BROADBAND AND DIGITAL EQUITY OFFICE,\" having met, and after full and free discussion, has agreed to recommend and does recommend to the respective Houses the final passage of this bill in an amended",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB934_CD1_CCR222_",
+          "chunk_text": "Houses the final passage of this bill in an amended form. The purpose of this measure is to: (1) Rename the Hawaii Broadband and Digital Equity Office as the Broadband Office and transfer the Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB934_CD1_CCR222_",
+          "chunk_text": "Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services; (2) Repeal broadband duties assigned to the Director of Commerce and Consumer Affairs; (3) Repeal the Broadband Assistance Advisory Council; (4) Transfer the duty of collecting and posting certain broadband infrastructure",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB934_CD1_CCR222_",
+          "chunk_text": "Transfer the duty of collecting and posting certain broadband infrastructure notices to the Broadband Office; (5) Establish the Broadband Revolving Fund; and (6) Appropriate funds into and out of the Broadband Revolving Fund for the reimbursement of contracts executed by the Broadband Office and to establish Digital Navigator positions. Your",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB934_CD1_CCR222_",
+          "chunk_text": "the Broadband Office and to establish Digital Navigator positions. Your Committee on Conference has amended this measure by: (1) Establishing the Broadband Office within the Department of Accounting and General Services instead of specifically in the Office of Enterprise and Technology Services; (2) Clarifying that the Broadband Office shall advise",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB934_CD1_CCR222_",
+          "chunk_text": "Technology Services; (2) Clarifying that the Broadband Office shall advise the Comptroller, instead of the Chief Information Officer, on broadband deployment; (3) Clarifying that expenditures from the Broadband Revolving Fund shall be made by the Broadband Office advised by the Information Technology Steering Committee and subject to prior approval by",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB934_CD1_CCR222_",
+          "chunk_text": "Information Technology Steering Committee and subject to prior approval by the Comptroller; (4) Inserting an appropriation amount of $800,000 out of the Broadband Revolving Fund to fund and establish six full-time equivalent Digital Navigator positions; (5) Changing the effective date to July 1, 2025; and (6) Making technical, nonsubstantive amendments",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB934_CD1_CCR222_",
+          "chunk_text": "to July 1, 2025; and (6) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed by the record of votes of the managers of your Committee on Conference that is attached to this report, your Committee on Conference is in accord with the intent and",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB934_CD1_CCR222_",
+          "chunk_text": "Committee on Conference is in accord with the intent and purpose of H.B. No. 934, H.D. 1, S.D. 2, as amended herein, and recommends that it pass Final Reading in the form attached hereto as H.B. No. 934, H.D. 1, S.D. 2, C.D. 1. Respectfully submitted on behalf of the",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB934_CD1_CCR222_",
+          "chunk_text": "S.D. 2, C.D. 1. Respectfully submitted on behalf of the managers: ON THE PART OF THE SENATE ON THE PART OF THE HOUSE ____________________________ LYNN DECOITE Chair ____________________________ GREGGOR ILAGAN Co-Chair ____________________________ GLENN WAKAI Co-Chair ____________________________ KYLE T. YAMASHITA Co-Chair",
+          "start_word": 440,
+          "end_word": 480,
+          "word_count": 40
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "construction, or development of infrastructure relating to broadband service or broadband technology where the action taken is to provide access as the owner of the existing rights-of-way, utility easements, or telecommunications infrastructure.\" SECTION 6. There is appropriated out of the general revenues of the State of Hawaii the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 to be deposited into the broadband revolving fund under section 27-E, Hawaii Revised Statutes . SECTION 7. There is appropriated out of the br oadband revolving fund the sum of $200,000 or so much thereof as may be",
+        "number": 200000.0,
+        "filename": "HB934_CD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "the State of Hawaii the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 to be deposited into the broadband revolving fund under section 27-E, Hawaii Revised Statutes . SECTION 7. There is appropriated out of the br oadband revolving fund the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 for the reimbursement of contracts executed by the broadband office. The sum appropriated shall be expended by the broadband office for the purposes of this Act. SECTION 8. There is appropriated out of the br oadband revolving fund",
+        "number": 200000.0,
+        "filename": "HB934_CD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "thereof as may be necessary for fiscal year 2025-2026 for the reimbursement of contracts executed by the broadband office. The sum appropriated shall be expended by the broadband office for the purposes of this Act. SECTION 8. There is appropriated out of the br oadband revolving fund the sum of $800,000 or so much thereof as may be necessary for fiscal year 2025-2026 for the establishment of: (1) Two full-time equivalent (2.0 FTE) digital navigator positions on Hawaii island; (2) One full-time equivalent (1.0 FTE) digital navigator position on Oahu; (3) One full-time equivalent (1.0 FTE) digital navigator position on Kauai;",
+        "number": 800000.0,
+        "filename": "HB934_CD1_.HTM.txt",
+        "document_type": "document"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:55:00.010295",
+  "generation_timestamp_unix": 1760147700.010303
+}

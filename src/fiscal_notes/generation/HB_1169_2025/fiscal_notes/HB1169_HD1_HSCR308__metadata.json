@@ -1,0 +1,578 @@
+{
+  "document_name": "HB1169_HD1_HSCR308_",
+  "new_documents_processed": [
+    "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+    "HB1169_HD1",
+    "HB1169_HD1_HSCR308_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB1169",
+    "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+    "HB1169_HD1",
+    "HB1169_HD1_HSCR308_"
+  ],
+  "numbers_used": 0,
+  "prompt_length": 14441,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"The purpose of this measure is to repeal the existing Conference Center Revolving Fund, University of Hawaii at Hilo, and the Community College Conference Center Revolving Fund (HB1169_HD1_HSCR308_). It will establish a new University of Hawaii Conference Center Revolving Fund to facilitate the administration of conference center programs among various campuses and operating units of the University of Hawaii System (HB1169_HD1_HSCR308_). The measure has been amended by changing the effective date to July 1, 3000, to encourage further discussion (HB1169_HD1_HSCR308_).\",\n\"appropriations\": \"This measure will transfer all appropriations and encumbrances of the Conference Center Revolving Fund, University of Hawaii at Hilo, and the Community College Conference Center Revolving Fund to the new University of Hawaii Conference Center Revolving Fund (HB1169_HD1_HSCR308_). It will also appropriate funds out of the University of Hawaii Conference Center Revolving Fund (HB1169_HD1_HSCR308_).\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The University of Hawai‘i (UH) supports HB 1169 (HB1169_TESTIMONY_HED-EDN_02-05-25_). This bill would create one UH Conference Center Revolving Fund and each campus would have accounts within this overarching fund, which would allow all campuses to standardize conference center programs (HB1169_TESTIMONY_HED-EDN_02-05-25_). This structure is similar to many other UH funds, including the Tuition and Fees Special Fund, the Auxiliary Enterprises Special Fund, and the Student Activities Revolving Fund (HB1169_TESTIMONY_HED-EDN_02-05-25_).\",\n\"economic_impact\": \"Establishing a single conference center revolving fund within the University of Hawaii System would standardize implementation of conference center programs across the various campuses (HB1169_HD1_HSCR308_). This would thereby increase access to conference center usage on University of Hawaii campuses (HB1169_HD1_HSCR308_).\",\n\"policy_impact\": \"This measure repeals the existing Conference Center Revolving Fund, University of Hawaii at Hilo, and the Community College Conference Center Revolving Fund (HB1169_HD1_HSCR308_). It has been amended by clarifying that all unencumbered funds in the existing funds shall lapse to the new University of Hawaii Conference Center Revolving Fund on the effective date of this measure (HB1169_HD1_HSCR308_). A significant amendment changes the effective date to July 1, 3000, to encourage further discussion (HB1169_HD1_HSCR308_).\",\n\"revenue_sources\": \"The new fund's initial revenues will come from the transfer of all appropriations and encumbrances of the Conference Center Revolving Fund, University of Hawaii at Hilo, and the Community College Conference Center Revolving Fund (HB1169_HD1_HSCR308_). The measure clarifies that all unencumbered funds in the two existing conference center revolving funds shall lapse to the University of Hawaii Conference Center Revolving Fund on the effective date of this measure (HB1169_HD1_HSCR308_).\",\n\"six_year_fiscal_implications\": \"The measure has been amended by changing the effective date to July 1, 3000 (HB1169_HD1_HSCR308_). As a result, there are no fiscal implications for this measure within the next six years.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"Due to the amended effective date of July 1, 3000, there are no fiscal implications until that time (HB1169_HD1_HSCR308_).\",\n\"updates_from_previous_fiscal_note\": \"The updated measure specifies the exact funds to be repealed: the Conference Center Revolving Fund, University of Hawaii at Hilo, and the Community College Conference Center Revolving Fund (HB1169_HD1_HSCR308_). It clarifies that all appropriations, encumbrances, and unencumbered funds from these repealed funds will be transferred to the new University of Hawaii Conference Center Revolving Fund (HB1169_HD1_HSCR308_). A significant amendment has changed the bill's effective date to July 1, 3000, to encourage further discussion, thus delaying any fiscal impact (HB1169_HD1_HSCR308_). Testimony from the University of Hawai'i System indicates the new fund's structure will be similar to other existing UH funds and is expected to increase access to conference center usage on its campuses (HB1169_HD1_HSCR308_).\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 5320,
+      "candidates_token_count": 1138,
+      "total_token_count": 8353
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"The purpose of this measure is to repeal the existing Conference Center Revolving Fund, University of Hawaii at Hilo, and the Community College Conference Center Revolving Fund (HB1169_HD1_HSCR308_). It will establish a new University of Hawaii Conference Center Revolving Fund to facilitate the administration of conference center programs among various campuses and operating units of the University of Hawaii System (HB1169_HD1_HSCR308_). The measure has been amended by changing the effective date to July 1, 3000, to encourage further discussion (HB1169_HD1_HSCR308_).\",\n\"appropriations\": \"This measure will transfer all appropriations and encumbrances of the Conference Center Revolving Fund, University of Hawaii at Hilo, and the Community College Conference Center Revolving Fund to the new University of Hawaii Conference Center Revolving Fund (HB1169_HD1_HSCR308_). It will also appropriate funds out of the University of Hawaii Conference Center Revolving Fund (HB1169_HD1_HSCR308_).\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The University of Hawai‘i (UH) supports HB 1169 (HB1169_TESTIMONY_HED-EDN_02-05-25_). This bill would create one UH Conference Center Revolving Fund and each campus would have accounts within this overarching fund, which would allow all campuses to standardize conference center programs (HB1169_TESTIMONY_HED-EDN_02-05-25_). This structure is similar to many other UH funds, including the Tuition and Fees Special Fund, the Auxiliary Enterprises Special Fund, and the Student Activities Revolving Fund (HB1169_TESTIMONY_HED-EDN_02-05-25_).\",\n\"economic_impact\": \"Establishing a single conference center revolving fund within the University of Hawaii System would standardize implementation of conference center programs across the various campuses (HB1169_HD1_HSCR308_). This would thereby increase access to conference center usage on University of Hawaii campuses (HB1169_HD1_HSCR308_).\",\n\"policy_impact\": \"This measure repeals the existing Conference Center Revolving Fund, University of Hawaii at Hilo, and the Community College Conference Center Revolving Fund (HB1169_HD1_HSCR308_). It has been amended by clarifying that all unencumbered funds in the existing funds shall lapse to the new University of Hawaii Conference Center Revolving Fund on the effective date of this measure (HB1169_HD1_HSCR308_). A significant amendment changes the effective date to July 1, 3000, to encourage further discussion (HB1169_HD1_HSCR308_).\",\n\"revenue_sources\": \"The new fund's initial revenues will come from the transfer of all appropriations and encumbrances of the Conference Center Revolving Fund, University of Hawaii at Hilo, and the Community College Conference Center Revolving Fund (HB1169_HD1_HSCR308_). The measure clarifies that all unencumbered funds in the two existing conference center revolving funds shall lapse to the University of Hawaii Conference Center Revolving Fund on the effective date of this measure (HB1169_HD1_HSCR308_).\",\n\"six_year_fiscal_implications\": \"The measure has been amended by changing the effective date to July 1, 3000 (HB1169_HD1_HSCR308_). As a result, there are no fiscal implications for this measure within the next six years.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"Due to the amended effective date of July 1, 3000, there are no fiscal implications until that time (HB1169_HD1_HSCR308_).\",\n\"updates_from_previous_fiscal_note\": \"The updated measure specifies the exact funds to be repealed: the Conference Center Revolving Fund, University of Hawaii at Hilo, and the Community College Conference Center Revolving Fund (HB1169_HD1_HSCR308_). It clarifies that all appropriations, encumbrances, and unencumbered funds from these repealed funds will be transferred to the new University of Hawaii Conference Center Revolving Fund (HB1169_HD1_HSCR308_). A significant amendment has changed the bill's effective date to July 1, 3000, to encourage further discussion, thus delaying any fiscal impact (HB1169_HD1_HSCR308_). Testimony from the University of Hawai'i System indicates the new fund's structure will be similar to other existing UH funds and is expected to increase access to conference center usage on its campuses (HB1169_HD1_HSCR308_).\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"The purpose of this measure is to repeal the existing Conference Center Revolving Fund, University of Hawaii at Hilo, and the Community College Conference Center Revolving Fund (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 13,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7222222222222222,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.722)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It will establish a new University of Hawaii Conference Center Revolving Fund to facilitate the administration of conference center programs among various campuses and operating units of the University of Hawaii System (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 14,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.9523809523809523,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.952)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure has been amended by changing the effective date to July 1, 3000, to encourage further discussion (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 19,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.9,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.900)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"This measure will transfer all appropriations and encumbrances of the Conference Center Revolving Fund, University of Hawaii at Hilo, and the Community College Conference Center Revolving Fund to the new University of Hawaii Conference Center Revolving Fund (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 15,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8461538461538461,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.846)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It will also appropriate funds out of the University of Hawaii Conference Center Revolving Fund (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 15,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.9,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.900)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The University of Hawai‘i (UH) supports HB 1169 (HB1169_TESTIMONY_HED-EDN_02-05-25_)",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This bill would create one UH Conference Center Revolving Fund and each campus would have accounts within this overarching fund, which would allow all campuses to standardize conference center programs (HB1169_TESTIMONY_HED-EDN_02-05-25_)",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.9523809523809523,
+          "attribution_reason": "Document citation + word frequency: HB1169_TESTIMONY_HED-EDN_02-05-25_ (score: 0.952)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This structure is similar to many other UH funds, including the Tuition and Fees Special Fund, the Auxiliary Enterprises Special Fund, and the Student Activities Revolving Fund (HB1169_TESTIMONY_HED-EDN_02-05-25_)",
+          "attributed_chunk_id": 4,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8888888888888888,
+          "attribution_reason": "Document citation + word frequency: HB1169_TESTIMONY_HED-EDN_02-05-25_ (score: 0.889)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"Establishing a single conference center revolving fund within the University of Hawaii System would standardize implementation of conference center programs across the various campuses (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 17,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.9473684210526315,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.947)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This would thereby increase access to conference center usage on University of Hawaii campuses (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 17,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8888888888888888,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.889)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"policy_impact\": \"This measure repeals the existing Conference Center Revolving Fund, University of Hawaii at Hilo, and the Community College Conference Center Revolving Fund (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 18,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7647058823529411,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.765)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It has been amended by clarifying that all unencumbered funds in the existing funds shall lapse to the new University of Hawaii Conference Center Revolving Fund on the effective date of this measure (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 18,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8333333333333334,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.833)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "A significant amendment changes the effective date to July 1, 3000, to encourage further discussion (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 19,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.700)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"The new fund's initial revenues will come from the transfer of all appropriations and encumbrances of the Conference Center Revolving Fund, University of Hawaii at Hilo, and the Community College Conference Center Revolving Fund (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 15,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7083333333333334,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.708)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure clarifies that all unencumbered funds in the two existing conference center revolving funds shall lapse to the University of Hawaii Conference Center Revolving Fund on the effective date of this measure (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 18,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7619047619047619,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.762)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"six_year_fiscal_implications\": \"The measure has been amended by changing the effective date to July 1, 3000 (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 19,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.625)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "As a result, there are no fiscal implications for this measure within the next six years",
+          "attributed_chunk_id": 16,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2222222222222222,
+          "attribution_reason": "Word frequency match score: 0.222",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"Due to the amended effective date of July 1, 3000, there are no fiscal implications until that time (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 19,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.286)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"The updated measure specifies the exact funds to be repealed: the Conference Center Revolving Fund, University of Hawaii at Hilo, and the Community College Conference Center Revolving Fund (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 18,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.700)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It clarifies that all appropriations, encumbrances, and unencumbered funds from these repealed funds will be transferred to the new University of Hawaii Conference Center Revolving Fund (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 18,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5294117647058824,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.529)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "A significant amendment has changed the bill's effective date to July 1, 3000, to encourage further discussion, thus delaying any fiscal impact (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 19,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.375)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "Testimony from the University of Hawai'i System indicates the new fund's structure will be similar to other existing UH funds and is expected to increase access to conference center usage on its campuses (HB1169_HD1_HSCR308_)",
+          "attributed_chunk_id": 16,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.42857142857142855,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.429)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 0,
+          "document_name": "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+          "attribution_reasons": []
+        },
+        "1": {
+          "usage_count": 1,
+          "document_name": "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.667"
+          ]
+        },
+        "2": {
+          "usage_count": 0,
+          "document_name": "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+          "attribution_reasons": []
+        },
+        "3": {
+          "usage_count": 1,
+          "document_name": "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1169_TESTIMONY_HED-EDN_02-05-25_ (score: 0.952)"
+          ]
+        },
+        "4": {
+          "usage_count": 1,
+          "document_name": "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1169_TESTIMONY_HED-EDN_02-05-25_ (score: 0.889)"
+          ]
+        },
+        "5": {
+          "usage_count": 0,
+          "document_name": "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+          "attribution_reasons": []
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB1169_HD1",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB1169_HD1",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB1169_HD1",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB1169_HD1",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB1169_HD1",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB1169_HD1",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 1,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.722)"
+          ]
+        },
+        "14": {
+          "usage_count": 1,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.952)"
+          ]
+        },
+        "15": {
+          "usage_count": 3,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.846)",
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.900)",
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.708)"
+          ]
+        },
+        "16": {
+          "usage_count": 2,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.222",
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.429)"
+          ]
+        },
+        "17": {
+          "usage_count": 2,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.947)",
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.889)"
+          ]
+        },
+        "18": {
+          "usage_count": 5,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.765)",
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.833)",
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.762)",
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.700)",
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.529)"
+          ]
+        },
+        "19": {
+          "usage_count": 5,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.900)",
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.700)",
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.625)",
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.286)",
+            "Document citation + word frequency: HB1169_HD1_HSCR308_ (score: 0.375)"
+          ]
+        },
+        "20": {
+          "usage_count": 0,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "attribution_reasons": []
+        },
+        "21": {
+          "usage_count": 0,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "attribution_reasons": []
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 20,
+        "number_based": 0,
+        "word_frequency_based": 2,
+        "semantic_similarity": 0,
+        "fallback": 0,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 22,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+          "chunk_text": "UNIVERSITY OF HAWAI‘I SYSTEM ʻŌNAEHANA KULANUI O HAWAIʻI Legislative Testimony Hōʻike Manaʻo I Mua O Ka ʻAhaʻōlelo _____________________________________________________________ Testimony Presented Before the House Committee on Higher Education February 5, 2025 at 2:00 p.m. By Kalbert K. Young Vice President for Budget and Finance/Chief Financial Officer University of Hawai‘i System HB",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+          "chunk_text": "Budget and Finance/Chief Financial Officer University of Hawai‘i System HB 1169 – RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND Chair Garrett, Vice Chair Amato, and Members of the Committee: Thank you for the opportunity to present testimony today. The University of Hawai‘i (UH) supports HB 1169, Relating to",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+          "chunk_text": "The University of Hawai‘i (UH) supports HB 1169, Relating to University of Hawaii Conference Center Revolving Fund. This bill establishes the University of Hawai‘i Conference Center Revolving Fund and accounts under the fund to facilitate the administration of the fund for conference center programs among various campuses and operating units",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+          "chunk_text": "for conference center programs among various campuses and operating units of the UH system. Conference Center Revolving Funds already exist for the Community Colleges and UH-Hilo. This bill would create one UH Conference Center Revolving Fund and each campus would have accounts within this overarching fund, which would allow all",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+          "chunk_text": "have accounts within this overarching fund, which would allow all campuses to standardize conference center programs across all campuses while eliminating unnecessary duplication of statutes. This structure is similar to many other UH funds, including the Tuition and Fees Special Fund, the Auxiliary Enterprises Special Fund, and the Student Activities",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+          "chunk_text": "Fund, the Auxiliary Enterprises Special Fund, and the Student Activities Revolving Fund. Thank you for this opportunity to testify.",
+          "start_word": 200,
+          "end_word": 219,
+          "word_count": 19
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB1169_HD1",
+          "chunk_text": "UNIVERSITY OF HAWAI‘I SYSTEM ʻŌNAEHANA KULANUI O HAWAIʻI Legislative Testimony Hōʻike Manaʻo I Mua O Ka ʻAhaʻōlelo _____________________________________________________________ Testimony Presented Before the House Committee on Finance February 21, 2025 at 10:00 a.m. By Kalbert K. Young Vice President for Budget and Finance/Chief Financial Officer University of Hawai‘i System HB 1169",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB1169_HD1",
+          "chunk_text": "and Finance/Chief Financial Officer University of Hawai‘i System HB 1169 HD1 – RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND Chair Yamashita, Vice Chair Takenouchi, and Members of the Committee: Thank you for the opportunity to present testimony today. The University of Hawai‘i (UH) supports HB 1169 HD1, Relating",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB1169_HD1",
+          "chunk_text": "The University of Hawai‘i (UH) supports HB 1169 HD1, Relating to University of Hawaii Conference Center Revolving Fund. This bill establishes the University of Hawaii Conference Center Revolving Fund and accounts under the fund to facilitate the administration of the fund for conference center programs among various campuses and operating",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB1169_HD1",
+          "chunk_text": "fund for conference center programs among various campuses and operating units of the UH system. Conference Center Revolving Funds already exist for the Community Colleges and UH-Hilo. This bill would create one UH Conference Center Revolving Fund and each campus would have accounts within this overarching fund, which would allow",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB1169_HD1",
+          "chunk_text": "would have accounts within this overarching fund, which would allow all campuses to standardize conference center programs across all campuses while eliminating unnecessary duplication of statutes. This structure is similar to many other UH funds, including the Tuition and Fees Special Fund, the Auxiliary Enterprises Special Fund, and the Student",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB1169_HD1",
+          "chunk_text": "Special Fund, the Auxiliary Enterprises Special Fund, and the Student Activities Revolving Fund. Thank you for this opportunity to testify.",
+          "start_word": 200,
+          "end_word": 220,
+          "word_count": 20
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "chunk_text": "HSCR308 STAND. COM. REP. NO. 308 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Higher Education, to which was referred H.B. No. 1169 entitled: \"A BILL",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "chunk_text": "to which was referred H.B. No. 1169 entitled: \"A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND,\" begs leave to report as follows: The purpose of this measure is to: (1) Repeal the existing Conference Center Revolving Fund, University of Hawaii at Hilo; and the",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "chunk_text": "Center Revolving Fund, University of Hawaii at Hilo; and the Community College Conference Center Revolving Fund; (2) Establish a new University of Hawaii Conference Center Revolving Fund to facilitate the administration of the revolving fund for conference center programs among various campuses and operating units of the University of Hawaii",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "chunk_text": "various campuses and operating units of the University of Hawaii System; (3) Transfer all appropriations and encumbrances of the Conference Center Revolving Fund, University of Hawaii at Hilo; and the Community College Conference Center Revolving Fund to the University of Hawaii Conference Center Revolving Fund; and (4) Appropriate funds out",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "chunk_text": "Hawaii Conference Center Revolving Fund; and (4) Appropriate funds out of the University of Hawaii Conference Center Revolving Fund. Your Committee received testimony in support of this measure from the University of Hawai ʻ i System. Your Committee finds that establishing a single conference center revolving fund within the University",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "chunk_text": "establishing a single conference center revolving fund within the University of Hawaii System would standardize implementation of conference center programs across the various campuses of the University of Hawaii System, thereby increasing access to conference center usage on University of Hawaii campuses. Your Committee has amended this measure by: (1)",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "chunk_text": "Hawaii campuses. Your Committee has amended this measure by: (1) Clarifying that all unencumbered funds in the Conference Center Revolving Fund, University of Hawaii at Hilo; and the Community College Conference Center Revolving Fund shall lapse to the University of Hawaii Conference Center Revolving Fund on the effective date of",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "chunk_text": "Hawaii Conference Center Revolving Fund on the effective date of this measure; (2) Changing the effective date to July 1, 3000, to encourage further discussion; and (3) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed by the record of votes of the members of",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "chunk_text": "affirmed by the record of votes of the members of your Committee on Higher Education that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1169, as amended herein, and recommends that it pass Second Reading in the form attached hereto",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB1169_HD1_HSCR308_",
+          "chunk_text": "that it pass Second Reading in the form attached hereto as H.B. No. 1169, H.D. 1, and be referred to your Committee on Finance. Respectfully submitted on behalf of the members of the Committee on Higher Education, ____________________________ ANDREW TAKUYA GARRETT, Chair",
+          "start_word": 360,
+          "end_word": 402,
+          "word_count": 42
+        }
+      ]
+    },
+    "numbers_data": []
+  },
+  "generation_timestamp": "2025-10-10T14:41:37.252220",
+  "generation_timestamp_unix": 1760143297.252231
+}

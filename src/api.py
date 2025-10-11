@@ -7,6 +7,7 @@ import os
 from pathlib import Path
 import json
 import google.generativeai as genai
+from document_type_classifier import classify_document_type, get_document_type_description, get_document_type_icon
 from tqdm import tqdm
 import logging
 from datetime import datetime
@@ -1371,73 +1372,213 @@ def process_fiscal_note_references(fiscal_note_data, document_mapping):
     
     return processed_data
 
-def process_fiscal_note_references_structured(fiscal_note_data, document_mapping):
+def process_fiscal_note_references_structured(fiscal_note_data, document_mapping, numbers_data=None, chunks_data=None, sentence_attributions=None, global_amount_to_citation=None, global_next_citation_number=None):
     """
     Process fiscal note data to replace filename references with structured document references for React frontend.
     Includes chunk reference information if available.
+    Also processes financial citations to replace with interactive markers.
     """
     import re
     import json
     
-    def get_document_info(doc_name):
-        """
-        Get document URL and type information based on document name.
-        Returns tuple: (url, document_type, description)
-        """
-        base_url = "https://www.capitol.hawaii.gov/sessions/session2025"
-        
-        # Check document type based on filename patterns
-        if "TESTIMONY" in doc_name.upper():
-            url = f"{base_url}/Testimony/{doc_name}.PDF"
-            return url, "Testimony", f"Public testimony document"
-        elif doc_name.startswith(("HB", "SB")) and not any(pattern in doc_name.upper() for pattern in ["TESTIMONY", "HSCR", "CCR", "SSCR"]):
-            # This is a bill version (original or amended)
-            url = f"{base_url}/bills/{doc_name}_.HTM"
-            if any(suffix in doc_name for suffix in ["_HD", "_SD", "_CD"]):
-                return url, "Version of Bill", f"Amended version of the bill"
-            else:
-                return url, "Version of Bill", f"Original version of the bill"
-        else:
-            # Default fallback - assume committee report
-            url = f"{base_url}/CommReports/{doc_name}.htm"
-            return url, "Committee Report", f"Legislative committee report"
     
-    def get_chunk_info_for_reference(field_name, reference_content):
+    # Use global citation mapping if provided, otherwise create local one
+    if global_amount_to_citation is not None and global_next_citation_number is not None:
+        amount_to_citation = global_amount_to_citation
+        next_citation_number = global_next_citation_number
+    else:
+        amount_to_citation = {}
+        next_citation_number = max(document_mapping.values()) + 1 if document_mapping else 1
+    
+    # Map citation numbers to specific financial amounts
+    number_citation_map = {}
+    
+    def replace_financial_citations(text):
         """
-        Get chunk information for a specific reference if available.
+        Replace financial citations like $514,900 (filename) with $514,900 [5]
         """
-        chunk_field_name = f"{field_name}_chunk_references"
-        if chunk_field_name in fiscal_note_data:
-            chunk_references = fiscal_note_data[chunk_field_name]
+        if not isinstance(text, str):
+            return text
+        
+        # Pattern to match financial amounts with parenthetical citations
+        # Matches: $514,900 (filename.txt) or $557,000 (filename)
+        # Also matches: $10,000 fine and/or up to five years imprisonment (filename)
+        pattern = r'\$([0-9,]+(?:\.[0-9]+)?)(?:\s+[^()]*?)?\s*\(([^)]+)\)'
+        
+        def replacement(match):
+            nonlocal next_citation_number
+            full_match = match.group(0)
+            amount_str = match.group(1).replace(',', '')
+            filename = match.group(2)
             
-            # Look for chunk info matching this reference
-            for sentence_mapping in chunk_references:
-                chunk_matches = sentence_mapping.get('chunk_matches', {})
-                if reference_content in chunk_matches:
-                    chunk_info = chunk_matches[reference_content]
-                    chunk_data = chunk_info.get('chunk', {})
-                    
-                    # Return chunk information
-                    return {
-                        'chunk_id': chunk_data.get('id', 0),
-                        'chunk_text': chunk_data.get('text', ''),
-                        'similarity_score': chunk_data.get('similarity_score', 0.0),
-                        'token_count': chunk_data.get('token_count', 0)
-                    }
-                # Try partial matching if exact match not found
-                for ref_key in chunk_matches.keys():
-                    if reference_content in ref_key or ref_key in reference_content:
-                        chunk_info = chunk_matches[ref_key]
-                        chunk_data = chunk_info.get('chunk', {})
+            # Extract the text between the dollar amount and the parentheses
+            dollar_part = f"${match.group(1)}"
+            citation_part = f"({filename})"
+            middle_text = full_match.replace(dollar_part, "").replace(citation_part, "").strip()
+            
+            try:
+                amount = float(amount_str)
+                
+                # Find matching numbers_data item
+                matching_item = None
+                if numbers_data:
+                    for item in numbers_data:
+                        if abs(item.get('number', 0) - amount) < 0.01:  # Handle floating point precision
+                            matching_item = item
+                            break
+                
+                # Find the document name for URL generation
+                base_filename = filename.replace('.txt', '')
+                document_name = base_filename
+                for doc_name in document_mapping.keys():
+                    if base_filename.startswith(doc_name):
+                        document_name = doc_name
+                        break
+                
+                # Create a key for this amount and document combination
+                amount_key = (amount, document_name)
+                
+                # Check if we already have a citation number for this amount
+                if amount_key in amount_to_citation:
+                    citation_num = amount_to_citation[amount_key]
+                else:
+                    # Create new citation number for this amount
+                    citation_num = next_citation_number
+                    next_citation_number += 1
+                    amount_to_citation[amount_key] = citation_num
+                
+                # Store the citation mapping with specific amount data
+                number_citation_map[citation_num] = {
+                    'amount': amount,
+                    'filename': filename,
+                    'document_name': document_name,
+                    'data': matching_item
+                }
+                
+                # Format the amount with commas for display
+                formatted_amount = f"{int(amount):,}" if amount == int(amount) else f"{amount:,.2f}".rstrip('0').rstrip('.')
+                
+                # Return the replacement text with unique citation marker, preserving middle text
+                if middle_text:
+                    return f"${formatted_amount} {middle_text} [{citation_num}]"
+                else:
+                    return f"${formatted_amount} [{citation_num}]"
+            except ValueError:
+                # If amount parsing fails, return original
+                return match.group(0)
+        
+        return re.sub(pattern, replacement, text)
+    
+    # Create chunk text mapping for document citations using sentence attributions
+    chunk_text_map = {}
+    if chunks_data and sentence_attributions:
+        # Create a mapping from chunk_id to chunk_text
+        chunk_id_to_text = {}
+        for chunk in chunks_data:
+            chunk_id_to_text[chunk['chunk_id']] = chunk['chunk_text']
+        
+        # Group sentence attributions by document mapping numbers
+        # We'll use the document mapping to determine which chunks belong to which citation numbers
+        for doc_name, doc_num in document_mapping.items():
+            if doc_num not in chunk_text_map:
+                chunk_text_map[doc_num] = []
+        
+        # Process sentence attributions to collect chunk text for each document
+        for attribution in sentence_attributions:
+            attributed_chunk_id = attribution.get('attributed_chunk_id')
+            
+            # Skip NUMBER_ attributions as they're handled separately
+            if isinstance(attributed_chunk_id, str) and attributed_chunk_id.startswith('NUMBER_'):
+                continue
+                
+            # Get chunk text for regular chunk IDs
+            if attributed_chunk_id in chunk_id_to_text:
+                chunk_text = chunk_id_to_text[attributed_chunk_id]
+                
+                # Extract document name from the sentence (look for document citations)
+                sentence = attribution.get('sentence', '')
+                doc_citation_pattern = r'\(([^)]+)\)'
+                matches = re.findall(doc_citation_pattern, sentence)
+                
+                # If no explicit document citation in sentence, try to match by chunk document name
+                if not matches:
+                    # Find which document this chunk belongs to
+                    chunk_info = next((c for c in chunks_data if c['chunk_id'] == attributed_chunk_id), None)
+                    if chunk_info:
+                        chunk_doc_name = chunk_info.get('document_name', '')
+                        # Try to match chunk document name to document mapping
+                        # Prioritize exact matches, then longest partial matches
+                        best_match = None
+                        best_match_length = 0
                         
-                        # Return chunk information
-                        return {
-                            'chunk_id': chunk_data.get('id', 0),
-                            'chunk_text': chunk_data.get('text', ''),
-                            'similarity_score': chunk_data.get('similarity_score', 0.0),
-                            'token_count': chunk_data.get('token_count', 0)
-                        }
-        return None
+                        for doc_name, doc_num in document_mapping.items():
+                            if chunk_doc_name == doc_name:
+                                # Exact match - use this immediately
+                                best_match = (doc_name, doc_num)
+                                break
+                            elif (chunk_doc_name.startswith(doc_name) or doc_name.startswith(chunk_doc_name)):
+                                # Partial match - keep track of longest match
+                                match_length = len(doc_name) if chunk_doc_name.startswith(doc_name) else len(chunk_doc_name)
+                                if match_length > best_match_length:
+                                    best_match = (doc_name, doc_num)
+                                    best_match_length = match_length
+                        
+                        if best_match:
+                            doc_name, doc_num = best_match
+                            chunk_text_map[doc_num].append({
+                                'chunk_text': chunk_text,
+                                'attribution_score': attribution.get('attribution_score', 0.0),
+                                'attribution_method': attribution.get('attribution_method', 'unknown'),
+                                'sentence': sentence[:100] + '...' if len(sentence) > 100 else sentence
+                            })
+                else:
+                    # Process explicit document citations in the sentence
+                    for match in matches:
+                        # Find the document mapping number for this citation
+                        # Prioritize exact matches, then longest partial matches
+                        best_match = None
+                        best_match_length = 0
+                        
+                        for doc_name, doc_num in document_mapping.items():
+                            if match == doc_name:
+                                # Exact match - use this immediately
+                                best_match = (doc_name, doc_num)
+                                break
+                            elif (match.startswith(doc_name) or doc_name.startswith(match)):
+                                # Partial match - keep track of longest match
+                                match_length = len(doc_name) if match.startswith(doc_name) else len(match)
+                                if match_length > best_match_length:
+                                    best_match = (doc_name, doc_num)
+                                    best_match_length = match_length
+                        
+                        if best_match:
+                            doc_name, doc_num = best_match
+                            chunk_text_map[doc_num].append({
+                                'chunk_text': chunk_text,
+                                'attribution_score': attribution.get('attribution_score', 0.0),
+                                'attribution_method': attribution.get('attribution_method', 'unknown'),
+                                'sentence': sentence[:100] + '...' if len(sentence) > 100 else sentence
+                            })
+        
+        # Debug: Print detailed chunk text mapping analysis
+        print(f"📊 Chunk text mapping analysis for fiscal note:")
+        print(f"   - Chunks data available: {len(chunks_data) if chunks_data else 0}")
+        print(f"   - Sentence attributions available: {len(sentence_attributions) if sentence_attributions else 0}")
+        
+        if sentence_attributions:
+            print(f"   - Sample sentence attribution:")
+            sample_attr = sentence_attributions[0] if sentence_attributions else {}
+            print(f"     Sentence: {sample_attr.get('sentence', '')[:100]}...")
+            print(f"     Chunk ID: {sample_attr.get('attributed_chunk_id', 'N/A')}")
+            print(f"     Method: {sample_attr.get('attribution_method', 'N/A')}")
+        
+        print(f"📊 Chunk text mapping created:")
+        for doc_num, chunks in chunk_text_map.items():
+            doc_name = next((name for name, num in document_mapping.items() if num == doc_num), f"Document {doc_num}")
+            print(f"  [{doc_num}] {doc_name}: {len(chunks)} chunks")
+            for i, chunk in enumerate(chunks[:1]):  # Show first chunk
+                print(f"    {i+1}. Score: {chunk['attribution_score']:.3f}, Method: {chunk['attribution_method']}")
+                print(f"       Text: {chunk['chunk_text'][:60]}...")
     
     def replace_filename_with_structured_reference(text, field_name=""):
         if not isinstance(text, str):
@@ -1449,47 +1590,39 @@ def process_fiscal_note_references_structured(fiscal_note_data, document_mapping
         def replacement(match):
             content = match.group(1)
             
+            # Skip single-digit citations - these are list items, not document references
+            if content.isdigit() and len(content) <= 2:
+                return match.group(0)  # Return original (1), (2), etc.
+            
+            # Skip single letters - these are also likely list items
+            if len(content) == 1 and content.isalpha():
+                return match.group(0)  # Return original (a), (b), etc.
+            
             # Look for the content in the document mapping (exact match first)
             for doc_name, doc_number in document_mapping.items():
                 if doc_name == content:
-                    url, doc_type, description = get_document_info(doc_name)
-                    
-                    # Get chunk information if available
-                    chunk_info = get_chunk_info_for_reference(field_name, content)
-                    
-                    # Use a simple pipe-separated format to avoid JSON parsing issues
-                    # Format: number|url|type|name|description|chunk_text|similarity_score
-                    safe_description = description.replace('|', '&#124;')  # Escape pipes in description
-                    safe_name = doc_name.replace('|', '&#124;')  # Escape pipes in name
-                    safe_type = doc_type.replace('|', '&#124;')  # Escape pipes in type
-                    
-                    if chunk_info:
-                        safe_chunk_text = chunk_info['chunk_text'].replace('|', '&#124;')[:200]  # Limit chunk text length
-                        similarity_score = chunk_info['similarity_score']
-                        return f'{{DOCREF:{doc_number}|{url}|{safe_type}|{safe_name}|{safe_description}|{safe_chunk_text}|{similarity_score:.3f}}}'
-                    else:
-                        return f'{{DOCREF:{doc_number}|{url}|{safe_type}|{safe_name}|{safe_description}|||}}'
+                    # Return simple [number] citation format instead of DOCREF
+                    return f'[{doc_number}]'
             
-            # Try partial matches - check if content contains any document name
+            # Try partial matches - find the LONGEST/MOST SPECIFIC match
+            best_match = None
+            best_match_length = 0
+            
             for doc_name, doc_number in document_mapping.items():
-                if doc_name in content or content in doc_name:
-                    url, doc_type, description = get_document_info(doc_name)
-                    
-                    # Get chunk information if available
-                    chunk_info = get_chunk_info_for_reference(field_name, content)
-                    
-                    # Use a simple pipe-separated format to avoid JSON parsing issues
-                    # Format: number|url|type|name|description|chunk_text|similarity_score
-                    safe_description = description.replace('|', '&#124;')  # Escape pipes in description
-                    safe_name = doc_name.replace('|', '&#124;')  # Escape pipes in name
-                    safe_type = doc_type.replace('|', '&#124;')  # Escape pipes in type
-                    
-                    if chunk_info:
-                        safe_chunk_text = chunk_info['chunk_text'].replace('|', '&#124;')[:200]  # Limit chunk text length
-                        similarity_score = chunk_info['similarity_score']
-                        return f'{{DOCREF:{doc_number}|{url}|{safe_type}|{safe_name}|{safe_description}|{safe_chunk_text}|{similarity_score:.3f}}}'
-                    else:
-                        return f'{{DOCREF:{doc_number}|{url}|{safe_type}|{safe_name}|{safe_description}|||}}'
+                # Check if document name is contained in the citation content
+                if doc_name in content:
+                    # Prioritize longer matches (more specific)
+                    if len(doc_name) > best_match_length:
+                        best_match = (doc_name, doc_number)
+                        best_match_length = len(doc_name)
+                # Also check reverse (citation content in document name) but with lower priority
+                elif content in doc_name and len(content) > best_match_length:
+                    best_match = (doc_name, doc_number)
+                    best_match_length = len(content)
+            
+            if best_match:
+                doc_name, doc_number = best_match
+                return f'[{doc_number}]'
             
             # If not found, return original
             return match.group(0)
@@ -1500,18 +1633,25 @@ def process_fiscal_note_references_structured(fiscal_note_data, document_mapping
     processed_data = {}
     for key, value in fiscal_note_data.items():
         if isinstance(value, str):
-            processed_data[key] = replace_filename_with_structured_reference(value, key)
+            # First replace financial citations, then document citations
+            processed_value = replace_financial_citations(value)
+            processed_data[key] = replace_filename_with_structured_reference(processed_value, key)
         elif isinstance(value, dict):
-            processed_data[key] = process_fiscal_note_references_structured(value, document_mapping)
+            processed_data[key] = process_fiscal_note_references_structured(value, document_mapping, numbers_data, chunks_data, sentence_attributions, global_amount_to_citation, global_next_citation_number)
         elif isinstance(value, list):
             processed_data[key] = [
-                process_fiscal_note_references_structured(item, document_mapping) if isinstance(item, dict)
-                else replace_filename_with_structured_reference(item, key) if isinstance(item, str)
+                process_fiscal_note_references_structured(item, document_mapping, numbers_data, chunks_data, sentence_attributions, global_amount_to_citation, global_next_citation_number) if isinstance(item, dict)
+                else replace_filename_with_structured_reference(replace_financial_citations(item), key) if isinstance(item, str)
                 else item
                 for item in value
             ]
         else:
             processed_data[key] = value
+    
+    # Add the number citation mapping to the processed data
+    processed_data['_number_citation_map'] = number_citation_map
+    processed_data['_chunk_text_map'] = chunk_text_map
+    processed_data['_updated_next_citation_number'] = next_citation_number
     
     return processed_data
 
@@ -1728,6 +1868,26 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
             except Exception as e:
                 print(f"Error saving document mapping: {e}")
         
+        # Create enhanced document mapping with type information
+        enhanced_document_mapping = {}
+        for doc_name, doc_number in document_mapping.items():
+            doc_type = classify_document_type(doc_name)
+            enhanced_document_mapping[doc_number] = {
+                "name": doc_name,
+                "type": doc_type,
+                "description": get_document_type_description(doc_type),
+                "icon": get_document_type_icon(doc_type)
+            }
+        
+        # Collect all numbers_data from metadata files
+        all_numbers_data = []
+        all_number_citation_maps = {}
+        all_chunk_text_maps = {}
+        
+        # Create a global citation map to ensure consistent numbering across fiscal notes
+        global_amount_to_citation = {}  # Maps (amount, document_name) -> citation_number
+        global_next_citation_number = max(document_mapping.values()) + 1 if document_mapping else 1
+        
         for file in chronological:
             print(f"File: {file['name'] + '.json'}")
             if file['name'] + '.json' in files: 
@@ -1735,8 +1895,56 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
                 with open(os.path.join(fiscal_notes_path, file['name'] + '.json'), 'r') as f:
                     fiscal_note_data = json.load(f)
                     
-                    # Process fiscal note data with structured references instead of HTML
-                    processed_data = process_fiscal_note_references_structured(fiscal_note_data, document_mapping)
+                    # Try to load corresponding metadata file for numbers_data and chunks
+                    metadata_file = os.path.join(fiscal_notes_path, file['name'] + '_metadata.json')
+                    numbers_data = []
+                    chunks_data = []
+                    sentence_attributions = []
+                    if os.path.exists(metadata_file):
+                        try:
+                            with open(metadata_file, 'r') as meta_f:
+                                metadata = json.load(meta_f)
+                                numbers_data = metadata.get('response_metadata', {}).get('numbers_data', [])
+                                chunks_metadata = metadata.get('response_metadata', {}).get('chunks_metadata', {})
+                                chunks_data = chunks_metadata.get('chunk_details', [])
+                                sentence_attribution_analysis = metadata.get('response_metadata', {}).get('sentence_attribution_analysis', {})
+                                sentence_attributions = sentence_attribution_analysis.get('sentence_attributions', [])
+                                print(f"Loaded {len(numbers_data)} numbers, {len(chunks_data)} chunks, {len(sentence_attributions)} sentence attributions from metadata for {file['name']}")
+                        except Exception as e:
+                            print(f"Error loading metadata for {file['name']}: {e}")
+                    
+                    # Add numbers_data to the global collection
+                    all_numbers_data.extend(numbers_data)
+                    
+                    # Process fiscal note data with structured references, numbers, and chunks
+                    processed_data = process_fiscal_note_references_structured(
+                        fiscal_note_data, document_mapping, numbers_data, chunks_data, sentence_attributions,
+                        global_amount_to_citation, global_next_citation_number
+                    )
+                    
+                    # Extract and store number citation map and chunk text map
+                    number_citation_map = processed_data.pop('_number_citation_map', {})
+                    chunk_text_map = processed_data.pop('_chunk_text_map', {})
+                    updated_next_citation_number = processed_data.pop('_updated_next_citation_number', global_next_citation_number)
+                    
+                    # Update global citation number for next iteration
+                    global_next_citation_number = updated_next_citation_number
+                    
+                    all_number_citation_maps.update(number_citation_map)
+                    
+                    # Merge chunk text maps, preserving existing data and adding new chunks
+                    for citation_num, chunks in chunk_text_map.items():
+                        if citation_num in all_chunk_text_maps:
+                            # Add new chunks to existing ones (avoid duplicates)
+                            existing_chunks = all_chunk_text_maps[citation_num]
+                            for chunk in chunks:
+                                # Check if this chunk already exists (by text content)
+                                chunk_text = chunk.get('chunk_text', '')
+                                if not any(existing.get('chunk_text', '') == chunk_text for existing in existing_chunks):
+                                    existing_chunks.append(chunk)
+                        else:
+                            # New citation number, add all chunks
+                            all_chunk_text_maps[citation_num] = chunks
                     
                     # Filter out chunk reference properties for frontend display
                     filtered_data = {k: v for k, v in processed_data.items() if not k.endswith('_chunk_references')}
@@ -1749,12 +1957,16 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
     with open(timeline_path, 'r') as f:
         timeline = json.load(f)
 
-    return {
-        "status": "ready",
-        "fiscal_notes": fiscal_notes,
-        "timeline": timeline,
-        "document_mapping": document_mapping
-    }
+        return {
+            "status": "ready",
+            "fiscal_notes": fiscal_notes,
+            "timeline": timeline,
+            "document_mapping": document_mapping,
+            "enhanced_document_mapping": enhanced_document_mapping,
+            "numbers_data": all_numbers_data,
+            "number_citation_map": all_number_citation_maps,
+            "chunk_text_map": all_chunk_text_maps
+        }
 
 async def create_fiscal_note_job(bill_type: Bill_type_options, bill_number: str, year: str):
     job_id = f"{bill_type.value}_{bill_number}_{year}"
@@ -1914,6 +2126,9 @@ async def ask_llm(request: LLMRequest):
         print(f"Received question: {request.question[:100]}...")
         response = model.generate_content(request.question)
         print(f"Generated response: {response}")
+        with open("log.txt", "a") as f:
+            f.write(f"Question: {request.question}\n")
+            f.write(f"Response: {response.text}\n")
         return {
             "question": request.question,
             "response": response.text

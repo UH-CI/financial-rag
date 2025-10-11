@@ -1,0 +1,835 @@
+{
+  "document_name": "HB431_HD2_HSCR962_",
+  "new_documents_processed": [
+    "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+    "HB431_HD2_HSCR962_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB431_CD1",
+    "HB431_CD1_CCR189_",
+    "HB431_SD2",
+    "HB431_SD2_SSCR1528_",
+    "HB431_SD1_TESTIMONY_WAM_03-28-25_",
+    "HB431_SD1",
+    "HB431_SD1_SSCR1287_",
+    "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+    "HB431_HD2_HSCR962_"
+  ],
+  "numbers_used": 11,
+  "prompt_length": 84037,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"The purpose of this measure is to appropriate funds for \\\"the continued implementation of the Kauhale Initiative\\\" and to \\\"Create the Supportive Housing Special Fund\\\" (HB431_HD2_HSCR962_). House Bill No. 431, H.D. 2, appropriates an unspecified amount of general funds for the Kauhale Initiative and establishes the Supportive Housing Special Fund (SHSF) to be administered by the Hawai‘i Housing Finance and Development Corporation (HHFDC) (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). This version of the bill re-establishes the special fund, which was deleted in a previous iteration.\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The Department of Budget and Finance (B&F) offers comments, stating that as a matter of general policy, it \\\"does not support the creation of any special fund, which does not meet the requirements of Section 37-52.3, HRS\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). B&F also notes it is \\\"difficult to determine whether the proposed SHSF would be self-sustaining\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). The Department of Human Services and the Statewide Office on Homelessness and Housing Solutions request that the provision \\\"requiring at least two bidders for a Kauhale project estimated cost of over $1 million be deleted\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_).\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This version of the measure represents a significant policy reversal from the one described in the previous fiscal note by re-establishing a special fund. The purpose of the bill is now to \\\"Create the Supportive Housing Special Fund\\\" to assist the Hawaii Housing Finance and Development Corporation (HB431_HD2_HSCR962_). The measure now authorizes funds appropriated for the Kauhale Initiative \\\"to be used for the Ohana Zones Pilot Program established under Act 209, Session Laws of Hawaii 2018\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). This bill also includes a provision \\\"Requiring at least two bidders for any Kauhale project estimated to be over $1,000,000 (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt)\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_).\",\n\"revenue_sources\": \"This measure appropriates an \\\"unspecified amount of general funds in both FY 26 and FY 27 for deposit into the SHSF\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). It also appropriates an \\\"unspecified amount of special fund ceiling for the SHSF in both FY 26 and FY 27 for HHFDC\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). The Supportive Housing Special Fund is intended as a \\\"new financing tool that will help HHFDC to facilitate the development of supportive housing units\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_).\",\n\"six_year_fiscal_implications\": \"Testimony from the Statewide Office on Homelessness and Housing Solutions states that the expansion of the Kauhale Initiative was made possible by the \\\"generous support of the Hawaiʻi State Legislature which appropriated $33 million for FY25 for kauhale initiatives\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt). The current bill appropriates unspecified general funds for FY 26 and FY 27 to the Office of the Governor for the Kauhale Initiative (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). It also establishes the Supportive Housing Special Fund with unspecified general fund deposits and special fund ceilings for FY 26 and FY 27, signaling ongoing costs (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). The Hawaii Housing Finance and Development Corporation's request for $175,000 (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt) for one permanent full-time position indicates recurring administrative costs to manage the new special fund (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). The establishment of a special fund, as opposed to direct appropriations, changes the long-term fiscal structure for funding these supportive housing projects.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note is updated to reflect significant policy reversals from the previous version of the measure. The most substantial change is the reintroduction and creation of the Supportive Housing Special Fund, which was explicitly deleted in the version described in the prior fiscal note. This version also re-authorizes the use of Kauhale Initiative funds for the Ohana Zones Pilot Program. Finally, this measure introduces a procurement requirement for projects over $1,000,000 (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt), a provision that was absent from the previous version and is now being contested by state agencies.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 26486,
+      "candidates_token_count": 1351,
+      "total_token_count": 30894
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"The purpose of this measure is to appropriate funds for \\\"the continued implementation of the Kauhale Initiative\\\" and to \\\"Create the Supportive Housing Special Fund\\\" (HB431_HD2_HSCR962_). House Bill No. 431, H.D. 2, appropriates an unspecified amount of general funds for the Kauhale Initiative and establishes the Supportive Housing Special Fund (SHSF) to be administered by the Hawai‘i Housing Finance and Development Corporation (HHFDC) (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). This version of the bill re-establishes the special fund, which was deleted in a previous iteration.\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The Department of Budget and Finance (B&F) offers comments, stating that as a matter of general policy, it \\\"does not support the creation of any special fund, which does not meet the requirements of Section 37-52.3, HRS\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). B&F also notes it is \\\"difficult to determine whether the proposed SHSF would be self-sustaining\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). The Department of Human Services and the Statewide Office on Homelessness and Housing Solutions request that the provision \\\"requiring at least two bidders for a Kauhale project estimated cost of over $1 million be deleted\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_).\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This version of the measure represents a significant policy reversal from the one described in the previous fiscal note by re-establishing a special fund. The purpose of the bill is now to \\\"Create the Supportive Housing Special Fund\\\" to assist the Hawaii Housing Finance and Development Corporation (HB431_HD2_HSCR962_). The measure now authorizes funds appropriated for the Kauhale Initiative \\\"to be used for the Ohana Zones Pilot Program established under Act 209, Session Laws of Hawaii 2018\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). This bill also includes a provision \\\"Requiring at least two bidders for any Kauhale project estimated to be over $1,000,000 (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt)\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_).\",\n\"revenue_sources\": \"This measure appropriates an \\\"unspecified amount of general funds in both FY 26 and FY 27 for deposit into the SHSF\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). It also appropriates an \\\"unspecified amount of special fund ceiling for the SHSF in both FY 26 and FY 27 for HHFDC\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). The Supportive Housing Special Fund is intended as a \\\"new financing tool that will help HHFDC to facilitate the development of supportive housing units\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_).\",\n\"six_year_fiscal_implications\": \"Testimony from the Statewide Office on Homelessness and Housing Solutions states that the expansion of the Kauhale Initiative was made possible by the \\\"generous support of the Hawaiʻi State Legislature which appropriated $33 million for FY25 for kauhale initiatives\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt). The current bill appropriates unspecified general funds for FY 26 and FY 27 to the Office of the Governor for the Kauhale Initiative (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). It also establishes the Supportive Housing Special Fund with unspecified general fund deposits and special fund ceilings for FY 26 and FY 27, signaling ongoing costs (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). The Hawaii Housing Finance and Development Corporation's request for $175,000 (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt) for one permanent full-time position indicates recurring administrative costs to manage the new special fund (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_). The establishment of a special fund, as opposed to direct appropriations, changes the long-term fiscal structure for funding these supportive housing projects.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note is updated to reflect significant policy reversals from the previous version of the measure. The most substantial change is the reintroduction and creation of the Supportive Housing Special Fund, which was explicitly deleted in the version described in the prior fiscal note. This version also re-authorizes the use of Kauhale Initiative funds for the Ohana Zones Pilot Program. Finally, this measure introduces a procurement requirement for projects over $1,000,000 (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt), a provision that was absent from the previous version and is now being contested by state agencies.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"The purpose of this measure is to appropriate funds for \\\"the continued implementation of the Kauhale Initiative\\\" and to \\\"Create the Supportive Housing Special Fund\\\" (HB431_HD2_HSCR962_)",
+          "attributed_chunk_id": 20,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.9285714285714286,
+          "attribution_reason": "Document citation + word frequency: HB431_HD2_HSCR962_ (score: 0.929)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "House Bill No",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": []
+        },
+        {
+          "sentence": "431, H. D. 2, appropriates an unspecified amount of general funds for the Kauhale Initiative and establishes the Supportive Housing Special Fund (SHSF) to be administered by the Hawai‘i Housing Finance and Development Corporation (HHFDC) (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_)",
+          "attributed_chunk_id": 14,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7368421052631579,
+          "attribution_reason": "Word frequency match score: 0.737",
+          "numbers_found": [
+            2.0,
+            431.0
+          ]
+        },
+        {
+          "sentence": "This version of the bill re-establishes the special fund, which was deleted in a previous iteration",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The Department of Budget and Finance (B&F) offers comments, stating that as a matter of general policy, it \\\"does not support the creation of any special fund, which does not meet the requirements of Section 37-52",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Word frequency match score: 0.600",
+          "numbers_found": [
+            52.0,
+            37.0
+          ]
+        },
+        {
+          "sentence": "3, HRS\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_)",
+          "attributed_chunk_id": 7,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 1.000)",
+          "numbers_found": [
+            3.0
+          ]
+        },
+        {
+          "sentence": "B&F also notes it is \\\"difficult to determine whether the proposed SHSF would be self-sustaining\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_)",
+          "attributed_chunk_id": 10,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7777777777777778,
+          "attribution_reason": "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.778)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Department of Human Services and the Statewide Office on Homelessness and Housing Solutions request that the provision \\\"requiring at least two bidders for a Kauhale project estimated cost of over $1 million be deleted\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_)",
+          "attributed_chunk_id": "NUMBER_1.0",
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7142857142857143,
+          "attribution_reason": "Number $1 in HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.714)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This version of the measure represents a significant policy reversal from the one described in the previous fiscal note by re-establishing a special fund",
+          "attributed_chunk_id": 14,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.17647058823529413,
+          "attribution_reason": "Word frequency match score: 0.176",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The purpose of the bill is now to \\\"Create the Supportive Housing Special Fund\\\" to assist the Hawaii Housing Finance and Development Corporation (HB431_HD2_HSCR962_)",
+          "attributed_chunk_id": 21,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7857142857142857,
+          "attribution_reason": "Document citation + word frequency: HB431_HD2_HSCR962_ (score: 0.786)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure now authorizes funds appropriated for the Kauhale Initiative \\\"to be used for the Ohana Zones Pilot Program established under Act 209, Session Laws of Hawaii 2018\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_)",
+          "attributed_chunk_id": 14,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.250)",
+          "numbers_found": [
+            209.0
+          ]
+        },
+        {
+          "sentence": "This bill also includes a provision \\\"Requiring at least two bidders for any Kauhale project estimated to be over $1,000,000 (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attributed_chunk_id": "NUMBER_1000000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5882352941176471,
+          "attribution_reason": "Number $1,000,000 from HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt (score: 0.588)",
+          "numbers_found": [
+            1000000.0,
+            12.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_)",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0.1,
+          "attribution_reason": "Document citation fallback: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"This measure appropriates an \\\"unspecified amount of general funds in both FY 26 and FY 27 for deposit into the SHSF\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_)",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8181818181818182,
+          "attribution_reason": "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.818)",
+          "numbers_found": [
+            26.0,
+            27.0
+          ]
+        },
+        {
+          "sentence": "It also appropriates an \\\"unspecified amount of special fund ceiling for the SHSF in both FY 26 and FY 27 for HHFDC\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_)",
+          "attributed_chunk_id": 6,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.9,
+          "attribution_reason": "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.900)",
+          "numbers_found": [
+            26.0,
+            27.0
+          ]
+        },
+        {
+          "sentence": "The Supportive Housing Special Fund is intended as a \\\"new financing tool that will help HHFDC to facilitate the development of supportive housing units\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_)",
+          "attributed_chunk_id": 17,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.9333333333333333,
+          "attribution_reason": "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.933)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"six_year_fiscal_implications\": \"Testimony from the Statewide Office on Homelessness and Housing Solutions states that the expansion of the Kauhale Initiative was made possible by the \\\"generous support of the Hawaiʻi State Legislature which appropriated $33 million for FY25 for kauhale initiatives\\\" (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attributed_chunk_id": "NUMBER_33",
+          "attribution_method": "number_based",
+          "attribution_score": 0.6206896551724138,
+          "attribution_reason": "Number $33 from HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt (score: 0.621)",
+          "numbers_found": [
+            33.0,
+            12.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). The current bill appropriates unspecified general funds for FY 26 and FY 27 to the Office of the Governor for the Kauhale Initiative (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_)",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.750)",
+          "numbers_found": [
+            26.0,
+            27.0
+          ]
+        },
+        {
+          "sentence": "It also establishes the Supportive Housing Special Fund with unspecified general fund deposits and special fund ceilings for FY 26 and FY 27, signaling ongoing costs (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_)",
+          "attributed_chunk_id": 14,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.35294117647058826,
+          "attribution_reason": "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.353)",
+          "numbers_found": [
+            26.0,
+            27.0
+          ]
+        },
+        {
+          "sentence": "The Hawaii Housing Finance and Development Corporation's request for $175,000 (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attributed_chunk_id": "NUMBER_175000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.3,
+          "attribution_reason": "Number $175,000 from HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt (score: 0.300)",
+          "numbers_found": [
+            175000.0,
+            12.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for one permanent full-time position indicates recurring administrative costs to manage the new special fund (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_)",
+          "attributed_chunk_id": 17,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.200)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The establishment of a special fund, as opposed to direct appropriations, changes the long-term fiscal structure for funding these supportive housing projects",
+          "attributed_chunk_id": 17,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note is updated to reflect significant policy reversals from the previous version of the measure",
+          "attributed_chunk_id": 22,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.13333333333333333,
+          "attribution_reason": "Word frequency match score: 0.133",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The most substantial change is the reintroduction and creation of the Supportive Housing Special Fund, which was explicitly deleted in the version described in the prior fiscal note",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.23529411764705882,
+          "attribution_reason": "Word frequency match score: 0.235",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This version also re-authorizes the use of Kauhale Initiative funds for the Ohana Zones Pilot Program",
+          "attributed_chunk_id": 13,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.36363636363636365,
+          "attribution_reason": "Word frequency match score: 0.364",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Finally, this measure introduces a procurement requirement for projects over $1,000,000 (HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attributed_chunk_id": "NUMBER_1000000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.36363636363636365,
+          "attribution_reason": "Number $1,000,000 from HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt (score: 0.364)",
+          "numbers_found": [
+            1000000.0,
+            12.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt), a provision that was absent from the previous version and is now being contested by state agencies",
+          "attributed_chunk_id": 22,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Word frequency match score: 0.167",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": []
+        },
+        "1": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": []
+        },
+        "2": {
+          "usage_count": 1,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 1.000"
+          ]
+        },
+        "3": {
+          "usage_count": 1,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.750)"
+          ]
+        },
+        "4": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": []
+        },
+        "5": {
+          "usage_count": 1,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.818)"
+          ]
+        },
+        "6": {
+          "usage_count": 4,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.333",
+            "Word frequency match score: 0.600",
+            "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.900)",
+            "Word frequency match score: 0.235"
+          ]
+        },
+        "7": {
+          "usage_count": 1,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 1.000)"
+          ]
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 1,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.778)"
+          ]
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 1,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.364"
+          ]
+        },
+        "14": {
+          "usage_count": 4,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.737",
+            "Word frequency match score: 0.176",
+            "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.250)",
+            "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.353)"
+          ]
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 3,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.933)",
+            "Document citation + word frequency: HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.200)",
+            "Word frequency match score: 0.333"
+          ]
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_HSCR962_",
+          "attribution_reasons": []
+        },
+        "20": {
+          "usage_count": 1,
+          "document_name": "HB431_HD2_HSCR962_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_HD2_HSCR962_ (score: 0.929)"
+          ]
+        },
+        "21": {
+          "usage_count": 1,
+          "document_name": "HB431_HD2_HSCR962_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB431_HD2_HSCR962_ (score: 0.786)"
+          ]
+        },
+        "22": {
+          "usage_count": 2,
+          "document_name": "HB431_HD2_HSCR962_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.133",
+            "Word frequency match score: 0.167"
+          ]
+        },
+        "23": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_HSCR962_",
+          "attribution_reasons": []
+        },
+        "24": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_HSCR962_",
+          "attribution_reasons": []
+        },
+        "25": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_HSCR962_",
+          "attribution_reasons": []
+        },
+        "26": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_HSCR962_",
+          "attribution_reasons": []
+        },
+        "NUMBER_175000.0": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1.0": {
+          "usage_count": 1,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $1 in HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_ (score: 0.714)"
+          ]
+        },
+        "NUMBER_1000000.0": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_33.0": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_6.0": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_69.0": {
+          "usage_count": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1000000": {
+          "usage_count": 2,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $1,000,000 from HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt (score: 0.588)",
+            "Number $1,000,000 from HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt (score: 0.364)"
+          ]
+        },
+        "NUMBER_33": {
+          "usage_count": 1,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $33 from HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt (score: 0.621)"
+          ]
+        },
+        "NUMBER_175000": {
+          "usage_count": 1,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $175,000 from HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt (score: 0.300)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 12,
+        "number_based": 4,
+        "word_frequency_based": 10,
+        "semantic_similarity": 0,
+        "fallback": 0,
+        "no_attribution": 2
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 27,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "STATE OF HAWAI‘I DEPARTMENT OF BUDGET AND FINANCE Ka ʻOihana Mālama Mo‘ohelu a Kālā P.O. BOX 150 HONOLULU, HAWAI‘I 96810-0150 JOSH GREEN, M.D. LUIS P. SALAVERIA GOVERNOR DIRECTOR SYLVIA LUKE SABRINA NASIR LIEUTENANT GOVERNOR DEPUTY DIRECTOR ADMINISTRATIVE AND RESEARCH OFFICE EMPLOYEES’ RETIREMENT SYSTEM BUDGET, PROGRAM PLANNING AND MANAGEMENT DIVISION HAWAI‘I",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "EMPLOYEES’ RETIREMENT SYSTEM BUDGET, PROGRAM PLANNING AND MANAGEMENT DIVISION HAWAI‘I EMPLOYER-UNION HEALTH BENEFITS TRUST FUND FINANCIAL ADMINISTRATION DIVISION OFFICE OF THE PUBLIC DEFENDER OFFICE OF FEDERAL AWARDS MANAGEMENT No. 1 Capitol District Building, 250 S. Hotel Street, Honolulu, Hawaii 96813 WRITTEN ONLY TESTIMONY BY LUIS P. SALAVERIA DIRECTOR, DEPARTMENT OF",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "WRITTEN ONLY TESTIMONY BY LUIS P. SALAVERIA DIRECTOR, DEPARTMENT OF BUDGET AND FINANCE TO THE SENATE COMMITTEES ON HEALTH AND HUMAN SERVICES AND HOUSING ON HOUSE BILL NO. 431, H.D. 2 March 12, 2025 1:05 p.m. Room 225 and Videoconference RELATING TO HOUSING The Department of Budget and Finance (B&F)",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "RELATING TO HOUSING The Department of Budget and Finance (B&F) offers comments on this bill. House Bill (H.B.) No. 431, H.D. 2, appropriates an unspecified amount of general funds in both FY 26 and FY 27 to the Office of the Governor for the continued operation of the Kauhale Initiative",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "the Governor for the continued operation of the Kauhale Initiative and provides that the appropriations may be transferred to designated departments or agencies for expenditure; establishes the Supportive Housing Special Fund (SHSF) to be administered by the Hawai‘i Housing Finance and Development Corporation (HHFDC) to facilitate the development, operation, and",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "and Development Corporation (HHFDC) to facilitate the development, operation, and maintenance of mixed-income rental housing projects with supportive housing provisions for individuals and families with special needs; and appropriates an unspecified amount of general funds in both FY 26 and FY 27 for deposit into the SHSF and appropriates an",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "FY 27 for deposit into the SHSF and appropriates an unspecified amount of special fund ceiling for the SHSF in both FY 26 and FY 27 for HHFDC. As a matter of general policy, B&F does not support the creation of any special fund, which does not meet the requirements",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "of any special fund, which does not meet the requirements of Section 37-52.3, HRS. Special funds ,,,-,/g6’/-,,,___\\ qQlnnI0nbOn“.‘ 8*‘ _ _.n_w O = -.. v<___..........,{v4 _ ‘V % ' \\‘/ ,|' gm) ..-.-.. ‘IN’, —-1\",,‘/4/' =_ 4: ’ = @ rxcn-am-‘>“‘ ., ,» —-0,.”-I 4\" _ _.-‘ E‘ \\ 9M5",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "rxcn-am-‘>“‘ ., ,» —-0,.”-I 4\" _ _.-‘ E‘ \\ 9M5 9 \"-.,_h» :_,\\,L ~ ,. \\ '~. ‘ ;@\"‘~.@A-' ‘)1: '_-\" \\*A'“\"{lqA— 1>~\\ 1% ' _ _ . . ,' -2- should: 1) serve a need as demonstrated by the purpose, scope of work, and an explanation why the program",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "purpose, scope of work, and an explanation why the program cannot be implemented successfully under the general fund appropriation process; 2) reflect a clear nexus between the benefits sought and charges made upon the users or beneficiaries or a clear link between the program and the sources of revenue; 3)",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "link between the program and the sources of revenue; 3) provide an appropriate means of financing for the program or activity; and 4) demonstrate the capacity to be financially self-sustaining. Regarding H.B. No. 431, H.D. 2, it is difficult to determine whether the proposed SHSF would be self-sustaining. Thank you",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "determine whether the proposed SHSF would be self-sustaining. Thank you for your consideration of our comments. JOSH GREEN, M.D. GOVERNOR SYLVIA LUKE LT. GOVERNOR DEAN MINAKAMI EXECUTIVE DIRECTOR STATE OF HAWAII DEPARTMENT OF BUSINESS, ECONOMIC DEVELOPMENT AND TOURISM HAWAII HOUSING FINANCE AND DEVELOPMENT CORPORATION 677 QUEEN STREET, SUITE 300 HONOLULU,",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "FINANCE AND DEVELOPMENT CORPORATION 677 QUEEN STREET, SUITE 300 HONOLULU, HAWAII 96813 FAX: (808) 587-0600 Statement of DEAN MINAKAMI Hawaii Housing Finance and Development Corporation Before the SENATE COMMITTEE ON HEALTH AND HUMAN SERVICES AND SENATE COMMITTEE ON HOUSING March 12, 2025 at 1:05 p.m. State Capitol, Room 225 In",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "12, 2025 at 1:05 p.m. State Capitol, Room 225 In consideration of H.B. 431 HD2 RELATING TO HOUSING. Chairs San Buenaventura and Chang, Vice Chair Aquino and Hashimoto, and members of the Committees. HHFDC supports HB 431 HD2, which appropriates funds for the Kauhale Initiative. It also establishes and appropriates",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "funds for the Kauhale Initiative. It also establishes and appropriates funds into and out of the Supportive Housing Special Fund administered by the Hawaii Housing Finance and Development Corporation (HHFDC). HHFDC supports the measure so long as it does not adversely impact priorities identified in the Executive Budget Request for",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "adversely impact priorities identified in the Executive Budget Request for FY 2026. HHFDC agrees that supportive housing is an innovative solution to house special needs populations, including the chronically homeless, individuals with disabilities, individuals transitioning from incarceration, youth aging out of foster care, domestic violence survivors, veterans, those suffering from",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "of foster care, domestic violence survivors, veterans, those suffering from substance abuse, and the frail elderly. HHFDC recognizes the need for a dedicated funding source to assist individuals with special needs. In addition to funds needed to construct units, supportive housing typically requires a stable funding source to provide rental",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "housing typically requires a stable funding source to provide rental assistance to individuals and to pay for supportive services. The Supportive Housing Special Fund is a new financing tool that will help HHFDC to facilitate the development of supportive housing units in standalone projects or integrated in mixed-income rental housing",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_",
+          "chunk_text": "units in standalone projects or integrated in mixed-income rental housing projects. 1 ,4 r, <, 4 ‘-r\"_7’ _ A“ *0 '~. :1-C.nh ' /G",
+          "start_word": 720,
+          "end_word": 744,
+          "word_count": 24
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB431_HD2_HSCR962_",
+          "chunk_text": "HSCR962 STAND. COM. REP. NO. 962 Honolulu, Hawaii , 2025 RE: H.B. No. 431 H.D. 2 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 431, H.D. 2, entitled: \"A",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB431_HD2_HSCR962_",
+          "chunk_text": "which was referred H.B. No. 431, H.D. 2, entitled: \"A BILL FOR AN ACT RELATING TO HOUSING,\" begs leave to report as follows: The purpose of this measure is to: (1) Appropriate funds for the continued implementation of the Kauhale Initiative; and (2) Create the Supportive Housing Special Fund to",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB431_HD2_HSCR962_",
+          "chunk_text": "Initiative; and (2) Create the Supportive Housing Special Fund to assist the Hawaii Housing Finance and Development Corporation to facilitate the development of mixed-income rental housing projects in which some or all the units are targeted to special needs individuals or families who require supportive services. Your Committee received testimony",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB431_HD2_HSCR962_",
+          "chunk_text": "or families who require supportive services. Your Committee received testimony in support of this measure from the Office of Hawaiian Affairs; State Council on Developmental Disabilities; Hawai ʻ i State Youth Commission; Office of Housing of the City and County of Honolulu; Hawaii Substance Abuse Coalition; Catholic Charities Hawai ʻ",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB431_HD2_HSCR962_",
+          "chunk_text": "of Honolulu; Hawaii Substance Abuse Coalition; Catholic Charities Hawai ʻ i; The Institute for Human Services, Inc.; Hawai ʻ i Community Foundation; Young Democrats of Hawai ʻ i; Hawai ʻ i Health & Harm Reduction Center; Hawaii Appleseed Cetner for Law & Economic Justice; Partners in Care - O ʻ",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB431_HD2_HSCR962_",
+          "chunk_text": "Law & Economic Justice; Partners in Care - O ʻ ahu Continuum of Care; Maui Chamber of Commerce; LIMBY Hawai ʻ i; Pacific Housing Assistance Corporation; and Hawaii Young Adults in Transition. Your Committee received comments on this measure from the Department of Budget and Finance; Department of Human Services;",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB431_HD2_HSCR962_",
+          "chunk_text": "the Department of Budget and Finance; Department of Human Services; State Procurement Office; and Hawaii Housing Finance and Development Corporation. As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB431_HD2_HSCR962_",
+          "chunk_text": "report, your Committee is in accord with the intent and purpose of H.B. No. 431, H.D. 2, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Finance, ____________________________ KYLE T. YAMASHITA, Chair",
+          "start_word": 280,
+          "end_word": 321,
+          "word_count": 41
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "'~. :1-C.nh ' /G =1»:--., ~ W I. _,...,____ Q *5-:§7“'*‘-\"-:1 . -._»\\__a ,__ Ag;_ .._ -._,_.., T!’-*= a%- 1? ‘ ~ 1. .'P ...-P _ ' V 5 '¢:\"'.\".I'\"<'1'v'¢F‘.% <<¢,_ my H ¢ \\ 9 5 9 \"‘--5\"’, . -‘QM /,1//' ‘K’, 1 1 ,| 1 ‘ HHFDC requests $175,000 for one full-time equivalent (1.0 FTE) housing finance specialist I position needed to help administer the supportive housing special fund. Thank you for the opportunity to testify on this bill. STATE OF HAWAI‘I KA MOKU‘ĀINA O HAWAI‘I STATE COUNCIL ON DEVELOPMENTAL DISABILITIES 'A'UNIKE MOKU'ĀPUNI NO KA NĀ KĀWAI KULA PRINCESS",
+        "number": 175000.0,
+        "filename": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Finance and Development Corporation (HHFDC) and the Department of Budget & Finance on special funds and prefers that any appropriation align with and not reduce or replace budget priorities identified in the executive budget. DHS respectfully requests reconsideration of the amendment requiring at least two bids for Kauhale projects over $1 million. The administration has reconsidered this requested amendment, see page 6, lines 15-18, and clarifies that when an emergency proclamation is in effect related to homelessness and includes Kauhale or Ohana Zones pilot program projects, the developing agency may still consider more than one bid for any project. For single",
+        "number": 1.0,
+        "filename": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "exemption provided by statute or session law. DHS is also concerned that the two-bid minimum may delay project development in certain communities if only one bid is received. For these reasons, DHS respectfully requests that the provision regarding at least two bidders for a Kauhale project estimated cost of over $1 million be deleted (page 6, lines 15-18). PURPOSE: The bill appropriates funds for the continued operation of the Kauhale Initiative and authorizes those funds to be used for the Ohana Zones Pilot Program. Establishes and appropriates funds into and out of the Supportive Housing Special Fund. Effective 6/29/3000. (HD2) The",
+        "number": 1.0,
+        "filename": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "the authorized uses of funds appropriated for the Kauhale Initiative; (2) Authorizing funds appropriated for the Kauhale Initiative to be used for the Ohana Zones Pilot Program established under Act 209, Session Laws of Hawaii 2018; (3) Requiring at least two bidders for any Kauhale project estimated to be over $1,000,000 if appropriated funds are used to contract for the procurement of building services and projects related to the Kauhale Initiative; (4) Deleting the unspecified appropriation to the Statewide Office on Homelessness and Housing Solutions to implement the Kauhale Initiative; and (5) Making technical, nonsubstantive amendments for the purposes of clarity,",
+        "number": 1000000.0,
+        "filename": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Finance and Development Corporation (HHFDC) and the Department of Budget and Finance on special funds and prefers that any appropriation align with and not reduce or replace budget priorities identified in the executive budget. SOHHS respectfully requests reconsideration of the amendment requiring at least two bids for Kauhale projects over $1 million. The office has reconsidered this requested amendment, see page 6, lines 15 – 18, and clarifies that when an emergency proclamation is in effect related to homelessness and includes Kauhale or Ohana Zones pilot program projects, the developing agency may still consider more than one bid for any project.",
+        "number": 1.0,
+        "filename": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "exemption provided by statute or session law. SOHHS is also concerned that the two-bid minimum may delay project development in certain communities if only one bid is received. For these reasons, SOHHS respectfully requests that the provision regarding at least two bidders for a Kauhale project estimated cost of over $1 million be deleted (page 6, lines 15 – 18). \u0010\u0005\u0018 Jun Yang Testimony on HB431 HD2 Senate Committees on Health and Human Services and Housing March 12, 2025 Page 2 As the Governor’s Coordinator on Homelessness, I am honored to further the important work of this office and the administration",
+        "number": 1.0,
+        "filename": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "supportive services for individuals experiencing homelessness through the state’s Kauhale Initiative. Currently, we have 18 Kauhale active across the state and have a goal to establish 30 kauhale villages by the end of 2026. This was all made possible by the generous support of the Hawaiʻi State Legislature which appropriated $33 million for FY25 for kauhale initiatives. More than just temporary shelter, Kauhale is a unique and innovative approach that strives to demonstrate a new, cost-effective model that centers housing as a critical component of healthcare. Our Kauhale communities’ pair personal spaces with shared living spaces, often envisioned as tiny homes",
+        "number": 33.0,
+        "filename": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "new, stable shelter as quickly as possible. The Kauhale Initiative is just the type of solution that Hawaiʻi needs. It promotes cost- eƯective shared spaces that allow residents to take ownership and responsibility for the #4 HaVVai‘i hawaiicowmzzmif3)f0u1/Ldarion.0T3 Q § Z 6 827F rtSt tMa||H olul H \"'96813 Q Q $6 9 . Q ree On U, aWa|| ﬂu. Foundatlon mm sos-537-6333 FAX 808-521-6286 Q Q; Q 3‘ ' physical place and each other. By expanding this program, the state can provide a greater safety net for the most vulnerable population. Furthermore, the supportive housing programs facilitate care and treatment opportunities",
+        "number": 6.0,
+        "filename": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "stable shelter as quickly as possible. The Kauhale Initiative is just the type of solution that Hawaiʻi needs. It promotes cost- eƯective shared spaces that allow residents to take ownership and responsibility for the #4 HaVVai‘i hawaiicowmzzmif3)f0u1/Ldarion.0T3 Q § Z 6 827F rtSt tMa||H olul H \"'96813 Q Q $6 9 . Q ree On U, aWa|| ﬂu. Foundatlon mm sos-537-6333 FAX 808-521-6286 Q Q; Q 3‘ ' physical place and each other. By expanding this program, the state can provide a greater safety net for the most vulnerable population. Furthermore, the supportive housing programs facilitate care and treatment opportunities for",
+        "number": 69.0,
+        "filename": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "you for considering HCF’s testimony in support of HB 431 HD 2. Homelessness is a critical issue for all of Hawaiʻi and the potential beneﬁts of these sensible programs will be felt far and wide. #4 HaVVai‘i hawaiicowmzzmif3)f0u1/Ldarion.0T3 Q § Z 6 827F rtSt tMa||H olul H \"'96813 Q Q $6 9 . Q ree On U, aWa|| ﬂu. Foundatlon mm 808-537-6333 FAX 808-521-6286 Q Q; Q 3‘ ' AK PACIFIC HOUSING ASSISTANCE CORPORATICN 888 lwilei Road, Suite 200 Honolulu, H.1wali968l7 In Support of HB431 HD2 Hawaii Senator Joy A. San Buenaventura, Health and Human Services Chair Hawaii Senator Henry J.C.",
+        "number": 6.0,
+        "filename": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "for considering HCF’s testimony in support of HB 431 HD 2. Homelessness is a critical issue for all of Hawaiʻi and the potential beneﬁts of these sensible programs will be felt far and wide. #4 HaVVai‘i hawaiicowmzzmif3)f0u1/Ldarion.0T3 Q § Z 6 827F rtSt tMa||H olul H \"'96813 Q Q $6 9 . Q ree On U, aWa|| ﬂu. Foundatlon mm 808-537-6333 FAX 808-521-6286 Q Q; Q 3‘ ' AK PACIFIC HOUSING ASSISTANCE CORPORATICN 888 lwilei Road, Suite 200 Honolulu, H.1wali968l7 In Support of HB431 HD2 Hawaii Senator Joy A. San Buenaventura, Health and Human Services Chair Hawaii Senator Henry J.C. Aquino,",
+        "number": 69.0,
+        "filename": "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_.PDF.txt",
+        "document_type": "testimony"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:14:46.589498",
+  "generation_timestamp_unix": 1760145286.58951
+}

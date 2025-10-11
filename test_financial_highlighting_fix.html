@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Highlighting Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #1a1a1a;
+            color: white;
+        }
+        .test-case {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background-color: #2a2a2a;
+        }
+        .highlight {
+            background-color: rgba(255, 255, 0, 0.4);
+            color: #fff100;
+            font-weight: bold;
+            padding: 2px 4px;
+            border-radius: 3px;
+            border: 1px solid #ffff00;
+        }
+        .test-result {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .success {
+            background-color: rgba(0, 255, 0, 0.2);
+            border: 1px solid green;
+        }
+        .failure {
+            background-color: rgba(255, 0, 0, 0.2);
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Financial Highlighting Test</h1>
+    <p>Testing the improved financial amount highlighting logic</p>
+
+    <div id="test-results"></div>
+
+    <script>
+        // Replicate the improved highlighting function from React component
+        function highlightFinancialAmounts(text, targetAmount) {
+            if (!text || !targetAmount) {
+                return text;
+            }
+
+            // Create regex patterns for the target amount in various formats
+            const amountStr = targetAmount.toString();
+            const formattedAmount = targetAmount.toLocaleString();
+            
+            // Patterns to match: $123, $123.00, $1,234, $1,234.00, etc.
+            const patterns = [
+                `\\$${amountStr.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?:\\.00)?(?!\\d)`, // $123 or $123.00
+                `\\$${formattedAmount.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?:\\.00)?(?!\\d)`, // $1,234 or $1,234.00
+            ];
+            
+            const combinedPattern = new RegExp(`(${patterns.join('|')})`, 'gi');
+            
+            // Use replace with a function to highlight matches
+            const parts = [];
+            let lastIndex = 0;
+            let match;
+            
+            // Reset the regex lastIndex to ensure proper matching
+            combinedPattern.lastIndex = 0;
+            
+            while ((match = combinedPattern.exec(text)) !== null) {
+                // Add text before the match
+                if (match.index > lastIndex) {
+                    parts.push(text.substring(lastIndex, match.index));
+                }
+                
+                // Add the highlighted match
+                parts.push(`<span class="highlight" title="Target financial amount: $${targetAmount.toLocaleString()}">${match[0]}</span>`);
+                
+                lastIndex = match.index + match[0].length;
+            }
+            
+            // Add remaining text after the last match
+            if (lastIndex < text.length) {
+                parts.push(text.substring(lastIndex));
+            }
+            
+            return parts.length > 0 ? parts.join('') : text;
+        }
+
+        // Test cases from the user's examples
+        const testCases = [
+            {
+                name: "HB727 - $514,900 highlighting",
+                text: "Year 1 costs total $514,900, which includes $175,000 for a Women's Mental Health Professional",
+                targetAmount: 514900,
+                expectedHighlights: ["$514,900"]
+            },
+            {
+                name: "HB727 - $175,000 highlighting", 
+                text: "Year 1 costs total $514,900, which includes $175,000 for a Women's Mental Health Professional",
+                targetAmount: 175000,
+                expectedHighlights: ["$175,000"]
+            },
+            {
+                name: "HB300 - $10,000,000 highlighting",
+                text: "The measure also appropriates $10,000,000 from general revenues for fiscal year 2025-2026",
+                targetAmount: 10000000,
+                expectedHighlights: ["$10,000,000"]
+            },
+            {
+                name: "Decimal format test",
+                text: "The cost is $514,900.00 for the first year and $175,000.00 for additional services",
+                targetAmount: 514900,
+                expectedHighlights: ["$514,900.00"]
+            },
+            {
+                name: "Multiple occurrences",
+                text: "First payment: $100,000, second payment: $100,000, total: $200,000",
+                targetAmount: 100000,
+                expectedHighlights: ["$100,000", "$100,000"]
+            }
+        ];
+
+        const resultsContainer = document.getElementById('test-results');
+
+        testCases.forEach((testCase, index) => {
+            const result = highlightFinancialAmounts(testCase.text, testCase.targetAmount);
+            
+            // Count highlights in result
+            const highlightCount = (result.match(/<span class="highlight"/g) || []).length;
+            const expectedCount = testCase.expectedHighlights.length;
+            
+            const success = highlightCount === expectedCount;
+            
+            const testDiv = document.createElement('div');
+            testDiv.className = 'test-case';
+            testDiv.innerHTML = `
+                <h3>Test ${index + 1}: ${testCase.name}</h3>
+                <p><strong>Target Amount:</strong> $${testCase.targetAmount.toLocaleString()}</p>
+                <p><strong>Original Text:</strong> ${testCase.text}</p>
+                <p><strong>Result:</strong> ${result}</p>
+                <div class="test-result ${success ? 'success' : 'failure'}">
+                    <strong>${success ? '✅ PASS' : '❌ FAIL'}:</strong> 
+                    Found ${highlightCount} highlights, expected ${expectedCount}
+                </div>
+            `;
+            
+            resultsContainer.appendChild(testDiv);
+        });
+
+        // Summary
+        const passCount = testCases.filter((_, index) => {
+            const result = highlightFinancialAmounts(testCases[index].text, testCases[index].targetAmount);
+            const highlightCount = (result.match(/<span class="highlight"/g) || []).length;
+            return highlightCount === testCases[index].expectedHighlights.length;
+        }).length;
+
+        const summaryDiv = document.createElement('div');
+        summaryDiv.className = 'test-case';
+        summaryDiv.innerHTML = `
+            <h2>📊 Test Summary</h2>
+            <p><strong>Passed:</strong> ${passCount}/${testCases.length}</p>
+            <p><strong>Status:</strong> ${passCount === testCases.length ? '🎉 All tests passed!' : '⚠️ Some tests failed'}</p>
+        `;
+        resultsContainer.appendChild(summaryDiv);
+    </script>
+</body>
+</html>

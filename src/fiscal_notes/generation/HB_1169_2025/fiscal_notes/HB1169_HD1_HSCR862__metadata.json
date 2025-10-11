@@ -1,0 +1,407 @@
+{
+  "document_name": "HB1169_HD1_HSCR862_",
+  "new_documents_processed": [
+    "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
+    "HB1169_HD1_HSCR862_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB1169",
+    "HB1169_TESTIMONY_HED-EDN_02-05-25_",
+    "HB1169_HD1",
+    "HB1169_HD1_HSCR308_",
+    "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
+    "HB1169_HD1_HSCR862_"
+  ],
+  "numbers_used": 0,
+  "prompt_length": 12545,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"The purpose of this measure is to establish the University of Hawaii Conference Center Revolving Fund, repeal the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund, and appropriate funds out of the University of Hawaii Conference Center Revolving Fund (HB1169_HD1_HSCR862_). The Committee on Finance is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, and recommends that it pass Third Reading (HB1169_HD1_HSCR862_). This version of the measure removes the previously included effective date of July 1, 3000.\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure proposes to repeal the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund (HB1169_HD1_HSCR862_). A significant policy change from the prior version is the removal of the July 1, 3000, effective date. The recommendation from the Committee on Finance that the bill pass Third Reading indicates a shift from discussion towards implementation (HB1169_HD1_HSCR862_).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"The previous fiscal note indicated no fiscal implications within the next six years due to an amended effective date of July 1, 3000. As the measure now appears to have a current effective date, fiscal implications are expected upon enactment. The provided documents do not specify the monetary value of these implications.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"With the removal of the deferred effective date of July 1, 3000, ongoing fiscal obligations for the administration of the new revolving fund are now anticipated to begin upon enactment and continue beyond the initial six-year period.\",\n\"updates_from_previous_fiscal_note\": \"The primary update from the previous fiscal note is the removal of the July 1, 3000, effective date, which was intended to encourage further discussion. The Committee on Finance now recommends that H.B. No. 1169, H.D. 1, pass Third Reading, signaling intent for implementation (HB1169_HD1_HSCR862_). Consequently, the measure, which previously had no immediate fiscal impact, is now expected to have fiscal implications upon enactment.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 4361,
+      "candidates_token_count": 605,
+      "total_token_count": 7959
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"The purpose of this measure is to establish the University of Hawaii Conference Center Revolving Fund, repeal the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund, and appropriate funds out of the University of Hawaii Conference Center Revolving Fund (HB1169_HD1_HSCR862_). The Committee on Finance is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, and recommends that it pass Third Reading (HB1169_HD1_HSCR862_). This version of the measure removes the previously included effective date of July 1, 3000.\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure proposes to repeal the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund (HB1169_HD1_HSCR862_). A significant policy change from the prior version is the removal of the July 1, 3000, effective date. The recommendation from the Committee on Finance that the bill pass Third Reading indicates a shift from discussion towards implementation (HB1169_HD1_HSCR862_).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"The previous fiscal note indicated no fiscal implications within the next six years due to an amended effective date of July 1, 3000. As the measure now appears to have a current effective date, fiscal implications are expected upon enactment. The provided documents do not specify the monetary value of these implications.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"With the removal of the deferred effective date of July 1, 3000, ongoing fiscal obligations for the administration of the new revolving fund are now anticipated to begin upon enactment and continue beyond the initial six-year period.\",\n\"updates_from_previous_fiscal_note\": \"The primary update from the previous fiscal note is the removal of the July 1, 3000, effective date, which was intended to encourage further discussion. The Committee on Finance now recommends that H.B. No. 1169, H.D. 1, pass Third Reading, signaling intent for implementation (HB1169_HD1_HSCR862_). Consequently, the measure, which previously had no immediate fiscal impact, is now expected to have fiscal implications upon enactment.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"The purpose of this measure is to establish the University of Hawaii Conference Center Revolving Fund, repeal the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund, and appropriate funds out of the University of Hawaii Conference Center Revolving Fund (HB1169_HD1_HSCR862_)",
+          "attributed_chunk_id": 8,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR862_ (score: 0.667)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Committee on Finance is in accord with the intent and purpose of H",
+          "attributed_chunk_id": 10,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": []
+        },
+        {
+          "sentence": "B. No. 1169, H",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": []
+        },
+        {
+          "sentence": "D. 1, and recommends that it pass Third Reading (HB1169_HD1_HSCR862_)",
+          "attributed_chunk_id": 11,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR862_ (score: 1.000)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "This version of the measure removes the previously included effective date of July 1, 3000",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1111111111111111,
+          "attribution_reason": "Word frequency match score: 0.111",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure proposes to repeal the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund (HB1169_HD1_HSCR862_)",
+          "attributed_chunk_id": 9,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7419354838709677,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR862_ (score: 0.742)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "A significant policy change from the prior version is the removal of the July 1, 3000, effective date",
+          "attributed_chunk_id": 9,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.09090909090909091,
+          "attribution_reason": "Word frequency match score: 0.091",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "The recommendation from the Committee on Finance that the bill pass Third Reading indicates a shift from discussion towards implementation (HB1169_HD1_HSCR862_)",
+          "attributed_chunk_id": 11,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR862_ (score: 0.286)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"The previous fiscal note indicated no fiscal implications within the next six years due to an amended effective date of July 1, 3000",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.05555555555555555,
+          "attribution_reason": "Word frequency match score: 0.056",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "As the measure now appears to have a current effective date, fiscal implications are expected upon enactment",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.09090909090909091,
+          "attribution_reason": "Word frequency match score: 0.091",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The provided documents do not specify the monetary value of these implications",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"With the removal of the deferred effective date of July 1, 3000, ongoing fiscal obligations for the administration of the new revolving fund are now anticipated to begin upon enactment and continue beyond the initial six-year period",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1111111111111111,
+          "attribution_reason": "Word frequency match score: 0.111",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"The primary update from the previous fiscal note is the removal of the July 1, 3000, effective date, which was intended to encourage further discussion",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.058823529411764705,
+          "attribution_reason": "Word frequency match score: 0.059",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "The Committee on Finance now recommends that H",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "B. No. 1169, H",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": []
+        },
+        {
+          "sentence": "D. 1, pass Third Reading, signaling intent for implementation (HB1169_HD1_HSCR862_)",
+          "attributed_chunk_id": 11,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Document citation + word frequency: HB1169_HD1_HSCR862_ (score: 0.500)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "Consequently, the measure, which previously had no immediate fiscal impact, is now expected to have fiscal implications upon enactment",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.07692307692307693,
+          "attribution_reason": "Word frequency match score: 0.077",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 2,
+          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 0,
+          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": []
+        },
+        "2": {
+          "usage_count": 1,
+          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.111"
+          ]
+        },
+        "3": {
+          "usage_count": 3,
+          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.056",
+            "Word frequency match score: 0.059",
+            "Word frequency match score: 0.077"
+          ]
+        },
+        "4": {
+          "usage_count": 0,
+          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": []
+        },
+        "5": {
+          "usage_count": 0,
+          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": []
+        },
+        "6": {
+          "usage_count": 2,
+          "document_name": "HB1169_HD1_HSCR862_",
+          "attribution_reasons": [
+            "Word frequency match score: 1.000",
+            "Word frequency match score: 1.000"
+          ]
+        },
+        "7": {
+          "usage_count": 2,
+          "document_name": "HB1169_HD1_HSCR862_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.111",
+            "Word frequency match score: 0.091"
+          ]
+        },
+        "8": {
+          "usage_count": 1,
+          "document_name": "HB1169_HD1_HSCR862_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1169_HD1_HSCR862_ (score: 0.667)"
+          ]
+        },
+        "9": {
+          "usage_count": 2,
+          "document_name": "HB1169_HD1_HSCR862_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1169_HD1_HSCR862_ (score: 0.742)",
+            "Word frequency match score: 0.091"
+          ]
+        },
+        "10": {
+          "usage_count": 1,
+          "document_name": "HB1169_HD1_HSCR862_",
+          "attribution_reasons": [
+            "Word frequency match score: 1.000"
+          ]
+        },
+        "11": {
+          "usage_count": 3,
+          "document_name": "HB1169_HD1_HSCR862_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1169_HD1_HSCR862_ (score: 1.000)",
+            "Document citation + word frequency: HB1169_HD1_HSCR862_ (score: 0.286)",
+            "Document citation + word frequency: HB1169_HD1_HSCR862_ (score: 0.500)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 5,
+        "number_based": 0,
+        "word_frequency_based": 10,
+        "semantic_similarity": 0,
+        "fallback": 2,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 12,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "UNIVERSITY OF HAWAI‘I SYSTEM ʻŌNAEHANA KULANUI O HAWAIʻI Legislative Testimony Hōʻike Manaʻo I Mua O Ka ʻAhaʻōlelo _____________________________________________________________ Testimony Presented Before the House Committee on Finance February 21, 2025 at 10:00 a.m. By Kalbert K. Young Vice President for Budget and Finance/Chief Financial Officer University of Hawai‘i System HB 1169",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "and Finance/Chief Financial Officer University of Hawai‘i System HB 1169 HD1 – RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND Chair Yamashita, Vice Chair Takenouchi, and Members of the Committee: Thank you for the opportunity to present testimony today. The University of Hawai‘i (UH) supports HB 1169 HD1, Relating",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "The University of Hawai‘i (UH) supports HB 1169 HD1, Relating to University of Hawaii Conference Center Revolving Fund. This bill establishes the University of Hawaii Conference Center Revolving Fund and accounts under the fund to facilitate the administration of the fund for conference center programs among various campuses and operating",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "fund for conference center programs among various campuses and operating units of the UH system. Conference Center Revolving Funds already exist for the Community Colleges and UH-Hilo. This bill would create one UH Conference Center Revolving Fund and each campus would have accounts within this overarching fund, which would allow",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "would have accounts within this overarching fund, which would allow all campuses to standardize conference center programs across all campuses while eliminating unnecessary duplication of statutes. This structure is similar to many other UH funds, including the Tuition and Fees Special Fund, the Auxiliary Enterprises Special Fund, and the Student",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "Special Fund, the Auxiliary Enterprises Special Fund, and the Student Activities Revolving Fund. Thank you for this opportunity to testify.",
+          "start_word": 200,
+          "end_word": 220,
+          "word_count": 20
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB1169_HD1_HSCR862_",
+          "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB1169_HD1_HSCR862_",
+          "chunk_text": "which was referred H.B. No. 1169, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish the University of Hawaii Conference Center Revolving Fund to facilitate the administration",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB1169_HD1_HSCR862_",
+          "chunk_text": "of Hawaii Conference Center Revolving Fund to facilitate the administration of conference center programs among various campuses and operating units of the University of Hawaii System; (2) Repeal the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund and lapse all",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB1169_HD1_HSCR862_",
+          "chunk_text": "and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund; and (3) Appropriate funds out of the University of Hawaii Conference Center Revolving Fund. Your Committee received testimony in support of this measure from the University of Hawai ʻ",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB1169_HD1_HSCR862_",
+          "chunk_text": "support of this measure from the University of Hawai ʻ i System. As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, and",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB1169_HD1_HSCR862_",
+          "chunk_text": "intent and purpose of H.B. No. 1169, H.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Finance, ____________________________ KYLE T. YAMASHITA, Chair",
+          "start_word": 200,
+          "end_word": 233,
+          "word_count": 33
+        }
+      ]
+    },
+    "numbers_data": []
+  },
+  "generation_timestamp": "2025-10-10T14:42:05.035986",
+  "generation_timestamp_unix": 1760143325.035999
+}

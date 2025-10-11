@@ -1,0 +1,534 @@
+{
+  "document_name": "HB72_HD2_HSCR948_",
+  "new_documents_processed": [
+    "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+    "HB72_HD2_HSCR948_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB72",
+    "HB72_TESTIMONY_HLT_01-31-25_",
+    "HB72_HD1",
+    "HB72_HD1_HSCR68_",
+    "HB72_HD1_TESTIMONY_CPC_02-06-25_",
+    "HB72_HD2",
+    "HB72_HD2_HSCR529_",
+    "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+    "HB72_HD2_HSCR948_"
+  ],
+  "numbers_used": 0,
+  "prompt_length": 43556,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The Board of Pharmacy states it will meet on February 27, 2025 and take a position on this measure (HB72_HD2_TESTIMONY_FIN_02-21-25_). The Board's permitted interaction group noted the need to \\\"recognize national certifications provided by entities such as the Pharmacy Technician Certification Board, while still acknowledging the presence of local technicians who have received extensive on the job training\\\" (HB72_HD2_TESTIMONY_FIN_02-21-25_). This indicates the Board is considering a regulatory framework that accommodates different pathways for technicians.\",\n\"economic_impact\": \"Testimony from a rural healthcare provider states that their pharmacy technicians \\\"administer over 50 percent of our immunizations, including COVID, flu, pneumonia, RSV and shingles\\\" (HB72_HD2_TESTIMONY_FIN_02-21-25_). This registration is seen as a way to support the expanded role of technicians, which allows pharmacists to focus on clinical services. Testimony also confirms that the measure \\\"comes at a reasonable price tag, and even small pharmacies such as Moloka’i Drugs are willing to pay for these regulations\\\" (HB72_HD2_TESTIMONY_FIN_02-21-25_).\",\n\"policy_impact\": \"The measure is supported for amendments which \\\"adopt a definition of “auxiliary personnel” for personnel such as cashiers whose responsibilities are purely clerical in nature\\\" (HB72_HD2_TESTIMONY_FIN_02-21-25_). This policy clarification helps to define the scope of who is considered a pharmacy technician subject to the registration requirements. The House Committee on Finance is in accord with the intent of the measure and recommends that it pass Third Reading (HB72_HD2_HSCR948_).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note is updated to reflect testimony submitted to the House Committee on Finance and the subsequent committee report. New information from the Board of Pharmacy indicates it will take an official position on February 27, 2025, and its considerations include recognizing both national certifications and extensive on-the-job training (HB72_HD2_TESTIMONY_FIN_02-21-25_). Testimony now provides specific economic impact data, with one rural pharmacy reporting that technicians administer \\\"over 50 percent of our immunizations\\\" (HB72_HD2_TESTIMONY_FIN_02-21-25_). A key policy clarification has been supported, which is the \\\"definition of “auxiliary personnel”\\\" to distinguish registered technicians from clerical staff (HB72_HD2_TESTIMONY_FIN_02-21-25_). The House Committee on Finance has recommended that H.B. No. 72, H.D. 2, pass Third Reading (HB72_HD2_HSCR948_).\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 12660,
+      "candidates_token_count": 734,
+      "total_token_count": 16538
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The Board of Pharmacy states it will meet on February 27, 2025 and take a position on this measure (HB72_HD2_TESTIMONY_FIN_02-21-25_). The Board's permitted interaction group noted the need to \\\"recognize national certifications provided by entities such as the Pharmacy Technician Certification Board, while still acknowledging the presence of local technicians who have received extensive on the job training\\\" (HB72_HD2_TESTIMONY_FIN_02-21-25_). This indicates the Board is considering a regulatory framework that accommodates different pathways for technicians.\",\n\"economic_impact\": \"Testimony from a rural healthcare provider states that their pharmacy technicians \\\"administer over 50 percent of our immunizations, including COVID, flu, pneumonia, RSV and shingles\\\" (HB72_HD2_TESTIMONY_FIN_02-21-25_). This registration is seen as a way to support the expanded role of technicians, which allows pharmacists to focus on clinical services. Testimony also confirms that the measure \\\"comes at a reasonable price tag, and even small pharmacies such as Moloka’i Drugs are willing to pay for these regulations\\\" (HB72_HD2_TESTIMONY_FIN_02-21-25_).\",\n\"policy_impact\": \"The measure is supported for amendments which \\\"adopt a definition of “auxiliary personnel” for personnel such as cashiers whose responsibilities are purely clerical in nature\\\" (HB72_HD2_TESTIMONY_FIN_02-21-25_). This policy clarification helps to define the scope of who is considered a pharmacy technician subject to the registration requirements. The House Committee on Finance is in accord with the intent of the measure and recommends that it pass Third Reading (HB72_HD2_HSCR948_).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note is updated to reflect testimony submitted to the House Committee on Finance and the subsequent committee report. New information from the Board of Pharmacy indicates it will take an official position on February 27, 2025, and its considerations include recognizing both national certifications and extensive on-the-job training (HB72_HD2_TESTIMONY_FIN_02-21-25_). Testimony now provides specific economic impact data, with one rural pharmacy reporting that technicians administer \\\"over 50 percent of our immunizations\\\" (HB72_HD2_TESTIMONY_FIN_02-21-25_). A key policy clarification has been supported, which is the \\\"definition of “auxiliary personnel”\\\" to distinguish registered technicians from clerical staff (HB72_HD2_TESTIMONY_FIN_02-21-25_). The House Committee on Finance has recommended that H.B. No. 72, H.D. 2, pass Third Reading (HB72_HD2_HSCR948_).\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The Board of Pharmacy states it will meet on February 27, 2025 and take a position on this measure (HB72_HD2_TESTIMONY_FIN_02-21-25_)",
+          "attributed_chunk_id": 9,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6428571428571429,
+          "attribution_reason": "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.643)",
+          "numbers_found": [
+            27.0
+          ]
+        },
+        {
+          "sentence": "The Board's permitted interaction group noted the need to \\\"recognize national certifications provided by entities such as the Pharmacy Technician Certification Board, while still acknowledging the presence of local technicians who have received extensive on the job training\\\" (HB72_HD2_TESTIMONY_FIN_02-21-25_)",
+          "attributed_chunk_id": 12,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8888888888888888,
+          "attribution_reason": "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.889)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This indicates the Board is considering a regulatory framework that accommodates different pathways for technicians",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2222222222222222,
+          "attribution_reason": "Word frequency match score: 0.222",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"Testimony from a rural healthcare provider states that their pharmacy technicians \\\"administer over 50 percent of our immunizations, including COVID, flu, pneumonia, RSV and shingles\\\" (HB72_HD2_TESTIMONY_FIN_02-21-25_)",
+          "attributed_chunk_id": 4,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.143)",
+          "numbers_found": [
+            50.0
+          ]
+        },
+        {
+          "sentence": "This registration is seen as a way to support the expanded role of technicians, which allows pharmacists to focus on clinical services",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.23076923076923078,
+          "attribution_reason": "Word frequency match score: 0.231",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Testimony also confirms that the measure \\\"comes at a reasonable price tag, and even small pharmacies such as Moloka’i Drugs are willing to pay for these regulations\\\" (HB72_HD2_TESTIMONY_FIN_02-21-25_)",
+          "attributed_chunk_id": 8,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.11764705882352941,
+          "attribution_reason": "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.118)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"policy_impact\": \"The measure is supported for amendments which \\\"adopt a definition of “auxiliary personnel” for personnel such as cashiers whose responsibilities are purely clerical in nature\\\" (HB72_HD2_TESTIMONY_FIN_02-21-25_)",
+          "attributed_chunk_id": 17,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5294117647058824,
+          "attribution_reason": "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.529)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This policy clarification helps to define the scope of who is considered a pharmacy technician subject to the registration requirements",
+          "attributed_chunk_id": 12,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The House Committee on Finance is in accord with the intent of the measure and recommends that it pass Third Reading (HB72_HD2_HSCR948_)",
+          "attributed_chunk_id": 21,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7,
+          "attribution_reason": "Document citation + word frequency: HB72_HD2_HSCR948_ (score: 0.700)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note is updated to reflect testimony submitted to the House Committee on Finance and the subsequent committee report",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2777777777777778,
+          "attribution_reason": "Word frequency match score: 0.278",
+          "numbers_found": []
+        },
+        {
+          "sentence": "New information from the Board of Pharmacy indicates it will take an official position on February 27, 2025, and its considerations include recognizing both national certifications and extensive on-the-job training (HB72_HD2_TESTIMONY_FIN_02-21-25_)",
+          "attributed_chunk_id": 12,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.3181818181818182,
+          "attribution_reason": "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.318)",
+          "numbers_found": [
+            27.0
+          ]
+        },
+        {
+          "sentence": "Testimony now provides specific economic impact data, with one rural pharmacy reporting that technicians administer \\\"over 50 percent of our immunizations\\\" (HB72_HD2_TESTIMONY_FIN_02-21-25_)",
+          "attributed_chunk_id": 4,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.17647058823529413,
+          "attribution_reason": "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.176)",
+          "numbers_found": [
+            50.0
+          ]
+        },
+        {
+          "sentence": "A key policy clarification has been supported, which is the \\\"definition of “auxiliary personnel”\\\" to distinguish registered technicians from clerical staff (HB72_HD2_TESTIMONY_FIN_02-21-25_)",
+          "attributed_chunk_id": 16,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.21428571428571427,
+          "attribution_reason": "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.214)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The House Committee on Finance has recommended that H",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "B. No. 72, H. D. 2, pass Third Reading (HB72_HD2_HSCR948_)",
+          "attributed_chunk_id": 22,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB72_HD2_HSCR948_ (score: 1.000)",
+          "numbers_found": [
+            72.0,
+            2.0
+          ]
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 1,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 0,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": []
+        },
+        "2": {
+          "usage_count": 1,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.231"
+          ]
+        },
+        "3": {
+          "usage_count": 0,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": []
+        },
+        "4": {
+          "usage_count": 2,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.143)",
+            "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.176)"
+          ]
+        },
+        "5": {
+          "usage_count": 0,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": []
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 1,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.222"
+          ]
+        },
+        "8": {
+          "usage_count": 2,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.118)",
+            "Word frequency match score: 0.278"
+          ]
+        },
+        "9": {
+          "usage_count": 1,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.643)"
+          ]
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 3,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.889)",
+            "Word frequency match score: 0.333",
+            "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.318)"
+          ]
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 1,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.214)"
+          ]
+        },
+        "17": {
+          "usage_count": 1,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB72_HD2_TESTIMONY_FIN_02-21-25_ (score: 0.529)"
+          ]
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB72_HD2_HSCR948_",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 0,
+          "document_name": "HB72_HD2_HSCR948_",
+          "attribution_reasons": []
+        },
+        "20": {
+          "usage_count": 0,
+          "document_name": "HB72_HD2_HSCR948_",
+          "attribution_reasons": []
+        },
+        "21": {
+          "usage_count": 1,
+          "document_name": "HB72_HD2_HSCR948_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB72_HD2_HSCR948_ (score: 0.700)"
+          ]
+        },
+        "22": {
+          "usage_count": 1,
+          "document_name": "HB72_HD2_HSCR948_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB72_HD2_HSCR948_ (score: 1.000)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 10,
+        "number_based": 0,
+        "word_frequency_based": 4,
+        "semantic_similarity": 0,
+        "fallback": 1,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 23,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "UNIVERSITY OF HAWAI‘I SYSTEM ʻŌNAEHANA KULANUI O HAWAIʻI Legislative Testimony Hōʻike Manaʻo I Mua O Ka ʻAhaʻōlelo _____________________________________________________________ Testimony Presented Before the House Committee on Finance Friday, February 21, 2025 at 2:00 p.m. By Bonnie Irwin, Chancellor and Rae Matsumoto, Dean Daniel K. Inouye College of Pharmacy University of Hawaiʻi",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "Dean Daniel K. Inouye College of Pharmacy University of Hawaiʻi at Hilo HB 72 HD2 – RELATING TO PHARMACY Chair Yamashita, Vice Chair Takenouchi, and Members of the Committee: Thank you for the opportunity to submit testimony on HB 72 HD2. The University of Hawaiʻi at Hilo (UH Hilo) supports",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "HD2. The University of Hawaiʻi at Hilo (UH Hilo) supports HB 72 HD2, which will require the registration of pharmacy technicians through the Department of Commerce and Consumer Affairs. Pharmacy technicians are career professionals working under the supervision of a pharmacist, and have an essential role in the daily operation",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "pharmacist, and have an essential role in the daily operation of pharmacies. Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians. Legislation to address this oversight is important for supporting public health and safety by ensuring that these essential health care workers have the",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "by ensuring that these essential health care workers have the appropriate background and supervision, can receive timely communications and updates regarding relevant practice and regulation changes that impact their work, and facilitate access to training opportunities as the scope of practice of pharmacy technicians expands nationwide. We would like to",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "practice of pharmacy technicians expands nationwide. We would like to emphasize that pharmacy technicians are professionals and represent a distinct category from pharmacy interns who are students in training to become future pharmacists. As career professionals in the health care workforce, pharmacy technicians perform functions under the supervision of pharmacists",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "workforce, pharmacy technicians perform functions under the supervision of pharmacists and may include roles such as dispensing medications, processing insurance claims, preparing sterile compounds such as intravenous (IV) solutions and chemotherapy, and with additional certifications, administering vaccines to patients. As career professionals in the health care workforce, the registration of",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "career professionals in the health care workforce, the registration of pharmacy technicians is warranted and appropriate for the level of responsibility and trust afforded by the public. Thank you for the opportunity to testify in support of HB 72 HD2. Testimony of the Board of Pharmacy Before the House Committee",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "Testimony of the Board of Pharmacy Before the House Committee on Finance Friday, February 21, 2025 2:00 p.m. Conference Room 308 and Videoconference On the following measure: H. B. 72, H.D. 2, RELATING TO PHARMACY Chair Yamashita and Members of the Committee: My name is James Skizewski, Executive Officer of",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "the Committee: My name is James Skizewski, Executive Officer of the Board of Pharmacy (Board). The Board will meet on February 27, 2025 and take a position on this measure. For now, the Board offers the following comments. The purpose of this bill beginning on 1/1/2026 is to: (1) require",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "of this bill beginning on 1/1/2026 is to: (1) require pharmacy technicians to be registered; (2) impose a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians; and (3) specify that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns. The Board",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "actions of registered pharmacy technicians and pharmacy interns. The Board is supportive of the intent to provide regulation of pharmacy technicians. The Board recently formed a permitted interaction group to look at best practices for regulating pharmacy technicians. The group noted the need to recognize national certifications provided by entities",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "noted the need to recognize national certifications provided by entities such as the Pharmacy Technician Certification Board, while still acknowledging the presence of local technicians who have received extensive on the job training. The Board agreed that a registration for all technicians may be a prudent initial step regarding the",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "all technicians may be a prudent initial step regarding the regulation of pharmacy technicians. An expansion to the scope of practice to technicians that are nationally certified should also be recognized. The expansion should include allowances such as those provided in Act 104 SLH 2024. Thank you for the opportunity",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "in Act 104 SLH 2024. Thank you for the opportunity to testify on this bill. First Hawaiian Center T 808-539-0400 999 Bishop Street, Suite 1400 F 808-533-4945 Honolulu, HI 96813 DATE: February 20, 2025 TO: Representative Kyle Yamashita Chair, Committee on Finance Representative Jenna Takenouchi Vice Chair, Committee on Finance",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "on Finance Representative Jenna Takenouchi Vice Chair, Committee on Finance FROM: Tiffany Yajima RE: H.B. 72, H.D.2 - Relating to Pharmacy Hearing Date: Friday, February 21, 2025 at 2:00 p.m. Conference Room: 308 Dear Chair Yamashita, Vice Chair Takenouchi, and Members of the Committee on Finance: Walgreens submits this testimony",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "Members of the Committee on Finance: Walgreens submits this testimony in support of H.B. 72, H.D.2, which requires pharmacy technicians to be registered with the state. Walgreen Co. (“Walgreens”) operates stores at more than 9,000 locations in all 50 states, the District of Columbia, and Puerto Rico. In Hawaii, Walgreens",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB72_HD2_TESTIMONY_FIN_02-21-25_",
+          "chunk_text": "the District of Columbia, and Puerto Rico. In Hawaii, Walgreens has 13 stores on the islands of Oahu and Maui. Walgreens supports the amendments made in the H.D.1 and H.D.2 to adopt a definition of “auxiliary personnel” for personnel such as cashiers whose resp",
+          "start_word": 680,
+          "end_word": 724,
+          "word_count": 44
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB72_HD2_HSCR948_",
+          "chunk_text": "HSCR948 STAND. COM. REP. NO. 948 Honolulu, Hawaii , 2025 RE: H.B. No. 72 H.D. 2 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 72, H.D. 2, entitled: \"A",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB72_HD2_HSCR948_",
+          "chunk_text": "which was referred H.B. No. 72, H.D. 2, entitled: \"A BILL FOR AN ACT RELATING TO PHARMACY,\" begs leave to report as follows: The purpose of this measure is to establish a regulatory system for pharmacy technicians and require pharmacy technicians to be registered beginning on January 1, 2026. Your",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB72_HD2_HSCR948_",
+          "chunk_text": "technicians to be registered beginning on January 1, 2026. Your Committee received testimony in support of this measure from the University of Hawai ʻ i at Hilo; Walgreens Co.; Moloka ʻ i Drugs; and numerous individuals. Your Committee received comments on this measure from the Board of Pharmacy. As affirmed",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB72_HD2_HSCR948_",
+          "chunk_text": "on this measure from the Board of Pharmacy. As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 72, H.D. 2, and recommends that it pass",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB72_HD2_HSCR948_",
+          "chunk_text": "H.B. No. 72, H.D. 2, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Finance, ____________________________ KYLE T. YAMASHITA, Chair",
+          "start_word": 160,
+          "end_word": 189,
+          "word_count": 29
+        }
+      ]
+    },
+    "numbers_data": []
+  },
+  "generation_timestamp": "2025-10-10T15:33:16.248423",
+  "generation_timestamp_unix": 1760146396.248441
+}

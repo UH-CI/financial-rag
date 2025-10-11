@@ -170,8 +170,12 @@ export interface DocumentReference {
   document_type: string;
   document_name: string;
   description: string;
+  document_category?: string; // Bill Introduction, Bill Amendment, Committee Report, Testimony
+  document_icon?: string; // Icon for the document type
   chunk_text?: string;
   similarity_score?: number;
+  sentence?: string; // The sentence context for word highlighting
+  financial_amount?: number; // The financial amount for financial citations
 }
 
 export interface TimelineItem {
@@ -185,10 +189,42 @@ export interface FiscalNoteItem {
   data: Record<string, any>;
 }
 
+export interface NumbersDataItem {
+  text: string;
+  number: number;
+  filename: string;
+  document_type: string;
+}
+
+export interface NumberCitationMapItem {
+  amount: number;
+  filename: string;
+  document_name: string;
+  data?: NumbersDataItem;
+}
+
+export interface ChunkTextMapItem {
+  chunk_text: string;
+  attribution_score: number;
+  attribution_method: string;
+  sentence?: string; // The sentence context that contains the citation
+}
+
+export interface DocumentInfo {
+  name: string;
+  type: string;
+  description: string;
+  icon: string;
+}
+
 export interface FiscalNoteData {
   status: 'ready' | 'generating' | 'error';
   message?: string;
   fiscal_notes: FiscalNoteItem[];
   timeline: TimelineItem[];
   document_mapping: Record<string, number>;
+  enhanced_document_mapping: Record<number, DocumentInfo>;
+  numbers_data: NumbersDataItem[];
+  number_citation_map: Record<number, NumberCitationMapItem>; // Each citation number maps to a single item
+  chunk_text_map: Record<number, ChunkTextMapItem[]>; // Document citations to chunk text
 }

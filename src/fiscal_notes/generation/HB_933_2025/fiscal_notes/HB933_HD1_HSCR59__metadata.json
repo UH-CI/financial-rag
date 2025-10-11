@@ -1,0 +1,1333 @@
+{
+  "document_name": "HB933_HD1_HSCR59_",
+  "new_documents_processed": [
+    "HB933_TESTIMONY_HSH_01-30-25_",
+    "HB933_HD1",
+    "HB933_HD1_HSCR59_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB933",
+    "HB933_TESTIMONY_HSH_01-30-25_",
+    "HB933_HD1",
+    "HB933_HD1_HSCR59_"
+  ],
+  "numbers_used": 7,
+  "prompt_length": 46972,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"The purpose of this measure is to establish a reduction in the general excise tax rate on gross proceeds or gross income from the sale of groceries that are eligible for purchase under the Supplemental Nutrition Assistance Program or Special Supplemental Nutrition Program for Women, Infants, and Children and from the sale of nonprescription drugs. This measure has been amended by changing the effective date to July 1, 3000, to encourage further discussion (HB933_HD1_HSCR59_.HTM.txt). The bill also requires the Department of Business, Economic Development, and Tourism to conduct an economic cost-benefit analysis on the general excise reductions and submit a report to the Legislature.\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"According to the United States Department of Agriculture, a Hawaii family on a thrifty food plan spends $1,794.60 (HB933_HD1_.HTM.txt) per month on food. This family would pay over $800 (HB933_HD1_.HTM.txt) a year in state taxes on those groceries. The thrifty food plan represents those on a limited budget (HB933_HD1_.HTM.txt).\",\n\"agency_impact\": \"The amended bill specifies the reduced tax rate would begin January 1, 2026 (HB933_HD1_.HTM.txt). However, the Committee on Human Services & Homelessness notes the request in testimony from the Department of Taxation that this measure take effect on January 1, 2027, rather than January 1, 2026 (HB933_HD1_HSCR59_.HTM.txt). This would allow the Department sufficient time to implement the proposed reduced rates and provide businesses with enough time to update their accounting systems (HB933_HD1_HSCR59_.HTM.txt).\",\n\"economic_impact\": \"The legislature finds that a Hawaii family on a thrifty food plan spends $1,794.60 (HB933_HD1_.HTM.txt) per month on food and this family would pay over $800 (HB933_HD1_.HTM.txt) a year in state taxes on those groceries. Lowering the tax rate on groceries and nonprescription drugs will have an immediate positive impact on Hawaii's cost of living by lowering the cost of these necessary items (HB933_HD1_.HTM.txt). Georgia’s phased elimination of grocery taxes in the 1990s resulted in $691.40 (HB933_TESTIMONY_HSH_01-30-25_.PDF.txt) million in household savings, 18,577 new jobs, and $1.45 (HB933_TESTIMONY_HSH_01-30-25_.PDF.txt) billion in economic output by 2021.\",\n\"policy_impact\": \"This Act amends Chapter 237, Hawaii Revised Statutes, by adding two new sections to establish a reduced general excise tax rate on eligible groceries and nonprescription drugs, beginning January 1, 2026 (HB933_HD1_.HTM.txt). The measure's effective date has been changed to July 1, 3000, to encourage further discussion (HB933_HD1_HSCR59_.HTM.txt). This change defers the implementation of the policy indefinitely.\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"The fiscal implications of this measure have been significantly altered by amendments. While the text of the bill establishes a reduced tax rate beginning January 1, 2026 (HB933_HD1_.HTM.txt), the Committee on Human Services & Homelessness amended the measure by changing the effective date to July 1, 3000, to encourage further discussion (HB933_HD1_HSCR59_.HTM.txt). As a result, the measure will have no fiscal impact within the next six years. The original effective date of July 1, 2025, has been superseded. The Committee noted the Department of Taxation's request for a January 1, 2027 effective date to allow for implementation. However, the current effective date of July 1, 3000, makes this point moot for immediate fiscal planning. Therefore, there are no projected revenue reductions or administrative costs for implementation within the six-year fiscal planning period.\",\n\"operating_revenue_impact\": \"Due to the amended effective date of July 1, 3000 (HB933_HD1_HSCR59_.HTM.txt), there is no anticipated impact on operating revenues. The reduction in the general excise tax rate will not take effect. The bill's internal start date for the tax reduction is January 1, 2026 (HB933_HD1_.HTM.txt), but this is nullified by the overall effective date.\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"As the measure's effective date has been changed to July 1, 3000 (HB933_HD1_HSCR59_.HTM.txt), there are no fiscal implications after the six-year period. This amendment was made to encourage further discussion on the matter. Any future fiscal impact is contingent on subsequent legislation to amend the effective date.\",\n\"updates_from_previous_fiscal_note\": \"The primary update is the change in the bill's effective date to July 1, 3000 (HB933_HD1_HSCR59_.HTM.txt), which defers any fiscal impact indefinitely and is intended to encourage further discussion. The implementation date for the tax reduction within the bill's text is now January 1, 2026 (HB933_HD1_.HTM.txt). The amended legislative document also introduces new figures, stating a Hawaii family on a thrifty food plan spends $1,794.60 (HB933_HD1_.HTM.txt) per month on food and would pay over $800 (HB933_HD1_.HTM.txt) a year in state taxes on those groceries.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 17029,
+      "candidates_token_count": 1403,
+      "total_token_count": 21892
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"The purpose of this measure is to establish a reduction in the general excise tax rate on gross proceeds or gross income from the sale of groceries that are eligible for purchase under the Supplemental Nutrition Assistance Program or Special Supplemental Nutrition Program for Women, Infants, and Children and from the sale of nonprescription drugs. This measure has been amended by changing the effective date to July 1, 3000, to encourage further discussion (HB933_HD1_HSCR59_.HTM.txt). The bill also requires the Department of Business, Economic Development, and Tourism to conduct an economic cost-benefit analysis on the general excise reductions and submit a report to the Legislature.\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"According to the United States Department of Agriculture, a Hawaii family on a thrifty food plan spends $1,794.60 (HB933_HD1_.HTM.txt) per month on food. This family would pay over $800 (HB933_HD1_.HTM.txt) a year in state taxes on those groceries. The thrifty food plan represents those on a limited budget (HB933_HD1_.HTM.txt).\",\n\"agency_impact\": \"The amended bill specifies the reduced tax rate would begin January 1, 2026 (HB933_HD1_.HTM.txt). However, the Committee on Human Services & Homelessness notes the request in testimony from the Department of Taxation that this measure take effect on January 1, 2027, rather than January 1, 2026 (HB933_HD1_HSCR59_.HTM.txt). This would allow the Department sufficient time to implement the proposed reduced rates and provide businesses with enough time to update their accounting systems (HB933_HD1_HSCR59_.HTM.txt).\",\n\"economic_impact\": \"The legislature finds that a Hawaii family on a thrifty food plan spends $1,794.60 (HB933_HD1_.HTM.txt) per month on food and this family would pay over $800 (HB933_HD1_.HTM.txt) a year in state taxes on those groceries. Lowering the tax rate on groceries and nonprescription drugs will have an immediate positive impact on Hawaii's cost of living by lowering the cost of these necessary items (HB933_HD1_.HTM.txt). Georgia’s phased elimination of grocery taxes in the 1990s resulted in $691.40 (HB933_TESTIMONY_HSH_01-30-25_.PDF.txt) million in household savings, 18,577 new jobs, and $1.45 (HB933_TESTIMONY_HSH_01-30-25_.PDF.txt) billion in economic output by 2021.\",\n\"policy_impact\": \"This Act amends Chapter 237, Hawaii Revised Statutes, by adding two new sections to establish a reduced general excise tax rate on eligible groceries and nonprescription drugs, beginning January 1, 2026 (HB933_HD1_.HTM.txt). The measure's effective date has been changed to July 1, 3000, to encourage further discussion (HB933_HD1_HSCR59_.HTM.txt). This change defers the implementation of the policy indefinitely.\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"The fiscal implications of this measure have been significantly altered by amendments. While the text of the bill establishes a reduced tax rate beginning January 1, 2026 (HB933_HD1_.HTM.txt), the Committee on Human Services & Homelessness amended the measure by changing the effective date to July 1, 3000, to encourage further discussion (HB933_HD1_HSCR59_.HTM.txt). As a result, the measure will have no fiscal impact within the next six years. The original effective date of July 1, 2025, has been superseded. The Committee noted the Department of Taxation's request for a January 1, 2027 effective date to allow for implementation. However, the current effective date of July 1, 3000, makes this point moot for immediate fiscal planning. Therefore, there are no projected revenue reductions or administrative costs for implementation within the six-year fiscal planning period.\",\n\"operating_revenue_impact\": \"Due to the amended effective date of July 1, 3000 (HB933_HD1_HSCR59_.HTM.txt), there is no anticipated impact on operating revenues. The reduction in the general excise tax rate will not take effect. The bill's internal start date for the tax reduction is January 1, 2026 (HB933_HD1_.HTM.txt), but this is nullified by the overall effective date.\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"As the measure's effective date has been changed to July 1, 3000 (HB933_HD1_HSCR59_.HTM.txt), there are no fiscal implications after the six-year period. This amendment was made to encourage further discussion on the matter. Any future fiscal impact is contingent on subsequent legislation to amend the effective date.\",\n\"updates_from_previous_fiscal_note\": \"The primary update is the change in the bill's effective date to July 1, 3000 (HB933_HD1_HSCR59_.HTM.txt), which defers any fiscal impact indefinitely and is intended to encourage further discussion. The implementation date for the tax reduction within the bill's text is now January 1, 2026 (HB933_HD1_.HTM.txt). The amended legislative document also introduces new figures, stating a Hawaii family on a thrifty food plan spends $1,794.60 (HB933_HD1_.HTM.txt) per month on food and would pay over $800 (HB933_HD1_.HTM.txt) a year in state taxes on those groceries.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"The purpose of this measure is to establish a reduction in the general excise tax rate on gross proceeds or gross income from the sale of groceries that are eligible for purchase under the Supplemental Nutrition Assistance Program or Special Supplemental Nutrition Program for Women, Infants, and Children and from the sale of nonprescription drugs",
+          "attributed_chunk_id": 41,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8529411764705882,
+          "attribution_reason": "Word frequency match score: 0.853",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This measure has been amended by changing the effective date to July 1, 3000, to encourage further discussion (HB933_HD1_HSCR59_",
+          "attributed_chunk_id": 46,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.9090909090909091,
+          "attribution_reason": "Word frequency match score: 0.909",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). The bill also requires the Department of Business, Economic Development, and Tourism to conduct an economic cost-benefit analysis on the general excise reductions and submit a report to the Legislature",
+          "attributed_chunk_id": 29,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7619047619047619,
+          "attribution_reason": "Word frequency match score: 0.762",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"According to the United States Department of Agriculture, a Hawaii family on a thrifty food plan spends $1,794",
+          "attributed_chunk_id": 24,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8571428571428571,
+          "attribution_reason": "Word frequency match score: 0.857",
+          "numbers_found": [
+            1794.0
+          ]
+        },
+        {
+          "sentence": "60 (HB933_HD1_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            60.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) per month on food",
+          "attributed_chunk_id": 24,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Word frequency match score: 0.600",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This family would pay over $800 (HB933_HD1_",
+          "attributed_chunk_id": "NUMBER_800",
+          "attribution_method": "number_based",
+          "attribution_score": 0.8,
+          "attribution_reason": "Number $800 from HB933_HD1_.HTM.txt (score: 0.800)",
+          "numbers_found": [
+            800.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) a year in state taxes on those groceries",
+          "attributed_chunk_id": 24,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The thrifty food plan represents those on a limited budget (HB933_HD1_",
+          "attributed_chunk_id": 25,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8571428571428571,
+          "attribution_reason": "Word frequency match score: 0.857",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). \",\n\"agency_impact\": \"The amended bill specifies the reduced tax rate would begin January 1, 2026 (HB933_HD1_",
+          "attributed_chunk_id": 30,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3076923076923077,
+          "attribution_reason": "Word frequency match score: 0.308",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). However, the Committee on Human Services & Homelessness notes the request in testimony from the Department of Taxation that this measure take effect on January 1, 2027, rather than January 1, 2026 (HB933_HD1_HSCR59_",
+          "attributed_chunk_id": 47,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6086956521739131,
+          "attribution_reason": "Word frequency match score: 0.609",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). This would allow the Department sufficient time to implement the proposed reduced rates and provide businesses with enough time to update their accounting systems (HB933_HD1_HSCR59_",
+          "attributed_chunk_id": 47,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5789473684210527,
+          "attribution_reason": "Word frequency match score: 0.579",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). \",\n\"economic_impact\": \"The legislature finds that a Hawaii family on a thrifty food plan spends $1,794",
+          "attributed_chunk_id": 24,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5833333333333334,
+          "attribution_reason": "Word frequency match score: 0.583",
+          "numbers_found": [
+            1794.0
+          ]
+        },
+        {
+          "sentence": "60 (HB933_HD1_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            60.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) per month on food and this family would pay over $800 (HB933_HD1_",
+          "attributed_chunk_id": "NUMBER_800",
+          "attribution_method": "number_based",
+          "attribution_score": 0.7,
+          "attribution_reason": "Number $800 from HB933_HD1_.HTM.txt (score: 0.700)",
+          "numbers_found": [
+            800.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) a year in state taxes on those groceries",
+          "attributed_chunk_id": 24,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Lowering the tax rate on groceries and nonprescription drugs will have an immediate positive impact on Hawaii's cost of living by lowering the cost of these necessary items (HB933_HD1_",
+          "attributed_chunk_id": 27,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8823529411764706,
+          "attribution_reason": "Word frequency match score: 0.882",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). Georgia’s phased elimination of grocery taxes in the 1990s resulted in $691",
+          "attributed_chunk_id": 24,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1,
+          "attribution_reason": "Word frequency match score: 0.100",
+          "numbers_found": [
+            691.0
+          ]
+        },
+        {
+          "sentence": "40 (HB933_TESTIMONY_HSH_01-30-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            40.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) million in household savings, 18,577 new jobs, and $1",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.125,
+          "attribution_reason": "Word frequency match score: 0.125",
+          "numbers_found": [
+            1.0,
+            18577.0
+          ]
+        },
+        {
+          "sentence": "45 (HB933_TESTIMONY_HSH_01-30-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            45.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) billion in economic output by 2021",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Word frequency match score: 0.167",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"policy_impact\": \"This Act amends Chapter 237, Hawaii Revised Statutes, by adding two new sections to establish a reduced general excise tax rate on eligible groceries and nonprescription drugs, beginning January 1, 2026 (HB933_HD1_",
+          "attributed_chunk_id": 29,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4230769230769231,
+          "attribution_reason": "Word frequency match score: 0.423",
+          "numbers_found": [
+            1.0,
+            237.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). The measure's effective date has been changed to July 1, 3000, to encourage further discussion (HB933_HD1_HSCR59_",
+          "attributed_chunk_id": 46,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). This change defers the implementation of the policy indefinitely",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"The fiscal implications of this measure have been significantly altered by amendments",
+          "attributed_chunk_id": 46,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": []
+        },
+        {
+          "sentence": "While the text of the bill establishes a reduced tax rate beginning January 1, 2026 (HB933_HD1_",
+          "attributed_chunk_id": 30,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.45454545454545453,
+          "attribution_reason": "Word frequency match score: 0.455",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt), the Committee on Human Services & Homelessness amended the measure by changing the effective date to July 1, 3000, to encourage further discussion (HB933_HD1_HSCR59_",
+          "attributed_chunk_id": 46,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6470588235294118,
+          "attribution_reason": "Word frequency match score: 0.647",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). As a result, the measure will have no fiscal impact within the next six years",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1,
+          "attribution_reason": "Word frequency match score: 0.100",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The original effective date of July 1, 2025, has been superseded",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "The Committee noted the Department of Taxation's request for a January 1, 2027 effective date to allow for implementation",
+          "attributed_chunk_id": 46,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5454545454545454,
+          "attribution_reason": "Word frequency match score: 0.545",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "However, the current effective date of July 1, 3000, makes this point moot for immediate fiscal planning",
+          "attributed_chunk_id": 46,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "Therefore, there are no projected revenue reductions or administrative costs for implementation within the six-year fiscal planning period",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.07142857142857142,
+          "attribution_reason": "Word frequency match score: 0.071",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"Due to the amended effective date of July 1, 3000 (HB933_HD1_HSCR59_",
+          "attributed_chunk_id": 46,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt), there is no anticipated impact on operating revenues",
+          "attributed_chunk_id": 26,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Word frequency match score: 0.143",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The reduction in the general excise tax rate will not take effect",
+          "attributed_chunk_id": 12,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Word frequency match score: 0.625",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill's internal start date for the tax reduction is January 1, 2026 (HB933_HD1_",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4444444444444444,
+          "attribution_reason": "Word frequency match score: 0.444",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt), but this is nullified by the overall effective date",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"As the measure's effective date has been changed to July 1, 3000 (HB933_HD1_HSCR59_",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4444444444444444,
+          "attribution_reason": "Word frequency match score: 0.444",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt), there are no fiscal implications after the six-year period",
+          "attributed_chunk_id": 22,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1111111111111111,
+          "attribution_reason": "Word frequency match score: 0.111",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This amendment was made to encourage further discussion on the matter",
+          "attributed_chunk_id": 46,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Any future fiscal impact is contingent on subsequent legislation to amend the effective date",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Word frequency match score: 0.200",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"The primary update is the change in the bill's effective date to July 1, 3000 (HB933_HD1_HSCR59_",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt), which defers any fiscal impact indefinitely and is intended to encourage further discussion",
+          "attributed_chunk_id": 46,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The implementation date for the tax reduction within the bill's text is now January 1, 2026 (HB933_HD1_",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.36363636363636365,
+          "attribution_reason": "Word frequency match score: 0.364",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). The amended legislative document also introduces new figures, stating a Hawaii family on a thrifty food plan spends $1,794",
+          "attributed_chunk_id": 24,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4117647058823529,
+          "attribution_reason": "Word frequency match score: 0.412",
+          "numbers_found": [
+            1794.0
+          ]
+        },
+        {
+          "sentence": "60 (HB933_HD1_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            60.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) per month on food and would pay over $800 (HB933_HD1_",
+          "attributed_chunk_id": "NUMBER_800",
+          "attribution_method": "number_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Number $800 from HB933_HD1_.HTM.txt (score: 0.667)",
+          "numbers_found": [
+            800.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) a year in state taxes on those groceries",
+          "attributed_chunk_id": 24,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 1,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 2,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.100",
+            "Word frequency match score: 0.071"
+          ]
+        },
+        "2": {
+          "usage_count": 1,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.125"
+          ]
+        },
+        "3": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": []
+        },
+        "4": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": []
+        },
+        "5": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": []
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 6,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.167",
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.333",
+            "Word frequency match score: 0.444",
+            "Word frequency match score: 0.200",
+            "Word frequency match score: 0.400"
+          ]
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 2,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.444",
+            "Word frequency match score: 0.364"
+          ]
+        },
+        "12": {
+          "usage_count": 1,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.625"
+          ]
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": []
+        },
+        "20": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": []
+        },
+        "21": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": []
+        },
+        "22": {
+          "usage_count": 1,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.111"
+          ]
+        },
+        "23": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": []
+        },
+        "24": {
+          "usage_count": 8,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.857",
+            "Word frequency match score: 0.600",
+            "Word frequency match score: 0.667",
+            "Word frequency match score: 0.583",
+            "Word frequency match score: 0.667",
+            "Word frequency match score: 0.100",
+            "Word frequency match score: 0.412",
+            "Word frequency match score: 0.667"
+          ]
+        },
+        "25": {
+          "usage_count": 1,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.857"
+          ]
+        },
+        "26": {
+          "usage_count": 1,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.143"
+          ]
+        },
+        "27": {
+          "usage_count": 1,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.882"
+          ]
+        },
+        "28": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": []
+        },
+        "29": {
+          "usage_count": 2,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.762",
+            "Word frequency match score: 0.423"
+          ]
+        },
+        "30": {
+          "usage_count": 2,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.308",
+            "Word frequency match score: 0.455"
+          ]
+        },
+        "31": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": []
+        },
+        "32": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": []
+        },
+        "33": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": []
+        },
+        "34": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": []
+        },
+        "35": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": []
+        },
+        "36": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": []
+        },
+        "37": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": []
+        },
+        "38": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1",
+          "attribution_reasons": []
+        },
+        "39": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1_HSCR59_",
+          "attribution_reasons": []
+        },
+        "40": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1_HSCR59_",
+          "attribution_reasons": []
+        },
+        "41": {
+          "usage_count": 1,
+          "document_name": "HB933_HD1_HSCR59_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.853"
+          ]
+        },
+        "42": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1_HSCR59_",
+          "attribution_reasons": []
+        },
+        "43": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1_HSCR59_",
+          "attribution_reasons": []
+        },
+        "44": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1_HSCR59_",
+          "attribution_reasons": []
+        },
+        "45": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1_HSCR59_",
+          "attribution_reasons": []
+        },
+        "46": {
+          "usage_count": 9,
+          "document_name": "HB933_HD1_HSCR59_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.909",
+            "Word frequency match score: 0.667",
+            "Word frequency match score: 0.250",
+            "Word frequency match score: 0.647",
+            "Word frequency match score: 0.545",
+            "Word frequency match score: 0.333",
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.250"
+          ]
+        },
+        "47": {
+          "usage_count": 2,
+          "document_name": "HB933_HD1_HSCR59_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.609",
+            "Word frequency match score: 0.579"
+          ]
+        },
+        "48": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1_HSCR59_",
+          "attribution_reasons": []
+        },
+        "49": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1_HSCR59_",
+          "attribution_reasons": []
+        },
+        "50": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1_HSCR59_",
+          "attribution_reasons": []
+        },
+        "NUMBER_807.0": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_268.0": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_773.0": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_691.4": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1.45": {
+          "usage_count": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1794.6": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_800.0": {
+          "usage_count": 0,
+          "document_name": "HB933_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_800": {
+          "usage_count": 3,
+          "document_name": "HB933_HD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $800 from HB933_HD1_.HTM.txt (score: 0.800)",
+            "Number $800 from HB933_HD1_.HTM.txt (score: 0.700)",
+            "Number $800 from HB933_HD1_.HTM.txt (score: 0.667)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 0,
+        "number_based": 3,
+        "word_frequency_based": 40,
+        "semantic_similarity": 0,
+        "fallback": 1,
+        "no_attribution": 6
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 51,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "JOSH GREEN M.D. GOVERNOR SYLVIA LUKE LT. GOVERNOR STATE OF HAWAI‘I DEPARTMENT OF TAXATION Ka ‘Oihana ‘Auhau P.O. BOX 259 HONOLULU, HAWAI‘I 96809 PHONE NO: (808) 587-1540 FAX NO: (808) 587-1560 GARY S. SUGANUMA DIRECTOR KRISTEN M.R. SAKAMOTO DEPUTY DIRECTOR TESTIMONY OF GARY S. SUGANUMA, DIRECTOR OF TAXATION TESTIMONY ON",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "TESTIMONY OF GARY S. SUGANUMA, DIRECTOR OF TAXATION TESTIMONY ON THE FOLLOWING MEASURE: H.B. No. 933, Relating to General Excise Tax Reductions. BEFORE THE: House Committee on Human Services & Homelessness DATE: Thursday, January 30, 2025 TIME: 9:35 a.m. LOCATION: State Capitol, Room 329 Chair Marten, Vice-Chair Olds, and Members",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "State Capitol, Room 329 Chair Marten, Vice-Chair Olds, and Members of the Committee: The Department of Taxation (DOTAX) offers the following comments regarding H.B. 933 for your consideration. Section 2 of H.B. 933 adds two new sections to chapter 237, Hawaii Revised Statutes (HRS). The first proposed section beginning on",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "Hawaii Revised Statutes (HRS). The first proposed section beginning on page 3 imposes a reduced general excise tax (GET) rate on the proceeds received from the sale of groceries eligible for purchase under the supplemental nutrition assistance program (SNAP) and special supplemental nutrition program for women, infants, and children (WIC)",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "special supplemental nutrition program for women, infants, and children (WIC) within the State, regardless of the means of purchase and the eligibility of the purchaser for the SNAP and WIC programs. The reduced rate is one-half percent less than the rate applied under section 237-13, HRS (4%). The bill requires",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "rate applied under section 237-13, HRS (4%). The bill requires DOTAX to consult with the federal Food and Nutrition Service of the United States Department of Agriculture to determine if further definition of the term “groceries” is needed. The next proposed section beginning on page 4 imposes a reduced GET",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "proposed section beginning on page 4 imposes a reduced GET rate on the gross proceeds or income received from the sale of nonprescription drugs. The reduced rate is one-half percent less than the rate applied under section 237-13, HRS (4%). \\__\\\\_‘\\\\Jm|Nl ___ﬁT’ O‘-§ AW'I ____‘nv\\\\ ‘ ‘_I__ Vkill’ F4.u$1” 0_9,?",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "\\__\\\\_‘\\\\Jm|Nl ___ﬁT’ O‘-§ AW'I ____‘nv\\\\ ‘ ‘_I__ Vkill’ F4.u$1” 0_9,? ”___M/_'_m‘ M3 E5“ ‘*1___mA;_ H MW: W\\_AK_ ‘ [gm 3 ”€_“_____‘U_ iv,‘ %‘__ ,ﬂM\"__‘__‘_ |¥__ _!~»_>_ _&%‘___ “_M%_;\"__‘mg_ $%___ Department of Taxation Testimony H.B. 933 January 30, 2025 Page 2 of 2 Section 3 of the bill requires the Department",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "of 2 Section 3 of the bill requires the Department of Business, Economic Development, and Tourism (DBEDT) to conduct an economic cost-benefit analysis on the general excise tax reductions in section 2 of the bill. The measure has an effective date of July 1, 2025. DOTAX notes that the measure",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "date of July 1, 2025. DOTAX notes that the measure may complicate reporting for taxpayers and businesses, who will likely need to track and report receipts of sales subject to the proposed reduced rates separately from sales subject to the normal 4% rate. DOTAX also requests the measure take effect",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "normal 4% rate. DOTAX also requests the measure take effect on January 1, 2027 to allow for form and instruction changes necessary to implement the proposed reduced rates for sales of eligible groceries and nonprescription drugs. This would also allow taxpayers, particularly businesses, to update their accounting systems to comply",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "taxpayers, particularly businesses, to update their accounting systems to comply with the changes in this measure. Thank you for the opportunity to provide comments on this measure. Date: January 30, 2025 Subject: Hawaiʻi Foodbank in Support of HB 933 Relating to General Excise Tax Reduction Aloha Chair Marten, Vice Chair",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "to General Excise Tax Reduction Aloha Chair Marten, Vice Chair Olds, and members of the committee, On behalf of Hawaiʻi Foodbank, I express our support for HB 933, Relating General Excise Tax Reduction. This bill reduces the general excise tax rate on the gross proceeds or income from the sale",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "rate on the gross proceeds or income from the sale of groceries that are eligible under the supplemental nutrition assistance program (SNAP) or special supplemental nutrition program for women, infants, and children (WIC), regardless of the means of purchase and the program eligibility of the purchaser; reduces the general excise",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "the program eligibility of the purchaser; reduces the general excise tax rate on the gross proceeds or income from the sale of nonprescription drugs; and requires DBEDT to conduct an economic cost-beneﬁt analysis on the GET reductions. As the state’s largest hunger-relief organization, Hawai‘i Foodbank has been committed to ensuring",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "largest hunger-relief organization, Hawai‘i Foodbank has been committed to ensuring no one in Hawai‘i goes hungry since 1983. We work with over 225 agency partners on Oʻahu and Kauaʻi to distribute food, and programs like Food 4 Keiki and ‘Ohana Produce Plus provide nutritious meals to children and families. In",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "Produce Plus provide nutritious meals to children and families. In addition to addressing daily needs, our organization mobilizes during emergencies to provide immediate relief and aid long-term recovery efforts. Food insecurity is a growing crisis in Hawai‘i, with nearly 1 in 3 households struggling to access adequate food. One in",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "in 3 households struggling to access adequate food. One in ten households go a whole day without food some or most months. The recent 2024 ALICE in Hawai‘i report, released by Aloha United Way, underscores the broader economic challenges fueling food insecurity. 40% of Hawai‘i’s families are at the ALICE",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB933_TESTIMONY_HSH_01-30-25_",
+          "chunk_text": "food insecurity. 40% of Hawai‘i’s families are at the ALICE (asset-limited, income- constrained, employed) threshold or below. These households live paycheck to paycheck, and nearly half of those below the ALICE threshold face food insecurity. Taxing the sal",
+          "start_word": 720,
+          "end_word": 758,
+          "word_count": 38
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB933_HD1",
+          "chunk_text": "HB933 HD1 HOUSE OF REPRESENTATIVES H.B. NO. 933 THIRTY-THIRD LEGISLATURE, 2025 H.D. 1 STATE OF HAWAII A BILL FOR AN ACT RELATING TO GENERAL EXCISE TAX REDUCTIONS . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that the cost of living in",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB933_HD1",
+          "chunk_text": "1. The legislature finds that the cost of living in Hawaii is extremely high and many residents are struggling to pay for food, medication, housing, and other necessities. Many Hawaii residents, including vulnerable populations, suffer from food insecurity. A 2021 study by the university of Hawaii at Manoa stated that",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB933_HD1",
+          "chunk_text": "study by the university of Hawaii at Manoa stated that forty-eight per cent of Hawaii families with children are experiencing food insecurity. A 2021 Cornell university study indicated that even the slightest increase in tax rate correlated to an increased likelihood of food insecurity. The legislature further finds that only",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB933_HD1",
+          "chunk_text": "likelihood of food insecurity. The legislature further finds that only thirteen states tax most foods purchased for home consumption. Six of the states that tax groceries do so at a reduced rate. Taxing the sale of groceries is generally considered regressive and disproportionately hurts working families because they spend a",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB933_HD1",
+          "chunk_text": "regressive and disproportionately hurts working families because they spend a higher percentage of their income on food. Hawaii's general excise tax on groceries negatively affects not only the amount of food that Hawaii families can afford, but also the quality and diversity of their food choices. According to the United",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB933_HD1",
+          "chunk_text": "and diversity of their food choices. According to the United States Department of Agriculture, a Hawaii family on a thrifty food plan spends $1,794.60 per month on food. This family would pay over $800 a year in state taxes on those groceries. The thrifty food plan represents those on a",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB933_HD1",
+          "chunk_text": "those groceries. The thrifty food plan represents those on a limited budget. Even if this family is eligible for a refundable food/excise tax credit, the family would likely get back less than one-half of those state taxes paid on groceries. The legislature has already recognized that certain items should be",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB933_HD1",
+          "chunk_text": "The legislature has already recognized that certain items should be exempt from the general excise tax, as evidenced by the existing general exemption for amounts received by certain entities for selling prescription drugs. Lowering the tax rate on groceries and nonprescription drugs will have an immediate positive impact on Hawaii's",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB933_HD1",
+          "chunk_text": "nonprescription drugs will have an immediate positive impact on Hawaii's cost of living by lowering the cost of these necessary items. Accordingly, the purpose of this Act is to: (1) Establish a reduction in the general excise tax rate on gross proceeds or gross income from the sale of groceries",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB933_HD1",
+          "chunk_text": "gross proceeds or gross income from the sale of groceries that are eligible for purchase under the supplemental nutrition assistance program or special supplemental nutrition program for women, infants, and children and from the sale of nonprescription drugs; and (2) Require the department of business, economic development, and tourism to",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB933_HD1",
+          "chunk_text": "Require the department of business, economic development, and tourism to conduct an economic cost-benefit analysis on the general excise reductions and submit a report to the legislature. SECTION 2. Chapter 237, Hawaii Revised Statutes, is amended by adding two new sections to be appropriately designated and to read as follows:",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 30,
+          "document_name": "HB933_HD1",
+          "chunk_text": "sections to be appropriately designated and to read as follows: \" § 237- Reduced rate; eligible groceries. (a) Notwithstanding section 237-13 to the contrary, beginning January 1, 2026, there is hereby levied and shall be assessed and collected a tax equivalent to one-half per cent less than the rate that",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 31,
+          "document_name": "HB933_HD1",
+          "chunk_text": "equivalent to one-half per cent less than the rate that would have applied pursuant to section 237-13 of the gross proceeds or gross income received from the sale of all groceries eligible for purchase under the supplemental nutrition assistance program and special supplemental nutrition program for women, infants, and children",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 32,
+          "document_name": "HB933_HD1",
+          "chunk_text": "and special supplemental nutrition program for women, infants, and children within the State, regardless of the means of purchase and the eligibility of the purchaser for supplemental nutrition assistance program or special supplemental nutrition program for women, infants, and children benefits. (b) For the purposes of this section: \"Food\" or",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 33,
+          "document_name": "HB933_HD1",
+          "chunk_text": "benefits. (b) For the purposes of this section: \"Food\" or \"food product\" means substances, whether in liquid, concentrated, solid, frozen, dried, or dehydrated form, that are sold for ingestion or chewing by humans and are consumed for their taste or nutritional value. \"Groceries\" means any food or food product for",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 34,
+          "document_name": "HB933_HD1",
+          "chunk_text": "nutritional value. \"Groceries\" means any food or food product for home consumption. \"Groceries\" may be further defined by the department by rule through the enumeration of items in rules or tax informational release; provided that the department shall consult with the federal Food and Nutrition Service of the United States",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 35,
+          "document_name": "HB933_HD1",
+          "chunk_text": "the federal Food and Nutrition Service of the United States Department of Agriculture in further defining the term \"groceries\" for purposes of the supplemental nutrition assistance program and special supplemental nutrition program for women, infants, and children. §237- Reduced rate; nonprescription drugs. (a) Notwithstanding section 237-13 to the contrary, beginning",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 36,
+          "document_name": "HB933_HD1",
+          "chunk_text": "nonprescription drugs. (a) Notwithstanding section 237-13 to the contrary, beginning January 1, 2026, there is hereby levied and shall be assessed and collected a tax equivalent to one-half per cent less than the rate that would have applied pursuant to section 237-13 of the gross proceeds or gross income received",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 37,
+          "document_name": "HB933_HD1",
+          "chunk_text": "section 237-13 of the gross proceeds or gross income received from the sale of nonprescription drugs. (b) For the purposes of this section: \"Drug\" means: (1) Articles recognized in the official United States Pharmacopoeia, official United States Pharmacopoeia Dispensing Information, official Homeopathic Pharmacopoeia of the United States, or official National",
+          "start_word": 720,
+          "end_word": 770,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 38,
+          "document_name": "HB933_HD1",
+          "chunk_text": "official Homeopathic Pharmacopoeia of the United States, or official National Formulary, or any sup",
+          "start_word": 760,
+          "end_word": 774,
+          "word_count": 14
+        },
+        {
+          "chunk_id": 39,
+          "document_name": "HB933_HD1_HSCR59_",
+          "chunk_text": "HSCR59 STAND. COM. REP. NO. 59 Honolulu, Hawaii , 2025 RE: H.B. No. 933 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Human Services & Homelessness, to which was referred H.B. No. 933 entitled:",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 40,
+          "document_name": "HB933_HD1_HSCR59_",
+          "chunk_text": "& Homelessness, to which was referred H.B. No. 933 entitled: \"A BILL FOR AN ACT RELATING TO GENERAL EXCISE TAX REDUCTIONS,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish a reduction in the general excise tax rate on gross proceeds or gross income",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 41,
+          "document_name": "HB933_HD1_HSCR59_",
+          "chunk_text": "general excise tax rate on gross proceeds or gross income from the sale of groceries that are eligible for purchase under the Supplemental Nutrition Assistance Program or Special Supplemental Nutrition Program for Women, Infants, and Children and from the sale of nonprescription drugs; and (2) Require the Department of Business,",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 42,
+          "document_name": "HB933_HD1_HSCR59_",
+          "chunk_text": "of nonprescription drugs; and (2) Require the Department of Business, Economic Development, and Tourism to conduct an economic cost-benefit analysis on the general excise reductions and submit a report to the Legislature. Your Committee received testimony in support of this measure from the Grassroot Institute of Hawaii; Hawai ʻ i",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 43,
+          "document_name": "HB933_HD1_HSCR59_",
+          "chunk_text": "measure from the Grassroot Institute of Hawaii; Hawai ʻ i Foodbank; Hawai ʻ i Pacific Health; Hawaii Food Industry Association; and Maui Chamber of Commerce. Your Committee received comments on this measure from the Department of Taxation and Tax Foundation of Hawaii. Your Committee finds that Hawaii's high cost of",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 44,
+          "document_name": "HB933_HD1_HSCR59_",
+          "chunk_text": "of Hawaii. Your Committee finds that Hawaii's high cost of living forces many residents to struggle with basic necessities, including food, housing, and medication. Food insecurity remains a serious issue, with nearly half of Hawaii families with children experiencing difficulty affording enough to eat. Unlike most states, Hawaii taxes groceries",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 45,
+          "document_name": "HB933_HD1_HSCR59_",
+          "chunk_text": "affording enough to eat. Unlike most states, Hawaii taxes groceries at the full general excise tax rate, which disproportionately burdens working families and those on limited budgets. Reducing the general excise tax on groceries and nonprescription drugs would provide immediate financial relief, helping families afford essential items. Your Committee has",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 46,
+          "document_name": "HB933_HD1_HSCR59_",
+          "chunk_text": "financial relief, helping families afford essential items. Your Committee has amended this measure by: (1) Changing the effective date to July 1, 3000, to encourage further discussion; and (2) Making technical, nonsubstantive amendments for clarity, consistency, and style. Your Committee notes the request in testimony from the Department of Taxation",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 47,
+          "document_name": "HB933_HD1_HSCR59_",
+          "chunk_text": "notes the request in testimony from the Department of Taxation that this measure take effect on January 1, 2027, rather than January 1, 2026, to allow the Department sufficient time to implement the proposed reduced rates for the sale of eligible groceries and nonprescription drugs and provide businesses with enough",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 48,
+          "document_name": "HB933_HD1_HSCR59_",
+          "chunk_text": "eligible groceries and nonprescription drugs and provide businesses with enough time to update their accounting systems to comply with the changes proposed by this measure. As affirmed by the record of votes of the members of your Committee on Human Services & Homelessness that is attached to this report, your",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 49,
+          "document_name": "HB933_HD1_HSCR59_",
+          "chunk_text": "Services & Homelessness that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 933, as amended herein, and recommends that it pass Second Reading in the form attached hereto as H.B. No. 933, H.D. 1, and be referred to your Committee",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 50,
+          "document_name": "HB933_HD1_HSCR59_",
+          "chunk_text": "No. 933, H.D. 1, and be referred to your Committee on Economic Development & Technology. Respectfully submitted on behalf of the members of the Committee on Human Services & Homelessness, ____________________________ LISA MARTEN, Chair",
+          "start_word": 440,
+          "end_word": 474,
+          "word_count": 34
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "individuals and families the hardest, so again, an exemption affecting many of these families would help them keep foot on their tables. This bill would also have broader benefits. The Georgia state auditor recently estimated that Georgia’s sales tax exemption for groceries created more than 5,000 jobs and an additional $807 million in economic output.3 For anyone concerned that tourists might be the primary beneficiaries of changes to the GET, HB933 limits the proposed exemption to only SNAP- and WIC-eligible groceries. The bill would retain the excise tax on restaurants and thus a significant amount of visitor food spending. Regarding nonprescription",
+        "number": 807.0,
+        "filename": "HB933_TESTIMONY_HSH_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "is enacted, nonprescription medicines such as Tylenol and Advil would suddenly cost less, making it easier for many individuals suffering from everyday health conditions to find relief and save money. In 2022, the Hawaii Department of Taxation director estimated that exempting groceries from the general excise tax could save taxpayers $268 million.5 It is unclear how much this bill would save consumers, but it would nonetheless generate an appreciable amount of relief from Hawaii’s cost of living. Thank you for the opportunity to testify. Ted Kefalas Director of Strategic Campaigns Grassroot Institute of Hawaii 5 Isaac Choy, “Column: GET not as",
+        "number": 268.0,
+        "filename": "HB933_TESTIMONY_HSH_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Hawai‘i Island, the situation is even more dire, with The Food Basket reporting a food insecurity rate of 40%. Under these circumstances, taxing food is both unethical and unnecessary. Grocery taxes disproportionately burden low- and middle-income families, exacerbating economic hardship and worsening food insecurity. Hawai‘i’s 4.5% GET adds an estimated $773 per year in additional costs for a family of four under the USDA’s Thrifty Food Plan. For many residents, this is the difference between putting food on the table and going hungry. HAWAII FOOD INDUSTRY ASSOCIATION The Link Between Grocery Taxes and Food Insecurity Decades of research confirm that grocery",
+        "number": 773.0,
+        "filename": "HB933_TESTIMONY_HSH_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "it to 4% in 2024, with a plan to eliminate it entirely by 2025. • Alabama and Virginia have also reduced or eliminated grocery taxes, implementing phased approaches to balance budgetary needs while providing immediate relief to residents. • Georgia’s phased elimination of grocery taxes in the 1990s resulted in $691.4 million in household savings, 18,577 new jobs, and $1.45 billion in economic output by 2021. These examples show that states can remove grocery taxes without jeopardizing their budgets, while simultaneously reducing food insecurity and boosting economic activity. Health and Social Consequences of Grocery Taxes Taxing groceries and essential medicines contributes",
+        "number": 691.4,
+        "filename": "HB933_TESTIMONY_HSH_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "eliminate it entirely by 2025. • Alabama and Virginia have also reduced or eliminated grocery taxes, implementing phased approaches to balance budgetary needs while providing immediate relief to residents. • Georgia’s phased elimination of grocery taxes in the 1990s resulted in $691.4 million in household savings, 18,577 new jobs, and $1.45 billion in economic output by 2021. These examples show that states can remove grocery taxes without jeopardizing their budgets, while simultaneously reducing food insecurity and boosting economic activity. Health and Social Consequences of Grocery Taxes Taxing groceries and essential medicines contributes to worse health outcomes, particularly among children and vulnerable",
+        "number": 1.45,
+        "filename": "HB933_TESTIMONY_HSH_01-30-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "their income on food. Hawaii's general excise tax on groceries negatively affects not only the amount of food that Hawaii families can afford, but also the quality and diversity of their food choices. According to the United States Department of Agriculture, a Hawaii family on a thrifty food plan spends $1,794.60 per month on food. This family would pay over $800 a year in state taxes on those groceries. The thrifty food plan represents those on a limited budget. Even if this family is eligible for a refundable food/excise tax credit, the family would likely get back less than one-half of",
+        "number": 1794.6,
+        "filename": "HB933_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "negatively affects not only the amount of food that Hawaii families can afford, but also the quality and diversity of their food choices. According to the United States Department of Agriculture, a Hawaii family on a thrifty food plan spends $1,794.60 per month on food. This family would pay over $800 a year in state taxes on those groceries. The thrifty food plan represents those on a limited budget. Even if this family is eligible for a refundable food/excise tax credit, the family would likely get back less than one-half of those state taxes paid on groceries. The legislature has already",
+        "number": 800.0,
+        "filename": "HB933_HD1_.HTM.txt",
+        "document_type": "document"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:49:17.304826",
+  "generation_timestamp_unix": 1760147357.3048372
+}

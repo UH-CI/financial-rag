@@ -1,0 +1,1148 @@
+{
+  "document_name": "HB302_SD1_SSCR1329_",
+  "new_documents_processed": [
+    "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+    "HB302_SD1",
+    "HB302_SD1_SSCR1329_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB302",
+    "HB302_TESTIMONY_HLT_01-29-25_",
+    "HB302_HD1",
+    "HB302_HD1_HSCR33_",
+    "HB302_HD1_TESTIMONY_CPC_02-06-25_",
+    "HB302_HD2",
+    "HB302_HD2_HSCR428_",
+    "HB302_HD2_TESTIMONY_JHA_02-25-25_",
+    "HB302_HD2_HSCR1079_",
+    "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+    "HB302_SD1",
+    "HB302_SD1_SSCR1329_"
+  ],
+  "numbers_used": 1,
+  "prompt_length": 100976,
+  "response_metadata": {
+    "response_text": "{\n  \"overview\": \"The purpose of this measure is to repeal the requirement that a provider-patient relationship be established in person (HB302_SD1_SSCR1329_). The legislature finds that registration for the medical cannabis program has decreased from a peak of 35,444 card-holding patients in August 2021 to 30,035 by November 2024 (HB302_SD1). The measure now also amends the definition of \\\"debilitating medical condition\\\", amends the definition of \\\"waiting room\\\", establishes a cannabis cultivator license, prohibits unlicensed operations, and appropriates funds for enforcement (HB302_SD1_SSCR1329_).\",\n  \"appropriations\": \"There is appropriated out of the medical cannabis registry and regulation special fund the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 (HB302_SD1). The funds are for the department of the attorney general to enforce, and mitigate nuisances relating to, chapter 329D, Hawaii Revised Statutes (HB302_SD1). The sums appropriated shall be expended by the director of health for the purposes of this part (HB302_SD1).\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"The Department of Health supports the measure, noting it is grateful for an amendment to limit medical cannabis certifications to those originating from within the state (HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_). The Department is required to issue a cease and desist notice to violators before initiating criminal proceedings and to establish a cannabis cultivator license program (HB302_SD1). The Department of the Attorney General is appropriated funds to enforce chapter 329D, Hawaii Revised Statutes (HB302_SD1).\",\n  \"economic_impact\": \"The number of registered medical cannabis patients reached its peak in August 2021, with 35,444 card-holding patients, but has since decreased over fifteen per cent to 30,035 by November 2024 (HB302_SD1). This shift away from licensed dispensaries is attributed to administrative barriers, delays in registering, and the ease and lower costs in obtaining cannabis elsewhere (HB302_SD1). The Department of Health noted that a removed provision for immediate purchases posed significant risks, as it would lead to inaccuracies in sales tracking and patient verification systems at state-licensed dispensaries (HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_).\",\n  \"policy_impact\": \"This measure now amends the definition of \\\"debilitating medical condition\\\" to any condition determined by the certifying physician or advanced practice registered nurse to be appropriate for the medical use of cannabis (HB302_SD1_SSCR1329_). It also amends the definition of \\\"waiting room\\\" to include an area where hemp can be sold (HB302_SD1_SSCR1329_). A new cannabis cultivator license is established, and any person who operates a dispensary without a license shall be guilty of a class C felony (HB302_SD1).\",\n  \"revenue_sources\": \"The bill appropriates funds from the medical cannabis registry and regulation special fund for the Department of Attorney General to enforce, and mitigate nuisances relating to, chapter 329D, HRS (HB302_SD1). Expenditures from the Medical Cannabis Registry and Regulation Special Fund are now authorized to fund programs for the mitigation and abatement of nuisances relating to chapter 329D, Hawaii Revised Statutes (HB302_SD1_SSCR1329_).\",\n  \"six_year_fiscal_implications\": \"The bill appropriates an unspecified sum out of the medical cannabis registry and regulation special fund for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027 (HB302_SD1). These funds are for the department of the attorney general to enforce, and mitigate nuisances relating to, chapter 329D, Hawaii Revised Statutes (HB302_SD1). The bill establishes a new cannabis cultivator license to authorize the cultivation and distribution of cannabis plants, with limits on the number of licenses and the maximum size of plant canopy (HB302_SD1_SSCR1329_). The Department of Health is required to issue not more than one cannabis cultivator license for each person (HB302_SD1_SSCR1329_). The bill also establishes new criminal penalties, including a class C felony for operating a dispensary without a license (HB302_SD1). The Medical Cannabis Registry and Regulation Special Fund is now authorized for expenditures to fund programs for the mitigation and abatement of nuisances (HB302_SD1_SSCR1329_). These new enforcement responsibilities and licensing programs represent new, ongoing administrative costs for the Department of Health and the Department of the Attorney General (HB302_SD1_SSCR1329_).\",\n  \"operating_revenue_impact\": \"The amended definition of \\\"waiting room\\\" now includes an area where hemp can be sold, including but not limited to hemp products and accessories to the use of medical cannabis (HB302_SD1_SSCR1329_). This change could create a new revenue stream for licensed medical cannabis dispensaries. The creation of a new cannabis cultivator license may also generate new licensing fee revenue for the state (HB302_SD1).\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"The bill's scope has expanded significantly to include provisions from S.B. No. 1064, S.D. 2, which establishes new criminal penalties, a cannabis cultivator license, and enforcement mechanisms (HB302_SD1_SSCR1329_). The definition of \\\"debilitating medical condition\\\" has been amended to be any condition determined appropriate by a certifying provider, and the \\\"waiting room\\\" definition is amended to allow for the sale of hemp products (HB302_SD1). The bill now includes a specific legislative finding that patient registration has decreased over fifteen per cent from a 2021 peak of 35,444 to 30,035 by November 2024 (HB302_SD1). A new, though unspecified, appropriation from the medical cannabis registry and regulation special fund is established for the Department of the Attorney General for enforcement purposes for fiscal years 2026 and 2027 (HB302_SD1).\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 30080,
+      "candidates_token_count": 1531,
+      "total_token_count": 34264
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n  \"overview\": \"The purpose of this measure is to repeal the requirement that a provider-patient relationship be established in person (HB302_SD1_SSCR1329_). The legislature finds that registration for the medical cannabis program has decreased from a peak of 35,444 card-holding patients in August 2021 to 30,035 by November 2024 (HB302_SD1). The measure now also amends the definition of \\\"debilitating medical condition\\\", amends the definition of \\\"waiting room\\\", establishes a cannabis cultivator license, prohibits unlicensed operations, and appropriates funds for enforcement (HB302_SD1_SSCR1329_).\",\n  \"appropriations\": \"There is appropriated out of the medical cannabis registry and regulation special fund the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 (HB302_SD1). The funds are for the department of the attorney general to enforce, and mitigate nuisances relating to, chapter 329D, Hawaii Revised Statutes (HB302_SD1). The sums appropriated shall be expended by the director of health for the purposes of this part (HB302_SD1).\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"The Department of Health supports the measure, noting it is grateful for an amendment to limit medical cannabis certifications to those originating from within the state (HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_). The Department is required to issue a cease and desist notice to violators before initiating criminal proceedings and to establish a cannabis cultivator license program (HB302_SD1). The Department of the Attorney General is appropriated funds to enforce chapter 329D, Hawaii Revised Statutes (HB302_SD1).\",\n  \"economic_impact\": \"The number of registered medical cannabis patients reached its peak in August 2021, with 35,444 card-holding patients, but has since decreased over fifteen per cent to 30,035 by November 2024 (HB302_SD1). This shift away from licensed dispensaries is attributed to administrative barriers, delays in registering, and the ease and lower costs in obtaining cannabis elsewhere (HB302_SD1). The Department of Health noted that a removed provision for immediate purchases posed significant risks, as it would lead to inaccuracies in sales tracking and patient verification systems at state-licensed dispensaries (HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_).\",\n  \"policy_impact\": \"This measure now amends the definition of \\\"debilitating medical condition\\\" to any condition determined by the certifying physician or advanced practice registered nurse to be appropriate for the medical use of cannabis (HB302_SD1_SSCR1329_). It also amends the definition of \\\"waiting room\\\" to include an area where hemp can be sold (HB302_SD1_SSCR1329_). A new cannabis cultivator license is established, and any person who operates a dispensary without a license shall be guilty of a class C felony (HB302_SD1).\",\n  \"revenue_sources\": \"The bill appropriates funds from the medical cannabis registry and regulation special fund for the Department of Attorney General to enforce, and mitigate nuisances relating to, chapter 329D, HRS (HB302_SD1). Expenditures from the Medical Cannabis Registry and Regulation Special Fund are now authorized to fund programs for the mitigation and abatement of nuisances relating to chapter 329D, Hawaii Revised Statutes (HB302_SD1_SSCR1329_).\",\n  \"six_year_fiscal_implications\": \"The bill appropriates an unspecified sum out of the medical cannabis registry and regulation special fund for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027 (HB302_SD1). These funds are for the department of the attorney general to enforce, and mitigate nuisances relating to, chapter 329D, Hawaii Revised Statutes (HB302_SD1). The bill establishes a new cannabis cultivator license to authorize the cultivation and distribution of cannabis plants, with limits on the number of licenses and the maximum size of plant canopy (HB302_SD1_SSCR1329_). The Department of Health is required to issue not more than one cannabis cultivator license for each person (HB302_SD1_SSCR1329_). The bill also establishes new criminal penalties, including a class C felony for operating a dispensary without a license (HB302_SD1). The Medical Cannabis Registry and Regulation Special Fund is now authorized for expenditures to fund programs for the mitigation and abatement of nuisances (HB302_SD1_SSCR1329_). These new enforcement responsibilities and licensing programs represent new, ongoing administrative costs for the Department of Health and the Department of the Attorney General (HB302_SD1_SSCR1329_).\",\n  \"operating_revenue_impact\": \"The amended definition of \\\"waiting room\\\" now includes an area where hemp can be sold, including but not limited to hemp products and accessories to the use of medical cannabis (HB302_SD1_SSCR1329_). This change could create a new revenue stream for licensed medical cannabis dispensaries. The creation of a new cannabis cultivator license may also generate new licensing fee revenue for the state (HB302_SD1).\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"The bill's scope has expanded significantly to include provisions from S.B. No. 1064, S.D. 2, which establishes new criminal penalties, a cannabis cultivator license, and enforcement mechanisms (HB302_SD1_SSCR1329_). The definition of \\\"debilitating medical condition\\\" has been amended to be any condition determined appropriate by a certifying provider, and the \\\"waiting room\\\" definition is amended to allow for the sale of hemp products (HB302_SD1). The bill now includes a specific legislative finding that patient registration has decreased over fifteen per cent from a 2021 peak of 35,444 to 30,035 by November 2024 (HB302_SD1). A new, though unspecified, appropriation from the medical cannabis registry and regulation special fund is established for the Department of the Attorney General for enforcement purposes for fiscal years 2026 and 2027 (HB302_SD1).\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n  \"overview\": \"The purpose of this measure is to repeal the requirement that a provider-patient relationship be established in person (HB302_SD1_SSCR1329_)",
+          "attributed_chunk_id": 38,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.800)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The legislature finds that registration for the medical cannabis program has decreased from a peak of 35,444 card-holding patients in August 2021 to 30,035 by November 2024 (HB302_SD1)",
+          "attributed_chunk_id": 20,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7222222222222222,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.722)",
+          "numbers_found": [
+            30035.0,
+            35444.0
+          ]
+        },
+        {
+          "sentence": "The measure now also amends the definition of \\\"debilitating medical condition\\\", amends the definition of \\\"waiting room\\\", establishes a cannabis cultivator license, prohibits unlicensed operations, and appropriates funds for enforcement (HB302_SD1_SSCR1329_)",
+          "attributed_chunk_id": 29,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.2727272727272727,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.273)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"appropriations\": \"There is appropriated out of the medical cannabis registry and regulation special fund the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 (HB302_SD1)",
+          "attributed_chunk_id": 55,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.18518518518518517,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.185)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The funds are for the department of the attorney general to enforce, and mitigate nuisances relating to, chapter 329D, Hawaii Revised Statutes (HB302_SD1)",
+          "attributed_chunk_id": 48,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.21428571428571427,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.214)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The sums appropriated shall be expended by the director of health for the purposes of this part (HB302_SD1)",
+          "attributed_chunk_id": 50,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.286)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"The Department of Health supports the measure, noting it is grateful for an amendment to limit medical cannabis certifications to those originating from within the state (HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_)",
+          "attributed_chunk_id": 2,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5882352941176471,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_ (score: 0.588)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Department is required to issue a cease and desist notice to violators before initiating criminal proceedings and to establish a cannabis cultivator license program (HB302_SD1)",
+          "attributed_chunk_id": 52,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6875,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.688)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Department of the Attorney General is appropriated funds to enforce chapter 329D, Hawaii Revised Statutes (HB302_SD1)",
+          "attributed_chunk_id": 48,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.2727272727272727,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.273)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"economic_impact\": \"The number of registered medical cannabis patients reached its peak in August 2021, with 35,444 card-holding patients, but has since decreased over fifteen per cent to 30,035 by November 2024 (HB302_SD1)",
+          "attributed_chunk_id": 21,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8333333333333334,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.833)",
+          "numbers_found": [
+            30035.0,
+            35444.0
+          ]
+        },
+        {
+          "sentence": "This shift away from licensed dispensaries is attributed to administrative barriers, delays in registering, and the ease and lower costs in obtaining cannabis elsewhere (HB302_SD1)",
+          "attributed_chunk_id": 22,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.9375,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.938)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Department of Health noted that a removed provision for immediate purchases posed significant risks, as it would lead to inaccuracies in sales tracking and patient verification systems at state-licensed dispensaries (HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_)",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.55,
+          "attribution_reason": "Document citation + word frequency: HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_ (score: 0.550)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"policy_impact\": \"This measure now amends the definition of \\\"debilitating medical condition\\\" to any condition determined by the certifying physician or advanced practice registered nurse to be appropriate for the medical use of cannabis (HB302_SD1_SSCR1329_)",
+          "attributed_chunk_id": 45,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8571428571428571,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.857)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It also amends the definition of \\\"waiting room\\\" to include an area where hemp can be sold (HB302_SD1_SSCR1329_)",
+          "attributed_chunk_id": 46,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7272727272727273,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.727)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "A new cannabis cultivator license is established, and any person who operates a dispensary without a license shall be guilty of a class C felony (HB302_SD1)",
+          "attributed_chunk_id": 53,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.333)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"revenue_sources\": \"The bill appropriates funds from the medical cannabis registry and regulation special fund for the Department of Attorney General to enforce, and mitigate nuisances relating to, chapter 329D, HRS (HB302_SD1)",
+          "attributed_chunk_id": 55,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.2727272727272727,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.273)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Expenditures from the Medical Cannabis Registry and Regulation Special Fund are now authorized to fund programs for the mitigation and abatement of nuisances relating to chapter 329D, Hawaii Revised Statutes (HB302_SD1_SSCR1329_)",
+          "attributed_chunk_id": 55,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.333)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"six_year_fiscal_implications\": \"The bill appropriates an unspecified sum out of the medical cannabis registry and regulation special fund for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027 (HB302_SD1)",
+          "attributed_chunk_id": 55,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.22727272727272727,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.227)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "These funds are for the department of the attorney general to enforce, and mitigate nuisances relating to, chapter 329D, Hawaii Revised Statutes (HB302_SD1)",
+          "attributed_chunk_id": 48,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.21428571428571427,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.214)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill establishes a new cannabis cultivator license to authorize the cultivation and distribution of cannabis plants, with limits on the number of licenses and the maximum size of plant canopy (HB302_SD1_SSCR1329_)",
+          "attributed_chunk_id": 54,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.667)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Department of Health is required to issue not more than one cannabis cultivator license for each person (HB302_SD1_SSCR1329_)",
+          "attributed_chunk_id": 53,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6923076923076923,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.692)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill also establishes new criminal penalties, including a class C felony for operating a dispensary without a license (HB302_SD1)",
+          "attributed_chunk_id": 51,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.3076923076923077,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.308)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Medical Cannabis Registry and Regulation Special Fund is now authorized for expenditures to fund programs for the mitigation and abatement of nuisances (HB302_SD1_SSCR1329_)",
+          "attributed_chunk_id": 55,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.42857142857142855,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.429)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "These new enforcement responsibilities and licensing programs represent new, ongoing administrative costs for the Department of Health and the Department of the Attorney General (HB302_SD1_SSCR1329_)",
+          "attributed_chunk_id": 28,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.200)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"operating_revenue_impact\": \"The amended definition of \\\"waiting room\\\" now includes an area where hemp can be sold, including but not limited to hemp products and accessories to the use of medical cannabis (HB302_SD1_SSCR1329_)",
+          "attributed_chunk_id": 32,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8095238095238095,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.810)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This change could create a new revenue stream for licensed medical cannabis dispensaries",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4444444444444444,
+          "attribution_reason": "Word frequency match score: 0.444",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The creation of a new cannabis cultivator license may also generate new licensing fee revenue for the state (HB302_SD1)",
+          "attributed_chunk_id": 53,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.250)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"The bill's scope has expanded significantly to include provisions from S",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1,
+          "attribution_reason": "Word frequency match score: 0.100",
+          "numbers_found": []
+        },
+        {
+          "sentence": "B. No. 1064, S",
+          "attributed_chunk_id": 51,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": []
+        },
+        {
+          "sentence": "D. 2, which establishes new criminal penalties, a cannabis cultivator license, and enforcement mechanisms (HB302_SD1_SSCR1329_)",
+          "attributed_chunk_id": 53,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.500)",
+          "numbers_found": [
+            2.0
+          ]
+        },
+        {
+          "sentence": "The definition of \\\"debilitating medical condition\\\" has been amended to be any condition determined appropriate by a certifying provider, and the \\\"waiting room\\\" definition is amended to allow for the sale of hemp products (HB302_SD1)",
+          "attributed_chunk_id": 29,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5263157894736842,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.526)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill now includes a specific legislative finding that patient registration has decreased over fifteen per cent from a 2021 peak of 35,444 to 30,035 by November 2024 (HB302_SD1)",
+          "attributed_chunk_id": 21,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.55,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.550)",
+          "numbers_found": [
+            30035.0,
+            35444.0
+          ]
+        },
+        {
+          "sentence": "A new, though unspecified, appropriation from the medical cannabis registry and regulation special fund is established for the Department of the Attorney General for enforcement purposes for fiscal years 2026 and 2027 (HB302_SD1)",
+          "attributed_chunk_id": 55,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Document citation + word frequency: HB302_SD1 (score: 0.286)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "1": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "2": {
+          "usage_count": 2,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_ (score: 0.588)",
+            "Word frequency match score: 0.100"
+          ]
+        },
+        "3": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "4": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "5": {
+          "usage_count": 2,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_ (score: 0.550)",
+            "Word frequency match score: 0.444"
+          ]
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": []
+        },
+        "20": {
+          "usage_count": 1,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1 (score: 0.722)"
+          ]
+        },
+        "21": {
+          "usage_count": 2,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1 (score: 0.833)",
+            "Document citation + word frequency: HB302_SD1 (score: 0.550)"
+          ]
+        },
+        "22": {
+          "usage_count": 1,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1 (score: 0.938)"
+          ]
+        },
+        "23": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": []
+        },
+        "24": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": []
+        },
+        "25": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": []
+        },
+        "26": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": []
+        },
+        "27": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": []
+        },
+        "28": {
+          "usage_count": 1,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.200)"
+          ]
+        },
+        "29": {
+          "usage_count": 2,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.273)",
+            "Document citation + word frequency: HB302_SD1 (score: 0.526)"
+          ]
+        },
+        "30": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": []
+        },
+        "31": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": []
+        },
+        "32": {
+          "usage_count": 1,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.810)"
+          ]
+        },
+        "33": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": []
+        },
+        "34": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": []
+        },
+        "35": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": []
+        },
+        "36": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1",
+          "attribution_reasons": []
+        },
+        "37": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": []
+        },
+        "38": {
+          "usage_count": 1,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.800)"
+          ]
+        },
+        "39": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": []
+        },
+        "40": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": []
+        },
+        "41": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": []
+        },
+        "42": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": []
+        },
+        "43": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": []
+        },
+        "44": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": []
+        },
+        "45": {
+          "usage_count": 1,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.857)"
+          ]
+        },
+        "46": {
+          "usage_count": 1,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.727)"
+          ]
+        },
+        "47": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": []
+        },
+        "48": {
+          "usage_count": 3,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1 (score: 0.214)",
+            "Document citation + word frequency: HB302_SD1 (score: 0.273)",
+            "Document citation + word frequency: HB302_SD1 (score: 0.214)"
+          ]
+        },
+        "49": {
+          "usage_count": 0,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": []
+        },
+        "50": {
+          "usage_count": 1,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1 (score: 0.286)"
+          ]
+        },
+        "51": {
+          "usage_count": 2,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1 (score: 0.308)",
+            "Word frequency match score: 1.000"
+          ]
+        },
+        "52": {
+          "usage_count": 1,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1 (score: 0.688)"
+          ]
+        },
+        "53": {
+          "usage_count": 4,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1 (score: 0.333)",
+            "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.692)",
+            "Document citation + word frequency: HB302_SD1 (score: 0.250)",
+            "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.500)"
+          ]
+        },
+        "54": {
+          "usage_count": 1,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.667)"
+          ]
+        },
+        "55": {
+          "usage_count": 6,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB302_SD1 (score: 0.185)",
+            "Document citation + word frequency: HB302_SD1 (score: 0.273)",
+            "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.333)",
+            "Document citation + word frequency: HB302_SD1 (score: 0.227)",
+            "Document citation + word frequency: HB302_SD1_SSCR1329_ (score: 0.429)",
+            "Document citation + word frequency: HB302_SD1 (score: 0.286)"
+          ]
+        },
+        "NUMBER_5.0": {
+          "usage_count": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_.PDF.txt",
+          "attribution_reasons": []
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 30,
+        "number_based": 0,
+        "word_frequency_based": 3,
+        "semantic_similarity": 0,
+        "fallback": 0,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 56,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "STATE OF HAWAII DEPARTMENT OF HEALTH P. O. Box 3378 Honolulu, HI 96801-3378 doh.testimony@doh.hawaii.gov Testimony in SUPPORT of HB302 HD2 RELATING TO CANNABIS SENATOR JOY A. SANBUENAVENTURA, CHAIR SENATE COMMITTEE ON HEALTH AND HUMAN SERVICES SENATOR JARRETT KEOHOKALOLE, CHAIR SENATE COMMITTEE ON COMMERCE AND CONSUMER PROTECTION Hearing Date: March 19,",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "COMMITTEE ON COMMERCE AND CONSUMER PROTECTION Hearing Date: March 19, 2025 Room Number: 229 Department Position: The Department of Health (“Department”) supports this measure. 1 2 Department Testimony: The Department appreciates the intent of HB302 HD2 to reduce 3 barriers to medical cannabis access. The Department is grateful for the",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "to medical cannabis access. The Department is grateful for the inclusion of its previously 4 requested amendment to limit medical cannabis certifications to those originating from within 5 the state, which serves to prevent mainland-based cannabis telehealth companies from operating 6 in Hawaii. This safeguard is especially important, as some",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "6 in Hawaii. This safeguard is especially important, as some of these companies have faced 7 scrutiny in other jurisdictions for questionable practices. 8 9 Furthermore, the Department appreciates the removal of the provision that would have allowed 10 patients to purchase cannabis without first having their applications processed and",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "to purchase cannabis without first having their applications processed and receiving a 11 registration card from the Department. This provision posed significant risks, as it would expose 12 certain patients to arrest for possession of a controlled substance without a physical medical 13 cannabis card that law enforcement could verify.",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "physical medical 13 cannabis card that law enforcement could verify. Additionally, it would lead to inaccuracies in 14 sales tracking and patient verification systems at state-licensed dispensaries due to purchases not 15 being tracked in the seed-to-sale tracking system. 16 Thank you for the opportunity to testify. 17 JOSH GREEN,",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "Thank you for the opportunity to testify. 17 JOSH GREEN, M.D. GOVERNOR OF HAWAIʻI KE KIAʻĀINA O KA MOKUʻĀINA ʻO HAWAIʻI KENNETH S. FINK, M.D., M.G.A., M.P.H. DIRECTOR OF HEALTH KA LUNA HOʻOKELE __\\____%aMWW\" \\ IlIl_IIII_IIII _I”I 7 \\ _>OI ‘_ 1% F Ma,” ____4mU __ %wﬂ_ _ H 3",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "‘_ 1% F Ma,” ____4mU __ %wﬂ_ _ H 3 9 E ENW“ _%_%_ wWIh%__ ' n \"_h“J , II _ We \\__f X\\F$I'W@_W_ £“£_ %/Iv gm?‘ HB302 HD2-WRITTEN TESTIMONY-OTTO-19MAR25 1 Akamai Cannabis Consulting 3615 Harding Ave, Suite 304 Honolulu, HI 96816 TESTIMONY ON HOUSE BILL 302 HD2 RELATING TO",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "HI 96816 TESTIMONY ON HOUSE BILL 302 HD2 RELATING TO CANNABIS Clifton Otto, MD SENATE COMMITTEE ON HEALTH AND HUMAN SERVICES Senator Joy A. San Buenaventura, Chair Senator Henry J.C. Aquino, Vice Chair SENATE COMMITTEE ON COMMERCE AND CONSUMER PROTECTION Senator Jarrett Keohokalole, Chair Senator Carol Fukunaga, Vice Chair Wednesday,",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "Senator Jarrett Keohokalole, Chair Senator Carol Fukunaga, Vice Chair Wednesday, March 19, 2025 - 9:30 AM Conference Room 229 & Videoconference, State Capitol This bill is very important for patients who have difficulty attending in-person certification evaluations, especially those patients on outer islands where access to certifying providers is limited.",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "on outer islands where access to certifying providers is limited. Since the intent of this bill is to improve patient access and program participation, your committees may want to consider the following amendment suggestions: 1 - Let certifying providers decide qualifying conditions – already done in CA and ME. 2",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "qualifying conditions – already done in CA and ME. 2 - Make registration approval instantaneous – verifying name and address and matching with patient identification can be done quickly and accurately using artificial intelligence to save department resources and expedite patient access to dispensaries. 3 - Treat in-state and out-of-state",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "patient access to dispensaries. 3 - Treat in-state and out-of-state patients the same – out-of-state registration is already unnecessary, and requiring a certification evaluation by a local provider would ensure all patients receive information to safely access medical cannabis in Hawaii. Potential language: HB302 HD2-WRITTEN TESTIMONY-OTTO-19MAR25 2 Let certifying providers",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "Hawaii. Potential language: HB302 HD2-WRITTEN TESTIMONY-OTTO-19MAR25 2 Let certifying providers decide qualifying conditions: §329-121 Definitions. As used in this part: \"Debilitating medical condition\" means any condition determined by the certifying physician or APRN to be appropriate for the medical use of cannabis. [ : (1) Cancer, glaucoma, lupus, epilepsy, multiple",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "of cannabis. [ : (1) Cancer, glaucoma, lupus, epilepsy, multiple sclerosis, rheumatoid arthritis, positive status for human immunodeficiency virus, acquired immune deficiency syndrome, or the treatment of these conditions; (2) A chronic or debilitating disease or medical condition or its treatment that produces one or more of the following: (A)",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "treatment that produces one or more of the following: (A) Cachexia or wasting syndrome; (B) Severe pain; (C) Severe nausea; (D) Seizures, including those characteristic of epilepsy; (E) Severe and persistent muscle spasms, including those characteristic of multiple sclerosis or Crohn's disease; or (F) Post-traumatic stress disorder; or (3) Any",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "Crohn's disease; or (F) Post-traumatic stress disorder; or (3) Any other medical condition approved by the department of health pursuant to administrative rules in response to a request from a physician or advanced practice registered nurse or potentially qualifying patient. ] Make registration approval instantaneous: §329-123 Registration requirements; qualifying patients;",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_",
+          "chunk_text": "] Make registration approval instantaneous: §329-123 Registration requirements; qualifying patients; primary",
+          "start_word": 680,
+          "end_word": 691,
+          "word_count": 11
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB302_SD1",
+          "chunk_text": "HB302 SD1 HOUSE OF REPRESENTATIVES H.B. NO. 302 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII S.D. 1 A BILL FOR AN ACT RELATING TO CANNABIS . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. The legislature finds that access for qualifying patients",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB302_SD1",
+          "chunk_text": "SECTION 1. The legislature finds that access for qualifying patients and primary caregivers to medical cannabis and particularly licensed medical cannabis dispensaries remains challenging due to limited access to medical providers, delays in obtaining allowed access to enter and purchase medical cannabis, and the availability of cannabis through a thriving",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB302_SD1",
+          "chunk_text": "medical cannabis, and the availability of cannabis through a thriving illicit market. The legislature further finds that registration for the medical cannabis program has decreased in the last few years. While the number of registered medical cannabis patients reached its peak in August 2021, with 35,444 card-holding patients, since then,",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB302_SD1",
+          "chunk_text": "peak in August 2021, with 35,444 card-holding patients, since then, the number of patients has decreased over fifteen per cent to 30,035 by November 2024. This appears to indicate that residents are shifting away from licensed medical cannabis dispensaries, and instead are obtaining their medical cannabis from elsewhere due to",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB302_SD1",
+          "chunk_text": "instead are obtaining their medical cannabis from elsewhere due to administrative barriers, delays in registering, and the ease and lower costs in obtaining cannabis elsewhere. The legislature also finds that this apparent shift away from licensed medical cannabis dispensaries toward the illicit market undermines the purposes of the medical cannabis",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB302_SD1",
+          "chunk_text": "the illicit market undermines the purposes of the medical cannabis program in ensuring patient safety, product safety, and public safety. The legislature additionally finds that Act 34, Session Laws of Hawaii 2021, amended existing law governing physicians by eliminating the requirement for a physician-patient relationship to be established by an",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB302_SD1",
+          "chunk_text": "requirement for a physician-patient relationship to be established by an initial in-person consultation, and authorized the relationship to be established via telehealth. Accordingly, the purpose of this part is to expand access to care by easing some of the requirements under the Uniform Controlled Substances Act and law governing the",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB302_SD1",
+          "chunk_text": "under the Uniform Controlled Substances Act and law governing the State's medical cannabis dispensary system. SECTION 2 . Section 329-121, Hawaii Revised Statutes, is amended by amending the definition of \"debilitating medical condition\" to read as follows: \" \"Debilitating medical condition\" means[ : (1) Cancer, glaucoma, lupus, epilepsy, multiple sclerosis,",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB302_SD1",
+          "chunk_text": "condition\" means[ : (1) Cancer, glaucoma, lupus, epilepsy, multiple sclerosis, rheumatoid arthritis, positive status for human immunodeficiency virus, acquired immune deficiency syndrome, or the treatment of these conditions; (2) A chronic or debilitating disease or medical condition or its treatment that produces one or more of the following: (A) Cachexia",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB302_SD1",
+          "chunk_text": "that produces one or more of the following: (A) Cachexia or wasting syndrome; (B) Severe pain; (C) Severe nausea; (D) Seizures, including those characteristic of epilepsy; (E) Severe and persistent muscle spasms, including those characteristic of multiple sclerosis or Crohn's disease; or (F) Post-traumatic stress disorder; or (3) Any other",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB302_SD1",
+          "chunk_text": "disease; or (F) Post-traumatic stress disorder; or (3) Any other medical condition approved by the department of health pursuant to administrative rules in response to a request from a physician or advanced practice registered nurse or potentially qualifying patient. ] any condition determined by the certifying physician or advanced practice",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB302_SD1",
+          "chunk_text": "any condition determined by the certifying physician or advanced practice registered nurse to be appropriate for the medical use of cannabis. \" SECTION 3 . Section 329D-1, Hawaii Revised Statutes, is amended by amending the definition of \"waiting room\" to read as follows: \"\"Waiting room\" means a designated area at",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 30,
+          "document_name": "HB302_SD1",
+          "chunk_text": "read as follows: \"\"Waiting room\" means a designated area at the public entrance of a retail dispensing location that may be accessed by a member of the general public who is waiting for, assisting, or accompanying a qualifying patient, primary caregiver, qualifying out-of-state patient, or caregiver of a qualifying out-of-state",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 31,
+          "document_name": "HB302_SD1",
+          "chunk_text": "caregiver, qualifying out-of-state patient, or caregiver of a qualifying out-of-state patient who enters or remains on the premises of a retail dispensing location for the purpose of a transaction conducted pursuant to sections 329D-6 and 329D-13; provided that the storage, display, and retail sale of cannabis and manufactured cannabis products",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 32,
+          "document_name": "HB302_SD1",
+          "chunk_text": "display, and retail sale of cannabis and manufactured cannabis products shall be prohibited within the waiting room area. \"Waiting room\" includes an area where hemp can be sold, including but not limited to hemp products and accessories to the use of medical cannabis, such as rolling papers, rolling trays, grinders,",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 33,
+          "document_name": "HB302_SD1",
+          "chunk_text": "of medical cannabis, such as rolling papers, rolling trays, grinders, and vaporizers. \" SECTION 4 . Section 329-123, Hawaii Revised Statutes, is amended by amending subsection (a) to read as follows: \"(a) Physicians or advanced practice registered nurses who issue written certifications shall provide, in each written certification, the name,",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 34,
+          "document_name": "HB302_SD1",
+          "chunk_text": "written certifications shall provide, in each written certification, the name, address, patient identification number, and other identifying information of the qualifying patient. The department of health shall require, in rules adopted pursuant to chapter 91, that all written certifications comply with a designated form completed by or on behalf of",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 35,
+          "document_name": "HB302_SD1",
+          "chunk_text": "with a designated form completed by or on behalf of a qualifying patient. The form shall require information from the applicant, primary caregiver, and physician or advanced practice registered nurse as specifically required or permitted by this chapter. The form shall require the address of the location where the cannabis",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 36,
+          "document_name": "HB302_SD1",
+          "chunk_text": "shall require the address of the location where the cannabis is grown and shall appear on the registry card issued by the department of health. Th",
+          "start_word": 720,
+          "end_word": 746,
+          "word_count": 26
+        },
+        {
+          "chunk_id": 37,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "SSCR1329 STAND. COM. REP. NO. 1329 Honolulu, Hawaii RE: H.B. No. 302 H.D. 2 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committees on Health and Human Services and Commerce and Consumer Protection, to which was",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 38,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "Human Services and Commerce and Consumer Protection, to which was referred H.B. No. 302, H.D. 2, entitled: \"A BILL FOR AN ACT RELATING TO CANNABIS,\" beg leave to report as follows: The purpose and intent of this measure is to repeal the requirement that a provider-patient relationship be established in",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 39,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "repeal the requirement that a provider-patient relationship be established in person. Your Committees received testimony in support of this measure from the Department of Health, Hawai'i Cannabis Industry Association, ACLU of Hawai'i, Marijuana Policy Project, Hawai ʻ i Alliance for Cannabis Reform, Cure Oahu, Ohana Unity Party, Big Island Grown",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 40,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "Cannabis Reform, Cure Oahu, Ohana Unity Party, Big Island Grown Dispensaries, Drug Policy Forum of Hawaii, and three individuals. Your Committees received comments on this measure from Akamai Cannabis Consulting . Your Committees find that access for qualifying patients and primary caregivers to medical cannabis and particularly licensed medical cannabis",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 41,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "primary caregivers to medical cannabis and particularly licensed medical cannabis dispensaries remains challenging due to limited access to medical providers, delays in obtaining allowed access to enter and purchase medical cannabis, and the availability of cannabis through a thriving illicit market. Your Committees further find that registration for the medical",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 42,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "market. Your Committees further find that registration for the medical cannabis program has decreased in the last few years, indicating that residents are shifting away from licensed medical cannabis dispensaries, and instead are obtaining their medical cannabis from elsewhere due to administrative barriers, delays in registering, and the ease and",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 43,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "to administrative barriers, delays in registering, and the ease and lower costs of obtaining cannabis elsewhere. Your Committees believe that this apparent shift away from licensed medical cannabis dispensaries toward the illicit market undermines the purposes of the medical cannabis program in ensuring patient safety, product safety, and public safety.",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 44,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "program in ensuring patient safety, product safety, and public safety. This measure improves and increases access to medical cannabis in the State by allowing a patient-provider relationship to be established via telehealth for the purposes of certifying patients for the medical use of cannabis. Your Committees have amended this measure",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 45,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "medical use of cannabis. Your Committees have amended this measure by: (1) Inserting language to amend the definition of \"debilitating medical condition\" in section 329-121, Hawaii Revised Statutes, to mean any condition determined by the certifying physician or advanced practice registered nurse to be appropriate for the medical use of",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 46,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "registered nurse to be appropriate for the medical use of cannabis ; (2) Inserting language to amend the definition of \"waiting room\" in section 329D-1, Hawaii Revised Statutes, to include an area where hemp can be sold, including but not limited to hemp products and accessories to the use of",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 47,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "limited to hemp products and accessories to the use of medical cannabis, such as rolling papers, rolling trays, grinders, and vaporizers ; (3) Inserting language to amend section 329D-6(r), Hawaii Revised Statutes, to: (A) Require that cannabis and manufactured cannabis products purchased by a dispensary from another dispensary pursuant to",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 48,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "products purchased by a dispensary from another dispensary pursuant to section 329D-6, Hawaii Revised Statutes: (i) When intended for direct retail sale to the patient, meet all applicable packaging, labeling, and testing requirements at the time of transport to the purchasing licensee's production center or one of its retail locations;",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 49,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "purchasing licensee's production center or one of its retail locations; and (ii) When intended for further manufacturing by the purchasing dispensary at the time of transportation, be transported to the purchasing licensee's production center; and (B) Require the selling dispensary to submit a transport manifest of the cannabis or manufactured",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 50,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "to submit a transport manifest of the cannabis or manufactured cannabis products to be sold to the Department of Health before the sale is made, after which the selling dispensary may immediately proceed with the transfer of the cannabis or manufactured cannabis products; (4) Inserting as Part II of this",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 51,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "manufactured cannabis products; (4) Inserting as Part II of this measure, the contents of S.B. No. 1064, S.D. 2, Regular Session of 2025, which: (A) Prohibits persons from: (i) Operating a medical cannabis dispensary or cultivating cannabis without a license from the Department of Health; and (ii) Providing certain services",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 52,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "from the Department of Health; and (ii) Providing certain services to persons and entities engaging in unlicensed cannabis operations; (B) Requires the Department of Health to issue a cease and desist notice to violators before initiating criminal proceedings; (C) Establishes criminal penalties, an affirmative defense, a conclusive basis, and exceptions",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 53,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "criminal penalties, an affirmative defense, a conclusive basis, and exceptions for certain violations; (D) Establishes a cannabis cultivator license to authorize the cultivation and distribution of cannabis plants; (E) Requires the Department of Health to only issue one cannabis cultivator license for each person; (F) Establishes limits on: (i) The",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 54,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "license for each person; (F) Establishes limits on: (i) The number of cannabis cultivator licenses the Department of Health may issue; (ii) The maximum size of plant canopy for indoor and outdoor cultivations for each cannabis cultivator license; and (iii) The maximum plant count of mature cannabis plants for each",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 55,
+          "document_name": "HB302_SD1_SSCR1329_",
+          "chunk_text": "The maximum plant count of mature cannabis plants for each cannabis cultivator license; (G) Authorizes expenditures from the Medical Cannabis Registry and Regulation Special Fu",
+          "start_word": 720,
+          "end_word": 745,
+          "word_count": 25
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "other medications. It should allow telemedicine for medical cannabis. 1 Omboni S, et al. The worldwide impact of telemedicine during COVID-19: current evidence and recommendations for the future. Connect Health. 2022 Jan 4;1:7-35. doi: 10.20517/ch.2021.03. PMID: 35233563; PMCID: PMC7612439. WA , \\\\> 1“, .§\\ L /0 at \", ,l’/ \" $5 ' \"Ore r \\~~ \"\"3 /”/\\*~\\ Proposed Amendment: Allowing Medical Cannabis “Off-Label” Healthcare providers should be able to certify patients with any medical condition — or any debilitating medical condition — for the medical cannabis program. One-fifth of all prescriptions are “off-label,” or for a medical condition other than the",
+        "number": 5.0,
+        "filename": "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_.PDF.txt",
+        "document_type": "testimony"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:01:03.737244",
+  "generation_timestamp_unix": 1760144463.737259
+}

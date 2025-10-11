@@ -1,0 +1,1175 @@
+{
+  "document_name": "HB740_HD1_HSCR53_",
+  "new_documents_processed": [
+    "HB740_TESTIMONY_HSG_01-29-25_",
+    "HB740_HD1",
+    "HB740_HD1_HSCR53_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB740",
+    "HB740_TESTIMONY_HSG_01-29-25_",
+    "HB740_HD1",
+    "HB740_HD1_HSCR53_"
+  ],
+  "numbers_used": 4,
+  "prompt_length": 112988,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"\",\n\"appropriations\": \"This bill permits the Hawaii Housing Finance and Development Corporation to \\\"allocate funds from the Dwelling Unit Revolving Fund to a county for the award of grants\\\" (HB740_HD1). The measure was amended by \\\"Authorizing the Hawaii Housing Finance and Development Corporation to allocate an annual lump sum, to be determined by the Corporation, rather than requiring the counties to apply for a specific minimum amount\\\" (HB740_HD1_HSCR53_). The measure now also prohibits the Hawaii Housing Finance and Development Corporation \\\"from distributing funds under the Program solely based on the population size of a county\\\" (HB740_HD1_HSCR53_).\",\n\"assumptions_and_methodology\": \"The program model has been clarified as a grant and deed restriction purchase, replacing the previous equity purchase model. The \\\"intent of the Legislature with this measure is for the amount paid to the property owner to be the market rate for a deed restriction\\\" (HB740_HD1_HSCR53_). This rate will be determined \\\"through a negotiation process between the county and the property owner\\\" (HB740_HD1_HSCR53_).\",\n\"agency_impact\": \"The Department of the Attorney General finds the bill \\\"does not appear to contain legally sufficient standards for the award of such grants involving public money as required by article VII, section 4, of the Constitution of the State of Hawai‘i\\\" (HB740_HD1). The Committee is \\\"working with the Department of the Attorney General on language that can withstand constitutional scrutiny to ensure that bona fide residents of the State can benefit from the Accessory Dwelling Unit Financing and Deed Restriction Program\\\" (HB740_HD1_HSCR53_). The Department of Taxation has requested that the proposed conveyance tax exemption \\\"take effect on January 1, 2026 to allow for form and instruction changes\\\" (HB740_TESTIMONY_HSG_01-29-25_).\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"The measure was amended by \\\"Changing the effective date to July 1, 3000, to encourage further discussion\\\" (HB740_HD1_HSCR53_). Policy amendments include \\\"Deleting language that would have required a retiree or an individual with a disability to have worked for ten consecutive years and five consecutive years, respectively, in the county or State, to qualify as an owner-occupant under the Program\\\" (HB740_HD1_HSCR53_). The measure is also amended by \\\"Exempting any contract entered into by a county under the Program from the Procurement Code\\\" (HB740_HD1_HSCR53_).\",\n\"revenue_sources\": \"The source of funding for the program is the \\\"Dwelling Unit Revolving Fund\\\" (HB740_HD1). The previous equity purchase model, which would have provided a return to the state, has been removed. The measure now includes a conveyance tax exemption for \\\"any property with a county owned deed restriction pursuant to\\\" the program, which will result in a loss of state revenue (HB740_TESTIMONY_HSG_01-29-25_).\",\n\"six_year_fiscal_implications\": \"The bill's effective date was changed to \\\"July 1, 3000, to encourage further discussion\\\" (HB740_HD1_HSCR53_). As a result, the program will have no fiscal implications within the next six years unless the effective date is amended. The Department of Taxation requested an effective date of January 1, 2026 for the implementation of a new conveyance tax exemption, which would represent a revenue loss beginning in that year if adopted (HB740_HD1_HSCR53_). Funding for the program is to be allocated from the \\\"Dwelling Unit Revolving Fund\\\" (HB740_HD1) as an \\\"annual lump sum\\\" to counties, but no expenditures will occur under the current effective date (HB740_HD1_HSCR53_).\",\n\"operating_revenue_impact\": \"The previous version's revenue-generating equity purchase program has been removed from the bill. The primary impact to operating revenue is a loss resulting from a new conveyance tax exemption. It is the \\\"intent of your Committee to not subject any instruments by which a deed restriction is placed on a dwelling unit under the Accessory Dwelling Unit Financing and Deed Restriction Program (Program) to the conveyance tax\\\" (HB740_HD1_HSCR53_).\",\n\"capital_expenditure_impact\": \"The bill now authorizes the Hawaii Housing Finance and Development Corporation to \\\"allocate funds from the Dwelling Unit Revolving Fund to a county for the award of grants to eligible homeowners and homebuyers to finance various costs associated with the construction of accessory dwelling units\\\" (HB740_HD1). No specific appropriation amount is included in the current version of the bill. No expenditures will be made under the current effective date.\",\n\"fiscal_implications_after_6_years\": \"With the measure's effective date changed to \\\"July 1, 3000\\\" (HB740_HD1_HSCR53_), there are no fiscal implications after the six-year period. Should the date be amended, the program would require ongoing funding from the Dwelling Unit Revolving Fund. The perpetual nature of the deed restrictions would also imply long-term administrative and monitoring responsibilities for the counties.\",\n\"updates_from_previous_fiscal_note\": \"The program model is no longer an equity purchase program requiring repayment; it is now a grant program to finance accessory dwelling unit construction and purchase deed restrictions at a market rate. The funding source has changed from the Rental Housing Revolving Fund to the \\\"Dwelling Unit Revolving Fund\\\" (HB740_HD1). Instead of counties applying for grants from a capped fund, the Hawaii Housing Finance and Development Corporation will \\\"allocate an annual lump sum\\\" (HB740_HD1_HSCR53_). The effective date has been changed to \\\"July 1, 3000, to encourage further discussion\\\" (HB740_HD1_HSCR53_). New legal issues were raised by the Department of the Attorney General, which stated the bill lacks \\\"legally sufficient standards for the award of such grants\\\" (HB740_HD1).\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 34873,
+      "candidates_token_count": 1403,
+      "total_token_count": 40963
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"\",\n\"appropriations\": \"This bill permits the Hawaii Housing Finance and Development Corporation to \\\"allocate funds from the Dwelling Unit Revolving Fund to a county for the award of grants\\\" (HB740_HD1). The measure was amended by \\\"Authorizing the Hawaii Housing Finance and Development Corporation to allocate an annual lump sum, to be determined by the Corporation, rather than requiring the counties to apply for a specific minimum amount\\\" (HB740_HD1_HSCR53_). The measure now also prohibits the Hawaii Housing Finance and Development Corporation \\\"from distributing funds under the Program solely based on the population size of a county\\\" (HB740_HD1_HSCR53_).\",\n\"assumptions_and_methodology\": \"The program model has been clarified as a grant and deed restriction purchase, replacing the previous equity purchase model. The \\\"intent of the Legislature with this measure is for the amount paid to the property owner to be the market rate for a deed restriction\\\" (HB740_HD1_HSCR53_). This rate will be determined \\\"through a negotiation process between the county and the property owner\\\" (HB740_HD1_HSCR53_).\",\n\"agency_impact\": \"The Department of the Attorney General finds the bill \\\"does not appear to contain legally sufficient standards for the award of such grants involving public money as required by article VII, section 4, of the Constitution of the State of Hawai‘i\\\" (HB740_HD1). The Committee is \\\"working with the Department of the Attorney General on language that can withstand constitutional scrutiny to ensure that bona fide residents of the State can benefit from the Accessory Dwelling Unit Financing and Deed Restriction Program\\\" (HB740_HD1_HSCR53_). The Department of Taxation has requested that the proposed conveyance tax exemption \\\"take effect on January 1, 2026 to allow for form and instruction changes\\\" (HB740_TESTIMONY_HSG_01-29-25_).\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"The measure was amended by \\\"Changing the effective date to July 1, 3000, to encourage further discussion\\\" (HB740_HD1_HSCR53_). Policy amendments include \\\"Deleting language that would have required a retiree or an individual with a disability to have worked for ten consecutive years and five consecutive years, respectively, in the county or State, to qualify as an owner-occupant under the Program\\\" (HB740_HD1_HSCR53_). The measure is also amended by \\\"Exempting any contract entered into by a county under the Program from the Procurement Code\\\" (HB740_HD1_HSCR53_).\",\n\"revenue_sources\": \"The source of funding for the program is the \\\"Dwelling Unit Revolving Fund\\\" (HB740_HD1). The previous equity purchase model, which would have provided a return to the state, has been removed. The measure now includes a conveyance tax exemption for \\\"any property with a county owned deed restriction pursuant to\\\" the program, which will result in a loss of state revenue (HB740_TESTIMONY_HSG_01-29-25_).\",\n\"six_year_fiscal_implications\": \"The bill's effective date was changed to \\\"July 1, 3000, to encourage further discussion\\\" (HB740_HD1_HSCR53_). As a result, the program will have no fiscal implications within the next six years unless the effective date is amended. The Department of Taxation requested an effective date of January 1, 2026 for the implementation of a new conveyance tax exemption, which would represent a revenue loss beginning in that year if adopted (HB740_HD1_HSCR53_). Funding for the program is to be allocated from the \\\"Dwelling Unit Revolving Fund\\\" (HB740_HD1) as an \\\"annual lump sum\\\" to counties, but no expenditures will occur under the current effective date (HB740_HD1_HSCR53_).\",\n\"operating_revenue_impact\": \"The previous version's revenue-generating equity purchase program has been removed from the bill. The primary impact to operating revenue is a loss resulting from a new conveyance tax exemption. It is the \\\"intent of your Committee to not subject any instruments by which a deed restriction is placed on a dwelling unit under the Accessory Dwelling Unit Financing and Deed Restriction Program (Program) to the conveyance tax\\\" (HB740_HD1_HSCR53_).\",\n\"capital_expenditure_impact\": \"The bill now authorizes the Hawaii Housing Finance and Development Corporation to \\\"allocate funds from the Dwelling Unit Revolving Fund to a county for the award of grants to eligible homeowners and homebuyers to finance various costs associated with the construction of accessory dwelling units\\\" (HB740_HD1). No specific appropriation amount is included in the current version of the bill. No expenditures will be made under the current effective date.\",\n\"fiscal_implications_after_6_years\": \"With the measure's effective date changed to \\\"July 1, 3000\\\" (HB740_HD1_HSCR53_), there are no fiscal implications after the six-year period. Should the date be amended, the program would require ongoing funding from the Dwelling Unit Revolving Fund. The perpetual nature of the deed restrictions would also imply long-term administrative and monitoring responsibilities for the counties.\",\n\"updates_from_previous_fiscal_note\": \"The program model is no longer an equity purchase program requiring repayment; it is now a grant program to finance accessory dwelling unit construction and purchase deed restrictions at a market rate. The funding source has changed from the Rental Housing Revolving Fund to the \\\"Dwelling Unit Revolving Fund\\\" (HB740_HD1). Instead of counties applying for grants from a capped fund, the Hawaii Housing Finance and Development Corporation will \\\"allocate an annual lump sum\\\" (HB740_HD1_HSCR53_). The effective date has been changed to \\\"July 1, 3000, to encourage further discussion\\\" (HB740_HD1_HSCR53_). New legal issues were raised by the Department of the Attorney General, which stated the bill lacks \\\"legally sufficient standards for the award of such grants\\\" (HB740_HD1).\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"\",\n\"appropriations\": \"This bill permits the Hawaii Housing Finance and Development Corporation to \\\"allocate funds from the Dwelling Unit Revolving Fund to a county for the award of grants\\\" (HB740_HD1)",
+          "attributed_chunk_id": 25,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7368421052631579,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1 (score: 0.737)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure was amended by \\\"Authorizing the Hawaii Housing Finance and Development Corporation to allocate an annual lump sum, to be determined by the Corporation, rather than requiring the counties to apply for a specific minimum amount\\\" (HB740_HD1_HSCR53_)",
+          "attributed_chunk_id": 46,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 1.000)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure now also prohibits the Hawaii Housing Finance and Development Corporation \\\"from distributing funds under the Program solely based on the population size of a county\\\" (HB740_HD1_HSCR53_)",
+          "attributed_chunk_id": 47,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7894736842105263,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.789)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"assumptions_and_methodology\": \"The program model has been clarified as a grant and deed restriction purchase, replacing the previous equity purchase model",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3076923076923077,
+          "attribution_reason": "Word frequency match score: 0.308",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The \\\"intent of the Legislature with this measure is for the amount paid to the property owner to be the market rate for a deed restriction\\\" (HB740_HD1_HSCR53_)",
+          "attributed_chunk_id": 43,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 1.000)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This rate will be determined \\\"through a negotiation process between the county and the property owner\\\" (HB740_HD1_HSCR53_)",
+          "attributed_chunk_id": 43,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8888888888888888,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.889)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"agency_impact\": \"The Department of the Attorney General finds the bill \\\"does not appear to contain legally sufficient standards for the award of such grants involving public money as required by article VII, section 4, of the Constitution of the State of Hawai‘i\\\" (HB740_HD1)",
+          "attributed_chunk_id": 27,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8076923076923077,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1 (score: 0.808)",
+          "numbers_found": [
+            4.0
+          ]
+        },
+        {
+          "sentence": "The Committee is \\\"working with the Department of the Attorney General on language that can withstand constitutional scrutiny to ensure that bona fide residents of the State can benefit from the Accessory Dwelling Unit Financing and Deed Restriction Program\\\" (HB740_HD1_HSCR53_)",
+          "attributed_chunk_id": 51,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 1.000)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Department of Taxation has requested that the proposed conveyance tax exemption \\\"take effect on January 1, 2026 to allow for form and instruction changes\\\" (HB740_TESTIMONY_HSG_01-29-25_)",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Document citation + word frequency: HB740_TESTIMONY_HSG_01-29-25_ (score: 0.600)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"The measure was amended by \\\"Changing the effective date to July 1, 3000, to encourage further discussion\\\" (HB740_HD1_HSCR53_)",
+          "attributed_chunk_id": 49,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.667)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "Policy amendments include \\\"Deleting language that would have required a retiree or an individual with a disability to have worked for ten consecutive years and five consecutive years, respectively, in the county or State, to qualify as an owner-occupant under the Program\\\" (HB740_HD1_HSCR53_)",
+          "attributed_chunk_id": 48,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8333333333333334,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.833)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure is also amended by \\\"Exempting any contract entered into by a county under the Program from the Procurement Code\\\" (HB740_HD1_HSCR53_)",
+          "attributed_chunk_id": 49,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7857142857142857,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.786)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"The source of funding for the program is the \\\"Dwelling Unit Revolving Fund\\\" (HB740_HD1)",
+          "attributed_chunk_id": 25,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1 (score: 0.625)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The previous equity purchase model, which would have provided a return to the state, has been removed",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1111111111111111,
+          "attribution_reason": "Word frequency match score: 0.111",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure now includes a conveyance tax exemption for \\\"any property with a county owned deed restriction pursuant to\\\" the program, which will result in a loss of state revenue (HB740_TESTIMONY_HSG_01-29-25_)",
+          "attributed_chunk_id": 2,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.42105263157894735,
+          "attribution_reason": "Document citation + word frequency: HB740_TESTIMONY_HSG_01-29-25_ (score: 0.421)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"six_year_fiscal_implications\": \"The bill's effective date was changed to \\\"July 1, 3000, to encourage further discussion\\\" (HB740_HD1_HSCR53_)",
+          "attributed_chunk_id": 49,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.700)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "As a result, the program will have no fiscal implications within the next six years unless the effective date is amended",
+          "attributed_chunk_id": 49,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Department of Taxation requested an effective date of January 1, 2026 for the implementation of a new conveyance tax exemption, which would represent a revenue loss beginning in that year if adopted (HB740_HD1_HSCR53_)",
+          "attributed_chunk_id": 52,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5789473684210527,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.579)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "Funding for the program is to be allocated from the \\\"Dwelling Unit Revolving Fund\\\" (HB740_HD1) as an \\\"annual lump sum\\\" to counties, but no expenditures will occur under the current effective date (HB740_HD1_HSCR53_)",
+          "attributed_chunk_id": 25,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.3888888888888889,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1 (score: 0.389)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"The previous version's revenue-generating equity purchase program has been removed from the bill",
+          "attributed_chunk_id": 25,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2727272727272727,
+          "attribution_reason": "Word frequency match score: 0.273",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The primary impact to operating revenue is a loss resulting from a new conveyance tax exemption",
+          "attributed_chunk_id": 53,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.36363636363636365,
+          "attribution_reason": "Word frequency match score: 0.364",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It is the \\\"intent of your Committee to not subject any instruments by which a deed restriction is placed on a dwelling unit under the Accessory Dwelling Unit Financing and Deed Restriction Program (Program) to the conveyance tax\\\" (HB740_HD1_HSCR53_)",
+          "attributed_chunk_id": 45,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"capital_expenditure_impact\": \"The bill now authorizes the Hawaii Housing Finance and Development Corporation to \\\"allocate funds from the Dwelling Unit Revolving Fund to a county for the award of grants to eligible homeowners and homebuyers to finance various costs associated with the construction of accessory dwelling units\\\" (HB740_HD1)",
+          "attributed_chunk_id": 26,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7666666666666667,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1 (score: 0.767)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "No specific appropriation amount is included in the current version of the bill",
+          "attributed_chunk_id": 17,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Word frequency match score: 0.286",
+          "numbers_found": []
+        },
+        {
+          "sentence": "No expenditures will be made under the current effective date",
+          "attributed_chunk_id": 49,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"fiscal_implications_after_6_years\": \"With the measure's effective date changed to \\\"July 1, 3000\\\" (HB740_HD1_HSCR53_), there are no fiscal implications after the six-year period",
+          "attributed_chunk_id": 49,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.21428571428571427,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.214)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "Should the date be amended, the program would require ongoing funding from the Dwelling Unit Revolving Fund",
+          "attributed_chunk_id": 25,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5454545454545454,
+          "attribution_reason": "Word frequency match score: 0.545",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The perpetual nature of the deed restrictions would also imply long-term administrative and monitoring responsibilities for the counties",
+          "attributed_chunk_id": 26,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"The program model is no longer an equity purchase program requiring repayment; it is now a grant program to finance accessory dwelling unit construction and purchase deed restrictions at a market rate",
+          "attributed_chunk_id": 26,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.36363636363636365,
+          "attribution_reason": "Word frequency match score: 0.364",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The funding source has changed from the Rental Housing Revolving Fund to the \\\"Dwelling Unit Revolving Fund\\\" (HB740_HD1)",
+          "attributed_chunk_id": 25,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1 (score: 0.500)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Instead of counties applying for grants from a capped fund, the Hawaii Housing Finance and Development Corporation will \\\"allocate an annual lump sum\\\" (HB740_HD1_HSCR53_)",
+          "attributed_chunk_id": 46,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.625)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The effective date has been changed to \\\"July 1, 3000, to encourage further discussion\\\" (HB740_HD1_HSCR53_)",
+          "attributed_chunk_id": 49,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.875,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.875)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "New legal issues were raised by the Department of the Attorney General, which stated the bill lacks \\\"legally sufficient standards for the award of such grants\\\" (HB740_HD1)",
+          "attributed_chunk_id": 27,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.4117647058823529,
+          "attribution_reason": "Document citation + word frequency: HB740_HD1 (score: 0.412)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 0,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": []
+        },
+        "1": {
+          "usage_count": 0,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": []
+        },
+        "2": {
+          "usage_count": 1,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB740_TESTIMONY_HSG_01-29-25_ (score: 0.421)"
+          ]
+        },
+        "3": {
+          "usage_count": 1,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB740_TESTIMONY_HSG_01-29-25_ (score: 0.600)"
+          ]
+        },
+        "4": {
+          "usage_count": 0,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": []
+        },
+        "5": {
+          "usage_count": 0,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": []
+        },
+        "6": {
+          "usage_count": 1,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.111"
+          ]
+        },
+        "7": {
+          "usage_count": 1,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.308"
+          ]
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 1,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.286"
+          ]
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "20": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "21": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "22": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "23": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "24": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "25": {
+          "usage_count": 6,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB740_HD1 (score: 0.737)",
+            "Document citation + word frequency: HB740_HD1 (score: 0.625)",
+            "Document citation + word frequency: HB740_HD1 (score: 0.389)",
+            "Word frequency match score: 0.273",
+            "Word frequency match score: 0.545",
+            "Document citation + word frequency: HB740_HD1 (score: 0.500)"
+          ]
+        },
+        "26": {
+          "usage_count": 3,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB740_HD1 (score: 0.767)",
+            "Word frequency match score: 0.333",
+            "Word frequency match score: 0.364"
+          ]
+        },
+        "27": {
+          "usage_count": 2,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB740_HD1 (score: 0.808)",
+            "Document citation + word frequency: HB740_HD1 (score: 0.412)"
+          ]
+        },
+        "28": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "29": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "30": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "31": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "32": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "33": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "34": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "35": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "36": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1",
+          "attribution_reasons": []
+        },
+        "37": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": []
+        },
+        "38": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": []
+        },
+        "39": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": []
+        },
+        "40": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": []
+        },
+        "41": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": []
+        },
+        "42": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": []
+        },
+        "43": {
+          "usage_count": 2,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 1.000)",
+            "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.889)"
+          ]
+        },
+        "44": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": []
+        },
+        "45": {
+          "usage_count": 1,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": [
+            "Word frequency match score: 1.000"
+          ]
+        },
+        "46": {
+          "usage_count": 2,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 1.000)",
+            "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.625)"
+          ]
+        },
+        "47": {
+          "usage_count": 1,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.789)"
+          ]
+        },
+        "48": {
+          "usage_count": 1,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.833)"
+          ]
+        },
+        "49": {
+          "usage_count": 7,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.667)",
+            "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.786)",
+            "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.700)",
+            "Word frequency match score: 0.250",
+            "Word frequency match score: 0.500",
+            "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.214)",
+            "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.875)"
+          ]
+        },
+        "50": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": []
+        },
+        "51": {
+          "usage_count": 1,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 1.000)"
+          ]
+        },
+        "52": {
+          "usage_count": 1,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB740_HD1_HSCR53_ (score: 0.579)"
+          ]
+        },
+        "53": {
+          "usage_count": 1,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.364"
+          ]
+        },
+        "54": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": []
+        },
+        "55": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1_HSCR53_",
+          "attribution_reasons": []
+        },
+        "NUMBER_100000.0": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_2500.0": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_500000.0": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_100.0": {
+          "usage_count": 0,
+          "document_name": "HB740_HD1_.HTM.txt",
+          "attribution_reasons": []
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 22,
+        "number_based": 0,
+        "word_frequency_based": 11,
+        "semantic_similarity": 0,
+        "fallback": 0,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 56,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "JOSH GREEN M.D. GOVERNOR SYLVIA LUKE LT. GOVERNOR STATE OF HAWAI‘I DEPARTMENT OF TAXATION Ka ‘Oihana ‘Auhau P.O. BOX 259 HONOLULU, HAWAI‘I 96809 PHONE NO: (808) 587-1540 FAX NO: (808) 587-1560 GARY S. SUGANUMA DIRECTOR KRISTEN M.R. SAKAMOTO DEPUTY DIRECTOR TESTIMONY OF GARY S. SUGANUMA, DIRECTOR OF TAXATION TESTIMONY ON",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "TESTIMONY OF GARY S. SUGANUMA, DIRECTOR OF TAXATION TESTIMONY ON THE FOLLOWING MEASURE: H.B. No. 740, Relating to Housing. BEFORE THE: House Committee on Housing DATE: Wednesday, January 29, 2025 TIME: 9:15 a.m. LOCATION: State Capitol, Room 430 Chair Evslin, Vice-Chair Miyake, and Members of the Committee: The Department of",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "Vice-Chair Miyake, and Members of the Committee: The Department of Taxation (DOTAX) offers the following comments regarding H.B. 740 for your consideration. Section 6 of H.B. 740 amends section 247-3, Hawaii Revised Statutes (HRS), to exempt from conveyance tax any property with a county owned deed restriction according to the",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "property with a county owned deed restriction according to the new provisions under chapter 201H, HRS, in this bill. The measure shall take effect on July 1, 2025. DOTAX requests section 6 take effect on January 1, 2026 to allow for form and instruction changes necessary to implement the proposed",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "for form and instruction changes necessary to implement the proposed conveyance tax exemption. Thank you for the opportunity to provide comments on this measure. JOSH GREEN, M.D. GOVERNOR SYLVIA LUKE LT. GOVERNOR DEAN MINAKAMI EXECUTIVE DIRECTOR STATE OF HAWAII DEPARTMENT OF BUSINESS, ECONOMIC DEVELOPMENT AND TOURISM HAWAII HOUSING FINANCE AND",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "OF BUSINESS, ECONOMIC DEVELOPMENT AND TOURISM HAWAII HOUSING FINANCE AND DEVELOPMENT CORPORATION 677 QUEEN STREET, SUITE 300 HONOLULU, HAWAII 96813 FAX: (808) 587-0600 Statement of DEAN MINAKAMI Hawaii Housing Finance and Development Corporation Before the HOUSE COMMITTEE ON HOUSING January 29, 2025 at 9:15 a.m. State Capitol, Room 430 In",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "29, 2025 at 9:15 a.m. State Capitol, Room 430 In consideration of H.B. 740 RELATING TO HOUSING Chair Evslin, Vice Chair Miyake, and members of the Committee. HHFDC supports HB 740, which establishes the Accessory Dwelling Unit (ADU) Financing and Deed Restriction Program under the Hawaii Housing Finance and Development",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "Deed Restriction Program under the Hawaii Housing Finance and Development Corporation (HHFDC) to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an ADU and purchase deed restrictions on such property.",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "of an ADU and purchase deed restrictions on such property. The upfront costs of designing and permitting an ADU are a barrier for many homeowners. HHFDC supports the ADU Financing and Deed Restriction program as a way to increase the inventory of rental units in the State. HHFDC has a",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "inventory of rental units in the State. HHFDC has a few considerations: We suggest the inclusion of properties held in a revocable living trust in the definition of “Eligible homeowner or homebuyer.” The amount to be paid to the property owner for the deed restriction needs to be determined. Would",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "owner for the deed restriction needs to be determined. Would it be a fixed amount for all properties, percentage of tax assessed value, or would it be based on an appraisal or other means? This could be addressed in administrative rules, but it would be helpful to know the legislative",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "rules, but it would be helpful to know the legislative intent. The requirement that the deed restriction be in first position (page 5, line 6) may not be possible in planned communities where Conditions, Covenants, and Restrictions typically have first position. We request that clarification on section 201H-C, “Deed restriction;",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "position. We request that clarification on section 201H-C, “Deed restriction; requirements” be provided as to whether the deed restriction applies to the primary residence, ADU, or both. Thank you for the opportunity to testify on this bill. Council Chair Director of Council Services Alice L. Lee David M. Raatz, Jr.,",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "of Council Services Alice L. Lee David M. Raatz, Jr., Esq. Vice-Chair Deputy Director of Council Services Yuki Lei K. Sugimura Richelle K. Kawasaki, Esq. Presiding Officer Pro Tempore Tasha Kama Councilmembers Tom Cook Gabe Johnson Tamara Paltin Keani N.W. Rawlins-Fernandez Shane M. Sinenci Nohelani U‘u-Hodgins COUNTY COUNCIL COUNTY OF",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "Rawlins-Fernandez Shane M. Sinenci Nohelani U‘u-Hodgins COUNTY COUNCIL COUNTY OF MAUI 200 S. HIGH STREET WAILUKU, MAUI, HAWAII 96793 www.MauiCounty.us January 29, 2025 TO: The Honorable Luke A. Evslin, Chair, and Honorable Members of the House Committee on Housing FROM: Alice L. Lee Council Chair SUBJECT: HEARING OF JANUARY 29,",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "Alice L. Lee Council Chair SUBJECT: HEARING OF JANUARY 29, 2025; TESTIMONY IN SUPPORT OF HB 740, RELATING TO HOUSING I support this measure to establish an Accessory Dwelling Unit (ADU) Financing and Deed Restriction Program under the Hawaiʻi Housing Finance and Development Corporation. I am providing this testimony in",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "Finance and Development Corporation. I am providing this testimony in my capacity as an individual member of the Maui County Council. I support this measure for the following reasons: 1. By incentivizing the construction of ADUs, this bill increases the number of available housing units, particularly in residential areas where",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB740_TESTIMONY_HSG_01-29-25_",
+          "chunk_text": "number of available housing units, particularly in residential areas where space allows for additional dwellings. 2. The bill places the responsibility on counties to apply for and allocate grant funding to eligible homeowners and homebuyers, allowing for localized decision making that aligns with specific community needs.",
+          "start_word": 680,
+          "end_word": 726,
+          "word_count": 46
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB740_HD1",
+          "chunk_text": "JOSH GREEN, M.D. GOVERNOR SYLVIA LUKE LT. GOVERNOR DEAN MINAKAMI EXECUTIVE DIRECTOR STATE OF HAWAII DEPARTMENT OF BUSINESS, ECONOMIC DEVELOPMENT AND TOURISM HAWAII HOUSING FINANCE AND DEVELOPMENT CORPORATION 677 QUEEN STREET, SUITE 300 HONOLULU, HAWAII 96813 FAX: (808) 587-0600 Statement of DEAN MINAKAMI Hawaii Housing Finance and Development Corporation Before",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB740_HD1",
+          "chunk_text": "of DEAN MINAKAMI Hawaii Housing Finance and Development Corporation Before the HOUSE COMMITTEE ON JUDICARY & HAWAIIAN AFFAIRS February 06, 2025 at 2:00 p.m. State Capitol, Room 325 In consideration of H.B. 740 HD1 RELATING TO HOUSING Chair Tarnas, Vice Chair Poepoe, and members of the Committee. HHFDC supports HB",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB740_HD1",
+          "chunk_text": "Chair Poepoe, and members of the Committee. HHFDC supports HB 740 HD1, which establishes the Accessory Dwelling Unit (ADU) Financing and Deed Restriction Program to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB740_HD1",
+          "chunk_text": "construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on such property. It is effective 7/1/3000. The upfront costs of designing and permitting an ADU are a barrier for many homeowners. HHFDC supports the ADU Financing and Deed",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB740_HD1",
+          "chunk_text": "for many homeowners. HHFDC supports the ADU Financing and Deed Restriction program as a way to increase the inventory of rental units in the State. Thank you for the opportunity to testify on this bill. TESTIMONY OF THE DEPARTMENT OF THE ATTORNEY GENERAL KA ‘OIHANA O KA LOIO KUHINA THIRTY-THIRD",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB740_HD1",
+          "chunk_text": "THE ATTORNEY GENERAL KA ‘OIHANA O KA LOIO KUHINA THIRTY-THIRD LEGISLATURE, 2025 ON THE FOLLOWING MEASURE: H.B. No. 740, H.D. 1, RELATING TO HOUSING. BEFORE THE: HOUSE COMMITTEE ON JUDICIARY & HAWAIIAN AFFAIRS DATE: Thursday, February 6, 2025 TIME: 2:00 p.m. LOCATION: State Capitol, Room 325 and Videoconference TESTIFIER(S): Anne",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB740_HD1",
+          "chunk_text": "p.m. LOCATION: State Capitol, Room 325 and Videoconference TESTIFIER(S): Anne E. Lopez, Attorney General, or Chase Suzumoto, Deputy Attorney General or Linda L.W. Chow, Deputy Attorney General Chair Tarnas and Members of the Committee: The Department of the Attorney General offers the following comments. The purpose of this bill is",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB740_HD1",
+          "chunk_text": "offers the following comments. The purpose of this bill is to establish an accessory dwelling unit financing and deed restriction program under the Hawaii Housing Finance and Development Corporation. This bill permits the Hawaii Housing Finance and Development Corporation to allocate funds from the Dwelling Unit Revolving Fund to a",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB740_HD1",
+          "chunk_text": "allocate funds from the Dwelling Unit Revolving Fund to a county for the award of grants to eligible homeowners and homebuyers to finance various costs associated with the construction of accessory dwelling units. The bill also authorizes the counties to purchase deed restrictions from eligible homeowners or homebuyers using funds",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB740_HD1",
+          "chunk_text": "purchase deed restrictions from eligible homeowners or homebuyers using funds from the Dwelling Unit Revolving Fund. This bill does not appear to contain legally sufficient standards for the award of such grants involving public money as required by article VII, section 4, of the Constitution of the State of Hawai‘i--“[n]o",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB740_HD1",
+          "chunk_text": "section 4, of the Constitution of the State of Hawai‘i--“[n]o grant of public money . . . shall be made except pursuant to standards provided by law.” Therefore, we recommend that this bill be amended to insert appropriate standards. Examples of existing statutes that provide standards for agencies to issue",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB740_HD1",
+          "chunk_text": "of existing statutes that provide standards for agencies to issue grants are part II of chapter 9 and sections 10-17, 210D-11, and 383-128, Hawaii Revised Statutes. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 2 of 3 We have attached examples of standards to this testimony",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 30,
+          "document_name": "HB740_HD1",
+          "chunk_text": "3 We have attached examples of standards to this testimony for the Committee’s consideration. These or other appropriate standards could be inserted into the bill on page 4, line 17 as a new section 201H-B(d) with subsequent subsections redesignated. We are also available to work with the Committee on any",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 31,
+          "document_name": "HB740_HD1",
+          "chunk_text": "are also available to work with the Committee on any potential amendments to the bill. Thank you for the opportunity to testify on this bill. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 3 of 3 DRAFT GRANT STANDARDS (d) Applications for grants shall be made",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 32,
+          "document_name": "HB740_HD1",
+          "chunk_text": "DRAFT GRANT STANDARDS (d) Applications for grants shall be made to the counties and contain the information as required by rules adopted under this subpart. At a minimum, the applicant shall: (1) Be an eligible homeowner or homebuyer under this subpart; (2) Agree to use state funds exclusively for the",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 33,
+          "document_name": "HB740_HD1",
+          "chunk_text": "subpart; (2) Agree to use state funds exclusively for the purposes of this program; (3) Indicate capability to properly use the grant for the purpose of the accessory dwelling unit financing and deed restriction program; (4) Comply with all applicable federal and state laws prohibiting discrimination against any person on",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 34,
+          "document_name": "HB740_HD1",
+          "chunk_text": "federal and state laws prohibiting discrimination against any person on the basis of race, color, national origin, religion, creed, sex, age, sexual orientation, disability, or any other characteristic protected under applicable federal or state law; (5) Agree not to use state funds for purposes of entertainment or perquisites; (6) Comply",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 35,
+          "document_name": "HB740_HD1",
+          "chunk_text": "state funds for purposes of entertainment or perquisites; (6) Comply with other requirements as the county may prescribe; (7) Comply with all applicable federal, state, and county statutes, rules, and ordinances; (8) Agree to indemnify and save harmless the State of Hawaii and its officers, agents, and employees from and",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 36,
+          "document_name": "HB740_HD1",
+          "chunk_text": "of Hawaii and its officers, agents, and employees from and against any and all claims arising out of or resulting from activities carried out or proj",
+          "start_word": 720,
+          "end_word": 746,
+          "word_count": 26
+        },
+        {
+          "chunk_id": 37,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "HSCR53 STAND. COM. REP. NO. 53 Honolulu, Hawaii , 2025 RE: H.B. No. 740 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Housing, to which was referred H.B. No. 740 entitled: \"A BILL FOR",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 38,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "which was referred H.B. No. 740 entitled: \"A BILL FOR AN ACT RELATING TO HOUSING,\" begs leave to report as follows: The purpose of this measure is to establish an Accessory Dwelling Unit Financing and Deed Restriction Program under the Hawaii Housing Finance and Development Corporation. Your Committee received testimony",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 39,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "Hawaii Housing Finance and Development Corporation. Your Committee received testimony in support of this measure from the Hawaii Housing Finance and Development Corporation; one member of the Maui County Council; Hawaii Appleseed Center for Law & Economic Justice; Catholic Charities Hawai ʻ i; Hawai ʻ i YIMBY; Holomua Collaborative; Housing",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 40,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "Hawai ʻ i; Hawai ʻ i YIMBY; Holomua Collaborative; Housing Hawai ʻ i's Future; Hawai ‘ i Community Foundation; Title Guaranty Hawaii; Mana Up; Hawai ‘ i Gas; HPM Building Supply; aio; Tori Richard, Ltd.; Maui Chamber of Commerce; and four individuals. Your Committee received comments on this measure from",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 41,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "four individuals. Your Committee received comments on this measure from the Department of Taxation and Hawai ‘ i Association of REALTORS. Your Committee finds that accessory dwelling units are an innovative way to help alleviate the severe lack of housing for Hawaii residents. Despite this, the upfront costs for designing",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 42,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "for Hawaii residents. Despite this, the upfront costs for designing and permitting are barriers for many homeowners to develop an accessory dwelling unit. This measure offers a practical solution to create immediate housing opportunities through ensuring long-term affordability through deed restrictions, thereby preserving these units for Hawaii's workforce. Your Committee",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 43,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "restrictions, thereby preserving these units for Hawaii's workforce. Your Committee notes that the intent of the Legislature with this measure is for the amount paid to the property owner to be the market rate for a deed restriction. Ideally, through a negotiation process between the county and the property owner,",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 44,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "a negotiation process between the county and the property owner, the rate will be high enough to incentivize a property owner to sell a deed restriction, while low enough that it remains an effective use of government funds. It is also the intent of your Committee to not subject any",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 45,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "also the intent of your Committee to not subject any instruments by which a deed restriction is placed on a dwelling unit under the Accessory Dwelling Unit Financing and Deed Restriction Program (Program) to the conveyance tax. Your Committee has amended this measure by: (1) Authorizing the Hawaii Housing Finance",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 46,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "amended this measure by: (1) Authorizing the Hawaii Housing Finance and Development Corporation to allocate an annual lump sum, to be determined by the Corporation, rather than requiring the counties to apply for a specific minimum amount; (2) Prohibiting the Hawaii Housing Finance and Development Corporation from distributing funds under",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 47,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "Hawaii Housing Finance and Development Corporation from distributing funds under the Program solely based on the population size of a county; (3) Clarifying that for a planned community, a deed restriction placed and owned by a county may be secondary only to conditions, covenants, and restrictions with a requisite first",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 48,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "only to conditions, covenants, and restrictions with a requisite first position; (4) Deleting language that would have required a retiree or an individual with a disability to have worked for ten consecutive years and five consecutive years, respectively, in the county or State, to qualify as an owner-occupant under the",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 49,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "county or State, to qualify as an owner-occupant under the Program; (5) Exempting any contract entered into by a county under the Program from the Procurement Code; (6) Changing the effective date to July 1, 3000, to encourage further discussion; and (7) Making technical, nonsubstantive amendments for the purposes of",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 50,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "and (7) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. Your Committee also notes that while language that could have been construed as a durational requirement for a retiree or an individual with a disability was removed from this measure, your Committee is working with the",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 51,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "removed from this measure, your Committee is working with the Department of the Attorney General on language that can withstand constitutional scrutiny to ensure that bona fide residents of the State can benefit from the Accessory Dwelling Unit Financing and Deed Restriction Program. Your Committee further notes that the Department",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 52,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "Deed Restriction Program. Your Committee further notes that the Department of Taxation requested in its testimony that should this measure pass the Legislature, an effective date of January 1, 2026 be included, to allow the Department sufficient time to make changes necessary for the implementation of the new conveyance tax",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 53,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "changes necessary for the implementation of the new conveyance tax exemption. As affirmed by the record of votes of the members of your Committee on Housing that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 740, as amended herein, and",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 54,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "and purpose of H.B. No. 740, as amended herein, and recommends that it pass Second Reading in the form attached hereto as H.B. No. 740, H.D. 1, and be referred to your Committee on Judiciary & Hawaiian Affairs. Respectfully submitted on behalf of the members of the Committee on Housing,",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 55,
+          "document_name": "HB740_HD1_HSCR53_",
+          "chunk_text": "on behalf of the members of the Committee on Housing, ____________________________ LUKE A. EVSLIN, Chair",
+          "start_word": 720,
+          "end_word": 735,
+          "word_count": 15
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "related training for direct student instruction in career and technical education programs as defined in section 302A-101, including supplies, implements, tools, machinery, electronic devices, or other goods purchased by the department of education; provided that: (i) T he department of education shall acquire three written quotes for purchases that exceed $100,000 made pursuant to this subparagraph; (ii) Awards over $2,500 shall comply with section 103D-310(c); and (iii) Awards over $500,000 shall be approved by the superintendent of education ; and (M) Any other goods or services that the policy board determines by rules or the chief procurement officer determines in writing",
+        "number": 100000.0,
+        "filename": "HB740_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "technical education programs as defined in section 302A-101, including supplies, implements, tools, machinery, electronic devices, or other goods purchased by the department of education; provided that: (i) T he department of education shall acquire three written quotes for purchases that exceed $100,000 made pursuant to this subparagraph; (ii) Awards over $2,500 shall comply with section 103D-310(c); and (iii) Awards over $500,000 shall be approved by the superintendent of education ; and (M) Any other goods or services that the policy board determines by rules or the chief procurement officer determines in writing is available from multiple sources but for which procurement",
+        "number": 2500.0,
+        "filename": "HB740_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "implements, tools, machinery, electronic devices, or other goods purchased by the department of education; provided that: (i) T he department of education shall acquire three written quotes for purchases that exceed $100,000 made pursuant to this subparagraph; (ii) Awards over $2,500 shall comply with section 103D-310(c); and (iii) Awards over $500,000 shall be approved by the superintendent of education ; and (M) Any other goods or services that the policy board determines by rules or the chief procurement officer determines in writing is available from multiple sources but for which procurement by competitive means is either not practicable or not advantageous",
+        "number": 500000.0,
+        "filename": "HB740_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "confirms or corrects a deed, lease, sublease, assignment, transfer, or conveyance previously recorded or filed; (4) Any document or instrument between husband and wife, reciprocal beneficiaries, or parent and child, in which only a nominal consideration is paid; (5) Any document or instrument in which there is a consideration of $100 or less paid or to be paid; (6) Any document or instrument conveying real property that is executed pursuant to an agreement of sale, and where applicable, any assignment of the agreement of sale, or assignments thereof; provided that the taxes under this chapter have been fully paid upon the",
+        "number": 100.0,
+        "filename": "HB740_HD1_.HTM.txt",
+        "document_type": "document"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:44:21.382406",
+  "generation_timestamp_unix": 1760147061.382414
+}

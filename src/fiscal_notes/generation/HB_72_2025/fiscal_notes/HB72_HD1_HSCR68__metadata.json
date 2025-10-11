@@ -1,0 +1,1016 @@
+{
+  "document_name": "HB72_HD1_HSCR68_",
+  "new_documents_processed": [
+    "HB72_TESTIMONY_HLT_01-31-25_",
+    "HB72_HD1",
+    "HB72_HD1_HSCR68_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB72",
+    "HB72_TESTIMONY_HLT_01-31-25_",
+    "HB72_HD1",
+    "HB72_HD1_HSCR68_"
+  ],
+  "numbers_used": 2,
+  "prompt_length": 55304,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"This measure has been amended by 'Adding a definition of \\\"auxiliary pharmacy personnel\\\" for personnel that may be at the pharmacy, but whose duties are clerical in nature and excluding these individuals from the definition of \\\"pharmacy technician\\\"' (HB72_HD1_HSCR68_). The bill now also clarifies the duties of registered pharmacy technicians and the definition of supervision by a registered pharmacist (HB72_HD1_HSCR68_). The effective date of the act has been changed to July 1, 3000 (HB72_HD1_.HTM.txt).\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"The fiscal impact of this measure is now projected to be zero for the foreseeable future, as the bill's effective date has been changed to July 1, 3000 (HB72_HD1_.HTM.txt). This change was made 'to encourage further discussion' (HB72_HD1_HSCR68_). All financial calculations based on registration fees and fines are therefore deferred indefinitely.\",\n\"agency_impact\": \"The administrative and operational impact on the Board of Pharmacy is delayed indefinitely due to the new effective date of July 1, 3000 (HB72_HD1_.HTM.txt). The board will not need to 'issue certificates of registration for registered pharmacy technicians' (HB72_HD1_.HTM.txt) until that time. This postpones any increase in the board's workload.\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure has been amended to create a new statutory category for 'Auxiliary pharmacy personnel,' defined as a person who performs tasks such as 'retrieval tasks,' 'clerical tasks,' 'accounting tasks,' and 'inventory control tasks' (HB72_HD1_.HTM.txt). The definition of 'Registered pharmacy technician' now explicitly excludes 'pharmacy interns and auxiliary pharmacy personnel' (HB72_HD1_.HTM.txt). The most significant policy change is moving the effective date to 'July 1, 3000' (HB72_HD1_.HTM.txt), effectively postponing the implementation of the registration requirement.\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"As a result of the amendment 'Changing the effective date to July 1, 3000' (HB72_HD1_HSCR68_), there are no fiscal implications within the standard six-year planning period. The previous projection of revenue collection beginning in FY27 is no longer applicable. All costs and revenues associated with 'The registration fee for a pharmacy technician' of '$20' (HB72_HD1_.HTM.txt) and fines of 'not less than $100 nor more than $1,000 for each violation' (HB72_HD1_.HTM.txt) are deferred until after the new effective date.\",\n\"operating_revenue_impact\": \"There will be no impact on operating revenues in the foreseeable future. The collection of the biennial '$20' (HB72_HD1_.HTM.txt) registration fee and any potential fines is deferred until after the act's effective date of July 1, 3000 (HB72_HD1_.HTM.txt).\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"All fiscal implications for this measure are now deferred until after the new effective date of July 1, 3000 (HB72_HD1_.HTM.txt). The ongoing administrative costs and recurring revenue from registration fees will commence after that date. Therefore, there are no fiscal obligations within any practical long-term planning horizon.\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note is updated to reflect amendments made in H.B. No. 72, H.D. 1. The primary changes from the previous fiscal note include the 'Adding a definition of \\\"auxiliary pharmacy personnel\\\"' (HB72_HD1_HSCR68_) to exempt individuals performing clerical duties from registration and 'Clarifying the duties of registered pharmacy technicians' (HB72_HD1_HSCR68_). The most significant change is the amendment 'Changing the effective date to July 1, 3000, to encourage further discussion' (HB72_HD1_HSCR68_), which postpones all fiscal impacts of the measure indefinitely.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 17111,
+      "candidates_token_count": 989,
+      "total_token_count": 20694
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"This measure has been amended by 'Adding a definition of \\\"auxiliary pharmacy personnel\\\" for personnel that may be at the pharmacy, but whose duties are clerical in nature and excluding these individuals from the definition of \\\"pharmacy technician\\\"' (HB72_HD1_HSCR68_). The bill now also clarifies the duties of registered pharmacy technicians and the definition of supervision by a registered pharmacist (HB72_HD1_HSCR68_). The effective date of the act has been changed to July 1, 3000 (HB72_HD1_.HTM.txt).\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"The fiscal impact of this measure is now projected to be zero for the foreseeable future, as the bill's effective date has been changed to July 1, 3000 (HB72_HD1_.HTM.txt). This change was made 'to encourage further discussion' (HB72_HD1_HSCR68_). All financial calculations based on registration fees and fines are therefore deferred indefinitely.\",\n\"agency_impact\": \"The administrative and operational impact on the Board of Pharmacy is delayed indefinitely due to the new effective date of July 1, 3000 (HB72_HD1_.HTM.txt). The board will not need to 'issue certificates of registration for registered pharmacy technicians' (HB72_HD1_.HTM.txt) until that time. This postpones any increase in the board's workload.\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure has been amended to create a new statutory category for 'Auxiliary pharmacy personnel,' defined as a person who performs tasks such as 'retrieval tasks,' 'clerical tasks,' 'accounting tasks,' and 'inventory control tasks' (HB72_HD1_.HTM.txt). The definition of 'Registered pharmacy technician' now explicitly excludes 'pharmacy interns and auxiliary pharmacy personnel' (HB72_HD1_.HTM.txt). The most significant policy change is moving the effective date to 'July 1, 3000' (HB72_HD1_.HTM.txt), effectively postponing the implementation of the registration requirement.\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"As a result of the amendment 'Changing the effective date to July 1, 3000' (HB72_HD1_HSCR68_), there are no fiscal implications within the standard six-year planning period. The previous projection of revenue collection beginning in FY27 is no longer applicable. All costs and revenues associated with 'The registration fee for a pharmacy technician' of '$20' (HB72_HD1_.HTM.txt) and fines of 'not less than $100 nor more than $1,000 for each violation' (HB72_HD1_.HTM.txt) are deferred until after the new effective date.\",\n\"operating_revenue_impact\": \"There will be no impact on operating revenues in the foreseeable future. The collection of the biennial '$20' (HB72_HD1_.HTM.txt) registration fee and any potential fines is deferred until after the act's effective date of July 1, 3000 (HB72_HD1_.HTM.txt).\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"All fiscal implications for this measure are now deferred until after the new effective date of July 1, 3000 (HB72_HD1_.HTM.txt). The ongoing administrative costs and recurring revenue from registration fees will commence after that date. Therefore, there are no fiscal obligations within any practical long-term planning horizon.\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note is updated to reflect amendments made in H.B. No. 72, H.D. 1. The primary changes from the previous fiscal note include the 'Adding a definition of \\\"auxiliary pharmacy personnel\\\"' (HB72_HD1_HSCR68_) to exempt individuals performing clerical duties from registration and 'Clarifying the duties of registered pharmacy technicians' (HB72_HD1_HSCR68_). The most significant change is the amendment 'Changing the effective date to July 1, 3000, to encourage further discussion' (HB72_HD1_HSCR68_), which postpones all fiscal impacts of the measure indefinitely.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"This measure has been amended by 'Adding a definition of \\\"auxiliary pharmacy personnel\\\" for personnel that may be at the pharmacy, but whose duties are clerical in nature and excluding these individuals from the definition of \\\"pharmacy technician\\\"' (HB72_HD1_HSCR68_)",
+          "attributed_chunk_id": 43,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.95,
+          "attribution_reason": "Document citation + word frequency: HB72_HD1_HSCR68_ (score: 0.950)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill now also clarifies the duties of registered pharmacy technicians and the definition of supervision by a registered pharmacist (HB72_HD1_HSCR68_)",
+          "attributed_chunk_id": 44,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Document citation + word frequency: HB72_HD1_HSCR68_ (score: 0.667)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The effective date of the act has been changed to July 1, 3000 (HB72_HD1_",
+          "attributed_chunk_id": 44,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.42857142857142855,
+          "attribution_reason": "Word frequency match score: 0.429",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). \",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"The fiscal impact of this measure is now projected to be zero for the foreseeable future, as the bill's effective date has been changed to July 1, 3000 (HB72_HD1_",
+          "attributed_chunk_id": 44,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.15789473684210525,
+          "attribution_reason": "Word frequency match score: 0.158",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). This change was made 'to encourage further discussion' (HB72_HD1_HSCR68_)",
+          "attributed_chunk_id": 44,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.42857142857142855,
+          "attribution_reason": "Document citation + word frequency: HB72_HD1_HSCR68_ (score: 0.429)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "All financial calculations based on registration fees and fines are therefore deferred indefinitely",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1,
+          "attribution_reason": "Word frequency match score: 0.100",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"agency_impact\": \"The administrative and operational impact on the Board of Pharmacy is delayed indefinitely due to the new effective date of July 1, 3000 (HB72_HD1_",
+          "attributed_chunk_id": 44,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.26666666666666666,
+          "attribution_reason": "Word frequency match score: 0.267",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). The board will not need to 'issue certificates of registration for registered pharmacy technicians' (HB72_HD1_",
+          "attributed_chunk_id": 19,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4166666666666667,
+          "attribution_reason": "Word frequency match score: 0.417",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt) until that time",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This postpones any increase in the board's workload",
+          "attributed_chunk_id": 22,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure has been amended to create a new statutory category for 'Auxiliary pharmacy personnel,' defined as a person who performs tasks such as 'retrieval tasks,' 'clerical tasks,' 'accounting tasks,' and 'inventory control tasks' (HB72_HD1_",
+          "attributed_chunk_id": 27,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). The definition of 'Registered pharmacy technician' now explicitly excludes 'pharmacy interns and auxiliary pharmacy personnel' (HB72_HD1_",
+          "attributed_chunk_id": 29,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4666666666666667,
+          "attribution_reason": "Word frequency match score: 0.467",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). The most significant policy change is moving the effective date to 'July 1, 3000' (HB72_HD1_",
+          "attributed_chunk_id": 44,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt), effectively postponing the implementation of the registration requirement",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Word frequency match score: 0.143",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"As a result of the amendment 'Changing the effective date to July 1, 3000' (HB72_HD1_HSCR68_), there are no fiscal implications within the standard six-year planning period",
+          "attributed_chunk_id": 44,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.2222222222222222,
+          "attribution_reason": "Document citation + word frequency: HB72_HD1_HSCR68_ (score: 0.222)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "The previous projection of revenue collection beginning in FY27 is no longer applicable",
+          "attributed_chunk_id": 19,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.125,
+          "attribution_reason": "Word frequency match score: 0.125",
+          "numbers_found": []
+        },
+        {
+          "sentence": "All costs and revenues associated with 'The registration fee for a pharmacy technician' of '$20' (HB72_HD1_",
+          "attributed_chunk_id": 20,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": [
+            20.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) and fines of 'not less than $100 nor more than $1,000 for each violation' (HB72_HD1_",
+          "attributed_chunk_id": "NUMBER_1000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.7142857142857143,
+          "attribution_reason": "Number $1,000 from HB72_HD1_.HTM.txt (score: 0.714)",
+          "numbers_found": [
+            1000.0,
+            100.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) are deferred until after the new effective date",
+          "attributed_chunk_id": 44,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"There will be no impact on operating revenues in the foreseeable future",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Word frequency match score: 0.143",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The collection of the biennial '$20' (HB72_HD1_",
+          "attributed_chunk_id": 20,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": [
+            20.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) registration fee and any potential fines is deferred until after the act's effective date of July 1, 3000 (HB72_HD1_",
+          "attributed_chunk_id": 44,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1875,
+          "attribution_reason": "Word frequency match score: 0.188",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). \",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"All fiscal implications for this measure are now deferred until after the new effective date of July 1, 3000 (HB72_HD1_",
+          "attributed_chunk_id": 44,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Word frequency match score: 0.167",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). The ongoing administrative costs and recurring revenue from registration fees will commence after that date",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.07692307692307693,
+          "attribution_reason": "Word frequency match score: 0.077",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Therefore, there are no fiscal obligations within any practical long-term planning horizon",
+          "attributed_chunk_id": 24,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2727272727272727,
+          "attribution_reason": "Word frequency match score: 0.273",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note is updated to reflect amendments made in H",
+          "attributed_chunk_id": 44,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Word frequency match score: 0.143",
+          "numbers_found": []
+        },
+        {
+          "sentence": "B. No. 72, H. D. 1. The primary changes from the previous fiscal note include the 'Adding a definition of \\\"auxiliary pharmacy personnel\\\"' (HB72_HD1_HSCR68_) to exempt individuals performing clerical duties from registration and 'Clarifying the duties of registered pharmacy technicians' (HB72_HD1_HSCR68_)",
+          "attributed_chunk_id": 43,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.52,
+          "attribution_reason": "Document citation + word frequency: HB72_HD1_HSCR68_ (score: 0.520)",
+          "numbers_found": [
+            72.0,
+            1.0
+          ]
+        },
+        {
+          "sentence": "The most significant change is the amendment 'Changing the effective date to July 1, 3000, to encourage further discussion' (HB72_HD1_HSCR68_), which postpones all fiscal impacts of the measure indefinitely",
+          "attributed_chunk_id": 44,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.42105263157894735,
+          "attribution_reason": "Document citation + word frequency: HB72_HD1_HSCR68_ (score: 0.421)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 1,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": []
+        },
+        "2": {
+          "usage_count": 3,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.100",
+            "Word frequency match score: 0.143",
+            "Word frequency match score: 0.077"
+          ]
+        },
+        "3": {
+          "usage_count": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": []
+        },
+        "4": {
+          "usage_count": 1,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.143"
+          ]
+        },
+        "5": {
+          "usage_count": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": []
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 2,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.417",
+            "Word frequency match score: 0.125"
+          ]
+        },
+        "20": {
+          "usage_count": 2,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.250"
+          ]
+        },
+        "21": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": []
+        },
+        "22": {
+          "usage_count": 1,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.400"
+          ]
+        },
+        "23": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": []
+        },
+        "24": {
+          "usage_count": 1,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.273"
+          ]
+        },
+        "25": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": []
+        },
+        "26": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": []
+        },
+        "27": {
+          "usage_count": 1,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.333"
+          ]
+        },
+        "28": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": []
+        },
+        "29": {
+          "usage_count": 1,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.467"
+          ]
+        },
+        "30": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": []
+        },
+        "31": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": []
+        },
+        "32": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": []
+        },
+        "33": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": []
+        },
+        "34": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": []
+        },
+        "35": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": []
+        },
+        "36": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1",
+          "attribution_reasons": []
+        },
+        "37": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1_HSCR68_",
+          "attribution_reasons": []
+        },
+        "38": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1_HSCR68_",
+          "attribution_reasons": []
+        },
+        "39": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1_HSCR68_",
+          "attribution_reasons": []
+        },
+        "40": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1_HSCR68_",
+          "attribution_reasons": []
+        },
+        "41": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1_HSCR68_",
+          "attribution_reasons": []
+        },
+        "42": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1_HSCR68_",
+          "attribution_reasons": []
+        },
+        "43": {
+          "usage_count": 2,
+          "document_name": "HB72_HD1_HSCR68_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB72_HD1_HSCR68_ (score: 0.950)",
+            "Document citation + word frequency: HB72_HD1_HSCR68_ (score: 0.520)"
+          ]
+        },
+        "44": {
+          "usage_count": 12,
+          "document_name": "HB72_HD1_HSCR68_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB72_HD1_HSCR68_ (score: 0.667)",
+            "Word frequency match score: 0.429",
+            "Word frequency match score: 0.158",
+            "Document citation + word frequency: HB72_HD1_HSCR68_ (score: 0.429)",
+            "Word frequency match score: 0.267",
+            "Word frequency match score: 0.250",
+            "Document citation + word frequency: HB72_HD1_HSCR68_ (score: 0.222)",
+            "Word frequency match score: 0.250",
+            "Word frequency match score: 0.188",
+            "Word frequency match score: 0.167",
+            "Word frequency match score: 0.143",
+            "Document citation + word frequency: HB72_HD1_HSCR68_ (score: 0.421)"
+          ]
+        },
+        "45": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1_HSCR68_",
+          "attribution_reasons": []
+        },
+        "46": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1_HSCR68_",
+          "attribution_reasons": []
+        },
+        "47": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1_HSCR68_",
+          "attribution_reasons": []
+        },
+        "NUMBER_100.0": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1000.0": {
+          "usage_count": 0,
+          "document_name": "HB72_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1000": {
+          "usage_count": 1,
+          "document_name": "HB72_HD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $1,000 from HB72_HD1_.HTM.txt (score: 0.714)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 6,
+        "number_based": 1,
+        "word_frequency_based": 20,
+        "semantic_similarity": 0,
+        "fallback": 1,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 48,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "UNIVERSITY OF HAWAI‘I SYSTEM ʻŌNAEHANA KULANUI O HAWAIʻI Legislative Testimony Hōʻike Manaʻo I Mua O Ka ʻAhaʻōlelo _____________________________________________________________ Testimony Presented Before the House Committee on Health Friday, January 31, 2025 at 9:15 am By Bonnie Irwin, Chancellor and Rae Matsumoto, Dean Daniel K. Inouye College of Pharmacy University of Hawaiʻi",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "Dean Daniel K. Inouye College of Pharmacy University of Hawaiʻi at Hilo HB 72 – RELATING TO PHARMACY Chair Takayama, Vice Chair Keohokapu-Lee Loy and Members of the Committee: Thank you for the opportunity to submit testimony on HB 72. The University of Hawaiʻi at Hilo (UH Hilo) supports HB",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "The University of Hawaiʻi at Hilo (UH Hilo) supports HB 72, which will require the registration of pharmacy technicians through the Department of Commerce and Consumer Affairs. Pharmacy technicians are career professionals working under the supervision of a pharmacist, and have an essential role in the daily operation of pharmacies.",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "have an essential role in the daily operation of pharmacies. Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians. Legislation to address this oversight is important for supporting public health and safety by ensuring that these essential health care workers have the appropriate background",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "that these essential health care workers have the appropriate background and supervision, can receive timely communications and updates regarding relevant practice and regulation changes that impact their work, and facilitate access to training opportunities as the scope of practice of pharmacy technicians expands nationwide. We would like to clarify that",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "pharmacy technicians expands nationwide. We would like to clarify that pharmacy technicians are professionals and represent a distinct category from pharmacy interns who are students in training to become future pharmacists. As career professionals in the health care workforce, pharmacy technicians perform functions under the supervision of pharmacists and may",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "technicians perform functions under the supervision of pharmacists and may include roles such as dispensing medications, processing insurance claims, and with additional certifications, administering vaccines to patients. As career professionals in the health care workforce, the registration of pharmacy technicians is warranted and appropriate for the level of responsibility and",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "is warranted and appropriate for the level of responsibility and trust afforded by the public. Thank you for the opportunity to testify in support of HB 72. Testimony for HB72: A bill to mandate pharmacy technician registration within the DCCA House Committee on Health Friday, January 31, 2025 Testimony in",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "House Committee on Health Friday, January 31, 2025 Testimony in SUPPORT of HB72 To the Honorable Chair Takayama Vice Chair Keohokapu-Lee Loy, and Members of the Committee, My name is Megan Arbles Pharm D., Director of Pharmacy for an independent pharmacy on the Big Island and I appreciate the opportunity",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "pharmacy on the Big Island and I appreciate the opportunity to submit testimony in support of Senate Bill No. HB72, A Bill to Mandate Pharmacy Technician Registration within the DCCA. As a pharmacist practicing in Hawai‘i, I strongly support HB72, which seeks to establish critical regulations for pharmacy technicians in",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "which seeks to establish critical regulations for pharmacy technicians in our state. In my practice, pharmacy technicians are essential in performing the following tasks that are critical to the workflow of the pharmacy including processing prescriptions, managing inventory, preparing medications assisting with insurance claims, and providing essential support to pharmacists",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "assisting with insurance claims, and providing essential support to pharmacists in ensuring patient safety. By handling these key responsibilities pharmacy technicians help streamline operations, allowing pharmacists to focus on clinical services such as medication counseling, immunizations, and chronic disease management. Hawai‘i is the only state in the nation without an",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "Hawai‘i is the only state in the nation without an active, managed list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. Establishing regulations for pharmacy technicians through HB72 will ensure proper training, standardization, and accountability ultimately improving patient care and pharmacy efficiency in",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "and accountability ultimately improving patient care and pharmacy efficiency in Hawai’i. Additionally, the creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. Beyond enhancing patient safety, HB72 will lay the foundation for pharmacy technicians in Hawai‘i to",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "will lay the foundation for pharmacy technicians in Hawai‘i to expand their scope of practice in the future. Across the country, pharmacy technicians are taking on advanced roles, such as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce. I urge the Committee to support HB72 and help",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "workforce. I urge the Committee to support HB72 and help Hawai‘i align with national pharmacy technician regulation standards to strengthen pharmacy practice in our state. Sincerely, Megan Arbles, Pharm D. Director of Pharmacy Operations, KTA Pharmacy 50 E. Puainako St Hilo, HI 96720 Testimony presented before the House Committee on",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB72_TESTIMONY_HLT_01-31-25_",
+          "chunk_text": "Hilo, HI 96720 Testimony presented before the House Committee on Health January 31, 2025 Dr. Corrie L. Sanders on behalf of The Hawai",
+          "start_word": 680,
+          "end_word": 703,
+          "word_count": 23
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB72_HD1",
+          "chunk_text": "HB72 HD1 HOUSE OF REPRESENTATIVES H.B. NO. 72 THIRTY-THIRD LEGISLATURE, 2025 H.D. 1 STATE OF HAWAII A BILL FOR AN ACT RELATING TO PHARMACY . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 461, Hawaii Revised Statutes, is amended by adding a new section",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB72_HD1",
+          "chunk_text": "Hawaii Revised Statutes, is amended by adding a new section to be appropriately designated and to read as follows: \" §461- Registered pharmacy technicians; registration required. (a) Beginning January 1, 2026, no person shall act as a pharmacy technician without first obtaining a valid registration issued by the board pursuant",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB72_HD1",
+          "chunk_text": "first obtaining a valid registration issued by the board pursuant to this section. (b) Each registration shall be valid through December 31 of each odd-numbered year, upon which the registration shall lapse and a new registration shall be required. (c) The registration fee for a pharmacy technician shall be $20.",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB72_HD1",
+          "chunk_text": "The registration fee for a pharmacy technician shall be $20. (d) Beginning January 1, 2026, a pharmacy shall only employ registered pharmacy technicians to perform pharmacy technician duties. The pharmacist-in-charge shall determine that the person is registered as a pharmacy technician and that the board has issued a certificate of",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB72_HD1",
+          "chunk_text": "technician and that the board has issued a certificate of registration for the pharmacy technician before the pharmacy technician performs any tasks identified in this chapter or rules adopted pursuant to this chapter. The supervising registered pharmacist shall be responsible for the actions of the registered pharmacy technician. (e) The",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB72_HD1",
+          "chunk_text": "for the actions of the registered pharmacy technician. (e) The certificate of registration shall be prominently displayed in an area accessible to the public in the workplace where the pharmacy technician is employed or practices. (f) If the registered pharmacy technician is suspected to have violated any law or regulation",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB72_HD1",
+          "chunk_text": "technician is suspected to have violated any law or regulation regarding the practice of pharmacy, legend drugs, or controlled substances or if there is evidence that a registered pharmacy technician may have violated any such law or regulation, the pharmacist-in-charge shall notify the board, in writing, within ten days or,",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB72_HD1",
+          "chunk_text": "shall notify the board, in writing, within ten days or, if any danger to the public health or safety exists, immediately. Any other registered pharmacist, whether or not practicing in the same pharmacy, who has such knowledge or suspicion shall notify the board, in writing, within ten days or, if",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB72_HD1",
+          "chunk_text": "notify the board, in writing, within ten days or, if any danger to the public health or safety exists, immediately. \" SECTION 2. Section 461-1, Hawaii Revised Statutes, is amended by adding three new definitions to be appropriately inserted and to read as follows: \" Auxiliary pharmacy personnel\" means a",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB72_HD1",
+          "chunk_text": "to read as follows: \" Auxiliary pharmacy personnel\" means a person who works in a pharmacy assisting a registered pharmacist and registered pharmacist technicians and who may perform the following tasks: (1) Retrieval tasks such as retrieving prescriptions or files; (2) Clerical tasks such as data entry, typing labels, and",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB72_HD1",
+          "chunk_text": "(2) Clerical tasks such as data entry, typing labels, and maintaining patient profiles; (3) Tasks such as selling prescriptions, telephoning, filing, and typing; (4) Accounting tasks such as recordkeeping, maintaining accounts receivables, third-party billing and posting; (5) Inventory control tasks such as monitoring, pricing, dating, invoicing, stocking pharmacy, and preparation",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB72_HD1",
+          "chunk_text": "such as monitoring, pricing, dating, invoicing, stocking pharmacy, and preparation of purchase orders; and (6) Custodial tasks such as helping maintain a clean and orderly pharmacy. \"Registered pharmacy technician\" means a person, exclusive of pharmacy interns and auxiliary pharmacy personnel, registered with the board who may, in addition to the",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 30,
+          "document_name": "HB72_HD1",
+          "chunk_text": "registered with the board who may, in addition to the tasks of an auxiliary pharmacy personnel, perform filling, packaging, manipulative, repetitive, or other nondiscretionary tasks, and tasks specified in section 461-11.4, only while assisting and while under the direct supervision and control of a pharmacist. \"Supervision\" means the direction and",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 31,
+          "document_name": "HB72_HD1",
+          "chunk_text": "and control of a pharmacist. \"Supervision\" means the direction and oversight of a registered pharmacy technician or pharmacy intern by a physically present, responsible registered pharmacist at all times when either party performs acts specified in this chapter or rules adopted pursuant to this chapter. \" SECTION 3 . Section",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 32,
+          "document_name": "HB72_HD1",
+          "chunk_text": "adopted pursuant to this chapter. \" SECTION 3 . Section 461-4.5, Hawaii Revised Statutes, is amended by amending subsection (a) to read as follows: \"(a) In addition to any other powers and duties authorized by law, the board: (1) Shall adopt, amend, and repeal rules pursuant to chapter 91, as",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 33,
+          "document_name": "HB72_HD1",
+          "chunk_text": "adopt, amend, and repeal rules pursuant to chapter 91, as it deems proper for the purposes of this chapter, Public Law 100-293, and title 21 Code of Federal Regulations part 205; (2) Shall examine, license, reinstate, and renew the licenses of qualified applicants for registered pharmacists and wholesale prescription drug",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 34,
+          "document_name": "HB72_HD1",
+          "chunk_text": "of qualified applicants for registered pharmacists and wholesale prescription drug distributors, issue certificates of registration for registered pharmacy technicians, and issue and renew permits to operate pharmacies; (3) May require the inspection of any wholesale prescription drug distributor premises in the State to ensure compliance with this chapter and rules",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 35,
+          "document_name": "HB72_HD1",
+          "chunk_text": "the State to ensure compliance with this chapter and rules adopted under this chapter, or may require an applicant for a pharmacy license to submit a statement that the premises, including but not limited to security and sanitation, are in conformance with the board's requirements and that the applicant possesses",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 36,
+          "document_name": "HB72_HD1",
+          "chunk_text": "conformance with the board's requirements and that the applicant possesses the reference materials and technical clinical equipment and supplies as may be specified in rules adopted under this chapter; (4) May fine, suspend, or revoke any",
+          "start_word": 720,
+          "end_word": 756,
+          "word_count": 36
+        },
+        {
+          "chunk_id": 37,
+          "document_name": "HB72_HD1_HSCR68_",
+          "chunk_text": "HSCR68 STAND. COM. REP. NO. 68 Honolulu, Hawaii , 2025 RE: H.B. No. 72 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Health, to which was referred H.B. No. 72 entitled: \"A BILL FOR",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 38,
+          "document_name": "HB72_HD1_HSCR68_",
+          "chunk_text": "which was referred H.B. No. 72 entitled: \"A BILL FOR AN ACT RELATING TO PHARMACY,\" begs leave to report as follows: The purpose of this measure is to: (1) Require pharmacy technicians to be registered with the Board of Pharmacy by January 1, 2026; (2) Impose a duty on pharmacists-in-charge",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 39,
+          "document_name": "HB72_HD1_HSCR68_",
+          "chunk_text": "by January 1, 2026; (2) Impose a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians; and (3) Specify that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns. Your Committee received testimony in support of this measure from the Daniel K.",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 40,
+          "document_name": "HB72_HD1_HSCR68_",
+          "chunk_text": "testimony in support of this measure from the Daniel K. Inouye College of Pharmacy at the University of Hawai ‘ i at Hilo; KTA Pharmacy; Hawaii Pharmacists Association; and seven individuals. Your Committee received comments on this measure from Walgreen Co. Your Committee finds that Hawaii is the only state",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 41,
+          "document_name": "HB72_HD1_HSCR68_",
+          "chunk_text": "Co. Your Committee finds that Hawaii is the only state that does not maintain a list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. Your Committee further finds that pharmacy technicians are a distinct category of health care professionals whose functions may include",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 42,
+          "document_name": "HB72_HD1_HSCR68_",
+          "chunk_text": "distinct category of health care professionals whose functions may include dispensing medications, processing insurance claims, and administering vaccines to patients. This measure will support public health and safety by ensuring pharmacy technicians have the appropriate background and supervision for their essential health care activities. Your Committee has amended this measure",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 43,
+          "document_name": "HB72_HD1_HSCR68_",
+          "chunk_text": "essential health care activities. Your Committee has amended this measure by: (1) Adding a definition of \"auxiliary pharmacy personnel\" for personnel that may be at the pharmacy, but whose duties are clerical in nature and excluding these individuals from the definition of \"pharmacy technician\"; (2) Clarifying the duties of registered",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 44,
+          "document_name": "HB72_HD1_HSCR68_",
+          "chunk_text": "definition of \"pharmacy technician\"; (2) Clarifying the duties of registered pharmacy technicians and what constitutes supervision of a registered pharmacy technician by a registered pharmacist; (3) Changing the effective date to July 1, 3000, to encourage further discussion; and (4) Making technical, nonsubstantive amendments for the purposes of clarity, consistency,",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 45,
+          "document_name": "HB72_HD1_HSCR68_",
+          "chunk_text": "Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed by the record of votes of the members of your Committee on Health that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 72, as amended herein,",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 46,
+          "document_name": "HB72_HD1_HSCR68_",
+          "chunk_text": "intent and purpose of H.B. No. 72, as amended herein, and recommends that it pass Second Reading in the form attached hereto as H.B. No. 72, H.D. 1, and be referred to your Committee on Consumer Protection & Commerce. Respectfully submitted on behalf of the members of the Committee on",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 47,
+          "document_name": "HB72_HD1_HSCR68_",
+          "chunk_text": "submitted on behalf of the members of the Committee on Health, ____________________________ GREGG TAKAYAMA, Chair",
+          "start_word": 400,
+          "end_word": 415,
+          "word_count": 15
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "meningococcal, or influenza vaccine, without complying with section 461-11.4; or (12) Prescribing or dispensing contraceptive supplies without complying with section 461-11.6. (b) Any person who violates any of the provisions of this chapter or the rules adopted pursuant [ thereto ] to this chapter shall be fined not less than $100 nor more than $1,000 for each violation. (c) All proceedings for denial, suspension, fine, or revocation of a license , registration, or permit on any grounds specified in subsection (a) shall be conducted pursuant to chapter 91, including the right of judicial review.\" SECTION 9. Statutory material to be repealed",
+        "number": 100.0,
+        "filename": "HB72_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "without complying with section 461-11.4; or (12) Prescribing or dispensing contraceptive supplies without complying with section 461-11.6. (b) Any person who violates any of the provisions of this chapter or the rules adopted pursuant [ thereto ] to this chapter shall be fined not less than $100 nor more than $1,000 for each violation. (c) All proceedings for denial, suspension, fine, or revocation of a license , registration, or permit on any grounds specified in subsection (a) shall be conducted pursuant to chapter 91, including the right of judicial review.\" SECTION 9. Statutory material to be repealed is bracketed and stricken.",
+        "number": 1000.0,
+        "filename": "HB72_HD1_.HTM.txt",
+        "document_type": "document"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:32:14.041291",
+  "generation_timestamp_unix": 1760146334.0412989
+}

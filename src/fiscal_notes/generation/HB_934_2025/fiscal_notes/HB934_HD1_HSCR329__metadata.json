@@ -1,0 +1,1103 @@
+{
+  "document_name": "HB934_HD1_HSCR329_",
+  "new_documents_processed": [
+    "HB934_TESTIMONY_ECD_02-05-25_",
+    "HB934_HD1",
+    "HB934_HD1_HSCR329_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB934",
+    "HB934_TESTIMONY_ECD_02-05-25_",
+    "HB934_HD1",
+    "HB934_HD1_HSCR329_"
+  ],
+  "numbers_used": 10,
+  "prompt_length": 41902,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"The purpose of this measure is to transfer the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services and establish the Broadband and Digital Equity Special Fund. Unlike the previous version, the office is not renamed, and testimony indicates certain statutes related to the Department of Commerce and Consumer Affairs are not repealed. The fund is now designated as a Special Fund, not a Revolving Fund.\",\n\"appropriations\": \"The amended bill changes the appropriations to unspecified amounts. Your Committee on Economic Development & Technology respectfully requests your Committee on Finance, should it deliberate on this measure, to consider the appropriation amount of $200,000 (HB934_HD1) to be deposited into and appropriated out of the Broadband and Digital Equity Special Fund. The Department of Business, Economic Development and Tourism asks that the $200,000 (HB934_TESTIMONY_ECD_02-05-25_.PDF.txt) appropriation in the measure be added to the general fund line item as opposed to the special fund.\",\n\"assumptions_and_methodology\": \"Testimony from the Office of Enterprise Technology Services (ETS) provides new data for fiscal projections, noting that the FY 26 operating budget request by the Hawaii Broadband and Digital Equity Office (HBDEO) is $777,090 (HB934_TESTIMONY_ECD_02-05-25_.PDF.txt) for personal services and other expenses. This contrasts with the committee's recommended appropriation of $200,000 (HB934_HD1_HSCR329_). The Department of Budget and Finance notes it is difficult to determine whether the Broadband and Digital Equity Special Fund would be self-sustaining.\",\n\"agency_impact\": \"The Office of Enterprise Technology Services (ETS) would take over the responsibility of running and managing the Hawaiʻi Broadband and Digital Equity Office. ETS testimony seeks clarity on vague or general duties and recommends that the strategic broadband coordinator be hired by the Chief Information Officer rather than the governor. ETS also recommends adding language to allow the special fund to cover 'personnel and other necessary operating expenses to provide technical assistance to the community.'\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure establishes the Broadband and Digital Equity Special Fund, rather than a revolving fund as previously stated. Testimony indicates that, unlike prior versions, this bill does not repeal Section 440G-11.5, Hawaii Revised Statutes, thus not removing the 'facade of DCCA participation'. The amended bill also adds a new restriction, excluding 'the deployment of broadband infrastructure for the provision of retail service from the authorized uses of the Broadband and Digital Equity Special Fund' (HB934_HD1).\",\n\"revenue_sources\": \"The bill establishes the Broadband and Digital Equity Special Fund, and the Department of Budget and Finance questions whether the fund would be financially self-sustaining. As a matter of general policy, the Department of Budget and Finance does not support the creation of any special fund which does not meet the requirements of Section 37-52.3, HRS.\",\n\"six_year_fiscal_implications\": \"While the bill has been amended to include unspecified appropriations, new testimony provides a multi-year fiscal outlook for the Hawaii Broadband and Digital Equity Office (HBDEO). According to the Office of Enterprise Technology Services, the FY 26 operating budget request by the HBDEO is $777,090 (HB934_TESTIMONY_ECD_02-05-25_.PDF.txt) for personal services and other expenses. This requested budget increases to $964,815 (HB934_TESTIMONY_ECD_02-05-25_.PDF.txt) by FY 31. ETS recommends that the special fund needs to fully cover all staff salaries and benefits, program priorities, operational expenses and any additional overhead, for five years until the special fund may become self-sustaining. The committee report requests the Committee on Finance consider an appropriation of $200,000 (HB934_HD1), which is significantly less than the operating budget request.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"The amended measure explicitly restricts the use of the Broadband and Digital Equity Special Fund by 'Excluding the deployment of broadband infrastructure for the provision of retail service from the authorized uses' (HB934_HD1). This change limits the scope of capital projects the fund can support, focusing instead on broadband adoption and affordability programs.\",\n\"fiscal_implications_after_6_years\": \"Ongoing fiscal obligations will be based on the operating budget for the Hawaii Broadband and Digital Equity Office, which is projected to be $964,815 (HB934_TESTIMONY_ECD_02-05-25_.PDF.txt) by FY 31. The long-term sustainability of the office's functions will depend on future appropriations to the special fund, as testimony from the Department of Budget and Finance questions if the fund can be self-sustaining.\",\n\"updates_from_previous_fiscal_note\": \"The updated bill and testimony introduce several key changes from the previous fiscal note. The fund is now the 'Broadband and Digital Equity Special Fund,' not a revolving fund, and its use is restricted from funding retail broadband infrastructure. Specific appropriations have been changed to 'unspecified amounts,' with the prior $200,000 (HB934_HD1_HSCR329_) figure now a recommendation from the committee. New testimony provides a detailed six-year operating budget request for the office, starting at $777,090 (HB934_TESTIMONY_ECD_02-05-25_.PDF.txt) for FY 26 and rising to $964,815 (HB934_TESTIMONY_ECD_02-05-25_.PDF.txt) by FY 31. Additionally, the office is no longer being renamed, and testimony clarifies that certain statutes related to the Department of Commerce and Consumer Affairs are not being repealed as previously thought.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 14734,
+      "candidates_token_count": 1353,
+      "total_token_count": 19214
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"The purpose of this measure is to transfer the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services and establish the Broadband and Digital Equity Special Fund. Unlike the previous version, the office is not renamed, and testimony indicates certain statutes related to the Department of Commerce and Consumer Affairs are not repealed. The fund is now designated as a Special Fund, not a Revolving Fund.\",\n\"appropriations\": \"The amended bill changes the appropriations to unspecified amounts. Your Committee on Economic Development & Technology respectfully requests your Committee on Finance, should it deliberate on this measure, to consider the appropriation amount of $200,000 (HB934_HD1) to be deposited into and appropriated out of the Broadband and Digital Equity Special Fund. The Department of Business, Economic Development and Tourism asks that the $200,000 (HB934_TESTIMONY_ECD_02-05-25_.PDF.txt) appropriation in the measure be added to the general fund line item as opposed to the special fund.\",\n\"assumptions_and_methodology\": \"Testimony from the Office of Enterprise Technology Services (ETS) provides new data for fiscal projections, noting that the FY 26 operating budget request by the Hawaii Broadband and Digital Equity Office (HBDEO) is $777,090 (HB934_TESTIMONY_ECD_02-05-25_.PDF.txt) for personal services and other expenses. This contrasts with the committee's recommended appropriation of $200,000 (HB934_HD1_HSCR329_). The Department of Budget and Finance notes it is difficult to determine whether the Broadband and Digital Equity Special Fund would be self-sustaining.\",\n\"agency_impact\": \"The Office of Enterprise Technology Services (ETS) would take over the responsibility of running and managing the Hawaiʻi Broadband and Digital Equity Office. ETS testimony seeks clarity on vague or general duties and recommends that the strategic broadband coordinator be hired by the Chief Information Officer rather than the governor. ETS also recommends adding language to allow the special fund to cover 'personnel and other necessary operating expenses to provide technical assistance to the community.'\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure establishes the Broadband and Digital Equity Special Fund, rather than a revolving fund as previously stated. Testimony indicates that, unlike prior versions, this bill does not repeal Section 440G-11.5, Hawaii Revised Statutes, thus not removing the 'facade of DCCA participation'. The amended bill also adds a new restriction, excluding 'the deployment of broadband infrastructure for the provision of retail service from the authorized uses of the Broadband and Digital Equity Special Fund' (HB934_HD1).\",\n\"revenue_sources\": \"The bill establishes the Broadband and Digital Equity Special Fund, and the Department of Budget and Finance questions whether the fund would be financially self-sustaining. As a matter of general policy, the Department of Budget and Finance does not support the creation of any special fund which does not meet the requirements of Section 37-52.3, HRS.\",\n\"six_year_fiscal_implications\": \"While the bill has been amended to include unspecified appropriations, new testimony provides a multi-year fiscal outlook for the Hawaii Broadband and Digital Equity Office (HBDEO). According to the Office of Enterprise Technology Services, the FY 26 operating budget request by the HBDEO is $777,090 (HB934_TESTIMONY_ECD_02-05-25_.PDF.txt) for personal services and other expenses. This requested budget increases to $964,815 (HB934_TESTIMONY_ECD_02-05-25_.PDF.txt) by FY 31. ETS recommends that the special fund needs to fully cover all staff salaries and benefits, program priorities, operational expenses and any additional overhead, for five years until the special fund may become self-sustaining. The committee report requests the Committee on Finance consider an appropriation of $200,000 (HB934_HD1), which is significantly less than the operating budget request.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"The amended measure explicitly restricts the use of the Broadband and Digital Equity Special Fund by 'Excluding the deployment of broadband infrastructure for the provision of retail service from the authorized uses' (HB934_HD1). This change limits the scope of capital projects the fund can support, focusing instead on broadband adoption and affordability programs.\",\n\"fiscal_implications_after_6_years\": \"Ongoing fiscal obligations will be based on the operating budget for the Hawaii Broadband and Digital Equity Office, which is projected to be $964,815 (HB934_TESTIMONY_ECD_02-05-25_.PDF.txt) by FY 31. The long-term sustainability of the office's functions will depend on future appropriations to the special fund, as testimony from the Department of Budget and Finance questions if the fund can be self-sustaining.\",\n\"updates_from_previous_fiscal_note\": \"The updated bill and testimony introduce several key changes from the previous fiscal note. The fund is now the 'Broadband and Digital Equity Special Fund,' not a revolving fund, and its use is restricted from funding retail broadband infrastructure. Specific appropriations have been changed to 'unspecified amounts,' with the prior $200,000 (HB934_HD1_HSCR329_) figure now a recommendation from the committee. New testimony provides a detailed six-year operating budget request for the office, starting at $777,090 (HB934_TESTIMONY_ECD_02-05-25_.PDF.txt) for FY 26 and rising to $964,815 (HB934_TESTIMONY_ECD_02-05-25_.PDF.txt) by FY 31. Additionally, the office is no longer being renamed, and testimony clarifies that certain statutes related to the Department of Commerce and Consumer Affairs are not being repealed as previously thought.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"The purpose of this measure is to transfer the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services and establish the Broadband and Digital Equity Special Fund",
+          "attributed_chunk_id": 19,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.896551724137931,
+          "attribution_reason": "Word frequency match score: 0.897",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Unlike the previous version, the office is not renamed, and testimony indicates certain statutes related to the Department of Commerce and Consumer Affairs are not repealed",
+          "attributed_chunk_id": 19,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.17647058823529413,
+          "attribution_reason": "Word frequency match score: 0.176",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The fund is now designated as a Special Fund, not a Revolving Fund",
+          "attributed_chunk_id": 13,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Word frequency match score: 0.375",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"The amended bill changes the appropriations to unspecified amounts",
+          "attributed_chunk_id": 23,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5714285714285714,
+          "attribution_reason": "Word frequency match score: 0.571",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Your Committee on Economic Development & Technology respectfully requests your Committee on Finance, should it deliberate on this measure, to consider the appropriation amount of $200,000 (HB934_HD1) to be deposited into and appropriated out of the Broadband and Digital Equity Special Fund",
+          "attributed_chunk_id": 25,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.84,
+          "attribution_reason": "Document citation + word frequency: HB934_HD1 (score: 0.840)",
+          "numbers_found": [
+            200000.0
+          ]
+        },
+        {
+          "sentence": "The Department of Business, Economic Development and Tourism asks that the $200,000 (HB934_TESTIMONY_ECD_02-05-25_",
+          "attributed_chunk_id": "NUMBER_200000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Number $200,000 from HB934_TESTIMONY_ECD_02-05-25_.PDF.txt (score: 0.333)",
+          "numbers_found": [
+            200000.0,
+            5.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) appropriation in the measure be added to the general fund line item as opposed to the special fund",
+          "attributed_chunk_id": 13,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8333333333333334,
+          "attribution_reason": "Word frequency match score: 0.833",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"assumptions_and_methodology\": \"Testimony from the Office of Enterprise Technology Services (ETS) provides new data for fiscal projections, noting that the FY 26 operating budget request by the Hawaii Broadband and Digital Equity Office (HBDEO) is $777,090 (HB934_TESTIMONY_ECD_02-05-25_",
+          "attributed_chunk_id": 19,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4583333333333333,
+          "attribution_reason": "Word frequency match score: 0.458",
+          "numbers_found": [
+            777090.0,
+            26.0,
+            5.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for personal services and other expenses",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Word frequency match score: 0.167",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This contrasts with the committee's recommended appropriation of $200,000 (HB934_HD1_HSCR329_)",
+          "attributed_chunk_id": 25,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Document citation + word frequency: HB934_HD1_HSCR329_ (score: 0.600)",
+          "numbers_found": [
+            200000.0
+          ]
+        },
+        {
+          "sentence": "The Department of Budget and Finance notes it is difficult to determine whether the Broadband and Digital Equity Special Fund would be self-sustaining",
+          "attributed_chunk_id": 19,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.42857142857142855,
+          "attribution_reason": "Word frequency match score: 0.429",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"agency_impact\": \"The Office of Enterprise Technology Services (ETS) would take over the responsibility of running and managing the Hawaiʻi Broadband and Digital Equity Office",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5333333333333333,
+          "attribution_reason": "Word frequency match score: 0.533",
+          "numbers_found": []
+        },
+        {
+          "sentence": "ETS testimony seeks clarity on vague or general duties and recommends that the strategic broadband coordinator be hired by the Chief Information Officer rather than the governor",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Word frequency match score: 0.167",
+          "numbers_found": []
+        },
+        {
+          "sentence": "ETS also recommends adding language to allow the special fund to cover 'personnel and other necessary operating expenses to provide technical assistance to the community",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2222222222222222,
+          "attribution_reason": "Word frequency match score: 0.222",
+          "numbers_found": []
+        },
+        {
+          "sentence": "'\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure establishes the Broadband and Digital Equity Special Fund, rather than a revolving fund as previously stated",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Testimony indicates that, unlike prior versions, this bill does not repeal Section 440G-11",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            11.0
+          ]
+        },
+        {
+          "sentence": "5, Hawaii Revised Statutes, thus not removing the 'facade of DCCA participation'",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            5.0
+          ]
+        },
+        {
+          "sentence": "The amended bill also adds a new restriction, excluding 'the deployment of broadband infrastructure for the provision of retail service from the authorized uses of the Broadband and Digital Equity Special Fund' (HB934_HD1)",
+          "attributed_chunk_id": 23,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7619047619047619,
+          "attribution_reason": "Document citation + word frequency: HB934_HD1 (score: 0.762)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"The bill establishes the Broadband and Digital Equity Special Fund, and the Department of Budget and Finance questions whether the fund would be financially self-sustaining",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4117647058823529,
+          "attribution_reason": "Word frequency match score: 0.412",
+          "numbers_found": []
+        },
+        {
+          "sentence": "As a matter of general policy, the Department of Budget and Finance does not support the creation of any special fund which does not meet the requirements of Section 37-52",
+          "attributed_chunk_id": 19,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2631578947368421,
+          "attribution_reason": "Word frequency match score: 0.263",
+          "numbers_found": [
+            52.0,
+            37.0
+          ]
+        },
+        {
+          "sentence": "3, HRS. \",\n\"six_year_fiscal_implications\": \"While the bill has been amended to include unspecified appropriations, new testimony provides a multi-year fiscal outlook for the Hawaii Broadband and Digital Equity Office (HBDEO)",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3,
+          "attribution_reason": "Word frequency match score: 0.300",
+          "numbers_found": [
+            3.0
+          ]
+        },
+        {
+          "sentence": "According to the Office of Enterprise Technology Services, the FY 26 operating budget request by the HBDEO is $777,090 (HB934_TESTIMONY_ECD_02-05-25_",
+          "attributed_chunk_id": "NUMBER_777090",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Number $777,090 from HB934_TESTIMONY_ECD_02-05-25_.PDF.txt (score: 0.500)",
+          "numbers_found": [
+            777090.0,
+            26.0,
+            5.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for personal services and other expenses",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Word frequency match score: 0.167",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This requested budget increases to $964,815 (HB934_TESTIMONY_ECD_02-05-25_",
+          "attributed_chunk_id": "NUMBER_964815",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Number $964,815 from HB934_TESTIMONY_ECD_02-05-25_.PDF.txt (score: 0.500)",
+          "numbers_found": [
+            5.0,
+            964815.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) by FY 31",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "ETS recommends that the special fund needs to fully cover all staff salaries and benefits, program priorities, operational expenses and any additional overhead, for five years until the special fund may become self-sustaining",
+          "attributed_chunk_id": 23,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.15384615384615385,
+          "attribution_reason": "Word frequency match score: 0.154",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The committee report requests the Committee on Finance consider an appropriation of $200,000 (HB934_HD1), which is significantly less than the operating budget request",
+          "attributed_chunk_id": 24,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.26666666666666666,
+          "attribution_reason": "Document citation + word frequency: HB934_HD1 (score: 0.267)",
+          "numbers_found": [
+            200000.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"The amended measure explicitly restricts the use of the Broadband and Digital Equity Special Fund by 'Excluding the deployment of broadband infrastructure for the provision of retail service from the authorized uses' (HB934_HD1)",
+          "attributed_chunk_id": 23,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7727272727272727,
+          "attribution_reason": "Document citation + word frequency: HB934_HD1 (score: 0.773)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This change limits the scope of capital projects the fund can support, focusing instead on broadband adoption and affordability programs",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Word frequency match score: 0.143",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"fiscal_implications_after_6_years\": \"Ongoing fiscal obligations will be based on the operating budget for the Hawaii Broadband and Digital Equity Office, which is projected to be $964,815 (HB934_TESTIMONY_ECD_02-05-25_",
+          "attributed_chunk_id": "NUMBER_964815",
+          "attribution_method": "number_based",
+          "attribution_score": 0.29411764705882354,
+          "attribution_reason": "Number $964,815 from HB934_TESTIMONY_ECD_02-05-25_.PDF.txt (score: 0.294)",
+          "numbers_found": [
+            5.0,
+            964815.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) by FY 31",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "The long-term sustainability of the office's functions will depend on future appropriations to the special fund, as testimony from the Department of Budget and Finance questions if the fund can be self-sustaining",
+          "attributed_chunk_id": 19,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3,
+          "attribution_reason": "Word frequency match score: 0.300",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"The updated bill and testimony introduce several key changes from the previous fiscal note",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Word frequency match score: 0.167",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The fund is now the 'Broadband and Digital Equity Special Fund,' not a revolving fund, and its use is restricted from funding retail broadband infrastructure",
+          "attributed_chunk_id": 23,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Specific appropriations have been changed to 'unspecified amounts,' with the prior $200,000 (HB934_HD1_HSCR329_) figure now a recommendation from the committee",
+          "attributed_chunk_id": 23,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Document citation + word frequency: HB934_HD1_HSCR329_ (score: 0.333)",
+          "numbers_found": [
+            200000.0
+          ]
+        },
+        {
+          "sentence": "New testimony provides a detailed six-year operating budget request for the office, starting at $777,090 (HB934_TESTIMONY_ECD_02-05-25_",
+          "attributed_chunk_id": "NUMBER_777090",
+          "attribution_method": "number_based",
+          "attribution_score": 0.35714285714285715,
+          "attribution_reason": "Number $777,090 from HB934_TESTIMONY_ECD_02-05-25_.PDF.txt (score: 0.357)",
+          "numbers_found": [
+            777090.0,
+            5.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for FY 26 and rising to $964,815 (HB934_TESTIMONY_ECD_02-05-25_",
+          "attributed_chunk_id": "NUMBER_964815",
+          "attribution_method": "number_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Number $964,815 from HB934_TESTIMONY_ECD_02-05-25_.PDF.txt (score: 0.167)",
+          "numbers_found": [
+            26.0,
+            5.0,
+            964815.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) by FY 31",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            31.0
+          ]
+        },
+        {
+          "sentence": "Additionally, the office is no longer being renamed, and testimony clarifies that certain statutes related to the Department of Commerce and Consumer Affairs are not being repealed as previously thought",
+          "attributed_chunk_id": 19,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.15789473684210525,
+          "attribution_reason": "Word frequency match score: 0.158",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 5,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 2,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.300",
+            "Word frequency match score: 0.167"
+          ]
+        },
+        "2": {
+          "usage_count": 6,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.167",
+            "Word frequency match score: 0.533",
+            "Word frequency match score: 0.167",
+            "Word frequency match score: 0.400",
+            "Word frequency match score: 0.412",
+            "Word frequency match score: 0.167"
+          ]
+        },
+        "3": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": []
+        },
+        "4": {
+          "usage_count": 1,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.143"
+          ]
+        },
+        "5": {
+          "usage_count": 1,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.222"
+          ]
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 2,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.375",
+            "Word frequency match score: 0.833"
+          ]
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 7,
+          "document_name": "HB934_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.897",
+            "Word frequency match score: 0.176",
+            "Word frequency match score: 0.458",
+            "Word frequency match score: 0.429",
+            "Word frequency match score: 0.263",
+            "Word frequency match score: 0.300",
+            "Word frequency match score: 0.158"
+          ]
+        },
+        "20": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1",
+          "attribution_reasons": []
+        },
+        "21": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1",
+          "attribution_reasons": []
+        },
+        "22": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1",
+          "attribution_reasons": []
+        },
+        "23": {
+          "usage_count": 6,
+          "document_name": "HB934_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.571",
+            "Document citation + word frequency: HB934_HD1 (score: 0.762)",
+            "Word frequency match score: 0.154",
+            "Document citation + word frequency: HB934_HD1 (score: 0.773)",
+            "Word frequency match score: 0.500",
+            "Document citation + word frequency: HB934_HD1_HSCR329_ (score: 0.333)"
+          ]
+        },
+        "24": {
+          "usage_count": 1,
+          "document_name": "HB934_HD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB934_HD1 (score: 0.267)"
+          ]
+        },
+        "25": {
+          "usage_count": 2,
+          "document_name": "HB934_HD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB934_HD1 (score: 0.840)",
+            "Document citation + word frequency: HB934_HD1_HSCR329_ (score: 0.600)"
+          ]
+        },
+        "26": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1",
+          "attribution_reasons": []
+        },
+        "27": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1",
+          "attribution_reasons": []
+        },
+        "28": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR329_",
+          "attribution_reasons": []
+        },
+        "29": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR329_",
+          "attribution_reasons": []
+        },
+        "30": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR329_",
+          "attribution_reasons": []
+        },
+        "31": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR329_",
+          "attribution_reasons": []
+        },
+        "32": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR329_",
+          "attribution_reasons": []
+        },
+        "33": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR329_",
+          "attribution_reasons": []
+        },
+        "34": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR329_",
+          "attribution_reasons": []
+        },
+        "35": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR329_",
+          "attribution_reasons": []
+        },
+        "36": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR329_",
+          "attribution_reasons": []
+        },
+        "37": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR329_",
+          "attribution_reasons": []
+        },
+        "38": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_HSCR329_",
+          "attribution_reasons": []
+        },
+        "NUMBER_400.0": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_200000.0": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_777090.0": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_964815.0": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_200.0": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_96.0": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_15.0": {
+          "usage_count": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_200000": {
+          "usage_count": 1,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $200,000 from HB934_TESTIMONY_ECD_02-05-25_.PDF.txt (score: 0.333)"
+          ]
+        },
+        "NUMBER_777090": {
+          "usage_count": 2,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $777,090 from HB934_TESTIMONY_ECD_02-05-25_.PDF.txt (score: 0.500)",
+            "Number $777,090 from HB934_TESTIMONY_ECD_02-05-25_.PDF.txt (score: 0.357)"
+          ]
+        },
+        "NUMBER_964815": {
+          "usage_count": 3,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $964,815 from HB934_TESTIMONY_ECD_02-05-25_.PDF.txt (score: 0.500)",
+            "Number $964,815 from HB934_TESTIMONY_ECD_02-05-25_.PDF.txt (score: 0.294)",
+            "Number $964,815 from HB934_TESTIMONY_ECD_02-05-25_.PDF.txt (score: 0.167)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 6,
+        "number_based": 6,
+        "word_frequency_based": 22,
+        "semantic_similarity": 0,
+        "fallback": 5,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 39,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "SYLVIA LUKE L I E U T E N A N T G O V E R N O R Ke Keʻena O Ka Hope Kiaʻāina The 33rd Legislature, State of Hawaii House Committee on Economic Development and Technology February 5, 2025 Testimony on H.B. 934 - RELATING TO THE",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "5, 2025 Testimony on H.B. 934 - RELATING TO THE HAWAII BROADBAND AND DIGITAL EQUITY OFFICE Chair Ilagan, Vice-Chair Hussey, and Members of the Committees: Thank you for the opportunity to provide testimony in support of H.B. 934 which transfers the Hawaii Broadband and Digital Equity Office (HBDEO) from the",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "the Hawaii Broadband and Digital Equity Office (HBDEO) from the Department of Business, Economic Development, and Tourism (DBEDT) to the Office of Enterprise Technology Services (ETS) in the Department of Accounting and General Services, establishes the Hawaii Broadband and Digital Equity Special Fund, and appropriates additional funding. Reliable, affordable high",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "Equity Special Fund, and appropriates additional funding. Reliable, affordable high speed internet access is essential for ensuring greater educational, economic, and social opportunities for all. The federal and state governments have committed over $400 million to modernize our subsea and terrestrial infrastructure and equip residents with the tools and knowledge",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "terrestrial infrastructure and equip residents with the tools and knowledge to safely navigate the internet. With the construction of new subsea broadband infrastructure, our state anticipates generating revenue from negotiated lease agreements and the creation of a special fund will ensure these funds are used to reduce the cost of",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "ensure these funds are used to reduce the cost of internet services, provide technical assistance to communities, and support broadband projects. Given the increasingly vital role of broadband in our daily lives, the transfer of HBDEO from DBEDT to ETS provides an opportunity to consolidate and centralize broadband responsibilities currently",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "provides an opportunity to consolidate and centralize broadband responsibilities currently dispersed across state government, including those of the Hawaii Broadband Assistance Advisory Council and other reporting requirements. Our office will work closely with the relevant departments to compile all broadband functions for the Legislature’s consideration. Thank you for the opportunity",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "functions for the Legislature’s consideration. Thank you for the opportunity to provide testimony in support of H.B. 934. JOSH GREEN, M.D. GOVERNOR SYLVIA LUKE LT. GOVERNOR JAMES KUNANE TOKIOKA DIRECTOR DANE K. WICKER DEPUTY DIRECTOR DEPARTMENT OF BUSINESS, ECONOMIC DEVELOPMENT & TOURISM KA ʻOIHANA HOʻOMOHALA PĀʻOIHANA, ʻIMI WAIWAI A HOʻOMĀKAʻIKAʻI",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "& TOURISM KA ʻOIHANA HOʻOMOHALA PĀʻOIHANA, ʻIMI WAIWAI A HOʻOMĀKAʻIKAʻI No. 1 Capitol District Building, 250 South Hotel Street, 5th Floor, Honolulu, Hawaii 96813 Telephone: (808) 586-2355 Mailing Address: P.O. Box 2359, Honolulu, Hawaii 96804 Fax: (808) 586-2377 Web site: dbedt.hawaii.gov Statement of JAMES KUNANE TOKIOKA Director Department of Business,",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "dbedt.hawaii.gov Statement of JAMES KUNANE TOKIOKA Director Department of Business, Economic Development, and Tourism before the HOUSE COMMITTEE ON ECONOMIC DEVELOPMENT & TECHNOLOGY Wednesday, February 5, 2025 Time 10:00AM State Capitol, Conference Room #423 In consideration of HB934 RELATING TO THE HAWAII BROADBAND AND DIGITAL EQUITY OFFICE. Chair Ilagan, Vice",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "THE HAWAII BROADBAND AND DIGITAL EQUITY OFFICE. Chair Ilagan, Vice Chair Hussey and members of the Committee. The Department of Business, Economic Development and Tourism (DBEDT) provides the following comments on HB934 that transfers the Hawaii Broadband and Digital Equity Office (HBDEO) to the Office of Enterprise Technology Services in",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "Office (HBDEO) to the Office of Enterprise Technology Services in the Department of Accounting and General Services. HBDEO has provided steady leadership in state broadband and digital equity. I am confident that regardless of where the Office resides in state government, the Office will continue to provide the necessary leadership",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "government, the Office will continue to provide the necessary leadership and accountability in carrying out its statutory responsibilities and in deployment and management of federal funds. DBEDT will continue to collaborate with the Office as it is an important piece to the future of digital workforce and economic development. We",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "to the future of digital workforce and economic development. We ask that the $200,000 appropriation in the measure be added to the general fund line item as opposed to the special fund as the funds are necessary for standard operations and to support the processing of contract invoices. Thank you",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "and to support the processing of contract invoices. Thank you for the opportunity to testify. STATE OF HAWAI῾I KA MOKU‘ĀINA O HAWAI‘I STATE COUNCIL ON DEVELOPMENTAL DISABILITIES 'A'UNIKE MOKU'ĀPUNI NO KA NĀ KĀWAI KULA PRINCESS VICTORIA KAMĀMALU BUILDING 1010 RICHARDS STREET, Room 122 HONOLULU, HAWAI῾I 96813 TELEPHONE: (808) 586-8100 FAX:",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "STREET, Room 122 HONOLULU, HAWAI῾I 96813 TELEPHONE: (808) 586-8100 FAX: (808) 586-7543 February 5, 2025 The Honorable Representative Greggor Ilagan, Chair House Economic Development and Technology The Thirty-Third Legislature State Capitol State of Hawai῾i Honolulu, Hawai'i 96813 Dear Representative Ilagan, and Committee Members: SUBJECT: HB934 Relating to the Hawai’i Broadband",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB934_TESTIMONY_ECD_02-05-25_",
+          "chunk_text": "and Committee Members: SUBJECT: HB934 Relating to the Hawai’i Broadband and Digital Equity Office The Hawai῾i State Council on Developmental Disabilities SUPPORTS HB934, transfers the Hawaiʻi Broadband and Digital Equity Office from the Department of Bu",
+          "start_word": 640,
+          "end_word": 676,
+          "word_count": 36
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB934_HD1",
+          "chunk_text": "HSCR329 STAND. COM. REP. NO. 329 Honolulu, Hawaii , 2025 RE: H.B. No. 934 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Economic Development & Technology, to which was referred H.B. No. 934 entitled:",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB934_HD1",
+          "chunk_text": "& Technology, to which was referred H.B. No. 934 entitled: \"A BILL FOR AN ACT RELATING TO THE HAWAII BROADBAND AND DIGITAL EQUITY OFFICE,\" begs leave to report as follows: The purpose of this measure is to: (1) Transfer the Hawaii Broadband and Digital Equity Office from the Department of",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB934_HD1",
+          "chunk_text": "Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services; and (2) Establish the Broadband and Digital Equity Special Fund . Your Committee received testimony in support of this measure",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB934_HD1",
+          "chunk_text": ". Your Committee received testimony in support of this measure from the Office of the Lieutenant Governor; Hawai ʻ i State Council on Developmental Disabilities; University of Hawai ʻ i System; and one individual. Your Committee received comments on this measure from the Department of Business, Economic Development, and Tourism;",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB934_HD1",
+          "chunk_text": "measure from the Department of Business, Economic Development, and Tourism; Department of Budget and Finance; Office of Enterprise Technology Services; and Charter Communications. Your Committee finds that reliable, affordable high speed internet access is essential for ensuring greater educational, economic, and social opportunities for all. This measure addresses this need",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB934_HD1",
+          "chunk_text": "and social opportunities for all. This measure addresses this need by transferring the Hawaii Broadband and Digital Equity Office to the Office of Enterprise Technology Services to consolidate and centralize broadband responsibilities currently dispersed across state agencies and establishing the Broadband and Digital Equity Special Fund. Your Committee has amended",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB934_HD1",
+          "chunk_text": "Broadband and Digital Equity Special Fund. Your Committee has amended this measure by: (1) Excluding the deployment of broadband infrastructure for the provision of retail service from the authorized uses of the Broadband and Digital Equity Special Fund ; (2) Changing the appropriations to unspecified amounts; (3) Changing the effective",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB934_HD1",
+          "chunk_text": "Changing the appropriations to unspecified amounts; (3) Changing the effective date to July 1, 3000, to encourage further discussion; and (4) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. Your Committee respectfully requests your Committee on Finance, should it deliberate on this measure, to consider the",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB934_HD1",
+          "chunk_text": "Finance, should it deliberate on this measure, to consider the appropriation amount of $200,000 to be deposited into and appropriated out of the Broadband and Digital Equity Special Fund. As affirmed by the record of votes of the members of your Committee on Economic Development & Technology that is attached",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB934_HD1",
+          "chunk_text": "your Committee on Economic Development & Technology that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 934, as amended herein, and recommends that it pass Second Reading in the form attached hereto as H.B. No. 934, H.D. 1, and be",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB934_HD1",
+          "chunk_text": "attached hereto as H.B. No. 934, H.D. 1, and be referred to your Committee on Finance. Respectfully submitted on behalf of the members of the Committee on Economic Development & Technology, ____________________________ GREGGOR ILAGAN, Chair",
+          "start_word": 400,
+          "end_word": 435,
+          "word_count": 35
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB934_HD1_HSCR329_",
+          "chunk_text": "HSCR329 STAND. COM. REP. NO. 329 Honolulu, Hawaii , 2025 RE: H.B. No. 934 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Economic Development & Technology, to which was referred H.B. No. 934 entitled:",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB934_HD1_HSCR329_",
+          "chunk_text": "& Technology, to which was referred H.B. No. 934 entitled: \"A BILL FOR AN ACT RELATING TO THE HAWAII BROADBAND AND DIGITAL EQUITY OFFICE,\" begs leave to report as follows: The purpose of this measure is to: (1) Transfer the Hawaii Broadband and Digital Equity Office from the Department of",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 30,
+          "document_name": "HB934_HD1_HSCR329_",
+          "chunk_text": "Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services; and (2) Establish the Broadband and Digital Equity Special Fund . Your Committee received testimony in support of this measure",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 31,
+          "document_name": "HB934_HD1_HSCR329_",
+          "chunk_text": ". Your Committee received testimony in support of this measure from the Office of the Lieutenant Governor; Hawai ʻ i State Council on Developmental Disabilities; University of Hawai ʻ i System; and one individual. Your Committee received comments on this measure from the Department of Business, Economic Development, and Tourism;",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 32,
+          "document_name": "HB934_HD1_HSCR329_",
+          "chunk_text": "measure from the Department of Business, Economic Development, and Tourism; Department of Budget and Finance; Office of Enterprise Technology Services; and Charter Communications. Your Committee finds that reliable, affordable high speed internet access is essential for ensuring greater educational, economic, and social opportunities for all. This measure addresses this need",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 33,
+          "document_name": "HB934_HD1_HSCR329_",
+          "chunk_text": "and social opportunities for all. This measure addresses this need by transferring the Hawaii Broadband and Digital Equity Office to the Office of Enterprise Technology Services to consolidate and centralize broadband responsibilities currently dispersed across state agencies and establishing the Broadband and Digital Equity Special Fund. Your Committee has amended",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 34,
+          "document_name": "HB934_HD1_HSCR329_",
+          "chunk_text": "Broadband and Digital Equity Special Fund. Your Committee has amended this measure by: (1) Excluding the deployment of broadband infrastructure for the provision of retail service from the authorized uses of the Broadband and Digital Equity Special Fund ; (2) Changing the appropriations to unspecified amounts; (3) Changing the effective",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 35,
+          "document_name": "HB934_HD1_HSCR329_",
+          "chunk_text": "Changing the appropriations to unspecified amounts; (3) Changing the effective date to July 1, 3000, to encourage further discussion; and (4) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. Your Committee respectfully requests your Committee on Finance, should it deliberate on this measure, to consider the",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 36,
+          "document_name": "HB934_HD1_HSCR329_",
+          "chunk_text": "Finance, should it deliberate on this measure, to consider the appropriation amount of $200,000 to be deposited into and appropriated out of the Broadband and Digital Equity Special Fund. As affirmed by the record of votes of the members of your Committee on Economic Development & Technology that is attached",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 37,
+          "document_name": "HB934_HD1_HSCR329_",
+          "chunk_text": "your Committee on Economic Development & Technology that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 934, as amended herein, and recommends that it pass Second Reading in the form attached hereto as H.B. No. 934, H.D. 1, and be",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 38,
+          "document_name": "HB934_HD1_HSCR329_",
+          "chunk_text": "attached hereto as H.B. No. 934, H.D. 1, and be referred to your Committee on Finance. Respectfully submitted on behalf of the members of the Committee on Economic Development & Technology, ____________________________ GREGGOR ILAGAN, Chair",
+          "start_word": 400,
+          "end_word": 435,
+          "word_count": 35
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "Technology Services (ETS) in the Department of Accounting and General Services, establishes the Hawaii Broadband and Digital Equity Special Fund, and appropriates additional funding. Reliable, affordable high speed internet access is essential for ensuring greater educational, economic, and social opportunities for all. The federal and state governments have committed over $400 million to modernize our subsea and terrestrial infrastructure and equip residents with the tools and knowledge to safely navigate the internet. With the construction of new subsea broadband infrastructure, our state anticipates generating revenue from negotiated lease agreements and the creation of a special fund will ensure these funds are",
+        "number": 400.0,
+        "filename": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "will continue to provide the necessary leadership and accountability in carrying out its statutory responsibilities and in deployment and management of federal funds. DBEDT will continue to collaborate with the Office as it is an important piece to the future of digital workforce and economic development. We ask that the $200,000 appropriation in the measure be added to the general fund line item as opposed to the special fund as the funds are necessary for standard operations and to support the processing of contract invoices. Thank you for the opportunity to testify. STATE OF HAWAI῾I KA MOKU‘ĀINA O HAWAI‘I STATE COUNCIL",
+        "number": 200000.0,
+        "filename": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "in the Department of Accounting and General Services; 2) establishes the Broadband and Digital Equity Special Fund (BDESF) to be administered by HBDEO for the purposes of supporting broadband projects, defraying the cost of internet services, and funding positions for personnel to provide technical assistance for the community; 3) appropriates $200,000 in general funds for FY 26 to be deposited into the BDESF; and 4) appropriates $200,000 in special fund ceiling for the BDESF for FY 26. As a matter of general policy, B&F does not support the creation of any special fund, which does not meet the requirements of Section",
+        "number": 200000.0,
+        "filename": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Fund (BDESF) to be administered by HBDEO for the purposes of supporting broadband projects, defraying the cost of internet services, and funding positions for personnel to provide technical assistance for the community; 3) appropriates $200,000 in general funds for FY 26 to be deposited into the BDESF; and 4) appropriates $200,000 in special fund ceiling for the BDESF for FY 26. As a matter of general policy, B&F does not support the creation of any special fund, which does not meet the requirements of Section 37-52.3, HRS. Special funds should: 1) serve a need as demonstrated by the purpose, scope of",
+        "number": 200000.0,
+        "filename": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "recommends changing language to “subject to input by the information technology steering committee.” This change would be consistent with HRS 27.43 enabling the information technology steering committee to assist the chief information officer in developing the State’s information technology standards and policies. On page 6, SECTION 3, the bill appropriates $200,000 for fiscal year 2025-2026 to support the special fund however, the FY 26 operating budget request by the HBDEO is $777,090 for personal services and other expenses, which increases to $964,815 by FY 31. ETS recommends that, in order for the program to be successful with the responsibilities outlined in",
+        "number": 200000.0,
+        "filename": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "enabling the information technology steering committee to assist the chief information officer in developing the State’s information technology standards and policies. On page 6, SECTION 3, the bill appropriates $200,000 for fiscal year 2025-2026 to support the special fund however, the FY 26 operating budget request by the HBDEO is $777,090 for personal services and other expenses, which increases to $964,815 by FY 31. ETS recommends that, in order for the program to be successful with the responsibilities outlined in the bill, the special fund needs to fully cover all staff salaries and benefits, program priorities, operational expenses and any additional",
+        "number": 777090.0,
+        "filename": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "information officer in developing the State’s information technology standards and policies. On page 6, SECTION 3, the bill appropriates $200,000 for fiscal year 2025-2026 to support the special fund however, the FY 26 operating budget request by the HBDEO is $777,090 for personal services and other expenses, which increases to $964,815 by FY 31. ETS recommends that, in order for the program to be successful with the responsibilities outlined in the bill, the special fund needs to fully cover all staff salaries and benefits, program priorities, operational expenses and any additional overhead, for five years until the special fund may become",
+        "number": 964815.0,
+        "filename": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "navigators and literacy tools, affordability programs, and access to hardware. Charter believes that every Hawaii resident should have reliable access to the Internet. We will continue to help bring the benefits of broadband and access to the internet to those who need it most. Hawaii is slated to receive over $200 million in federal grants for broadband infrastructure in the immediate future (via the Broadband, Equity, Access, and Deployment Program), in addition to private investments already being made by the industry. The Broadband and Digital Equity Special Fund 2 should prioritize funding projects related to broadband adoption and affordability programs, rather",
+        "number": 200.0,
+        "filename": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Specifically, we suggest the following amendments: • Page 6, Line 9, insert the following new language: (1) Supporting broadband projects, excluding the deployment of broadband infrastructure for the provision of retail service; In 2023, Charter extended its network to reach an additional 9,000 homes and small businesses in Hawaii, investing $96 million across the state. Charter participated in the FCC’s Emergency Broadband Benefit Program (EBB) and Affordable Connectivity Program (ACP), which helped connect over 59,000 eligible households in Hawaii with high-speed broadband. Broadband internet access is more important than ever and Charter offers a variety of affordable high-speed internet packages to",
+        "number": 96.0,
+        "filename": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "households in Hawaii with high-speed broadband. Broadband internet access is more important than ever and Charter offers a variety of affordable high-speed internet packages to meet all the connectivity and budget needs of our customers. With Spectrum Internet Assist, qualifying low-income families and seniors can receive high-speed internet for only $15 per month. Mahalo for the opportunity to provide proposed amendments to H.B. 934. Testimony of Sean McLaughlin​ ​ ​ ​ ​ ​ Hawaii' House Committee on Economic Development & Technology Wednesday February 5, 2025 at 10:00am Supporting HB934 - \"Relating to the Hawaii Broadband Digital Equity Office\" Thank you for",
+        "number": 15.0,
+        "filename": "HB934_TESTIMONY_ECD_02-05-25_.PDF.txt",
+        "document_type": "testimony"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:52:37.682609",
+  "generation_timestamp_unix": 1760147557.6826189
+}

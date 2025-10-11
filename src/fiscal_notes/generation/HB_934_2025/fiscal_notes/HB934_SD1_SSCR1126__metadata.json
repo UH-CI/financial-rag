@@ -1,0 +1,1486 @@
+{
+  "document_name": "HB934_SD1_SSCR1126_",
+  "new_documents_processed": [
+    "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+    "HB934_SD1",
+    "HB934_SD1_SSCR1126_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB934",
+    "HB934_TESTIMONY_ECD_02-05-25_",
+    "HB934_HD1",
+    "HB934_HD1_HSCR329_",
+    "HB934_HD1_TESTIMONY_FIN_02-24-25_",
+    "HB934_HD1_HSCR987_",
+    "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+    "HB934_SD1",
+    "HB934_SD1_SSCR1126_"
+  ],
+  "numbers_used": 12,
+  "prompt_length": 77981,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"This measure transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services. As amended, the bill renames the office to the \\\"Broadband Office,\\\" changes the proposed \\\"Broadband and Digital Equity Special Fund\\\" to the \\\"Broadband Revolving Fund,\\\" and repeals the Broadband Assistance Advisory Council. The bill appropriates funds for the new revolving fund and for the reimbursement of contracts.\",\n\"appropriations\": \"The legislative document appropriates out of the general revenues of the State of Hawaii the sum of $200,000 (HB934_SD1_.HTM.txt) for fiscal year 2025-2026 to be deposited into the broadband revolving fund. A second appropriation out of the broadband revolving fund for $200,000 (HB934_SD1_.HTM.txt) is made for fiscal year 2025-2026 for the reimbursement of contracts executed by the broadband office. The bill also inserts a blank appropriation amount to establish a blank number of digital navigator positions.\",\n\"assumptions_and_methodology\": \"The appropriation is based on testimony from the Lieutenant Governor which proposes a \\\"one-time appropriation of $200,000 (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt) into the newly created broadband revolving fund.\\\" The methodology is for this appropriation to serve as seed money for a revolving fund, enabling \\\"timely reimbursement to non-profit organizations while the Broadband Office draws down on federal funding.\\\" A key assumption is that \\\"The intent is to return the full amount back to the General Fund in 5 years (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt).\\\"\",\n\"agency_impact\": \"The Department of Commerce and Consumer Affairs (DCCA) supports the bill and requests amendments to consolidate the state’s broadband functions into the HBDEO through the repeal of HRS Section 440G-11.5 and Act 199. DCCA states that consolidating duties under one state agency would \\\"conserve taxpayer resources\\\" and \\\"reduce confusion by having one state office in which the public can be referred to.\\\" The Office of Enterprise Technology Services notes that the HBDEO had previously requested $777,090 (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt) for FY 26 and asks that this funding be included in the bill.\",\n\"economic_impact\": \"Testimony from Hawaiian Telcom states the state's share of BEAD funding is $149.5M plus $46M in state matching funds to increase broadband infrastructure. Charter Communications states that in 2023, it invested $96 (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt) million across the state. Testimony from the Lieutenant Governor states that federal and state governments have committed over $400 (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt) million to modernize infrastructure.\",\n\"policy_impact\": \"This measure has been amended to enact significant policy consolidation as suggested in testimony. The bill now repeals the broadband duties assigned to the Director of the Department of Commerce and Consumer Affairs and disbands the Hawaii Broadband Assistance Advisory Council. The committee report notes concerns from stakeholders \\\"regarding the exclusion of broadband infrastructure for retail services under the State's digital equity goals\\\" but retains the restrictive language in the bill.\",\n\"revenue_sources\": \"The bill codifies revenue sources for the new broadband revolving fund that were previously only suggested in testimony. The legislative document specifies the fund shall be deposited with the \\\"(1) Proceeds of leases of broadband infrastructure owned by the State; (2) Appropriations by the legislature to the revolving fund; and (3) Gifts, donations, and grants from public agencies and private persons (HB934_SD1_.HTM.txt).\\\" Testimony from the Lieutenant Governor anticipates the state will generate \\\"revenue from negotiated lease agreements (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt)\\\" from new subsea broadband infrastructure.\",\n\"six_year_fiscal_implications\": \"The legislative document appropriates $200,000 (HB934_SD1_.HTM.txt) from general revenues into the new broadband revolving fund for FY 2025-2026. From that fund, $200,000 (HB934_SD1_.HTM.txt) is appropriated in the same fiscal year for contract reimbursements. According to testimony from the Lieutenant Governor, the intent is for this to be a one-time infusion, as the state intends \\\"to return the full amount back to the General Fund in 5 years (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt).\\\" This differs from the needs expressed by the Office of Enterprise Technology Services (ETS). ETS testimony states the HBDEO had requested \\\"$777,090 (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt) for FY 26 with $452,302 (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt) for personal services, and $324,788 (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt) for other expenses.\\\" ETS believes these figures provide for a sound budget and requests the funding be included. The bill also contains a blank appropriation for an unspecified number of digital navigator positions, which could represent future recurring costs.\",\n\"operating_revenue_impact\": \"The bill formalizes a positive impact on operating revenue by establishing the broadband revolving fund. The legislative document states this fund shall receive the \\\"Proceeds of leases of broadband infrastructure owned by the State (HB934_SD1_.HTM.txt).\\\" Testimony from the Lieutenant Governor anticipates that \\\"with the construction of new subsea broadband infrastructure, our state anticipates generating revenue from negotiated lease agreements (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt).\\\"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"The long-term fiscal implications have been clarified by testimony indicating the initial general fund appropriation is intended as a loan to the revolving fund. Testimony from the Lieutenant Governor states, \\\"The intent is to return the full amount back to the General Fund in 5 years (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt).\\\" Therefore, after the initial period, the ongoing fiscal obligations for the office's projects will depend on the revolving fund's ability to be self-sustaining through lease proceeds, grants, and other non-general fund sources.\",\n\"updates_from_previous_fiscal_note\": \"The appropriation is no longer unspecified; the bill now appropriates a specific $200,000 (HB934_SD1_.HTM.txt) for FY 2025-2026, intended as a loan to be repaid in 5 years. The proposed special fund has been changed to a \\\"Broadband Revolving Fund,\\\" and significant policy changes now consolidate state broadband duties by repealing the Broadband Assistance Advisory Council and transferring functions from the Department of Commerce and Consumer Affairs. The committee report now formally acknowledges stakeholder concerns regarding the \\\"retail service\\\" restriction, and the bill codifies revenue streams from infrastructure leases into the new revolving fund.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 25459,
+      "candidates_token_count": 1744,
+      "total_token_count": 29539
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"This measure transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services. As amended, the bill renames the office to the \\\"Broadband Office,\\\" changes the proposed \\\"Broadband and Digital Equity Special Fund\\\" to the \\\"Broadband Revolving Fund,\\\" and repeals the Broadband Assistance Advisory Council. The bill appropriates funds for the new revolving fund and for the reimbursement of contracts.\",\n\"appropriations\": \"The legislative document appropriates out of the general revenues of the State of Hawaii the sum of $200,000 (HB934_SD1_.HTM.txt) for fiscal year 2025-2026 to be deposited into the broadband revolving fund. A second appropriation out of the broadband revolving fund for $200,000 (HB934_SD1_.HTM.txt) is made for fiscal year 2025-2026 for the reimbursement of contracts executed by the broadband office. The bill also inserts a blank appropriation amount to establish a blank number of digital navigator positions.\",\n\"assumptions_and_methodology\": \"The appropriation is based on testimony from the Lieutenant Governor which proposes a \\\"one-time appropriation of $200,000 (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt) into the newly created broadband revolving fund.\\\" The methodology is for this appropriation to serve as seed money for a revolving fund, enabling \\\"timely reimbursement to non-profit organizations while the Broadband Office draws down on federal funding.\\\" A key assumption is that \\\"The intent is to return the full amount back to the General Fund in 5 years (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt).\\\"\",\n\"agency_impact\": \"The Department of Commerce and Consumer Affairs (DCCA) supports the bill and requests amendments to consolidate the state’s broadband functions into the HBDEO through the repeal of HRS Section 440G-11.5 and Act 199. DCCA states that consolidating duties under one state agency would \\\"conserve taxpayer resources\\\" and \\\"reduce confusion by having one state office in which the public can be referred to.\\\" The Office of Enterprise Technology Services notes that the HBDEO had previously requested $777,090 (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt) for FY 26 and asks that this funding be included in the bill.\",\n\"economic_impact\": \"Testimony from Hawaiian Telcom states the state's share of BEAD funding is $149.5M plus $46M in state matching funds to increase broadband infrastructure. Charter Communications states that in 2023, it invested $96 (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt) million across the state. Testimony from the Lieutenant Governor states that federal and state governments have committed over $400 (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt) million to modernize infrastructure.\",\n\"policy_impact\": \"This measure has been amended to enact significant policy consolidation as suggested in testimony. The bill now repeals the broadband duties assigned to the Director of the Department of Commerce and Consumer Affairs and disbands the Hawaii Broadband Assistance Advisory Council. The committee report notes concerns from stakeholders \\\"regarding the exclusion of broadband infrastructure for retail services under the State's digital equity goals\\\" but retains the restrictive language in the bill.\",\n\"revenue_sources\": \"The bill codifies revenue sources for the new broadband revolving fund that were previously only suggested in testimony. The legislative document specifies the fund shall be deposited with the \\\"(1) Proceeds of leases of broadband infrastructure owned by the State; (2) Appropriations by the legislature to the revolving fund; and (3) Gifts, donations, and grants from public agencies and private persons (HB934_SD1_.HTM.txt).\\\" Testimony from the Lieutenant Governor anticipates the state will generate \\\"revenue from negotiated lease agreements (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt)\\\" from new subsea broadband infrastructure.\",\n\"six_year_fiscal_implications\": \"The legislative document appropriates $200,000 (HB934_SD1_.HTM.txt) from general revenues into the new broadband revolving fund for FY 2025-2026. From that fund, $200,000 (HB934_SD1_.HTM.txt) is appropriated in the same fiscal year for contract reimbursements. According to testimony from the Lieutenant Governor, the intent is for this to be a one-time infusion, as the state intends \\\"to return the full amount back to the General Fund in 5 years (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt).\\\" This differs from the needs expressed by the Office of Enterprise Technology Services (ETS). ETS testimony states the HBDEO had requested \\\"$777,090 (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt) for FY 26 with $452,302 (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt) for personal services, and $324,788 (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt) for other expenses.\\\" ETS believes these figures provide for a sound budget and requests the funding be included. The bill also contains a blank appropriation for an unspecified number of digital navigator positions, which could represent future recurring costs.\",\n\"operating_revenue_impact\": \"The bill formalizes a positive impact on operating revenue by establishing the broadband revolving fund. The legislative document states this fund shall receive the \\\"Proceeds of leases of broadband infrastructure owned by the State (HB934_SD1_.HTM.txt).\\\" Testimony from the Lieutenant Governor anticipates that \\\"with the construction of new subsea broadband infrastructure, our state anticipates generating revenue from negotiated lease agreements (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt).\\\"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"The long-term fiscal implications have been clarified by testimony indicating the initial general fund appropriation is intended as a loan to the revolving fund. Testimony from the Lieutenant Governor states, \\\"The intent is to return the full amount back to the General Fund in 5 years (HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt).\\\" Therefore, after the initial period, the ongoing fiscal obligations for the office's projects will depend on the revolving fund's ability to be self-sustaining through lease proceeds, grants, and other non-general fund sources.\",\n\"updates_from_previous_fiscal_note\": \"The appropriation is no longer unspecified; the bill now appropriates a specific $200,000 (HB934_SD1_.HTM.txt) for FY 2025-2026, intended as a loan to be repaid in 5 years. The proposed special fund has been changed to a \\\"Broadband Revolving Fund,\\\" and significant policy changes now consolidate state broadband duties by repealing the Broadband Assistance Advisory Council and transferring functions from the Department of Commerce and Consumer Affairs. The committee report now formally acknowledges stakeholder concerns regarding the \\\"retail service\\\" restriction, and the bill codifies revenue streams from infrastructure leases into the new revolving fund.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"This measure transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services",
+          "attributed_chunk_id": 15,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8636363636363636,
+          "attribution_reason": "Word frequency match score: 0.864",
+          "numbers_found": []
+        },
+        {
+          "sentence": "As amended, the bill renames the office to the \\\"Broadband Office,\\\" changes the proposed \\\"Broadband and Digital Equity Special Fund\\\" to the \\\"Broadband Revolving Fund,\\\" and repeals the Broadband Assistance Advisory Council",
+          "attributed_chunk_id": 49,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.47619047619047616,
+          "attribution_reason": "Word frequency match score: 0.476",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill appropriates funds for the new revolving fund and for the reimbursement of contracts",
+          "attributed_chunk_id": 10,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"The legislative document appropriates out of the general revenues of the State of Hawaii the sum of $200,000 (HB934_SD1_",
+          "attributed_chunk_id": "NUMBER_200000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5833333333333334,
+          "attribution_reason": "Number $200,000 from HB934_SD1_.HTM.txt (score: 0.583)",
+          "numbers_found": [
+            200000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for fiscal year 2025-2026 to be deposited into the broadband revolving fund",
+          "attributed_chunk_id": 35,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.45454545454545453,
+          "attribution_reason": "Word frequency match score: 0.455",
+          "numbers_found": []
+        },
+        {
+          "sentence": "A second appropriation out of the broadband revolving fund for $200,000 (HB934_SD1_",
+          "attributed_chunk_id": "NUMBER_200000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Number $200,000 from HB934_SD1_.HTM.txt (score: 0.625)",
+          "numbers_found": [
+            200000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) is made for fiscal year 2025-2026 for the reimbursement of contracts executed by the broadband office",
+          "attributed_chunk_id": 50,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4166666666666667,
+          "attribution_reason": "Word frequency match score: 0.417",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill also inserts a blank appropriation amount to establish a blank number of digital navigator positions",
+          "attributed_chunk_id": 51,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Word frequency match score: 0.750",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"assumptions_and_methodology\": \"The appropriation is based on testimony from the Lieutenant Governor which proposes a \\\"one-time appropriation of $200,000 (HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attributed_chunk_id": "NUMBER_200000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Number $200,000 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.400)",
+          "numbers_found": [
+            200000.0,
+            11.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) into the newly created broadband revolving fund",
+          "attributed_chunk_id": 10,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Word frequency match score: 0.750",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\" The methodology is for this appropriation to serve as seed money for a revolving fund, enabling \\\"timely reimbursement to non-profit organizations while the Broadband Office draws down on federal funding",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.65,
+          "attribution_reason": "Word frequency match score: 0.650",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\" A key assumption is that \\\"The intent is to return the full amount back to the General Fund in 5 years (HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": [
+            11.0,
+            5.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). \\\"\",\n\"agency_impact\": \"The Department of Commerce and Consumer Affairs (DCCA) supports the bill and requests amendments to consolidate the state’s broadband functions into the HBDEO through the repeal of HRS Section 440G-11",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.22727272727272727,
+          "attribution_reason": "Word frequency match score: 0.227",
+          "numbers_found": [
+            11.0
+          ]
+        },
+        {
+          "sentence": "5 and Act 199",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": [
+            5.0,
+            199.0
+          ]
+        },
+        {
+          "sentence": "DCCA states that consolidating duties under one state agency would \\\"conserve taxpayer resources\\\" and \\\"reduce confusion by having one state office in which the public can be referred to",
+          "attributed_chunk_id": 30,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.19047619047619047,
+          "attribution_reason": "Word frequency match score: 0.190",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\" The Office of Enterprise Technology Services notes that the HBDEO had previously requested $777,090 (HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attributed_chunk_id": "NUMBER_777090",
+          "attribution_method": "number_based",
+          "attribution_score": 0.2727272727272727,
+          "attribution_reason": "Number $777,090 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.273)",
+          "numbers_found": [
+            777090.0,
+            11.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for FY 26 and asks that this funding be included in the bill",
+          "attributed_chunk_id": 48,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": [
+            26.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"Testimony from Hawaiian Telcom states the state's share of BEAD funding is $149",
+          "attributed_chunk_id": 42,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.36363636363636365,
+          "attribution_reason": "Word frequency match score: 0.364",
+          "numbers_found": [
+            149.0
+          ]
+        },
+        {
+          "sentence": "5M plus $46M in state matching funds to increase broadband infrastructure",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": [
+            46.0
+          ]
+        },
+        {
+          "sentence": "Charter Communications states that in 2023, it invested $96 (HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attributed_chunk_id": "NUMBER_96",
+          "attribution_method": "number_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Number $96 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.375)",
+          "numbers_found": [
+            96.0,
+            11.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) million across the state",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Testimony from the Lieutenant Governor states that federal and state governments have committed over $400 (HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attributed_chunk_id": "NUMBER_400",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5384615384615384,
+          "attribution_reason": "Number $400 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.538)",
+          "numbers_found": [
+            400.0,
+            11.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) million to modernize infrastructure",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Word frequency match score: 0.600",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"policy_impact\": \"This measure has been amended to enact significant policy consolidation as suggested in testimony",
+          "attributed_chunk_id": 41,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2222222222222222,
+          "attribution_reason": "Word frequency match score: 0.222",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill now repeals the broadband duties assigned to the Director of the Department of Commerce and Consumer Affairs and disbands the Hawaii Broadband Assistance Advisory Council",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7058823529411765,
+          "attribution_reason": "Word frequency match score: 0.706",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The committee report notes concerns from stakeholders \\\"regarding the exclusion of broadband infrastructure for retail services under the State's digital equity goals\\\" but retains the restrictive language in the bill",
+          "attributed_chunk_id": 46,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"The bill codifies revenue sources for the new broadband revolving fund that were previously only suggested in testimony",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3076923076923077,
+          "attribution_reason": "Word frequency match score: 0.308",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The legislative document specifies the fund shall be deposited with the \\\"(1) Proceeds of leases of broadband infrastructure owned by the State; (2) Appropriations by the legislature to the revolving fund; and (3) Gifts, donations, and grants from public agencies and private persons (HB934_SD1_",
+          "attributed_chunk_id": 36,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Document citation + word frequency: 1 (score: 0.750)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). \\\" Testimony from the Lieutenant Governor anticipates the state will generate \\\"revenue from negotiated lease agreements (HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attributed_chunk_id": 45,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": [
+            11.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt)\\\" from new subsea broadband infrastructure",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7142857142857143,
+          "attribution_reason": "Word frequency match score: 0.714",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"six_year_fiscal_implications\": \"The legislative document appropriates $200,000 (HB934_SD1_",
+          "attributed_chunk_id": "NUMBER_200000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Number $200,000 from HB934_SD1_.HTM.txt (score: 0.167)",
+          "numbers_found": [
+            200000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) from general revenues into the new broadband revolving fund for FY 2025-2026",
+          "attributed_chunk_id": 36,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4166666666666667,
+          "attribution_reason": "Word frequency match score: 0.417",
+          "numbers_found": []
+        },
+        {
+          "sentence": "From that fund, $200,000 (HB934_SD1_",
+          "attributed_chunk_id": "NUMBER_200000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Number $200,000 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.750)",
+          "numbers_found": [
+            200000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) is appropriated in the same fiscal year for contract reimbursements",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "According to testimony from the Lieutenant Governor, the intent is for this to be a one-time infusion, as the state intends \\\"to return the full amount back to the General Fund in 5 years (HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.45,
+          "attribution_reason": "Word frequency match score: 0.450",
+          "numbers_found": [
+            11.0,
+            5.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). \\\" This differs from the needs expressed by the Office of Enterprise Technology Services (ETS)",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "ETS testimony states the HBDEO had requested \\\"$777,090 (HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attributed_chunk_id": "NUMBER_777090",
+          "attribution_method": "number_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Number $777,090 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.375)",
+          "numbers_found": [
+            777090.0,
+            11.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for FY 26 with $452,302 (HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attributed_chunk_id": "NUMBER_452302",
+          "attribution_method": "number_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Number $452,302 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.200)",
+          "numbers_found": [
+            26.0,
+            11.0,
+            452302.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for personal services, and $324,788 (HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attributed_chunk_id": "NUMBER_324788",
+          "attribution_method": "number_based",
+          "attribution_score": 0.42857142857142855,
+          "attribution_reason": "Number $324,788 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.429)",
+          "numbers_found": [
+            11.0,
+            324788.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) for other expenses",
+          "attributed_chunk_id": 30,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\\\" ETS believes these figures provide for a sound budget and requests the funding be included",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2222222222222222,
+          "attribution_reason": "Word frequency match score: 0.222",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill also contains a blank appropriation for an unspecified number of digital navigator positions, which could represent future recurring costs",
+          "attributed_chunk_id": 51,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"The bill formalizes a positive impact on operating revenue by establishing the broadband revolving fund",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2727272727272727,
+          "attribution_reason": "Word frequency match score: 0.273",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The legislative document states this fund shall receive the \\\"Proceeds of leases of broadband infrastructure owned by the State (HB934_SD1_",
+          "attributed_chunk_id": 35,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5833333333333334,
+          "attribution_reason": "Word frequency match score: 0.583",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). \\\" Testimony from the Lieutenant Governor anticipates that \\\"with the construction of new subsea broadband infrastructure, our state anticipates generating revenue from negotiated lease agreements (HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6086956521739131,
+          "attribution_reason": "Word frequency match score: 0.609",
+          "numbers_found": [
+            11.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). \\\"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"The long-term fiscal implications have been clarified by testimony indicating the initial general fund appropriation is intended as a loan to the revolving fund",
+          "attributed_chunk_id": 9,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.21052631578947367,
+          "attribution_reason": "Word frequency match score: 0.211",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Testimony from the Lieutenant Governor states, \\\"The intent is to return the full amount back to the General Fund in 5 years (HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Word frequency match score: 0.600",
+          "numbers_found": [
+            11.0,
+            5.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). \\\" Therefore, after the initial period, the ongoing fiscal obligations for the office's projects will depend on the revolving fund's ability to be self-sustaining through lease proceeds, grants, and other non-general fund sources",
+          "attributed_chunk_id": 10,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.15384615384615385,
+          "attribution_reason": "Word frequency match score: 0.154",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"The appropriation is no longer unspecified; the bill now appropriates a specific $200,000 (HB934_SD1_",
+          "attributed_chunk_id": "NUMBER_200000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Number $200,000 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.200)",
+          "numbers_found": [
+            200000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for FY 2025-2026, intended as a loan to be repaid in 5 years",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            5.0
+          ]
+        },
+        {
+          "sentence": "The proposed special fund has been changed to a \\\"Broadband Revolving Fund,\\\" and significant policy changes now consolidate state broadband duties by repealing the Broadband Assistance Advisory Council and transferring functions from the Department of Commerce and Consumer Affairs",
+          "attributed_chunk_id": 49,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4074074074074074,
+          "attribution_reason": "Word frequency match score: 0.407",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The committee report now formally acknowledges stakeholder concerns regarding the \\\"retail service\\\" restriction, and the bill codifies revenue streams from infrastructure leases into the new revolving fund",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.22727272727272727,
+          "attribution_reason": "Word frequency match score: 0.227",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 2,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": []
+        },
+        "2": {
+          "usage_count": 2,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.222"
+          ]
+        },
+        "3": {
+          "usage_count": 2,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.400",
+            "Word frequency match score: 0.600"
+          ]
+        },
+        "4": {
+          "usage_count": 6,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.308",
+            "Word frequency match score: 0.714",
+            "Word frequency match score: 0.273",
+            "Word frequency match score: 0.609",
+            "Word frequency match score: 0.227"
+          ]
+        },
+        "5": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": []
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 3,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.227",
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.706"
+          ]
+        },
+        "9": {
+          "usage_count": 1,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.211"
+          ]
+        },
+        "10": {
+          "usage_count": 3,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.750",
+            "Word frequency match score: 0.154"
+          ]
+        },
+        "11": {
+          "usage_count": 4,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.650",
+            "Word frequency match score: 0.667",
+            "Word frequency match score: 0.450",
+            "Word frequency match score: 0.600"
+          ]
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 1,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.864"
+          ]
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "20": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "21": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "22": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "23": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "24": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "25": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "26": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "27": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "28": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "29": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "30": {
+          "usage_count": 2,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.190",
+            "Word frequency match score: 0.250"
+          ]
+        },
+        "31": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "32": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "33": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "34": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "35": {
+          "usage_count": 2,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.455",
+            "Word frequency match score: 0.583"
+          ]
+        },
+        "36": {
+          "usage_count": 2,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: 1 (score: 0.750)",
+            "Word frequency match score: 0.417"
+          ]
+        },
+        "37": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1",
+          "attribution_reasons": []
+        },
+        "38": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": []
+        },
+        "39": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": []
+        },
+        "40": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": []
+        },
+        "41": {
+          "usage_count": 1,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.222"
+          ]
+        },
+        "42": {
+          "usage_count": 1,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.364"
+          ]
+        },
+        "43": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": []
+        },
+        "44": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": []
+        },
+        "45": {
+          "usage_count": 1,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.500"
+          ]
+        },
+        "46": {
+          "usage_count": 1,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.667"
+          ]
+        },
+        "47": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": []
+        },
+        "48": {
+          "usage_count": 1,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.333"
+          ]
+        },
+        "49": {
+          "usage_count": 2,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.476",
+            "Word frequency match score: 0.407"
+          ]
+        },
+        "50": {
+          "usage_count": 1,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.417"
+          ]
+        },
+        "51": {
+          "usage_count": 2,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.750",
+            "Word frequency match score: 0.333"
+          ]
+        },
+        "52": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": []
+        },
+        "53": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "attribution_reasons": []
+        },
+        "NUMBER_200000.0": {
+          "usage_count": 0,
+          "document_name": "HB934_SD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_400.0": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_360000.0": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_777090.0": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_452302.0": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_324788.0": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_42.45": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_200.0": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_96.0": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_15.0": {
+          "usage_count": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_200000": {
+          "usage_count": 6,
+          "document_name": "HB934_SD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $200,000 from HB934_SD1_.HTM.txt (score: 0.583)",
+            "Number $200,000 from HB934_SD1_.HTM.txt (score: 0.625)",
+            "Number $200,000 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.400)",
+            "Number $200,000 from HB934_SD1_.HTM.txt (score: 0.167)",
+            "Number $200,000 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.750)",
+            "Number $200,000 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.200)"
+          ]
+        },
+        "NUMBER_777090": {
+          "usage_count": 2,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $777,090 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.273)",
+            "Number $777,090 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.375)"
+          ]
+        },
+        "NUMBER_96": {
+          "usage_count": 1,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $96 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.375)"
+          ]
+        },
+        "NUMBER_400": {
+          "usage_count": 1,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $400 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.538)"
+          ]
+        },
+        "NUMBER_452302": {
+          "usage_count": 1,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $452,302 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.200)"
+          ]
+        },
+        "NUMBER_324788": {
+          "usage_count": 1,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+          "attribution_reasons": [
+            "Number $324,788 from HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt (score: 0.429)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 1,
+        "number_based": 12,
+        "word_frequency_based": 37,
+        "semantic_similarity": 0,
+        "fallback": 2,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 54,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "SYLVIA LUKE L I E U T E N A N T G O V E R N O R Ke Keʻena O Ka Hope Kiaʻāina The 33rd Legislature, State of Hawaii Senate Committee on Economic Development and Tourism March 11, 2025 Testimony on H.B. 934 - RELATING TO THE",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "11, 2025 Testimony on H.B. 934 - RELATING TO THE HAWAII BROADBAND AND DIGITAL EQUITY OFFICE Chair DeCoite, Vice Chair Wakai, and Members of the Committee: Thank you for the opportunity to provide testimony in support of H.B. 934, H.D. 1 which transfers the Hawaii Broadband Office from the Department",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "1 which transfers the Hawaii Broadband Office from the Department of Business, Economic Development, and Tourism (DBEDT) to the Office of Enterprise Technology Services (ETS) in the Department of Accounting and General Services, establishes a special fund, and appropriates additional funding. In addition, we offer proposed amendments for the Committee’s",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "funding. In addition, we offer proposed amendments for the Committee’s consideration. Reliable, affordable high speed internet access is essential for ensuring greater educational, economic, and social opportunities for all. The federal and state governments have committed over $400 million to modernize our subsea and terrestrial infrastructure and equip residents with",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "modernize our subsea and terrestrial infrastructure and equip residents with the tools and knowledge to safely navigate the internet. With the construction of new subsea broadband infrastructure, our state anticipates generating revenue from negotiated lease agreements and the creation of a separate fund will ensure these funds are used to",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "a separate fund will ensure these funds are used to reduce the cost of internet services, provide technical assistance to communities, and support broadband projects. Given the increasingly vital role of broadband in our daily lives, the transfer of the Broadband Office from DBEDT to ETS provides an opportunity to",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "Broadband Office from DBEDT to ETS provides an opportunity to review and centralize broadband responsibilities currently dispersed across state government. To make the best use of federal funding and anticipate revenue while consolidating statewide broadband responsibilities, we propose the following amendments to H.B. 934, H.D. 1 for the Committee’s consideration:",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "amendments to H.B. 934, H.D. 1 for the Committee’s consideration: - simplify and streamline the name of the office from “Hawaii Broadband and Digital Equity Office” to “Broadband Office” H.B. 934, H.D. 1 March 11, 2025 Page 2 - repeal the broadband duties assigned to the Director of the Department",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "the broadband duties assigned to the Director of the Department of Commerce and Consumer Affairs, outlined in Chapter 440G-11.5, Hawaii Revised Statutes - disband the Hawaii Broadband Assistance Advisory Council which was established by Act 199, Session Laws of Hawaii, 2010, and further amended in 2011 and 2016 - add",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "2010, and further amended in 2011 and 2016 - add a federal fund appropriation for digital navigator positions - change the name and type of fund being created from the “Broadband and Digital Equity Special Fund” to the “Broadband Revolving Fund,” and add the necessary language to support the creation",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "Fund,” and add the necessary language to support the creation of a revolving fund - re-insert a one-time appropriation of $200,000 into the newly created broadband revolving fund and specify that the appropriation is for the reimbursement of contracts executed by the Broadband Office, enabling timely reimbursement to non-profit organizations",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "by the Broadband Office, enabling timely reimbursement to non-profit organizations while the Broadband Office draws down on federal funding. The intent is to return the full amount back to the General Fund in 5 years. Thank you for the opportunity to provide testimony in support with proposed amendments to H.B.",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "to provide testimony in support with proposed amendments to H.B. 934, H.D. 1. JOSH GREEN, M.D. GOVERNOR KE KIAʻĀINA STATE OF HAWAIʻI | KA MOKUʻĀINA O HAWAIʻI DEPARTMENT OF ACCOUNTING AND GENERAL SERVICES | KA ʻOIHANA LOIHELU A LAWELAWE LAULĀ OFFICE OF ENTERPRISE TECHNOLOGY SERVICES | KEʻENA HOʻOLANA ʻENEHANA P.O.",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "OFFICE OF ENTERPRISE TECHNOLOGY SERVICES | KEʻENA HOʻOLANA ʻENEHANA P.O. BOX 119, HONOLULU, HAWAII 96810-0119 Testimony of CHRISTINE M. SAKUDA Chief Information Officer Office of Enterprise Technology Services Before the SENATE COMMITTEE ON ECONOMIC DEVELOPMENT AND TOURISM Tuesday, March 11, 2025 HOUSE BILL NO. 934 HD1 RELATING TO THE HAWAIʻI",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "2025 HOUSE BILL NO. 934 HD1 RELATING TO THE HAWAIʻI BROADBAND AND DIGITAL EQUITY OFFICE Dear Chair DeCoite, Vice Chair Wakai, and members of the committee: The Office of Enterprise Technology Services (ETS) humbly offers comments on this bill that transfers the Hawaiʻi Broadband and Digital Equity Office (HBDEO) from",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "transfers the Hawaiʻi Broadband and Digital Equity Office (HBDEO) from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services (DAGS), establishes the Hawaiʻi Broadband and Digital Equity Special Fund, and appropriates funds. ETS strongly supports Connect",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "Equity Special Fund, and appropriates funds. ETS strongly supports Connect Kākou, led by Governor Josh Green and Lieutenant Governor Sylvia Luke, to ensure that every resident of Hawai’i has access to broadband Internet – plus the skills and devices they need to use the Internet for economic, social, and community",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "need to use the Internet for economic, social, and community prosperity. Taking over the responsibility of running and managing the Hawaiʻi Broadband and Digital Equity Office will be a huge endeavor for ETS. Current ETS resources are focused internally to government to include enterprise IT governance, cybersecurity, data governance, and",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB934_HD1_TESTIMONY_EDT_03-11-25_",
+          "chunk_text": "government to include enterprise IT governance, cybersecurity, data governance, and support of the state’s major modernization initiati",
+          "start_word": 720,
+          "end_word": 737,
+          "word_count": 17
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB934_SD1",
+          "chunk_text": "HB934 SD1 HOUSE OF REPRESENTATIVES H.B. NO. 934 THIRTY-THIRD LEGISLATURE, 2025 H.D. 1 STATE OF HAWAII S.D. 1 A BILL FOR AN ACT RELATING TO THE HAWAII BROADBAND AND DIGITAL EQUITY OFFICE . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 27, Hawaii Revised",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB934_SD1",
+          "chunk_text": "THE STATE OF HAWAII: SECTION 1. Chapter 27, Hawaii Revised Statutes, is amended by adding a new part to be appropriately designated and to read as follows: \" Part . broadband office § 27-A Definitions. As used in this part: \"Broadband\" means high-speed internet access that is always on, including",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB934_SD1",
+          "chunk_text": "\"Broadband\" means high-speed internet access that is always on, including mobile and fixed technologies. \"Digital equity\" means a condition in which all individuals and communities have the information technology capacity needed for full participation in society, democracy, and the economy. § 27-B Broadband office; establishment; strategic broadband coordinator; staff. (a)",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB934_SD1",
+          "chunk_text": "§ 27-B Broadband office; establishment; strategic broadband coordinator; staff. (a) There is established the broadband office within the office of enterprise technology services. (b) Without regard to section 26-34, the governor shall appoint a strategic broadband coordinator, who shall be exempt from chapter 76, to head the broadband office. §27-C",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB934_SD1",
+          "chunk_text": "exempt from chapter 76, to head the broadband office. §27-C Broadband office; duties. In furtherance of the State's objectives and policies for the economy pursuant to section 226-10.5, the broadband office shall: (1) Develop and implement specific strategies and plans to aggressively increase broadband affordability, penetration, and competitive availability in",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB934_SD1",
+          "chunk_text": "to aggressively increase broadband affordability, penetration, and competitive availability in the State; (2) Support the efforts of both public and private entities in the State to enhance or facilitate the deployment of and access to competitively priced, advanced electronic communications services, including broadband and its products and services and internet",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB934_SD1",
+          "chunk_text": "services, including broadband and its products and services and internet access services of general application throughout the State; (3) Promote the landing of trans-Pacific submarine cable, including the development of a shared access cable station and associated terrestrial connectivity to reduce barriers to fiber landing in the State; (4) Promote,",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB934_SD1",
+          "chunk_text": "reduce barriers to fiber landing in the State; (4) Promote, advocate, and facilitate the implementation of the findings and recommendations of the Hawaii broadband task force established by Act 2, First Special Session Laws of Hawaii 2007, and the 2020 Hawaii Broadband Strategic Plan; (5) Support the findings of community-based",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB934_SD1",
+          "chunk_text": "Hawaii Broadband Strategic Plan; (5) Support the findings of community-based groups as reflected in its digital equity declaration; (6) Administer grant programs in support of broadband infrastructure, innovation, and the digital economy; (7) Actively seek out funding from public and private sources in furtherance of the office's duties pursuant to",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB934_SD1",
+          "chunk_text": "private sources in furtherance of the office's duties pursuant to this section; and (8) Provide a repository, aggregation point, and governance framework for broadband mapping and digital equity data from various sources, including digital literacy, telehealth, distance education, internet accessibility, and service coverage to support mapping, reporting, infrastructure deployment, and",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB934_SD1",
+          "chunk_text": "and service coverage to support mapping, reporting, infrastructure deployment, and data-driven policy. §27-D Broadband planning and coordination; cooperation. (a) The broadband office shall: (1) Seek input and the widest possible cooperation from public and private agencies and individuals to achieve the purposes of this part; (2) Work closely with and",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 30,
+          "document_name": "HB934_SD1",
+          "chunk_text": "the purposes of this part; (2) Work closely with and assist the counties in the promotion of coordinated state and county broadband planning; (3) Encourage every state department, county agency, and other public or private agencies and individuals involved in broadband programs to participate in the activities of the office",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 31,
+          "document_name": "HB934_SD1",
+          "chunk_text": "broadband programs to participate in the activities of the office and incorporate, to the extent feasible, the ideas and suggestions of the participants in the office's comprehensive planning goals; (4) Monitor the broadband-based development efforts of other states and nations in areas such as business, education, and health; (5) Advise",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 32,
+          "document_name": "HB934_SD1",
+          "chunk_text": "in areas such as business, education, and health; (5) Advise the office of enterprise technology services on other states' best practices involving policies and strategies related to making affordable broadband services available to every home and business in the State; (6) Monitor broadband-related activities at the federal level; (7) Encourage",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 33,
+          "document_name": "HB934_SD1",
+          "chunk_text": "(6) Monitor broadband-related activities at the federal level; (7) Encourage public-private partnerships to increase the deployment and adoption of broadband services and applications; (8) Monitor regulatory and policy changes for potential impact on broadband deployment and sustainability in the State; and (9) Advise the chief information officer on broadband deployment.",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 34,
+          "document_name": "HB934_SD1",
+          "chunk_text": "and (9) Advise the chief information officer on broadband deployment. (b) Nothing in this section shall be construed to delegate, or detract in any way from, the functions, powers, and duties conferred by law or rule on any department or agency of the State or county. § 27-E Broadband revolving",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 35,
+          "document_name": "HB934_SD1",
+          "chunk_text": "agency of the State or county. § 27-E Broadband revolving fund. (a) There is established in the state treasury the broadband revolving fund to be administered by the broadband office, into which shall be deposited: (1) Proceeds of leases of broadband infrastructure owned by the State; (2) Appropriations by the",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 36,
+          "document_name": "HB934_SD1",
+          "chunk_text": "broadband infrastructure owned by the State; (2) Appropriations by the legislature to the revolving fund; and (3) Gifts, donations, and grants from public agencies and private persons. All interest earned or accrued on moneys deposited into the revolving fund shall become a part of the revolving fund. (b) Moneys in",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 37,
+          "document_name": "HB934_SD1",
+          "chunk_text": "become a part of the revolving fund. (b) Moneys in the broadband revolving fund shall be used for: (1)",
+          "start_word": 720,
+          "end_word": 739,
+          "word_count": 19
+        },
+        {
+          "chunk_id": 38,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "SSCR1126 STAND. COM. REP. NO. 1126 Honolulu, Hawaii RE: H.B. No. 934 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Economic Development and Tourism, to which was referred H.B. No. 934, H.D.",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 39,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "and Tourism, to which was referred H.B. No. 934, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO THE HAWAII BROADBAND AND DIGITAL EQUITY OFFICE,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Transfer the Hawaii Broadband and Digital Equity Office",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 40,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "to: (1) Transfer the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services ; (2) Establish the Broadband and Digital Equity Special Fund ; and (3) Appropriate funds. Your",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 41,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "Digital Equity Special Fund ; and (3) Appropriate funds. Your Committee received testimony in support of this measure from the Office of the Lieutenant Governor, Department of Commerce and Comsumer Affairs, University of Hawai ʻ i System, Hawai ʻ i State Council on Developmental Disabilities, Kapolei Chamber of Commerce, Waianae",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 42,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "State Council on Developmental Disabilities, Kapolei Chamber of Commerce, Waianae Coast Comprehensive Health Center, Charter Communications, and four individuals. Your Committee received comments on this measure from the Office of Enterprise Technology Services; Department of Business, Economic Development, and Tourism ; and Hawaiian Telcom. Your Committee finds that given the",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 43,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "; and Hawaiian Telcom. Your Committee finds that given the increasingly vital role of broadband technology in daily life, providing reliable and affordable access to high speed internet is essential to create equitable educational, economic, and social opportunities throughout the State . Your Committee further finds that the federal government",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 44,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "State . Your Committee further finds that the federal government and the State have committed to modernize subsea and terrestrial infrastructure and equip residents with the tools and knowledge to safely navigate the internet. With the construction of new subsea broadband infrastructure, the State anticipates generating revenue from negotiated lease",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 45,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "broadband infrastructure, the State anticipates generating revenue from negotiated lease agreements and the creation of a separate fund will ensure these funds are used to reduce the cost of internet services, provide technical assistance to communities, and support broadband projects. Your Committee notes the concerns raised in the testimony of",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 46,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "Your Committee notes the concerns raised in the testimony of the Waianae Coast Comprehensive Health Center regarding the exclusion of broadband infrastructure for retail services under the State's digital equity goals to support local community-led broadband solutions. Your Committee further finds that this measure is intended to provide the opportunity",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 47,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "finds that this measure is intended to provide the opportunity to review and centralize broadband responsibilities currently dispersed across the state government. Your Committee acknowledges the suggested amendments provided by the Office of the Lieutenant Governor regarding methods to most effectively use funding and anticipated generated revenue while consolidating statewide",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 48,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "effectively use funding and anticipated generated revenue while consolidating statewide broadband infrastructure. Accordingly, your Committee has amended this measure by: (1) Changing the name of the \"Hawaii Broadband and Digital Equity Office\" to \"Broadband Office\"; (2) Deleting language that would have included \"remote work\" within the duties and responsibilities of",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 49,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "have included \"remote work\" within the duties and responsibilities of the broadband office; (3) Changing the \"Broadband and Digital Equity Special Fund\" to the \"Broadband Revolving Fund\"; (4) Repealing language in existing law that assigned duties to the Director of Commerce and Consumer Affairs relating to broadband services; (5) Repealing",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 50,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "Commerce and Consumer Affairs relating to broadband services; (5) Repealing language that established the Broadband Assistance Advisory Council; (6) Changing the appropriation from an unspecified amount , to $200,000 to be expended by the Broadband Office for the reimbursement of contracts executed by the Broadband Office; (7) Inserting a blank",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 51,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "contracts executed by the Broadband Office; (7) Inserting a blank appropriation amount to establish a blank number of digital navigator positions; and (8) Making technical, nonsubstantive amendments for the purposes of clarity and consistency. As affirmed by the record of votes of the members of your Committee on Economic Development",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 52,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "votes of the members of your Committee on Economic Development and Tourism that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 934, H.D. 1, as amended herein, and recommends that it pass Second Reading in the form attached hereto as",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 53,
+          "document_name": "HB934_SD1_SSCR1126_",
+          "chunk_text": "it pass Second Reading in the form attached hereto as H.B. No. 934, H.D. 1, S.D. 1, and be referred to your Committee on Ways and Means. Respectfully submitted on behalf of the members of the Committee on Economic Development and Tourism, ________________________________ LYNN DECOITE, Chair",
+          "start_word": 600,
+          "end_word": 646,
+          "word_count": 46
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "policy changes for potential impact on broadband deployment and sustainability in Hawaii; and (5) Encourage public-private partnerships to increase the deployment and adoption of broadband services and applications. ] Repealed. \" SECTION 6 . There is appropriated out of the general revenues of the State of Hawaii the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 to be deposited into the broadband revolving fund under section 27-E, Hawaii Revised Statutes . SECTION 7 . There is appropriated out of the br oadband revolving fund the sum of $200,000 or so much thereof as may",
+        "number": 200000.0,
+        "filename": "HB934_SD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "State of Hawaii the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 to be deposited into the broadband revolving fund under section 27-E, Hawaii Revised Statutes . SECTION 7 . There is appropriated out of the br oadband revolving fund the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 for the reimbursement of contracts executed by the broadband office. The sum appropriated shall be expended by the broadband office for the purposes of this Act. SECTION 8 . There is appropriated out of the br oadband revolving",
+        "number": 200000.0,
+        "filename": "HB934_SD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "Department of Accounting and General Services, establishes a special fund, and appropriates additional funding. In addition, we offer proposed amendments for the Committee’s consideration. Reliable, affordable high speed internet access is essential for ensuring greater educational, economic, and social opportunities for all. The federal and state governments have committed over $400 million to modernize our subsea and terrestrial infrastructure and equip residents with the tools and knowledge to safely navigate the internet. With the construction of new subsea broadband infrastructure, our state anticipates generating revenue from negotiated lease agreements and the creation of a separate fund will ensure these funds are",
+        "number": 400.0,
+        "filename": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "a federal fund appropriation for digital navigator positions - change the name and type of fund being created from the “Broadband and Digital Equity Special Fund” to the “Broadband Revolving Fund,” and add the necessary language to support the creation of a revolving fund - re-insert a one-time appropriation of $200,000 into the newly created broadband revolving fund and specify that the appropriation is for the reimbursement of contracts executed by the Broadband Office, enabling timely reimbursement to non-profit organizations while the Broadband Office draws down on federal funding. The intent is to return the full amount back to the General",
+        "number": 200000.0,
+        "filename": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "to new endeavors so in order for the transfer to be successful, we would ask to be funded appropriately from both state and federal sources. According to the HBDEO’s Form A request (not approved for inclusion in the Governor’s executive budget) for Fiscal Year 25-27: “With the current budget of $360,000 to fund four staff and operating expenses, HBDEO has been operating with essentially no operating expenses for the past two fiscal years. Proper funding will enable the office to meet its objectives, especially in community outreach to rural, non-Oahu areas of the state.” KEITH A. REGAN COMPTROLLER KA LUNA HOʻOMALU",
+        "number": 360000.0,
+        "filename": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "years. Proper funding will enable the office to meet its objectives, especially in community outreach to rural, non-Oahu areas of the state.” KEITH A. REGAN COMPTROLLER KA LUNA HOʻOMALU HANA LAULĀ CHRISTINE M. SAKUDA CHIEF INFORMATION OFFICER LUNA ʻENEHANA H.B. 934, H.D. 1 Page 2 The HBDEO had asked for $777,090 for FY 26 with $452,302 for personal services, and $324,788 for other expenses. ETS believes that these figures provide for a sound budget, and we ask that this funding be included in the bill. We believe that, without proper funding for both salaries and operations to manage the work the",
+        "number": 777090.0,
+        "filename": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "the office to meet its objectives, especially in community outreach to rural, non-Oahu areas of the state.” KEITH A. REGAN COMPTROLLER KA LUNA HOʻOMALU HANA LAULĀ CHRISTINE M. SAKUDA CHIEF INFORMATION OFFICER LUNA ʻENEHANA H.B. 934, H.D. 1 Page 2 The HBDEO had asked for $777,090 for FY 26 with $452,302 for personal services, and $324,788 for other expenses. ETS believes that these figures provide for a sound budget, and we ask that this funding be included in the bill. We believe that, without proper funding for both salaries and operations to manage the work the HBDEO is being tasked to",
+        "number": 452302.0,
+        "filename": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "objectives, especially in community outreach to rural, non-Oahu areas of the state.” KEITH A. REGAN COMPTROLLER KA LUNA HOʻOMALU HANA LAULĀ CHRISTINE M. SAKUDA CHIEF INFORMATION OFFICER LUNA ʻENEHANA H.B. 934, H.D. 1 Page 2 The HBDEO had asked for $777,090 for FY 26 with $452,302 for personal services, and $324,788 for other expenses. ETS believes that these figures provide for a sound budget, and we ask that this funding be included in the bill. We believe that, without proper funding for both salaries and operations to manage the work the HBDEO is being tasked to do, moving the HBDEO to",
+        "number": 324788.0,
+        "filename": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "resources and promote efficiency and efficacy. As the State and broadband service providers navigate the evolving landscape of broadband infrastructure and funding with the new federal administration, we must consider strategic approaches that maximize efficiency and align with federal initiatives. The Broadband Equity, Access, and Deployment (“BEAD”) Program, which allocates $42.45 billion to expand high-speed internet access, presents a unique opportunity for our state to enhance its broadband capabilities. The state's share of BEAD funding is $149.5M plus $46M in state matching funds to increase broadband infrastructure and promote digital literacy services. Additionally, as a broadband service provider, Hawaiian Telcom continues",
+        "number": 42.45,
+        "filename": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "navigators and literacy tools, affordability programs, and access to hardware. Charter believes that every Hawaii resident should have reliable access to the Internet. We will continue to help bring the benefits of broadband and access to the internet to those who need it most. Hawaii is slated to receive over $200 million in federal grants for broadband infrastructure in the immediate future (via the Broadband, Equity, Access, and Deployment Program), in addition to private investments already being made by the industry. The Broadband and Digital Equity Special Fund should prioritize funding projects related to broadband adoption and affordability programs, rather than",
+        "number": 200.0,
+        "filename": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "of dollars to ensure that all households in Hawaii will soon have high-speed broadband available. Infrastructure availability and digital equity are both important, but they are different problems requiring different, independent solutions. In 2023, Charter extended its network to reach an additional 9,000 homes and small businesses in Hawaii, investing $96 million across the state. Charter participated in the FCC’s Emergency Broadband Benefit Program (EBB) and Affordable Connectivity Program (ACP), which helped connect over 59,000 eligible households in Hawaii with high-speed broadband. Broadband internet access is more important than ever, and Charter offers a variety of affordable high-speed internet packages to",
+        "number": 96.0,
+        "filename": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Hawaii with high-speed broadband. Broadband internet access is more important than ever, and Charter offers a variety of affordable high-speed internet packages to meet all the connectivity and budget needs of our customers. With Spectrum Internet Assist, qualifying low-income families and seniors can receive high-speed internet for as little as $15 per month. Mahalo for the opportunity to provide proposed amendments to H.B. 934, H.D. 1. Testimony of Sean Taketa McLaughlin​ ​ ​ ​ ​ ​ Hawaii' Senate Committee on Economic Development & Tourism Tuesday March 11, 2025 at 1:00 pm Supporting HB934 - \"Relating to the Hawaii Broadband Digital Equity",
+        "number": 15.0,
+        "filename": "HB934_HD1_TESTIMONY_EDT_03-11-25_.PDF.txt",
+        "document_type": "testimony"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:53:58.323266",
+  "generation_timestamp_unix": 1760147638.323275
+}

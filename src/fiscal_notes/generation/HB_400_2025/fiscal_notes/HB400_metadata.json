@@ -1,0 +1,939 @@
+{
+  "document_name": "HB400",
+  "new_documents_processed": [
+    "HB400"
+  ],
+  "all_documents_processed_so_far": [
+    "HB400"
+  ],
+  "numbers_used": 1,
+  "prompt_length": 57729,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"House Bill No. 400, House Draft 1, appropriates funds for the Judiciary for the 2025–2027 biennium. The bill reflects the Judiciary’s resource requirements, which center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court, add a District Court Judge in Kona, cover cybersecurity costs, and restore funding for essential staffing. The bill's purpose is to appropriate funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027.\",\n\"appropriations\": \"The Judiciary requests additional operating resources in the amount of $6.17M (HB400) in FY 2026, and $6.25M (HB400) in FY 2027, for 17.0 permanent FTE and 1.0 temporary FTE. The Judiciary also requests a total of $11.9M (HB400) in bond funds for capital improvement projects in FY 2026. These funds are intended for staffing, making pilot programs permanent, technology upgrades, and restoring positions defunded during the pandemic.\",\n\"assumptions_and_methodology\": \"The fiscal projections are based on current circumstances and projected resource needs for the future. Cost estimations are detailed for specific requests, such as continuing programs with expiring funding like the Women’s Court Pilot Project and the Criminal Justice Research Institute. The methodology involves itemizing costs for new positions, technology subscriptions, contracted services, and restoring funding for positions that were previously defunded.\",\n\"agency_impact\": \"The measure will allow the Judiciary to fill 17.0 permanent FTE and 1.0 temporary FTE (HB400) to continue and expand critical operations. It provides funding to make the Women's Court and DWI Court permanent, fully staff the new Wahiawā District Court, and add a much-needed District Court Judge in Kona. These resources will significantly expand capacity to certain operations and restore funding for positions critical to operations.\",\n\"economic_impact\": \"The Women’s Court program's goal is to aid participants in bettering their economic conditions and life circumstances and prevent re-entry into criminality. The Driving While Impaired (DWI) Court Program seeks to reduce recidivism among repeat and high-risk offenders by addressing the underlying cause of impaired driving. Additionally, the Truancy Court and Early Education Intervention Program aims to address chronic school truancy, which supports long-term academic and economic success for students.\",\n\"policy_impact\": \"This bill makes permanent the Women’s Court Pilot Project, which was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot. It also seeks permanent funding for the DWI Court Program, which was initially supported by federal funding. The measure expands judicial services by funding an additional District Court Judge in Kona to address an extraordinary caseload and continues the work of the Criminal Justice Research Institute (CJRI) established by Act 179 (SLH 2019).\",\n\"revenue_sources\": \"The capital improvement projects are to be funded by $11.9M (HB400) in bond funds. Operating resources are an addition of approximately 3% to the Judiciary’s operating budget, implying General Fund appropriations. Some programs, like the DWI Court, were initially supported by federal funding from the National Highway Traffic Safety Administration (NHTSA) but are now seeking permanent state funding.\",\n\"six_year_fiscal_implications\": \"For the 2025-2027 biennium, the Judiciary requests additional operating resources of $6.17M (HB400) in FY 2026 and $6.25M (HB400) in FY 2027, supporting 17.0 permanent and 1.0 temporary FTE. Key recurring annual costs include the Women’s Court at $705,416 (HB400) in both FY 2026 and FY 2027, and the DWI Court Program at $232,412 (HB400) in FY 2026 and $237,612 (HB400) in FY 2027. Cybersecurity upgrades represent a significant recurring expense, with a request for $1,175,300 (HB400) in both FY 2026 and FY 2027 for email security, plus $458,224 (HB400) annually for cybersecurity staff and tools. Staffing for the new Wahiawā District Court totals over $940,000 annually, including requests for security, IT, janitorial, and clerical staff. A new Kona District Court Judge and support staff require $368,943 (HB400) in FY 2026 and $360,048 (HB400) in FY 2027. Funding for the Criminal Justice Research Institute is requested to continue at $512,624 (HB400) in FY 2026 and $577,058 (HB400) in FY 2027 for one position and software, with an additional temporary position costing $71,016 (HB400) each year. These costs are associated with permanent programs and positions, indicating they will become part of the Judiciary's base budget and are expected to continue beyond the biennium.\",\n\"operating_revenue_impact\": \"The provided documents do not describe any anticipated impacts on operating revenues resulting from this measure. The bill focuses on appropriations for the Judiciary's operational and capital improvement needs. There is no mention of new fees, fines, or other revenue-generating mechanisms.\",\n\"capital_expenditure_impact\": \"The Judiciary requests CIP bond funds totaling $11.9 million (HB400) for FY 2026. This includes $4.0 million (HB400) to design a new South Kohala District Courthouse and $900,000 (HB400) to replace an A/C chiller on Kaua‘i. The Judiciary also requests $7.0 million (HB400) in lump sum bond funds, which includes $2.0 million (HB400) to address a shortfall in funding for the relocation of the Children’s Justice Center on Oʻahu.\",\n\"fiscal_implications_after_6_years\": \"Ongoing fiscal obligations will primarily consist of the annualized costs for the 17.0 permanent FTE (HB400) and recurring expenses for programs made permanent by this bill. These costs, including salaries, benefits, and technology subscriptions, will be integrated into the Judiciary's base budget. The Judiciary will be responsible for the continued operation of expanded Specialty Courts and the fully staffed Wahiawā District Court.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the source documents. Therefore, a comparison of updates is not possible.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 16247,
+      "candidates_token_count": 1551,
+      "total_token_count": 19302
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"House Bill No. 400, House Draft 1, appropriates funds for the Judiciary for the 2025–2027 biennium. The bill reflects the Judiciary’s resource requirements, which center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court, add a District Court Judge in Kona, cover cybersecurity costs, and restore funding for essential staffing. The bill's purpose is to appropriate funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027.\",\n\"appropriations\": \"The Judiciary requests additional operating resources in the amount of $6.17M (HB400) in FY 2026, and $6.25M (HB400) in FY 2027, for 17.0 permanent FTE and 1.0 temporary FTE. The Judiciary also requests a total of $11.9M (HB400) in bond funds for capital improvement projects in FY 2026. These funds are intended for staffing, making pilot programs permanent, technology upgrades, and restoring positions defunded during the pandemic.\",\n\"assumptions_and_methodology\": \"The fiscal projections are based on current circumstances and projected resource needs for the future. Cost estimations are detailed for specific requests, such as continuing programs with expiring funding like the Women’s Court Pilot Project and the Criminal Justice Research Institute. The methodology involves itemizing costs for new positions, technology subscriptions, contracted services, and restoring funding for positions that were previously defunded.\",\n\"agency_impact\": \"The measure will allow the Judiciary to fill 17.0 permanent FTE and 1.0 temporary FTE (HB400) to continue and expand critical operations. It provides funding to make the Women's Court and DWI Court permanent, fully staff the new Wahiawā District Court, and add a much-needed District Court Judge in Kona. These resources will significantly expand capacity to certain operations and restore funding for positions critical to operations.\",\n\"economic_impact\": \"The Women’s Court program's goal is to aid participants in bettering their economic conditions and life circumstances and prevent re-entry into criminality. The Driving While Impaired (DWI) Court Program seeks to reduce recidivism among repeat and high-risk offenders by addressing the underlying cause of impaired driving. Additionally, the Truancy Court and Early Education Intervention Program aims to address chronic school truancy, which supports long-term academic and economic success for students.\",\n\"policy_impact\": \"This bill makes permanent the Women’s Court Pilot Project, which was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot. It also seeks permanent funding for the DWI Court Program, which was initially supported by federal funding. The measure expands judicial services by funding an additional District Court Judge in Kona to address an extraordinary caseload and continues the work of the Criminal Justice Research Institute (CJRI) established by Act 179 (SLH 2019).\",\n\"revenue_sources\": \"The capital improvement projects are to be funded by $11.9M (HB400) in bond funds. Operating resources are an addition of approximately 3% to the Judiciary’s operating budget, implying General Fund appropriations. Some programs, like the DWI Court, were initially supported by federal funding from the National Highway Traffic Safety Administration (NHTSA) but are now seeking permanent state funding.\",\n\"six_year_fiscal_implications\": \"For the 2025-2027 biennium, the Judiciary requests additional operating resources of $6.17M (HB400) in FY 2026 and $6.25M (HB400) in FY 2027, supporting 17.0 permanent and 1.0 temporary FTE. Key recurring annual costs include the Women’s Court at $705,416 (HB400) in both FY 2026 and FY 2027, and the DWI Court Program at $232,412 (HB400) in FY 2026 and $237,612 (HB400) in FY 2027. Cybersecurity upgrades represent a significant recurring expense, with a request for $1,175,300 (HB400) in both FY 2026 and FY 2027 for email security, plus $458,224 (HB400) annually for cybersecurity staff and tools. Staffing for the new Wahiawā District Court totals over $940,000 annually, including requests for security, IT, janitorial, and clerical staff. A new Kona District Court Judge and support staff require $368,943 (HB400) in FY 2026 and $360,048 (HB400) in FY 2027. Funding for the Criminal Justice Research Institute is requested to continue at $512,624 (HB400) in FY 2026 and $577,058 (HB400) in FY 2027 for one position and software, with an additional temporary position costing $71,016 (HB400) each year. These costs are associated with permanent programs and positions, indicating they will become part of the Judiciary's base budget and are expected to continue beyond the biennium.\",\n\"operating_revenue_impact\": \"The provided documents do not describe any anticipated impacts on operating revenues resulting from this measure. The bill focuses on appropriations for the Judiciary's operational and capital improvement needs. There is no mention of new fees, fines, or other revenue-generating mechanisms.\",\n\"capital_expenditure_impact\": \"The Judiciary requests CIP bond funds totaling $11.9 million (HB400) for FY 2026. This includes $4.0 million (HB400) to design a new South Kohala District Courthouse and $900,000 (HB400) to replace an A/C chiller on Kaua‘i. The Judiciary also requests $7.0 million (HB400) in lump sum bond funds, which includes $2.0 million (HB400) to address a shortfall in funding for the relocation of the Children’s Justice Center on Oʻahu.\",\n\"fiscal_implications_after_6_years\": \"Ongoing fiscal obligations will primarily consist of the annualized costs for the 17.0 permanent FTE (HB400) and recurring expenses for programs made permanent by this bill. These costs, including salaries, benefits, and technology subscriptions, will be integrated into the Judiciary's base budget. The Judiciary will be responsible for the continued operation of expanded Specialty Courts and the fully staffed Wahiawā District Court.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the source documents. Therefore, a comparison of updates is not possible.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"House Bill No",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": []
+        },
+        {
+          "sentence": "400, House Draft 1, appropriates funds for the Judiciary for the 2025–2027 biennium",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": [
+            400.0,
+            1.0
+          ]
+        },
+        {
+          "sentence": "The bill reflects the Judiciary’s resource requirements, which center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court, add a District Court Judge in Kona, cover cybersecurity costs, and restore funding for essential staffing",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5588235294117647,
+          "attribution_reason": "Word frequency match score: 0.559",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill's purpose is to appropriate funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5454545454545454,
+          "attribution_reason": "Word frequency match score: 0.545",
+          "numbers_found": [
+            1.0,
+            30.0,
+            6.0,
+            7.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"The Judiciary requests additional operating resources in the amount of $6",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8571428571428571,
+          "attribution_reason": "Word frequency match score: 0.857",
+          "numbers_found": [
+            6.0
+          ]
+        },
+        {
+          "sentence": "17M (HB400) in FY 2026, and $6",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 1.000)",
+          "numbers_found": [
+            6.0
+          ]
+        },
+        {
+          "sentence": "25M (HB400) in FY 2027, for 17",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.500)",
+          "numbers_found": [
+            17.0
+          ]
+        },
+        {
+          "sentence": "0 permanent FTE and 1",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "sentence": "0 temporary FTE",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": [
+            0.0
+          ]
+        },
+        {
+          "sentence": "The Judiciary also requests a total of $11",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": [
+            11.0
+          ]
+        },
+        {
+          "sentence": "9M (HB400) in bond funds for capital improvement projects in FY 2026",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 1.000)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "These funds are intended for staffing, making pilot programs permanent, technology upgrades, and restoring positions defunded during the pandemic",
+          "attributed_chunk_id": 10,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.35714285714285715,
+          "attribution_reason": "Word frequency match score: 0.357",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"assumptions_and_methodology\": \"The fiscal projections are based on current circumstances and projected resource needs for the future",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7,
+          "attribution_reason": "Word frequency match score: 0.700",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Cost estimations are detailed for specific requests, such as continuing programs with expiring funding like the Women’s Court Pilot Project and the Criminal Justice Research Institute",
+          "attributed_chunk_id": 9,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3157894736842105,
+          "attribution_reason": "Word frequency match score: 0.316",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The methodology involves itemizing costs for new positions, technology subscriptions, contracted services, and restoring funding for positions that were previously defunded",
+          "attributed_chunk_id": 9,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.26666666666666666,
+          "attribution_reason": "Word frequency match score: 0.267",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"agency_impact\": \"The measure will allow the Judiciary to fill 17",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": [
+            17.0
+          ]
+        },
+        {
+          "sentence": "0 permanent FTE and 1",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "sentence": "0 temporary FTE (HB400) to continue and expand critical operations",
+          "attributed_chunk_id": 11,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.667)",
+          "numbers_found": [
+            0.0
+          ]
+        },
+        {
+          "sentence": "It provides funding to make the Women's Court and DWI Court permanent, fully staff the new Wahiawā District Court, and add a much-needed District Court Judge in Kona",
+          "attributed_chunk_id": 9,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.42857142857142855,
+          "attribution_reason": "Word frequency match score: 0.429",
+          "numbers_found": []
+        },
+        {
+          "sentence": "These resources will significantly expand capacity to certain operations and restore funding for positions critical to operations",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5454545454545454,
+          "attribution_reason": "Word frequency match score: 0.545",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"The Women’s Court program's goal is to aid participants in bettering their economic conditions and life circumstances and prevent re-entry into criminality",
+          "attributed_chunk_id": 15,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7647058823529411,
+          "attribution_reason": "Word frequency match score: 0.765",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Driving While Impaired (DWI) Court Program seeks to reduce recidivism among repeat and high-risk offenders by addressing the underlying cause of impaired driving",
+          "attributed_chunk_id": 17,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1111111111111111,
+          "attribution_reason": "Word frequency match score: 0.111",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Additionally, the Truancy Court and Early Education Intervention Program aims to address chronic school truancy, which supports long-term academic and economic success for students",
+          "attributed_chunk_id": 17,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3,
+          "attribution_reason": "Word frequency match score: 0.300",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"policy_impact\": \"This bill makes permanent the Women’s Court Pilot Project, which was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot",
+          "attributed_chunk_id": 12,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7368421052631579,
+          "attribution_reason": "Word frequency match score: 0.737",
+          "numbers_found": [
+            243.0,
+            22.0
+          ]
+        },
+        {
+          "sentence": "It also seeks permanent funding for the DWI Court Program, which was initially supported by federal funding",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure expands judicial services by funding an additional District Court Judge in Kona to address an extraordinary caseload and continues the work of the Criminal Justice Research Institute (CJRI) established by Act 179 (SLH 2019)",
+          "attributed_chunk_id": 9,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Word frequency match score: 0.375",
+          "numbers_found": [
+            179.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"The capital improvement projects are to be funded by $11",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": [
+            11.0
+          ]
+        },
+        {
+          "sentence": "9M (HB400) in bond funds",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 1.000)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Operating resources are an addition of approximately 3% to the Judiciary’s operating budget, implying General Fund appropriations",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.36363636363636365,
+          "attribution_reason": "Word frequency match score: 0.364",
+          "numbers_found": [
+            3.0
+          ]
+        },
+        {
+          "sentence": "Some programs, like the DWI Court, were initially supported by federal funding from the National Highway Traffic Safety Administration (NHTSA) but are now seeking permanent state funding",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Word frequency match score: 0.200",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"six_year_fiscal_implications\": \"For the 2025-2027 biennium, the Judiciary requests additional operating resources of $6",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7777777777777778,
+          "attribution_reason": "Word frequency match score: 0.778",
+          "numbers_found": [
+            6.0
+          ]
+        },
+        {
+          "sentence": "17M (HB400) in FY 2026 and $6",
+          "attributed_chunk_id": 2,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.500)",
+          "numbers_found": [
+            6.0
+          ]
+        },
+        {
+          "sentence": "25M (HB400) in FY 2027, supporting 17",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.333)",
+          "numbers_found": [
+            17.0
+          ]
+        },
+        {
+          "sentence": "0 permanent and 1",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "sentence": "0 temporary FTE",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": [
+            0.0
+          ]
+        },
+        {
+          "sentence": "Key recurring annual costs include the Women’s Court at $705,416 (HB400) in both FY 2026 and FY 2027, and the DWI Court Program at $232,412 (HB400) in FY 2026 and $237,612 (HB400) in FY 2027",
+          "attributed_chunk_id": 13,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.2777777777777778,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.278)",
+          "numbers_found": [
+            705416.0,
+            232412.0,
+            237612.0
+          ]
+        },
+        {
+          "sentence": "Cybersecurity upgrades represent a significant recurring expense, with a request for $1,175,300 (HB400) in both FY 2026 and FY 2027 for email security, plus $458,224 (HB400) annually for cybersecurity staff and tools",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.10526315789473684,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.105)",
+          "numbers_found": [
+            458224.0,
+            1175300.0
+          ]
+        },
+        {
+          "sentence": "Staffing for the new Wahiawā District Court totals over $940,000 annually, including requests for security, IT, janitorial, and clerical staff",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4375,
+          "attribution_reason": "Word frequency match score: 0.438",
+          "numbers_found": [
+            940000.0
+          ]
+        },
+        {
+          "sentence": "A new Kona District Court Judge and support staff require $368,943 (HB400) in FY 2026 and $360,048 (HB400) in FY 2027",
+          "attributed_chunk_id": 9,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.500)",
+          "numbers_found": [
+            360048.0,
+            368943.0
+          ]
+        },
+        {
+          "sentence": "Funding for the Criminal Justice Research Institute is requested to continue at $512,624 (HB400) in FY 2026 and $577,058 (HB400) in FY 2027 for one position and software, with an additional temporary position costing $71,016 (HB400) each year",
+          "attributed_chunk_id": 11,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.333)",
+          "numbers_found": [
+            512624.0,
+            577058.0,
+            71016.0
+          ]
+        },
+        {
+          "sentence": "These costs are associated with permanent programs and positions, indicating they will become part of the Judiciary's base budget and are expected to continue beyond the biennium",
+          "attributed_chunk_id": 10,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"The provided documents do not describe any anticipated impacts on operating revenues resulting from this measure",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.07692307692307693,
+          "attribution_reason": "Word frequency match score: 0.077",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill focuses on appropriations for the Judiciary's operational and capital improvement needs",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Word frequency match score: 0.375",
+          "numbers_found": []
+        },
+        {
+          "sentence": "There is no mention of new fees, fines, or other revenue-generating mechanisms",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1111111111111111,
+          "attribution_reason": "Word frequency match score: 0.111",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"capital_expenditure_impact\": \"The Judiciary requests CIP bond funds totaling $11",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Word frequency match score: 0.625",
+          "numbers_found": [
+            11.0
+          ]
+        },
+        {
+          "sentence": "9 million (HB400) for FY 2026",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.500)",
+          "numbers_found": [
+            9.0
+          ]
+        },
+        {
+          "sentence": "This includes $4",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": [
+            4.0
+          ]
+        },
+        {
+          "sentence": "0 million (HB400) to design a new South Kohala District Courthouse and $900,000 (HB400) to replace an A/C chiller on Kaua‘i",
+          "attributed_chunk_id": 8,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.18181818181818182,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.182)",
+          "numbers_found": [
+            900000.0,
+            0.0
+          ]
+        },
+        {
+          "sentence": "The Judiciary also requests $7",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Word frequency match score: 1.000",
+          "numbers_found": [
+            7.0
+          ]
+        },
+        {
+          "sentence": "0 million (HB400) in lump sum bond funds, which includes $2",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7142857142857143,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.714)",
+          "numbers_found": [
+            0.0,
+            2.0
+          ]
+        },
+        {
+          "sentence": "0 million (HB400) to address a shortfall in funding for the relocation of the Children’s Justice Center on Oʻahu",
+          "attributed_chunk_id": 6,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.4444444444444444,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.444)",
+          "numbers_found": [
+            0.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"fiscal_implications_after_6_years\": \"Ongoing fiscal obligations will primarily consist of the annualized costs for the 17",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.125,
+          "attribution_reason": "Word frequency match score: 0.125",
+          "numbers_found": [
+            17.0
+          ]
+        },
+        {
+          "sentence": "0 permanent FTE (HB400) and recurring expenses for programs made permanent by this bill",
+          "attributed_chunk_id": 2,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.375)",
+          "numbers_found": [
+            0.0
+          ]
+        },
+        {
+          "sentence": "These costs, including salaries, benefits, and technology subscriptions, will be integrated into the Judiciary's base budget",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.18181818181818182,
+          "attribution_reason": "Word frequency match score: 0.182",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Judiciary will be responsible for the continued operation of expanded Specialty Courts and the fully staffed Wahiawā District Court",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5833333333333334,
+          "attribution_reason": "Word frequency match score: 0.583",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the source documents",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Word frequency match score: 0.143",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Therefore, a comparison of updates is not possible",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Word frequency match score: 0.200",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 0,
+          "document_name": "HB400",
+          "attribution_reasons": []
+        },
+        "1": {
+          "usage_count": 3,
+          "document_name": "HB400",
+          "attribution_reasons": [
+            "Word frequency match score: 0.667",
+            "Word frequency match score: 1.000",
+            "Word frequency match score: 0.545"
+          ]
+        },
+        "2": {
+          "usage_count": 14,
+          "document_name": "HB400",
+          "attribution_reasons": [
+            "Word frequency match score: 0.857",
+            "Word frequency match score: 1.000",
+            "Word frequency match score: 1.000",
+            "Word frequency match score: 0.700",
+            "Word frequency match score: 1.000",
+            "Word frequency match score: 0.778",
+            "Document citation + word frequency: HB400 (score: 0.500)",
+            "Word frequency match score: 1.000",
+            "Word frequency match score: 1.000",
+            "Word frequency match score: 0.077",
+            "Word frequency match score: 0.375",
+            "Word frequency match score: 0.125",
+            "Document citation + word frequency: HB400 (score: 0.375)",
+            "Word frequency match score: 0.143"
+          ]
+        },
+        "3": {
+          "usage_count": 7,
+          "document_name": "HB400",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB400 (score: 1.000)",
+            "Document citation + word frequency: HB400 (score: 0.500)",
+            "Word frequency match score: 0.364",
+            "Word frequency match score: 0.200",
+            "Document citation + word frequency: HB400 (score: 0.333)",
+            "Word frequency match score: 0.182",
+            "Word frequency match score: 0.200"
+          ]
+        },
+        "4": {
+          "usage_count": 2,
+          "document_name": "HB400",
+          "attribution_reasons": [
+            "Word frequency match score: 0.333",
+            "Word frequency match score: 1.000"
+          ]
+        },
+        "5": {
+          "usage_count": 10,
+          "document_name": "HB400",
+          "attribution_reasons": [
+            "Word frequency match score: 1.000",
+            "Document citation + word frequency: HB400 (score: 1.000)",
+            "Word frequency match score: 0.400",
+            "Word frequency match score: 0.667",
+            "Document citation + word frequency: HB400 (score: 1.000)",
+            "Document citation + word frequency: HB400 (score: 0.105)",
+            "Word frequency match score: 0.625",
+            "Document citation + word frequency: HB400 (score: 0.500)",
+            "Word frequency match score: 1.000",
+            "Document citation + word frequency: HB400 (score: 0.714)"
+          ]
+        },
+        "6": {
+          "usage_count": 2,
+          "document_name": "HB400",
+          "attribution_reasons": [
+            "Word frequency match score: 0.111",
+            "Document citation + word frequency: HB400 (score: 0.444)"
+          ]
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB400",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 4,
+          "document_name": "HB400",
+          "attribution_reasons": [
+            "Word frequency match score: 0.559",
+            "Word frequency match score: 0.438",
+            "Document citation + word frequency: HB400 (score: 0.182)",
+            "Word frequency match score: 0.583"
+          ]
+        },
+        "9": {
+          "usage_count": 5,
+          "document_name": "HB400",
+          "attribution_reasons": [
+            "Word frequency match score: 0.316",
+            "Word frequency match score: 0.267",
+            "Word frequency match score: 0.429",
+            "Word frequency match score: 0.375",
+            "Document citation + word frequency: HB400 (score: 0.500)"
+          ]
+        },
+        "10": {
+          "usage_count": 2,
+          "document_name": "HB400",
+          "attribution_reasons": [
+            "Word frequency match score: 0.357",
+            "Word frequency match score: 0.250"
+          ]
+        },
+        "11": {
+          "usage_count": 3,
+          "document_name": "HB400",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB400 (score: 0.667)",
+            "Word frequency match score: 0.545",
+            "Document citation + word frequency: HB400 (score: 0.333)"
+          ]
+        },
+        "12": {
+          "usage_count": 1,
+          "document_name": "HB400",
+          "attribution_reasons": [
+            "Word frequency match score: 0.737"
+          ]
+        },
+        "13": {
+          "usage_count": 1,
+          "document_name": "HB400",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB400 (score: 0.278)"
+          ]
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB400",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 1,
+          "document_name": "HB400",
+          "attribution_reasons": [
+            "Word frequency match score: 0.765"
+          ]
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB400",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 2,
+          "document_name": "HB400",
+          "attribution_reasons": [
+            "Word frequency match score: 0.111",
+            "Word frequency match score: 0.300"
+          ]
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB400",
+          "attribution_reasons": []
+        },
+        "NUMBER_9900000.0": {
+          "usage_count": 0,
+          "document_name": "HB400_.HTM.txt",
+          "attribution_reasons": []
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 16,
+        "number_based": 0,
+        "word_frequency_based": 41,
+        "semantic_similarity": 0,
+        "fallback": 0,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 19,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB400",
+          "chunk_text": "The Judiciary, State of Hawai‘i Testimony to the Thirty-Third State Legislature 2025 Regular Session Senate Committee on Judiciary Senator Karl Rhoads, Chair Senator Mike Gabbard, Vice Chair Wednesday, March 19, 2025, 9:45 a.m. State Capitol, Conference Room 016 and Videoconference by: Brandon M. Kimura Policy and Planning Department Director Bill",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB400",
+          "chunk_text": "by: Brandon M. Kimura Policy and Planning Department Director Bill No. and Title: House Bill No. 400, House Draft 1, Relating to the Judiciary. Purpose: Appropriates funds for the Judiciary for the 2025–2027 biennium. Judiciary’s Position: The Judiciary strongly urges your support of House Bill No. 400, House Draft 1,",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB400",
+          "chunk_text": "your support of House Bill No. 400, House Draft 1, which reflects the Judiciary’s resource requirements for Fiscal Biennium 2025–2027. Based on current circumstances and projected resource needs for the future, the Judiciary requests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary FTE, and $6.17M",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB400",
+          "chunk_text": "of 17.0 permanent FTE and 1.0 temporary FTE, and $6.17M in FY 2026, and $6.25M in FY 2027. This is an addition of approximately 3% to the Judiciary’s operating budget. The Judiciary remains vigilant during this period of uncertainty over federal funding and the possible impact on the State and",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB400",
+          "chunk_text": "federal funding and the possible impact on the State and Judiciary budgets and operations. We have assessed federally-funded grant projects of the Judiciary and are committed to ongoing communication with the Legislature and with local non-governmental partners of the Judiciary who rely on federal funding. The Judiciary also requests a",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB400",
+          "chunk_text": "who rely on federal funding. The Judiciary also requests a total of $11.9M in bond funds for capital improvement projects in FY 2026. This amount in bond funds, reflected in House Draft 1, includes a request for $2M more in lump sum than the measure as introduced. This is because",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB400",
+          "chunk_text": "lump sum than the measure as introduced. This is because the Judiciary received new information that the relocation of the Children’s Justice Center on O‘ahu will require at least $2M more than previously appropriated. These circumstances are detailed further below, and the House Bill No. 400, House Draft 1, Relating",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB400",
+          "chunk_text": "and the House Bill No. 400, House Draft 1, Relating to the Judiciary Senate Committee on Judiciary Wednesday, March 19, 2025 Page 2 Judiciary appreciates both the House for including this additional amount in House Draft 1, and this Senate Committee on Judiciary for considering this and previously including this",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB400",
+          "chunk_text": "Committee on Judiciary for considering this and previously including this in the companion measure, Senate Bill 260, Senate Draft 1. Operating Requests: Operating resource requests center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court that will open during",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB400",
+          "chunk_text": "staff the new Wahiawā District Court that will open during this biennium, an additional District Court Judge and support staff in Kona, cybersecurity and critical technology costs, funding for the Criminal Justice Research Institute (CJRI), and restoration of funding for essential staffing that was defunded during the early part of",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB400",
+          "chunk_text": "essential staffing that was defunded during the early part of the COVID-19 pandemic. As for positions, nine of the 18 (17.0 permanent and 1.0 temporary) are requested to continue current staffing. This is because seven temporary positions for the Women’s Court Pilot Project, along with one permanent position and one",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB400",
+          "chunk_text": "Court Pilot Project, along with one permanent position and one temporary position for the CJRI, will expire, but there are compelling reasons to continue these programs and the necessary staffing. The remaining requested positions will significantly expand capacity to certain operations. Brief details of each request are provided below: Women’s",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB400",
+          "chunk_text": "operations. Brief details of each request are provided below: Women’s Court – The Women’s Court Pilot Project was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot that included seven temporary positions, which are set to expire at the end of FY 2025.",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB400",
+          "chunk_text": "are set to expire at the end of FY 2025. The request of $705,416 in FY 2026 and $705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s Court. The Women’s Court, also known as Mohala Wahine, was created to address the rapid growth in the",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB400",
+          "chunk_text": "Wahine, was created to address the rapid growth in the incarceration of women in the United States by providing comprehensive court- supervised treatment, opportunities, and resources as an alternative to incarceration for women in the criminal justice system who have suffered trauma, abuse, poverty, mental illness, substance use disorders, and/or",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB400",
+          "chunk_text": "suffered trauma, abuse, poverty, mental illness, substance use disorders, and/or unhealthy relationships. The goal of the program is for the participants to identify and address issues, to prevent re-entry into criminality, and to aid the participants in bettering their economic conditions and life circumstances. Given the need for the program,",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB400",
+          "chunk_text": "conditions and life circumstances. Given the need for the program, a strong start as a three-year pilot created by the Legislature, and that the program (and positions and funding) will expire at the end of FY 2025, the Judiciary requests funding and eight positions (a net increase of one), including",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB400",
+          "chunk_text": "funding and eight positions (a net increase of one), including one substance use counselor. Truancy Court and Early Education Intervention Program (EEIP) – The Judiciary requests funding of $188,388 in FY 2026 and $183,288 in FY 2027 to restore funding for three redescribed Social Worker positions and additional expenses to",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB400",
+          "chunk_text": "for three redescribed Social Worker positions and additional expenses to significantly expand the Truancy Court and EEIP on O‘ahu. Truancy Court and EEIP are designed to identify and address, where possible, the difficulties underlyi",
+          "start_word": 720,
+          "end_word": 754,
+          "word_count": 34
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "enter into the undertaking with the federal government, private organization, or individual. SECTION 6. Provided that the judiciary may transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash flow deficits. PART IV. CAPITAL IMPROVEMENT PROJECTS SECTION 7. The sum of $9,900,000 appropriated or authorized in part II of this Act for capital improvement projects shall be expended by the judiciary for the projects listed below; provided that several related or similar projects may be combined into a single project, if a combination is advantageous or convenient for implementation; provided further that",
+        "number": 9900000.0,
+        "filename": "HB400_.HTM.txt",
+        "document_type": "document"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:05:47.188768",
+  "generation_timestamp_unix": 1760144747.188782
+}

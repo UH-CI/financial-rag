@@ -1,0 +1,762 @@
+{
+  "document_name": "HB933",
+  "new_documents_processed": [
+    "HB933"
+  ],
+  "all_documents_processed_so_far": [
+    "HB933"
+  ],
+  "numbers_used": 2,
+  "prompt_length": 28480,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"H.B. No. 933 reduces the general excise tax (GET) rate on the proceeds received from the sale of groceries eligible for purchase under the supplemental nutrition assistance program (SNAP) and special supplemental nutrition program for women, infants, and children (WIC), regardless of the means of purchase and the eligibility of the purchaser. The bill also imposes a reduced GET rate on the gross proceeds or income received from the sale of nonprescription drugs. Additionally, the measure requires the Department of Business, Economic Development, and Tourism (DBEDT) to conduct an economic cost-benefit analysis on the general excise tax reductions.\",\n\"appropriations\": \"The provided legislative documents and testimonies do not specify any appropriations for this measure. No funding is allocated for staffing, training, contracts, or technology. The bill focuses on tax rate reductions rather than direct spending.\",\n\"assumptions_and_methodology\": \"The documents do not provide a detailed methodology for calculating the financial projections of this measure. The bill requires the Department of Business, Economic Development, and Tourism to conduct an economic cost-benefit analysis on the bill’s general excise tax reductions for calendar year 2026, to be submitted prior to the 2027 regular session. The Hawaii Department of Taxation director estimated in 2022 that exempting groceries from the general excise tax could save taxpayers $268 million (HB933).\",\n\"agency_impact\": \"The Department of Taxation (DOTAX) notes that the measure may complicate reporting for taxpayers and businesses, who will need to track and report receipts of sales subject to the proposed reduced rates separately. DOTAX requests the measure take effect on January 1, 2027 to allow for form and instruction changes and for businesses to update their accounting systems. The Department of Business, Economic Development, and Tourism (DBEDT) is required to conduct an economic cost-benefit analysis on the GET reductions.\",\n\"economic_impact\": \"Reducing the general excise tax on groceries and nonprescription drugs is intended to have an immediate positive effect on the cost of living by making these items more affordable. It is estimated that Hawai‘i’s 4.5% GET adds an estimated $773 per year in additional costs for a family of four under the USDA’s Thrifty Food Plan (HB933). A similar sales tax exemption for groceries in Georgia was estimated to have created more than 5,000 jobs and an additional $807 million in economic output (HB933).\",\n\"policy_impact\": \"This bill adds two new sections to chapter 237, Hawaii Revised Statutes (HRS), to establish a reduced general excise tax rate for specific goods. The measure is intended to address the high cost of living in Hawaii and complements existing GET exemptions for prescription drugs and purchases made with SNAP benefits. The policy is described as less regressive, as it is intended to help low and middle-income individuals and families the hardest hit by the GET.\",\n\"revenue_sources\": \"The provided documents do not identify any new revenue sources to support this measure. The bill proposes a reduction in the general excise tax rate for certain goods. This will result in a decrease in revenue collected for the state's general fund.\",\n\"six_year_fiscal_implications\": \"The six-year fiscal implication of this measure is a recurring reduction in state general fund revenues due to the lower general excise tax (GET) rate on eligible groceries and nonprescription drugs. The measure has a proposed effective date of July 1, 2025 (HB933). However, the Department of Taxation (DOTAX) has requested the effective date be changed to January 1, 2027, to allow time for implementation, which would delay the fiscal impact. The Department of Business, Economic Development, and Tourism (DBEDT) is required to conduct an economic cost-benefit analysis for calendar year 2026, which will provide more detailed financial projections before the 2027 legislative session. While the exact revenue loss is not specified for this bill's proposed rate reduction, the Hawaii Department of Taxation director estimated in 2022 that fully exempting groceries from the GET could save taxpayers $268 million (HB933), indicating a substantial potential impact on state revenues. This reduction in GET collections would be ongoing and permanent, affecting the state's budget in each of the six years and beyond. The bill does not include a sunset clause, so the fiscal implications are expected to continue indefinitely. The administrative costs for DOTAX to implement these changes would be incurred in the fiscal years leading up to the effective date. Businesses would also incur costs to update their accounting systems to comply with the new dual-rate structure.\",\n\"operating_revenue_impact\": \"This measure will reduce the state's operating revenue. The bill reduces the general excise tax rate by one-half percent for groceries eligible under SNAP and WIC and for nonprescription drugs. This will directly decrease the amount of tax revenue collected by the state from the sale of these goods.\",\n\"capital_expenditure_impact\": \"The provided documents do not indicate any capital expenditures related to this measure. No investments in facilities, equipment, or technology infrastructure are mentioned. The primary costs are administrative and related to changes in tax forms and systems.\",\n\"fiscal_implications_after_6_years\": \"The fiscal implications after six years will be an ongoing annual reduction in general excise tax revenue for the State of Hawaii. As the proposed GET rate reductions are not subject to a sunset clause, the lower tax collections on eligible groceries and nonprescription drugs will be permanent. The continued impact on state revenues will depend on future sales volumes of these goods.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the context documents. Therefore, a summary of updates cannot be generated.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 9441,
+      "candidates_token_count": 1235,
+      "total_token_count": 12047
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"H.B. No. 933 reduces the general excise tax (GET) rate on the proceeds received from the sale of groceries eligible for purchase under the supplemental nutrition assistance program (SNAP) and special supplemental nutrition program for women, infants, and children (WIC), regardless of the means of purchase and the eligibility of the purchaser. The bill also imposes a reduced GET rate on the gross proceeds or income received from the sale of nonprescription drugs. Additionally, the measure requires the Department of Business, Economic Development, and Tourism (DBEDT) to conduct an economic cost-benefit analysis on the general excise tax reductions.\",\n\"appropriations\": \"The provided legislative documents and testimonies do not specify any appropriations for this measure. No funding is allocated for staffing, training, contracts, or technology. The bill focuses on tax rate reductions rather than direct spending.\",\n\"assumptions_and_methodology\": \"The documents do not provide a detailed methodology for calculating the financial projections of this measure. The bill requires the Department of Business, Economic Development, and Tourism to conduct an economic cost-benefit analysis on the bill’s general excise tax reductions for calendar year 2026, to be submitted prior to the 2027 regular session. The Hawaii Department of Taxation director estimated in 2022 that exempting groceries from the general excise tax could save taxpayers $268 million (HB933).\",\n\"agency_impact\": \"The Department of Taxation (DOTAX) notes that the measure may complicate reporting for taxpayers and businesses, who will need to track and report receipts of sales subject to the proposed reduced rates separately. DOTAX requests the measure take effect on January 1, 2027 to allow for form and instruction changes and for businesses to update their accounting systems. The Department of Business, Economic Development, and Tourism (DBEDT) is required to conduct an economic cost-benefit analysis on the GET reductions.\",\n\"economic_impact\": \"Reducing the general excise tax on groceries and nonprescription drugs is intended to have an immediate positive effect on the cost of living by making these items more affordable. It is estimated that Hawai‘i’s 4.5% GET adds an estimated $773 per year in additional costs for a family of four under the USDA’s Thrifty Food Plan (HB933). A similar sales tax exemption for groceries in Georgia was estimated to have created more than 5,000 jobs and an additional $807 million in economic output (HB933).\",\n\"policy_impact\": \"This bill adds two new sections to chapter 237, Hawaii Revised Statutes (HRS), to establish a reduced general excise tax rate for specific goods. The measure is intended to address the high cost of living in Hawaii and complements existing GET exemptions for prescription drugs and purchases made with SNAP benefits. The policy is described as less regressive, as it is intended to help low and middle-income individuals and families the hardest hit by the GET.\",\n\"revenue_sources\": \"The provided documents do not identify any new revenue sources to support this measure. The bill proposes a reduction in the general excise tax rate for certain goods. This will result in a decrease in revenue collected for the state's general fund.\",\n\"six_year_fiscal_implications\": \"The six-year fiscal implication of this measure is a recurring reduction in state general fund revenues due to the lower general excise tax (GET) rate on eligible groceries and nonprescription drugs. The measure has a proposed effective date of July 1, 2025 (HB933). However, the Department of Taxation (DOTAX) has requested the effective date be changed to January 1, 2027, to allow time for implementation, which would delay the fiscal impact. The Department of Business, Economic Development, and Tourism (DBEDT) is required to conduct an economic cost-benefit analysis for calendar year 2026, which will provide more detailed financial projections before the 2027 legislative session. While the exact revenue loss is not specified for this bill's proposed rate reduction, the Hawaii Department of Taxation director estimated in 2022 that fully exempting groceries from the GET could save taxpayers $268 million (HB933), indicating a substantial potential impact on state revenues. This reduction in GET collections would be ongoing and permanent, affecting the state's budget in each of the six years and beyond. The bill does not include a sunset clause, so the fiscal implications are expected to continue indefinitely. The administrative costs for DOTAX to implement these changes would be incurred in the fiscal years leading up to the effective date. Businesses would also incur costs to update their accounting systems to comply with the new dual-rate structure.\",\n\"operating_revenue_impact\": \"This measure will reduce the state's operating revenue. The bill reduces the general excise tax rate by one-half percent for groceries eligible under SNAP and WIC and for nonprescription drugs. This will directly decrease the amount of tax revenue collected by the state from the sale of these goods.\",\n\"capital_expenditure_impact\": \"The provided documents do not indicate any capital expenditures related to this measure. No investments in facilities, equipment, or technology infrastructure are mentioned. The primary costs are administrative and related to changes in tax forms and systems.\",\n\"fiscal_implications_after_6_years\": \"The fiscal implications after six years will be an ongoing annual reduction in general excise tax revenue for the State of Hawaii. As the proposed GET rate reductions are not subject to a sunset clause, the lower tax collections on eligible groceries and nonprescription drugs will be permanent. The continued impact on state revenues will depend on future sales volumes of these goods.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the context documents. Therefore, a summary of updates cannot be generated.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"H",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "B. No. 933 reduces the general excise tax (GET) rate on the proceeds received from the sale of groceries eligible for purchase under the supplemental nutrition assistance program (SNAP) and special supplemental nutrition program for women, infants, and children (WIC), regardless of the means of purchase and the eligibility of the purchaser",
+          "attributed_chunk_id": 13,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8666666666666667,
+          "attribution_reason": "Word frequency match score: 0.867",
+          "numbers_found": [
+            933.0
+          ]
+        },
+        {
+          "sentence": "The bill also imposes a reduced GET rate on the gross proceeds or income received from the sale of nonprescription drugs",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8571428571428571,
+          "attribution_reason": "Word frequency match score: 0.857",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Additionally, the measure requires the Department of Business, Economic Development, and Tourism (DBEDT) to conduct an economic cost-benefit analysis on the general excise tax reductions",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.9411764705882353,
+          "attribution_reason": "Word frequency match score: 0.941",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"appropriations\": \"The provided legislative documents and testimonies do not specify any appropriations for this measure",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1,
+          "attribution_reason": "Word frequency match score: 0.100",
+          "numbers_found": []
+        },
+        {
+          "sentence": "No funding is allocated for staffing, training, contracts, or technology",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill focuses on tax rate reductions rather than direct spending",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"assumptions_and_methodology\": \"The documents do not provide a detailed methodology for calculating the financial projections of this measure",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Word frequency match score: 0.200",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill requires the Department of Business, Economic Development, and Tourism to conduct an economic cost-benefit analysis on the bill’s general excise tax reductions for calendar year 2026, to be submitted prior to the 2027 regular session",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.68,
+          "attribution_reason": "Word frequency match score: 0.680",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Hawaii Department of Taxation director estimated in 2022 that exempting groceries from the general excise tax could save taxpayers $268 million (HB933)",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Document citation + word frequency: HB933 (score: 0.375)",
+          "numbers_found": [
+            268.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"agency_impact\": \"The Department of Taxation (DOTAX) notes that the measure may complicate reporting for taxpayers and businesses, who will need to track and report receipts of sales subject to the proposed reduced rates separately",
+          "attributed_chunk_id": 9,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.85,
+          "attribution_reason": "Word frequency match score: 0.850",
+          "numbers_found": []
+        },
+        {
+          "sentence": "DOTAX requests the measure take effect on January 1, 2027 to allow for form and instruction changes and for businesses to update their accounting systems",
+          "attributed_chunk_id": 10,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.9375,
+          "attribution_reason": "Word frequency match score: 0.938",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "The Department of Business, Economic Development, and Tourism (DBEDT) is required to conduct an economic cost-benefit analysis on the GET reductions",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8461538461538461,
+          "attribution_reason": "Word frequency match score: 0.846",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"Reducing the general excise tax on groceries and nonprescription drugs is intended to have an immediate positive effect on the cost of living by making these items more affordable",
+          "attributed_chunk_id": 14,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "It is estimated that Hawai‘i’s 4",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": [
+            4.0
+          ]
+        },
+        {
+          "sentence": "5% GET adds an estimated $773 per year in additional costs for a family of four under the USDA’s Thrifty Food Plan (HB933)",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Document citation + word frequency: HB933 (score: 0.200)",
+          "numbers_found": [
+            5.0,
+            773.0
+          ]
+        },
+        {
+          "sentence": "A similar sales tax exemption for groceries in Georgia was estimated to have created more than 5,000 jobs and an additional $807 million in economic output (HB933)",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.11764705882352941,
+          "attribution_reason": "Document citation + word frequency: HB933 (score: 0.118)",
+          "numbers_found": [
+            5000.0,
+            807.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"policy_impact\": \"This bill adds two new sections to chapter 237, Hawaii Revised Statutes (HRS), to establish a reduced general excise tax rate for specific goods",
+          "attributed_chunk_id": 2,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.47368421052631576,
+          "attribution_reason": "Word frequency match score: 0.474",
+          "numbers_found": [
+            237.0
+          ]
+        },
+        {
+          "sentence": "The measure is intended to address the high cost of living in Hawaii and complements existing GET exemptions for prescription drugs and purchases made with SNAP benefits",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.17647058823529413,
+          "attribution_reason": "Word frequency match score: 0.176",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The policy is described as less regressive, as it is intended to help low and middle-income individuals and families the hardest hit by the GET",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.21428571428571427,
+          "attribution_reason": "Word frequency match score: 0.214",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"The provided documents do not identify any new revenue sources to support this measure",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.18181818181818182,
+          "attribution_reason": "Word frequency match score: 0.182",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill proposes a reduction in the general excise tax rate for certain goods",
+          "attributed_chunk_id": 12,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This will result in a decrease in revenue collected for the state's general fund",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Word frequency match score: 0.286",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"six_year_fiscal_implications\": \"The six-year fiscal implication of this measure is a recurring reduction in state general fund revenues due to the lower general excise tax (GET) rate on eligible groceries and nonprescription drugs",
+          "attributed_chunk_id": 14,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3181818181818182,
+          "attribution_reason": "Word frequency match score: 0.318",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure has a proposed effective date of July 1, 2025 (HB933)",
+          "attributed_chunk_id": 8,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8333333333333334,
+          "attribution_reason": "Document citation + word frequency: HB933 (score: 0.833)",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "However, the Department of Taxation (DOTAX) has requested the effective date be changed to January 1, 2027, to allow time for implementation, which would delay the fiscal impact",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "The Department of Business, Economic Development, and Tourism (DBEDT) is required to conduct an economic cost-benefit analysis for calendar year 2026, which will provide more detailed financial projections before the 2027 legislative session",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4166666666666667,
+          "attribution_reason": "Word frequency match score: 0.417",
+          "numbers_found": []
+        },
+        {
+          "sentence": "While the exact revenue loss is not specified for this bill's proposed rate reduction, the Hawaii Department of Taxation director estimated in 2022 that fully exempting groceries from the GET could save taxpayers $268 million (HB933), indicating a substantial potential impact on state revenues",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.1935483870967742,
+          "attribution_reason": "Document citation + word frequency: HB933 (score: 0.194)",
+          "numbers_found": [
+            268.0
+          ]
+        },
+        {
+          "sentence": "This reduction in GET collections would be ongoing and permanent, affecting the state's budget in each of the six years and beyond",
+          "attributed_chunk_id": 14,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Word frequency match score: 0.167",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill does not include a sunset clause, so the fiscal implications are expected to continue indefinitely",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.09090909090909091,
+          "attribution_reason": "Word frequency match score: 0.091",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The administrative costs for DOTAX to implement these changes would be incurred in the fiscal years leading up to the effective date",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2727272727272727,
+          "attribution_reason": "Word frequency match score: 0.273",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Businesses would also incur costs to update their accounting systems to comply with the new dual-rate structure",
+          "attributed_chunk_id": 10,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5384615384615384,
+          "attribution_reason": "Word frequency match score: 0.538",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"This measure will reduce the state's operating revenue",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The bill reduces the general excise tax rate by one-half percent for groceries eligible under SNAP and WIC and for nonprescription drugs",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5625,
+          "attribution_reason": "Word frequency match score: 0.562",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This will directly decrease the amount of tax revenue collected by the state from the sale of these goods",
+          "attributed_chunk_id": 14,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"capital_expenditure_impact\": \"The provided documents do not indicate any capital expenditures related to this measure",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1,
+          "attribution_reason": "Word frequency match score: 0.100",
+          "numbers_found": []
+        },
+        {
+          "sentence": "No investments in facilities, equipment, or technology infrastructure are mentioned",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The primary costs are administrative and related to changes in tax forms and systems",
+          "attributed_chunk_id": 11,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Word frequency match score: 0.375",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"fiscal_implications_after_6_years\": \"The fiscal implications after six years will be an ongoing annual reduction in general excise tax revenue for the State of Hawaii",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.26666666666666666,
+          "attribution_reason": "Word frequency match score: 0.267",
+          "numbers_found": []
+        },
+        {
+          "sentence": "As the proposed GET rate reductions are not subject to a sunset clause, the lower tax collections on eligible groceries and nonprescription drugs will be permanent",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.375,
+          "attribution_reason": "Word frequency match score: 0.375",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The continued impact on state revenues will depend on future sales volumes of these goods",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the context documents",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Therefore, a summary of updates cannot be generated",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 7,
+          "document_name": "HB933",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 6,
+          "document_name": "HB933",
+          "attribution_reasons": [
+            "Word frequency match score: 0.100",
+            "Word frequency match score: 0.286",
+            "Word frequency match score: 0.250",
+            "Word frequency match score: 0.333",
+            "Word frequency match score: 0.100",
+            "Word frequency match score: 0.267"
+          ]
+        },
+        "2": {
+          "usage_count": 1,
+          "document_name": "HB933",
+          "attribution_reasons": [
+            "Word frequency match score: 0.474"
+          ]
+        },
+        "3": {
+          "usage_count": 6,
+          "document_name": "HB933",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB933 (score: 0.375)",
+            "Document citation + word frequency: HB933 (score: 0.118)",
+            "Word frequency match score: 0.176",
+            "Document citation + word frequency: HB933 (score: 0.194)",
+            "Word frequency match score: 0.562",
+            "Word frequency match score: 0.375"
+          ]
+        },
+        "4": {
+          "usage_count": 2,
+          "document_name": "HB933",
+          "attribution_reasons": [
+            "Word frequency match score: 0.333",
+            "Word frequency match score: 0.091"
+          ]
+        },
+        "5": {
+          "usage_count": 1,
+          "document_name": "HB933",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB933 (score: 0.200)"
+          ]
+        },
+        "6": {
+          "usage_count": 2,
+          "document_name": "HB933",
+          "attribution_reasons": [
+            "Word frequency match score: 0.857",
+            "Word frequency match score: 0.214"
+          ]
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB933",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 6,
+          "document_name": "HB933",
+          "attribution_reasons": [
+            "Word frequency match score: 0.941",
+            "Word frequency match score: 0.680",
+            "Word frequency match score: 0.846",
+            "Document citation + word frequency: HB933 (score: 0.833)",
+            "Word frequency match score: 0.417",
+            "Word frequency match score: 0.273"
+          ]
+        },
+        "9": {
+          "usage_count": 1,
+          "document_name": "HB933",
+          "attribution_reasons": [
+            "Word frequency match score: 0.850"
+          ]
+        },
+        "10": {
+          "usage_count": 2,
+          "document_name": "HB933",
+          "attribution_reasons": [
+            "Word frequency match score: 0.938",
+            "Word frequency match score: 0.538"
+          ]
+        },
+        "11": {
+          "usage_count": 3,
+          "document_name": "HB933",
+          "attribution_reasons": [
+            "Word frequency match score: 0.200",
+            "Word frequency match score: 0.182",
+            "Word frequency match score: 0.375"
+          ]
+        },
+        "12": {
+          "usage_count": 1,
+          "document_name": "HB933",
+          "attribution_reasons": [
+            "Word frequency match score: 0.667"
+          ]
+        },
+        "13": {
+          "usage_count": 1,
+          "document_name": "HB933",
+          "attribution_reasons": [
+            "Word frequency match score: 0.867"
+          ]
+        },
+        "14": {
+          "usage_count": 4,
+          "document_name": "HB933",
+          "attribution_reasons": [
+            "Word frequency match score: 0.333",
+            "Word frequency match score: 0.318",
+            "Word frequency match score: 0.167",
+            "Word frequency match score: 0.400"
+          ]
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB933",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB933",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB933",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB933",
+          "attribution_reasons": []
+        },
+        "NUMBER_1794.6": {
+          "usage_count": 0,
+          "document_name": "HB933_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_800.0": {
+          "usage_count": 0,
+          "document_name": "HB933_.HTM.txt",
+          "attribution_reasons": []
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 5,
+        "number_based": 0,
+        "word_frequency_based": 31,
+        "semantic_similarity": 0,
+        "fallback": 7,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 19,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB933",
+          "chunk_text": "JOSH GREEN M.D. GOVERNOR SYLVIA LUKE LT. GOVERNOR STATE OF HAWAI‘I DEPARTMENT OF TAXATION Ka ‘Oihana ‘Auhau P.O. BOX 259 HONOLULU, HAWAI‘I 96809 PHONE NO: (808) 587-1540 FAX NO: (808) 587-1560 GARY S. SUGANUMA DIRECTOR KRISTEN M.R. SAKAMOTO DEPUTY DIRECTOR TESTIMONY OF GARY S. SUGANUMA, DIRECTOR OF TAXATION TESTIMONY ON",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB933",
+          "chunk_text": "TESTIMONY OF GARY S. SUGANUMA, DIRECTOR OF TAXATION TESTIMONY ON THE FOLLOWING MEASURE: H.B. No. 933, Relating to General Excise Tax Reductions. BEFORE THE: House Committee on Human Services & Homelessness DATE: Thursday, January 30, 2025 TIME: 9:35 a.m. LOCATION: State Capitol, Room 329 Chair Marten, Vice-Chair Olds, and Members",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB933",
+          "chunk_text": "State Capitol, Room 329 Chair Marten, Vice-Chair Olds, and Members of the Committee: The Department of Taxation (DOTAX) offers the following comments regarding H.B. 933 for your consideration. Section 2 of H.B. 933 adds two new sections to chapter 237, Hawaii Revised Statutes (HRS). The first proposed section beginning on",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB933",
+          "chunk_text": "Hawaii Revised Statutes (HRS). The first proposed section beginning on page 3 imposes a reduced general excise tax (GET) rate on the proceeds received from the sale of groceries eligible for purchase under the supplemental nutrition assistance program (SNAP) and special supplemental nutrition program for women, infants, and children (WIC)",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB933",
+          "chunk_text": "special supplemental nutrition program for women, infants, and children (WIC) within the State, regardless of the means of purchase and the eligibility of the purchaser for the SNAP and WIC programs. The reduced rate is one-half percent less than the rate applied under section 237-13, HRS (4%). The bill requires",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB933",
+          "chunk_text": "rate applied under section 237-13, HRS (4%). The bill requires DOTAX to consult with the federal Food and Nutrition Service of the United States Department of Agriculture to determine if further definition of the term “groceries” is needed. The next proposed section beginning on page 4 imposes a reduced GET",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB933",
+          "chunk_text": "proposed section beginning on page 4 imposes a reduced GET rate on the gross proceeds or income received from the sale of nonprescription drugs. The reduced rate is one-half percent less than the rate applied under section 237-13, HRS (4%). \\__\\\\_‘\\\\Jm|Nl ___ﬁT’ O‘-§ AW'I ____‘nv\\\\ ‘ ‘_I__ Vkill’ F4.u$1” 0_9,?",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB933",
+          "chunk_text": "\\__\\\\_‘\\\\Jm|Nl ___ﬁT’ O‘-§ AW'I ____‘nv\\\\ ‘ ‘_I__ Vkill’ F4.u$1” 0_9,? ”___M/_'_m‘ M3 E5“ ‘*1___mA;_ H MW: W\\_AK_ ‘ [gm 3 ”€_“_____‘U_ iv,‘ %‘__ ,ﬂM\"__‘__‘_ |¥__ _!~»_>_ _&%‘___ “_M%_;\"__‘mg_ $%___ Department of Taxation Testimony H.B. 933 January 30, 2025 Page 2 of 2 Section 3 of the bill requires the Department",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB933",
+          "chunk_text": "of 2 Section 3 of the bill requires the Department of Business, Economic Development, and Tourism (DBEDT) to conduct an economic cost-benefit analysis on the general excise tax reductions in section 2 of the bill. The measure has an effective date of July 1, 2025. DOTAX notes that the measure",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB933",
+          "chunk_text": "date of July 1, 2025. DOTAX notes that the measure may complicate reporting for taxpayers and businesses, who will likely need to track and report receipts of sales subject to the proposed reduced rates separately from sales subject to the normal 4% rate. DOTAX also requests the measure take effect",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB933",
+          "chunk_text": "normal 4% rate. DOTAX also requests the measure take effect on January 1, 2027 to allow for form and instruction changes necessary to implement the proposed reduced rates for sales of eligible groceries and nonprescription drugs. This would also allow taxpayers, particularly businesses, to update their accounting systems to comply",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB933",
+          "chunk_text": "taxpayers, particularly businesses, to update their accounting systems to comply with the changes in this measure. Thank you for the opportunity to provide comments on this measure. Date: January 30, 2025 Subject: Hawaiʻi Foodbank in Support of HB 933 Relating to General Excise Tax Reduction Aloha Chair Marten, Vice Chair",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB933",
+          "chunk_text": "to General Excise Tax Reduction Aloha Chair Marten, Vice Chair Olds, and members of the committee, On behalf of Hawaiʻi Foodbank, I express our support for HB 933, Relating General Excise Tax Reduction. This bill reduces the general excise tax rate on the gross proceeds or income from the sale",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB933",
+          "chunk_text": "rate on the gross proceeds or income from the sale of groceries that are eligible under the supplemental nutrition assistance program (SNAP) or special supplemental nutrition program for women, infants, and children (WIC), regardless of the means of purchase and the program eligibility of the purchaser; reduces the general excise",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB933",
+          "chunk_text": "the program eligibility of the purchaser; reduces the general excise tax rate on the gross proceeds or income from the sale of nonprescription drugs; and requires DBEDT to conduct an economic cost-beneﬁt analysis on the GET reductions. As the state’s largest hunger-relief organization, Hawai‘i Foodbank has been committed to ensuring",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB933",
+          "chunk_text": "largest hunger-relief organization, Hawai‘i Foodbank has been committed to ensuring no one in Hawai‘i goes hungry since 1983. We work with over 225 agency partners on Oʻahu and Kauaʻi to distribute food, and programs like Food 4 Keiki and ‘Ohana Produce Plus provide nutritious meals to children and families. In",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB933",
+          "chunk_text": "Produce Plus provide nutritious meals to children and families. In addition to addressing daily needs, our organization mobilizes during emergencies to provide immediate relief and aid long-term recovery efforts. Food insecurity is a growing crisis in Hawai‘i, with nearly 1 in 3 households struggling to access adequate food. One in",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB933",
+          "chunk_text": "in 3 households struggling to access adequate food. One in ten households go a whole day without food some or most months. The recent 2024 ALICE in Hawai‘i report, released by Aloha United Way, underscores the broader economic challenges fueling food insecurity. 40% of Hawai‘i’s families are at the ALICE",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB933",
+          "chunk_text": "food insecurity. 40% of Hawai‘i’s families are at the ALICE (asset-limited, income- constrained, employed) threshold or below. These households live paycheck to paycheck, and nearly half of those below the ALICE threshold face food insecurity. Taxing the sal",
+          "start_word": 720,
+          "end_word": 758,
+          "word_count": 38
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "their income on food. Hawaii's general excise tax on groceries negatively affects not only the amount of food that Hawaii families can afford, but also the quality and diversity of their food choices. According to the United States Department of Agriculture, a Hawaii family on a thrifty food plan spends $1,794.60 per month on food. This family would pay over $800 a year in state taxes on those groceries. The thrifty food plan represents those on a limited budget. Even if this family is eligible for a refundable food/excise tax credit, the family would likely get back less than one-half of",
+        "number": 1794.6,
+        "filename": "HB933_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "negatively affects not only the amount of food that Hawaii families can afford, but also the quality and diversity of their food choices. According to the United States Department of Agriculture, a Hawaii family on a thrifty food plan spends $1,794.60 per month on food. This family would pay over $800 a year in state taxes on those groceries. The thrifty food plan represents those on a limited budget. Even if this family is eligible for a refundable food/excise tax credit, the family would likely get back less than one-half of those state taxes paid on groceries. The legislature has already",
+        "number": 800.0,
+        "filename": "HB933_.HTM.txt",
+        "document_type": "document"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:48:39.093475",
+  "generation_timestamp_unix": 1760147319.093486
+}

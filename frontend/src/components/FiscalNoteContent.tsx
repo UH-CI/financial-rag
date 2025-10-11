@@ -1,66 +1,147 @@
 import React from 'react';
-import type { FiscalNoteItem, DocumentReference } from '../types';
+import type { FiscalNoteItem, DocumentReference, NumberCitationMapItem, ChunkTextMapItem, DocumentInfo } from '../types';
 import DocumentReferenceComponent from './DocumentReference';
 
 interface FiscalNoteContentProps {
   fiscalNote: FiscalNoteItem;
   documentMapping: Record<string, number>;
+  enhancedDocumentMapping: Record<number, DocumentInfo>;
+  numbersData: any[]; // Keep for API compatibility but not used in current implementation
+  numberCitationMap: Record<number, NumberCitationMapItem>;
+  chunkTextMap: Record<number, ChunkTextMapItem[]>;
 }
 
 const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
   fiscalNote,
-  documentMapping
+  documentMapping,
+  enhancedDocumentMapping,
+  numberCitationMap,
+  chunkTextMap
 }) => {
-  // Function to parse document references from text
+  // Generate proper URL for documents
+  const generateDocumentUrl = (docName: string) => {
+    const base_url = "https://www.capitol.hawaii.gov/sessions/session2025";
+    
+    if (docName.includes("TESTIMONY")) {
+      return `${base_url}/Testimony/${docName}.PDF`;
+    } else if (docName.startsWith("HB") || docName.startsWith("SB")) {
+      if (docName.includes("HSCR") || docName.includes("CCR") || docName.includes("SSCR")) {
+        return `${base_url}/CommReports/${docName}.htm`;
+      } else {
+        return `${base_url}/bills/${docName}_.HTM`;
+      }
+    } else {
+      return `${base_url}/CommReports/${docName}.htm`;
+    }
+  };
+
+  // Function to parse [number] citations from text
   const parseDocumentReferences = (text: string): React.ReactNode => {
     if (!text || typeof text !== 'string') {
       return text;
     }
 
-    // Split by the DOCREF markers (with single braces)
-    const parts = text.split(/\{DOCREF:([^}]+)\}/);
-    const result: React.ReactNode[] = [];
+    // Process [number] citations
+    const citationRegex = /\[(\d+)\]/g;
+    const textParts: React.ReactNode[] = [];
+    let lastIndex = 0;
+    let match;
 
-    for (let i = 0; i < parts.length; i++) {
-      if (i % 2 === 0) {
-        // Regular text
-        if (parts[i]) {
-          result.push(parts[i]);
-        }
-      } else {
-        // Document reference pipe-separated format: number|url|type|name|description|chunk_text|similarity_score
-        try {
-          const refParts = parts[i].split('|');
-          if (refParts.length >= 5) {
-            const referenceData: DocumentReference = {
-              type: 'document_reference',
-              number: parseInt(refParts[0]),
-              url: refParts[1],
-              document_type: refParts[2].replace(/&#124;/g, '|'), // Unescape pipes
-              document_name: refParts[3].replace(/&#124;/g, '|'), // Unescape pipes
-              description: refParts[4].replace(/&#124;/g, '|'), // Unescape pipes
-              chunk_text: refParts.length > 5 ? refParts[5].replace(/&#124;/g, '|') : undefined,
-              similarity_score: refParts.length > 6 ? parseFloat(refParts[6]) : undefined
-            };
-            result.push(
-              <DocumentReferenceComponent
-                key={`ref-${i}`}
-                reference={referenceData}
-              />
-            );
-          } else {
-            console.error('Invalid document reference format:', parts[i]);
-            result.push(`[Invalid reference]`);
-          }
-        } catch (error) {
-          console.error('Failed to parse document reference:', error);
-          console.error('Raw data:', parts[i]);
-          result.push(`[Error parsing reference]`);
-        }
+    while ((match = citationRegex.exec(text)) !== null) {
+      // Add text before the citation
+      if (match.index > lastIndex) {
+        textParts.push(text.substring(lastIndex, match.index));
       }
+
+      const citationNumber = parseInt(match[1]);
+      
+      // Check if this citation has financial data
+      const hasFinancialData = numberCitationMap[citationNumber];
+      
+      if (hasFinancialData) {
+        // This is a citation with financial data - create a reference for the specific amount
+        const financialCitation = numberCitationMap[citationNumber];
+        const numberData = financialCitation.data;
+        
+        // Use the actual context text from the number data
+        const contextText = numberData ? numberData.text : `Amount referenced in ${financialCitation.filename}`;
+        
+        // Create a reference object similar to DocumentReference
+        const financialReference: DocumentReference = {
+          type: 'document_reference',
+          number: citationNumber,
+          url: generateDocumentUrl(financialCitation.document_name),
+          document_type: 'Financial Citation',
+          document_name: financialCitation.document_name,
+          description: `$${financialCitation.amount.toLocaleString()} from ${financialCitation.document_name}`,
+          chunk_text: contextText,
+          similarity_score: undefined,
+          financial_amount: financialCitation.amount
+        };
+        
+        textParts.push(
+          <DocumentReferenceComponent
+            key={`financial-${match.index}`}
+            reference={financialReference}
+          />
+        );
+      } else {
+        // Regular document citation - use DocumentReferenceComponent with document info
+        let documentName = 'Unknown Document';
+        for (const [docName, docNum] of Object.entries(documentMapping)) {
+          if (docNum === citationNumber) {
+            documentName = docName;
+            break;
+          }
+        }
+        
+        // Get chunk text for this document citation
+        let chunkText = undefined;
+        let sentenceContext = undefined;
+        const chunkData = chunkTextMap[citationNumber];
+        if (chunkData && chunkData.length > 0) {
+          // Use the chunk with the highest attribution score
+          const bestChunk = chunkData.reduce((best, current) => 
+            current.attribution_score > best.attribution_score ? current : best
+          );
+          chunkText = bestChunk.chunk_text;
+          sentenceContext = bestChunk.sentence;
+        }
+        
+        // Get document type information from enhanced mapping
+        const docInfo = enhancedDocumentMapping[citationNumber];
+        
+        const documentReference: DocumentReference = {
+          type: 'document_reference',
+          number: citationNumber,
+          url: generateDocumentUrl(documentName),
+          document_type: 'Document',
+          document_name: documentName,
+          description: `Reference to ${documentName}`,
+          document_category: docInfo?.type || 'Document',
+          document_icon: docInfo?.icon || '📄',
+          chunk_text: chunkText,
+          similarity_score: chunkData && chunkData.length > 0 ? chunkData[0].attribution_score : undefined,
+          sentence: sentenceContext
+        };
+        
+        textParts.push(
+          <DocumentReferenceComponent
+            key={`doc-${match.index}`}
+            reference={documentReference}
+          />
+        );
+      }
+
+      lastIndex = match.index + match[0].length;
     }
 
-    return result.length > 0 ? result : text;
+    // Add remaining text after last citation
+    if (lastIndex < text.length) {
+      textParts.push(text.substring(lastIndex));
+    }
+
+    return textParts.length > 0 ? textParts : text;
   };
 
   // Function to render any value (string, object, array)

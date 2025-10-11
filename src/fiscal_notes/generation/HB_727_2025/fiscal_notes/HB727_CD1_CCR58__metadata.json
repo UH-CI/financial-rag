@@ -1,0 +1,847 @@
+{
+  "document_name": "HB727_CD1_CCR58_",
+  "new_documents_processed": [
+    "HB727_CD1",
+    "HB727_CD1_CCR58_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB727",
+    "HB727_TESTIMONY_JHA_01-30-25_",
+    "HB727_HD1",
+    "HB727_HD1_HSCR624_",
+    "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+    "HB727_HD1_HSCR1142_",
+    "HB727_HD1_TESTIMONY_JDC_03-19-25_",
+    "HB727_SD1",
+    "HB727_SD1_SSCR1240_",
+    "HB727_SD1_TESTIMONY_WAM_03-31-25_",
+    "HB727_SD2",
+    "HB727_SD2_SSCR1531_",
+    "HB727_CD1",
+    "HB727_CD1_CCR58_"
+  ],
+  "numbers_used": 2,
+  "prompt_length": 19308,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"The purpose of this measure is to make the Women's Court Pilot Program in the First Circuit permanent and establish a Women's Court Pilot Program in the Kona division of the Third Circuit (HB727_CD1_.HTM.txt). The Committee on Conference has amended this measure by changing the duration of the pilot program in the Kona division \\\"from three years to two years\\\" (HB727_CD1_.HTM.txt). The measure now has an effective date of July 1, 2025, and a sunset date for the pilot program of June 30, 2027 (HB727_CD1_.HTM.txt).\",\n\"appropriations\": \"The measure appropriates specific amounts for the two-year pilot program, replacing the previous unspecified amounts. The legislative document specifies an appropriation of \\\"$514,900 (HB727_CD1_.HTM.txt) for fiscal year 2025-2026 and $557,000 (HB727_CD1_.HTM.txt) for fiscal year 2026-2027\\\" (HB727_CD1_.HTM.txt). These funds are designated for \\\"mental health, substance abuse treatment, and other services and equipment, and the establishment of one full-time equivalent temporary Kona drug court probation supervisor position\\\" (HB727_CD1_.HTM.txt).\",\n\"assumptions_and_methodology\": \"The financial projections are now based on a two-year pilot program, as the Committee on Conference amended the measure by \\\"Changing the duration of the Women's Court Pilot Program in the Kona division of the Third Circuit from three years to two years\\\" (HB727_CD1_.HTM.txt). The new timeline is reflected in the specified appropriations for fiscal years 2025-2026 and 2026-2027. The program has a new \\\"sunset date...to June 30, 2027\\\" (HB727_CD1_.HTM.txt).\",\n\"agency_impact\": \"The Conference Committee has amended the measure by \\\"Requiring the Judiciary to be responsible for providing mental health services under the Women's Court Pilot Program in the Kona division of the Third Circuit\\\" (HB727_CD1_.HTM.txt). This shifts the responsibility for mental health services to the Judiciary, contrasting with previous testimony from the Department of Health. The appropriation provides for the \\\"establishment of one full-time equivalent temporary Kona drug court probation supervisor position\\\" within the Judiciary (HB727_CD1_.HTM.txt).\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure has been amended by \\\"Codifying the Women's Court Program in the First Circuit within the Hawaii Revised Statutes, rather than the Session Laws of Hawaii\\\" (HB727_CD1_.HTM.txt), making it a permanent program. Additionally, the committee is \\\"Deleting language that would have required the Judiciary to submit a report to the Legislature regarding the need for and the associated costs of a pilot program for Women's Court in the Second and Fifth Circuits and Hilo division of the Third Circuit\\\" (HB727_CD1_.HTM.txt). This removes the mandate for a study on program expansion.\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"The fiscal outlook for the Kona Women's Court Pilot Program has been revised to a two-year period, superseding the previous three-year proposal. The legislative document specifies appropriations of \\\"$514,900 (HB727_CD1_.HTM.txt) for fiscal year 2025-2026 and $557,000 (HB727_CD1_.HTM.txt) for fiscal year 2026-2027\\\" (HB727_CD1_.HTM.txt). These funds will cover costs for \\\"mental health, substance abuse treatment, and other services and equipment\\\" (HB727_CD1_.HTM.txt). The budget also supports the \\\"establishment of one full-time equivalent temporary Kona drug court probation supervisor position\\\" (HB727_CD1_.HTM.txt). The pilot program is now set with a \\\"sunset date...to June 30, 2027\\\" (HB727_CD1_.HTM.txt). There are no further fiscal implications outlined in this measure beyond this date, as the requirement for a report on expansion has been deleted.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"The pilot program in the Kona division of the Third Circuit is scheduled to end, with the measure \\\"Changing the sunset date for the Women's Court Pilot Program in the Kona division of the Third Circuit to June 30, 2027\\\" (HB727_CD1_.HTM.txt). The measure no longer contains provisions for assessing future expansion. The language requiring the Judiciary to report on the costs of a pilot program in other circuits has been deleted (HB727_CD1_.HTM.txt).\",\n\"updates_from_previous_fiscal_note\": \"The duration of the Kona division pilot program has been shortened from three years to two years, with a new sunset date of June 30, 2027 (HB727_CD1_.HTM.txt). Appropriations are no longer unspecified; the measure now appropriates \\\"$514,900 (HB727_CD1_.HTM.txt) for fiscal year 2025-2026 and $557,000 (HB727_CD1_.HTM.txt) for fiscal year 2026-2027\\\" (HB727_CD1_.HTM.txt). Responsibility for providing mental health services has been assigned to the Judiciary, and a temporary probation supervisor position will be established (HB727_CD1_.HTM.txt). A significant policy change is the deletion of the requirement for the Judiciary to report on the costs of expanding the program to other circuits, and the First Circuit program is now codified in the Hawaii Revised Statutes (HB727_CD1_.HTM.txt).\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 8599,
+      "candidates_token_count": 1404,
+      "total_token_count": 11941
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"The purpose of this measure is to make the Women's Court Pilot Program in the First Circuit permanent and establish a Women's Court Pilot Program in the Kona division of the Third Circuit (HB727_CD1_.HTM.txt). The Committee on Conference has amended this measure by changing the duration of the pilot program in the Kona division \\\"from three years to two years\\\" (HB727_CD1_.HTM.txt). The measure now has an effective date of July 1, 2025, and a sunset date for the pilot program of June 30, 2027 (HB727_CD1_.HTM.txt).\",\n\"appropriations\": \"The measure appropriates specific amounts for the two-year pilot program, replacing the previous unspecified amounts. The legislative document specifies an appropriation of \\\"$514,900 (HB727_CD1_.HTM.txt) for fiscal year 2025-2026 and $557,000 (HB727_CD1_.HTM.txt) for fiscal year 2026-2027\\\" (HB727_CD1_.HTM.txt). These funds are designated for \\\"mental health, substance abuse treatment, and other services and equipment, and the establishment of one full-time equivalent temporary Kona drug court probation supervisor position\\\" (HB727_CD1_.HTM.txt).\",\n\"assumptions_and_methodology\": \"The financial projections are now based on a two-year pilot program, as the Committee on Conference amended the measure by \\\"Changing the duration of the Women's Court Pilot Program in the Kona division of the Third Circuit from three years to two years\\\" (HB727_CD1_.HTM.txt). The new timeline is reflected in the specified appropriations for fiscal years 2025-2026 and 2026-2027. The program has a new \\\"sunset date...to June 30, 2027\\\" (HB727_CD1_.HTM.txt).\",\n\"agency_impact\": \"The Conference Committee has amended the measure by \\\"Requiring the Judiciary to be responsible for providing mental health services under the Women's Court Pilot Program in the Kona division of the Third Circuit\\\" (HB727_CD1_.HTM.txt). This shifts the responsibility for mental health services to the Judiciary, contrasting with previous testimony from the Department of Health. The appropriation provides for the \\\"establishment of one full-time equivalent temporary Kona drug court probation supervisor position\\\" within the Judiciary (HB727_CD1_.HTM.txt).\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure has been amended by \\\"Codifying the Women's Court Program in the First Circuit within the Hawaii Revised Statutes, rather than the Session Laws of Hawaii\\\" (HB727_CD1_.HTM.txt), making it a permanent program. Additionally, the committee is \\\"Deleting language that would have required the Judiciary to submit a report to the Legislature regarding the need for and the associated costs of a pilot program for Women's Court in the Second and Fifth Circuits and Hilo division of the Third Circuit\\\" (HB727_CD1_.HTM.txt). This removes the mandate for a study on program expansion.\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"The fiscal outlook for the Kona Women's Court Pilot Program has been revised to a two-year period, superseding the previous three-year proposal. The legislative document specifies appropriations of \\\"$514,900 (HB727_CD1_.HTM.txt) for fiscal year 2025-2026 and $557,000 (HB727_CD1_.HTM.txt) for fiscal year 2026-2027\\\" (HB727_CD1_.HTM.txt). These funds will cover costs for \\\"mental health, substance abuse treatment, and other services and equipment\\\" (HB727_CD1_.HTM.txt). The budget also supports the \\\"establishment of one full-time equivalent temporary Kona drug court probation supervisor position\\\" (HB727_CD1_.HTM.txt). The pilot program is now set with a \\\"sunset date...to June 30, 2027\\\" (HB727_CD1_.HTM.txt). There are no further fiscal implications outlined in this measure beyond this date, as the requirement for a report on expansion has been deleted.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"The pilot program in the Kona division of the Third Circuit is scheduled to end, with the measure \\\"Changing the sunset date for the Women's Court Pilot Program in the Kona division of the Third Circuit to June 30, 2027\\\" (HB727_CD1_.HTM.txt). The measure no longer contains provisions for assessing future expansion. The language requiring the Judiciary to report on the costs of a pilot program in other circuits has been deleted (HB727_CD1_.HTM.txt).\",\n\"updates_from_previous_fiscal_note\": \"The duration of the Kona division pilot program has been shortened from three years to two years, with a new sunset date of June 30, 2027 (HB727_CD1_.HTM.txt). Appropriations are no longer unspecified; the measure now appropriates \\\"$514,900 (HB727_CD1_.HTM.txt) for fiscal year 2025-2026 and $557,000 (HB727_CD1_.HTM.txt) for fiscal year 2026-2027\\\" (HB727_CD1_.HTM.txt). Responsibility for providing mental health services has been assigned to the Judiciary, and a temporary probation supervisor position will be established (HB727_CD1_.HTM.txt). A significant policy change is the deletion of the requirement for the Judiciary to report on the costs of expanding the program to other circuits, and the First Circuit program is now codified in the Hawaii Revised Statutes (HB727_CD1_.HTM.txt).\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"The purpose of this measure is to make the Women's Court Pilot Program in the First Circuit permanent and establish a Women's Court Pilot Program in the Kona division of the Third Circuit (HB727_CD1_",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.9047619047619048,
+          "attribution_reason": "Word frequency match score: 0.905",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). The Committee on Conference has amended this measure by changing the duration of the pilot program in the Kona division \\\"from three years to two years\\\" (HB727_CD1_",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6111111111111112,
+          "attribution_reason": "Word frequency match score: 0.611",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). The measure now has an effective date of July 1, 2025, and a sunset date for the pilot program of June 30, 2027 (HB727_CD1_",
+          "attributed_chunk_id": 9,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4375,
+          "attribution_reason": "Word frequency match score: 0.438",
+          "numbers_found": [
+            1.0,
+            30.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). \",\n\"appropriations\": \"The measure appropriates specific amounts for the two-year pilot program, replacing the previous unspecified amounts",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2,
+          "attribution_reason": "Word frequency match score: 0.200",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The legislative document specifies an appropriation of \\\"$514,900 (HB727_CD1_",
+          "attributed_chunk_id": "NUMBER_514900",
+          "attribution_method": "number_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Number $514,900 from HB727_CD1_.HTM.txt (score: 0.167)",
+          "numbers_found": [
+            514900.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for fiscal year 2025-2026 and $557,000 (HB727_CD1_",
+          "attributed_chunk_id": "NUMBER_557000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Number $557,000 from HB727_CD1_.HTM.txt (score: 0.625)",
+          "numbers_found": [
+            557000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for fiscal year 2026-2027\\\" (HB727_CD1_",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5714285714285714,
+          "attribution_reason": "Word frequency match score: 0.571",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). These funds are designated for \\\"mental health, substance abuse treatment, and other services and equipment, and the establishment of one full-time equivalent temporary Kona drug court probation supervisor position\\\" (HB727_CD1_",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8,
+          "attribution_reason": "Word frequency match score: 0.800",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). \",\n\"assumptions_and_methodology\": \"The financial projections are now based on a two-year pilot program, as the Committee on Conference amended the measure by \\\"Changing the duration of the Women's Court Pilot Program in the Kona division of the Third Circuit from three years to two years\\\" (HB727_CD1_",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5161290322580645,
+          "attribution_reason": "Word frequency match score: 0.516",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). The new timeline is reflected in the specified appropriations for fiscal years 2025-2026 and 2026-2027",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.46153846153846156,
+          "attribution_reason": "Word frequency match score: 0.462",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The program has a new \\\"sunset date",
+          "attributed_chunk_id": 9,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Word frequency match score: 0.750",
+          "numbers_found": []
+        },
+        {
+          "sentence": "to June 30, 2027\\\" (HB727_CD1_",
+          "attributed_chunk_id": 10,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Word frequency match score: 0.750",
+          "numbers_found": [
+            30.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). \",\n\"agency_impact\": \"The Conference Committee has amended the measure by \\\"Requiring the Judiciary to be responsible for providing mental health services under the Women's Court Pilot Program in the Kona division of the Third Circuit\\\" (HB727_CD1_",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Word frequency match score: 0.750",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). This shifts the responsibility for mental health services to the Judiciary, contrasting with previous testimony from the Department of Health",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Word frequency match score: 0.286",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The appropriation provides for the \\\"establishment of one full-time equivalent temporary Kona drug court probation supervisor position\\\" within the Judiciary (HB727_CD1_",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7058823529411765,
+          "attribution_reason": "Word frequency match score: 0.706",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). \",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure has been amended by \\\"Codifying the Women's Court Program in the First Circuit within the Hawaii Revised Statutes, rather than the Session Laws of Hawaii\\\" (HB727_CD1_",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7727272727272727,
+          "attribution_reason": "Word frequency match score: 0.773",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt), making it a permanent program",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Additionally, the committee is \\\"Deleting language that would have required the Judiciary to submit a report to the Legislature regarding the need for and the associated costs of a pilot program for Women's Court in the Second and Fifth Circuits and Hilo division of the Third Circuit\\\" (HB727_CD1_",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.8,
+          "attribution_reason": "Word frequency match score: 0.800",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). This removes the mandate for a study on program expansion",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Word frequency match score: 0.143",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"The fiscal outlook for the Kona Women's Court Pilot Program has been revised to a two-year period, superseding the previous three-year proposal",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The legislative document specifies appropriations of \\\"$514,900 (HB727_CD1_",
+          "attributed_chunk_id": "NUMBER_514900",
+          "attribution_method": "number_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Number $514,900 from HB727_CD1_.HTM.txt (score: 0.167)",
+          "numbers_found": [
+            514900.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for fiscal year 2025-2026 and $557,000 (HB727_CD1_",
+          "attributed_chunk_id": "NUMBER_557000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Number $557,000 from HB727_CD1_.HTM.txt (score: 0.625)",
+          "numbers_found": [
+            557000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for fiscal year 2026-2027\\\" (HB727_CD1_",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5714285714285714,
+          "attribution_reason": "Word frequency match score: 0.571",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). These funds will cover costs for \\\"mental health, substance abuse treatment, and other services and equipment\\\" (HB727_CD1_",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). The budget also supports the \\\"establishment of one full-time equivalent temporary Kona drug court probation supervisor position\\\" (HB727_CD1_",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). The pilot program is now set with a \\\"sunset date",
+          "attributed_chunk_id": 9,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "to June 30, 2027\\\" (HB727_CD1_",
+          "attributed_chunk_id": 10,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Word frequency match score: 0.750",
+          "numbers_found": [
+            30.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). There are no further fiscal implications outlined in this measure beyond this date, as the requirement for a report on expansion has been deleted",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.07142857142857142,
+          "attribution_reason": "Word frequency match score: 0.071",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"The pilot program in the Kona division of the Third Circuit is scheduled to end, with the measure \\\"Changing the sunset date for the Women's Court Pilot Program in the Kona division of the Third Circuit to June 30, 2027\\\" (HB727_CD1_",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5555555555555556,
+          "attribution_reason": "Word frequency match score: 0.556",
+          "numbers_found": [
+            30.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). The measure no longer contains provisions for assessing future expansion",
+          "attributed_chunk_id": 3,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.1111111111111111,
+          "attribution_reason": "Word frequency match score: 0.111",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The language requiring the Judiciary to report on the costs of a pilot program in other circuits has been deleted (HB727_CD1_",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5454545454545454,
+          "attribution_reason": "Word frequency match score: 0.545",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). \",\n\"updates_from_previous_fiscal_note\": \"The duration of the Kona division pilot program has been shortened from three years to two years, with a new sunset date of June 30, 2027 (HB727_CD1_",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.42857142857142855,
+          "attribution_reason": "Word frequency match score: 0.429",
+          "numbers_found": [
+            30.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). Appropriations are no longer unspecified; the measure now appropriates \\\"$514,900 (HB727_CD1_",
+          "attributed_chunk_id": "NUMBER_514900",
+          "attribution_method": "number_based",
+          "attribution_score": 0.1,
+          "attribution_reason": "Number $514,900 from HB727_CD1_.HTM.txt (score: 0.100)",
+          "numbers_found": [
+            514900.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for fiscal year 2025-2026 and $557,000 (HB727_CD1_",
+          "attributed_chunk_id": "NUMBER_557000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.625,
+          "attribution_reason": "Number $557,000 from HB727_CD1_.HTM.txt (score: 0.625)",
+          "numbers_found": [
+            557000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for fiscal year 2026-2027\\\" (HB727_CD1_",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5714285714285714,
+          "attribution_reason": "Word frequency match score: 0.571",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). Responsibility for providing mental health services has been assigned to the Judiciary, and a temporary probation supervisor position will be established (HB727_CD1_",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). A significant policy change is the deletion of the requirement for the Judiciary to report on the costs of expanding the program to other circuits, and the First Circuit program is now codified in the Hawaii Revised Statutes (HB727_CD1_",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2608695652173913,
+          "attribution_reason": "Word frequency match score: 0.261",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). \"\n}.",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 1,
+          "document_name": "HB727_CD1",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1",
+          "attribution_reasons": []
+        },
+        "2": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1",
+          "attribution_reasons": []
+        },
+        "3": {
+          "usage_count": 6,
+          "document_name": "HB727_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.905",
+            "Word frequency match score: 0.200",
+            "Word frequency match score: 0.400",
+            "Word frequency match score: 0.143",
+            "Word frequency match score: 0.071",
+            "Word frequency match score: 0.111"
+          ]
+        },
+        "4": {
+          "usage_count": 2,
+          "document_name": "HB727_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.800",
+            "Word frequency match score: 0.545"
+          ]
+        },
+        "5": {
+          "usage_count": 3,
+          "document_name": "HB727_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.750",
+            "Word frequency match score: 0.773",
+            "Word frequency match score: 0.261"
+          ]
+        },
+        "6": {
+          "usage_count": 5,
+          "document_name": "HB727_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.611",
+            "Word frequency match score: 0.516",
+            "Word frequency match score: 0.286",
+            "Word frequency match score: 0.556",
+            "Word frequency match score: 0.429"
+          ]
+        },
+        "7": {
+          "usage_count": 10,
+          "document_name": "HB727_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.571",
+            "Word frequency match score: 0.800",
+            "Word frequency match score: 0.462",
+            "Word frequency match score: 0.706",
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.571",
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.667",
+            "Word frequency match score: 0.571",
+            "Word frequency match score: 0.400"
+          ]
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 3,
+          "document_name": "HB727_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.438",
+            "Word frequency match score: 0.750",
+            "Word frequency match score: 0.500"
+          ]
+        },
+        "10": {
+          "usage_count": 2,
+          "document_name": "HB727_CD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.750",
+            "Word frequency match score: 0.750"
+          ]
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_CCR58_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_CCR58_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_CCR58_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_CCR58_",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_CCR58_",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_CCR58_",
+          "attribution_reasons": []
+        },
+        "20": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_CCR58_",
+          "attribution_reasons": []
+        },
+        "21": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_CCR58_",
+          "attribution_reasons": []
+        },
+        "22": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_CCR58_",
+          "attribution_reasons": []
+        },
+        "23": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_CCR58_",
+          "attribution_reasons": []
+        },
+        "24": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_CCR58_",
+          "attribution_reasons": []
+        },
+        "25": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_CCR58_",
+          "attribution_reasons": []
+        },
+        "26": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_CCR58_",
+          "attribution_reasons": []
+        },
+        "27": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_CCR58_",
+          "attribution_reasons": []
+        },
+        "NUMBER_514900.0": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_557000.0": {
+          "usage_count": 0,
+          "document_name": "HB727_CD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_514900": {
+          "usage_count": 3,
+          "document_name": "HB727_CD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $514,900 from HB727_CD1_.HTM.txt (score: 0.167)",
+            "Number $514,900 from HB727_CD1_.HTM.txt (score: 0.167)",
+            "Number $514,900 from HB727_CD1_.HTM.txt (score: 0.100)"
+          ]
+        },
+        "NUMBER_557000": {
+          "usage_count": 3,
+          "document_name": "HB727_CD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $557,000 from HB727_CD1_.HTM.txt (score: 0.625)",
+            "Number $557,000 from HB727_CD1_.HTM.txt (score: 0.625)",
+            "Number $557,000 from HB727_CD1_.HTM.txt (score: 0.625)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 0,
+        "number_based": 6,
+        "word_frequency_based": 31,
+        "semantic_similarity": 0,
+        "fallback": 1,
+        "no_attribution": 0
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 28,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB727_CD1",
+          "chunk_text": "CCR58 CONFERENCE COMMITTEE REP. NO. 58 Honolulu, Hawaii , 2025 RE: H.B. No. 727 H.D. 1 S.D. 2 C.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB727_CD1",
+          "chunk_text": "D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madam and Sir: Your Committee on Conference on the disagreeing vote of the House of Representatives to the amendments proposed by the Senate in H.B. No. 727, H.D. 1, S.D. 2, entitled: \"A BILL",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB727_CD1",
+          "chunk_text": "H.B. No. 727, H.D. 1, S.D. 2, entitled: \"A BILL FOR AN ACT RELATING TO THE WOMEN'S COURT,\" having met, and after full and free discussion, has agreed to recommend and does recommend to the respective Houses the final passage of this bill in an amended form. The purpose of",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB727_CD1",
+          "chunk_text": "of this bill in an amended form. The purpose of this measure is to (1) Make the Women's Court Pilot Program in the First Circuit permanent; (2) Establish and appropriate funds for a three-year Women's Court Pilot Program in the Kona division of the Third Circuit; and (3) Require the",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB727_CD1",
+          "chunk_text": "Kona division of the Third Circuit; and (3) Require the Judiciary to submit a report to the Legislature regarding the need for and the associated costs of a pilot program for Women's Court in the Second and Fifth Circuits and Hilo division of the Third Circuit. Your Committee on Conference",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB727_CD1",
+          "chunk_text": "Hilo division of the Third Circuit. Your Committee on Conference has amended this measure by: (1) Codifying the Women's Court Program in the First Circuit within the Hawaii Revised Statutes, rather than the Session Laws of Hawaii; (2) Requiring the Judiciary to be responsible for providing mental health services under",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB727_CD1",
+          "chunk_text": "Judiciary to be responsible for providing mental health services under the Women's Court Pilot Program in the Kona division of the Third Circuit; (3) Changing the duration of the Women's Court Pilot Program in the Kona division of the Third Circuit from three years to two years; (4) Appropriating $514,900",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB727_CD1",
+          "chunk_text": "Circuit from three years to two years; (4) Appropriating $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for mental health, substance abuse treatment, and other services and equipment, and the establishment of one full-time equivalent temporary Kona drug court probation supervisor position for the Women's Court Pilot",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB727_CD1",
+          "chunk_text": "drug court probation supervisor position for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language that would have required the Judiciary to submit a report to the Legislature regarding the need for and the associated costs of a pilot program for Women's Court",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB727_CD1",
+          "chunk_text": "the associated costs of a pilot program for Women's Court in the Second and Fifth Circuits and Hilo division of the Third Circuit; (6) Changing the effective date to July 1, 2025; (7) Changing the sunset date for the Women's Court Pilot Program in the Kona division of the Third",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB727_CD1",
+          "chunk_text": "Court Pilot Program in the Kona division of the Third Circuit to June 30, 2027; and (8) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed by the record of votes of the managers of your Committee on Conference that is attached to this report,",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB727_CD1",
+          "chunk_text": "your Committee on Conference that is attached to this report, your Committee on Conference is in accord with the intent and purpose of H.B. No. 727, H.D. 1, S.D. 2, as amended herein, and recommends that it pass Final Reading in the form attached hereto as H.B. No. 727, H.D.",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB727_CD1",
+          "chunk_text": "in the form attached hereto as H.B. No. 727, H.D. 1, S.D. 2, C.D. 1. Respectfully submitted on behalf of the managers: ON THE PART OF THE SENATE ON THE PART OF THE HOUSE ____________________________ KARL RHOADS Chair ____________________________ DAVID A. TARNAS Co-Chair ____________________________ LYNN DECOITE Co-Chair ____________________________ LISA KITAGAWA",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB727_CD1",
+          "chunk_text": "A. TARNAS Co-Chair ____________________________ LYNN DECOITE Co-Chair ____________________________ LISA KITAGAWA Co-Chair",
+          "start_word": 520,
+          "end_word": 531,
+          "word_count": 11
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB727_CD1_CCR58_",
+          "chunk_text": "CCR58 CONFERENCE COMMITTEE REP. NO. 58 Honolulu, Hawaii , 2025 RE: H.B. No. 727 H.D. 1 S.D. 2 C.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB727_CD1_CCR58_",
+          "chunk_text": "D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madam and Sir: Your Committee on Conference on the disagreeing vote of the House of Representatives to the amendments proposed by the Senate in H.B. No. 727, H.D. 1, S.D. 2, entitled: \"A BILL",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB727_CD1_CCR58_",
+          "chunk_text": "H.B. No. 727, H.D. 1, S.D. 2, entitled: \"A BILL FOR AN ACT RELATING TO THE WOMEN'S COURT,\" having met, and after full and free discussion, has agreed to recommend and does recommend to the respective Houses the final passage of this bill in an amended form. The purpose of",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB727_CD1_CCR58_",
+          "chunk_text": "of this bill in an amended form. The purpose of this measure is to (1) Make the Women's Court Pilot Program in the First Circuit permanent; (2) Establish and appropriate funds for a three-year Women's Court Pilot Program in the Kona division of the Third Circuit; and (3) Require the",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB727_CD1_CCR58_",
+          "chunk_text": "Kona division of the Third Circuit; and (3) Require the Judiciary to submit a report to the Legislature regarding the need for and the associated costs of a pilot program for Women's Court in the Second and Fifth Circuits and Hilo division of the Third Circuit. Your Committee on Conference",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB727_CD1_CCR58_",
+          "chunk_text": "Hilo division of the Third Circuit. Your Committee on Conference has amended this measure by: (1) Codifying the Women's Court Program in the First Circuit within the Hawaii Revised Statutes, rather than the Session Laws of Hawaii; (2) Requiring the Judiciary to be responsible for providing mental health services under",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB727_CD1_CCR58_",
+          "chunk_text": "Judiciary to be responsible for providing mental health services under the Women's Court Pilot Program in the Kona division of the Third Circuit; (3) Changing the duration of the Women's Court Pilot Program in the Kona division of the Third Circuit from three years to two years; (4) Appropriating $514,900",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB727_CD1_CCR58_",
+          "chunk_text": "Circuit from three years to two years; (4) Appropriating $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for mental health, substance abuse treatment, and other services and equipment, and the establishment of one full-time equivalent temporary Kona drug court probation supervisor position for the Women's Court Pilot",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB727_CD1_CCR58_",
+          "chunk_text": "drug court probation supervisor position for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language that would have required the Judiciary to submit a report to the Legislature regarding the need for and the associated costs of a pilot program for Women's Court",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB727_CD1_CCR58_",
+          "chunk_text": "the associated costs of a pilot program for Women's Court in the Second and Fifth Circuits and Hilo division of the Third Circuit; (6) Changing the effective date to July 1, 2025; (7) Changing the sunset date for the Women's Court Pilot Program in the Kona division of the Third",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB727_CD1_CCR58_",
+          "chunk_text": "Court Pilot Program in the Kona division of the Third Circuit to June 30, 2027; and (8) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed by the record of votes of the managers of your Committee on Conference that is attached to this report,",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB727_CD1_CCR58_",
+          "chunk_text": "your Committee on Conference that is attached to this report, your Committee on Conference is in accord with the intent and purpose of H.B. No. 727, H.D. 1, S.D. 2, as amended herein, and recommends that it pass Final Reading in the form attached hereto as H.B. No. 727, H.D.",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB727_CD1_CCR58_",
+          "chunk_text": "in the form attached hereto as H.B. No. 727, H.D. 1, S.D. 2, C.D. 1. Respectfully submitted on behalf of the managers: ON THE PART OF THE SENATE ON THE PART OF THE HOUSE ____________________________ KARL RHOADS Chair ____________________________ DAVID A. TARNAS Co-Chair ____________________________ LYNN DECOITE Co-Chair ____________________________ LISA KITAGAWA",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB727_CD1_CCR58_",
+          "chunk_text": "A. TARNAS Co-Chair ____________________________ LYNN DECOITE Co-Chair ____________________________ LISA KITAGAWA Co-Chair",
+          "start_word": 520,
+          "end_word": 531,
+          "word_count": 11
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "and (6) Recommendations as to whether the women's court pilot program should: (A) Continue as a pilot program; (B) Expand to include additional participants; (C) Provide additional services; or (D) Be discontinued. SECTION 5. There is appropriated out of the general revenues of the State of Hawaii the sum of $514,900 or so much thereof as may be necessary for fiscal year 2025-2026 and $557,000 or so much thereof as may be necessary for fiscal year 2026-2027 for mental health, substance abuse treatment, and other services and equipment, and the establishment of one full-time equivalent (1.0 FTE) temporary Kona drug court",
+        "number": 514900.0,
+        "filename": "HB727_CD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "as a pilot program; (B) Expand to include additional participants; (C) Provide additional services; or (D) Be discontinued. SECTION 5. There is appropriated out of the general revenues of the State of Hawaii the sum of $514,900 or so much thereof as may be necessary for fiscal year 2025-2026 and $557,000 or so much thereof as may be necessary for fiscal year 2026-2027 for mental health, substance abuse treatment, and other services and equipment, and the establishment of one full-time equivalent (1.0 FTE) temporary Kona drug court probation supervisor position for the women's court pilot program established pursuant to section 3",
+        "number": 557000.0,
+        "filename": "HB727_CD1_.HTM.txt",
+        "document_type": "document"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:40:50.160438",
+  "generation_timestamp_unix": 1760146850.160449
+}

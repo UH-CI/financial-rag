@@ -21,7 +21,7 @@ def get_document_type_and_context(filename):
     else:
         return "document"
 
-def extract_number_context(input_dir="./documents", output_file="number_context.json", window=100):
+def extract_number_context(input_dir="./documents", output_file="number_context.json", window=50):
     """
     Scans all .txt files in input_dir, finds dollar amounts (handles both $5,000 and 5,000 $),
     and extracts +/- window tokens of context.

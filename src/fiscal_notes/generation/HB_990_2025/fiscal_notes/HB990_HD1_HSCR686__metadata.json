@@ -1,0 +1,1957 @@
+{
+  "document_name": "HB990_HD1_HSCR686_",
+  "new_documents_processed": [
+    "HB990_TESTIMONY_JHA_02-12-25_",
+    "HB990_HD1",
+    "HB990_HD1_HSCR686_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB990",
+    "HB990_TESTIMONY_JHA_02-12-25_",
+    "HB990_HD1",
+    "HB990_HD1_HSCR686_"
+  ],
+  "numbers_used": 91,
+  "prompt_length": 87540,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"The purpose of this measure is to \\\"satisfy several claims against the State, its officers, or its employees\\\" (HB990_HD1_HSCR686_.HTM.txt). The bill was amended to include new claims, with testimony indicating it now \\\"contains seventeen claims that total $5,911,234.22\\\" (HB990_HD1.PDF.txt) and a request has been made to add four more. A key amendment involves \\\"Changing the effective date to July 1, 3000, to encourage further discussion\\\" (HB990_HD1_HSCR686_.HTM.txt).\",\n\"appropriations\": \"Since the bill's introduction, \\\"nine new claims were resolved that total $3,572,898.47\\\" (HB990_TESTIMONY_JHA_02-12-25_.PDF.txt). Following that, \\\"four new claims were resolved that total $587,632.85\\\" (HB990_HD1.PDF.txt), bringing the updated appropriation request to a total of `$6,498,867.07` (HB990_HD1.PDF.txt). The updated request includes \\\"$5,158,867.07, allocated among eighteen claims to be paid from the general fund\\\" (HB990_HD1.PDF.txt) and \\\"$1,340,000.00, allocated among three claims to be paid from departmental funds\\\" (HB990_HD1.PDF.txt).\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"A significant policy amendment to the bill is \\\"Changing the effective date to July 1, 3000, to encourage further discussion\\\" (HB990_HD1_HSCR686_.HTM.txt). The measure also involves \\\"Inserting expenditure ceiling language\\\" (HB990_HD1_HSCR686_.HTM.txt) to address the fiscal implications of the appropriations.\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"This measure was amended to appropriate funds for several newly added claims. These appropriations include `$111,733.08` (HB990_HD1_HSCR686_.HTM.txt) in general funds for a claim by Mark Lloyd and `$152,665.39` (HB990_HD1_HSCR686_.HTM.txt) in general funds for a claim by Maui Kupono Builders, LLC. The measure also appropriates general funds for multiple settlements, including `$28,500` (HB990_HD1_HSCR686_.HTM.txt) for Billy Peter v. Anne E. Lopez, `$275,000` (HB990_HD1_HSCR686_.HTM.txt) for James Sean Shields v. State of Hawaii, and `$330,000` (HB990_HD1_HSCR686_.HTM.txt) for B.R., M.A., and F.R. v. State of Hawaii. Further settlements funded from general funds include `$100,000` (HB990_HD1_HSCR686_.HTM.txt) for Child Evangelism Fellowship of Hawaii, Inc. v. Hawaii State Department of Education, `$1,750,000` (HB990_HD1_HSCR686_.HTM.txt) for Brenda Persinger...v. State of Hawaii, Department of Education, `$75,000` (HB990_HD1_HSCR686_.HTM.txt) for Jake Ferreira v. State of Hawaii, Department of Education, and `$750,000` (HB990_HD1_HSCR686_.HTM.txt) for Cresencia Espejo v. State of Hawaii.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The total number of claims and the corresponding appropriation have increased through amendments. Testimony from the Department of the Attorney General indicates that since the bill was introduced, \\\"nine new claims were resolved that total $3,572,898.47\\\" (HB990_TESTIMONY_JHA_02-12-25_.PDF.txt), and later, \\\"four new claims were resolved that total $587,632.85\\\" (HB990_HD1.PDF.txt), bringing the total appropriation request to `$6,498,867.07` (HB990_HD1.PDF.txt). A significant policy change was made by \\\"Changing the effective date to July 1, 3000, to encourage further discussion\\\" (HB990_HD1_HSCR686_.HTM.txt). The committee report also explicitly details new general fund appropriations, including `$1,750,000` (HB990_HD1_HSCR686_.HTM.txt) for the Brenda Persinger case and `$750,000` (HB990_HD1_HSCR686_.HTM.txt) for the Cresencia Espejo case.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 40013,
+      "candidates_token_count": 1269,
+      "total_token_count": 46065
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"The purpose of this measure is to \\\"satisfy several claims against the State, its officers, or its employees\\\" (HB990_HD1_HSCR686_.HTM.txt). The bill was amended to include new claims, with testimony indicating it now \\\"contains seventeen claims that total $5,911,234.22\\\" (HB990_HD1.PDF.txt) and a request has been made to add four more. A key amendment involves \\\"Changing the effective date to July 1, 3000, to encourage further discussion\\\" (HB990_HD1_HSCR686_.HTM.txt).\",\n\"appropriations\": \"Since the bill's introduction, \\\"nine new claims were resolved that total $3,572,898.47\\\" (HB990_TESTIMONY_JHA_02-12-25_.PDF.txt). Following that, \\\"four new claims were resolved that total $587,632.85\\\" (HB990_HD1.PDF.txt), bringing the updated appropriation request to a total of `$6,498,867.07` (HB990_HD1.PDF.txt). The updated request includes \\\"$5,158,867.07, allocated among eighteen claims to be paid from the general fund\\\" (HB990_HD1.PDF.txt) and \\\"$1,340,000.00, allocated among three claims to be paid from departmental funds\\\" (HB990_HD1.PDF.txt).\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"A significant policy amendment to the bill is \\\"Changing the effective date to July 1, 3000, to encourage further discussion\\\" (HB990_HD1_HSCR686_.HTM.txt). The measure also involves \\\"Inserting expenditure ceiling language\\\" (HB990_HD1_HSCR686_.HTM.txt) to address the fiscal implications of the appropriations.\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"This measure was amended to appropriate funds for several newly added claims. These appropriations include `$111,733.08` (HB990_HD1_HSCR686_.HTM.txt) in general funds for a claim by Mark Lloyd and `$152,665.39` (HB990_HD1_HSCR686_.HTM.txt) in general funds for a claim by Maui Kupono Builders, LLC. The measure also appropriates general funds for multiple settlements, including `$28,500` (HB990_HD1_HSCR686_.HTM.txt) for Billy Peter v. Anne E. Lopez, `$275,000` (HB990_HD1_HSCR686_.HTM.txt) for James Sean Shields v. State of Hawaii, and `$330,000` (HB990_HD1_HSCR686_.HTM.txt) for B.R., M.A., and F.R. v. State of Hawaii. Further settlements funded from general funds include `$100,000` (HB990_HD1_HSCR686_.HTM.txt) for Child Evangelism Fellowship of Hawaii, Inc. v. Hawaii State Department of Education, `$1,750,000` (HB990_HD1_HSCR686_.HTM.txt) for Brenda Persinger...v. State of Hawaii, Department of Education, `$75,000` (HB990_HD1_HSCR686_.HTM.txt) for Jake Ferreira v. State of Hawaii, Department of Education, and `$750,000` (HB990_HD1_HSCR686_.HTM.txt) for Cresencia Espejo v. State of Hawaii.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The total number of claims and the corresponding appropriation have increased through amendments. Testimony from the Department of the Attorney General indicates that since the bill was introduced, \\\"nine new claims were resolved that total $3,572,898.47\\\" (HB990_TESTIMONY_JHA_02-12-25_.PDF.txt), and later, \\\"four new claims were resolved that total $587,632.85\\\" (HB990_HD1.PDF.txt), bringing the total appropriation request to `$6,498,867.07` (HB990_HD1.PDF.txt). A significant policy change was made by \\\"Changing the effective date to July 1, 3000, to encourage further discussion\\\" (HB990_HD1_HSCR686_.HTM.txt). The committee report also explicitly details new general fund appropriations, including `$1,750,000` (HB990_HD1_HSCR686_.HTM.txt) for the Brenda Persinger case and `$750,000` (HB990_HD1_HSCR686_.HTM.txt) for the Cresencia Espejo case.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"The purpose of this measure is to \\\"satisfy several claims against the State, its officers, or its employees\\\" (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": 38,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7692307692307693,
+          "attribution_reason": "Word frequency match score: 0.769",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt). The bill was amended to include new claims, with testimony indicating it now \\\"contains seventeen claims that total $5,911,234",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": [
+            5911234.0
+          ]
+        },
+        {
+          "sentence": "22\\\" (HB990_HD1",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            22.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) and a request has been made to add four more",
+          "attributed_chunk_id": 12,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Word frequency match score: 0.286",
+          "numbers_found": []
+        },
+        {
+          "sentence": "A key amendment involves \\\"Changing the effective date to July 1, 3000, to encourage further discussion\\\" (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": 45,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). \",\n\"appropriations\": \"Since the bill's introduction, \\\"nine new claims were resolved that total $3,572,898",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5833333333333334,
+          "attribution_reason": "Word frequency match score: 0.583",
+          "numbers_found": [
+            3572898.0
+          ]
+        },
+        {
+          "sentence": "47\\\" (HB990_TESTIMONY_JHA_02-12-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            12.0,
+            47.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). Following that, \\\"four new claims were resolved that total $587,632",
+          "attributed_chunk_id": 31,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Word frequency match score: 0.600",
+          "numbers_found": [
+            587632.0
+          ]
+        },
+        {
+          "sentence": "85\\\" (HB990_HD1",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            85.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt), bringing the updated appropriation request to a total of `$6,498,867",
+          "attributed_chunk_id": 33,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": [
+            6498867.0
+          ]
+        },
+        {
+          "sentence": "07` (HB990_HD1",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            7.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). The updated request includes \\\"$5,158,867",
+          "attributed_chunk_id": 33,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": [
+            5158867.0
+          ]
+        },
+        {
+          "sentence": "07, allocated among eighteen claims to be paid from the general fund\\\" (HB990_HD1",
+          "attributed_chunk_id": 33,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.9,
+          "attribution_reason": "Word frequency match score: 0.900",
+          "numbers_found": [
+            7.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt) and \\\"$1,340,000",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": [
+            1340000.0
+          ]
+        },
+        {
+          "sentence": "00, allocated among three claims to be paid from departmental funds\\\" (HB990_HD1",
+          "attributed_chunk_id": 7,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.9,
+          "attribution_reason": "Word frequency match score: 0.900",
+          "numbers_found": [
+            0.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). \",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"A significant policy amendment to the bill is \\\"Changing the effective date to July 1, 3000, to encourage further discussion\\\" (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": 45,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.42105263157894735,
+          "attribution_reason": "Word frequency match score: 0.421",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). The measure also involves \\\"Inserting expenditure ceiling language\\\" (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": 45,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": []
+        },
+        {
+          "sentence": "HTM. txt) to address the fiscal implications of the appropriations",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.16666666666666666,
+          "attribution_reason": "Word frequency match score: 0.167",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"This measure was amended to appropriate funds for several newly added claims",
+          "attributed_chunk_id": 40,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.4,
+          "attribution_reason": "Word frequency match score: 0.400",
+          "numbers_found": []
+        },
+        {
+          "sentence": "These appropriations include `$111,733",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Word frequency match score: 0.333",
+          "numbers_found": [
+            111733.0
+          ]
+        },
+        {
+          "sentence": "08` (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            8.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) in general funds for a claim by Mark Lloyd and `$152,665",
+          "attributed_chunk_id": 40,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.75,
+          "attribution_reason": "Word frequency match score: 0.750",
+          "numbers_found": [
+            152665.0
+          ]
+        },
+        {
+          "sentence": "39` (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            39.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) in general funds for a claim by Maui Kupono Builders, LLC",
+          "attributed_chunk_id": 41,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7777777777777778,
+          "attribution_reason": "Word frequency match score: 0.778",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The measure also appropriates general funds for multiple settlements, including `$28,500` (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": "NUMBER_28500",
+          "attribution_method": "number_based",
+          "attribution_score": 0.1,
+          "attribution_reason": "Number $28,500 from HB990_HD1_.HTM.txt (score: 0.100)",
+          "numbers_found": [
+            28500.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for Billy Peter v",
+          "attributed_chunk_id": 36,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Anne E. Lopez, `$275,000` (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": "NUMBER_275000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Number $275,000 from HB990_HD1_.HTM.txt (score: 0.250)",
+          "numbers_found": [
+            275000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for James Sean Shields v",
+          "attributed_chunk_id": 42,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Word frequency match score: 0.600",
+          "numbers_found": []
+        },
+        {
+          "sentence": "State of Hawaii, and `$330,000` (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": "NUMBER_330000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Number $330,000 from HB990_HD1_.HTM.txt (score: 0.500)",
+          "numbers_found": [
+            330000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for B",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "R. , M. A. , and F",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "R. v. State of Hawaii",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Further settlements funded from general funds include `$100,000` (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": "NUMBER_100000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.2222222222222222,
+          "attribution_reason": "Number $100,000 from HB990_TESTIMONY_JHA_02-12-25_.PDF.txt (score: 0.222)",
+          "numbers_found": [
+            100000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for Child Evangelism Fellowship of Hawaii, Inc",
+          "attributed_chunk_id": 43,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7142857142857143,
+          "attribution_reason": "Word frequency match score: 0.714",
+          "numbers_found": []
+        },
+        {
+          "sentence": "v. Hawaii State Department of Education, `$1,750,000` (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": "NUMBER_1750000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Number $1,750,000 from HB990_HD1_.HTM.txt (score: 0.500)",
+          "numbers_found": [
+            1750000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for Brenda Persinger",
+          "attributed_chunk_id": 15,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": []
+        },
+        {
+          "sentence": "v. State of Hawaii, Department of Education, `$75,000` (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": "NUMBER_75000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Number $75,000 from HB990_HD1_.HTM.txt (score: 0.500)",
+          "numbers_found": [
+            75000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for Jake Ferreira v",
+          "attributed_chunk_id": 44,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "State of Hawaii, Department of Education, and `$750,000` (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": "NUMBER_750000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Number $750,000 from HB990_HD1_.HTM.txt (score: 0.333)",
+          "numbers_found": [
+            750000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for Cresencia Espejo v",
+          "attributed_chunk_id": 44,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "State of Hawaii",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The total number of claims and the corresponding appropriation have increased through amendments",
+          "attributed_chunk_id": 6,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.25,
+          "attribution_reason": "Word frequency match score: 0.250",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Testimony from the Department of the Attorney General indicates that since the bill was introduced, \\\"nine new claims were resolved that total $3,572,898",
+          "attributed_chunk_id": 8,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.7333333333333333,
+          "attribution_reason": "Word frequency match score: 0.733",
+          "numbers_found": [
+            3572898.0
+          ]
+        },
+        {
+          "sentence": "47\\\" (HB990_TESTIMONY_JHA_02-12-25_",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            12.0,
+            47.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt), and later, \\\"four new claims were resolved that total $587,632",
+          "attributed_chunk_id": 31,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6666666666666666,
+          "attribution_reason": "Word frequency match score: 0.667",
+          "numbers_found": [
+            587632.0
+          ]
+        },
+        {
+          "sentence": "85\\\" (HB990_HD1",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            85.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt), bringing the total appropriation request to `$6,498,867",
+          "attributed_chunk_id": 32,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.42857142857142855,
+          "attribution_reason": "Word frequency match score: 0.429",
+          "numbers_found": [
+            6498867.0
+          ]
+        },
+        {
+          "sentence": "07` (HB990_HD1",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": [
+            7.0
+          ]
+        },
+        {
+          "sentence": "PDF. txt). A significant policy change was made by \\\"Changing the effective date to July 1, 3000, to encourage further discussion\\\" (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": 45,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5333333333333333,
+          "attribution_reason": "Word frequency match score: 0.533",
+          "numbers_found": [
+            1.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt). The committee report also explicitly details new general fund appropriations, including `$1,750,000` (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": "NUMBER_1750000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Number $1,750,000 from HB990_TESTIMONY_JHA_02-12-25_.PDF.txt (score: 0.143)",
+          "numbers_found": [
+            1750000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for the Brenda Persinger case and `$750,000` (HB990_HD1_HSCR686_",
+          "attributed_chunk_id": "NUMBER_750000",
+          "attribution_method": "number_based",
+          "attribution_score": 0.14285714285714285,
+          "attribution_reason": "Number $750,000 from HB990_HD1_.HTM.txt (score: 0.143)",
+          "numbers_found": [
+            750000.0
+          ]
+        },
+        {
+          "sentence": "HTM. txt) for the Cresencia Espejo case",
+          "attributed_chunk_id": 44,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Word frequency match score: 0.600",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 4,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)",
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 2,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.167",
+            "Word frequency match score: 0.333"
+          ]
+        },
+        "2": {
+          "usage_count": 0,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": []
+        },
+        "3": {
+          "usage_count": 0,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": []
+        },
+        "4": {
+          "usage_count": 0,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": []
+        },
+        "5": {
+          "usage_count": 0,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": []
+        },
+        "6": {
+          "usage_count": 1,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.250"
+          ]
+        },
+        "7": {
+          "usage_count": 2,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.333",
+            "Word frequency match score: 0.900"
+          ]
+        },
+        "8": {
+          "usage_count": 3,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.400",
+            "Word frequency match score: 0.583",
+            "Word frequency match score: 0.733"
+          ]
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 1,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.286"
+          ]
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 1,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.250"
+          ]
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": []
+        },
+        "20": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": []
+        },
+        "21": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": []
+        },
+        "22": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": []
+        },
+        "23": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": []
+        },
+        "24": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": []
+        },
+        "25": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": []
+        },
+        "26": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": []
+        },
+        "27": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": []
+        },
+        "28": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": []
+        },
+        "29": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": []
+        },
+        "30": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": []
+        },
+        "31": {
+          "usage_count": 2,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.600",
+            "Word frequency match score: 0.667"
+          ]
+        },
+        "32": {
+          "usage_count": 1,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.429"
+          ]
+        },
+        "33": {
+          "usage_count": 3,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.900"
+          ]
+        },
+        "34": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": []
+        },
+        "35": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": []
+        },
+        "36": {
+          "usage_count": 1,
+          "document_name": "HB990_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.500"
+          ]
+        },
+        "37": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_HSCR686_",
+          "attribution_reasons": []
+        },
+        "38": {
+          "usage_count": 1,
+          "document_name": "HB990_HD1_HSCR686_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.769"
+          ]
+        },
+        "39": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_HSCR686_",
+          "attribution_reasons": []
+        },
+        "40": {
+          "usage_count": 2,
+          "document_name": "HB990_HD1_HSCR686_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.400",
+            "Word frequency match score: 0.750"
+          ]
+        },
+        "41": {
+          "usage_count": 1,
+          "document_name": "HB990_HD1_HSCR686_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.778"
+          ]
+        },
+        "42": {
+          "usage_count": 1,
+          "document_name": "HB990_HD1_HSCR686_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.600"
+          ]
+        },
+        "43": {
+          "usage_count": 1,
+          "document_name": "HB990_HD1_HSCR686_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.714"
+          ]
+        },
+        "44": {
+          "usage_count": 3,
+          "document_name": "HB990_HD1_HSCR686_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.500",
+            "Word frequency match score: 0.600"
+          ]
+        },
+        "45": {
+          "usage_count": 4,
+          "document_name": "HB990_HD1_HSCR686_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.667",
+            "Word frequency match score: 0.421",
+            "Word frequency match score: 0.400",
+            "Word frequency match score: 0.533"
+          ]
+        },
+        "46": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_HSCR686_",
+          "attribution_reasons": []
+        },
+        "47": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_HSCR686_",
+          "attribution_reasons": []
+        },
+        "48": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_HSCR686_",
+          "attribution_reasons": []
+        },
+        "NUMBER_111733.08": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_442504.75": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_152665.39": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_460.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_5371.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_712734.22": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_28500.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_275000.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_330000.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_100000.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1750000.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_75000.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_2255000.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_450000.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_550000.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_750000.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_4324734.22": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1075000.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_175000.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1250000.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_90000.0": {
+          "usage_count": 0,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_5911234.22": {
+          "usage_count": 0,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_28500": {
+          "usage_count": 1,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $28,500 from HB990_HD1_.HTM.txt (score: 0.100)"
+          ]
+        },
+        "NUMBER_275000": {
+          "usage_count": 1,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $275,000 from HB990_HD1_.HTM.txt (score: 0.250)"
+          ]
+        },
+        "NUMBER_330000": {
+          "usage_count": 1,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $330,000 from HB990_HD1_.HTM.txt (score: 0.500)"
+          ]
+        },
+        "NUMBER_100000": {
+          "usage_count": 1,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $100,000 from HB990_TESTIMONY_JHA_02-12-25_.PDF.txt (score: 0.222)"
+          ]
+        },
+        "NUMBER_1750000": {
+          "usage_count": 2,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $1,750,000 from HB990_HD1_.HTM.txt (score: 0.500)",
+            "Number $1,750,000 from HB990_TESTIMONY_JHA_02-12-25_.PDF.txt (score: 0.143)"
+          ]
+        },
+        "NUMBER_75000": {
+          "usage_count": 1,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $75,000 from HB990_HD1_.HTM.txt (score: 0.500)"
+          ]
+        },
+        "NUMBER_750000": {
+          "usage_count": 2,
+          "document_name": "HB990_HD1_.HTM.txt",
+          "attribution_reasons": [
+            "Number $750,000 from HB990_HD1_.HTM.txt (score: 0.333)",
+            "Number $750,000 from HB990_HD1_.HTM.txt (score: 0.143)"
+          ]
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 0,
+        "number_based": 9,
+        "word_frequency_based": 30,
+        "semantic_similarity": 0,
+        "fallback": 4,
+        "no_attribution": 10
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 49,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "JOSH GREEN, M.D. GOVERNOR KE KIAʻĀINA STATE OF HAWAIʻI | KA MOKUʻĀINA ʻO HAWAIʻI DEPARTMENT OF TRANSPORTATION | KA ʻOIHANA ALAKAU 869 PUNCHBOWL STREET HONOLULU, HAWAII 96813-5097 EDWIN H. SNIFFEN DIRECTOR KA LUNA HOʻOKELE Deputy Directors Nā Hope Luna Hoʻokele DREANALEE K. KALILI TAMMY L. LEE CURT T. OTAGURO ROBIN",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "DREANALEE K. KALILI TAMMY L. LEE CURT T. OTAGURO ROBIN K. SHISHIDO February 12, 2025 2:00 p.m. State Capitol, Room 325 VC H.B. 990 RELATING TO MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES House Committee on Judiciary The Department of Transportation (DOT) supports H.B. 990",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "on Judiciary The Department of Transportation (DOT) supports H.B. 990 that authorizes judgements and settlements for claims against the State. We want to thank the State AG office for all their support and hard work on completing these cases for the DOT. Thank you for the opportunity to provide testimony.",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "the DOT. Thank you for the opportunity to provide testimony. TESTIMONY OF THE DEPARTMENT OF THE ATTORNEY GENERAL KA ‘OIHANA O KA LOIO KUHINA THIRTY-THIRD LEGISLATURE, 2025 ON THE FOLLOWING MEASURE: H.B. NO. 990, MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. BEFORE THE: HOUSE COMMITTEE",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "STATE, ITS OFFICERS, OR ITS EMPLOYEES. BEFORE THE: HOUSE COMMITTEE ON JUDICIARY & HAWAIIAN AFFAIRS DATE: Wednesday, February 12, 2025 TIME: 2:00 p.m. LOCATION: State Capitol, Room 325 TESTIFIER(S): Anne E. Lopez, Attorney General, or Skyler G. Cruz, Deputy Attorney General Chair Tarnas and Members of the Committee: The Department",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "General Chair Tarnas and Members of the Committee: The Department of the Attorney General (Department) supports this bill. The purpose of this bill is to seek appropriations to satisfy claims against the State, its officers, or its employees, including claims for legislative relief, judgments against the State, settlements, and miscellaneous",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "for legislative relief, judgments against the State, settlements, and miscellaneous claims. The bill contains eight claims that total $2,338,335.75. To satisfy this total amount, the following appropriations are needed: • An appropriation in the amount of $998,335.75, allocated among five claims to be paid from the general fund; and •",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "claims to be paid from the general fund; and • An appropriation in the amount of $1,340,000.00, allocated among three claims to be paid from departmental funds. Attachment \"A\" provides a brief description of each claim in this bill. Since the bill was introduced, nine new claims were resolved that",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "the bill was introduced, nine new claims were resolved that total $3,572,898.47. To satisfy these additional claims, the Department requests that the bill be amended to increase the requested appropriation by the amount of $3,572,898.47, allocated among nine claims to be paid from the general fund. Attachment \"B\" provides a",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "be paid from the general fund. Attachment \"B\" provides a brief description of the new claims. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 2 of 8 Including the new claims, the appropriation request totals $5,911,234.22 allocated among seventeen claims, with the updated appropropriation request as",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "allocated among seventeen claims, with the updated appropropriation request as follows: • An appropriation in the amount of $4,571,234.22, allocated among fourteen claims to be paid from the general fund; and • An appropriation in the amount of $1,340,000.00, allocated among three claims to be paid from departmental funds. The",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "among three claims to be paid from departmental funds. The Department has a longstanding policy of advising agencies as to how to avoid claims such as those in this bill. The Department has complied with section 37- 77.5, Hawaii Revised Statutes (HRS), which requires the Attorney General to develop and",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "Statutes (HRS), which requires the Attorney General to develop and implement a procedure for advising our client agencies on how to avoid future claims. We respectfully request passage of this bill with amendments to add the new claims. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "the Department of the Attorney General Thirty-Third Legislature, 2025 Page 3 of 8 ATTACHMENT “A” DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 (General Fund) Civil No. 5CCV-23-0000053, Fifth Circuit Settlement On May 20, 2021, Plaintiff Jennifer Reber (Reber) slipped and fell onto a",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "2021, Plaintiff Jennifer Reber (Reber) slipped and fell onto a piece of rebar protruding from the ground while hiking on a trail leading to Waipoo Falls, which is located at Kokee and Waimea Canyon State Park on Kauai, Hawaii. The rebar spike impaled Reber’s lower right thigh. First responders transported",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "rebar spike impaled Reber’s lower right thigh. First responders transported Reber to the nearest hospital where she was treated and released. After returning to her home in Utah, Reber underwent reconstructive surgery and physical therapy. Brenda Osmer $ 100,000.00 (General Fund) Tort Claim Settlement Brenda Osmer (Osmer) was visiting Waimea",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "Fund) Tort Claim Settlement Brenda Osmer (Osmer) was visiting Waimea Canyon State Park on June 15, 2023. She was with her husband when they headed down the walkway from the Waimea Canyon lookout. Around the middle of the walkway, Osmer slipped on a steel diamond plate that was covering a",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "slipped on a steel diamond plate that was covering a small drainage ditch. Osmer fell and fractured her femur in the mid-thigh area of her right leg. According to Osmer, her husband, and two witnesses, there was a light sprinkling of rain prior to the incident. The two witnesses provided",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB990_TESTIMONY_JHA_02-12-25_",
+          "chunk_text": "of rain prior to the incident. The two witnesses provided a statement that another person had fallen in the same area right before this incident. Osmer was taken",
+          "start_word": 720,
+          "end_word": 748,
+          "word_count": 28
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB990_HD1",
+          "chunk_text": "JOSH GREEN, M.D. GOVERNOR KE KIAʻĀINA STATE OF HAWAIʻI | KA MOKUʻĀINA ʻO HAWAIʻI DEPARTMENT OF TRANSPORTATION | KA ʻOIHANA ALAKAU 869 PUNCHBOWL STREET HONOLULU, HAWAII 96813-5097 EDWIN H. SNIFFEN DIRECTOR KA LUNA HOʻOKELE Deputy Directors Nā Hope Luna Hoʻokele DREANALEE K. KALILI TAMMY L. LEE CURT T. OTAGURO ROBIN",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB990_HD1",
+          "chunk_text": "DREANALEE K. KALILI TAMMY L. LEE CURT T. OTAGURO ROBIN K. SHISHIDO February 25, 2025 12:00 p.m. State Capitol, Room 308 VC H.B. 990 H.D. 1 RELATING TO MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES House Committee on Finance The Hawaii Department of Transportation (HDOT)",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB990_HD1",
+          "chunk_text": "House Committee on Finance The Hawaii Department of Transportation (HDOT) supports H.B. 990 H.D. 1 that authorizes judgements and settlements for claims against the State. We want to thank the State Attorney General office for all their support and hard work on completing these cases for the HDOT. Thank you",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB990_HD1",
+          "chunk_text": "work on completing these cases for the HDOT. Thank you for the opportunity to provide testimony. JOSH GREEN, M.D. GOVERNOR STATE OF HAWAI`I DEPARTMENT OF EDUCATION KA ‘OIHANA HO‘ONA‘AUAO P.O. BOX 2360 HONOLULU, HAWAI`I 96804 KEITH T. HAYASHI SUPERINTENDENT Date: 02/25/2025 Time: 12:00 PM Location: 308 VIA VIDEOCONFERENCE Committee: House",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB990_HD1",
+          "chunk_text": "02/25/2025 Time: 12:00 PM Location: 308 VIA VIDEOCONFERENCE Committee: House Finance Department: Education Person Testifying: Keith T. Hayashi, Superintendent of Education Bill Title: HB 0990, HD1 MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. Purpose of Bill: Makes appropriations and approves payments for claims against the",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB990_HD1",
+          "chunk_text": "Bill: Makes appropriations and approves payments for claims against the State, its officers, and its employees. Effective 7/1/3000. (HD1) Department's Position: The Hawaii State Department of Education (Department) supports HB990, HD1, which appropriates funds to satisfy claims against the State. This measure enables timely resolution of legal obligations, preventing unnecessary",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB990_HD1",
+          "chunk_text": "This measure enables timely resolution of legal obligations, preventing unnecessary litigation and financial burdens. By settling claims efficiently, this bill allows the Department to focus on its core mission of educating Hawaii's students. Appropriating these funds ensures fiscal responsibility and protects essential educational resources. Thank you for the opportunity to",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB990_HD1",
+          "chunk_text": "protects essential educational resources. Thank you for the opportunity to provide testimony in support of this measure. TESTIMONY OF THE DEPARTMENT OF THE ATTORNEY GENERAL KA ‘OIHANA O KA LOIO KUHINA THIRTY-THIRD LEGISLATURE, 2025 ON THE FOLLOWING MEASURE: H.B. NO. 990, H.D. 1, MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE,",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB990_HD1",
+          "chunk_text": "990, H.D. 1, MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. BEFORE THE: HOUSE COMMITTEE ON FINANCE DATE: Tuesday, February 25, 2025 TIME: 12:00 p.m. LOCATION: State Capitol, Room 308 TESTIFIER(S): Anne E. Lopez, Attorney General, or Skyler G. Cruz, Deputy Attorney General Chair Yamashita and",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB990_HD1",
+          "chunk_text": "or Skyler G. Cruz, Deputy Attorney General Chair Yamashita and Members of the Committee: The Department of the Attorney General (Department) supports this bill. The purpose of this bill is to seek appropriations to satisfy claims against the State, its officers, or its employees, including claims for legislative relief, judgments",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB990_HD1",
+          "chunk_text": "officers, or its employees, including claims for legislative relief, judgments against the State, settlements, and miscellaneous claims. The bill contains seventeen claims that total $5,911,234.22. To satisfy this total amount, the following appropriations are needed: • An appropriation in the amount of $4,571,234.22, allocated among fourteen claims to be paid",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 30,
+          "document_name": "HB990_HD1",
+          "chunk_text": "amount of $4,571,234.22, allocated among fourteen claims to be paid from the general fund; and • An appropriation in the amount of $1,340,000.00, allocated among three claims to be paid from departmental funds. Attachment \"A\" provides a brief description of each claim in this bill. Since the bill was last",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 31,
+          "document_name": "HB990_HD1",
+          "chunk_text": "each claim in this bill. Since the bill was last amended, four new claims were resolved that total $587,632.85. To satisfy these additional claims, the Department requests that the bill be amended to increase the requested appropriation by the amount of $587,632.85, allocated among nine claims to be paid from",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 32,
+          "document_name": "HB990_HD1",
+          "chunk_text": "of $587,632.85, allocated among nine claims to be paid from the general fund. Attachment \"B\" provides a brief description of the new claims. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 2 of 10 Including the new claims, the appropriation request totals $6,498,867.07 allocated among twenty-one",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 33,
+          "document_name": "HB990_HD1",
+          "chunk_text": "new claims, the appropriation request totals $6,498,867.07 allocated among twenty-one claims, with the updated appropropriation request as follows: • An appropriation in the amount of $5,158,867.07, allocated among eighteen claims to be paid from the general fund; and • An appropriation in the amount of $1,340,000.00, allocated among three claims",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 34,
+          "document_name": "HB990_HD1",
+          "chunk_text": "appropriation in the amount of $1,340,000.00, allocated among three claims to be paid from departmental funds. The Department has a longstanding policy of advising agencies as to how to avoid claims such as those in this bill. The Department has complied with section 37- 77.5, Hawaii Revised Statutes (HRS), which",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 35,
+          "document_name": "HB990_HD1",
+          "chunk_text": "complied with section 37- 77.5, Hawaii Revised Statutes (HRS), which requires the Attorney General to develop and implement a procedure for advising our client agencies on how to avoid future claims. We respectfully request passage of this bill with amendments to add the new claims. Testimony of the Department of",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 36,
+          "document_name": "HB990_HD1",
+          "chunk_text": "to add the new claims. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 3 of 10 ATTACHMENT “A” DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 (General Fund) Civil No. 24-cv-00508 MWJS-RT, USDC",
+          "start_word": 680,
+          "end_word": 722,
+          "word_count": 42
+        },
+        {
+          "chunk_id": 37,
+          "document_name": "HB990_HD1_HSCR686_",
+          "chunk_text": "HSCR686 STAND. COM. REP. NO. 686 Honolulu, Hawaii , 2025 RE: H.B. No. 990 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Judiciary & Hawaiian Affairs, to which was referred H.B. No. 990 entitled:",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 38,
+          "document_name": "HB990_HD1_HSCR686_",
+          "chunk_text": "Hawaiian Affairs, to which was referred H.B. No. 990 entitled: \"A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES,\" begs leave to report as follows: The purpose of this measure is to satisfy several claims against the State, its officers, or its",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 39,
+          "document_name": "HB990_HD1_HSCR686_",
+          "chunk_text": "satisfy several claims against the State, its officers, or its employees. Your Committee received testimony in support of this measure from the Department of Transportation; Department of the Attorney General; and Department of Budget and Finance. Your Committee finds that the Department of the Attorney General testified that it has",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 40,
+          "document_name": "HB990_HD1_HSCR686_",
+          "chunk_text": "the Department of the Attorney General testified that it has advised its client agencies on how to avoid claims such as those included in this measure. Your Committee has amended this measure by: (1) Appropriating: (A) $111,733.08 in general funds for a claim by Mark Lloyd; (B) $152,665.39 in general",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 41,
+          "document_name": "HB990_HD1_HSCR686_",
+          "chunk_text": "for a claim by Mark Lloyd; (B) $152,665.39 in general funds for a claim by Maui Kupono Builders, LLC; (C) $28,500 in general funds for a settlement in the case of Billy Peter v. Anne E. Lopez; (D) $275,000 in general funds for a settlement in the case of James",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 42,
+          "document_name": "HB990_HD1_HSCR686_",
+          "chunk_text": "general funds for a settlement in the case of James Sean Shields v. State of Hawaii; (E) $330,000 in general funds for a settlement in the case of B.R., M.A., and F.R. v. State of Hawaii; (F) $100,000 in general funds for a settlement in the case of Child Evangelism",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 43,
+          "document_name": "HB990_HD1_HSCR686_",
+          "chunk_text": "funds for a settlement in the case of Child Evangelism Fellowship of Hawaii, Inc. v. Hawaii State Department of Education; (G) $1,750,000 in general funds for a settlement in the case of Brenda Persinger, Individually and as a Personal Representative of the Estate of Michael Ambrose, Deceased v. State of",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 44,
+          "document_name": "HB990_HD1_HSCR686_",
+          "chunk_text": "of the Estate of Michael Ambrose, Deceased v. State of Hawaii, Department of Education; (H) $75,000 in general funds for a settlement in the case of Jake Ferreira v. State of Hawaii, Department of Education; and (I) $750,000 in general funds for a settlement in the case of Cresencia Espejo",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 45,
+          "document_name": "HB990_HD1_HSCR686_",
+          "chunk_text": "funds for a settlement in the case of Cresencia Espejo v. State of Hawaii; (2) Inserting expenditure ceiling language; (3) Changing the effective date to July 1, 3000, to encourage further discussion ; and (4) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed by",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 46,
+          "document_name": "HB990_HD1_HSCR686_",
+          "chunk_text": "the purposes of clarity, consistency, and style. As affirmed by the record of votes of the members of your Committee on Judiciary & Hawaiian Affairs that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 990, as amended herein, and recommends",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 47,
+          "document_name": "HB990_HD1_HSCR686_",
+          "chunk_text": "purpose of H.B. No. 990, as amended herein, and recommends that it pass Second Reading in the form attached hereto as H.B. No. 990, H.D. 1, and be referred to your Committee on Finance. Respectfully submitted on behalf of the members of the Committee on Judiciary & Hawaiian Affairs, ____________________________",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 48,
+          "document_name": "HB990_HD1_HSCR686_",
+          "chunk_text": "members of the Committee on Judiciary & Hawaiian Affairs, ____________________________ DAVID A. TARNAS, Chair",
+          "start_word": 440,
+          "end_word": 454,
+          "word_count": 14
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "entities, for claims against the State or its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez",
+        "number": 111733.08,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "for claims against the State or its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $",
+        "number": 111733.08,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "or its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT,",
+        "number": 442504.75,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC",
+        "number": 442504.75,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF",
+        "number": 152665.39,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE:",
+        "number": 152665.39,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $",
+        "number": 460.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00",
+        "number": 460.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________",
+        "number": 5371.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________ SUBTOTAL:",
+        "number": 5371.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________ SUBTOTAL: $ 275,000.00 4.",
+        "number": 712734.22,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________ SUBTOTAL: $ 275,000.00 4. DEPARTMENT",
+        "number": 712734.22,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________ SUBTOTAL: $ 275,000.00 4. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil",
+        "number": 28500.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________ SUBTOTAL: $ 275,000.00 4. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil No.",
+        "number": 28500.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________ SUBTOTAL: $ 275,000.00 4. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil No. 1CCV-20-0000549, First Circuit (Settlement) Child Evangelism Fellowship of Hawaii,",
+        "number": 28500.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________ SUBTOTAL: $ 275,000.00 4. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil No. 1CCV-20-0000549, First Circuit (Settlement) Child Evangelism Fellowship of Hawaii, $",
+        "number": 28500.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "$ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________ SUBTOTAL: $ 275,000.00 4. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil No. 1CCV-20-0000549, First Circuit (Settlement) Child Evangelism Fellowship of Hawaii, $ 100,000.00 Inc. v. Hawaii State Department of Education (Settlement) Civil No. 24-cv-00034",
+        "number": 275000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________ SUBTOTAL: $ 275,000.00 4. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil No. 1CCV-20-0000549, First Circuit (Settlement) Child Evangelism Fellowship of Hawaii, $ 100,000.00 Inc. v. Hawaii State Department of Education (Settlement) Civil No. 24-cv-00034 MWJS-WRP,",
+        "number": 275000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________ SUBTOTAL: $ 275,000.00 4. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil No. 1CCV-20-0000549, First Circuit (Settlement) Child Evangelism Fellowship of Hawaii, $ 100,000.00 Inc. v. Hawaii State Department of Education (Settlement) Civil No. 24-cv-00034 MWJS-WRP, USDC Brenda Persinger, Individually and as a $ 1,750,000.00 Personal",
+        "number": 275000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________ SUBTOTAL: $ 275,000.00 4. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil No. 1CCV-20-0000549, First Circuit (Settlement) Child Evangelism Fellowship of Hawaii, $ 100,000.00 Inc. v. Hawaii State Department of Education (Settlement) Civil No. 24-cv-00034 MWJS-WRP, USDC Brenda Persinger, Individually and as a $ 1,750,000.00 Personal Representative",
+        "number": 275000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________ SUBTOTAL: $ 275,000.00 4. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil No. 1CCV-20-0000549, First Circuit (Settlement) Child Evangelism Fellowship of Hawaii, $ 100,000.00 Inc. v. Hawaii State Department of Education (Settlement) Civil No. 24-cv-00034 MWJS-WRP, USDC Brenda Persinger, Individually and as a $ 1,750,000.00 Personal Representative of the Estate of (Settlement) Michael Ambrose, Deceased v. State of Hawaii, Department",
+        "number": 330000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________ SUBTOTAL: $ 275,000.00 4. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil No. 1CCV-20-0000549, First Circuit (Settlement) Child Evangelism Fellowship of Hawaii, $ 100,000.00 Inc. v. Hawaii State Department of Education (Settlement) Civil No. 24-cv-00034 MWJS-WRP, USDC Brenda Persinger, Individually and as a $ 1,750,000.00 Personal Representative of the Estate of (Settlement) Michael Ambrose, Deceased v. State of Hawaii, Department of",
+        "number": 330000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________ SUBTOTAL: $ 275,000.00 4. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil No. 1CCV-20-0000549, First Circuit (Settlement) Child Evangelism Fellowship of Hawaii, $ 100,000.00 Inc. v. Hawaii State Department of Education (Settlement) Civil No. 24-cv-00034 MWJS-WRP, USDC Brenda Persinger, Individually and as a $ 1,750,000.00 Personal Representative of the Estate of (Settlement) Michael Ambrose, Deceased v. State of Hawaii, Department of Education Civil No. 3CCV-22-0000337, First Circuit Jake Ferreira v. State of Hawaii,",
+        "number": 100000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) ______________ SUBTOTAL: $ 275,000.00 4. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil No. 1CCV-20-0000549, First Circuit (Settlement) Child Evangelism Fellowship of Hawaii, $ 100,000.00 Inc. v. Hawaii State Department of Education (Settlement) Civil No. 24-cv-00034 MWJS-WRP, USDC Brenda Persinger, Individually and as a $ 1,750,000.00 Personal Representative of the Estate of (Settlement) Michael Ambrose, Deceased v. State of Hawaii, Department of Education Civil No. 3CCV-22-0000337, First Circuit Jake Ferreira v. State of Hawaii, $",
+        "number": 100000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "______________ SUBTOTAL: $ 275,000.00 4. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil No. 1CCV-20-0000549, First Circuit (Settlement) Child Evangelism Fellowship of Hawaii, $ 100,000.00 Inc. v. Hawaii State Department of Education (Settlement) Civil No. 24-cv-00034 MWJS-WRP, USDC Brenda Persinger, Individually and as a $ 1,750,000.00 Personal Representative of the Estate of (Settlement) Michael Ambrose, Deceased v. State of Hawaii, Department of Education Civil No. 3CCV-22-0000337, First Circuit Jake Ferreira v. State of Hawaii, $ 75,000.00 Department of Education (Settlement) Civil No. 1CCV-23-0000874, First Circuit ______________ SUBTOTAL: $ 2,255,000.00 5. DEPARTMENT OF LAND AND NATURAL",
+        "number": 1750000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "SUBTOTAL: $ 275,000.00 4. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil No. 1CCV-20-0000549, First Circuit (Settlement) Child Evangelism Fellowship of Hawaii, $ 100,000.00 Inc. v. Hawaii State Department of Education (Settlement) Civil No. 24-cv-00034 MWJS-WRP, USDC Brenda Persinger, Individually and as a $ 1,750,000.00 Personal Representative of the Estate of (Settlement) Michael Ambrose, Deceased v. State of Hawaii, Department of Education Civil No. 3CCV-22-0000337, First Circuit Jake Ferreira v. State of Hawaii, $ 75,000.00 Department of Education (Settlement) Civil No. 1CCV-23-0000874, First Circuit ______________ SUBTOTAL: $ 2,255,000.00 5. DEPARTMENT OF LAND AND NATURAL RESOURCES:",
+        "number": 1750000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "100,000.00 Inc. v. Hawaii State Department of Education (Settlement) Civil No. 24-cv-00034 MWJS-WRP, USDC Brenda Persinger, Individually and as a $ 1,750,000.00 Personal Representative of the Estate of (Settlement) Michael Ambrose, Deceased v. State of Hawaii, Department of Education Civil No. 3CCV-22-0000337, First Circuit Jake Ferreira v. State of Hawaii, $ 75,000.00 Department of Education (Settlement) Civil No. 1CCV-23-0000874, First Circuit ______________ SUBTOTAL: $ 2,255,000.00 5. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW",
+        "number": 75000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "Inc. v. Hawaii State Department of Education (Settlement) Civil No. 24-cv-00034 MWJS-WRP, USDC Brenda Persinger, Individually and as a $ 1,750,000.00 Personal Representative of the Estate of (Settlement) Michael Ambrose, Deceased v. State of Hawaii, Department of Education Civil No. 3CCV-22-0000337, First Circuit Jake Ferreira v. State of Hawaii, $ 75,000.00 Department of Education (Settlement) Civil No. 1CCV-23-0000874, First Circuit ______________ SUBTOTAL: $ 2,255,000.00 5. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW ENFORCEMENT:",
+        "number": 75000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "USDC Brenda Persinger, Individually and as a $ 1,750,000.00 Personal Representative of the Estate of (Settlement) Michael Ambrose, Deceased v. State of Hawaii, Department of Education Civil No. 3CCV-22-0000337, First Circuit Jake Ferreira v. State of Hawaii, $ 75,000.00 Department of Education (Settlement) Civil No. 1CCV-23-0000874, First Circuit ______________ SUBTOTAL: $ 2,255,000.00 5. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First",
+        "number": 2255000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "Brenda Persinger, Individually and as a $ 1,750,000.00 Personal Representative of the Estate of (Settlement) Michael Ambrose, Deceased v. State of Hawaii, Department of Education Civil No. 3CCV-22-0000337, First Circuit Jake Ferreira v. State of Hawaii, $ 75,000.00 Department of Education (Settlement) Civil No. 1CCV-23-0000874, First Circuit ______________ SUBTOTAL: $ 2,255,000.00 5. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First Circuit",
+        "number": 2255000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "(Settlement) Michael Ambrose, Deceased v. State of Hawaii, Department of Education Civil No. 3CCV-22-0000337, First Circuit Jake Ferreira v. State of Hawaii, $ 75,000.00 Department of Education (Settlement) Civil No. 1CCV-23-0000874, First Circuit ______________ SUBTOTAL: $ 2,255,000.00 5. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First Circuit (Settlement) ______________ SUBTOTAL: $ 750,000.00 TOTAL (SECTION 1): $ 4,324,734.22 The sums appropriated shall",
+        "number": 450000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "Michael Ambrose, Deceased v. State of Hawaii, Department of Education Civil No. 3CCV-22-0000337, First Circuit Jake Ferreira v. State of Hawaii, $ 75,000.00 Department of Education (Settlement) Civil No. 1CCV-23-0000874, First Circuit ______________ SUBTOTAL: $ 2,255,000.00 5. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First Circuit (Settlement) ______________ SUBTOTAL: $ 750,000.00 TOTAL (SECTION 1): $ 4,324,734.22 The sums appropriated shall be",
+        "number": 450000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "No. 3CCV-22-0000337, First Circuit Jake Ferreira v. State of Hawaii, $ 75,000.00 Department of Education (Settlement) Civil No. 1CCV-23-0000874, First Circuit ______________ SUBTOTAL: $ 2,255,000.00 5. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First Circuit (Settlement) ______________ SUBTOTAL: $ 750,000.00 TOTAL (SECTION 1): $ 4,324,734.22 The sums appropriated shall be expended by the department of the attorney general for the purposes",
+        "number": 100000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "3CCV-22-0000337, First Circuit Jake Ferreira v. State of Hawaii, $ 75,000.00 Department of Education (Settlement) Civil No. 1CCV-23-0000874, First Circuit ______________ SUBTOTAL: $ 2,255,000.00 5. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First Circuit (Settlement) ______________ SUBTOTAL: $ 750,000.00 TOTAL (SECTION 1): $ 4,324,734.22 The sums appropriated shall be expended by the department of the attorney general for the purposes of",
+        "number": 100000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "Ferreira v. State of Hawaii, $ 75,000.00 Department of Education (Settlement) Civil No. 1CCV-23-0000874, First Circuit ______________ SUBTOTAL: $ 2,255,000.00 5. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First Circuit (Settlement) ______________ SUBTOTAL: $ 750,000.00 TOTAL (SECTION 1): $ 4,324,734.22 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II",
+        "number": 550000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "v. State of Hawaii, $ 75,000.00 Department of Education (Settlement) Civil No. 1CCV-23-0000874, First Circuit ______________ SUBTOTAL: $ 2,255,000.00 5. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First Circuit (Settlement) ______________ SUBTOTAL: $ 750,000.00 TOTAL (SECTION 1): $ 4,324,734.22 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION",
+        "number": 550000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "1CCV-23-0000874, First Circuit ______________ SUBTOTAL: $ 2,255,000.00 5. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First Circuit (Settlement) ______________ SUBTOTAL: $ 750,000.00 TOTAL (SECTION 1): $ 4,324,734.22 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary",
+        "number": 750000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "First Circuit ______________ SUBTOTAL: $ 2,255,000.00 5. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First Circuit (Settlement) ______________ SUBTOTAL: $ 750,000.00 TOTAL (SECTION 1): $ 4,324,734.22 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for",
+        "number": 750000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First Circuit (Settlement) ______________ SUBTOTAL: $ 750,000.00 TOTAL (SECTION 1): $ 4,324,734.22 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the state",
+        "number": 750000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First Circuit (Settlement) ______________ SUBTOTAL: $ 750,000.00 TOTAL (SECTION 1): $ 4,324,734.22 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the state highway",
+        "number": 750000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First Circuit (Settlement) ______________ SUBTOTAL: $ 750,000.00 TOTAL (SECTION 1): $ 4,324,734.22 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the state highway fund for the purpose",
+        "number": 4324734.22,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 6. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First Circuit (Settlement) ______________ SUBTOTAL: $ 750,000.00 TOTAL (SECTION 1): $ 4,324,734.22 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the state highway fund for the purpose of",
+        "number": 4324734.22,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: DEPARTMENT OF TRANSPORTATION, HIGHWAYS DIVISION: Juan Jimmie Aldeguer v. State of Hawaii $ 1,075,000.00 Civil No. 1CCV-21-0000052, First Circuit (Settlement) Estate of Bruce Perdue v. State of Hawaii $ 175,000.00 Civil No. 5CC131000351, Fifth Circuit (Settlement) ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this",
+        "number": 1075000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: DEPARTMENT OF TRANSPORTATION, HIGHWAYS DIVISION: Juan Jimmie Aldeguer v. State of Hawaii $ 1,075,000.00 Civil No. 1CCV-21-0000052, First Circuit (Settlement) Estate of Bruce Perdue v. State of Hawaii $ 175,000.00 Civil No. 5CC131000351, Fifth Circuit (Settlement) ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act.",
+        "number": 1075000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: DEPARTMENT OF TRANSPORTATION, HIGHWAYS DIVISION: Juan Jimmie Aldeguer v. State of Hawaii $ 1,075,000.00 Civil No. 1CCV-21-0000052, First Circuit (Settlement) Estate of Bruce Perdue v. State of Hawaii $ 175,000.00 Civil No. 5CC131000351, Fifth Circuit (Settlement) ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary",
+        "number": 175000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: DEPARTMENT OF TRANSPORTATION, HIGHWAYS DIVISION: Juan Jimmie Aldeguer v. State of Hawaii $ 1,075,000.00 Civil No. 1CCV-21-0000052, First Circuit (Settlement) Estate of Bruce Perdue v. State of Hawaii $ 175,000.00 Civil No. 5CC131000351, Fifth Circuit (Settlement) ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary for",
+        "number": 175000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: DEPARTMENT OF TRANSPORTATION, HIGHWAYS DIVISION: Juan Jimmie Aldeguer v. State of Hawaii $ 1,075,000.00 Civil No. 1CCV-21-0000052, First Circuit (Settlement) Estate of Bruce Perdue v. State of Hawaii $ 175,000.00 Civil No. 5CC131000351, Fifth Circuit (Settlement) ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the judiciary",
+        "number": 1250000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: DEPARTMENT OF TRANSPORTATION, HIGHWAYS DIVISION: Juan Jimmie Aldeguer v. State of Hawaii $ 1,075,000.00 Civil No. 1CCV-21-0000052, First Circuit (Settlement) Estate of Bruce Perdue v. State of Hawaii $ 175,000.00 Civil No. 5CC131000351, Fifth Circuit (Settlement) ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the judiciary funds",
+        "number": 1250000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: DEPARTMENT OF TRANSPORTATION, HIGHWAYS DIVISION: Juan Jimmie Aldeguer v. State of Hawaii $ 1,075,000.00 Civil No. 1CCV-21-0000052, First Circuit (Settlement) Estate of Bruce Perdue v. State of Hawaii $ 175,000.00 Civil No. 5CC131000351, Fifth Circuit (Settlement) ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the judiciary funds for the purpose of",
+        "number": 1250000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "STATE AMOUNT AND SETTLEMENTS OF CLAIMS: DEPARTMENT OF TRANSPORTATION, HIGHWAYS DIVISION: Juan Jimmie Aldeguer v. State of Hawaii $ 1,075,000.00 Civil No. 1CCV-21-0000052, First Circuit (Settlement) Estate of Bruce Perdue v. State of Hawaii $ 175,000.00 Civil No. 5CC131000351, Fifth Circuit (Settlement) ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the judiciary funds for the purpose of satisfying",
+        "number": 1250000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randal G.B. Valenciano $ 90,000.00 Civil No. 23-CV-00315-JAO-WRP, USDC (Settlement) ______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the judiciary for the purposes of this Act. PART IV SECTION 4. In accordance with section 9 of article VII of the Constitution of the State of Hawaii",
+        "number": 90000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randal G.B. Valenciano $ 90,000.00 Civil No. 23-CV-00315-JAO-WRP, USDC (Settlement) ______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the judiciary for the purposes of this Act. PART IV SECTION 4. In accordance with section 9 of article VII of the Constitution of the State of Hawaii and",
+        "number": 90000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randal G.B. Valenciano $ 90,000.00 Civil No. 23-CV-00315-JAO-WRP, USDC (Settlement) ______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the judiciary for the purposes of this Act. PART IV SECTION 4. In accordance with section 9 of article VII of the Constitution of the State of Hawaii and sections 37-91 and 37-93, Hawaii Revised Statutes, the",
+        "number": 90000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "the State or its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randal G.B. Valenciano $ 90,000.00 Civil No. 23-CV-00315-JAO-WRP, USDC (Settlement) ______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the judiciary for the purposes of this Act. PART IV SECTION 4. In accordance with section 9 of article VII of the Constitution of the State of Hawaii and sections 37-91 and 37-93, Hawaii Revised Statutes, the legislature",
+        "number": 90000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "officers or employees for payments of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randal G.B. Valenciano $ 90,000.00 Civil No. 23-CV-00315-JAO-WRP, USDC (Settlement) ______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the judiciary for the purposes of this Act. PART IV SECTION 4. In accordance with section 9 of article VII of the Constitution of the State of Hawaii and sections 37-91 and 37-93, Hawaii Revised Statutes, the legislature has determined that the",
+        "number": 90000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "or employees for payments of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randal G.B. Valenciano $ 90,000.00 Civil No. 23-CV-00315-JAO-WRP, USDC (Settlement) ______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the judiciary for the purposes of this Act. PART IV SECTION 4. In accordance with section 9 of article VII of the Constitution of the State of Hawaii and sections 37-91 and 37-93, Hawaii Revised Statutes, the legislature has determined that the state",
+        "number": 90000.0,
+        "filename": "HB990_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "appropriation by the amount of $3,572,898.47, allocated among nine claims to be paid from the general fund. Attachment \"B\" provides a brief description of the new claims. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 2 of 8 Including the new claims, the appropriation request totals $5,911,234.22 allocated among seventeen claims, with the updated appropropriation request as follows: • An appropriation in the amount of $4,571,234.22, allocated among fourteen claims to be paid from the general fund; and • An appropriation in the amount of $1,340,000.00, allocated among three claims to be paid from departmental funds. The",
+        "number": 5911234.22,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "agencies on how to avoid future claims. We respectfully request passage of this bill with amendments to add the new claims. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 3 of 8 ATTACHMENT “A” DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 (General Fund) Civil No. 5CCV-23-0000053, Fifth Circuit Settlement On May 20, 2021, Plaintiff Jennifer Reber (Reber) slipped and fell onto a piece of rebar protruding from the ground while hiking on a trail leading to Waipoo Falls, which is located at Kokee and Waimea Canyon State Park on Kauai,",
+        "number": 450000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "on how to avoid future claims. We respectfully request passage of this bill with amendments to add the new claims. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 3 of 8 ATTACHMENT “A” DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 (General Fund) Civil No. 5CCV-23-0000053, Fifth Circuit Settlement On May 20, 2021, Plaintiff Jennifer Reber (Reber) slipped and fell onto a piece of rebar protruding from the ground while hiking on a trail leading to Waipoo Falls, which is located at Kokee and Waimea Canyon State Park on Kauai, Hawaii.",
+        "number": 450000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "is located at Kokee and Waimea Canyon State Park on Kauai, Hawaii. The rebar spike impaled Reber’s lower right thigh. First responders transported Reber to the nearest hospital where she was treated and released. After returning to her home in Utah, Reber underwent reconstructive surgery and physical therapy. Brenda Osmer $ 100,000.00 (General Fund) Tort Claim Settlement Brenda Osmer (Osmer) was visiting Waimea Canyon State Park on June 15, 2023. She was with her husband when they headed down the walkway from the Waimea Canyon lookout. Around the middle of the walkway, Osmer slipped on a steel diamond plate that was",
+        "number": 100000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "located at Kokee and Waimea Canyon State Park on Kauai, Hawaii. The rebar spike impaled Reber’s lower right thigh. First responders transported Reber to the nearest hospital where she was treated and released. After returning to her home in Utah, Reber underwent reconstructive surgery and physical therapy. Brenda Osmer $ 100,000.00 (General Fund) Tort Claim Settlement Brenda Osmer (Osmer) was visiting Waimea Canyon State Park on June 15, 2023. She was with her husband when they headed down the walkway from the Waimea Canyon lookout. Around the middle of the walkway, Osmer slipped on a steel diamond plate that was covering",
+        "number": 100000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "prior to June 15, 2023. After this incident, the steel plate was coated with a paint and sand mixture to make it less slippery and anti-slip tape was applied to the top of the steel plate to make it safer. DEPARTMENT OF TRANSPORTATION: Juan Jimmie Aldeguer v. State of Hawaii $ 1,075,000.00 (Dept. Appropriation) Civil No. 1CCV-21-0000052, First Circuit Settlement This case arises out of a pedestrian and motor vehicle accident that occurred on January 18, 2019, at approximately 6:36 p.m. at the Farrington Highway and Linakola Street intersection crosswalk in Maili along the west coast of Oahu. Juan Jimmie Lee",
+        "number": 1075000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "to June 15, 2023. After this incident, the steel plate was coated with a paint and sand mixture to make it less slippery and anti-slip tape was applied to the top of the steel plate to make it safer. DEPARTMENT OF TRANSPORTATION: Juan Jimmie Aldeguer v. State of Hawaii $ 1,075,000.00 (Dept. Appropriation) Civil No. 1CCV-21-0000052, First Circuit Settlement This case arises out of a pedestrian and motor vehicle accident that occurred on January 18, 2019, at approximately 6:36 p.m. at the Farrington Highway and Linakola Street intersection crosswalk in Maili along the west coast of Oahu. Juan Jimmie Lee Wills-Aldeguer,",
+        "number": 1075000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "and Linakola Street intersection site of the accident. Phase 1 began in 2018. Phase 2 began after the completion of Phase 1. The subject accident occurred while work on Phase 1 was being completed and before work on Phase 2 had begun. Estate of Bruce Perdue v. State of Hawaii $ 175,000.00 (Dept. Appropriation) Civil No. 5CC131000351, Fifth Circuit Settlement This case arises out of a single motor vehicle accident that occurred in the early morning hours on May 21, 2012, in Kapaa, Lihue, Kauai. Bruce Perdue was driving north on the Kuhio Highway toward Kapaa town when he was involved",
+        "number": 175000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Linakola Street intersection site of the accident. Phase 1 began in 2018. Phase 2 began after the completion of Phase 1. The subject accident occurred while work on Phase 1 was being completed and before work on Phase 2 had begun. Estate of Bruce Perdue v. State of Hawaii $ 175,000.00 (Dept. Appropriation) Civil No. 5CC131000351, Fifth Circuit Settlement This case arises out of a single motor vehicle accident that occurred in the early morning hours on May 21, 2012, in Kapaa, Lihue, Kauai. Bruce Perdue was driving north on the Kuhio Highway toward Kapaa town when he was involved in",
+        "number": 175000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "a number of Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 5 of 8 poles along the line would need to be re-designed and relocated by the utility companies in order to relocate the subject pole. STATE OF HAWAII JUDICIARY: Leanne Rosa v. Randall G.B. Valenciano $ 90,000.00 (Dept. Appropriation) Civil No. 23-CV-00315-JAO-WRP, USDC Settlement Plaintiff Leanne Rosa (Rosa) was at all relevant times a judicial assistant at the Fifth Circuit Court, State of Hawaii. Rosa brought a lawsuit against Chief Judge Randal G.B. Valenciano (Judge Valenciano) alleging that he subjected her to unwanted \"hugs\" in 2015",
+        "number": 90000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "number of Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 5 of 8 poles along the line would need to be re-designed and relocated by the utility companies in order to relocate the subject pole. STATE OF HAWAII JUDICIARY: Leanne Rosa v. Randall G.B. Valenciano $ 90,000.00 (Dept. Appropriation) Civil No. 23-CV-00315-JAO-WRP, USDC Settlement Plaintiff Leanne Rosa (Rosa) was at all relevant times a judicial assistant at the Fifth Circuit Court, State of Hawaii. Rosa brought a lawsuit against Chief Judge Randal G.B. Valenciano (Judge Valenciano) alleging that he subjected her to unwanted \"hugs\" in 2015 and",
+        "number": 90000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Randal G.B. Valenciano (Judge Valenciano) alleging that he subjected her to unwanted \"hugs\" in 2015 and during 2018 through 2023. Rosa asserted a claim under Title VII and/or 42 U.S.C. § 2000e and state law claims of Intentional Infliction of Emotional Distress and Negligence. MISCELLANEOUS CLAIMS: Maui Kupono Builders, LLC $ 442,504.75 (General Fund) (Check No. S0057589) Claimant requests reissuance of an outdated check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS, or claimant",
+        "number": 442504.75,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "G.B. Valenciano (Judge Valenciano) alleging that he subjected her to unwanted \"hugs\" in 2015 and during 2018 through 2023. Rosa asserted a claim under Title VII and/or 42 U.S.C. § 2000e and state law claims of Intentional Infliction of Emotional Distress and Negligence. MISCELLANEOUS CLAIMS: Maui Kupono Builders, LLC $ 442,504.75 (General Fund) (Check No. S0057589) Claimant requests reissuance of an outdated check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS, or claimant has",
+        "number": 442504.75,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "outdated check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS, or claimant has shown good cause for any delay. Sarah Ann D. Pacheco $ 460.00 (General Fund) f/k/a Sarah Ann D. Taylor Claimant requests reissuance of an outdated check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS,",
+        "number": 460.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS, or claimant has shown good cause for any delay. Sarah Ann D. Pacheco $ 460.00 (General Fund) f/k/a Sarah Ann D. Taylor Claimant requests reissuance of an outdated check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS, or",
+        "number": 460.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "of an outdated check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS, or claimant has shown good cause for any delay. Kiyoji Tanimura $ 5,371.00 (General Fund) Claimant requests reissuance of an outdated check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS, or claimant has shown good",
+        "number": 5371.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "an outdated check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS, or claimant has shown good cause for any delay. Kiyoji Tanimura $ 5,371.00 (General Fund) Claimant requests reissuance of an outdated check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS, or claimant has shown good cause",
+        "number": 5371.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "the claim for payment matured, within the period specified by section 37-77, HRS, or claimant has shown good cause for any delay. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 6 of 8 ATTACHMENT “B” DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 (General Fund) Civil No. 24-cv-00508 MWJS-RT, USDC Settlement Plaintiff Billy Peter (Peter) is a citizen of the Federated States of Micronesia (FSM). He resides in the United States pursuant to the Compact of Free Association (COFA) between the United States and FSM. Peter sought a permit to acquire a",
+        "number": 28500.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "claim for payment matured, within the period specified by section 37-77, HRS, or claimant has shown good cause for any delay. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 6 of 8 ATTACHMENT “B” DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 (General Fund) Civil No. 24-cv-00508 MWJS-RT, USDC Settlement Plaintiff Billy Peter (Peter) is a citizen of the Federated States of Micronesia (FSM). He resides in the United States pursuant to the Compact of Free Association (COFA) between the United States and FSM. Peter sought a permit to acquire a firearm,",
+        "number": 28500.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "violates the Second Amendment and the Equal Protection Clause of the Fourteenth Amendment to the extent that it prohibits COFA migrants from acquiring or possessing firearms on the basis of their COFA status. The parties agreed to a stipulated judgment. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 (General Fund) Civil No. 18-1-1897-11 VLC, First Circuit Settlement During a drill on January 13, 2018, an employee of the Hawaii Emergency Management Agency (HI-EMA), a division of the State’s Department of Defense, mistakenly sent a text message alert to cellular phones across the State warning of an incoming",
+        "number": 275000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "the Second Amendment and the Equal Protection Clause of the Fourteenth Amendment to the extent that it prohibits COFA migrants from acquiring or possessing firearms on the basis of their COFA status. The parties agreed to a stipulated judgment. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 (General Fund) Civil No. 18-1-1897-11 VLC, First Circuit Settlement During a drill on January 13, 2018, an employee of the Hawaii Emergency Management Agency (HI-EMA), a division of the State’s Department of Defense, mistakenly sent a text message alert to cellular phones across the State warning of an incoming ballistic",
+        "number": 275000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "episode, which required surgery and hospitalization. Shields’ girlfriend, Plaintiff Brenda Reichel, was with Shields at the time he received the text message alert and experienced the cardiac episode. Plaintiffs alleged gross negligence against the State and certain HI-EMA employees. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 (General Fund) Civil No. 1CCV-20-0000549, First Circuit Settlement Plaintiffs B.R., M.A., and F.R. sued the Department of Education (DOE) seeking damages for gross negligence pursuant to section 657-1.8, HRS, alleging that the DOE failed to protect them from sexual abuse perpetrated by a school security guard while they were",
+        "number": 330000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "which required surgery and hospitalization. Shields’ girlfriend, Plaintiff Brenda Reichel, was with Shields at the time he received the text message alert and experienced the cardiac episode. Plaintiffs alleged gross negligence against the State and certain HI-EMA employees. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 (General Fund) Civil No. 1CCV-20-0000549, First Circuit Settlement Plaintiffs B.R., M.A., and F.R. sued the Department of Education (DOE) seeking damages for gross negligence pursuant to section 657-1.8, HRS, alleging that the DOE failed to protect them from sexual abuse perpetrated by a school security guard while they were students",
+        "number": 330000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 7 of 8 participation in these programs. Plaintiffs B.R. and M.A. settled their claims in this lawsuit. Plaintiff F.R. voluntarily dismissed his claims before the case settled. Child Evangelism Fellowship of Hawaii, Inc. v. Hawaii State Department of Education $ 100,000.00 (General Fund) Civil No. 24-cv-00034 MWJS-WRP, USDC Settlement This lawsuit was filed by Child Evangelism Fellowship of Hawaii, Inc. (CEF) against the Department of Education (DOE) alleging violations of the Free Exercise clause in the First Amendment and the Equal Protection clause in the Fourteenth Amendment to the United",
+        "number": 100000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "the Department of the Attorney General Thirty-Third Legislature, 2025 Page 7 of 8 participation in these programs. Plaintiffs B.R. and M.A. settled their claims in this lawsuit. Plaintiff F.R. voluntarily dismissed his claims before the case settled. Child Evangelism Fellowship of Hawaii, Inc. v. Hawaii State Department of Education $ 100,000.00 (General Fund) Civil No. 24-cv-00034 MWJS-WRP, USDC Settlement This lawsuit was filed by Child Evangelism Fellowship of Hawaii, Inc. (CEF) against the Department of Education (DOE) alleging violations of the Free Exercise clause in the First Amendment and the Equal Protection clause in the Fourteenth Amendment to the United States",
+        "number": 100000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "8-39, Hawaii Administrative Rules, to host its after-school Good News Clubs. Unlike other similarly situated organizations, the DOE required CEF to pay rental fees to use DOE facilities. As a result of this lawsuit, the DOE has agreed to stop charging CEF rental fees. Brenda Persinger, Individually and as a $ 1,750,000.00 (General Fund) Personal Representative of the Estate of Settlement Michael Ambrose, Deceased v. State of Hawaii, Department of Education Civil No. 3CCV-22-0000337, First Circuit On June 13, 2022, a Department of Education (DOE) special education teacher was asked by her supervisor to bring supplies from a DOE office to",
+        "number": 1750000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Hawaii Administrative Rules, to host its after-school Good News Clubs. Unlike other similarly situated organizations, the DOE required CEF to pay rental fees to use DOE facilities. As a result of this lawsuit, the DOE has agreed to stop charging CEF rental fees. Brenda Persinger, Individually and as a $ 1,750,000.00 (General Fund) Personal Representative of the Estate of Settlement Michael Ambrose, Deceased v. State of Hawaii, Department of Education Civil No. 3CCV-22-0000337, First Circuit On June 13, 2022, a Department of Education (DOE) special education teacher was asked by her supervisor to bring supplies from a DOE office to a",
+        "number": 1750000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "motorcyclist's widow filed a wrongful death lawsuit against the teacher and the DOE alleging that the teacher negligently caused the accident while in the course and scope of her employment for the DOE and that the DOE was vicariously liable for the teacher's negligence. Jake Ferreira v. State of Hawaii, $ 75,000.00 (General Fund) Department of Education Settlement Civil No. 1CCV-23-0000874, First Circuit On October 22, 2021, Plaintiff Jake Ferreira (Ferreira) was a student at Castle High School. That day, Ferreira and another student were asked by a DOE teacher to assist with setting up a mechanical log splitter during an",
+        "number": 75000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "widow filed a wrongful death lawsuit against the teacher and the DOE alleging that the teacher negligently caused the accident while in the course and scope of her employment for the DOE and that the DOE was vicariously liable for the teacher's negligence. Jake Ferreira v. State of Hawaii, $ 75,000.00 (General Fund) Department of Education Settlement Civil No. 1CCV-23-0000874, First Circuit On October 22, 2021, Plaintiff Jake Ferreira (Ferreira) was a student at Castle High School. That day, Ferreira and another student were asked by a DOE teacher to assist with setting up a mechanical log splitter during an agriculture",
+        "number": 75000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "splitter, Ferreira's left pinky finger got caught in a pinch point on the machine causing his finger to be severed. Ferreira filed a lawsuit against the DOE and the teacher alleging that their negligent actions and/or omissions caused Ferreira's injury. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 (General Fund) Civil No. 1CCV-21-0000192, First Circuit Settlement On February 18, 2019, Defendant Deputy Sheriff Gregory Bergman (Deputy Bergman) was patrolling the Hawaii State Capitol grounds when he encountered Delmar Espejo (Espejo) drinking vodka in public in violation of state law. Espejo refused to comply with Bergman’s requests to",
+        "number": 750000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "Ferreira's left pinky finger got caught in a pinch point on the machine causing his finger to be severed. Ferreira filed a lawsuit against the DOE and the teacher alleging that their negligent actions and/or omissions caused Ferreira's injury. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 (General Fund) Civil No. 1CCV-21-0000192, First Circuit Settlement On February 18, 2019, Defendant Deputy Sheriff Gregory Bergman (Deputy Bergman) was patrolling the Hawaii State Capitol grounds when he encountered Delmar Espejo (Espejo) drinking vodka in public in violation of state law. Espejo refused to comply with Bergman’s requests to pour",
+        "number": 750000.0,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "this lawsuit against Deputy Bergman and the State asserting state law claims and civil rights claims pursuant to 42 U.S.C. § 1983. Plaintiffs alleged that Deputy Bergman’s use of force against Espejo was excessive force and the State did not properly train or supervise Deputy Bergman. MISCELLANEOUS CLAIMS: Mark Lloyd $ 111,733.08 (General Fund) Claimant requests reissuance of an outdated check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS, or claimant has shown good",
+        "number": 111733.08,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "lawsuit against Deputy Bergman and the State asserting state law claims and civil rights claims pursuant to 42 U.S.C. § 1983. Plaintiffs alleged that Deputy Bergman’s use of force against Espejo was excessive force and the State did not properly train or supervise Deputy Bergman. MISCELLANEOUS CLAIMS: Mark Lloyd $ 111,733.08 (General Fund) Claimant requests reissuance of an outdated check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS, or claimant has shown good cause",
+        "number": 111733.08,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "outdated check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS, or claimant has shown good cause for any delay. Maui Kupono Builders, LLC $ 152,665.39 (General Fund) (Check No. S0001176) Claimant requests reissuance of an outdated check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS, or claimant",
+        "number": 152665.39,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS, or claimant has shown good cause for any delay. Maui Kupono Builders, LLC $ 152,665.39 (General Fund) (Check No. S0001176) Claimant requests reissuance of an outdated check that was misplaced or lost. The legislative claim was filed with the Attorney General within six years from the date on which the claim for payment matured, within the period specified by section 37-77, HRS, or claimant has",
+        "number": 152665.39,
+        "filename": "HB990_TESTIMONY_JHA_02-12-25_.PDF.txt",
+        "document_type": "testimony"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T15:58:56.072515",
+  "generation_timestamp_unix": 1760147936.072526
+}

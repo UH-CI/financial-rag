@@ -1,0 +1,564 @@
+{
+  "document_name": "HB727_HD1_HSCR1142_",
+  "new_documents_processed": [
+    "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+    "HB727_HD1_HSCR1142_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB727",
+    "HB727_TESTIMONY_JHA_01-30-25_",
+    "HB727_HD1",
+    "HB727_HD1_HSCR624_",
+    "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+    "HB727_HD1_HSCR1142_"
+  ],
+  "numbers_used": 0,
+  "prompt_length": 49545,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"The Judiciary's testimony proposes a modified implementation model for a Big Island Women’s Court (BIWC) program due to the \\\"lack of availability of community-based mental health services on the Big Island (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". The proposal suggests the program should \\\"operate as a separate program under the supervision of Big Island Drug Court (“BIDC”) (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". This structure is intended to leverage \\\"the existing BIDC structure and staff\\\" to \\\"maximize existing resources (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\".\",\n\"agency_impact\": \"The Judiciary testified in support of establishing the pilot project in the Third Circuit and requested modifications to the bill, proposing \\\"that the Second and Fifth Circuits be deleted from consideration for this pilot project (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". Their proposal calls for the Big Island Women’s Court program \\\"to operate in both Hilo and Kona, and to be supervised by BIDC (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". In testimony regarding the existing First Circuit pilot program, the Department of Health stated that in 2024 it \\\"conducted 33 mental health screenings and 24 psychological assessments of participants for the program (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\".\",\n\"economic_impact\": \"A new proposal from the Third Circuit \\\"calls for all twenty-five (25) of the women currently participating in the BIDC program to be screened for eligibility for the BIWC program (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". This would \\\"allow the program to begin providing services to the target population immediately (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". The Department of the Prosecuting Attorney for Maui County supports the bill as it would \\\"provide a needed alternative to incarceration for women within the second circuit (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\".\",\n\"policy_impact\": \"The Judiciary has proposed significant amendments to the bill's policy, asking that the pilot program be established in the Third Circuit and requesting \\\"that the Second and Fifth Circuits be deleted from consideration for this pilot project (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". This represents a reversal of the current bill's structure, which mandates the pilot in the Second and Fifth circuits and a study for the Third. As an alternative, the Judiciary suggested the legislature could \\\"direct the Third Circuit and the BIDC to conduct an interim study to establish an updated proposal for the program (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\".\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The Judiciary has shifted its position, now formally proposing in testimony to establish the pilot program in the Third Circuit and requesting \\\"that the Second and Fifth Circuits be deleted from consideration for this pilot project (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". The Judiciary's proposed methodology for a Third Circuit program has been updated to operate \\\"under the supervision of Big Island Drug Court (“BIDC”) (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\" to leverage existing resources. The number of potential participants for a Third Circuit pilot has changed, as the Judiciary's proposal now \\\"calls for all twenty-five (25) (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\" women in the Big Island Drug Court program to be screened for eligibility.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 15834,
+      "candidates_token_count": 975,
+      "total_token_count": 20826
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"The Judiciary's testimony proposes a modified implementation model for a Big Island Women’s Court (BIWC) program due to the \\\"lack of availability of community-based mental health services on the Big Island (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". The proposal suggests the program should \\\"operate as a separate program under the supervision of Big Island Drug Court (“BIDC”) (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". This structure is intended to leverage \\\"the existing BIDC structure and staff\\\" to \\\"maximize existing resources (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\".\",\n\"agency_impact\": \"The Judiciary testified in support of establishing the pilot project in the Third Circuit and requested modifications to the bill, proposing \\\"that the Second and Fifth Circuits be deleted from consideration for this pilot project (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". Their proposal calls for the Big Island Women’s Court program \\\"to operate in both Hilo and Kona, and to be supervised by BIDC (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". In testimony regarding the existing First Circuit pilot program, the Department of Health stated that in 2024 it \\\"conducted 33 mental health screenings and 24 psychological assessments of participants for the program (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\".\",\n\"economic_impact\": \"A new proposal from the Third Circuit \\\"calls for all twenty-five (25) of the women currently participating in the BIDC program to be screened for eligibility for the BIWC program (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". This would \\\"allow the program to begin providing services to the target population immediately (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". The Department of the Prosecuting Attorney for Maui County supports the bill as it would \\\"provide a needed alternative to incarceration for women within the second circuit (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\".\",\n\"policy_impact\": \"The Judiciary has proposed significant amendments to the bill's policy, asking that the pilot program be established in the Third Circuit and requesting \\\"that the Second and Fifth Circuits be deleted from consideration for this pilot project (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". This represents a reversal of the current bill's structure, which mandates the pilot in the Second and Fifth circuits and a study for the Third. As an alternative, the Judiciary suggested the legislature could \\\"direct the Third Circuit and the BIDC to conduct an interim study to establish an updated proposal for the program (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\".\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The Judiciary has shifted its position, now formally proposing in testimony to establish the pilot program in the Third Circuit and requesting \\\"that the Second and Fifth Circuits be deleted from consideration for this pilot project (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\". The Judiciary's proposed methodology for a Third Circuit program has been updated to operate \\\"under the supervision of Big Island Drug Court (“BIDC”) (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\" to leverage existing resources. The number of potential participants for a Third Circuit pilot has changed, as the Judiciary's proposal now \\\"calls for all twenty-five (25) (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\" women in the Big Island Drug Court program to be screened for eligibility.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"The Judiciary's testimony proposes a modified implementation model for a Big Island Women’s Court (BIWC) program due to the \\\"lack of availability of community-based mental health services on the Big Island (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\"",
+          "attributed_chunk_id": 4,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5833333333333334,
+          "attribution_reason": "Word frequency match score: 0.583",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The proposal suggests the program should \\\"operate as a separate program under the supervision of Big Island Drug Court (“BIDC”) (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\"",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7333333333333333,
+          "attribution_reason": "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.733)",
+          "numbers_found": [
+            25.0
+          ]
+        },
+        {
+          "sentence": "This structure is intended to leverage \\\"the existing BIDC structure and staff\\\" to \\\"maximize existing resources (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\"",
+          "attributed_chunk_id": 14,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6,
+          "attribution_reason": "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.600)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"agency_impact\": \"The Judiciary testified in support of establishing the pilot project in the Third Circuit and requested modifications to the bill, proposing \\\"that the Second and Fifth Circuits be deleted from consideration for this pilot project (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\"",
+          "attributed_chunk_id": 3,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.38095238095238093,
+          "attribution_reason": "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.381)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Their proposal calls for the Big Island Women’s Court program \\\"to operate in both Hilo and Kona, and to be supervised by BIDC (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\"",
+          "attributed_chunk_id": 11,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8571428571428571,
+          "attribution_reason": "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.857)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "In testimony regarding the existing First Circuit pilot program, the Department of Health stated that in 2024 it \\\"conducted 33 mental health screenings and 24 psychological assessments of participants for the program (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\"",
+          "attributed_chunk_id": 4,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.21052631578947367,
+          "attribution_reason": "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.211)",
+          "numbers_found": [
+            24.0,
+            33.0
+          ]
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"A new proposal from the Third Circuit \\\"calls for all twenty-five (25) of the women currently participating in the BIDC program to be screened for eligibility for the BIWC program (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\"",
+          "attributed_chunk_id": 17,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7368421052631579,
+          "attribution_reason": "Document citation + word frequency: 25 (score: 0.737)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This would \\\"allow the program to begin providing services to the target population immediately (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\"",
+          "attributed_chunk_id": 17,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.875,
+          "attribution_reason": "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.875)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Department of the Prosecuting Attorney for Maui County supports the bill as it would \\\"provide a needed alternative to incarceration for women within the second circuit (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\"",
+          "attributed_chunk_id": 1,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.3333333333333333,
+          "attribution_reason": "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.333)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"policy_impact\": \"The Judiciary has proposed significant amendments to the bill's policy, asking that the pilot program be established in the Third Circuit and requesting \\\"that the Second and Fifth Circuits be deleted from consideration for this pilot project (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\"",
+          "attributed_chunk_id": 1,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.4090909090909091,
+          "attribution_reason": "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.409)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "This represents a reversal of the current bill's structure, which mandates the pilot in the Second and Fifth circuits and a study for the Third",
+          "attributed_chunk_id": 1,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.46153846153846156,
+          "attribution_reason": "Word frequency match score: 0.462",
+          "numbers_found": []
+        },
+        {
+          "sentence": "As an alternative, the Judiciary suggested the legislature could \\\"direct the Third Circuit and the BIDC to conduct an interim study to establish an updated proposal for the program (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\"",
+          "attributed_chunk_id": 2,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5333333333333333,
+          "attribution_reason": "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.533)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The Judiciary has shifted its position, now formally proposing in testimony to establish the pilot program in the Third Circuit and requesting \\\"that the Second and Fifth Circuits be deleted from consideration for this pilot project (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\"",
+          "attributed_chunk_id": 1,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.2857142857142857,
+          "attribution_reason": "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.286)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The Judiciary's proposed methodology for a Third Circuit program has been updated to operate \\\"under the supervision of Big Island Drug Court (“BIDC”) (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\" to leverage existing resources",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.45,
+          "attribution_reason": "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.450)",
+          "numbers_found": [
+            25.0
+          ]
+        },
+        {
+          "sentence": "The number of potential participants for a Third Circuit pilot has changed, as the Judiciary's proposal now \\\"calls for all twenty-five (25) (HB727_HD1_TESTIMONY_FIN_02-25-25_)\\\" women in the Big Island Drug Court program to be screened for eligibility",
+          "attributed_chunk_id": 10,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Document citation + word frequency: 25 (score: 0.500)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": []
+        },
+        "1": {
+          "usage_count": 4,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.333)",
+            "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.409)",
+            "Word frequency match score: 0.462",
+            "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.286)"
+          ]
+        },
+        "2": {
+          "usage_count": 1,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.533)"
+          ]
+        },
+        "3": {
+          "usage_count": 1,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.381)"
+          ]
+        },
+        "4": {
+          "usage_count": 2,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.583",
+            "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.211)"
+          ]
+        },
+        "5": {
+          "usage_count": 2,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.733)",
+            "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.450)"
+          ]
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": []
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 1,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: 25 (score: 0.500)"
+          ]
+        },
+        "11": {
+          "usage_count": 1,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.857)"
+          ]
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 1,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.600)"
+          ]
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 2,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: 25 (score: 0.737)",
+            "Document citation + word frequency: HB727_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.875)"
+          ]
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_HSCR1142_",
+          "attribution_reasons": []
+        },
+        "20": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_HSCR1142_",
+          "attribution_reasons": []
+        },
+        "21": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_HSCR1142_",
+          "attribution_reasons": []
+        },
+        "22": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_HSCR1142_",
+          "attribution_reasons": []
+        },
+        "23": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_HSCR1142_",
+          "attribution_reasons": []
+        },
+        "24": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_HSCR1142_",
+          "attribution_reasons": []
+        },
+        "25": {
+          "usage_count": 0,
+          "document_name": "HB727_HD1_HSCR1142_",
+          "attribution_reasons": []
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 13,
+        "number_based": 0,
+        "word_frequency_based": 2,
+        "semantic_similarity": 0,
+        "fallback": 0,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 26,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "The Judiciary, State of Hawai‘i Testimony to the Thirty-Third Legislature, 2025 Regular Session House Committee on Finance Representative Kyle T. Yamashita, Chair Representative Jenna Takenouchi, Vice Chair Tuesday, February 25, 2025, 12:00 p.m. State Capitol, Conference Room 308 by Robert D. S. Kim Chief Court Administrator Third Circuit Court Bill",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "D. S. Kim Chief Court Administrator Third Circuit Court Bill No. and Title: House Bill No. 727, H.D. 1, Relating to the Women’s Court. Purpose: Establishes a temporary three-year women's court pilot program within the Second and Fifth Circuits. Requires the Third Circuit of the Judiciary and Big Island Drug",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "the Third Circuit of the Judiciary and Big Island Drug Court to conduct an interim study to establish a blueprint for a women's court pilot program in the Third Circuit. Requires reports. Establishes temporary positions. Appropriates funds. Effective 7/1/3000. Sunsets 6/30/2028. (HD1) Judiciary's Position: The Judiciary supports the intent of",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "6/30/2028. (HD1) Judiciary's Position: The Judiciary supports the intent of this measure to establish a Women’s Court pilot project in the Third Circuit. However, the Judiciary proposes amendments and modifications to this bill so that the pilot project can be successful in light of the unique structure of the Circuit",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "successful in light of the unique structure of the Circuit Courts in the Third Circuit and the lack of availability of community-based mental health services on the Big Island. In order to successfully implement a Big Island Women’s Court (BIWC) program, this bill would need to be modified to: (1)",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "program, this bill would need to be modified to: (1) provide for sufficient funding and staff to operate the program in both the Hilo and Kona courthouses; (2) permit the program to operate as a separate program under the supervision of Big Island Drug Court (“BIDC”); and (3) establish direct-",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "of Big Island Drug Court (“BIDC”); and (3) establish direct- provider positions and funding for direct services, which are otherwise unavailable on the Big Island. House Bill No. 727, H.D. 1, Relating to the Women’s Court House Committee on Finance Tuesday, February 25, 2025 Page 2 The Circuit Courts in",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "Tuesday, February 25, 2025 Page 2 The Circuit Courts in the Third Circuit are structured very differently than those of the First Circuit. Due to the large size of Hawaiʻi Island, the Third Circuit has two main courthouses housing Circuit Courts—one in Hilo and one in Kona. These courthouses are",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "Courts—one in Hilo and one in Kona. These courthouses are located 100 miles apart. The Circuit Courts in the Third Circuit are also dual-docket courts, meaning Circuit Court judges are responsible for hearing all case types, including criminal, civil, agency appeals, environmental cases, and more. Due to this practical restriction",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "appeals, environmental cases, and more. Due to this practical restriction on the courts’ docket and the geography of the island, it has never been practical in the Third Circuit to have stand-alone specialty courts, as has been done successfully in the First Circuit. Nevertheless, the Third Circuit has a history",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "the First Circuit. Nevertheless, the Third Circuit has a history of implementing successful treatment court programs, and the Judiciary now looks forward to the opportunity to build upon this history and establish a successful Women’s Court program on the Big Island. Our proposal calls for the establishment of a Women’s",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "Island. Our proposal calls for the establishment of a Women’s Court program to operate in both Hilo and Kona, and to be supervised by BIDC. This structure is identical to the other successful treatment court programs currently offered in the Third Circuit. The drug court program operates out of both",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "Third Circuit. The drug court program operates out of both the Hilo and Kona courthouses to ensure that clients have access to the program regardless of where they reside on the island. Due to the success of the BIDC program, Veteran’s Treatment Court and Juvenile Treatment Court programs have also",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "Veteran’s Treatment Court and Juvenile Treatment Court programs have also been implemented in Hilo and Kona. These programs are not stand-alone courts, but rather operate as separate divisions of BIDC with their own programming, eligibility requirements, and procedures. The proposed BIWC would be the latest addition to these successful specialty",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "BIWC would be the latest addition to these successful specialty court programs. Accordingly, by situating BIWC under the supervision of BIDC with our other treatment court programs, the existing BIDC structure and staff can be leveraged at the outset, allowing us to supplement existing services with the additional resources to",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "us to supplement existing services with the additional resources to be provided by this bill. This structure will maximize existing resources and allow the program to focus its efforts on developing the programming and services that are at the heart of this pilot project. Additionally, to be an effective use",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "of this pilot project. Additionally, to be an effective use of resources, the Women’s Court program will require a critical mass of female probationers who may be eligible for the program. The highest-risk justice-involved women in the Third Circuit are already participating in the BIDC program. Thus, our proposal calls",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "already participating in the BIDC program. Thus, our proposal calls for all twenty-five (25) of the women currently participating in the BIDC program to be screened for eligibility for the BIWC program. This will allow the program to begin providing services to the target population immediately, instead of waiting for",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB727_HD1_TESTIMONY_FIN_02-25-25_",
+          "chunk_text": "services to the target population immediately, instead of waiting for individual referrals to trickle in for a standalone program. To be successful, the BIWC will require sufficient funding and positions, and a good prospect of recruiting qualified staff for those positions. The J",
+          "start_word": 720,
+          "end_word": 763,
+          "word_count": 43
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB727_HD1_HSCR1142_",
+          "chunk_text": "HSCR1142 STAND. COM. REP. NO. 1142 Honolulu, Hawaii , 2025 RE: H.B. No. 727 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 727, H.D. 1, entitled: \"A",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB727_HD1_HSCR1142_",
+          "chunk_text": "which was referred H.B. No. 727, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO THE WOMEN'S COURT,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish a three-year women's court pilot program in the circuit court of the Second and Fifth Circuits,",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB727_HD1_HSCR1142_",
+          "chunk_text": "in the circuit court of the Second and Fifth Circuits, which is intended to acknowledge the distinct pathways that lead women into the criminal justice system and address their individualized needs; and (2) Require the Third Circuit of the Judiciary and Big Island Drug Court to conduct an interim study",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB727_HD1_HSCR1142_",
+          "chunk_text": "and Big Island Drug Court to conduct an interim study to establish a blueprint for a women's court pilot program in the Third Circuit. Your Committee received testimony in support of this measure from the Office of the Public Defender; Department of the Prosecuting Attorney of the County of Maui;",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB727_HD1_HSCR1142_",
+          "chunk_text": "Department of the Prosecuting Attorney of the County of Maui; Hawaii Substance Abuse Coalition; Community Alliance on Prisons; and nine individuals. Your Committee received testimony in opposition to this measure from one individual. Your Committee received comments on this measure from the Judiciary and Department of Health. As affirmed by",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB727_HD1_HSCR1142_",
+          "chunk_text": "from the Judiciary and Department of Health. As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 727, H.D. 1, and recommends that it pass Third",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB727_HD1_HSCR1142_",
+          "chunk_text": "No. 727, H.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Finance, ____________________________ KYLE T. YAMASHITA, Chair",
+          "start_word": 240,
+          "end_word": 268,
+          "word_count": 28
+        }
+      ]
+    },
+    "numbers_data": []
+  },
+  "generation_timestamp": "2025-10-10T15:38:51.652801",
+  "generation_timestamp_unix": 1760146731.652809
+}

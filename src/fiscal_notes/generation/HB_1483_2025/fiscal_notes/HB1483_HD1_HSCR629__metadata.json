@@ -1,0 +1,793 @@
+{
+  "document_name": "HB1483_HD1_HSCR629_",
+  "new_documents_processed": [
+    "HB1483_TESTIMONY_JHA_02-06-25_",
+    "HB1483_HD1",
+    "HB1483_HD1_HSCR629_"
+  ],
+  "all_documents_processed_so_far": [
+    "HB1483",
+    "HB1483_TESTIMONY_JHA_02-06-25_",
+    "HB1483_HD1",
+    "HB1483_HD1_HSCR629_"
+  ],
+  "numbers_used": 11,
+  "prompt_length": 54028,
+  "response_metadata": {
+    "response_text": "{\n\"overview\": \"\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The Department of Law Enforcement (DLE) testified with concern regarding a \\\"potential repeal of certain provisions... that relate to the DLE’s ability to assist the fire departments with conducting inspections of fireworks licenses\\\" (HB1483_TESTIMONY_JHA_02-06-25_). The DLE stated its belief that \\\"this authority is still needed and recommends that it remain in statute\\\" (HB1483_TESTIMONY_JHA_02-06-25_). Your Committee has since amended this measure by \\\"Restoring the authority of law enforcement officers to conduct inspections to verify compliance with fireworks laws\\\" (HB1483_HD1).\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure was amended by \\\"Amending the offense of general fireworks or articles pyrotechnic prohibitions in the second degree\\\" (HB1483_HD1). The amendment serves to \\\"Include throwing, catapulting, or otherwise manually propelling ignited aerial devices, articles pyrotechnics, consumer fireworks, or display fireworks\\\" (HB1483_HD1). The committee also amended the measure by \\\"Clarifying the weight thresholds for certain penalties for fireworks offenses\\\" (HB1483_HD1).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note contains updates regarding specific agency and policy impacts not detailed previously. Agency impact now includes testimony from the Department of Law Enforcement concerning its inspection authority and the subsequent restoration of that authority by the committee. Policy impact has been updated to specify amendments to the offense of general fireworks prohibitions, which now includes the act of throwing or propelling fireworks, and clarifies the weight thresholds for certain penalties.\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 18780,
+      "candidates_token_count": 443,
+      "total_token_count": 22197
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n\"overview\": \"\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The Department of Law Enforcement (DLE) testified with concern regarding a \\\"potential repeal of certain provisions... that relate to the DLE’s ability to assist the fire departments with conducting inspections of fireworks licenses\\\" (HB1483_TESTIMONY_JHA_02-06-25_). The DLE stated its belief that \\\"this authority is still needed and recommends that it remain in statute\\\" (HB1483_TESTIMONY_JHA_02-06-25_). Your Committee has since amended this measure by \\\"Restoring the authority of law enforcement officers to conduct inspections to verify compliance with fireworks laws\\\" (HB1483_HD1).\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure was amended by \\\"Amending the offense of general fireworks or articles pyrotechnic prohibitions in the second degree\\\" (HB1483_HD1). The amendment serves to \\\"Include throwing, catapulting, or otherwise manually propelling ignited aerial devices, articles pyrotechnics, consumer fireworks, or display fireworks\\\" (HB1483_HD1). The committee also amended the measure by \\\"Clarifying the weight thresholds for certain penalties for fireworks offenses\\\" (HB1483_HD1).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note contains updates regarding specific agency and policy impacts not detailed previously. Agency impact now includes testimony from the Department of Law Enforcement concerning its inspection authority and the subsequent restoration of that authority by the committee. Policy impact has been updated to specify amendments to the offense of general fireworks prohibitions, which now includes the act of throwing or propelling fireworks, and clarifies the weight thresholds for certain penalties.\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "sentence_attribution_analysis": {
+      "sentence_attributions": [
+        {
+          "sentence": "{\n\"overview\": \"\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The Department of Law Enforcement (DLE) testified with concern regarding a \\\"potential repeal of certain provisions",
+          "attributed_chunk_id": 5,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.5,
+          "attribution_reason": "Word frequency match score: 0.500",
+          "numbers_found": []
+        },
+        {
+          "sentence": "that relate to the DLE’s ability to assist the fire departments with conducting inspections of fireworks licenses\\\" (HB1483_TESTIMONY_JHA_02-06-25_)",
+          "attributed_chunk_id": 5,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 1.0,
+          "attribution_reason": "Document citation + word frequency: HB1483_TESTIMONY_JHA_02-06-25_ (score: 1.000)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The DLE stated its belief that \\\"this authority is still needed and recommends that it remain in statute\\\" (HB1483_TESTIMONY_JHA_02-06-25_)",
+          "attributed_chunk_id": 7,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.7,
+          "attribution_reason": "Document citation + word frequency: HB1483_TESTIMONY_JHA_02-06-25_ (score: 0.700)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Your Committee has since amended this measure by \\\"Restoring the authority of law enforcement officers to conduct inspections to verify compliance with fireworks laws\\\" (HB1483_HD1)",
+          "attributed_chunk_id": 25,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6875,
+          "attribution_reason": "Document citation + word frequency: HB1483_HD1 (score: 0.688)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"This measure was amended by \\\"Amending the offense of general fireworks or articles pyrotechnic prohibitions in the second degree\\\" (HB1483_HD1)",
+          "attributed_chunk_id": 24,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8461538461538461,
+          "attribution_reason": "Document citation + word frequency: HB1483_HD1 (score: 0.846)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The amendment serves to \\\"Include throwing, catapulting, or otherwise manually propelling ignited aerial devices, articles pyrotechnics, consumer fireworks, or display fireworks\\\" (HB1483_HD1)",
+          "attributed_chunk_id": 24,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.8823529411764706,
+          "attribution_reason": "Document citation + word frequency: HB1483_HD1 (score: 0.882)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "The committee also amended the measure by \\\"Clarifying the weight thresholds for certain penalties for fireworks offenses\\\" (HB1483_HD1)",
+          "attributed_chunk_id": 25,
+          "attribution_method": "document_citation_based",
+          "attribution_score": 0.6363636363636364,
+          "attribution_reason": "Document citation + word frequency: HB1483_HD1 (score: 0.636)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note contains updates regarding specific agency and policy impacts not detailed previously",
+          "attributed_chunk_id": 0,
+          "attribution_method": "fallback",
+          "attribution_score": 0.1,
+          "attribution_reason": "Fallback attribution (no clear match found)",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Agency impact now includes testimony from the Department of Law Enforcement concerning its inspection authority and the subsequent restoration of that authority by the committee",
+          "attributed_chunk_id": 21,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.35294117647058826,
+          "attribution_reason": "Word frequency match score: 0.353",
+          "numbers_found": []
+        },
+        {
+          "sentence": "Policy impact has been updated to specify amendments to the offense of general fireworks prohibitions, which now includes the act of throwing or propelling fireworks, and clarifies the weight thresholds for certain penalties",
+          "attributed_chunk_id": 19,
+          "attribution_method": "word_frequency_based",
+          "attribution_score": 0.23809523809523808,
+          "attribution_reason": "Word frequency match score: 0.238",
+          "numbers_found": []
+        },
+        {
+          "sentence": "\"\n}.",
+          "attributed_chunk_id": null,
+          "attribution_method": "no_attribution",
+          "attribution_score": 0,
+          "attribution_reason": "",
+          "numbers_found": []
+        }
+      ],
+      "chunk_usage_stats": {
+        "0": {
+          "usage_count": 1,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": [
+            "Fallback attribution (no clear match found)"
+          ]
+        },
+        "1": {
+          "usage_count": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": []
+        },
+        "2": {
+          "usage_count": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": []
+        },
+        "3": {
+          "usage_count": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": []
+        },
+        "4": {
+          "usage_count": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": []
+        },
+        "5": {
+          "usage_count": 2,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": [
+            "Word frequency match score: 0.500",
+            "Document citation + word frequency: HB1483_TESTIMONY_JHA_02-06-25_ (score: 1.000)"
+          ]
+        },
+        "6": {
+          "usage_count": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": []
+        },
+        "7": {
+          "usage_count": 1,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1483_TESTIMONY_JHA_02-06-25_ (score: 0.700)"
+          ]
+        },
+        "8": {
+          "usage_count": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": []
+        },
+        "9": {
+          "usage_count": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": []
+        },
+        "10": {
+          "usage_count": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": []
+        },
+        "11": {
+          "usage_count": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": []
+        },
+        "12": {
+          "usage_count": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": []
+        },
+        "13": {
+          "usage_count": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": []
+        },
+        "14": {
+          "usage_count": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": []
+        },
+        "15": {
+          "usage_count": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": []
+        },
+        "16": {
+          "usage_count": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": []
+        },
+        "17": {
+          "usage_count": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "attribution_reasons": []
+        },
+        "18": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1",
+          "attribution_reasons": []
+        },
+        "19": {
+          "usage_count": 1,
+          "document_name": "HB1483_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.238"
+          ]
+        },
+        "20": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1",
+          "attribution_reasons": []
+        },
+        "21": {
+          "usage_count": 1,
+          "document_name": "HB1483_HD1",
+          "attribution_reasons": [
+            "Word frequency match score: 0.353"
+          ]
+        },
+        "22": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1",
+          "attribution_reasons": []
+        },
+        "23": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1",
+          "attribution_reasons": []
+        },
+        "24": {
+          "usage_count": 2,
+          "document_name": "HB1483_HD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1483_HD1 (score: 0.846)",
+            "Document citation + word frequency: HB1483_HD1 (score: 0.882)"
+          ]
+        },
+        "25": {
+          "usage_count": 2,
+          "document_name": "HB1483_HD1",
+          "attribution_reasons": [
+            "Document citation + word frequency: HB1483_HD1 (score: 0.688)",
+            "Document citation + word frequency: HB1483_HD1 (score: 0.636)"
+          ]
+        },
+        "26": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1",
+          "attribution_reasons": []
+        },
+        "27": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1",
+          "attribution_reasons": []
+        },
+        "28": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1",
+          "attribution_reasons": []
+        },
+        "29": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "attribution_reasons": []
+        },
+        "30": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "attribution_reasons": []
+        },
+        "31": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "attribution_reasons": []
+        },
+        "32": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "attribution_reasons": []
+        },
+        "33": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "attribution_reasons": []
+        },
+        "34": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "attribution_reasons": []
+        },
+        "35": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "attribution_reasons": []
+        },
+        "36": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "attribution_reasons": []
+        },
+        "37": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "attribution_reasons": []
+        },
+        "38": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "attribution_reasons": []
+        },
+        "39": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "attribution_reasons": []
+        },
+        "NUMBER_20.0": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_200.0": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_1000.0": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_2000.0": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_5000.0": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_300.0": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_.HTM.txt",
+          "attribution_reasons": []
+        },
+        "NUMBER_500.0": {
+          "usage_count": 0,
+          "document_name": "HB1483_HD1_.HTM.txt",
+          "attribution_reasons": []
+        }
+      },
+      "attribution_method_stats": {
+        "document_citation_based": 6,
+        "number_based": 0,
+        "word_frequency_based": 3,
+        "semantic_similarity": 0,
+        "fallback": 1,
+        "no_attribution": 1
+      }
+    },
+    "chunks_metadata": {
+      "total_chunks": 40,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "JOSH GREEN, M.D. GOVERNOR KE KIAʻĀINA SYLVIA LUKE LT GOVERNOR KE KEʻENA STATE OF HAWAIʻI | KA MOKUʻĀINA O HAWAIʻI DEPARTMENT OF LAW ENFORCEMENT Ka ʻOihana Hoʻokō Kānāwai 715 South King Street Honolulu, Hawaiʻi 96813 MIKE LAMBERT DIRECTOR JARED K. REDULLA Deputy Director Law Enforcement \"An Equal Opportunity Employer/Agency\" TESTIMONY",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "REDULLA Deputy Director Law Enforcement \"An Equal Opportunity Employer/Agency\" TESTIMONY ON HOUSE BILL 1483 RELATING TO FIREWORKS Before the House Committee on JUDICIARY & HAWAIIAN AFFAIRS Thursday, February 6, 2025, 2:00 p.m. State Capitol Conference Room 325, & Videoconference Testifiers: Mike Lambert Chair Tarnas, Vice Chair Poepoe, and members of",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "Mike Lambert Chair Tarnas, Vice Chair Poepoe, and members of the Committee: The Department of Law Enforcement (DLE) supports House Bill 1483. The establishment of an adjudication system and procedures to process fireworks infractions represents a significant step forward in addressing the ongoing challenges of illegal fireworks in Hawaii. This",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "addressing the ongoing challenges of illegal fireworks in Hawaii. This bill provides a more robust framework for enforcement and accountability. The proposed heightened penalties for fireworks offenses, particularly in cases resulting in substantial bodily injury, serious bodily injury, or death, are critical deterrents that appropriately reflect the serious nature of",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "are critical deterrents that appropriately reflect the serious nature of these violations. These enhanced penalties will serve as a stronger deterrent and help protect our communities from the dangerous consequences of illegal fireworks use. The DLE is concerned in one area of HB 1483 pertaining to the potential repeal of",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "area of HB 1483 pertaining to the potential repeal of certain provisions in Section 17 of this bill that relate to the DLE’s ability to assist the fire departments with conducting inspections of fireworks licenses. Department of Law Enforcement Testimony on HB1483 Relating to FIREWORKS Page 2 Last year, the",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "on HB1483 Relating to FIREWORKS Page 2 Last year, the Legislature acted to give the DLE authority to assist the county fire departments with inspections of fireworks licenses. DLE sought that authority as a way of aiding the county fire departments and ensuring that the distribution system for legal fireworks",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "departments and ensuring that the distribution system for legal fireworks in the state remains closed; except for those who hold valid licenses. The DLE believes that this authority is still needed and recommends that it remain in statute. Thank you for the opportunity to testify in support of this bill.",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "for the opportunity to testify in support of this bill. TESTIMONY OF THE DEPARTMENT OF THE ATTORNEY GENERAL KA ‘OIHANA O KA LOIO KUHINA THIRTY-THIRD LEGISLATURE, 2025 ON THE FOLLOWING MEASURE: H.B. NO. 1483, RELATING TO FIREWORKS. BEFORE THE: HOUSE COMMITTEE ON JUDICIARY & HAWAIIAN AFFAIRS DATE: Thursday, February 6,",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "COMMITTEE ON JUDICIARY & HAWAIIAN AFFAIRS DATE: Thursday, February 6, 2025 TIME: 2:00 p.m. LOCATION: State Capitol, Room 325 TESTIFIER(S): Anne E. Lopez, Attorney General, or Tricia M. Nakamatsu, Deputy Attorney General Chair Tarnas and Members of the Committee: The Department of the Attorney General (Department) strongly supports this bill",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "Department of the Attorney General (Department) strongly supports this bill and offers the following comments and suggested amendments. The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws, by: (1) amending definitions to reflect more common-sense standards; (2) strengthening and clarifying existing criminal offenses;",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "more common-sense standards; (2) strengthening and clarifying existing criminal offenses; (3) establishing new offenses; (4) establishing heightened penalties for repeat offenders and offenses that result in substantial or serious bodily injury or death; and (5) establishing non- criminal fireworks infractions for the lowest-level offenses. Criminal statutes serve as a deterrent",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "for the lowest-level offenses. Criminal statutes serve as a deterrent to illegal activity when they are effectively enforced and prosecuted. For many years, however, Hawaii’s state laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these types of cases. When asked, prosecutors",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "enforce or prosecute these types of cases. When asked, prosecutors have repeatedly cited challenges posed by \"gathering evidence and meeting the high burden of proof necessary for convictions\",1 as well as \"stringent definitions [in statute, that] . . . routinely create roadblocks to effective prosecution.\"2 Thus, only a small number",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "create roadblocks to effective prosecution.\"2 Thus, only a small number of criminal fireworks 1 See Legislative Reference Bureau of Hawaii, Blast From the Past: An Update to the Report of the Illegal Fireworks Task Force to the Legislature for the Regular Session of 2011 at 13, 14 (December 2019) https://lrb.hawaii.gov/wp-",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "Regular Session of 2011 at 13, 14 (December 2019) https://lrb.hawaii.gov/wp- content/uploads/2019_BlastFromThePast.pdf (last visited January 20, 2025). 2 Id, at 14. LATE *Testimony submitted late may not be considered by the Committee for decision making purposes. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 2 of 4",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "the Attorney General Thirty-Third Legislature, 2025 Page 2 of 4 cases have been initiated by law enforcement, and an even smaller number have been prosecuted, resulting in a largely “ineffective deterrent” to the distribution and use of illicit fireworks. This bill would largely address the concerns raised by prosecutors, and",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB1483_TESTIMONY_JHA_02-06-25_",
+          "chunk_text": "bill would largely address the concerns raised by prosecutors, and provide greater clarity and efficiency for law enforcement, prosecutors, and the co",
+          "start_word": 680,
+          "end_word": 702,
+          "word_count": 22
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB1483_HD1",
+          "chunk_text": "HSCR629 STAND. COM. REP. NO. 629 Honolulu, Hawaii , 2025 RE: H.B. No. 1483 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Judiciary & Hawaiian Affairs, to which was referred H.B. No. 1483 entitled:",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB1483_HD1",
+          "chunk_text": "Hawaiian Affairs, to which was referred H.B. No. 1483 entitled: \"A BILL FOR AN ACT RELATING TO FIREWORKS,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB1483_HD1",
+          "chunk_text": "fireworks infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds. Your Committee received testimony in support of this measure from the Department of",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB1483_HD1",
+          "chunk_text": "testimony in support of this measure from the Department of Law Enforcement; Department of the Attorney General; Honolulu Police Department; Hawaiian Humane Society; Animal Interfaith Alliance in Britain; and numerous individuals. Your Committee received testimony in opposition to this measure from Hawaii Pyrotechnics and Explosives LLC; Libertarian Party of Hawaii;",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB1483_HD1",
+          "chunk_text": "from Hawaii Pyrotechnics and Explosives LLC; Libertarian Party of Hawaii; and three individuals. Your Committee finds that it has been difficult for state and county agencies to enforce or prosecute illegal fireworks cases in the State due to challenges with gathering evidence, meeting the high burden of proof necessary for",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB1483_HD1",
+          "chunk_text": "gathering evidence, meeting the high burden of proof necessary for convictions, and stringent definitions. This measure would largely address the concerns raised by prosecutors and provide greater clarity and efficiency for law enforcement, prosecutors, and the courts. Your Committee has amended this measure by: (1) Amending the offense of general",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB1483_HD1",
+          "chunk_text": "amended this measure by: (1) Amending the offense of general fireworks or articles pyrotechnic prohibitions in the second degree to: (A) Include throwing, catapulting, or otherwise manually propelling ignited aerial devices, articles pyrotechnics, consumer fireworks, or display fireworks; and (B) Clarify when the state of mind requirement is not applicable;",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB1483_HD1",
+          "chunk_text": "Clarify when the state of mind requirement is not applicable; (2) Clarifying the definitions of \"aerial device\", \"consumer fireworks\", and \"fireworks\"; (3) Clarifying the weight thresholds for certain penalties for fireworks offenses; (4) Restoring the authority of law enforcement officers to conduct inspections to verify compliance with fireworks laws; (5)",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB1483_HD1",
+          "chunk_text": "to conduct inspections to verify compliance with fireworks laws; (5) Changing the effective date to July 1, 3000, to encourage further discussion ; and (6) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed by the record of votes of the members of your Committee",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB1483_HD1",
+          "chunk_text": "the record of votes of the members of your Committee on Judiciary & Hawaiian Affairs that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1483, as amended herein, and recommends that it pass Second Reading in the form attached hereto",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB1483_HD1",
+          "chunk_text": "that it pass Second Reading in the form attached hereto as H.B. No. 1483, H.D. 1, and be referred to your Committee on Finance. Respectfully submitted on behalf of the members of the Committee on Judiciary & Hawaiian Affairs, ____________________________ DAVID A. TARNAS, Chair",
+          "start_word": 400,
+          "end_word": 444,
+          "word_count": 44
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "chunk_text": "HSCR629 STAND. COM. REP. NO. 629 Honolulu, Hawaii , 2025 RE: H.B. No. 1483 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Judiciary & Hawaiian Affairs, to which was referred H.B. No. 1483 entitled:",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 30,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "chunk_text": "Hawaiian Affairs, to which was referred H.B. No. 1483 entitled: \"A BILL FOR AN ACT RELATING TO FIREWORKS,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 31,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "chunk_text": "fireworks infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds. Your Committee received testimony in support of this measure from the Department of",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 32,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "chunk_text": "testimony in support of this measure from the Department of Law Enforcement; Department of the Attorney General; Honolulu Police Department; Hawaiian Humane Society; Animal Interfaith Alliance in Britain; and numerous individuals. Your Committee received testimony in opposition to this measure from Hawaii Pyrotechnics and Explosives LLC; Libertarian Party of Hawaii;",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 33,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "chunk_text": "from Hawaii Pyrotechnics and Explosives LLC; Libertarian Party of Hawaii; and three individuals. Your Committee finds that it has been difficult for state and county agencies to enforce or prosecute illegal fireworks cases in the State due to challenges with gathering evidence, meeting the high burden of proof necessary for",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 34,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "chunk_text": "gathering evidence, meeting the high burden of proof necessary for convictions, and stringent definitions. This measure would largely address the concerns raised by prosecutors and provide greater clarity and efficiency for law enforcement, prosecutors, and the courts. Your Committee has amended this measure by: (1) Amending the offense of general",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 35,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "chunk_text": "amended this measure by: (1) Amending the offense of general fireworks or articles pyrotechnic prohibitions in the second degree to: (A) Include throwing, catapulting, or otherwise manually propelling ignited aerial devices, articles pyrotechnics, consumer fireworks, or display fireworks; and (B) Clarify when the state of mind requirement is not applicable;",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 36,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "chunk_text": "Clarify when the state of mind requirement is not applicable; (2) Clarifying the definitions of \"aerial device\", \"consumer fireworks\", and \"fireworks\"; (3) Clarifying the weight thresholds for certain penalties for fireworks offenses; (4) Restoring the authority of law enforcement officers to conduct inspections to verify compliance with fireworks laws; (5)",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 37,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "chunk_text": "to conduct inspections to verify compliance with fireworks laws; (5) Changing the effective date to July 1, 3000, to encourage further discussion ; and (6) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed by the record of votes of the members of your Committee",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 38,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "chunk_text": "the record of votes of the members of your Committee on Judiciary & Hawaiian Affairs that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1483, as amended herein, and recommends that it pass Second Reading in the form attached hereto",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 39,
+          "document_name": "HB1483_HD1_HSCR629_",
+          "chunk_text": "that it pass Second Reading in the form attached hereto as H.B. No. 1483, H.D. 1, and be referred to your Committee on Finance. Respectfully submitted on behalf of the members of the Committee on Judiciary & Hawaiian Affairs, ____________________________ DAVID A. TARNAS, Chair",
+          "start_word": 400,
+          "end_word": 444,
+          "word_count": 44
+        }
+      ]
+    },
+    "numbers_data": [
+      {
+        "text": "assessments for: (1) Failure to pay a monetary assessment by the scheduled date of payment; and (2) The cost of service of a penal summons issued pursuant to this chapter. (c) In addition to any monetary assessment imposed for a fireworks infraction, the court shall impose an administrative fee of $20 for each fireworks infraction in which judgment is entered in favor of the State. The clerk of the district court shall deposit the administrative fees collected into the judiciary computer system special fund pursuant to section 601-3.7. (d) Upon request of a defendant claiming inability to pay a monetary assessment,",
+        "number": 20.0,
+        "filename": "HB1483_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "to the date and time of any act proven to have occurred, and with respect to the attendant circumstance that the date and time fell within the prohibited dates and times provided in subsections (a)(2) and (b). (d) Any person who violates: (1) Subsection (a) shall be subject to a $200 fine; (2) Subsection (b) shall be subject to a $1,000 fine; and (3) This section shall be subject to proceedings under chapter ; provided that nothing in this section shall be construed to prohibit prosecution under section 132D-7, 132D-8.6, or any other provision under this chapter. §132D-F Refusal to provide",
+        "number": 200.0,
+        "filename": "HB1483_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "have occurred, and with respect to the attendant circumstance that the date and time fell within the prohibited dates and times provided in subsections (a)(2) and (b). (d) Any person who violates: (1) Subsection (a) shall be subject to a $200 fine; (2) Subsection (b) shall be subject to a $1,000 fine; and (3) This section shall be subject to proceedings under chapter ; provided that nothing in this section shall be construed to prohibit prosecution under section 132D-7, 132D-8.6, or any other provision under this chapter. §132D-F Refusal to provide identification. (a) Except as provided in subsection (b), any person",
+        "number": 1000.0,
+        "filename": "HB1483_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "of lading, consignee, freight forwarder, sailing vessel name, route number, date of departure, and estimated date of arrival. (b) For a first offense, or any offense not committed within five years of a prior judgment for the State under this section, the carrier or person shall be subject to a $1,000 fine. (c) For a second offense committed within five years of a prior judgment for the State under this section, the carrier or person shall be subject to a $2,000 fine. (d) For a third or subsequent offense committed within five years of two or more prior judgements for the",
+        "number": 1000.0,
+        "filename": "HB1483_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "years of a prior judgment for the State under this section, the carrier or person shall be subject to a $1,000 fine. (c) For a second offense committed within five years of a prior judgment for the State under this section, the carrier or person shall be subject to a $2,000 fine. (d) For a third or subsequent offense committed within five years of two or more prior judgements for the State under this section, the carrier or person shall be subject to a $5,000 fine. (e) All violations of this section shall be subject to proceedings under chapter . Nothing",
+        "number": 2000.0,
+        "filename": "HB1483_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "judgment for the State under this section, the carrier or person shall be subject to a $2,000 fine. (d) For a third or subsequent offense committed within five years of two or more prior judgements for the State under this section, the carrier or person shall be subject to a $5,000 fine. (e) All violations of this section shall be subject to proceedings under chapter . Nothing in this section shall be construed to prohibit criminal prosecution under section 132D-8.6 or any other section of this chapter. \" SECTION 4. Section 132D-2, Hawaii Revised Statutes, is amended as follows: 1. By",
+        "number": 5000.0,
+        "filename": "HB1483_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "display fireworks is [ less than twenty-five pounds, ] five pounds or more, shall be guilty of a misdemeanor; and (D) If the total weight of the aerial devices, articles pyrotechnic, and display fireworks is less than five pounds and if the total weight cannot be determined, shall be fined $300 and subject to proceedings under chapter . [ (3) Who transfers or sells aerial devices, display fireworks, or articles pyrotechnic to a person who does not have a valid permit under sections 132D-10 and 132D-16, shall be guilty of a class C felony; and (4) Who removes or extracts the",
+        "number": 300.0,
+        "filename": "HB1483_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "display fireworks caused the injury or death. [ (b) ] (e) Except as provided in subsection (a) , (b), or (c), or as otherwise specifically provided for in this chapter, any person violating any other provision of this chapter, shall be guilty of a violation and fined no less than $500 and no more than $5,000 for each violation. [ Notwithstanding any provision to the contrary in this section, any person violating section 132D-14.5 shall be fined at least $500 and no more than $5,000. ] [ (c) ] (f) The court shall collect the fines imposed in subsections (a) [",
+        "number": 500.0,
+        "filename": "HB1483_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "or death. [ (b) ] (e) Except as provided in subsection (a) , (b), or (c), or as otherwise specifically provided for in this chapter, any person violating any other provision of this chapter, shall be guilty of a violation and fined no less than $500 and no more than $5,000 for each violation. [ Notwithstanding any provision to the contrary in this section, any person violating section 132D-14.5 shall be fined at least $500 and no more than $5,000. ] [ (c) ] (f) The court shall collect the fines imposed in subsections (a) [ and ] , (b) ,",
+        "number": 5000.0,
+        "filename": "HB1483_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "chapter, any person violating any other provision of this chapter, shall be guilty of a violation and fined no less than $500 and no more than $5,000 for each violation. [ Notwithstanding any provision to the contrary in this section, any person violating section 132D-14.5 shall be fined at least $500 and no more than $5,000. ] [ (c) ] (f) The court shall collect the fines imposed in subsections (a) [ and ] , (b) , (c), and (e), for violating this chapter and, of the fines collected, shall pay twenty per cent to the State and eighty per cent",
+        "number": 500.0,
+        "filename": "HB1483_HD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "from entering into the premises of the licensee or permittee; or (2) Opposes, obstructs, or molests [ a law enforcement or fire officer ] an inspector in the [ officer's ] inspector's enforcement of this chapter, shall be guilty of a misdemeanor, punishable by a fine of no more than $2,000 or imprisonment for no more than one year, or both. (e) If any [ law enforcement or fire officer, ] inspector having demanded admittance onto the premises of a licensee or permittee and declared the [ officer's ] inspector's name and office, is not admitted by the licensee, permittee, or",
+        "number": 2000.0,
+        "filename": "HB1483_HD1_.HTM.txt",
+        "document_type": "document"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-10T14:46:28.564497",
+  "generation_timestamp_unix": 1760143588.564506
+}
