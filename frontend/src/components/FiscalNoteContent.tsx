@@ -152,10 +152,11 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
           };
           
           textParts.push(
-            <DocumentReferenceComponent
-              key={`financial-${group.startIndex}`}
-              reference={financialReference}
-            />
+            <span key={`financial-${group.startIndex}`} className="inline-flex items-center">
+              <span className="text-green-600">[</span>
+              <DocumentReferenceComponent reference={financialReference} />
+              <span className="text-green-600">]</span>
+            </span>
           );
         } else {
           // Regular document citation
