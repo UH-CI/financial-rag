@@ -13,17 +13,17 @@
     "HB1483_HD1_HSCR983_"
   ],
   "numbers_used": 0,
-  "prompt_length": 48535,
+  "prompt_length": 50272,
   "response_metadata": {
-    "response_text": "{\n  \"overview\": \"The purpose of this measure is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure (HB1483_HD1_HSCR983_). The bill aims to facilitate more effective enforcement of Hawaii’s fireworks control laws by amending definitions, strengthening offenses, and establishing non-criminal fireworks infractions for the lowest-level offenses (HB1483_HD1_TESTIMONY_FIN_02-25-25_). The Department of the Attorney General states this bill would largely address the concerns raised by prosecutors, and provide greater clarity and efficiency for law enforcement, prosecutors, and the courts that handle these cases (HB1483_HD1_TESTIMONY_FIN_02-25-25_).\",\n  \"appropriations\": \"The purpose of this measure is to appropriate funds to the Judiciary to implement this measure (HB1483_HD1_HSCR983_). The Department of Law Enforcement states that the appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective (HB1483_HD1_TESTIMONY_FIN_02-25-25_). The specific amount of the appropriation is not detailed in the provided documents.\",\n  \"assumptions_and_methodology\": \"The measure is based on the assumption that for many years, Hawaii’s state laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these types of cases (HB1483_HD1_TESTIMONY_FIN_02-25-25_). Prosecutors have repeatedly cited challenges posed by \\\"gathering evidence and meeting the high burden of proof necessary for convictions\\\" and \\\"stringent definitions [in statute, that] . . . routinely create roadblocks to effective prosecution\\\" (HB1483_HD1_TESTIMONY_FIN_02-25-25_). These challenges have resulted in a largely \\\"ineffective deterrent\\\" to the distribution and use of illicit fireworks, which this bill aims to address (HB1483_HD1_TESTIMONY_FIN_02-25-25_).\",\n  \"agency_impact\": \"The Committee on Finance notes the suggested amendments from the Department of the Attorney General in its written testimony to clarify that those holding fireworks permits or licenses may continue to use their permits or licenses (HB1483_HD1_HSCR983_). The Department of the Attorney General also recommends amending the definition of \\\"inspector\\\" on page 72, line 8, by deleting the phrase, \\\"any law enforcement officer or . . . \\\", stating it is unclear which law enforcement officers may be designated as administrative inspectors and requests additional time to discuss this further with other agencies (HB1483_HD1_TESTIMONY_FIN_02-25-25_). The Honolulu Police Department supports this bill, which seeks to clarify the definitions of fireworks and improve enforcement (HB1483_HD1_TESTIMONY_FIN_02-25-25_).\",\n  \"economic_impact\": \"Testimony from Phantom Fireworks suggests this bill introduces a complex adjudication system that risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns (HB1483_HD1_TESTIMONY_FIN_02-25-25_). The creation of a separate fireworks infraction system is described as a \\\"costly specialty court\\\" (HB1483_HD1_TESTIMONY_FIN_02-25-25_). Additionally, testimony from Hawaii Explosives & Pyrotechnics expresses concern that as written, prohibitions on fireworks use within five hundred feet of any dwelling \\\"would eliminate the use of articles pyrotechnic at any hotel or resort\\\" (HB1483_HD1_TESTIMONY_FIN_02-25-25_).\",\n  \"policy_impact\": \"This measure establishes non-criminal fireworks infractions for the lowest-level offenses (HB1483_HD1_TESTIMONY_FIN_02-25-25_). Your Committee further notes the concerns of the Office of the Public Defender regarding the concurrent trial provision in this measure and the office's assertion that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges brought under existing fireworks control laws (HB1483_HD1_HSCR983_). Hawaii Explosives & Pyrotechnics, Inc. is concerned that proposed revisions to HRS§132D, such as prohibiting fireworks near a \\\"public beach\\\", would prohibit most commercial public displays, including the Waikiki Friday Night Fireworks display held every week (HB1483_HD1_TESTIMONY_FIN_02-25-25_).\",\n  \"revenue_sources\": \"\",\n  \"six_year_fiscal_implications\": \"\",\n  \"operating_revenue_impact\": \"\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"This fiscal note provides new details not included in the prior version. The overview and appropriations sections now specify the bill's purpose and its appropriation of unspecified funds to the Judiciary. The assumptions section details the rationale that existing laws are an \\\"ineffective deterrent.\\\" Agency impact now includes specific amendment recommendations from the Department of the Attorney General regarding permit holders and the definition of \\\"inspector.\\\" The economic impact section introduces testimony regarding the potential for a \\\"costly specialty court\\\" and negative impacts on commercial pyrotechnic displays. Finally, the policy impact section adds concerns from the Office of the Public Defender about the \\\"concurrent trial provision\\\" and from industry stakeholders about the potential prohibition of events like the Waikiki Friday Night Fireworks display.\"\n}",
+    "response_text": "{\n  \"overview\": \"The purpose of this measure now includes appropriating funds to the Judiciary to implement this measure. [CHUNK_20]\",\n  \"appropriations\": \"This measure will appropriate funds to the Judiciary to implement this measure. [CHUNK_20]\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"The Committee on Finance noted the suggested amendments from the Department of the Attorney General in its written testimony to clarify that those holding fireworks permits or licenses may continue to use their permits or licenses. [CHUNK_23] The committee also noted suggestions to clarify which law enforcement officers may be designated as administrative inspectors. [CHUNK_23] The Office of the Public Defender raised concerns regarding the concurrent trial provision in this measure. [CHUNK_24]\",\n  \"economic_impact\": \"\",\n  \"policy_impact\": \"The Office of the Public Defender asserted that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges brought under existing fireworks control laws. [CHUNK_25]\",\n  \"revenue_sources\": \"\",\n  \"six_year_fiscal_implications\": \"\",\n  \"operating_revenue_impact\": \"\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"The measure's purpose now explicitly includes appropriating funds to the Judiciary. [CHUNK_20] New testimony was received from the Department of the Attorney General suggesting amendments to clarify the use of permits and licenses and the designation of administrative inspectors. [CHUNK_23] The Office of the Public Defender expressed new concerns about the concurrent trial provision and attributed the low number of fireworks charges to a lack of enforcement rather than inadequate penalties. [CHUNK_24][CHUNK_25] The Committee on Finance received new testimony in support from the Department of Law Enforcement and Honolulu Police Department, and in opposition from the Office of the Public Defender and Libertarian Party of Hawaii. [CHUNK_21][CHUNK_22]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 15268,
-      "candidates_token_count": 1332,
-      "total_token_count": 18572
+      "prompt_token_count": 16051,
+      "candidates_token_count": 449,
+      "total_token_count": 19120
     },
     "candidates": [
       {
@@ -33,7 +33,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n  \"overview\": \"The purpose of this measure is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure (HB1483_HD1_HSCR983_). The bill aims to facilitate more effective enforcement of Hawaii’s fireworks control laws by amending definitions, strengthening offenses, and establishing non-criminal fireworks infractions for the lowest-level offenses (HB1483_HD1_TESTIMONY_FIN_02-25-25_). The Department of the Attorney General states this bill would largely address the concerns raised by prosecutors, and provide greater clarity and efficiency for law enforcement, prosecutors, and the courts that handle these cases (HB1483_HD1_TESTIMONY_FIN_02-25-25_).\",\n  \"appropriations\": \"The purpose of this measure is to appropriate funds to the Judiciary to implement this measure (HB1483_HD1_HSCR983_). The Department of Law Enforcement states that the appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective (HB1483_HD1_TESTIMONY_FIN_02-25-25_). The specific amount of the appropriation is not detailed in the provided documents.\",\n  \"assumptions_and_methodology\": \"The measure is based on the assumption that for many years, Hawaii’s state laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these types of cases (HB1483_HD1_TESTIMONY_FIN_02-25-25_). Prosecutors have repeatedly cited challenges posed by \\\"gathering evidence and meeting the high burden of proof necessary for convictions\\\" and \\\"stringent definitions [in statute, that] . . . routinely create roadblocks to effective prosecution\\\" (HB1483_HD1_TESTIMONY_FIN_02-25-25_). These challenges have resulted in a largely \\\"ineffective deterrent\\\" to the distribution and use of illicit fireworks, which this bill aims to address (HB1483_HD1_TESTIMONY_FIN_02-25-25_).\",\n  \"agency_impact\": \"The Committee on Finance notes the suggested amendments from the Department of the Attorney General in its written testimony to clarify that those holding fireworks permits or licenses may continue to use their permits or licenses (HB1483_HD1_HSCR983_). The Department of the Attorney General also recommends amending the definition of \\\"inspector\\\" on page 72, line 8, by deleting the phrase, \\\"any law enforcement officer or . . . \\\", stating it is unclear which law enforcement officers may be designated as administrative inspectors and requests additional time to discuss this further with other agencies (HB1483_HD1_TESTIMONY_FIN_02-25-25_). The Honolulu Police Department supports this bill, which seeks to clarify the definitions of fireworks and improve enforcement (HB1483_HD1_TESTIMONY_FIN_02-25-25_).\",\n  \"economic_impact\": \"Testimony from Phantom Fireworks suggests this bill introduces a complex adjudication system that risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns (HB1483_HD1_TESTIMONY_FIN_02-25-25_). The creation of a separate fireworks infraction system is described as a \\\"costly specialty court\\\" (HB1483_HD1_TESTIMONY_FIN_02-25-25_). Additionally, testimony from Hawaii Explosives & Pyrotechnics expresses concern that as written, prohibitions on fireworks use within five hundred feet of any dwelling \\\"would eliminate the use of articles pyrotechnic at any hotel or resort\\\" (HB1483_HD1_TESTIMONY_FIN_02-25-25_).\",\n  \"policy_impact\": \"This measure establishes non-criminal fireworks infractions for the lowest-level offenses (HB1483_HD1_TESTIMONY_FIN_02-25-25_). Your Committee further notes the concerns of the Office of the Public Defender regarding the concurrent trial provision in this measure and the office's assertion that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges brought under existing fireworks control laws (HB1483_HD1_HSCR983_). Hawaii Explosives & Pyrotechnics, Inc. is concerned that proposed revisions to HRS§132D, such as prohibiting fireworks near a \\\"public beach\\\", would prohibit most commercial public displays, including the Waikiki Friday Night Fireworks display held every week (HB1483_HD1_TESTIMONY_FIN_02-25-25_).\",\n  \"revenue_sources\": \"\",\n  \"six_year_fiscal_implications\": \"\",\n  \"operating_revenue_impact\": \"\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"This fiscal note provides new details not included in the prior version. The overview and appropriations sections now specify the bill's purpose and its appropriation of unspecified funds to the Judiciary. The assumptions section details the rationale that existing laws are an \\\"ineffective deterrent.\\\" Agency impact now includes specific amendment recommendations from the Department of the Attorney General regarding permit holders and the definition of \\\"inspector.\\\" The economic impact section introduces testimony regarding the potential for a \\\"costly specialty court\\\" and negative impacts on commercial pyrotechnic displays. Finally, the policy impact section adds concerns from the Office of the Public Defender about the \\\"concurrent trial provision\\\" and from industry stakeholders about the potential prohibition of events like the Waikiki Friday Night Fireworks display.\"\n}"
+              "text": "{\n  \"overview\": \"The purpose of this measure now includes appropriating funds to the Judiciary to implement this measure. [CHUNK_20]\",\n  \"appropriations\": \"This measure will appropriate funds to the Judiciary to implement this measure. [CHUNK_20]\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"The Committee on Finance noted the suggested amendments from the Department of the Attorney General in its written testimony to clarify that those holding fireworks permits or licenses may continue to use their permits or licenses. [CHUNK_23] The committee also noted suggestions to clarify which law enforcement officers may be designated as administrative inspectors. [CHUNK_23] The Office of the Public Defender raised concerns regarding the concurrent trial provision in this measure. [CHUNK_24]\",\n  \"economic_impact\": \"\",\n  \"policy_impact\": \"The Office of the Public Defender asserted that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges brought under existing fireworks control laws. [CHUNK_25]\",\n  \"revenue_sources\": \"\",\n  \"six_year_fiscal_implications\": \"\",\n  \"operating_revenue_impact\": \"\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"The measure's purpose now explicitly includes appropriating funds to the Judiciary. [CHUNK_20] New testimony was received from the Department of the Attorney General suggesting amendments to clarify the use of permits and licenses and the designation of administrative inspectors. [CHUNK_23] The Office of the Public Defender expressed new concerns about the concurrent trial provision and attributed the low number of fireworks charges to a lack of enforcement rather than inadequate penalties. [CHUNK_24][CHUNK_25] The Committee on Finance received new testimony in support from the Department of Law Enforcement and Honolulu Police Department, and in opposition from the Office of the Public Defender and Libertarian Party of Hawaii. [CHUNK_21][CHUNK_22]\"\n}"
             }
           ]
         },
@@ -41,425 +41,6 @@
         "safety_ratings": []
       }
     ],
-    "sentence_attribution_analysis": {
-      "sentence_attributions": [
-        {
-          "sentence": "{\n  \"overview\": \"The purpose of this measure is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure (HB1483_HD1_HSCR983_)",
-          "attributed_chunk_id": 20,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.7631578947368421,
-          "attribution_reason": "Document citation + word frequency: 1 (score: 0.763)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The bill aims to facilitate more effective enforcement of Hawaii’s fireworks control laws by amending definitions, strengthening offenses, and establishing non-criminal fireworks infractions for the lowest-level offenses (HB1483_HD1_TESTIMONY_FIN_02-25-25_)",
-          "attributed_chunk_id": 2,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.5909090909090909,
-          "attribution_reason": "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.591)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The Department of the Attorney General states this bill would largely address the concerns raised by prosecutors, and provide greater clarity and efficiency for law enforcement, prosecutors, and the courts that handle these cases (HB1483_HD1_TESTIMONY_FIN_02-25-25_)",
-          "attributed_chunk_id": 8,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.85,
-          "attribution_reason": "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.850)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n  \"appropriations\": \"The purpose of this measure is to appropriate funds to the Judiciary to implement this measure (HB1483_HD1_HSCR983_)",
-          "attributed_chunk_id": 20,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.625,
-          "attribution_reason": "Document citation + word frequency: HB1483_HD1_HSCR983_ (score: 0.625)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The Department of Law Enforcement states that the appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective (HB1483_HD1_TESTIMONY_FIN_02-25-25_)",
-          "attributed_chunk_id": 2,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.17647058823529413,
-          "attribution_reason": "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.176)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The specific amount of the appropriation is not detailed in the provided documents",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.14285714285714285,
-          "attribution_reason": "Word frequency match score: 0.143",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n  \"assumptions_and_methodology\": \"The measure is based on the assumption that for many years, Hawaii’s state laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these types of cases (HB1483_HD1_TESTIMONY_FIN_02-25-25_)",
-          "attributed_chunk_id": 4,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.8095238095238095,
-          "attribution_reason": "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.810)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Prosecutors have repeatedly cited challenges posed by \\\"gathering evidence and meeting the high burden of proof necessary for convictions\\\" and \\\"stringent definitions [in statute, that]",
-          "attributed_chunk_id": 5,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.9375,
-          "attribution_reason": "Word frequency match score: 0.938",
-          "numbers_found": []
-        },
-        {
-          "sentence": "routinely create roadblocks to effective prosecution\\\" (HB1483_HD1_TESTIMONY_FIN_02-25-25_)",
-          "attributed_chunk_id": 5,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 1.000)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "These challenges have resulted in a largely \\\"ineffective deterrent\\\" to the distribution and use of illicit fireworks, which this bill aims to address (HB1483_HD1_TESTIMONY_FIN_02-25-25_)",
-          "attributed_chunk_id": 8,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.6153846153846154,
-          "attribution_reason": "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.615)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n  \"agency_impact\": \"The Committee on Finance notes the suggested amendments from the Department of the Attorney General in its written testimony to clarify that those holding fireworks permits or licenses may continue to use their permits or licenses (HB1483_HD1_HSCR983_)",
-          "attributed_chunk_id": 23,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.8260869565217391,
-          "attribution_reason": "Document citation + word frequency: HB1483_HD1_HSCR983_ (score: 0.826)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The Department of the Attorney General also recommends amending the definition of \\\"inspector\\\" on page 72, line 8, by deleting the phrase, \\\"any law enforcement officer or",
-          "attributed_chunk_id": 14,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.4117647058823529,
-          "attribution_reason": "Word frequency match score: 0.412",
-          "numbers_found": [
-            72.0,
-            8.0
-          ]
-        },
-        {
-          "sentence": "\\\", stating it is unclear which law enforcement officers may be designated as administrative inspectors and requests additional time to discuss this further with other agencies (HB1483_HD1_TESTIMONY_FIN_02-25-25_)",
-          "attributed_chunk_id": 8,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.125,
-          "attribution_reason": "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.125)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The Honolulu Police Department supports this bill, which seeks to clarify the definitions of fireworks and improve enforcement (HB1483_HD1_TESTIMONY_FIN_02-25-25_)",
-          "attributed_chunk_id": 2,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.25,
-          "attribution_reason": "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.250)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n  \"economic_impact\": \"Testimony from Phantom Fireworks suggests this bill introduces a complex adjudication system that risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns (HB1483_HD1_TESTIMONY_FIN_02-25-25_)",
-          "attributed_chunk_id": 2,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.12,
-          "attribution_reason": "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.120)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The creation of a separate fireworks infraction system is described as a \\\"costly specialty court\\\" (HB1483_HD1_TESTIMONY_FIN_02-25-25_)",
-          "attributed_chunk_id": 17,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.034482758620689655,
-          "attribution_reason": "Document citation + semantic similarity: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.034)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Additionally, testimony from Hawaii Explosives & Pyrotechnics expresses concern that as written, prohibitions on fireworks use within five hundred feet of any dwelling \\\"would eliminate the use of articles pyrotechnic at any hotel or resort\\\" (HB1483_HD1_TESTIMONY_FIN_02-25-25_)",
-          "attributed_chunk_id": 10,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.24,
-          "attribution_reason": "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.240)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n  \"policy_impact\": \"This measure establishes non-criminal fireworks infractions for the lowest-level offenses (HB1483_HD1_TESTIMONY_FIN_02-25-25_)",
-          "attributed_chunk_id": 3,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.7,
-          "attribution_reason": "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.700)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Your Committee further notes the concerns of the Office of the Public Defender regarding the concurrent trial provision in this measure and the office's assertion that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges brought under existing fireworks control laws (HB1483_HD1_HSCR983_)",
-          "attributed_chunk_id": 24,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.8125,
-          "attribution_reason": "Document citation + word frequency: HB1483_HD1_HSCR983_ (score: 0.812)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Hawaii Explosives & Pyrotechnics, Inc",
-          "attributed_chunk_id": 22,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": []
-        },
-        {
-          "sentence": "is concerned that proposed revisions to HRS§132D, such as prohibiting fireworks near a \\\"public beach\\\", would prohibit most commercial public displays, including the Waikiki Friday Night Fireworks display held every week (HB1483_HD1_TESTIMONY_FIN_02-25-25_)",
-          "attributed_chunk_id": 9,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.12,
-          "attribution_reason": "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.120)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n  \"revenue_sources\": \"\",\n  \"six_year_fiscal_implications\": \"\",\n  \"operating_revenue_impact\": \"\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"This fiscal note provides new details not included in the prior version",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.06666666666666667,
-          "attribution_reason": "Word frequency match score: 0.067",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The overview and appropriations sections now specify the bill's purpose and its appropriation of unspecified funds to the Judiciary",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.16666666666666666,
-          "attribution_reason": "Word frequency match score: 0.167",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The assumptions section details the rationale that existing laws are an \\\"ineffective deterrent",
-          "attributed_chunk_id": 7,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.25,
-          "attribution_reason": "Word frequency match score: 0.250",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\\\" Agency impact now includes specific amendment recommendations from the Department of the Attorney General regarding permit holders and the definition of \\\"inspector",
-          "attributed_chunk_id": 10,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.25,
-          "attribution_reason": "Word frequency match score: 0.250",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\\\" The economic impact section introduces testimony regarding the potential for a \\\"costly specialty court\\\" and negative impacts on commercial pyrotechnic displays",
-          "attributed_chunk_id": 10,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.2,
-          "attribution_reason": "Word frequency match score: 0.200",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Finally, the policy impact section adds concerns from the Office of the Public Defender about the \\\"concurrent trial provision\\\" and from industry stakeholders about the potential prohibition of events like the Waikiki Friday Night Fireworks display",
-          "attributed_chunk_id": 24,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.25925925925925924,
-          "attribution_reason": "Word frequency match score: 0.259",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\"\n}.",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": []
-        }
-      ],
-      "chunk_usage_stats": {
-        "0": {
-          "usage_count": 0,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": []
-        },
-        "1": {
-          "usage_count": 1,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": [
-            "Word frequency match score: 0.167"
-          ]
-        },
-        "2": {
-          "usage_count": 5,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.591)",
-            "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.176)",
-            "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.250)",
-            "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.120)",
-            "Word frequency match score: 0.067"
-          ]
-        },
-        "3": {
-          "usage_count": 1,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.700)"
-          ]
-        },
-        "4": {
-          "usage_count": 1,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.810)"
-          ]
-        },
-        "5": {
-          "usage_count": 2,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": [
-            "Word frequency match score: 0.938",
-            "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 1.000)"
-          ]
-        },
-        "6": {
-          "usage_count": 0,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": []
-        },
-        "7": {
-          "usage_count": 1,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": [
-            "Word frequency match score: 0.250"
-          ]
-        },
-        "8": {
-          "usage_count": 3,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.850)",
-            "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.615)",
-            "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.125)"
-          ]
-        },
-        "9": {
-          "usage_count": 1,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.120)"
-          ]
-        },
-        "10": {
-          "usage_count": 3,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.240)",
-            "Word frequency match score: 0.250",
-            "Word frequency match score: 0.200"
-          ]
-        },
-        "11": {
-          "usage_count": 0,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": []
-        },
-        "12": {
-          "usage_count": 0,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": []
-        },
-        "13": {
-          "usage_count": 0,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": []
-        },
-        "14": {
-          "usage_count": 1,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": [
-            "Word frequency match score: 0.412"
-          ]
-        },
-        "15": {
-          "usage_count": 0,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": []
-        },
-        "16": {
-          "usage_count": 1,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": [
-            "Word frequency match score: 0.143"
-          ]
-        },
-        "17": {
-          "usage_count": 1,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
-          "attribution_reasons": [
-            "Document citation + semantic similarity: HB1483_HD1_TESTIMONY_FIN_02-25-25_ (score: 0.034)"
-          ]
-        },
-        "18": {
-          "usage_count": 0,
-          "document_name": "HB1483_HD1_HSCR983_",
-          "attribution_reasons": []
-        },
-        "19": {
-          "usage_count": 0,
-          "document_name": "HB1483_HD1_HSCR983_",
-          "attribution_reasons": []
-        },
-        "20": {
-          "usage_count": 2,
-          "document_name": "HB1483_HD1_HSCR983_",
-          "attribution_reasons": [
-            "Document citation + word frequency: 1 (score: 0.763)",
-            "Document citation + word frequency: HB1483_HD1_HSCR983_ (score: 0.625)"
-          ]
-        },
-        "21": {
-          "usage_count": 0,
-          "document_name": "HB1483_HD1_HSCR983_",
-          "attribution_reasons": []
-        },
-        "22": {
-          "usage_count": 1,
-          "document_name": "HB1483_HD1_HSCR983_",
-          "attribution_reasons": [
-            "Word frequency match score: 1.000"
-          ]
-        },
-        "23": {
-          "usage_count": 1,
-          "document_name": "HB1483_HD1_HSCR983_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB1483_HD1_HSCR983_ (score: 0.826)"
-          ]
-        },
-        "24": {
-          "usage_count": 2,
-          "document_name": "HB1483_HD1_HSCR983_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB1483_HD1_HSCR983_ (score: 0.812)",
-            "Word frequency match score: 0.259"
-          ]
-        },
-        "25": {
-          "usage_count": 0,
-          "document_name": "HB1483_HD1_HSCR983_",
-          "attribution_reasons": []
-        },
-        "26": {
-          "usage_count": 0,
-          "document_name": "HB1483_HD1_HSCR983_",
-          "attribution_reasons": []
-        }
-      },
-      "attribution_method_stats": {
-        "document_citation_based": 17,
-        "number_based": 0,
-        "word_frequency_based": 10,
-        "semantic_similarity": 0,
-        "fallback": 0,
-        "no_attribution": 1
-      }
-    },
     "chunks_metadata": {
       "total_chunks": 27,
       "chunk_details": [
@@ -681,8 +262,306 @@
         }
       ]
     },
-    "numbers_data": []
+    "numbers_data": [],
+    "chunk_text_map": {
+      "6": [
+        {
+          "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of",
+          "chunk_id": 20,
+          "document_name": "HB1483_HD1_HSCR983_"
+        },
+        {
+          "chunk_text": "from the Department of the Attorney General in its written testimony to clarify that those holding fireworks permits or licenses may continue to use their permits or licenses and to clarify which law enforcement officers may be designated as administrative inspectors. Your Committee further notes the concerns of the Office",
+          "chunk_id": 23,
+          "document_name": "HB1483_HD1_HSCR983_"
+        },
+        {
+          "chunk_text": "inspectors. Your Committee further notes the concerns of the Office of the Public Defender regarding the concurrent trial provision in this measure and the office's assertion that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges",
+          "chunk_id": 24,
+          "document_name": "HB1483_HD1_HSCR983_"
+        },
+        {
+          "chunk_text": "penalties, that has resulted in the low number of charges brought under existing fireworks control laws. As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No.",
+          "chunk_id": 25,
+          "document_name": "HB1483_HD1_HSCR983_"
+        },
+        {
+          "chunk_text": "implement this measure. Your Committee received testimony in support of this measure from the Department of Law Enforcement; Honolulu Police Department; Hawaiian Humane Society; and four individuals. Your Committee received testimony in opposition to this measure from the Office of the Public Defender; Libertarian Party of Hawaii; and two individuals.",
+          "chunk_id": 21,
+          "document_name": "HB1483_HD1_HSCR983_"
+        },
+        {
+          "chunk_text": "the Public Defender; Libertarian Party of Hawaii; and two individuals. Your Committee received comments on this measure from the Department of the Attorney General; Phantom Fireworks; TNT Fireworks; and Hawaii Explosives & Pyrotechnics, Inc. Your Committee notes the suggested amendments from the Department of the Attorney General in its written",
+          "chunk_id": 22,
+          "document_name": "HB1483_HD1_HSCR983_"
+        }
+      ]
+    },
+    "document_mapping": {
+      "HB1483": 1,
+      "HB1483_TESTIMONY_JHA_02-06-25_": 2,
+      "HB1483_HD1": 3,
+      "HB1483_HD1_HSCR629_": 4,
+      "HB1483_HD1_TESTIMONY_FIN_02-25-25_": 5,
+      "HB1483_HD1_HSCR983_": 6,
+      "HB1483_HD1_TESTIMONY_PSM-JDC_03-13-25_": 7,
+      "HB1483_SD1": 8,
+      "HB1483_SD1_SSCR1268_": 9,
+      "HB1483_SD1_TESTIMONY_WAM_04-04-25_": 10,
+      "HB1483_SD1_SSCR1831_": 11,
+      "HB1483_CD1": 12,
+      "HB1483_CD1_CCR233_": 13,
+      "HB1483_CD1_HFA7": 14,
+      "HB1483_CD1_SFA12": 15,
+      "HB1483_CD2": 16
+    },
+    "sentence_chunk_mapping": [
+      {
+        "section": "overview",
+        "sentence": "The purpose of this measure now includes appropriating funds to the Judiciary to implement this measure.",
+        "chunks": [
+          {
+            "chunk_id": 20,
+            "citation_number": 6,
+            "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "This measure will appropriate funds to the Judiciary to implement this measure.",
+        "chunks": [
+          {
+            "chunk_id": 20,
+            "citation_number": 6,
+            "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The Committee on Finance noted the suggested amendments from the Department of the Attorney General in its written testimony to clarify that those holding fireworks permits or licenses may continue to use their permits or licenses.",
+        "chunks": [
+          {
+            "chunk_id": 23,
+            "citation_number": 6,
+            "chunk_text": "from the Department of the Attorney General in its written testimony to clarify that those holding fireworks permits or licenses may continue to use their permits or licenses and to clarify which law enforcement officers may be designated as administrative inspectors. Your Committee further notes the concerns of the Office",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The committee also noted suggestions to clarify which law enforcement officers may be designated as administrative inspectors.",
+        "chunks": [
+          {
+            "chunk_id": 23,
+            "citation_number": 6,
+            "chunk_text": "from the Department of the Attorney General in its written testimony to clarify that those holding fireworks permits or licenses may continue to use their permits or licenses and to clarify which law enforcement officers may be designated as administrative inspectors. Your Committee further notes the concerns of the Office",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The Office of the Public Defender raised concerns regarding the concurrent trial provision in this measure.",
+        "chunks": [
+          {
+            "chunk_id": 24,
+            "citation_number": 6,
+            "chunk_text": "inspectors. Your Committee further notes the concerns of the Office of the Public Defender regarding the concurrent trial provision in this measure and the office's assertion that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The Office of the Public Defender asserted that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges brought under existing fireworks control laws.",
+        "chunks": [
+          {
+            "chunk_id": 25,
+            "citation_number": 6,
+            "chunk_text": "penalties, that has resulted in the low number of charges brought under existing fireworks control laws. As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No.",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The measure's purpose now explicitly includes appropriating funds to the Judiciary.",
+        "chunks": [
+          {
+            "chunk_id": 20,
+            "citation_number": 6,
+            "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "New testimony was received from the Department of the Attorney General suggesting amendments to clarify the use of permits and licenses and the designation of administrative inspectors.",
+        "chunks": [
+          {
+            "chunk_id": 23,
+            "citation_number": 6,
+            "chunk_text": "from the Department of the Attorney General in its written testimony to clarify that those holding fireworks permits or licenses may continue to use their permits or licenses and to clarify which law enforcement officers may be designated as administrative inspectors. Your Committee further notes the concerns of the Office",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The Office of the Public Defender expressed new concerns about the concurrent trial provision and attributed the low number of fireworks charges to a lack of enforcement rather than inadequate penalties.",
+        "chunks": [
+          {
+            "chunk_id": 24,
+            "citation_number": 6,
+            "chunk_text": "inspectors. Your Committee further notes the concerns of the Office of the Public Defender regarding the concurrent trial provision in this measure and the office's assertion that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges",
+            "document_name": "HB1483_HD1_HSCR983_"
+          },
+          {
+            "chunk_id": 24,
+            "citation_number": 6,
+            "chunk_text": "inspectors. Your Committee further notes the concerns of the Office of the Public Defender regarding the concurrent trial provision in this measure and the office's assertion that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The Committee on Finance received new testimony in support from the Department of Law Enforcement and Honolulu Police Department, and in opposition from the Office of the Public Defender and Libertarian Party of Hawaii.",
+        "chunks": [
+          {
+            "chunk_id": 21,
+            "citation_number": 6,
+            "chunk_text": "implement this measure. Your Committee received testimony in support of this measure from the Department of Law Enforcement; Honolulu Police Department; Hawaiian Humane Society; and four individuals. Your Committee received testimony in opposition to this measure from the Office of the Public Defender; Libertarian Party of Hawaii; and two individuals.",
+            "document_name": "HB1483_HD1_HSCR983_"
+          },
+          {
+            "chunk_id": 21,
+            "citation_number": 6,
+            "chunk_text": "implement this measure. Your Committee received testimony in support of this measure from the Department of Law Enforcement; Honolulu Police Department; Hawaiian Humane Society; and four individuals. Your Committee received testimony in opposition to this measure from the Office of the Public Defender; Libertarian Party of Hawaii; and two individuals.",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      }
+    ]
   },
-  "generation_timestamp": "2025-10-10T14:46:56.139500",
-  "generation_timestamp_unix": 1760143616.139512
+  "chunk_mapping": {
+    "HB1483_HD1_HSCR983_": [
+      {
+        "chunk_number": 0,
+        "chunk_text": "TESTIMONY OF THE DEPARTMENT OF THE ATTORNEY GENERAL KA ‘OIHANA O KA LOIO KUHINA THIRTY-THIRD LEGISLATURE, 2025 ON THE FOLLOWING MEASURE: H.B. NO. 1483, H.D. 1, RELATING TO FIREWORKS. BEFORE THE: HOUSE COMMITTEE ON FINANCE DATE: Tuesday, February 25, 2025 TIME: 12:00 p.m. LOCATION: State Capitol, Room 308 TESTIFIER(S): Anne"
+      },
+      {
+        "chunk_number": 1,
+        "chunk_text": "TIME: 12:00 p.m. LOCATION: State Capitol, Room 308 TESTIFIER(S): Anne E. Lopez, Attorney General, or Tricia M. Nakamatsu, Deputy Attorney General Chair Yamashita and Members of the Committee: The Department of the Attorney General (Department) strongly supports this bill and offers the following comments and suggested amendments. The purpose of"
+      },
+      {
+        "chunk_number": 2,
+        "chunk_text": "offers the following comments and suggested amendments. The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws, by: (1) amending definitions to reflect more common-sense standards; (2) strengthening and clarifying existing criminal offenses; (3) establishing new offenses; (4) establishing heightened penalties for repeat offenders"
+      },
+      {
+        "chunk_number": 3,
+        "chunk_text": "establishing new offenses; (4) establishing heightened penalties for repeat offenders and offenses that result in substantial or serious bodily injury or death; and (5) establishing non- criminal fireworks infractions for the lowest-level offenses. Criminal statutes serve as a deterrent to illegal activity when they are effectively enforced and prosecuted. For"
+      },
+      {
+        "chunk_number": 4,
+        "chunk_text": "illegal activity when they are effectively enforced and prosecuted. For many years, however, Hawaii’s state laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these types of cases. When asked, prosecutors have repeatedly cited challenges posed by \"gathering evidence and meeting the"
+      },
+      {
+        "chunk_number": 5,
+        "chunk_text": "repeatedly cited challenges posed by \"gathering evidence and meeting the high burden of proof necessary for convictions\",1 as well as \"stringent definitions [in statute, that] . . . routinely create roadblocks to effective prosecution.\"2 Thus, only a small number of criminal fireworks 1 See Legislative Reference Bureau of Hawaii, Blast"
+      },
+      {
+        "chunk_number": 6,
+        "chunk_text": "criminal fireworks 1 See Legislative Reference Bureau of Hawaii, Blast From the Past: An Update to the Report of the Illegal Fireworks Task Force to the Legislature for the Regular Session of 2011 at 13, 14 (December 2019) https://lrb.hawaii.gov/wp- content/uploads/2019_BlastFromThePast.pdf (last visited January 20, 2025). 2 Id, at 14. Testimony"
+      },
+      {
+        "chunk_number": 7,
+        "chunk_text": "(last visited January 20, 2025). 2 Id, at 14. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 2 of 4 cases have been initiated by law enforcement, and an even smaller number have been prosecuted, resulting in a largely \"ineffective deterrent\" to the distribution and use"
+      },
+      {
+        "chunk_number": 8,
+        "chunk_text": "in a largely \"ineffective deterrent\" to the distribution and use of illicit fireworks. This bill would largely address the concerns raised by prosecutors, and provide greater clarity and efficiency for law enforcement, prosecutors, and the courts that handle these cases. SUGGESTED AMENDMENTS The Department recommends the following amendments, to further"
+      },
+      {
+        "chunk_number": 9,
+        "chunk_text": "SUGGESTED AMENDMENTS The Department recommends the following amendments, to further clarify and correct various aspects of the fireworks control laws. Permit holders To ensure that anyone who holds a permit to use aerial devices, display fireworks, or articles pyrotechnic pursuant to sections 132D-10 and 132D-16, Hawaii Revised Statutes (HRS), is"
+      },
+      {
+        "chunk_number": 10,
+        "chunk_text": "to sections 132D-10 and 132D-16, Hawaii Revised Statutes (HRS), is able to continue using the permit for fireworks displays as intended, the Department recommends amending the wording in section 132D-A (\"General fireworks or articles pyrotechnic prohibitions in the second degree\") on page 30, lines 12-15, as follows (underscoring removed from"
+      },
+      {
+        "chunk_number": 11,
+        "chunk_text": "on page 30, lines 12-15, as follows (underscoring removed from new material in bill, to Ramseyer additional changes): (a) A person commits the offense of general fireworks or articles pyrotechnic prohibitions in the second degree if the person without a permit issued pursuant to sections 132D-10 and 132D-16 intentionally, knowingly,"
+      },
+      {
+        "chunk_number": 12,
+        "chunk_text": "permit issued pursuant to sections 132D-10 and 132D-16 intentionally, knowingly, or recklessly: . . . .\" In separating out various offenses from the existing section 132D-5, HRS, and creating section 132D-A, similar wording was intentionally deleted from section 132D-5, HRS, as amended, but unintentionally omitted from section 132D-A. License holders"
+      },
+      {
+        "chunk_number": 13,
+        "chunk_text": "as amended, but unintentionally omitted from section 132D-A. License holders To ensure that anyone licensed to purchase or distribute consumer fireworks at wholesale or retail pursuant to section 132D-7, HRS, is able to continue using the license as intended, the Department recommends amending the wording in section 132D-E(a) and (b)"
+      },
+      {
+        "chunk_number": 14,
+        "chunk_text": "Department recommends amending the wording in section 132D-E(a) and (b) (\"Consumer fireworks prohibitions\") on page 36, line 19, to page 37, line 14, as follows (underscoring removed from new material in bill, to Ramseyer additional changes): Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 3 of"
+      },
+      {
+        "chunk_number": 15,
+        "chunk_text": "of the Attorney General Thirty-Third Legislature, 2025 Page 3 of 4 (a) It shall be unlawful for any person to: (1) Purchase, possess, set off, ignite, discharge, or otherwise cause to explode any consumer fireworks without a permit required pursuant to section 132D-10; or (2) Set off, ignite, discharge, or"
+      },
+      {
+        "chunk_number": 16,
+        "chunk_text": "to section 132D-10; or (2) Set off, ignite, discharge, or otherwise cause to explode any consumer fireworks at any time not within the periods for use prescribed in section 132D-3[.]; except that a person licensed pursuant to sections 132D-7 and 132D-8 may purchase and possess consumer fireworks in accordance with"
+      },
+      {
+        "chunk_number": 17,
+        "chunk_text": "132D-8 may purchase and possess consumer fireworks in accordance with the person's license. (b) It shall be unlawful for any person, other than a licensed wholesaler who is distributing consumer fireworks to a licensed retailer in accordance with the person’s license, to distribute consumer fire"
+      },
+      {
+        "chunk_number": 18,
+        "chunk_text": "HSCR983 STAND. COM. REP. NO. 983 Honolulu, Hawaii , 2025 RE: H.B. No. 1483 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1483, H.D. 1, entitled: \"A"
+      },
+      {
+        "chunk_number": 19,
+        "chunk_text": "which was referred H.B. No. 1483, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO FIREWORKS,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for"
+      },
+      {
+        "chunk_number": 20,
+        "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of"
+      },
+      {
+        "chunk_number": 21,
+        "chunk_text": "implement this measure. Your Committee received testimony in support of this measure from the Department of Law Enforcement; Honolulu Police Department; Hawaiian Humane Society; and four individuals. Your Committee received testimony in opposition to this measure from the Office of the Public Defender; Libertarian Party of Hawaii; and two individuals."
+      },
+      {
+        "chunk_number": 22,
+        "chunk_text": "the Public Defender; Libertarian Party of Hawaii; and two individuals. Your Committee received comments on this measure from the Department of the Attorney General; Phantom Fireworks; TNT Fireworks; and Hawaii Explosives & Pyrotechnics, Inc. Your Committee notes the suggested amendments from the Department of the Attorney General in its written"
+      },
+      {
+        "chunk_number": 23,
+        "chunk_text": "from the Department of the Attorney General in its written testimony to clarify that those holding fireworks permits or licenses may continue to use their permits or licenses and to clarify which law enforcement officers may be designated as administrative inspectors. Your Committee further notes the concerns of the Office"
+      },
+      {
+        "chunk_number": 24,
+        "chunk_text": "inspectors. Your Committee further notes the concerns of the Office of the Public Defender regarding the concurrent trial provision in this measure and the office's assertion that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges"
+      },
+      {
+        "chunk_number": 25,
+        "chunk_text": "penalties, that has resulted in the low number of charges brought under existing fireworks control laws. As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No."
+      },
+      {
+        "chunk_number": 26,
+        "chunk_text": "in accord with the intent and purpose of H.B. No. 1483, H.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Finance, ____________________________ KYLE T. YAMASHITA, Chair"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-14T16:46:43.395911",
+  "generation_timestamp_unix": 1760496403.395921
 }

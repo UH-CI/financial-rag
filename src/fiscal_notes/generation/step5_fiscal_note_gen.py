@@ -35,7 +35,17 @@ def query_gemini(prompt: str, chunks=None, numbers_data=None):
         response_mime_type="application/json",
         response_schema=FiscalNoteModel,
         # Enable grounding and citation features
-        system_instruction="You are a fiscal note analyst. Use EXACT WORDING from the provided document chunks whenever possible. Quote directly from the source material. When writing fiscal notes, preserve the original language and phrasing from the documents to maintain accuracy and authenticity."
+        system_instruction="""You are a fiscal note analyst. Use EXACT WORDING from the provided document chunks whenever possible. Quote directly from the source material. When writing fiscal notes, preserve the original language and phrasing from the documents to maintain accuracy and authenticity.
+
+CRITICAL CITATION REQUIREMENT: You MUST include chunk citations in your JSON output. After EVERY sentence in each field, add [CHUNK_X] where X is the chunk ID. The citations are PART OF THE STRING VALUES in your JSON output. 
+
+Example JSON output format:
+{
+  "overview": "The bill makes the program permanent. [CHUNK_3] It establishes a pilot in Kona. [CHUNK_5]",
+  "appropriations": "The measure appropriates $514,900. [CHUNK_7]"
+}
+
+DO NOT omit the [CHUNK_X] citations - they are required in every sentence."""
     )
     
     # Create chunked prompt if we have chunks
@@ -61,10 +71,11 @@ def query_gemini(prompt: str, chunks=None, numbers_data=None):
     
     return response.text, parsed, response, chunks
 
-def chunk_documents(document_sources, chunk_size=250, overlap=20):
+def chunk_documents(document_sources, chunk_size=250, overlap=20, fiscal_note_name=None):
     """
     Chunk documents into smaller pieces with overlap for better attribution.
     Each chunk gets a unique index and tracks its source document.
+    Saves chunk mapping to file if fiscal_note_name is provided.
     """
     chunks = []
     chunk_index = 0
@@ -98,7 +109,63 @@ def chunk_documents(document_sources, chunk_size=250, overlap=20):
                 break
             start = end - overlap
     
+    # Save chunk mapping to file if fiscal_note_name is provided
+    if fiscal_note_name:
+        save_chunk_mapping(fiscal_note_name, chunks)
+    
     return chunks
+
+def save_chunk_mapping(fiscal_note_name, chunks):
+    """
+    Save chunk mapping to a file for the given fiscal note.
+    """
+    import os
+    import json
+    
+    # Create chunk mapping data
+    chunk_mapping = {
+        "fiscal_note_name": fiscal_note_name,
+        "chunks": [
+            {
+                "chunk_number": chunk["chunk_id"],
+                "chunk_text": chunk["chunk_text"]
+            }
+            for chunk in chunks
+        ]
+    }
+    
+    # Extract bill info from fiscal_note_name to determine correct directory
+    if fiscal_note_name:
+        parts = fiscal_note_name.split('_')
+        
+        # Handle both "HB727" and "HB727_CD1_CCR58_" formats
+        bill_name_part = parts[0]  # "HB727" or "SB123"
+        
+        # Extract bill type and number from the first part
+        if len(bill_name_part) >= 3 and bill_name_part[:2] in ['HB', 'SB']:
+            bill_type = bill_name_part[:2]  # HB or SB
+            bill_number = bill_name_part[2:]  # 727
+            year = "2025"  # Default year
+            
+            bill_dir = f"{bill_type}_{bill_number}_{year}"
+            output_dir = os.path.join(bill_dir, "fiscal_notes")
+            
+            # Create directory if it doesn't exist
+            os.makedirs(output_dir, exist_ok=True)
+            
+            # Create filename based on fiscal note name
+            filename = f"{fiscal_note_name}_chunk_mapping.json"
+            filepath = os.path.join(output_dir, filename)
+            
+            # Save to file
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(chunk_mapping, f, ensure_ascii=False, indent=2)
+            
+            print(f"📝 Saved chunk mapping for {fiscal_note_name} to {filepath}")
+        else:
+            print(f"❌ Could not parse bill info from fiscal_note_name: {fiscal_note_name}")
+    else:
+        print(f"❌ No fiscal_note_name provided for chunk mapping")
 
 def create_chunked_prompt(base_prompt, chunks, numbers_data):
     """
@@ -110,7 +177,11 @@ def create_chunked_prompt(base_prompt, chunks, numbers_data):
     prompt += "2. Quote directly from the source material to maintain accuracy\n"
     prompt += "3. Preserve the original language and terminology from the documents\n"
     prompt += "4. When mentioning dollar amounts, use the exact figures as they appear in the source\n"
-    prompt += "5. Maintain the authentic voice and style of the original documents\n\n"
+    prompt += "5. Maintain the authentic voice and style of the original documents\n"
+    prompt += "6. CITATION REQUIREMENT: After each sentence, add a citation in square brackets [CHUNK_X] where X is the chunk ID that best supports that sentence\n"
+    prompt += "7. For financial numbers, cite both the chunk and the number source: [CHUNK_X, NUMBER_Y]\n"
+    prompt += "8. If multiple chunks support a sentence, cite the most relevant one: [CHUNK_X]\n"
+    prompt += "9. Every sentence MUST have a citation - no exceptions\n\n"
     
     # Add chunk information
     prompt += "=== DOCUMENT CHUNKS FOR REFERENCE ===\n"
@@ -129,168 +200,138 @@ def create_chunked_prompt(base_prompt, chunks, numbers_data):
     prompt += "- Quote exact phrases and sentences from the chunks when applicable\n"
     prompt += "- Use the precise dollar amounts as they appear in the source documents\n"
     prompt += "- Maintain consistency with the original document language\n"
-    prompt += "- Focus on accuracy and authenticity over paraphrasing\n\n"
+    prompt += "- Focus on accuracy and authenticity over paraphrasing\n"
+    prompt += "- ALWAYS end each sentence with [CHUNK_X] citation\n"
+    prompt += "- Example: 'The program costs $50,000 for staffing. [CHUNK_5]'\n"
+    prompt += "- Example with numbers: 'The appropriation is $514,900 for FY 2025-26. [CHUNK_3, NUMBER_0]'\n\n"
     
     return prompt
 
-def analyze_sentence_chunk_attribution(response_text, chunks, numbers_data=None):
+
+def fix_llm_citations_and_mapping(fiscal_note, available_chunks=None, global_document_mapping=None):
     """
-    Post-process attribution by analyzing document citations, numbers, and semantic similarity.
+    Convert LLM chunk citations to document citations using global mapping.
+    Handles formats: [CHUNK_3], [CHUNK 3], [CHUNK_3, CHUNK_5]
+    Also tracks sentence-to-chunk mappings for frontend tooltips.
     """
     import re
-    import string
-    from collections import Counter
     
-    # Split response into sentences and merge short fragments
-    raw_sentences = re.split(r'[.!?]+', response_text)
-    raw_sentences = [s.strip() for s in raw_sentences if s.strip()]
+    fiscal_note_with_citations = {}
+    chunk_to_citation_map = {}
+    citation_to_chunk_map = {}
+    sentence_chunk_mapping = []  # Track sentences and their chunk citations
     
-    # Merge sentences that are too short (likely fragments)
-    sentences = []
-    current_sentence = ""
+    # Create chunk lookup
+    chunk_id_to_chunk = {}
+    if available_chunks:
+        for chunk in available_chunks:
+            chunk_id_to_chunk[chunk['chunk_id']] = chunk
     
-    for sentence in raw_sentences:
-        if len(sentence) < 7:  # Too short to be a complete sentence
-            current_sentence += sentence + ". "
-        else:
-            if current_sentence:
-                sentences.append((current_sentence + sentence).strip())
-                current_sentence = ""
-            else:
-                sentences.append(sentence)
-    
-    # Add any remaining current_sentence
-    if current_sentence:
-        sentences.append(current_sentence.strip())
-    
-    attribution_metadata = {
-        "sentence_attributions": [],
-        "chunk_usage_stats": {},
-        "attribution_method_stats": {
-            "document_citation_based": 0,
-            "number_based": 0,
-            "word_frequency_based": 0,
-            "semantic_similarity": 0,
-            "fallback": 0,
-            "no_attribution": 0
-        }
-    }
-    
-    # Initialize chunk usage stats
-    for chunk in chunks:
-        attribution_metadata["chunk_usage_stats"][chunk['chunk_id']] = {
-            "usage_count": 0,
-            "document_name": chunk['document_name'],
-            "attribution_reasons": []
-        }
-    
-    # Also initialize stats for number-based attributions
-    if numbers_data:
-        for number_item in numbers_data:
-            number_id = f"NUMBER_{number_item['number']}"
-            if number_id not in attribution_metadata["chunk_usage_stats"]:
-                attribution_metadata["chunk_usage_stats"][number_id] = {
-                    "usage_count": 0,
-                    "document_name": number_item['filename'],
-                    "attribution_reasons": []
-                }
-    
-    for sentence in sentences:
-        if not sentence:
+    # Process each section
+    for section_key, section_content in fiscal_note.items():
+        if not isinstance(section_content, str):
+            fiscal_note_with_citations[section_key] = section_content
             continue
         
-        # Extract document citation from parentheses at end of sentence
-        cited_document = extract_document_citation(sentence)
-        sentence_without_citation = remove_document_citation(sentence) if cited_document else sentence
+        processed_content = section_content
         
-        # Extract numbers from sentence
-        numbers_in_sentence = extract_numbers_from_text(sentence_without_citation, numbers_data)
+        # Split content into sentences, keeping citations with their sentences
+        # Split AFTER citations if present, otherwise split after period
+        # This handles: "sentence. [CHUNK_3] Next sentence" -> ["sentence. [CHUNK_3]", "Next sentence"]
+        sentences = re.split(r'(?<=\])\s+(?=[A-Z])|(?<=[.!?])(?!\s*\[CHUNK)\s+(?=[A-Z])', section_content)
         
-        best_chunk_id = None
-        attribution_method = "no_attribution"
-        attribution_score = 0
-        attribution_reason = ""
+        # Universal pattern that handles: [CHUNK_3], [CHUNK 3], [CHUNK_3, CHUNK_5]
+        chunk_citation_pattern = r'\[CHUNK[_ ](\d+)(?:(?:,\s*|\s+)CHUNK[_ ](\d+))*\]'
         
-        # Priority 1: Document citation-based attribution
-        if cited_document:
-            best_chunk_id, attribution_score, attribution_reason = find_best_chunk_by_document_citation(
-                sentence_without_citation, cited_document, chunks, numbers_data, numbers_in_sentence
-            )
-            if best_chunk_id:
-                attribution_method = "document_citation_based"
-        
-        # Priority 2: Number-based attribution (if no document citation)
-        elif numbers_in_sentence:
-            best_chunk_id, attribution_score, attribution_reason = find_best_chunk_by_numbers(
-                sentence_without_citation, numbers_in_sentence, numbers_data
-            )
-            if best_chunk_id:
-                attribution_method = "number_based"
-        
-        # Priority 3: General chunk matching
-        if not best_chunk_id:
-            best_chunk_id, word_score = find_best_chunk_by_word_frequency(sentence_without_citation, chunks)
-            if best_chunk_id is not None and word_score > 0:
-                attribution_method = "word_frequency_based"
-                attribution_score = word_score
-                attribution_reason = f"Word frequency match score: {word_score:.3f}"
-            elif best_chunk_id is not None:
-                # Semantic similarity fallback
-                best_chunk_id, semantic_score = find_best_chunk_by_semantic_similarity(sentence_without_citation, chunks)
-                if best_chunk_id and semantic_score > 0:
-                    attribution_method = "semantic_similarity"
-                    attribution_score = semantic_score
-                    attribution_reason = f"Semantic similarity score: {semantic_score:.3f}"
-        
-        # Final fallback for substantial sentences
-        if not best_chunk_id and len(sentence_without_citation.split()) >= 3 and chunks:
-            best_chunk_id = chunks[0]['chunk_id']
-            attribution_method = "fallback"
-            attribution_score = 0.1
-            attribution_reason = "Fallback attribution (no clear match found)"
-        
-        # Record attribution
-        sentence_attribution = {
-            "sentence": sentence,
-            "attributed_chunk_id": best_chunk_id,
-            "attribution_method": attribution_method,
-            "attribution_score": attribution_score,
-            "attribution_reason": attribution_reason,
-            "numbers_found": numbers_in_sentence
-        }
-        
-        attribution_metadata["sentence_attributions"].append(sentence_attribution)
-        attribution_metadata["attribution_method_stats"][attribution_method] += 1
-        
-        # Update chunk usage stats
-        if best_chunk_id is not None:
-            # Ensure the chunk_id exists in stats (for NUMBER_ IDs)
-            if best_chunk_id not in attribution_metadata["chunk_usage_stats"]:
-                if best_chunk_id.startswith("NUMBER_"):
-                    # Extract number from ID and find corresponding entry
-                    number_str = best_chunk_id.replace("NUMBER_", "")
-                    try:
-                        number = float(number_str)
-                        # Find the document name for this number
-                        doc_name = "Unknown"
-                        for number_item in numbers_data or []:
-                            if abs(number_item['number'] - number) < 0.01:
-                                doc_name = number_item['filename']
-                                break
-                        
-                        attribution_metadata["chunk_usage_stats"][best_chunk_id] = {
-                            "usage_count": 0,
-                            "document_name": doc_name,
-                            "attribution_reasons": []
-                        }
-                    except ValueError:
-                        pass
+        def convert_chunk_citation(match):
+            # Extract all chunk IDs from the match
+            chunk_ids = [int(id) for id in re.findall(r'\d+', match.group(0))]
             
-            if best_chunk_id in attribution_metadata["chunk_usage_stats"]:
-                attribution_metadata["chunk_usage_stats"][best_chunk_id]["usage_count"] += 1
-                attribution_metadata["chunk_usage_stats"][best_chunk_id]["attribution_reasons"].append(attribution_reason)
+            citations = []
+            for chunk_id in chunk_ids:
+                if chunk_id in chunk_id_to_chunk:
+                    chunk = chunk_id_to_chunk[chunk_id]
+                    doc_name = chunk['document_name']
+                    
+                    # Get correct citation number from global mapping
+                    if global_document_mapping and doc_name in global_document_mapping:
+                        citation_number = global_document_mapping[doc_name]
+                    else:
+                        citation_number = 1  # fallback
+                    
+                    # Add to mappings
+                    chunk_to_citation_map[chunk_id] = citation_number
+                    if citation_number not in citation_to_chunk_map:
+                        citation_to_chunk_map[citation_number] = []
+                    
+                    # Check if this exact chunk dict is already in the list
+                    chunk_exists = any(
+                        c['chunk_id'] == chunk['chunk_id'] for c in citation_to_chunk_map[citation_number]
+                    )
+                    if not chunk_exists:
+                        citation_to_chunk_map[citation_number].append(chunk)
+                    
+                    citations.append(f"[{citation_number}]")
+            
+            # Return space-separated citations
+            return " ".join(citations) if citations else ""
+        
+        # Apply chunk citation conversion
+        processed_content = re.sub(chunk_citation_pattern, convert_chunk_citation, processed_content)
+        
+        # Extract sentence-to-chunk mappings for this section
+        for sentence in sentences:
+            if not sentence.strip():
+                continue
+            
+            # Find all chunk citations in the original sentence (handles [CHUNK_3], [CHUNK 3], etc.)
+            chunk_citations = re.findall(r'\[CHUNK[_ ](\d+)(?:(?:,\s*|\s+)CHUNK[_ ](\d+))*\]', sentence)
+            chunk_ids = []
+            
+            for match in chunk_citations:
+                # Extract all numbers from the citation
+                ids_in_match = re.findall(r'\d+', match if isinstance(match, str) else sentence[sentence.index('[CHUNK'):sentence.index(']')+1])
+                chunk_ids.extend([int(id) for id in ids_in_match])
+            
+            if chunk_ids:
+                # Map chunk IDs to citation numbers and chunk details
+                sentence_chunks = []
+                for chunk_id in chunk_ids:
+                    if chunk_id in chunk_id_to_chunk:
+                        chunk = chunk_id_to_chunk[chunk_id]
+                        doc_name = chunk['document_name']
+                        
+                        if global_document_mapping and doc_name in global_document_mapping:
+                            citation_number = global_document_mapping[doc_name]
+                        else:
+                            citation_number = 1
+                        
+                        sentence_chunks.append({
+                            'chunk_id': chunk_id,
+                            'citation_number': citation_number,
+                            'chunk_text': chunk['chunk_text'],
+                            'document_name': doc_name
+                        })
+                
+                # Store the mapping
+                if sentence_chunks:
+                    # Remove chunk citations from sentence for clean display
+                    clean_sentence = re.sub(r'\[CHUNK[_ ]\d+(?:(?:,\s*|\s+)CHUNK[_ ]\d+)*\]', '', sentence)
+                    clean_sentence = re.sub(r'\s+', ' ', clean_sentence).strip()
+                    
+                    sentence_chunk_mapping.append({
+                        'section': section_key,
+                        'sentence': clean_sentence,
+                        'chunks': sentence_chunks
+                    })
+        
+        # Clean up extra spaces
+        processed_content = re.sub(r'\s+', ' ', processed_content).strip()
+        
+        fiscal_note_with_citations[section_key] = processed_content
     
-    return attribution_metadata
+    return fiscal_note_with_citations, chunk_to_citation_map, citation_to_chunk_map, sentence_chunk_mapping
+
 
 def extract_numbers_from_text(text, numbers_data=None, processed_documents=None):
     """Extract dollar amounts and numbers from text."""
@@ -843,7 +884,7 @@ PROPERTY_PROMPTS = {
     "updates_from_previous_fiscal_note" : {"prompt": "If you are given a previous fisacl not. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fisacl note."}
     }
 
-def generate_fiscal_note_for_context(context_text, numbers_data=None, previous_note=None, document_sources=None):
+def generate_fiscal_note_for_context(context_text, numbers_data=None, previous_note=None, document_sources=None, fiscal_note_name=None):
     """
     Generate a full fiscal note (all properties at once) using PROPERTY_PROMPTS.
     If previous_note is provided, instruct the LLM to avoid repeating information.
@@ -901,7 +942,7 @@ Previous fiscal note:
     # Create chunks from document sources
     chunks = []
     if document_sources:
-        chunks = chunk_documents(document_sources, chunk_size=50, overlap=10)
+        chunks = chunk_documents(document_sources, chunk_size=50, overlap=10, fiscal_note_name=fiscal_note_name)
         print(f"📝 Created {len(chunks)} chunks from {len(document_sources)} documents")
     
     text, parsed, full_response, used_chunks = query_gemini(combined_prompt, chunks, numbers_data)
@@ -909,16 +950,13 @@ Previous fiscal note:
     # Extract metadata about chunk contributions
     response_metadata = extract_response_metadata(full_response)
     
-    # Add our custom sentence-level chunk attribution analysis
-    if text and chunks:
-        sentence_attribution = analyze_sentence_chunk_attribution(text, chunks, numbers_data)
-        response_metadata["sentence_attribution_analysis"] = sentence_attribution
-        response_metadata["chunks_metadata"] = {
-            "total_chunks": len(chunks),
-            "chunk_details": chunks
-        }
-        # Include numbers data for the HTML viewer
-        response_metadata["numbers_data"] = numbers_data
+    # Chunks metadata will be added after parsing
+    response_metadata["chunks_metadata"] = {
+        "total_chunks": len(chunks),
+        "chunk_details": chunks
+    }
+    # Include numbers data for the HTML viewer
+    response_metadata["numbers_data"] = numbers_data
 
     # Convert to dict
     fiscal_note = {}
@@ -928,6 +966,119 @@ Previous fiscal note:
         except AttributeError:
             fiscal_note = parsed.model_dump()  # Pydantic v2
 
+        # Clean up and validate citations using semantic matching
+        # Always try to convert citations if we have chunks, regardless of text content
+        # Initialize these outside the if block so they're always available
+        global_document_mapping = None
+        citation_to_chunk_map = {}
+        sentence_chunk_mapping = []
+        
+        print(f"🔍 DEBUG: chunks is {'None' if chunks is None else f'list with {len(chunks)} items'}")
+        print(f"🔍 DEBUG: fiscal_note_name = {fiscal_note_name}")
+        
+        if chunks:
+            # Load global document mapping if available
+            try:
+                import os
+                
+                print(f"✅ Entered 'if chunks:' block")
+                
+                if fiscal_note_name:
+                    print(f"✅ fiscal_note_name provided: {fiscal_note_name}")
+                    # Extract bill info from fiscal_note_name (e.g., "HB727_CD1_CCR58_" or "HB727")
+                    parts = fiscal_note_name.split('_')
+                    print(f"   Split parts: {parts}")
+                    
+                    # Handle both "HB727" and "HB727_CD1_CCR58_" formats
+                    bill_name_part = parts[0]  # "HB727" or "SB123"
+                    print(f"   Bill name part: {bill_name_part}")
+                    
+                    # Extract bill type and number from the first part
+                    if len(bill_name_part) >= 3 and bill_name_part[:2] in ['HB', 'SB']:
+                        bill_type = bill_name_part[:2]  # HB or SB
+                        bill_number = bill_name_part[2:]  # 727
+                        year = "2025"  # Default year
+                        
+                        print(f"   Bill type: {bill_type}, Number: {bill_number}, Year: {year}")
+                        
+                        # Get the absolute path of the current script directory
+                        script_dir = os.path.dirname(os.path.abspath(__file__))
+                        bill_dir = f"{bill_type}_{bill_number}_{year}"
+                        mapping_file = os.path.join(script_dir, bill_dir, "document_mapping.json")
+                        
+                        print(f"🔍 Looking for mapping file: {mapping_file}")
+                        print(f"   File exists? {os.path.exists(mapping_file)}")
+                        
+                        if os.path.exists(mapping_file):
+                            with open(mapping_file, 'r') as f:
+                                global_document_mapping = json.load(f)
+                            print(f"✅ Loaded global document mapping from {mapping_file} ({len(global_document_mapping)} documents)")
+                            print(f"   Sample mappings: {list(global_document_mapping.items())[:3]}")
+                        else:
+                            print(f"❌ Document mapping not found at {mapping_file}")
+                            # Try alternate path (current working directory)
+                            alt_mapping_file = os.path.join(bill_dir, "document_mapping.json")
+                            print(f"   Trying alternate: {alt_mapping_file}")
+                            if os.path.exists(alt_mapping_file):
+                                with open(alt_mapping_file, 'r') as f:
+                                    global_document_mapping = json.load(f)
+                                print(f"✅ Loaded global document mapping from alternate path: {alt_mapping_file} ({len(global_document_mapping)} documents)")
+                    else:
+                        print(f"❌ Could not parse bill info from fiscal_note_name: {fiscal_note_name}")
+                else:
+                    print(f"❌ No fiscal_note_name provided for mapping lookup")
+                    
+            except Exception as e:
+                print(f"❌ EXCEPTION while loading global document mapping: {e}")
+                import traceback
+                traceback.print_exc()
+        else:
+            print(f"⚠️  Skipped loading document mapping because chunks is None or empty")
+
+        # Fix LLM citation placement and validate chunk references (runs regardless of chunks)
+        if chunks:
+            fiscal_note_with_citations, chunk_to_citation_map, citation_to_chunk_map, sentence_chunk_mapping = fix_llm_citations_and_mapping(
+                fiscal_note,
+                chunks,
+                global_document_mapping
+            )
+            
+            print(f"📊 Citation Conversion Results:")
+            print(f"   - Converted {len(citation_to_chunk_map)} chunk citations to document citations")
+            print(f"   - Created {len(sentence_chunk_mapping)} sentence-chunk mappings")
+            if global_document_mapping:
+                print(f"   - Using global document mapping with {len(global_document_mapping)} documents")
+            
+            # Use the version with converted citations
+            fiscal_note = fiscal_note_with_citations
+        
+        # Add chunk text mapping to response metadata for frontend tooltips
+        response_metadata["chunk_text_map"] = {}
+        # CRITICAL: Use the COMPLETE global document mapping, not just cited documents
+        print(f"🔍 DEBUG: About to save document_mapping. global_document_mapping is {'None' if global_document_mapping is None else f'dict with {len(global_document_mapping)} items'}")
+        response_metadata["document_mapping"] = global_document_mapping.copy() if global_document_mapping else {}
+        response_metadata["sentence_chunk_mapping"] = sentence_chunk_mapping  # Add sentence-to-chunk mapping
+        print(f"🔍 DEBUG: Saved document_mapping has {len(response_metadata['document_mapping'])} items")
+        
+        for citation_num, chunk_list in citation_to_chunk_map.items():
+            if chunk_list:
+                # Add all chunks for this citation (not just the first one)
+                # Use string keys for JSON compatibility
+                response_metadata["chunk_text_map"][str(citation_num)] = []
+                for chunk_item in (chunk_list if isinstance(chunk_list, list) else [chunk_list]):
+                    response_metadata["chunk_text_map"][str(citation_num)].append({
+                        "chunk_text": chunk_item['chunk_text'],
+                        "chunk_id": chunk_item['chunk_id'],
+                        "document_name": chunk_item['document_name']
+                    })
+        
+        print(f"📦 Final Metadata:")
+        print(f"   - document_mapping: {len(response_metadata['document_mapping'])} entries")
+        print(f"   - chunk_text_map: {len(response_metadata['chunk_text_map'])} entries")
+        print(f"   - sentence_chunk_mapping: {len(response_metadata['sentence_chunk_mapping'])} entries")
+        
+        return fiscal_note, combined_prompt, response_metadata
+    
     return fiscal_note, combined_prompt, response_metadata
 
 def generate_fiscal_notes_chronologically(documents, chronological_documents, output_dir, numbers_file_path):
@@ -939,6 +1090,27 @@ def generate_fiscal_notes_chronologically(documents, chronological_documents, ou
     chronological_documents: list of dicts with {"name": ..., "url": ...} from chronological JSON
     """
     os.makedirs(output_dir, exist_ok=True)
+    
+    # CRITICAL: Create document_mapping.json at the start if it doesn't exist
+    # This is needed for citation conversion during generation
+    base_dir = os.path.dirname(output_dir)
+    mapping_file = os.path.join(base_dir, "document_mapping.json")
+    
+    if not os.path.exists(mapping_file):
+        print(f"📝 Creating document_mapping.json at {mapping_file}")
+        document_mapping = {}
+        for index, doc in enumerate(chronological_documents, 1):
+            document_mapping[doc['name']] = index
+        
+        try:
+            with open(mapping_file, 'w') as f:
+                json.dump(document_mapping, f, indent=2)
+            print(f"✅ Created document mapping with {len(document_mapping)} documents")
+        except Exception as e:
+            print(f"❌ Error creating document mapping: {e}")
+    else:
+        print(f"✅ Document mapping already exists at {mapping_file}")
+    
     previous_fiscal_note = None
     all_processed_documents = []  # Track ALL documents processed across all fiscal notes
     last_fiscal_note_index = -1  # Track which document index had the last fiscal note
@@ -1055,7 +1227,8 @@ def generate_fiscal_notes_chronologically(documents, chronological_documents, ou
                 new_context, 
                 numbers_data=numbers_data, 
                 previous_note=previous_fiscal_note,
-                document_sources=document_sources
+                document_sources=document_sources,
+                fiscal_note_name=doc['name']
             )
             
             # Save fiscal note to a JSON file (filename = new document name)
@@ -1065,6 +1238,18 @@ def generate_fiscal_notes_chronologically(documents, chronological_documents, ou
             
             # Save metadata to a separate JSON file
             metadata_path = os.path.join(output_dir, f"{doc['name']}_metadata.json")
+            # Add chunk mapping for this fiscal note
+            chunks_data = response_metadata.get("chunks_metadata", {}).get("chunk_details", [])
+            chunk_mapping = {
+                doc['name']: [
+                    {
+                        "chunk_number": chunk["chunk_id"],
+                        "chunk_text": chunk["chunk_text"]
+                    }
+                    for chunk in chunks_data
+                ]
+            }
+            
             metadata_output = {
                 "document_name": doc['name'],
                 "new_documents_processed": new_document_names.copy(),  # Only NEW documents
@@ -1072,6 +1257,7 @@ def generate_fiscal_notes_chronologically(documents, chronological_documents, ou
                 "numbers_used": len(numbers_data),
                 "prompt_length": len(combined_prompt),
                 "response_metadata": response_metadata,
+                "chunk_mapping": chunk_mapping,
                 "generation_timestamp": datetime.now().isoformat(),
                 "generation_timestamp_unix": time.time()
             }

@@ -1,6 +1,7 @@
 {
   "document_name": "HB1483_SD1_SSCR1831_",
   "new_documents_processed": [
+    "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
     "HB1483_SD1_SSCR1831_"
   ],
   "all_documents_processed_so_far": [
@@ -13,20 +14,21 @@
     "HB1483_HD1_TESTIMONY_PSM-JDC_03-13-25_",
     "HB1483_SD1",
     "HB1483_SD1_SSCR1268_",
+    "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
     "HB1483_SD1_SSCR1831_"
   ],
-  "numbers_used": 0,
-  "prompt_length": 10992,
+  "numbers_used": 6,
+  "prompt_length": 48499,
   "response_metadata": {
-    "response_text": "{\n\"overview\": \"The purpose and intent of this measure is to strengthen state fireworks laws by amending various definitions, increasing penalties for fireworks offenses, and establishing various criminal offenses (HB1483_SD1_SSCR1831_). The measure also establishes processes relating to the adjudication of fireworks infractions (HB1483_SD1_SSCR1831_). A key component of the measure is that it now appropriates moneys (HB1483_SD1_SSCR1831_).\",\n\"appropriations\": \"As the measure has moved through the legislative process, it has been amended to appropriate funds. The Committee on Ways and Means reports that the measure now appropriates moneys, although the specific amount is not detailed in the report (HB1483_SD1_SSCR1831_).\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The measure has received broad support from multiple government agencies as it has progressed. Your Committee received written comments in support of this measure from the Department of the Attorney General; Honolulu Police Department; Hawaii County Police Department; and the Department of the Prosecuting Attorney, County of Maui (HB1483_SD1_SSCR1831_). This indicates a consensus among key law enforcement and legal departments on the necessity and structure of the proposed changes.\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"The Committee on Ways and Means finds that the bill's policy is sound and necessary to reform the State's enforcement approach. Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework (HB1483_SD1_SSCR1831_). The committee also affirms that the bill establishes a sensible penalty structure that imposes just consequences based on the severity of violations (HB1483_SD1_SSCR1831_).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note reflects changes as the bill passed through the Committee on Ways and Means. The appropriations section is now updated, as the measure now appropriates moneys (HB1483_SD1_SSCR1831_). The agency impact has been updated to reflect broad written support from multiple county police departments and prosecuting attorneys, indicating widespread agency accord. The policy impact section now includes an affirmation from the Committee on Ways and Means that the measure appropriately addresses shortcomings in the current regulatory framework (HB1483_SD1_SSCR1831_).\"\n}",
+    "response_text": "{\n  \"overview\": \"The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws by amending definitions, strengthening and clarifying existing criminal fireworks offenses, establishing new fireworks offenses, establishing heightened penalties, and establishing non-criminal fireworks infractions for the lowest-level offenses. [CHUNK_3] This bill addresses concerns raised by prosecutors and provides clarity and efficiency for law enforcement, prosecutors, and courts that handle these cases. [CHUNK_8] Specifically, the measure amends various definitions, increases penalties, establishes criminal offenses, establishes processes for adjudicating infractions, and appropriates moneys. [CHUNK_20]\",\n  \"appropriations\": \"The measure appropriates moneys. [CHUNK_20] The Hawaii County Police Department testimony noted that the Bill includes monetary appropriation, in amounts yet to be determined, to carry out the purposes of the Bill. [CHUNK_2]\",\n  \"assumptions_and_methodology\": \"The bill's proposed amendments to definitions present a straightforward, common-sense standard that could arguably be established through laypeople’s observations and testimony without requiring physical evidence or expert witnesses. [CHUNK_10] The bill separates out the various acts based on the level of dangerousness and places them under standalone offenses. [CHUNK_16] Penalties for these standalone offenses range from an infraction carrying only a $200 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine, to class C felonies facing up to a $10,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine and/or up to five years imprisonment. [CHUNK_17]\",\n  \"agency_impact\": \"Similar to the way non-criminal traffic citations are issued now, a law enforcement officer could issue multiple fireworks citations without having to spend additional time interviewing witnesses, collecting evidence, or writing police reports. [CHUNK_5] Due to the lower standard of proof for fireworks infractions, these citations could be issued very quickly and easily, without requiring any further investigation, allowing the officer to continue patrolling the community or addressing other calls. [CHUNK_5] The Department of the Attorney General recommends adding a new chapter to Title 38 of the HRS to address the notices of infraction and adjudications process for all fireworks infractions. [CHUNK_6]\",\n  \"economic_impact\": \"Penalties for standalone offenses range from an infraction carrying a $200 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine to class C felonies facing up to a $10,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine. [CHUNK_17] The offense of distributing aerial devices without a permit becomes a class B felony with up to a $25,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine if the offender had a prior conviction or caused substantial bodily injury. [CHUNK_3] The offense becomes a class A felony with up to a $50,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine if the illicit fireworks caused serious bodily injury or death. [CHUNK_4]\",\n  \"policy_impact\": \"The bill establishes new offenses, such as making sending or receiving fireworks by air delivery a class C felony. [CHUNK_3] Heightened penalties could be applied if the offender was previously convicted of a crime under chapter 132D, HRS, within ten years, or if illicit fireworks cause substantial bodily injury, serious bodily injury, or death. [CHUNK_3] The level of offense for purchasing, possessing, setting off, igniting, or discharging controlled fireworks or articles pyrotechnic without a permit would be based on weight, with fifty pounds or more being a class B felony. [CHUNK_4]\",\n  \"revenue_sources\": \"The bill establishes a $300 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine for purchasing, possessing, or setting off less than five pounds of illicit aerial devices, display fireworks, or articles pyrotechnic. [CHUNK_5] Other penalties for standalone offenses range from a $200 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine to a $10,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine for a class C felony. [CHUNK_17] Once a fireworks citation is issued, the recipient may then pay the fine, mail-in an explanation to the court, or request a live hearing before a judge, similar to a traffic infraction. [CHUNK_5]\",\n  \"six_year_fiscal_implications\": \"\",\n  \"operating_revenue_impact\": \"The establishment of non-criminal fireworks infractions would allow law enforcement agencies and courts to hold a much higher number of individuals accountable for their use of illicit fireworks quickly and safely. [CHUNK_5] The bill establishes a $300 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine for infractions involving small amounts of illicit aerial devices. [CHUNK_5] Enhanced penalties for more serious offenses could result in fines of up to $50,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt). [CHUNK_4]\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"The measure now explicitly states that it appropriates moneys for its purposes. [CHUNK_20] New testimony from the Department of the Attorney General details the rationale for a tiered penalty structure, with specific fines ranging from $200 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) to $50,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt). [CHUNK_17] The non-criminal infraction system is designed to be similar to traffic citations, allowing for quick issuance and increased enforcement efficiency. [CHUNK_5] New testimony was received from various agencies and Hawaii Explosives and Pyrotechnics, the latter of which expressed concerns that the bill may adversely affect permitted commercial displays. [CHUNK_21]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 3491,
-      "candidates_token_count": 593,
-      "total_token_count": 5676
+      "prompt_token_count": 16414,
+      "candidates_token_count": 1496,
+      "total_token_count": 20914
     },
     "candidates": [
       {
@@ -36,7 +38,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n\"overview\": \"The purpose and intent of this measure is to strengthen state fireworks laws by amending various definitions, increasing penalties for fireworks offenses, and establishing various criminal offenses (HB1483_SD1_SSCR1831_). The measure also establishes processes relating to the adjudication of fireworks infractions (HB1483_SD1_SSCR1831_). A key component of the measure is that it now appropriates moneys (HB1483_SD1_SSCR1831_).\",\n\"appropriations\": \"As the measure has moved through the legislative process, it has been amended to appropriate funds. The Committee on Ways and Means reports that the measure now appropriates moneys, although the specific amount is not detailed in the report (HB1483_SD1_SSCR1831_).\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The measure has received broad support from multiple government agencies as it has progressed. Your Committee received written comments in support of this measure from the Department of the Attorney General; Honolulu Police Department; Hawaii County Police Department; and the Department of the Prosecuting Attorney, County of Maui (HB1483_SD1_SSCR1831_). This indicates a consensus among key law enforcement and legal departments on the necessity and structure of the proposed changes.\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"The Committee on Ways and Means finds that the bill's policy is sound and necessary to reform the State's enforcement approach. Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework (HB1483_SD1_SSCR1831_). The committee also affirms that the bill establishes a sensible penalty structure that imposes just consequences based on the severity of violations (HB1483_SD1_SSCR1831_).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note reflects changes as the bill passed through the Committee on Ways and Means. The appropriations section is now updated, as the measure now appropriates moneys (HB1483_SD1_SSCR1831_). The agency impact has been updated to reflect broad written support from multiple county police departments and prosecuting attorneys, indicating widespread agency accord. The policy impact section now includes an affirmation from the Committee on Ways and Means that the measure appropriately addresses shortcomings in the current regulatory framework (HB1483_SD1_SSCR1831_).\"\n}"
+              "text": "{\n  \"overview\": \"The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws by amending definitions, strengthening and clarifying existing criminal fireworks offenses, establishing new fireworks offenses, establishing heightened penalties, and establishing non-criminal fireworks infractions for the lowest-level offenses. [CHUNK_3] This bill addresses concerns raised by prosecutors and provides clarity and efficiency for law enforcement, prosecutors, and courts that handle these cases. [CHUNK_8] Specifically, the measure amends various definitions, increases penalties, establishes criminal offenses, establishes processes for adjudicating infractions, and appropriates moneys. [CHUNK_20]\",\n  \"appropriations\": \"The measure appropriates moneys. [CHUNK_20] The Hawaii County Police Department testimony noted that the Bill includes monetary appropriation, in amounts yet to be determined, to carry out the purposes of the Bill. [CHUNK_2]\",\n  \"assumptions_and_methodology\": \"The bill's proposed amendments to definitions present a straightforward, common-sense standard that could arguably be established through laypeople’s observations and testimony without requiring physical evidence or expert witnesses. [CHUNK_10] The bill separates out the various acts based on the level of dangerousness and places them under standalone offenses. [CHUNK_16] Penalties for these standalone offenses range from an infraction carrying only a $200 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine, to class C felonies facing up to a $10,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine and/or up to five years imprisonment. [CHUNK_17]\",\n  \"agency_impact\": \"Similar to the way non-criminal traffic citations are issued now, a law enforcement officer could issue multiple fireworks citations without having to spend additional time interviewing witnesses, collecting evidence, or writing police reports. [CHUNK_5] Due to the lower standard of proof for fireworks infractions, these citations could be issued very quickly and easily, without requiring any further investigation, allowing the officer to continue patrolling the community or addressing other calls. [CHUNK_5] The Department of the Attorney General recommends adding a new chapter to Title 38 of the HRS to address the notices of infraction and adjudications process for all fireworks infractions. [CHUNK_6]\",\n  \"economic_impact\": \"Penalties for standalone offenses range from an infraction carrying a $200 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine to class C felonies facing up to a $10,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine. [CHUNK_17] The offense of distributing aerial devices without a permit becomes a class B felony with up to a $25,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine if the offender had a prior conviction or caused substantial bodily injury. [CHUNK_3] The offense becomes a class A felony with up to a $50,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine if the illicit fireworks caused serious bodily injury or death. [CHUNK_4]\",\n  \"policy_impact\": \"The bill establishes new offenses, such as making sending or receiving fireworks by air delivery a class C felony. [CHUNK_3] Heightened penalties could be applied if the offender was previously convicted of a crime under chapter 132D, HRS, within ten years, or if illicit fireworks cause substantial bodily injury, serious bodily injury, or death. [CHUNK_3] The level of offense for purchasing, possessing, setting off, igniting, or discharging controlled fireworks or articles pyrotechnic without a permit would be based on weight, with fifty pounds or more being a class B felony. [CHUNK_4]\",\n  \"revenue_sources\": \"The bill establishes a $300 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine for purchasing, possessing, or setting off less than five pounds of illicit aerial devices, display fireworks, or articles pyrotechnic. [CHUNK_5] Other penalties for standalone offenses range from a $200 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine to a $10,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine for a class C felony. [CHUNK_17] Once a fireworks citation is issued, the recipient may then pay the fine, mail-in an explanation to the court, or request a live hearing before a judge, similar to a traffic infraction. [CHUNK_5]\",\n  \"six_year_fiscal_implications\": \"\",\n  \"operating_revenue_impact\": \"The establishment of non-criminal fireworks infractions would allow law enforcement agencies and courts to hold a much higher number of individuals accountable for their use of illicit fireworks quickly and safely. [CHUNK_5] The bill establishes a $300 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine for infractions involving small amounts of illicit aerial devices. [CHUNK_5] Enhanced penalties for more serious offenses could result in fines of up to $50,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt). [CHUNK_4]\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"The measure now explicitly states that it appropriates moneys for its purposes. [CHUNK_20] New testimony from the Department of the Attorney General details the rationale for a tiered penalty structure, with specific fines ranging from $200 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) to $50,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt). [CHUNK_17] The non-criminal infraction system is designed to be similar to traffic citations, allowing for quick issuance and increased enforcement efficiency. [CHUNK_5] New testimony was received from various agencies and Hawaii Explosives and Pyrotechnics, the latter of which expressed concerns that the bill may adversely affect permitted commercial displays. [CHUNK_21]\"\n}"
             }
           ]
         },
@@ -44,213 +46,155 @@
         "safety_ratings": []
       }
     ],
-    "sentence_attribution_analysis": {
-      "sentence_attributions": [
-        {
-          "sentence": "{\n\"overview\": \"The purpose and intent of this measure is to strengthen state fireworks laws by amending various definitions, increasing penalties for fireworks offenses, and establishing various criminal offenses (HB1483_SD1_SSCR1831_)",
-          "attributed_chunk_id": 1,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.47368421052631576,
-          "attribution_reason": "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 0.474)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The measure also establishes processes relating to the adjudication of fireworks infractions (HB1483_SD1_SSCR1831_)",
-          "attributed_chunk_id": 2,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.875,
-          "attribution_reason": "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 0.875)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "A key component of the measure is that it now appropriates moneys (HB1483_SD1_SSCR1831_)",
-          "attributed_chunk_id": 2,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 0.500)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"appropriations\": \"As the measure has moved through the legislative process, it has been amended to appropriate funds",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.1111111111111111,
-          "attribution_reason": "Word frequency match score: 0.111",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The Committee on Ways and Means reports that the measure now appropriates moneys, although the specific amount is not detailed in the report (HB1483_SD1_SSCR1831_)",
-          "attributed_chunk_id": 2,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.21428571428571427,
-          "attribution_reason": "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 0.214)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"The measure has received broad support from multiple government agencies as it has progressed",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.36363636363636365,
-          "attribution_reason": "Word frequency match score: 0.364",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Your Committee received written comments in support of this measure from the Department of the Attorney General; Honolulu Police Department; Hawaii County Police Department; and the Department of the Prosecuting Attorney, County of Maui (HB1483_SD1_SSCR1831_)",
-          "attributed_chunk_id": 3,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 1.000)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "This indicates a consensus among key law enforcement and legal departments on the necessity and structure of the proposed changes",
-          "attributed_chunk_id": 5,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.08333333333333333,
-          "attribution_reason": "Word frequency match score: 0.083",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"The Committee on Ways and Means finds that the bill's policy is sound and necessary to reform the State's enforcement approach",
-          "attributed_chunk_id": 4,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.2857142857142857,
-          "attribution_reason": "Word frequency match score: 0.286",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework (HB1483_SD1_SSCR1831_)",
-          "attributed_chunk_id": 4,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 1.000)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The committee also affirms that the bill establishes a sensible penalty structure that imposes just consequences based on the severity of violations (HB1483_SD1_SSCR1831_)",
-          "attributed_chunk_id": 5,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.7857142857142857,
-          "attribution_reason": "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 0.786)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"This fiscal note reflects changes as the bill passed through the Committee on Ways and Means",
-          "attributed_chunk_id": 5,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.1875,
-          "attribution_reason": "Word frequency match score: 0.188",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The appropriations section is now updated, as the measure now appropriates moneys (HB1483_SD1_SSCR1831_)",
-          "attributed_chunk_id": 2,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.375,
-          "attribution_reason": "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 0.375)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The agency impact has been updated to reflect broad written support from multiple county police departments and prosecuting attorneys, indicating widespread agency accord",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Word frequency match score: 0.333",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The policy impact section now includes an affirmation from the Committee on Ways and Means that the measure appropriately addresses shortcomings in the current regulatory framework (HB1483_SD1_SSCR1831_)",
-          "attributed_chunk_id": 4,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.5294117647058824,
-          "attribution_reason": "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 0.529)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\"\n}.",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": []
-        }
-      ],
-      "chunk_usage_stats": {
-        "0": {
-          "usage_count": 0,
-          "document_name": "HB1483_SD1_SSCR1831_",
-          "attribution_reasons": []
-        },
-        "1": {
-          "usage_count": 2,
-          "document_name": "HB1483_SD1_SSCR1831_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 0.474)",
-            "Word frequency match score: 0.111"
-          ]
-        },
-        "2": {
-          "usage_count": 4,
-          "document_name": "HB1483_SD1_SSCR1831_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 0.875)",
-            "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 0.500)",
-            "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 0.214)",
-            "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 0.375)"
-          ]
-        },
-        "3": {
-          "usage_count": 3,
-          "document_name": "HB1483_SD1_SSCR1831_",
-          "attribution_reasons": [
-            "Word frequency match score: 0.364",
-            "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 1.000)",
-            "Word frequency match score: 0.333"
-          ]
-        },
-        "4": {
-          "usage_count": 3,
-          "document_name": "HB1483_SD1_SSCR1831_",
-          "attribution_reasons": [
-            "Word frequency match score: 0.286",
-            "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 1.000)",
-            "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 0.529)"
-          ]
-        },
-        "5": {
-          "usage_count": 3,
-          "document_name": "HB1483_SD1_SSCR1831_",
-          "attribution_reasons": [
-            "Word frequency match score: 0.083",
-            "Document citation + word frequency: HB1483_SD1_SSCR1831_ (score: 0.786)",
-            "Word frequency match score: 0.188"
-          ]
-        },
-        "6": {
-          "usage_count": 0,
-          "document_name": "HB1483_SD1_SSCR1831_",
-          "attribution_reasons": []
-        },
-        "7": {
-          "usage_count": 0,
-          "document_name": "HB1483_SD1_SSCR1831_",
-          "attribution_reasons": []
-        }
-      },
-      "attribution_method_stats": {
-        "document_citation_based": 9,
-        "number_based": 0,
-        "word_frequency_based": 6,
-        "semantic_similarity": 0,
-        "fallback": 0,
-        "no_attribution": 1
-      }
-    },
     "chunks_metadata": {
-      "total_chunks": 8,
+      "total_chunks": 26,
       "chunk_details": [
         {
           "chunk_id": 0,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "WRITTEN TESTIMONY OF THE DEPARTMENT OF THE ATTORNEY GENERAL KA ‘OIHANA O KA LOIO KUHINA THIRTY-THIRD LEGISLATURE, 2025 ON THE FOLLOWING MEASURE: H.B. NO. 1483, H.D. 1, S.D. 1, RELATING TO FIREWORKS. BEFORE THE: SENATE COMMITTEE ON WAYS AND MEANS DATE: Friday, April 4, 2025 TIME: 10:46 a.m. LOCATION: State",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "DATE: Friday, April 4, 2025 TIME: 10:46 a.m. LOCATION: State Capitol, Room 211 TESTIFIER(S): WRITTEN TESTIMONY ONLY. (For more information, contact Tricia M. Nakamatsu, Deputy Attorney General, at 808-586-1500) Chair Dela Cruz and Members of the Committee: The Department of the Attorney General (Department) strongly supports this bill. The Department",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "the Attorney General (Department) strongly supports this bill. The Department also recommends amendments at the end of this testimony. The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws, by: (1) amending definitions for fireworks offenses to reflect more common-sense standards; (2) strengthening and",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "fireworks offenses to reflect more common-sense standards; (2) strengthening and clarifying existing criminal fireworks offenses; (3) establishing new fireworks offenses; (4) establishing heightened penalties for repeat offenders and fireworks offenses that result in substantial or serious bodily injury or death; and (5) establishing non-criminal fireworks infractions for the lowest- level",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "and (5) establishing non-criminal fireworks infractions for the lowest- level offenses. Criminal statutes serve as a deterrent to illegal activity when they are effectively enforced and prosecuted. For many years, however, Hawaii’s laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "for state and county agencies to enforce or prosecute these types of cases. When asked, prosecutors have repeatedly cited challenges posed by \"gathering evidence and meeting the high burden of proof necessary for convictions\",1 as well as \"stringent definitions [in statute, that] . . . routinely create 1 See Legislative",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "statute, that] . . . routinely create 1 See Legislative Reference Bureau of Hawaii, Blast From the Past: An Update to the Report of the Illegal Fireworks Task Force to the Legislature for the Regular Session of 2011 at 13, 14 (December 2019) https://lrb.hawaii.gov/wp- content/uploads/2019_BlastFromThePast.pdf (last visited January 20, 2025).",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "14 (December 2019) https://lrb.hawaii.gov/wp- content/uploads/2019_BlastFromThePast.pdf (last visited January 20, 2025). Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 2 of 7 roadblocks to effective prosecution.\"2 Thus, only a small number of criminal fireworks cases have been initiated by law enforcement, and an even smaller number have",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "initiated by law enforcement, and an even smaller number have been prosecuted, resulting in a largely \"ineffective deterrent\" to the distribution and use of illicit fireworks. This bill addresses concerns raised by prosecutors and provides clarity and efficiency for law enforcement, prosecutors, and courts that handle these cases. DEFINITIONS This",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "enforcement, prosecutors, and courts that handle these cases. DEFINITIONS This bill’s proposed amendments to definitions for \"aerial device,\" \"consumer fireworks,\" and “fireworks,” under section 132D-2, Hawaii Revised Statutes (HRS) (page 16, line 4, to page 18, line 15, and page 19, line 12, to page 20, line 8), present a",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "19, line 12, to page 20, line 8), present a straightforward, common-sense standard that could arguably be established through laypeople’s observations and testimony, in many cases, without requiring the presentation of any physical evidence or expert witnesses. Currently, proving beyond a reasonable doubt that an item meets the definition of",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "a reasonable doubt that an item meets the definition of an \"aerial device,\" \"consumer fireworks,\" or \"fireworks,\" under section 132D-2, HRS, can be difficult, and may require expert testimony regarding the aeronautical design of the item, pyrotechnic design of the item, and comparison to federal definitions. Fireworks cases may also",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "item, and comparison to federal definitions. Fireworks cases may also be difficult to prove when the illicit fireworks have already exploded and are unrecoverable. The proposed definition of aerial fireworks takes into account that virtually every adult in Hawaii already \"knows\" what aerial fireworks are and could positively identify one",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "\"knows\" what aerial fireworks are and could positively identify one rising up into the sky, based on their own observations, without the assistance of forensic testing or expert witnesses. STRENGTHENING AND CLARIFYING EXISTING CRIMINAL OFFENSES This bill amends existing criminal fireworks offenses to include wording and standards that are more",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "fireworks offenses to include wording and standards that are more amenable to prosecution, and penalties that are more proportionate to the prohibited acts. Currently, section 132D-5, HRS, groups a number of very dangerous acts, such as throwing ignited fireworks from or into a vehicle, together with much less serious acts,",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "or into a vehicle, together with much less serious acts, such as setting off consumer fireworks with a permit but outside of the permitted 2 Id, at 14. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 3 of 7 times, and classifies all of these offenses",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "3 of 7 times, and classifies all of these offenses as a violation, with no possible jail time and only a potential fine of up to $5,000. This bill separates out the various acts based on the level of dangerousness and place them under standalone offenses (i.e., \"Consumer fireworks prohibitions\"",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_",
+          "chunk_text": "and place them under standalone offenses (i.e., \"Consumer fireworks prohibitions\" on page 10, line 16, to page 12, line 11; \"Removal or extraction of pyrotechnic contents; prohibited\" on page 10, lines 11-15; \"General fireworks or articles pyrotechnic prohibitions in the second degree\" on page 4, line 8, to",
+          "start_word": 680,
+          "end_word": 728,
+          "word_count": 48
+        },
+        {
+          "chunk_id": 18,
           "document_name": "HB1483_SD1_SSCR1831_",
           "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
           "start_word": 0,
@@ -258,7 +202,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 1,
+          "chunk_id": 19,
           "document_name": "HB1483_SD1_SSCR1831_",
           "chunk_text": "Means, to which was referred H.B. No. 1483, H.D. 1, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO FIREWORKS,\" begs leave to report as follows: The purpose and intent of this measure is to strengthen state fireworks laws. Specifically, the measure: (1) Amends various definitions relating to fireworks;",
           "start_word": 40,
@@ -266,7 +210,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 2,
+          "chunk_id": 20,
           "document_name": "HB1483_SD1_SSCR1831_",
           "chunk_text": "Specifically, the measure: (1) Amends various definitions relating to fireworks; (2) Increases certain penalties for fireworks offenses; (3) Establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic; (4) Establishes processes relating to the adjudication of fireworks infractions; and (5) Appropriates moneys. Your Committee received written comments in",
           "start_word": 80,
@@ -274,7 +218,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 3,
+          "chunk_id": 21,
           "document_name": "HB1483_SD1_SSCR1831_",
           "chunk_text": "and (5) Appropriates moneys. Your Committee received written comments in support of this measure from the Department of the Attorney General; Honolulu Police Department; Hawaii County Police Department; Department of the Prosecuting Attorney, County of Maui; Hawaiian Humane Society; and four individuals. Your Committee received written comments in opposition to",
           "start_word": 120,
@@ -282,7 +226,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 4,
+          "chunk_id": 22,
           "document_name": "HB1483_SD1_SSCR1831_",
           "chunk_text": "four individuals. Your Committee received written comments in opposition to this measure from Hawaii Explosives and Pyrotechnics and one individual. Your Committee recognizes the need to reform the State's approach to enforcing fireworks laws. Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework and establishes",
           "start_word": 160,
@@ -290,7 +234,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 5,
+          "chunk_id": 23,
           "document_name": "HB1483_SD1_SSCR1831_",
           "chunk_text": "appropriately addresses shortcomings in the current regulatory framework and establishes a sensible penalty structure that imposes just consequences based on the severity of violations. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached to this report, your Committee is",
           "start_word": 200,
@@ -298,7 +242,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 6,
+          "chunk_id": 24,
           "document_name": "HB1483_SD1_SSCR1831_",
           "chunk_text": "Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1483, H.D. 1, S.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Ways and Means, ________________________________ DONOVAN M. DELA",
           "start_word": 240,
@@ -306,7 +250,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 7,
+          "chunk_id": 25,
           "document_name": "HB1483_SD1_SSCR1831_",
           "chunk_text": "the Committee on Ways and Means, ________________________________ DONOVAN M. DELA CRUZ, Chair",
           "start_word": 280,
@@ -315,8 +259,558 @@
         }
       ]
     },
-    "numbers_data": []
+    "numbers_data": [
+      {
+        "text": "articles pyrotechnic prohibitions in the second degree\" on page 4, line 8, to page 7, line 11; and “General fireworks or articles pyrotechnic prohibitions in the first degree\" on page 21, line 12, to page 24, line 7). Penalties for these standalone offenses range from an infraction carrying only a $200 fine, to class C felonies facing up to a $10,000 fine and/or up to five years imprisonment. To support effective prosecution, two of the standalone offenses proposed provide strict liability for certain elements of the offense. These include strict liability for: (1) an offender’s distance from sensitive areas, such as",
+        "number": 200.0,
+        "filename": "HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "line 8, to page 7, line 11; and “General fireworks or articles pyrotechnic prohibitions in the first degree\" on page 21, line 12, to page 24, line 7). Penalties for these standalone offenses range from an infraction carrying only a $200 fine, to class C felonies facing up to a $10,000 fine and/or up to five years imprisonment. To support effective prosecution, two of the standalone offenses proposed provide strict liability for certain elements of the offense. These include strict liability for: (1) an offender’s distance from sensitive areas, such as a hospital, when setting off an aerial device, display fireworks,",
+        "number": 10000.0,
+        "filename": "HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "death to another person. Whatever the usual level of offense, this enhanced penalty could increase the level of offense by one or two grades. The offense of distributing aerial devices without a permit would normally be a class C felony (i.e., up to five years imprisonment and/or up to a $10,000 fine), but it becomes a class B felony (i.e., up to 3 \"General fireworks or articles pyrotechnic prohibitions in the second degree\" on page 4, line 8, to page 7, line 11; \"Distributing fireworks and articles pyrotechnic to non-permit holder\" on page 8, line 19, to page 10, line 10;",
+        "number": 10000.0,
+        "filename": "HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "20, to page 40, line 11; and \"Liability of homeowner, renter, or person otherwise responsible for real property\" on page 40, line 14, to page 43, line 6. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 5 of 7 ten years imprisonment and/or up to a $25,000 fine) if the offender had a prior fireworks-related conviction in the past ten years, or if the illicit fireworks caused substantial bodily injury to anyone; and it becomes a class A felony (i.e., up to twenty years imprisonment and/or up to a $50,000 fine) if the illicit fireworks caused serious",
+        "number": 25000.0,
+        "filename": "HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "ten years imprisonment and/or up to a $25,000 fine) if the offender had a prior fireworks-related conviction in the past ten years, or if the illicit fireworks caused substantial bodily injury to anyone; and it becomes a class A felony (i.e., up to twenty years imprisonment and/or up to a $50,000 fine) if the illicit fireworks caused serious bodily injury or death. For nearly all of these enhanced penalties, the offender would be held strictly liable with respect to any knowledge that the illicit fireworks would cause such injuries or death. In other words, it would not be a defense to",
+        "number": 50000.0,
+        "filename": "HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt",
+        "document_type": "testimony"
+      },
+      {
+        "text": "version of the bill, the notices of infraction and the adjudications process would be controlled by chapter 291D, HRS, with various sections of chapter 291D amended in bill sections 18 to 29, to include fireworks infractions, on page 48, line 11, to page 83, line 10. The bill establishes a $300 fine for purchasing, possessing, or setting off less than five pounds of illicit aerial devices, display fireworks, or articles pyrotechnic (or if the weight is undeterminable, possibly because it exploded), in section 132D-14(a)(2)(D) on page 35, lines 16-20. Consumer fireworks prohibitions are also designated as infractions, in new section 132D-E",
+        "number": 300.0,
+        "filename": "HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt",
+        "document_type": "testimony"
+      }
+    ],
+    "chunk_text_map": {
+      "10": [
+        {
+          "chunk_text": "fireworks offenses to reflect more common-sense standards; (2) strengthening and clarifying existing criminal fireworks offenses; (3) establishing new fireworks offenses; (4) establishing heightened penalties for repeat offenders and fireworks offenses that result in substantial or serious bodily injury or death; and (5) establishing non-criminal fireworks infractions for the lowest- level",
+          "chunk_id": 3,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+        },
+        {
+          "chunk_text": "initiated by law enforcement, and an even smaller number have been prosecuted, resulting in a largely \"ineffective deterrent\" to the distribution and use of illicit fireworks. This bill addresses concerns raised by prosecutors and provides clarity and efficiency for law enforcement, prosecutors, and courts that handle these cases. DEFINITIONS This",
+          "chunk_id": 8,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+        },
+        {
+          "chunk_text": "the Attorney General (Department) strongly supports this bill. The Department also recommends amendments at the end of this testimony. The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws, by: (1) amending definitions for fireworks offenses to reflect more common-sense standards; (2) strengthening and",
+          "chunk_id": 2,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+        },
+        {
+          "chunk_text": "19, line 12, to page 20, line 8), present a straightforward, common-sense standard that could arguably be established through laypeople’s observations and testimony, in many cases, without requiring the presentation of any physical evidence or expert witnesses. Currently, proving beyond a reasonable doubt that an item meets the definition of",
+          "chunk_id": 10,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+        },
+        {
+          "chunk_text": "3 of 7 times, and classifies all of these offenses as a violation, with no possible jail time and only a potential fine of up to $5,000. This bill separates out the various acts based on the level of dangerousness and place them under standalone offenses (i.e., \"Consumer fireworks prohibitions\"",
+          "chunk_id": 16,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+        },
+        {
+          "chunk_text": "and place them under standalone offenses (i.e., \"Consumer fireworks prohibitions\" on page 10, line 16, to page 12, line 11; \"Removal or extraction of pyrotechnic contents; prohibited\" on page 10, lines 11-15; \"General fireworks or articles pyrotechnic prohibitions in the second degree\" on page 4, line 8, to",
+          "chunk_id": 17,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+        },
+        {
+          "chunk_text": "for state and county agencies to enforce or prosecute these types of cases. When asked, prosecutors have repeatedly cited challenges posed by \"gathering evidence and meeting the high burden of proof necessary for convictions\",1 as well as \"stringent definitions [in statute, that] . . . routinely create 1 See Legislative",
+          "chunk_id": 5,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+        },
+        {
+          "chunk_text": "statute, that] . . . routinely create 1 See Legislative Reference Bureau of Hawaii, Blast From the Past: An Update to the Report of the Illegal Fireworks Task Force to the Legislature for the Regular Session of 2011 at 13, 14 (December 2019) https://lrb.hawaii.gov/wp- content/uploads/2019_BlastFromThePast.pdf (last visited January 20, 2025).",
+          "chunk_id": 6,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+        },
+        {
+          "chunk_text": "and (5) establishing non-criminal fireworks infractions for the lowest- level offenses. Criminal statutes serve as a deterrent to illegal activity when they are effectively enforced and prosecuted. For many years, however, Hawaii’s laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these",
+          "chunk_id": 4,
+          "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+        }
+      ],
+      "11": [
+        {
+          "chunk_text": "Specifically, the measure: (1) Amends various definitions relating to fireworks; (2) Increases certain penalties for fireworks offenses; (3) Establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic; (4) Establishes processes relating to the adjudication of fireworks infractions; and (5) Appropriates moneys. Your Committee received written comments in",
+          "chunk_id": 20,
+          "document_name": "HB1483_SD1_SSCR1831_"
+        },
+        {
+          "chunk_text": "and (5) Appropriates moneys. Your Committee received written comments in support of this measure from the Department of the Attorney General; Honolulu Police Department; Hawaii County Police Department; Department of the Prosecuting Attorney, County of Maui; Hawaiian Humane Society; and four individuals. Your Committee received written comments in opposition to",
+          "chunk_id": 21,
+          "document_name": "HB1483_SD1_SSCR1831_"
+        }
+      ]
+    },
+    "document_mapping": {
+      "HB1483": 1,
+      "HB1483_TESTIMONY_JHA_02-06-25_": 2,
+      "HB1483_HD1": 3,
+      "HB1483_HD1_HSCR629_": 4,
+      "HB1483_HD1_TESTIMONY_FIN_02-25-25_": 5,
+      "HB1483_HD1_HSCR983_": 6,
+      "HB1483_HD1_TESTIMONY_PSM-JDC_03-13-25_": 7,
+      "HB1483_SD1": 8,
+      "HB1483_SD1_SSCR1268_": 9,
+      "HB1483_SD1_TESTIMONY_WAM_04-04-25_": 10,
+      "HB1483_SD1_SSCR1831_": 11,
+      "HB1483_CD1": 12,
+      "HB1483_CD1_CCR233_": 13,
+      "HB1483_CD1_HFA7": 14,
+      "HB1483_CD1_SFA12": 15,
+      "HB1483_CD2": 16
+    },
+    "sentence_chunk_mapping": [
+      {
+        "section": "overview",
+        "sentence": "The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws by amending definitions, strengthening and clarifying existing criminal fireworks offenses, establishing new fireworks offenses, establishing heightened penalties, and establishing non-criminal fireworks infractions for the lowest-level offenses.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 10,
+            "chunk_text": "fireworks offenses to reflect more common-sense standards; (2) strengthening and clarifying existing criminal fireworks offenses; (3) establishing new fireworks offenses; (4) establishing heightened penalties for repeat offenders and fireworks offenses that result in substantial or serious bodily injury or death; and (5) establishing non-criminal fireworks infractions for the lowest- level",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "This bill addresses concerns raised by prosecutors and provides clarity and efficiency for law enforcement, prosecutors, and courts that handle these cases.",
+        "chunks": [
+          {
+            "chunk_id": 8,
+            "citation_number": 10,
+            "chunk_text": "initiated by law enforcement, and an even smaller number have been prosecuted, resulting in a largely \"ineffective deterrent\" to the distribution and use of illicit fireworks. This bill addresses concerns raised by prosecutors and provides clarity and efficiency for law enforcement, prosecutors, and courts that handle these cases. DEFINITIONS This",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "Specifically, the measure amends various definitions, increases penalties, establishes criminal offenses, establishes processes for adjudicating infractions, and appropriates moneys.",
+        "chunks": [
+          {
+            "chunk_id": 20,
+            "citation_number": 11,
+            "chunk_text": "Specifically, the measure: (1) Amends various definitions relating to fireworks; (2) Increases certain penalties for fireworks offenses; (3) Establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic; (4) Establishes processes relating to the adjudication of fireworks infractions; and (5) Appropriates moneys. Your Committee received written comments in",
+            "document_name": "HB1483_SD1_SSCR1831_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The measure appropriates moneys.",
+        "chunks": [
+          {
+            "chunk_id": 20,
+            "citation_number": 11,
+            "chunk_text": "Specifically, the measure: (1) Amends various definitions relating to fireworks; (2) Increases certain penalties for fireworks offenses; (3) Establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic; (4) Establishes processes relating to the adjudication of fireworks infractions; and (5) Appropriates moneys. Your Committee received written comments in",
+            "document_name": "HB1483_SD1_SSCR1831_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The Hawaii County Police Department testimony noted that the Bill includes monetary appropriation, in amounts yet to be determined, to carry out the purposes of the Bill.",
+        "chunks": [
+          {
+            "chunk_id": 2,
+            "citation_number": 10,
+            "chunk_text": "the Attorney General (Department) strongly supports this bill. The Department also recommends amendments at the end of this testimony. The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws, by: (1) amending definitions for fireworks offenses to reflect more common-sense standards; (2) strengthening and",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The bill's proposed amendments to definitions present a straightforward, common-sense standard that could arguably be established through laypeople’s observations and testimony without requiring physical evidence or expert witnesses.",
+        "chunks": [
+          {
+            "chunk_id": 10,
+            "citation_number": 10,
+            "chunk_text": "19, line 12, to page 20, line 8), present a straightforward, common-sense standard that could arguably be established through laypeople’s observations and testimony, in many cases, without requiring the presentation of any physical evidence or expert witnesses. Currently, proving beyond a reasonable doubt that an item meets the definition of",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The bill separates out the various acts based on the level of dangerousness and places them under standalone offenses.",
+        "chunks": [
+          {
+            "chunk_id": 16,
+            "citation_number": 10,
+            "chunk_text": "3 of 7 times, and classifies all of these offenses as a violation, with no possible jail time and only a potential fine of up to $5,000. This bill separates out the various acts based on the level of dangerousness and place them under standalone offenses (i.e., \"Consumer fireworks prohibitions\"",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "Penalties for these standalone offenses range from an infraction carrying only a $200 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine, to class C felonies facing up to a $10,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine and/or up to five years imprisonment.",
+        "chunks": [
+          {
+            "chunk_id": 17,
+            "citation_number": 10,
+            "chunk_text": "and place them under standalone offenses (i.e., \"Consumer fireworks prohibitions\" on page 10, line 16, to page 12, line 11; \"Removal or extraction of pyrotechnic contents; prohibited\" on page 10, lines 11-15; \"General fireworks or articles pyrotechnic prohibitions in the second degree\" on page 4, line 8, to",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "Similar to the way non-criminal traffic citations are issued now, a law enforcement officer could issue multiple fireworks citations without having to spend additional time interviewing witnesses, collecting evidence, or writing police reports.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 10,
+            "chunk_text": "for state and county agencies to enforce or prosecute these types of cases. When asked, prosecutors have repeatedly cited challenges posed by \"gathering evidence and meeting the high burden of proof necessary for convictions\",1 as well as \"stringent definitions [in statute, that] . . . routinely create 1 See Legislative",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "Due to the lower standard of proof for fireworks infractions, these citations could be issued very quickly and easily, without requiring any further investigation, allowing the officer to continue patrolling the community or addressing other calls.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 10,
+            "chunk_text": "for state and county agencies to enforce or prosecute these types of cases. When asked, prosecutors have repeatedly cited challenges posed by \"gathering evidence and meeting the high burden of proof necessary for convictions\",1 as well as \"stringent definitions [in statute, that] . . . routinely create 1 See Legislative",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The Department of the Attorney General recommends adding a new chapter to Title 38 of the HRS to address the notices of infraction and adjudications process for all fireworks infractions.",
+        "chunks": [
+          {
+            "chunk_id": 6,
+            "citation_number": 10,
+            "chunk_text": "statute, that] . . . routinely create 1 See Legislative Reference Bureau of Hawaii, Blast From the Past: An Update to the Report of the Illegal Fireworks Task Force to the Legislature for the Regular Session of 2011 at 13, 14 (December 2019) https://lrb.hawaii.gov/wp- content/uploads/2019_BlastFromThePast.pdf (last visited January 20, 2025).",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "Penalties for standalone offenses range from an infraction carrying a $200 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine to class C felonies facing up to a $10,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine.",
+        "chunks": [
+          {
+            "chunk_id": 17,
+            "citation_number": 10,
+            "chunk_text": "and place them under standalone offenses (i.e., \"Consumer fireworks prohibitions\" on page 10, line 16, to page 12, line 11; \"Removal or extraction of pyrotechnic contents; prohibited\" on page 10, lines 11-15; \"General fireworks or articles pyrotechnic prohibitions in the second degree\" on page 4, line 8, to",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "The offense of distributing aerial devices without a permit becomes a class B felony with up to a $25,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine if the offender had a prior conviction or caused substantial bodily injury.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 10,
+            "chunk_text": "fireworks offenses to reflect more common-sense standards; (2) strengthening and clarifying existing criminal fireworks offenses; (3) establishing new fireworks offenses; (4) establishing heightened penalties for repeat offenders and fireworks offenses that result in substantial or serious bodily injury or death; and (5) establishing non-criminal fireworks infractions for the lowest- level",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "The offense becomes a class A felony with up to a $50,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine if the illicit fireworks caused serious bodily injury or death.",
+        "chunks": [
+          {
+            "chunk_id": 4,
+            "citation_number": 10,
+            "chunk_text": "and (5) establishing non-criminal fireworks infractions for the lowest- level offenses. Criminal statutes serve as a deterrent to illegal activity when they are effectively enforced and prosecuted. For many years, however, Hawaii’s laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The bill establishes new offenses, such as making sending or receiving fireworks by air delivery a class C felony.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 10,
+            "chunk_text": "fireworks offenses to reflect more common-sense standards; (2) strengthening and clarifying existing criminal fireworks offenses; (3) establishing new fireworks offenses; (4) establishing heightened penalties for repeat offenders and fireworks offenses that result in substantial or serious bodily injury or death; and (5) establishing non-criminal fireworks infractions for the lowest- level",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "Heightened penalties could be applied if the offender was previously convicted of a crime under chapter 132D, HRS, within ten years, or if illicit fireworks cause substantial bodily injury, serious bodily injury, or death.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 10,
+            "chunk_text": "fireworks offenses to reflect more common-sense standards; (2) strengthening and clarifying existing criminal fireworks offenses; (3) establishing new fireworks offenses; (4) establishing heightened penalties for repeat offenders and fireworks offenses that result in substantial or serious bodily injury or death; and (5) establishing non-criminal fireworks infractions for the lowest- level",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The level of offense for purchasing, possessing, setting off, igniting, or discharging controlled fireworks or articles pyrotechnic without a permit would be based on weight, with fifty pounds or more being a class B felony.",
+        "chunks": [
+          {
+            "chunk_id": 4,
+            "citation_number": 10,
+            "chunk_text": "and (5) establishing non-criminal fireworks infractions for the lowest- level offenses. Criminal statutes serve as a deterrent to illegal activity when they are effectively enforced and prosecuted. For many years, however, Hawaii’s laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The bill establishes a $300 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine for purchasing, possessing, or setting off less than five pounds of illicit aerial devices, display fireworks, or articles pyrotechnic.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 10,
+            "chunk_text": "for state and county agencies to enforce or prosecute these types of cases. When asked, prosecutors have repeatedly cited challenges posed by \"gathering evidence and meeting the high burden of proof necessary for convictions\",1 as well as \"stringent definitions [in statute, that] . . . routinely create 1 See Legislative",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "Other penalties for standalone offenses range from a $200 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine to a $10,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine for a class C felony.",
+        "chunks": [
+          {
+            "chunk_id": 17,
+            "citation_number": 10,
+            "chunk_text": "and place them under standalone offenses (i.e., \"Consumer fireworks prohibitions\" on page 10, line 16, to page 12, line 11; \"Removal or extraction of pyrotechnic contents; prohibited\" on page 10, lines 11-15; \"General fireworks or articles pyrotechnic prohibitions in the second degree\" on page 4, line 8, to",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "Once a fireworks citation is issued, the recipient may then pay the fine, mail-in an explanation to the court, or request a live hearing before a judge, similar to a traffic infraction.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 10,
+            "chunk_text": "for state and county agencies to enforce or prosecute these types of cases. When asked, prosecutors have repeatedly cited challenges posed by \"gathering evidence and meeting the high burden of proof necessary for convictions\",1 as well as \"stringent definitions [in statute, that] . . . routinely create 1 See Legislative",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "The establishment of non-criminal fireworks infractions would allow law enforcement agencies and courts to hold a much higher number of individuals accountable for their use of illicit fireworks quickly and safely.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 10,
+            "chunk_text": "for state and county agencies to enforce or prosecute these types of cases. When asked, prosecutors have repeatedly cited challenges posed by \"gathering evidence and meeting the high burden of proof necessary for convictions\",1 as well as \"stringent definitions [in statute, that] . . . routinely create 1 See Legislative",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "The bill establishes a $300 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) fine for infractions involving small amounts of illicit aerial devices.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 10,
+            "chunk_text": "for state and county agencies to enforce or prosecute these types of cases. When asked, prosecutors have repeatedly cited challenges posed by \"gathering evidence and meeting the high burden of proof necessary for convictions\",1 as well as \"stringent definitions [in statute, that] . . . routinely create 1 See Legislative",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "Enhanced penalties for more serious offenses could result in fines of up to $50,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt).",
+        "chunks": [
+          {
+            "chunk_id": 4,
+            "citation_number": 10,
+            "chunk_text": "and (5) establishing non-criminal fireworks infractions for the lowest- level offenses. Criminal statutes serve as a deterrent to illegal activity when they are effectively enforced and prosecuted. For many years, however, Hawaii’s laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The measure now explicitly states that it appropriates moneys for its purposes.",
+        "chunks": [
+          {
+            "chunk_id": 20,
+            "citation_number": 11,
+            "chunk_text": "Specifically, the measure: (1) Amends various definitions relating to fireworks; (2) Increases certain penalties for fireworks offenses; (3) Establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic; (4) Establishes processes relating to the adjudication of fireworks infractions; and (5) Appropriates moneys. Your Committee received written comments in",
+            "document_name": "HB1483_SD1_SSCR1831_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "New testimony from the Department of the Attorney General details the rationale for a tiered penalty structure, with specific fines ranging from $200 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt) to $50,000 (HB1483_SD1_TESTIMONY_WAM_04-04-25_.PDF.txt).",
+        "chunks": [
+          {
+            "chunk_id": 17,
+            "citation_number": 10,
+            "chunk_text": "and place them under standalone offenses (i.e., \"Consumer fireworks prohibitions\" on page 10, line 16, to page 12, line 11; \"Removal or extraction of pyrotechnic contents; prohibited\" on page 10, lines 11-15; \"General fireworks or articles pyrotechnic prohibitions in the second degree\" on page 4, line 8, to",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The non-criminal infraction system is designed to be similar to traffic citations, allowing for quick issuance and increased enforcement efficiency.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 10,
+            "chunk_text": "for state and county agencies to enforce or prosecute these types of cases. When asked, prosecutors have repeatedly cited challenges posed by \"gathering evidence and meeting the high burden of proof necessary for convictions\",1 as well as \"stringent definitions [in statute, that] . . . routinely create 1 See Legislative",
+            "document_name": "HB1483_SD1_TESTIMONY_WAM_04-04-25_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "New testimony was received from various agencies and Hawaii Explosives and Pyrotechnics, the latter of which expressed concerns that the bill may adversely affect permitted commercial displays.",
+        "chunks": [
+          {
+            "chunk_id": 21,
+            "citation_number": 11,
+            "chunk_text": "and (5) Appropriates moneys. Your Committee received written comments in support of this measure from the Department of the Attorney General; Honolulu Police Department; Hawaii County Police Department; Department of the Prosecuting Attorney, County of Maui; Hawaiian Humane Society; and four individuals. Your Committee received written comments in opposition to",
+            "document_name": "HB1483_SD1_SSCR1831_"
+          }
+        ]
+      }
+    ]
   },
-  "generation_timestamp": "2025-10-10T14:47:47.578766",
-  "generation_timestamp_unix": 1760143667.578774
+  "chunk_mapping": {
+    "HB1483_SD1_SSCR1831_": [
+      {
+        "chunk_number": 0,
+        "chunk_text": "WRITTEN TESTIMONY OF THE DEPARTMENT OF THE ATTORNEY GENERAL KA ‘OIHANA O KA LOIO KUHINA THIRTY-THIRD LEGISLATURE, 2025 ON THE FOLLOWING MEASURE: H.B. NO. 1483, H.D. 1, S.D. 1, RELATING TO FIREWORKS. BEFORE THE: SENATE COMMITTEE ON WAYS AND MEANS DATE: Friday, April 4, 2025 TIME: 10:46 a.m. LOCATION: State"
+      },
+      {
+        "chunk_number": 1,
+        "chunk_text": "DATE: Friday, April 4, 2025 TIME: 10:46 a.m. LOCATION: State Capitol, Room 211 TESTIFIER(S): WRITTEN TESTIMONY ONLY. (For more information, contact Tricia M. Nakamatsu, Deputy Attorney General, at 808-586-1500) Chair Dela Cruz and Members of the Committee: The Department of the Attorney General (Department) strongly supports this bill. The Department"
+      },
+      {
+        "chunk_number": 2,
+        "chunk_text": "the Attorney General (Department) strongly supports this bill. The Department also recommends amendments at the end of this testimony. The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws, by: (1) amending definitions for fireworks offenses to reflect more common-sense standards; (2) strengthening and"
+      },
+      {
+        "chunk_number": 3,
+        "chunk_text": "fireworks offenses to reflect more common-sense standards; (2) strengthening and clarifying existing criminal fireworks offenses; (3) establishing new fireworks offenses; (4) establishing heightened penalties for repeat offenders and fireworks offenses that result in substantial or serious bodily injury or death; and (5) establishing non-criminal fireworks infractions for the lowest- level"
+      },
+      {
+        "chunk_number": 4,
+        "chunk_text": "and (5) establishing non-criminal fireworks infractions for the lowest- level offenses. Criminal statutes serve as a deterrent to illegal activity when they are effectively enforced and prosecuted. For many years, however, Hawaii’s laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these"
+      },
+      {
+        "chunk_number": 5,
+        "chunk_text": "for state and county agencies to enforce or prosecute these types of cases. When asked, prosecutors have repeatedly cited challenges posed by \"gathering evidence and meeting the high burden of proof necessary for convictions\",1 as well as \"stringent definitions [in statute, that] . . . routinely create 1 See Legislative"
+      },
+      {
+        "chunk_number": 6,
+        "chunk_text": "statute, that] . . . routinely create 1 See Legislative Reference Bureau of Hawaii, Blast From the Past: An Update to the Report of the Illegal Fireworks Task Force to the Legislature for the Regular Session of 2011 at 13, 14 (December 2019) https://lrb.hawaii.gov/wp- content/uploads/2019_BlastFromThePast.pdf (last visited January 20, 2025)."
+      },
+      {
+        "chunk_number": 7,
+        "chunk_text": "14 (December 2019) https://lrb.hawaii.gov/wp- content/uploads/2019_BlastFromThePast.pdf (last visited January 20, 2025). Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 2 of 7 roadblocks to effective prosecution.\"2 Thus, only a small number of criminal fireworks cases have been initiated by law enforcement, and an even smaller number have"
+      },
+      {
+        "chunk_number": 8,
+        "chunk_text": "initiated by law enforcement, and an even smaller number have been prosecuted, resulting in a largely \"ineffective deterrent\" to the distribution and use of illicit fireworks. This bill addresses concerns raised by prosecutors and provides clarity and efficiency for law enforcement, prosecutors, and courts that handle these cases. DEFINITIONS This"
+      },
+      {
+        "chunk_number": 9,
+        "chunk_text": "enforcement, prosecutors, and courts that handle these cases. DEFINITIONS This bill’s proposed amendments to definitions for \"aerial device,\" \"consumer fireworks,\" and “fireworks,” under section 132D-2, Hawaii Revised Statutes (HRS) (page 16, line 4, to page 18, line 15, and page 19, line 12, to page 20, line 8), present a"
+      },
+      {
+        "chunk_number": 10,
+        "chunk_text": "19, line 12, to page 20, line 8), present a straightforward, common-sense standard that could arguably be established through laypeople’s observations and testimony, in many cases, without requiring the presentation of any physical evidence or expert witnesses. Currently, proving beyond a reasonable doubt that an item meets the definition of"
+      },
+      {
+        "chunk_number": 11,
+        "chunk_text": "a reasonable doubt that an item meets the definition of an \"aerial device,\" \"consumer fireworks,\" or \"fireworks,\" under section 132D-2, HRS, can be difficult, and may require expert testimony regarding the aeronautical design of the item, pyrotechnic design of the item, and comparison to federal definitions. Fireworks cases may also"
+      },
+      {
+        "chunk_number": 12,
+        "chunk_text": "item, and comparison to federal definitions. Fireworks cases may also be difficult to prove when the illicit fireworks have already exploded and are unrecoverable. The proposed definition of aerial fireworks takes into account that virtually every adult in Hawaii already \"knows\" what aerial fireworks are and could positively identify one"
+      },
+      {
+        "chunk_number": 13,
+        "chunk_text": "\"knows\" what aerial fireworks are and could positively identify one rising up into the sky, based on their own observations, without the assistance of forensic testing or expert witnesses. STRENGTHENING AND CLARIFYING EXISTING CRIMINAL OFFENSES This bill amends existing criminal fireworks offenses to include wording and standards that are more"
+      },
+      {
+        "chunk_number": 14,
+        "chunk_text": "fireworks offenses to include wording and standards that are more amenable to prosecution, and penalties that are more proportionate to the prohibited acts. Currently, section 132D-5, HRS, groups a number of very dangerous acts, such as throwing ignited fireworks from or into a vehicle, together with much less serious acts,"
+      },
+      {
+        "chunk_number": 15,
+        "chunk_text": "or into a vehicle, together with much less serious acts, such as setting off consumer fireworks with a permit but outside of the permitted 2 Id, at 14. Testimony of the Department of the Attorney General Thirty-Third Legislature, 2025 Page 3 of 7 times, and classifies all of these offenses"
+      },
+      {
+        "chunk_number": 16,
+        "chunk_text": "3 of 7 times, and classifies all of these offenses as a violation, with no possible jail time and only a potential fine of up to $5,000. This bill separates out the various acts based on the level of dangerousness and place them under standalone offenses (i.e., \"Consumer fireworks prohibitions\""
+      },
+      {
+        "chunk_number": 17,
+        "chunk_text": "and place them under standalone offenses (i.e., \"Consumer fireworks prohibitions\" on page 10, line 16, to page 12, line 11; \"Removal or extraction of pyrotechnic contents; prohibited\" on page 10, lines 11-15; \"General fireworks or articles pyrotechnic prohibitions in the second degree\" on page 4, line 8, to"
+      },
+      {
+        "chunk_number": 18,
+        "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,"
+      },
+      {
+        "chunk_number": 19,
+        "chunk_text": "Means, to which was referred H.B. No. 1483, H.D. 1, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO FIREWORKS,\" begs leave to report as follows: The purpose and intent of this measure is to strengthen state fireworks laws. Specifically, the measure: (1) Amends various definitions relating to fireworks;"
+      },
+      {
+        "chunk_number": 20,
+        "chunk_text": "Specifically, the measure: (1) Amends various definitions relating to fireworks; (2) Increases certain penalties for fireworks offenses; (3) Establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic; (4) Establishes processes relating to the adjudication of fireworks infractions; and (5) Appropriates moneys. Your Committee received written comments in"
+      },
+      {
+        "chunk_number": 21,
+        "chunk_text": "and (5) Appropriates moneys. Your Committee received written comments in support of this measure from the Department of the Attorney General; Honolulu Police Department; Hawaii County Police Department; Department of the Prosecuting Attorney, County of Maui; Hawaiian Humane Society; and four individuals. Your Committee received written comments in opposition to"
+      },
+      {
+        "chunk_number": 22,
+        "chunk_text": "four individuals. Your Committee received written comments in opposition to this measure from Hawaii Explosives and Pyrotechnics and one individual. Your Committee recognizes the need to reform the State's approach to enforcing fireworks laws. Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework and establishes"
+      },
+      {
+        "chunk_number": 23,
+        "chunk_text": "appropriately addresses shortcomings in the current regulatory framework and establishes a sensible penalty structure that imposes just consequences based on the severity of violations. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached to this report, your Committee is"
+      },
+      {
+        "chunk_number": 24,
+        "chunk_text": "Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1483, H.D. 1, S.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Ways and Means, ________________________________ DONOVAN M. DELA"
+      },
+      {
+        "chunk_number": 25,
+        "chunk_text": "the Committee on Ways and Means, ________________________________ DONOVAN M. DELA CRUZ, Chair"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-14T16:47:54.236596",
+  "generation_timestamp_unix": 1760496474.2366002
 }
