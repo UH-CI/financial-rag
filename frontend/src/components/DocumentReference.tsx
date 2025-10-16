@@ -121,7 +121,7 @@ const DocumentReferenceComponent: React.FC<DocumentReferenceProps> = ({ referenc
   const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
   const linkRef = useRef<HTMLAnchorElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);
-  const hideTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const hideTimeoutRef = useRef<number | null>(null);
 
   const updateTooltipPosition = () => {
     if (linkRef.current) {

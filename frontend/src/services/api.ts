@@ -121,47 +121,14 @@ export const createFiscalNote = async (
   billNumber: string,
   year: string = '2025'
 ): Promise<{ message: string; job_id?: string, success: boolean }> => {
-  console.log(`🚀 API: Starting request for ${billType} ${billNumber} ${year}`);
-  
-  const requestId = `${billType}_${billNumber}_${Date.now()}`;
-  console.log(`📤 API: [${requestId}] Making fetch request to generate-fiscal-note`);
-  
-  const url = `${API_BASE_URL}generate-fiscal-note?bill_type=${billType}&bill_number=${billNumber}&year=${year}`;
-  
-  try {
-    // Use fetch instead of axios to avoid connection pooling issues
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => {
-      console.log(`⏰ API: [${requestId}] Request timed out after 15 seconds`);
-      controller.abort();
-    }, 15000);
-    
-    console.log(`🌐 API: [${requestId}] About to make fetch request...`);
-    
-    const response = await fetch(url, {
-      method: 'POST',
-      signal: controller.signal
-    });
-    
-    clearTimeout(timeoutId);
-    
-    console.log(`✅ API: [${requestId}] Response received:`, response.status, response.statusText);
-    
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status} ${response.statusText}`);
+  const response = await api.post('/generate-fiscal-note', null, {
+    params: {
+      bill_type: billType,
+      bill_number: billNumber,
+      year: year
     }
-    
-    console.log(`📥 API: [${requestId}] About to parse JSON response...`);
-    const data = await response.json();
-    console.log(`✅ API: [${requestId}] Response data:`, data);
-    return data;
-  } catch (error: any) {
-    console.error(`❌ API: [${requestId}] Request failed:`, error);
-    if (error.name === 'AbortError') {
-      console.error(`❌ API: [${requestId}] Request was aborted (timeout or manual cancel)`);
-    }
-    throw error;
-  }
+  });
+  return response.data;
 };
 
 /**
