@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import type { DocumentReference } from '../types';
 
 // Utility function to highlight financial amounts in text
@@ -7,16 +7,9 @@ const highlightFinancialAmounts = (text: string, targetAmount?: number): React.R
     return text;
   }
 
-  // Create simple patterns - try both with and without decimals
+  // Create formatted amount string
   const formattedAmount = targetAmount.toLocaleString();
-  
-  // Try pattern with .00 first
-  let pattern1 = `\\$${formattedAmount.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\.00`;
-  let regex1 = new RegExp(`(${pattern1})`, 'gi');
-  
-  // Try pattern without decimals
-  let pattern2 = `\\$${formattedAmount.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?!\\.\\d)`;
-  let regex2 = new RegExp(`(${pattern2})`, 'gi');
+  const escapeRegex = (str: string) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   
   // Function to apply highlighting
   const applyHighlighting = (inputText: string, regex: RegExp) => {
@@ -54,17 +47,66 @@ const highlightFinancialAmounts = (text: string, targetAmount?: number): React.R
     return parts.length > 1 ? parts : null; // Return null if no matches found
   };
   
-  // Try with .00 first
-  let result = applyHighlighting(text, regex1);
-  if (result) {
-    return result;
+  // Try multiple patterns in order of specificity:
+  // Note: Some texts have $ before the number, others have it after (e.g., "175,000.00 $")
+  
+  // 1. Try pattern with .00 and $ before (e.g., $10,000.00)
+  let pattern = `\\$${escapeRegex(formattedAmount)}\\.00`;
+  let regex = new RegExp(`(${pattern})`, 'gi');
+  let result = applyHighlighting(text, regex);
+  if (result) return result;
+  
+  // 2. Try pattern with .00 and $ after (e.g., 10,000.00 $)
+  pattern = `${escapeRegex(formattedAmount)}\\.00\\s*\\$`;
+  regex = new RegExp(`(${pattern})`, 'gi');
+  result = applyHighlighting(text, regex);
+  if (result) return result;
+  
+  // 3. Try pattern without decimals but with $ before (e.g., $10,000)
+  pattern = `\\$${escapeRegex(formattedAmount)}(?!\\.\\d)`;
+  regex = new RegExp(`(${pattern})`, 'gi');
+  result = applyHighlighting(text, regex);
+  if (result) return result;
+  
+  // 4. Try pattern without decimals but with $ after (e.g., 10,000 $)
+  pattern = `${escapeRegex(formattedAmount)}\\s*\\$(?!\\.\\d)`;
+  regex = new RegExp(`(${pattern})`, 'gi');
+  result = applyHighlighting(text, regex);
+  if (result) return result;
+  
+  // 5. FALLBACK: If targetAmount is a whole number (no decimals or .00), 
+  //    try appending .00 to search for it in the text
+  if (Number.isInteger(targetAmount) || targetAmount % 1 === 0) {
+    const amountWith00 = targetAmount.toFixed(2); // e.g., 10000 becomes "10000.00"
+    const formattedWith00 = parseFloat(amountWith00).toLocaleString('en-US', {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    }); // e.g., "10,000.00"
+    
+    // Try with $ before
+    pattern = `\\$${escapeRegex(formattedWith00)}`;
+    regex = new RegExp(`(${pattern})`, 'gi');
+    result = applyHighlighting(text, regex);
+    if (result) return result;
+    
+    // Try with $ after
+    pattern = `${escapeRegex(formattedWith00)}\\s*\\$`;
+    regex = new RegExp(`(${pattern})`, 'gi');
+    result = applyHighlighting(text, regex);
+    if (result) return result;
   }
   
-  // Try without decimals
-  result = applyHighlighting(text, regex2);
-  if (result) {
-    return result;
-  }
+  // 6. FALLBACK: Try matching any decimal variant with $ before
+  pattern = `\\$${escapeRegex(formattedAmount)}(?:\\.\\d+)?`;
+  regex = new RegExp(`(${pattern})`, 'gi');
+  result = applyHighlighting(text, regex);
+  if (result) return result;
+  
+  // 7. FALLBACK: Try matching any decimal variant with $ after
+  pattern = `${escapeRegex(formattedAmount)}(?:\\.\\d+)?\\s*\\$`;
+  regex = new RegExp(`(${pattern})`, 'gi');
+  result = applyHighlighting(text, regex);
+  if (result) return result;
   
   // No matches found, return original text
   return text;
@@ -78,6 +120,8 @@ const DocumentReferenceComponent: React.FC<DocumentReferenceProps> = ({ referenc
   const [showTooltip, setShowTooltip] = useState(false);
   const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
   const linkRef = useRef<HTMLAnchorElement>(null);
+  const tooltipRef = useRef<HTMLDivElement>(null);
+  const hideTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const updateTooltipPosition = () => {
     if (linkRef.current) {
@@ -90,9 +134,43 @@ const DocumentReferenceComponent: React.FC<DocumentReferenceProps> = ({ referenc
   };
 
   const handleMouseEnter = () => {
+    // Clear any pending hide timeout
+    if (hideTimeoutRef.current) {
+      clearTimeout(hideTimeoutRef.current);
+      hideTimeoutRef.current = null;
+    }
     setShowTooltip(true);
     updateTooltipPosition();
   };
+  
+  const handleMouseLeave = () => {
+    // Delay hiding to allow mouse to move to tooltip
+    hideTimeoutRef.current = setTimeout(() => {
+      setShowTooltip(false);
+    }, 100);
+  };
+  
+  const handleTooltipMouseEnter = () => {
+    // Clear hide timeout when mouse enters tooltip
+    if (hideTimeoutRef.current) {
+      clearTimeout(hideTimeoutRef.current);
+      hideTimeoutRef.current = null;
+    }
+  };
+  
+  const handleTooltipMouseLeave = () => {
+    // Hide tooltip when mouse leaves tooltip
+    setShowTooltip(false);
+  };
+  
+  // Cleanup timeout on unmount
+  useEffect(() => {
+    return () => {
+      if (hideTimeoutRef.current) {
+        clearTimeout(hideTimeoutRef.current);
+      }
+    };
+  }, []);
 
   const getTypeColor = (type: string) => {
     switch (type.toLowerCase()) {
@@ -147,20 +225,25 @@ const DocumentReferenceComponent: React.FC<DocumentReferenceProps> = ({ referenc
             : 'text-blue-600 hover:text-blue-800'
         }`}
         onMouseEnter={handleMouseEnter}
-        onMouseLeave={() => setShowTooltip(false)}
+        onMouseLeave={handleMouseLeave}
         title={`${reference.document_type}: ${reference.document_name}`}
       >
-        [{reference.number}]
+        {reference.displayNumber || reference.number}
       </a>
 
       {/* Custom Tooltip - Using fixed positioning to escape container bounds */}
       {showTooltip && (
-        <div className="fixed z-[9999] pointer-events-none" 
-             style={{
-               left: tooltipPosition.x,
-               top: tooltipPosition.y,
-               transform: 'translateX(-50%) translateY(-100%)'
-             }}>
+        <div 
+          ref={tooltipRef}
+          className="fixed z-[9999] pointer-events-auto" 
+          style={{
+            left: tooltipPosition.x,
+            top: tooltipPosition.y,
+            transform: 'translateX(-50%) translateY(-100%)'
+          }}
+          onMouseEnter={handleTooltipMouseEnter}
+          onMouseLeave={handleTooltipMouseLeave}
+        >
           <div className="bg-gray-900 text-white text-sm rounded-lg shadow-xl overflow-hidden min-w-[250px] max-w-[400px] border border-gray-700">
             {/* Header */}
             <div className={`px-3 py-2 text-xs font-semibold uppercase tracking-wide border-b border-gray-700 ${getTypeColor(reference.document_category || reference.document_type)} text-gray-900`}>
@@ -182,7 +265,7 @@ const DocumentReferenceComponent: React.FC<DocumentReferenceProps> = ({ referenc
               {/* Financial Citation Content */}
               {reference.document_type.toLowerCase() === 'financial citation' && reference.chunk_text && (
                 <div className="mt-2 pt-2 border-t border-gray-700">
-                  <div className="text-gray-400 text-xs mb-1">
+                  <div className="text-gray-400 text-s mb-1">
                     Financial Context:
                   </div>
                   <div className="text-gray-300 text-xs italic bg-gray-800 p-2 rounded max-h-64 overflow-y-auto whitespace-pre-wrap">
@@ -191,14 +274,43 @@ const DocumentReferenceComponent: React.FC<DocumentReferenceProps> = ({ referenc
                 </div>
               )}
               
-              {/* Document Citation Content - No chunk text for now */}
-              {reference.document_type.toLowerCase() !== 'financial citation' && reference.similarity_score && (
+              {/* Chunk Citation Content */}
+              {reference.type === 'chunk_reference' && reference.chunk_text && (
                 <div className="mt-2 pt-2 border-t border-gray-700">
-                  <div className="text-gray-400 text-xs">
-                    <span className="text-blue-300">
-                      Match Score: {Math.round(reference.similarity_score * 100)}%
-                    </span>
+                  <div className="text-gray-400 text-md mb-1">
+                    Chunk Content:
                   </div>
+                  <div className="text-gray-300 text-xs italic bg-gray-800 p-2 rounded max-h-64 overflow-y-auto whitespace-pre-wrap">
+                    {reference.chunk_text}
+                  </div>
+                  {reference.chunk_id && (
+                    <div className="text-gray-400 text-xs mt-1">
+                      Chunk ID: {reference.chunk_id}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Document Citation Content with Chunk Text */}
+              {reference.document_type.toLowerCase() !== 'financial citation' && reference.type !== 'chunk_reference' && (
+                <div className="mt-2 pt-2 border-t border-gray-700">
+                  {reference.chunk_text && (
+                    <div className="mb-2">
+                      <div className="text-gray-400 text-xs mb-1">
+                        Source Content:
+                      </div>
+                      <div className="text-gray-300 text-xs italic bg-gray-800 p-2 rounded max-h-64 overflow-y-auto whitespace-pre-wrap">
+                        {reference.chunk_text}
+                      </div>
+                    </div>
+                  )}
+                  {reference.similarity_score && (
+                    <div className="text-gray-400 text-xs">
+                      <span className="text-blue-300">
+                        Match Score: {Math.round(reference.similarity_score * 100)}%
+                      </span>
+                    </div>
+                  )}
                 </div>
               )}
               

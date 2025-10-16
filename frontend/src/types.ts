@@ -164,9 +164,10 @@ export interface BillSimilaritySearch {
 }
 
 export interface DocumentReference {
-  type: 'document_reference';
+  type: 'document_reference' | 'chunk_reference';
   number: number;
-  url: string;
+  displayNumber?: string; // Optional display number like "5.3" for chunk sub-citations
+  url?: string;
   document_type: string;
   document_name: string;
   description: string;
@@ -176,6 +177,7 @@ export interface DocumentReference {
   similarity_score?: number;
   sentence?: string; // The sentence context for word highlighting
   financial_amount?: number; // The financial amount for financial citations
+  chunk_id?: number; // For chunk references
 }
 
 export interface TimelineItem {
@@ -208,6 +210,22 @@ export interface ChunkTextMapItem {
   attribution_score: number;
   attribution_method: string;
   sentence?: string; // The sentence context that contains the citation
+  chunk_id?: number; // Chunk identifier for creating sub-citations
+  document_name?: string; // Document name for the chunk
+}
+
+export interface ChunkReference {
+  chunk_id: number;
+  document_name: string;
+  chunk_text: string;
+  start_word?: number;
+  end_word?: number;
+  word_count?: number;
+}
+
+export interface ChunkMetadata {
+  total_chunks: number;
+  chunk_details: ChunkReference[];
 }
 
 export interface DocumentInfo {
@@ -227,4 +245,5 @@ export interface FiscalNoteData {
   numbers_data: NumbersDataItem[];
   number_citation_map: Record<number, NumberCitationMapItem>; // Each citation number maps to a single item
   chunk_text_map: Record<number, ChunkTextMapItem[]>; // Document citations to chunk text
+  chunk_metadata?: ChunkMetadata; // Chunk information for CHUNK citations
 }

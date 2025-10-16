@@ -123,13 +123,10 @@ export const createFiscalNote = async (
 ): Promise<{ message: string; job_id?: string, success: boolean }> => {
   console.log(`🚀 API: Starting request for ${billType} ${billNumber} ${year}`);
   
-  const url = new URL('/generate-fiscal-note', API_BASE_URL);
-  url.searchParams.append('bill_type', billType);
-  url.searchParams.append('bill_number', billNumber);
-  url.searchParams.append('year', year);
-  
   const requestId = `${billType}_${billNumber}_${Date.now()}`;
-  console.log(`📤 API: [${requestId}] Making fetch request to:`, url.toString());
+  console.log(`📤 API: [${requestId}] Making fetch request to generate-fiscal-note`);
+  
+  const url = `${API_BASE_URL}generate-fiscal-note?bill_type=${billType}&bill_number=${billNumber}&year=${year}`;
   
   try {
     // Use fetch instead of axios to avoid connection pooling issues
@@ -141,12 +138,8 @@ export const createFiscalNote = async (
     
     console.log(`🌐 API: [${requestId}] About to make fetch request...`);
     
-    const response = await fetch(url.toString(), {
+    const response = await fetch(url, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'X-Request-ID': requestId
-      },
       signal: controller.signal
     });
     

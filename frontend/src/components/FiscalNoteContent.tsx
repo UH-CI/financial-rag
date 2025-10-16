@@ -36,104 +36,242 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
   };
 
   // Function to parse [number] citations from text
+  // Track citation occurrences to cycle through chunks
+  const citationOccurrences = React.useRef<{[key: number]: number}>({});
+
   const parseDocumentReferences = (text: string): React.ReactNode => {
     if (!text || typeof text !== 'string') {
       return text;
     }
 
-    // Process [number] citations
-    const citationRegex = /\[(\d+)\]/g;
+    // Reset citation occurrences for each new text parse
+    citationOccurrences.current = {};
+
+    // Process both simple [number] and complex [CHUNK X, NUMBER Y] citations
+    const citationRegex = /\[([^\]]+)\]/g;
     const textParts: React.ReactNode[] = [];
     let lastIndex = 0;
     let match;
-
+    
+    // Collect all citations first to group consecutive ones
+    const citations: Array<{ match: RegExpExecArray; citationNumber: number; index: number }> = [];
     while ((match = citationRegex.exec(text)) !== null) {
-      // Add text before the citation
-      if (match.index > lastIndex) {
-        textParts.push(text.substring(lastIndex, match.index));
+      const citationContent = match[1].trim();
+      const isSimpleNumber = /^\d+$/.test(citationContent);
+      if (isSimpleNumber) {
+        citations.push({
+          match,
+          citationNumber: parseInt(citationContent),
+          index: match.index
+        });
+      } else {
+        // Keep complex citations as-is
+        citations.push({
+          match,
+          citationNumber: -1, // Special marker for complex citations
+          index: match.index
+        });
       }
-
-      const citationNumber = parseInt(match[1]);
+    }
+    
+    // Group consecutive citations with the same number
+    const groupedCitations: Array<{
+      citations: typeof citations;
+      startIndex: number;
+      endIndex: number;
+    }> = [];
+    
+    for (let i = 0; i < citations.length; i++) {
+      const current = citations[i];
+      const group = [current];
+      let endIndex = current.index + current.match[0].length;
       
-      // Check if this citation has financial data
-      const hasFinancialData = numberCitationMap[citationNumber];
+      // Check if next citations are consecutive and have the same base number
+      while (i + 1 < citations.length) {
+        const next = citations[i + 1];
+        const textBetween = text.substring(endIndex, next.index);
+        
+        // Only group if they're adjacent (no text or only whitespace between)
+        if (textBetween.trim() === '' && current.citationNumber === next.citationNumber && current.citationNumber !== -1) {
+          group.push(next);
+          endIndex = next.index + next.match[0].length;
+          i++;
+        } else {
+          break;
+        }
+      }
       
-      if (hasFinancialData) {
-        // This is a citation with financial data - create a reference for the specific amount
-        const financialCitation = numberCitationMap[citationNumber];
-        const numberData = financialCitation.data;
-        
-        // Use the actual context text from the number data
-        const contextText = numberData ? numberData.text : `Amount referenced in ${financialCitation.filename}`;
-        
-        // Create a reference object similar to DocumentReference
-        const financialReference: DocumentReference = {
-          type: 'document_reference',
-          number: citationNumber,
-          url: generateDocumentUrl(financialCitation.document_name),
-          document_type: 'Financial Citation',
-          document_name: financialCitation.document_name,
-          description: `$${financialCitation.amount.toLocaleString()} from ${financialCitation.document_name}`,
-          chunk_text: contextText,
-          similarity_score: undefined,
-          financial_amount: financialCitation.amount
-        };
-        
+      groupedCitations.push({
+        citations: group,
+        startIndex: current.index,
+        endIndex
+      });
+    }
+    
+    // Process grouped citations
+    lastIndex = 0;
+    for (const group of groupedCitations) {
+      const firstCitation = group.citations[0];
+      
+      // Add text before the citation group
+      if (group.startIndex > lastIndex) {
+        textParts.push(text.substring(lastIndex, group.startIndex));
+      }
+      
+      if (firstCitation.citationNumber === -1) {
+        // Complex citation - render as-is
+        const citationContent = firstCitation.match[1].trim();
         textParts.push(
-          <DocumentReferenceComponent
-            key={`financial-${match.index}`}
-            reference={financialReference}
-          />
+          <span key={`complex-${group.startIndex}`} className="text-blue-600 font-medium bg-blue-50 px-1 py-0.5 rounded text-sm">
+            [{citationContent}]
+          </span>
         );
       } else {
-        // Regular document citation - use DocumentReferenceComponent with document info
-        let documentName = 'Unknown Document';
-        for (const [docName, docNum] of Object.entries(documentMapping)) {
-          if (docNum === citationNumber) {
-            documentName = docName;
-            break;
+        // Simple numbered citation(s)
+        const citationNumber = firstCitation.citationNumber;
+        
+        // Check if this citation has financial data
+        const hasFinancialData = numberCitationMap[citationNumber];
+        
+        if (hasFinancialData) {
+          // Financial citation - render as single citation
+          const financialCitation = numberCitationMap[citationNumber];
+          const numberData = financialCitation.data;
+          const contextText = numberData ? numberData.text : `Amount referenced in ${financialCitation.filename}`;
+          
+          const financialReference: DocumentReference = {
+            type: 'document_reference',
+            number: citationNumber,
+            url: generateDocumentUrl(financialCitation.document_name),
+            document_type: 'Financial Citation',
+            document_name: financialCitation.document_name,
+            description: `$${financialCitation.amount.toLocaleString()} from ${financialCitation.document_name}`,
+            chunk_text: contextText,
+            similarity_score: undefined,
+            financial_amount: financialCitation.amount
+          };
+          
+          textParts.push(
+            <DocumentReferenceComponent
+              key={`financial-${group.startIndex}`}
+              reference={financialReference}
+            />
+          );
+        } else {
+          // Regular document citation
+          let documentName = 'Unknown Document';
+          for (const [docName, docNum] of Object.entries(documentMapping)) {
+            if (docNum === citationNumber) {
+              documentName = docName;
+              break;
+            }
+          }
+          
+          // Get chunk data for this citation
+          const chunkData = chunkTextMap[citationNumber];
+          
+          // Get document type information
+          const docInfo = enhancedDocumentMapping[citationNumber];
+          
+          if (group.citations.length > 1 && chunkData && chunkData.length >= group.citations.length) {
+            // Multiple consecutive citations with chunk data - render as grouped citation
+            // Deduplicate citations by displayNumber
+            const uniqueCitations = new Map<string, {citation: typeof citations[0], chunkInfo: ChunkTextMapItem}>();
+            
+            group.citations.forEach((citation, idx) => {
+              const chunkInfo = chunkData[idx];
+              const chunkId = chunkInfo?.chunk_id;
+              const displayNumber = chunkId ? `${citationNumber}.${chunkId}` : citationNumber.toString();
+              
+              // Only add if we haven't seen this displayNumber before
+              if (!uniqueCitations.has(displayNumber)) {
+                uniqueCitations.set(displayNumber, {citation, chunkInfo});
+              }
+            });
+            
+            textParts.push(
+              <span key={`group-${group.startIndex}`} className="inline-flex items-center">
+                <span className="text-blue-600">[</span>
+                {Array.from(uniqueCitations.values()).map(({citation, chunkInfo}, arrayIdx) => {
+                  const chunkId = chunkInfo?.chunk_id;
+                  const displayNumber = chunkId ? `${citationNumber}.${chunkId}` : citationNumber;
+                  
+                  const documentReference: DocumentReference = {
+                    type: 'document_reference',
+                    number: citationNumber,
+                    displayNumber: displayNumber.toString(),
+                    url: generateDocumentUrl(documentName),
+                    document_type: 'Document',
+                    document_name: documentName,
+                    description: `Reference to ${documentName}`,
+                    document_category: docInfo?.type || 'Document',
+                    document_icon: docInfo?.icon || '📄',
+                    chunk_text: chunkInfo?.chunk_text,
+                    similarity_score: chunkInfo?.attribution_score,
+                    sentence: chunkInfo?.sentence,
+                    chunk_id: chunkId
+                  };
+                  
+                  return (
+                    <React.Fragment key={`chunk-${citation.index}`}>
+                      <DocumentReferenceComponent reference={documentReference} />
+                      {arrayIdx < uniqueCitations.size - 1 && <span className="text-blue-600">, </span>}
+                    </React.Fragment>
+                  );
+                })}
+                <span className="text-blue-600">]</span>
+              </span>
+            );
+          } else {
+            // Single citation or no chunk data - render normally
+            if (!citationOccurrences.current[citationNumber]) {
+              citationOccurrences.current[citationNumber] = 0;
+            }
+            const occurrenceIndex = citationOccurrences.current[citationNumber];
+            citationOccurrences.current[citationNumber]++;
+            
+            let chunkText = undefined;
+            let sentenceContext = undefined;
+            let chunkId = undefined;
+            
+            if (chunkData && chunkData.length > 0) {
+              const chunkIndex = occurrenceIndex % chunkData.length;
+              const assignedChunk = chunkData[chunkIndex];
+              chunkText = assignedChunk.chunk_text;
+              sentenceContext = assignedChunk.sentence;
+              chunkId = assignedChunk.chunk_id;
+            }
+            
+            const displayNumber = chunkId ? `${citationNumber}.${chunkId}` : citationNumber;
+            
+            const documentReference: DocumentReference = {
+              type: 'document_reference',
+              number: citationNumber,
+              displayNumber: displayNumber.toString(),
+              url: generateDocumentUrl(documentName),
+              document_type: 'Document',
+              document_name: documentName,
+              description: `Reference to ${documentName}`,
+              document_category: docInfo?.type || 'Document',
+              document_icon: docInfo?.icon || '📄',
+              chunk_text: chunkText,
+              similarity_score: chunkData && chunkData.length > 0 ? chunkData[0].attribution_score : undefined,
+              sentence: sentenceContext,
+              chunk_id: chunkId
+            };
+            
+            textParts.push(
+              <span key={`single-${group.startIndex}`} className="inline-flex items-center">
+                <span className="text-blue-600">[</span>
+                <DocumentReferenceComponent reference={documentReference} />
+                <span className="text-blue-600">]</span>
+              </span>
+            );
           }
         }
-        
-        // Get chunk text for this document citation
-        let chunkText = undefined;
-        let sentenceContext = undefined;
-        const chunkData = chunkTextMap[citationNumber];
-        if (chunkData && chunkData.length > 0) {
-          // Use the chunk with the highest attribution score
-          const bestChunk = chunkData.reduce((best, current) => 
-            current.attribution_score > best.attribution_score ? current : best
-          );
-          chunkText = bestChunk.chunk_text;
-          sentenceContext = bestChunk.sentence;
-        }
-        
-        // Get document type information from enhanced mapping
-        const docInfo = enhancedDocumentMapping[citationNumber];
-        
-        const documentReference: DocumentReference = {
-          type: 'document_reference',
-          number: citationNumber,
-          url: generateDocumentUrl(documentName),
-          document_type: 'Document',
-          document_name: documentName,
-          description: `Reference to ${documentName}`,
-          document_category: docInfo?.type || 'Document',
-          document_icon: docInfo?.icon || '📄',
-          chunk_text: chunkText,
-          similarity_score: chunkData && chunkData.length > 0 ? chunkData[0].attribution_score : undefined,
-          sentence: sentenceContext
-        };
-        
-        textParts.push(
-          <DocumentReferenceComponent
-            key={`doc-${match.index}`}
-            reference={documentReference}
-          />
-        );
       }
-
-      lastIndex = match.index + match[0].length;
+      
+      lastIndex = group.endIndex;
     }
 
     // Add remaining text after last citation
