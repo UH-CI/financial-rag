@@ -7,17 +7,17 @@
     "HB990"
   ],
   "numbers_used": 30,
-  "prompt_length": 19998,
+  "prompt_length": 17420,
   "response_metadata": {
-    "response_text": "{\n\"overview\": \"This bill makes appropriations for claims against the State, its officers, or its employees for the fiscal year 2024-2025. The scope is to satisfy claims for legislative relief for various named persons, firms, corporations, and entities. Key components include payments for judgments, settlements, overpayment of taxes, refunds, and other liabilities, with a lapse date for unexpended funds set for June 30, 2026.\",\n\"appropriations\": \"For fiscal year 2024-2025, the legislative document specifies appropriations of $5,158,867.07 (HB990_.HTM.txt) from the general revenues, $1,250,000.00 (HB990_.HTM.txt) from the state highway fund, and $90,000.00 (HB990_.HTM.txt) from judiciary funds. These funds are for the purpose of satisfying claims, judgments, and settlements against the State. The sums are to be expended by the department of the attorney general, the department of transportation's highways division, and the judiciary, respectively.\",\n\"assumptions_and_methodology\": \"The financial projections are based on specific, itemized claims against the state that have been resolved through judgments or settlements. The methodology involves appropriating the exact amounts required for \\\"payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names\\\" in the bill (HB990_.HTM.txt). Therefore, the costs are not estimates but are predetermined liabilities that the State is legally obligated to pay.\",\n\"agency_impact\": \"The department of the attorney general is responsible for expending the $5,158,867.07 (HB990_.HTM.txt) appropriated from general revenues. The department of transportation, highways division, will expend the $1,250,000.00 (HB990_.HTM.txt) appropriated from the state highway fund. The judiciary is tasked with expending the $90,000.00 (HB990_.HTM.txt) appropriated from judiciary funds.\",\n\"economic_impact\": \"The measure addresses outstanding financial obligations by providing \\\"payments of judgments or settlements, or other liabilities\\\" (HB990_.HTM.txt) to various parties. This action provides \\\"legislative relief\\\" (HB990_.HTM.txt) to the claimants and finalizes the State's liabilities in these specific cases. The payments represent a transfer of funds from the state to individuals, firms, and corporations.\",\n\"policy_impact\": \"This bill directly addresses \\\"claims against the State, its officers, or its employees\\\" (HB990_.HTM.txt) by appropriating funds for their settlement. The measure acknowledges that the \\\"state general fund expenditure ceiling for fiscal year 2024-2025 has already been exceeded\\\" (HB990_.HTM.txt). It justifies further exceeding the ceiling by stating the appropriation is \\\"necessary to serve the public interest and to meet the needs addressed by this Act\\\" (HB990_.HTM.txt).\",\n\"revenue_sources\": \"The funding for these claims is sourced from three separate funds as specified in the legislative document. Part I appropriates funds \\\"out of the general revenues of the State of Hawaii\\\" (HB990_.HTM.txt). Part II appropriates funds \\\"out of the state highway fund\\\" (HB990_.HTM.txt). Part III appropriates funds \\\"out of the judiciary funds\\\" (HB990_.HTM.txt).\",\n\"six_year_fiscal_implications\": \"The appropriations in this Act are specifically for fiscal year 2024-2025 and are not recurring. The bill details numerous one-time payments for specific claims, such as $442,504.75 (HB990_.HTM.txt) for Maui Kupono Builders, LLC, and $460.00 (HB990_.HTM.txt) for Sarah Ann D. Pacheco under miscellaneous claims. From the Department of Land and Natural Resources, claims include $450,000.00 (HB990_.HTM.txt) for Jennifer Reber v. State of Hawaii and $100,000.00 (HB990_.HTM.txt) for a tort claim by Brenda Osmer. From the Department of Transportation, claims include $1,075,000.00 (HB990_.HTM.txt) for Juan Jimmie Aldeguer v. State of Hawaii and $175,000.00 (HB990_.HTM.txt) for the Estate of Bruce Perdue v. State of Hawaii. The Judiciary has a claim of $90,000.00 (HB990_.HTM.txt) for Leanne Rosa v. Randal G.B. Valenciano. The bill states, \\\"All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse\\\" (HB990_.HTM.txt). Consequently, there are no ongoing fiscal implications beyond this lapse date from this specific legislation.\",\n\"operating_revenue_impact\": \"This measure makes appropriations to pay for claims against the State and has no provisions for generating revenue. Therefore, it is not expected to have any impact on the State's operating revenues. The bill is solely an expenditure measure.\",\n\"capital_expenditure_impact\": \"This bill does not include any capital expenditures. The funds are appropriated exclusively for the \\\"purpose of satisfying claims for legislative relief\\\" (HB990_.HTM.txt) through payments of settlements and judgments. No funds are allocated for construction, infrastructure, or other capital investments.\",\n\"fiscal_implications_after_6_years\": \"There are no fiscal implications after the six-year period. The appropriations are for specific, non-recurring liabilities to be paid in fiscal year 2024-2025. Per the bill, any unexpended funds lapse on June 30, 2026, and the Act does not create any ongoing programs or financial commitments.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided.\"\n}",
+    "response_text": "{\n  \"overview\": \"This is a bill for an act making appropriations for claims against the State, its officers, or its employees. [CHUNK_0] The bill makes appropriations and approves payments for claims against the State, its officers, and its employees for fiscal year 2024-2025. [CHUNK_17] The appropriations are for the purpose of satisfying claims for legislative relief, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities. [CHUNK_2]\",\n  \"appropriations\": \"The legislative document specifies $998,335.75 (HB990_.HTM.txt) is appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for miscellaneous claims and claims against the Department of Land and Natural Resources. [CHUNK_5] The legislative document specifies $1,250,000.00 (HB990_.HTM.txt) is appropriated out of the state highway fund for claims against the Department of Transportation, Highways Division. [CHUNK_8] The legislative document specifies $90,000.00 (HB990_.HTM.txt) is appropriated out of Judiciary funds for a claim against the Judiciary. [CHUNK_11]\",\n  \"assumptions_and_methodology\": \"The appropriations are for specific, named claims against the State. [CHUNK_2] The amounts are set forth opposite the names of the persons, firms, corporations, and entities involved. [CHUNK_2] The sums are for the satisfaction or settlement of the respectively identified cases. [CHUNK_12]\",\n  \"agency_impact\": \"The sums appropriated from general revenues shall be expended by the department of the attorney general. [CHUNK_5] The sums appropriated from the state highway fund shall be expended by the department of transportation, highways division. [CHUNK_8] The sum appropriated from Judiciary funds shall be expended by the Judiciary. [CHUNK_11] All departments shall obtain the approval of the attorney general before payment of any claim may be made. [CHUNK_13]\",\n  \"economic_impact\": \"This measure makes appropriations for the purpose of satisfying claims for legislative relief. [CHUNK_1] Payments are made for judgments or settlements, or other liabilities. [CHUNK_2] The sums may be paid to the respective persons, firms, corporations, or entities for the satisfaction or settlement of the respectively identified cases. [CHUNK_12]\",\n  \"policy_impact\": \"This bill makes appropriations for claims against the State, its officers, or its employees. [CHUNK_0] Payment of interest upon judgments against the State shall be limited to the period from the date of the judgment, if applicable, to thirty days after the effective date of this Act, as provided in section 662-8, Hawaii Revised Statutes. [CHUNK_14] If any provision of this Act is held invalid, the invalidity does not affect other provisions or applications of the Act. [CHUNK_16]\",\n  \"revenue_sources\": \"Part I of the bill appropriates sums out of the general revenues of the State of Hawaii. [CHUNK_1] Part II appropriates sums out of the state highway fund. [CHUNK_6] Part III appropriates sums out of the Judiciary funds. [CHUNK_9]\",\n  \"six_year_fiscal_implications\": \"The appropriations in this bill are for the fiscal year 2024-2025. [CHUNK_1] All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. [CHUNK_15] Part I appropriates $998,335.75 (HB990_.HTM.txt) from general revenues for claims including miscellaneous claims totaling $448,335.75 (HB990_.HTM.txt) and Department of Land and Natural Resources claims totaling $550,000.00 (HB990_.HTM.txt). [CHUNK_4] The miscellaneous claims include payments to Maui Kupono Builders for $442,504.75 (HB990_.HTM.txt), Sarah Ann D. Pacheco for $460.00 (HB990_.HTM.txt), and Kiyoji Tanimura for $5,371.00 (HB990_.HTM.txt). [CHUNK_3] The Department of Land and Natural Resources claims include a settlement for Jennifer Reber for $450,000.00 (HB990_.HTM.txt) and a tort claim for Brenda Osmer for $100,000.00 (HB990_.HTM.txt). [CHUNK_4] Part II appropriates a total of $1,250,000.00 (HB990_.HTM.txt) from the state highway fund for claims against the Department of Transportation, Highways Division. [CHUNK_8] This includes a settlement for Juan Jimmie Lee Aldeguer for $1,075,000.00 (HB990_.HTM.txt) and a settlement for the Estate of Bruce Perdue for $175,000.00 (HB990_.HTM.txt). [CHUNK_8] Part III appropriates a total of $90,000.00 (HB990_.HTM.txt) from Judiciary funds for a settlement in the case of Leanne Rosa v. Randall G.B. Valenciano. [CHUNK_11] These are one-time appropriations and do not imply recurring costs in the subsequent five years. [CHUNK_15]\",\n  \"operating_revenue_impact\": \"This measure makes appropriations to pay for claims and does not generate revenue. [CHUNK_0] The bill appropriates funds out of general revenues, the state highway fund, and Judiciary funds. [CHUNK_1] No impact on operating revenues is anticipated. [CHUNK_18]\",\n  \"capital_expenditure_impact\": \"This bill makes appropriations for claims against the State, its officers, or its employees. [CHUNK_0] The funds are for payments of judgments or settlements, or other liabilities. [CHUNK_6] There are no capital expenditures identified in this measure. [CHUNK_18]\",\n  \"fiscal_implications_after_6_years\": \"There are no fiscal implications after the six-year period. [CHUNK_15] All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. [CHUNK_15] These appropriations are for specific claims for fiscal year 2024-2025 and are not recurring. [CHUNK_1]\",\n  \"updates_from_previous_fiscal_note\": \"A previous fiscal note was not provided.\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 11030,
-      "candidates_token_count": 1407,
-      "total_token_count": 14877
+      "prompt_token_count": 9690,
+      "candidates_token_count": 1525,
+      "total_token_count": 12465
     },
     "candidates": [
       {
@@ -27,7 +27,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n\"overview\": \"This bill makes appropriations for claims against the State, its officers, or its employees for the fiscal year 2024-2025. The scope is to satisfy claims for legislative relief for various named persons, firms, corporations, and entities. Key components include payments for judgments, settlements, overpayment of taxes, refunds, and other liabilities, with a lapse date for unexpended funds set for June 30, 2026.\",\n\"appropriations\": \"For fiscal year 2024-2025, the legislative document specifies appropriations of $5,158,867.07 (HB990_.HTM.txt) from the general revenues, $1,250,000.00 (HB990_.HTM.txt) from the state highway fund, and $90,000.00 (HB990_.HTM.txt) from judiciary funds. These funds are for the purpose of satisfying claims, judgments, and settlements against the State. The sums are to be expended by the department of the attorney general, the department of transportation's highways division, and the judiciary, respectively.\",\n\"assumptions_and_methodology\": \"The financial projections are based on specific, itemized claims against the state that have been resolved through judgments or settlements. The methodology involves appropriating the exact amounts required for \\\"payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names\\\" in the bill (HB990_.HTM.txt). Therefore, the costs are not estimates but are predetermined liabilities that the State is legally obligated to pay.\",\n\"agency_impact\": \"The department of the attorney general is responsible for expending the $5,158,867.07 (HB990_.HTM.txt) appropriated from general revenues. The department of transportation, highways division, will expend the $1,250,000.00 (HB990_.HTM.txt) appropriated from the state highway fund. The judiciary is tasked with expending the $90,000.00 (HB990_.HTM.txt) appropriated from judiciary funds.\",\n\"economic_impact\": \"The measure addresses outstanding financial obligations by providing \\\"payments of judgments or settlements, or other liabilities\\\" (HB990_.HTM.txt) to various parties. This action provides \\\"legislative relief\\\" (HB990_.HTM.txt) to the claimants and finalizes the State's liabilities in these specific cases. The payments represent a transfer of funds from the state to individuals, firms, and corporations.\",\n\"policy_impact\": \"This bill directly addresses \\\"claims against the State, its officers, or its employees\\\" (HB990_.HTM.txt) by appropriating funds for their settlement. The measure acknowledges that the \\\"state general fund expenditure ceiling for fiscal year 2024-2025 has already been exceeded\\\" (HB990_.HTM.txt). It justifies further exceeding the ceiling by stating the appropriation is \\\"necessary to serve the public interest and to meet the needs addressed by this Act\\\" (HB990_.HTM.txt).\",\n\"revenue_sources\": \"The funding for these claims is sourced from three separate funds as specified in the legislative document. Part I appropriates funds \\\"out of the general revenues of the State of Hawaii\\\" (HB990_.HTM.txt). Part II appropriates funds \\\"out of the state highway fund\\\" (HB990_.HTM.txt). Part III appropriates funds \\\"out of the judiciary funds\\\" (HB990_.HTM.txt).\",\n\"six_year_fiscal_implications\": \"The appropriations in this Act are specifically for fiscal year 2024-2025 and are not recurring. The bill details numerous one-time payments for specific claims, such as $442,504.75 (HB990_.HTM.txt) for Maui Kupono Builders, LLC, and $460.00 (HB990_.HTM.txt) for Sarah Ann D. Pacheco under miscellaneous claims. From the Department of Land and Natural Resources, claims include $450,000.00 (HB990_.HTM.txt) for Jennifer Reber v. State of Hawaii and $100,000.00 (HB990_.HTM.txt) for a tort claim by Brenda Osmer. From the Department of Transportation, claims include $1,075,000.00 (HB990_.HTM.txt) for Juan Jimmie Aldeguer v. State of Hawaii and $175,000.00 (HB990_.HTM.txt) for the Estate of Bruce Perdue v. State of Hawaii. The Judiciary has a claim of $90,000.00 (HB990_.HTM.txt) for Leanne Rosa v. Randal G.B. Valenciano. The bill states, \\\"All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse\\\" (HB990_.HTM.txt). Consequently, there are no ongoing fiscal implications beyond this lapse date from this specific legislation.\",\n\"operating_revenue_impact\": \"This measure makes appropriations to pay for claims against the State and has no provisions for generating revenue. Therefore, it is not expected to have any impact on the State's operating revenues. The bill is solely an expenditure measure.\",\n\"capital_expenditure_impact\": \"This bill does not include any capital expenditures. The funds are appropriated exclusively for the \\\"purpose of satisfying claims for legislative relief\\\" (HB990_.HTM.txt) through payments of settlements and judgments. No funds are allocated for construction, infrastructure, or other capital investments.\",\n\"fiscal_implications_after_6_years\": \"There are no fiscal implications after the six-year period. The appropriations are for specific, non-recurring liabilities to be paid in fiscal year 2024-2025. Per the bill, any unexpended funds lapse on June 30, 2026, and the Act does not create any ongoing programs or financial commitments.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided.\"\n}"
+              "text": "{\n  \"overview\": \"This is a bill for an act making appropriations for claims against the State, its officers, or its employees. [CHUNK_0] The bill makes appropriations and approves payments for claims against the State, its officers, and its employees for fiscal year 2024-2025. [CHUNK_17] The appropriations are for the purpose of satisfying claims for legislative relief, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities. [CHUNK_2]\",\n  \"appropriations\": \"The legislative document specifies $998,335.75 (HB990_.HTM.txt) is appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for miscellaneous claims and claims against the Department of Land and Natural Resources. [CHUNK_5] The legislative document specifies $1,250,000.00 (HB990_.HTM.txt) is appropriated out of the state highway fund for claims against the Department of Transportation, Highways Division. [CHUNK_8] The legislative document specifies $90,000.00 (HB990_.HTM.txt) is appropriated out of Judiciary funds for a claim against the Judiciary. [CHUNK_11]\",\n  \"assumptions_and_methodology\": \"The appropriations are for specific, named claims against the State. [CHUNK_2] The amounts are set forth opposite the names of the persons, firms, corporations, and entities involved. [CHUNK_2] The sums are for the satisfaction or settlement of the respectively identified cases. [CHUNK_12]\",\n  \"agency_impact\": \"The sums appropriated from general revenues shall be expended by the department of the attorney general. [CHUNK_5] The sums appropriated from the state highway fund shall be expended by the department of transportation, highways division. [CHUNK_8] The sum appropriated from Judiciary funds shall be expended by the Judiciary. [CHUNK_11] All departments shall obtain the approval of the attorney general before payment of any claim may be made. [CHUNK_13]\",\n  \"economic_impact\": \"This measure makes appropriations for the purpose of satisfying claims for legislative relief. [CHUNK_1] Payments are made for judgments or settlements, or other liabilities. [CHUNK_2] The sums may be paid to the respective persons, firms, corporations, or entities for the satisfaction or settlement of the respectively identified cases. [CHUNK_12]\",\n  \"policy_impact\": \"This bill makes appropriations for claims against the State, its officers, or its employees. [CHUNK_0] Payment of interest upon judgments against the State shall be limited to the period from the date of the judgment, if applicable, to thirty days after the effective date of this Act, as provided in section 662-8, Hawaii Revised Statutes. [CHUNK_14] If any provision of this Act is held invalid, the invalidity does not affect other provisions or applications of the Act. [CHUNK_16]\",\n  \"revenue_sources\": \"Part I of the bill appropriates sums out of the general revenues of the State of Hawaii. [CHUNK_1] Part II appropriates sums out of the state highway fund. [CHUNK_6] Part III appropriates sums out of the Judiciary funds. [CHUNK_9]\",\n  \"six_year_fiscal_implications\": \"The appropriations in this bill are for the fiscal year 2024-2025. [CHUNK_1] All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. [CHUNK_15] Part I appropriates $998,335.75 (HB990_.HTM.txt) from general revenues for claims including miscellaneous claims totaling $448,335.75 (HB990_.HTM.txt) and Department of Land and Natural Resources claims totaling $550,000.00 (HB990_.HTM.txt). [CHUNK_4] The miscellaneous claims include payments to Maui Kupono Builders for $442,504.75 (HB990_.HTM.txt), Sarah Ann D. Pacheco for $460.00 (HB990_.HTM.txt), and Kiyoji Tanimura for $5,371.00 (HB990_.HTM.txt). [CHUNK_3] The Department of Land and Natural Resources claims include a settlement for Jennifer Reber for $450,000.00 (HB990_.HTM.txt) and a tort claim for Brenda Osmer for $100,000.00 (HB990_.HTM.txt). [CHUNK_4] Part II appropriates a total of $1,250,000.00 (HB990_.HTM.txt) from the state highway fund for claims against the Department of Transportation, Highways Division. [CHUNK_8] This includes a settlement for Juan Jimmie Lee Aldeguer for $1,075,000.00 (HB990_.HTM.txt) and a settlement for the Estate of Bruce Perdue for $175,000.00 (HB990_.HTM.txt). [CHUNK_8] Part III appropriates a total of $90,000.00 (HB990_.HTM.txt) from Judiciary funds for a settlement in the case of Leanne Rosa v. Randall G.B. Valenciano. [CHUNK_11] These are one-time appropriations and do not imply recurring costs in the subsequent five years. [CHUNK_15]\",\n  \"operating_revenue_impact\": \"This measure makes appropriations to pay for claims and does not generate revenue. [CHUNK_0] The bill appropriates funds out of general revenues, the state highway fund, and Judiciary funds. [CHUNK_1] No impact on operating revenues is anticipated. [CHUNK_18]\",\n  \"capital_expenditure_impact\": \"This bill makes appropriations for claims against the State, its officers, or its employees. [CHUNK_0] The funds are for payments of judgments or settlements, or other liabilities. [CHUNK_6] There are no capital expenditures identified in this measure. [CHUNK_18]\",\n  \"fiscal_implications_after_6_years\": \"There are no fiscal implications after the six-year period. [CHUNK_15] All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. [CHUNK_15] These appropriations are for specific claims for fiscal year 2024-2025 and are not recurring. [CHUNK_1]\",\n  \"updates_from_previous_fiscal_note\": \"A previous fiscal note was not provided.\"\n}"
             }
           ]
         },
@@ -35,964 +35,13 @@
         "safety_ratings": []
       }
     ],
-    "sentence_attribution_analysis": {
-      "sentence_attributions": [
-        {
-          "sentence": "{\n\"overview\": \"This bill makes appropriations for claims against the State, its officers, or its employees for the fiscal year 2024-2025",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The scope is to satisfy claims for legislative relief for various named persons, firms, corporations, and entities",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.6363636363636364,
-          "attribution_reason": "Word frequency match score: 0.636",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Key components include payments for judgments, settlements, overpayment of taxes, refunds, and other liabilities, with a lapse date for unexpended funds set for June 30, 2026",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3684210526315789,
-          "attribution_reason": "Word frequency match score: 0.368",
-          "numbers_found": [
-            30.0
-          ]
-        },
-        {
-          "sentence": "\",\n\"appropriations\": \"For fiscal year 2024-2025, the legislative document specifies appropriations of $5,158,867",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.4,
-          "attribution_reason": "Word frequency match score: 0.400",
-          "numbers_found": [
-            5158867.0
-          ]
-        },
-        {
-          "sentence": "07 (HB990_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            7.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) from the general revenues, $1,250,000",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.16666666666666666,
-          "attribution_reason": "Word frequency match score: 0.167",
-          "numbers_found": [
-            1250000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) from the state highway fund, and $90,000",
-          "attributed_chunk_id": "NUMBER_90000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.14285714285714285,
-          "attribution_reason": "Number $90,000 from HB990_.HTM.txt (score: 0.143)",
-          "numbers_found": [
-            90000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) from judiciary funds",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.4,
-          "attribution_reason": "Word frequency match score: 0.400",
-          "numbers_found": []
-        },
-        {
-          "sentence": "These funds are for the purpose of satisfying claims, judgments, and settlements against the State",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.625,
-          "attribution_reason": "Word frequency match score: 0.625",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The sums are to be expended by the department of the attorney general, the department of transportation's highways division, and the judiciary, respectively",
-          "attributed_chunk_id": 11,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.45454545454545453,
-          "attribution_reason": "Word frequency match score: 0.455",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"assumptions_and_methodology\": \"The financial projections are based on specific, itemized claims against the state that have been resolved through judgments or settlements",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.38461538461538464,
-          "attribution_reason": "Word frequency match score: 0.385",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The methodology involves appropriating the exact amounts required for \\\"payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names\\\" in the bill (HB990_",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5789473684210527,
-          "attribution_reason": "Word frequency match score: 0.579",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt). Therefore, the costs are not estimates but are predetermined liabilities that the State is legally obligated to pay",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"agency_impact\": \"The department of the attorney general is responsible for expending the $5,158,867",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.42857142857142855,
-          "attribution_reason": "Word frequency match score: 0.429",
-          "numbers_found": [
-            5158867.0
-          ]
-        },
-        {
-          "sentence": "07 (HB990_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            7.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) appropriated from general revenues",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Word frequency match score: 0.500",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The department of transportation, highways division, will expend the $1,250,000",
-          "attributed_chunk_id": "NUMBER_1250000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.6666666666666666,
-          "attribution_reason": "Number $1,250,000 from HB990_.HTM.txt (score: 0.667)",
-          "numbers_found": [
-            1250000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) appropriated from the state highway fund",
-          "attributed_chunk_id": 12,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5714285714285714,
-          "attribution_reason": "Word frequency match score: 0.571",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The judiciary is tasked with expending the $90,000",
-          "attributed_chunk_id": "NUMBER_90000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.25,
-          "attribution_reason": "Number $90,000 from HB990_.HTM.txt (score: 0.250)",
-          "numbers_found": [
-            90000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) appropriated from judiciary funds",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Word frequency match score: 0.500",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"economic_impact\": \"The measure addresses outstanding financial obligations by providing \\\"payments of judgments or settlements, or other liabilities\\\" (HB990_",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3076923076923077,
-          "attribution_reason": "Word frequency match score: 0.308",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt) to various parties",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "This action provides \\\"legislative relief\\\" (HB990_",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.4,
-          "attribution_reason": "Word frequency match score: 0.400",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt) to the claimants and finalizes the State's liabilities in these specific cases",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The payments represent a transfer of funds from the state to individuals, firms, and corporations",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Word frequency match score: 0.333",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"policy_impact\": \"This bill directly addresses \\\"claims against the State, its officers, or its employees\\\" (HB990_",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt) by appropriating funds for their settlement",
-          "attributed_chunk_id": 17,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Word frequency match score: 0.333",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The measure acknowledges that the \\\"state general fund expenditure ceiling for fiscal year 2024-2025 has already been exceeded\\\" (HB990_",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.42857142857142855,
-          "attribution_reason": "Word frequency match score: 0.429",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt). It justifies further exceeding the ceiling by stating the appropriation is \\\"necessary to serve the public interest and to meet the needs addressed by this Act\\\" (HB990_",
-          "attributed_chunk_id": 12,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.11764705882352941,
-          "attribution_reason": "Word frequency match score: 0.118",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt). \",\n\"revenue_sources\": \"The funding for these claims is sourced from three separate funds as specified in the legislative document",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.23076923076923078,
-          "attribution_reason": "Word frequency match score: 0.231",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Part I appropriates funds \\\"out of the general revenues of the State of Hawaii\\\" (HB990_",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.6666666666666666,
-          "attribution_reason": "Word frequency match score: 0.667",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt). Part II appropriates funds \\\"out of the state highway fund\\\" (HB990_",
-          "attributed_chunk_id": 12,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Word frequency match score: 0.500",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt). Part III appropriates funds \\\"out of the judiciary funds\\\" (HB990_",
-          "attributed_chunk_id": 15,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3,
-          "attribution_reason": "Word frequency match score: 0.300",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt). \",\n\"six_year_fiscal_implications\": \"The appropriations in this Act are specifically for fiscal year 2024-2025 and are not recurring",
-          "attributed_chunk_id": 12,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.4166666666666667,
-          "attribution_reason": "Word frequency match score: 0.417",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The bill details numerous one-time payments for specific claims, such as $442,504",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": [
-            442504.0
-          ]
-        },
-        {
-          "sentence": "75 (HB990_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            75.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for Maui Kupono Builders, LLC, and $460",
-          "attributed_chunk_id": "NUMBER_460",
-          "attribution_method": "number_based",
-          "attribution_score": 0.2857142857142857,
-          "attribution_reason": "Number $460 from HB990_.HTM.txt (score: 0.286)",
-          "numbers_found": [
-            460.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for Sarah Ann D",
-          "attributed_chunk_id": 4,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Word frequency match score: 0.500",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Pacheco under miscellaneous claims",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Word frequency match score: 0.500",
-          "numbers_found": []
-        },
-        {
-          "sentence": "From the Department of Land and Natural Resources, claims include $450,000",
-          "attributed_chunk_id": "NUMBER_450000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Number $450,000 from HB990_.HTM.txt (score: 0.500)",
-          "numbers_found": [
-            450000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for Jennifer Reber v",
-          "attributed_chunk_id": 9,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Word frequency match score: 0.500",
-          "numbers_found": []
-        },
-        {
-          "sentence": "State of Hawaii and $100,000",
-          "attributed_chunk_id": "NUMBER_100000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Number $100,000 from HB990_.HTM.txt (score: 0.333)",
-          "numbers_found": [
-            100000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for a tort claim by Brenda Osmer",
-          "attributed_chunk_id": 9,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.6666666666666666,
-          "attribution_reason": "Word frequency match score: 0.667",
-          "numbers_found": []
-        },
-        {
-          "sentence": "From the Department of Transportation, claims include $1,075,000",
-          "attributed_chunk_id": "NUMBER_1075000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Number $1,075,000 from HB990_.HTM.txt (score: 0.500)",
-          "numbers_found": [
-            1075000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for Juan Jimmie Aldeguer v",
-          "attributed_chunk_id": 14,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.6,
-          "attribution_reason": "Word frequency match score: 0.600",
-          "numbers_found": []
-        },
-        {
-          "sentence": "State of Hawaii and $175,000",
-          "attributed_chunk_id": "NUMBER_175000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Number $175,000 from HB990_.HTM.txt (score: 0.333)",
-          "numbers_found": [
-            175000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for the Estate of Bruce Perdue v",
-          "attributed_chunk_id": 14,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.6,
-          "attribution_reason": "Word frequency match score: 0.600",
-          "numbers_found": []
-        },
-        {
-          "sentence": "State of Hawaii",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The Judiciary has a claim of $90,000",
-          "attributed_chunk_id": "NUMBER_90000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Number $90,000 from HB990_.HTM.txt (score: 0.333)",
-          "numbers_found": [
-            90000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for Leanne Rosa v",
-          "attributed_chunk_id": 17,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Word frequency match score: 0.500",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Randal G",
-          "attributed_chunk_id": 17,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": []
-        },
-        {
-          "sentence": "B. Valenciano",
-          "attributed_chunk_id": 17,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The bill states, \\\"All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse\\\" (HB990_",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": [
-            30.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt). Consequently, there are no ongoing fiscal implications beyond this lapse date from this specific legislation",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.07692307692307693,
-          "attribution_reason": "Word frequency match score: 0.077",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"operating_revenue_impact\": \"This measure makes appropriations to pay for claims against the State and has no provisions for generating revenue",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Therefore, it is not expected to have any impact on the State's operating revenues",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.25,
-          "attribution_reason": "Word frequency match score: 0.250",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The bill is solely an expenditure measure",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"capital_expenditure_impact\": \"This bill does not include any capital expenditures",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The funds are appropriated exclusively for the \\\"purpose of satisfying claims for legislative relief\\\" (HB990_",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.7777777777777778,
-          "attribution_reason": "Word frequency match score: 0.778",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt) through payments of settlements and judgments",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Word frequency match score: 0.500",
-          "numbers_found": []
-        },
-        {
-          "sentence": "No funds are allocated for construction, infrastructure, or other capital investments",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.2857142857142857,
-          "attribution_reason": "Word frequency match score: 0.286",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"fiscal_implications_after_6_years\": \"There are no fiscal implications after the six-year period",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.25,
-          "attribution_reason": "Word frequency match score: 0.250",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The appropriations are for specific, non-recurring liabilities to be paid in fiscal year 2024-2025",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.4,
-          "attribution_reason": "Word frequency match score: 0.400",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Per the bill, any unexpended funds lapse on June 30, 2026, and the Act does not create any ongoing programs or financial commitments",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": [
-            30.0
-          ]
-        },
-        {
-          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.2,
-          "attribution_reason": "Word frequency match score: 0.200",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\"\n}.",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": []
-        }
-      ],
-      "chunk_usage_stats": {
-        "0": {
-          "usage_count": 12,
-          "document_name": "HB990",
-          "attribution_reasons": [
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)"
-          ]
-        },
-        "1": {
-          "usage_count": 11,
-          "document_name": "HB990",
-          "attribution_reasons": [
-            "Word frequency match score: 0.400",
-            "Word frequency match score: 0.167",
-            "Word frequency match score: 0.429",
-            "Word frequency match score: 0.500",
-            "Word frequency match score: 0.429",
-            "Word frequency match score: 0.667",
-            "Word frequency match score: 0.077",
-            "Word frequency match score: 0.250",
-            "Word frequency match score: 0.250",
-            "Word frequency match score: 0.400",
-            "Word frequency match score: 0.200"
-          ]
-        },
-        "2": {
-          "usage_count": 5,
-          "document_name": "HB990",
-          "attribution_reasons": [
-            "Word frequency match score: 0.636",
-            "Word frequency match score: 0.368",
-            "Word frequency match score: 0.308",
-            "Word frequency match score: 0.400",
-            "Word frequency match score: 0.333"
-          ]
-        },
-        "3": {
-          "usage_count": 4,
-          "document_name": "HB990",
-          "attribution_reasons": [
-            "Word frequency match score: 0.385",
-            "Word frequency match score: 0.579",
-            "Word frequency match score: 0.500",
-            "Word frequency match score: 0.500"
-          ]
-        },
-        "4": {
-          "usage_count": 1,
-          "document_name": "HB990",
-          "attribution_reasons": [
-            "Word frequency match score: 0.500"
-          ]
-        },
-        "5": {
-          "usage_count": 0,
-          "document_name": "HB990",
-          "attribution_reasons": []
-        },
-        "6": {
-          "usage_count": 0,
-          "document_name": "HB990",
-          "attribution_reasons": []
-        },
-        "7": {
-          "usage_count": 0,
-          "document_name": "HB990",
-          "attribution_reasons": []
-        },
-        "8": {
-          "usage_count": 0,
-          "document_name": "HB990",
-          "attribution_reasons": []
-        },
-        "9": {
-          "usage_count": 2,
-          "document_name": "HB990",
-          "attribution_reasons": [
-            "Word frequency match score: 0.500",
-            "Word frequency match score: 0.667"
-          ]
-        },
-        "10": {
-          "usage_count": 0,
-          "document_name": "HB990",
-          "attribution_reasons": []
-        },
-        "11": {
-          "usage_count": 1,
-          "document_name": "HB990",
-          "attribution_reasons": [
-            "Word frequency match score: 0.455"
-          ]
-        },
-        "12": {
-          "usage_count": 4,
-          "document_name": "HB990",
-          "attribution_reasons": [
-            "Word frequency match score: 0.571",
-            "Word frequency match score: 0.118",
-            "Word frequency match score: 0.500",
-            "Word frequency match score: 0.417"
-          ]
-        },
-        "13": {
-          "usage_count": 0,
-          "document_name": "HB990",
-          "attribution_reasons": []
-        },
-        "14": {
-          "usage_count": 2,
-          "document_name": "HB990",
-          "attribution_reasons": [
-            "Word frequency match score: 0.600",
-            "Word frequency match score: 0.600"
-          ]
-        },
-        "15": {
-          "usage_count": 1,
-          "document_name": "HB990",
-          "attribution_reasons": [
-            "Word frequency match score: 0.300"
-          ]
-        },
-        "16": {
-          "usage_count": 6,
-          "document_name": "HB990",
-          "attribution_reasons": [
-            "Word frequency match score: 0.400",
-            "Word frequency match score: 0.625",
-            "Word frequency match score: 0.500",
-            "Word frequency match score: 0.231",
-            "Word frequency match score: 0.778",
-            "Word frequency match score: 0.286"
-          ]
-        },
-        "17": {
-          "usage_count": 4,
-          "document_name": "HB990",
-          "attribution_reasons": [
-            "Word frequency match score: 0.333",
-            "Word frequency match score: 0.500",
-            "Word frequency match score: 1.000",
-            "Word frequency match score: 1.000"
-          ]
-        },
-        "18": {
-          "usage_count": 0,
-          "document_name": "HB990",
-          "attribution_reasons": []
-        },
-        "NUMBER_442504.75": {
-          "usage_count": 0,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_460.0": {
-          "usage_count": 0,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_5371.0": {
-          "usage_count": 0,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_448335.75": {
-          "usage_count": 0,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_450000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_100000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_550000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_998335.75": {
-          "usage_count": 0,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_1075000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_175000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_1250000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_90000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_90000": {
-          "usage_count": 3,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": [
-            "Number $90,000 from HB990_.HTM.txt (score: 0.143)",
-            "Number $90,000 from HB990_.HTM.txt (score: 0.250)",
-            "Number $90,000 from HB990_.HTM.txt (score: 0.333)"
-          ]
-        },
-        "NUMBER_1250000": {
-          "usage_count": 1,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": [
-            "Number $1,250,000 from HB990_.HTM.txt (score: 0.667)"
-          ]
-        },
-        "NUMBER_460": {
-          "usage_count": 1,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": [
-            "Number $460 from HB990_.HTM.txt (score: 0.286)"
-          ]
-        },
-        "NUMBER_450000": {
-          "usage_count": 1,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": [
-            "Number $450,000 from HB990_.HTM.txt (score: 0.500)"
-          ]
-        },
-        "NUMBER_100000": {
-          "usage_count": 1,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": [
-            "Number $100,000 from HB990_.HTM.txt (score: 0.333)"
-          ]
-        },
-        "NUMBER_1075000": {
-          "usage_count": 1,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": [
-            "Number $1,075,000 from HB990_.HTM.txt (score: 0.500)"
-          ]
-        },
-        "NUMBER_175000": {
-          "usage_count": 1,
-          "document_name": "HB990_.HTM.txt",
-          "attribution_reasons": [
-            "Number $175,000 from HB990_.HTM.txt (score: 0.333)"
-          ]
-        }
-      },
-      "attribution_method_stats": {
-        "document_citation_based": 0,
-        "number_based": 9,
-        "word_frequency_based": 41,
-        "semantic_similarity": 0,
-        "fallback": 12,
-        "no_attribution": 14
-      }
-    },
     "chunks_metadata": {
       "total_chunks": 19,
       "chunk_details": [
         {
           "chunk_id": 0,
           "document_name": "HB990",
-          "chunk_text": "HB990 HD2 HOUSE OF REPRESENTATIVES H.B. NO. 990 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. The following",
+          "chunk_text": "HB990 HOUSE OF REPRESENTATIVES H.B. NO. 990 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. The following sums or so",
           "start_word": 0,
           "end_word": 50,
           "word_count": 50
@@ -1000,7 +49,7 @@
         {
           "chunk_id": 1,
           "document_name": "HB990",
-          "chunk_text": "THE STATE OF HAWAII: PART I SECTION 1. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for the purpose of satisfying claims for legislative",
+          "chunk_text": "HAWAII: PART I SECTION 1. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for the purpose of satisfying claims for legislative relief as to",
           "start_word": 40,
           "end_word": 90,
           "word_count": 50
@@ -1008,7 +57,7 @@
         {
           "chunk_id": 2,
           "document_name": "HB990",
-          "chunk_text": "attorney general for the purpose of satisfying claims for legislative relief as to the following named persons, firms, corporations, and entities, for claims against the State or its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the",
+          "chunk_text": "the purpose of satisfying claims for legislative relief as to the following named persons, firms, corporations, and entities, for claims against the State or its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth",
           "start_word": 80,
           "end_word": 130,
           "word_count": 50
@@ -1016,7 +65,7 @@
         {
           "chunk_id": 3,
           "document_name": "HB990",
-          "chunk_text": "payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176)",
+          "chunk_text": "or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Maui Kupono Builders $ 442,504.75 Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 448,335.75 2.",
           "start_word": 120,
           "end_word": 170,
           "word_count": 50
@@ -1024,7 +73,7 @@
         {
           "chunk_id": 4,
           "document_name": "HB990",
-          "chunk_text": "S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 712,734.22 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________",
+          "chunk_text": "Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 448,335.75 2. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii, $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 TOTAL (SECTION 1): $ 998,335.75 The sums appropriated shall",
           "start_word": 160,
           "end_word": 210,
           "word_count": 50
@@ -1032,7 +81,7 @@
         {
           "chunk_id": 5,
           "document_name": "HB990",
-          "chunk_text": "Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Settlement) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF DEFENSE: James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 18-1-1897-11 VLC, First Circuit (Settlement) Paul Aker v. Hawaii Emergency Management $ 5,000.00 Agency (Settlement) Civil No. 2CCV-23-0000378, Second Circuit ______________ SUBTOTAL:",
+          "chunk_text": "550,000.00 TOTAL (SECTION 1): $ 998,335.75 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the state",
           "start_word": 200,
           "end_word": 250,
           "word_count": 50
@@ -1040,7 +89,7 @@
         {
           "chunk_id": 6,
           "document_name": "HB990",
-          "chunk_text": "5,000.00 Agency (Settlement) Civil No. 2CCV-23-0000378, Second Circuit ______________ SUBTOTAL: $ 280,000.00 4. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil No. 1CCV-20-0000549, First Circuit (Settlement) Child Evangelism Fellowship of Hawaii, $ 100,000.00 Inc. v. Hawaii State Department of Education (Settlement) Civil No. 24-cv-00034",
+          "chunk_text": "for fiscal year 2024-2025 are appropriated out of the state highway fund for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set",
           "start_word": 240,
           "end_word": 290,
           "word_count": 50
@@ -1048,7 +97,7 @@
         {
           "chunk_id": 7,
           "document_name": "HB990",
-          "chunk_text": "v. Hawaii State Department of Education (Settlement) Civil No. 24-cv-00034 MWJS-WRP, USDC Brenda Persinger, Individually and as a $ 1,750,000.00 Personal Representative of the Estate of (Settlement) Michael Ambrose, Deceased v. State of Hawaii, Department of Education Civil No. 3CCV-22-0000337, First Circuit Jake Ferreira v. State of Hawaii, $ 75,000.00",
+          "chunk_text": "judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: DEPARTMENT OF TRANSPORTATION, HIGHWAYS DIVISION: Juan Jimmie Lee Aldeguer v. $ 1,075,000.00 Todd I. Sonoda, (Settlement) Civil No. 1CCV-21-0000052, First Circuit Estate of Bruce Perdue v. $",
           "start_word": 280,
           "end_word": 330,
           "word_count": 50
@@ -1056,7 +105,7 @@
         {
           "chunk_id": 8,
           "document_name": "HB990",
-          "chunk_text": "First Circuit Jake Ferreira v. State of Hawaii, $ 75,000.00 Department of Education (Settlement) Civil No. 1CCV-23-0000874, First Circuit Katherine Balatico v. State of Hawaii $ 150,000.00 Civil No. 22-cv-0415-LEK-KJM, USDC (Settlement) ______________ SUBTOTAL: $ 2,405,000.00 5. DEPARTMENT OF HAWAIIAN HOME LANDS: Royal Contracting Company, Ltd. v. $ 400,000.00 Department",
+          "chunk_text": "No. 1CCV-21-0000052, First Circuit Estate of Bruce Perdue v. $ 175,000.00 State of Hawaii, (Settlement) Civil No. 5CC131000351, Fifth Circuit ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III",
           "start_word": 320,
           "end_word": 370,
           "word_count": 50
@@ -1064,7 +113,7 @@
         {
           "chunk_id": 9,
           "document_name": "HB990",
-          "chunk_text": "HOME LANDS: Royal Contracting Company, Ltd. v. $ 400,000.00 Department of Hawaiian Home Lands (Settlement) Civil No. 1CCV-16-1760-09, First Circuit ______________ SUBTOTAL: $ 400,000.00 6. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $",
+          "chunk_text": "highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the Judiciary funds for the purpose of satisfying claims for legislative relief as to the following named persons, for",
           "start_word": 360,
           "end_word": 410,
           "word_count": 50
@@ -1072,7 +121,7 @@
         {
           "chunk_id": 10,
           "document_name": "HB990",
-          "chunk_text": "No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 7. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First Circuit (Settlement) ______________ SUBTOTAL: $ 750,000.00 8. DEPARTMENT OF TAXATION: Deborah Kwan v. State of Hawaii $",
+          "chunk_text": "for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randall",
           "start_word": 400,
           "end_word": 450,
           "word_count": 50
@@ -1080,7 +129,7 @@
         {
           "chunk_id": 11,
           "document_name": "HB990",
-          "chunk_text": "DEPARTMENT OF TAXATION: Deborah Kwan v. State of Hawaii $ 32,632.85 Civil No. 1CCV-21-0000424, First Circuit (Settlement) ______________ SUBTOTAL: $ 32,632.85 TOTAL (SECTION 1): $ 5,158,867.07 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The",
+          "chunk_text": "AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randall G.B. Valenciano $ 90,000.00 Civil No. 23-CV-00315-JAO-WRP, USDC (Settlement) ______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the Judiciary for the purposes of this Act. PART IV SECTION 4. The sums hereinabove",
           "start_word": 440,
           "end_word": 490,
           "word_count": 50
@@ -1088,7 +137,7 @@
         {
           "chunk_id": 12,
           "document_name": "HB990",
-          "chunk_text": "the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the state highway fund for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against",
+          "chunk_text": "of this Act. PART IV SECTION 4. The sums hereinabove may be paid to the respective persons, firms, corporations, or entities for the satisfaction or settlement of the respectively identified cases, and in several amounts hereinabove set forth or in lesser amounts deemed appropriate, upon checks issued by the comptroller;",
           "start_word": 480,
           "end_word": 530,
           "word_count": 50
@@ -1096,7 +145,7 @@
         {
           "chunk_id": 13,
           "document_name": "HB990",
-          "chunk_text": "relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: DEPARTMENT OF TRANSPORTATION, HIGHWAYS DIVISION: Juan Jimmie",
+          "chunk_text": "lesser amounts deemed appropriate, upon checks issued by the comptroller; provided that departments shall obtain the approval of the attorney general before payment of any claim may be made. SECTION 5. Notwithstanding the sums hereinabove stated as interest upon judgments against the State, payment of interest shall be limited to",
           "start_word": 520,
           "end_word": 570,
           "word_count": 50
@@ -1104,7 +153,7 @@
         {
           "chunk_id": 14,
           "document_name": "HB990",
-          "chunk_text": "SETTLEMENTS OF CLAIMS: DEPARTMENT OF TRANSPORTATION, HIGHWAYS DIVISION: Juan Jimmie Aldeguer v. State of Hawaii $ 1,075,000.00 Civil No. 1CCV-21-0000052, First Circuit (Settlement) Estate of Bruce Perdue v. State of Hawaii $ 175,000.00 Civil No. 5CC131000351, Fifth Circuit (Settlement) ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums",
+          "chunk_text": "against the State, payment of interest shall be limited to the period from the date of the judgment, if applicable, to thirty days after the effective date of this Act, as provided in section 662-8, Hawaii Revised Statutes, for those cases to which the statute applies. SECTION 6. All unexpended",
           "start_word": 560,
           "end_word": 610,
           "word_count": 50
@@ -1112,7 +161,7 @@
         {
           "chunk_id": 15,
           "document_name": "HB990",
-          "chunk_text": "SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of",
+          "chunk_text": "cases to which the statute applies. SECTION 6. All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. SECTION 7. If any provision of this Act, or the application thereof to any person or circumstance, is",
           "start_word": 600,
           "end_word": 650,
           "word_count": 50
@@ -1120,7 +169,7 @@
         {
           "chunk_id": 16,
           "document_name": "HB990",
-          "chunk_text": "be necessary for fiscal year 2024-2025 are appropriated out of the judiciary funds for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in the amount",
+          "chunk_text": "or the application thereof to any person or circumstance, is held invalid, the invalidity does not affect other provisions or applications of the Act that can be given effect without the invalid provision or application, and to this end the provisions of this Act are severable. SECTION 8. This Act",
           "start_word": 640,
           "end_word": 690,
           "word_count": 50
@@ -1128,7 +177,7 @@
         {
           "chunk_id": 17,
           "document_name": "HB990",
-          "chunk_text": "of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randal G.B. Valenciano $ 90,000.00 Civil No. 23-CV-00315-JAO-WRP, USDC (Settlement) ______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated",
+          "chunk_text": "provisions of this Act are severable. SECTION 8. This Act shall take effect upon its approval. INTRODUCED BY: _____________________________ BY REQUEST Report Title: Claims Against the State; Appropriations Description: Makes appropriations and approves payments for claims against the State, its officers, and its employees. The summary description of legislation appearing",
           "start_word": 680,
           "end_word": 730,
           "word_count": 50
@@ -1136,10 +185,10 @@
         {
           "chunk_id": 18,
           "document_name": "HB990",
-          "chunk_text": "$ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the judiciary for the purposes of this",
+          "chunk_text": "officers, and its employees. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
           "start_word": 720,
-          "end_word": 741,
-          "word_count": 21
+          "end_word": 747,
+          "word_count": 27
         }
       ]
     },
@@ -1324,8 +373,675 @@
         "filename": "HB990_.HTM.txt",
         "document_type": "document"
       }
+    ],
+    "chunk_text_map": {
+      "1": [
+        {
+          "chunk_text": "HB990 HOUSE OF REPRESENTATIVES H.B. NO. 990 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. The following sums or so",
+          "chunk_id": 0,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "provisions of this Act are severable. SECTION 8. This Act shall take effect upon its approval. INTRODUCED BY: _____________________________ BY REQUEST Report Title: Claims Against the State; Appropriations Description: Makes appropriations and approves payments for claims against the State, its officers, and its employees. The summary description of legislation appearing",
+          "chunk_id": 17,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "the purpose of satisfying claims for legislative relief as to the following named persons, firms, corporations, and entities, for claims against the State or its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth",
+          "chunk_id": 2,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "550,000.00 TOTAL (SECTION 1): $ 998,335.75 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the state",
+          "chunk_id": 5,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "No. 1CCV-21-0000052, First Circuit Estate of Bruce Perdue v. $ 175,000.00 State of Hawaii, (Settlement) Civil No. 5CC131000351, Fifth Circuit ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III",
+          "chunk_id": 8,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randall G.B. Valenciano $ 90,000.00 Civil No. 23-CV-00315-JAO-WRP, USDC (Settlement) ______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the Judiciary for the purposes of this Act. PART IV SECTION 4. The sums hereinabove",
+          "chunk_id": 11,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "of this Act. PART IV SECTION 4. The sums hereinabove may be paid to the respective persons, firms, corporations, or entities for the satisfaction or settlement of the respectively identified cases, and in several amounts hereinabove set forth or in lesser amounts deemed appropriate, upon checks issued by the comptroller;",
+          "chunk_id": 12,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "lesser amounts deemed appropriate, upon checks issued by the comptroller; provided that departments shall obtain the approval of the attorney general before payment of any claim may be made. SECTION 5. Notwithstanding the sums hereinabove stated as interest upon judgments against the State, payment of interest shall be limited to",
+          "chunk_id": 13,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "HAWAII: PART I SECTION 1. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for the purpose of satisfying claims for legislative relief as to",
+          "chunk_id": 1,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "against the State, payment of interest shall be limited to the period from the date of the judgment, if applicable, to thirty days after the effective date of this Act, as provided in section 662-8, Hawaii Revised Statutes, for those cases to which the statute applies. SECTION 6. All unexpended",
+          "chunk_id": 14,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "or the application thereof to any person or circumstance, is held invalid, the invalidity does not affect other provisions or applications of the Act that can be given effect without the invalid provision or application, and to this end the provisions of this Act are severable. SECTION 8. This Act",
+          "chunk_id": 16,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "for fiscal year 2024-2025 are appropriated out of the state highway fund for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set",
+          "chunk_id": 6,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the Judiciary funds for the purpose of satisfying claims for legislative relief as to the following named persons, for",
+          "chunk_id": 9,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "cases to which the statute applies. SECTION 6. All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. SECTION 7. If any provision of this Act, or the application thereof to any person or circumstance, is",
+          "chunk_id": 15,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 448,335.75 2. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii, $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 TOTAL (SECTION 1): $ 998,335.75 The sums appropriated shall",
+          "chunk_id": 4,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Maui Kupono Builders $ 442,504.75 Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 448,335.75 2.",
+          "chunk_id": 3,
+          "document_name": "HB990"
+        },
+        {
+          "chunk_text": "officers, and its employees. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+          "chunk_id": 18,
+          "document_name": "HB990"
+        }
+      ]
+    },
+    "document_mapping": {
+      "HB990": 1,
+      "HB990_TESTIMONY_JHA_02-12-25_": 2,
+      "HB990_HD1": 3,
+      "HB990_HD1_HSCR686_": 4,
+      "HB990_HD1_TESTIMONY_FIN_02-25-25_": 5,
+      "HB990_HD2": 6,
+      "HB990_HD2_HSCR1146_": 7,
+      "HB990_HD2_TESTIMONY_JDC_03-13-25_": 8,
+      "HB990_SD1": 9,
+      "HB990_SD1_SSCR1165_": 10,
+      "HB990_SD1_TESTIMONY_WAM_04-01-25_": 11,
+      "HB990_SD1_SSCR1686_": 12,
+      "HB990_CD1": 13,
+      "HB990_CD1_CCR132_": 14
+    },
+    "sentence_chunk_mapping": [
+      {
+        "section": "overview",
+        "sentence": "This is a bill for an act making appropriations for claims against the State, its officers, or its employees.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB990 HOUSE OF REPRESENTATIVES H.B. NO. 990 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. The following sums or so",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "The bill makes appropriations and approves payments for claims against the State, its officers, and its employees for fiscal year 2024-2025.",
+        "chunks": [
+          {
+            "chunk_id": 17,
+            "citation_number": 1,
+            "chunk_text": "provisions of this Act are severable. SECTION 8. This Act shall take effect upon its approval. INTRODUCED BY: _____________________________ BY REQUEST Report Title: Claims Against the State; Appropriations Description: Makes appropriations and approves payments for claims against the State, its officers, and its employees. The summary description of legislation appearing",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "The appropriations are for the purpose of satisfying claims for legislative relief, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities.",
+        "chunks": [
+          {
+            "chunk_id": 2,
+            "citation_number": 1,
+            "chunk_text": "the purpose of satisfying claims for legislative relief as to the following named persons, firms, corporations, and entities, for claims against the State or its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The legislative document specifies $998,335.75 (HB990_.HTM.txt) is appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for miscellaneous claims and claims against the Department of Land and Natural Resources.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 1,
+            "chunk_text": "550,000.00 TOTAL (SECTION 1): $ 998,335.75 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the state",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The legislative document specifies $1,250,000.00 (HB990_.HTM.txt) is appropriated out of the state highway fund for claims against the Department of Transportation, Highways Division.",
+        "chunks": [
+          {
+            "chunk_id": 8,
+            "citation_number": 1,
+            "chunk_text": "No. 1CCV-21-0000052, First Circuit Estate of Bruce Perdue v. $ 175,000.00 State of Hawaii, (Settlement) Civil No. 5CC131000351, Fifth Circuit ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The legislative document specifies $90,000.00 (HB990_.HTM.txt) is appropriated out of Judiciary funds for a claim against the Judiciary.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randall G.B. Valenciano $ 90,000.00 Civil No. 23-CV-00315-JAO-WRP, USDC (Settlement) ______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the Judiciary for the purposes of this Act. PART IV SECTION 4. The sums hereinabove",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The appropriations are for specific, named claims against the State.",
+        "chunks": [
+          {
+            "chunk_id": 2,
+            "citation_number": 1,
+            "chunk_text": "the purpose of satisfying claims for legislative relief as to the following named persons, firms, corporations, and entities, for claims against the State or its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The amounts are set forth opposite the names of the persons, firms, corporations, and entities involved.",
+        "chunks": [
+          {
+            "chunk_id": 2,
+            "citation_number": 1,
+            "chunk_text": "the purpose of satisfying claims for legislative relief as to the following named persons, firms, corporations, and entities, for claims against the State or its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The sums are for the satisfaction or settlement of the respectively identified cases.",
+        "chunks": [
+          {
+            "chunk_id": 12,
+            "citation_number": 1,
+            "chunk_text": "of this Act. PART IV SECTION 4. The sums hereinabove may be paid to the respective persons, firms, corporations, or entities for the satisfaction or settlement of the respectively identified cases, and in several amounts hereinabove set forth or in lesser amounts deemed appropriate, upon checks issued by the comptroller;",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The sums appropriated from general revenues shall be expended by the department of the attorney general.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 1,
+            "chunk_text": "550,000.00 TOTAL (SECTION 1): $ 998,335.75 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the state",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The sums appropriated from the state highway fund shall be expended by the department of transportation, highways division.",
+        "chunks": [
+          {
+            "chunk_id": 8,
+            "citation_number": 1,
+            "chunk_text": "No. 1CCV-21-0000052, First Circuit Estate of Bruce Perdue v. $ 175,000.00 State of Hawaii, (Settlement) Civil No. 5CC131000351, Fifth Circuit ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The sum appropriated from Judiciary funds shall be expended by the Judiciary.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randall G.B. Valenciano $ 90,000.00 Civil No. 23-CV-00315-JAO-WRP, USDC (Settlement) ______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the Judiciary for the purposes of this Act. PART IV SECTION 4. The sums hereinabove",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "All departments shall obtain the approval of the attorney general before payment of any claim may be made.",
+        "chunks": [
+          {
+            "chunk_id": 13,
+            "citation_number": 1,
+            "chunk_text": "lesser amounts deemed appropriate, upon checks issued by the comptroller; provided that departments shall obtain the approval of the attorney general before payment of any claim may be made. SECTION 5. Notwithstanding the sums hereinabove stated as interest upon judgments against the State, payment of interest shall be limited to",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "This measure makes appropriations for the purpose of satisfying claims for legislative relief.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 1,
+            "chunk_text": "HAWAII: PART I SECTION 1. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for the purpose of satisfying claims for legislative relief as to",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "Payments are made for judgments or settlements, or other liabilities.",
+        "chunks": [
+          {
+            "chunk_id": 2,
+            "citation_number": 1,
+            "chunk_text": "the purpose of satisfying claims for legislative relief as to the following named persons, firms, corporations, and entities, for claims against the State or its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "The sums may be paid to the respective persons, firms, corporations, or entities for the satisfaction or settlement of the respectively identified cases.",
+        "chunks": [
+          {
+            "chunk_id": 12,
+            "citation_number": 1,
+            "chunk_text": "of this Act. PART IV SECTION 4. The sums hereinabove may be paid to the respective persons, firms, corporations, or entities for the satisfaction or settlement of the respectively identified cases, and in several amounts hereinabove set forth or in lesser amounts deemed appropriate, upon checks issued by the comptroller;",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "This bill makes appropriations for claims against the State, its officers, or its employees.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB990 HOUSE OF REPRESENTATIVES H.B. NO. 990 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. The following sums or so",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "Payment of interest upon judgments against the State shall be limited to the period from the date of the judgment, if applicable, to thirty days after the effective date of this Act, as provided in section 662-8, Hawaii Revised Statutes.",
+        "chunks": [
+          {
+            "chunk_id": 14,
+            "citation_number": 1,
+            "chunk_text": "against the State, payment of interest shall be limited to the period from the date of the judgment, if applicable, to thirty days after the effective date of this Act, as provided in section 662-8, Hawaii Revised Statutes, for those cases to which the statute applies. SECTION 6. All unexpended",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "If any provision of this Act is held invalid, the invalidity does not affect other provisions or applications of the Act.",
+        "chunks": [
+          {
+            "chunk_id": 16,
+            "citation_number": 1,
+            "chunk_text": "or the application thereof to any person or circumstance, is held invalid, the invalidity does not affect other provisions or applications of the Act that can be given effect without the invalid provision or application, and to this end the provisions of this Act are severable. SECTION 8. This Act",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "Part I of the bill appropriates sums out of the general revenues of the State of Hawaii.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 1,
+            "chunk_text": "HAWAII: PART I SECTION 1. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for the purpose of satisfying claims for legislative relief as to",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "Part II appropriates sums out of the state highway fund.",
+        "chunks": [
+          {
+            "chunk_id": 6,
+            "citation_number": 1,
+            "chunk_text": "for fiscal year 2024-2025 are appropriated out of the state highway fund for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "Part III appropriates sums out of the Judiciary funds.",
+        "chunks": [
+          {
+            "chunk_id": 9,
+            "citation_number": 1,
+            "chunk_text": "highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the Judiciary funds for the purpose of satisfying claims for legislative relief as to the following named persons, for",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The appropriations in this bill are for the fiscal year 2024-2025.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 1,
+            "chunk_text": "HAWAII: PART I SECTION 1. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for the purpose of satisfying claims for legislative relief as to",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse.",
+        "chunks": [
+          {
+            "chunk_id": 15,
+            "citation_number": 1,
+            "chunk_text": "cases to which the statute applies. SECTION 6. All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. SECTION 7. If any provision of this Act, or the application thereof to any person or circumstance, is",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Part I appropriates $998,335.75 (HB990_.HTM.txt) from general revenues for claims including miscellaneous claims totaling $448,335.75 (HB990_.HTM.txt) and Department of Land and Natural Resources claims totaling $550,000.00 (HB990_.HTM.txt).",
+        "chunks": [
+          {
+            "chunk_id": 4,
+            "citation_number": 1,
+            "chunk_text": "Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 448,335.75 2. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii, $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 TOTAL (SECTION 1): $ 998,335.75 The sums appropriated shall",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Pacheco for $460.00 (HB990_.HTM.txt), and Kiyoji Tanimura for $5,371.00 (HB990_.HTM.txt).",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 1,
+            "chunk_text": "or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Maui Kupono Builders $ 442,504.75 Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 448,335.75 2.",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The Department of Land and Natural Resources claims include a settlement for Jennifer Reber for $450,000.00 (HB990_.HTM.txt) and a tort claim for Brenda Osmer for $100,000.00 (HB990_.HTM.txt).",
+        "chunks": [
+          {
+            "chunk_id": 4,
+            "citation_number": 1,
+            "chunk_text": "Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 448,335.75 2. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii, $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 TOTAL (SECTION 1): $ 998,335.75 The sums appropriated shall",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Part II appropriates a total of $1,250,000.00 (HB990_.HTM.txt) from the state highway fund for claims against the Department of Transportation, Highways Division.",
+        "chunks": [
+          {
+            "chunk_id": 8,
+            "citation_number": 1,
+            "chunk_text": "No. 1CCV-21-0000052, First Circuit Estate of Bruce Perdue v. $ 175,000.00 State of Hawaii, (Settlement) Civil No. 5CC131000351, Fifth Circuit ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "This includes a settlement for Juan Jimmie Lee Aldeguer for $1,075,000.00 (HB990_.HTM.txt) and a settlement for the Estate of Bruce Perdue for $175,000.00 (HB990_.HTM.txt).",
+        "chunks": [
+          {
+            "chunk_id": 8,
+            "citation_number": 1,
+            "chunk_text": "No. 1CCV-21-0000052, First Circuit Estate of Bruce Perdue v. $ 175,000.00 State of Hawaii, (Settlement) Civil No. 5CC131000351, Fifth Circuit ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Valenciano.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randall G.B. Valenciano $ 90,000.00 Civil No. 23-CV-00315-JAO-WRP, USDC (Settlement) ______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the Judiciary for the purposes of this Act. PART IV SECTION 4. The sums hereinabove",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "These are one-time appropriations and do not imply recurring costs in the subsequent five years.",
+        "chunks": [
+          {
+            "chunk_id": 15,
+            "citation_number": 1,
+            "chunk_text": "cases to which the statute applies. SECTION 6. All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. SECTION 7. If any provision of this Act, or the application thereof to any person or circumstance, is",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "This measure makes appropriations to pay for claims and does not generate revenue.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB990 HOUSE OF REPRESENTATIVES H.B. NO. 990 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. The following sums or so",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "The bill appropriates funds out of general revenues, the state highway fund, and Judiciary funds.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 1,
+            "chunk_text": "HAWAII: PART I SECTION 1. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for the purpose of satisfying claims for legislative relief as to",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "No impact on operating revenues is anticipated.",
+        "chunks": [
+          {
+            "chunk_id": 18,
+            "citation_number": 1,
+            "chunk_text": "officers, and its employees. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "This bill makes appropriations for claims against the State, its officers, or its employees.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB990 HOUSE OF REPRESENTATIVES H.B. NO. 990 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. The following sums or so",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The funds are for payments of judgments or settlements, or other liabilities.",
+        "chunks": [
+          {
+            "chunk_id": 6,
+            "citation_number": 1,
+            "chunk_text": "for fiscal year 2024-2025 are appropriated out of the state highway fund for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "There are no capital expenditures identified in this measure.",
+        "chunks": [
+          {
+            "chunk_id": 18,
+            "citation_number": 1,
+            "chunk_text": "officers, and its employees. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "There are no fiscal implications after the six-year period.",
+        "chunks": [
+          {
+            "chunk_id": 15,
+            "citation_number": 1,
+            "chunk_text": "cases to which the statute applies. SECTION 6. All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. SECTION 7. If any provision of this Act, or the application thereof to any person or circumstance, is",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse.",
+        "chunks": [
+          {
+            "chunk_id": 15,
+            "citation_number": 1,
+            "chunk_text": "cases to which the statute applies. SECTION 6. All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. SECTION 7. If any provision of this Act, or the application thereof to any person or circumstance, is",
+            "document_name": "HB990"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "These appropriations are for specific claims for fiscal year 2024-2025 and are not recurring.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 1,
+            "chunk_text": "HAWAII: PART I SECTION 1. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for the purpose of satisfying claims for legislative relief as to",
+            "document_name": "HB990"
+          }
+        ]
+      }
     ]
   },
-  "generation_timestamp": "2025-10-10T15:58:11.844470",
-  "generation_timestamp_unix": 1760147891.84448
+  "chunk_mapping": {
+    "HB990": [
+      {
+        "chunk_number": 0,
+        "chunk_text": "HB990 HOUSE OF REPRESENTATIVES H.B. NO. 990 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. The following sums or so"
+      },
+      {
+        "chunk_number": 1,
+        "chunk_text": "HAWAII: PART I SECTION 1. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for the purpose of satisfying claims for legislative relief as to"
+      },
+      {
+        "chunk_number": 2,
+        "chunk_text": "the purpose of satisfying claims for legislative relief as to the following named persons, firms, corporations, and entities, for claims against the State or its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth"
+      },
+      {
+        "chunk_number": 3,
+        "chunk_text": "or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Maui Kupono Builders $ 442,504.75 Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 448,335.75 2."
+      },
+      {
+        "chunk_number": 4,
+        "chunk_text": "Taylor Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 448,335.75 2. DEPARTMENT OF LAND AND NATURAL RESOURCES: Jennifer Reber v. State of Hawaii, $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer (Tort Claim) $ 100,000.00 (Settlement) ______________ SUBTOTAL: $ 550,000.00 TOTAL (SECTION 1): $ 998,335.75 The sums appropriated shall"
+      },
+      {
+        "chunk_number": 5,
+        "chunk_text": "550,000.00 TOTAL (SECTION 1): $ 998,335.75 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the state"
+      },
+      {
+        "chunk_number": 6,
+        "chunk_text": "for fiscal year 2024-2025 are appropriated out of the state highway fund for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set"
+      },
+      {
+        "chunk_number": 7,
+        "chunk_text": "judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: DEPARTMENT OF TRANSPORTATION, HIGHWAYS DIVISION: Juan Jimmie Lee Aldeguer v. $ 1,075,000.00 Todd I. Sonoda, (Settlement) Civil No. 1CCV-21-0000052, First Circuit Estate of Bruce Perdue v. $"
+      },
+      {
+        "chunk_number": 8,
+        "chunk_text": "No. 1CCV-21-0000052, First Circuit Estate of Bruce Perdue v. $ 175,000.00 State of Hawaii, (Settlement) Civil No. 5CC131000351, Fifth Circuit ______________ SUBTOTAL: $ 1,250,000.00 TOTAL (SECTION 2): $ 1,250,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III"
+      },
+      {
+        "chunk_number": 9,
+        "chunk_text": "highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the Judiciary funds for the purpose of satisfying claims for legislative relief as to the following named persons, for"
+      },
+      {
+        "chunk_number": 10,
+        "chunk_text": "for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randall"
+      },
+      {
+        "chunk_number": 11,
+        "chunk_text": "AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randall G.B. Valenciano $ 90,000.00 Civil No. 23-CV-00315-JAO-WRP, USDC (Settlement) ______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the Judiciary for the purposes of this Act. PART IV SECTION 4. The sums hereinabove"
+      },
+      {
+        "chunk_number": 12,
+        "chunk_text": "of this Act. PART IV SECTION 4. The sums hereinabove may be paid to the respective persons, firms, corporations, or entities for the satisfaction or settlement of the respectively identified cases, and in several amounts hereinabove set forth or in lesser amounts deemed appropriate, upon checks issued by the comptroller;"
+      },
+      {
+        "chunk_number": 13,
+        "chunk_text": "lesser amounts deemed appropriate, upon checks issued by the comptroller; provided that departments shall obtain the approval of the attorney general before payment of any claim may be made. SECTION 5. Notwithstanding the sums hereinabove stated as interest upon judgments against the State, payment of interest shall be limited to"
+      },
+      {
+        "chunk_number": 14,
+        "chunk_text": "against the State, payment of interest shall be limited to the period from the date of the judgment, if applicable, to thirty days after the effective date of this Act, as provided in section 662-8, Hawaii Revised Statutes, for those cases to which the statute applies. SECTION 6. All unexpended"
+      },
+      {
+        "chunk_number": 15,
+        "chunk_text": "cases to which the statute applies. SECTION 6. All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. SECTION 7. If any provision of this Act, or the application thereof to any person or circumstance, is"
+      },
+      {
+        "chunk_number": 16,
+        "chunk_text": "or the application thereof to any person or circumstance, is held invalid, the invalidity does not affect other provisions or applications of the Act that can be given effect without the invalid provision or application, and to this end the provisions of this Act are severable. SECTION 8. This Act"
+      },
+      {
+        "chunk_number": 17,
+        "chunk_text": "provisions of this Act are severable. SECTION 8. This Act shall take effect upon its approval. INTRODUCED BY: _____________________________ BY REQUEST Report Title: Claims Against the State; Appropriations Description: Makes appropriations and approves payments for claims against the State, its officers, and its employees. The summary description of legislation appearing"
+      },
+      {
+        "chunk_number": 18,
+        "chunk_text": "officers, and its employees. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent."
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-16T15:30:40.455542",
+  "generation_timestamp_unix": 1760664640.45555
 }

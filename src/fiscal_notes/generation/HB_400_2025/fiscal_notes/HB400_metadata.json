@@ -6,18 +6,18 @@
   "all_documents_processed_so_far": [
     "HB400"
   ],
-  "numbers_used": 1,
-  "prompt_length": 57729,
+  "numbers_used": 2,
+  "prompt_length": 14031,
   "response_metadata": {
-    "response_text": "{\n\"overview\": \"House Bill No. 400, House Draft 1, appropriates funds for the Judiciary for the 2025–2027 biennium. The bill reflects the Judiciary’s resource requirements, which center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court, add a District Court Judge in Kona, cover cybersecurity costs, and restore funding for essential staffing. The bill's purpose is to appropriate funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027.\",\n\"appropriations\": \"The Judiciary requests additional operating resources in the amount of $6.17M (HB400) in FY 2026, and $6.25M (HB400) in FY 2027, for 17.0 permanent FTE and 1.0 temporary FTE. The Judiciary also requests a total of $11.9M (HB400) in bond funds for capital improvement projects in FY 2026. These funds are intended for staffing, making pilot programs permanent, technology upgrades, and restoring positions defunded during the pandemic.\",\n\"assumptions_and_methodology\": \"The fiscal projections are based on current circumstances and projected resource needs for the future. Cost estimations are detailed for specific requests, such as continuing programs with expiring funding like the Women’s Court Pilot Project and the Criminal Justice Research Institute. The methodology involves itemizing costs for new positions, technology subscriptions, contracted services, and restoring funding for positions that were previously defunded.\",\n\"agency_impact\": \"The measure will allow the Judiciary to fill 17.0 permanent FTE and 1.0 temporary FTE (HB400) to continue and expand critical operations. It provides funding to make the Women's Court and DWI Court permanent, fully staff the new Wahiawā District Court, and add a much-needed District Court Judge in Kona. These resources will significantly expand capacity to certain operations and restore funding for positions critical to operations.\",\n\"economic_impact\": \"The Women’s Court program's goal is to aid participants in bettering their economic conditions and life circumstances and prevent re-entry into criminality. The Driving While Impaired (DWI) Court Program seeks to reduce recidivism among repeat and high-risk offenders by addressing the underlying cause of impaired driving. Additionally, the Truancy Court and Early Education Intervention Program aims to address chronic school truancy, which supports long-term academic and economic success for students.\",\n\"policy_impact\": \"This bill makes permanent the Women’s Court Pilot Project, which was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot. It also seeks permanent funding for the DWI Court Program, which was initially supported by federal funding. The measure expands judicial services by funding an additional District Court Judge in Kona to address an extraordinary caseload and continues the work of the Criminal Justice Research Institute (CJRI) established by Act 179 (SLH 2019).\",\n\"revenue_sources\": \"The capital improvement projects are to be funded by $11.9M (HB400) in bond funds. Operating resources are an addition of approximately 3% to the Judiciary’s operating budget, implying General Fund appropriations. Some programs, like the DWI Court, were initially supported by federal funding from the National Highway Traffic Safety Administration (NHTSA) but are now seeking permanent state funding.\",\n\"six_year_fiscal_implications\": \"For the 2025-2027 biennium, the Judiciary requests additional operating resources of $6.17M (HB400) in FY 2026 and $6.25M (HB400) in FY 2027, supporting 17.0 permanent and 1.0 temporary FTE. Key recurring annual costs include the Women’s Court at $705,416 (HB400) in both FY 2026 and FY 2027, and the DWI Court Program at $232,412 (HB400) in FY 2026 and $237,612 (HB400) in FY 2027. Cybersecurity upgrades represent a significant recurring expense, with a request for $1,175,300 (HB400) in both FY 2026 and FY 2027 for email security, plus $458,224 (HB400) annually for cybersecurity staff and tools. Staffing for the new Wahiawā District Court totals over $940,000 annually, including requests for security, IT, janitorial, and clerical staff. A new Kona District Court Judge and support staff require $368,943 (HB400) in FY 2026 and $360,048 (HB400) in FY 2027. Funding for the Criminal Justice Research Institute is requested to continue at $512,624 (HB400) in FY 2026 and $577,058 (HB400) in FY 2027 for one position and software, with an additional temporary position costing $71,016 (HB400) each year. These costs are associated with permanent programs and positions, indicating they will become part of the Judiciary's base budget and are expected to continue beyond the biennium.\",\n\"operating_revenue_impact\": \"The provided documents do not describe any anticipated impacts on operating revenues resulting from this measure. The bill focuses on appropriations for the Judiciary's operational and capital improvement needs. There is no mention of new fees, fines, or other revenue-generating mechanisms.\",\n\"capital_expenditure_impact\": \"The Judiciary requests CIP bond funds totaling $11.9 million (HB400) for FY 2026. This includes $4.0 million (HB400) to design a new South Kohala District Courthouse and $900,000 (HB400) to replace an A/C chiller on Kaua‘i. The Judiciary also requests $7.0 million (HB400) in lump sum bond funds, which includes $2.0 million (HB400) to address a shortfall in funding for the relocation of the Children’s Justice Center on Oʻahu.\",\n\"fiscal_implications_after_6_years\": \"Ongoing fiscal obligations will primarily consist of the annualized costs for the 17.0 permanent FTE (HB400) and recurring expenses for programs made permanent by this bill. These costs, including salaries, benefits, and technology subscriptions, will be integrated into the Judiciary's base budget. The Judiciary will be responsible for the continued operation of expanded Specialty Courts and the fully staffed Wahiawā District Court.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the source documents. Therefore, a comparison of updates is not possible.\"\n}",
+    "response_text": "{\n  \"overview\": \"This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. [CHUNK_1] It appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. [CHUNK_36] The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. [CHUNK_6]\",\n  \"appropriations\": \"The legislative document appropriates various sums for operating costs to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5] For example, the legislative document specifies operating funds for JUD101 - Courts of Appeal as $9,592,659 (HB400_.HTM.txt) for FY 2026 and $9,657,093 (HB400_.HTM.txt) for FY 2027. [CHUNK_7] The legislative document also appropriates a sum of $9,900,000 (HB400_.HTM.txt) from general obligation bond funds for capital improvement projects. [CHUNK_11, CHUNK_15]\",\n  \"assumptions_and_methodology\": \"The legislative document specifies that sums are appropriated or authorized to accomplish the purposes and programs designated. [CHUNK_5] The total expenditures and the number of permanent and temporary positions shall not exceed the sums and the position ceilings indicated for each year. [CHUNK_6] For capital improvement projects, the amount after each cost element and the total funding for each project are listed in thousands of dollars. [CHUNK_17]\",\n  \"agency_impact\": \"The chief justice is authorized to transfer sufficient funds and positions between programs for operating purposes whenever the need arises. [CHUNK_11] The judiciary may delegate the planning, acquisition of land, design, construction, and equipment of any capital improvement project to other state or county agencies if it is determined to be advantageous. [CHUNK_24] If funds for a capital project are insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund. [CHUNK_26]\",\n  \"economic_impact\": \"This bill appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. [CHUNK_36] The legislative document specifies a sum of $9,900,000 (HB400_.HTM.txt) for capital improvement projects to be expended by the judiciary. [CHUNK_15] These projects include plans, design, construction, and equipment for general alterations, upgrades, and improvements to judiciary facilities statewide. [CHUNK_20]\",\n  \"policy_impact\": \"This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. [CHUNK_1] It provides that appropriations for capital improvement projects shall not lapse at the end of the fiscal year, but any funds unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23] All unrequired balances in the general obligation bond fund, after the objectives for capital improvements have been met, shall be transferred to the judiciary project adjustment fund. [CHUNK_25]\",\n  \"revenue_sources\": \"The means of financing are specified by letter symbols, which include A for General funds, B for Special funds, C for General obligation bond funds, and W for Revolving funds. [CHUNK_3] Capital improvement projects are funded by $9,900,000 (HB400_.HTM.txt) from General obligation bond funds (C). [CHUNK_11] The chief justice may also secure federal funds or funds from private organizations or individuals for programs authorized by this Act. [CHUNK_13]\",\n  \"six_year_fiscal_implications\": \"The bill appropriates funds for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5] For FY 2025-2026, operating appropriations from general funds include $9,592,659 (HB400_.HTM.txt) for JUD101 - Courts of Appeal and $98,130,866 (HB400_.HTM.txt) for JUD310 – First Circuit. [CHUNK_7] For FY 2026-2027, the appropriations for these programs are $9,657,093 (HB400_.HTM.txt) and $98,298,808 (HB400_.HTM.txt) respectively. [CHUNK_7, CHUNK_8] The legislative document also appropriates $9,900,000 (HB400_.HTM.txt) in investment capital from general obligation bond funds for FY 2025-2026. [CHUNK_11] This funding is designated for projects including $4,000,000 (HB400_.HTM.txt) for the new South Kohala Judiciary Complex, $900,000 (HB400_.HTM.txt) for the Pu‘uhonua Kaulike A/C Systems Replacement, and $5,000,000 (HB400_.HTM.txt) for lump sum CIP for Judiciary Facilities, Statewide. [CHUNK_18, CHUNK_19, CHUNK_20] General obligation bonds may be issued to finance these projects, provided the sum total does not exceed $9,900,000 (HB400_.HTM.txt). [CHUNK_21] Any capital improvement appropriations unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23] The document provides no fiscal details beyond the 2025-2027 biennium. [CHUNK_6]\",\n  \"operating_revenue_impact\": \"The document appropriates funds from general funds, special funds, and revolving funds for operations. [CHUNK_3] The chief justice may secure federal funds or funds from private organizations or individuals for authorized programs. [CHUNK_13] Additionally, the judiciary may transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash flow deficits. [CHUNK_14]\",\n  \"capital_expenditure_impact\": \"The legislative document specifies the sum of $9,900,000 (HB400_.HTM.txt) is appropriated for capital improvement projects for the judiciary. [CHUNK_15] Projects listed include $4,000,000 (HB400_.HTM.txt) for plans and design for a new judiciary complex in South Kohala, $900,000 (HB400_.HTM.txt) for A/C systems replacement in Kaua`i, and $5,000,000 (HB400_.HTM.txt) for lump sum CIP for judiciary facilities statewide. [CHUNK_18, CHUNK_19, CHUNK_20] General obligation bonds may be issued to finance these projects in an amount not to exceed $9,900,000 (HB400_.HTM.txt). [CHUNK_21]\",\n  \"fiscal_implications_after_6_years\": \"The appropriations in the bill are for the fiscal biennium ending June 30, 2027. [CHUNK_5] All appropriations made for capital improvement projects that are unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23] The document does not provide details on fiscal obligations beyond this period, as future funding would depend on subsequent Judiciary Appropriations Acts. [CHUNK_1]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the context documents.\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 16247,
-      "candidates_token_count": 1551,
-      "total_token_count": 19302
+      "prompt_token_count": 7663,
+      "candidates_token_count": 1808,
+      "total_token_count": 13849
     },
     "candidates": [
       {
@@ -27,7 +27,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n\"overview\": \"House Bill No. 400, House Draft 1, appropriates funds for the Judiciary for the 2025–2027 biennium. The bill reflects the Judiciary’s resource requirements, which center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court, add a District Court Judge in Kona, cover cybersecurity costs, and restore funding for essential staffing. The bill's purpose is to appropriate funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027.\",\n\"appropriations\": \"The Judiciary requests additional operating resources in the amount of $6.17M (HB400) in FY 2026, and $6.25M (HB400) in FY 2027, for 17.0 permanent FTE and 1.0 temporary FTE. The Judiciary also requests a total of $11.9M (HB400) in bond funds for capital improvement projects in FY 2026. These funds are intended for staffing, making pilot programs permanent, technology upgrades, and restoring positions defunded during the pandemic.\",\n\"assumptions_and_methodology\": \"The fiscal projections are based on current circumstances and projected resource needs for the future. Cost estimations are detailed for specific requests, such as continuing programs with expiring funding like the Women’s Court Pilot Project and the Criminal Justice Research Institute. The methodology involves itemizing costs for new positions, technology subscriptions, contracted services, and restoring funding for positions that were previously defunded.\",\n\"agency_impact\": \"The measure will allow the Judiciary to fill 17.0 permanent FTE and 1.0 temporary FTE (HB400) to continue and expand critical operations. It provides funding to make the Women's Court and DWI Court permanent, fully staff the new Wahiawā District Court, and add a much-needed District Court Judge in Kona. These resources will significantly expand capacity to certain operations and restore funding for positions critical to operations.\",\n\"economic_impact\": \"The Women’s Court program's goal is to aid participants in bettering their economic conditions and life circumstances and prevent re-entry into criminality. The Driving While Impaired (DWI) Court Program seeks to reduce recidivism among repeat and high-risk offenders by addressing the underlying cause of impaired driving. Additionally, the Truancy Court and Early Education Intervention Program aims to address chronic school truancy, which supports long-term academic and economic success for students.\",\n\"policy_impact\": \"This bill makes permanent the Women’s Court Pilot Project, which was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot. It also seeks permanent funding for the DWI Court Program, which was initially supported by federal funding. The measure expands judicial services by funding an additional District Court Judge in Kona to address an extraordinary caseload and continues the work of the Criminal Justice Research Institute (CJRI) established by Act 179 (SLH 2019).\",\n\"revenue_sources\": \"The capital improvement projects are to be funded by $11.9M (HB400) in bond funds. Operating resources are an addition of approximately 3% to the Judiciary’s operating budget, implying General Fund appropriations. Some programs, like the DWI Court, were initially supported by federal funding from the National Highway Traffic Safety Administration (NHTSA) but are now seeking permanent state funding.\",\n\"six_year_fiscal_implications\": \"For the 2025-2027 biennium, the Judiciary requests additional operating resources of $6.17M (HB400) in FY 2026 and $6.25M (HB400) in FY 2027, supporting 17.0 permanent and 1.0 temporary FTE. Key recurring annual costs include the Women’s Court at $705,416 (HB400) in both FY 2026 and FY 2027, and the DWI Court Program at $232,412 (HB400) in FY 2026 and $237,612 (HB400) in FY 2027. Cybersecurity upgrades represent a significant recurring expense, with a request for $1,175,300 (HB400) in both FY 2026 and FY 2027 for email security, plus $458,224 (HB400) annually for cybersecurity staff and tools. Staffing for the new Wahiawā District Court totals over $940,000 annually, including requests for security, IT, janitorial, and clerical staff. A new Kona District Court Judge and support staff require $368,943 (HB400) in FY 2026 and $360,048 (HB400) in FY 2027. Funding for the Criminal Justice Research Institute is requested to continue at $512,624 (HB400) in FY 2026 and $577,058 (HB400) in FY 2027 for one position and software, with an additional temporary position costing $71,016 (HB400) each year. These costs are associated with permanent programs and positions, indicating they will become part of the Judiciary's base budget and are expected to continue beyond the biennium.\",\n\"operating_revenue_impact\": \"The provided documents do not describe any anticipated impacts on operating revenues resulting from this measure. The bill focuses on appropriations for the Judiciary's operational and capital improvement needs. There is no mention of new fees, fines, or other revenue-generating mechanisms.\",\n\"capital_expenditure_impact\": \"The Judiciary requests CIP bond funds totaling $11.9 million (HB400) for FY 2026. This includes $4.0 million (HB400) to design a new South Kohala District Courthouse and $900,000 (HB400) to replace an A/C chiller on Kaua‘i. The Judiciary also requests $7.0 million (HB400) in lump sum bond funds, which includes $2.0 million (HB400) to address a shortfall in funding for the relocation of the Children’s Justice Center on Oʻahu.\",\n\"fiscal_implications_after_6_years\": \"Ongoing fiscal obligations will primarily consist of the annualized costs for the 17.0 permanent FTE (HB400) and recurring expenses for programs made permanent by this bill. These costs, including salaries, benefits, and technology subscriptions, will be integrated into the Judiciary's base budget. The Judiciary will be responsible for the continued operation of expanded Specialty Courts and the fully staffed Wahiawā District Court.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the source documents. Therefore, a comparison of updates is not possible.\"\n}"
+              "text": "{\n  \"overview\": \"This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. [CHUNK_1] It appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. [CHUNK_36] The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. [CHUNK_6]\",\n  \"appropriations\": \"The legislative document appropriates various sums for operating costs to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5] For example, the legislative document specifies operating funds for JUD101 - Courts of Appeal as $9,592,659 (HB400_.HTM.txt) for FY 2026 and $9,657,093 (HB400_.HTM.txt) for FY 2027. [CHUNK_7] The legislative document also appropriates a sum of $9,900,000 (HB400_.HTM.txt) from general obligation bond funds for capital improvement projects. [CHUNK_11, CHUNK_15]\",\n  \"assumptions_and_methodology\": \"The legislative document specifies that sums are appropriated or authorized to accomplish the purposes and programs designated. [CHUNK_5] The total expenditures and the number of permanent and temporary positions shall not exceed the sums and the position ceilings indicated for each year. [CHUNK_6] For capital improvement projects, the amount after each cost element and the total funding for each project are listed in thousands of dollars. [CHUNK_17]\",\n  \"agency_impact\": \"The chief justice is authorized to transfer sufficient funds and positions between programs for operating purposes whenever the need arises. [CHUNK_11] The judiciary may delegate the planning, acquisition of land, design, construction, and equipment of any capital improvement project to other state or county agencies if it is determined to be advantageous. [CHUNK_24] If funds for a capital project are insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund. [CHUNK_26]\",\n  \"economic_impact\": \"This bill appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. [CHUNK_36] The legislative document specifies a sum of $9,900,000 (HB400_.HTM.txt) for capital improvement projects to be expended by the judiciary. [CHUNK_15] These projects include plans, design, construction, and equipment for general alterations, upgrades, and improvements to judiciary facilities statewide. [CHUNK_20]\",\n  \"policy_impact\": \"This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. [CHUNK_1] It provides that appropriations for capital improvement projects shall not lapse at the end of the fiscal year, but any funds unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23] All unrequired balances in the general obligation bond fund, after the objectives for capital improvements have been met, shall be transferred to the judiciary project adjustment fund. [CHUNK_25]\",\n  \"revenue_sources\": \"The means of financing are specified by letter symbols, which include A for General funds, B for Special funds, C for General obligation bond funds, and W for Revolving funds. [CHUNK_3] Capital improvement projects are funded by $9,900,000 (HB400_.HTM.txt) from General obligation bond funds (C). [CHUNK_11] The chief justice may also secure federal funds or funds from private organizations or individuals for programs authorized by this Act. [CHUNK_13]\",\n  \"six_year_fiscal_implications\": \"The bill appropriates funds for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5] For FY 2025-2026, operating appropriations from general funds include $9,592,659 (HB400_.HTM.txt) for JUD101 - Courts of Appeal and $98,130,866 (HB400_.HTM.txt) for JUD310 – First Circuit. [CHUNK_7] For FY 2026-2027, the appropriations for these programs are $9,657,093 (HB400_.HTM.txt) and $98,298,808 (HB400_.HTM.txt) respectively. [CHUNK_7, CHUNK_8] The legislative document also appropriates $9,900,000 (HB400_.HTM.txt) in investment capital from general obligation bond funds for FY 2025-2026. [CHUNK_11] This funding is designated for projects including $4,000,000 (HB400_.HTM.txt) for the new South Kohala Judiciary Complex, $900,000 (HB400_.HTM.txt) for the Pu‘uhonua Kaulike A/C Systems Replacement, and $5,000,000 (HB400_.HTM.txt) for lump sum CIP for Judiciary Facilities, Statewide. [CHUNK_18, CHUNK_19, CHUNK_20] General obligation bonds may be issued to finance these projects, provided the sum total does not exceed $9,900,000 (HB400_.HTM.txt). [CHUNK_21] Any capital improvement appropriations unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23] The document provides no fiscal details beyond the 2025-2027 biennium. [CHUNK_6]\",\n  \"operating_revenue_impact\": \"The document appropriates funds from general funds, special funds, and revolving funds for operations. [CHUNK_3] The chief justice may secure federal funds or funds from private organizations or individuals for authorized programs. [CHUNK_13] Additionally, the judiciary may transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash flow deficits. [CHUNK_14]\",\n  \"capital_expenditure_impact\": \"The legislative document specifies the sum of $9,900,000 (HB400_.HTM.txt) is appropriated for capital improvement projects for the judiciary. [CHUNK_15] Projects listed include $4,000,000 (HB400_.HTM.txt) for plans and design for a new judiciary complex in South Kohala, $900,000 (HB400_.HTM.txt) for A/C systems replacement in Kaua`i, and $5,000,000 (HB400_.HTM.txt) for lump sum CIP for judiciary facilities statewide. [CHUNK_18, CHUNK_19, CHUNK_20] General obligation bonds may be issued to finance these projects in an amount not to exceed $9,900,000 (HB400_.HTM.txt). [CHUNK_21]\",\n  \"fiscal_implications_after_6_years\": \"The appropriations in the bill are for the fiscal biennium ending June 30, 2027. [CHUNK_5] All appropriations made for capital improvement projects that are unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23] The document does not provide details on fiscal obligations beyond this period, as future funding would depend on subsequent Judiciary Appropriations Acts. [CHUNK_1]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the context documents.\"\n}"
             }
           ]
         },
@@ -35,746 +35,13 @@
         "safety_ratings": []
       }
     ],
-    "sentence_attribution_analysis": {
-      "sentence_attributions": [
-        {
-          "sentence": "{\n\"overview\": \"House Bill No",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.6666666666666666,
-          "attribution_reason": "Word frequency match score: 0.667",
-          "numbers_found": []
-        },
-        {
-          "sentence": "400, House Draft 1, appropriates funds for the Judiciary for the 2025–2027 biennium",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": [
-            400.0,
-            1.0
-          ]
-        },
-        {
-          "sentence": "The bill reflects the Judiciary’s resource requirements, which center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court, add a District Court Judge in Kona, cover cybersecurity costs, and restore funding for essential staffing",
-          "attributed_chunk_id": 8,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5588235294117647,
-          "attribution_reason": "Word frequency match score: 0.559",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The bill's purpose is to appropriate funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5454545454545454,
-          "attribution_reason": "Word frequency match score: 0.545",
-          "numbers_found": [
-            1.0,
-            30.0,
-            6.0,
-            7.0
-          ]
-        },
-        {
-          "sentence": "\",\n\"appropriations\": \"The Judiciary requests additional operating resources in the amount of $6",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.8571428571428571,
-          "attribution_reason": "Word frequency match score: 0.857",
-          "numbers_found": [
-            6.0
-          ]
-        },
-        {
-          "sentence": "17M (HB400) in FY 2026, and $6",
-          "attributed_chunk_id": 3,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 1.000)",
-          "numbers_found": [
-            6.0
-          ]
-        },
-        {
-          "sentence": "25M (HB400) in FY 2027, for 17",
-          "attributed_chunk_id": 3,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.500)",
-          "numbers_found": [
-            17.0
-          ]
-        },
-        {
-          "sentence": "0 permanent FTE and 1",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": [
-            0.0,
-            1.0
-          ]
-        },
-        {
-          "sentence": "0 temporary FTE",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "The Judiciary also requests a total of $11",
-          "attributed_chunk_id": 5,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": [
-            11.0
-          ]
-        },
-        {
-          "sentence": "9M (HB400) in bond funds for capital improvement projects in FY 2026",
-          "attributed_chunk_id": 5,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 1.000)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "These funds are intended for staffing, making pilot programs permanent, technology upgrades, and restoring positions defunded during the pandemic",
-          "attributed_chunk_id": 10,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.35714285714285715,
-          "attribution_reason": "Word frequency match score: 0.357",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"assumptions_and_methodology\": \"The fiscal projections are based on current circumstances and projected resource needs for the future",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.7,
-          "attribution_reason": "Word frequency match score: 0.700",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Cost estimations are detailed for specific requests, such as continuing programs with expiring funding like the Women’s Court Pilot Project and the Criminal Justice Research Institute",
-          "attributed_chunk_id": 9,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3157894736842105,
-          "attribution_reason": "Word frequency match score: 0.316",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The methodology involves itemizing costs for new positions, technology subscriptions, contracted services, and restoring funding for positions that were previously defunded",
-          "attributed_chunk_id": 9,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.26666666666666666,
-          "attribution_reason": "Word frequency match score: 0.267",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"agency_impact\": \"The measure will allow the Judiciary to fill 17",
-          "attributed_chunk_id": 5,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.4,
-          "attribution_reason": "Word frequency match score: 0.400",
-          "numbers_found": [
-            17.0
-          ]
-        },
-        {
-          "sentence": "0 permanent FTE and 1",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": [
-            0.0,
-            1.0
-          ]
-        },
-        {
-          "sentence": "0 temporary FTE (HB400) to continue and expand critical operations",
-          "attributed_chunk_id": 11,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.6666666666666666,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.667)",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "It provides funding to make the Women's Court and DWI Court permanent, fully staff the new Wahiawā District Court, and add a much-needed District Court Judge in Kona",
-          "attributed_chunk_id": 9,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.42857142857142855,
-          "attribution_reason": "Word frequency match score: 0.429",
-          "numbers_found": []
-        },
-        {
-          "sentence": "These resources will significantly expand capacity to certain operations and restore funding for positions critical to operations",
-          "attributed_chunk_id": 11,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5454545454545454,
-          "attribution_reason": "Word frequency match score: 0.545",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"economic_impact\": \"The Women’s Court program's goal is to aid participants in bettering their economic conditions and life circumstances and prevent re-entry into criminality",
-          "attributed_chunk_id": 15,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.7647058823529411,
-          "attribution_reason": "Word frequency match score: 0.765",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The Driving While Impaired (DWI) Court Program seeks to reduce recidivism among repeat and high-risk offenders by addressing the underlying cause of impaired driving",
-          "attributed_chunk_id": 17,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.1111111111111111,
-          "attribution_reason": "Word frequency match score: 0.111",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Additionally, the Truancy Court and Early Education Intervention Program aims to address chronic school truancy, which supports long-term academic and economic success for students",
-          "attributed_chunk_id": 17,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3,
-          "attribution_reason": "Word frequency match score: 0.300",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"policy_impact\": \"This bill makes permanent the Women’s Court Pilot Project, which was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot",
-          "attributed_chunk_id": 12,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.7368421052631579,
-          "attribution_reason": "Word frequency match score: 0.737",
-          "numbers_found": [
-            243.0,
-            22.0
-          ]
-        },
-        {
-          "sentence": "It also seeks permanent funding for the DWI Court Program, which was initially supported by federal funding",
-          "attributed_chunk_id": 4,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Word frequency match score: 0.333",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The measure expands judicial services by funding an additional District Court Judge in Kona to address an extraordinary caseload and continues the work of the Criminal Justice Research Institute (CJRI) established by Act 179 (SLH 2019)",
-          "attributed_chunk_id": 9,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.375,
-          "attribution_reason": "Word frequency match score: 0.375",
-          "numbers_found": [
-            179.0
-          ]
-        },
-        {
-          "sentence": "\",\n\"revenue_sources\": \"The capital improvement projects are to be funded by $11",
-          "attributed_chunk_id": 5,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.6666666666666666,
-          "attribution_reason": "Word frequency match score: 0.667",
-          "numbers_found": [
-            11.0
-          ]
-        },
-        {
-          "sentence": "9M (HB400) in bond funds",
-          "attributed_chunk_id": 5,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 1.000)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Operating resources are an addition of approximately 3% to the Judiciary’s operating budget, implying General Fund appropriations",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.36363636363636365,
-          "attribution_reason": "Word frequency match score: 0.364",
-          "numbers_found": [
-            3.0
-          ]
-        },
-        {
-          "sentence": "Some programs, like the DWI Court, were initially supported by federal funding from the National Highway Traffic Safety Administration (NHTSA) but are now seeking permanent state funding",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.2,
-          "attribution_reason": "Word frequency match score: 0.200",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"six_year_fiscal_implications\": \"For the 2025-2027 biennium, the Judiciary requests additional operating resources of $6",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.7777777777777778,
-          "attribution_reason": "Word frequency match score: 0.778",
-          "numbers_found": [
-            6.0
-          ]
-        },
-        {
-          "sentence": "17M (HB400) in FY 2026 and $6",
-          "attributed_chunk_id": 2,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.500)",
-          "numbers_found": [
-            6.0
-          ]
-        },
-        {
-          "sentence": "25M (HB400) in FY 2027, supporting 17",
-          "attributed_chunk_id": 3,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.333)",
-          "numbers_found": [
-            17.0
-          ]
-        },
-        {
-          "sentence": "0 permanent and 1",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": [
-            0.0,
-            1.0
-          ]
-        },
-        {
-          "sentence": "0 temporary FTE",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "Key recurring annual costs include the Women’s Court at $705,416 (HB400) in both FY 2026 and FY 2027, and the DWI Court Program at $232,412 (HB400) in FY 2026 and $237,612 (HB400) in FY 2027",
-          "attributed_chunk_id": 13,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.2777777777777778,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.278)",
-          "numbers_found": [
-            705416.0,
-            232412.0,
-            237612.0
-          ]
-        },
-        {
-          "sentence": "Cybersecurity upgrades represent a significant recurring expense, with a request for $1,175,300 (HB400) in both FY 2026 and FY 2027 for email security, plus $458,224 (HB400) annually for cybersecurity staff and tools",
-          "attributed_chunk_id": 5,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.10526315789473684,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.105)",
-          "numbers_found": [
-            458224.0,
-            1175300.0
-          ]
-        },
-        {
-          "sentence": "Staffing for the new Wahiawā District Court totals over $940,000 annually, including requests for security, IT, janitorial, and clerical staff",
-          "attributed_chunk_id": 8,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.4375,
-          "attribution_reason": "Word frequency match score: 0.438",
-          "numbers_found": [
-            940000.0
-          ]
-        },
-        {
-          "sentence": "A new Kona District Court Judge and support staff require $368,943 (HB400) in FY 2026 and $360,048 (HB400) in FY 2027",
-          "attributed_chunk_id": 9,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.500)",
-          "numbers_found": [
-            360048.0,
-            368943.0
-          ]
-        },
-        {
-          "sentence": "Funding for the Criminal Justice Research Institute is requested to continue at $512,624 (HB400) in FY 2026 and $577,058 (HB400) in FY 2027 for one position and software, with an additional temporary position costing $71,016 (HB400) each year",
-          "attributed_chunk_id": 11,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.333)",
-          "numbers_found": [
-            512624.0,
-            577058.0,
-            71016.0
-          ]
-        },
-        {
-          "sentence": "These costs are associated with permanent programs and positions, indicating they will become part of the Judiciary's base budget and are expected to continue beyond the biennium",
-          "attributed_chunk_id": 10,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.25,
-          "attribution_reason": "Word frequency match score: 0.250",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"operating_revenue_impact\": \"The provided documents do not describe any anticipated impacts on operating revenues resulting from this measure",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.07692307692307693,
-          "attribution_reason": "Word frequency match score: 0.077",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The bill focuses on appropriations for the Judiciary's operational and capital improvement needs",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.375,
-          "attribution_reason": "Word frequency match score: 0.375",
-          "numbers_found": []
-        },
-        {
-          "sentence": "There is no mention of new fees, fines, or other revenue-generating mechanisms",
-          "attributed_chunk_id": 6,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.1111111111111111,
-          "attribution_reason": "Word frequency match score: 0.111",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"capital_expenditure_impact\": \"The Judiciary requests CIP bond funds totaling $11",
-          "attributed_chunk_id": 5,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.625,
-          "attribution_reason": "Word frequency match score: 0.625",
-          "numbers_found": [
-            11.0
-          ]
-        },
-        {
-          "sentence": "9 million (HB400) for FY 2026",
-          "attributed_chunk_id": 5,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.500)",
-          "numbers_found": [
-            9.0
-          ]
-        },
-        {
-          "sentence": "This includes $4",
-          "attributed_chunk_id": 5,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": [
-            4.0
-          ]
-        },
-        {
-          "sentence": "0 million (HB400) to design a new South Kohala District Courthouse and $900,000 (HB400) to replace an A/C chiller on Kaua‘i",
-          "attributed_chunk_id": 8,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.18181818181818182,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.182)",
-          "numbers_found": [
-            900000.0,
-            0.0
-          ]
-        },
-        {
-          "sentence": "The Judiciary also requests $7",
-          "attributed_chunk_id": 4,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": [
-            7.0
-          ]
-        },
-        {
-          "sentence": "0 million (HB400) in lump sum bond funds, which includes $2",
-          "attributed_chunk_id": 5,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.7142857142857143,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.714)",
-          "numbers_found": [
-            0.0,
-            2.0
-          ]
-        },
-        {
-          "sentence": "0 million (HB400) to address a shortfall in funding for the relocation of the Children’s Justice Center on Oʻahu",
-          "attributed_chunk_id": 6,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.4444444444444444,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.444)",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "\",\n\"fiscal_implications_after_6_years\": \"Ongoing fiscal obligations will primarily consist of the annualized costs for the 17",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.125,
-          "attribution_reason": "Word frequency match score: 0.125",
-          "numbers_found": [
-            17.0
-          ]
-        },
-        {
-          "sentence": "0 permanent FTE (HB400) and recurring expenses for programs made permanent by this bill",
-          "attributed_chunk_id": 2,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.375,
-          "attribution_reason": "Document citation + word frequency: HB400 (score: 0.375)",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "These costs, including salaries, benefits, and technology subscriptions, will be integrated into the Judiciary's base budget",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.18181818181818182,
-          "attribution_reason": "Word frequency match score: 0.182",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The Judiciary will be responsible for the continued operation of expanded Specialty Courts and the fully staffed Wahiawā District Court",
-          "attributed_chunk_id": 8,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5833333333333334,
-          "attribution_reason": "Word frequency match score: 0.583",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the source documents",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.14285714285714285,
-          "attribution_reason": "Word frequency match score: 0.143",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Therefore, a comparison of updates is not possible",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.2,
-          "attribution_reason": "Word frequency match score: 0.200",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\"\n}.",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": []
-        }
-      ],
-      "chunk_usage_stats": {
-        "0": {
-          "usage_count": 0,
-          "document_name": "HB400",
-          "attribution_reasons": []
-        },
-        "1": {
-          "usage_count": 3,
-          "document_name": "HB400",
-          "attribution_reasons": [
-            "Word frequency match score: 0.667",
-            "Word frequency match score: 1.000",
-            "Word frequency match score: 0.545"
-          ]
-        },
-        "2": {
-          "usage_count": 14,
-          "document_name": "HB400",
-          "attribution_reasons": [
-            "Word frequency match score: 0.857",
-            "Word frequency match score: 1.000",
-            "Word frequency match score: 1.000",
-            "Word frequency match score: 0.700",
-            "Word frequency match score: 1.000",
-            "Word frequency match score: 0.778",
-            "Document citation + word frequency: HB400 (score: 0.500)",
-            "Word frequency match score: 1.000",
-            "Word frequency match score: 1.000",
-            "Word frequency match score: 0.077",
-            "Word frequency match score: 0.375",
-            "Word frequency match score: 0.125",
-            "Document citation + word frequency: HB400 (score: 0.375)",
-            "Word frequency match score: 0.143"
-          ]
-        },
-        "3": {
-          "usage_count": 7,
-          "document_name": "HB400",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB400 (score: 1.000)",
-            "Document citation + word frequency: HB400 (score: 0.500)",
-            "Word frequency match score: 0.364",
-            "Word frequency match score: 0.200",
-            "Document citation + word frequency: HB400 (score: 0.333)",
-            "Word frequency match score: 0.182",
-            "Word frequency match score: 0.200"
-          ]
-        },
-        "4": {
-          "usage_count": 2,
-          "document_name": "HB400",
-          "attribution_reasons": [
-            "Word frequency match score: 0.333",
-            "Word frequency match score: 1.000"
-          ]
-        },
-        "5": {
-          "usage_count": 10,
-          "document_name": "HB400",
-          "attribution_reasons": [
-            "Word frequency match score: 1.000",
-            "Document citation + word frequency: HB400 (score: 1.000)",
-            "Word frequency match score: 0.400",
-            "Word frequency match score: 0.667",
-            "Document citation + word frequency: HB400 (score: 1.000)",
-            "Document citation + word frequency: HB400 (score: 0.105)",
-            "Word frequency match score: 0.625",
-            "Document citation + word frequency: HB400 (score: 0.500)",
-            "Word frequency match score: 1.000",
-            "Document citation + word frequency: HB400 (score: 0.714)"
-          ]
-        },
-        "6": {
-          "usage_count": 2,
-          "document_name": "HB400",
-          "attribution_reasons": [
-            "Word frequency match score: 0.111",
-            "Document citation + word frequency: HB400 (score: 0.444)"
-          ]
-        },
-        "7": {
-          "usage_count": 0,
-          "document_name": "HB400",
-          "attribution_reasons": []
-        },
-        "8": {
-          "usage_count": 4,
-          "document_name": "HB400",
-          "attribution_reasons": [
-            "Word frequency match score: 0.559",
-            "Word frequency match score: 0.438",
-            "Document citation + word frequency: HB400 (score: 0.182)",
-            "Word frequency match score: 0.583"
-          ]
-        },
-        "9": {
-          "usage_count": 5,
-          "document_name": "HB400",
-          "attribution_reasons": [
-            "Word frequency match score: 0.316",
-            "Word frequency match score: 0.267",
-            "Word frequency match score: 0.429",
-            "Word frequency match score: 0.375",
-            "Document citation + word frequency: HB400 (score: 0.500)"
-          ]
-        },
-        "10": {
-          "usage_count": 2,
-          "document_name": "HB400",
-          "attribution_reasons": [
-            "Word frequency match score: 0.357",
-            "Word frequency match score: 0.250"
-          ]
-        },
-        "11": {
-          "usage_count": 3,
-          "document_name": "HB400",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB400 (score: 0.667)",
-            "Word frequency match score: 0.545",
-            "Document citation + word frequency: HB400 (score: 0.333)"
-          ]
-        },
-        "12": {
-          "usage_count": 1,
-          "document_name": "HB400",
-          "attribution_reasons": [
-            "Word frequency match score: 0.737"
-          ]
-        },
-        "13": {
-          "usage_count": 1,
-          "document_name": "HB400",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB400 (score: 0.278)"
-          ]
-        },
-        "14": {
-          "usage_count": 0,
-          "document_name": "HB400",
-          "attribution_reasons": []
-        },
-        "15": {
-          "usage_count": 1,
-          "document_name": "HB400",
-          "attribution_reasons": [
-            "Word frequency match score: 0.765"
-          ]
-        },
-        "16": {
-          "usage_count": 0,
-          "document_name": "HB400",
-          "attribution_reasons": []
-        },
-        "17": {
-          "usage_count": 2,
-          "document_name": "HB400",
-          "attribution_reasons": [
-            "Word frequency match score: 0.111",
-            "Word frequency match score: 0.300"
-          ]
-        },
-        "18": {
-          "usage_count": 0,
-          "document_name": "HB400",
-          "attribution_reasons": []
-        },
-        "NUMBER_9900000.0": {
-          "usage_count": 0,
-          "document_name": "HB400_.HTM.txt",
-          "attribution_reasons": []
-        }
-      },
-      "attribution_method_stats": {
-        "document_citation_based": 16,
-        "number_based": 0,
-        "word_frequency_based": 41,
-        "semantic_similarity": 0,
-        "fallback": 0,
-        "no_attribution": 1
-      }
-    },
     "chunks_metadata": {
-      "total_chunks": 19,
+      "total_chunks": 37,
       "chunk_details": [
         {
           "chunk_id": 0,
           "document_name": "HB400",
-          "chunk_text": "The Judiciary, State of Hawai‘i Testimony to the Thirty-Third State Legislature 2025 Regular Session Senate Committee on Judiciary Senator Karl Rhoads, Chair Senator Mike Gabbard, Vice Chair Wednesday, March 19, 2025, 9:45 a.m. State Capitol, Conference Room 016 and Videoconference by: Brandon M. Kimura Policy and Planning Department Director Bill",
+          "chunk_text": "HB400 HOUSE OF REPRESENTATIVES H.B. NO. 400 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to the judiciary . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I. GENERAL PROVISIONS SECTION 1. This Act shall be known and may be cited as",
           "start_word": 0,
           "end_word": 50,
           "word_count": 50
@@ -782,7 +49,7 @@
         {
           "chunk_id": 1,
           "document_name": "HB400",
-          "chunk_text": "by: Brandon M. Kimura Policy and Planning Department Director Bill No. and Title: House Bill No. 400, House Draft 1, Relating to the Judiciary. Purpose: Appropriates funds for the Judiciary for the 2025–2027 biennium. Judiciary’s Position: The Judiciary strongly urges your support of House Bill No. 400, House Draft 1,",
+          "chunk_text": "This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. SECTION 2. Unless otherwise clear from the context, as used in this Act: \"Means of Financing,\" or \"MOF,\" means the source from which funds are appropriated, or authorized, as the case may be, to",
           "start_word": 40,
           "end_word": 90,
           "word_count": 50
@@ -790,7 +57,7 @@
         {
           "chunk_id": 2,
           "document_name": "HB400",
-          "chunk_text": "your support of House Bill No. 400, House Draft 1, which reflects the Judiciary’s resource requirements for Fiscal Biennium 2025–2027. Based on current circumstances and projected resource needs for the future, the Judiciary requests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary FTE, and $6.17M",
+          "chunk_text": "are appropriated, or authorized, as the case may be, to be expended for the programs and projects specified in this Act. All appropriations are followed by letter symbols. The letter symbols, where used, shall have the following meanings: A General funds B Special funds C General obligation bond funds N",
           "start_word": 80,
           "end_word": 130,
           "word_count": 50
@@ -798,7 +65,7 @@
         {
           "chunk_id": 3,
           "document_name": "HB400",
-          "chunk_text": "of 17.0 permanent FTE and 1.0 temporary FTE, and $6.17M in FY 2026, and $6.25M in FY 2027. This is an addition of approximately 3% to the Judiciary’s operating budget. The Judiciary remains vigilant during this period of uncertainty over federal funding and the possible impact on the State and",
+          "chunk_text": "funds B Special funds C General obligation bond funds N Federal funds W Revolving funds \"Position ceiling\" means the maximum number of permanent or temporary positions authorized for a particular program during a specified period or periods, as noted by an asterisk or pound sign, respectively. \"Program ID\" means the",
           "start_word": 120,
           "end_word": 170,
           "word_count": 50
@@ -806,7 +73,7 @@
         {
           "chunk_id": 4,
           "document_name": "HB400",
-          "chunk_text": "federal funding and the possible impact on the State and Judiciary budgets and operations. We have assessed federally-funded grant projects of the Judiciary and are committed to ongoing communication with the Legislature and with local non-governmental partners of the Judiciary who rely on federal funding. The Judiciary also requests a",
+          "chunk_text": "an asterisk or pound sign, respectively. \"Program ID\" means the unique identifier for the specific program, and consists of the abbreviation for the judiciary (JUD) followed by a designated number for the program. PART II. PROGRAM APPROPRIATIONS SECTION 3. The following sums, or so much thereof as may be sufficient",
           "start_word": 160,
           "end_word": 210,
           "word_count": 50
@@ -814,7 +81,7 @@
         {
           "chunk_id": 5,
           "document_name": "HB400",
-          "chunk_text": "who rely on federal funding. The Judiciary also requests a total of $11.9M in bond funds for capital improvement projects in FY 2026. This amount in bond funds, reflected in House Draft 1, includes a request for $2M more in lump sum than the measure as introduced. This is because",
+          "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number",
           "start_word": 200,
           "end_word": 250,
           "word_count": 50
@@ -822,7 +89,7 @@
         {
           "chunk_id": 6,
           "document_name": "HB400",
-          "chunk_text": "lump sum than the measure as introduced. This is because the Judiciary received new information that the relocation of the Children’s Justice Center on O‘ahu will require at least $2M more than previously appropriated. These circumstances are detailed further below, and the House Bill No. 400, House Draft 1, Relating",
+          "chunk_text": "ending June 30, 2027. The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS",
           "start_word": 240,
           "end_word": 290,
           "word_count": 50
@@ -830,7 +97,7 @@
         {
           "chunk_id": 7,
           "document_name": "HB400",
-          "chunk_text": "and the House Bill No. 400, House Draft 1, Relating to the Judiciary Senate Committee on Judiciary Wednesday, March 19, 2025 Page 2 Judiciary appreciates both the House for including this additional amount in House Draft 1, and this Senate Committee on Judiciary for considering this and previously including this",
+          "chunk_text": "in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS OF APPEAL 85.00 * 85.00 * 0.48 # 0.48 # OPERATING JUD 9,592,659 A 9,657,093 A 2. JUD310 – FIRST CIRCUIT 1,115.50 * 1,115.50 * 57.58 # 57.58 # OPERATING JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD",
           "start_word": 280,
           "end_word": 330,
           "word_count": 50
@@ -838,7 +105,7 @@
         {
           "chunk_id": 8,
           "document_name": "HB400",
-          "chunk_text": "Committee on Judiciary for considering this and previously including this in the companion measure, Senate Bill 260, Senate Draft 1. Operating Requests: Operating resource requests center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court that will open during",
+          "chunk_text": "JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD 4,261,273 B 4,261,273 B 3. JUD320 – SECOND CIRCUIT 210.50 * 210.50 * 1.68 # 1.68 # OPERATING JUD 20,150,130 A 20,150,130 A 4. JUD330 – THIRD CIRCUIT 246.00 * 246.00 * 5.20 # 5.20 # OPERATING JUD 24,912,104 A",
           "start_word": 320,
           "end_word": 370,
           "word_count": 50
@@ -846,7 +113,7 @@
         {
           "chunk_id": 9,
           "document_name": "HB400",
-          "chunk_text": "staff the new Wahiawā District Court that will open during this biennium, an additional District Court Judge and support staff in Kona, cybersecurity and critical technology costs, funding for the Criminal Justice Research Institute (CJRI), and restoration of funding for essential staffing that was defunded during the early part of",
+          "chunk_text": "246.00 * 5.20 # 5.20 # OPERATING JUD 24,912,104 A 24,903,209 A 5. JUD350 – FIFTH CIRCUIT 103.00 * 103.00 * 2.60 # 2.60 # OPERATING JUD 9,225,420 A 9,225,420 A 6. JUD501 – JUDICIAL SELECTION COMMISSION 1.00 * 1.00 * OPERATING JUD 114,074 A 114,074 A 7. JUD601 -",
           "start_word": 360,
           "end_word": 410,
           "word_count": 50
@@ -854,7 +121,7 @@
         {
           "chunk_id": 10,
           "document_name": "HB400",
-          "chunk_text": "essential staffing that was defunded during the early part of the COVID-19 pandemic. As for positions, nine of the 18 (17.0 permanent and 1.0 temporary) are requested to continue current staffing. This is because seven temporary positions for the Women’s Court Pilot Project, along with one permanent position and one",
+          "chunk_text": "* OPERATING JUD 114,074 A 114,074 A 7. JUD601 - ADMINISTRATION 234.50 * 234.50 * 8.48 # 8.48 # OPERATING JUD 41,193,756 A 41,042,866 A 1.00 * 1.00 * 9.00 # 9.00 # JUD 8,241,219 B 8,241,219 B JUD 343,261 W 343,261 W INVESTMENT CAPITAL JUD 9,900,000 C 0 C",
           "start_word": 400,
           "end_word": 450,
           "word_count": 50
@@ -862,7 +129,7 @@
         {
           "chunk_id": 11,
           "document_name": "HB400",
-          "chunk_text": "Court Pilot Project, along with one permanent position and one temporary position for the CJRI, will expire, but there are compelling reasons to continue these programs and the necessary staffing. The remaining requested positions will significantly expand capacity to certain operations. Brief details of each request are provided below: Women’s",
+          "chunk_text": "W 343,261 W INVESTMENT CAPITAL JUD 9,900,000 C 0 C PART III. PROGRAM PROVISIONS SECTION 4. Provided that whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes; provided further that no transfer shall",
           "start_word": 440,
           "end_word": 490,
           "word_count": 50
@@ -870,7 +137,7 @@
         {
           "chunk_id": 12,
           "document_name": "HB400",
-          "chunk_text": "operations. Brief details of each request are provided below: Women’s Court – The Women’s Court Pilot Project was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot that included seven temporary positions, which are set to expire at the end of FY 2025.",
+          "chunk_text": "programs for operating purposes; provided further that no transfer shall be made to implement any collective bargaining contract signed after this legislature adjourns sine die. SECTION 5. Provided that if the chief justice, or any agency or government unit, secures federal funds or other property under any act of Congress,",
           "start_word": 480,
           "end_word": 530,
           "word_count": 50
@@ -878,7 +145,7 @@
         {
           "chunk_id": 13,
           "document_name": "HB400",
-          "chunk_text": "are set to expire at the end of FY 2025. The request of $705,416 in FY 2026 and $705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s Court. The Women’s Court, also known as Mohala Wahine, was created to address the rapid growth in the",
+          "chunk_text": "federal funds or other property under any act of Congress, or any funds or other property from private organizations or individuals, to be expended in connection with any program or works authorized by this Act or otherwise, the chief justice, or the agency or government unit with the chief justice's",
           "start_word": 520,
           "end_word": 570,
           "word_count": 50
@@ -886,7 +153,7 @@
         {
           "chunk_id": 14,
           "document_name": "HB400",
-          "chunk_text": "Wahine, was created to address the rapid growth in the incarceration of women in the United States by providing comprehensive court- supervised treatment, opportunities, and resources as an alternative to incarceration for women in the criminal justice system who have suffered trauma, abuse, poverty, mental illness, substance use disorders, and/or",
+          "chunk_text": "or the agency or government unit with the chief justice's approval, may enter into the undertaking with the federal government, private organization, or individual. SECTION 6. Provided that the judiciary may transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash",
           "start_word": 560,
           "end_word": 610,
           "word_count": 50
@@ -894,7 +161,7 @@
         {
           "chunk_id": 15,
           "document_name": "HB400",
-          "chunk_text": "suffered trauma, abuse, poverty, mental illness, substance use disorders, and/or unhealthy relationships. The goal of the program is for the participants to identify and address issues, to prevent re-entry into criminality, and to aid the participants in bettering their economic conditions and life circumstances. Given the need for the program,",
+          "chunk_text": "driver education and training fund to accommodate any temporary cash flow deficits. PART IV. CAPITAL IMPROVEMENT PROJECTS SECTION 7. The sum of $9,900,000 appropriated or authorized in part II of this Act for capital improvement projects shall be expended by the judiciary for the projects listed below; provided that several",
           "start_word": 600,
           "end_word": 650,
           "word_count": 50
@@ -902,7 +169,7 @@
         {
           "chunk_id": 16,
           "document_name": "HB400",
-          "chunk_text": "conditions and life circumstances. Given the need for the program, a strong start as a three-year pilot created by the Legislature, and that the program (and positions and funding) will expire at the end of FY 2025, the Judiciary requests funding and eight positions (a net increase of one), including",
+          "chunk_text": "the judiciary for the projects listed below; provided that several related or similar projects may be combined into a single project, if a combination is advantageous or convenient for implementation; provided further that the total cost of the projects thus combined shall not exceed the total of the sums specified",
           "start_word": 640,
           "end_word": 690,
           "word_count": 50
@@ -910,7 +177,7 @@
         {
           "chunk_id": 17,
           "document_name": "HB400",
-          "chunk_text": "funding and eight positions (a net increase of one), including one substance use counselor. Truancy Court and Early Education Intervention Program (EEIP) – The Judiciary requests funding of $188,388 in FY 2026 and $183,288 in FY 2027 to restore funding for three redescribed Social Worker positions and additional expenses to",
+          "chunk_text": "combined shall not exceed the total of the sums specified for the projects separately. The amount after each cost element and the total funding for each project listed in this part are in thousands of dollars. THE JUDICIAL SYSTEM JUD601 - ADMINISTRATION 1. NON-POSITION RELATED PLANS AND DESIGN FOR NEW",
           "start_word": 680,
           "end_word": 730,
           "word_count": 50
@@ -918,10 +185,154 @@
         {
           "chunk_id": 18,
           "document_name": "HB400",
-          "chunk_text": "for three redescribed Social Worker positions and additional expenses to significantly expand the Truancy Court and EEIP on O‘ahu. Truancy Court and EEIP are designed to identify and address, where possible, the difficulties underlyi",
+          "chunk_text": "- ADMINISTRATION 1. NON-POSITION RELATED PLANS AND DESIGN FOR NEW JUDICIARY COMPLEX IN SOUTH KOHALA, HAWAI ` I. PLANS AND DESIGN FOR NEW SOUTH KOHALA JUDICIARY COMPLEX, HAWAI ` I. PLANS 500 DESIGN 3,500 TOTAL FUNDING JUD 4,000 C 0 C 2. PU ‘ UHONUA KAULIKE A/C SYSTEMS REPLACEMENT, KAUA",
           "start_word": 720,
-          "end_word": 754,
-          "word_count": 34
+          "end_word": 770,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB400",
+          "chunk_text": "C 2. PU ‘ UHONUA KAULIKE A/C SYSTEMS REPLACEMENT, KAUA ` I. EQUIPMENT FOR A/C SYSTEMS REPLACEMENT AT PU ` UHONUA KAULIKE, KAUA ` I. EQUIPMENT 900 TOTAL FUNDING JUD 900 C 0 C 3. LUMP SUM CIP FOR JUDICIARY FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS,",
+          "start_word": 760,
+          "end_word": 810,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB400",
+          "chunk_text": "FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS, UPGRADES, AND IMPROVEMENTS TO JUDICIARY FACILITIES, STATEWIDE. PLANS 1,000 DESIGN 1,000 CONSTRUCTION 2,000 EQUIPMENT 1,000 TOTAL FUNDING JUD 5,000 C 0 C PART V. ISSUANCE OF BONDS SECTION 8. General obligation bonds may be issued, as provided by law, to",
+          "start_word": 800,
+          "end_word": 850,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB400",
+          "chunk_text": "obligation bonds may be issued, as provided by law, to yield the amount that may be necessary to finance projects authorized in part II and listed in part IV of this Act; provided that the sum total of the general obligation bonds so issued shall not exceed $9,900,000. PART VI.",
+          "start_word": 840,
+          "end_word": 890,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB400",
+          "chunk_text": "obligation bonds so issued shall not exceed $9,900,000. PART VI. SPECIAL PROVISIONS SECTION 9. Any law or any provision of this Act to the contrary notwithstanding, the appropriations made for capital improvement projects authorized in part II and listed in part IV of this Act shall not lapse at the",
+          "start_word": 880,
+          "end_word": 930,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB400",
+          "chunk_text": "part IV of this Act shall not lapse at the end of the fiscal year for which the appropriations are made; provided that all appropriations made for fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that date. SECTION 10.",
+          "start_word": 920,
+          "end_word": 970,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB400",
+          "chunk_text": "30, 2028, shall lapse as of that date. SECTION 10. The judiciary may delegate to other state or county agencies the planning, acquisition of land, design, construction, and equipment of any capital improvement project when it is determined by the judiciary to be advantageous to do so. SECTION 11. All",
+          "start_word": 960,
+          "end_word": 1010,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB400",
+          "chunk_text": "judiciary to be advantageous to do so. SECTION 11. All unrequired balances in the general obligation bond fund, after the objectives of part II appropriations for capital improvements program purposes listed as projects in part IV of this Act have been met, shall be transferred to the judiciary project adjustment",
+          "start_word": 1000,
+          "end_word": 1050,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB400",
+          "chunk_text": "been met, shall be transferred to the judiciary project adjustment fund. SECTION 12. If the amount allocated from the general obligation bond fund for a capital improvement project listed in part IV of this Act is insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund;",
+          "start_word": 1040,
+          "end_word": 1090,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB400",
+          "chunk_text": "may make supplemental allotments from the judiciary project adjustment fund; provided that supplemental allotments shall not be used to increase the scope of the project. SECTION 13. Where it has been determined that changed conditions, such as a reduction in the particular population being served, permit the reduction in the",
+          "start_word": 1080,
+          "end_word": 1130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB400",
+          "chunk_text": "the particular population being served, permit the reduction in the scope of a project listed in part IV of this Act, the chief justice may authorize such reduction of project scope. SECTION 14. The chief justice shall determine when and the manner in which the authorized capital improvement projects shall",
+          "start_word": 1120,
+          "end_word": 1170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB400",
+          "chunk_text": "the manner in which the authorized capital improvement projects shall be initiated. The chief justice shall notify the governor from time to time of the specific amounts required for the projects, and the governor shall provide for those amounts through the issuance of bonds authorized in part V of this",
+          "start_word": 1160,
+          "end_word": 1210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 30,
+          "document_name": "HB400",
+          "chunk_text": "the issuance of bonds authorized in part V of this Act. SECTION 15. Any law or any provision of this Act to the contrary notwithstanding, the chief justice may supplement funds for any cost element for a capital improvement project authorized under this Act by transferring sums as may be",
+          "start_word": 1200,
+          "end_word": 1250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 31,
+          "document_name": "HB400",
+          "chunk_text": "authorized under this Act by transferring sums as may be needed from the funds appropriated for other cost elements of the same project by this Act or by any other prior or future Act that has not lapsed; provided that the total expenditure of funds for all cost elements for",
+          "start_word": 1240,
+          "end_word": 1290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 32,
+          "document_name": "HB400",
+          "chunk_text": "the total expenditure of funds for all cost elements for the project shall not exceed the total appropriation for that project. PART VII. MISCELLANEOUS PROVISIONS AND EFFECTIVE DATE SECTION 16. If any portion of this Act or its application to any person or circumstances is held to be invalid for",
+          "start_word": 1280,
+          "end_word": 1330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 33,
+          "document_name": "HB400",
+          "chunk_text": "any person or circumstances is held to be invalid for any reason, the remainder of this Act and any provision thereof shall not be affected. If any portion of a specific appropriation is held to be invalid for any reason, the remaining portion shall be independent of the invalid portion",
+          "start_word": 1320,
+          "end_word": 1370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 34,
+          "document_name": "HB400",
+          "chunk_text": "the remaining portion shall be independent of the invalid portion and shall be expended to fulfill the objective and intent of the appropriation to the extent possible. SECTION 17. If any manifest clerical, typographical, or other mechanical error is found in this Act, the chief justice may correct the error.",
+          "start_word": 1360,
+          "end_word": 1410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 35,
+          "document_name": "HB400",
+          "chunk_text": "in this Act, the chief justice may correct the error. All changes made pursuant to this section shall be reported to the legislature at its next regular session. SECTION 18. This Act shall take effect on July 1, 2025. INTRODUCED BY: _____________________________ By Request Report Title: Judiciary Package; Appropriations; Budget",
+          "start_word": 1400,
+          "end_word": 1450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 36,
+          "document_name": "HB400",
+          "chunk_text": "BY: _____________________________ By Request Report Title: Judiciary Package; Appropriations; Budget Description: Appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. Effective 7/1/2025. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+          "start_word": 1440,
+          "end_word": 1490,
+          "word_count": 50
         }
       ]
     },
@@ -931,9 +342,781 @@
         "number": 9900000.0,
         "filename": "HB400_.HTM.txt",
         "document_type": "document"
+      },
+      {
+        "text": "SECTION 8. General obligation bonds may be issued, as provided by law, to yield the amount that may be necessary to finance projects authorized in part II and listed in part IV of this Act; provided that the sum total of the general obligation bonds so issued shall not exceed $9,900,000. PART VI. SPECIAL PROVISIONS SECTION 9. Any law or any provision of this Act to the contrary notwithstanding, the appropriations made for capital improvement projects authorized in part II and listed in part IV of this Act shall not lapse at the end of the fiscal year for which the",
+        "number": 9900000.0,
+        "filename": "HB400_.HTM.txt",
+        "document_type": "document"
+      }
+    ],
+    "chunk_text_map": {
+      "1": [
+        {
+          "chunk_text": "This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. SECTION 2. Unless otherwise clear from the context, as used in this Act: \"Means of Financing,\" or \"MOF,\" means the source from which funds are appropriated, or authorized, as the case may be, to",
+          "chunk_id": 1,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "BY: _____________________________ By Request Report Title: Judiciary Package; Appropriations; Budget Description: Appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. Effective 7/1/2025. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+          "chunk_id": 36,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "ending June 30, 2027. The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS",
+          "chunk_id": 6,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number",
+          "chunk_id": 5,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS OF APPEAL 85.00 * 85.00 * 0.48 # 0.48 # OPERATING JUD 9,592,659 A 9,657,093 A 2. JUD310 – FIRST CIRCUIT 1,115.50 * 1,115.50 * 57.58 # 57.58 # OPERATING JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD",
+          "chunk_id": 7,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "W 343,261 W INVESTMENT CAPITAL JUD 9,900,000 C 0 C PART III. PROGRAM PROVISIONS SECTION 4. Provided that whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes; provided further that no transfer shall",
+          "chunk_id": 11,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "driver education and training fund to accommodate any temporary cash flow deficits. PART IV. CAPITAL IMPROVEMENT PROJECTS SECTION 7. The sum of $9,900,000 appropriated or authorized in part II of this Act for capital improvement projects shall be expended by the judiciary for the projects listed below; provided that several",
+          "chunk_id": 15,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "combined shall not exceed the total of the sums specified for the projects separately. The amount after each cost element and the total funding for each project listed in this part are in thousands of dollars. THE JUDICIAL SYSTEM JUD601 - ADMINISTRATION 1. NON-POSITION RELATED PLANS AND DESIGN FOR NEW",
+          "chunk_id": 17,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "30, 2028, shall lapse as of that date. SECTION 10. The judiciary may delegate to other state or county agencies the planning, acquisition of land, design, construction, and equipment of any capital improvement project when it is determined by the judiciary to be advantageous to do so. SECTION 11. All",
+          "chunk_id": 24,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "been met, shall be transferred to the judiciary project adjustment fund. SECTION 12. If the amount allocated from the general obligation bond fund for a capital improvement project listed in part IV of this Act is insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund;",
+          "chunk_id": 26,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS, UPGRADES, AND IMPROVEMENTS TO JUDICIARY FACILITIES, STATEWIDE. PLANS 1,000 DESIGN 1,000 CONSTRUCTION 2,000 EQUIPMENT 1,000 TOTAL FUNDING JUD 5,000 C 0 C PART V. ISSUANCE OF BONDS SECTION 8. General obligation bonds may be issued, as provided by law, to",
+          "chunk_id": 20,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "part IV of this Act shall not lapse at the end of the fiscal year for which the appropriations are made; provided that all appropriations made for fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that date. SECTION 10.",
+          "chunk_id": 23,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "judiciary to be advantageous to do so. SECTION 11. All unrequired balances in the general obligation bond fund, after the objectives of part II appropriations for capital improvements program purposes listed as projects in part IV of this Act have been met, shall be transferred to the judiciary project adjustment",
+          "chunk_id": 25,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "funds B Special funds C General obligation bond funds N Federal funds W Revolving funds \"Position ceiling\" means the maximum number of permanent or temporary positions authorized for a particular program during a specified period or periods, as noted by an asterisk or pound sign, respectively. \"Program ID\" means the",
+          "chunk_id": 3,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "federal funds or other property under any act of Congress, or any funds or other property from private organizations or individuals, to be expended in connection with any program or works authorized by this Act or otherwise, the chief justice, or the agency or government unit with the chief justice's",
+          "chunk_id": 13,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD 4,261,273 B 4,261,273 B 3. JUD320 – SECOND CIRCUIT 210.50 * 210.50 * 1.68 # 1.68 # OPERATING JUD 20,150,130 A 20,150,130 A 4. JUD330 – THIRD CIRCUIT 246.00 * 246.00 * 5.20 # 5.20 # OPERATING JUD 24,912,104 A",
+          "chunk_id": 8,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "- ADMINISTRATION 1. NON-POSITION RELATED PLANS AND DESIGN FOR NEW JUDICIARY COMPLEX IN SOUTH KOHALA, HAWAI ` I. PLANS AND DESIGN FOR NEW SOUTH KOHALA JUDICIARY COMPLEX, HAWAI ` I. PLANS 500 DESIGN 3,500 TOTAL FUNDING JUD 4,000 C 0 C 2. PU ‘ UHONUA KAULIKE A/C SYSTEMS REPLACEMENT, KAUA",
+          "chunk_id": 18,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "C 2. PU ‘ UHONUA KAULIKE A/C SYSTEMS REPLACEMENT, KAUA ` I. EQUIPMENT FOR A/C SYSTEMS REPLACEMENT AT PU ` UHONUA KAULIKE, KAUA ` I. EQUIPMENT 900 TOTAL FUNDING JUD 900 C 0 C 3. LUMP SUM CIP FOR JUDICIARY FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS,",
+          "chunk_id": 19,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "obligation bonds may be issued, as provided by law, to yield the amount that may be necessary to finance projects authorized in part II and listed in part IV of this Act; provided that the sum total of the general obligation bonds so issued shall not exceed $9,900,000. PART VI.",
+          "chunk_id": 21,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "or the agency or government unit with the chief justice's approval, may enter into the undertaking with the federal government, private organization, or individual. SECTION 6. Provided that the judiciary may transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash",
+          "chunk_id": 14,
+          "document_name": "HB400"
+        }
+      ]
+    },
+    "document_mapping": {
+      "HB400": 1,
+      "HB400_TESTIMONY_JHA_01-30-25_": 2,
+      "HB400_HSCR286_": 3,
+      "HB400_TESTIMONY_FIN_03-05-25_": 4,
+      "HB400_HD1": 5,
+      "HB400_HD1_HSCR1171_": 6,
+      "HB400_HD1_TESTIMONY_JDC_03-19-25_": 7,
+      "HB400_SD1": 8,
+      "HB400_SD1_SSCR1253_": 9,
+      "HB400_SD1_TESTIMONY_WAM_03-31-25_": 10,
+      "HB400_SD2": 11,
+      "HB400_SD2_SSCR1841_": 12,
+      "HB400_CD1": 13,
+      "HB400_CD1_CCR157_": 14
+    },
+    "sentence_chunk_mapping": [
+      {
+        "section": "overview",
+        "sentence": "This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 1,
+            "chunk_text": "This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. SECTION 2. Unless otherwise clear from the context, as used in this Act: \"Means of Financing,\" or \"MOF,\" means the source from which funds are appropriated, or authorized, as the case may be, to",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "It appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027.",
+        "chunks": [
+          {
+            "chunk_id": 36,
+            "citation_number": 1,
+            "chunk_text": "BY: _____________________________ By Request Report Title: Judiciary Package; Appropriations; Budget Description: Appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. Effective 7/1/2025. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act.",
+        "chunks": [
+          {
+            "chunk_id": 6,
+            "citation_number": 1,
+            "chunk_text": "ending June 30, 2027. The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The legislative document appropriates various sums for operating costs to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 1,
+            "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "For example, the legislative document specifies operating funds for JUD101 - Courts of Appeal as $9,592,659 (HB400_.HTM.txt) for FY 2026 and $9,657,093 (HB400_.HTM.txt) for FY 2027.",
+        "chunks": [
+          {
+            "chunk_id": 7,
+            "citation_number": 1,
+            "chunk_text": "in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS OF APPEAL 85.00 * 85.00 * 0.48 # 0.48 # OPERATING JUD 9,592,659 A 9,657,093 A 2. JUD310 – FIRST CIRCUIT 1,115.50 * 1,115.50 * 57.58 # 57.58 # OPERATING JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The legislative document also appropriates a sum of $9,900,000 (HB400_.HTM.txt) from general obligation bond funds for capital improvement projects.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "W 343,261 W INVESTMENT CAPITAL JUD 9,900,000 C 0 C PART III. PROGRAM PROVISIONS SECTION 4. Provided that whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes; provided further that no transfer shall",
+            "document_name": "HB400"
+          },
+          {
+            "chunk_id": 15,
+            "citation_number": 1,
+            "chunk_text": "driver education and training fund to accommodate any temporary cash flow deficits. PART IV. CAPITAL IMPROVEMENT PROJECTS SECTION 7. The sum of $9,900,000 appropriated or authorized in part II of this Act for capital improvement projects shall be expended by the judiciary for the projects listed below; provided that several",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The legislative document specifies that sums are appropriated or authorized to accomplish the purposes and programs designated.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 1,
+            "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The total expenditures and the number of permanent and temporary positions shall not exceed the sums and the position ceilings indicated for each year.",
+        "chunks": [
+          {
+            "chunk_id": 6,
+            "citation_number": 1,
+            "chunk_text": "ending June 30, 2027. The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "For capital improvement projects, the amount after each cost element and the total funding for each project are listed in thousands of dollars.",
+        "chunks": [
+          {
+            "chunk_id": 17,
+            "citation_number": 1,
+            "chunk_text": "combined shall not exceed the total of the sums specified for the projects separately. The amount after each cost element and the total funding for each project listed in this part are in thousands of dollars. THE JUDICIAL SYSTEM JUD601 - ADMINISTRATION 1. NON-POSITION RELATED PLANS AND DESIGN FOR NEW",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The chief justice is authorized to transfer sufficient funds and positions between programs for operating purposes whenever the need arises.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "W 343,261 W INVESTMENT CAPITAL JUD 9,900,000 C 0 C PART III. PROGRAM PROVISIONS SECTION 4. Provided that whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes; provided further that no transfer shall",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The judiciary may delegate the planning, acquisition of land, design, construction, and equipment of any capital improvement project to other state or county agencies if it is determined to be advantageous.",
+        "chunks": [
+          {
+            "chunk_id": 24,
+            "citation_number": 1,
+            "chunk_text": "30, 2028, shall lapse as of that date. SECTION 10. The judiciary may delegate to other state or county agencies the planning, acquisition of land, design, construction, and equipment of any capital improvement project when it is determined by the judiciary to be advantageous to do so. SECTION 11. All",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "If funds for a capital project are insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund.",
+        "chunks": [
+          {
+            "chunk_id": 26,
+            "citation_number": 1,
+            "chunk_text": "been met, shall be transferred to the judiciary project adjustment fund. SECTION 12. If the amount allocated from the general obligation bond fund for a capital improvement project listed in part IV of this Act is insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund;",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "This bill appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027.",
+        "chunks": [
+          {
+            "chunk_id": 36,
+            "citation_number": 1,
+            "chunk_text": "BY: _____________________________ By Request Report Title: Judiciary Package; Appropriations; Budget Description: Appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. Effective 7/1/2025. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "The legislative document specifies a sum of $9,900,000 (HB400_.HTM.txt) for capital improvement projects to be expended by the judiciary.",
+        "chunks": [
+          {
+            "chunk_id": 15,
+            "citation_number": 1,
+            "chunk_text": "driver education and training fund to accommodate any temporary cash flow deficits. PART IV. CAPITAL IMPROVEMENT PROJECTS SECTION 7. The sum of $9,900,000 appropriated or authorized in part II of this Act for capital improvement projects shall be expended by the judiciary for the projects listed below; provided that several",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "These projects include plans, design, construction, and equipment for general alterations, upgrades, and improvements to judiciary facilities statewide.",
+        "chunks": [
+          {
+            "chunk_id": 20,
+            "citation_number": 1,
+            "chunk_text": "FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS, UPGRADES, AND IMPROVEMENTS TO JUDICIARY FACILITIES, STATEWIDE. PLANS 1,000 DESIGN 1,000 CONSTRUCTION 2,000 EQUIPMENT 1,000 TOTAL FUNDING JUD 5,000 C 0 C PART V. ISSUANCE OF BONDS SECTION 8. General obligation bonds may be issued, as provided by law, to",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 1,
+            "chunk_text": "This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. SECTION 2. Unless otherwise clear from the context, as used in this Act: \"Means of Financing,\" or \"MOF,\" means the source from which funds are appropriated, or authorized, as the case may be, to",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "It provides that appropriations for capital improvement projects shall not lapse at the end of the fiscal year, but any funds unencumbered as of June 30, 2028, shall lapse as of that date.",
+        "chunks": [
+          {
+            "chunk_id": 23,
+            "citation_number": 1,
+            "chunk_text": "part IV of this Act shall not lapse at the end of the fiscal year for which the appropriations are made; provided that all appropriations made for fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that date. SECTION 10.",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "All unrequired balances in the general obligation bond fund, after the objectives for capital improvements have been met, shall be transferred to the judiciary project adjustment fund.",
+        "chunks": [
+          {
+            "chunk_id": 25,
+            "citation_number": 1,
+            "chunk_text": "judiciary to be advantageous to do so. SECTION 11. All unrequired balances in the general obligation bond fund, after the objectives of part II appropriations for capital improvements program purposes listed as projects in part IV of this Act have been met, shall be transferred to the judiciary project adjustment",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The means of financing are specified by letter symbols, which include A for General funds, B for Special funds, C for General obligation bond funds, and W for Revolving funds.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 1,
+            "chunk_text": "funds B Special funds C General obligation bond funds N Federal funds W Revolving funds \"Position ceiling\" means the maximum number of permanent or temporary positions authorized for a particular program during a specified period or periods, as noted by an asterisk or pound sign, respectively. \"Program ID\" means the",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "Capital improvement projects are funded by $9,900,000 (HB400_.HTM.txt) from General obligation bond funds (C).",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "W 343,261 W INVESTMENT CAPITAL JUD 9,900,000 C 0 C PART III. PROGRAM PROVISIONS SECTION 4. Provided that whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes; provided further that no transfer shall",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The chief justice may also secure federal funds or funds from private organizations or individuals for programs authorized by this Act.",
+        "chunks": [
+          {
+            "chunk_id": 13,
+            "citation_number": 1,
+            "chunk_text": "federal funds or other property under any act of Congress, or any funds or other property from private organizations or individuals, to be expended in connection with any program or works authorized by this Act or otherwise, the chief justice, or the agency or government unit with the chief justice's",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The bill appropriates funds for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 1,
+            "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "For FY 2025-2026, operating appropriations from general funds include $9,592,659 (HB400_.HTM.txt) for JUD101 - Courts of Appeal and $98,130,866 (HB400_.HTM.txt) for JUD310 – First Circuit.",
+        "chunks": [
+          {
+            "chunk_id": 7,
+            "citation_number": 1,
+            "chunk_text": "in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS OF APPEAL 85.00 * 85.00 * 0.48 # 0.48 # OPERATING JUD 9,592,659 A 9,657,093 A 2. JUD310 – FIRST CIRCUIT 1,115.50 * 1,115.50 * 57.58 # 57.58 # OPERATING JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "For FY 2026-2027, the appropriations for these programs are $9,657,093 (HB400_.HTM.txt) and $98,298,808 (HB400_.HTM.txt) respectively.",
+        "chunks": [
+          {
+            "chunk_id": 7,
+            "citation_number": 1,
+            "chunk_text": "in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS OF APPEAL 85.00 * 85.00 * 0.48 # 0.48 # OPERATING JUD 9,592,659 A 9,657,093 A 2. JUD310 – FIRST CIRCUIT 1,115.50 * 1,115.50 * 57.58 # 57.58 # OPERATING JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD",
+            "document_name": "HB400"
+          },
+          {
+            "chunk_id": 8,
+            "citation_number": 1,
+            "chunk_text": "JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD 4,261,273 B 4,261,273 B 3. JUD320 – SECOND CIRCUIT 210.50 * 210.50 * 1.68 # 1.68 # OPERATING JUD 20,150,130 A 20,150,130 A 4. JUD330 – THIRD CIRCUIT 246.00 * 246.00 * 5.20 # 5.20 # OPERATING JUD 24,912,104 A",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The legislative document also appropriates $9,900,000 (HB400_.HTM.txt) in investment capital from general obligation bond funds for FY 2025-2026.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "W 343,261 W INVESTMENT CAPITAL JUD 9,900,000 C 0 C PART III. PROGRAM PROVISIONS SECTION 4. Provided that whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes; provided further that no transfer shall",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "This funding is designated for projects including $4,000,000 (HB400_.HTM.txt) for the new South Kohala Judiciary Complex, $900,000 (HB400_.HTM.txt) for the Pu‘uhonua Kaulike A/C Systems Replacement, and $5,000,000 (HB400_.HTM.txt) for lump sum CIP for Judiciary Facilities, Statewide.",
+        "chunks": [
+          {
+            "chunk_id": 18,
+            "citation_number": 1,
+            "chunk_text": "- ADMINISTRATION 1. NON-POSITION RELATED PLANS AND DESIGN FOR NEW JUDICIARY COMPLEX IN SOUTH KOHALA, HAWAI ` I. PLANS AND DESIGN FOR NEW SOUTH KOHALA JUDICIARY COMPLEX, HAWAI ` I. PLANS 500 DESIGN 3,500 TOTAL FUNDING JUD 4,000 C 0 C 2. PU ‘ UHONUA KAULIKE A/C SYSTEMS REPLACEMENT, KAUA",
+            "document_name": "HB400"
+          },
+          {
+            "chunk_id": 19,
+            "citation_number": 1,
+            "chunk_text": "C 2. PU ‘ UHONUA KAULIKE A/C SYSTEMS REPLACEMENT, KAUA ` I. EQUIPMENT FOR A/C SYSTEMS REPLACEMENT AT PU ` UHONUA KAULIKE, KAUA ` I. EQUIPMENT 900 TOTAL FUNDING JUD 900 C 0 C 3. LUMP SUM CIP FOR JUDICIARY FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS,",
+            "document_name": "HB400"
+          },
+          {
+            "chunk_id": 20,
+            "citation_number": 1,
+            "chunk_text": "FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS, UPGRADES, AND IMPROVEMENTS TO JUDICIARY FACILITIES, STATEWIDE. PLANS 1,000 DESIGN 1,000 CONSTRUCTION 2,000 EQUIPMENT 1,000 TOTAL FUNDING JUD 5,000 C 0 C PART V. ISSUANCE OF BONDS SECTION 8. General obligation bonds may be issued, as provided by law, to",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "General obligation bonds may be issued to finance these projects, provided the sum total does not exceed $9,900,000 (HB400_.HTM.txt).",
+        "chunks": [
+          {
+            "chunk_id": 21,
+            "citation_number": 1,
+            "chunk_text": "obligation bonds may be issued, as provided by law, to yield the amount that may be necessary to finance projects authorized in part II and listed in part IV of this Act; provided that the sum total of the general obligation bonds so issued shall not exceed $9,900,000. PART VI.",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Any capital improvement appropriations unencumbered as of June 30, 2028, shall lapse as of that date.",
+        "chunks": [
+          {
+            "chunk_id": 23,
+            "citation_number": 1,
+            "chunk_text": "part IV of this Act shall not lapse at the end of the fiscal year for which the appropriations are made; provided that all appropriations made for fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that date. SECTION 10.",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The document provides no fiscal details beyond the 2025-2027 biennium.",
+        "chunks": [
+          {
+            "chunk_id": 6,
+            "citation_number": 1,
+            "chunk_text": "ending June 30, 2027. The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "The document appropriates funds from general funds, special funds, and revolving funds for operations.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 1,
+            "chunk_text": "funds B Special funds C General obligation bond funds N Federal funds W Revolving funds \"Position ceiling\" means the maximum number of permanent or temporary positions authorized for a particular program during a specified period or periods, as noted by an asterisk or pound sign, respectively. \"Program ID\" means the",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "The chief justice may secure federal funds or funds from private organizations or individuals for authorized programs.",
+        "chunks": [
+          {
+            "chunk_id": 13,
+            "citation_number": 1,
+            "chunk_text": "federal funds or other property under any act of Congress, or any funds or other property from private organizations or individuals, to be expended in connection with any program or works authorized by this Act or otherwise, the chief justice, or the agency or government unit with the chief justice's",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "Additionally, the judiciary may transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash flow deficits.",
+        "chunks": [
+          {
+            "chunk_id": 14,
+            "citation_number": 1,
+            "chunk_text": "or the agency or government unit with the chief justice's approval, may enter into the undertaking with the federal government, private organization, or individual. SECTION 6. Provided that the judiciary may transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The legislative document specifies the sum of $9,900,000 (HB400_.HTM.txt) is appropriated for capital improvement projects for the judiciary.",
+        "chunks": [
+          {
+            "chunk_id": 15,
+            "citation_number": 1,
+            "chunk_text": "driver education and training fund to accommodate any temporary cash flow deficits. PART IV. CAPITAL IMPROVEMENT PROJECTS SECTION 7. The sum of $9,900,000 appropriated or authorized in part II of this Act for capital improvement projects shall be expended by the judiciary for the projects listed below; provided that several",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "Projects listed include $4,000,000 (HB400_.HTM.txt) for plans and design for a new judiciary complex in South Kohala, $900,000 (HB400_.HTM.txt) for A/C systems replacement in Kaua`i, and $5,000,000 (HB400_.HTM.txt) for lump sum CIP for judiciary facilities statewide.",
+        "chunks": [
+          {
+            "chunk_id": 18,
+            "citation_number": 1,
+            "chunk_text": "- ADMINISTRATION 1. NON-POSITION RELATED PLANS AND DESIGN FOR NEW JUDICIARY COMPLEX IN SOUTH KOHALA, HAWAI ` I. PLANS AND DESIGN FOR NEW SOUTH KOHALA JUDICIARY COMPLEX, HAWAI ` I. PLANS 500 DESIGN 3,500 TOTAL FUNDING JUD 4,000 C 0 C 2. PU ‘ UHONUA KAULIKE A/C SYSTEMS REPLACEMENT, KAUA",
+            "document_name": "HB400"
+          },
+          {
+            "chunk_id": 19,
+            "citation_number": 1,
+            "chunk_text": "C 2. PU ‘ UHONUA KAULIKE A/C SYSTEMS REPLACEMENT, KAUA ` I. EQUIPMENT FOR A/C SYSTEMS REPLACEMENT AT PU ` UHONUA KAULIKE, KAUA ` I. EQUIPMENT 900 TOTAL FUNDING JUD 900 C 0 C 3. LUMP SUM CIP FOR JUDICIARY FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS,",
+            "document_name": "HB400"
+          },
+          {
+            "chunk_id": 20,
+            "citation_number": 1,
+            "chunk_text": "FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS, UPGRADES, AND IMPROVEMENTS TO JUDICIARY FACILITIES, STATEWIDE. PLANS 1,000 DESIGN 1,000 CONSTRUCTION 2,000 EQUIPMENT 1,000 TOTAL FUNDING JUD 5,000 C 0 C PART V. ISSUANCE OF BONDS SECTION 8. General obligation bonds may be issued, as provided by law, to",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "General obligation bonds may be issued to finance these projects in an amount not to exceed $9,900,000 (HB400_.HTM.txt).",
+        "chunks": [
+          {
+            "chunk_id": 21,
+            "citation_number": 1,
+            "chunk_text": "obligation bonds may be issued, as provided by law, to yield the amount that may be necessary to finance projects authorized in part II and listed in part IV of this Act; provided that the sum total of the general obligation bonds so issued shall not exceed $9,900,000. PART VI.",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The appropriations in the bill are for the fiscal biennium ending June 30, 2027.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 1,
+            "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "All appropriations made for capital improvement projects that are unencumbered as of June 30, 2028, shall lapse as of that date.",
+        "chunks": [
+          {
+            "chunk_id": 23,
+            "citation_number": 1,
+            "chunk_text": "part IV of this Act shall not lapse at the end of the fiscal year for which the appropriations are made; provided that all appropriations made for fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that date. SECTION 10.",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The document does not provide details on fiscal obligations beyond this period, as future funding would depend on subsequent Judiciary Appropriations Acts.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 1,
+            "chunk_text": "This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. SECTION 2. Unless otherwise clear from the context, as used in this Act: \"Means of Financing,\" or \"MOF,\" means the source from which funds are appropriated, or authorized, as the case may be, to",
+            "document_name": "HB400"
+          }
+        ]
       }
     ]
   },
-  "generation_timestamp": "2025-10-10T15:05:47.188768",
-  "generation_timestamp_unix": 1760144747.188782
+  "chunk_mapping": {
+    "HB400": [
+      {
+        "chunk_number": 0,
+        "chunk_text": "HB400 HOUSE OF REPRESENTATIVES H.B. NO. 400 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to the judiciary . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I. GENERAL PROVISIONS SECTION 1. This Act shall be known and may be cited as"
+      },
+      {
+        "chunk_number": 1,
+        "chunk_text": "This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. SECTION 2. Unless otherwise clear from the context, as used in this Act: \"Means of Financing,\" or \"MOF,\" means the source from which funds are appropriated, or authorized, as the case may be, to"
+      },
+      {
+        "chunk_number": 2,
+        "chunk_text": "are appropriated, or authorized, as the case may be, to be expended for the programs and projects specified in this Act. All appropriations are followed by letter symbols. The letter symbols, where used, shall have the following meanings: A General funds B Special funds C General obligation bond funds N"
+      },
+      {
+        "chunk_number": 3,
+        "chunk_text": "funds B Special funds C General obligation bond funds N Federal funds W Revolving funds \"Position ceiling\" means the maximum number of permanent or temporary positions authorized for a particular program during a specified period or periods, as noted by an asterisk or pound sign, respectively. \"Program ID\" means the"
+      },
+      {
+        "chunk_number": 4,
+        "chunk_text": "an asterisk or pound sign, respectively. \"Program ID\" means the unique identifier for the specific program, and consists of the abbreviation for the judiciary (JUD) followed by a designated number for the program. PART II. PROGRAM APPROPRIATIONS SECTION 3. The following sums, or so much thereof as may be sufficient"
+      },
+      {
+        "chunk_number": 5,
+        "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number"
+      },
+      {
+        "chunk_number": 6,
+        "chunk_text": "ending June 30, 2027. The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS"
+      },
+      {
+        "chunk_number": 7,
+        "chunk_text": "in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS OF APPEAL 85.00 * 85.00 * 0.48 # 0.48 # OPERATING JUD 9,592,659 A 9,657,093 A 2. JUD310 – FIRST CIRCUIT 1,115.50 * 1,115.50 * 57.58 # 57.58 # OPERATING JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD"
+      },
+      {
+        "chunk_number": 8,
+        "chunk_text": "JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD 4,261,273 B 4,261,273 B 3. JUD320 – SECOND CIRCUIT 210.50 * 210.50 * 1.68 # 1.68 # OPERATING JUD 20,150,130 A 20,150,130 A 4. JUD330 – THIRD CIRCUIT 246.00 * 246.00 * 5.20 # 5.20 # OPERATING JUD 24,912,104 A"
+      },
+      {
+        "chunk_number": 9,
+        "chunk_text": "246.00 * 5.20 # 5.20 # OPERATING JUD 24,912,104 A 24,903,209 A 5. JUD350 – FIFTH CIRCUIT 103.00 * 103.00 * 2.60 # 2.60 # OPERATING JUD 9,225,420 A 9,225,420 A 6. JUD501 – JUDICIAL SELECTION COMMISSION 1.00 * 1.00 * OPERATING JUD 114,074 A 114,074 A 7. JUD601 -"
+      },
+      {
+        "chunk_number": 10,
+        "chunk_text": "* OPERATING JUD 114,074 A 114,074 A 7. JUD601 - ADMINISTRATION 234.50 * 234.50 * 8.48 # 8.48 # OPERATING JUD 41,193,756 A 41,042,866 A 1.00 * 1.00 * 9.00 # 9.00 # JUD 8,241,219 B 8,241,219 B JUD 343,261 W 343,261 W INVESTMENT CAPITAL JUD 9,900,000 C 0 C"
+      },
+      {
+        "chunk_number": 11,
+        "chunk_text": "W 343,261 W INVESTMENT CAPITAL JUD 9,900,000 C 0 C PART III. PROGRAM PROVISIONS SECTION 4. Provided that whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes; provided further that no transfer shall"
+      },
+      {
+        "chunk_number": 12,
+        "chunk_text": "programs for operating purposes; provided further that no transfer shall be made to implement any collective bargaining contract signed after this legislature adjourns sine die. SECTION 5. Provided that if the chief justice, or any agency or government unit, secures federal funds or other property under any act of Congress,"
+      },
+      {
+        "chunk_number": 13,
+        "chunk_text": "federal funds or other property under any act of Congress, or any funds or other property from private organizations or individuals, to be expended in connection with any program or works authorized by this Act or otherwise, the chief justice, or the agency or government unit with the chief justice's"
+      },
+      {
+        "chunk_number": 14,
+        "chunk_text": "or the agency or government unit with the chief justice's approval, may enter into the undertaking with the federal government, private organization, or individual. SECTION 6. Provided that the judiciary may transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash"
+      },
+      {
+        "chunk_number": 15,
+        "chunk_text": "driver education and training fund to accommodate any temporary cash flow deficits. PART IV. CAPITAL IMPROVEMENT PROJECTS SECTION 7. The sum of $9,900,000 appropriated or authorized in part II of this Act for capital improvement projects shall be expended by the judiciary for the projects listed below; provided that several"
+      },
+      {
+        "chunk_number": 16,
+        "chunk_text": "the judiciary for the projects listed below; provided that several related or similar projects may be combined into a single project, if a combination is advantageous or convenient for implementation; provided further that the total cost of the projects thus combined shall not exceed the total of the sums specified"
+      },
+      {
+        "chunk_number": 17,
+        "chunk_text": "combined shall not exceed the total of the sums specified for the projects separately. The amount after each cost element and the total funding for each project listed in this part are in thousands of dollars. THE JUDICIAL SYSTEM JUD601 - ADMINISTRATION 1. NON-POSITION RELATED PLANS AND DESIGN FOR NEW"
+      },
+      {
+        "chunk_number": 18,
+        "chunk_text": "- ADMINISTRATION 1. NON-POSITION RELATED PLANS AND DESIGN FOR NEW JUDICIARY COMPLEX IN SOUTH KOHALA, HAWAI ` I. PLANS AND DESIGN FOR NEW SOUTH KOHALA JUDICIARY COMPLEX, HAWAI ` I. PLANS 500 DESIGN 3,500 TOTAL FUNDING JUD 4,000 C 0 C 2. PU ‘ UHONUA KAULIKE A/C SYSTEMS REPLACEMENT, KAUA"
+      },
+      {
+        "chunk_number": 19,
+        "chunk_text": "C 2. PU ‘ UHONUA KAULIKE A/C SYSTEMS REPLACEMENT, KAUA ` I. EQUIPMENT FOR A/C SYSTEMS REPLACEMENT AT PU ` UHONUA KAULIKE, KAUA ` I. EQUIPMENT 900 TOTAL FUNDING JUD 900 C 0 C 3. LUMP SUM CIP FOR JUDICIARY FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS,"
+      },
+      {
+        "chunk_number": 20,
+        "chunk_text": "FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS, UPGRADES, AND IMPROVEMENTS TO JUDICIARY FACILITIES, STATEWIDE. PLANS 1,000 DESIGN 1,000 CONSTRUCTION 2,000 EQUIPMENT 1,000 TOTAL FUNDING JUD 5,000 C 0 C PART V. ISSUANCE OF BONDS SECTION 8. General obligation bonds may be issued, as provided by law, to"
+      },
+      {
+        "chunk_number": 21,
+        "chunk_text": "obligation bonds may be issued, as provided by law, to yield the amount that may be necessary to finance projects authorized in part II and listed in part IV of this Act; provided that the sum total of the general obligation bonds so issued shall not exceed $9,900,000. PART VI."
+      },
+      {
+        "chunk_number": 22,
+        "chunk_text": "obligation bonds so issued shall not exceed $9,900,000. PART VI. SPECIAL PROVISIONS SECTION 9. Any law or any provision of this Act to the contrary notwithstanding, the appropriations made for capital improvement projects authorized in part II and listed in part IV of this Act shall not lapse at the"
+      },
+      {
+        "chunk_number": 23,
+        "chunk_text": "part IV of this Act shall not lapse at the end of the fiscal year for which the appropriations are made; provided that all appropriations made for fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that date. SECTION 10."
+      },
+      {
+        "chunk_number": 24,
+        "chunk_text": "30, 2028, shall lapse as of that date. SECTION 10. The judiciary may delegate to other state or county agencies the planning, acquisition of land, design, construction, and equipment of any capital improvement project when it is determined by the judiciary to be advantageous to do so. SECTION 11. All"
+      },
+      {
+        "chunk_number": 25,
+        "chunk_text": "judiciary to be advantageous to do so. SECTION 11. All unrequired balances in the general obligation bond fund, after the objectives of part II appropriations for capital improvements program purposes listed as projects in part IV of this Act have been met, shall be transferred to the judiciary project adjustment"
+      },
+      {
+        "chunk_number": 26,
+        "chunk_text": "been met, shall be transferred to the judiciary project adjustment fund. SECTION 12. If the amount allocated from the general obligation bond fund for a capital improvement project listed in part IV of this Act is insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund;"
+      },
+      {
+        "chunk_number": 27,
+        "chunk_text": "may make supplemental allotments from the judiciary project adjustment fund; provided that supplemental allotments shall not be used to increase the scope of the project. SECTION 13. Where it has been determined that changed conditions, such as a reduction in the particular population being served, permit the reduction in the"
+      },
+      {
+        "chunk_number": 28,
+        "chunk_text": "the particular population being served, permit the reduction in the scope of a project listed in part IV of this Act, the chief justice may authorize such reduction of project scope. SECTION 14. The chief justice shall determine when and the manner in which the authorized capital improvement projects shall"
+      },
+      {
+        "chunk_number": 29,
+        "chunk_text": "the manner in which the authorized capital improvement projects shall be initiated. The chief justice shall notify the governor from time to time of the specific amounts required for the projects, and the governor shall provide for those amounts through the issuance of bonds authorized in part V of this"
+      },
+      {
+        "chunk_number": 30,
+        "chunk_text": "the issuance of bonds authorized in part V of this Act. SECTION 15. Any law or any provision of this Act to the contrary notwithstanding, the chief justice may supplement funds for any cost element for a capital improvement project authorized under this Act by transferring sums as may be"
+      },
+      {
+        "chunk_number": 31,
+        "chunk_text": "authorized under this Act by transferring sums as may be needed from the funds appropriated for other cost elements of the same project by this Act or by any other prior or future Act that has not lapsed; provided that the total expenditure of funds for all cost elements for"
+      },
+      {
+        "chunk_number": 32,
+        "chunk_text": "the total expenditure of funds for all cost elements for the project shall not exceed the total appropriation for that project. PART VII. MISCELLANEOUS PROVISIONS AND EFFECTIVE DATE SECTION 16. If any portion of this Act or its application to any person or circumstances is held to be invalid for"
+      },
+      {
+        "chunk_number": 33,
+        "chunk_text": "any person or circumstances is held to be invalid for any reason, the remainder of this Act and any provision thereof shall not be affected. If any portion of a specific appropriation is held to be invalid for any reason, the remaining portion shall be independent of the invalid portion"
+      },
+      {
+        "chunk_number": 34,
+        "chunk_text": "the remaining portion shall be independent of the invalid portion and shall be expended to fulfill the objective and intent of the appropriation to the extent possible. SECTION 17. If any manifest clerical, typographical, or other mechanical error is found in this Act, the chief justice may correct the error."
+      },
+      {
+        "chunk_number": 35,
+        "chunk_text": "in this Act, the chief justice may correct the error. All changes made pursuant to this section shall be reported to the legislature at its next regular session. SECTION 18. This Act shall take effect on July 1, 2025. INTRODUCED BY: _____________________________ By Request Report Title: Judiciary Package; Appropriations; Budget"
+      },
+      {
+        "chunk_number": 36,
+        "chunk_text": "BY: _____________________________ By Request Report Title: Judiciary Package; Appropriations; Budget Description: Appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. Effective 7/1/2025. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent."
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-16T16:07:11.127016",
+  "generation_timestamp_unix": 1760666831.1270232
 }

@@ -20,17 +20,17 @@
     "HB1169_SD2_SSCR1484_"
   ],
   "numbers_used": 0,
-  "prompt_length": 16353,
+  "prompt_length": 16736,
   "response_metadata": {
-    "response_text": "{\n\"overview\": \"The purpose and intent of this measure is to establish the university of Hawaii conference center revolving fund and repeal two existing conference center funds (HB1169_SD2). The University of Hawai‘i (UH) supports HB 1169 HD1 SD1, which will establish the fund and accounts to \\\"facilitate the administration of the fund for conference center programs among various campuses and operating units of the UH system\\\" (HB1169_SD1_TESTIMONY_WAM_03-28-25_). The Committee on Ways and Means finds that a single revolving fund will \\\"help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys\\\" (HB1169_SD2).\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"The Committee on Ways and Means has amended this measure by \\\"(1) Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund; and (2) Making technical nonsubstantive amendments for purposes of clarity, consistency, and style\\\" (HB1169_SD2). The committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, S.D. 1, as amended (HB1169_SD2). It now recommends that the bill pass Third Reading in the form of H.B. No. 1169, H.D. 1, S.D. 2 (HB1169_SD2).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The bill has progressed to the Senate Committee on Ways and Means, which received testimony in support from the University of Hawai‘i's Vice President for Budget and Finance/Chief Financial Officer (HB1169_SD1_TESTIMONY_WAM_03-28-25_). The primary update is that the Committee on Ways and Means has amended the measure by \\\"Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund\\\" and making other technical amendments (HB1169_SD2). Consequently, the committee recommends that the bill, now designated as H.B. No. 1169, H.D. 1, S.D. 2, pass Third Reading (HB1169_SD2).\"\n}",
+    "response_text": "{\n  \"overview\": \"This bill establishes the University of Hawaii Conference Center Revolving Fund and accounts under the fund to facilitate the administration of the fund for conference center programs among various campuses and operating units of the UH system. [CHUNK_3] This measure repeals the Conference Center Revolving Fund for the University of Hawaii at Hilo and the Community College Conference Center Revolving Fund. [CHUNK_27] The university shall submit a report to the legislature no later than twenty days prior to the convening of each regular session, accounting for all income and expenditures of each separate account within the revolving fund. [CHUNK_12]\",\n  \"appropriations\": \"\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"On July 1, 2025, all unencumbered funds in the conference center revolving fund and in the community college conference center revolving fund shall lapse to the credit of the university of Hawaii conference center revolving fund established pursuant to section 1 of this Act. [CHUNK_23] The university may establish accounts under the university of Hawaii conference center revolving fund to facilitate the administration of this fund among the various campuses and operating units of the university of Hawaii system. [CHUNK_9] The university is authorized to expend funds from the appropriate account in the revolving fund for all costs associated with conducting conferences, seminars, and courses provided by the conference center programs. [CHUNK_10]\",\n  \"economic_impact\": \"Your Committee finds that establishing a single revolving fund for all conference center activities will help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys. [CHUNK_33]\",\n  \"policy_impact\": \"Section 304A-2272, Hawaii Revised Statutes, is repealed. [CHUNK_13] Section 304A-2273, Hawaii Revised Statutes, is repealed. [CHUNK_18]\",\n  \"revenue_sources\": \"\",\n  \"six_year_fiscal_implications\": \"\",\n  \"operating_revenue_impact\": \"\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"Your Committee on Ways and Means has amended this measure by clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund; and making technical nonsubstantive amendments for purposes of clarity, consistency, and style. [CHUNK_33] As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, S.D. 1, as amended herein, and recommends that it pass Third Reading in the form attached hereto as H.B. No. 1169, H.D. 1, S.D. 2. [CHUNK_35]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 5997,
-      "candidates_token_count": 600,
-      "total_token_count": 8365
+      "prompt_token_count": 7556,
+      "candidates_token_count": 644,
+      "total_token_count": 10767
     },
     "candidates": [
       {
@@ -40,288 +40,18 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n\"overview\": \"The purpose and intent of this measure is to establish the university of Hawaii conference center revolving fund and repeal two existing conference center funds (HB1169_SD2). The University of Hawai‘i (UH) supports HB 1169 HD1 SD1, which will establish the fund and accounts to \\\"facilitate the administration of the fund for conference center programs among various campuses and operating units of the UH system\\\" (HB1169_SD1_TESTIMONY_WAM_03-28-25_). The Committee on Ways and Means finds that a single revolving fund will \\\"help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys\\\" (HB1169_SD2).\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"The Committee on Ways and Means has amended this measure by \\\"(1) Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund; and (2) Making technical nonsubstantive amendments for purposes of clarity, consistency, and style\\\" (HB1169_SD2). The committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, S.D. 1, as amended (HB1169_SD2). It now recommends that the bill pass Third Reading in the form of H.B. No. 1169, H.D. 1, S.D. 2 (HB1169_SD2).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The bill has progressed to the Senate Committee on Ways and Means, which received testimony in support from the University of Hawai‘i's Vice President for Budget and Finance/Chief Financial Officer (HB1169_SD1_TESTIMONY_WAM_03-28-25_). The primary update is that the Committee on Ways and Means has amended the measure by \\\"Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund\\\" and making other technical amendments (HB1169_SD2). Consequently, the committee recommends that the bill, now designated as H.B. No. 1169, H.D. 1, S.D. 2, pass Third Reading (HB1169_SD2).\"\n}"
+              "text": "{\n  \"overview\": \"This bill establishes the University of Hawaii Conference Center Revolving Fund and accounts under the fund to facilitate the administration of the fund for conference center programs among various campuses and operating units of the UH system. [CHUNK_3] This measure repeals the Conference Center Revolving Fund for the University of Hawaii at Hilo and the Community College Conference Center Revolving Fund. [CHUNK_27] The university shall submit a report to the legislature no later than twenty days prior to the convening of each regular session, accounting for all income and expenditures of each separate account within the revolving fund. [CHUNK_12]\",\n  \"appropriations\": \"\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"On July 1, 2025, all unencumbered funds in the conference center revolving fund and in the community college conference center revolving fund shall lapse to the credit of the university of Hawaii conference center revolving fund established pursuant to section 1 of this Act. [CHUNK_23] The university may establish accounts under the university of Hawaii conference center revolving fund to facilitate the administration of this fund among the various campuses and operating units of the university of Hawaii system. [CHUNK_9] The university is authorized to expend funds from the appropriate account in the revolving fund for all costs associated with conducting conferences, seminars, and courses provided by the conference center programs. [CHUNK_10]\",\n  \"economic_impact\": \"Your Committee finds that establishing a single revolving fund for all conference center activities will help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys. [CHUNK_33]\",\n  \"policy_impact\": \"Section 304A-2272, Hawaii Revised Statutes, is repealed. [CHUNK_13] Section 304A-2273, Hawaii Revised Statutes, is repealed. [CHUNK_18]\",\n  \"revenue_sources\": \"\",\n  \"six_year_fiscal_implications\": \"\",\n  \"operating_revenue_impact\": \"\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"Your Committee on Ways and Means has amended this measure by clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund; and making technical nonsubstantive amendments for purposes of clarity, consistency, and style. [CHUNK_33] As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, S.D. 1, as amended herein, and recommends that it pass Third Reading in the form attached hereto as H.B. No. 1169, H.D. 1, S.D. 2. [CHUNK_35]\"\n}"
             }
           ]
         },
-        "citation_metadata": null,
+        "citation_metadata": {
+          "citations": []
+        },
         "safety_ratings": []
       }
     ],
-    "sentence_attribution_analysis": {
-      "sentence_attributions": [
-        {
-          "sentence": "{\n\"overview\": \"The purpose and intent of this measure is to establish the university of Hawaii conference center revolving fund and repeal two existing conference center funds (HB1169_SD2)",
-          "attributed_chunk_id": 8,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.8235294117647058,
-          "attribution_reason": "Document citation + word frequency: HB1169_SD2 (score: 0.824)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The University of Hawai‘i (UH) supports HB 1169 HD1 SD1, which will establish the fund and accounts to \\\"facilitate the administration of the fund for conference center programs among various campuses and operating units of the UH system\\\" (HB1169_SD1_TESTIMONY_WAM_03-28-25_)",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.6363636363636364,
-          "attribution_reason": "Word frequency match score: 0.636",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The Committee on Ways and Means finds that a single revolving fund will \\\"help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys\\\" (HB1169_SD2)",
-          "attributed_chunk_id": 9,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.8695652173913043,
-          "attribution_reason": "Document citation + word frequency: HB1169_SD2 (score: 0.870)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"The Committee on Ways and Means has amended this measure by \\\"(1) Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund; and (2) Making technical nonsubstantive amendments for purposes of clarity, consistency, and style\\\" (HB1169_SD2)",
-          "attributed_chunk_id": 10,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.7666666666666667,
-          "attribution_reason": "Document citation + word frequency: 1 (score: 0.767)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The committee is in accord with the intent and purpose of H",
-          "attributed_chunk_id": 11,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": []
-        },
-        {
-          "sentence": "B. No. 1169, H",
-          "attributed_chunk_id": 6,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": []
-        },
-        {
-          "sentence": "D. 1, S. D. 1, as amended (HB1169_SD2)",
-          "attributed_chunk_id": 9,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Document citation + word frequency: HB1169_SD2 (score: 1.000)",
-          "numbers_found": [
-            1.0
-          ]
-        },
-        {
-          "sentence": "It now recommends that the bill pass Third Reading in the form of H",
-          "attributed_chunk_id": 11,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.7142857142857143,
-          "attribution_reason": "Word frequency match score: 0.714",
-          "numbers_found": []
-        },
-        {
-          "sentence": "B. No. 1169, H",
-          "attributed_chunk_id": 6,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": []
-        },
-        {
-          "sentence": "D. 1, S. D. 2 (HB1169_SD2)",
-          "attributed_chunk_id": 6,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.1,
-          "attribution_reason": "Document citation fallback: HB1169_SD2",
-          "numbers_found": [
-            1.0,
-            2.0
-          ]
-        },
-        {
-          "sentence": "\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The bill has progressed to the Senate Committee on Ways and Means, which received testimony in support from the University of Hawai‘i's Vice President for Budget and Finance/Chief Financial Officer (HB1169_SD1_TESTIMONY_WAM_03-28-25_)",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The primary update is that the Committee on Ways and Means has amended the measure by \\\"Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund\\\" and making other technical amendments (HB1169_SD2)",
-          "attributed_chunk_id": 10,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.782608695652174,
-          "attribution_reason": "Document citation + word frequency: HB1169_SD2 (score: 0.783)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Consequently, the committee recommends that the bill, now designated as H",
-          "attributed_chunk_id": 11,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Word frequency match score: 0.333",
-          "numbers_found": []
-        },
-        {
-          "sentence": "B. No. 1169, H",
-          "attributed_chunk_id": 6,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": []
-        },
-        {
-          "sentence": "D. 1, S. D. 2, pass Third Reading (HB1169_SD2)",
-          "attributed_chunk_id": 11,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Document citation + word frequency: HB1169_SD2 (score: 1.000)",
-          "numbers_found": [
-            1.0,
-            2.0
-          ]
-        },
-        {
-          "sentence": "\"\n}.",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": []
-        }
-      ],
-      "chunk_usage_stats": {
-        "0": {
-          "usage_count": 1,
-          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
-          "attribution_reasons": [
-            "Fallback attribution (no clear match found)"
-          ]
-        },
-        "1": {
-          "usage_count": 0,
-          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
-          "attribution_reasons": []
-        },
-        "2": {
-          "usage_count": 1,
-          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
-          "attribution_reasons": [
-            "Word frequency match score: 0.636"
-          ]
-        },
-        "3": {
-          "usage_count": 0,
-          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
-          "attribution_reasons": []
-        },
-        "4": {
-          "usage_count": 0,
-          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
-          "attribution_reasons": []
-        },
-        "5": {
-          "usage_count": 0,
-          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_",
-          "attribution_reasons": []
-        },
-        "6": {
-          "usage_count": 4,
-          "document_name": "HB1169_SD2",
-          "attribution_reasons": [
-            "Word frequency match score: 1.000",
-            "Word frequency match score: 1.000",
-            "Document citation fallback: HB1169_SD2",
-            "Word frequency match score: 1.000"
-          ]
-        },
-        "7": {
-          "usage_count": 0,
-          "document_name": "HB1169_SD2",
-          "attribution_reasons": []
-        },
-        "8": {
-          "usage_count": 1,
-          "document_name": "HB1169_SD2",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB1169_SD2 (score: 0.824)"
-          ]
-        },
-        "9": {
-          "usage_count": 2,
-          "document_name": "HB1169_SD2",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB1169_SD2 (score: 0.870)",
-            "Document citation + word frequency: HB1169_SD2 (score: 1.000)"
-          ]
-        },
-        "10": {
-          "usage_count": 2,
-          "document_name": "HB1169_SD2",
-          "attribution_reasons": [
-            "Document citation + word frequency: 1 (score: 0.767)",
-            "Document citation + word frequency: HB1169_SD2 (score: 0.783)"
-          ]
-        },
-        "11": {
-          "usage_count": 4,
-          "document_name": "HB1169_SD2",
-          "attribution_reasons": [
-            "Word frequency match score: 1.000",
-            "Word frequency match score: 0.714",
-            "Word frequency match score: 0.333",
-            "Document citation + word frequency: HB1169_SD2 (score: 1.000)"
-          ]
-        },
-        "12": {
-          "usage_count": 0,
-          "document_name": "HB1169_SD2",
-          "attribution_reasons": []
-        },
-        "13": {
-          "usage_count": 0,
-          "document_name": "HB1169_SD2_SSCR1484_",
-          "attribution_reasons": []
-        },
-        "14": {
-          "usage_count": 0,
-          "document_name": "HB1169_SD2_SSCR1484_",
-          "attribution_reasons": []
-        },
-        "15": {
-          "usage_count": 0,
-          "document_name": "HB1169_SD2_SSCR1484_",
-          "attribution_reasons": []
-        },
-        "16": {
-          "usage_count": 0,
-          "document_name": "HB1169_SD2_SSCR1484_",
-          "attribution_reasons": []
-        },
-        "17": {
-          "usage_count": 0,
-          "document_name": "HB1169_SD2_SSCR1484_",
-          "attribution_reasons": []
-        },
-        "18": {
-          "usage_count": 0,
-          "document_name": "HB1169_SD2_SSCR1484_",
-          "attribution_reasons": []
-        },
-        "19": {
-          "usage_count": 0,
-          "document_name": "HB1169_SD2_SSCR1484_",
-          "attribution_reasons": []
-        }
-      },
-      "attribution_method_stats": {
-        "document_citation_based": 7,
-        "number_based": 0,
-        "word_frequency_based": 7,
-        "semantic_similarity": 0,
-        "fallback": 1,
-        "no_attribution": 1
-      }
-    },
     "chunks_metadata": {
-      "total_chunks": 20,
+      "total_chunks": 37,
       "chunk_details": [
         {
           "chunk_id": 0,
@@ -374,7 +104,7 @@
         {
           "chunk_id": 6,
           "document_name": "HB1169_SD2",
-          "chunk_text": "SSCR1484 STAND. COM. REP. NO. 1484 Honolulu, Hawaii RE: H.B. No. 1169 H.D. 1 S.D. 2 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1169, H.D. 1,",
+          "chunk_text": "HB1169 SD2 HOUSE OF REPRESENTATIVES H.B. NO. 1169 THIRTY-THIRD LEGISLATURE, 2025 H.D. 1 STATE OF HAWAII S.D. 2 A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 304A, Hawaii Revised",
           "start_word": 0,
           "end_word": 50,
           "word_count": 50
@@ -382,7 +112,7 @@
         {
           "chunk_id": 7,
           "document_name": "HB1169_SD2",
-          "chunk_text": "Means, to which was referred H.B. No. 1169, H.D. 1, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND,\" begs leave to report as follows: The purpose and intent of this measure is to establish the university of Hawaii conference center revolving",
+          "chunk_text": "THE STATE OF HAWAII: SECTION 1. Chapter 304A, Hawaii Revised Statutes, is amended by adding a new section to subpart D of part V to be appropriately designated and to read as follows: \" §304A- University of Hawaii conference center revolving fund. (a) There is established the university of Hawaii",
           "start_word": 40,
           "end_word": 90,
           "word_count": 50
@@ -390,7 +120,7 @@
         {
           "chunk_id": 8,
           "document_name": "HB1169_SD2",
-          "chunk_text": "is to establish the university of Hawaii conference center revolving fund and repeal two existing conference center funds. Your Committee received written comments in support of this measure from the University of Hawaii System. Your Committee finds that establishing a single revolving fund for all conference center activities will help",
+          "chunk_text": "revolving fund. (a) There is established the university of Hawaii conference center revolving fund for conference center programs conducted by the university. The university may establish and collect fees and charges for the costs of providing these services. All fees, charges, and other moneys collected in conjunction with the conference",
           "start_word": 80,
           "end_word": 130,
           "word_count": 50
@@ -398,7 +128,7 @@
         {
           "chunk_id": 9,
           "document_name": "HB1169_SD2",
-          "chunk_text": "single revolving fund for all conference center activities will help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys. Your Committee has amended this measure by (1) Clarifying the permissible uses of moneys appropriated from the university",
+          "chunk_text": "charges, and other moneys collected in conjunction with the conference center programs of the university shall be deposited in separate accounts within the revolving fund. The university may establish accounts under the university of Hawaii conference center revolving fund to facilitate the administration of this fund among the various campuses",
           "start_word": 120,
           "end_word": 170,
           "word_count": 50
@@ -406,7 +136,7 @@
         {
           "chunk_id": 10,
           "document_name": "HB1169_SD2",
-          "chunk_text": "Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund ; and (2) Making technical nonsubstantive amendments for purposes of clarity, consistency, and style. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached",
+          "chunk_text": "facilitate the administration of this fund among the various campuses and operating units of the university of Hawaii system. The university is authorized to expend funds from the appropriate account in the revolving fund for all costs associated with conducting conferences, seminars, and courses provided by the conference center programs,",
           "start_word": 160,
           "end_word": 210,
           "word_count": 50
@@ -414,7 +144,7 @@
         {
           "chunk_id": 11,
           "document_name": "HB1169_SD2",
-          "chunk_text": "of your Committee on Ways and Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, S.D. 1, as amended herein, and recommends that it pass Third Reading in the form attached hereto as H.B. No. 1169,",
+          "chunk_text": "conferences, seminars, and courses provided by the conference center programs, including but not limited to expenses for honoraria, hotel and room rentals, food and refreshment, printing and mailing, airfare and per diem, lei, rental of audiovisual equipment, and other conference related services, fees, supplies and materials, without regard to section",
           "start_word": 200,
           "end_word": 250,
           "word_count": 50
@@ -422,13 +152,149 @@
         {
           "chunk_id": 12,
           "document_name": "HB1169_SD2",
-          "chunk_text": "Reading in the form attached hereto as H.B. No. 1169, H.D. 1, S.D. 2. Respectfully submitted on behalf of the members of the Committee on Ways and Means, ________________________________ DONOVAN M. DELA CRUZ, Chair",
+          "chunk_text": "related services, fees, supplies and materials, without regard to section 103D-1002 and any competitive bidding requirements pursuant to state procurement requirements. (b) The university shall submit a report to the legislature no later than twenty days prior to the convening of each regular session, accounting for all income and expenditures",
           "start_word": 240,
-          "end_word": 274,
-          "word_count": 34
+          "end_word": 290,
+          "word_count": 50
         },
         {
           "chunk_id": 13,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "of each regular session, accounting for all income and expenditures of each separate account within the revolving fund. \" SECTION 2. Section 304A-2272, Hawaii Revised Statutes, is repealed. [\" §304A-2272 Conference center revolving fund; University of Hawaii at Hilo. (a) There is established the conference center revolving fund for conference",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "There is established the conference center revolving fund for conference center programs conducted by the University of Hawaii at Hilo. All fees, charges, and other moneys collected in conjunction with conference center programs shall be deposited in the revolving fund. The chancellor of the University of Hawaii at Hilo or",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "The chancellor of the University of Hawaii at Hilo or the chancellorꞌs designee is authorized to expend funds from the revolving fund for all costs associated with conferences, seminars, and courses provided by conference center programs, including but not limited to expenses for honoraria, hotel and room rentals, food and",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "to expenses for honoraria, hotel and room rentals, food and refreshment, printing and mailing, airfare and per diem, lei, rental of audiovisual equipment, and conference supplies and materials, without regard to any competitive bidding requirements pursuant to chapter 103D. (b) The chancellor of the University of Hawaii at Hilo shall",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "The chancellor of the University of Hawaii at Hilo shall submit a report to the legislature no later than twenty days prior to the convening of each regular session that includes an accounting for all income and expenditures of the revolving fund under this section. \"] SECTION 3. Section 304A-2273,",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "revolving fund under this section. \"] SECTION 3. Section 304A-2273, Hawaii Revised Statutes, is repealed. [\" [§304A-2273] Community college conference center revolving fund. (a) There is established the community college conference center revolving fund for conference center programs conducted by the various community colleges. All fees, charges, and other moneys",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "the various community colleges. All fees, charges, and other moneys collected in conjunction with the conference center program of each community college shall be deposited in separate accounts within the revolving fund. The chancellor of each community college or a designee is authorized to expend funds from the appropriate account",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "designee is authorized to expend funds from the appropriate account in the revolving fund for all costs associated with conducting conferences, seminars, and courses by the conference center program, including but not limited to expenses for honoraria, hotel and room rentals, food and refreshment, printing and mailing, airfare and per",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "rentals, food and refreshment, printing and mailing, airfare and per diem, leis, rental of audiovisual equipment, and conference supplies and materials, without regard to section 103D-1002 and any competitive bidding requirements pursuant to state procurement requirements. (b) The chancellors of the community colleges shall prepare an annual report to the",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "the community colleges shall prepare an annual report to the legislature accounting for all income and expenditures of each separate account within the revolving fund. \"] SECTION 4. On July 1, 2025, all unencumbered funds in the conference center revolving fund and in the community college conference center revolving fund",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "fund and in the community college conference center revolving fund shall lapse to the credit of the university of Hawaii conference center revolving fund established pursuant to section 1 of this Act. SECTION 5. There is appropriated out of the university of Hawaii conference center revolving fund the sum of",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "university of Hawaii conference center revolving fund the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 for conducting conferences, seminars, and courses provided by the conference center programs. The sum appropriated shall be expended by the university of Hawaii for purposes of this",
+          "start_word": 720,
+          "end_word": 770,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "expended by the university of Hawaii for purposes of this Act. SECTION 6. Statutory material to be repealed is bracketed and stricken. New statutory material is underscored. SECTION 7. This Act shall take effect upon its approval; provided that section 5 shall take effect on July 1, 2025. Report Title:",
+          "start_word": 760,
+          "end_word": 810,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "5 shall take effect on July 1, 2025. Report Title: UH; Conference Center Revolving Fund; Appropriation Description: Establishes the University of Hawaii Conference Center Revolving Fund to facilitate the administration of the revolving fund for conference center programs among various campuses and operating units of the University of Hawaii System.",
+          "start_word": 800,
+          "end_word": 850,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "campuses and operating units of the University of Hawaii System. Repeals the Conference Center Revolving Fund and the University of Hawaii at Hilo and the Community College Conference Center Revolving Fund. Lapses all appropriations and encumbrances of the Conference Center Revolving Fund, University of Hawaii at Hilo and the Community",
+          "start_word": 840,
+          "end_word": 890,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "Revolving Fund, University of Hawaii at Hilo and the Community College Conference Center Revolving Fund to the University of Hawaii Conference Center Revolving Fund. Appropriates funds out of the University of Hawaii Conference Center Revolving Fund. (SD2) The summary description of legislation appearing on this page is for informational purposes",
+          "start_word": 880,
+          "end_word": 930,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB1169_SD2",
+          "chunk_text": "of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+          "start_word": 920,
+          "end_word": 940,
+          "word_count": 20
+        },
+        {
+          "chunk_id": 30,
           "document_name": "HB1169_SD2_SSCR1484_",
           "chunk_text": "SSCR1484 STAND. COM. REP. NO. 1484 Honolulu, Hawaii RE: H.B. No. 1169 H.D. 1 S.D. 2 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1169, H.D. 1,",
           "start_word": 0,
@@ -436,7 +302,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 14,
+          "chunk_id": 31,
           "document_name": "HB1169_SD2_SSCR1484_",
           "chunk_text": "Means, to which was referred H.B. No. 1169, H.D. 1, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND,\" begs leave to report as follows: The purpose and intent of this measure is to establish the university of Hawaii conference center revolving",
           "start_word": 40,
@@ -444,7 +310,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 15,
+          "chunk_id": 32,
           "document_name": "HB1169_SD2_SSCR1484_",
           "chunk_text": "is to establish the university of Hawaii conference center revolving fund and repeal two existing conference center funds. Your Committee received written comments in support of this measure from the University of Hawaii System. Your Committee finds that establishing a single revolving fund for all conference center activities will help",
           "start_word": 80,
@@ -452,7 +318,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 16,
+          "chunk_id": 33,
           "document_name": "HB1169_SD2_SSCR1484_",
           "chunk_text": "single revolving fund for all conference center activities will help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys. Your Committee has amended this measure by (1) Clarifying the permissible uses of moneys appropriated from the university",
           "start_word": 120,
@@ -460,7 +326,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 17,
+          "chunk_id": 34,
           "document_name": "HB1169_SD2_SSCR1484_",
           "chunk_text": "Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund ; and (2) Making technical nonsubstantive amendments for purposes of clarity, consistency, and style. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached",
           "start_word": 160,
@@ -468,7 +334,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 18,
+          "chunk_id": 35,
           "document_name": "HB1169_SD2_SSCR1484_",
           "chunk_text": "of your Committee on Ways and Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, S.D. 1, as amended herein, and recommends that it pass Third Reading in the form attached hereto as H.B. No. 1169,",
           "start_word": 200,
@@ -476,7 +342,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 19,
+          "chunk_id": 36,
           "document_name": "HB1169_SD2_SSCR1484_",
           "chunk_text": "Reading in the form attached hereto as H.B. No. 1169, H.D. 1, S.D. 2. Respectfully submitted on behalf of the members of the Committee on Ways and Means, ________________________________ DONOVAN M. DELA CRUZ, Chair",
           "start_word": 240,
@@ -485,8 +351,368 @@
         }
       ]
     },
-    "numbers_data": []
+    "numbers_data": [],
+    "chunk_text_map": {
+      "10": [
+        {
+          "chunk_text": "facilitate the administration of the fund for conference center programs among various campuses and operating units of the UH system. Conference Center Revolving Funds currently exist for the Community Colleges and UH-Hilo. This bill would create one UH Conference Center Revolving Fund and allow all campuses to utilize their own",
+          "chunk_id": 3,
+          "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_"
+        }
+      ],
+      "11": [
+        {
+          "chunk_text": "campuses and operating units of the University of Hawaii System. Repeals the Conference Center Revolving Fund and the University of Hawaii at Hilo and the Community College Conference Center Revolving Fund. Lapses all appropriations and encumbrances of the Conference Center Revolving Fund, University of Hawaii at Hilo and the Community",
+          "chunk_id": 27,
+          "document_name": "HB1169_SD2"
+        },
+        {
+          "chunk_text": "related services, fees, supplies and materials, without regard to section 103D-1002 and any competitive bidding requirements pursuant to state procurement requirements. (b) The university shall submit a report to the legislature no later than twenty days prior to the convening of each regular session, accounting for all income and expenditures",
+          "chunk_id": 12,
+          "document_name": "HB1169_SD2"
+        },
+        {
+          "chunk_text": "fund and in the community college conference center revolving fund shall lapse to the credit of the university of Hawaii conference center revolving fund established pursuant to section 1 of this Act. SECTION 5. There is appropriated out of the university of Hawaii conference center revolving fund the sum of",
+          "chunk_id": 23,
+          "document_name": "HB1169_SD2"
+        },
+        {
+          "chunk_text": "charges, and other moneys collected in conjunction with the conference center programs of the university shall be deposited in separate accounts within the revolving fund. The university may establish accounts under the university of Hawaii conference center revolving fund to facilitate the administration of this fund among the various campuses",
+          "chunk_id": 9,
+          "document_name": "HB1169_SD2"
+        },
+        {
+          "chunk_text": "facilitate the administration of this fund among the various campuses and operating units of the university of Hawaii system. The university is authorized to expend funds from the appropriate account in the revolving fund for all costs associated with conducting conferences, seminars, and courses provided by the conference center programs,",
+          "chunk_id": 10,
+          "document_name": "HB1169_SD2"
+        },
+        {
+          "chunk_text": "of each regular session, accounting for all income and expenditures of each separate account within the revolving fund. \" SECTION 2. Section 304A-2272, Hawaii Revised Statutes, is repealed. [\" §304A-2272 Conference center revolving fund; University of Hawaii at Hilo. (a) There is established the conference center revolving fund for conference",
+          "chunk_id": 13,
+          "document_name": "HB1169_SD2"
+        },
+        {
+          "chunk_text": "revolving fund under this section. \"] SECTION 3. Section 304A-2273, Hawaii Revised Statutes, is repealed. [\" [§304A-2273] Community college conference center revolving fund. (a) There is established the community college conference center revolving fund for conference center programs conducted by the various community colleges. All fees, charges, and other moneys",
+          "chunk_id": 18,
+          "document_name": "HB1169_SD2"
+        }
+      ],
+      "12": [
+        {
+          "chunk_text": "single revolving fund for all conference center activities will help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys. Your Committee has amended this measure by (1) Clarifying the permissible uses of moneys appropriated from the university",
+          "chunk_id": 33,
+          "document_name": "HB1169_SD2_SSCR1484_"
+        },
+        {
+          "chunk_text": "of your Committee on Ways and Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, S.D. 1, as amended herein, and recommends that it pass Third Reading in the form attached hereto as H.B. No. 1169,",
+          "chunk_id": 35,
+          "document_name": "HB1169_SD2_SSCR1484_"
+        }
+      ]
+    },
+    "document_mapping": {
+      "HB1169": 1,
+      "HB1169_TESTIMONY_HED-EDN_02-05-25_": 2,
+      "HB1169_HD1": 3,
+      "HB1169_HD1_HSCR308_": 4,
+      "HB1169_HD1_TESTIMONY_FIN_02-21-25_": 5,
+      "HB1169_HD1_HSCR862_": 6,
+      "HB1169_HD1_TESTIMONY_HRE_03-11-25_": 7,
+      "HB1169_SD1": 8,
+      "HB1169_SD1_SSCR1134_": 9,
+      "HB1169_SD1_TESTIMONY_WAM_03-28-25_": 10,
+      "HB1169_SD2": 11,
+      "HB1169_SD2_SSCR1484_": 12,
+      "HB1169_CD1": 13,
+      "HB1169_CD1_CCR138_": 14
+    },
+    "sentence_chunk_mapping": [
+      {
+        "section": "overview",
+        "sentence": "This bill establishes the University of Hawaii Conference Center Revolving Fund and accounts under the fund to facilitate the administration of the fund for conference center programs among various campuses and operating units of the UH system.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 10,
+            "chunk_text": "facilitate the administration of the fund for conference center programs among various campuses and operating units of the UH system. Conference Center Revolving Funds currently exist for the Community Colleges and UH-Hilo. This bill would create one UH Conference Center Revolving Fund and allow all campuses to utilize their own",
+            "document_name": "HB1169_SD1_TESTIMONY_WAM_03-28-25_"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "This measure repeals the Conference Center Revolving Fund for the University of Hawaii at Hilo and the Community College Conference Center Revolving Fund.",
+        "chunks": [
+          {
+            "chunk_id": 27,
+            "citation_number": 11,
+            "chunk_text": "campuses and operating units of the University of Hawaii System. Repeals the Conference Center Revolving Fund and the University of Hawaii at Hilo and the Community College Conference Center Revolving Fund. Lapses all appropriations and encumbrances of the Conference Center Revolving Fund, University of Hawaii at Hilo and the Community",
+            "document_name": "HB1169_SD2"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "The university shall submit a report to the legislature no later than twenty days prior to the convening of each regular session, accounting for all income and expenditures of each separate account within the revolving fund.",
+        "chunks": [
+          {
+            "chunk_id": 12,
+            "citation_number": 11,
+            "chunk_text": "related services, fees, supplies and materials, without regard to section 103D-1002 and any competitive bidding requirements pursuant to state procurement requirements. (b) The university shall submit a report to the legislature no later than twenty days prior to the convening of each regular session, accounting for all income and expenditures",
+            "document_name": "HB1169_SD2"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "On July 1, 2025, all unencumbered funds in the conference center revolving fund and in the community college conference center revolving fund shall lapse to the credit of the university of Hawaii conference center revolving fund established pursuant to section 1 of this Act.",
+        "chunks": [
+          {
+            "chunk_id": 23,
+            "citation_number": 11,
+            "chunk_text": "fund and in the community college conference center revolving fund shall lapse to the credit of the university of Hawaii conference center revolving fund established pursuant to section 1 of this Act. SECTION 5. There is appropriated out of the university of Hawaii conference center revolving fund the sum of",
+            "document_name": "HB1169_SD2"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The university may establish accounts under the university of Hawaii conference center revolving fund to facilitate the administration of this fund among the various campuses and operating units of the university of Hawaii system.",
+        "chunks": [
+          {
+            "chunk_id": 9,
+            "citation_number": 11,
+            "chunk_text": "charges, and other moneys collected in conjunction with the conference center programs of the university shall be deposited in separate accounts within the revolving fund. The university may establish accounts under the university of Hawaii conference center revolving fund to facilitate the administration of this fund among the various campuses",
+            "document_name": "HB1169_SD2"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The university is authorized to expend funds from the appropriate account in the revolving fund for all costs associated with conducting conferences, seminars, and courses provided by the conference center programs.",
+        "chunks": [
+          {
+            "chunk_id": 10,
+            "citation_number": 11,
+            "chunk_text": "facilitate the administration of this fund among the various campuses and operating units of the university of Hawaii system. The university is authorized to expend funds from the appropriate account in the revolving fund for all costs associated with conducting conferences, seminars, and courses provided by the conference center programs,",
+            "document_name": "HB1169_SD2"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "Your Committee finds that establishing a single revolving fund for all conference center activities will help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys.",
+        "chunks": [
+          {
+            "chunk_id": 33,
+            "citation_number": 12,
+            "chunk_text": "single revolving fund for all conference center activities will help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys. Your Committee has amended this measure by (1) Clarifying the permissible uses of moneys appropriated from the university",
+            "document_name": "HB1169_SD2_SSCR1484_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "Section 304A-2272, Hawaii Revised Statutes, is repealed.",
+        "chunks": [
+          {
+            "chunk_id": 13,
+            "citation_number": 11,
+            "chunk_text": "of each regular session, accounting for all income and expenditures of each separate account within the revolving fund. \" SECTION 2. Section 304A-2272, Hawaii Revised Statutes, is repealed. [\" §304A-2272 Conference center revolving fund; University of Hawaii at Hilo. (a) There is established the conference center revolving fund for conference",
+            "document_name": "HB1169_SD2"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "Section 304A-2273, Hawaii Revised Statutes, is repealed.",
+        "chunks": [
+          {
+            "chunk_id": 18,
+            "citation_number": 11,
+            "chunk_text": "revolving fund under this section. \"] SECTION 3. Section 304A-2273, Hawaii Revised Statutes, is repealed. [\" [§304A-2273] Community college conference center revolving fund. (a) There is established the community college conference center revolving fund for conference center programs conducted by the various community colleges. All fees, charges, and other moneys",
+            "document_name": "HB1169_SD2"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "Your Committee on Ways and Means has amended this measure by clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund; and making technical nonsubstantive amendments for purposes of clarity, consistency, and style.",
+        "chunks": [
+          {
+            "chunk_id": 33,
+            "citation_number": 12,
+            "chunk_text": "single revolving fund for all conference center activities will help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys. Your Committee has amended this measure by (1) Clarifying the permissible uses of moneys appropriated from the university",
+            "document_name": "HB1169_SD2_SSCR1484_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "No. 1169, H.D. 1, S.D. 2.",
+        "chunks": [
+          {
+            "chunk_id": 35,
+            "citation_number": 12,
+            "chunk_text": "of your Committee on Ways and Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, S.D. 1, as amended herein, and recommends that it pass Third Reading in the form attached hereto as H.B. No. 1169,",
+            "document_name": "HB1169_SD2_SSCR1484_"
+          }
+        ]
+      }
+    ]
   },
-  "generation_timestamp": "2025-10-10T14:43:00.445757",
-  "generation_timestamp_unix": 1760143380.445767
+  "chunk_mapping": {
+    "HB1169_SD2_SSCR1484_": [
+      {
+        "chunk_number": 0,
+        "chunk_text": "UNIVERSITY OF HAWAI‘I SYSTEM ʻŌNAEHANA KULANUI O HAWAIʻI Legislative Testimony Hōʻike Manaʻo I Mua O Ka ʻAhaʻōlelo _____________________________________________________________ Testimony Presented Before the Senate Committee on Ways and Means March 28, 2025 at 10:02 a.m. By Kalbert K. Young Vice President for Budget and Finance/Chief Financial Officer University of Hawai‘i System"
+      },
+      {
+        "chunk_number": 1,
+        "chunk_text": "for Budget and Finance/Chief Financial Officer University of Hawai‘i System HB 1169 HD1 SD1 – RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND Chair Dela Cruz, Vice Chair Moriwaki, and Members of the Committee: Thank you for the opportunity to present testimony today. The University of Hawai‘i (UH) supports"
+      },
+      {
+        "chunk_number": 2,
+        "chunk_text": "to present testimony today. The University of Hawai‘i (UH) supports HB 1169 HD1 SD1, Relating to University of Hawaii Conference Center Revolving Fund. This bill establishes the University of Hawaii Conference Center Revolving Fund and accounts under the fund to facilitate the administration of the fund for conference center programs"
+      },
+      {
+        "chunk_number": 3,
+        "chunk_text": "facilitate the administration of the fund for conference center programs among various campuses and operating units of the UH system. Conference Center Revolving Funds currently exist for the Community Colleges and UH-Hilo. This bill would create one UH Conference Center Revolving Fund and allow all campuses to utilize their own"
+      },
+      {
+        "chunk_number": 4,
+        "chunk_text": "Revolving Fund and allow all campuses to utilize their own account within this overarching fund. This would allow all campuses to standardize conference center programs across all campuses while eliminating unnecessary duplication of statutes. This structure would mirror successful models of other UH funds, notably the Tuition and Fees Special"
+      },
+      {
+        "chunk_number": 5,
+        "chunk_text": "of other UH funds, notably the Tuition and Fees Special Fund, the Auxiliary Enterprises Special Fund, and the Student Activities Revolving Fund. Thank you for this opportunity to testify."
+      },
+      {
+        "chunk_number": 6,
+        "chunk_text": "HB1169 SD2 HOUSE OF REPRESENTATIVES H.B. NO. 1169 THIRTY-THIRD LEGISLATURE, 2025 H.D. 1 STATE OF HAWAII S.D. 2 A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 304A, Hawaii Revised"
+      },
+      {
+        "chunk_number": 7,
+        "chunk_text": "THE STATE OF HAWAII: SECTION 1. Chapter 304A, Hawaii Revised Statutes, is amended by adding a new section to subpart D of part V to be appropriately designated and to read as follows: \" §304A- University of Hawaii conference center revolving fund. (a) There is established the university of Hawaii"
+      },
+      {
+        "chunk_number": 8,
+        "chunk_text": "revolving fund. (a) There is established the university of Hawaii conference center revolving fund for conference center programs conducted by the university. The university may establish and collect fees and charges for the costs of providing these services. All fees, charges, and other moneys collected in conjunction with the conference"
+      },
+      {
+        "chunk_number": 9,
+        "chunk_text": "charges, and other moneys collected in conjunction with the conference center programs of the university shall be deposited in separate accounts within the revolving fund. The university may establish accounts under the university of Hawaii conference center revolving fund to facilitate the administration of this fund among the various campuses"
+      },
+      {
+        "chunk_number": 10,
+        "chunk_text": "facilitate the administration of this fund among the various campuses and operating units of the university of Hawaii system. The university is authorized to expend funds from the appropriate account in the revolving fund for all costs associated with conducting conferences, seminars, and courses provided by the conference center programs,"
+      },
+      {
+        "chunk_number": 11,
+        "chunk_text": "conferences, seminars, and courses provided by the conference center programs, including but not limited to expenses for honoraria, hotel and room rentals, food and refreshment, printing and mailing, airfare and per diem, lei, rental of audiovisual equipment, and other conference related services, fees, supplies and materials, without regard to section"
+      },
+      {
+        "chunk_number": 12,
+        "chunk_text": "related services, fees, supplies and materials, without regard to section 103D-1002 and any competitive bidding requirements pursuant to state procurement requirements. (b) The university shall submit a report to the legislature no later than twenty days prior to the convening of each regular session, accounting for all income and expenditures"
+      },
+      {
+        "chunk_number": 13,
+        "chunk_text": "of each regular session, accounting for all income and expenditures of each separate account within the revolving fund. \" SECTION 2. Section 304A-2272, Hawaii Revised Statutes, is repealed. [\" §304A-2272 Conference center revolving fund; University of Hawaii at Hilo. (a) There is established the conference center revolving fund for conference"
+      },
+      {
+        "chunk_number": 14,
+        "chunk_text": "There is established the conference center revolving fund for conference center programs conducted by the University of Hawaii at Hilo. All fees, charges, and other moneys collected in conjunction with conference center programs shall be deposited in the revolving fund. The chancellor of the University of Hawaii at Hilo or"
+      },
+      {
+        "chunk_number": 15,
+        "chunk_text": "The chancellor of the University of Hawaii at Hilo or the chancellorꞌs designee is authorized to expend funds from the revolving fund for all costs associated with conferences, seminars, and courses provided by conference center programs, including but not limited to expenses for honoraria, hotel and room rentals, food and"
+      },
+      {
+        "chunk_number": 16,
+        "chunk_text": "to expenses for honoraria, hotel and room rentals, food and refreshment, printing and mailing, airfare and per diem, lei, rental of audiovisual equipment, and conference supplies and materials, without regard to any competitive bidding requirements pursuant to chapter 103D. (b) The chancellor of the University of Hawaii at Hilo shall"
+      },
+      {
+        "chunk_number": 17,
+        "chunk_text": "The chancellor of the University of Hawaii at Hilo shall submit a report to the legislature no later than twenty days prior to the convening of each regular session that includes an accounting for all income and expenditures of the revolving fund under this section. \"] SECTION 3. Section 304A-2273,"
+      },
+      {
+        "chunk_number": 18,
+        "chunk_text": "revolving fund under this section. \"] SECTION 3. Section 304A-2273, Hawaii Revised Statutes, is repealed. [\" [§304A-2273] Community college conference center revolving fund. (a) There is established the community college conference center revolving fund for conference center programs conducted by the various community colleges. All fees, charges, and other moneys"
+      },
+      {
+        "chunk_number": 19,
+        "chunk_text": "the various community colleges. All fees, charges, and other moneys collected in conjunction with the conference center program of each community college shall be deposited in separate accounts within the revolving fund. The chancellor of each community college or a designee is authorized to expend funds from the appropriate account"
+      },
+      {
+        "chunk_number": 20,
+        "chunk_text": "designee is authorized to expend funds from the appropriate account in the revolving fund for all costs associated with conducting conferences, seminars, and courses by the conference center program, including but not limited to expenses for honoraria, hotel and room rentals, food and refreshment, printing and mailing, airfare and per"
+      },
+      {
+        "chunk_number": 21,
+        "chunk_text": "rentals, food and refreshment, printing and mailing, airfare and per diem, leis, rental of audiovisual equipment, and conference supplies and materials, without regard to section 103D-1002 and any competitive bidding requirements pursuant to state procurement requirements. (b) The chancellors of the community colleges shall prepare an annual report to the"
+      },
+      {
+        "chunk_number": 22,
+        "chunk_text": "the community colleges shall prepare an annual report to the legislature accounting for all income and expenditures of each separate account within the revolving fund. \"] SECTION 4. On July 1, 2025, all unencumbered funds in the conference center revolving fund and in the community college conference center revolving fund"
+      },
+      {
+        "chunk_number": 23,
+        "chunk_text": "fund and in the community college conference center revolving fund shall lapse to the credit of the university of Hawaii conference center revolving fund established pursuant to section 1 of this Act. SECTION 5. There is appropriated out of the university of Hawaii conference center revolving fund the sum of"
+      },
+      {
+        "chunk_number": 24,
+        "chunk_text": "university of Hawaii conference center revolving fund the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 for conducting conferences, seminars, and courses provided by the conference center programs. The sum appropriated shall be expended by the university of Hawaii for purposes of this"
+      },
+      {
+        "chunk_number": 25,
+        "chunk_text": "expended by the university of Hawaii for purposes of this Act. SECTION 6. Statutory material to be repealed is bracketed and stricken. New statutory material is underscored. SECTION 7. This Act shall take effect upon its approval; provided that section 5 shall take effect on July 1, 2025. Report Title:"
+      },
+      {
+        "chunk_number": 26,
+        "chunk_text": "5 shall take effect on July 1, 2025. Report Title: UH; Conference Center Revolving Fund; Appropriation Description: Establishes the University of Hawaii Conference Center Revolving Fund to facilitate the administration of the revolving fund for conference center programs among various campuses and operating units of the University of Hawaii System."
+      },
+      {
+        "chunk_number": 27,
+        "chunk_text": "campuses and operating units of the University of Hawaii System. Repeals the Conference Center Revolving Fund and the University of Hawaii at Hilo and the Community College Conference Center Revolving Fund. Lapses all appropriations and encumbrances of the Conference Center Revolving Fund, University of Hawaii at Hilo and the Community"
+      },
+      {
+        "chunk_number": 28,
+        "chunk_text": "Revolving Fund, University of Hawaii at Hilo and the Community College Conference Center Revolving Fund to the University of Hawaii Conference Center Revolving Fund. Appropriates funds out of the University of Hawaii Conference Center Revolving Fund. (SD2) The summary description of legislation appearing on this page is for informational purposes"
+      },
+      {
+        "chunk_number": 29,
+        "chunk_text": "of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent."
+      },
+      {
+        "chunk_number": 30,
+        "chunk_text": "SSCR1484 STAND. COM. REP. NO. 1484 Honolulu, Hawaii RE: H.B. No. 1169 H.D. 1 S.D. 2 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1169, H.D. 1,"
+      },
+      {
+        "chunk_number": 31,
+        "chunk_text": "Means, to which was referred H.B. No. 1169, H.D. 1, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND,\" begs leave to report as follows: The purpose and intent of this measure is to establish the university of Hawaii conference center revolving"
+      },
+      {
+        "chunk_number": 32,
+        "chunk_text": "is to establish the university of Hawaii conference center revolving fund and repeal two existing conference center funds. Your Committee received written comments in support of this measure from the University of Hawaii System. Your Committee finds that establishing a single revolving fund for all conference center activities will help"
+      },
+      {
+        "chunk_number": 33,
+        "chunk_text": "single revolving fund for all conference center activities will help to standardize conference center programs across all campuses of the University of Hawaii System and facilitate the administration of conference center moneys. Your Committee has amended this measure by (1) Clarifying the permissible uses of moneys appropriated from the university"
+      },
+      {
+        "chunk_number": 34,
+        "chunk_text": "Clarifying the permissible uses of moneys appropriated from the university of Hawaii conference center revolving fund ; and (2) Making technical nonsubstantive amendments for purposes of clarity, consistency, and style. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached"
+      },
+      {
+        "chunk_number": 35,
+        "chunk_text": "of your Committee on Ways and Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, S.D. 1, as amended herein, and recommends that it pass Third Reading in the form attached hereto as H.B. No. 1169,"
+      },
+      {
+        "chunk_number": 36,
+        "chunk_text": "Reading in the form attached hereto as H.B. No. 1169, H.D. 1, S.D. 2. Respectfully submitted on behalf of the members of the Committee on Ways and Means, ________________________________ DONOVAN M. DELA CRUZ, Chair"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-16T15:26:01.812751",
+  "generation_timestamp_unix": 1760664361.812757
 }

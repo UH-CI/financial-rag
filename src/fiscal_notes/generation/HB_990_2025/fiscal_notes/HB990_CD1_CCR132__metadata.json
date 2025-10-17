@@ -20,18 +20,18 @@
     "HB990_CD1",
     "HB990_CD1_CCR132_"
   ],
-  "numbers_used": 110,
-  "prompt_length": 53163,
+  "numbers_used": 129,
+  "prompt_length": 56175,
   "response_metadata": {
-    "response_text": "{\n\"overview\": \"The purpose of this measure is to \\\"satisfy several claims against the State, its officers, or its employees\\\" (HB990_CD1_CCR132_.HTM.txt). This bill makes appropriations for fiscal year 2024-2025 for \\\"payments of judgments or settlements, or other liabilities\\\" (HB990_CD1_.HTM.txt). All unexpended balances from these appropriations \\\"as of the close of business on June 30, 2026, shall lapse\\\" (HB990_CD1_.HTM.txt).\",\n\"appropriations\": \"The measure appropriates a total of $7,023,343.07 (HB990_CD1_.HTM.txt) from the \\\"general revenues of the State of Hawaii\\\" (HB990_CD1_.HTM.txt) for various judgments and settlements. It also appropriates $1,320,000.00 (HB990_CD1_.HTM.txt) from \\\"the state highway fund\\\" (HB990_CD1_.HTM.txt) for claims against the Department of Transportation, Highways Division. A final appropriation of $90,000.00 (HB990_CD1_.HTM.txt) is made from \\\"judiciary funds\\\" (HB990_CD1_.HTM.txt) for a claim against the Judiciary.\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"The measure declares that the appropriations will cause the \\\"general fund expenditure ceiling for fiscal year 2024-2025 to be further exceeded by $7,023,343.07 (HB990_CD1_.HTM.txt), or one per cent\\\" (HB990_CD1_.HTM.txt). The reason provided for exceeding the ceiling is that \\\"the appropriations made in this Act are necessary to serve the public interest and to meet the needs addressed by this Act\\\" (HB990_CD1_.HTM.txt). The Conference Committee also amended the measure by \\\"Changing the effective date to upon approval\\\" (HB990_CD1_CCR132_.HTM.txt).\",\n\"revenue_sources\": \"Appropriations are made from three separate sources for fiscal year 2024-2025. The legislative document specifies that $7,023,343.07 (HB990_CD1_.HTM.txt) is appropriated \\\"out of the general revenues of the State of Hawaii\\\" (HB990_CD1_.HTM.txt). An additional $1,320,000.00 (HB990_CD1_.HTM.txt) is appropriated \\\"out of the state highway fund\\\" (HB990_CD1_.HTM.txt), and $90,000.00 (HB990_CD1_.HTM.txt) is appropriated \\\"out of the judiciary funds\\\" (HB990_CD1_.HTM.txt).\",\n\"six_year_fiscal_implications\": \"The legislative document specifies appropriations for fiscal year 2024-2025 to satisfy numerous claims. From general revenues, these include miscellaneous claims totaling $1,021,738.39 (HB990_CD1_.HTM.txt); $28,500.00 (HB990_CD1_.HTM.txt) for a Department of the Attorney General claim; $100,000.00 (HB990_CD1_.HTM.txt) for a Department of Corrections and Rehabilitation claim; and $280,000.00 (HB990_CD1_.HTM.txt) for Department of Defense claims. The Department of Education has claims totaling $2,645,000.00 (HB990_CD1_.HTM.txt), including a settlement for Brenda Persinger for $1,750,000.00 (HB990_CD1_.HTM.txt). Further general fund appropriations include $400,000.00 (HB990_CD1_.HTM.txt) for a Department of Hawaiian Home Lands claim; $348,000.00 (HB990_CD1_.HTM.txt) for Department of Health claims; $512,700.83 (HB990_CD1_.HTM.txt) for a Department of Human Services judgment; $834,771.00 (HB990_CD1_.HTM.txt) for Department of Land and Natural Resources claims; $750,000.00 (HB990_CD1_.HTM.txt) for a Department of Law Enforcement settlement; $32,632.85 (HB990_CD1_.HTM.txt) for a Department of Taxation settlement; and $70,000.00 (HB990_CD1_.HTM.txt) for a Judiciary settlement. From the state highway fund, $1,320,000.00 (HB990_CD1_.HTM.txt) is appropriated for three settlements, including $1,075,000.00 (HB990_CD1_.HTM.txt) for Juan Jimmie Aldeguer v. State of Hawaii. From judiciary funds, $90,000.00 (HB990_CD1_.HTM.txt) is appropriated for the settlement of Leanne Rosa v. Randal G.B. Valenciano.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"These appropriations are for one-time payments of judgments and settlements. According to the legislative document, \\\"All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse\\\" (HB990_CD1_.HTM.txt). There are no ongoing fiscal obligations after this date.\",\n\"updates_from_previous_fiscal_note\": \"The Conference Committee has amended the measure to finalize the claims and appropriation amounts. The total appropriation is now specified from three distinct funds: $7,023,343.07 (HB990_CD1_.HTM.txt) from general funds, $1,320,000.00 (HB990_CD1_.HTM.txt) from the state highway fund, and $90,000.00 (HB990_CD1_.HTM.txt) from judiciary funds. Several claim amounts differ from those previously requested in testimony, including a settlement for Jon R. Chung for $50,000.00 (HB990_CD1_.HTM.txt), a settlement for Kamaka Air, LLC for $298,000.00 (HB990_CD1_.HTM.txt), a judgment for John Roe No. 121 for $512,700.83 (HB990_CD1_.HTM.txt), and a settlement for Anela Aplaca for $115,000.00 (HB990_CD1_.HTM.txt). The final bill adds numerous other claims not mentioned in the previous testimony and includes a formal declaration that the general fund appropriation will exceed the expenditure ceiling.\"\n}",
+    "response_text": "{\n  \"overview\": \"This bill is an act making appropriations for claims against the State, its officers, or its employees. [CHUNK_0] The purpose of this measure is to satisfy several claims against the State, its officers, or its employees. [CHUNK_39] The bill makes appropriations and approves payments for claims against the State, its officers, and its employees. [CHUNK_34]\",\n  \"appropriations\": \"For fiscal year 2024-2025, the bill appropriates $7,023,343.07 (HB990_CD1_.HTM.txt) out of the general revenues of the State of Hawaii, $1,320,000.00 (HB990_CD1_.HTM.txt) out of the state highway fund, and $90,000.00 (HB990_CD1_.HTM.txt) out of judiciary funds. [CHUNK_1, CHUNK_18, CHUNK_22, CHUNK_17, NUMBER_92, CHUNK_20, NUMBER_100, CHUNK_23, NUMBER_104] These sums are to satisfy claims, judgments, and settlements for various individuals and entities, such as $69,113.33 (HB990_CD1_CCR132_.htm.txt) for a claim by Gilbert Collins and $70,000.00 (HB990_CD1_CCR132_.htm.txt) for a settlement in the case of Susanna Sigal v. State of Hawaii. [CHUNK_39, NUMBER_114, CHUNK_46, NUMBER_128] The appropriated sums are to be expended by the department of the attorney general, the department of transportation's highways division, and the judiciary for the purposes of this Act. [CHUNK_17, CHUNK_21, CHUNK_24]\",\n  \"assumptions_and_methodology\": \"The sums appropriated are for the purpose of satisfying claims for legislative relief as to named persons, firms, corporations, and entities. [CHUNK_2] The amounts are for payments of judgments or settlements, or other liabilities. [CHUNK_3] The specific amounts are set forth opposite their names in the bill, representing the determined value of each claim, judgment, or settlement. [CHUNK_3]\",\n  \"agency_impact\": \"The sums appropriated from general revenues shall be expended by the department of the attorney general for the purposes of this Act. [CHUNK_17] The sums appropriated from the state highway fund shall be expended by the department of transportation, highways division. [CHUNK_21] Departments shall obtain the approval of the attorney general before payment of any claim may be made. [CHUNK_30]\",\n  \"economic_impact\": \"The appropriations contained in this Act will cause the general fund expenditure ceiling for fiscal year 2024-2025 to be further exceeded by $7,023,343.07 (HB990_CD1_.HTM.txt), or one per cent. [CHUNK_27, NUMBER_113] The reasons for exceeding the general fund expenditure ceiling are that the appropriations made in this Act are necessary to serve the public interest and to meet the needs addressed by this Act. [CHUNK_28] Payment of interest upon judgments against the State shall be limited to the period from the date of the judgment, if applicable, to thirty days after the effective date of this Act. [CHUNK_31]\",\n  \"policy_impact\": \"This Act makes appropriations to satisfy claims against the State, its officers, or its employees. [CHUNK_0] It declares that the general fund expenditure ceiling for fiscal year 2024-2025 has been exceeded, stating the reasons are to serve the public interest. [CHUNK_25, CHUNK_28] The Act includes a severability clause and specifies it shall take effect upon its approval. [CHUNK_33, CHUNK_34]\",\n  \"revenue_sources\": \"The sums are appropriated out of the general revenues of the State of Hawaii. [CHUNK_1] Additional funds are appropriated out of the state highway fund. [CHUNK_18] The bill also appropriates sums out of the judiciary funds. [CHUNK_22]\",\n  \"six_year_fiscal_implications\": \"The appropriations in this Act are designated for fiscal year 2024-2025. [CHUNK_1] All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. [CHUNK_32] The appropriations are for specific, non-recurring payments of judgments and settlements. [CHUNK_3] For example, a subtotal of $1,021,738.39 (HB990_CD1_.HTM.txt) is allocated for miscellaneous claims, and $2,645,000.00 (HB990_CD1_.HTM.txt) is for claims related to the Department of Education. [CHUNK_5, NUMBER_20, CHUNK_10, NUMBER_50] A subtotal of $1,320,000.00 (HB990_CD1_.HTM.txt) from the state highway fund is for claims against the Department of Transportation, Highways Division. [CHUNK_20, NUMBER_100] A subtotal of $90,000.00 (HB990_CD1_.HTM.txt) from judiciary funds is for a settlement in the case of Leanne Rosa v. Randal G.B. Valenciano. [CHUNK_23, NUMBER_108] The Act addresses specific liabilities for FY 2024-2025 and does not establish ongoing programs or recurring costs beyond the lapse date. [CHUNK_32] The legislature has determined that at the beginning of the regular session of 2025, the general fund expenditure ceiling for fiscal year 2024-2025 was exceeded by $8,551,795 (HB990_CD1_.HTM.txt). [CHUNK_25, NUMBER_110] Act 1, Session Laws of Hawaii 2025, caused the ceiling to be further exceeded by an additional $30,334,159 (HB990_CD1_.HTM.txt). [CHUNK_26, NUMBER_111] This Act will cause the ceiling to be further exceeded by $7,023,343.07 (HB990_CD1_.HTM.txt). [CHUNK_27, NUMBER_113]\",\n  \"operating_revenue_impact\": \"This measure does not generate new operating revenue. [CHUNK_1] It appropriates funds from existing revenue sources, including general revenues, the state highway fund, and judiciary funds. [CHUNK_1, CHUNK_18, CHUNK_22]\",\n  \"capital_expenditure_impact\": \"This Act makes appropriations for claims, judgments, and settlements. [CHUNK_0] There are no capital expenditures identified in the bill. [CHUNK_3] The funds are for satisfying liabilities and are not designated for investments in facilities, equipment, or infrastructure. [CHUNK_2]\",\n  \"fiscal_implications_after_6_years\": \"All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. [CHUNK_32] The bill addresses specific, one-time liabilities for claims, judgments, and settlements. [CHUNK_3] There are no ongoing fiscal obligations created by this Act that would extend beyond the lapse date. [CHUNK_32]\",\n  \"updates_from_previous_fiscal_note\": \"This fiscal note reflects the final version of the bill after the Conference Committee, which amended the measure. [CHUNK_39] The Committee appropriated specific amounts for various claims, including $69,113.33 (HB990_CD1_CCR132_.htm.txt) in general funds for a claim by Gilbert Collins and $70,000.00 (HB990_CD1_CCR132_.htm.txt) out of the state highway fund for a settlement in the case of Susanna Sigal v. State of Hawaii. [CHUNK_39, NUMBER_114, CHUNK_46, NUMBER_128] The Committee also amended the amount and percentage of exceedance of the appropriations over the general fund expenditure ceiling for fiscal year 2024-2025 and changed the effective date to upon approval. [CHUNK_46, CHUNK_47] The bill specifies total appropriations of $7,023,343.07 (HB990_CD1_.HTM.txt) from general funds, $1,320,000.00 (HB990_CD1_.HTM.txt) from the state highway fund, and $90,000.00 (HB990_CD1_.HTM.txt) from judiciary funds. [CHUNK_17, NUMBER_92, CHUNK_20, NUMBER_100, CHUNK_23, NUMBER_104]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 36167,
-      "candidates_token_count": 1737,
-      "total_token_count": 43142
+      "prompt_token_count": 40908,
+      "candidates_token_count": 2089,
+      "total_token_count": 44414
     },
     "candidates": [
       {
@@ -41,7 +41,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n\"overview\": \"The purpose of this measure is to \\\"satisfy several claims against the State, its officers, or its employees\\\" (HB990_CD1_CCR132_.HTM.txt). This bill makes appropriations for fiscal year 2024-2025 for \\\"payments of judgments or settlements, or other liabilities\\\" (HB990_CD1_.HTM.txt). All unexpended balances from these appropriations \\\"as of the close of business on June 30, 2026, shall lapse\\\" (HB990_CD1_.HTM.txt).\",\n\"appropriations\": \"The measure appropriates a total of $7,023,343.07 (HB990_CD1_.HTM.txt) from the \\\"general revenues of the State of Hawaii\\\" (HB990_CD1_.HTM.txt) for various judgments and settlements. It also appropriates $1,320,000.00 (HB990_CD1_.HTM.txt) from \\\"the state highway fund\\\" (HB990_CD1_.HTM.txt) for claims against the Department of Transportation, Highways Division. A final appropriation of $90,000.00 (HB990_CD1_.HTM.txt) is made from \\\"judiciary funds\\\" (HB990_CD1_.HTM.txt) for a claim against the Judiciary.\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"The measure declares that the appropriations will cause the \\\"general fund expenditure ceiling for fiscal year 2024-2025 to be further exceeded by $7,023,343.07 (HB990_CD1_.HTM.txt), or one per cent\\\" (HB990_CD1_.HTM.txt). The reason provided for exceeding the ceiling is that \\\"the appropriations made in this Act are necessary to serve the public interest and to meet the needs addressed by this Act\\\" (HB990_CD1_.HTM.txt). The Conference Committee also amended the measure by \\\"Changing the effective date to upon approval\\\" (HB990_CD1_CCR132_.HTM.txt).\",\n\"revenue_sources\": \"Appropriations are made from three separate sources for fiscal year 2024-2025. The legislative document specifies that $7,023,343.07 (HB990_CD1_.HTM.txt) is appropriated \\\"out of the general revenues of the State of Hawaii\\\" (HB990_CD1_.HTM.txt). An additional $1,320,000.00 (HB990_CD1_.HTM.txt) is appropriated \\\"out of the state highway fund\\\" (HB990_CD1_.HTM.txt), and $90,000.00 (HB990_CD1_.HTM.txt) is appropriated \\\"out of the judiciary funds\\\" (HB990_CD1_.HTM.txt).\",\n\"six_year_fiscal_implications\": \"The legislative document specifies appropriations for fiscal year 2024-2025 to satisfy numerous claims. From general revenues, these include miscellaneous claims totaling $1,021,738.39 (HB990_CD1_.HTM.txt); $28,500.00 (HB990_CD1_.HTM.txt) for a Department of the Attorney General claim; $100,000.00 (HB990_CD1_.HTM.txt) for a Department of Corrections and Rehabilitation claim; and $280,000.00 (HB990_CD1_.HTM.txt) for Department of Defense claims. The Department of Education has claims totaling $2,645,000.00 (HB990_CD1_.HTM.txt), including a settlement for Brenda Persinger for $1,750,000.00 (HB990_CD1_.HTM.txt). Further general fund appropriations include $400,000.00 (HB990_CD1_.HTM.txt) for a Department of Hawaiian Home Lands claim; $348,000.00 (HB990_CD1_.HTM.txt) for Department of Health claims; $512,700.83 (HB990_CD1_.HTM.txt) for a Department of Human Services judgment; $834,771.00 (HB990_CD1_.HTM.txt) for Department of Land and Natural Resources claims; $750,000.00 (HB990_CD1_.HTM.txt) for a Department of Law Enforcement settlement; $32,632.85 (HB990_CD1_.HTM.txt) for a Department of Taxation settlement; and $70,000.00 (HB990_CD1_.HTM.txt) for a Judiciary settlement. From the state highway fund, $1,320,000.00 (HB990_CD1_.HTM.txt) is appropriated for three settlements, including $1,075,000.00 (HB990_CD1_.HTM.txt) for Juan Jimmie Aldeguer v. State of Hawaii. From judiciary funds, $90,000.00 (HB990_CD1_.HTM.txt) is appropriated for the settlement of Leanne Rosa v. Randal G.B. Valenciano.\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"These appropriations are for one-time payments of judgments and settlements. According to the legislative document, \\\"All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse\\\" (HB990_CD1_.HTM.txt). There are no ongoing fiscal obligations after this date.\",\n\"updates_from_previous_fiscal_note\": \"The Conference Committee has amended the measure to finalize the claims and appropriation amounts. The total appropriation is now specified from three distinct funds: $7,023,343.07 (HB990_CD1_.HTM.txt) from general funds, $1,320,000.00 (HB990_CD1_.HTM.txt) from the state highway fund, and $90,000.00 (HB990_CD1_.HTM.txt) from judiciary funds. Several claim amounts differ from those previously requested in testimony, including a settlement for Jon R. Chung for $50,000.00 (HB990_CD1_.HTM.txt), a settlement for Kamaka Air, LLC for $298,000.00 (HB990_CD1_.HTM.txt), a judgment for John Roe No. 121 for $512,700.83 (HB990_CD1_.HTM.txt), and a settlement for Anela Aplaca for $115,000.00 (HB990_CD1_.HTM.txt). The final bill adds numerous other claims not mentioned in the previous testimony and includes a formal declaration that the general fund appropriation will exceed the expenditure ceiling.\"\n}"
+              "text": "{\n  \"overview\": \"This bill is an act making appropriations for claims against the State, its officers, or its employees. [CHUNK_0] The purpose of this measure is to satisfy several claims against the State, its officers, or its employees. [CHUNK_39] The bill makes appropriations and approves payments for claims against the State, its officers, and its employees. [CHUNK_34]\",\n  \"appropriations\": \"For fiscal year 2024-2025, the bill appropriates $7,023,343.07 (HB990_CD1_.HTM.txt) out of the general revenues of the State of Hawaii, $1,320,000.00 (HB990_CD1_.HTM.txt) out of the state highway fund, and $90,000.00 (HB990_CD1_.HTM.txt) out of judiciary funds. [CHUNK_1, CHUNK_18, CHUNK_22, CHUNK_17, NUMBER_92, CHUNK_20, NUMBER_100, CHUNK_23, NUMBER_104] These sums are to satisfy claims, judgments, and settlements for various individuals and entities, such as $69,113.33 (HB990_CD1_CCR132_.htm.txt) for a claim by Gilbert Collins and $70,000.00 (HB990_CD1_CCR132_.htm.txt) for a settlement in the case of Susanna Sigal v. State of Hawaii. [CHUNK_39, NUMBER_114, CHUNK_46, NUMBER_128] The appropriated sums are to be expended by the department of the attorney general, the department of transportation's highways division, and the judiciary for the purposes of this Act. [CHUNK_17, CHUNK_21, CHUNK_24]\",\n  \"assumptions_and_methodology\": \"The sums appropriated are for the purpose of satisfying claims for legislative relief as to named persons, firms, corporations, and entities. [CHUNK_2] The amounts are for payments of judgments or settlements, or other liabilities. [CHUNK_3] The specific amounts are set forth opposite their names in the bill, representing the determined value of each claim, judgment, or settlement. [CHUNK_3]\",\n  \"agency_impact\": \"The sums appropriated from general revenues shall be expended by the department of the attorney general for the purposes of this Act. [CHUNK_17] The sums appropriated from the state highway fund shall be expended by the department of transportation, highways division. [CHUNK_21] Departments shall obtain the approval of the attorney general before payment of any claim may be made. [CHUNK_30]\",\n  \"economic_impact\": \"The appropriations contained in this Act will cause the general fund expenditure ceiling for fiscal year 2024-2025 to be further exceeded by $7,023,343.07 (HB990_CD1_.HTM.txt), or one per cent. [CHUNK_27, NUMBER_113] The reasons for exceeding the general fund expenditure ceiling are that the appropriations made in this Act are necessary to serve the public interest and to meet the needs addressed by this Act. [CHUNK_28] Payment of interest upon judgments against the State shall be limited to the period from the date of the judgment, if applicable, to thirty days after the effective date of this Act. [CHUNK_31]\",\n  \"policy_impact\": \"This Act makes appropriations to satisfy claims against the State, its officers, or its employees. [CHUNK_0] It declares that the general fund expenditure ceiling for fiscal year 2024-2025 has been exceeded, stating the reasons are to serve the public interest. [CHUNK_25, CHUNK_28] The Act includes a severability clause and specifies it shall take effect upon its approval. [CHUNK_33, CHUNK_34]\",\n  \"revenue_sources\": \"The sums are appropriated out of the general revenues of the State of Hawaii. [CHUNK_1] Additional funds are appropriated out of the state highway fund. [CHUNK_18] The bill also appropriates sums out of the judiciary funds. [CHUNK_22]\",\n  \"six_year_fiscal_implications\": \"The appropriations in this Act are designated for fiscal year 2024-2025. [CHUNK_1] All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. [CHUNK_32] The appropriations are for specific, non-recurring payments of judgments and settlements. [CHUNK_3] For example, a subtotal of $1,021,738.39 (HB990_CD1_.HTM.txt) is allocated for miscellaneous claims, and $2,645,000.00 (HB990_CD1_.HTM.txt) is for claims related to the Department of Education. [CHUNK_5, NUMBER_20, CHUNK_10, NUMBER_50] A subtotal of $1,320,000.00 (HB990_CD1_.HTM.txt) from the state highway fund is for claims against the Department of Transportation, Highways Division. [CHUNK_20, NUMBER_100] A subtotal of $90,000.00 (HB990_CD1_.HTM.txt) from judiciary funds is for a settlement in the case of Leanne Rosa v. Randal G.B. Valenciano. [CHUNK_23, NUMBER_108] The Act addresses specific liabilities for FY 2024-2025 and does not establish ongoing programs or recurring costs beyond the lapse date. [CHUNK_32] The legislature has determined that at the beginning of the regular session of 2025, the general fund expenditure ceiling for fiscal year 2024-2025 was exceeded by $8,551,795 (HB990_CD1_.HTM.txt). [CHUNK_25, NUMBER_110] Act 1, Session Laws of Hawaii 2025, caused the ceiling to be further exceeded by an additional $30,334,159 (HB990_CD1_.HTM.txt). [CHUNK_26, NUMBER_111] This Act will cause the ceiling to be further exceeded by $7,023,343.07 (HB990_CD1_.HTM.txt). [CHUNK_27, NUMBER_113]\",\n  \"operating_revenue_impact\": \"This measure does not generate new operating revenue. [CHUNK_1] It appropriates funds from existing revenue sources, including general revenues, the state highway fund, and judiciary funds. [CHUNK_1, CHUNK_18, CHUNK_22]\",\n  \"capital_expenditure_impact\": \"This Act makes appropriations for claims, judgments, and settlements. [CHUNK_0] There are no capital expenditures identified in the bill. [CHUNK_3] The funds are for satisfying liabilities and are not designated for investments in facilities, equipment, or infrastructure. [CHUNK_2]\",\n  \"fiscal_implications_after_6_years\": \"All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. [CHUNK_32] The bill addresses specific, one-time liabilities for claims, judgments, and settlements. [CHUNK_3] There are no ongoing fiscal obligations created by this Act that would extend beyond the lapse date. [CHUNK_32]\",\n  \"updates_from_previous_fiscal_note\": \"This fiscal note reflects the final version of the bill after the Conference Committee, which amended the measure. [CHUNK_39] The Committee appropriated specific amounts for various claims, including $69,113.33 (HB990_CD1_CCR132_.htm.txt) in general funds for a claim by Gilbert Collins and $70,000.00 (HB990_CD1_CCR132_.htm.txt) out of the state highway fund for a settlement in the case of Susanna Sigal v. State of Hawaii. [CHUNK_39, NUMBER_114, CHUNK_46, NUMBER_128] The Committee also amended the amount and percentage of exceedance of the appropriations over the general fund expenditure ceiling for fiscal year 2024-2025 and changed the effective date to upon approval. [CHUNK_46, CHUNK_47] The bill specifies total appropriations of $7,023,343.07 (HB990_CD1_.HTM.txt) from general funds, $1,320,000.00 (HB990_CD1_.HTM.txt) from the state highway fund, and $90,000.00 (HB990_CD1_.HTM.txt) from judiciary funds. [CHUNK_17, NUMBER_92, CHUNK_20, NUMBER_100, CHUNK_23, NUMBER_104]\"\n}"
             }
           ]
         },
@@ -49,1418 +49,8 @@
         "safety_ratings": []
       }
     ],
-    "sentence_attribution_analysis": {
-      "sentence_attributions": [
-        {
-          "sentence": "{\n\"overview\": \"The purpose of this measure is to \\\"satisfy several claims against the State, its officers, or its employees\\\" (HB990_CD1_CCR132_",
-          "attributed_chunk_id": 21,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.8461538461538461,
-          "attribution_reason": "Word frequency match score: 0.846",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt). This bill makes appropriations for fiscal year 2024-2025 for \\\"payments of judgments or settlements, or other liabilities\\\" (HB990_CD1_",
-          "attributed_chunk_id": 28,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Word frequency match score: 0.333",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt). All unexpended balances from these appropriations \\\"as of the close of business on June 30, 2026, shall lapse\\\" (HB990_CD1_",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": [
-            30.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt). \",\n\"appropriations\": \"The measure appropriates a total of $7,023,343",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": [
-            7023343.0
-          ]
-        },
-        {
-          "sentence": "07 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            7.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) from the \\\"general revenues of the State of Hawaii\\\" (HB990_CD1_",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Word frequency match score: 0.500",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt) for various judgments and settlements",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.4,
-          "attribution_reason": "Word frequency match score: 0.400",
-          "numbers_found": []
-        },
-        {
-          "sentence": "It also appropriates $1,320,000",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": [
-            1320000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) from \\\"the state highway fund\\\" (HB990_CD1_",
-          "attributed_chunk_id": 28,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.42857142857142855,
-          "attribution_reason": "Word frequency match score: 0.429",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt) for claims against the Department of Transportation, Highways Division",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.375,
-          "attribution_reason": "Word frequency match score: 0.375",
-          "numbers_found": []
-        },
-        {
-          "sentence": "A final appropriation of $90,000",
-          "attributed_chunk_id": 20,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Word frequency match score: 0.333",
-          "numbers_found": [
-            90000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) is made from \\\"judiciary funds\\\" (HB990_CD1_",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.14285714285714285,
-          "attribution_reason": "Word frequency match score: 0.143",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt) for a claim against the Judiciary",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"\",\n\"policy_impact\": \"The measure declares that the appropriations will cause the \\\"general fund expenditure ceiling for fiscal year 2024-2025 to be further exceeded by $7,023,343",
-          "attributed_chunk_id": 28,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.47368421052631576,
-          "attribution_reason": "Word frequency match score: 0.474",
-          "numbers_found": [
-            7023343.0
-          ]
-        },
-        {
-          "sentence": "07 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            7.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt), or one per cent\\\" (HB990_CD1_",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt). The reason provided for exceeding the ceiling is that \\\"the appropriations made in this Act are necessary to serve the public interest and to meet the needs addressed by this Act\\\" (HB990_CD1_",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt). The Conference Committee also amended the measure by \\\"Changing the effective date to upon approval\\\" (HB990_CD1_CCR132_",
-          "attributed_chunk_id": 29,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5384615384615384,
-          "attribution_reason": "Word frequency match score: 0.538",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt). \",\n\"revenue_sources\": \"Appropriations are made from three separate sources for fiscal year 2024-2025",
-          "attributed_chunk_id": 28,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.38461538461538464,
-          "attribution_reason": "Word frequency match score: 0.385",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The legislative document specifies that $7,023,343",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.25,
-          "attribution_reason": "Word frequency match score: 0.250",
-          "numbers_found": [
-            7023343.0
-          ]
-        },
-        {
-          "sentence": "07 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            7.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) is appropriated \\\"out of the general revenues of the State of Hawaii\\\" (HB990_CD1_",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.6666666666666666,
-          "attribution_reason": "Word frequency match score: 0.667",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt). An additional $1,320,000",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": [
-            1320000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) is appropriated \\\"out of the state highway fund\\\" (HB990_CD1_",
-          "attributed_chunk_id": 28,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Word frequency match score: 0.500",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt), and $90,000",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": [
-            90000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) is appropriated \\\"out of the judiciary funds\\\" (HB990_CD1_",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.2857142857142857,
-          "attribution_reason": "Word frequency match score: 0.286",
-          "numbers_found": []
-        },
-        {
-          "sentence": "HTM. txt). \",\n\"six_year_fiscal_implications\": \"The legislative document specifies appropriations for fiscal year 2024-2025 to satisfy numerous claims",
-          "attributed_chunk_id": 28,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.35714285714285715,
-          "attribution_reason": "Word frequency match score: 0.357",
-          "numbers_found": []
-        },
-        {
-          "sentence": "From general revenues, these include miscellaneous claims totaling $1,021,738",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.25,
-          "attribution_reason": "Word frequency match score: 0.250",
-          "numbers_found": [
-            1021738.0
-          ]
-        },
-        {
-          "sentence": "39 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            39.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt); $28,500",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": [
-            28500.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for a Department of the Attorney General claim; $100,000",
-          "attributed_chunk_id": "NUMBER_100000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.42857142857142855,
-          "attribution_reason": "Number $100,000 from HB990_CD1_.HTM.txt (score: 0.429)",
-          "numbers_found": [
-            100000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for a Department of Corrections and Rehabilitation claim; and $280,000",
-          "attributed_chunk_id": "NUMBER_280000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.14285714285714285,
-          "attribution_reason": "Number $280,000 from HB990_CD1_.HTM.txt (score: 0.143)",
-          "numbers_found": [
-            280000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for Department of Defense claims",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.4,
-          "attribution_reason": "Word frequency match score: 0.400",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The Department of Education has claims totaling $2,645,000",
-          "attributed_chunk_id": "NUMBER_2645000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.4,
-          "attribution_reason": "Number $2,645,000 from HB990_CD1_.HTM.txt (score: 0.400)",
-          "numbers_found": [
-            2645000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt), including a settlement for Brenda Persinger for $1,750,000",
-          "attributed_chunk_id": "NUMBER_1750000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.2857142857142857,
-          "attribution_reason": "Number $1,750,000 from HB990_CD1_.HTM.txt (score: 0.286)",
-          "numbers_found": [
-            1750000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt). Further general fund appropriations include $400,000",
-          "attributed_chunk_id": 28,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.375,
-          "attribution_reason": "Word frequency match score: 0.375",
-          "numbers_found": [
-            400000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for a Department of Hawaiian Home Lands claim; $348,000",
-          "attributed_chunk_id": "NUMBER_348000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.625,
-          "attribution_reason": "Number $348,000 from HB990_CD1_.HTM.txt (score: 0.625)",
-          "numbers_found": [
-            348000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for Department of Health claims; $512,700",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Word frequency match score: 0.333",
-          "numbers_found": [
-            512700.0
-          ]
-        },
-        {
-          "sentence": "83 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            83.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for a Department of Human Services judgment; $834,771",
-          "attributed_chunk_id": "NUMBER_834771",
-          "attribution_method": "number_based",
-          "attribution_score": 0.2857142857142857,
-          "attribution_reason": "Number $834,771 from HB990_CD1_.HTM.txt (score: 0.286)",
-          "numbers_found": [
-            834771.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for Department of Land and Natural Resources claims; $750,000",
-          "attributed_chunk_id": "NUMBER_750000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.125,
-          "attribution_reason": "Number $750,000 from HB990_CD1_.HTM.txt (score: 0.125)",
-          "numbers_found": [
-            750000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for a Department of Law Enforcement settlement; $32,632",
-          "attributed_chunk_id": 15,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5714285714285714,
-          "attribution_reason": "Word frequency match score: 0.571",
-          "numbers_found": [
-            32632.0
-          ]
-        },
-        {
-          "sentence": "85 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            85.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for a Department of Taxation settlement; and $70,000",
-          "attributed_chunk_id": "NUMBER_70000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Number $70,000 from HB990_CD1_.HTM.txt (score: 0.500)",
-          "numbers_found": [
-            70000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for a Judiciary settlement",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Word frequency match score: 0.500",
-          "numbers_found": []
-        },
-        {
-          "sentence": "From the state highway fund, $1,320,000",
-          "attributed_chunk_id": "NUMBER_1320000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.2,
-          "attribution_reason": "Number $1,320,000 from HB990_CD1_.HTM.txt (score: 0.200)",
-          "numbers_found": [
-            1320000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) is appropriated for three settlements, including $1,075,000",
-          "attributed_chunk_id": "NUMBER_1075000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.2857142857142857,
-          "attribution_reason": "Number $1,075,000 from HB990_CD1_.HTM.txt (score: 0.286)",
-          "numbers_found": [
-            1075000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for Juan Jimmie Aldeguer v",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "State of Hawaii",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "From judiciary funds, $90,000",
-          "attributed_chunk_id": "NUMBER_90000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.25,
-          "attribution_reason": "Number $90,000 from HB990_CD1_.HTM.txt (score: 0.250)",
-          "numbers_found": [
-            90000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) is appropriated for the settlement of Leanne Rosa v",
-          "attributed_chunk_id": 17,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Word frequency match score: 0.333",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Randal G",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": []
-        },
-        {
-          "sentence": "B. Valenciano",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"These appropriations are for one-time payments of judgments and settlements",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Word frequency match score: 0.333",
-          "numbers_found": []
-        },
-        {
-          "sentence": "According to the legislative document, \\\"All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse\\\" (HB990_CD1_",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": [
-            30.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt). There are no ongoing fiscal obligations after this date",
-          "attributed_chunk_id": 29,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.25,
-          "attribution_reason": "Word frequency match score: 0.250",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"The Conference Committee has amended the measure to finalize the claims and appropriation amounts",
-          "attributed_chunk_id": 21,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5555555555555556,
-          "attribution_reason": "Word frequency match score: 0.556",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The total appropriation is now specified from three distinct funds: $7,023,343",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.1111111111111111,
-          "attribution_reason": "Word frequency match score: 0.111",
-          "numbers_found": [
-            7023343.0
-          ]
-        },
-        {
-          "sentence": "07 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            7.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) from general funds, $1,320,000",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.16666666666666666,
-          "attribution_reason": "Word frequency match score: 0.167",
-          "numbers_found": [
-            1320000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) from the state highway fund, and $90,000",
-          "attributed_chunk_id": "NUMBER_90000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.14285714285714285,
-          "attribution_reason": "Number $90,000 from HB990_CD1_.HTM.txt (score: 0.143)",
-          "numbers_found": [
-            90000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) from judiciary funds",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.2,
-          "attribution_reason": "Word frequency match score: 0.200",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Several claim amounts differ from those previously requested in testimony, including a settlement for Jon R",
-          "attributed_chunk_id": 25,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.2727272727272727,
-          "attribution_reason": "Word frequency match score: 0.273",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Chung for $50,000",
-          "attributed_chunk_id": "NUMBER_50000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Number $50,000 from HB990_CD1_.HTM.txt (score: 0.500)",
-          "numbers_found": [
-            50000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt), a settlement for Kamaka Air, LLC for $298,000",
-          "attributed_chunk_id": "NUMBER_298000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.5714285714285714,
-          "attribution_reason": "Number $298,000 from HB990_CD1_.HTM.txt (score: 0.571)",
-          "numbers_found": [
-            298000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt), a judgment for John Roe No",
-          "attributed_chunk_id": 12,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.6,
-          "attribution_reason": "Word frequency match score: 0.600",
-          "numbers_found": []
-        },
-        {
-          "sentence": "121 for $512,700",
-          "attributed_chunk_id": 25,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": [
-            121.0,
-            512700.0
-          ]
-        },
-        {
-          "sentence": "83 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            83.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt), and a settlement for Anela Aplaca for $115,000",
-          "attributed_chunk_id": "NUMBER_115000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Number $115,000 from HB990_CD1_.HTM.txt (score: 0.500)",
-          "numbers_found": [
-            115000.0
-          ]
-        },
-        {
-          "sentence": "00 (HB990_CD1_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt). The final bill adds numerous other claims not mentioned in the previous testimony and includes a formal declaration that the general fund appropriation will exceed the expenditure ceiling",
-          "attributed_chunk_id": 21,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.19047619047619047,
-          "attribution_reason": "Word frequency match score: 0.190",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\"\n}.",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": []
-        }
-      ],
-      "chunk_usage_stats": {
-        "0": {
-          "usage_count": 12,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": [
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)"
-          ]
-        },
-        "1": {
-          "usage_count": 4,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": [
-            "Word frequency match score: 0.500",
-            "Word frequency match score: 0.667",
-            "Word frequency match score: 0.286",
-            "Word frequency match score: 0.167"
-          ]
-        },
-        "2": {
-          "usage_count": 5,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": [
-            "Word frequency match score: 0.375",
-            "Word frequency match score: 0.250",
-            "Word frequency match score: 0.250",
-            "Word frequency match score: 0.400",
-            "Word frequency match score: 0.333"
-          ]
-        },
-        "3": {
-          "usage_count": 2,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": [
-            "Word frequency match score: 0.400",
-            "Word frequency match score: 0.333"
-          ]
-        },
-        "4": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": []
-        },
-        "5": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": []
-        },
-        "6": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": []
-        },
-        "7": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": []
-        },
-        "8": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": []
-        },
-        "9": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": []
-        },
-        "10": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": []
-        },
-        "11": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": []
-        },
-        "12": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": [
-            "Word frequency match score: 0.600"
-          ]
-        },
-        "13": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": []
-        },
-        "14": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": []
-        },
-        "15": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": [
-            "Word frequency match score: 0.571"
-          ]
-        },
-        "16": {
-          "usage_count": 4,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": [
-            "Word frequency match score: 0.143",
-            "Word frequency match score: 0.500",
-            "Word frequency match score: 0.111",
-            "Word frequency match score: 0.200"
-          ]
-        },
-        "17": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1",
-          "attribution_reasons": [
-            "Word frequency match score: 0.333"
-          ]
-        },
-        "18": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_CCR132_",
-          "attribution_reasons": []
-        },
-        "19": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_CCR132_",
-          "attribution_reasons": []
-        },
-        "20": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1_CCR132_",
-          "attribution_reasons": [
-            "Word frequency match score: 0.333"
-          ]
-        },
-        "21": {
-          "usage_count": 3,
-          "document_name": "HB990_CD1_CCR132_",
-          "attribution_reasons": [
-            "Word frequency match score: 0.846",
-            "Word frequency match score: 0.556",
-            "Word frequency match score: 0.190"
-          ]
-        },
-        "22": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_CCR132_",
-          "attribution_reasons": []
-        },
-        "23": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_CCR132_",
-          "attribution_reasons": []
-        },
-        "24": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_CCR132_",
-          "attribution_reasons": []
-        },
-        "25": {
-          "usage_count": 2,
-          "document_name": "HB990_CD1_CCR132_",
-          "attribution_reasons": [
-            "Word frequency match score: 0.273",
-            "Word frequency match score: 1.000"
-          ]
-        },
-        "26": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_CCR132_",
-          "attribution_reasons": []
-        },
-        "27": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_CCR132_",
-          "attribution_reasons": []
-        },
-        "28": {
-          "usage_count": 7,
-          "document_name": "HB990_CD1_CCR132_",
-          "attribution_reasons": [
-            "Word frequency match score: 0.333",
-            "Word frequency match score: 0.429",
-            "Word frequency match score: 0.474",
-            "Word frequency match score: 0.385",
-            "Word frequency match score: 0.500",
-            "Word frequency match score: 0.357",
-            "Word frequency match score: 0.375"
-          ]
-        },
-        "29": {
-          "usage_count": 2,
-          "document_name": "HB990_CD1_CCR132_",
-          "attribution_reasons": [
-            "Word frequency match score: 0.538",
-            "Word frequency match score: 0.250"
-          ]
-        },
-        "30": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_CCR132_",
-          "attribution_reasons": []
-        },
-        "31": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_CCR132_",
-          "attribution_reasons": []
-        },
-        "32": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_CCR132_",
-          "attribution_reasons": []
-        },
-        "NUMBER_69113.33": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_111733.08": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_442504.75": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_152665.39": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_166492.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_50210.67": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_460.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_22674.17": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_514.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_5371.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_1021738.39": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_28500.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_100000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_5000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_275000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_280000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_330000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_150000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_75000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_1750000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_140000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_2645000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_400000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_50000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_298000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_348000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_512700.83": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_115000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_125000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_26771.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_18000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_450000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_834771.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_750000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_32632.85": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_70000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_7023343.07": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_1075000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_175000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_1320000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_90000.0": {
-          "usage_count": 0,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_100000": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": [
-            "Number $100,000 from HB990_CD1_.HTM.txt (score: 0.429)"
-          ]
-        },
-        "NUMBER_280000": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": [
-            "Number $280,000 from HB990_CD1_.HTM.txt (score: 0.143)"
-          ]
-        },
-        "NUMBER_2645000": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": [
-            "Number $2,645,000 from HB990_CD1_.HTM.txt (score: 0.400)"
-          ]
-        },
-        "NUMBER_1750000": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": [
-            "Number $1,750,000 from HB990_CD1_.HTM.txt (score: 0.286)"
-          ]
-        },
-        "NUMBER_348000": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": [
-            "Number $348,000 from HB990_CD1_.HTM.txt (score: 0.625)"
-          ]
-        },
-        "NUMBER_834771": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": [
-            "Number $834,771 from HB990_CD1_.HTM.txt (score: 0.286)"
-          ]
-        },
-        "NUMBER_750000": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": [
-            "Number $750,000 from HB990_CD1_.HTM.txt (score: 0.125)"
-          ]
-        },
-        "NUMBER_70000": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": [
-            "Number $70,000 from HB990_CD1_.HTM.txt (score: 0.500)"
-          ]
-        },
-        "NUMBER_1320000": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": [
-            "Number $1,320,000 from HB990_CD1_.HTM.txt (score: 0.200)"
-          ]
-        },
-        "NUMBER_1075000": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": [
-            "Number $1,075,000 from HB990_CD1_.HTM.txt (score: 0.286)"
-          ]
-        },
-        "NUMBER_90000": {
-          "usage_count": 2,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": [
-            "Number $90,000 from HB990_CD1_.HTM.txt (score: 0.250)",
-            "Number $90,000 from HB990_CD1_.HTM.txt (score: 0.143)"
-          ]
-        },
-        "NUMBER_50000": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": [
-            "Number $50,000 from HB990_CD1_.HTM.txt (score: 0.500)"
-          ]
-        },
-        "NUMBER_298000": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": [
-            "Number $298,000 from HB990_CD1_.HTM.txt (score: 0.571)"
-          ]
-        },
-        "NUMBER_115000": {
-          "usage_count": 1,
-          "document_name": "HB990_CD1_.HTM.txt",
-          "attribution_reasons": [
-            "Number $115,000 from HB990_CD1_.HTM.txt (score: 0.500)"
-          ]
-        }
-      },
-      "attribution_method_stats": {
-        "document_citation_based": 0,
-        "number_based": 15,
-        "word_frequency_based": 33,
-        "semantic_similarity": 0,
-        "fallback": 12,
-        "no_attribution": 33
-      }
-    },
     "chunks_metadata": {
-      "total_chunks": 33,
+      "total_chunks": 51,
       "chunk_details": [
         {
           "chunk_id": 0,
@@ -1601,13 +191,157 @@
         {
           "chunk_id": 17,
           "document_name": "HB990_CD1",
-          "chunk_text": "1CCV-20-0001475, First Circuit (Settlement) ______________ SUBTOTAL: $ 70,000.00 TOTAL (SECTION 1): $ 7,023,343.07 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for",
+          "chunk_text": "1CCV-20-0001475, First Circuit (Settlement) ______________ SUBTOTAL: $ 70,000.00 TOTAL (SECTION 1): $ 7,023,343.07 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for fiscal year",
           "start_word": 680,
-          "end_word": 728,
-          "word_count": 48
+          "end_word": 730,
+          "word_count": 50
         },
         {
           "chunk_id": 18,
+          "document_name": "HB990_CD1",
+          "chunk_text": "so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the state highway fund for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements,",
+          "start_word": 720,
+          "end_word": 770,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB990_CD1",
+          "chunk_text": "its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: DEPARTMENT OF TRANSPORTATION, HIGHWAYS DIVISION: Juan Jimmie Aldeguer v. State of Hawaii $ 1,075,000.00 Civil No. 1CCV-21-0000052, First Circuit (Settlement)",
+          "start_word": 760,
+          "end_word": 810,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB990_CD1",
+          "chunk_text": "of Hawaii $ 1,075,000.00 Civil No. 1CCV-21-0000052, First Circuit (Settlement) Estate of Bruce S. Perdue v. State of Hawaii $ 175,000.00 Civil No. 5CC131000351, Fifth Circuit (Settlement) Susanna Sigal v. State of Hawaii $ 70,000.00 Civil No. 1CCV-20-0001486, First Circuit (Settlement) ______________ SUBTOTAL: $ 1,320,000.00 TOTAL (SECTION 2): $ 1,320,000.00",
+          "start_word": 800,
+          "end_word": 850,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB990_CD1",
+          "chunk_text": "(Settlement) ______________ SUBTOTAL: $ 1,320,000.00 TOTAL (SECTION 2): $ 1,320,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated",
+          "start_word": 840,
+          "end_word": 890,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB990_CD1",
+          "chunk_text": "as may be necessary for fiscal year 2024-2025 are appropriated out of the judiciary funds for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in",
+          "start_word": 880,
+          "end_word": 930,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB990_CD1",
+          "chunk_text": "for payments of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randal G.B. Valenciano $ 90,000.00 Civil No. 23-CV-00315-JAO-WRP, USDC (Settlement) ______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The",
+          "start_word": 920,
+          "end_word": 970,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB990_CD1",
+          "chunk_text": "______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the judiciary for the purposes of this Act. PART IV SECTION 4. In accordance with section 9 of article VII of the Constitution of the State of Hawaii and sections 37-91 and 37-93, Hawaii",
+          "start_word": 960,
+          "end_word": 1010,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB990_CD1",
+          "chunk_text": "the State of Hawaii and sections 37-91 and 37-93, Hawaii Revised Statutes, the legislature has determined that at the beginning of the regular session of 2025, the general fund expenditure ceiling for fiscal year 2024-2025 was exceeded by $8,551,795, or one per cent. The appropriations contained in Act 1, Session",
+          "start_word": 1000,
+          "end_word": 1050,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB990_CD1",
+          "chunk_text": "one per cent. The appropriations contained in Act 1, Session Laws of Hawaii 2025, caused the general fund expenditure ceiling for fiscal year 2024-2025 to be further exceeded by an additional $30,334,159. Therefore, the general fund expenditure ceiling for fiscal year 2024-2025 has already been exceeded by $38,885,954, or one",
+          "start_word": 1040,
+          "end_word": 1090,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB990_CD1",
+          "chunk_text": "year 2024-2025 has already been exceeded by $38,885,954, or one per cent. The appropriations contained in this Act will cause the general fund expenditure ceiling for fiscal year 2024-2025 to be further exceeded by $7,023,343.07, or one per cent. This declaration takes into account the additional general fund appropriations authorized",
+          "start_word": 1080,
+          "end_word": 1130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB990_CD1",
+          "chunk_text": "declaration takes into account the additional general fund appropriations authorized for fiscal year 2024-2025 in this Act only. The reasons for exceeding the general fund expenditure ceiling are that the appropriations made in this Act are necessary to serve the public interest and to meet the needs addressed by this",
+          "start_word": 1120,
+          "end_word": 1170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB990_CD1",
+          "chunk_text": "public interest and to meet the needs addressed by this Act. PART V SECTION 5. The sums hereinabove may be paid to the respective persons, firms, corporations, or entities for the satisfaction or settlement of the respectively identified cases, and in several amounts hereinabove set forth or in lesser amounts",
+          "start_word": 1160,
+          "end_word": 1210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 30,
+          "document_name": "HB990_CD1",
+          "chunk_text": "in several amounts hereinabove set forth or in lesser amounts deemed appropriate, upon checks issued by the comptroller; provided that departments shall obtain the approval of the attorney general before payment of any claim may be made. SECTION 6. Notwithstanding the sums hereinabove stated as interest upon judgments against the",
+          "start_word": 1200,
+          "end_word": 1250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 31,
+          "document_name": "HB990_CD1",
+          "chunk_text": "the sums hereinabove stated as interest upon judgments against the State, payment of interest shall be limited to the period from the date of the judgment, if applicable, to thirty days after the effective date of this Act, as provided in section 662-8, Hawaii Revised Statutes, for those cases to",
+          "start_word": 1240,
+          "end_word": 1290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 32,
+          "document_name": "HB990_CD1",
+          "chunk_text": "in section 662-8, Hawaii Revised Statutes, for those cases to which the statute applies. SECTION 7. All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. SECTION 8. If any provision of this Act, or the",
+          "start_word": 1280,
+          "end_word": 1330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 33,
+          "document_name": "HB990_CD1",
+          "chunk_text": "SECTION 8. If any provision of this Act, or the application thereof to any person or circumstance, is held invalid, the invalidity does not affect other provisions or applications of the Act that can be given effect without the invalid provision or application, and to this end the provisions of",
+          "start_word": 1320,
+          "end_word": 1370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 34,
+          "document_name": "HB990_CD1",
+          "chunk_text": "provision or application, and to this end the provisions of this Act are severable. SECTION 9. This Act shall take effect upon its approval. Report Title: Claims Against the State; Expenditure Ceiling; Appropriations Description: Makes appropriations and approves payments for claims against the State, its officers, and its employees. (CD1)",
+          "start_word": 1360,
+          "end_word": 1410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 35,
+          "document_name": "HB990_CD1",
+          "chunk_text": "claims against the State, its officers, and its employees. (CD1) The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+          "start_word": 1400,
+          "end_word": 1433,
+          "word_count": 33
+        },
+        {
+          "chunk_id": 36,
           "document_name": "HB990_CD1_CCR132_",
           "chunk_text": "CCR132 CONFERENCE COMMITTEE REP. NO. 132 Honolulu, Hawaii , 2025 RE: H.B. No. 990 H.D. 2 S.D. 1 C.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular",
           "start_word": 0,
@@ -1615,7 +349,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 19,
+          "chunk_id": 37,
           "document_name": "HB990_CD1_CCR132_",
           "chunk_text": "D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madam and Sir: Your Committee on Conference on the disagreeing vote of the House of Representatives to the amendments proposed by the Senate in H.B. No. 990, H.D. 2, S.D. 1, entitled: \"A BILL",
           "start_word": 40,
@@ -1623,7 +357,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 20,
+          "chunk_id": 38,
           "document_name": "HB990_CD1_CCR132_",
           "chunk_text": "H.B. No. 990, H.D. 2, S.D. 1, entitled: \"A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES,\" having met, and after full and free discussion, has agreed to recommend and does recommend to the respective Houses the final passage of this bill",
           "start_word": 80,
@@ -1631,7 +365,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 21,
+          "chunk_id": 39,
           "document_name": "HB990_CD1_CCR132_",
           "chunk_text": "to the respective Houses the final passage of this bill in an amended form. The purpose of this measure is to satisfy several claims against the State, its officers, or its employees. Your Committee on Conference has amended this measure by: (1) Appropriating: (A) $69,113.33 in general funds for a",
           "start_word": 120,
@@ -1639,7 +373,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 22,
+          "chunk_id": 40,
           "document_name": "HB990_CD1_CCR132_",
           "chunk_text": "by: (1) Appropriating: (A) $69,113.33 in general funds for a claim by Gilbert Collins; (B) $166,492.00 in general funds for a claim by National Commerce Bank Service; (C) $50,210.67 in general funds for a claim by Olinda Country Estates, Inc.; (D) $22,674.17 in general funds for a claim by Sofia",
           "start_word": 160,
@@ -1647,7 +381,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 23,
+          "chunk_id": 41,
           "document_name": "HB990_CD1_CCR132_",
           "chunk_text": "(D) $22,674.17 in general funds for a claim by Sofia Lerman Estate; (E) $100,000.00 in general funds for a settlement in the case of Donna Opulento v. State of Hawaii Department of Public Safety; (F) $100,000.00 in general funds for a settlement in the case of D.O. v. State of",
           "start_word": 200,
@@ -1655,7 +389,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 24,
+          "chunk_id": 42,
           "document_name": "HB990_CD1_CCR132_",
           "chunk_text": "a settlement in the case of D.O. v. State of Hawaii, Department of Education; (G) $140,000.00 in general funds for a settlement in the case of Leonard Ramboyon v. Esther Kanehailua; (H) $50,000.00 in general funds for a settlement in the case of Jon R. Chung v. State of Hawaii;",
           "start_word": 240,
@@ -1663,7 +397,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 25,
+          "chunk_id": 43,
           "document_name": "HB990_CD1_CCR132_",
           "chunk_text": "the case of Jon R. Chung v. State of Hawaii; (I) $298,000.00 in general funds for a settlement in the tort claim by Kamaka Air, LLC; (J) $512,700.83 in general funds for a judgment in the case of John Roe No. 121 v. State of Hawaii; (K) $115,000.00 in general",
           "start_word": 280,
@@ -1671,7 +405,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 26,
+          "chunk_id": 44,
           "document_name": "HB990_CD1_CCR132_",
           "chunk_text": "No. 121 v. State of Hawaii; (K) $115,000.00 in general funds for a settlement in the case of Anela Aplaca v. State of Hawaii; (L) $125,000.00 in general funds for a settlement in the case of Stacy J. Bruhn v. State of Hawaii; (M) $26,771.00 in general funds for a",
           "start_word": 320,
@@ -1679,7 +413,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 27,
+          "chunk_id": 45,
           "document_name": "HB990_CD1_CCR132_",
           "chunk_text": "State of Hawaii; (M) $26,771.00 in general funds for a judgment in the case of Healoha Carmichael v. Board of Land and Natural Resources; (N) $18,000.00 in general funds for a settlement in the case of Kona Mike's Surf Adventures, LLC v. Dawn N.S. Chang; and (O) $70,000.00 out of",
           "start_word": 360,
@@ -1687,7 +421,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 28,
+          "chunk_id": 46,
           "document_name": "HB990_CD1_CCR132_",
           "chunk_text": "LLC v. Dawn N.S. Chang; and (O) $70,000.00 out of the state highway fund for a settlement in the case of Susanna Sigal v. State of Hawaii; (2) Amending the amount and percentage of exceedance of the appropriations over the general fund expenditure ceiling for fiscal year 2024-2025; (3) Changing",
           "start_word": 400,
@@ -1695,7 +429,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 29,
+          "chunk_id": 47,
           "document_name": "HB990_CD1_CCR132_",
           "chunk_text": "general fund expenditure ceiling for fiscal year 2024-2025; (3) Changing the effective date to upon approval; and (4) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed by the record of votes of the managers of your Committee on Conference that is attached to this",
           "start_word": 440,
@@ -1703,7 +437,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 30,
+          "chunk_id": 48,
           "document_name": "HB990_CD1_CCR132_",
           "chunk_text": "of your Committee on Conference that is attached to this report, your Committee on Conference is in accord with the intent and purpose of H.B. No. 990, H.D. 2, S.D. 1, as amended herein, and recommends that it pass Final Reading in the form attached hereto as H.B. No. 990,",
           "start_word": 480,
@@ -1711,7 +445,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 31,
+          "chunk_id": 49,
           "document_name": "HB990_CD1_CCR132_",
           "chunk_text": "Reading in the form attached hereto as H.B. No. 990, H.D. 2, S.D. 1, C.D. 1. Respectfully submitted on behalf of the managers: ON THE PART OF THE SENATE ON THE PART OF THE HOUSE ____________________________ KARL RHOADS Chair ____________________________ DAVID A. TARNAS Co-Chair ____________________________ SHARON MORIWAKI Co-Chair ____________________________ LISA",
           "start_word": 520,
@@ -1719,7 +453,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 32,
+          "chunk_id": 50,
           "document_name": "HB990_CD1_CCR132_",
           "chunk_text": "DAVID A. TARNAS Co-Chair ____________________________ SHARON MORIWAKI Co-Chair ____________________________ LISA KITAGAWA Co-Chair",
           "start_word": 560,
@@ -2388,9 +1122,876 @@
         "number": 90000.0,
         "filename": "HB990_CD1_.HTM.txt",
         "document_type": "document"
+      },
+      {
+        "text": "In accordance with section 9 of article VII of the Constitution of the State of Hawaii and sections 37-91 and 37-93, Hawaii Revised Statutes, the legislature has determined that at the beginning of the regular session of 2025, the general fund expenditure ceiling for fiscal year 2024-2025 was exceeded by $8,551,795, or one per cent. The appropriations contained in Act 1, Session Laws of Hawaii 2025, caused the general fund expenditure ceiling for fiscal year 2024-2025 to be further exceeded by an additional $30,334,159. Therefore, the general fund expenditure ceiling for fiscal year 2024-2025 has already been exceeded by $38,885,954, or",
+        "number": 8551795.0,
+        "filename": "HB990_CD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "the regular session of 2025, the general fund expenditure ceiling for fiscal year 2024-2025 was exceeded by $8,551,795, or one per cent. The appropriations contained in Act 1, Session Laws of Hawaii 2025, caused the general fund expenditure ceiling for fiscal year 2024-2025 to be further exceeded by an additional $30,334,159. Therefore, the general fund expenditure ceiling for fiscal year 2024-2025 has already been exceeded by $38,885,954, or one per cent. The appropriations contained in this Act will cause the general fund expenditure ceiling for fiscal year 2024-2025 to be further exceeded by $7,023,343.07, or one per cent. This declaration takes",
+        "number": 30334159.0,
+        "filename": "HB990_CD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "by $8,551,795, or one per cent. The appropriations contained in Act 1, Session Laws of Hawaii 2025, caused the general fund expenditure ceiling for fiscal year 2024-2025 to be further exceeded by an additional $30,334,159. Therefore, the general fund expenditure ceiling for fiscal year 2024-2025 has already been exceeded by $38,885,954, or one per cent. The appropriations contained in this Act will cause the general fund expenditure ceiling for fiscal year 2024-2025 to be further exceeded by $7,023,343.07, or one per cent. This declaration takes into account the additional general fund appropriations authorized for fiscal year 2024-2025 in this Act only.",
+        "number": 38885954.0,
+        "filename": "HB990_CD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "to be further exceeded by an additional $30,334,159. Therefore, the general fund expenditure ceiling for fiscal year 2024-2025 has already been exceeded by $38,885,954, or one per cent. The appropriations contained in this Act will cause the general fund expenditure ceiling for fiscal year 2024-2025 to be further exceeded by $7,023,343.07, or one per cent. This declaration takes into account the additional general fund appropriations authorized for fiscal year 2024-2025 in this Act only. The reasons for exceeding the general fund expenditure ceiling are that the appropriations made in this Act are necessary to serve the public interest and to meet",
+        "number": 7023343.07,
+        "filename": "HB990_CD1_.HTM.txt",
+        "document_type": "document"
+      },
+      {
+        "text": "agreed to recommend and does recommend to the respective Houses the final passage of this bill in an amended form. The purpose of this measure is to satisfy several claims against the State, its officers, or its employees. Your Committee on Conference has amended this measure by: (1) Appropriating: (A) $69,113.33 in general funds for a claim by Gilbert Collins; (B) $166,492.00 in general funds for a claim by National Commerce Bank Service; (C) $50,210.67 in general funds for a claim by Olinda Country Estates, Inc.; (D) $22,674.17 in general funds for a claim by Sofia Lerman Estate; (E) $100,000.00 in",
+        "number": 69113.33,
+        "filename": "HB990_CD1_CCR132_.htm.txt",
+        "document_type": "committee_hearing"
+      },
+      {
+        "text": "final passage of this bill in an amended form. The purpose of this measure is to satisfy several claims against the State, its officers, or its employees. Your Committee on Conference has amended this measure by: (1) Appropriating: (A) $69,113.33 in general funds for a claim by Gilbert Collins; (B) $166,492.00 in general funds for a claim by National Commerce Bank Service; (C) $50,210.67 in general funds for a claim by Olinda Country Estates, Inc.; (D) $22,674.17 in general funds for a claim by Sofia Lerman Estate; (E) $100,000.00 in general funds for a settlement in the case of Donna Opulento",
+        "number": 166492.0,
+        "filename": "HB990_CD1_CCR132_.htm.txt",
+        "document_type": "committee_hearing"
+      },
+      {
+        "text": "measure is to satisfy several claims against the State, its officers, or its employees. Your Committee on Conference has amended this measure by: (1) Appropriating: (A) $69,113.33 in general funds for a claim by Gilbert Collins; (B) $166,492.00 in general funds for a claim by National Commerce Bank Service; (C) $50,210.67 in general funds for a claim by Olinda Country Estates, Inc.; (D) $22,674.17 in general funds for a claim by Sofia Lerman Estate; (E) $100,000.00 in general funds for a settlement in the case of Donna Opulento v. State of Hawaii Department of Public Safety; (F) $100,000.00 in general funds",
+        "number": 50210.67,
+        "filename": "HB990_CD1_CCR132_.htm.txt",
+        "document_type": "committee_hearing"
+      },
+      {
+        "text": "employees. Your Committee on Conference has amended this measure by: (1) Appropriating: (A) $69,113.33 in general funds for a claim by Gilbert Collins; (B) $166,492.00 in general funds for a claim by National Commerce Bank Service; (C) $50,210.67 in general funds for a claim by Olinda Country Estates, Inc.; (D) $22,674.17 in general funds for a claim by Sofia Lerman Estate; (E) $100,000.00 in general funds for a settlement in the case of Donna Opulento v. State of Hawaii Department of Public Safety; (F) $100,000.00 in general funds for a settlement in the case of D.O. v. State of Hawaii, Department",
+        "number": 22674.17,
+        "filename": "HB990_CD1_CCR132_.htm.txt",
+        "document_type": "committee_hearing"
+      },
+      {
+        "text": "(A) $69,113.33 in general funds for a claim by Gilbert Collins; (B) $166,492.00 in general funds for a claim by National Commerce Bank Service; (C) $50,210.67 in general funds for a claim by Olinda Country Estates, Inc.; (D) $22,674.17 in general funds for a claim by Sofia Lerman Estate; (E) $100,000.00 in general funds for a settlement in the case of Donna Opulento v. State of Hawaii Department of Public Safety; (F) $100,000.00 in general funds for a settlement in the case of D.O. v. State of Hawaii, Department of Education; (G) $140,000.00 in general funds for a settlement in the",
+        "number": 100000.0,
+        "filename": "HB990_CD1_CCR132_.htm.txt",
+        "document_type": "committee_hearing"
+      },
+      {
+        "text": "Bank Service; (C) $50,210.67 in general funds for a claim by Olinda Country Estates, Inc.; (D) $22,674.17 in general funds for a claim by Sofia Lerman Estate; (E) $100,000.00 in general funds for a settlement in the case of Donna Opulento v. State of Hawaii Department of Public Safety; (F) $100,000.00 in general funds for a settlement in the case of D.O. v. State of Hawaii, Department of Education; (G) $140,000.00 in general funds for a settlement in the case of Leonard Ramboyon v. Esther Kanehailua; (H) $50,000.00 in general funds for a settlement in the case of Jon R. Chung",
+        "number": 100000.0,
+        "filename": "HB990_CD1_CCR132_.htm.txt",
+        "document_type": "committee_hearing"
+      },
+      {
+        "text": "for a claim by Sofia Lerman Estate; (E) $100,000.00 in general funds for a settlement in the case of Donna Opulento v. State of Hawaii Department of Public Safety; (F) $100,000.00 in general funds for a settlement in the case of D.O. v. State of Hawaii, Department of Education; (G) $140,000.00 in general funds for a settlement in the case of Leonard Ramboyon v. Esther Kanehailua; (H) $50,000.00 in general funds for a settlement in the case of Jon R. Chung v. State of Hawaii; (I) $298,000.00 in general funds for a settlement in the tort claim by Kamaka Air, LLC;",
+        "number": 140000.0,
+        "filename": "HB990_CD1_CCR132_.htm.txt",
+        "document_type": "committee_hearing"
+      },
+      {
+        "text": "case of Donna Opulento v. State of Hawaii Department of Public Safety; (F) $100,000.00 in general funds for a settlement in the case of D.O. v. State of Hawaii, Department of Education; (G) $140,000.00 in general funds for a settlement in the case of Leonard Ramboyon v. Esther Kanehailua; (H) $50,000.00 in general funds for a settlement in the case of Jon R. Chung v. State of Hawaii; (I) $298,000.00 in general funds for a settlement in the tort claim by Kamaka Air, LLC; (J) $512,700.83 in general funds for a judgment in the case of John Roe No. 121 v.",
+        "number": 50000.0,
+        "filename": "HB990_CD1_CCR132_.htm.txt",
+        "document_type": "committee_hearing"
+      },
+      {
+        "text": "settlement in the case of D.O. v. State of Hawaii, Department of Education; (G) $140,000.00 in general funds for a settlement in the case of Leonard Ramboyon v. Esther Kanehailua; (H) $50,000.00 in general funds for a settlement in the case of Jon R. Chung v. State of Hawaii; (I) $298,000.00 in general funds for a settlement in the tort claim by Kamaka Air, LLC; (J) $512,700.83 in general funds for a judgment in the case of John Roe No. 121 v. State of Hawaii; (K) $115,000.00 in general funds for a settlement in the case of Anela Aplaca v. State",
+        "number": 298000.0,
+        "filename": "HB990_CD1_CCR132_.htm.txt",
+        "document_type": "committee_hearing"
+      },
+      {
+        "text": "general funds for a settlement in the case of Leonard Ramboyon v. Esther Kanehailua; (H) $50,000.00 in general funds for a settlement in the case of Jon R. Chung v. State of Hawaii; (I) $298,000.00 in general funds for a settlement in the tort claim by Kamaka Air, LLC; (J) $512,700.83 in general funds for a judgment in the case of John Roe No. 121 v. State of Hawaii; (K) $115,000.00 in general funds for a settlement in the case of Anela Aplaca v. State of Hawaii; (L) $125,000.00 in general funds for a settlement in the case of Stacy J.",
+        "number": 512700.83,
+        "filename": "HB990_CD1_CCR132_.htm.txt",
+        "document_type": "committee_hearing"
+      },
+      {
+        "text": "a settlement in the case of Jon R. Chung v. State of Hawaii; (I) $298,000.00 in general funds for a settlement in the tort claim by Kamaka Air, LLC; (J) $512,700.83 in general funds for a judgment in the case of John Roe No. 121 v. State of Hawaii; (K) $115,000.00 in general funds for a settlement in the case of Anela Aplaca v. State of Hawaii; (L) $125,000.00 in general funds for a settlement in the case of Stacy J. Bruhn v. State of Hawaii; (M) $26,771.00 in general funds for a judgment in the case of Healoha Carmichael v.",
+        "number": 115000.0,
+        "filename": "HB990_CD1_CCR132_.htm.txt",
+        "document_type": "committee_hearing"
+      },
+      {
+        "text": "for a settlement in the tort claim by Kamaka Air, LLC; (J) $512,700.83 in general funds for a judgment in the case of John Roe No. 121 v. State of Hawaii; (K) $115,000.00 in general funds for a settlement in the case of Anela Aplaca v. State of Hawaii; (L) $125,000.00 in general funds for a settlement in the case of Stacy J. Bruhn v. State of Hawaii; (M) $26,771.00 in general funds for a judgment in the case of Healoha Carmichael v. Board of Land and Natural Resources; (N) $18,000.00 in general funds for a settlement in the case of",
+        "number": 125000.0,
+        "filename": "HB990_CD1_CCR132_.htm.txt",
+        "document_type": "committee_hearing"
+      },
+      {
+        "text": "in the case of John Roe No. 121 v. State of Hawaii; (K) $115,000.00 in general funds for a settlement in the case of Anela Aplaca v. State of Hawaii; (L) $125,000.00 in general funds for a settlement in the case of Stacy J. Bruhn v. State of Hawaii; (M) $26,771.00 in general funds for a judgment in the case of Healoha Carmichael v. Board of Land and Natural Resources; (N) $18,000.00 in general funds for a settlement in the case of Kona Mike's Surf Adventures, LLC v. Dawn N.S. Chang; and (O) $70,000.00 out of the state highway fund for",
+        "number": 26771.0,
+        "filename": "HB990_CD1_CCR132_.htm.txt",
+        "document_type": "committee_hearing"
+      },
+      {
+        "text": "the case of Anela Aplaca v. State of Hawaii; (L) $125,000.00 in general funds for a settlement in the case of Stacy J. Bruhn v. State of Hawaii; (M) $26,771.00 in general funds for a judgment in the case of Healoha Carmichael v. Board of Land and Natural Resources; (N) $18,000.00 in general funds for a settlement in the case of Kona Mike's Surf Adventures, LLC v. Dawn N.S. Chang; and (O) $70,000.00 out of the state highway fund for a settlement in the case of Susanna Sigal v. State of Hawaii; (2) Amending the amount and percentage of exceedance of",
+        "number": 18000.0,
+        "filename": "HB990_CD1_CCR132_.htm.txt",
+        "document_type": "committee_hearing"
+      },
+      {
+        "text": "J. Bruhn v. State of Hawaii; (M) $26,771.00 in general funds for a judgment in the case of Healoha Carmichael v. Board of Land and Natural Resources; (N) $18,000.00 in general funds for a settlement in the case of Kona Mike's Surf Adventures, LLC v. Dawn N.S. Chang; and (O) $70,000.00 out of the state highway fund for a settlement in the case of Susanna Sigal v. State of Hawaii; (2) Amending the amount and percentage of exceedance of the appropriations over the general fund expenditure ceiling for fiscal year 2024-2025; (3) Changing the effective date to upon approval; and (4)",
+        "number": 70000.0,
+        "filename": "HB990_CD1_CCR132_.htm.txt",
+        "document_type": "committee_hearing"
+      }
+    ],
+    "chunk_text_map": {
+      "13": [
+        {
+          "chunk_text": "HB990 CD1 HOUSE OF REPRESENTATIVES H.B. NO. 990 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII S.D. 1 C.D. 1 A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I",
+          "chunk_id": 0,
+          "document_name": "HB990_CD1"
+        },
+        {
+          "chunk_text": "provision or application, and to this end the provisions of this Act are severable. SECTION 9. This Act shall take effect upon its approval. Report Title: Claims Against the State; Expenditure Ceiling; Appropriations Description: Makes appropriations and approves payments for claims against the State, its officers, and its employees. (CD1)",
+          "chunk_id": 34,
+          "document_name": "HB990_CD1"
+        },
+        {
+          "chunk_text": "1CCV-20-0001475, First Circuit (Settlement) ______________ SUBTOTAL: $ 70,000.00 TOTAL (SECTION 1): $ 7,023,343.07 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for fiscal year",
+          "chunk_id": 17,
+          "document_name": "HB990_CD1"
+        },
+        {
+          "chunk_text": "(Settlement) ______________ SUBTOTAL: $ 1,320,000.00 TOTAL (SECTION 2): $ 1,320,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated",
+          "chunk_id": 21,
+          "document_name": "HB990_CD1"
+        },
+        {
+          "chunk_text": "______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the judiciary for the purposes of this Act. PART IV SECTION 4. In accordance with section 9 of article VII of the Constitution of the State of Hawaii and sections 37-91 and 37-93, Hawaii",
+          "chunk_id": 24,
+          "document_name": "HB990_CD1"
+        },
+        {
+          "chunk_text": "the department of the attorney general for the purpose of satisfying claims for legislative relief as to the following named persons, firms, corporations, and entities, for claims against the State or its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or",
+          "chunk_id": 2,
+          "document_name": "HB990_CD1"
+        },
+        {
+          "chunk_text": "or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Gilbert Collins $ 69,113.33 Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui",
+          "chunk_id": 3,
+          "document_name": "HB990_CD1"
+        },
+        {
+          "chunk_text": "in several amounts hereinabove set forth or in lesser amounts deemed appropriate, upon checks issued by the comptroller; provided that departments shall obtain the approval of the attorney general before payment of any claim may be made. SECTION 6. Notwithstanding the sums hereinabove stated as interest upon judgments against the",
+          "chunk_id": 30,
+          "document_name": "HB990_CD1"
+        },
+        {
+          "chunk_text": "declaration takes into account the additional general fund appropriations authorized for fiscal year 2024-2025 in this Act only. The reasons for exceeding the general fund expenditure ceiling are that the appropriations made in this Act are necessary to serve the public interest and to meet the needs addressed by this",
+          "chunk_id": 28,
+          "document_name": "HB990_CD1"
+        },
+        {
+          "chunk_text": "the sums hereinabove stated as interest upon judgments against the State, payment of interest shall be limited to the period from the date of the judgment, if applicable, to thirty days after the effective date of this Act, as provided in section 662-8, Hawaii Revised Statutes, for those cases to",
+          "chunk_id": 31,
+          "document_name": "HB990_CD1"
+        },
+        {
+          "chunk_text": "the State of Hawaii and sections 37-91 and 37-93, Hawaii Revised Statutes, the legislature has determined that at the beginning of the regular session of 2025, the general fund expenditure ceiling for fiscal year 2024-2025 was exceeded by $8,551,795, or one per cent. The appropriations contained in Act 1, Session",
+          "chunk_id": 25,
+          "document_name": "HB990_CD1"
+        },
+        {
+          "chunk_text": "SECTION 8. If any provision of this Act, or the application thereof to any person or circumstance, is held invalid, the invalidity does not affect other provisions or applications of the Act that can be given effect without the invalid provision or application, and to this end the provisions of",
+          "chunk_id": 33,
+          "document_name": "HB990_CD1"
+        },
+        {
+          "chunk_text": "BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for the purpose of",
+          "chunk_id": 1,
+          "document_name": "HB990_CD1"
+        },
+        {
+          "chunk_text": "so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the state highway fund for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements,",
+          "chunk_id": 18,
+          "document_name": "HB990_CD1"
+        },
+        {
+          "chunk_text": "as may be necessary for fiscal year 2024-2025 are appropriated out of the judiciary funds for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in",
+          "chunk_id": 22,
+          "document_name": "HB990_CD1"
+        },
+        {
+          "chunk_text": "in section 662-8, Hawaii Revised Statutes, for those cases to which the statute applies. SECTION 7. All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. SECTION 8. If any provision of this Act, or the",
+          "chunk_id": 32,
+          "document_name": "HB990_CD1"
+        }
+      ],
+      "14": [
+        {
+          "chunk_text": "to the respective Houses the final passage of this bill in an amended form. The purpose of this measure is to satisfy several claims against the State, its officers, or its employees. Your Committee on Conference has amended this measure by: (1) Appropriating: (A) $69,113.33 in general funds for a",
+          "chunk_id": 39,
+          "document_name": "HB990_CD1_CCR132_"
+        },
+        {
+          "chunk_text": "LLC v. Dawn N.S. Chang; and (O) $70,000.00 out of the state highway fund for a settlement in the case of Susanna Sigal v. State of Hawaii; (2) Amending the amount and percentage of exceedance of the appropriations over the general fund expenditure ceiling for fiscal year 2024-2025; (3) Changing",
+          "chunk_id": 46,
+          "document_name": "HB990_CD1_CCR132_"
+        },
+        {
+          "chunk_text": "general fund expenditure ceiling for fiscal year 2024-2025; (3) Changing the effective date to upon approval; and (4) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed by the record of votes of the managers of your Committee on Conference that is attached to this",
+          "chunk_id": 47,
+          "document_name": "HB990_CD1_CCR132_"
+        }
+      ]
+    },
+    "document_mapping": {
+      "HB990": 1,
+      "HB990_TESTIMONY_JHA_02-12-25_": 2,
+      "HB990_HD1": 3,
+      "HB990_HD1_HSCR686_": 4,
+      "HB990_HD1_TESTIMONY_FIN_02-25-25_": 5,
+      "HB990_HD2": 6,
+      "HB990_HD2_HSCR1146_": 7,
+      "HB990_HD2_TESTIMONY_JDC_03-13-25_": 8,
+      "HB990_SD1": 9,
+      "HB990_SD1_SSCR1165_": 10,
+      "HB990_SD1_TESTIMONY_WAM_04-01-25_": 11,
+      "HB990_SD1_SSCR1686_": 12,
+      "HB990_CD1": 13,
+      "HB990_CD1_CCR132_": 14
+    },
+    "sentence_chunk_mapping": [
+      {
+        "section": "overview",
+        "sentence": "This bill is an act making appropriations for claims against the State, its officers, or its employees.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "HB990 CD1 HOUSE OF REPRESENTATIVES H.B. NO. 990 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII S.D. 1 C.D. 1 A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "The purpose of this measure is to satisfy several claims against the State, its officers, or its employees.",
+        "chunks": [
+          {
+            "chunk_id": 39,
+            "citation_number": 14,
+            "chunk_text": "to the respective Houses the final passage of this bill in an amended form. The purpose of this measure is to satisfy several claims against the State, its officers, or its employees. Your Committee on Conference has amended this measure by: (1) Appropriating: (A) $69,113.33 in general funds for a",
+            "document_name": "HB990_CD1_CCR132_"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "The bill makes appropriations and approves payments for claims against the State, its officers, and its employees.",
+        "chunks": [
+          {
+            "chunk_id": 34,
+            "citation_number": 13,
+            "chunk_text": "provision or application, and to this end the provisions of this Act are severable. SECTION 9. This Act shall take effect upon its approval. Report Title: Claims Against the State; Expenditure Ceiling; Appropriations Description: Makes appropriations and approves payments for claims against the State, its officers, and its employees. (CD1)",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The appropriated sums are to be expended by the department of the attorney general, the department of transportation's highways division, and the judiciary for the purposes of this Act.",
+        "chunks": [
+          {
+            "chunk_id": 17,
+            "citation_number": 13,
+            "chunk_text": "1CCV-20-0001475, First Circuit (Settlement) ______________ SUBTOTAL: $ 70,000.00 TOTAL (SECTION 1): $ 7,023,343.07 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for fiscal year",
+            "document_name": "HB990_CD1"
+          },
+          {
+            "chunk_id": 21,
+            "citation_number": 13,
+            "chunk_text": "(Settlement) ______________ SUBTOTAL: $ 1,320,000.00 TOTAL (SECTION 2): $ 1,320,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated",
+            "document_name": "HB990_CD1"
+          },
+          {
+            "chunk_id": 24,
+            "citation_number": 13,
+            "chunk_text": "______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the judiciary for the purposes of this Act. PART IV SECTION 4. In accordance with section 9 of article VII of the Constitution of the State of Hawaii and sections 37-91 and 37-93, Hawaii",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The sums appropriated are for the purpose of satisfying claims for legislative relief as to named persons, firms, corporations, and entities.",
+        "chunks": [
+          {
+            "chunk_id": 2,
+            "citation_number": 13,
+            "chunk_text": "the department of the attorney general for the purpose of satisfying claims for legislative relief as to the following named persons, firms, corporations, and entities, for claims against the State or its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The amounts are for payments of judgments or settlements, or other liabilities.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 13,
+            "chunk_text": "or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Gilbert Collins $ 69,113.33 Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The specific amounts are set forth opposite their names in the bill, representing the determined value of each claim, judgment, or settlement.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 13,
+            "chunk_text": "or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Gilbert Collins $ 69,113.33 Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The sums appropriated from general revenues shall be expended by the department of the attorney general for the purposes of this Act.",
+        "chunks": [
+          {
+            "chunk_id": 17,
+            "citation_number": 13,
+            "chunk_text": "1CCV-20-0001475, First Circuit (Settlement) ______________ SUBTOTAL: $ 70,000.00 TOTAL (SECTION 1): $ 7,023,343.07 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for fiscal year",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The sums appropriated from the state highway fund shall be expended by the department of transportation, highways division.",
+        "chunks": [
+          {
+            "chunk_id": 21,
+            "citation_number": 13,
+            "chunk_text": "(Settlement) ______________ SUBTOTAL: $ 1,320,000.00 TOTAL (SECTION 2): $ 1,320,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "Departments shall obtain the approval of the attorney general before payment of any claim may be made.",
+        "chunks": [
+          {
+            "chunk_id": 30,
+            "citation_number": 13,
+            "chunk_text": "in several amounts hereinabove set forth or in lesser amounts deemed appropriate, upon checks issued by the comptroller; provided that departments shall obtain the approval of the attorney general before payment of any claim may be made. SECTION 6. Notwithstanding the sums hereinabove stated as interest upon judgments against the",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "The reasons for exceeding the general fund expenditure ceiling are that the appropriations made in this Act are necessary to serve the public interest and to meet the needs addressed by this Act.",
+        "chunks": [
+          {
+            "chunk_id": 28,
+            "citation_number": 13,
+            "chunk_text": "declaration takes into account the additional general fund appropriations authorized for fiscal year 2024-2025 in this Act only. The reasons for exceeding the general fund expenditure ceiling are that the appropriations made in this Act are necessary to serve the public interest and to meet the needs addressed by this",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "Payment of interest upon judgments against the State shall be limited to the period from the date of the judgment, if applicable, to thirty days after the effective date of this Act.",
+        "chunks": [
+          {
+            "chunk_id": 31,
+            "citation_number": 13,
+            "chunk_text": "the sums hereinabove stated as interest upon judgments against the State, payment of interest shall be limited to the period from the date of the judgment, if applicable, to thirty days after the effective date of this Act, as provided in section 662-8, Hawaii Revised Statutes, for those cases to",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "This Act makes appropriations to satisfy claims against the State, its officers, or its employees.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "HB990 CD1 HOUSE OF REPRESENTATIVES H.B. NO. 990 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII S.D. 1 C.D. 1 A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "It declares that the general fund expenditure ceiling for fiscal year 2024-2025 has been exceeded, stating the reasons are to serve the public interest.",
+        "chunks": [
+          {
+            "chunk_id": 25,
+            "citation_number": 13,
+            "chunk_text": "the State of Hawaii and sections 37-91 and 37-93, Hawaii Revised Statutes, the legislature has determined that at the beginning of the regular session of 2025, the general fund expenditure ceiling for fiscal year 2024-2025 was exceeded by $8,551,795, or one per cent. The appropriations contained in Act 1, Session",
+            "document_name": "HB990_CD1"
+          },
+          {
+            "chunk_id": 28,
+            "citation_number": 13,
+            "chunk_text": "declaration takes into account the additional general fund appropriations authorized for fiscal year 2024-2025 in this Act only. The reasons for exceeding the general fund expenditure ceiling are that the appropriations made in this Act are necessary to serve the public interest and to meet the needs addressed by this",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The Act includes a severability clause and specifies it shall take effect upon its approval.",
+        "chunks": [
+          {
+            "chunk_id": 33,
+            "citation_number": 13,
+            "chunk_text": "SECTION 8. If any provision of this Act, or the application thereof to any person or circumstance, is held invalid, the invalidity does not affect other provisions or applications of the Act that can be given effect without the invalid provision or application, and to this end the provisions of",
+            "document_name": "HB990_CD1"
+          },
+          {
+            "chunk_id": 34,
+            "citation_number": 13,
+            "chunk_text": "provision or application, and to this end the provisions of this Act are severable. SECTION 9. This Act shall take effect upon its approval. Report Title: Claims Against the State; Expenditure Ceiling; Appropriations Description: Makes appropriations and approves payments for claims against the State, its officers, and its employees. (CD1)",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The sums are appropriated out of the general revenues of the State of Hawaii.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 13,
+            "chunk_text": "BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for the purpose of",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "Additional funds are appropriated out of the state highway fund.",
+        "chunks": [
+          {
+            "chunk_id": 18,
+            "citation_number": 13,
+            "chunk_text": "so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the state highway fund for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements,",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The bill also appropriates sums out of the judiciary funds.",
+        "chunks": [
+          {
+            "chunk_id": 22,
+            "citation_number": 13,
+            "chunk_text": "as may be necessary for fiscal year 2024-2025 are appropriated out of the judiciary funds for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The appropriations in this Act are designated for fiscal year 2024-2025.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 13,
+            "chunk_text": "BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for the purpose of",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse.",
+        "chunks": [
+          {
+            "chunk_id": 32,
+            "citation_number": 13,
+            "chunk_text": "in section 662-8, Hawaii Revised Statutes, for those cases to which the statute applies. SECTION 7. All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. SECTION 8. If any provision of this Act, or the",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The appropriations are for specific, non-recurring payments of judgments and settlements.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 13,
+            "chunk_text": "or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Gilbert Collins $ 69,113.33 Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The Act addresses specific liabilities for FY 2024-2025 and does not establish ongoing programs or recurring costs beyond the lapse date.",
+        "chunks": [
+          {
+            "chunk_id": 32,
+            "citation_number": 13,
+            "chunk_text": "in section 662-8, Hawaii Revised Statutes, for those cases to which the statute applies. SECTION 7. All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. SECTION 8. If any provision of this Act, or the",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "This measure does not generate new operating revenue.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 13,
+            "chunk_text": "BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for the purpose of",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "It appropriates funds from existing revenue sources, including general revenues, the state highway fund, and judiciary funds.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 13,
+            "chunk_text": "BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for the purpose of",
+            "document_name": "HB990_CD1"
+          },
+          {
+            "chunk_id": 18,
+            "citation_number": 13,
+            "chunk_text": "so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the state highway fund for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements,",
+            "document_name": "HB990_CD1"
+          },
+          {
+            "chunk_id": 22,
+            "citation_number": 13,
+            "chunk_text": "as may be necessary for fiscal year 2024-2025 are appropriated out of the judiciary funds for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "This Act makes appropriations for claims, judgments, and settlements.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "HB990 CD1 HOUSE OF REPRESENTATIVES H.B. NO. 990 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII S.D. 1 C.D. 1 A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "There are no capital expenditures identified in the bill.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 13,
+            "chunk_text": "or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Gilbert Collins $ 69,113.33 Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The funds are for satisfying liabilities and are not designated for investments in facilities, equipment, or infrastructure.",
+        "chunks": [
+          {
+            "chunk_id": 2,
+            "citation_number": 13,
+            "chunk_text": "the department of the attorney general for the purpose of satisfying claims for legislative relief as to the following named persons, firms, corporations, and entities, for claims against the State or its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse.",
+        "chunks": [
+          {
+            "chunk_id": 32,
+            "citation_number": 13,
+            "chunk_text": "in section 662-8, Hawaii Revised Statutes, for those cases to which the statute applies. SECTION 7. All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. SECTION 8. If any provision of this Act, or the",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The bill addresses specific, one-time liabilities for claims, judgments, and settlements.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 13,
+            "chunk_text": "or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Gilbert Collins $ 69,113.33 Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "There are no ongoing fiscal obligations created by this Act that would extend beyond the lapse date.",
+        "chunks": [
+          {
+            "chunk_id": 32,
+            "citation_number": 13,
+            "chunk_text": "in section 662-8, Hawaii Revised Statutes, for those cases to which the statute applies. SECTION 7. All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. SECTION 8. If any provision of this Act, or the",
+            "document_name": "HB990_CD1"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "This fiscal note reflects the final version of the bill after the Conference Committee, which amended the measure.",
+        "chunks": [
+          {
+            "chunk_id": 39,
+            "citation_number": 14,
+            "chunk_text": "to the respective Houses the final passage of this bill in an amended form. The purpose of this measure is to satisfy several claims against the State, its officers, or its employees. Your Committee on Conference has amended this measure by: (1) Appropriating: (A) $69,113.33 in general funds for a",
+            "document_name": "HB990_CD1_CCR132_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The Committee also amended the amount and percentage of exceedance of the appropriations over the general fund expenditure ceiling for fiscal year 2024-2025 and changed the effective date to upon approval.",
+        "chunks": [
+          {
+            "chunk_id": 46,
+            "citation_number": 14,
+            "chunk_text": "LLC v. Dawn N.S. Chang; and (O) $70,000.00 out of the state highway fund for a settlement in the case of Susanna Sigal v. State of Hawaii; (2) Amending the amount and percentage of exceedance of the appropriations over the general fund expenditure ceiling for fiscal year 2024-2025; (3) Changing",
+            "document_name": "HB990_CD1_CCR132_"
+          },
+          {
+            "chunk_id": 47,
+            "citation_number": 14,
+            "chunk_text": "general fund expenditure ceiling for fiscal year 2024-2025; (3) Changing the effective date to upon approval; and (4) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed by the record of votes of the managers of your Committee on Conference that is attached to this",
+            "document_name": "HB990_CD1_CCR132_"
+          }
+        ]
       }
     ]
   },
-  "generation_timestamp": "2025-10-10T16:01:40.526131",
-  "generation_timestamp_unix": 1760148100.52614
+  "chunk_mapping": {
+    "HB990_CD1_CCR132_": [
+      {
+        "chunk_number": 0,
+        "chunk_text": "HB990 CD1 HOUSE OF REPRESENTATIVES H.B. NO. 990 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII S.D. 1 C.D. 1 A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I"
+      },
+      {
+        "chunk_number": 1,
+        "chunk_text": "BY THE LEGISLATURE OF THE STATE OF HAWAII: PART I SECTION 1. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the general revenues of the State of Hawaii to the department of the attorney general for the purpose of"
+      },
+      {
+        "chunk_number": 2,
+        "chunk_text": "the department of the attorney general for the purpose of satisfying claims for legislative relief as to the following named persons, firms, corporations, and entities, for claims against the State or its officers or employees, for the overpayment of taxes, or for refunds, reimbursements, payments of judgments or settlements, or"
+      },
+      {
+        "chunk_number": 3,
+        "chunk_text": "or for refunds, reimbursements, payments of judgments or settlements, or other liabilities, in the amounts set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: 1. MISCELLANEOUS CLAIMS: Gilbert Collins $ 69,113.33 Mark Lloyd $ 111,733.08 Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui"
+      },
+      {
+        "chunk_number": 4,
+        "chunk_text": "Maui Kupono Builders, LLC $ 442,504.75 (Check No. S0057589) Maui Kupono Builders, LLC $ 152,665.39 (Check No. S0001176) National Commerce Bank Service $ 166,492.00 Olinda Country Estates, Inc. $ 50,210.67 Sarah Ann D. Pacheco $ 460.00 f/k/a Sarah Ann D. Taylor Sofia Lerman Estate $ 22,674.17 Neal M. Tamashiro $"
+      },
+      {
+        "chunk_number": 5,
+        "chunk_text": "Taylor Sofia Lerman Estate $ 22,674.17 Neal M. Tamashiro $ 514.00 Kiyoji Tanimura $ 5,371.00 ______________ SUBTOTAL: $ 1,021,738.39 2. DEPARTMENT OF THE ATTORNEY GENERAL: Billy Peter v. Anne E. Lopez $ 28,500.00 Civil No. 24-cv-00508 MWJS-RT, USDC (Judgment) ______________ SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF CORRECTIONS AND REHABILITATION: Donna"
+      },
+      {
+        "chunk_number": 6,
+        "chunk_text": "SUBTOTAL: $ 28,500.00 3. DEPARTMENT OF CORRECTIONS AND REHABILITATION: Donna Opulento v. State of Hawaii $ 100,000.00 Department of Public Safety (Settlement) Civil No. 19-cv-00315-RT, USDC ______________ SUBTOTAL: $ 100,000.00 4. DEPARTMENT OF DEFENSE: Paul Aker v. Hawaii Emergency Management $ 5,000.00 Agency (Settlement) Civil No. 2CCV-23-0000378, Second Circuit James"
+      },
+      {
+        "chunk_number": 7,
+        "chunk_text": "$ 5,000.00 Agency (Settlement) Civil No. 2CCV-23-0000378, Second Circuit James Sean Shields v. State of Hawaii $ 275,000.00 Civil No. 1CC181001897, First Circuit (Settlement) ______________ SUBTOTAL: $ 280,000.00 5. DEPARTMENT OF EDUCATION: B.R., M.A., and F.R. v. State of Hawaii $ 330,000.00 Civil No. 1CCV-20-0000549, First Circuit (Settlement) Katherine Balatico"
+      },
+      {
+        "chunk_number": 8,
+        "chunk_text": "$ 330,000.00 Civil No. 1CCV-20-0000549, First Circuit (Settlement) Katherine Balatico v. State of Hawaii $ 150,000.00 Civil No. 22-cv-00415-LEK-KJM, USDC (Settlement) Child Evangelism Fellowship of Hawaii, $ 100,000.00 Inc. v. Hawaii State Department of Education (Judgment) Civil No. 24-cv-00034 MWJS-WRP, USDC D.O. v. State of Hawaii, $ 100,000.00 Department of"
+      },
+      {
+        "chunk_number": 9,
+        "chunk_text": "USDC D.O. v. State of Hawaii, $ 100,000.00 Department of Education (Settlement) Civil No. 1CCV-20-0000583, First Circuit Jake Ferreira v. State of Hawaii, $ 75,000.00 Department of Education (Settlement) Civil No. 1CCV-23-0000874, First Circuit Brenda Persinger, Individually and as a $ 1,750,000.00 Personal Representative of the Estate of (Settlement) Michael"
+      },
+      {
+        "chunk_number": 10,
+        "chunk_text": "$ 1,750,000.00 Personal Representative of the Estate of (Settlement) Michael Ambrose, Deceased v. State of Hawaii, Department of Education Civil No. 3CCV-22-0000337, Third Circuit Leonard Ramboyon v. Esther Kanehailua $ 140,000.00 Civil No. 3CCV-20-0000407, Third Circuit (Settlement) ______________ SUBTOTAL: $ 2,645,000.00 6. DEPARTMENT OF HAWAIIAN HOME LANDS: Royal Contracting Co."
+      },
+      {
+        "chunk_number": 11,
+        "chunk_text": "2,645,000.00 6. DEPARTMENT OF HAWAIIAN HOME LANDS: Royal Contracting Co. v. $ 400,000.00 Department of Hawaiian Home Lands (Settlement) Civil No. 1CC161001760, First Circuit ______________ SUBTOTAL: $ 400,000.00 7. DEPARTMENT OF HEALTH: Jon R. Chung v. State of Hawaii $ 50,000.00 Civil No. 2CCV-22-0000006, Second Circuit (Settlement) Kamaka Air, LLC"
+      },
+      {
+        "chunk_number": 12,
+        "chunk_text": "50,000.00 Civil No. 2CCV-22-0000006, Second Circuit (Settlement) Kamaka Air, LLC $ 298,000.00 Tort Claim (Settlement) ______________ SUBTOTAL: $ 348,000.00 8. DEPARTMENT OF HUMAN SERVICES: John Roe No. 121 v. State of Hawaii $ 512,700.83 Civil No. 1CC191001419, First Circuit (Judgment) ______________ SUBTOTAL: $ 512,700.83 9. DEPARTMENT OF LAND AND NATURAL"
+      },
+      {
+        "chunk_number": 13,
+        "chunk_text": "______________ SUBTOTAL: $ 512,700.83 9. DEPARTMENT OF LAND AND NATURAL RESOURCES: Anela Aplaca v. State of Hawaii $ 115,000.00 Civil No. 1CCV-23-0000193, First Circuit (Settlement) Stacy J. Bruhn v. State of Hawaii $ 125,000.00 Civil No. 1CCV-24-0001600, First Circuit (Settlement) Healoha Carmichael v. Board of $ 26,771.00 Land and Natural"
+      },
+      {
+        "chunk_number": 14,
+        "chunk_text": "Healoha Carmichael v. Board of $ 26,771.00 Land and Natural Resources (Judgment) Civil No. 1CC-15-1000650, First Circuit Kona Mike's Surf Adventures, LLC v. $ 18,000.00 Dawn N.S. Chang (Settlement) Civil No. CAAP-24-0000645, Intermediate Court of Appeals Jennifer L. Reber v. State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit"
+      },
+      {
+        "chunk_number": 15,
+        "chunk_text": "State of Hawaii $ 450,000.00 Civil No. 5CCV-23-0000053, Fifth Circuit (Settlement) Brenda Osmer $ 100,000.00 Tort Claim (Settlement) ______________ SUBTOTAL: $ 834,771.00 10. DEPARTMENT OF LAW ENFORCEMENT: Cresencia Espejo v. State of Hawaii $ 750,000.00 Civil No. 1CCV-21-0000192, First Circuit (Settlement) ______________ SUBTOTAL: $ 750,000.00 11. DEPARTMENT OF TAXATION: Deborah"
+      },
+      {
+        "chunk_number": 16,
+        "chunk_text": "(Settlement) ______________ SUBTOTAL: $ 750,000.00 11. DEPARTMENT OF TAXATION: Deborah Kwan v. State of Hawaii $ 32,632.85 Civil No. 1CCV-21-0000424, First Circuit (Settlement) ______________ SUBTOTAL: $ 32,632.85 12. JUDICIARY: Lisa Ann Daguro v. State of Hawaii $ 70,000.00 Civil No. 1CCV-20-0001475, First Circuit (Settlement) ______________ SUBTOTAL: $ 70,000.00 TOTAL (SECTION"
+      },
+      {
+        "chunk_number": 17,
+        "chunk_text": "1CCV-20-0001475, First Circuit (Settlement) ______________ SUBTOTAL: $ 70,000.00 TOTAL (SECTION 1): $ 7,023,343.07 The sums appropriated shall be expended by the department of the attorney general for the purposes of this Act. PART II SECTION 2. The following sums or so much thereof as may be necessary for fiscal year"
+      },
+      {
+        "chunk_number": 18,
+        "chunk_text": "so much thereof as may be necessary for fiscal year 2024-2025 are appropriated out of the state highway fund for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements,"
+      },
+      {
+        "chunk_number": 19,
+        "chunk_text": "its officers or employees for payments of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: DEPARTMENT OF TRANSPORTATION, HIGHWAYS DIVISION: Juan Jimmie Aldeguer v. State of Hawaii $ 1,075,000.00 Civil No. 1CCV-21-0000052, First Circuit (Settlement)"
+      },
+      {
+        "chunk_number": 20,
+        "chunk_text": "of Hawaii $ 1,075,000.00 Civil No. 1CCV-21-0000052, First Circuit (Settlement) Estate of Bruce S. Perdue v. State of Hawaii $ 175,000.00 Civil No. 5CC131000351, Fifth Circuit (Settlement) Susanna Sigal v. State of Hawaii $ 70,000.00 Civil No. 1CCV-20-0001486, First Circuit (Settlement) ______________ SUBTOTAL: $ 1,320,000.00 TOTAL (SECTION 2): $ 1,320,000.00"
+      },
+      {
+        "chunk_number": 21,
+        "chunk_text": "(Settlement) ______________ SUBTOTAL: $ 1,320,000.00 TOTAL (SECTION 2): $ 1,320,000.00 The sums appropriated shall be expended by the department of transportation, highways division, for the purposes of this Act. PART III SECTION 3. The following sums or so much thereof as may be necessary for fiscal year 2024-2025 are appropriated"
+      },
+      {
+        "chunk_number": 22,
+        "chunk_text": "as may be necessary for fiscal year 2024-2025 are appropriated out of the judiciary funds for the purpose of satisfying claims for legislative relief as to the following named persons, for claims against the State or its officers or employees for payments of judgments or settlements, or other liabilities, in"
+      },
+      {
+        "chunk_number": 23,
+        "chunk_text": "for payments of judgments or settlements, or other liabilities, in the amount set forth opposite their names: JUDGMENTS AGAINST THE STATE AMOUNT AND SETTLEMENTS OF CLAIMS: JUDICIARY: Leanne Rosa v. Randal G.B. Valenciano $ 90,000.00 Civil No. 23-CV-00315-JAO-WRP, USDC (Settlement) ______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The"
+      },
+      {
+        "chunk_number": 24,
+        "chunk_text": "______________ SUBTOTAL: $ 90,000.00 TOTAL (SECTION 3): $ 90,000.00 The sum appropriated shall be expended by the judiciary for the purposes of this Act. PART IV SECTION 4. In accordance with section 9 of article VII of the Constitution of the State of Hawaii and sections 37-91 and 37-93, Hawaii"
+      },
+      {
+        "chunk_number": 25,
+        "chunk_text": "the State of Hawaii and sections 37-91 and 37-93, Hawaii Revised Statutes, the legislature has determined that at the beginning of the regular session of 2025, the general fund expenditure ceiling for fiscal year 2024-2025 was exceeded by $8,551,795, or one per cent. The appropriations contained in Act 1, Session"
+      },
+      {
+        "chunk_number": 26,
+        "chunk_text": "one per cent. The appropriations contained in Act 1, Session Laws of Hawaii 2025, caused the general fund expenditure ceiling for fiscal year 2024-2025 to be further exceeded by an additional $30,334,159. Therefore, the general fund expenditure ceiling for fiscal year 2024-2025 has already been exceeded by $38,885,954, or one"
+      },
+      {
+        "chunk_number": 27,
+        "chunk_text": "year 2024-2025 has already been exceeded by $38,885,954, or one per cent. The appropriations contained in this Act will cause the general fund expenditure ceiling for fiscal year 2024-2025 to be further exceeded by $7,023,343.07, or one per cent. This declaration takes into account the additional general fund appropriations authorized"
+      },
+      {
+        "chunk_number": 28,
+        "chunk_text": "declaration takes into account the additional general fund appropriations authorized for fiscal year 2024-2025 in this Act only. The reasons for exceeding the general fund expenditure ceiling are that the appropriations made in this Act are necessary to serve the public interest and to meet the needs addressed by this"
+      },
+      {
+        "chunk_number": 29,
+        "chunk_text": "public interest and to meet the needs addressed by this Act. PART V SECTION 5. The sums hereinabove may be paid to the respective persons, firms, corporations, or entities for the satisfaction or settlement of the respectively identified cases, and in several amounts hereinabove set forth or in lesser amounts"
+      },
+      {
+        "chunk_number": 30,
+        "chunk_text": "in several amounts hereinabove set forth or in lesser amounts deemed appropriate, upon checks issued by the comptroller; provided that departments shall obtain the approval of the attorney general before payment of any claim may be made. SECTION 6. Notwithstanding the sums hereinabove stated as interest upon judgments against the"
+      },
+      {
+        "chunk_number": 31,
+        "chunk_text": "the sums hereinabove stated as interest upon judgments against the State, payment of interest shall be limited to the period from the date of the judgment, if applicable, to thirty days after the effective date of this Act, as provided in section 662-8, Hawaii Revised Statutes, for those cases to"
+      },
+      {
+        "chunk_number": 32,
+        "chunk_text": "in section 662-8, Hawaii Revised Statutes, for those cases to which the statute applies. SECTION 7. All unexpended and unencumbered balances of the appropriations made in this Act as of the close of business on June 30, 2026, shall lapse. SECTION 8. If any provision of this Act, or the"
+      },
+      {
+        "chunk_number": 33,
+        "chunk_text": "SECTION 8. If any provision of this Act, or the application thereof to any person or circumstance, is held invalid, the invalidity does not affect other provisions or applications of the Act that can be given effect without the invalid provision or application, and to this end the provisions of"
+      },
+      {
+        "chunk_number": 34,
+        "chunk_text": "provision or application, and to this end the provisions of this Act are severable. SECTION 9. This Act shall take effect upon its approval. Report Title: Claims Against the State; Expenditure Ceiling; Appropriations Description: Makes appropriations and approves payments for claims against the State, its officers, and its employees. (CD1)"
+      },
+      {
+        "chunk_number": 35,
+        "chunk_text": "claims against the State, its officers, and its employees. (CD1) The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent."
+      },
+      {
+        "chunk_number": 36,
+        "chunk_text": "CCR132 CONFERENCE COMMITTEE REP. NO. 132 Honolulu, Hawaii , 2025 RE: H.B. No. 990 H.D. 2 S.D. 1 C.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular"
+      },
+      {
+        "chunk_number": 37,
+        "chunk_text": "D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madam and Sir: Your Committee on Conference on the disagreeing vote of the House of Representatives to the amendments proposed by the Senate in H.B. No. 990, H.D. 2, S.D. 1, entitled: \"A BILL"
+      },
+      {
+        "chunk_number": 38,
+        "chunk_text": "H.B. No. 990, H.D. 2, S.D. 1, entitled: \"A BILL FOR AN ACT MAKING APPROPRIATIONS FOR CLAIMS AGAINST THE STATE, ITS OFFICERS, OR ITS EMPLOYEES,\" having met, and after full and free discussion, has agreed to recommend and does recommend to the respective Houses the final passage of this bill"
+      },
+      {
+        "chunk_number": 39,
+        "chunk_text": "to the respective Houses the final passage of this bill in an amended form. The purpose of this measure is to satisfy several claims against the State, its officers, or its employees. Your Committee on Conference has amended this measure by: (1) Appropriating: (A) $69,113.33 in general funds for a"
+      },
+      {
+        "chunk_number": 40,
+        "chunk_text": "by: (1) Appropriating: (A) $69,113.33 in general funds for a claim by Gilbert Collins; (B) $166,492.00 in general funds for a claim by National Commerce Bank Service; (C) $50,210.67 in general funds for a claim by Olinda Country Estates, Inc.; (D) $22,674.17 in general funds for a claim by Sofia"
+      },
+      {
+        "chunk_number": 41,
+        "chunk_text": "(D) $22,674.17 in general funds for a claim by Sofia Lerman Estate; (E) $100,000.00 in general funds for a settlement in the case of Donna Opulento v. State of Hawaii Department of Public Safety; (F) $100,000.00 in general funds for a settlement in the case of D.O. v. State of"
+      },
+      {
+        "chunk_number": 42,
+        "chunk_text": "a settlement in the case of D.O. v. State of Hawaii, Department of Education; (G) $140,000.00 in general funds for a settlement in the case of Leonard Ramboyon v. Esther Kanehailua; (H) $50,000.00 in general funds for a settlement in the case of Jon R. Chung v. State of Hawaii;"
+      },
+      {
+        "chunk_number": 43,
+        "chunk_text": "the case of Jon R. Chung v. State of Hawaii; (I) $298,000.00 in general funds for a settlement in the tort claim by Kamaka Air, LLC; (J) $512,700.83 in general funds for a judgment in the case of John Roe No. 121 v. State of Hawaii; (K) $115,000.00 in general"
+      },
+      {
+        "chunk_number": 44,
+        "chunk_text": "No. 121 v. State of Hawaii; (K) $115,000.00 in general funds for a settlement in the case of Anela Aplaca v. State of Hawaii; (L) $125,000.00 in general funds for a settlement in the case of Stacy J. Bruhn v. State of Hawaii; (M) $26,771.00 in general funds for a"
+      },
+      {
+        "chunk_number": 45,
+        "chunk_text": "State of Hawaii; (M) $26,771.00 in general funds for a judgment in the case of Healoha Carmichael v. Board of Land and Natural Resources; (N) $18,000.00 in general funds for a settlement in the case of Kona Mike's Surf Adventures, LLC v. Dawn N.S. Chang; and (O) $70,000.00 out of"
+      },
+      {
+        "chunk_number": 46,
+        "chunk_text": "LLC v. Dawn N.S. Chang; and (O) $70,000.00 out of the state highway fund for a settlement in the case of Susanna Sigal v. State of Hawaii; (2) Amending the amount and percentage of exceedance of the appropriations over the general fund expenditure ceiling for fiscal year 2024-2025; (3) Changing"
+      },
+      {
+        "chunk_number": 47,
+        "chunk_text": "general fund expenditure ceiling for fiscal year 2024-2025; (3) Changing the effective date to upon approval; and (4) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As affirmed by the record of votes of the managers of your Committee on Conference that is attached to this"
+      },
+      {
+        "chunk_number": 48,
+        "chunk_text": "of your Committee on Conference that is attached to this report, your Committee on Conference is in accord with the intent and purpose of H.B. No. 990, H.D. 2, S.D. 1, as amended herein, and recommends that it pass Final Reading in the form attached hereto as H.B. No. 990,"
+      },
+      {
+        "chunk_number": 49,
+        "chunk_text": "Reading in the form attached hereto as H.B. No. 990, H.D. 2, S.D. 1, C.D. 1. Respectfully submitted on behalf of the managers: ON THE PART OF THE SENATE ON THE PART OF THE HOUSE ____________________________ KARL RHOADS Chair ____________________________ DAVID A. TARNAS Co-Chair ____________________________ SHARON MORIWAKI Co-Chair ____________________________ LISA"
+      },
+      {
+        "chunk_number": 50,
+        "chunk_text": "DAVID A. TARNAS Co-Chair ____________________________ SHARON MORIWAKI Co-Chair ____________________________ LISA KITAGAWA Co-Chair"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-16T15:33:53.303019",
+  "generation_timestamp_unix": 1760664833.303025
 }

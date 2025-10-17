@@ -1403,7 +1403,8 @@ def process_fiscal_note_references_structured(fiscal_note_data, document_mapping
         # Pattern to match financial amounts with parenthetical citations
         # Matches: $514,900 (filename.txt) or $557,000 (filename)
         # Also matches: $10,000 fine and/or up to five years imprisonment (filename)
-        pattern = r'\$([0-9,]+(?:\.[0-9]+)?)(?:\s+[^()]*?)?\s*\(([^)]+)\)'
+        # Also matches: `$10,000` (filename) - with backticks
+        pattern = r'`?\$([0-9,]+(?:\.[0-9]+)?)`?(?:\s+[^()]*?)?\s*\(([^)]+)\)'
         
         def replacement(match):
             nonlocal next_citation_number
@@ -1746,6 +1747,60 @@ def process_fiscal_note_references_structured(fiscal_note_data, document_mapping
         
         return re.sub(pattern, replacement, text)
     
+    def replace_square_bracket_citations(text):
+        """
+        Clean up LLM-generated square bracket markers.
+        - [CHUNK_36, NUMBER_0] -> [doc_citation] (convert chunk to document citation)
+        - [CHUNK_61, NUMBER_3, NUMBER_4] -> [doc_citation] (remove numbers, keep chunk->doc)
+        - [filename.txt] -> [citation_number] (convert filename citations)
+        - [5] -> keep as-is (already proper citation numbers)
+        """
+        if not isinstance(text, str):
+            return text
+        
+        # Step 1: Convert [CHUNK_X, NUMBER_Y, ...] to document citations
+        # Extract chunk ID and convert to document citation, removing NUMBER parts
+        def replace_chunk_citation(match):
+            full_match = match.group(0)
+            # Extract the chunk number from CHUNK_X
+            chunk_match = re.search(r'CHUNK_(\d+)', full_match)
+            if not chunk_match:
+                return full_match
+            
+            chunk_id = int(chunk_match.group(1))
+            
+            # Find the chunk in chunks_data to get its document
+            chunk_info = next((c for c in chunks_data if c.get('chunk_id') == chunk_id), None)
+            if chunk_info:
+                doc_name = chunk_info.get('document_name')
+                # Look up document citation number
+                if doc_name in document_mapping:
+                    doc_citation = document_mapping[doc_name]
+                    return f' [{doc_citation}]'
+            
+            # If we can't find it, remove it
+            return ''
+        
+        text = re.sub(r'\s*\[CHUNK_\d+(?:,\s*NUMBER_\d+)+\]', replace_chunk_citation, text)
+        
+        # Step 2: Replace [filename.txt] with [citation_number]
+        # Only process brackets that contain filenames (have .txt, .HTM, .PDF, etc.)
+        pattern = r'\[([^\]]*\.(?:txt|HTM|htm|PDF)[^\]]*)\]'
+        
+        def replacement(match):
+            content = match.group(1).strip()
+            
+            # Try to find this filename in document mapping
+            # First try exact match
+            for doc_name, doc_number in document_mapping.items():
+                if doc_name in content or content in doc_name:
+                    return f'[{doc_number}]'
+            
+            # If not found, return original
+            return match.group(0)
+        
+        return re.sub(pattern, replacement, text)
+    
     # Process all string values in the fiscal note data
     # Function to replace document citations with individual citation numbers
     def replace_document_citations_with_individual(text):
@@ -1766,10 +1821,12 @@ def process_fiscal_note_references_structured(fiscal_note_data, document_mapping
     
     for key, value in fiscal_note_data.items():
         if isinstance(value, str):
-            # First replace financial citations, then document citations
-            # Pass the sentence/value as context for TF-IDF matching
+            # Processing order:
+            # 1. Replace financial citations: $amount (filename) -> $amount [citation]
+            # 2. Replace square bracket citations: [filename] -> [citation], remove [CHUNK_X, NUMBER_Y]
+            # 3. Replace parentheses citations: (filename) -> [citation]
             processed_value = replace_financial_citations(value, sentence_context=value, fiscal_note_documents=fiscal_note_documents)
-            # Replace document citations with individual citations
+            processed_value = replace_square_bracket_citations(processed_value)
             processed_value = replace_document_citations_with_individual(processed_value)
             processed_data[key] = replace_filename_with_structured_reference(processed_value, key)
         elif isinstance(value, dict):
@@ -1782,7 +1839,9 @@ def process_fiscal_note_references_structured(fiscal_note_data, document_mapping
                     # Pass fiscal_note_documents as parameter to recursive call
                     processed_items.append(process_fiscal_note_references_structured(item, document_mapping, numbers_data, chunks_data, sentence_attributions, global_amount_to_citation, global_next_citation_number, fiscal_note_documents))
                 elif isinstance(item, str):
-                    processed_items.append(replace_filename_with_structured_reference(replace_financial_citations(item, sentence_context=item, fiscal_note_documents=fiscal_note_documents), key))
+                    processed_item = replace_financial_citations(item, sentence_context=item, fiscal_note_documents=fiscal_note_documents)
+                    processed_item = replace_square_bracket_citations(processed_item)
+                    processed_items.append(replace_filename_with_structured_reference(processed_item, key))
                 else:
                     processed_items.append(item)
             processed_data[key] = processed_items

@@ -1165,6 +1165,10 @@ def generate_fiscal_notes_chronologically(documents, chronological_documents, ou
                 number_doc_base = number_doc_name
                 if number_doc_name.endswith('.PDF.txt'):
                     number_doc_base = number_doc_name[:-8]  # Remove .PDF.txt
+                elif number_doc_name.endswith('.HTM.txt'):
+                    number_doc_base = number_doc_name[:-8]  # Remove .HTM.txt
+                elif number_doc_name.endswith('.htm.txt'):
+                    number_doc_base = number_doc_name[:-8]  # Remove .htm.txt
                 elif number_doc_name.endswith('.txt'):
                     number_doc_base = number_doc_name[:-4]  # Remove .txt
                 
@@ -1187,9 +1191,10 @@ def generate_fiscal_notes_chronologically(documents, chronological_documents, ou
                     # Prefix matches - but be more careful for base documents
                     elif (number_doc_name.startswith(new_doc_name + '_') or
                           number_doc_base.startswith(new_doc_name + '_')):
-                        # For base documents like "HB1483", only match if the next character after _ 
-                        # indicates it's the same document version (like HB1483_.HTM.txt)
-                        # NOT later versions (like HB1483_CD1_.HTM.txt)
+                        # For base documents like "HB727", only match if the next character after _ 
+                        # indicates it's the same document version (like HB727_.HTM.txt)
+                        # NOT later versions (like HB727_CD1_.HTM.txt)
+                        # NOT testimony files (like HB727_TESTIMONY_*)
                         
                         # Extract what comes after the base name + underscore
                         if number_doc_name.startswith(new_doc_name + '_'):
@@ -1197,11 +1202,30 @@ def generate_fiscal_notes_chronologically(documents, chronological_documents, ou
                         else:
                             suffix = number_doc_base[len(new_doc_name + '_'):]
                         
-                        # Only match if suffix is just file extension (HTM.txt) or empty
-                        # Don't match if suffix contains version indicators (CD1, HD1, SD1, TESTIMONY, etc.)
-                        version_indicators = ['CD1', 'CD2', 'CD3', 'HD1', 'HD2', 'HD3', 'SD1', 'SD2', 'SD3', 'TESTIMONY', 'HSCR', 'SSCR', 'CCR']
-                        if not any(indicator in suffix for indicator in version_indicators):
-                            matched = True
+                        # Check if new_doc_name has a version indicator (HD1, SD1, CD1, etc.)
+                        version_indicators = ['CD1', 'CD2', 'CD3', 'HD1', 'HD2', 'HD3', 'SD1', 'SD2', 'SD3']
+                        doc_has_version = any(indicator in new_doc_name for indicator in version_indicators)
+                        
+                        if doc_has_version:
+                            # For versioned documents (e.g., HB727_HD1), allow TESTIMONY and committee reports
+                            # But block DIFFERENT versions
+                            has_different_version = False
+                            for indicator in version_indicators:
+                                # Only block if the indicator is in the suffix but NOT in the base document name
+                                if indicator in suffix and indicator not in new_doc_name:
+                                    has_different_version = True
+                                    break
+                            
+                            if not has_different_version:
+                                matched = True
+                        else:
+                            # For base documents (e.g., HB727), ONLY match if suffix is just extension
+                            # Block TESTIMONY, HSCR, and any other suffixes
+                            # Suffix could be: HTM.txt, .HTM.txt, _.HTM.txt, etc.
+                            # Strip leading underscores and dots for comparison
+                            clean_suffix = suffix.lstrip('_.')
+                            if clean_suffix in ['HTM.txt', 'htm.txt', 'PDF.txt', 'txt']:
+                                matched = True
                     
                     if matched:
                         numbers_data.append(number_item)
@@ -1219,7 +1243,7 @@ def generate_fiscal_notes_chronologically(documents, chronological_documents, ou
             for new_doc in new_documents_since_last:
                 document_sources.append({
                     'name': new_doc['name'],
-                    'text': new_doc['text'][:5000]  # Limit text length for better processing
+                    'text': new_doc['text']  # Use full document text
                 })
             
             # Generate fiscal note for the NEW context only
@@ -1301,11 +1325,28 @@ def generate_fiscal_notes(documents_dir: str, numbers_file_path: str) -> str:
     
     for doc in documents_chronological:
         name = doc['name']
-        # Look for any file that starts with the document name in the documents directory
-        matches = glob.glob(os.path.join(documents_dir, f"{name}*"))
+        # Look for exact match: {name}_.* (with trailing underscore) or {name}.* (without)
+        # This prevents HB727 from matching HB727_SD1_SSCR1240_.htm.txt
+        txt_path = None
+        
+        # Try pattern: {name}_.extension (e.g., HB727_.HTM.txt)
+        pattern1 = os.path.join(documents_dir, f"{name}_.*")
+        matches = glob.glob(pattern1)
+        # Filter to ensure we only match files with extension immediately after underscore
+        matches = [m for m in matches if os.path.basename(m).startswith(f"{name}_.")]
+        
         if matches:
-            # Take the first match
             txt_path = matches[0]
+        else:
+            # Try pattern: {name}.extension (e.g., HB727.HTM.txt - rare)
+            pattern2 = os.path.join(documents_dir, f"{name}.*")
+            matches = glob.glob(pattern2)
+            # Filter to ensure exact match (no additional underscores or text after name)
+            matches = [m for m in matches if os.path.basename(m).startswith(f"{name}.")]
+            if matches:
+                txt_path = matches[0]
+        
+        if txt_path:
             with open(txt_path, "r", encoding="utf-8") as f:
                 text = f.read()
             documents_with_text.append({"name": name, "text": text})

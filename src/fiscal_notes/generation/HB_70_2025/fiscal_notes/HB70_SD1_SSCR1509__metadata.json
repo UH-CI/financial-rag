@@ -18,17 +18,17 @@
     "HB70_SD1_SSCR1509_"
   ],
   "numbers_used": 2,
-  "prompt_length": 42918,
+  "prompt_length": 42447,
   "response_metadata": {
-    "response_text": "{\n\"overview\": \"The purpose and intent of this measure is to require budget summaries to contain all required information without referring the reader to other portions of the budget and to clarify the ability to enforce compliance with budget summary and replacement reserves requirements by providing that an association has the burden of proving compliance (HB70_SD1_SSCR1509_). The Committee on Judiciary received testimony in support of this measure from five individuals and in opposition from eleven individuals (HB70_SD1_SSCR1509_). The committee is in accord with the intent and purpose of H.B. No. 70, H.D. 1, S.D. 1, and recommends that it pass Third Reading (HB70_SD1_SSCR1509_).\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"Testimony submitted to the Judiciary Committee reiterated concerns about the financial consequences of inadequate reserve studies, with one individual reporting their 'reserve fees doubled' creating a 'deficit of $14,783.00 (HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt) per unit' (HB70_SD1_TESTIMONY_JDC_03-25-25_). This testimony specified that the association's reserve studies 'had not been conducted for 8 years' (HB70_SD1_TESTIMONY_JDC_03-25-25_). Another supporting testimony referenced a figure of $1.80 (HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt) in the context of a landmark lawsuit for 'Deception and Negligence' (HB70_SD1_TESTIMONY_JDC_03-25-25_).\",\n\"policy_impact\": \"The policy debate remains focused on the provision that gives unit owners standing to bring an action and states 'The association shall have the burden of proving substantial compliance with this section in any such action' (HB70_SD1_TESTIMONY_JDC_03-25-25_). Testimony from multiple individuals and organizations in opposition states that 'The last sentence which shifts the burden of proof to the association should be deleted' (HB70_SD1_TESTIMONY_JDC_03-25-25_). This opposition is based on the argument that 'It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant' (HB70_SD1_TESTIMONY_JDC_03-25-25_).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The primary update is procedural: the Senate Committee on Judiciary has reviewed the bill and 'recommends that it pass Third Reading' (HB70_SD1_SSCR1509_). The committee received new testimony, with support from organizations like the Hawaiʻi Association of REALTORS and opposition from groups including the Honolulu Tower Association of Apartment Owners and eleven individuals (HB70_SD1_SSCR1509_). The policy debate has solidified around the 'burden of proof' clause, with numerous opposition testimonies arguing that the sentence which 'shifts the burden of proof to the association should be deleted' as it is 'inconsistent with general principles of law' (HB70_SD1_TESTIMONY_JDC_03-25-25_). New testimony reiterated a previously cited economic impact of a 'deficit of $14,783.00 (HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt) per unit' from inadequate reserve funding (HB70_SD1_TESTIMONY_JDC_03-25-25_).\"\n}",
+    "response_text": "{\n  \"overview\": \"The purpose and intent of this measure is to require budget summaries to contain all required information without referring the reader to other portions of the budget. [CHUNK_120] It also clarifies the ability to enforce compliance with budget summary and replacement reserves requirements and provides that an association has the burden of proving compliance. [CHUNK_121] This measure will further enhance transparency and provide both owners and prospective purchasers with valuable insights into the association's financial health by requiring these budget summaries to contain all required information. [CHUNK_125]\",\n  \"appropriations\": \"\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"\",\n  \"economic_impact\": \"Testimony in support highlights a case where reserve fees doubled with a deficit of $14,783 (HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt) per unit. [CHUNK_45, NUMBER_0] Another individual referenced a lawsuit with a landmark $1.80 (HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt) Million Award for Deception and Negligence to support the bill. [CHUNK_46, NUMBER_1] Opposing testimony argues the statute may expose associations to costly frivolous litigation, and notes that when associations are sued, their insurance carriers raise premiums, or worse, no longer offer coverage. [CHUNK_62] [CHUNK_63]\",\n  \"policy_impact\": \"The primary point of opposition in testimony is the provision that shifts the burden of proof to the association. [CHUNK_12] Numerous individuals and associations state that this provision is inconsistent with general principles of law and should be deleted. [CHUNK_13] Opponents argue that a party who brings an action should have the burden of proof, and an owner should be required to put forth evidence of the violation. [CHUNK_14] [CHUNK_18]\",\n  \"revenue_sources\": \"\",\n  \"six_year_fiscal_implications\": \"\",\n  \"operating_revenue_impact\": \"\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"The legislative focus has shifted to the provision that places the burden of proving substantial compliance on a condominium association. [CHUNK_11] New testimony from the Palehua Townhouse Association, Honolulu Tower Association of Apartment Owners, and eleven individuals is in opposition, primarily arguing that shifting the burden of proof is inconsistent with general principles of law. [CHUNK_122] [CHUNK_13] Despite this opposition, the Committee on Judiciary is in accord with the intent and purpose of the measure and recommends that it pass Third Reading. [CHUNK_126]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 14714,
-      "candidates_token_count": 919,
-      "total_token_count": 18806
+      "prompt_token_count": 25214,
+      "candidates_token_count": 618,
+      "total_token_count": 28945
     },
     "candidates": [
       {
@@ -38,7 +38,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n\"overview\": \"The purpose and intent of this measure is to require budget summaries to contain all required information without referring the reader to other portions of the budget and to clarify the ability to enforce compliance with budget summary and replacement reserves requirements by providing that an association has the burden of proving compliance (HB70_SD1_SSCR1509_). The Committee on Judiciary received testimony in support of this measure from five individuals and in opposition from eleven individuals (HB70_SD1_SSCR1509_). The committee is in accord with the intent and purpose of H.B. No. 70, H.D. 1, S.D. 1, and recommends that it pass Third Reading (HB70_SD1_SSCR1509_).\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"Testimony submitted to the Judiciary Committee reiterated concerns about the financial consequences of inadequate reserve studies, with one individual reporting their 'reserve fees doubled' creating a 'deficit of $14,783.00 (HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt) per unit' (HB70_SD1_TESTIMONY_JDC_03-25-25_). This testimony specified that the association's reserve studies 'had not been conducted for 8 years' (HB70_SD1_TESTIMONY_JDC_03-25-25_). Another supporting testimony referenced a figure of $1.80 (HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt) in the context of a landmark lawsuit for 'Deception and Negligence' (HB70_SD1_TESTIMONY_JDC_03-25-25_).\",\n\"policy_impact\": \"The policy debate remains focused on the provision that gives unit owners standing to bring an action and states 'The association shall have the burden of proving substantial compliance with this section in any such action' (HB70_SD1_TESTIMONY_JDC_03-25-25_). Testimony from multiple individuals and organizations in opposition states that 'The last sentence which shifts the burden of proof to the association should be deleted' (HB70_SD1_TESTIMONY_JDC_03-25-25_). This opposition is based on the argument that 'It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant' (HB70_SD1_TESTIMONY_JDC_03-25-25_).\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The primary update is procedural: the Senate Committee on Judiciary has reviewed the bill and 'recommends that it pass Third Reading' (HB70_SD1_SSCR1509_). The committee received new testimony, with support from organizations like the Hawaiʻi Association of REALTORS and opposition from groups including the Honolulu Tower Association of Apartment Owners and eleven individuals (HB70_SD1_SSCR1509_). The policy debate has solidified around the 'burden of proof' clause, with numerous opposition testimonies arguing that the sentence which 'shifts the burden of proof to the association should be deleted' as it is 'inconsistent with general principles of law' (HB70_SD1_TESTIMONY_JDC_03-25-25_). New testimony reiterated a previously cited economic impact of a 'deficit of $14,783.00 (HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt) per unit' from inadequate reserve funding (HB70_SD1_TESTIMONY_JDC_03-25-25_).\"\n}"
+              "text": "{\n  \"overview\": \"The purpose and intent of this measure is to require budget summaries to contain all required information without referring the reader to other portions of the budget. [CHUNK_120] It also clarifies the ability to enforce compliance with budget summary and replacement reserves requirements and provides that an association has the burden of proving compliance. [CHUNK_121] This measure will further enhance transparency and provide both owners and prospective purchasers with valuable insights into the association's financial health by requiring these budget summaries to contain all required information. [CHUNK_125]\",\n  \"appropriations\": \"\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"\",\n  \"economic_impact\": \"Testimony in support highlights a case where reserve fees doubled with a deficit of $14,783 (HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt) per unit. [CHUNK_45, NUMBER_0] Another individual referenced a lawsuit with a landmark $1.80 (HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt) Million Award for Deception and Negligence to support the bill. [CHUNK_46, NUMBER_1] Opposing testimony argues the statute may expose associations to costly frivolous litigation, and notes that when associations are sued, their insurance carriers raise premiums, or worse, no longer offer coverage. [CHUNK_62] [CHUNK_63]\",\n  \"policy_impact\": \"The primary point of opposition in testimony is the provision that shifts the burden of proof to the association. [CHUNK_12] Numerous individuals and associations state that this provision is inconsistent with general principles of law and should be deleted. [CHUNK_13] Opponents argue that a party who brings an action should have the burden of proof, and an owner should be required to put forth evidence of the violation. [CHUNK_14] [CHUNK_18]\",\n  \"revenue_sources\": \"\",\n  \"six_year_fiscal_implications\": \"\",\n  \"operating_revenue_impact\": \"\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"The legislative focus has shifted to the provision that places the burden of proving substantial compliance on a condominium association. [CHUNK_11] New testimony from the Palehua Townhouse Association, Honolulu Tower Association of Apartment Owners, and eleven individuals is in opposition, primarily arguing that shifting the burden of proof is inconsistent with general principles of law. [CHUNK_122] [CHUNK_13] Despite this opposition, the Committee on Judiciary is in accord with the intent and purpose of the measure and recommends that it pass Third Reading. [CHUNK_126]\"\n}"
             }
           ]
         },
@@ -46,387 +46,8 @@
         "safety_ratings": []
       }
     ],
-    "sentence_attribution_analysis": {
-      "sentence_attributions": [
-        {
-          "sentence": "{\n\"overview\": \"The purpose and intent of this measure is to require budget summaries to contain all required information without referring the reader to other portions of the budget and to clarify the ability to enforce compliance with budget summary and replacement reserves requirements by providing that an association has the burden of proving compliance (HB70_SD1_SSCR1509_)",
-          "attributed_chunk_id": 21,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.7419354838709677,
-          "attribution_reason": "Document citation + word frequency: HB70_SD1_SSCR1509_ (score: 0.742)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The Committee on Judiciary received testimony in support of this measure from five individuals and in opposition from eleven individuals (HB70_SD1_SSCR1509_)",
-          "attributed_chunk_id": 22,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.9230769230769231,
-          "attribution_reason": "Document citation + word frequency: HB70_SD1_SSCR1509_ (score: 0.923)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The committee is in accord with the intent and purpose of H",
-          "attributed_chunk_id": 26,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Word frequency match score: 1.000",
-          "numbers_found": []
-        },
-        {
-          "sentence": "B. No. 70, H. D. 1, S. D. 1, and recommends that it pass Third Reading (HB70_SD1_SSCR1509_)",
-          "attributed_chunk_id": 26,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 1.0,
-          "attribution_reason": "Document citation + word frequency: HB70_SD1_SSCR1509_ (score: 1.000)",
-          "numbers_found": [
-            1.0,
-            70.0
-          ]
-        },
-        {
-          "sentence": "\",\n\"appropriations\": \"\",\n\"assumptions_and_methodology\": \"\",\n\"agency_impact\": \"\",\n\"economic_impact\": \"Testimony submitted to the Judiciary Committee reiterated concerns about the financial consequences of inadequate reserve studies, with one individual reporting their 'reserve fees doubled' creating a 'deficit of $14,783",
-          "attributed_chunk_id": "NUMBER_14783",
-          "attribution_method": "number_based",
-          "attribution_score": 0.34615384615384615,
-          "attribution_reason": "Number $14,783 from HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt (score: 0.346)",
-          "numbers_found": [
-            14783.0
-          ]
-        },
-        {
-          "sentence": "00 (HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0,
-            25.0
-          ]
-        },
-        {
-          "sentence": "PDF. txt) per unit' (HB70_SD1_TESTIMONY_JDC_03-25-25_)",
-          "attributed_chunk_id": 9,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.25,
-          "attribution_reason": "Document citation + word frequency: HB70_SD1_TESTIMONY_JDC_03-25-25_ (score: 0.250)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "This testimony specified that the association's reserve studies 'had not been conducted for 8 years' (HB70_SD1_TESTIMONY_JDC_03-25-25_)",
-          "attributed_chunk_id": 5,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.25,
-          "attribution_reason": "Document citation + word frequency: HB70_SD1_TESTIMONY_JDC_03-25-25_ (score: 0.250)",
-          "numbers_found": [
-            8.0
-          ]
-        },
-        {
-          "sentence": "Another supporting testimony referenced a figure of $1",
-          "attributed_chunk_id": 5,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.2,
-          "attribution_reason": "Word frequency match score: 0.200",
-          "numbers_found": [
-            1.0
-          ]
-        },
-        {
-          "sentence": "80 (HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            80.0,
-            25.0
-          ]
-        },
-        {
-          "sentence": "PDF. txt) in the context of a landmark lawsuit for 'Deception and Negligence' (HB70_SD1_TESTIMONY_JDC_03-25-25_)",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"policy_impact\": \"The policy debate remains focused on the provision that gives unit owners standing to bring an action and states 'The association shall have the burden of proving substantial compliance with this section in any such action' (HB70_SD1_TESTIMONY_JDC_03-25-25_)",
-          "attributed_chunk_id": 11,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.45454545454545453,
-          "attribution_reason": "Document citation + word frequency: HB70_SD1_TESTIMONY_JDC_03-25-25_ (score: 0.455)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Testimony from multiple individuals and organizations in opposition states that 'The last sentence which shifts the burden of proof to the association should be deleted' (HB70_SD1_TESTIMONY_JDC_03-25-25_)",
-          "attributed_chunk_id": 12,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.5333333333333333,
-          "attribution_reason": "Document citation + word frequency: HB70_SD1_TESTIMONY_JDC_03-25-25_ (score: 0.533)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "This opposition is based on the argument that 'It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant' (HB70_SD1_TESTIMONY_JDC_03-25-25_)",
-          "attributed_chunk_id": 13,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.75,
-          "attribution_reason": "Document citation + word frequency: HB70_SD1_TESTIMONY_JDC_03-25-25_ (score: 0.750)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"revenue_sources\": \"\",\n\"six_year_fiscal_implications\": \"\",\n\"operating_revenue_impact\": \"\",\n\"capital_expenditure_impact\": \"\",\n\"fiscal_implications_after_6_years\": \"\",\n\"updates_from_previous_fiscal_note\": \"The primary update is procedural: the Senate Committee on Judiciary has reviewed the bill and 'recommends that it pass Third Reading' (HB70_SD1_SSCR1509_)",
-          "attributed_chunk_id": 26,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Document citation + word frequency: HB70_SD1_SSCR1509_ (score: 0.333)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The committee received new testimony, with support from organizations like the Hawaiʻi Association of REALTORS and opposition from groups including the Honolulu Tower Association of Apartment Owners and eleven individuals (HB70_SD1_SSCR1509_)",
-          "attributed_chunk_id": 22,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.5909090909090909,
-          "attribution_reason": "Document citation + word frequency: HB70_SD1_SSCR1509_ (score: 0.591)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The policy debate has solidified around the 'burden of proof' clause, with numerous opposition testimonies arguing that the sentence which 'shifts the burden of proof to the association should be deleted' as it is 'inconsistent with general principles of law' (HB70_SD1_TESTIMONY_JDC_03-25-25_)",
-          "attributed_chunk_id": 12,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.4090909090909091,
-          "attribution_reason": "Document citation + word frequency: HB70_SD1_TESTIMONY_JDC_03-25-25_ (score: 0.409)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "New testimony reiterated a previously cited economic impact of a 'deficit of $14,783",
-          "attributed_chunk_id": "NUMBER_14783",
-          "attribution_method": "number_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Number $14,783 from HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt (score: 0.333)",
-          "numbers_found": [
-            14783.0
-          ]
-        },
-        {
-          "sentence": "00 (HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": [
-            0.0,
-            25.0
-          ]
-        },
-        {
-          "sentence": "PDF. txt) per unit' from inadequate reserve funding (HB70_SD1_TESTIMONY_JDC_03-25-25_)",
-          "attributed_chunk_id": 9,
-          "attribution_method": "document_citation_based",
-          "attribution_score": 0.125,
-          "attribution_reason": "Document citation + word frequency: HB70_SD1_TESTIMONY_JDC_03-25-25_ (score: 0.125)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\"\n}.",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": []
-        }
-      ],
-      "chunk_usage_stats": {
-        "0": {
-          "usage_count": 1,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": [
-            "Fallback attribution (no clear match found)"
-          ]
-        },
-        "1": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": []
-        },
-        "2": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": []
-        },
-        "3": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": []
-        },
-        "4": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": []
-        },
-        "5": {
-          "usage_count": 2,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB70_SD1_TESTIMONY_JDC_03-25-25_ (score: 0.250)",
-            "Word frequency match score: 0.200"
-          ]
-        },
-        "6": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": []
-        },
-        "7": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": []
-        },
-        "8": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": []
-        },
-        "9": {
-          "usage_count": 2,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB70_SD1_TESTIMONY_JDC_03-25-25_ (score: 0.250)",
-            "Document citation + word frequency: HB70_SD1_TESTIMONY_JDC_03-25-25_ (score: 0.125)"
-          ]
-        },
-        "10": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": []
-        },
-        "11": {
-          "usage_count": 1,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB70_SD1_TESTIMONY_JDC_03-25-25_ (score: 0.455)"
-          ]
-        },
-        "12": {
-          "usage_count": 2,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB70_SD1_TESTIMONY_JDC_03-25-25_ (score: 0.533)",
-            "Document citation + word frequency: HB70_SD1_TESTIMONY_JDC_03-25-25_ (score: 0.409)"
-          ]
-        },
-        "13": {
-          "usage_count": 1,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB70_SD1_TESTIMONY_JDC_03-25-25_ (score: 0.750)"
-          ]
-        },
-        "14": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": []
-        },
-        "15": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": []
-        },
-        "16": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": []
-        },
-        "17": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": []
-        },
-        "18": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "attribution_reasons": []
-        },
-        "19": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_SSCR1509_",
-          "attribution_reasons": []
-        },
-        "20": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_SSCR1509_",
-          "attribution_reasons": []
-        },
-        "21": {
-          "usage_count": 1,
-          "document_name": "HB70_SD1_SSCR1509_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB70_SD1_SSCR1509_ (score: 0.742)"
-          ]
-        },
-        "22": {
-          "usage_count": 2,
-          "document_name": "HB70_SD1_SSCR1509_",
-          "attribution_reasons": [
-            "Document citation + word frequency: HB70_SD1_SSCR1509_ (score: 0.923)",
-            "Document citation + word frequency: HB70_SD1_SSCR1509_ (score: 0.591)"
-          ]
-        },
-        "23": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_SSCR1509_",
-          "attribution_reasons": []
-        },
-        "24": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_SSCR1509_",
-          "attribution_reasons": []
-        },
-        "25": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_SSCR1509_",
-          "attribution_reasons": []
-        },
-        "26": {
-          "usage_count": 3,
-          "document_name": "HB70_SD1_SSCR1509_",
-          "attribution_reasons": [
-            "Word frequency match score: 1.000",
-            "Document citation + word frequency: HB70_SD1_SSCR1509_ (score: 1.000)",
-            "Document citation + word frequency: HB70_SD1_SSCR1509_ (score: 0.333)"
-          ]
-        },
-        "NUMBER_14783.0": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_1.8": {
-          "usage_count": 0,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_14783": {
-          "usage_count": 2,
-          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt",
-          "attribution_reasons": [
-            "Number $14,783 from HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt (score: 0.346)",
-            "Number $14,783 from HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt (score: 0.333)"
-          ]
-        }
-      },
-      "attribution_method_stats": {
-        "document_citation_based": 12,
-        "number_based": 2,
-        "word_frequency_based": 2,
-        "semantic_similarity": 0,
-        "fallback": 1,
-        "no_attribution": 4
-      }
-    },
     "chunks_metadata": {
-      "total_chunks": 27,
+      "total_chunks": 127,
       "chunk_details": [
         {
           "chunk_id": 0,
@@ -575,13 +196,813 @@
         {
           "chunk_id": 18,
           "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
-          "chunk_text": "the association should be deleted. A party who brings an action should have the burden of proof. In some",
+          "chunk_text": "the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law",
           "start_word": 720,
-          "end_word": 739,
-          "word_count": 19
+          "end_word": 770,
+          "word_count": 50
         },
         {
           "chunk_id": 19,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Mark",
+          "start_word": 760,
+          "end_word": 810,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "to put forth evidence of the violation. Respectfully submitted, Mark McKellar HB-70-SD-1 Submitted on: 3/23/2025 5:11:24 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Richard Emery Testifying for Hawaii First Realty Support Written Testimony Only Comments: In 2023 Act 199 was enacted into law",
+          "start_word": 800,
+          "end_word": 850,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "Only Comments: In 2023 Act 199 was enacted into law requiring mandatory budget and reserve study disclosures as there have been many complaints from owners and new buyers as to sudden assessments. This Bill provides enforcement for the failure to comply with the existing law and will ensure full disclosure",
+          "start_word": 840,
+          "end_word": 890,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "comply with the existing law and will ensure full disclosure of budget and reserve study information. Support. HB-70-SD-1 Submitted on: 3/21/2025 2:10:30 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Frank Schultz Individual Support Written Testimony Only Comments: I support this initiative. HB-70-SD-1 Submitted",
+          "start_word": 880,
+          "end_word": 930,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "Written Testimony Only Comments: I support this initiative. HB-70-SD-1 Submitted on: 3/22/2025 2:07:00 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Anne Anderson Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE",
+          "start_word": 920,
+          "end_word": 970,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may",
+          "start_word": 960,
+          "end_word": 1010,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to",
+          "start_word": 1000,
+          "end_word": 1050,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of",
+          "start_word": 1040,
+          "end_word": 1090,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required",
+          "start_word": 1080,
+          "end_word": 1130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Anne Anderson HB-70-SD-1 Submitted on: 3/22/2025 2:11:20 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Carol Walker Individual Oppose Written Testimony Only Comments: Dear Senator",
+          "start_word": 1120,
+          "end_word": 1170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "Carol Walker Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section",
+          "start_word": 1160,
+          "end_word": 1210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 30,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in",
+          "start_word": 1200,
+          "end_word": 1250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 31,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to",
+          "start_word": 1240,
+          "end_word": 1290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 32,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging",
+          "start_word": 1280,
+          "end_word": 1330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 33,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Carol Walker HB-70-SD-1 Submitted on: 3/22/2025 2:31:24 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization",
+          "start_word": 1320,
+          "end_word": 1370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 34,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify mary freeman Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner",
+          "start_word": 1360,
+          "end_word": 1410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 35,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The",
+          "start_word": 1400,
+          "end_word": 1450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 36,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to the association should be DELETED. THE PARTY who brings an action should have the",
+          "start_word": 1440,
+          "end_word": 1490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 37,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "DELETED. THE PARTY who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden",
+          "start_word": 1480,
+          "end_word": 1530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 38,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Mary Freeman Ewa Beach HB-70-SD-1",
+          "start_word": 1520,
+          "end_word": 1570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 39,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "of the violation. Respectfully submitted, Mary Freeman Ewa Beach HB-70-SD-1 Submitted on: 3/22/2025 3:23:13 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Michael Targgart Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I",
+          "start_word": 1560,
+          "end_word": 1610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 40,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and",
+          "start_word": 1600,
+          "end_word": 1650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 41,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof",
+          "start_word": 1640,
+          "end_word": 1690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 42,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "action.” The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing",
+          "start_word": 1680,
+          "end_word": 1730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 43,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be",
+          "start_word": 1720,
+          "end_word": 1770,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 44,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Michael Targgart HB-70-SD-1 Submitted on: 3/22/2025 3:53:24 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify christine morrison Individual Support Written Testimony Only Comments: RE:",
+          "start_word": 1760,
+          "end_word": 1810,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 45,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "Testify christine morrison Individual Support Written Testimony Only Comments: RE: SUPPORT HB 70 1. My Association Reserve studies had not been conducted for 8 years 2. In 2025: my reserve fees doubled =20.15% with a deficit of $14,783 per unit, “make up” in 3 years by increasing HOA fees. 3.",
+          "start_word": 1800,
+          "end_word": 1850,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 46,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "“make up” in 3 years by increasing HOA fees. 3. Suport HOA and it agents ACCOUNTABILITY bill: Santa Clara HOA Lawsuit: A Landmark $1.8 Million Award for Deception and Negligence Respectfully submitted, Ms. Morrison HB-70-SD-1 Submitted on: 3/22/2025 3:55:30 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization",
+          "start_word": 1840,
+          "end_word": 1890,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 47,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify John Toalson Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner",
+          "start_word": 1880,
+          "end_word": 1930,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 48,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The",
+          "start_word": 1920,
+          "end_word": 1970,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 49,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the",
+          "start_word": 1960,
+          "end_word": 2010,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 50,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden",
+          "start_word": 2000,
+          "end_word": 2050,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 51,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, John Toalson HB-70-SD-1 Submitted on:",
+          "start_word": 2040,
+          "end_word": 2090,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 52,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "of the violation. Respectfully submitted, John Toalson HB-70-SD-1 Submitted on: 3/22/2025 4:25:28 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Joe M Taylor Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE",
+          "start_word": 2080,
+          "end_word": 2130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 53,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may",
+          "start_word": 2120,
+          "end_word": 2170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 54,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to",
+          "start_word": 2160,
+          "end_word": 2210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 55,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of",
+          "start_word": 2200,
+          "end_word": 2250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 56,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required",
+          "start_word": 2240,
+          "end_word": 2290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 57,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Joe Taylor HB-70-SD-1 Submitted on: 3/22/2025 11:42:14 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify lynne matusow Individual Oppose Written Testimony Only Comments: I am",
+          "start_word": 2280,
+          "end_word": 2330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 58,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "lynne matusow Individual Oppose Written Testimony Only Comments: I am an owner occupant and board member of a Honolulu condominium. I am also a member of CAI. In reading testimony from a senate committee, I learned that CAI supports this bill. They never informed me or consulted me. I disagree",
+          "start_word": 2320,
+          "end_word": 2370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 59,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "bill. They never informed me or consulted me. I disagree with their position, oppose the bill, and ask that you defer it. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit",
+          "start_word": 2360,
+          "end_word": 2410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 60,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” This provision is",
+          "start_word": 2400,
+          "end_word": 2450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 61,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "with this section in any such action.” This provision is inconsistent with the general principles of law, in that it allows a plaintiff to file an action without any burden of proof. If an owner brings an action, the owner should be required to prove that the association failed to",
+          "start_word": 2440,
+          "end_word": 2490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 62,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "should be required to prove that the association failed to meet the requirements of Section 514B- 148(a). The statute may expose associations to costly frivolous litigation over whether they complied with Section 514B-148(a). Hopefully you are aware that when associations are sued, their insurance carriers raise premiums, or worse, no",
+          "start_word": 2480,
+          "end_word": 2530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 63,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "are sued, their insurance carriers raise premiums, or worse, no longer offer coverage. The language of this bill is playing into the hands of those companies, especially at a time when premiums are rising and legislators are seeking ways to stop this flow of money. The last sentence which shifts",
+          "start_word": 2520,
+          "end_word": 2570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 64,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "stop this flow of money. The last sentence which shifts the burden of proof to the association should be deleted. Please defer this bill. HB-70-SD-1 Submitted on: 3/23/2025 2:12:20 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Lance S. Fujisaki Individual Oppose Written Testimony",
+          "start_word": 2560,
+          "end_word": 2610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 65,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "Testifier Position Testify Lance S. Fujisaki Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that \"[a]ny unit owner shall have standing to bring an action alleging a",
+          "start_word": 2600,
+          "end_word": 2650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 66,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association's board. The association shall have the burden of proving substantial compliance",
+          "start_word": 2640,
+          "end_word": 2690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 67,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "The association shall have the burden of proving substantial compliance with this section in any such action.\" The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of",
+          "start_word": 2680,
+          "end_word": 2730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 68,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "the burden of proof. In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner",
+          "start_word": 2720,
+          "end_word": 2770,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 69,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Lance Fujisaki HB-70-SD-1 Submitted on: 3/23/2025 9:19:35 PM Testimony for JDC on 3/25/2025 10:01:00",
+          "start_word": 2760,
+          "end_word": 2810,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 70,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "on: 3/23/2025 9:19:35 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Jeff Sadino Individual Support Written Testimony Only Comments: This Bill is an improvement over current condo governance. The information that I get in my annual budget summary from my property manager is different",
+          "start_word": 2800,
+          "end_word": 2850,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 71,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "my annual budget summary from my property manager is different every year. I am a financial advisor, and even I have a difficult time comparing the financials of my Association from year to year. Thank you, Jeff Sadino 1 TESTIMONY FOR HB70 HD1 SD1 For: The Senate Committee on Judiciary",
+          "start_word": 2840,
+          "end_word": 2890,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 72,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "FOR HB70 HD1 SD1 For: The Senate Committee on Judiciary (JDC) DATE: Tuesday, March 25, 2025 TIME: 10:01 AM PLACE: Conference Room 016 & Videoconference State Capitol 415 South Beretania Street Aloha Chair Rhoads, Vice Chair Gabbard, and Members of the Committee, My name is Gregory Misakian and I have",
+          "start_word": 2880,
+          "end_word": 2930,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 73,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "the Committee, My name is Gregory Misakian and I have been advocating for the rights of condominium owners in Hawaii since 2021, when I realized how much misconduct and corruption there is within many condominium associations throughout Hawaii, in addition to misconduct and corruption within numerous large management companies that",
+          "start_word": 2920,
+          "end_word": 2970,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 74,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "to misconduct and corruption within numerous large management companies that manage and oversee condominium associations, and misuse and abusive use of association attorneys against condominium owners. I currently serve as 1st Vice President of the Kokua Council, an elder advocacy organization in Hawaii since 1972, a Director at the Hawaii",
+          "start_word": 2960,
+          "end_word": 3010,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 75,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "organization in Hawaii since 1972, a Director at the Hawaii Alliance for Retired Americans, and a member of the Waikiki Neighborhood Board, where we have advocated for better consumer protections for condominium owners in a resolution adopted in 2023 (also adopted by other Neighborhood Boards). As many as 1/3 of",
+          "start_word": 3000,
+          "end_word": 3050,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 76,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "adopted by other Neighborhood Boards). As many as 1/3 of the population of Hawaii lives in condominiums, including many legislators and their friends and families. It has been shown with evidence to support, including many news stories and a great deal of testimony, that condominium owners are being subjected to",
+          "start_word": 3040,
+          "end_word": 3090,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 77,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "deal of testimony, that condominium owners are being subjected to abusive and predatory practices, often at the direction of the condominium association’s President and Board, with management company agents and association attorneys being willful participants. I also know this first-hand, because it’s happening at my condominium association, where I and",
+          "start_word": 3080,
+          "end_word": 3130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 78,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "because it’s happening at my condominium association, where I and others have been subjected to unlawful retaliation in violation of HRS 514B-191. Our former Maintenance Manager was retaliated 2 against for simply raising valid concerns regarding serious building issues that needed to be addressed by the Board. The Board President",
+          "start_word": 3120,
+          "end_word": 3170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 79,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "needed to be addressed by the Board. The Board President chose to suspend him without informing the Board, which is also a violation of our governing documents, as only the “Board” can make employment decisions. And now there is a lawsuit against the association, which can be seen at eCourt",
+          "start_word": 3160,
+          "end_word": 3210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 80,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "lawsuit against the association, which can be seen at eCourt Kokua – Antonio Vierra vs. Keoni Ana AOAO. This Board President is also a former Deputy Attorney General in Hawaii, and a former Corporation Counsel Attorney for the City and County of Honolulu. He is currently employed by our former",
+          "start_word": 3200,
+          "end_word": 3250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 81,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "County of Honolulu. He is currently employed by our former association law firm (Kobayashi, Sugita & Goda LLC), and was working there before anyone on the Board or the association was even informed, and while they were still our association law firm. Ultimately his actions have cost our association a",
+          "start_word": 3240,
+          "end_word": 3290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 82,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "law firm. Ultimately his actions have cost our association a substantial amount of money in legal expenses and other losses, and the future will only tell what is next regarding assessments and maintenance fees when the current litigation is concluded. I anticipate more litigation and more harm to the association,",
+          "start_word": 3280,
+          "end_word": 3330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 83,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "I anticipate more litigation and more harm to the association, due to his and other’s bad acts, which there are many of, including evidence of fraud, contract fraud, not obtaining permits for projects, and violating a Department of Planning and Permitting stop work order 3x in one week, with HPD",
+          "start_word": 3320,
+          "end_word": 3370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 84,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "Permitting stop work order 3x in one week, with HPD called to take reports. Abuse of power seems to be well established in condominium association Boards, but also seen in many other areas of leadership throughout Hawaii, including at the legislature. While I originally supported HB70 and its intentions, our",
+          "start_word": 3360,
+          "end_word": 3410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 85,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "legislature. While I originally supported HB70 and its intentions, our legislators have carved out more from this bill since the last HD1 version, and deleted a very important section that was previously seen in two places. (2) Explicitly stating that the defense of good faith compliance is unavailable to any",
+          "start_word": 3400,
+          "end_word": 3450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 86,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "the defense of good faith compliance is unavailable to any condominium association whose board adopts a budget that omits the required budget summary; and The defense of good faith shall be unavailable to an association whenever its board adopts a budget that omits the summary required by subsection (a).\" And",
+          "start_word": 3440,
+          "end_word": 3490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 87,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "budget that omits the summary required by subsection (a).\" And as I’ve previously testified, owners still have the burden to go to court for enforcement, which can be very costly. The only real solution to address serious 3 issues within condominium associations and their proper management, is to have enforcement",
+          "start_word": 3480,
+          "end_word": 3530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 88,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "condominium associations and their proper management, is to have enforcement of the laws that you enact. Please read and support HB890 and SB1265 (companion bill) for an Ombudsman’s Office for Condominium Associations. HB890 - RELATING TO CONDOMINIUM ASSOCIATIONS. (Ombudsman) SB1265 - RELATING TO CONDOMINIUM ASSOCIATIONS. (Ombudsman) And also: HB1209 -",
+          "start_word": 3520,
+          "end_word": 3570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 89,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "- RELATING TO CONDOMINIUM ASSOCIATIONS. (Ombudsman) And also: HB1209 - RELATING TO CONDOMINIUM ASSOCIATIONS. (Attorneys’ Fees) HB1311 - RELATING TO CONDOMINIUM PROXY VOTING. HB1312 - RELATING TO ASSOCIATION MANAGERS. HB1313 - RELATING TO BOARD MEMBERS. HB1315 - RELATING TO PARLIAMENTARIANS. HB1447 - RELATING TO MANAGING AGENTS. SB1623 - RELATING TO",
+          "start_word": 3560,
+          "end_word": 3610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 90,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "HB1447 - RELATING TO MANAGING AGENTS. SB1623 - RELATING TO MANAGING AGENTS. Sadly, as often is the case at the legislature, where some often work for campaign donations before they work for the people of Hawaii, none of these bills were scheduled. It is not too late to take what",
+          "start_word": 3600,
+          "end_word": 3650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 91,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "were scheduled. It is not too late to take what is in these bills and amend some of the bills the Committee Chairs chose, which mostly do not provide the best solutions or enforceable solutions without condominium owners having to go to court. The #1 goal is to help condominium",
+          "start_word": 3640,
+          "end_word": 3690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 92,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "go to court. The #1 goal is to help condominium owners so they do not have to go to court, and have a place to go where they are treated fairly, and where efficient and timely resolutions to issues and concerns can be administered (i.e., the Ombudsman’s Office for Condominium",
+          "start_word": 3680,
+          "end_word": 3730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 93,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "concerns can be administered (i.e., the Ombudsman’s Office for Condominium Associations). I also ask our legislators to provide a simple breakdown of what they think this section will cost condominium owners if they attempt to enforce it? Any unit owner shall have standing to bring an action alleging a violation",
+          "start_word": 3720,
+          "end_word": 3770,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 94,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s 4 board. The association shall have the burden of proving substantial compliance",
+          "start_word": 3760,
+          "end_word": 3810,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 95,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "The association shall have the burden of proving substantial compliance with this section in any such action.” Will there be a state fund to subsidize the legal costs that may run into the many thousands of dollars if an owner tried to bring an action alleging a violation? Will you",
+          "start_word": 3800,
+          "end_word": 3850,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 96,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "tried to bring an action alleging a violation? Will you establish free legal counsel for those who can’t afford it (as you want to do for illegal aliens)? The people of Hawaii are counting on you to enact condominium consumer protection laws that help the residents of Hawaii, and not",
+          "start_word": 3840,
+          "end_word": 3890,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 97,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "protection laws that help the residents of Hawaii, and not ones that just give the illusion of helping. Your latest magic trick, to make an important section disappear that would have provided more consumer protections, just shows further how disconnected and disregarding some of our legislators are. Gregory Misakian Dear",
+          "start_word": 3880,
+          "end_word": 3930,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 98,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "and disregarding some of our legislators are. Gregory Misakian Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this",
+          "start_word": 3920,
+          "end_word": 3970,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 99,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section",
+          "start_word": 3960,
+          "end_word": 4010,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 100,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "have the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. It is inconsistent with general principles of law to",
+          "start_word": 4000,
+          "end_word": 4050,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 101,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "proof. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Pamela J.",
+          "start_word": 4040,
+          "end_word": 4090,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 102,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "put forth evidence of the violation. Respectfully submitted, Pamela J. Schell HB-70-SD-1 Submitted on: 3/24/2025 9:07:43 AM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Jessica Herzog Individual Support Written Testimony Only Comments: Testimony in Support of HB70 and Creation of an HOA Office For:",
+          "start_word": 4080,
+          "end_word": 4130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 103,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "Support of HB70 and Creation of an HOA Office For: The Committee on Judiciary (CPC) Date: March 25, 2025 Time:10:01 am HST Aloha Chair Senator Karl Rhoads, Vice Chair Senator Mike Gabbard, and Members of the Committee, My name is Jessica Herzog, and I am a condominium owner and advocate",
+          "start_word": 4120,
+          "end_word": 4170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 104,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "Jessica Herzog, and I am a condominium owner and advocate for fair governance within condominium associations. As a former AOAO board Treasurer who has personally witnessed and been a victim of embezzlement, I write today to express my strong support for HB70, which aims to improve transparency and accountability within",
+          "start_word": 4160,
+          "end_word": 4210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 105,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "for HB70, which aims to improve transparency and accountability within our condominium associations. I also urge the establishment of a State-run, Association-funded HOA Office to enforce these provisions effectively and propose an essential amendment to the current bill. During my tenure as Treasurer, I experienced firsthand the lack of accountability",
+          "start_word": 4200,
+          "end_word": 4250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 106,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "tenure as Treasurer, I experienced firsthand the lack of accountability that boards and management companies exhibit regarding their fiduciary responsibilities. This negligence directly undermines the top priority of our role, which is to protect the funds and best interests of the association. This has led me to advocate strongly for",
+          "start_word": 4240,
+          "end_word": 4290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 107,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "the association. This has led me to advocate strongly for changes that ensure more rigorous oversight and accountability. Proposed Amendment: To further strengthen HB70, I propose an amendment that all financial work required for an AOAO's annual financial report must be performed by a licensed accountant, independent of the management",
+          "start_word": 4280,
+          "end_word": 4330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 108,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "be performed by a licensed accountant, independent of the management company. This amendment is vital to prevent conflicts of interest and ensure accurate, unbiased financial reporting. Currently, management companies often handle these reports internally, claiming oversight by a single accountant for numerous properties, which can lead to discrepancies and a",
+          "start_word": 4320,
+          "end_word": 4370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 109,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "for numerous properties, which can lead to discrepancies and a lack of transparency. The creation of an HOA Office, funded by the associations themselves, is crucial. This office would serve as a neutral and authoritative body capable of overseeing compliance with state condominium laws, mediating disputes, and ensuring that financial",
+          "start_word": 4360,
+          "end_word": 4410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 110,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "with state condominium laws, mediating disputes, and ensuring that financial reports are handled appropriately and transparently. In conclusion, while I support HB70 and its intentions, these experiences and observations compel me to emphasize the need for the suggested changes and the establishment of an HOA Office. This office would not",
+          "start_word": 4400,
+          "end_word": 4450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 111,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "the establishment of an HOA Office. This office would not only enforce legislative changes but also provide real protection, recourse, and a balanced mediation avenue for condominium owners, ensuring that the nightmares I experienced do not recur for others. Thank you for considering my testimony. I urge the committee to",
+          "start_word": 4440,
+          "end_word": 4490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 112,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "you for considering my testimony. I urge the committee to support the enactment of HB70 along with the necessary amendments to establish a State-run HOA Office and require independent, licensed accountants for financial reporting within AOAOs. Mahalo nui loa, Jessica Herzog Condo Owner, Notary Public Member of the National Association",
+          "start_word": 4480,
+          "end_word": 4530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 113,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "Herzog Condo Owner, Notary Public Member of the National Association of Parliamentarians mssc403@gmail.com | 707.340.5786 For more on our grassroots movement to reform condo laws please visit: https://www.leewardrepair.com/2025/01/26/regulatory-bills HB-70-SD-1 Submitted on: 3/24/2025 10:01:20 AM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Paul A. Ireland",
+          "start_word": 4520,
+          "end_word": 4570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 114,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "AM Submitted By Organization Testifier Position Testify Paul A. Ireland Koftinow Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I am a condominium unit owner in Hawaii and I OPPOSE H.B. No. 70, H.D.1., S.D.1. I oppose this measure",
+          "start_word": 4560,
+          "end_word": 4610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 115,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "OPPOSE H.B. No. 70, H.D.1., S.D.1. I oppose this measure because it will impose a burden of proof on an association when another unit owner brings an action against the association alleging a violation of HRS Section 514B- 148. The sentence imposing a burden of proof on associations in such",
+          "start_word": 4600,
+          "end_word": 4650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 116,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "sentence imposing a burden of proof on associations in such actions (page 5, line 21, through page 6, line 2) should be deleted. A party who brings an action should have the burden of proof (by presenting evidence that shows their claim meets certain requirements), and a defendant should be",
+          "start_word": 4640,
+          "end_word": 4690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 117,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "their claim meets certain requirements), and a defendant should be given the opportunity to respond to the allegations. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. Respectfully submitted, Paul A. Ireland Koftinow \u0010\u0005\u0018 HB-70-SD-1 Submitted on: 3/24/2025 1:40:51 PM Testimony",
+          "start_word": 4680,
+          "end_word": 4730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 118,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_",
+          "chunk_text": "Ireland Koftinow \u0010\u0005\u0018 HB-70-SD-1 Submitted on: 3/24/2025 1:40:51 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Lila Mower Individual Support Written Testimony Only Comments: I support this measure. \u0010\u0005\u0018",
+          "start_word": 4720,
+          "end_word": 4755,
+          "word_count": 35
+        },
+        {
+          "chunk_id": 119,
           "document_name": "HB70_SD1_SSCR1509_",
           "chunk_text": "SSCR1509 STAND. COM. REP. NO. 1509 Honolulu, Hawaii RE: H.B. No. 70 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Judiciary, to which was referred H.B. No. 70, H.D. 1, S.D. 1,",
           "start_word": 0,
@@ -589,7 +1010,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 20,
+          "chunk_id": 120,
           "document_name": "HB70_SD1_SSCR1509_",
           "chunk_text": "which was referred H.B. No. 70, H.D. 1, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO CONDOMINIUM,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Require budget summaries to contain all required information without referring the reader to other portions",
           "start_word": 40,
@@ -597,7 +1018,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 21,
+          "chunk_id": 121,
           "document_name": "HB70_SD1_SSCR1509_",
           "chunk_text": "all required information without referring the reader to other portions of the budget; and (2) Clarify the ability to enforce compliance with budget summary and replacement reserves requirements and provides that an association has the burden of proving compliance. Your Committee received testimony in support of this measure from the",
           "start_word": 80,
@@ -605,7 +1026,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 22,
+          "chunk_id": 122,
           "document_name": "HB70_SD1_SSCR1509_",
           "chunk_text": "Committee received testimony in support of this measure from the Hawai ʻ i Association of REALTORS, Community Associations Institute Hawaii, Hawaii First Realty, and five individuals. Your Committee received testimony in opposition to this measure from the Palehua Townhouse Association, Honolulu Tower Association of Apartment Owners, and eleven individuals. Your",
           "start_word": 120,
@@ -613,7 +1034,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 23,
+          "chunk_id": 123,
           "document_name": "HB70_SD1_SSCR1509_",
           "chunk_text": "Honolulu Tower Association of Apartment Owners, and eleven individuals. Your Committee received comments on this measure from one individual. Your Committee finds that condominium owners are entitled to disclosure of information about the replacement reserves maintained by a condominium association in which they own a unit. Additionally, the Legislature recently",
           "start_word": 160,
@@ -621,7 +1042,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 24,
+          "chunk_id": 124,
           "document_name": "HB70_SD1_SSCR1509_",
           "chunk_text": "in which they own a unit. Additionally, the Legislature recently passed Act 62, Session Laws of Hawaii 2022, which requires a budget summary with additional details to be prepared on the financial condition of an association. This measure will further enhance transparency and provide both owners and prospective purchasers with",
           "start_word": 200,
@@ -629,7 +1050,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 25,
+          "chunk_id": 125,
           "document_name": "HB70_SD1_SSCR1509_",
           "chunk_text": "enhance transparency and provide both owners and prospective purchasers with valuable insights into the association's financial health by requiring these budget summaries to contain all required information. As affirmed by the record of votes of the members of your Committee on Judiciary that is attached to this report, your Committee",
           "start_word": 240,
@@ -637,7 +1058,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 26,
+          "chunk_id": 126,
           "document_name": "HB70_SD1_SSCR1509_",
           "chunk_text": "on Judiciary that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 70, H.D. 1, S.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Judiciary, ________________________________ KARL RHOADS, Chair",
           "start_word": 280,
@@ -659,8 +1080,741 @@
         "filename": "HB70_SD1_TESTIMONY_JDC_03-25-25_.PDF.txt",
         "document_type": "testimony"
       }
+    ],
+    "chunk_text_map": {
+      "11": [
+        {
+          "chunk_text": "which was referred H.B. No. 70, H.D. 1, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO CONDOMINIUM,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Require budget summaries to contain all required information without referring the reader to other portions",
+          "chunk_id": 120,
+          "document_name": "HB70_SD1_SSCR1509_"
+        },
+        {
+          "chunk_text": "all required information without referring the reader to other portions of the budget; and (2) Clarify the ability to enforce compliance with budget summary and replacement reserves requirements and provides that an association has the burden of proving compliance. Your Committee received testimony in support of this measure from the",
+          "chunk_id": 121,
+          "document_name": "HB70_SD1_SSCR1509_"
+        },
+        {
+          "chunk_text": "enhance transparency and provide both owners and prospective purchasers with valuable insights into the association's financial health by requiring these budget summaries to contain all required information. As affirmed by the record of votes of the members of your Committee on Judiciary that is attached to this report, your Committee",
+          "chunk_id": 125,
+          "document_name": "HB70_SD1_SSCR1509_"
+        },
+        {
+          "chunk_text": "Committee received testimony in support of this measure from the Hawai ʻ i Association of REALTORS, Community Associations Institute Hawaii, Hawaii First Realty, and five individuals. Your Committee received testimony in opposition to this measure from the Palehua Townhouse Association, Honolulu Tower Association of Apartment Owners, and eleven individuals. Your",
+          "chunk_id": 122,
+          "document_name": "HB70_SD1_SSCR1509_"
+        },
+        {
+          "chunk_text": "on Judiciary that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 70, H.D. 1, S.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Judiciary, ________________________________ KARL RHOADS, Chair",
+          "chunk_id": 126,
+          "document_name": "HB70_SD1_SSCR1509_"
+        }
+      ],
+      "10": [
+        {
+          "chunk_text": "should be required to prove that the association failed to meet the requirements of Section 514B- 148(a). The statute may expose associations to costly frivolous litigation over whether they complied with Section 514B-148(a). Hopefully you are aware that when associations are sued, their insurance carriers raise premiums, or worse, no",
+          "chunk_id": 62,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_"
+        },
+        {
+          "chunk_text": "are sued, their insurance carriers raise premiums, or worse, no longer offer coverage. The language of this bill is playing into the hands of those companies, especially at a time when premiums are rising and legislators are seeking ways to stop this flow of money. The last sentence which shifts",
+          "chunk_id": 63,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_"
+        },
+        {
+          "chunk_text": "substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example,",
+          "chunk_id": 12,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_"
+        },
+        {
+          "chunk_text": "burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has",
+          "chunk_id": 13,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_"
+        },
+        {
+          "chunk_text": "an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Idor Harris Resident Manager HB-70-SD-1 Submitted on: 3/23/2025 3:33:15 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Mark",
+          "chunk_id": 14,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_"
+        },
+        {
+          "chunk_text": "the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law",
+          "chunk_id": 18,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_"
+        },
+        {
+          "chunk_text": "alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The",
+          "chunk_id": 11,
+          "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_"
+        }
+      ]
+    },
+    "document_mapping": {
+      "HB70": 1,
+      "HB70_TESTIMONY_CPC_01-30-25_": 2,
+      "HB70_HD1": 3,
+      "HB70_HD1_HSCR253_": 4,
+      "HB70_HD1_TESTIMONY_JHA_02-25-25_": 5,
+      "HB70_HD1_HSCR1060_": 6,
+      "HB70_HD1_TESTIMONY_CPN_03-14-25_": 7,
+      "HB70_SD1": 8,
+      "HB70_SD1_SSCR1254_": 9,
+      "HB70_SD1_TESTIMONY_JDC_03-25-25_": 10,
+      "HB70_SD1_SSCR1509_": 11,
+      "HB70_CD1": 12,
+      "HB70_CD1_CCR43_": 13
+    },
+    "sentence_chunk_mapping": [
+      {
+        "section": "overview",
+        "sentence": "The purpose and intent of this measure is to require budget summaries to contain all required information without referring the reader to other portions of the budget.",
+        "chunks": [
+          {
+            "chunk_id": 120,
+            "citation_number": 11,
+            "chunk_text": "which was referred H.B. No. 70, H.D. 1, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO CONDOMINIUM,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Require budget summaries to contain all required information without referring the reader to other portions",
+            "document_name": "HB70_SD1_SSCR1509_"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "It also clarifies the ability to enforce compliance with budget summary and replacement reserves requirements and provides that an association has the burden of proving compliance.",
+        "chunks": [
+          {
+            "chunk_id": 121,
+            "citation_number": 11,
+            "chunk_text": "all required information without referring the reader to other portions of the budget; and (2) Clarify the ability to enforce compliance with budget summary and replacement reserves requirements and provides that an association has the burden of proving compliance. Your Committee received testimony in support of this measure from the",
+            "document_name": "HB70_SD1_SSCR1509_"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "This measure will further enhance transparency and provide both owners and prospective purchasers with valuable insights into the association's financial health by requiring these budget summaries to contain all required information.",
+        "chunks": [
+          {
+            "chunk_id": 125,
+            "citation_number": 11,
+            "chunk_text": "enhance transparency and provide both owners and prospective purchasers with valuable insights into the association's financial health by requiring these budget summaries to contain all required information. As affirmed by the record of votes of the members of your Committee on Judiciary that is attached to this report, your Committee",
+            "document_name": "HB70_SD1_SSCR1509_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "Opposing testimony argues the statute may expose associations to costly frivolous litigation, and notes that when associations are sued, their insurance carriers raise premiums, or worse, no longer offer coverage.",
+        "chunks": [
+          {
+            "chunk_id": 62,
+            "citation_number": 10,
+            "chunk_text": "should be required to prove that the association failed to meet the requirements of Section 514B- 148(a). The statute may expose associations to costly frivolous litigation over whether they complied with Section 514B-148(a). Hopefully you are aware that when associations are sued, their insurance carriers raise premiums, or worse, no",
+            "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_"
+          },
+          {
+            "chunk_id": 62,
+            "citation_number": 10,
+            "chunk_text": "should be required to prove that the association failed to meet the requirements of Section 514B- 148(a). The statute may expose associations to costly frivolous litigation over whether they complied with Section 514B-148(a). Hopefully you are aware that when associations are sued, their insurance carriers raise premiums, or worse, no",
+            "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The primary point of opposition in testimony is the provision that shifts the burden of proof to the association.",
+        "chunks": [
+          {
+            "chunk_id": 12,
+            "citation_number": 10,
+            "chunk_text": "substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example,",
+            "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "Numerous individuals and associations state that this provision is inconsistent with general principles of law and should be deleted.",
+        "chunks": [
+          {
+            "chunk_id": 13,
+            "citation_number": 10,
+            "chunk_text": "burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has",
+            "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "Opponents argue that a party who brings an action should have the burden of proof, and an owner should be required to put forth evidence of the violation.",
+        "chunks": [
+          {
+            "chunk_id": 14,
+            "citation_number": 10,
+            "chunk_text": "an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Idor Harris Resident Manager HB-70-SD-1 Submitted on: 3/23/2025 3:33:15 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Mark",
+            "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_"
+          },
+          {
+            "chunk_id": 14,
+            "citation_number": 10,
+            "chunk_text": "an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Idor Harris Resident Manager HB-70-SD-1 Submitted on: 3/23/2025 3:33:15 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Mark",
+            "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The legislative focus has shifted to the provision that places the burden of proving substantial compliance on a condominium association.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 10,
+            "chunk_text": "alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The",
+            "document_name": "HB70_SD1_TESTIMONY_JDC_03-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "New testimony from the Palehua Townhouse Association, Honolulu Tower Association of Apartment Owners, and eleven individuals is in opposition, primarily arguing that shifting the burden of proof is inconsistent with general principles of law.",
+        "chunks": [
+          {
+            "chunk_id": 122,
+            "citation_number": 11,
+            "chunk_text": "Committee received testimony in support of this measure from the Hawai ʻ i Association of REALTORS, Community Associations Institute Hawaii, Hawaii First Realty, and five individuals. Your Committee received testimony in opposition to this measure from the Palehua Townhouse Association, Honolulu Tower Association of Apartment Owners, and eleven individuals. Your",
+            "document_name": "HB70_SD1_SSCR1509_"
+          },
+          {
+            "chunk_id": 122,
+            "citation_number": 11,
+            "chunk_text": "Committee received testimony in support of this measure from the Hawai ʻ i Association of REALTORS, Community Associations Institute Hawaii, Hawaii First Realty, and five individuals. Your Committee received testimony in opposition to this measure from the Palehua Townhouse Association, Honolulu Tower Association of Apartment Owners, and eleven individuals. Your",
+            "document_name": "HB70_SD1_SSCR1509_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "Despite this opposition, the Committee on Judiciary is in accord with the intent and purpose of the measure and recommends that it pass Third Reading.",
+        "chunks": [
+          {
+            "chunk_id": 126,
+            "citation_number": 11,
+            "chunk_text": "on Judiciary that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 70, H.D. 1, S.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Judiciary, ________________________________ KARL RHOADS, Chair",
+            "document_name": "HB70_SD1_SSCR1509_"
+          }
+        ]
+      }
     ]
   },
-  "generation_timestamp": "2025-10-10T15:28:00.335152",
-  "generation_timestamp_unix": 1760146080.3351622
+  "chunk_mapping": {
+    "HB70_SD1_SSCR1509_": [
+      {
+        "chunk_number": 0,
+        "chunk_text": "REALTOR® is a registered collective membership mark which may be used only by real estate professionals who are members of the NATIONAL ASSOCIATION OF REALTORS® and subscribe to its strict Code of Ethics. 808-733-7060 1259 A‘ala Street, Suite 300 Honolulu, HI 96817 808-737-4977 March 25, 2025 The Honorable Karl Rhoads"
+      },
+      {
+        "chunk_number": 1,
+        "chunk_text": "HI 96817 808-737-4977 March 25, 2025 The Honorable Karl Rhoads Chair Senate Committee on Judiciary State Capitol, Conference Room 229 & Videoconference RE: House Bill 70, HD1, SD1, Relating to Condominium HEARING: Tuesday, March 25, 2025, at 10:01 a.m. Aloha Chair Rhoads, Vice Chair Gabbard, and Members of the Committee:"
+      },
+      {
+        "chunk_number": 2,
+        "chunk_text": "Chair Rhoads, Vice Chair Gabbard, and Members of the Committee: My name is Lyndsey Garcia, Director of Advocacy, testifying on behalf of the Hawai‘i Association of REALTORS® (“HAR”), the voice of real estate in Hawaii and its over 10,000 members. HAR supports House Bill 70, HD1, SD1, which requires budget"
+      },
+      {
+        "chunk_number": 3,
+        "chunk_text": "HAR supports House Bill 70, HD1, SD1, which requires budget summaries to contain all required information without referring the reader to other portions of the budget. Clarifies the ability to enforce compliance with budget summary and replacement reserves requirements and provides that an association has the burden of proving compliance."
+      },
+      {
+        "chunk_number": 4,
+        "chunk_text": "provides that an association has the burden of proving compliance. Effective 7/1/3000. In 2023, the Legislature passed, and Act 199 was signed into law, requiring a budget summary with additional details to be prepared on the financial condition of an association. As such, requiring these budget summaries to contain all"
+      },
+      {
+        "chunk_number": 5,
+        "chunk_text": "association. As such, requiring these budget summaries to contain all required information enhances transparency and provides both owners and prospective purchasers with valuable insights into the association's financial health. Mahalo for the opportunity to provide testimony on this measure. HB-70-SD-1 Submitted on: 3/21/2025 11:09:17 AM Testimony for JDC on 3/25/2025"
+      },
+      {
+        "chunk_number": 6,
+        "chunk_text": "Submitted on: 3/21/2025 11:09:17 AM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Philip Nerney Testifying for CAI Support Written Testimony Only Comments: CAI supports this bill. The required budget summary enables owners and purchasers to have a ready understanding of the financial condition of"
+      },
+      {
+        "chunk_number": 7,
+        "chunk_text": "to have a ready understanding of the financial condition of an association. All required information should be contained in the budget summary itself. The burden of proving substantial compliance is appropriate. HB-70-SD-1 Submitted on: 3/21/2025 12:30:48 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify"
+      },
+      {
+        "chunk_number": 8,
+        "chunk_text": "on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Mike Golojuch, Sr. Testifying for Palehua Townhouse Association Oppose Written Testimony Only Comments: Request that this bill be deferred. Mahalo. HB-70-SD-1 Submitted on: 3/22/2025 11:45:15 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Idor"
+      },
+      {
+        "chunk_number": 9,
+        "chunk_text": "3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Idor Harris Testifying for Honolulu Tower AOAO Oppose Written Testimony Only Comments: Honolulu Tower is a 396 unit high rise located at Beretania and Maunakea Streets. On Feb. 3, 2025 the Board of Directors of the Association of Apartment Owners of"
+      },
+      {
+        "chunk_number": 10,
+        "chunk_text": "Board of Directors of the Association of Apartment Owners of Honolulu Tower unanimously voted to oppose HB70 and asks that you defer this measure. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that"
+      },
+      {
+        "chunk_number": 11,
+        "chunk_text": "alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The"
+      },
+      {
+        "chunk_number": 12,
+        "chunk_text": "substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example,"
+      },
+      {
+        "chunk_number": 13,
+        "chunk_text": "burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has"
+      },
+      {
+        "chunk_number": 14,
+        "chunk_text": "an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Idor Harris Resident Manager HB-70-SD-1 Submitted on: 3/23/2025 3:33:15 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Mark"
+      },
+      {
+        "chunk_number": 15,
+        "chunk_text": "3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Mark McKellar Testifying for Law Offices of Mark K. McKellar, LLLC Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides"
+      },
+      {
+        "chunk_number": 16,
+        "chunk_text": "H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by"
+      },
+      {
+        "chunk_number": 17,
+        "chunk_text": "seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an"
+      },
+      {
+        "chunk_number": 18,
+        "chunk_text": "the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law"
+      },
+      {
+        "chunk_number": 19,
+        "chunk_text": "certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Mark"
+      },
+      {
+        "chunk_number": 20,
+        "chunk_text": "to put forth evidence of the violation. Respectfully submitted, Mark McKellar HB-70-SD-1 Submitted on: 3/23/2025 5:11:24 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Richard Emery Testifying for Hawaii First Realty Support Written Testimony Only Comments: In 2023 Act 199 was enacted into law"
+      },
+      {
+        "chunk_number": 21,
+        "chunk_text": "Only Comments: In 2023 Act 199 was enacted into law requiring mandatory budget and reserve study disclosures as there have been many complaints from owners and new buyers as to sudden assessments. This Bill provides enforcement for the failure to comply with the existing law and will ensure full disclosure"
+      },
+      {
+        "chunk_number": 22,
+        "chunk_text": "comply with the existing law and will ensure full disclosure of budget and reserve study information. Support. HB-70-SD-1 Submitted on: 3/21/2025 2:10:30 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Frank Schultz Individual Support Written Testimony Only Comments: I support this initiative. HB-70-SD-1 Submitted"
+      },
+      {
+        "chunk_number": 23,
+        "chunk_text": "Written Testimony Only Comments: I support this initiative. HB-70-SD-1 Submitted on: 3/22/2025 2:07:00 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Anne Anderson Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE"
+      },
+      {
+        "chunk_number": 24,
+        "chunk_text": "Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may"
+      },
+      {
+        "chunk_number": 25,
+        "chunk_text": "that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to"
+      },
+      {
+        "chunk_number": 26,
+        "chunk_text": "The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of"
+      },
+      {
+        "chunk_number": 27,
+        "chunk_text": "example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required"
+      },
+      {
+        "chunk_number": 28,
+        "chunk_text": "has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Anne Anderson HB-70-SD-1 Submitted on: 3/22/2025 2:11:20 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Carol Walker Individual Oppose Written Testimony Only Comments: Dear Senator"
+      },
+      {
+        "chunk_number": 29,
+        "chunk_text": "Carol Walker Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section"
+      },
+      {
+        "chunk_number": 30,
+        "chunk_text": "to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in"
+      },
+      {
+        "chunk_number": 31,
+        "chunk_text": "the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to"
+      },
+      {
+        "chunk_number": 32,
+        "chunk_text": "In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging"
+      },
+      {
+        "chunk_number": 33,
+        "chunk_text": "to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Carol Walker HB-70-SD-1 Submitted on: 3/22/2025 2:31:24 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization"
+      },
+      {
+        "chunk_number": 34,
+        "chunk_text": "Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify mary freeman Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner"
+      },
+      {
+        "chunk_number": 35,
+        "chunk_text": "S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The"
+      },
+      {
+        "chunk_number": 36,
+        "chunk_text": "enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to the association should be DELETED. THE PARTY who brings an action should have the"
+      },
+      {
+        "chunk_number": 37,
+        "chunk_text": "DELETED. THE PARTY who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden"
+      },
+      {
+        "chunk_number": 38,
+        "chunk_text": "inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Mary Freeman Ewa Beach HB-70-SD-1"
+      },
+      {
+        "chunk_number": 39,
+        "chunk_text": "of the violation. Respectfully submitted, Mary Freeman Ewa Beach HB-70-SD-1 Submitted on: 3/22/2025 3:23:13 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Michael Targgart Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I"
+      },
+      {
+        "chunk_number": 40,
+        "chunk_text": "Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and"
+      },
+      {
+        "chunk_number": 41,
+        "chunk_text": "association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof"
+      },
+      {
+        "chunk_number": 42,
+        "chunk_text": "action.” The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing"
+      },
+      {
+        "chunk_number": 43,
+        "chunk_text": "for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be"
+      },
+      {
+        "chunk_number": 44,
+        "chunk_text": "association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Michael Targgart HB-70-SD-1 Submitted on: 3/22/2025 3:53:24 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify christine morrison Individual Support Written Testimony Only Comments: RE:"
+      },
+      {
+        "chunk_number": 45,
+        "chunk_text": "Testify christine morrison Individual Support Written Testimony Only Comments: RE: SUPPORT HB 70 1. My Association Reserve studies had not been conducted for 8 years 2. In 2025: my reserve fees doubled =20.15% with a deficit of $14,783 per unit, “make up” in 3 years by increasing HOA fees. 3."
+      },
+      {
+        "chunk_number": 46,
+        "chunk_text": "“make up” in 3 years by increasing HOA fees. 3. Suport HOA and it agents ACCOUNTABILITY bill: Santa Clara HOA Lawsuit: A Landmark $1.8 Million Award for Deception and Negligence Respectfully submitted, Ms. Morrison HB-70-SD-1 Submitted on: 3/22/2025 3:55:30 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization"
+      },
+      {
+        "chunk_number": 47,
+        "chunk_text": "Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify John Toalson Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner"
+      },
+      {
+        "chunk_number": 48,
+        "chunk_text": "S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The"
+      },
+      {
+        "chunk_number": 49,
+        "chunk_text": "enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the"
+      },
+      {
+        "chunk_number": 50,
+        "chunk_text": "deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden"
+      },
+      {
+        "chunk_number": 51,
+        "chunk_text": "inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, John Toalson HB-70-SD-1 Submitted on:"
+      },
+      {
+        "chunk_number": 52,
+        "chunk_text": "of the violation. Respectfully submitted, John Toalson HB-70-SD-1 Submitted on: 3/22/2025 4:25:28 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Joe M Taylor Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE"
+      },
+      {
+        "chunk_number": 53,
+        "chunk_text": "Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may"
+      },
+      {
+        "chunk_number": 54,
+        "chunk_text": "that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to"
+      },
+      {
+        "chunk_number": 55,
+        "chunk_text": "The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of"
+      },
+      {
+        "chunk_number": 56,
+        "chunk_text": "example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required"
+      },
+      {
+        "chunk_number": 57,
+        "chunk_text": "has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Joe Taylor HB-70-SD-1 Submitted on: 3/22/2025 11:42:14 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify lynne matusow Individual Oppose Written Testimony Only Comments: I am"
+      },
+      {
+        "chunk_number": 58,
+        "chunk_text": "lynne matusow Individual Oppose Written Testimony Only Comments: I am an owner occupant and board member of a Honolulu condominium. I am also a member of CAI. In reading testimony from a senate committee, I learned that CAI supports this bill. They never informed me or consulted me. I disagree"
+      },
+      {
+        "chunk_number": 59,
+        "chunk_text": "bill. They never informed me or consulted me. I disagree with their position, oppose the bill, and ask that you defer it. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this section against an association that the unit"
+      },
+      {
+        "chunk_number": 60,
+        "chunk_text": "violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section in any such action.” This provision is"
+      },
+      {
+        "chunk_number": 61,
+        "chunk_text": "with this section in any such action.” This provision is inconsistent with the general principles of law, in that it allows a plaintiff to file an action without any burden of proof. If an owner brings an action, the owner should be required to prove that the association failed to"
+      },
+      {
+        "chunk_number": 62,
+        "chunk_text": "should be required to prove that the association failed to meet the requirements of Section 514B- 148(a). The statute may expose associations to costly frivolous litigation over whether they complied with Section 514B-148(a). Hopefully you are aware that when associations are sued, their insurance carriers raise premiums, or worse, no"
+      },
+      {
+        "chunk_number": 63,
+        "chunk_text": "are sued, their insurance carriers raise premiums, or worse, no longer offer coverage. The language of this bill is playing into the hands of those companies, especially at a time when premiums are rising and legislators are seeking ways to stop this flow of money. The last sentence which shifts"
+      },
+      {
+        "chunk_number": 64,
+        "chunk_text": "stop this flow of money. The last sentence which shifts the burden of proof to the association should be deleted. Please defer this bill. HB-70-SD-1 Submitted on: 3/23/2025 2:12:20 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Lance S. Fujisaki Individual Oppose Written Testimony"
+      },
+      {
+        "chunk_number": 65,
+        "chunk_text": "Testifier Position Testify Lance S. Fujisaki Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that \"[a]ny unit owner shall have standing to bring an action alleging a"
+      },
+      {
+        "chunk_number": 66,
+        "chunk_text": "owner shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association's board. The association shall have the burden of proving substantial compliance"
+      },
+      {
+        "chunk_number": 67,
+        "chunk_text": "The association shall have the burden of proving substantial compliance with this section in any such action.\" The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. In some instances, the burden of"
+      },
+      {
+        "chunk_number": 68,
+        "chunk_text": "the burden of proof. In some instances, the burden of proof may shift to the defendant, for example, after the plaintiff makes a prima facie showing of certain facts. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner"
+      },
+      {
+        "chunk_number": 69,
+        "chunk_text": "burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Lance Fujisaki HB-70-SD-1 Submitted on: 3/23/2025 9:19:35 PM Testimony for JDC on 3/25/2025 10:01:00"
+      },
+      {
+        "chunk_number": 70,
+        "chunk_text": "on: 3/23/2025 9:19:35 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Jeff Sadino Individual Support Written Testimony Only Comments: This Bill is an improvement over current condo governance. The information that I get in my annual budget summary from my property manager is different"
+      },
+      {
+        "chunk_number": 71,
+        "chunk_text": "my annual budget summary from my property manager is different every year. I am a financial advisor, and even I have a difficult time comparing the financials of my Association from year to year. Thank you, Jeff Sadino 1 TESTIMONY FOR HB70 HD1 SD1 For: The Senate Committee on Judiciary"
+      },
+      {
+        "chunk_number": 72,
+        "chunk_text": "FOR HB70 HD1 SD1 For: The Senate Committee on Judiciary (JDC) DATE: Tuesday, March 25, 2025 TIME: 10:01 AM PLACE: Conference Room 016 & Videoconference State Capitol 415 South Beretania Street Aloha Chair Rhoads, Vice Chair Gabbard, and Members of the Committee, My name is Gregory Misakian and I have"
+      },
+      {
+        "chunk_number": 73,
+        "chunk_text": "the Committee, My name is Gregory Misakian and I have been advocating for the rights of condominium owners in Hawaii since 2021, when I realized how much misconduct and corruption there is within many condominium associations throughout Hawaii, in addition to misconduct and corruption within numerous large management companies that"
+      },
+      {
+        "chunk_number": 74,
+        "chunk_text": "to misconduct and corruption within numerous large management companies that manage and oversee condominium associations, and misuse and abusive use of association attorneys against condominium owners. I currently serve as 1st Vice President of the Kokua Council, an elder advocacy organization in Hawaii since 1972, a Director at the Hawaii"
+      },
+      {
+        "chunk_number": 75,
+        "chunk_text": "organization in Hawaii since 1972, a Director at the Hawaii Alliance for Retired Americans, and a member of the Waikiki Neighborhood Board, where we have advocated for better consumer protections for condominium owners in a resolution adopted in 2023 (also adopted by other Neighborhood Boards). As many as 1/3 of"
+      },
+      {
+        "chunk_number": 76,
+        "chunk_text": "adopted by other Neighborhood Boards). As many as 1/3 of the population of Hawaii lives in condominiums, including many legislators and their friends and families. It has been shown with evidence to support, including many news stories and a great deal of testimony, that condominium owners are being subjected to"
+      },
+      {
+        "chunk_number": 77,
+        "chunk_text": "deal of testimony, that condominium owners are being subjected to abusive and predatory practices, often at the direction of the condominium association’s President and Board, with management company agents and association attorneys being willful participants. I also know this first-hand, because it’s happening at my condominium association, where I and"
+      },
+      {
+        "chunk_number": 78,
+        "chunk_text": "because it’s happening at my condominium association, where I and others have been subjected to unlawful retaliation in violation of HRS 514B-191. Our former Maintenance Manager was retaliated 2 against for simply raising valid concerns regarding serious building issues that needed to be addressed by the Board. The Board President"
+      },
+      {
+        "chunk_number": 79,
+        "chunk_text": "needed to be addressed by the Board. The Board President chose to suspend him without informing the Board, which is also a violation of our governing documents, as only the “Board” can make employment decisions. And now there is a lawsuit against the association, which can be seen at eCourt"
+      },
+      {
+        "chunk_number": 80,
+        "chunk_text": "lawsuit against the association, which can be seen at eCourt Kokua – Antonio Vierra vs. Keoni Ana AOAO. This Board President is also a former Deputy Attorney General in Hawaii, and a former Corporation Counsel Attorney for the City and County of Honolulu. He is currently employed by our former"
+      },
+      {
+        "chunk_number": 81,
+        "chunk_text": "County of Honolulu. He is currently employed by our former association law firm (Kobayashi, Sugita & Goda LLC), and was working there before anyone on the Board or the association was even informed, and while they were still our association law firm. Ultimately his actions have cost our association a"
+      },
+      {
+        "chunk_number": 82,
+        "chunk_text": "law firm. Ultimately his actions have cost our association a substantial amount of money in legal expenses and other losses, and the future will only tell what is next regarding assessments and maintenance fees when the current litigation is concluded. I anticipate more litigation and more harm to the association,"
+      },
+      {
+        "chunk_number": 83,
+        "chunk_text": "I anticipate more litigation and more harm to the association, due to his and other’s bad acts, which there are many of, including evidence of fraud, contract fraud, not obtaining permits for projects, and violating a Department of Planning and Permitting stop work order 3x in one week, with HPD"
+      },
+      {
+        "chunk_number": 84,
+        "chunk_text": "Permitting stop work order 3x in one week, with HPD called to take reports. Abuse of power seems to be well established in condominium association Boards, but also seen in many other areas of leadership throughout Hawaii, including at the legislature. While I originally supported HB70 and its intentions, our"
+      },
+      {
+        "chunk_number": 85,
+        "chunk_text": "legislature. While I originally supported HB70 and its intentions, our legislators have carved out more from this bill since the last HD1 version, and deleted a very important section that was previously seen in two places. (2) Explicitly stating that the defense of good faith compliance is unavailable to any"
+      },
+      {
+        "chunk_number": 86,
+        "chunk_text": "the defense of good faith compliance is unavailable to any condominium association whose board adopts a budget that omits the required budget summary; and The defense of good faith shall be unavailable to an association whenever its board adopts a budget that omits the summary required by subsection (a).\" And"
+      },
+      {
+        "chunk_number": 87,
+        "chunk_text": "budget that omits the summary required by subsection (a).\" And as I’ve previously testified, owners still have the burden to go to court for enforcement, which can be very costly. The only real solution to address serious 3 issues within condominium associations and their proper management, is to have enforcement"
+      },
+      {
+        "chunk_number": 88,
+        "chunk_text": "condominium associations and their proper management, is to have enforcement of the laws that you enact. Please read and support HB890 and SB1265 (companion bill) for an Ombudsman’s Office for Condominium Associations. HB890 - RELATING TO CONDOMINIUM ASSOCIATIONS. (Ombudsman) SB1265 - RELATING TO CONDOMINIUM ASSOCIATIONS. (Ombudsman) And also: HB1209 -"
+      },
+      {
+        "chunk_number": 89,
+        "chunk_text": "- RELATING TO CONDOMINIUM ASSOCIATIONS. (Ombudsman) And also: HB1209 - RELATING TO CONDOMINIUM ASSOCIATIONS. (Attorneys’ Fees) HB1311 - RELATING TO CONDOMINIUM PROXY VOTING. HB1312 - RELATING TO ASSOCIATION MANAGERS. HB1313 - RELATING TO BOARD MEMBERS. HB1315 - RELATING TO PARLIAMENTARIANS. HB1447 - RELATING TO MANAGING AGENTS. SB1623 - RELATING TO"
+      },
+      {
+        "chunk_number": 90,
+        "chunk_text": "HB1447 - RELATING TO MANAGING AGENTS. SB1623 - RELATING TO MANAGING AGENTS. Sadly, as often is the case at the legislature, where some often work for campaign donations before they work for the people of Hawaii, none of these bills were scheduled. It is not too late to take what"
+      },
+      {
+        "chunk_number": 91,
+        "chunk_text": "were scheduled. It is not too late to take what is in these bills and amend some of the bills the Committee Chairs chose, which mostly do not provide the best solutions or enforceable solutions without condominium owners having to go to court. The #1 goal is to help condominium"
+      },
+      {
+        "chunk_number": 92,
+        "chunk_text": "go to court. The #1 goal is to help condominium owners so they do not have to go to court, and have a place to go where they are treated fairly, and where efficient and timely resolutions to issues and concerns can be administered (i.e., the Ombudsman’s Office for Condominium"
+      },
+      {
+        "chunk_number": 93,
+        "chunk_text": "concerns can be administered (i.e., the Ombudsman’s Office for Condominium Associations). I also ask our legislators to provide a simple breakdown of what they think this section will cost condominium owners if they attempt to enforce it? Any unit owner shall have standing to bring an action alleging a violation"
+      },
+      {
+        "chunk_number": 94,
+        "chunk_text": "shall have standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s 4 board. The association shall have the burden of proving substantial compliance"
+      },
+      {
+        "chunk_number": 95,
+        "chunk_text": "The association shall have the burden of proving substantial compliance with this section in any such action.” Will there be a state fund to subsidize the legal costs that may run into the many thousands of dollars if an owner tried to bring an action alleging a violation? Will you"
+      },
+      {
+        "chunk_number": 96,
+        "chunk_text": "tried to bring an action alleging a violation? Will you establish free legal counsel for those who can’t afford it (as you want to do for illegal aliens)? The people of Hawaii are counting on you to enact condominium consumer protection laws that help the residents of Hawaii, and not"
+      },
+      {
+        "chunk_number": 97,
+        "chunk_text": "protection laws that help the residents of Hawaii, and not ones that just give the illusion of helping. Your latest magic trick, to make an important section disappear that would have provided more consumer protections, just shows further how disconnected and disregarding some of our legislators are. Gregory Misakian Dear"
+      },
+      {
+        "chunk_number": 98,
+        "chunk_text": "and disregarding some of our legislators are. Gregory Misakian Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I OPPOSE H.B. No. 70, H.D.1., S.D.1. The new subsection (g) provides that “[a]ny unit owner shall have standing to bring an action alleging a violation of this"
+      },
+      {
+        "chunk_number": 99,
+        "chunk_text": "standing to bring an action alleging a violation of this section against an association that the unit owner is a member of, and may seek an injunction to enforce compliance with this section by the association’s board. The association shall have the burden of proving substantial compliance with this section"
+      },
+      {
+        "chunk_number": 100,
+        "chunk_text": "have the burden of proving substantial compliance with this section in any such action.” The last sentence which shifts the burden of proof to the association should be deleted. A party who brings an action should have the burden of proof. It is inconsistent with general principles of law to"
+      },
+      {
+        "chunk_number": 101,
+        "chunk_text": "proof. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. If an owner brings an action alleging that an association has violated HRS Section 514B-148, the owner should be required to put forth evidence of the violation. Respectfully submitted, Pamela J."
+      },
+      {
+        "chunk_number": 102,
+        "chunk_text": "put forth evidence of the violation. Respectfully submitted, Pamela J. Schell HB-70-SD-1 Submitted on: 3/24/2025 9:07:43 AM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Jessica Herzog Individual Support Written Testimony Only Comments: Testimony in Support of HB70 and Creation of an HOA Office For:"
+      },
+      {
+        "chunk_number": 103,
+        "chunk_text": "Support of HB70 and Creation of an HOA Office For: The Committee on Judiciary (CPC) Date: March 25, 2025 Time:10:01 am HST Aloha Chair Senator Karl Rhoads, Vice Chair Senator Mike Gabbard, and Members of the Committee, My name is Jessica Herzog, and I am a condominium owner and advocate"
+      },
+      {
+        "chunk_number": 104,
+        "chunk_text": "Jessica Herzog, and I am a condominium owner and advocate for fair governance within condominium associations. As a former AOAO board Treasurer who has personally witnessed and been a victim of embezzlement, I write today to express my strong support for HB70, which aims to improve transparency and accountability within"
+      },
+      {
+        "chunk_number": 105,
+        "chunk_text": "for HB70, which aims to improve transparency and accountability within our condominium associations. I also urge the establishment of a State-run, Association-funded HOA Office to enforce these provisions effectively and propose an essential amendment to the current bill. During my tenure as Treasurer, I experienced firsthand the lack of accountability"
+      },
+      {
+        "chunk_number": 106,
+        "chunk_text": "tenure as Treasurer, I experienced firsthand the lack of accountability that boards and management companies exhibit regarding their fiduciary responsibilities. This negligence directly undermines the top priority of our role, which is to protect the funds and best interests of the association. This has led me to advocate strongly for"
+      },
+      {
+        "chunk_number": 107,
+        "chunk_text": "the association. This has led me to advocate strongly for changes that ensure more rigorous oversight and accountability. Proposed Amendment: To further strengthen HB70, I propose an amendment that all financial work required for an AOAO's annual financial report must be performed by a licensed accountant, independent of the management"
+      },
+      {
+        "chunk_number": 108,
+        "chunk_text": "be performed by a licensed accountant, independent of the management company. This amendment is vital to prevent conflicts of interest and ensure accurate, unbiased financial reporting. Currently, management companies often handle these reports internally, claiming oversight by a single accountant for numerous properties, which can lead to discrepancies and a"
+      },
+      {
+        "chunk_number": 109,
+        "chunk_text": "for numerous properties, which can lead to discrepancies and a lack of transparency. The creation of an HOA Office, funded by the associations themselves, is crucial. This office would serve as a neutral and authoritative body capable of overseeing compliance with state condominium laws, mediating disputes, and ensuring that financial"
+      },
+      {
+        "chunk_number": 110,
+        "chunk_text": "with state condominium laws, mediating disputes, and ensuring that financial reports are handled appropriately and transparently. In conclusion, while I support HB70 and its intentions, these experiences and observations compel me to emphasize the need for the suggested changes and the establishment of an HOA Office. This office would not"
+      },
+      {
+        "chunk_number": 111,
+        "chunk_text": "the establishment of an HOA Office. This office would not only enforce legislative changes but also provide real protection, recourse, and a balanced mediation avenue for condominium owners, ensuring that the nightmares I experienced do not recur for others. Thank you for considering my testimony. I urge the committee to"
+      },
+      {
+        "chunk_number": 112,
+        "chunk_text": "you for considering my testimony. I urge the committee to support the enactment of HB70 along with the necessary amendments to establish a State-run HOA Office and require independent, licensed accountants for financial reporting within AOAOs. Mahalo nui loa, Jessica Herzog Condo Owner, Notary Public Member of the National Association"
+      },
+      {
+        "chunk_number": 113,
+        "chunk_text": "Herzog Condo Owner, Notary Public Member of the National Association of Parliamentarians mssc403@gmail.com | 707.340.5786 For more on our grassroots movement to reform condo laws please visit: https://www.leewardrepair.com/2025/01/26/regulatory-bills HB-70-SD-1 Submitted on: 3/24/2025 10:01:20 AM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Paul A. Ireland"
+      },
+      {
+        "chunk_number": 114,
+        "chunk_text": "AM Submitted By Organization Testifier Position Testify Paul A. Ireland Koftinow Individual Oppose Written Testimony Only Comments: Dear Senator Rhoads, Chair, Senator Gabbard, Vice Chair, and Members of the Committee: I am a condominium unit owner in Hawaii and I OPPOSE H.B. No. 70, H.D.1., S.D.1. I oppose this measure"
+      },
+      {
+        "chunk_number": 115,
+        "chunk_text": "OPPOSE H.B. No. 70, H.D.1., S.D.1. I oppose this measure because it will impose a burden of proof on an association when another unit owner brings an action against the association alleging a violation of HRS Section 514B- 148. The sentence imposing a burden of proof on associations in such"
+      },
+      {
+        "chunk_number": 116,
+        "chunk_text": "sentence imposing a burden of proof on associations in such actions (page 5, line 21, through page 6, line 2) should be deleted. A party who brings an action should have the burden of proof (by presenting evidence that shows their claim meets certain requirements), and a defendant should be"
+      },
+      {
+        "chunk_number": 117,
+        "chunk_text": "their claim meets certain requirements), and a defendant should be given the opportunity to respond to the allegations. It is inconsistent with general principles of law to shift the burden of proof entirely to the defendant. Respectfully submitted, Paul A. Ireland Koftinow \u0010\u0005\u0018 HB-70-SD-1 Submitted on: 3/24/2025 1:40:51 PM Testimony"
+      },
+      {
+        "chunk_number": 118,
+        "chunk_text": "Ireland Koftinow \u0010\u0005\u0018 HB-70-SD-1 Submitted on: 3/24/2025 1:40:51 PM Testimony for JDC on 3/25/2025 10:01:00 AM Submitted By Organization Testifier Position Testify Lila Mower Individual Support Written Testimony Only Comments: I support this measure. \u0010\u0005\u0018"
+      },
+      {
+        "chunk_number": 119,
+        "chunk_text": "SSCR1509 STAND. COM. REP. NO. 1509 Honolulu, Hawaii RE: H.B. No. 70 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Judiciary, to which was referred H.B. No. 70, H.D. 1, S.D. 1,"
+      },
+      {
+        "chunk_number": 120,
+        "chunk_text": "which was referred H.B. No. 70, H.D. 1, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO CONDOMINIUM,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Require budget summaries to contain all required information without referring the reader to other portions"
+      },
+      {
+        "chunk_number": 121,
+        "chunk_text": "all required information without referring the reader to other portions of the budget; and (2) Clarify the ability to enforce compliance with budget summary and replacement reserves requirements and provides that an association has the burden of proving compliance. Your Committee received testimony in support of this measure from the"
+      },
+      {
+        "chunk_number": 122,
+        "chunk_text": "Committee received testimony in support of this measure from the Hawai ʻ i Association of REALTORS, Community Associations Institute Hawaii, Hawaii First Realty, and five individuals. Your Committee received testimony in opposition to this measure from the Palehua Townhouse Association, Honolulu Tower Association of Apartment Owners, and eleven individuals. Your"
+      },
+      {
+        "chunk_number": 123,
+        "chunk_text": "Honolulu Tower Association of Apartment Owners, and eleven individuals. Your Committee received comments on this measure from one individual. Your Committee finds that condominium owners are entitled to disclosure of information about the replacement reserves maintained by a condominium association in which they own a unit. Additionally, the Legislature recently"
+      },
+      {
+        "chunk_number": 124,
+        "chunk_text": "in which they own a unit. Additionally, the Legislature recently passed Act 62, Session Laws of Hawaii 2022, which requires a budget summary with additional details to be prepared on the financial condition of an association. This measure will further enhance transparency and provide both owners and prospective purchasers with"
+      },
+      {
+        "chunk_number": 125,
+        "chunk_text": "enhance transparency and provide both owners and prospective purchasers with valuable insights into the association's financial health by requiring these budget summaries to contain all required information. As affirmed by the record of votes of the members of your Committee on Judiciary that is attached to this report, your Committee"
+      },
+      {
+        "chunk_number": 126,
+        "chunk_text": "on Judiciary that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 70, H.D. 1, S.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Judiciary, ________________________________ KARL RHOADS, Chair"
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-16T15:32:33.970099",
+  "generation_timestamp_unix": 1760664753.970103
 }

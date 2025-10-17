@@ -7,17 +7,17 @@
     "HB727"
   ],
   "numbers_used": 0,
-  "prompt_length": 9988,
+  "prompt_length": 9394,
   "response_metadata": {
-    "response_text": "{\n  \"overview\": \"This measure makes the Women's Court Pilot Program in the First Circuit permanent. [CHUNK_13] It also establishes a three—year Women's Court Pilot Program in the circuit court of the Kona division of the Third Circuit, which is intended to acknowledge the distinct pathways that lead women into the criminal justice system and address their individualized needs. [CHUNK_14] The Judiciary is required to submit a report to the Legislature regarding the need for and the associated costs of a pilot program for Women's Court in the Second and Firth Circuits and Hilo division of the Third Circuit. [CHUNK_18]\",\n  \"appropriations\": \"Your Committee has amended this measure by inserting an appropriation amount of $514,900 (HB727) for fiscal year 2025-2026 and $557,000 (HB727) for fiscal year 2026-2027. [CHUNK_15] These funds are for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit. [CHUNK_15] The measure deletes language that would have appropriated an unspecified amount of funds to the Department of Health for an unspecified number of temporary positions. [CHUNK_16]\",\n  \"assumptions_and_methodology\": \"The fiscal projections are based on the success of the First District's Mohala Wahine program, which has been operational since January 2023. [CHUNK_5] [CHUNK_6] The need for the program in the Third Circuit is based on data and information provided by the Judiciary in testimony at the public hearing on this measure. [CHUNK_11] The provided document does not specify the cost estimation methods or data sources used to calculate the financial projections. [CHUNK_15]\",\n  \"agency_impact\": \"The Women's Court Pilot Program in the Kona division of the Third Circuit will be under the supervision of the Big Island Drug Court. [CHUNK_14] [CHUNK_15] The appropriation provides for two temporary positions for the pilot program. [CHUNK_15] The Judiciary is required to submit a report to the Legislature no later than forty days prior to the Regular Session of 2026 regarding the need for and associated costs of expanding the pilot program. [CHUNK_17] [CHUNK_18]\",\n  \"economic_impact\": \"Mohala Wahine aims to enhance community safety by reducing recidivism through evidence-based, trauma-informed care, and cultural practices. [CHUNK_7] The program addresses crime motivators such as substance abuse, mental health, and homelessness. [CHUNK_9] The existing Women's Court Pilot Program has been successful, with eleven participants in phase one of treatment and twelve participants in phase two of treatment. [CHUNK_8]\",\n  \"policy_impact\": \"This measure amends prior law by inserting language making the Women's Court Pilot Program in the First Circuit permanent. [CHUNK_13] It establishes a new three—year Women's Court Pilot Program in the circuit court of the Kona division of the Third Circuit, rather than the Second and Fifth Circuits as originally proposed. [CHUNK_14] The measure also deletes language that would have required the Third Circuit of the Judiciary and Big Island Drug Court to conduct an interim study to establish a blueprint for a Women's Court Pilot Program in the Third Circuit. [CHUNK_16] [CHUNK_17]\",\n  \"revenue_sources\": \"The measure provides appropriations to fund the program. [CHUNK_15] An appropriation of $514,900 (HB727) is specified for fiscal year 2025-2026. [CHUNK_15] A second appropriation of $557,000 (HB727) is specified for fiscal year 2026-2027. [CHUNK_15]\",\n  \"six_year_fiscal_implications\": \"The measure appropriates $514,900 (HB727) for fiscal year 2025-2026. [CHUNK_15] It also appropriates $557,000 (HB727) for fiscal year 2026-2027. [CHUNK_15] These funds are for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit. [CHUNK_15] This is a three—year Women's Court Pilot Program, but funding for the third year is not specified. [CHUNK_14] The measure also makes the Women's Court Pilot Program in the First Circuit permanent, which implies ongoing fiscal obligations not detailed in the document. [CHUNK_13] The Judiciary must submit a report by the 2026 Regular Session regarding the need for and the associated costs of a pilot program in other circuits. [CHUNK_18] This report may lead to future fiscal implications. [CHUNK_18] The document does not provide a fiscal outlook beyond the two appropriated years. [CHUNK_15]\",\n  \"operating_revenue_impact\": \"The provided document does not specify any anticipated impacts on operating revenues resulting from this measure. [CHUNK_15]\",\n  \"capital_expenditure_impact\": \"The provided document does not outline any expected capital expenditures related to this measure. [CHUNK_15] The appropriations are for services and two temporary positions. [CHUNK_15] No investments in facilities, equipment, or technology infrastructure are mentioned. [CHUNK_15]\",\n  \"fiscal_implications_after_6_years\": \"The Women's Court Pilot Program in the First Circuit is made permanent, which will result in ongoing fiscal obligations beyond the six-year period. [CHUNK_13] The three-year Women's Court Pilot Program in the Kona division would require additional appropriations to continue after its initial period. [CHUNK_14] A required report on expanding the program to other circuits could result in additional fiscal implications in future years. [CHUNK_18]\",\n  \"updates_from_previous_fiscal_note\": \"A previous fiscal note was not provided in the context documents. [CHUNK_0]\"\n}",
+    "response_text": "{\n  \"overview\": \"The purpose of this Act is to establish a three-year women's court pilot program in the circuit court of the second, third, and fifth circuits. [CHUNK_6] This program is intended to acknowledge the distinct pathways that lead women into the criminal justice system and address their individualized needs. [CHUNK_7] The Act establishes temporary positions, requires a report, appropriates funds, and sunsets on 6/30/2028. [CHUNK_18]\",\n  \"appropriations\": \"There is appropriated out of the general revenues of the State of Hawaii the sum of $ (HB727) or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027. [CHUNK_10] The funds are for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions. [CHUNK_11] The sums appropriated shall be expended by the judiciary for the purposes of this Act. [CHUNK_13]\",\n  \"assumptions_and_methodology\": \"The bill builds upon Act 243, Session Laws of Hawaii 2022, which established a three-year women's court pilot program in the circuit court of the first circuit. [CHUNK_3] This existing program, known as Mohala Wahine, began accepting participants in January of 2023, with a goal of admitting twenty women each year. [CHUNK_5] The proposed expansion requires the establishment of seven temporary positions, including social worker V, social worker IV, circuit court clerk II, and judicial clerk positions. [CHUNK_11] [CHUNK_12]\",\n  \"agency_impact\": \"The judiciary is tasked with establishing the women's court pilot program within the second, third, and fifth circuits. [CHUNK_7] The judiciary will be responsible for expending the appropriated sums for equipment, services, and the establishment of seven temporary positions. [CHUNK_11] [CHUNK_13] The judiciary shall also submit a report of its findings and recommendations to the governor and legislature prior to the regular sessions of 2026, 2027, and 2028. [CHUNK_14]\",\n  \"economic_impact\": \"The pilot program's goal is diverting participants from incarceration, supporting their success in the community, and reducing recidivism. [CHUNK_8] Research reflects that for women, histories of abuse, trauma, poverty, mental illness, substance use disorders, and unhealthy relationships intersect with their entry into criminal behavior. [CHUNK_2] By providing services like trauma and mental health treatment, housing support, and vocational training, the program addresses unique barriers to success after incarceration. [CHUNK_9] [CHUNK_2]\",\n  \"policy_impact\": \"This Act expands upon the policy established by Act 243, Session Laws of Hawaii 2022, which created a women's court pilot program in the first circuit. [CHUNK_3] It establishes a temporary three-year woman's court pilot program within the second, third, and fifth circuits, which is set to be repealed on June 30, 2028. [CHUNK_18] [CHUNK_17] The judiciary's required reports will include recommendations as to whether the pilot program should continue, expand, provide additional services, or be discontinued, informing future policy decisions. [CHUNK_16]\",\n  \"revenue_sources\": \"The bill appropriates funds out of the general revenues of the State of Hawaii. [CHUNK_10] No other revenue sources are mentioned in the provided text. [CHUNK_10]\",\n  \"six_year_fiscal_implications\": \"The Act establishes a three-year pilot program with fiscal implications from its effective date of July 1, 2025, to its repeal date of June 30, 2028. [CHUNK_17] An unspecified sum is appropriated from general revenues for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027. [CHUNK_10] These funds are for equipment, mental health, substance abuse treatment, and other services. [CHUNK_11] The appropriation also covers the establishment of seven temporary positions. [CHUNK_11] These positions include full-time equivalent social worker V positions, social worker IV positions, circuit court clerk II positions, and judicial clerk positions. [CHUNK_12] While the program runs for three years, appropriations are only specified for the first two years. [CHUNK_11] The judiciary is required to submit reports annually before the 2026, 2027, and 2028 legislative sessions. [CHUNK_14] These reports will include recommendations on whether the program should continue, expand, or be discontinued. [CHUNK_16] The fiscal implications beyond the three-year pilot period will depend on future legislation based on these recommendations. [CHUNK_16]\",\n  \"operating_revenue_impact\": \"The provided text does not indicate any anticipated impact on operating revenues resulting from this measure. [CHUNK_10]\",\n  \"capital_expenditure_impact\": \"The measure appropriates an unspecified amount for equipment for fiscal years 2025-2026 and 2026-2027. [CHUNK_11] No other capital expenditures are specified in the bill. [CHUNK_11]\",\n  \"fiscal_implications_after_6_years\": \"This Act shall be repealed on June 30, 2028. [CHUNK_17] The judiciary is required to submit a report with recommendations as to whether the women's court pilot program should continue, expand, or be discontinued. [CHUNK_16] Any ongoing fiscal obligations after the pilot program's sunset date are contingent upon future legislative action based on the program's outcomes and the judiciary's recommendations. [CHUNK_16]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the context.\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 4314,
-      "candidates_token_count": 1337,
-      "total_token_count": 7633
+      "prompt_token_count": 4278,
+      "candidates_token_count": 1331,
+      "total_token_count": 6819
     },
     "candidates": [
       {
@@ -27,7 +27,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n  \"overview\": \"This measure makes the Women's Court Pilot Program in the First Circuit permanent. [CHUNK_13] It also establishes a three—year Women's Court Pilot Program in the circuit court of the Kona division of the Third Circuit, which is intended to acknowledge the distinct pathways that lead women into the criminal justice system and address their individualized needs. [CHUNK_14] The Judiciary is required to submit a report to the Legislature regarding the need for and the associated costs of a pilot program for Women's Court in the Second and Firth Circuits and Hilo division of the Third Circuit. [CHUNK_18]\",\n  \"appropriations\": \"Your Committee has amended this measure by inserting an appropriation amount of $514,900 (HB727) for fiscal year 2025-2026 and $557,000 (HB727) for fiscal year 2026-2027. [CHUNK_15] These funds are for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit. [CHUNK_15] The measure deletes language that would have appropriated an unspecified amount of funds to the Department of Health for an unspecified number of temporary positions. [CHUNK_16]\",\n  \"assumptions_and_methodology\": \"The fiscal projections are based on the success of the First District's Mohala Wahine program, which has been operational since January 2023. [CHUNK_5] [CHUNK_6] The need for the program in the Third Circuit is based on data and information provided by the Judiciary in testimony at the public hearing on this measure. [CHUNK_11] The provided document does not specify the cost estimation methods or data sources used to calculate the financial projections. [CHUNK_15]\",\n  \"agency_impact\": \"The Women's Court Pilot Program in the Kona division of the Third Circuit will be under the supervision of the Big Island Drug Court. [CHUNK_14] [CHUNK_15] The appropriation provides for two temporary positions for the pilot program. [CHUNK_15] The Judiciary is required to submit a report to the Legislature no later than forty days prior to the Regular Session of 2026 regarding the need for and associated costs of expanding the pilot program. [CHUNK_17] [CHUNK_18]\",\n  \"economic_impact\": \"Mohala Wahine aims to enhance community safety by reducing recidivism through evidence-based, trauma-informed care, and cultural practices. [CHUNK_7] The program addresses crime motivators such as substance abuse, mental health, and homelessness. [CHUNK_9] The existing Women's Court Pilot Program has been successful, with eleven participants in phase one of treatment and twelve participants in phase two of treatment. [CHUNK_8]\",\n  \"policy_impact\": \"This measure amends prior law by inserting language making the Women's Court Pilot Program in the First Circuit permanent. [CHUNK_13] It establishes a new three—year Women's Court Pilot Program in the circuit court of the Kona division of the Third Circuit, rather than the Second and Fifth Circuits as originally proposed. [CHUNK_14] The measure also deletes language that would have required the Third Circuit of the Judiciary and Big Island Drug Court to conduct an interim study to establish a blueprint for a Women's Court Pilot Program in the Third Circuit. [CHUNK_16] [CHUNK_17]\",\n  \"revenue_sources\": \"The measure provides appropriations to fund the program. [CHUNK_15] An appropriation of $514,900 (HB727) is specified for fiscal year 2025-2026. [CHUNK_15] A second appropriation of $557,000 (HB727) is specified for fiscal year 2026-2027. [CHUNK_15]\",\n  \"six_year_fiscal_implications\": \"The measure appropriates $514,900 (HB727) for fiscal year 2025-2026. [CHUNK_15] It also appropriates $557,000 (HB727) for fiscal year 2026-2027. [CHUNK_15] These funds are for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit. [CHUNK_15] This is a three—year Women's Court Pilot Program, but funding for the third year is not specified. [CHUNK_14] The measure also makes the Women's Court Pilot Program in the First Circuit permanent, which implies ongoing fiscal obligations not detailed in the document. [CHUNK_13] The Judiciary must submit a report by the 2026 Regular Session regarding the need for and the associated costs of a pilot program in other circuits. [CHUNK_18] This report may lead to future fiscal implications. [CHUNK_18] The document does not provide a fiscal outlook beyond the two appropriated years. [CHUNK_15]\",\n  \"operating_revenue_impact\": \"The provided document does not specify any anticipated impacts on operating revenues resulting from this measure. [CHUNK_15]\",\n  \"capital_expenditure_impact\": \"The provided document does not outline any expected capital expenditures related to this measure. [CHUNK_15] The appropriations are for services and two temporary positions. [CHUNK_15] No investments in facilities, equipment, or technology infrastructure are mentioned. [CHUNK_15]\",\n  \"fiscal_implications_after_6_years\": \"The Women's Court Pilot Program in the First Circuit is made permanent, which will result in ongoing fiscal obligations beyond the six-year period. [CHUNK_13] The three-year Women's Court Pilot Program in the Kona division would require additional appropriations to continue after its initial period. [CHUNK_14] A required report on expanding the program to other circuits could result in additional fiscal implications in future years. [CHUNK_18]\",\n  \"updates_from_previous_fiscal_note\": \"A previous fiscal note was not provided in the context documents. [CHUNK_0]\"\n}"
+              "text": "{\n  \"overview\": \"The purpose of this Act is to establish a three-year women's court pilot program in the circuit court of the second, third, and fifth circuits. [CHUNK_6] This program is intended to acknowledge the distinct pathways that lead women into the criminal justice system and address their individualized needs. [CHUNK_7] The Act establishes temporary positions, requires a report, appropriates funds, and sunsets on 6/30/2028. [CHUNK_18]\",\n  \"appropriations\": \"There is appropriated out of the general revenues of the State of Hawaii the sum of $ (HB727) or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027. [CHUNK_10] The funds are for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions. [CHUNK_11] The sums appropriated shall be expended by the judiciary for the purposes of this Act. [CHUNK_13]\",\n  \"assumptions_and_methodology\": \"The bill builds upon Act 243, Session Laws of Hawaii 2022, which established a three-year women's court pilot program in the circuit court of the first circuit. [CHUNK_3] This existing program, known as Mohala Wahine, began accepting participants in January of 2023, with a goal of admitting twenty women each year. [CHUNK_5] The proposed expansion requires the establishment of seven temporary positions, including social worker V, social worker IV, circuit court clerk II, and judicial clerk positions. [CHUNK_11] [CHUNK_12]\",\n  \"agency_impact\": \"The judiciary is tasked with establishing the women's court pilot program within the second, third, and fifth circuits. [CHUNK_7] The judiciary will be responsible for expending the appropriated sums for equipment, services, and the establishment of seven temporary positions. [CHUNK_11] [CHUNK_13] The judiciary shall also submit a report of its findings and recommendations to the governor and legislature prior to the regular sessions of 2026, 2027, and 2028. [CHUNK_14]\",\n  \"economic_impact\": \"The pilot program's goal is diverting participants from incarceration, supporting their success in the community, and reducing recidivism. [CHUNK_8] Research reflects that for women, histories of abuse, trauma, poverty, mental illness, substance use disorders, and unhealthy relationships intersect with their entry into criminal behavior. [CHUNK_2] By providing services like trauma and mental health treatment, housing support, and vocational training, the program addresses unique barriers to success after incarceration. [CHUNK_9] [CHUNK_2]\",\n  \"policy_impact\": \"This Act expands upon the policy established by Act 243, Session Laws of Hawaii 2022, which created a women's court pilot program in the first circuit. [CHUNK_3] It establishes a temporary three-year woman's court pilot program within the second, third, and fifth circuits, which is set to be repealed on June 30, 2028. [CHUNK_18] [CHUNK_17] The judiciary's required reports will include recommendations as to whether the pilot program should continue, expand, provide additional services, or be discontinued, informing future policy decisions. [CHUNK_16]\",\n  \"revenue_sources\": \"The bill appropriates funds out of the general revenues of the State of Hawaii. [CHUNK_10] No other revenue sources are mentioned in the provided text. [CHUNK_10]\",\n  \"six_year_fiscal_implications\": \"The Act establishes a three-year pilot program with fiscal implications from its effective date of July 1, 2025, to its repeal date of June 30, 2028. [CHUNK_17] An unspecified sum is appropriated from general revenues for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027. [CHUNK_10] These funds are for equipment, mental health, substance abuse treatment, and other services. [CHUNK_11] The appropriation also covers the establishment of seven temporary positions. [CHUNK_11] These positions include full-time equivalent social worker V positions, social worker IV positions, circuit court clerk II positions, and judicial clerk positions. [CHUNK_12] While the program runs for three years, appropriations are only specified for the first two years. [CHUNK_11] The judiciary is required to submit reports annually before the 2026, 2027, and 2028 legislative sessions. [CHUNK_14] These reports will include recommendations on whether the program should continue, expand, or be discontinued. [CHUNK_16] The fiscal implications beyond the three-year pilot period will depend on future legislation based on these recommendations. [CHUNK_16]\",\n  \"operating_revenue_impact\": \"The provided text does not indicate any anticipated impact on operating revenues resulting from this measure. [CHUNK_10]\",\n  \"capital_expenditure_impact\": \"The measure appropriates an unspecified amount for equipment for fiscal years 2025-2026 and 2026-2027. [CHUNK_11] No other capital expenditures are specified in the bill. [CHUNK_11]\",\n  \"fiscal_implications_after_6_years\": \"This Act shall be repealed on June 30, 2028. [CHUNK_17] The judiciary is required to submit a report with recommendations as to whether the women's court pilot program should continue, expand, or be discontinued. [CHUNK_16] Any ongoing fiscal obligations after the pilot program's sunset date are contingent upon future legislative action based on the program's outcomes and the judiciary's recommendations. [CHUNK_16]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the context.\"\n}"
             }
           ]
         },
@@ -36,12 +36,12 @@
       }
     ],
     "chunks_metadata": {
-      "total_chunks": 20,
+      "total_chunks": 19,
       "chunk_details": [
         {
           "chunk_id": 0,
           "document_name": "HB727",
-          "chunk_text": "SSCR1240 STAND. COM. REP. NO. 1240 Honolulu, Hawaii RE: H.B. No. 727 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Judiciary, to which was referred H.B. No. 727, H.D. 1, entitled: \"A",
+          "chunk_text": "HB727 HOUSE OF REPRESENTATIVES H.B. NO. 727 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to the women's court . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that there has been a significant increase in the number",
           "start_word": 0,
           "end_word": 50,
           "word_count": 50
@@ -49,7 +49,7 @@
         {
           "chunk_id": 1,
           "document_name": "HB727",
-          "chunk_text": "which was referred H.B. No. 727, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO THE WOMEN'S COURT,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Establish a three—year Women's Court Pilot Program in the circuit court of the Second and",
+          "chunk_text": "that there has been a significant increase in the number of women in Hawai ‘ i jails and prisons over the past forty years, resulting in a higher proportion of women who are incarcerated. Research reflects that for women, histories of abuse, trauma, poverty, mental illness, substance use disorders, and",
           "start_word": 40,
           "end_word": 90,
           "word_count": 50
@@ -57,7 +57,7 @@
         {
           "chunk_id": 2,
           "document_name": "HB727",
-          "chunk_text": "Pilot Program in the circuit court of the Second and Fifth Circuits, which is intended to acknowledge the distinct pathways that lead women into the criminal justice system and address their individualized needs; and (2) Require the Third Circuit of the Judiciary and Big Island Drug Court to conduct an",
+          "chunk_text": "of abuse, trauma, poverty, mental illness, substance use disorders, and unhealthy relationships intersect with their entry into criminal behavior. Women offenders also face unique barriers to success after incarceration. They are more likely to be primary caregivers for young children, have lower educational attainment, lack stable work history, and experience",
           "start_word": 80,
           "end_word": 130,
           "word_count": 50
@@ -65,7 +65,7 @@
         {
           "chunk_id": 3,
           "document_name": "HB727",
-          "chunk_text": "the Judiciary and Big Island Drug Court to conduct an interim study to establish a blueprint for a Women's Court Pilot Program in the Third Circuit. Your Committee received testimony in support of this measure from the Judiciary, Department of Health, Office of the Public Defender, State Council on Mental",
+          "chunk_text": "have lower educational attainment, lack stable work history, and experience economic or social marginalization, which prevents them from having more positive outcomes. The legislature further finds that Act 243, Session Laws of Hawaii 2022, established a three-year women's court pilot program in the circuit court of the first circuit. This",
           "start_word": 120,
           "end_word": 170,
           "word_count": 50
@@ -73,7 +73,7 @@
         {
           "chunk_id": 4,
           "document_name": "HB727",
-          "chunk_text": "Health, Office of the Public Defender, State Council on Mental Health, Department of the Prosecuting Attorney of the County of Maui, Office of the Prosecuting Attorney of the County of Hawai ʻ i, County of Hawai ʻ i Committee on the Status of Women, Hawaii Substance Abuse Coalition, West Hawaii",
+          "chunk_text": "program in the circuit court of the first circuit. This program, known as Mohala Wahine, focuses on non-violent women who are at high risk of recidivism and in need of multiple services such as substance abuse treatment, therapy, or housing. The program began accepting participants in January of 2023, with",
           "start_word": 160,
           "end_word": 210,
           "word_count": 50
@@ -81,7 +81,7 @@
         {
           "chunk_id": 5,
           "document_name": "HB727",
-          "chunk_text": "the Status of Women, Hawaii Substance Abuse Coalition, West Hawaii Bar Association, Community Alliance on Prisons, and nine individuals. Your Committee finds that Mohala Wahine, or the State's Women's Court three-year pilot program, was established in the First Circuit by Act 243, Session Laws of Hawaii 2022, and has been",
+          "chunk_text": "The program began accepting participants in January of 2023, with a goal of admitting twenty women each year. As of August, 2024, twenty-three women are currently participating in the program, with eleven participants in phase one of treatment and twelve participants in phase two of treatment. The purpose of this",
           "start_word": 200,
           "end_word": 250,
           "word_count": 50
@@ -89,7 +89,7 @@
         {
           "chunk_id": 6,
           "document_name": "HB727",
-          "chunk_text": "Act 243, Session Laws of Hawaii 2022, and has been operational since January 2023. The mission of Mohala Wahine is to assist and guide participants in meeting their legal and statutory responsibilities and to facilitate change in the participants' well-being by providing gender-responsive services that uphold the mission of the",
+          "chunk_text": "participants in phase two of treatment. The purpose of this Act is to establish a three-year women's court pilot program in the circuit court of the second, third, and fifth circuits, which is intended to acknowledge the distinct pathways that lead women into the criminal justice system and address their",
           "start_word": 240,
           "end_word": 290,
           "word_count": 50
@@ -97,7 +97,7 @@
         {
           "chunk_id": 7,
           "document_name": "HB727",
-          "chunk_text": "by providing gender-responsive services that uphold the mission of the State's Judiciary and the Adult Client Services Branch. Additionally, Mohala Wahine aims to enhance community safety by reducing recidivism through evidence-based, trauma-informed care, and cultural practices. Your Committee further finds that thus far, the Women's Court Pilot Program has been",
+          "chunk_text": "lead women into the criminal justice system and address their individualized needs. SECTION 2. (a) There is established within the second, third, and fifth circuits of the judiciary the women's court pilot program. The pilot program shall implement trauma-informed and evidence-based practices, employ gender-responsive programming, collaborate with stakeholders, and provide",
           "start_word": 280,
           "end_word": 330,
           "word_count": 50
@@ -105,7 +105,7 @@
         {
           "chunk_id": 8,
           "document_name": "HB727",
-          "chunk_text": "that thus far, the Women's Court Pilot Program has been successful, with eleven participants in phase one of treatment and twelve participants in phase two of treatment. Given the success of the First District's Mohala Wahine, your Committee believes that the Mohala Wahine Pilot Program should become permanent. Your Committee",
+          "chunk_text": "evidence-based practices, employ gender-responsive programming, collaborate with stakeholders, and provide services to women in the court system with the goal of diverting participants from incarceration, supporting their success in the community, and reducing recidivism. (b) The services offered by the program shall address the following areas: (1) Trauma and mental",
           "start_word": 320,
           "end_word": 370,
           "word_count": 50
@@ -113,7 +113,7 @@
         {
           "chunk_id": 9,
           "document_name": "HB727",
-          "chunk_text": "the Mohala Wahine Pilot Program should become permanent. Your Committee additionally finds that the Third Circuit, specifically the Kona area, is at a disadvantage to address crime motivators such as substance abuse, mental health, and homelessness, given its limited community resources and funding, geographic restrictions, limitations of court supervision authorities,",
+          "chunk_text": "program shall address the following areas: (1) Trauma and mental health treatment; (2) Family support, including parenting, education, and relationship improvement; (3) Life-skills training; (4) Education and vocational training; (5) Domestic violence prevention; (6) Medical services and health education; (7) Substance abuse detection, prevention, and treatment; (8) Mentoring; and (9)",
           "start_word": 360,
           "end_word": 410,
           "word_count": 50
@@ -121,7 +121,7 @@
         {
           "chunk_id": 10,
           "document_name": "HB727",
-          "chunk_text": "resources and funding, geographic restrictions, limitations of court supervision authorities, overcrowded correctional facilities, understaffed law enforcement, and shortage of direct service providers. Additionally, Hawaii County has the highest poverty rate in the State, high rates of domestic violence, and limited opportunities for employment, all of which disproportionately impact women, who",
+          "chunk_text": "Substance abuse detection, prevention, and treatment; (8) Mentoring; and (9) Housing support. SECTION 3. There is appropriated out of the general revenues of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much",
           "start_word": 400,
           "end_word": 450,
           "word_count": 50
@@ -129,7 +129,7 @@
         {
           "chunk_id": 11,
           "document_name": "HB727",
-          "chunk_text": "opportunities for employment, all of which disproportionately impact women, who are more likely to be victims of violence and more likely to have dependent children in their care. Your Committee believes that, based on data and information provided by the Judiciary in testimony at the public hearing on this measure,",
+          "chunk_text": "fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions as follows: (1) full-time equivalent ( FTE) social worker V positions; (2) full-time equivalent",
           "start_word": 440,
           "end_word": 490,
           "word_count": 50
@@ -137,7 +137,7 @@
         {
           "chunk_id": 12,
           "document_name": "HB727",
-          "chunk_text": "Judiciary in testimony at the public hearing on this measure, closing the service gap for the most at-risk women in the Kona area of the Third District is imperative. This measure will support women in the State dealing with trauma, abuse, unhealthy relationships, and more by providing substance abuse treatment,",
+          "chunk_text": "equivalent ( FTE) social worker V positions; (2) full-time equivalent ( FTE) social worker IV positions; (3) full-time equivalent ( FTE) circuit court clerk II positions; and (4) full-time equivalent ( FTE) judicial clerk positions; for the women's court pilot program established pursuant to section 2 of this Act. The",
           "start_word": 480,
           "end_word": 530,
           "word_count": 50
@@ -145,7 +145,7 @@
         {
           "chunk_id": 13,
           "document_name": "HB727",
-          "chunk_text": "abuse, unhealthy relationships, and more by providing substance abuse treatment, mental health support, and assistance with navigating the criminal and social services systems. Accordingly, your Committee has amended this measure by: (1) Inserting language making the Women's Court Pilot Program in the First Circuit permanent; (2) Establishing a three—year Women's",
+          "chunk_text": "program established pursuant to section 2 of this Act. The sums appropriated shall be expended by the judiciary for the purposes of this Act. SECTION 4. The judiciary shall submit a report of its findings and recommendations, including any proposed legislation, to the governor and legislature no later than forty",
           "start_word": 520,
           "end_word": 570,
           "word_count": 50
@@ -153,7 +153,7 @@
         {
           "chunk_id": 14,
           "document_name": "HB727",
-          "chunk_text": "in the First Circuit permanent; (2) Establishing a three—year Women's Court Pilot Program in the circuit court of the Kona division of the Third Circuit, rather than the Second and Fifth Circuits; (3) Specifying that the Women's Court Pilot Program is under the supervision of the Big Island Drug Court;",
+          "chunk_text": "legislation, to the governor and legislature no later than forty days prior to the convening of the regular sessions of 2026, 2027, and 2028 , regarding: (1) The status of the women's court pilot program; (2) The number of women accepted into the pilot program; (3) The number of women",
           "start_word": 560,
           "end_word": 610,
           "word_count": 50
@@ -161,7 +161,7 @@
         {
           "chunk_id": 15,
           "document_name": "HB727",
-          "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
+          "chunk_text": "accepted into the pilot program; (3) The number of women who were eligible to participate in the pilot program but who could not be accepted into the program because of program limitations; (4) The number of women completing the pilot program; (5) The number of women who were removed from",
           "start_word": 600,
           "end_word": 650,
           "word_count": 50
@@ -169,7 +169,7 @@
         {
           "chunk_id": 16,
           "document_name": "HB727",
-          "chunk_text": "the Kona division of the Third Circuit; (5) Deleting language that would have appropriated an unspecified amount of funds to the Department of Health for an unspecified number of temporary positions; (6) Deleting language that would have required the Third Circuit of the Judiciary and Big Island Drug Court to",
+          "chunk_text": "program; (5) The number of women who were removed from the pilot program; and (6) Recommendations as to whether the women's court pilot program should: (A) Continue as a pilot program; (B) Expand to include additional participants; (C) Provide additional services; or (D) Be discontinued. SECTION 5. This Act shall",
           "start_word": 640,
           "end_word": 690,
           "word_count": 50
@@ -177,7 +177,7 @@
         {
           "chunk_id": 17,
           "document_name": "HB727",
-          "chunk_text": "Circuit of the Judiciary and Big Island Drug Court to conduct an interim study to establish a blueprint for a Women's Court Pilot Program in the Third Circuit; (7) Requiring the Judiciary to submit a report to the Legislature no later than forty days prior to the Regular Session of",
+          "chunk_text": "services; or (D) Be discontinued. SECTION 5. This Act shall take effect on July 1, 2025, and shall be repealed on June 30, 2028. INTRODUCED BY: _____________________________ Report Title: Women's Court Pilot Program; Report; Appropriation Description: Establishes a temporary three-year woman's court pilot program within the second, third, and fifth",
           "start_word": 680,
           "end_word": 730,
           "word_count": 50
@@ -185,18 +185,10 @@
         {
           "chunk_id": 18,
           "document_name": "HB727",
-          "chunk_text": "later than forty days prior to the Regular Session of 2026 regarding the need for and the associated costs of a pilot program for Women's Court in the Second and Firth Circuits and Hilo division of the Third Circuit; (8) Amending section 1 to reflect its amended purpose; (9) Inserting",
+          "chunk_text": "woman's court pilot program within the second, third, and fifth circuits. Establishes temporary positions. Requires a report. Appropriates funds. Sunsets 6/30/2028. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
           "start_word": 720,
-          "end_word": 770,
-          "word_count": 50
-        },
-        {
-          "chunk_id": 19,
-          "document_name": "HB727",
-          "chunk_text": "Amending section 1 to reflect its amended purpose; (9) Inserting an effective date of April 23, 2057, to encourage further disc",
-          "start_word": 760,
-          "end_word": 781,
-          "word_count": 21
+          "end_word": 764,
+          "word_count": 44
         }
       ]
     },
@@ -204,68 +196,78 @@
     "chunk_text_map": {
       "1": [
         {
-          "chunk_text": "abuse, unhealthy relationships, and more by providing substance abuse treatment, mental health support, and assistance with navigating the criminal and social services systems. Accordingly, your Committee has amended this measure by: (1) Inserting language making the Women's Court Pilot Program in the First Circuit permanent; (2) Establishing a three—year Women's",
-          "chunk_id": 13,
-          "document_name": "HB727"
-        },
-        {
-          "chunk_text": "in the First Circuit permanent; (2) Establishing a three—year Women's Court Pilot Program in the circuit court of the Kona division of the Third Circuit, rather than the Second and Fifth Circuits; (3) Specifying that the Women's Court Pilot Program is under the supervision of the Big Island Drug Court;",
-          "chunk_id": 14,
-          "document_name": "HB727"
-        },
-        {
-          "chunk_text": "later than forty days prior to the Regular Session of 2026 regarding the need for and the associated costs of a pilot program for Women's Court in the Second and Firth Circuits and Hilo division of the Third Circuit; (8) Amending section 1 to reflect its amended purpose; (9) Inserting",
-          "chunk_id": 18,
-          "document_name": "HB727"
-        },
-        {
-          "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
-          "chunk_id": 15,
-          "document_name": "HB727"
-        },
-        {
-          "chunk_text": "the Kona division of the Third Circuit; (5) Deleting language that would have appropriated an unspecified amount of funds to the Department of Health for an unspecified number of temporary positions; (6) Deleting language that would have required the Third Circuit of the Judiciary and Big Island Drug Court to",
-          "chunk_id": 16,
-          "document_name": "HB727"
-        },
-        {
-          "chunk_text": "the Status of Women, Hawaii Substance Abuse Coalition, West Hawaii Bar Association, Community Alliance on Prisons, and nine individuals. Your Committee finds that Mohala Wahine, or the State's Women's Court three-year pilot program, was established in the First Circuit by Act 243, Session Laws of Hawaii 2022, and has been",
-          "chunk_id": 5,
-          "document_name": "HB727"
-        },
-        {
-          "chunk_text": "Act 243, Session Laws of Hawaii 2022, and has been operational since January 2023. The mission of Mohala Wahine is to assist and guide participants in meeting their legal and statutory responsibilities and to facilitate change in the participants' well-being by providing gender-responsive services that uphold the mission of the",
+          "chunk_text": "participants in phase two of treatment. The purpose of this Act is to establish a three-year women's court pilot program in the circuit court of the second, third, and fifth circuits, which is intended to acknowledge the distinct pathways that lead women into the criminal justice system and address their",
           "chunk_id": 6,
           "document_name": "HB727"
         },
         {
-          "chunk_text": "opportunities for employment, all of which disproportionately impact women, who are more likely to be victims of violence and more likely to have dependent children in their care. Your Committee believes that, based on data and information provided by the Judiciary in testimony at the public hearing on this measure,",
-          "chunk_id": 11,
-          "document_name": "HB727"
-        },
-        {
-          "chunk_text": "Circuit of the Judiciary and Big Island Drug Court to conduct an interim study to establish a blueprint for a Women's Court Pilot Program in the Third Circuit; (7) Requiring the Judiciary to submit a report to the Legislature no later than forty days prior to the Regular Session of",
-          "chunk_id": 17,
-          "document_name": "HB727"
-        },
-        {
-          "chunk_text": "by providing gender-responsive services that uphold the mission of the State's Judiciary and the Adult Client Services Branch. Additionally, Mohala Wahine aims to enhance community safety by reducing recidivism through evidence-based, trauma-informed care, and cultural practices. Your Committee further finds that thus far, the Women's Court Pilot Program has been",
+          "chunk_text": "lead women into the criminal justice system and address their individualized needs. SECTION 2. (a) There is established within the second, third, and fifth circuits of the judiciary the women's court pilot program. The pilot program shall implement trauma-informed and evidence-based practices, employ gender-responsive programming, collaborate with stakeholders, and provide",
           "chunk_id": 7,
           "document_name": "HB727"
         },
         {
-          "chunk_text": "the Mohala Wahine Pilot Program should become permanent. Your Committee additionally finds that the Third Circuit, specifically the Kona area, is at a disadvantage to address crime motivators such as substance abuse, mental health, and homelessness, given its limited community resources and funding, geographic restrictions, limitations of court supervision authorities,",
-          "chunk_id": 9,
+          "chunk_text": "woman's court pilot program within the second, third, and fifth circuits. Establishes temporary positions. Requires a report. Appropriates funds. Sunsets 6/30/2028. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+          "chunk_id": 18,
           "document_name": "HB727"
         },
         {
-          "chunk_text": "that thus far, the Women's Court Pilot Program has been successful, with eleven participants in phase one of treatment and twelve participants in phase two of treatment. Given the success of the First District's Mohala Wahine, your Committee believes that the Mohala Wahine Pilot Program should become permanent. Your Committee",
+          "chunk_text": "Substance abuse detection, prevention, and treatment; (8) Mentoring; and (9) Housing support. SECTION 3. There is appropriated out of the general revenues of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much",
+          "chunk_id": 10,
+          "document_name": "HB727"
+        },
+        {
+          "chunk_text": "fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions as follows: (1) full-time equivalent ( FTE) social worker V positions; (2) full-time equivalent",
+          "chunk_id": 11,
+          "document_name": "HB727"
+        },
+        {
+          "chunk_text": "program established pursuant to section 2 of this Act. The sums appropriated shall be expended by the judiciary for the purposes of this Act. SECTION 4. The judiciary shall submit a report of its findings and recommendations, including any proposed legislation, to the governor and legislature no later than forty",
+          "chunk_id": 13,
+          "document_name": "HB727"
+        },
+        {
+          "chunk_text": "have lower educational attainment, lack stable work history, and experience economic or social marginalization, which prevents them from having more positive outcomes. The legislature further finds that Act 243, Session Laws of Hawaii 2022, established a three-year women's court pilot program in the circuit court of the first circuit. This",
+          "chunk_id": 3,
+          "document_name": "HB727"
+        },
+        {
+          "chunk_text": "The program began accepting participants in January of 2023, with a goal of admitting twenty women each year. As of August, 2024, twenty-three women are currently participating in the program, with eleven participants in phase one of treatment and twelve participants in phase two of treatment. The purpose of this",
+          "chunk_id": 5,
+          "document_name": "HB727"
+        },
+        {
+          "chunk_text": "equivalent ( FTE) social worker V positions; (2) full-time equivalent ( FTE) social worker IV positions; (3) full-time equivalent ( FTE) circuit court clerk II positions; and (4) full-time equivalent ( FTE) judicial clerk positions; for the women's court pilot program established pursuant to section 2 of this Act. The",
+          "chunk_id": 12,
+          "document_name": "HB727"
+        },
+        {
+          "chunk_text": "legislation, to the governor and legislature no later than forty days prior to the convening of the regular sessions of 2026, 2027, and 2028 , regarding: (1) The status of the women's court pilot program; (2) The number of women accepted into the pilot program; (3) The number of women",
+          "chunk_id": 14,
+          "document_name": "HB727"
+        },
+        {
+          "chunk_text": "evidence-based practices, employ gender-responsive programming, collaborate with stakeholders, and provide services to women in the court system with the goal of diverting participants from incarceration, supporting their success in the community, and reducing recidivism. (b) The services offered by the program shall address the following areas: (1) Trauma and mental",
           "chunk_id": 8,
           "document_name": "HB727"
         },
         {
-          "chunk_text": "SSCR1240 STAND. COM. REP. NO. 1240 Honolulu, Hawaii RE: H.B. No. 727 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Judiciary, to which was referred H.B. No. 727, H.D. 1, entitled: \"A",
-          "chunk_id": 0,
+          "chunk_text": "of abuse, trauma, poverty, mental illness, substance use disorders, and unhealthy relationships intersect with their entry into criminal behavior. Women offenders also face unique barriers to success after incarceration. They are more likely to be primary caregivers for young children, have lower educational attainment, lack stable work history, and experience",
+          "chunk_id": 2,
+          "document_name": "HB727"
+        },
+        {
+          "chunk_text": "program shall address the following areas: (1) Trauma and mental health treatment; (2) Family support, including parenting, education, and relationship improvement; (3) Life-skills training; (4) Education and vocational training; (5) Domestic violence prevention; (6) Medical services and health education; (7) Substance abuse detection, prevention, and treatment; (8) Mentoring; and (9)",
+          "chunk_id": 9,
+          "document_name": "HB727"
+        },
+        {
+          "chunk_text": "services; or (D) Be discontinued. SECTION 5. This Act shall take effect on July 1, 2025, and shall be repealed on June 30, 2028. INTRODUCED BY: _____________________________ Report Title: Women's Court Pilot Program; Report; Appropriation Description: Establishes a temporary three-year woman's court pilot program within the second, third, and fifth",
+          "chunk_id": 17,
+          "document_name": "HB727"
+        },
+        {
+          "chunk_text": "program; (5) The number of women who were removed from the pilot program; and (6) Recommendations as to whether the women's court pilot program should: (A) Continue as a pilot program; (B) Expand to include additional participants; (C) Provide additional services; or (D) Be discontinued. SECTION 5. This Act shall",
+          "chunk_id": 16,
           "document_name": "HB727"
         }
       ]
@@ -289,468 +291,444 @@
     "sentence_chunk_mapping": [
       {
         "section": "overview",
-        "sentence": "This measure makes the Women's Court Pilot Program in the First Circuit permanent.",
+        "sentence": "The purpose of this Act is to establish a three-year women's court pilot program in the circuit court of the second, third, and fifth circuits.",
         "chunks": [
           {
-            "chunk_id": 13,
+            "chunk_id": 6,
             "citation_number": 1,
-            "chunk_text": "abuse, unhealthy relationships, and more by providing substance abuse treatment, mental health support, and assistance with navigating the criminal and social services systems. Accordingly, your Committee has amended this measure by: (1) Inserting language making the Women's Court Pilot Program in the First Circuit permanent; (2) Establishing a three—year Women's",
+            "chunk_text": "participants in phase two of treatment. The purpose of this Act is to establish a three-year women's court pilot program in the circuit court of the second, third, and fifth circuits, which is intended to acknowledge the distinct pathways that lead women into the criminal justice system and address their",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "overview",
-        "sentence": "It also establishes a three—year Women's Court Pilot Program in the circuit court of the Kona division of the Third Circuit, which is intended to acknowledge the distinct pathways that lead women into the criminal justice system and address their individualized needs.",
-        "chunks": [
-          {
-            "chunk_id": 14,
-            "citation_number": 1,
-            "chunk_text": "in the First Circuit permanent; (2) Establishing a three—year Women's Court Pilot Program in the circuit court of the Kona division of the Third Circuit, rather than the Second and Fifth Circuits; (3) Specifying that the Women's Court Pilot Program is under the supervision of the Big Island Drug Court;",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "overview",
-        "sentence": "The Judiciary is required to submit a report to the Legislature regarding the need for and the associated costs of a pilot program for Women's Court in the Second and Firth Circuits and Hilo division of the Third Circuit.",
-        "chunks": [
-          {
-            "chunk_id": 18,
-            "citation_number": 1,
-            "chunk_text": "later than forty days prior to the Regular Session of 2026 regarding the need for and the associated costs of a pilot program for Women's Court in the Second and Firth Circuits and Hilo division of the Third Circuit; (8) Amending section 1 to reflect its amended purpose; (9) Inserting",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "appropriations",
-        "sentence": "Your Committee has amended this measure by inserting an appropriation amount of $514,900 (HB727) for fiscal year 2025-2026 and $557,000 (HB727) for fiscal year 2026-2027.",
-        "chunks": [
-          {
-            "chunk_id": 15,
-            "citation_number": 1,
-            "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "appropriations",
-        "sentence": "These funds are for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit.",
-        "chunks": [
-          {
-            "chunk_id": 15,
-            "citation_number": 1,
-            "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "appropriations",
-        "sentence": "The measure deletes language that would have appropriated an unspecified amount of funds to the Department of Health for an unspecified number of temporary positions.",
-        "chunks": [
-          {
-            "chunk_id": 16,
-            "citation_number": 1,
-            "chunk_text": "the Kona division of the Third Circuit; (5) Deleting language that would have appropriated an unspecified amount of funds to the Department of Health for an unspecified number of temporary positions; (6) Deleting language that would have required the Third Circuit of the Judiciary and Big Island Drug Court to",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "assumptions_and_methodology",
-        "sentence": "The fiscal projections are based on the success of the First District's Mohala Wahine program, which has been operational since January 2023.",
-        "chunks": [
-          {
-            "chunk_id": 5,
-            "citation_number": 1,
-            "chunk_text": "the Status of Women, Hawaii Substance Abuse Coalition, West Hawaii Bar Association, Community Alliance on Prisons, and nine individuals. Your Committee finds that Mohala Wahine, or the State's Women's Court three-year pilot program, was established in the First Circuit by Act 243, Session Laws of Hawaii 2022, and has been",
-            "document_name": "HB727"
-          },
-          {
-            "chunk_id": 5,
-            "citation_number": 1,
-            "chunk_text": "the Status of Women, Hawaii Substance Abuse Coalition, West Hawaii Bar Association, Community Alliance on Prisons, and nine individuals. Your Committee finds that Mohala Wahine, or the State's Women's Court three-year pilot program, was established in the First Circuit by Act 243, Session Laws of Hawaii 2022, and has been",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "assumptions_and_methodology",
-        "sentence": "The need for the program in the Third Circuit is based on data and information provided by the Judiciary in testimony at the public hearing on this measure.",
-        "chunks": [
-          {
-            "chunk_id": 11,
-            "citation_number": 1,
-            "chunk_text": "opportunities for employment, all of which disproportionately impact women, who are more likely to be victims of violence and more likely to have dependent children in their care. Your Committee believes that, based on data and information provided by the Judiciary in testimony at the public hearing on this measure,",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "assumptions_and_methodology",
-        "sentence": "The provided document does not specify the cost estimation methods or data sources used to calculate the financial projections.",
-        "chunks": [
-          {
-            "chunk_id": 15,
-            "citation_number": 1,
-            "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "agency_impact",
-        "sentence": "The Women's Court Pilot Program in the Kona division of the Third Circuit will be under the supervision of the Big Island Drug Court.",
-        "chunks": [
-          {
-            "chunk_id": 14,
-            "citation_number": 1,
-            "chunk_text": "in the First Circuit permanent; (2) Establishing a three—year Women's Court Pilot Program in the circuit court of the Kona division of the Third Circuit, rather than the Second and Fifth Circuits; (3) Specifying that the Women's Court Pilot Program is under the supervision of the Big Island Drug Court;",
-            "document_name": "HB727"
-          },
-          {
-            "chunk_id": 14,
-            "citation_number": 1,
-            "chunk_text": "in the First Circuit permanent; (2) Establishing a three—year Women's Court Pilot Program in the circuit court of the Kona division of the Third Circuit, rather than the Second and Fifth Circuits; (3) Specifying that the Women's Court Pilot Program is under the supervision of the Big Island Drug Court;",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "agency_impact",
-        "sentence": "The appropriation provides for two temporary positions for the pilot program.",
-        "chunks": [
-          {
-            "chunk_id": 15,
-            "citation_number": 1,
-            "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "agency_impact",
-        "sentence": "The Judiciary is required to submit a report to the Legislature no later than forty days prior to the Regular Session of 2026 regarding the need for and associated costs of expanding the pilot program.",
-        "chunks": [
-          {
-            "chunk_id": 17,
-            "citation_number": 1,
-            "chunk_text": "Circuit of the Judiciary and Big Island Drug Court to conduct an interim study to establish a blueprint for a Women's Court Pilot Program in the Third Circuit; (7) Requiring the Judiciary to submit a report to the Legislature no later than forty days prior to the Regular Session of",
-            "document_name": "HB727"
-          },
-          {
-            "chunk_id": 17,
-            "citation_number": 1,
-            "chunk_text": "Circuit of the Judiciary and Big Island Drug Court to conduct an interim study to establish a blueprint for a Women's Court Pilot Program in the Third Circuit; (7) Requiring the Judiciary to submit a report to the Legislature no later than forty days prior to the Regular Session of",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "economic_impact",
-        "sentence": "Mohala Wahine aims to enhance community safety by reducing recidivism through evidence-based, trauma-informed care, and cultural practices.",
+        "sentence": "This program is intended to acknowledge the distinct pathways that lead women into the criminal justice system and address their individualized needs.",
         "chunks": [
           {
             "chunk_id": 7,
             "citation_number": 1,
-            "chunk_text": "by providing gender-responsive services that uphold the mission of the State's Judiciary and the Adult Client Services Branch. Additionally, Mohala Wahine aims to enhance community safety by reducing recidivism through evidence-based, trauma-informed care, and cultural practices. Your Committee further finds that thus far, the Women's Court Pilot Program has been",
+            "chunk_text": "lead women into the criminal justice system and address their individualized needs. SECTION 2. (a) There is established within the second, third, and fifth circuits of the judiciary the women's court pilot program. The pilot program shall implement trauma-informed and evidence-based practices, employ gender-responsive programming, collaborate with stakeholders, and provide",
             "document_name": "HB727"
           }
         ]
       },
       {
-        "section": "economic_impact",
-        "sentence": "The program addresses crime motivators such as substance abuse, mental health, and homelessness.",
+        "section": "overview",
+        "sentence": "The Act establishes temporary positions, requires a report, appropriates funds, and sunsets on 6/30/2028.",
         "chunks": [
           {
-            "chunk_id": 9,
+            "chunk_id": 18,
             "citation_number": 1,
-            "chunk_text": "the Mohala Wahine Pilot Program should become permanent. Your Committee additionally finds that the Third Circuit, specifically the Kona area, is at a disadvantage to address crime motivators such as substance abuse, mental health, and homelessness, given its limited community resources and funding, geographic restrictions, limitations of court supervision authorities,",
+            "chunk_text": "woman's court pilot program within the second, third, and fifth circuits. Establishes temporary positions. Requires a report. Appropriates funds. Sunsets 6/30/2028. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+            "document_name": "HB727"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "There is appropriated out of the general revenues of the State of Hawaii the sum of $ (HB727) or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027.",
+        "chunks": [
+          {
+            "chunk_id": 10,
+            "citation_number": 1,
+            "chunk_text": "Substance abuse detection, prevention, and treatment; (8) Mentoring; and (9) Housing support. SECTION 3. There is appropriated out of the general revenues of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much",
+            "document_name": "HB727"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The funds are for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions as follows: (1) full-time equivalent ( FTE) social worker V positions; (2) full-time equivalent",
+            "document_name": "HB727"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The sums appropriated shall be expended by the judiciary for the purposes of this Act.",
+        "chunks": [
+          {
+            "chunk_id": 13,
+            "citation_number": 1,
+            "chunk_text": "program established pursuant to section 2 of this Act. The sums appropriated shall be expended by the judiciary for the purposes of this Act. SECTION 4. The judiciary shall submit a report of its findings and recommendations, including any proposed legislation, to the governor and legislature no later than forty",
+            "document_name": "HB727"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The bill builds upon Act 243, Session Laws of Hawaii 2022, which established a three-year women's court pilot program in the circuit court of the first circuit.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 1,
+            "chunk_text": "have lower educational attainment, lack stable work history, and experience economic or social marginalization, which prevents them from having more positive outcomes. The legislature further finds that Act 243, Session Laws of Hawaii 2022, established a three-year women's court pilot program in the circuit court of the first circuit. This",
+            "document_name": "HB727"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "This existing program, known as Mohala Wahine, began accepting participants in January of 2023, with a goal of admitting twenty women each year.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 1,
+            "chunk_text": "The program began accepting participants in January of 2023, with a goal of admitting twenty women each year. As of August, 2024, twenty-three women are currently participating in the program, with eleven participants in phase one of treatment and twelve participants in phase two of treatment. The purpose of this",
+            "document_name": "HB727"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The proposed expansion requires the establishment of seven temporary positions, including social worker V, social worker IV, circuit court clerk II, and judicial clerk positions.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions as follows: (1) full-time equivalent ( FTE) social worker V positions; (2) full-time equivalent",
+            "document_name": "HB727"
+          },
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions as follows: (1) full-time equivalent ( FTE) social worker V positions; (2) full-time equivalent",
+            "document_name": "HB727"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The judiciary is tasked with establishing the women's court pilot program within the second, third, and fifth circuits.",
+        "chunks": [
+          {
+            "chunk_id": 7,
+            "citation_number": 1,
+            "chunk_text": "lead women into the criminal justice system and address their individualized needs. SECTION 2. (a) There is established within the second, third, and fifth circuits of the judiciary the women's court pilot program. The pilot program shall implement trauma-informed and evidence-based practices, employ gender-responsive programming, collaborate with stakeholders, and provide",
+            "document_name": "HB727"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The judiciary will be responsible for expending the appropriated sums for equipment, services, and the establishment of seven temporary positions.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions as follows: (1) full-time equivalent ( FTE) social worker V positions; (2) full-time equivalent",
+            "document_name": "HB727"
+          },
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions as follows: (1) full-time equivalent ( FTE) social worker V positions; (2) full-time equivalent",
+            "document_name": "HB727"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The judiciary shall also submit a report of its findings and recommendations to the governor and legislature prior to the regular sessions of 2026, 2027, and 2028.",
+        "chunks": [
+          {
+            "chunk_id": 14,
+            "citation_number": 1,
+            "chunk_text": "legislation, to the governor and legislature no later than forty days prior to the convening of the regular sessions of 2026, 2027, and 2028 , regarding: (1) The status of the women's court pilot program; (2) The number of women accepted into the pilot program; (3) The number of women",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "economic_impact",
-        "sentence": "The existing Women's Court Pilot Program has been successful, with eleven participants in phase one of treatment and twelve participants in phase two of treatment.",
+        "sentence": "The pilot program's goal is diverting participants from incarceration, supporting their success in the community, and reducing recidivism.",
         "chunks": [
           {
             "chunk_id": 8,
             "citation_number": 1,
-            "chunk_text": "that thus far, the Women's Court Pilot Program has been successful, with eleven participants in phase one of treatment and twelve participants in phase two of treatment. Given the success of the First District's Mohala Wahine, your Committee believes that the Mohala Wahine Pilot Program should become permanent. Your Committee",
+            "chunk_text": "evidence-based practices, employ gender-responsive programming, collaborate with stakeholders, and provide services to women in the court system with the goal of diverting participants from incarceration, supporting their success in the community, and reducing recidivism. (b) The services offered by the program shall address the following areas: (1) Trauma and mental",
             "document_name": "HB727"
           }
         ]
       },
       {
-        "section": "policy_impact",
-        "sentence": "This measure amends prior law by inserting language making the Women's Court Pilot Program in the First Circuit permanent.",
+        "section": "economic_impact",
+        "sentence": "Research reflects that for women, histories of abuse, trauma, poverty, mental illness, substance use disorders, and unhealthy relationships intersect with their entry into criminal behavior.",
         "chunks": [
           {
-            "chunk_id": 13,
+            "chunk_id": 2,
             "citation_number": 1,
-            "chunk_text": "abuse, unhealthy relationships, and more by providing substance abuse treatment, mental health support, and assistance with navigating the criminal and social services systems. Accordingly, your Committee has amended this measure by: (1) Inserting language making the Women's Court Pilot Program in the First Circuit permanent; (2) Establishing a three—year Women's",
+            "chunk_text": "of abuse, trauma, poverty, mental illness, substance use disorders, and unhealthy relationships intersect with their entry into criminal behavior. Women offenders also face unique barriers to success after incarceration. They are more likely to be primary caregivers for young children, have lower educational attainment, lack stable work history, and experience",
             "document_name": "HB727"
           }
         ]
       },
       {
-        "section": "policy_impact",
-        "sentence": "It establishes a new three—year Women's Court Pilot Program in the circuit court of the Kona division of the Third Circuit, rather than the Second and Fifth Circuits as originally proposed.",
+        "section": "economic_impact",
+        "sentence": "By providing services like trauma and mental health treatment, housing support, and vocational training, the program addresses unique barriers to success after incarceration.",
         "chunks": [
           {
-            "chunk_id": 14,
+            "chunk_id": 9,
             "citation_number": 1,
-            "chunk_text": "in the First Circuit permanent; (2) Establishing a three—year Women's Court Pilot Program in the circuit court of the Kona division of the Third Circuit, rather than the Second and Fifth Circuits; (3) Specifying that the Women's Court Pilot Program is under the supervision of the Big Island Drug Court;",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "policy_impact",
-        "sentence": "The measure also deletes language that would have required the Third Circuit of the Judiciary and Big Island Drug Court to conduct an interim study to establish a blueprint for a Women's Court Pilot Program in the Third Circuit.",
-        "chunks": [
-          {
-            "chunk_id": 16,
-            "citation_number": 1,
-            "chunk_text": "the Kona division of the Third Circuit; (5) Deleting language that would have appropriated an unspecified amount of funds to the Department of Health for an unspecified number of temporary positions; (6) Deleting language that would have required the Third Circuit of the Judiciary and Big Island Drug Court to",
+            "chunk_text": "program shall address the following areas: (1) Trauma and mental health treatment; (2) Family support, including parenting, education, and relationship improvement; (3) Life-skills training; (4) Education and vocational training; (5) Domestic violence prevention; (6) Medical services and health education; (7) Substance abuse detection, prevention, and treatment; (8) Mentoring; and (9)",
             "document_name": "HB727"
           },
           {
+            "chunk_id": 9,
+            "citation_number": 1,
+            "chunk_text": "program shall address the following areas: (1) Trauma and mental health treatment; (2) Family support, including parenting, education, and relationship improvement; (3) Life-skills training; (4) Education and vocational training; (5) Domestic violence prevention; (6) Medical services and health education; (7) Substance abuse detection, prevention, and treatment; (8) Mentoring; and (9)",
+            "document_name": "HB727"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "This Act expands upon the policy established by Act 243, Session Laws of Hawaii 2022, which created a women's court pilot program in the first circuit.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 1,
+            "chunk_text": "have lower educational attainment, lack stable work history, and experience economic or social marginalization, which prevents them from having more positive outcomes. The legislature further finds that Act 243, Session Laws of Hawaii 2022, established a three-year women's court pilot program in the circuit court of the first circuit. This",
+            "document_name": "HB727"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "It establishes a temporary three-year woman's court pilot program within the second, third, and fifth circuits, which is set to be repealed on June 30, 2028.",
+        "chunks": [
+          {
+            "chunk_id": 18,
+            "citation_number": 1,
+            "chunk_text": "woman's court pilot program within the second, third, and fifth circuits. Establishes temporary positions. Requires a report. Appropriates funds. Sunsets 6/30/2028. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+            "document_name": "HB727"
+          },
+          {
+            "chunk_id": 18,
+            "citation_number": 1,
+            "chunk_text": "woman's court pilot program within the second, third, and fifth circuits. Establishes temporary positions. Requires a report. Appropriates funds. Sunsets 6/30/2028. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+            "document_name": "HB727"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The judiciary's required reports will include recommendations as to whether the pilot program should continue, expand, provide additional services, or be discontinued, informing future policy decisions.",
+        "chunks": [
+          {
             "chunk_id": 16,
             "citation_number": 1,
-            "chunk_text": "the Kona division of the Third Circuit; (5) Deleting language that would have appropriated an unspecified amount of funds to the Department of Health for an unspecified number of temporary positions; (6) Deleting language that would have required the Third Circuit of the Judiciary and Big Island Drug Court to",
+            "chunk_text": "program; (5) The number of women who were removed from the pilot program; and (6) Recommendations as to whether the women's court pilot program should: (A) Continue as a pilot program; (B) Expand to include additional participants; (C) Provide additional services; or (D) Be discontinued. SECTION 5. This Act shall",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "revenue_sources",
-        "sentence": "The measure provides appropriations to fund the program.",
+        "sentence": "The bill appropriates funds out of the general revenues of the State of Hawaii.",
         "chunks": [
           {
-            "chunk_id": 15,
+            "chunk_id": 10,
             "citation_number": 1,
-            "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
+            "chunk_text": "Substance abuse detection, prevention, and treatment; (8) Mentoring; and (9) Housing support. SECTION 3. There is appropriated out of the general revenues of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "revenue_sources",
-        "sentence": "An appropriation of $514,900 (HB727) is specified for fiscal year 2025-2026.",
+        "sentence": "No other revenue sources are mentioned in the provided text.",
         "chunks": [
           {
-            "chunk_id": 15,
+            "chunk_id": 10,
             "citation_number": 1,
-            "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "revenue_sources",
-        "sentence": "A second appropriation of $557,000 (HB727) is specified for fiscal year 2026-2027.",
-        "chunks": [
-          {
-            "chunk_id": 15,
-            "citation_number": 1,
-            "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
+            "chunk_text": "Substance abuse detection, prevention, and treatment; (8) Mentoring; and (9) Housing support. SECTION 3. There is appropriated out of the general revenues of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "The measure appropriates $514,900 (HB727) for fiscal year 2025-2026.",
+        "sentence": "The Act establishes a three-year pilot program with fiscal implications from its effective date of July 1, 2025, to its repeal date of June 30, 2028.",
         "chunks": [
           {
-            "chunk_id": 15,
+            "chunk_id": 17,
             "citation_number": 1,
-            "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
+            "chunk_text": "services; or (D) Be discontinued. SECTION 5. This Act shall take effect on July 1, 2025, and shall be repealed on June 30, 2028. INTRODUCED BY: _____________________________ Report Title: Women's Court Pilot Program; Report; Appropriation Description: Establishes a temporary three-year woman's court pilot program within the second, third, and fifth",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "It also appropriates $557,000 (HB727) for fiscal year 2026-2027.",
+        "sentence": "An unspecified sum is appropriated from general revenues for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027.",
         "chunks": [
           {
-            "chunk_id": 15,
+            "chunk_id": 10,
             "citation_number": 1,
-            "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
+            "chunk_text": "Substance abuse detection, prevention, and treatment; (8) Mentoring; and (9) Housing support. SECTION 3. There is appropriated out of the general revenues of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "These funds are for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit.",
+        "sentence": "These funds are for equipment, mental health, substance abuse treatment, and other services.",
         "chunks": [
           {
-            "chunk_id": 15,
+            "chunk_id": 11,
             "citation_number": 1,
-            "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
+            "chunk_text": "fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions as follows: (1) full-time equivalent ( FTE) social worker V positions; (2) full-time equivalent",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "This is a three—year Women's Court Pilot Program, but funding for the third year is not specified.",
+        "sentence": "The appropriation also covers the establishment of seven temporary positions.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions as follows: (1) full-time equivalent ( FTE) social worker V positions; (2) full-time equivalent",
+            "document_name": "HB727"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "These positions include full-time equivalent social worker V positions, social worker IV positions, circuit court clerk II positions, and judicial clerk positions.",
+        "chunks": [
+          {
+            "chunk_id": 12,
+            "citation_number": 1,
+            "chunk_text": "equivalent ( FTE) social worker V positions; (2) full-time equivalent ( FTE) social worker IV positions; (3) full-time equivalent ( FTE) circuit court clerk II positions; and (4) full-time equivalent ( FTE) judicial clerk positions; for the women's court pilot program established pursuant to section 2 of this Act. The",
+            "document_name": "HB727"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "While the program runs for three years, appropriations are only specified for the first two years.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions as follows: (1) full-time equivalent ( FTE) social worker V positions; (2) full-time equivalent",
+            "document_name": "HB727"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The judiciary is required to submit reports annually before the 2026, 2027, and 2028 legislative sessions.",
         "chunks": [
           {
             "chunk_id": 14,
             "citation_number": 1,
-            "chunk_text": "in the First Circuit permanent; (2) Establishing a three—year Women's Court Pilot Program in the circuit court of the Kona division of the Third Circuit, rather than the Second and Fifth Circuits; (3) Specifying that the Women's Court Pilot Program is under the supervision of the Big Island Drug Court;",
+            "chunk_text": "legislation, to the governor and legislature no later than forty days prior to the convening of the regular sessions of 2026, 2027, and 2028 , regarding: (1) The status of the women's court pilot program; (2) The number of women accepted into the pilot program; (3) The number of women",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "The measure also makes the Women's Court Pilot Program in the First Circuit permanent, which implies ongoing fiscal obligations not detailed in the document.",
+        "sentence": "These reports will include recommendations on whether the program should continue, expand, or be discontinued.",
         "chunks": [
           {
-            "chunk_id": 13,
+            "chunk_id": 16,
             "citation_number": 1,
-            "chunk_text": "abuse, unhealthy relationships, and more by providing substance abuse treatment, mental health support, and assistance with navigating the criminal and social services systems. Accordingly, your Committee has amended this measure by: (1) Inserting language making the Women's Court Pilot Program in the First Circuit permanent; (2) Establishing a three—year Women's",
+            "chunk_text": "program; (5) The number of women who were removed from the pilot program; and (6) Recommendations as to whether the women's court pilot program should: (A) Continue as a pilot program; (B) Expand to include additional participants; (C) Provide additional services; or (D) Be discontinued. SECTION 5. This Act shall",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "The Judiciary must submit a report by the 2026 Regular Session regarding the need for and the associated costs of a pilot program in other circuits.",
+        "sentence": "The fiscal implications beyond the three-year pilot period will depend on future legislation based on these recommendations.",
         "chunks": [
           {
-            "chunk_id": 18,
+            "chunk_id": 16,
             "citation_number": 1,
-            "chunk_text": "later than forty days prior to the Regular Session of 2026 regarding the need for and the associated costs of a pilot program for Women's Court in the Second and Firth Circuits and Hilo division of the Third Circuit; (8) Amending section 1 to reflect its amended purpose; (9) Inserting",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "This report may lead to future fiscal implications.",
-        "chunks": [
-          {
-            "chunk_id": 18,
-            "citation_number": 1,
-            "chunk_text": "later than forty days prior to the Regular Session of 2026 regarding the need for and the associated costs of a pilot program for Women's Court in the Second and Firth Circuits and Hilo division of the Third Circuit; (8) Amending section 1 to reflect its amended purpose; (9) Inserting",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The document does not provide a fiscal outlook beyond the two appropriated years.",
-        "chunks": [
-          {
-            "chunk_id": 15,
-            "citation_number": 1,
-            "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
+            "chunk_text": "program; (5) The number of women who were removed from the pilot program; and (6) Recommendations as to whether the women's court pilot program should: (A) Continue as a pilot program; (B) Expand to include additional participants; (C) Provide additional services; or (D) Be discontinued. SECTION 5. This Act shall",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "operating_revenue_impact",
-        "sentence": "The provided document does not specify any anticipated impacts on operating revenues resulting from this measure.",
+        "sentence": "The provided text does not indicate any anticipated impact on operating revenues resulting from this measure.",
         "chunks": [
           {
-            "chunk_id": 15,
+            "chunk_id": 10,
             "citation_number": 1,
-            "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
+            "chunk_text": "Substance abuse detection, prevention, and treatment; (8) Mentoring; and (9) Housing support. SECTION 3. There is appropriated out of the general revenues of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "capital_expenditure_impact",
-        "sentence": "The provided document does not outline any expected capital expenditures related to this measure.",
+        "sentence": "The measure appropriates an unspecified amount for equipment for fiscal years 2025-2026 and 2026-2027.",
         "chunks": [
           {
-            "chunk_id": 15,
+            "chunk_id": 11,
             "citation_number": 1,
-            "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
+            "chunk_text": "fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions as follows: (1) full-time equivalent ( FTE) social worker V positions; (2) full-time equivalent",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "capital_expenditure_impact",
-        "sentence": "The appropriations are for services and two temporary positions.",
+        "sentence": "No other capital expenditures are specified in the bill.",
         "chunks": [
           {
-            "chunk_id": 15,
+            "chunk_id": 11,
             "citation_number": 1,
-            "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "capital_expenditure_impact",
-        "sentence": "No investments in facilities, equipment, or technology infrastructure are mentioned.",
-        "chunks": [
-          {
-            "chunk_id": 15,
-            "citation_number": 1,
-            "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language",
+            "chunk_text": "fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions as follows: (1) full-time equivalent ( FTE) social worker V positions; (2) full-time equivalent",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "The Women's Court Pilot Program in the First Circuit is made permanent, which will result in ongoing fiscal obligations beyond the six-year period.",
+        "sentence": "This Act shall be repealed on June 30, 2028.",
         "chunks": [
           {
-            "chunk_id": 13,
+            "chunk_id": 17,
             "citation_number": 1,
-            "chunk_text": "abuse, unhealthy relationships, and more by providing substance abuse treatment, mental health support, and assistance with navigating the criminal and social services systems. Accordingly, your Committee has amended this measure by: (1) Inserting language making the Women's Court Pilot Program in the First Circuit permanent; (2) Establishing a three—year Women's",
+            "chunk_text": "services; or (D) Be discontinued. SECTION 5. This Act shall take effect on July 1, 2025, and shall be repealed on June 30, 2028. INTRODUCED BY: _____________________________ Report Title: Women's Court Pilot Program; Report; Appropriation Description: Establishes a temporary three-year woman's court pilot program within the second, third, and fifth",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "The three-year Women's Court Pilot Program in the Kona division would require additional appropriations to continue after its initial period.",
+        "sentence": "The judiciary is required to submit a report with recommendations as to whether the women's court pilot program should continue, expand, or be discontinued.",
         "chunks": [
           {
-            "chunk_id": 14,
+            "chunk_id": 16,
             "citation_number": 1,
-            "chunk_text": "in the First Circuit permanent; (2) Establishing a three—year Women's Court Pilot Program in the circuit court of the Kona division of the Third Circuit, rather than the Second and Fifth Circuits; (3) Specifying that the Women's Court Pilot Program is under the supervision of the Big Island Drug Court;",
+            "chunk_text": "program; (5) The number of women who were removed from the pilot program; and (6) Recommendations as to whether the women's court pilot program should: (A) Continue as a pilot program; (B) Expand to include additional participants; (C) Provide additional services; or (D) Be discontinued. SECTION 5. This Act shall",
             "document_name": "HB727"
           }
         ]
       },
       {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "A required report on expanding the program to other circuits could result in additional fiscal implications in future years.",
+        "sentence": "Any ongoing fiscal obligations after the pilot program's sunset date are contingent upon future legislative action based on the program's outcomes and the judiciary's recommendations.",
         "chunks": [
           {
-            "chunk_id": 18,
+            "chunk_id": 16,
             "citation_number": 1,
-            "chunk_text": "later than forty days prior to the Regular Session of 2026 regarding the need for and the associated costs of a pilot program for Women's Court in the Second and Firth Circuits and Hilo division of the Third Circuit; (8) Amending section 1 to reflect its amended purpose; (9) Inserting",
-            "document_name": "HB727"
-          }
-        ]
-      },
-      {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "A previous fiscal note was not provided in the context documents.",
-        "chunks": [
-          {
-            "chunk_id": 0,
-            "citation_number": 1,
-            "chunk_text": "SSCR1240 STAND. COM. REP. NO. 1240 Honolulu, Hawaii RE: H.B. No. 727 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Judiciary, to which was referred H.B. No. 727, H.D. 1, entitled: \"A",
+            "chunk_text": "program; (5) The number of women who were removed from the pilot program; and (6) Recommendations as to whether the women's court pilot program should: (A) Continue as a pilot program; (B) Expand to include additional participants; (C) Provide additional services; or (D) Be discontinued. SECTION 5. This Act shall",
             "document_name": "HB727"
           }
         ]
@@ -761,86 +739,82 @@
     "HB727": [
       {
         "chunk_number": 0,
-        "chunk_text": "SSCR1240 STAND. COM. REP. NO. 1240 Honolulu, Hawaii RE: H.B. No. 727 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Judiciary, to which was referred H.B. No. 727, H.D. 1, entitled: \"A"
+        "chunk_text": "HB727 HOUSE OF REPRESENTATIVES H.B. NO. 727 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to the women's court . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that there has been a significant increase in the number"
       },
       {
         "chunk_number": 1,
-        "chunk_text": "which was referred H.B. No. 727, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO THE WOMEN'S COURT,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Establish a three—year Women's Court Pilot Program in the circuit court of the Second and"
+        "chunk_text": "that there has been a significant increase in the number of women in Hawai ‘ i jails and prisons over the past forty years, resulting in a higher proportion of women who are incarcerated. Research reflects that for women, histories of abuse, trauma, poverty, mental illness, substance use disorders, and"
       },
       {
         "chunk_number": 2,
-        "chunk_text": "Pilot Program in the circuit court of the Second and Fifth Circuits, which is intended to acknowledge the distinct pathways that lead women into the criminal justice system and address their individualized needs; and (2) Require the Third Circuit of the Judiciary and Big Island Drug Court to conduct an"
+        "chunk_text": "of abuse, trauma, poverty, mental illness, substance use disorders, and unhealthy relationships intersect with their entry into criminal behavior. Women offenders also face unique barriers to success after incarceration. They are more likely to be primary caregivers for young children, have lower educational attainment, lack stable work history, and experience"
       },
       {
         "chunk_number": 3,
-        "chunk_text": "the Judiciary and Big Island Drug Court to conduct an interim study to establish a blueprint for a Women's Court Pilot Program in the Third Circuit. Your Committee received testimony in support of this measure from the Judiciary, Department of Health, Office of the Public Defender, State Council on Mental"
+        "chunk_text": "have lower educational attainment, lack stable work history, and experience economic or social marginalization, which prevents them from having more positive outcomes. The legislature further finds that Act 243, Session Laws of Hawaii 2022, established a three-year women's court pilot program in the circuit court of the first circuit. This"
       },
       {
         "chunk_number": 4,
-        "chunk_text": "Health, Office of the Public Defender, State Council on Mental Health, Department of the Prosecuting Attorney of the County of Maui, Office of the Prosecuting Attorney of the County of Hawai ʻ i, County of Hawai ʻ i Committee on the Status of Women, Hawaii Substance Abuse Coalition, West Hawaii"
+        "chunk_text": "program in the circuit court of the first circuit. This program, known as Mohala Wahine, focuses on non-violent women who are at high risk of recidivism and in need of multiple services such as substance abuse treatment, therapy, or housing. The program began accepting participants in January of 2023, with"
       },
       {
         "chunk_number": 5,
-        "chunk_text": "the Status of Women, Hawaii Substance Abuse Coalition, West Hawaii Bar Association, Community Alliance on Prisons, and nine individuals. Your Committee finds that Mohala Wahine, or the State's Women's Court three-year pilot program, was established in the First Circuit by Act 243, Session Laws of Hawaii 2022, and has been"
+        "chunk_text": "The program began accepting participants in January of 2023, with a goal of admitting twenty women each year. As of August, 2024, twenty-three women are currently participating in the program, with eleven participants in phase one of treatment and twelve participants in phase two of treatment. The purpose of this"
       },
       {
         "chunk_number": 6,
-        "chunk_text": "Act 243, Session Laws of Hawaii 2022, and has been operational since January 2023. The mission of Mohala Wahine is to assist and guide participants in meeting their legal and statutory responsibilities and to facilitate change in the participants' well-being by providing gender-responsive services that uphold the mission of the"
+        "chunk_text": "participants in phase two of treatment. The purpose of this Act is to establish a three-year women's court pilot program in the circuit court of the second, third, and fifth circuits, which is intended to acknowledge the distinct pathways that lead women into the criminal justice system and address their"
       },
       {
         "chunk_number": 7,
-        "chunk_text": "by providing gender-responsive services that uphold the mission of the State's Judiciary and the Adult Client Services Branch. Additionally, Mohala Wahine aims to enhance community safety by reducing recidivism through evidence-based, trauma-informed care, and cultural practices. Your Committee further finds that thus far, the Women's Court Pilot Program has been"
+        "chunk_text": "lead women into the criminal justice system and address their individualized needs. SECTION 2. (a) There is established within the second, third, and fifth circuits of the judiciary the women's court pilot program. The pilot program shall implement trauma-informed and evidence-based practices, employ gender-responsive programming, collaborate with stakeholders, and provide"
       },
       {
         "chunk_number": 8,
-        "chunk_text": "that thus far, the Women's Court Pilot Program has been successful, with eleven participants in phase one of treatment and twelve participants in phase two of treatment. Given the success of the First District's Mohala Wahine, your Committee believes that the Mohala Wahine Pilot Program should become permanent. Your Committee"
+        "chunk_text": "evidence-based practices, employ gender-responsive programming, collaborate with stakeholders, and provide services to women in the court system with the goal of diverting participants from incarceration, supporting their success in the community, and reducing recidivism. (b) The services offered by the program shall address the following areas: (1) Trauma and mental"
       },
       {
         "chunk_number": 9,
-        "chunk_text": "the Mohala Wahine Pilot Program should become permanent. Your Committee additionally finds that the Third Circuit, specifically the Kona area, is at a disadvantage to address crime motivators such as substance abuse, mental health, and homelessness, given its limited community resources and funding, geographic restrictions, limitations of court supervision authorities,"
+        "chunk_text": "program shall address the following areas: (1) Trauma and mental health treatment; (2) Family support, including parenting, education, and relationship improvement; (3) Life-skills training; (4) Education and vocational training; (5) Domestic violence prevention; (6) Medical services and health education; (7) Substance abuse detection, prevention, and treatment; (8) Mentoring; and (9)"
       },
       {
         "chunk_number": 10,
-        "chunk_text": "resources and funding, geographic restrictions, limitations of court supervision authorities, overcrowded correctional facilities, understaffed law enforcement, and shortage of direct service providers. Additionally, Hawaii County has the highest poverty rate in the State, high rates of domestic violence, and limited opportunities for employment, all of which disproportionately impact women, who"
+        "chunk_text": "Substance abuse detection, prevention, and treatment; (8) Mentoring; and (9) Housing support. SECTION 3. There is appropriated out of the general revenues of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much"
       },
       {
         "chunk_number": 11,
-        "chunk_text": "opportunities for employment, all of which disproportionately impact women, who are more likely to be victims of violence and more likely to have dependent children in their care. Your Committee believes that, based on data and information provided by the Judiciary in testimony at the public hearing on this measure,"
+        "chunk_text": "fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for equipment; mental health, substance abuse treatment, and other services; and the establishment of seven temporary positions as follows: (1) full-time equivalent ( FTE) social worker V positions; (2) full-time equivalent"
       },
       {
         "chunk_number": 12,
-        "chunk_text": "Judiciary in testimony at the public hearing on this measure, closing the service gap for the most at-risk women in the Kona area of the Third District is imperative. This measure will support women in the State dealing with trauma, abuse, unhealthy relationships, and more by providing substance abuse treatment,"
+        "chunk_text": "equivalent ( FTE) social worker V positions; (2) full-time equivalent ( FTE) social worker IV positions; (3) full-time equivalent ( FTE) circuit court clerk II positions; and (4) full-time equivalent ( FTE) judicial clerk positions; for the women's court pilot program established pursuant to section 2 of this Act. The"
       },
       {
         "chunk_number": 13,
-        "chunk_text": "abuse, unhealthy relationships, and more by providing substance abuse treatment, mental health support, and assistance with navigating the criminal and social services systems. Accordingly, your Committee has amended this measure by: (1) Inserting language making the Women's Court Pilot Program in the First Circuit permanent; (2) Establishing a three—year Women's"
+        "chunk_text": "program established pursuant to section 2 of this Act. The sums appropriated shall be expended by the judiciary for the purposes of this Act. SECTION 4. The judiciary shall submit a report of its findings and recommendations, including any proposed legislation, to the governor and legislature no later than forty"
       },
       {
         "chunk_number": 14,
-        "chunk_text": "in the First Circuit permanent; (2) Establishing a three—year Women's Court Pilot Program in the circuit court of the Kona division of the Third Circuit, rather than the Second and Fifth Circuits; (3) Specifying that the Women's Court Pilot Program is under the supervision of the Big Island Drug Court;"
+        "chunk_text": "legislation, to the governor and legislature no later than forty days prior to the convening of the regular sessions of 2026, 2027, and 2028 , regarding: (1) The status of the women's court pilot program; (2) The number of women accepted into the pilot program; (3) The number of women"
       },
       {
         "chunk_number": 15,
-        "chunk_text": "is under the supervision of the Big Island Drug Court; (4) Inserting an appropriation amount of $514,900 for fiscal year 2025-2026 and $557,000 for fiscal year 2026-2027 for services and two temporary positions for the Women's Court Pilot Program in the Kona division of the Third Circuit; (5) Deleting language"
+        "chunk_text": "accepted into the pilot program; (3) The number of women who were eligible to participate in the pilot program but who could not be accepted into the program because of program limitations; (4) The number of women completing the pilot program; (5) The number of women who were removed from"
       },
       {
         "chunk_number": 16,
-        "chunk_text": "the Kona division of the Third Circuit; (5) Deleting language that would have appropriated an unspecified amount of funds to the Department of Health for an unspecified number of temporary positions; (6) Deleting language that would have required the Third Circuit of the Judiciary and Big Island Drug Court to"
+        "chunk_text": "program; (5) The number of women who were removed from the pilot program; and (6) Recommendations as to whether the women's court pilot program should: (A) Continue as a pilot program; (B) Expand to include additional participants; (C) Provide additional services; or (D) Be discontinued. SECTION 5. This Act shall"
       },
       {
         "chunk_number": 17,
-        "chunk_text": "Circuit of the Judiciary and Big Island Drug Court to conduct an interim study to establish a blueprint for a Women's Court Pilot Program in the Third Circuit; (7) Requiring the Judiciary to submit a report to the Legislature no later than forty days prior to the Regular Session of"
+        "chunk_text": "services; or (D) Be discontinued. SECTION 5. This Act shall take effect on July 1, 2025, and shall be repealed on June 30, 2028. INTRODUCED BY: _____________________________ Report Title: Women's Court Pilot Program; Report; Appropriation Description: Establishes a temporary three-year woman's court pilot program within the second, third, and fifth"
       },
       {
         "chunk_number": 18,
-        "chunk_text": "later than forty days prior to the Regular Session of 2026 regarding the need for and the associated costs of a pilot program for Women's Court in the Second and Firth Circuits and Hilo division of the Third Circuit; (8) Amending section 1 to reflect its amended purpose; (9) Inserting"
-      },
-      {
-        "chunk_number": 19,
-        "chunk_text": "Amending section 1 to reflect its amended purpose; (9) Inserting an effective date of April 23, 2057, to encourage further disc"
+        "chunk_text": "woman's court pilot program within the second, third, and fifth circuits. Establishes temporary positions. Requires a report. Appropriates funds. Sunsets 6/30/2028. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent."
       }
     ]
   },
-  "generation_timestamp": "2025-10-14T16:29:50.377489",
-  "generation_timestamp_unix": 1760495390.377501
+  "generation_timestamp": "2025-10-16T15:24:04.701897",
+  "generation_timestamp_unix": 1760664244.7019022
 }

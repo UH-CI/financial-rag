@@ -7,17 +7,17 @@
     "HB934"
   ],
   "numbers_used": 2,
-  "prompt_length": 22029,
+  "prompt_length": 14743,
   "response_metadata": {
-    "response_text": "{\n\"overview\": \"This bill transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services. It renames the Hawaii Broadband and Digital Equity Office to the Broadband Office and repeals broadband duties assigned to the Director of Commerce and Consumer Affairs. The measure also establishes the Broadband Revolving Fund, establishes positions, and appropriates funds.\",\n\"appropriations\": \"The bill appropriates out of the general revenues of the State of Hawaii the sum of $200,000 (HB934_.HTM.txt) for fiscal year 2025-2026 to be deposited into the broadband revolving fund. It also appropriates out of the broadband revolving fund the sum of $200,000 (HB934_.HTM.txt) for fiscal year 2025-2026 for the reimbursement of contracts executed by the broadband office. Additionally, an unspecified sum is appropriated from the broadband revolving fund for fiscal year 2025-2026 to establish full-time equivalent (FTE) digital navigator positions.\",\n\"assumptions_and_methodology\": \"The legislative document specifies appropriations for fiscal year 2025-2026 without detailing the methodology or assumptions used to arrive at these figures. The amounts are designated for a deposit into a new fund and for contract reimbursements. The basis for the $200,000 (HB934_.HTM.txt) figures or the costs associated with the new digital navigator positions is not provided in the text.\",\n\"agency_impact\": \"All rights, powers, functions, and duties of the department of business, economic development, and tourism relating to the Hawaii broadband and digital equity office are transferred to the department of accounting and general services. The bill establishes the broadband office within the office of enterprise technology services, headed by a strategic broadband coordinator appointed by the governor. All appropriations, records, equipment, and other personal property related to the transferred functions are also moved to the department of accounting and general services.\",\n\"economic_impact\": \"In furtherance of the State's objectives and policies for the economy, the broadband office is tasked to develop and implement plans to 'aggressively increase broadband affordability, penetration, and competitive availability in the State'. The office will also support public and private entities to 'enhance or facilitate the deployment of and access to competitively priced, advanced electronic communications services'. The measure also seeks to 'encourage public-private partnerships to increase the deployment and adoption of broadband services and applications'.\",\n\"policy_impact\": \"This act transfers the Hawaii Broadband and Digital Equity Office, renaming it the Broadband Office, and moves it from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services. The bill repeals Chapter 206S, Hawaii Revised Statutes, and section 440G-11.5, Hawaii Revised Statutes, which outlines certain broadband duties of the director of commerce and consumer affairs. It also repeals the Broadband Assistance Advisory Council and establishes a new Broadband Revolving Fund.\",\n\"revenue_sources\": \"The bill establishes the broadband revolving fund, which is to be administered by the broadband office. Sources for this fund include 'Appropriations by the legislature to the revolving fund', 'Proceeds of leases of broadband infrastructure owned by the State', and 'Gifts, donations, and grants from public agencies and private persons'. The bill makes an initial appropriation of $200,000 (HB934_.HTM.txt) from the 'general revenues of the State of Hawaii' to be deposited into the fund.\",\n\"six_year_fiscal_implications\": \"The bill's specified fiscal implications are confined to fiscal year 2025-2026. For that year, there is an appropriation of $200,000 (HB934_.HTM.txt) from general revenues for deposit into the new broadband revolving fund. A subsequent appropriation of $200,000 (HB934_.HTM.txt) from the broadband revolving fund is made for 'the reimbursement of contracts executed by the broadband office'. An additional appropriation of an unspecified amount is authorized from the revolving fund to establish 'full-time equivalent (FTE) digital navigator positions'. The bill does not provide a fiscal projection beyond FY 2025-2026. However, the establishment of the broadband revolving fund creates an ongoing fiscal mechanism intended to support broadband projects, defray internet service costs, and fund technical assistance personnel. The fund is designed to receive future legislative appropriations, lease proceeds, and grants, but no multi-year projections for these revenues or expenditures are provided.\",\n\"operating_revenue_impact\": \"This measure is expected to create a new source of operating revenue through the establishment of the 'broadband revolving fund'. This fund will collect 'Proceeds of leases of broadband infrastructure owned by the State' and 'Gifts, donations, and grants from public agencies and private persons'. Furthermore, 'All interest earned or accrued on moneys deposited into the revolving fund shall become a part of the revolving fund'.\",\n\"capital_expenditure_impact\": \"The bill does not appropriate funds directly for capital expenditures. However, it authorizes moneys in the 'broadband revolving fund' to be used for 'Supporting broadband projects'. Additionally, the duties of the new broadband office include promoting 'the landing of trans-Pacific submarine cable, including the development of a shared access cable station,' which implies future capital investment.\",\n\"fiscal_implications_after_6_years\": \"Ongoing fiscal obligations after the initial six-year period would consist of the operational costs for the broadband office, including salaries for the strategic broadband coordinator and the digital navigator positions. The broadband revolving fund is established as a permanent financial mechanism, with its long-term viability dependent on future appropriations and its ability to generate revenue from leases and grants. The Act's effective date of July 1, 3000, suggests indefinite fiscal implications.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison.\"\n}",
+    "response_text": "{\n\"overview\": \"This bill transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services. [CHUNK_35] It also establishes the Hawaii Broadband and Digital Equity Special Fund. [CHUNK_35] The measure appropriates funds to support the office and the newly created special fund. [CHUNK_35]\",\n\"appropriations\": \"There is appropriated out of the general revenues of the State of Hawaii the sum of $200,000 (HB934_.HTM.txt) or so much thereof as may be necessary for fiscal year 2025-2026 to be deposited into the broadband and digital equity special fund. [CHUNK_21] There is also appropriated out of the broadband and digital equity special fund the sum of $200,000 (HB934_.HTM.txt) or so much thereof as may be necessary for fiscal year 2025-2026 for the purposes of the fund. [CHUNK_22] The sum appropriated shall be expended by the Hawaii broadband and digital equity office for the purposes of this Act. [CHUNK_23]\",\n\"assumptions_and_methodology\": \"The provided legislative documents do not specify the assumptions, cost estimation methods, or data sources used to calculate the financial projections for this measure. [CHUNK_0] The bill appropriates specific amounts for fiscal year 2025-2026 without detailing the underlying methodology for these figures. [CHUNK_21] No references to comparable programs or historical budgets are included in the text to explain the basis for the appropriation amounts. [CHUNK_0]\",\n\"agency_impact\": \"All rights, powers, functions, and duties of the department of business, economic development, and tourism relating to the Hawaii broadband and digital equity office are transferred to the department of accounting and general services. [CHUNK_24] Employees who occupy civil service positions and whose functions are transferred shall retain their civil service status, whether permanent or temporary. [CHUNK_25] All appropriations, records, equipment, machines, files, supplies, contracts, books, papers, documents, maps, and other personal property will also be transferred with the functions to which they relate. [CHUNK_31, CHUNK_32]\",\n\"economic_impact\": \"The Hawaii broadband and digital equity office shall develop and implement specific strategies and plans to aggressively increase broadband affordability, penetration, and competitive availability in the State. [CHUNK_5] The office will support the efforts of both public and private entities to enhance or facilitate the deployment of and access to competitively priced, advanced electronic communications services. [CHUNK_6] It will also administer grant programs in support of broadband infrastructure, innovation, and the digital economy. [CHUNK_8]\",\n\"policy_impact\": \"This measure transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services. [CHUNK_34] The bill establishes the Hawaii Broadband and Digital Equity Special Fund to be administered by the Hawaii broadband and digital equity office. [CHUNK_17] Additionally, the bill repeals Chapter 206S, Hawaii Revised Statutes. [CHUNK_21]\",\n\"revenue_sources\": \"The broadband and digital equity special fund will be deposited with proceeds of leases of broadband infrastructure owned by the State, appropriations by the legislature, and gifts, donations, and grants from public agencies and private persons. [CHUNK_17, CHUNK_18] This bill appropriates $200,000 (HB934_.HTM.txt) out of the general revenues of the State of Hawaii for fiscal year 2025-2026 for deposit into the fund. [CHUNK_21] All interest earned or accrued on moneys deposited into the special fund shall become a part of the special fund. [CHUNK_18]\",\n\"six_year_fiscal_implications\": \"For fiscal year 2025-2026, the bill appropriates $200,000 (HB934_.HTM.txt) from general revenues to be deposited into the broadband and digital equity special fund. [CHUNK_21] An additional sum of $200,000 (HB934_.HTM.txt) is appropriated out of the special fund for the same fiscal year. [CHUNK_22] The special fund is intended for ongoing uses, including supporting broadband projects, defraying internet service costs, and funding personnel positions. [CHUNK_19] Future revenues for the fund may come from legislative appropriations, leases of state-owned broadband infrastructure, and grants or donations. [CHUNK_17, CHUNK_18] The transfer of employees will occur without loss of salary, seniority, or other benefits. [CHUNK_25] However, the bill does not provide a fiscal projection for the subsequent five years. [CHUNK_0] The comptroller may prescribe the duties and qualifications of transferred employees and fix their salaries without regard to chapter 76, Hawaii Revised Statutes. [CHUNK_30] Subsequent changes in employee status may be made pursuant to applicable civil service and compensation laws. [CHUNK_27] The provided text does not contain information about program expansion or recurring expenses beyond the initial appropriation. [CHUNK_0] Therefore, the specific fiscal implications beyond fiscal year 2025-2026 are indeterminate. [CHUNK_0]\",\n\"operating_revenue_impact\": \"The measure establishes the broadband and digital equity special fund, which will receive revenues. [CHUNK_17] These revenues include proceeds of leases of broadband infrastructure owned by the State, as well as gifts, donations, and grants from public agencies and private persons. [CHUNK_18] All interest earned or accrued on moneys deposited into the special fund shall become a part of the special fund. [CHUNK_18]\",\n\"capital_expenditure_impact\": \"The provided documents do not outline any specific new capital expenditures. [CHUNK_0] Moneys in the broadband and digital equity special fund shall be used for supporting broadband projects, but details on capital investments are not provided. [CHUNK_19] The bill mandates the transfer of existing equipment, machines, and other personal property, but does not appropriate funds for new capital purchases. [CHUNK_31]\",\n\"fiscal_implications_after_6_years\": \"The ongoing fiscal obligations after six years will depend on future legislative appropriations and the office's ability to actively seek out funding from public and private sources. [CHUNK_9] The broadband and digital equity special fund is established as a continuing funding mechanism for its designated purposes. [CHUNK_19] The long-term fiscal sustainability of the office and its projects will rely on revenues generated from leases, grants, donations, and any future appropriations. [CHUNK_17, CHUNK_18]\",\n\"updates_from_previous_fiscal_note\": \"The provided documents do not contain a previous fiscal note for this measure. [CHUNK_0] Therefore, a summary of updates or changes cannot be provided. [CHUNK_0]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 6815,
-      "candidates_token_count": 1300,
-      "total_token_count": 11301
+      "prompt_token_count": 6680,
+      "candidates_token_count": 1525,
+      "total_token_count": 10212
     },
     "candidates": [
       {
@@ -27,7 +27,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n\"overview\": \"This bill transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services. It renames the Hawaii Broadband and Digital Equity Office to the Broadband Office and repeals broadband duties assigned to the Director of Commerce and Consumer Affairs. The measure also establishes the Broadband Revolving Fund, establishes positions, and appropriates funds.\",\n\"appropriations\": \"The bill appropriates out of the general revenues of the State of Hawaii the sum of $200,000 (HB934_.HTM.txt) for fiscal year 2025-2026 to be deposited into the broadband revolving fund. It also appropriates out of the broadband revolving fund the sum of $200,000 (HB934_.HTM.txt) for fiscal year 2025-2026 for the reimbursement of contracts executed by the broadband office. Additionally, an unspecified sum is appropriated from the broadband revolving fund for fiscal year 2025-2026 to establish full-time equivalent (FTE) digital navigator positions.\",\n\"assumptions_and_methodology\": \"The legislative document specifies appropriations for fiscal year 2025-2026 without detailing the methodology or assumptions used to arrive at these figures. The amounts are designated for a deposit into a new fund and for contract reimbursements. The basis for the $200,000 (HB934_.HTM.txt) figures or the costs associated with the new digital navigator positions is not provided in the text.\",\n\"agency_impact\": \"All rights, powers, functions, and duties of the department of business, economic development, and tourism relating to the Hawaii broadband and digital equity office are transferred to the department of accounting and general services. The bill establishes the broadband office within the office of enterprise technology services, headed by a strategic broadband coordinator appointed by the governor. All appropriations, records, equipment, and other personal property related to the transferred functions are also moved to the department of accounting and general services.\",\n\"economic_impact\": \"In furtherance of the State's objectives and policies for the economy, the broadband office is tasked to develop and implement plans to 'aggressively increase broadband affordability, penetration, and competitive availability in the State'. The office will also support public and private entities to 'enhance or facilitate the deployment of and access to competitively priced, advanced electronic communications services'. The measure also seeks to 'encourage public-private partnerships to increase the deployment and adoption of broadband services and applications'.\",\n\"policy_impact\": \"This act transfers the Hawaii Broadband and Digital Equity Office, renaming it the Broadband Office, and moves it from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services. The bill repeals Chapter 206S, Hawaii Revised Statutes, and section 440G-11.5, Hawaii Revised Statutes, which outlines certain broadband duties of the director of commerce and consumer affairs. It also repeals the Broadband Assistance Advisory Council and establishes a new Broadband Revolving Fund.\",\n\"revenue_sources\": \"The bill establishes the broadband revolving fund, which is to be administered by the broadband office. Sources for this fund include 'Appropriations by the legislature to the revolving fund', 'Proceeds of leases of broadband infrastructure owned by the State', and 'Gifts, donations, and grants from public agencies and private persons'. The bill makes an initial appropriation of $200,000 (HB934_.HTM.txt) from the 'general revenues of the State of Hawaii' to be deposited into the fund.\",\n\"six_year_fiscal_implications\": \"The bill's specified fiscal implications are confined to fiscal year 2025-2026. For that year, there is an appropriation of $200,000 (HB934_.HTM.txt) from general revenues for deposit into the new broadband revolving fund. A subsequent appropriation of $200,000 (HB934_.HTM.txt) from the broadband revolving fund is made for 'the reimbursement of contracts executed by the broadband office'. An additional appropriation of an unspecified amount is authorized from the revolving fund to establish 'full-time equivalent (FTE) digital navigator positions'. The bill does not provide a fiscal projection beyond FY 2025-2026. However, the establishment of the broadband revolving fund creates an ongoing fiscal mechanism intended to support broadband projects, defray internet service costs, and fund technical assistance personnel. The fund is designed to receive future legislative appropriations, lease proceeds, and grants, but no multi-year projections for these revenues or expenditures are provided.\",\n\"operating_revenue_impact\": \"This measure is expected to create a new source of operating revenue through the establishment of the 'broadband revolving fund'. This fund will collect 'Proceeds of leases of broadband infrastructure owned by the State' and 'Gifts, donations, and grants from public agencies and private persons'. Furthermore, 'All interest earned or accrued on moneys deposited into the revolving fund shall become a part of the revolving fund'.\",\n\"capital_expenditure_impact\": \"The bill does not appropriate funds directly for capital expenditures. However, it authorizes moneys in the 'broadband revolving fund' to be used for 'Supporting broadband projects'. Additionally, the duties of the new broadband office include promoting 'the landing of trans-Pacific submarine cable, including the development of a shared access cable station,' which implies future capital investment.\",\n\"fiscal_implications_after_6_years\": \"Ongoing fiscal obligations after the initial six-year period would consist of the operational costs for the broadband office, including salaries for the strategic broadband coordinator and the digital navigator positions. The broadband revolving fund is established as a permanent financial mechanism, with its long-term viability dependent on future appropriations and its ability to generate revenue from leases and grants. The Act's effective date of July 1, 3000, suggests indefinite fiscal implications.\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison.\"\n}"
+              "text": "{\n\"overview\": \"This bill transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services. [CHUNK_35] It also establishes the Hawaii Broadband and Digital Equity Special Fund. [CHUNK_35] The measure appropriates funds to support the office and the newly created special fund. [CHUNK_35]\",\n\"appropriations\": \"There is appropriated out of the general revenues of the State of Hawaii the sum of $200,000 (HB934_.HTM.txt) or so much thereof as may be necessary for fiscal year 2025-2026 to be deposited into the broadband and digital equity special fund. [CHUNK_21] There is also appropriated out of the broadband and digital equity special fund the sum of $200,000 (HB934_.HTM.txt) or so much thereof as may be necessary for fiscal year 2025-2026 for the purposes of the fund. [CHUNK_22] The sum appropriated shall be expended by the Hawaii broadband and digital equity office for the purposes of this Act. [CHUNK_23]\",\n\"assumptions_and_methodology\": \"The provided legislative documents do not specify the assumptions, cost estimation methods, or data sources used to calculate the financial projections for this measure. [CHUNK_0] The bill appropriates specific amounts for fiscal year 2025-2026 without detailing the underlying methodology for these figures. [CHUNK_21] No references to comparable programs or historical budgets are included in the text to explain the basis for the appropriation amounts. [CHUNK_0]\",\n\"agency_impact\": \"All rights, powers, functions, and duties of the department of business, economic development, and tourism relating to the Hawaii broadband and digital equity office are transferred to the department of accounting and general services. [CHUNK_24] Employees who occupy civil service positions and whose functions are transferred shall retain their civil service status, whether permanent or temporary. [CHUNK_25] All appropriations, records, equipment, machines, files, supplies, contracts, books, papers, documents, maps, and other personal property will also be transferred with the functions to which they relate. [CHUNK_31, CHUNK_32]\",\n\"economic_impact\": \"The Hawaii broadband and digital equity office shall develop and implement specific strategies and plans to aggressively increase broadband affordability, penetration, and competitive availability in the State. [CHUNK_5] The office will support the efforts of both public and private entities to enhance or facilitate the deployment of and access to competitively priced, advanced electronic communications services. [CHUNK_6] It will also administer grant programs in support of broadband infrastructure, innovation, and the digital economy. [CHUNK_8]\",\n\"policy_impact\": \"This measure transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services. [CHUNK_34] The bill establishes the Hawaii Broadband and Digital Equity Special Fund to be administered by the Hawaii broadband and digital equity office. [CHUNK_17] Additionally, the bill repeals Chapter 206S, Hawaii Revised Statutes. [CHUNK_21]\",\n\"revenue_sources\": \"The broadband and digital equity special fund will be deposited with proceeds of leases of broadband infrastructure owned by the State, appropriations by the legislature, and gifts, donations, and grants from public agencies and private persons. [CHUNK_17, CHUNK_18] This bill appropriates $200,000 (HB934_.HTM.txt) out of the general revenues of the State of Hawaii for fiscal year 2025-2026 for deposit into the fund. [CHUNK_21] All interest earned or accrued on moneys deposited into the special fund shall become a part of the special fund. [CHUNK_18]\",\n\"six_year_fiscal_implications\": \"For fiscal year 2025-2026, the bill appropriates $200,000 (HB934_.HTM.txt) from general revenues to be deposited into the broadband and digital equity special fund. [CHUNK_21] An additional sum of $200,000 (HB934_.HTM.txt) is appropriated out of the special fund for the same fiscal year. [CHUNK_22] The special fund is intended for ongoing uses, including supporting broadband projects, defraying internet service costs, and funding personnel positions. [CHUNK_19] Future revenues for the fund may come from legislative appropriations, leases of state-owned broadband infrastructure, and grants or donations. [CHUNK_17, CHUNK_18] The transfer of employees will occur without loss of salary, seniority, or other benefits. [CHUNK_25] However, the bill does not provide a fiscal projection for the subsequent five years. [CHUNK_0] The comptroller may prescribe the duties and qualifications of transferred employees and fix their salaries without regard to chapter 76, Hawaii Revised Statutes. [CHUNK_30] Subsequent changes in employee status may be made pursuant to applicable civil service and compensation laws. [CHUNK_27] The provided text does not contain information about program expansion or recurring expenses beyond the initial appropriation. [CHUNK_0] Therefore, the specific fiscal implications beyond fiscal year 2025-2026 are indeterminate. [CHUNK_0]\",\n\"operating_revenue_impact\": \"The measure establishes the broadband and digital equity special fund, which will receive revenues. [CHUNK_17] These revenues include proceeds of leases of broadband infrastructure owned by the State, as well as gifts, donations, and grants from public agencies and private persons. [CHUNK_18] All interest earned or accrued on moneys deposited into the special fund shall become a part of the special fund. [CHUNK_18]\",\n\"capital_expenditure_impact\": \"The provided documents do not outline any specific new capital expenditures. [CHUNK_0] Moneys in the broadband and digital equity special fund shall be used for supporting broadband projects, but details on capital investments are not provided. [CHUNK_19] The bill mandates the transfer of existing equipment, machines, and other personal property, but does not appropriate funds for new capital purchases. [CHUNK_31]\",\n\"fiscal_implications_after_6_years\": \"The ongoing fiscal obligations after six years will depend on future legislative appropriations and the office's ability to actively seek out funding from public and private sources. [CHUNK_9] The broadband and digital equity special fund is established as a continuing funding mechanism for its designated purposes. [CHUNK_19] The long-term fiscal sustainability of the office and its projects will rely on revenues generated from leases, grants, donations, and any future appropriations. [CHUNK_17, CHUNK_18]\",\n\"updates_from_previous_fiscal_note\": \"The provided documents do not contain a previous fiscal note for this measure. [CHUNK_0] Therefore, a summary of updates or changes cannot be provided. [CHUNK_0]\"\n}"
             }
           ]
         },
@@ -35,578 +35,13 @@
         "safety_ratings": []
       }
     ],
-    "sentence_attribution_analysis": {
-      "sentence_attributions": [
-        {
-          "sentence": "{\n\"overview\": \"This bill transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3181818181818182,
-          "attribution_reason": "Word frequency match score: 0.318",
-          "numbers_found": []
-        },
-        {
-          "sentence": "It renames the Hawaii Broadband and Digital Equity Office to the Broadband Office and repeals broadband duties assigned to the Director of Commerce and Consumer Affairs",
-          "attributed_chunk_id": 8,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.4375,
-          "attribution_reason": "Word frequency match score: 0.438",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The measure also establishes the Broadband Revolving Fund, establishes positions, and appropriates funds",
-          "attributed_chunk_id": 15,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.2,
-          "attribution_reason": "Word frequency match score: 0.200",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"appropriations\": \"The bill appropriates out of the general revenues of the State of Hawaii the sum of $200,000 (HB934_",
-          "attributed_chunk_id": "NUMBER_200000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.6363636363636364,
-          "attribution_reason": "Number $200,000 from HB934_.HTM.txt (score: 0.636)",
-          "numbers_found": [
-            200000.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for fiscal year 2025-2026 to be deposited into the broadband revolving fund",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.45454545454545453,
-          "attribution_reason": "Word frequency match score: 0.455",
-          "numbers_found": []
-        },
-        {
-          "sentence": "It also appropriates out of the broadband revolving fund the sum of $200,000 (HB934_",
-          "attributed_chunk_id": "NUMBER_200000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.5555555555555556,
-          "attribution_reason": "Number $200,000 from HB934_.HTM.txt (score: 0.556)",
-          "numbers_found": [
-            200000.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) for fiscal year 2025-2026 for the reimbursement of contracts executed by the broadband office",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Additionally, an unspecified sum is appropriated from the broadband revolving fund for fiscal year 2025-2026 to establish full-time equivalent (FTE) digital navigator positions",
-          "attributed_chunk_id": 17,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.21052631578947367,
-          "attribution_reason": "Word frequency match score: 0.211",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"assumptions_and_methodology\": \"The legislative document specifies appropriations for fiscal year 2025-2026 without detailing the methodology or assumptions used to arrive at these figures",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The amounts are designated for a deposit into a new fund and for contract reimbursements",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.25,
-          "attribution_reason": "Word frequency match score: 0.250",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The basis for the $200,000 (HB934_",
-          "attributed_chunk_id": "NUMBER_200000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Number $200,000 from HB934_.HTM.txt (score: 0.333)",
-          "numbers_found": [
-            200000.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) figures or the costs associated with the new digital navigator positions is not provided in the text",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"agency_impact\": \"All rights, powers, functions, and duties of the department of business, economic development, and tourism relating to the Hawaii broadband and digital equity office are transferred to the department of accounting and general services",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The bill establishes the broadband office within the office of enterprise technology services, headed by a strategic broadband coordinator appointed by the governor",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.6666666666666666,
-          "attribution_reason": "Word frequency match score: 0.667",
-          "numbers_found": []
-        },
-        {
-          "sentence": "All appropriations, records, equipment, and other personal property related to the transferred functions are also moved to the department of accounting and general services",
-          "attributed_chunk_id": 13,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.1875,
-          "attribution_reason": "Word frequency match score: 0.188",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"economic_impact\": \"In furtherance of the State's objectives and policies for the economy, the broadband office is tasked to develop and implement plans to 'aggressively increase broadband affordability, penetration, and competitive availability in the State'",
-          "attributed_chunk_id": 4,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.8,
-          "attribution_reason": "Word frequency match score: 0.800",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The office will also support public and private entities to 'enhance or facilitate the deployment of and access to competitively priced, advanced electronic communications services'",
-          "attributed_chunk_id": 5,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.875,
-          "attribution_reason": "Word frequency match score: 0.875",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The measure also seeks to 'encourage public-private partnerships to increase the deployment and adoption of broadband services and applications'",
-          "attributed_chunk_id": 14,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.7692307692307693,
-          "attribution_reason": "Word frequency match score: 0.769",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"policy_impact\": \"This act transfers the Hawaii Broadband and Digital Equity Office, renaming it the Broadband Office, and moves it from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3181818181818182,
-          "attribution_reason": "Word frequency match score: 0.318",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The bill repeals Chapter 206S, Hawaii Revised Statutes, and section 440G-11",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": [
-            11.0
-          ]
-        },
-        {
-          "sentence": "5, Hawaii Revised Statutes, which outlines certain broadband duties of the director of commerce and consumer affairs",
-          "attributed_chunk_id": 1,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Word frequency match score: 0.333",
-          "numbers_found": [
-            5.0
-          ]
-        },
-        {
-          "sentence": "It also repeals the Broadband Assistance Advisory Council and establishes a new Broadband Revolving Fund",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.36363636363636365,
-          "attribution_reason": "Word frequency match score: 0.364",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"revenue_sources\": \"The bill establishes the broadband revolving fund, which is to be administered by the broadband office",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Word frequency match score: 0.500",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Sources for this fund include 'Appropriations by the legislature to the revolving fund', 'Proceeds of leases of broadband infrastructure owned by the State', and 'Gifts, donations, and grants from public agencies and private persons'",
-          "attributed_chunk_id": 17,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.8095238095238095,
-          "attribution_reason": "Word frequency match score: 0.810",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The bill makes an initial appropriation of $200,000 (HB934_",
-          "attributed_chunk_id": "NUMBER_200000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.16666666666666666,
-          "attribution_reason": "Number $200,000 from HB934_.HTM.txt (score: 0.167)",
-          "numbers_found": [
-            200000.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) from the 'general revenues of the State of Hawaii' to be deposited into the fund",
-          "attributed_chunk_id": 17,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Word frequency match score: 0.500",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"six_year_fiscal_implications\": \"The bill's specified fiscal implications are confined to fiscal year 2025-2026",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "For that year, there is an appropriation of $200,000 (HB934_",
-          "attributed_chunk_id": "NUMBER_200000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.4,
-          "attribution_reason": "Number $200,000 from HB934_.HTM.txt (score: 0.400)",
-          "numbers_found": [
-            200000.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) from general revenues for deposit into the new broadband revolving fund",
-          "attributed_chunk_id": 17,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.45454545454545453,
-          "attribution_reason": "Word frequency match score: 0.455",
-          "numbers_found": []
-        },
-        {
-          "sentence": "A subsequent appropriation of $200,000 (HB934_",
-          "attributed_chunk_id": "NUMBER_200000",
-          "attribution_method": "number_based",
-          "attribution_score": 0.25,
-          "attribution_reason": "Number $200,000 from HB934_.HTM.txt (score: 0.250)",
-          "numbers_found": [
-            200000.0
-          ]
-        },
-        {
-          "sentence": "HTM. txt) from the broadband revolving fund is made for 'the reimbursement of contracts executed by the broadband office'",
-          "attributed_chunk_id": 3,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.3333333333333333,
-          "attribution_reason": "Word frequency match score: 0.333",
-          "numbers_found": []
-        },
-        {
-          "sentence": "An additional appropriation of an unspecified amount is authorized from the revolving fund to establish 'full-time equivalent (FTE) digital navigator positions'",
-          "attributed_chunk_id": 17,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.2,
-          "attribution_reason": "Word frequency match score: 0.200",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The bill does not provide a fiscal projection beyond FY 2025-2026",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "However, the establishment of the broadband revolving fund creates an ongoing fiscal mechanism intended to support broadband projects, defray internet service costs, and fund technical assistance personnel",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.23809523809523808,
-          "attribution_reason": "Word frequency match score: 0.238",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The fund is designed to receive future legislative appropriations, lease proceeds, and grants, but no multi-year projections for these revenues or expenditures are provided",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.06666666666666667,
-          "attribution_reason": "Word frequency match score: 0.067",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"operating_revenue_impact\": \"This measure is expected to create a new source of operating revenue through the establishment of the 'broadband revolving fund'",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.23076923076923078,
-          "attribution_reason": "Word frequency match score: 0.231",
-          "numbers_found": []
-        },
-        {
-          "sentence": "This fund will collect 'Proceeds of leases of broadband infrastructure owned by the State' and 'Gifts, donations, and grants from public agencies and private persons'",
-          "attributed_chunk_id": 17,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.8125,
-          "attribution_reason": "Word frequency match score: 0.812",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Furthermore, 'All interest earned or accrued on moneys deposited into the revolving fund shall become a part of the revolving fund'",
-          "attributed_chunk_id": 17,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.9285714285714286,
-          "attribution_reason": "Word frequency match score: 0.929",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"capital_expenditure_impact\": \"The bill does not appropriate funds directly for capital expenditures",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "However, it authorizes moneys in the 'broadband revolving fund' to be used for 'Supporting broadband projects'",
-          "attributed_chunk_id": 18,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.5,
-          "attribution_reason": "Word frequency match score: 0.500",
-          "numbers_found": []
-        },
-        {
-          "sentence": "Additionally, the duties of the new broadband office include promoting 'the landing of trans-Pacific submarine cable, including the development of a shared access cable station,' which implies future capital investment",
-          "attributed_chunk_id": 6,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.4782608695652174,
-          "attribution_reason": "Word frequency match score: 0.478",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\",\n\"fiscal_implications_after_6_years\": \"Ongoing fiscal obligations after the initial six-year period would consist of the operational costs for the broadband office, including salaries for the strategic broadband coordinator and the digital navigator positions",
-          "attributed_chunk_id": 2,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.2727272727272727,
-          "attribution_reason": "Word frequency match score: 0.273",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The broadband revolving fund is established as a permanent financial mechanism, with its long-term viability dependent on future appropriations and its ability to generate revenue from leases and grants",
-          "attributed_chunk_id": 16,
-          "attribution_method": "word_frequency_based",
-          "attribution_score": 0.2857142857142857,
-          "attribution_reason": "Word frequency match score: 0.286",
-          "numbers_found": []
-        },
-        {
-          "sentence": "The Act's effective date of July 1, 3000, suggests indefinite fiscal implications",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": [
-            1.0
-          ]
-        },
-        {
-          "sentence": "\",\n\"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison",
-          "attributed_chunk_id": 0,
-          "attribution_method": "fallback",
-          "attribution_score": 0.1,
-          "attribution_reason": "Fallback attribution (no clear match found)",
-          "numbers_found": []
-        },
-        {
-          "sentence": "\"\n}.",
-          "attributed_chunk_id": null,
-          "attribution_method": "no_attribution",
-          "attribution_score": 0,
-          "attribution_reason": "",
-          "numbers_found": []
-        }
-      ],
-      "chunk_usage_stats": {
-        "0": {
-          "usage_count": 10,
-          "document_name": "HB934",
-          "attribution_reasons": [
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)",
-            "Fallback attribution (no clear match found)"
-          ]
-        },
-        "1": {
-          "usage_count": 2,
-          "document_name": "HB934",
-          "attribution_reasons": [
-            "Word frequency match score: 0.250",
-            "Word frequency match score: 0.333"
-          ]
-        },
-        "2": {
-          "usage_count": 1,
-          "document_name": "HB934",
-          "attribution_reasons": [
-            "Word frequency match score: 0.273"
-          ]
-        },
-        "3": {
-          "usage_count": 4,
-          "document_name": "HB934",
-          "attribution_reasons": [
-            "Word frequency match score: 0.318",
-            "Word frequency match score: 0.667",
-            "Word frequency match score: 0.318",
-            "Word frequency match score: 0.333"
-          ]
-        },
-        "4": {
-          "usage_count": 1,
-          "document_name": "HB934",
-          "attribution_reasons": [
-            "Word frequency match score: 0.800"
-          ]
-        },
-        "5": {
-          "usage_count": 1,
-          "document_name": "HB934",
-          "attribution_reasons": [
-            "Word frequency match score: 0.875"
-          ]
-        },
-        "6": {
-          "usage_count": 1,
-          "document_name": "HB934",
-          "attribution_reasons": [
-            "Word frequency match score: 0.478"
-          ]
-        },
-        "7": {
-          "usage_count": 0,
-          "document_name": "HB934",
-          "attribution_reasons": []
-        },
-        "8": {
-          "usage_count": 1,
-          "document_name": "HB934",
-          "attribution_reasons": [
-            "Word frequency match score: 0.438"
-          ]
-        },
-        "9": {
-          "usage_count": 0,
-          "document_name": "HB934",
-          "attribution_reasons": []
-        },
-        "10": {
-          "usage_count": 0,
-          "document_name": "HB934",
-          "attribution_reasons": []
-        },
-        "11": {
-          "usage_count": 0,
-          "document_name": "HB934",
-          "attribution_reasons": []
-        },
-        "12": {
-          "usage_count": 0,
-          "document_name": "HB934",
-          "attribution_reasons": []
-        },
-        "13": {
-          "usage_count": 1,
-          "document_name": "HB934",
-          "attribution_reasons": [
-            "Word frequency match score: 0.188"
-          ]
-        },
-        "14": {
-          "usage_count": 1,
-          "document_name": "HB934",
-          "attribution_reasons": [
-            "Word frequency match score: 0.769"
-          ]
-        },
-        "15": {
-          "usage_count": 1,
-          "document_name": "HB934",
-          "attribution_reasons": [
-            "Word frequency match score: 0.200"
-          ]
-        },
-        "16": {
-          "usage_count": 7,
-          "document_name": "HB934",
-          "attribution_reasons": [
-            "Word frequency match score: 0.455",
-            "Word frequency match score: 0.364",
-            "Word frequency match score: 0.500",
-            "Word frequency match score: 0.238",
-            "Word frequency match score: 0.067",
-            "Word frequency match score: 0.231",
-            "Word frequency match score: 0.286"
-          ]
-        },
-        "17": {
-          "usage_count": 7,
-          "document_name": "HB934",
-          "attribution_reasons": [
-            "Word frequency match score: 0.211",
-            "Word frequency match score: 0.810",
-            "Word frequency match score: 0.500",
-            "Word frequency match score: 0.455",
-            "Word frequency match score: 0.200",
-            "Word frequency match score: 0.812",
-            "Word frequency match score: 0.929"
-          ]
-        },
-        "18": {
-          "usage_count": 1,
-          "document_name": "HB934",
-          "attribution_reasons": [
-            "Word frequency match score: 0.500"
-          ]
-        },
-        "NUMBER_200000.0": {
-          "usage_count": 0,
-          "document_name": "HB934_.HTM.txt",
-          "attribution_reasons": []
-        },
-        "NUMBER_200000": {
-          "usage_count": 6,
-          "document_name": "HB934_.HTM.txt",
-          "attribution_reasons": [
-            "Number $200,000 from HB934_.HTM.txt (score: 0.636)",
-            "Number $200,000 from HB934_.HTM.txt (score: 0.556)",
-            "Number $200,000 from HB934_.HTM.txt (score: 0.333)",
-            "Number $200,000 from HB934_.HTM.txt (score: 0.167)",
-            "Number $200,000 from HB934_.HTM.txt (score: 0.400)",
-            "Number $200,000 from HB934_.HTM.txt (score: 0.250)"
-          ]
-        }
-      },
-      "attribution_method_stats": {
-        "document_citation_based": 0,
-        "number_based": 6,
-        "word_frequency_based": 29,
-        "semantic_similarity": 0,
-        "fallback": 10,
-        "no_attribution": 1
-      }
-    },
     "chunks_metadata": {
-      "total_chunks": 19,
+      "total_chunks": 37,
       "chunk_details": [
         {
           "chunk_id": 0,
           "document_name": "HB934",
-          "chunk_text": "HB934 SD1 HOUSE OF REPRESENTATIVES H.B. NO. 934 THIRTY-THIRD LEGISLATURE, 2025 H.D. 1 STATE OF HAWAII S.D. 1 A BILL FOR AN ACT RELATING TO THE HAWAII BROADBAND AND DIGITAL EQUITY OFFICE . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 27, Hawaii Revised",
+          "chunk_text": "HB934 HOUSE OF REPRESENTATIVES H.B. NO. 934 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to the hawaii broadband and digital equity office . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 27, Hawaii Revised Statutes, is amended by adding",
           "start_word": 0,
           "end_word": 50,
           "word_count": 50
@@ -614,7 +49,7 @@
         {
           "chunk_id": 1,
           "document_name": "HB934",
-          "chunk_text": "THE STATE OF HAWAII: SECTION 1. Chapter 27, Hawaii Revised Statutes, is amended by adding a new part to be appropriately designated and to read as follows: \" Part . broadband office § 27-A Definitions. As used in this part: \"Broadband\" means high-speed internet access that is always on, including",
+          "chunk_text": "1. Chapter 27, Hawaii Revised Statutes, is amended by adding a new part to be appropriately designated and to read as follows: \" Part . Hawaii broadband and digital equity office § 27-A Definitions. As used in this part: \"Broadband\" means high-speed internet access that is always on, including mobile",
           "start_word": 40,
           "end_word": 90,
           "word_count": 50
@@ -622,7 +57,7 @@
         {
           "chunk_id": 2,
           "document_name": "HB934",
-          "chunk_text": "\"Broadband\" means high-speed internet access that is always on, including mobile and fixed technologies. \"Digital equity\" means a condition in which all individuals and communities have the information technology capacity needed for full participation in society, democracy, and the economy. § 27-B Broadband office; establishment; strategic broadband coordinator; staff. (a)",
+          "chunk_text": "means high-speed internet access that is always on, including mobile and fixed technologies. \"Digital equity\" means a condition in which all individuals and communities have the information technology capacity needed for full participation in society, democracy, and the economy. § 27-B Hawaii broadband and digital equity office; establishment; strategic broadband",
           "start_word": 80,
           "end_word": 130,
           "word_count": 50
@@ -630,7 +65,7 @@
         {
           "chunk_id": 3,
           "document_name": "HB934",
-          "chunk_text": "§ 27-B Broadband office; establishment; strategic broadband coordinator; staff. (a) There is established the broadband office within the office of enterprise technology services. (b) Without regard to section 26-34, the governor shall appoint a strategic broadband coordinator, who shall be exempt from chapter 76, to head the broadband office. §27-C",
+          "chunk_text": "27-B Hawaii broadband and digital equity office; establishment; strategic broadband coordinator; staff. (a) There is established the Hawaii broadband and digital equity office within the office of enterprise technology services. (b) Without regard to section 26-34, the governor shall appoint a strategic broadband coordinator, who shall be exempt from chapter",
           "start_word": 120,
           "end_word": 170,
           "word_count": 50
@@ -638,7 +73,7 @@
         {
           "chunk_id": 4,
           "document_name": "HB934",
-          "chunk_text": "exempt from chapter 76, to head the broadband office. §27-C Broadband office; duties. In furtherance of the State's objectives and policies for the economy pursuant to section 226-10.5, the broadband office shall: (1) Develop and implement specific strategies and plans to aggressively increase broadband affordability, penetration, and competitive availability in",
+          "chunk_text": "a strategic broadband coordinator, who shall be exempt from chapter 76, to head the Hawaii broadband and digital equity office. §27-C Hawaii broadband and digital equity office; duties. In furtherance of the State's objectives and policies for the economy pursuant to section 226-10.5, the Hawaii broadband and digital equity office",
           "start_word": 160,
           "end_word": 210,
           "word_count": 50
@@ -646,7 +81,7 @@
         {
           "chunk_id": 5,
           "document_name": "HB934",
-          "chunk_text": "to aggressively increase broadband affordability, penetration, and competitive availability in the State; (2) Support the efforts of both public and private entities in the State to enhance or facilitate the deployment of and access to competitively priced, advanced electronic communications services, including broadband and its products and services and internet",
+          "chunk_text": "to section 226-10.5, the Hawaii broadband and digital equity office shall: (1) Develop and implement specific strategies and plans to aggressively increase broadband affordability, penetration, and competitive availability in the State; (2) Support the efforts of both public and private entities in the State to enhance or facilitate the deployment",
           "start_word": 200,
           "end_word": 250,
           "word_count": 50
@@ -654,7 +89,7 @@
         {
           "chunk_id": 6,
           "document_name": "HB934",
-          "chunk_text": "services, including broadband and its products and services and internet access services of general application throughout the State; (3) Promote the landing of trans-Pacific submarine cable, including the development of a shared access cable station and associated terrestrial connectivity to reduce barriers to fiber landing in the State; (4) Promote,",
+          "chunk_text": "entities in the State to enhance or facilitate the deployment of and access to competitively priced, advanced electronic communications services, including broadband and its products and services and internet access services of general application throughout the State; (3) Promote the landing of trans-Pacific submarine cable, including the development of a",
           "start_word": 240,
           "end_word": 290,
           "word_count": 50
@@ -662,7 +97,7 @@
         {
           "chunk_id": 7,
           "document_name": "HB934",
-          "chunk_text": "reduce barriers to fiber landing in the State; (4) Promote, advocate, and facilitate the implementation of the findings and recommendations of the Hawaii broadband task force established by Act 2, First Special Session Laws of Hawaii 2007, and the 2020 Hawaii Broadband Strategic Plan; (5) Support the findings of community-based",
+          "chunk_text": "landing of trans-Pacific submarine cable, including the development of a shared access cable station and associated terrestrial connectivity to reduce barriers to fiber landing in Hawaii; (4) Promote, advocate, and facilitate the implementation of the findings and recommendations of the Hawaii broadband task force established by Act 2, First Special",
           "start_word": 280,
           "end_word": 330,
           "word_count": 50
@@ -670,7 +105,7 @@
         {
           "chunk_id": 8,
           "document_name": "HB934",
-          "chunk_text": "Hawaii Broadband Strategic Plan; (5) Support the findings of community-based groups as reflected in its digital equity declaration; (6) Administer grant programs in support of broadband infrastructure, innovation, and the digital economy; (7) Actively seek out funding from public and private sources in furtherance of the office's duties pursuant to",
+          "chunk_text": "Hawaii broadband task force established by Act 2, First Special Session Laws of Hawaii 2007, and the 2020 Hawaii Broadband Strategic Plan; (5) Support the findings of community-based groups as reflected in its digital equity declaration; (6) Administer grant programs in support of broadband infrastructure, innovation, and the digital economy;",
           "start_word": 320,
           "end_word": 370,
           "word_count": 50
@@ -678,7 +113,7 @@
         {
           "chunk_id": 9,
           "document_name": "HB934",
-          "chunk_text": "private sources in furtherance of the office's duties pursuant to this section; and (8) Provide a repository, aggregation point, and governance framework for broadband mapping and digital equity data from various sources, including digital literacy, telehealth, distance education, internet accessibility, and service coverage to support mapping, reporting, infrastructure deployment, and",
+          "chunk_text": "in support of broadband infrastructure, innovation, and the digital economy; (7) Actively seek out funding from public and private sources in furtherance of the office's duties pursuant to this section; and (8) Provide a repository, aggregation point, and governance framework for broadband mapping and digital equity data from various sources,",
           "start_word": 360,
           "end_word": 410,
           "word_count": 50
@@ -686,7 +121,7 @@
         {
           "chunk_id": 10,
           "document_name": "HB934",
-          "chunk_text": "and service coverage to support mapping, reporting, infrastructure deployment, and data-driven policy. §27-D Broadband planning and coordination; cooperation. (a) The broadband office shall: (1) Seek input and the widest possible cooperation from public and private agencies and individuals to achieve the purposes of this part; (2) Work closely with and",
+          "chunk_text": "for broadband mapping and digital equity data from various sources, including digital literacy, telehealth, distance education, remote work, internet accessibility, and service coverage to support mapping, reporting, infrastructure deployment, and data-driven policy. §27-D Broadband planning and coordination; cooperation. (a) The Hawaii broadband and digital equity office shall: (1) Seek input",
           "start_word": 400,
           "end_word": 450,
           "word_count": 50
@@ -694,7 +129,7 @@
         {
           "chunk_id": 11,
           "document_name": "HB934",
-          "chunk_text": "the purposes of this part; (2) Work closely with and assist the counties in the promotion of coordinated state and county broadband planning; (3) Encourage every state department, county agency, and other public or private agencies and individuals involved in broadband programs to participate in the activities of the office",
+          "chunk_text": "Hawaii broadband and digital equity office shall: (1) Seek input and the widest possible cooperation from public and private agencies and individuals to achieve the purposes of this part; (2) Work closely with and assist the counties in the promotion of coordinated state and county broadband planning; (3) Encourage every",
           "start_word": 440,
           "end_word": 490,
           "word_count": 50
@@ -702,7 +137,7 @@
         {
           "chunk_id": 12,
           "document_name": "HB934",
-          "chunk_text": "broadband programs to participate in the activities of the office and incorporate, to the extent feasible, the ideas and suggestions of the participants in the office's comprehensive planning goals; (4) Monitor the broadband-based development efforts of other states and nations in areas such as business, education, and health; (5) Advise",
+          "chunk_text": "of coordinated state and county broadband planning; (3) Encourage every state department, county agency, and other public or private agencies and individuals involved in broadband programs to participate in the activities of the office and incorporate, to the extent feasible, the ideas and suggestions of the participants in the office's",
           "start_word": 480,
           "end_word": 530,
           "word_count": 50
@@ -710,7 +145,7 @@
         {
           "chunk_id": 13,
           "document_name": "HB934",
-          "chunk_text": "in areas such as business, education, and health; (5) Advise the office of enterprise technology services on other states' best practices involving policies and strategies related to making affordable broadband services available to every home and business in the State; (6) Monitor broadband-related activities at the federal level; (7) Encourage",
+          "chunk_text": "the ideas and suggestions of the participants in the office's comprehensive planning goals; (4) Monitor the broadband-based development efforts of other states and nations in areas such as business, education, and health; (5) Advise the office of enterprise technology services on other states' best practices involving remote work promotion and",
           "start_word": 520,
           "end_word": 570,
           "word_count": 50
@@ -718,7 +153,7 @@
         {
           "chunk_id": 14,
           "document_name": "HB934",
-          "chunk_text": "(6) Monitor broadband-related activities at the federal level; (7) Encourage public-private partnerships to increase the deployment and adoption of broadband services and applications; (8) Monitor regulatory and policy changes for potential impact on broadband deployment and sustainability in the State; and (9) Advise the chief information officer on broadband deployment.",
+          "chunk_text": "on other states' best practices involving remote work promotion and policies and strategies related to making affordable broadband services available to every home and business in the State; (6) Monitor broadband-related activities at the federal level; (7) Encourage public-private partnerships to increase the deployment and adoption of broadband services and",
           "start_word": 560,
           "end_word": 610,
           "word_count": 50
@@ -726,7 +161,7 @@
         {
           "chunk_id": 15,
           "document_name": "HB934",
-          "chunk_text": "and (9) Advise the chief information officer on broadband deployment. (b) Nothing in this section shall be construed to delegate, or detract in any way from, the functions, powers, and duties conferred by law or rule on any department or agency of the State or county. § 27-E Broadband revolving",
+          "chunk_text": "to increase the deployment and adoption of broadband services and applications; (8) Monitor regulatory and policy changes for potential impact on broadband deployment and sustainability in the State; and (9) Advise the chief information officer on broadband deployment. (b) Nothing in this section shall be construed to delegate, or detract",
           "start_word": 600,
           "end_word": 650,
           "word_count": 50
@@ -734,7 +169,7 @@
         {
           "chunk_id": 16,
           "document_name": "HB934",
-          "chunk_text": "agency of the State or county. § 27-E Broadband revolving fund. (a) There is established in the state treasury the broadband revolving fund to be administered by the broadband office, into which shall be deposited: (1) Proceeds of leases of broadband infrastructure owned by the State; (2) Appropriations by the",
+          "chunk_text": "in this section shall be construed to delegate, or detract in any way from, the functions, powers, and duties conferred by law or rule on any department or agency of the State or county. § 27-E Broadband and digital equity special fund. (a) There is established in the state treasure",
           "start_word": 640,
           "end_word": 690,
           "word_count": 50
@@ -742,7 +177,7 @@
         {
           "chunk_id": 17,
           "document_name": "HB934",
-          "chunk_text": "broadband infrastructure owned by the State; (2) Appropriations by the legislature to the revolving fund; and (3) Gifts, donations, and grants from public agencies and private persons. All interest earned or accrued on moneys deposited into the revolving fund shall become a part of the revolving fund. (b) Moneys in",
+          "chunk_text": "special fund. (a) There is established in the state treasure the broadband and digital equity special fund to be administered by the Hawaii broadband and digital equity office, into which shall be deposited: (1) Proceeds of leases of broadband infrastructure owned by the State; (2) Appropriations by the legislature to",
           "start_word": 680,
           "end_word": 730,
           "word_count": 50
@@ -750,10 +185,154 @@
         {
           "chunk_id": 18,
           "document_name": "HB934",
-          "chunk_text": "become a part of the revolving fund. (b) Moneys in the broadband revolving fund shall be used for: (1)",
+          "chunk_text": "owned by the State; (2) Appropriations by the legislature to the special fund; and (3) Gifts, donations, and grants from public agencies and private persons. All interest earned or accrued on moneys deposited into the special fund shall become a part of the special fund. (b) Moneys in the broadband",
           "start_word": 720,
-          "end_word": 739,
-          "word_count": 19
+          "end_word": 770,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB934",
+          "chunk_text": "part of the special fund. (b) Moneys in the broadband and digital equity special fund shall be used for: (1) Supporting broadband projects; (2) Defraying the cost of internet services; and (3) Funding positions for personnel to provide technical assistance to the community. (c) Expenditures from the broadband and digital",
+          "start_word": 760,
+          "end_word": 810,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB934",
+          "chunk_text": "to the community. (c) Expenditures from the broadband and digital equity special fund shall be made by the Hawaii broadband and digital equity office, subject to oversight and prior approval by the information technology steering committee.\" SECTION 2. Chapter 206S, Hawaii Revised Statutes, is repealed. SECTION 3 . There is",
+          "start_word": 800,
+          "end_word": 850,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB934",
+          "chunk_text": "Hawaii Revised Statutes, is repealed. SECTION 3 . There is appropriated out of the general revenues of the State of Hawaii the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 to be deposited into the broadband and digital equity special fund under section",
+          "start_word": 840,
+          "end_word": 890,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 22,
+          "document_name": "HB934",
+          "chunk_text": "into the broadband and digital equity special fund under section 27-E, Hawaii Revised Statutes . SECTION 4 . There is appropriated out of the br oadband and digital equity special fund the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 for the purposes",
+          "start_word": 880,
+          "end_word": 930,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 23,
+          "document_name": "HB934",
+          "chunk_text": "may be necessary for fiscal year 2025-2026 for the purposes of the fund. The sum appropriated shall be expended by the Hawaii broadband and digital equity office for the purposes of this Act. SECTION 5. All rights, powers, functions, and duties of the department of business, economic development, and tourism",
+          "start_word": 920,
+          "end_word": 970,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 24,
+          "document_name": "HB934",
+          "chunk_text": "duties of the department of business, economic development, and tourism relating to the Hawaii broadband and digital equity office are transferred to the department of accounting and general services. All employees who occupy civil service positions and whose functions are transferred to the department of accounting and general services by",
+          "start_word": 960,
+          "end_word": 1010,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 25,
+          "document_name": "HB934",
+          "chunk_text": "transferred to the department of accounting and general services by this Act shall retain their civil service status, whether permanent or temporary. Employees shall be transferred without loss of salary, seniority (except as prescribed by applicable collective bargaining agreements), retention points, prior service credit, any vacation and sick leave credits",
+          "start_word": 1000,
+          "end_word": 1050,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 26,
+          "document_name": "HB934",
+          "chunk_text": "points, prior service credit, any vacation and sick leave credits previously earned, and other rights, benefits, and privileges, in accordance with state personnel laws and this Act; provided that the employees possess the minimum qualifications and public employment requirements for the class or position to which transferred or appointed, as",
+          "start_word": 1040,
+          "end_word": 1090,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 27,
+          "document_name": "HB934",
+          "chunk_text": "the class or position to which transferred or appointed, as applicable; provided further that subsequent changes in status may be made pursuant to applicable civil service and compensation laws. Any employee who, prior to this Act, is exempt from civil service and is transferred as a consequence of this Act",
+          "start_word": 1080,
+          "end_word": 1130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 28,
+          "document_name": "HB934",
+          "chunk_text": "service and is transferred as a consequence of this Act may retain the employee's exempt status, but shall not be appointed to a civil service position as a consequence of this Act. An exempt employee who is transferred by this Act shall not suffer any loss of prior service credit,",
+          "start_word": 1120,
+          "end_word": 1170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 29,
+          "document_name": "HB934",
+          "chunk_text": "Act shall not suffer any loss of prior service credit, vacation or sick leave credits previously earned, or other employee benefits or privileges as a consequence of this Act; provided that the employees possess legal and public employment requirements for the position to which transferred or appointed, as applicable; provided",
+          "start_word": 1160,
+          "end_word": 1210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 30,
+          "document_name": "HB934",
+          "chunk_text": "the position to which transferred or appointed, as applicable; provided further that subsequent changes in status may be made pursuant to applicable employment and compensation laws. The comptroller may prescribe the duties and qualifications of these employees and fix their salaries without regard to chapter 76, Hawaii Revised Statutes. SECTION",
+          "start_word": 1200,
+          "end_word": 1250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 31,
+          "document_name": "HB934",
+          "chunk_text": "salaries without regard to chapter 76, Hawaii Revised Statutes. SECTION 6. All appropriations, records, equipment, machines, files, supplies, contracts, books, papers, documents, maps, and other personal property heretofore made, used, acquired, or held by the department of business, economic development, and tourism relating to the functions of the Hawaii broadband",
+          "start_word": 1240,
+          "end_word": 1290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 32,
+          "document_name": "HB934",
+          "chunk_text": "and tourism relating to the functions of the Hawaii broadband and digital equity office transferred to the department of accounting and general services shall be transferred with the functions to which they relate. SECTION 7. In codifying the new sections added by section 1 of this Act, the revisor of",
+          "start_word": 1280,
+          "end_word": 1330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 33,
+          "document_name": "HB934",
+          "chunk_text": "added by section 1 of this Act, the revisor of statutes shall substitute appropriate section numbers for the letters used in designating the new sections in this Act. SECTION 8. This Act shall take effect on July 1, 2025. INTRODUCED BY: _____________________________ Report Title: Hawaii Broadband and Digital Equity Office;",
+          "start_word": 1320,
+          "end_word": 1370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 34,
+          "document_name": "HB934",
+          "chunk_text": "BY: _____________________________ Report Title: Hawaii Broadband and Digital Equity Office; Department of Business, Economic Development, and Tourism; Office of Enterprise Technology Services; Hawaii Broadband and Digital Equity Special Fund; Appropriation Description: Transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the",
+          "start_word": 1360,
+          "end_word": 1410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 35,
+          "document_name": "HB934",
+          "chunk_text": "the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services. Establishes the Hawaii Broadband and Digital Equity Special Fund. Appropriates funds. The summary description of legislation appearing on this page is for informational purposes only and is",
+          "start_word": 1400,
+          "end_word": 1450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 36,
+          "document_name": "HB934",
+          "chunk_text": "on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+          "start_word": 1440,
+          "end_word": 1457,
+          "word_count": 17
         }
       ]
     },
@@ -770,8 +349,805 @@
         "filename": "HB934_.HTM.txt",
         "document_type": "document"
       }
+    ],
+    "chunk_text_map": {
+      "1": [
+        {
+          "chunk_text": "the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services. Establishes the Hawaii Broadband and Digital Equity Special Fund. Appropriates funds. The summary description of legislation appearing on this page is for informational purposes only and is",
+          "chunk_id": 35,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "Hawaii Revised Statutes, is repealed. SECTION 3 . There is appropriated out of the general revenues of the State of Hawaii the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 to be deposited into the broadband and digital equity special fund under section",
+          "chunk_id": 21,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "into the broadband and digital equity special fund under section 27-E, Hawaii Revised Statutes . SECTION 4 . There is appropriated out of the br oadband and digital equity special fund the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 for the purposes",
+          "chunk_id": 22,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "may be necessary for fiscal year 2025-2026 for the purposes of the fund. The sum appropriated shall be expended by the Hawaii broadband and digital equity office for the purposes of this Act. SECTION 5. All rights, powers, functions, and duties of the department of business, economic development, and tourism",
+          "chunk_id": 23,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "HB934 HOUSE OF REPRESENTATIVES H.B. NO. 934 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to the hawaii broadband and digital equity office . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 27, Hawaii Revised Statutes, is amended by adding",
+          "chunk_id": 0,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "duties of the department of business, economic development, and tourism relating to the Hawaii broadband and digital equity office are transferred to the department of accounting and general services. All employees who occupy civil service positions and whose functions are transferred to the department of accounting and general services by",
+          "chunk_id": 24,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "transferred to the department of accounting and general services by this Act shall retain their civil service status, whether permanent or temporary. Employees shall be transferred without loss of salary, seniority (except as prescribed by applicable collective bargaining agreements), retention points, prior service credit, any vacation and sick leave credits",
+          "chunk_id": 25,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "salaries without regard to chapter 76, Hawaii Revised Statutes. SECTION 6. All appropriations, records, equipment, machines, files, supplies, contracts, books, papers, documents, maps, and other personal property heretofore made, used, acquired, or held by the department of business, economic development, and tourism relating to the functions of the Hawaii broadband",
+          "chunk_id": 31,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "and tourism relating to the functions of the Hawaii broadband and digital equity office transferred to the department of accounting and general services shall be transferred with the functions to which they relate. SECTION 7. In codifying the new sections added by section 1 of this Act, the revisor of",
+          "chunk_id": 32,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "to section 226-10.5, the Hawaii broadband and digital equity office shall: (1) Develop and implement specific strategies and plans to aggressively increase broadband affordability, penetration, and competitive availability in the State; (2) Support the efforts of both public and private entities in the State to enhance or facilitate the deployment",
+          "chunk_id": 5,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "entities in the State to enhance or facilitate the deployment of and access to competitively priced, advanced electronic communications services, including broadband and its products and services and internet access services of general application throughout the State; (3) Promote the landing of trans-Pacific submarine cable, including the development of a",
+          "chunk_id": 6,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "Hawaii broadband task force established by Act 2, First Special Session Laws of Hawaii 2007, and the 2020 Hawaii Broadband Strategic Plan; (5) Support the findings of community-based groups as reflected in its digital equity declaration; (6) Administer grant programs in support of broadband infrastructure, innovation, and the digital economy;",
+          "chunk_id": 8,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "BY: _____________________________ Report Title: Hawaii Broadband and Digital Equity Office; Department of Business, Economic Development, and Tourism; Office of Enterprise Technology Services; Hawaii Broadband and Digital Equity Special Fund; Appropriation Description: Transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the",
+          "chunk_id": 34,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "special fund. (a) There is established in the state treasure the broadband and digital equity special fund to be administered by the Hawaii broadband and digital equity office, into which shall be deposited: (1) Proceeds of leases of broadband infrastructure owned by the State; (2) Appropriations by the legislature to",
+          "chunk_id": 17,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "owned by the State; (2) Appropriations by the legislature to the special fund; and (3) Gifts, donations, and grants from public agencies and private persons. All interest earned or accrued on moneys deposited into the special fund shall become a part of the special fund. (b) Moneys in the broadband",
+          "chunk_id": 18,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "part of the special fund. (b) Moneys in the broadband and digital equity special fund shall be used for: (1) Supporting broadband projects; (2) Defraying the cost of internet services; and (3) Funding positions for personnel to provide technical assistance to the community. (c) Expenditures from the broadband and digital",
+          "chunk_id": 19,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "the position to which transferred or appointed, as applicable; provided further that subsequent changes in status may be made pursuant to applicable employment and compensation laws. The comptroller may prescribe the duties and qualifications of these employees and fix their salaries without regard to chapter 76, Hawaii Revised Statutes. SECTION",
+          "chunk_id": 30,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "the class or position to which transferred or appointed, as applicable; provided further that subsequent changes in status may be made pursuant to applicable civil service and compensation laws. Any employee who, prior to this Act, is exempt from civil service and is transferred as a consequence of this Act",
+          "chunk_id": 27,
+          "document_name": "HB934"
+        },
+        {
+          "chunk_text": "in support of broadband infrastructure, innovation, and the digital economy; (7) Actively seek out funding from public and private sources in furtherance of the office's duties pursuant to this section; and (8) Provide a repository, aggregation point, and governance framework for broadband mapping and digital equity data from various sources,",
+          "chunk_id": 9,
+          "document_name": "HB934"
+        }
+      ]
+    },
+    "document_mapping": {
+      "HB934": 1,
+      "HB934_TESTIMONY_ECD_02-05-25_": 2,
+      "HB934_HD1": 3,
+      "HB934_HD1_HSCR329_": 4,
+      "HB934_HD1_TESTIMONY_FIN_02-24-25_": 5,
+      "HB934_HD1_HSCR987_": 6,
+      "HB934_HD1_TESTIMONY_EDT_03-11-25_": 7,
+      "HB934_SD1": 8,
+      "HB934_SD1_SSCR1126_": 9,
+      "HB934_SD1_TESTIMONY_WAM_04-01-25_": 10,
+      "HB934_SD2": 11,
+      "HB934_SD2_SSCR1752_": 12,
+      "HB934_CD1": 13,
+      "HB934_CD1_CCR222_": 14
+    },
+    "sentence_chunk_mapping": [
+      {
+        "section": "overview",
+        "sentence": "This bill transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services.",
+        "chunks": [
+          {
+            "chunk_id": 35,
+            "citation_number": 1,
+            "chunk_text": "the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services. Establishes the Hawaii Broadband and Digital Equity Special Fund. Appropriates funds. The summary description of legislation appearing on this page is for informational purposes only and is",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "It also establishes the Hawaii Broadband and Digital Equity Special Fund.",
+        "chunks": [
+          {
+            "chunk_id": 35,
+            "citation_number": 1,
+            "chunk_text": "the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services. Establishes the Hawaii Broadband and Digital Equity Special Fund. Appropriates funds. The summary description of legislation appearing on this page is for informational purposes only and is",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "The measure appropriates funds to support the office and the newly created special fund.",
+        "chunks": [
+          {
+            "chunk_id": 35,
+            "citation_number": 1,
+            "chunk_text": "the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services. Establishes the Hawaii Broadband and Digital Equity Special Fund. Appropriates funds. The summary description of legislation appearing on this page is for informational purposes only and is",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "There is appropriated out of the general revenues of the State of Hawaii the sum of $200,000 (HB934_.HTM.txt) or so much thereof as may be necessary for fiscal year 2025-2026 to be deposited into the broadband and digital equity special fund.",
+        "chunks": [
+          {
+            "chunk_id": 21,
+            "citation_number": 1,
+            "chunk_text": "Hawaii Revised Statutes, is repealed. SECTION 3 . There is appropriated out of the general revenues of the State of Hawaii the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 to be deposited into the broadband and digital equity special fund under section",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "There is also appropriated out of the broadband and digital equity special fund the sum of $200,000 (HB934_.HTM.txt) or so much thereof as may be necessary for fiscal year 2025-2026 for the purposes of the fund.",
+        "chunks": [
+          {
+            "chunk_id": 22,
+            "citation_number": 1,
+            "chunk_text": "into the broadband and digital equity special fund under section 27-E, Hawaii Revised Statutes . SECTION 4 . There is appropriated out of the br oadband and digital equity special fund the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 for the purposes",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The sum appropriated shall be expended by the Hawaii broadband and digital equity office for the purposes of this Act.",
+        "chunks": [
+          {
+            "chunk_id": 23,
+            "citation_number": 1,
+            "chunk_text": "may be necessary for fiscal year 2025-2026 for the purposes of the fund. The sum appropriated shall be expended by the Hawaii broadband and digital equity office for the purposes of this Act. SECTION 5. All rights, powers, functions, and duties of the department of business, economic development, and tourism",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The provided legislative documents do not specify the assumptions, cost estimation methods, or data sources used to calculate the financial projections for this measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB934 HOUSE OF REPRESENTATIVES H.B. NO. 934 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to the hawaii broadband and digital equity office . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 27, Hawaii Revised Statutes, is amended by adding",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The bill appropriates specific amounts for fiscal year 2025-2026 without detailing the underlying methodology for these figures.",
+        "chunks": [
+          {
+            "chunk_id": 21,
+            "citation_number": 1,
+            "chunk_text": "Hawaii Revised Statutes, is repealed. SECTION 3 . There is appropriated out of the general revenues of the State of Hawaii the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 to be deposited into the broadband and digital equity special fund under section",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "No references to comparable programs or historical budgets are included in the text to explain the basis for the appropriation amounts.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB934 HOUSE OF REPRESENTATIVES H.B. NO. 934 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to the hawaii broadband and digital equity office . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 27, Hawaii Revised Statutes, is amended by adding",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "All rights, powers, functions, and duties of the department of business, economic development, and tourism relating to the Hawaii broadband and digital equity office are transferred to the department of accounting and general services.",
+        "chunks": [
+          {
+            "chunk_id": 24,
+            "citation_number": 1,
+            "chunk_text": "duties of the department of business, economic development, and tourism relating to the Hawaii broadband and digital equity office are transferred to the department of accounting and general services. All employees who occupy civil service positions and whose functions are transferred to the department of accounting and general services by",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "Employees who occupy civil service positions and whose functions are transferred shall retain their civil service status, whether permanent or temporary.",
+        "chunks": [
+          {
+            "chunk_id": 25,
+            "citation_number": 1,
+            "chunk_text": "transferred to the department of accounting and general services by this Act shall retain their civil service status, whether permanent or temporary. Employees shall be transferred without loss of salary, seniority (except as prescribed by applicable collective bargaining agreements), retention points, prior service credit, any vacation and sick leave credits",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "All appropriations, records, equipment, machines, files, supplies, contracts, books, papers, documents, maps, and other personal property will also be transferred with the functions to which they relate.",
+        "chunks": [
+          {
+            "chunk_id": 31,
+            "citation_number": 1,
+            "chunk_text": "salaries without regard to chapter 76, Hawaii Revised Statutes. SECTION 6. All appropriations, records, equipment, machines, files, supplies, contracts, books, papers, documents, maps, and other personal property heretofore made, used, acquired, or held by the department of business, economic development, and tourism relating to the functions of the Hawaii broadband",
+            "document_name": "HB934"
+          },
+          {
+            "chunk_id": 32,
+            "citation_number": 1,
+            "chunk_text": "and tourism relating to the functions of the Hawaii broadband and digital equity office transferred to the department of accounting and general services shall be transferred with the functions to which they relate. SECTION 7. In codifying the new sections added by section 1 of this Act, the revisor of",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "The Hawaii broadband and digital equity office shall develop and implement specific strategies and plans to aggressively increase broadband affordability, penetration, and competitive availability in the State.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 1,
+            "chunk_text": "to section 226-10.5, the Hawaii broadband and digital equity office shall: (1) Develop and implement specific strategies and plans to aggressively increase broadband affordability, penetration, and competitive availability in the State; (2) Support the efforts of both public and private entities in the State to enhance or facilitate the deployment",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "The office will support the efforts of both public and private entities to enhance or facilitate the deployment of and access to competitively priced, advanced electronic communications services.",
+        "chunks": [
+          {
+            "chunk_id": 6,
+            "citation_number": 1,
+            "chunk_text": "entities in the State to enhance or facilitate the deployment of and access to competitively priced, advanced electronic communications services, including broadband and its products and services and internet access services of general application throughout the State; (3) Promote the landing of trans-Pacific submarine cable, including the development of a",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "It will also administer grant programs in support of broadband infrastructure, innovation, and the digital economy.",
+        "chunks": [
+          {
+            "chunk_id": 8,
+            "citation_number": 1,
+            "chunk_text": "Hawaii broadband task force established by Act 2, First Special Session Laws of Hawaii 2007, and the 2020 Hawaii Broadband Strategic Plan; (5) Support the findings of community-based groups as reflected in its digital equity declaration; (6) Administer grant programs in support of broadband infrastructure, innovation, and the digital economy;",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "This measure transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services.",
+        "chunks": [
+          {
+            "chunk_id": 34,
+            "citation_number": 1,
+            "chunk_text": "BY: _____________________________ Report Title: Hawaii Broadband and Digital Equity Office; Department of Business, Economic Development, and Tourism; Office of Enterprise Technology Services; Hawaii Broadband and Digital Equity Special Fund; Appropriation Description: Transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The bill establishes the Hawaii Broadband and Digital Equity Special Fund to be administered by the Hawaii broadband and digital equity office.",
+        "chunks": [
+          {
+            "chunk_id": 17,
+            "citation_number": 1,
+            "chunk_text": "special fund. (a) There is established in the state treasure the broadband and digital equity special fund to be administered by the Hawaii broadband and digital equity office, into which shall be deposited: (1) Proceeds of leases of broadband infrastructure owned by the State; (2) Appropriations by the legislature to",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "Additionally, the bill repeals Chapter 206S, Hawaii Revised Statutes.",
+        "chunks": [
+          {
+            "chunk_id": 21,
+            "citation_number": 1,
+            "chunk_text": "Hawaii Revised Statutes, is repealed. SECTION 3 . There is appropriated out of the general revenues of the State of Hawaii the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 to be deposited into the broadband and digital equity special fund under section",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The broadband and digital equity special fund will be deposited with proceeds of leases of broadband infrastructure owned by the State, appropriations by the legislature, and gifts, donations, and grants from public agencies and private persons.",
+        "chunks": [
+          {
+            "chunk_id": 17,
+            "citation_number": 1,
+            "chunk_text": "special fund. (a) There is established in the state treasure the broadband and digital equity special fund to be administered by the Hawaii broadband and digital equity office, into which shall be deposited: (1) Proceeds of leases of broadband infrastructure owned by the State; (2) Appropriations by the legislature to",
+            "document_name": "HB934"
+          },
+          {
+            "chunk_id": 18,
+            "citation_number": 1,
+            "chunk_text": "owned by the State; (2) Appropriations by the legislature to the special fund; and (3) Gifts, donations, and grants from public agencies and private persons. All interest earned or accrued on moneys deposited into the special fund shall become a part of the special fund. (b) Moneys in the broadband",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "This bill appropriates $200,000 (HB934_.HTM.txt) out of the general revenues of the State of Hawaii for fiscal year 2025-2026 for deposit into the fund.",
+        "chunks": [
+          {
+            "chunk_id": 21,
+            "citation_number": 1,
+            "chunk_text": "Hawaii Revised Statutes, is repealed. SECTION 3 . There is appropriated out of the general revenues of the State of Hawaii the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 to be deposited into the broadband and digital equity special fund under section",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "All interest earned or accrued on moneys deposited into the special fund shall become a part of the special fund.",
+        "chunks": [
+          {
+            "chunk_id": 18,
+            "citation_number": 1,
+            "chunk_text": "owned by the State; (2) Appropriations by the legislature to the special fund; and (3) Gifts, donations, and grants from public agencies and private persons. All interest earned or accrued on moneys deposited into the special fund shall become a part of the special fund. (b) Moneys in the broadband",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "For fiscal year 2025-2026, the bill appropriates $200,000 (HB934_.HTM.txt) from general revenues to be deposited into the broadband and digital equity special fund.",
+        "chunks": [
+          {
+            "chunk_id": 21,
+            "citation_number": 1,
+            "chunk_text": "Hawaii Revised Statutes, is repealed. SECTION 3 . There is appropriated out of the general revenues of the State of Hawaii the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 to be deposited into the broadband and digital equity special fund under section",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "An additional sum of $200,000 (HB934_.HTM.txt) is appropriated out of the special fund for the same fiscal year.",
+        "chunks": [
+          {
+            "chunk_id": 22,
+            "citation_number": 1,
+            "chunk_text": "into the broadband and digital equity special fund under section 27-E, Hawaii Revised Statutes . SECTION 4 . There is appropriated out of the br oadband and digital equity special fund the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 for the purposes",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The special fund is intended for ongoing uses, including supporting broadband projects, defraying internet service costs, and funding personnel positions.",
+        "chunks": [
+          {
+            "chunk_id": 19,
+            "citation_number": 1,
+            "chunk_text": "part of the special fund. (b) Moneys in the broadband and digital equity special fund shall be used for: (1) Supporting broadband projects; (2) Defraying the cost of internet services; and (3) Funding positions for personnel to provide technical assistance to the community. (c) Expenditures from the broadband and digital",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Future revenues for the fund may come from legislative appropriations, leases of state-owned broadband infrastructure, and grants or donations.",
+        "chunks": [
+          {
+            "chunk_id": 17,
+            "citation_number": 1,
+            "chunk_text": "special fund. (a) There is established in the state treasure the broadband and digital equity special fund to be administered by the Hawaii broadband and digital equity office, into which shall be deposited: (1) Proceeds of leases of broadband infrastructure owned by the State; (2) Appropriations by the legislature to",
+            "document_name": "HB934"
+          },
+          {
+            "chunk_id": 18,
+            "citation_number": 1,
+            "chunk_text": "owned by the State; (2) Appropriations by the legislature to the special fund; and (3) Gifts, donations, and grants from public agencies and private persons. All interest earned or accrued on moneys deposited into the special fund shall become a part of the special fund. (b) Moneys in the broadband",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The transfer of employees will occur without loss of salary, seniority, or other benefits.",
+        "chunks": [
+          {
+            "chunk_id": 25,
+            "citation_number": 1,
+            "chunk_text": "transferred to the department of accounting and general services by this Act shall retain their civil service status, whether permanent or temporary. Employees shall be transferred without loss of salary, seniority (except as prescribed by applicable collective bargaining agreements), retention points, prior service credit, any vacation and sick leave credits",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "However, the bill does not provide a fiscal projection for the subsequent five years.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB934 HOUSE OF REPRESENTATIVES H.B. NO. 934 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to the hawaii broadband and digital equity office . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 27, Hawaii Revised Statutes, is amended by adding",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The comptroller may prescribe the duties and qualifications of transferred employees and fix their salaries without regard to chapter 76, Hawaii Revised Statutes.",
+        "chunks": [
+          {
+            "chunk_id": 30,
+            "citation_number": 1,
+            "chunk_text": "the position to which transferred or appointed, as applicable; provided further that subsequent changes in status may be made pursuant to applicable employment and compensation laws. The comptroller may prescribe the duties and qualifications of these employees and fix their salaries without regard to chapter 76, Hawaii Revised Statutes. SECTION",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Subsequent changes in employee status may be made pursuant to applicable civil service and compensation laws.",
+        "chunks": [
+          {
+            "chunk_id": 27,
+            "citation_number": 1,
+            "chunk_text": "the class or position to which transferred or appointed, as applicable; provided further that subsequent changes in status may be made pursuant to applicable civil service and compensation laws. Any employee who, prior to this Act, is exempt from civil service and is transferred as a consequence of this Act",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The provided text does not contain information about program expansion or recurring expenses beyond the initial appropriation.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB934 HOUSE OF REPRESENTATIVES H.B. NO. 934 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to the hawaii broadband and digital equity office . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 27, Hawaii Revised Statutes, is amended by adding",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Therefore, the specific fiscal implications beyond fiscal year 2025-2026 are indeterminate.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB934 HOUSE OF REPRESENTATIVES H.B. NO. 934 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to the hawaii broadband and digital equity office . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 27, Hawaii Revised Statutes, is amended by adding",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "The measure establishes the broadband and digital equity special fund, which will receive revenues.",
+        "chunks": [
+          {
+            "chunk_id": 17,
+            "citation_number": 1,
+            "chunk_text": "special fund. (a) There is established in the state treasure the broadband and digital equity special fund to be administered by the Hawaii broadband and digital equity office, into which shall be deposited: (1) Proceeds of leases of broadband infrastructure owned by the State; (2) Appropriations by the legislature to",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "These revenues include proceeds of leases of broadband infrastructure owned by the State, as well as gifts, donations, and grants from public agencies and private persons.",
+        "chunks": [
+          {
+            "chunk_id": 18,
+            "citation_number": 1,
+            "chunk_text": "owned by the State; (2) Appropriations by the legislature to the special fund; and (3) Gifts, donations, and grants from public agencies and private persons. All interest earned or accrued on moneys deposited into the special fund shall become a part of the special fund. (b) Moneys in the broadband",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "All interest earned or accrued on moneys deposited into the special fund shall become a part of the special fund.",
+        "chunks": [
+          {
+            "chunk_id": 18,
+            "citation_number": 1,
+            "chunk_text": "owned by the State; (2) Appropriations by the legislature to the special fund; and (3) Gifts, donations, and grants from public agencies and private persons. All interest earned or accrued on moneys deposited into the special fund shall become a part of the special fund. (b) Moneys in the broadband",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The provided documents do not outline any specific new capital expenditures.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB934 HOUSE OF REPRESENTATIVES H.B. NO. 934 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to the hawaii broadband and digital equity office . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 27, Hawaii Revised Statutes, is amended by adding",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "Moneys in the broadband and digital equity special fund shall be used for supporting broadband projects, but details on capital investments are not provided.",
+        "chunks": [
+          {
+            "chunk_id": 19,
+            "citation_number": 1,
+            "chunk_text": "part of the special fund. (b) Moneys in the broadband and digital equity special fund shall be used for: (1) Supporting broadband projects; (2) Defraying the cost of internet services; and (3) Funding positions for personnel to provide technical assistance to the community. (c) Expenditures from the broadband and digital",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The bill mandates the transfer of existing equipment, machines, and other personal property, but does not appropriate funds for new capital purchases.",
+        "chunks": [
+          {
+            "chunk_id": 31,
+            "citation_number": 1,
+            "chunk_text": "salaries without regard to chapter 76, Hawaii Revised Statutes. SECTION 6. All appropriations, records, equipment, machines, files, supplies, contracts, books, papers, documents, maps, and other personal property heretofore made, used, acquired, or held by the department of business, economic development, and tourism relating to the functions of the Hawaii broadband",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The ongoing fiscal obligations after six years will depend on future legislative appropriations and the office's ability to actively seek out funding from public and private sources.",
+        "chunks": [
+          {
+            "chunk_id": 9,
+            "citation_number": 1,
+            "chunk_text": "in support of broadband infrastructure, innovation, and the digital economy; (7) Actively seek out funding from public and private sources in furtherance of the office's duties pursuant to this section; and (8) Provide a repository, aggregation point, and governance framework for broadband mapping and digital equity data from various sources,",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The broadband and digital equity special fund is established as a continuing funding mechanism for its designated purposes.",
+        "chunks": [
+          {
+            "chunk_id": 19,
+            "citation_number": 1,
+            "chunk_text": "part of the special fund. (b) Moneys in the broadband and digital equity special fund shall be used for: (1) Supporting broadband projects; (2) Defraying the cost of internet services; and (3) Funding positions for personnel to provide technical assistance to the community. (c) Expenditures from the broadband and digital",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The long-term fiscal sustainability of the office and its projects will rely on revenues generated from leases, grants, donations, and any future appropriations.",
+        "chunks": [
+          {
+            "chunk_id": 17,
+            "citation_number": 1,
+            "chunk_text": "special fund. (a) There is established in the state treasure the broadband and digital equity special fund to be administered by the Hawaii broadband and digital equity office, into which shall be deposited: (1) Proceeds of leases of broadband infrastructure owned by the State; (2) Appropriations by the legislature to",
+            "document_name": "HB934"
+          },
+          {
+            "chunk_id": 18,
+            "citation_number": 1,
+            "chunk_text": "owned by the State; (2) Appropriations by the legislature to the special fund; and (3) Gifts, donations, and grants from public agencies and private persons. All interest earned or accrued on moneys deposited into the special fund shall become a part of the special fund. (b) Moneys in the broadband",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The provided documents do not contain a previous fiscal note for this measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB934 HOUSE OF REPRESENTATIVES H.B. NO. 934 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to the hawaii broadband and digital equity office . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 27, Hawaii Revised Statutes, is amended by adding",
+            "document_name": "HB934"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "Therefore, a summary of updates or changes cannot be provided.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB934 HOUSE OF REPRESENTATIVES H.B. NO. 934 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to the hawaii broadband and digital equity office . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 27, Hawaii Revised Statutes, is amended by adding",
+            "document_name": "HB934"
+          }
+        ]
+      }
     ]
   },
-  "generation_timestamp": "2025-10-10T15:52:00.766776",
-  "generation_timestamp_unix": 1760147520.766785
+  "chunk_mapping": {
+    "HB934": [
+      {
+        "chunk_number": 0,
+        "chunk_text": "HB934 HOUSE OF REPRESENTATIVES H.B. NO. 934 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to the hawaii broadband and digital equity office . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 27, Hawaii Revised Statutes, is amended by adding"
+      },
+      {
+        "chunk_number": 1,
+        "chunk_text": "1. Chapter 27, Hawaii Revised Statutes, is amended by adding a new part to be appropriately designated and to read as follows: \" Part . Hawaii broadband and digital equity office § 27-A Definitions. As used in this part: \"Broadband\" means high-speed internet access that is always on, including mobile"
+      },
+      {
+        "chunk_number": 2,
+        "chunk_text": "means high-speed internet access that is always on, including mobile and fixed technologies. \"Digital equity\" means a condition in which all individuals and communities have the information technology capacity needed for full participation in society, democracy, and the economy. § 27-B Hawaii broadband and digital equity office; establishment; strategic broadband"
+      },
+      {
+        "chunk_number": 3,
+        "chunk_text": "27-B Hawaii broadband and digital equity office; establishment; strategic broadband coordinator; staff. (a) There is established the Hawaii broadband and digital equity office within the office of enterprise technology services. (b) Without regard to section 26-34, the governor shall appoint a strategic broadband coordinator, who shall be exempt from chapter"
+      },
+      {
+        "chunk_number": 4,
+        "chunk_text": "a strategic broadband coordinator, who shall be exempt from chapter 76, to head the Hawaii broadband and digital equity office. §27-C Hawaii broadband and digital equity office; duties. In furtherance of the State's objectives and policies for the economy pursuant to section 226-10.5, the Hawaii broadband and digital equity office"
+      },
+      {
+        "chunk_number": 5,
+        "chunk_text": "to section 226-10.5, the Hawaii broadband and digital equity office shall: (1) Develop and implement specific strategies and plans to aggressively increase broadband affordability, penetration, and competitive availability in the State; (2) Support the efforts of both public and private entities in the State to enhance or facilitate the deployment"
+      },
+      {
+        "chunk_number": 6,
+        "chunk_text": "entities in the State to enhance or facilitate the deployment of and access to competitively priced, advanced electronic communications services, including broadband and its products and services and internet access services of general application throughout the State; (3) Promote the landing of trans-Pacific submarine cable, including the development of a"
+      },
+      {
+        "chunk_number": 7,
+        "chunk_text": "landing of trans-Pacific submarine cable, including the development of a shared access cable station and associated terrestrial connectivity to reduce barriers to fiber landing in Hawaii; (4) Promote, advocate, and facilitate the implementation of the findings and recommendations of the Hawaii broadband task force established by Act 2, First Special"
+      },
+      {
+        "chunk_number": 8,
+        "chunk_text": "Hawaii broadband task force established by Act 2, First Special Session Laws of Hawaii 2007, and the 2020 Hawaii Broadband Strategic Plan; (5) Support the findings of community-based groups as reflected in its digital equity declaration; (6) Administer grant programs in support of broadband infrastructure, innovation, and the digital economy;"
+      },
+      {
+        "chunk_number": 9,
+        "chunk_text": "in support of broadband infrastructure, innovation, and the digital economy; (7) Actively seek out funding from public and private sources in furtherance of the office's duties pursuant to this section; and (8) Provide a repository, aggregation point, and governance framework for broadband mapping and digital equity data from various sources,"
+      },
+      {
+        "chunk_number": 10,
+        "chunk_text": "for broadband mapping and digital equity data from various sources, including digital literacy, telehealth, distance education, remote work, internet accessibility, and service coverage to support mapping, reporting, infrastructure deployment, and data-driven policy. §27-D Broadband planning and coordination; cooperation. (a) The Hawaii broadband and digital equity office shall: (1) Seek input"
+      },
+      {
+        "chunk_number": 11,
+        "chunk_text": "Hawaii broadband and digital equity office shall: (1) Seek input and the widest possible cooperation from public and private agencies and individuals to achieve the purposes of this part; (2) Work closely with and assist the counties in the promotion of coordinated state and county broadband planning; (3) Encourage every"
+      },
+      {
+        "chunk_number": 12,
+        "chunk_text": "of coordinated state and county broadband planning; (3) Encourage every state department, county agency, and other public or private agencies and individuals involved in broadband programs to participate in the activities of the office and incorporate, to the extent feasible, the ideas and suggestions of the participants in the office's"
+      },
+      {
+        "chunk_number": 13,
+        "chunk_text": "the ideas and suggestions of the participants in the office's comprehensive planning goals; (4) Monitor the broadband-based development efforts of other states and nations in areas such as business, education, and health; (5) Advise the office of enterprise technology services on other states' best practices involving remote work promotion and"
+      },
+      {
+        "chunk_number": 14,
+        "chunk_text": "on other states' best practices involving remote work promotion and policies and strategies related to making affordable broadband services available to every home and business in the State; (6) Monitor broadband-related activities at the federal level; (7) Encourage public-private partnerships to increase the deployment and adoption of broadband services and"
+      },
+      {
+        "chunk_number": 15,
+        "chunk_text": "to increase the deployment and adoption of broadband services and applications; (8) Monitor regulatory and policy changes for potential impact on broadband deployment and sustainability in the State; and (9) Advise the chief information officer on broadband deployment. (b) Nothing in this section shall be construed to delegate, or detract"
+      },
+      {
+        "chunk_number": 16,
+        "chunk_text": "in this section shall be construed to delegate, or detract in any way from, the functions, powers, and duties conferred by law or rule on any department or agency of the State or county. § 27-E Broadband and digital equity special fund. (a) There is established in the state treasure"
+      },
+      {
+        "chunk_number": 17,
+        "chunk_text": "special fund. (a) There is established in the state treasure the broadband and digital equity special fund to be administered by the Hawaii broadband and digital equity office, into which shall be deposited: (1) Proceeds of leases of broadband infrastructure owned by the State; (2) Appropriations by the legislature to"
+      },
+      {
+        "chunk_number": 18,
+        "chunk_text": "owned by the State; (2) Appropriations by the legislature to the special fund; and (3) Gifts, donations, and grants from public agencies and private persons. All interest earned or accrued on moneys deposited into the special fund shall become a part of the special fund. (b) Moneys in the broadband"
+      },
+      {
+        "chunk_number": 19,
+        "chunk_text": "part of the special fund. (b) Moneys in the broadband and digital equity special fund shall be used for: (1) Supporting broadband projects; (2) Defraying the cost of internet services; and (3) Funding positions for personnel to provide technical assistance to the community. (c) Expenditures from the broadband and digital"
+      },
+      {
+        "chunk_number": 20,
+        "chunk_text": "to the community. (c) Expenditures from the broadband and digital equity special fund shall be made by the Hawaii broadband and digital equity office, subject to oversight and prior approval by the information technology steering committee.\" SECTION 2. Chapter 206S, Hawaii Revised Statutes, is repealed. SECTION 3 . There is"
+      },
+      {
+        "chunk_number": 21,
+        "chunk_text": "Hawaii Revised Statutes, is repealed. SECTION 3 . There is appropriated out of the general revenues of the State of Hawaii the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 to be deposited into the broadband and digital equity special fund under section"
+      },
+      {
+        "chunk_number": 22,
+        "chunk_text": "into the broadband and digital equity special fund under section 27-E, Hawaii Revised Statutes . SECTION 4 . There is appropriated out of the br oadband and digital equity special fund the sum of $200,000 or so much thereof as may be necessary for fiscal year 2025-2026 for the purposes"
+      },
+      {
+        "chunk_number": 23,
+        "chunk_text": "may be necessary for fiscal year 2025-2026 for the purposes of the fund. The sum appropriated shall be expended by the Hawaii broadband and digital equity office for the purposes of this Act. SECTION 5. All rights, powers, functions, and duties of the department of business, economic development, and tourism"
+      },
+      {
+        "chunk_number": 24,
+        "chunk_text": "duties of the department of business, economic development, and tourism relating to the Hawaii broadband and digital equity office are transferred to the department of accounting and general services. All employees who occupy civil service positions and whose functions are transferred to the department of accounting and general services by"
+      },
+      {
+        "chunk_number": 25,
+        "chunk_text": "transferred to the department of accounting and general services by this Act shall retain their civil service status, whether permanent or temporary. Employees shall be transferred without loss of salary, seniority (except as prescribed by applicable collective bargaining agreements), retention points, prior service credit, any vacation and sick leave credits"
+      },
+      {
+        "chunk_number": 26,
+        "chunk_text": "points, prior service credit, any vacation and sick leave credits previously earned, and other rights, benefits, and privileges, in accordance with state personnel laws and this Act; provided that the employees possess the minimum qualifications and public employment requirements for the class or position to which transferred or appointed, as"
+      },
+      {
+        "chunk_number": 27,
+        "chunk_text": "the class or position to which transferred or appointed, as applicable; provided further that subsequent changes in status may be made pursuant to applicable civil service and compensation laws. Any employee who, prior to this Act, is exempt from civil service and is transferred as a consequence of this Act"
+      },
+      {
+        "chunk_number": 28,
+        "chunk_text": "service and is transferred as a consequence of this Act may retain the employee's exempt status, but shall not be appointed to a civil service position as a consequence of this Act. An exempt employee who is transferred by this Act shall not suffer any loss of prior service credit,"
+      },
+      {
+        "chunk_number": 29,
+        "chunk_text": "Act shall not suffer any loss of prior service credit, vacation or sick leave credits previously earned, or other employee benefits or privileges as a consequence of this Act; provided that the employees possess legal and public employment requirements for the position to which transferred or appointed, as applicable; provided"
+      },
+      {
+        "chunk_number": 30,
+        "chunk_text": "the position to which transferred or appointed, as applicable; provided further that subsequent changes in status may be made pursuant to applicable employment and compensation laws. The comptroller may prescribe the duties and qualifications of these employees and fix their salaries without regard to chapter 76, Hawaii Revised Statutes. SECTION"
+      },
+      {
+        "chunk_number": 31,
+        "chunk_text": "salaries without regard to chapter 76, Hawaii Revised Statutes. SECTION 6. All appropriations, records, equipment, machines, files, supplies, contracts, books, papers, documents, maps, and other personal property heretofore made, used, acquired, or held by the department of business, economic development, and tourism relating to the functions of the Hawaii broadband"
+      },
+      {
+        "chunk_number": 32,
+        "chunk_text": "and tourism relating to the functions of the Hawaii broadband and digital equity office transferred to the department of accounting and general services shall be transferred with the functions to which they relate. SECTION 7. In codifying the new sections added by section 1 of this Act, the revisor of"
+      },
+      {
+        "chunk_number": 33,
+        "chunk_text": "added by section 1 of this Act, the revisor of statutes shall substitute appropriate section numbers for the letters used in designating the new sections in this Act. SECTION 8. This Act shall take effect on July 1, 2025. INTRODUCED BY: _____________________________ Report Title: Hawaii Broadband and Digital Equity Office;"
+      },
+      {
+        "chunk_number": 34,
+        "chunk_text": "BY: _____________________________ Report Title: Hawaii Broadband and Digital Equity Office; Department of Business, Economic Development, and Tourism; Office of Enterprise Technology Services; Hawaii Broadband and Digital Equity Special Fund; Appropriation Description: Transfers the Hawaii Broadband and Digital Equity Office from the Department of Business, Economic Development, and Tourism to the"
+      },
+      {
+        "chunk_number": 35,
+        "chunk_text": "the Department of Business, Economic Development, and Tourism to the Office of Enterprise Technology Services in the Department of Accounting and General Services. Establishes the Hawaii Broadband and Digital Equity Special Fund. Appropriates funds. The summary description of legislation appearing on this page is for informational purposes only and is"
+      },
+      {
+        "chunk_number": 36,
+        "chunk_text": "on this page is for informational purposes only and is not legislation or evidence of legislative intent."
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-16T16:06:44.126498",
+  "generation_timestamp_unix": 1760666804.126505
 }

@@ -34,10 +34,12 @@ def extract_number_context(input_dir="./documents", output_file="number_context.
         \s*
         [0-9]{1,3}(?:,[0-9]{3})*        # digits with optional commas (thousands)
         (?:\.\d{1,2})?                  # optional decimal part
+        (?:[,;.\s]*)                    # optional trailing punctuation (comma, semicolon, period)
         |                               # OR
         [0-9]{1,3}(?:,[0-9]{3})*        # digits with optional commas (thousands)
         (?:\.\d{1,2})?                  # optional decimal part
         \s*(?:\$|USD)                   # trailing $ or USD (required)
+        (?:[,;.\s]*)                    # optional trailing punctuation
         """,
         re.VERBOSE
     )
