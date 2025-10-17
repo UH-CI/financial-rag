@@ -40,21 +40,22 @@ pipeline {
         stage('Deploy Frontend') {
             steps {
                 withCredentials([
-                    sshUserPrivateKey(credentialsId: env.SSH_CRED_ID, keyFileVariable: 'SSH_KEY', usernameVariable: 'SSH_USER'),
                     string(credentialsId: env.VM_HOST_CRED_ID, variable: 'VM_HOST')
                 ]) {
-                    sh """
-                    ssh -o StrictHostKeyChecking=no -i $SSH_KEY $SSH_USER@$VM_HOST '
-                        set -e
-                        cd /home/exouser/RAG-system
-                        git pull origin main
-                        cd /home/exouser/RAG-system/frontend
-                        sudo npm install
-                        sudo npm run build
-                        sudo nginx -t
-                        sudo systemctl reload nginx
-                    '
-                    """
+                    sshagent(credentials: [env.SSH_CRED_ID]) {
+                        sh """
+                        ssh -o StrictHostKeyChecking=no exouser@${VM_HOST} '
+                            set -e
+                            cd /home/exouser/RAG-system
+                            git pull origin main
+                            cd /home/exouser/RAG-system/frontend
+                            sudo npm install
+                            sudo npm run build
+                            sudo nginx -t
+                            sudo systemctl reload nginx
+                        '
+                        """
+                    }
                 }
             }
         }
@@ -62,19 +63,20 @@ pipeline {
         stage('Deploy Backend') {
             steps {
                 withCredentials([
-                    sshUserPrivateKey(credentialsId: env.SSH_CRED_ID, keyFileVariable: 'SSH_KEY', usernameVariable: 'SSH_USER'),
                     string(credentialsId: env.VM_HOST_CRED_ID, variable: 'VM_HOST')
                 ]) {
-                    sh """
-                    ssh -o StrictHostKeyChecking=no -i $SSH_KEY $SSH_USER@$VM_HOST '
-                        set -e
-                        cd /home/exouser/RAG-system/src
-                        source .env
-                        cd ..
-                        ./stop_production.sh
-                        ./start_production.sh
-                    '
-                    """
+                    sshagent(credentials: [env.SSH_CRED_ID]) {
+                        sh """
+                        ssh -o StrictHostKeyChecking=no exouser@${VM_HOST} '
+                            set -e
+                            cd /home/exouser/RAG-system/src
+                            source .env
+                            cd ..
+                            ./stop_production.sh
+                            ./start_production.sh
+                        '
+                        """
+                    }
                 }
             }
         }
