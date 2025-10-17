@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        // Jenkins credentials IDs
+        // Jenkins credentials IDsa
         SSH_CRED_ID = 'finance-js2-instance'
         VM_HOST_CRED_ID = 'finance-js2-ip'
         SLACK_CRED_ID = 'finance-slack-webhook'
@@ -51,13 +51,9 @@ pipeline {
                 withCredentials([
                     string(credentialsId: env.VM_HOST_CRED_ID, variable: 'VM_HOST')
                 ]) {
-                    script {
-                        echo "✅ VM_HOST credential loaded"
-                    }
+                    echo "✅ VM_HOST credential loaded"
                     sshagent(credentials: [env.SSH_CRED_ID]) {
-                        script {
-                            echo "✅ SSH agent started with credential: ${env.SSH_CRED_ID}"
-                        }
+                        echo "✅ SSH agent started with credential: ${env.SSH_CRED_ID}"
                         sh """
                         ssh -o StrictHostKeyChecking=no exouser@${VM_HOST} '
                             set -e
