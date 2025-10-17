@@ -42,31 +42,38 @@ pipeline {
                 script {
                     try {
                         echo "🔄 Starting Frontend Deployment..."
-                        withCredentials([
-                            string(credentialsId: env.VM_HOST_CRED_ID, variable: 'VM_HOST')
-                        ]) {
-                            echo "✅ VM_HOST credential loaded: ${VM_HOST}"
-                            sshagent(credentials: [env.SSH_CRED_ID]) {
-                                echo "✅ SSH agent started with credential: ${env.SSH_CRED_ID}"
-                                sh """
-                                ssh -o StrictHostKeyChecking=no exouser@${VM_HOST} '
-                                    set -e
-                                    cd /home/exouser/RAG-system
-                                    git pull origin main
-                                    cd /home/exouser/RAG-system/frontend
-                                    sudo npm install
-                                    sudo npm run build
-                                    sudo nginx -t
-                                    sudo systemctl reload nginx
-                                '
-                                """
-                            }
-                        }
-                        echo "✅ Frontend deployment completed successfully"
+                        echo "Loading credentials..."
                     } catch (Exception e) {
                         echo "❌ Frontend deployment failed: ${e.getMessage()}"
                         throw e
                     }
+                }
+                withCredentials([
+                    string(credentialsId: env.VM_HOST_CRED_ID, variable: 'VM_HOST')
+                ]) {
+                    script {
+                        echo "✅ VM_HOST credential loaded"
+                    }
+                    sshagent(credentials: [env.SSH_CRED_ID]) {
+                        script {
+                            echo "✅ SSH agent started with credential: ${env.SSH_CRED_ID}"
+                        }
+                        sh """
+                        ssh -o StrictHostKeyChecking=no exouser@${VM_HOST} '
+                            set -e
+                            cd /home/exouser/RAG-system
+                            git pull origin main
+                            cd /home/exouser/RAG-system/frontend
+                            sudo npm install
+                            sudo npm run build
+                            sudo nginx -t
+                            sudo systemctl reload nginx
+                        '
+                        """
+                    }
+                }
+                script {
+                    echo "✅ Frontend deployment completed successfully"
                 }
             }
         }
