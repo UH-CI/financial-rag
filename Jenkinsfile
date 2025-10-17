@@ -10,18 +10,12 @@ pipeline {
 
     stages {
         stage('Checkout') {
-            when {
-                branch 'main'
-            }
             steps {
                 checkout scm
             }
         }
 
         stage('Check Changes') {
-            when {
-                branch 'main'
-            }
             steps {
                 script {
                     if (currentBuild.changeSets.size() > 0) {
@@ -44,9 +38,6 @@ pipeline {
         }
 
         stage('Deploy Frontend') {
-            when {
-                branch 'main'
-            }
             steps {
                 withCredentials([
                     sshUserPrivateKey(credentialsId: env.SSH_CRED_ID, keyFileVariable: 'SSH_KEY', usernameVariable: 'SSH_USER'),
@@ -69,9 +60,6 @@ pipeline {
         }
 
         stage('Deploy Backend') {
-            when {
-                branch 'main'
-            }
             steps {
                 withCredentials([
                     sshUserPrivateKey(credentialsId: env.SSH_CRED_ID, keyFileVariable: 'SSH_KEY', usernameVariable: 'SSH_USER'),
