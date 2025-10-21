@@ -39,6 +39,12 @@ const SimilarBillSearch = () => {
 
     setIsLoading(true);
     setError(null);
+    // Reset visualization and AI analysis fields
+    setLlmAnalysis(null);
+    setBillClassification(null);
+    setAnalysisError(null);
+    setSelectedBill(null);
+    setTooltipPosition(null);
     
     try {
       const results = await getBillSimilaritySearch(billType, billNumber.trim());
@@ -218,17 +224,26 @@ IMPORTANT:
         
         // Convert the structured response to the format expected by the visualization
         const billClassification: any[] = [];
-        let clusterCounter = 1;
+        
+        // Create a map of cluster names to cluster IDs to ensure same cluster_name gets same color
+        const clusterNameToId = new Map<string, number>();
+        let nextClusterId = 0;
+        
+        const getClusterIdForName = (clusterName: string) => {
+          if (!clusterNameToId.has(clusterName)) {
+            clusterNameToId.set(clusterName, nextClusterId++);
+          }
+          return clusterNameToId.get(clusterName)!;
+        };
         
         // Process supporting bills
         parsedResponse.supporting_bills?.forEach((bill: any) => {
           billClassification.push({
             bill_name: bill.bill_name,
             relationship: 'supporting',
-            cluster: clusterCounter,
+            cluster: getClusterIdForName(bill.cluster_name),
             cluster_name: bill.cluster_name
           });
-          clusterCounter++;
         });
         
         // Process contracting bills
@@ -236,10 +251,9 @@ IMPORTANT:
           billClassification.push({
             bill_name: bill.bill_name,
             relationship: 'contracting',
-            cluster: clusterCounter,
+            cluster: getClusterIdForName(bill.cluster_name),
             cluster_name: bill.cluster_name
           });
-          clusterCounter++;
         });
         
         // Process unrelated bills
@@ -247,10 +261,9 @@ IMPORTANT:
           billClassification.push({
             bill_name: bill.bill_name,
             relationship: 'unrelated',
-            cluster: clusterCounter,
+            cluster: getClusterIdForName(bill.cluster_name),
             cluster_name: bill.cluster_name
           });
-          clusterCounter++;
         });
         
         setBillClassification(billClassification);
@@ -318,6 +331,9 @@ IMPORTANT:
       rightBills: [] as any[]
     }));
 
+    // Separate unrelated bills
+    const unrelatedBills: any[] = [];
+
     // Assign bills to bins based on normalized scores (flipped order)
     uniqueBills.forEach(bill => {
       const classification = getBillClassification(bill.bill_name);
@@ -331,7 +347,10 @@ IMPORTANT:
         normalizedScore
       };
 
-      if (classification?.relationship === 'supporting') {
+      // Separate unrelated bills to show at bottom
+      if (classification?.relationship === 'unrelated') {
+        unrelatedBills.push(billWithClassification);
+      } else if (classification?.relationship === 'supporting') {
         bins[binIndex].rightBills.push(billWithClassification);
       } else {
         bins[binIndex].leftBills.push(billWithClassification);
@@ -367,7 +386,7 @@ IMPORTANT:
           <div className="w-full max-w-6xl">
             {/* Column headers */}
             <div className="flex justify-between mb-4 text-sm font-semibold text-gray-700">
-              <div className="w-1/3 text-center">Contracting/Unrelated</div>
+              <div className="w-1/3 text-center">Contracting</div>
               <div className="w-1/3 text-center">Similarity Level</div>
               <div className="w-1/3 text-center">Supporting</div>
             </div>
@@ -379,7 +398,7 @@ IMPORTANT:
               
               return (
                 <div key={binIndex} className="flex items-center justify-between mb-3 min-h-[60px] border-b border-gray-100 pb-3">
-                  {/* Left side - Contracting/Unrelated bills */}
+                  {/* Left side - Contracting bills */}
                   <div className="w-1/3 flex flex-wrap justify-end gap-2 pr-4">
                     {bin.leftBills.map((bill, billIndex) => {
                       const cluster = bill.classification?.cluster || 0;
@@ -439,6 +458,37 @@ IMPORTANT:
               );
             })}
           </div>
+
+          {/* Unrelated Bills Section - Below the chart */}
+          {unrelatedBills.length > 0 && (
+            <div className="w-full max-w-6xl mt-8">
+              <div className="text-center mb-4">
+                <h4 className="text-sm font-semibold text-gray-700">Unrelated Bills</h4>
+              </div>
+              <div className="flex flex-wrap justify-center gap-3">
+                {unrelatedBills.map((bill, billIndex) => {
+                  const cluster = bill.classification?.cluster || 0;
+                  const color = getClusterColor(cluster);
+                  
+                  return (
+                    <div
+                      key={billIndex}
+                      className="cursor-pointer hover:scale-110 transition-transform"
+                      onClick={(e) => handleBillClick(bill, e)}
+                      title={`${bill.bill_name} - ${bill.classification?.relationship || 'unknown'}`}
+                    >
+                      <div 
+                        className="w-16 h-16 rounded-full flex items-center justify-center text-white text-base font-bold shadow-lg"
+                        style={{ backgroundColor: color }}
+                      >
+                        {bill.bill_name.replace(/_/g, '')}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
         </div>
 
       </div>
@@ -637,18 +687,14 @@ IMPORTANT:
                       <div className="w-3 h-3 rounded-full bg-gray-800"></div>
                       <span className="text-xs text-gray-600">Original Bill</span>
                     </div>
-                    {Array.from(new Set(billClassification.map((b: any) => b.cluster))).map((cluster) => {
-                      // Find a bill in this cluster to get the cluster name
-                      const billInCluster = billClassification.find((b: any) => b.cluster === cluster);
-                      const clusterName = billInCluster?.cluster_name || `Cluster ${cluster}`;
-                      
+                    {Array.from(new Map(billClassification.map((b: any) => [b.cluster_name, b.cluster])).entries()).map(([clusterName, cluster]) => {
                       return (
                         <div key={cluster as number} className="flex items-center gap-2">
                           <div 
                             className="w-3 h-3 rounded-full" 
                             style={{ backgroundColor: getClusterColor(cluster as number) }}
                           ></div>
-                          <span className="text-xs text-gray-600">{clusterName}</span>
+                          <span className="text-xs text-gray-600">{String(clusterName)}</span>
                         </div>
                       );
                     })}

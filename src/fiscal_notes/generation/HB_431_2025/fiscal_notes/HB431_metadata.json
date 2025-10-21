@@ -9,15 +9,15 @@
   "numbers_used": 9,
   "prompt_length": 20974,
   "response_metadata": {
-    "response_text": "{\n  \"overview\": \"The purpose of this Act is to appropriate funds for the continued implementation of the kauhale initiative, create the supportive housing special fund, and create a kauhale initiative special fund. [CHUNK_15, CHUNK_16] This measure will assist the Hawaii housing finance and development corporation to facilitate the development of mixed-income rental housing projects for special needs individuals or families. [CHUNK_15] It also establishes one temporary full-time equivalent (1.0 FTE) housing finance specialist I position within the Hawaii housing finance and development corporation to help with administration of the special fund. [CHUNK_41]\",\n  \"appropriations\": \"There is appropriated out of the general revenues of the State of Hawaii the sum of $50,000,000 (HB431_.HTM.txt) for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027 for the continued operation of the kauhale initiative. [CHUNK_17] The measure also appropriates $12,000,000 (HB431_.HTM.txt) from general revenues for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027 to be deposited into the supportive housing special fund. [CHUNK_38, CHUNK_39] Out of the supportive housing special fund, the bill appropriates $12,000,000 (HB431_.HTM.txt) for each of fiscal years 2025-2026 and 2026-2027, which includes $189,750 (HB431_.HTM.txt) for one temporary full-time equivalent housing finance specialist I position. [CHUNK_40, CHUNK_41]\",\n  \"assumptions_and_methodology\": \"The fiscal projections are based on specific appropriations outlined in the bill for fiscal years 2025-2026 and 2026-2027. [CHUNK_17, CHUNK_38] These appropriations appear to be based on the continuation and expansion of previous legislative efforts, such as the ohana zones pilot program which initially appropriated $30,000,000 (HB431_.HTM.txt) and a supportive housing pilot program funded with $5,000,000 (HB431_.HTM.txt). [CHUNK_3, CHUNK_6] The cost for staffing is explicitly stated, with $189,750 (HB431_.HTM.txt) appropriated for the establishment and hiring of one temporary full-time equivalent (1.0 FTE) housing finance specialist I. [CHUNK_41]\",\n  \"agency_impact\": \"The Hawaii housing finance and development corporation is tasked with administering the new supportive housing special fund. [CHUNK_25] The corporation will also establish one temporary full-time equivalent (1.0 FTE) housing finance specialist I position to help with the administration of the fund. [CHUNK_26, CHUNK_41] The statewide office on homelessness and housing solutions is responsible for administering the new kauhale initiative special fund. [CHUNK_46]\",\n  \"economic_impact\": \"The bill's purpose is to address homelessness by creating deeply affordable spaces for housing and healing the houseless. [CHUNK_8] By funding the kauhale initiative, the measure provides temporary and long-term solutions such as emergency shelter, medical respite, supportive housing, and affordable housing for homeless individuals and families. [CHUNK_11] The supportive housing special fund aims to help special needs populations live more stable and productive lives by combining affordable housing with access to services. [CHUNK_22, CHUNK_23]\",\n  \"policy_impact\": \"This Act amends Chapter 201H, Hawaii Revised Statutes, by adding a new subpart to establish a supportive housing special fund. [CHUNK_27] It also amends Chapter 346, Hawaii Revised Statutes, by adding two new sections to establish a kauhale initiative special fund. [CHUNK_46] These changes create a new financing tool specifically for supportive housing and provide a dedicated fund to assist in implementing the kauhale initiative. [CHUNK_24, CHUNK_45]\",\n  \"revenue_sources\": \"The bill appropriates funds out of the general revenues of the State of Hawaii. [CHUNK_17, CHUNK_38] The supportive housing special fund may also include sums from private contributions, proceeds from repayment of loans, interest, fees, other returns, and moneys from other sources. [CHUNK_30, CHUNK_31] The kauhale initiative special fund may also include sums from program revenues, private contributions, interest, and moneys from other sources. [CHUNK_47]\",\n  \"six_year_fiscal_implications\": \"For fiscal year 2025-2026, the bill appropriates a total of $62,000,000 from general revenues, comprising $50,000,000 (HB431_.HTM.txt) for the kauhale initiative and $12,000,000 (HB431_.HTM.txt) for the supportive housing special fund. [CHUNK_17, CHUNK_38] An identical appropriation is made for fiscal year 2026-2027. [CHUNK_17, CHUNK_39] From the supportive housing special fund, $12,000,000 (HB431_.HTM.txt) is appropriated for expenditure in each of fiscal years 2025-2026 and 2026-2027. [CHUNK_40] A portion of this, $189,750 (HB431_.HTM.txt) annually, is for one temporary 1.0 FTE housing finance specialist I. [CHUNK_41] The remaining funds from the supportive housing special fund are for financing the development, operation, and maintenance of affordable, supportive housing projects and providing supportive services. [CHUNK_41] The sums appropriated for the kauhale initiative are specified not to lapse at the end of the fiscal biennium. [CHUNK_21] The bill does not contain fiscal projections or appropriations beyond fiscal year 2026-2027. [CHUNK_52] Continued operation of these initiatives would require further appropriations in subsequent years. [CHUNK_14] The creation of special funds suggests a long-term commitment to these programs. [CHUNK_28, CHUNK_46]\",\n  \"operating_revenue_impact\": \"The Hawaii housing finance and development corporation is authorized to establish, revise, charge, and collect a reasonable service fee in connection with its financing and services related to the supportive housing special fund. [CHUNK_35] These fees shall be deposited into the supportive housing special fund, creating a potential new revenue stream for the fund. [CHUNK_36] The kauhale initiative special fund may also include program revenues. [CHUNK_47]\",\n  \"capital_expenditure_impact\": \"Moneys from the supportive housing special fund may be used to make loans to finance the development, pre-development, construction, acquisition, preservation, or substantial rehabilitation of supportive housing projects. [CHUNK_29] Funds for the kauhale initiative are designated for expenses related to the development and operation of kauhale. [CHUNK_18] This builds upon past programs that funded the construction of modular temporary units and renovation of existing structures. [CHUNK_4]\",\n  \"fiscal_implications_after_6_years\": \"While appropriations are only specified for a two-year period, the establishment of the supportive housing special fund and the kauhale initiative special fund implies an ongoing fiscal commitment. [CHUNK_28, CHUNK_46] Continuing the programs at the levels funded in this bill would require significant annual appropriations beyond the initial biennium. [CHUNK_17, CHUNK_38] The long-term sustainability of these efforts will depend on future legislative appropriations and any revenues generated by the special funds through fees, loan repayments, or contributions. [CHUNK_30, CHUNK_47]\",\n  \"updates_from_previous_fiscal_note\": \"A previous fiscal note was not provided, so a comparison cannot be made. [CHUNK_52]\"\n}",
+    "response_text": "{\n  \"overview\": \"The purpose of this Act is to appropriate funds for the continued implementation of the kauhale initiative. [CHUNK_15] This bill also creates the supportive housing special fund to assist the Hawaii housing finance and development corporation to facilitate the development of mixed-income rental housing projects for special needs individuals or families. [CHUNK_15] It also creates a kauhale initiative special fund to assist the statewide office of homelessness and housing solutions to implement the kauhale initiative. [CHUNK_16]\",\n  \"appropriations\": \"There is appropriated out of the general revenues of the State of Hawaii the sum of $50,000,000 (HB431_.HTM.txt) or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for the continued operation of the kauhale initiative. [CHUNK_17] The bill appropriates $12,000,000 (HB431_.HTM.txt) for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027 from general revenues to be deposited into the supportive housing special fund. [CHUNK_38, CHUNK_39] Out of the supportive housing special fund, the bill appropriates $12,000,000 (HB431_.HTM.txt) for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027 for supportive housing projects, services, and $189,750 (HB431_.HTM.txt) for one temporary full-time equivalent housing finance specialist I position. [CHUNK_40, CHUNK_41]\",\n  \"assumptions_and_methodology\": \"The fiscal projections are based on specific appropriations detailed in the bill for fiscal years 2025-2026 and 2026-2027. [CHUNK_17, CHUNK_38] The bill follows previous legislative efforts to fund homelessness programs, such as the ohana zones pilot program which initially appropriated $30,000,000 (HB431_.HTM.txt) and was later provided an additional $15,000,000 (HB431_.HTM.txt). [CHUNK_3, CHUNK_6] In 2023, the legislature also set aside $5,000,000 (HB431_.HTM.txt) to fund a supportive housing pilot program and $25,000,000 (HB431_.HTM.txt) to fund the kauhale initiative. [CHUNK_6, CHUNK_8]\",\n  \"agency_impact\": \"The Hawaii housing finance and development corporation will administer the supportive housing special fund and establish one full-time equivalent (1.0 FTE) housing finance specialist I position. [CHUNK_25, CHUNK_26] The statewide office on homelessness and housing solutions will administer the kauhale initiative special fund. [CHUNK_46] The office of the governor will expend the appropriations for the kauhale initiative and may transfer funds to designated executive branch departments or agencies. [CHUNK_19, CHUNK_20]\",\n  \"economic_impact\": \"The measure is intended to address Hawaii's high homelessness rate by funding responses for homeless individuals and families and those at risk of homelessness. [CHUNK_1, CHUNK_10] It provides funding for the development, operation, and maintenance of affordable, supportive housing projects and the provision of supportive services for households with special needs. [CHUNK_40, CHUNK_41] The bill aims to help special needs populations live more stable and productive lives. [CHUNK_23]\",\n  \"policy_impact\": \"This Act establishes a supportive housing special fund to be administered by the Hawaii housing finance and development corporation. [CHUNK_25] It also establishes a kauhale initiative special fund to be administered by the statewide office on homelessness and housing solutions. [CHUNK_45, CHUNK_46] The measure establishes one temporary full-time equivalent (1.0 FTE) housing finance specialist I within the Hawaii housing finance and development corporation. [CHUNK_41]\",\n  \"revenue_sources\": \"The bill appropriates funds out of the general revenues of the State of Hawaii. [CHUNK_17, CHUNK_38] The supportive housing special fund may also include sums from private contributions, proceeds from repayment of loans, interest, fees, other returns, and moneys from other sources. [CHUNK_30, CHUNK_31] Similarly, the kauhale initiative special fund may include sums appropriated by the legislature, program revenues, private contributions, interest, and moneys from other sources. [CHUNK_47]\",\n  \"six_year_fiscal_implications\": \"The bill appropriates funds for fiscal years 2025-2026 and 2026-2027. [CHUNK_17, CHUNK_39] For the kauhale initiative, the bill appropriates $50,000,000 (HB431_.HTM.txt) for FY 2025-2026 and the same sum for FY 2026-2027. [CHUNK_17] These funds are for the continued operation of the kauhale initiative including expenses related to the development and operation of kauhale, provision of project-based rent supplement payments, provision of support services, and staffing costs. [CHUNK_18] These sums shall not lapse at the end of the fiscal biennium. [CHUNK_21] For the supportive housing special fund, the bill appropriates $12,000,000 (HB431_.HTM.txt) from general revenues to be deposited into the fund in FY 2025-2026 and the same amount in FY 2026-2027. [CHUNK_38, CHUNK_39] From this fund, $12,000,000 (HB431_.HTM.txt) is appropriated for FY 2025-2026 and the same for FY 2026-2027. [CHUNK_39, CHUNK_40] This amount is for financing supportive housing projects and providing supportive services. [CHUNK_40, CHUNK_41] A portion of this, $189,750 (HB431_.HTM.txt), is for one temporary 1.0 FTE housing finance specialist I. [CHUNK_41] There are no specified appropriations beyond FY 2026-2027, but the establishment of special funds implies a long-term initiative. [CHUNK_28, CHUNK_46]\",\n  \"operating_revenue_impact\": \"The Hawaii housing finance and development corporation may establish, revise, charge, and collect a reasonable service fee in connection with its financing, services, and approvals under the supportive housing program. [CHUNK_35] The fees collected shall be deposited into the supportive housing special fund. [CHUNK_36] The kauhale initiative special fund may also include program revenues as a source of funds. [CHUNK_47]\",\n  \"capital_expenditure_impact\": \"Moneys in the supportive housing special fund may be used to make loans to finance the development, pre-development, construction, acquisition, preservation, or substantial rehabilitation of supportive housing projects. [CHUNK_29] The appropriation for the kauhale initiative includes expenses related to the development and operation of kauhale. [CHUNK_18] This is consistent with past uses of similar funds for the construction of modular temporary units and renovation of existing structures. [CHUNK_4]\",\n  \"fiscal_implications_after_6_years\": \"The bill establishes a supportive housing special fund and a kauhale initiative special fund, indicating an ongoing need for funding beyond the initial two-year appropriation period. [CHUNK_28, CHUNK_46] Continued operation of these initiatives and administration of the special funds will likely require future legislative appropriations. [CHUNK_30, CHUNK_47] An amount from the supportive housing special fund may be used for ongoing administrative expenses incurred by the corporation in administering the fund. [CHUNK_31]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the context.\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
       "prompt_token_count": 10126,
-      "candidates_token_count": 1835,
-      "total_token_count": 15253
+      "candidates_token_count": 1871,
+      "total_token_count": 13768
     },
     "candidates": [
       {
@@ -27,7 +27,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n  \"overview\": \"The purpose of this Act is to appropriate funds for the continued implementation of the kauhale initiative, create the supportive housing special fund, and create a kauhale initiative special fund. [CHUNK_15, CHUNK_16] This measure will assist the Hawaii housing finance and development corporation to facilitate the development of mixed-income rental housing projects for special needs individuals or families. [CHUNK_15] It also establishes one temporary full-time equivalent (1.0 FTE) housing finance specialist I position within the Hawaii housing finance and development corporation to help with administration of the special fund. [CHUNK_41]\",\n  \"appropriations\": \"There is appropriated out of the general revenues of the State of Hawaii the sum of $50,000,000 (HB431_.HTM.txt) for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027 for the continued operation of the kauhale initiative. [CHUNK_17] The measure also appropriates $12,000,000 (HB431_.HTM.txt) from general revenues for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027 to be deposited into the supportive housing special fund. [CHUNK_38, CHUNK_39] Out of the supportive housing special fund, the bill appropriates $12,000,000 (HB431_.HTM.txt) for each of fiscal years 2025-2026 and 2026-2027, which includes $189,750 (HB431_.HTM.txt) for one temporary full-time equivalent housing finance specialist I position. [CHUNK_40, CHUNK_41]\",\n  \"assumptions_and_methodology\": \"The fiscal projections are based on specific appropriations outlined in the bill for fiscal years 2025-2026 and 2026-2027. [CHUNK_17, CHUNK_38] These appropriations appear to be based on the continuation and expansion of previous legislative efforts, such as the ohana zones pilot program which initially appropriated $30,000,000 (HB431_.HTM.txt) and a supportive housing pilot program funded with $5,000,000 (HB431_.HTM.txt). [CHUNK_3, CHUNK_6] The cost for staffing is explicitly stated, with $189,750 (HB431_.HTM.txt) appropriated for the establishment and hiring of one temporary full-time equivalent (1.0 FTE) housing finance specialist I. [CHUNK_41]\",\n  \"agency_impact\": \"The Hawaii housing finance and development corporation is tasked with administering the new supportive housing special fund. [CHUNK_25] The corporation will also establish one temporary full-time equivalent (1.0 FTE) housing finance specialist I position to help with the administration of the fund. [CHUNK_26, CHUNK_41] The statewide office on homelessness and housing solutions is responsible for administering the new kauhale initiative special fund. [CHUNK_46]\",\n  \"economic_impact\": \"The bill's purpose is to address homelessness by creating deeply affordable spaces for housing and healing the houseless. [CHUNK_8] By funding the kauhale initiative, the measure provides temporary and long-term solutions such as emergency shelter, medical respite, supportive housing, and affordable housing for homeless individuals and families. [CHUNK_11] The supportive housing special fund aims to help special needs populations live more stable and productive lives by combining affordable housing with access to services. [CHUNK_22, CHUNK_23]\",\n  \"policy_impact\": \"This Act amends Chapter 201H, Hawaii Revised Statutes, by adding a new subpart to establish a supportive housing special fund. [CHUNK_27] It also amends Chapter 346, Hawaii Revised Statutes, by adding two new sections to establish a kauhale initiative special fund. [CHUNK_46] These changes create a new financing tool specifically for supportive housing and provide a dedicated fund to assist in implementing the kauhale initiative. [CHUNK_24, CHUNK_45]\",\n  \"revenue_sources\": \"The bill appropriates funds out of the general revenues of the State of Hawaii. [CHUNK_17, CHUNK_38] The supportive housing special fund may also include sums from private contributions, proceeds from repayment of loans, interest, fees, other returns, and moneys from other sources. [CHUNK_30, CHUNK_31] The kauhale initiative special fund may also include sums from program revenues, private contributions, interest, and moneys from other sources. [CHUNK_47]\",\n  \"six_year_fiscal_implications\": \"For fiscal year 2025-2026, the bill appropriates a total of $62,000,000 from general revenues, comprising $50,000,000 (HB431_.HTM.txt) for the kauhale initiative and $12,000,000 (HB431_.HTM.txt) for the supportive housing special fund. [CHUNK_17, CHUNK_38] An identical appropriation is made for fiscal year 2026-2027. [CHUNK_17, CHUNK_39] From the supportive housing special fund, $12,000,000 (HB431_.HTM.txt) is appropriated for expenditure in each of fiscal years 2025-2026 and 2026-2027. [CHUNK_40] A portion of this, $189,750 (HB431_.HTM.txt) annually, is for one temporary 1.0 FTE housing finance specialist I. [CHUNK_41] The remaining funds from the supportive housing special fund are for financing the development, operation, and maintenance of affordable, supportive housing projects and providing supportive services. [CHUNK_41] The sums appropriated for the kauhale initiative are specified not to lapse at the end of the fiscal biennium. [CHUNK_21] The bill does not contain fiscal projections or appropriations beyond fiscal year 2026-2027. [CHUNK_52] Continued operation of these initiatives would require further appropriations in subsequent years. [CHUNK_14] The creation of special funds suggests a long-term commitment to these programs. [CHUNK_28, CHUNK_46]\",\n  \"operating_revenue_impact\": \"The Hawaii housing finance and development corporation is authorized to establish, revise, charge, and collect a reasonable service fee in connection with its financing and services related to the supportive housing special fund. [CHUNK_35] These fees shall be deposited into the supportive housing special fund, creating a potential new revenue stream for the fund. [CHUNK_36] The kauhale initiative special fund may also include program revenues. [CHUNK_47]\",\n  \"capital_expenditure_impact\": \"Moneys from the supportive housing special fund may be used to make loans to finance the development, pre-development, construction, acquisition, preservation, or substantial rehabilitation of supportive housing projects. [CHUNK_29] Funds for the kauhale initiative are designated for expenses related to the development and operation of kauhale. [CHUNK_18] This builds upon past programs that funded the construction of modular temporary units and renovation of existing structures. [CHUNK_4]\",\n  \"fiscal_implications_after_6_years\": \"While appropriations are only specified for a two-year period, the establishment of the supportive housing special fund and the kauhale initiative special fund implies an ongoing fiscal commitment. [CHUNK_28, CHUNK_46] Continuing the programs at the levels funded in this bill would require significant annual appropriations beyond the initial biennium. [CHUNK_17, CHUNK_38] The long-term sustainability of these efforts will depend on future legislative appropriations and any revenues generated by the special funds through fees, loan repayments, or contributions. [CHUNK_30, CHUNK_47]\",\n  \"updates_from_previous_fiscal_note\": \"A previous fiscal note was not provided, so a comparison cannot be made. [CHUNK_52]\"\n}"
+              "text": "{\n  \"overview\": \"The purpose of this Act is to appropriate funds for the continued implementation of the kauhale initiative. [CHUNK_15] This bill also creates the supportive housing special fund to assist the Hawaii housing finance and development corporation to facilitate the development of mixed-income rental housing projects for special needs individuals or families. [CHUNK_15] It also creates a kauhale initiative special fund to assist the statewide office of homelessness and housing solutions to implement the kauhale initiative. [CHUNK_16]\",\n  \"appropriations\": \"There is appropriated out of the general revenues of the State of Hawaii the sum of $50,000,000 (HB431_.HTM.txt) or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for the continued operation of the kauhale initiative. [CHUNK_17] The bill appropriates $12,000,000 (HB431_.HTM.txt) for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027 from general revenues to be deposited into the supportive housing special fund. [CHUNK_38, CHUNK_39] Out of the supportive housing special fund, the bill appropriates $12,000,000 (HB431_.HTM.txt) for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027 for supportive housing projects, services, and $189,750 (HB431_.HTM.txt) for one temporary full-time equivalent housing finance specialist I position. [CHUNK_40, CHUNK_41]\",\n  \"assumptions_and_methodology\": \"The fiscal projections are based on specific appropriations detailed in the bill for fiscal years 2025-2026 and 2026-2027. [CHUNK_17, CHUNK_38] The bill follows previous legislative efforts to fund homelessness programs, such as the ohana zones pilot program which initially appropriated $30,000,000 (HB431_.HTM.txt) and was later provided an additional $15,000,000 (HB431_.HTM.txt). [CHUNK_3, CHUNK_6] In 2023, the legislature also set aside $5,000,000 (HB431_.HTM.txt) to fund a supportive housing pilot program and $25,000,000 (HB431_.HTM.txt) to fund the kauhale initiative. [CHUNK_6, CHUNK_8]\",\n  \"agency_impact\": \"The Hawaii housing finance and development corporation will administer the supportive housing special fund and establish one full-time equivalent (1.0 FTE) housing finance specialist I position. [CHUNK_25, CHUNK_26] The statewide office on homelessness and housing solutions will administer the kauhale initiative special fund. [CHUNK_46] The office of the governor will expend the appropriations for the kauhale initiative and may transfer funds to designated executive branch departments or agencies. [CHUNK_19, CHUNK_20]\",\n  \"economic_impact\": \"The measure is intended to address Hawaii's high homelessness rate by funding responses for homeless individuals and families and those at risk of homelessness. [CHUNK_1, CHUNK_10] It provides funding for the development, operation, and maintenance of affordable, supportive housing projects and the provision of supportive services for households with special needs. [CHUNK_40, CHUNK_41] The bill aims to help special needs populations live more stable and productive lives. [CHUNK_23]\",\n  \"policy_impact\": \"This Act establishes a supportive housing special fund to be administered by the Hawaii housing finance and development corporation. [CHUNK_25] It also establishes a kauhale initiative special fund to be administered by the statewide office on homelessness and housing solutions. [CHUNK_45, CHUNK_46] The measure establishes one temporary full-time equivalent (1.0 FTE) housing finance specialist I within the Hawaii housing finance and development corporation. [CHUNK_41]\",\n  \"revenue_sources\": \"The bill appropriates funds out of the general revenues of the State of Hawaii. [CHUNK_17, CHUNK_38] The supportive housing special fund may also include sums from private contributions, proceeds from repayment of loans, interest, fees, other returns, and moneys from other sources. [CHUNK_30, CHUNK_31] Similarly, the kauhale initiative special fund may include sums appropriated by the legislature, program revenues, private contributions, interest, and moneys from other sources. [CHUNK_47]\",\n  \"six_year_fiscal_implications\": \"The bill appropriates funds for fiscal years 2025-2026 and 2026-2027. [CHUNK_17, CHUNK_39] For the kauhale initiative, the bill appropriates $50,000,000 (HB431_.HTM.txt) for FY 2025-2026 and the same sum for FY 2026-2027. [CHUNK_17] These funds are for the continued operation of the kauhale initiative including expenses related to the development and operation of kauhale, provision of project-based rent supplement payments, provision of support services, and staffing costs. [CHUNK_18] These sums shall not lapse at the end of the fiscal biennium. [CHUNK_21] For the supportive housing special fund, the bill appropriates $12,000,000 (HB431_.HTM.txt) from general revenues to be deposited into the fund in FY 2025-2026 and the same amount in FY 2026-2027. [CHUNK_38, CHUNK_39] From this fund, $12,000,000 (HB431_.HTM.txt) is appropriated for FY 2025-2026 and the same for FY 2026-2027. [CHUNK_39, CHUNK_40] This amount is for financing supportive housing projects and providing supportive services. [CHUNK_40, CHUNK_41] A portion of this, $189,750 (HB431_.HTM.txt), is for one temporary 1.0 FTE housing finance specialist I. [CHUNK_41] There are no specified appropriations beyond FY 2026-2027, but the establishment of special funds implies a long-term initiative. [CHUNK_28, CHUNK_46]\",\n  \"operating_revenue_impact\": \"The Hawaii housing finance and development corporation may establish, revise, charge, and collect a reasonable service fee in connection with its financing, services, and approvals under the supportive housing program. [CHUNK_35] The fees collected shall be deposited into the supportive housing special fund. [CHUNK_36] The kauhale initiative special fund may also include program revenues as a source of funds. [CHUNK_47]\",\n  \"capital_expenditure_impact\": \"Moneys in the supportive housing special fund may be used to make loans to finance the development, pre-development, construction, acquisition, preservation, or substantial rehabilitation of supportive housing projects. [CHUNK_29] The appropriation for the kauhale initiative includes expenses related to the development and operation of kauhale. [CHUNK_18] This is consistent with past uses of similar funds for the construction of modular temporary units and renovation of existing structures. [CHUNK_4]\",\n  \"fiscal_implications_after_6_years\": \"The bill establishes a supportive housing special fund and a kauhale initiative special fund, indicating an ongoing need for funding beyond the initial two-year appropriation period. [CHUNK_28, CHUNK_46] Continued operation of these initiatives and administration of the special funds will likely require future legislative appropriations. [CHUNK_30, CHUNK_47] An amount from the supportive housing special fund may be used for ongoing administrative expenses incurred by the corporation in administering the fund. [CHUNK_31]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the context.\"\n}"
             }
           ]
         },
@@ -533,11 +533,6 @@
           "document_name": "HB431"
         },
         {
-          "chunk_text": "and maintenance of affordable, supportive housing projects and the provision of supportive services for households with special needs who reside in the supportive housing projects; and (2) $189,750 for the establishment and hiring of one temporary full-time equivalent (1.0 FTE) housing finance specialist I within the Hawaii housing finance and",
-          "chunk_id": 41,
-          "document_name": "HB431"
-        },
-        {
           "chunk_text": "initiative. PART II SECTION 2. There is appropriated out of the general revenues of the State of Hawaii the sum of $50,000,000 or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027",
           "chunk_id": 17,
           "document_name": "HB431"
@@ -558,6 +553,11 @@
           "document_name": "HB431"
         },
         {
+          "chunk_text": "and maintenance of affordable, supportive housing projects and the provision of supportive services for households with special needs who reside in the supportive housing projects; and (2) $189,750 for the establishment and hiring of one temporary full-time equivalent (1.0 FTE) housing finance specialist I within the Hawaii housing finance and",
+          "chunk_id": 41,
+          "document_name": "HB431"
+        },
+        {
           "chunk_text": "per cent of Oahu's homeless were unsheltered, and thirty-eight per cent were sheltered. The legislature under Act 209, Session Laws of Hawaii 2018, established the ohana zones pilot program, which initially appropriated $30,000,000 to fund nonprofit and county government programs aimed to reduce homelessness. Act 128, Session Laws of Hawaii",
           "chunk_id": 3,
           "document_name": "HB431"
@@ -565,6 +565,11 @@
         {
           "chunk_text": "additional programs were established. Act 235, Session Laws of Hawaii 2022, further extended the ohana zones pilot program through June 30, 2026, and provided an additional $15,000,000 to fund services. In 2023, the legislature also set aside $5,000,000 to fund a supportive housing pilot program, designed to address individuals with",
           "chunk_id": 6,
+          "document_name": "HB431"
+        },
+        {
+          "chunk_text": "or mental illness, frail elderly, and chronically homeless individuals. In 2023, the legislature also set aside $25,000,000 to fund the kauhale initiative to create deeply affordable spaces for housing and healing the houseless. At that time, kauhale was defined as \"communal living spaces, with modest housing units for individual households",
+          "chunk_id": 8,
           "document_name": "HB431"
         },
         {
@@ -583,33 +588,28 @@
           "document_name": "HB431"
         },
         {
-          "chunk_text": "or mental illness, frail elderly, and chronically homeless individuals. In 2023, the legislature also set aside $25,000,000 to fund the kauhale initiative to create deeply affordable spaces for housing and healing the houseless. At that time, kauhale was defined as \"communal living spaces, with modest housing units for individual households",
-          "chunk_id": 8,
+          "chunk_text": "individuals and families in kauhale, and staffing and related costs to administer the kauhale initiative . The sums appropriated shall be expended by the office of the governor for the purposes of this Act. Notwithstanding any other law to the contrary, the governor may transfer all or a portion of",
+          "chunk_id": 19,
           "document_name": "HB431"
         },
         {
-          "chunk_text": "and families and those at risk of homelessness. Kauhale now include temporary, time limited options such as emergency shelter, medical respite, and mobile outreach and navigation, as well as long term solutions such as supportive housing and affordable housing targeting extremely low-income households. The legislature further finds that among the",
-          "chunk_id": 11,
+          "chunk_text": "contrary, the governor may transfer all or a portion of the appropriation in this part to the governor's designated executive branch departments or agencies, including the statewide office on homelessness and housing solutions for expenditures incurred to implement the program. The governor's designated executive branch departments or agencies may expend",
+          "chunk_id": 20,
           "document_name": "HB431"
         },
         {
-          "chunk_text": "the fiscal biennium for which the appropriation is made. PART III SECTION 3. The legislature finds that combining affordable housing with access to services to help special needs populations, such as individuals with alcohol or drug addiction, individuals transitioning from incarceration, youth aging out of foster care, domestic violence survivors,",
-          "chunk_id": 22,
+          "chunk_text": "that Hawaii has the highest homelessness rate per capita in the nation. The 2024 Point In Time Count showed a total of 6,389 people experiencing homelessness in the State. The majority of the homeless are on Oahu with 4,494, followed by Hawaii with seven hundred eighteen, Maui with six hundred",
+          "chunk_id": 1,
+          "document_name": "HB431"
+        },
+        {
+          "chunk_text": "also be created in an existing apartment, dormitory, or office building, so long as there is communal space and an investment in building communal responsibility.\" Over time, the kauhale initiative has evolved to a range of responses for homeless individuals and families and those at risk of homelessness. Kauhale now",
+          "chunk_id": 10,
           "document_name": "HB431"
         },
         {
           "chunk_text": "incarceration, youth aging out of foster care, domestic violence survivors, veterans, individuals with intellectual, developmental, physical disabilities, or mental illness, frail elderly, and chronically homeless individuals, live more stable and productive lives. The legislature further finds that the Hawaii housing finance and development corporation administers various programs to finance mixed-income",
           "chunk_id": 23,
-          "document_name": "HB431"
-        },
-        {
-          "chunk_text": "administration of the supportive housing special fund. SECTION 4. Chapter 201H, Hawaii Revised Statutes, is amended by adding a new subpart to part III to be appropriately designated and to read as follows: \" . Supportive Housing Special Fund §201H- Supportive housing special fund. (a) There is established a supportive",
-          "chunk_id": 27,
-          "document_name": "HB431"
-        },
-        {
-          "chunk_text": "finance and development corporation administers various programs to finance mixed-income rental housing developments. Creating a new financing tool specifically for supportive housing will enable the Hawaii housing finance and development corporation to facilitate the development of supportive housing units in stand-alone projects or integrated in mixed-income rental housing projects. The",
-          "chunk_id": 24,
           "document_name": "HB431"
         },
         {
@@ -633,18 +633,13 @@
           "document_name": "HB431"
         },
         {
+          "chunk_text": "much thereof as may be necessary for fiscal year 2026-2027 for the continued operation of the kauhale initiative including expenses related to the development and operation of kauhale, provision of project-based rent supplement payments, provision of support services for qualified individuals and families in kauhale, and staffing and related costs",
+          "chunk_id": 18,
+          "document_name": "HB431"
+        },
+        {
           "chunk_text": "The governor's designated executive branch departments or agencies may expend any appropriation transferred pursuant to this part for the performance of their duties under the kauhale initiative. The sums appropriated under this section shall not lapse at the end of the fiscal biennium for which the appropriation is made. PART",
           "chunk_id": 21,
-          "document_name": "HB431"
-        },
-        {
-          "chunk_text": "Initiative Special Fund. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
-          "chunk_id": 52,
-          "document_name": "HB431"
-        },
-        {
-          "chunk_text": "to homelessness and the risk of homelessness, it is necessary for the State to develop the capacity of its affordable housing financing and development agency to work with developers to create additional supportive housing units. Accordingly, the purpose of this Act is to: (1) Appropriate funds for the continued implementation",
-          "chunk_id": 14,
           "document_name": "HB431"
         },
         {
@@ -668,11 +663,6 @@
           "document_name": "HB431"
         },
         {
-          "chunk_text": "much thereof as may be necessary for fiscal year 2026-2027 for the continued operation of the kauhale initiative including expenses related to the development and operation of kauhale, provision of project-based rent supplement payments, provision of support services for qualified individuals and families in kauhale, and staffing and related costs",
-          "chunk_id": 18,
-          "document_name": "HB431"
-        },
-        {
           "chunk_text": "aimed to reduce homelessness. Act 128, Session Laws of Hawaii 2019, expanded the use of ohana zone funds to include private lands and appropriated $2,000,000 for the construction of modular temporary units, renovation of existing structures on public lands, or creation of infrastructure to make land suitable for temporary housing.",
           "chunk_id": 4,
           "document_name": "HB431"
@@ -682,33 +672,51 @@
     "document_mapping": {
       "HB431": 1,
       "HB431_TESTIMONY_HSH_01-28-25_": 2,
-      "HB431_HD1": 3,
-      "HB431_HD1_HSCR3_": 4,
+      "HB431_HD1_HSCR3_": 3,
+      "HB431_HD1": 4,
       "HB431_HD1_TESTIMONY_HSG_02-12-25_": 5,
-      "HB431_HD2": 6,
-      "HB431_HD2_HSCR765_": 7,
+      "HB431_HD2_HSCR765_": 6,
+      "HB431_HD2": 7,
       "HB431_HD2_TESTIMONY_FIN_02-24-25_": 8,
       "HB431_HD2_HSCR962_": 9,
       "HB431_HD2_TESTIMONY_HHS-HOU_03-12-25_": 10,
-      "HB431_SD1": 11,
-      "HB431_SD1_SSCR1287_": 12,
+      "HB431_SD1_SSCR1287_": 11,
+      "HB431_SD1": 12,
       "HB431_SD1_TESTIMONY_WAM_03-28-25_": 13,
-      "HB431_SD2": 14,
-      "HB431_SD2_SSCR1528_": 15,
-      "HB431_CD1": 16,
-      "HB431_CD1_CCR189_": 17
+      "HB431_SD2_SSCR1528_": 14,
+      "HB431_SD2": 15,
+      "HB431_CD1_CCR189_": 16,
+      "HB431_CD1": 17
     },
     "sentence_chunk_mapping": [
       {
         "section": "overview",
-        "sentence": "The purpose of this Act is to appropriate funds for the continued implementation of the kauhale initiative, create the supportive housing special fund, and create a kauhale initiative special fund.",
+        "sentence": "The purpose of this Act is to appropriate funds for the continued implementation of the kauhale initiative.",
         "chunks": [
           {
             "chunk_id": 15,
             "citation_number": 1,
             "chunk_text": "Act is to: (1) Appropriate funds for the continued implementation of the kauhale initiative; (2) Create the supportive housing special fund to assist the Hawaii housing finance and development corporation to facilitate the development of mixed-income rental housing projects in which some or all the units are targeted to special",
             "document_name": "HB431"
-          },
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "This bill also creates the supportive housing special fund to assist the Hawaii housing finance and development corporation to facilitate the development of mixed-income rental housing projects for special needs individuals or families.",
+        "chunks": [
+          {
+            "chunk_id": 15,
+            "citation_number": 1,
+            "chunk_text": "Act is to: (1) Appropriate funds for the continued implementation of the kauhale initiative; (2) Create the supportive housing special fund to assist the Hawaii housing finance and development corporation to facilitate the development of mixed-income rental housing projects in which some or all the units are targeted to special",
+            "document_name": "HB431"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "It also creates a kauhale initiative special fund to assist the statewide office of homelessness and housing solutions to implement the kauhale initiative.",
+        "chunks": [
           {
             "chunk_id": 16,
             "citation_number": 1,
@@ -718,32 +726,8 @@
         ]
       },
       {
-        "section": "overview",
-        "sentence": "This measure will assist the Hawaii housing finance and development corporation to facilitate the development of mixed-income rental housing projects for special needs individuals or families.",
-        "chunks": [
-          {
-            "chunk_id": 15,
-            "citation_number": 1,
-            "chunk_text": "Act is to: (1) Appropriate funds for the continued implementation of the kauhale initiative; (2) Create the supportive housing special fund to assist the Hawaii housing finance and development corporation to facilitate the development of mixed-income rental housing projects in which some or all the units are targeted to special",
-            "document_name": "HB431"
-          }
-        ]
-      },
-      {
-        "section": "overview",
-        "sentence": "It also establishes one temporary full-time equivalent (1.0 FTE) housing finance specialist I position within the Hawaii housing finance and development corporation to help with administration of the special fund.",
-        "chunks": [
-          {
-            "chunk_id": 41,
-            "citation_number": 1,
-            "chunk_text": "and maintenance of affordable, supportive housing projects and the provision of supportive services for households with special needs who reside in the supportive housing projects; and (2) $189,750 for the establishment and hiring of one temporary full-time equivalent (1.0 FTE) housing finance specialist I within the Hawaii housing finance and",
-            "document_name": "HB431"
-          }
-        ]
-      },
-      {
         "section": "appropriations",
-        "sentence": "There is appropriated out of the general revenues of the State of Hawaii the sum of $50,000,000 (HB431_.HTM.txt) for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027 for the continued operation of the kauhale initiative.",
+        "sentence": "There is appropriated out of the general revenues of the State of Hawaii the sum of $50,000,000 (HB431_.HTM.txt) or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for the continued operation of the kauhale initiative.",
         "chunks": [
           {
             "chunk_id": 17,
@@ -755,7 +739,7 @@
       },
       {
         "section": "appropriations",
-        "sentence": "The measure also appropriates $12,000,000 (HB431_.HTM.txt) from general revenues for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027 to be deposited into the supportive housing special fund.",
+        "sentence": "The bill appropriates $12,000,000 (HB431_.HTM.txt) for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027 from general revenues to be deposited into the supportive housing special fund.",
         "chunks": [
           {
             "chunk_id": 38,
@@ -773,7 +757,7 @@
       },
       {
         "section": "appropriations",
-        "sentence": "Out of the supportive housing special fund, the bill appropriates $12,000,000 (HB431_.HTM.txt) for each of fiscal years 2025-2026 and 2026-2027, which includes $189,750 (HB431_.HTM.txt) for one temporary full-time equivalent housing finance specialist I position.",
+        "sentence": "Out of the supportive housing special fund, the bill appropriates $12,000,000 (HB431_.HTM.txt) for fiscal year 2025-2026 and the same sum for fiscal year 2026-2027 for supportive housing projects, services, and $189,750 (HB431_.HTM.txt) for one temporary full-time equivalent housing finance specialist I position.",
         "chunks": [
           {
             "chunk_id": 40,
@@ -791,7 +775,7 @@
       },
       {
         "section": "assumptions_and_methodology",
-        "sentence": "The fiscal projections are based on specific appropriations outlined in the bill for fiscal years 2025-2026 and 2026-2027.",
+        "sentence": "The fiscal projections are based on specific appropriations detailed in the bill for fiscal years 2025-2026 and 2026-2027.",
         "chunks": [
           {
             "chunk_id": 17,
@@ -809,7 +793,7 @@
       },
       {
         "section": "assumptions_and_methodology",
-        "sentence": "These appropriations appear to be based on the continuation and expansion of previous legislative efforts, such as the ohana zones pilot program which initially appropriated $30,000,000 (HB431_.HTM.txt) and a supportive housing pilot program funded with $5,000,000 (HB431_.HTM.txt).",
+        "sentence": "The bill follows previous legislative efforts to fund homelessness programs, such as the ohana zones pilot program which initially appropriated $30,000,000 (HB431_.HTM.txt) and was later provided an additional $15,000,000 (HB431_.HTM.txt).",
         "chunks": [
           {
             "chunk_id": 3,
@@ -827,49 +811,43 @@
       },
       {
         "section": "assumptions_and_methodology",
-        "sentence": "The cost for staffing is explicitly stated, with $189,750 (HB431_.HTM.txt) appropriated for the establishment and hiring of one temporary full-time equivalent (1.0 FTE) housing finance specialist I.",
+        "sentence": "In 2023, the legislature also set aside $5,000,000 (HB431_.HTM.txt) to fund a supportive housing pilot program and $25,000,000 (HB431_.HTM.txt) to fund the kauhale initiative.",
         "chunks": [
           {
-            "chunk_id": 41,
+            "chunk_id": 6,
             "citation_number": 1,
-            "chunk_text": "and maintenance of affordable, supportive housing projects and the provision of supportive services for households with special needs who reside in the supportive housing projects; and (2) $189,750 for the establishment and hiring of one temporary full-time equivalent (1.0 FTE) housing finance specialist I within the Hawaii housing finance and",
+            "chunk_text": "additional programs were established. Act 235, Session Laws of Hawaii 2022, further extended the ohana zones pilot program through June 30, 2026, and provided an additional $15,000,000 to fund services. In 2023, the legislature also set aside $5,000,000 to fund a supportive housing pilot program, designed to address individuals with",
+            "document_name": "HB431"
+          },
+          {
+            "chunk_id": 8,
+            "citation_number": 1,
+            "chunk_text": "or mental illness, frail elderly, and chronically homeless individuals. In 2023, the legislature also set aside $25,000,000 to fund the kauhale initiative to create deeply affordable spaces for housing and healing the houseless. At that time, kauhale was defined as \"communal living spaces, with modest housing units for individual households",
             "document_name": "HB431"
           }
         ]
       },
       {
         "section": "agency_impact",
-        "sentence": "The Hawaii housing finance and development corporation is tasked with administering the new supportive housing special fund.",
+        "sentence": "The Hawaii housing finance and development corporation will administer the supportive housing special fund and establish one full-time equivalent (1.0 FTE) housing finance specialist I position.",
         "chunks": [
           {
             "chunk_id": 25,
             "citation_number": 1,
             "chunk_text": "stand-alone projects or integrated in mixed-income rental housing projects. The purpose of this part is to: (1) Establish a supportive housing special fund to be administered by the Hawaii housing finance and development corporation; (2) Appropriate funds to support the development, operation, and maintenance of supportive housing, as well as",
             "document_name": "HB431"
-          }
-        ]
-      },
-      {
-        "section": "agency_impact",
-        "sentence": "The corporation will also establish one temporary full-time equivalent (1.0 FTE) housing finance specialist I position to help with the administration of the fund.",
-        "chunks": [
+          },
           {
             "chunk_id": 26,
             "citation_number": 1,
             "chunk_text": "development, operation, and maintenance of supportive housing, as well as the provision of supportive services; and (3) Establish, within the Hawaii housing finance and development corporation, one full-time equivalent (1.0 FTE) housing finance specialist I position to help with the administration of the supportive housing special fund. SECTION 4. Chapter",
             "document_name": "HB431"
-          },
-          {
-            "chunk_id": 41,
-            "citation_number": 1,
-            "chunk_text": "and maintenance of affordable, supportive housing projects and the provision of supportive services for households with special needs who reside in the supportive housing projects; and (2) $189,750 for the establishment and hiring of one temporary full-time equivalent (1.0 FTE) housing finance specialist I within the Hawaii housing finance and",
-            "document_name": "HB431"
           }
         ]
       },
       {
         "section": "agency_impact",
-        "sentence": "The statewide office on homelessness and housing solutions is responsible for administering the new kauhale initiative special fund.",
+        "sentence": "The statewide office on homelessness and housing solutions will administer the kauhale initiative special fund.",
         "chunks": [
           {
             "chunk_id": 46,
@@ -880,39 +858,63 @@
         ]
       },
       {
-        "section": "economic_impact",
-        "sentence": "The bill's purpose is to address homelessness by creating deeply affordable spaces for housing and healing the houseless.",
+        "section": "agency_impact",
+        "sentence": "The office of the governor will expend the appropriations for the kauhale initiative and may transfer funds to designated executive branch departments or agencies.",
         "chunks": [
           {
-            "chunk_id": 8,
+            "chunk_id": 19,
             "citation_number": 1,
-            "chunk_text": "or mental illness, frail elderly, and chronically homeless individuals. In 2023, the legislature also set aside $25,000,000 to fund the kauhale initiative to create deeply affordable spaces for housing and healing the houseless. At that time, kauhale was defined as \"communal living spaces, with modest housing units for individual households",
-            "document_name": "HB431"
-          }
-        ]
-      },
-      {
-        "section": "economic_impact",
-        "sentence": "By funding the kauhale initiative, the measure provides temporary and long-term solutions such as emergency shelter, medical respite, supportive housing, and affordable housing for homeless individuals and families.",
-        "chunks": [
-          {
-            "chunk_id": 11,
-            "citation_number": 1,
-            "chunk_text": "and families and those at risk of homelessness. Kauhale now include temporary, time limited options such as emergency shelter, medical respite, and mobile outreach and navigation, as well as long term solutions such as supportive housing and affordable housing targeting extremely low-income households. The legislature further finds that among the",
-            "document_name": "HB431"
-          }
-        ]
-      },
-      {
-        "section": "economic_impact",
-        "sentence": "The supportive housing special fund aims to help special needs populations live more stable and productive lives by combining affordable housing with access to services.",
-        "chunks": [
-          {
-            "chunk_id": 22,
-            "citation_number": 1,
-            "chunk_text": "the fiscal biennium for which the appropriation is made. PART III SECTION 3. The legislature finds that combining affordable housing with access to services to help special needs populations, such as individuals with alcohol or drug addiction, individuals transitioning from incarceration, youth aging out of foster care, domestic violence survivors,",
+            "chunk_text": "individuals and families in kauhale, and staffing and related costs to administer the kauhale initiative . The sums appropriated shall be expended by the office of the governor for the purposes of this Act. Notwithstanding any other law to the contrary, the governor may transfer all or a portion of",
             "document_name": "HB431"
           },
+          {
+            "chunk_id": 20,
+            "citation_number": 1,
+            "chunk_text": "contrary, the governor may transfer all or a portion of the appropriation in this part to the governor's designated executive branch departments or agencies, including the statewide office on homelessness and housing solutions for expenditures incurred to implement the program. The governor's designated executive branch departments or agencies may expend",
+            "document_name": "HB431"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "The measure is intended to address Hawaii's high homelessness rate by funding responses for homeless individuals and families and those at risk of homelessness.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 1,
+            "chunk_text": "that Hawaii has the highest homelessness rate per capita in the nation. The 2024 Point In Time Count showed a total of 6,389 people experiencing homelessness in the State. The majority of the homeless are on Oahu with 4,494, followed by Hawaii with seven hundred eighteen, Maui with six hundred",
+            "document_name": "HB431"
+          },
+          {
+            "chunk_id": 10,
+            "citation_number": 1,
+            "chunk_text": "also be created in an existing apartment, dormitory, or office building, so long as there is communal space and an investment in building communal responsibility.\" Over time, the kauhale initiative has evolved to a range of responses for homeless individuals and families and those at risk of homelessness. Kauhale now",
+            "document_name": "HB431"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "It provides funding for the development, operation, and maintenance of affordable, supportive housing projects and the provision of supportive services for households with special needs.",
+        "chunks": [
+          {
+            "chunk_id": 40,
+            "citation_number": 1,
+            "chunk_text": "the sum of $12,000,000 or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for: (1) The financing of the development, operation, and maintenance of affordable, supportive housing projects and the provision",
+            "document_name": "HB431"
+          },
+          {
+            "chunk_id": 41,
+            "citation_number": 1,
+            "chunk_text": "and maintenance of affordable, supportive housing projects and the provision of supportive services for households with special needs who reside in the supportive housing projects; and (2) $189,750 for the establishment and hiring of one temporary full-time equivalent (1.0 FTE) housing finance specialist I within the Hawaii housing finance and",
+            "document_name": "HB431"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "The bill aims to help special needs populations live more stable and productive lives.",
+        "chunks": [
           {
             "chunk_id": 23,
             "citation_number": 1,
@@ -923,20 +925,26 @@
       },
       {
         "section": "policy_impact",
-        "sentence": "This Act amends Chapter 201H, Hawaii Revised Statutes, by adding a new subpart to establish a supportive housing special fund.",
+        "sentence": "This Act establishes a supportive housing special fund to be administered by the Hawaii housing finance and development corporation.",
         "chunks": [
           {
-            "chunk_id": 27,
+            "chunk_id": 25,
             "citation_number": 1,
-            "chunk_text": "administration of the supportive housing special fund. SECTION 4. Chapter 201H, Hawaii Revised Statutes, is amended by adding a new subpart to part III to be appropriately designated and to read as follows: \" . Supportive Housing Special Fund §201H- Supportive housing special fund. (a) There is established a supportive",
+            "chunk_text": "stand-alone projects or integrated in mixed-income rental housing projects. The purpose of this part is to: (1) Establish a supportive housing special fund to be administered by the Hawaii housing finance and development corporation; (2) Appropriate funds to support the development, operation, and maintenance of supportive housing, as well as",
             "document_name": "HB431"
           }
         ]
       },
       {
         "section": "policy_impact",
-        "sentence": "It also amends Chapter 346, Hawaii Revised Statutes, by adding two new sections to establish a kauhale initiative special fund.",
+        "sentence": "It also establishes a kauhale initiative special fund to be administered by the statewide office on homelessness and housing solutions.",
         "chunks": [
+          {
+            "chunk_id": 45,
+            "citation_number": 1,
+            "chunk_text": "fostering belonging and responsibility in partnership with other governmental entities and the community. The purpose of this part is to establish a kauhale initiative special fund to assist in implementing the kauhale initiative. SECTION 8. Chapter 346, Hawaii Revised Statutes, is amended by adding two new sections to part XVIII,",
+            "document_name": "HB431"
+          },
           {
             "chunk_id": 46,
             "citation_number": 1,
@@ -947,18 +955,12 @@
       },
       {
         "section": "policy_impact",
-        "sentence": "These changes create a new financing tool specifically for supportive housing and provide a dedicated fund to assist in implementing the kauhale initiative.",
+        "sentence": "The measure establishes one temporary full-time equivalent (1.0 FTE) housing finance specialist I within the Hawaii housing finance and development corporation.",
         "chunks": [
           {
-            "chunk_id": 24,
+            "chunk_id": 41,
             "citation_number": 1,
-            "chunk_text": "finance and development corporation administers various programs to finance mixed-income rental housing developments. Creating a new financing tool specifically for supportive housing will enable the Hawaii housing finance and development corporation to facilitate the development of supportive housing units in stand-alone projects or integrated in mixed-income rental housing projects. The",
-            "document_name": "HB431"
-          },
-          {
-            "chunk_id": 45,
-            "citation_number": 1,
-            "chunk_text": "fostering belonging and responsibility in partnership with other governmental entities and the community. The purpose of this part is to establish a kauhale initiative special fund to assist in implementing the kauhale initiative. SECTION 8. Chapter 346, Hawaii Revised Statutes, is amended by adding two new sections to part XVIII,",
+            "chunk_text": "and maintenance of affordable, supportive housing projects and the provision of supportive services for households with special needs who reside in the supportive housing projects; and (2) $189,750 for the establishment and hiring of one temporary full-time equivalent (1.0 FTE) housing finance specialist I within the Hawaii housing finance and",
             "document_name": "HB431"
           }
         ]
@@ -1001,7 +1003,7 @@
       },
       {
         "section": "revenue_sources",
-        "sentence": "The kauhale initiative special fund may also include sums from program revenues, private contributions, interest, and moneys from other sources.",
+        "sentence": "Similarly, the kauhale initiative special fund may include sums appropriated by the legislature, program revenues, private contributions, interest, and moneys from other sources.",
         "chunks": [
           {
             "chunk_id": 47,
@@ -1013,25 +1015,7 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "For fiscal year 2025-2026, the bill appropriates a total of $62,000,000 from general revenues, comprising $50,000,000 (HB431_.HTM.txt) for the kauhale initiative and $12,000,000 (HB431_.HTM.txt) for the supportive housing special fund.",
-        "chunks": [
-          {
-            "chunk_id": 17,
-            "citation_number": 1,
-            "chunk_text": "initiative. PART II SECTION 2. There is appropriated out of the general revenues of the State of Hawaii the sum of $50,000,000 or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027",
-            "document_name": "HB431"
-          },
-          {
-            "chunk_id": 38,
-            "citation_number": 1,
-            "chunk_text": "construed as limiting any powers, rights, privileges, or immunities conferred.\" SECTION 5 . There is appropriated out of the general revenues of the State of Hawaii the sum of $12,000,000 or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof",
-            "document_name": "HB431"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "An identical appropriation is made for fiscal year 2026-2027.",
+        "sentence": "The bill appropriates funds for fiscal years 2025-2026 and 2026-2027.",
         "chunks": [
           {
             "chunk_id": 17,
@@ -1049,43 +1033,31 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "From the supportive housing special fund, $12,000,000 (HB431_.HTM.txt) is appropriated for expenditure in each of fiscal years 2025-2026 and 2026-2027.",
+        "sentence": "For the kauhale initiative, the bill appropriates $50,000,000 (HB431_.HTM.txt) for FY 2025-2026 and the same sum for FY 2026-2027.",
         "chunks": [
           {
-            "chunk_id": 40,
+            "chunk_id": 17,
             "citation_number": 1,
-            "chunk_text": "the sum of $12,000,000 or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for: (1) The financing of the development, operation, and maintenance of affordable, supportive housing projects and the provision",
+            "chunk_text": "initiative. PART II SECTION 2. There is appropriated out of the general revenues of the State of Hawaii the sum of $50,000,000 or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027",
             "document_name": "HB431"
           }
         ]
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "A portion of this, $189,750 (HB431_.HTM.txt) annually, is for one temporary 1.0 FTE housing finance specialist I.",
+        "sentence": "These funds are for the continued operation of the kauhale initiative including expenses related to the development and operation of kauhale, provision of project-based rent supplement payments, provision of support services, and staffing costs.",
         "chunks": [
           {
-            "chunk_id": 41,
+            "chunk_id": 18,
             "citation_number": 1,
-            "chunk_text": "and maintenance of affordable, supportive housing projects and the provision of supportive services for households with special needs who reside in the supportive housing projects; and (2) $189,750 for the establishment and hiring of one temporary full-time equivalent (1.0 FTE) housing finance specialist I within the Hawaii housing finance and",
+            "chunk_text": "much thereof as may be necessary for fiscal year 2026-2027 for the continued operation of the kauhale initiative including expenses related to the development and operation of kauhale, provision of project-based rent supplement payments, provision of support services for qualified individuals and families in kauhale, and staffing and related costs",
             "document_name": "HB431"
           }
         ]
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "The remaining funds from the supportive housing special fund are for financing the development, operation, and maintenance of affordable, supportive housing projects and providing supportive services.",
-        "chunks": [
-          {
-            "chunk_id": 41,
-            "citation_number": 1,
-            "chunk_text": "and maintenance of affordable, supportive housing projects and the provision of supportive services for households with special needs who reside in the supportive housing projects; and (2) $189,750 for the establishment and hiring of one temporary full-time equivalent (1.0 FTE) housing finance specialist I within the Hawaii housing finance and",
-            "document_name": "HB431"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The sums appropriated for the kauhale initiative are specified not to lapse at the end of the fiscal biennium.",
+        "sentence": "These sums shall not lapse at the end of the fiscal biennium.",
         "chunks": [
           {
             "chunk_id": 21,
@@ -1097,31 +1069,73 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "The bill does not contain fiscal projections or appropriations beyond fiscal year 2026-2027.",
+        "sentence": "For the supportive housing special fund, the bill appropriates $12,000,000 (HB431_.HTM.txt) from general revenues to be deposited into the fund in FY 2025-2026 and the same amount in FY 2026-2027.",
         "chunks": [
           {
-            "chunk_id": 52,
+            "chunk_id": 38,
             "citation_number": 1,
-            "chunk_text": "Initiative Special Fund. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+            "chunk_text": "construed as limiting any powers, rights, privileges, or immunities conferred.\" SECTION 5 . There is appropriated out of the general revenues of the State of Hawaii the sum of $12,000,000 or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof",
+            "document_name": "HB431"
+          },
+          {
+            "chunk_id": 39,
+            "citation_number": 1,
+            "chunk_text": "year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 to be deposited into the supportive housing special fund. SECTION 6 . There is appropriated out of the supportive housing special fund the sum of $12,000,000 or so much thereof as may",
             "document_name": "HB431"
           }
         ]
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "Continued operation of these initiatives would require further appropriations in subsequent years.",
+        "sentence": "From this fund, $12,000,000 (HB431_.HTM.txt) is appropriated for FY 2025-2026 and the same for FY 2026-2027.",
         "chunks": [
           {
-            "chunk_id": 14,
+            "chunk_id": 39,
             "citation_number": 1,
-            "chunk_text": "to homelessness and the risk of homelessness, it is necessary for the State to develop the capacity of its affordable housing financing and development agency to work with developers to create additional supportive housing units. Accordingly, the purpose of this Act is to: (1) Appropriate funds for the continued implementation",
+            "chunk_text": "year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 to be deposited into the supportive housing special fund. SECTION 6 . There is appropriated out of the supportive housing special fund the sum of $12,000,000 or so much thereof as may",
+            "document_name": "HB431"
+          },
+          {
+            "chunk_id": 40,
+            "citation_number": 1,
+            "chunk_text": "the sum of $12,000,000 or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for: (1) The financing of the development, operation, and maintenance of affordable, supportive housing projects and the provision",
             "document_name": "HB431"
           }
         ]
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "The creation of special funds suggests a long-term commitment to these programs.",
+        "sentence": "This amount is for financing supportive housing projects and providing supportive services.",
+        "chunks": [
+          {
+            "chunk_id": 40,
+            "citation_number": 1,
+            "chunk_text": "the sum of $12,000,000 or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 for: (1) The financing of the development, operation, and maintenance of affordable, supportive housing projects and the provision",
+            "document_name": "HB431"
+          },
+          {
+            "chunk_id": 41,
+            "citation_number": 1,
+            "chunk_text": "and maintenance of affordable, supportive housing projects and the provision of supportive services for households with special needs who reside in the supportive housing projects; and (2) $189,750 for the establishment and hiring of one temporary full-time equivalent (1.0 FTE) housing finance specialist I within the Hawaii housing finance and",
+            "document_name": "HB431"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "A portion of this, $189,750 (HB431_.HTM.txt), is for one temporary 1.0 FTE housing finance specialist I.",
+        "chunks": [
+          {
+            "chunk_id": 41,
+            "citation_number": 1,
+            "chunk_text": "and maintenance of affordable, supportive housing projects and the provision of supportive services for households with special needs who reside in the supportive housing projects; and (2) $189,750 for the establishment and hiring of one temporary full-time equivalent (1.0 FTE) housing finance specialist I within the Hawaii housing finance and",
+            "document_name": "HB431"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "There are no specified appropriations beyond FY 2026-2027, but the establishment of special funds implies a long-term initiative.",
         "chunks": [
           {
             "chunk_id": 28,
@@ -1139,7 +1153,7 @@
       },
       {
         "section": "operating_revenue_impact",
-        "sentence": "The Hawaii housing finance and development corporation is authorized to establish, revise, charge, and collect a reasonable service fee in connection with its financing and services related to the supportive housing special fund.",
+        "sentence": "The Hawaii housing finance and development corporation may establish, revise, charge, and collect a reasonable service fee in connection with its financing, services, and approvals under the supportive housing program.",
         "chunks": [
           {
             "chunk_id": 35,
@@ -1151,7 +1165,7 @@
       },
       {
         "section": "operating_revenue_impact",
-        "sentence": "These fees shall be deposited into the supportive housing special fund, creating a potential new revenue stream for the fund.",
+        "sentence": "The fees collected shall be deposited into the supportive housing special fund.",
         "chunks": [
           {
             "chunk_id": 36,
@@ -1163,7 +1177,7 @@
       },
       {
         "section": "operating_revenue_impact",
-        "sentence": "The kauhale initiative special fund may also include program revenues.",
+        "sentence": "The kauhale initiative special fund may also include program revenues as a source of funds.",
         "chunks": [
           {
             "chunk_id": 47,
@@ -1175,7 +1189,7 @@
       },
       {
         "section": "capital_expenditure_impact",
-        "sentence": "Moneys from the supportive housing special fund may be used to make loans to finance the development, pre-development, construction, acquisition, preservation, or substantial rehabilitation of supportive housing projects.",
+        "sentence": "Moneys in the supportive housing special fund may be used to make loans to finance the development, pre-development, construction, acquisition, preservation, or substantial rehabilitation of supportive housing projects.",
         "chunks": [
           {
             "chunk_id": 29,
@@ -1187,7 +1201,7 @@
       },
       {
         "section": "capital_expenditure_impact",
-        "sentence": "Funds for the kauhale initiative are designated for expenses related to the development and operation of kauhale.",
+        "sentence": "The appropriation for the kauhale initiative includes expenses related to the development and operation of kauhale.",
         "chunks": [
           {
             "chunk_id": 18,
@@ -1199,7 +1213,7 @@
       },
       {
         "section": "capital_expenditure_impact",
-        "sentence": "This builds upon past programs that funded the construction of modular temporary units and renovation of existing structures.",
+        "sentence": "This is consistent with past uses of similar funds for the construction of modular temporary units and renovation of existing structures.",
         "chunks": [
           {
             "chunk_id": 4,
@@ -1211,7 +1225,7 @@
       },
       {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "While appropriations are only specified for a two-year period, the establishment of the supportive housing special fund and the kauhale initiative special fund implies an ongoing fiscal commitment.",
+        "sentence": "The bill establishes a supportive housing special fund and a kauhale initiative special fund, indicating an ongoing need for funding beyond the initial two-year appropriation period.",
         "chunks": [
           {
             "chunk_id": 28,
@@ -1229,25 +1243,7 @@
       },
       {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "Continuing the programs at the levels funded in this bill would require significant annual appropriations beyond the initial biennium.",
-        "chunks": [
-          {
-            "chunk_id": 17,
-            "citation_number": 1,
-            "chunk_text": "initiative. PART II SECTION 2. There is appropriated out of the general revenues of the State of Hawaii the sum of $50,000,000 or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027",
-            "document_name": "HB431"
-          },
-          {
-            "chunk_id": 38,
-            "citation_number": 1,
-            "chunk_text": "construed as limiting any powers, rights, privileges, or immunities conferred.\" SECTION 5 . There is appropriated out of the general revenues of the State of Hawaii the sum of $12,000,000 or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof",
-            "document_name": "HB431"
-          }
-        ]
-      },
-      {
-        "section": "fiscal_implications_after_6_years",
-        "sentence": "The long-term sustainability of these efforts will depend on future legislative appropriations and any revenues generated by the special funds through fees, loan repayments, or contributions.",
+        "sentence": "Continued operation of these initiatives and administration of the special funds will likely require future legislative appropriations.",
         "chunks": [
           {
             "chunk_id": 30,
@@ -1264,13 +1260,13 @@
         ]
       },
       {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "A previous fiscal note was not provided, so a comparison cannot be made.",
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "An amount from the supportive housing special fund may be used for ongoing administrative expenses incurred by the corporation in administering the fund.",
         "chunks": [
           {
-            "chunk_id": 52,
+            "chunk_id": 31,
             "citation_number": 1,
-            "chunk_text": "Initiative Special Fund. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+            "chunk_text": "legislature, private contributions, proceeds from repayment of loans, interest, fees, other returns, and moneys from other sources. (d) An amount from the fund, to be set by the corporation and authorized by the legislature, may be used for administrative expenses incurred by the corporation in administering the fund; provided that",
             "document_name": "HB431"
           }
         ]
@@ -1493,6 +1489,6 @@
       }
     ]
   },
-  "generation_timestamp": "2025-10-16T15:24:54.271845",
-  "generation_timestamp_unix": 1760664294.271852
+  "generation_timestamp": "2025-10-21T13:17:49.081223",
+  "generation_timestamp_unix": 1761088669.0812411
 }

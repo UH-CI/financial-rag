@@ -2226,7 +2226,8 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
                     
                     fiscal_notes.append({
                         'filename': file['name'],
-                        'data': filtered_data
+                        'data': filtered_data,
+                        'new_documents_processed': new_documents_processed  # Include documents used for this fiscal note
                     })
 
     with open(timeline_path, 'r') as f:

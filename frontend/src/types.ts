@@ -189,6 +189,7 @@ export interface TimelineItem {
 export interface FiscalNoteItem {
   filename: string;
   data: Record<string, any>;
+  new_documents_processed?: string[]; // Documents used to create this specific fiscal note
 }
 
 export interface NumbersDataItem {

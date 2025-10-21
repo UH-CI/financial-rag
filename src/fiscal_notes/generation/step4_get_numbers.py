@@ -30,15 +30,19 @@ def extract_number_context(input_dir="./documents", output_file="number_context.
 
     number_pattern = re.compile(
         r"""
+        \[?                             # optional opening bracket
         (?:\$|USD\s*)                   # leading $ or USD (required)
         \s*
         [0-9]{1,3}(?:,[0-9]{3})*        # digits with optional commas (thousands)
         (?:\.\d{1,2})?                  # optional decimal part
+        \]?                             # optional closing bracket
         (?:[,;.\s]*)                    # optional trailing punctuation (comma, semicolon, period)
         |                               # OR
+        \[?                             # optional opening bracket
         [0-9]{1,3}(?:,[0-9]{3})*        # digits with optional commas (thousands)
         (?:\.\d{1,2})?                  # optional decimal part
         \s*(?:\$|USD)                   # trailing $ or USD (required)
+        \]?                             # optional closing bracket
         (?:[,;.\s]*)                    # optional trailing punctuation
         """,
         re.VERBOSE
@@ -72,8 +76,9 @@ def extract_number_context(input_dir="./documents", output_file="number_context.
                         end = min(len(tokens), i + window + 1)
                         context_text = " ".join(tokens[start:end])
 
-                        # normalize number
-                        cleaned = re.sub(r"[^\d.]", "", candidate.replace(",", ""))
+                        # normalize number - remove brackets, commas, and non-numeric chars except decimal
+                        cleaned = candidate.replace("[", "").replace("]", "").replace(",", "")
+                        cleaned = re.sub(r"[^\d.]", "", cleaned)
                         try:
                             number_val = float(cleaned)
                         except ValueError:

@@ -106,12 +106,22 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
           <div className="p-4 border-b border-gray-200">
             <h3 className="text-sm font-semibold text-gray-700 mb-3">Document References</h3>
             <div className="space-y-2 max-h-48 overflow-y-auto">
-              {Object.entries(fiscalNoteData.document_mapping).map(([docName, docNumber]) => (
-                <div key={docName} className="flex items-start space-x-2 text-xs">
-                  <span className="text-blue-600 font-mono min-w-[24px]">[{docNumber}]</span>
-                  <span className="text-gray-600 leading-tight">{docName}</span>
-                </div>
-              ))}
+              {Object.entries(fiscalNoteData.document_mapping).map(([docName, docNumber]) => {
+                // Check if this document was used in the currently selected fiscal note
+                const selectedFiscalNote = fiscalNoteData.fiscal_notes[selectedNoteIndex];
+                const isUsedInSelectedNote = selectedFiscalNote?.new_documents_processed?.includes(docName) || false;
+                
+                return (
+                  <div key={docName} className="flex items-start space-x-2 text-xs">
+                    <span className={`font-mono min-w-[24px] ${isUsedInSelectedNote ? 'text-blue-700 font-bold' : 'text-blue-600'}`}>
+                      [{docNumber}]
+                    </span>
+                    <span className={`leading-tight ${isUsedInSelectedNote ? 'text-gray-900 font-semibold bg-blue-50 px-1 py-0.5 rounded' : 'text-gray-600'}`}>
+                      {docName}
+                    </span>
+                  </div>
+                );
+              })}
             </div>
           </div>
         )}

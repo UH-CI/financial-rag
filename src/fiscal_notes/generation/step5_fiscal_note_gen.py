@@ -339,11 +339,12 @@ def extract_numbers_from_text(text, numbers_data=None, processed_documents=None)
     
     numbers = []
     
-    # Find dollar amounts like $1,000, $1000, $20, etc.
-    dollar_matches = re.findall(r'\$[\d,]+(?:\.\d+)?', text)
+    # Find dollar amounts like $1,000, $1000, $20, [$145,000], etc.
+    # Updated to handle brackets around dollar amounts
+    dollar_matches = re.findall(r'\[?\$[\d,]+(?:\.\d+)?\]?', text)
     for match in dollar_matches:
-        # Convert to float
-        number_str = match.replace('$', '').replace(',', '')
+        # Convert to float - remove brackets, dollar sign, and commas
+        number_str = match.replace('[', '').replace(']', '').replace('$', '').replace(',', '')
         try:
             numbers.append(float(number_str))
         except ValueError:
