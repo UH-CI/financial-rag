@@ -12,7 +12,15 @@ pipeline {
         stage('Checkout') {
             steps {
                 checkout scm
+                withCredentials([string(credentialsId: env.SLACK_CRED_ID, variable: 'SLACK_URL')]) {
+                sh """
+                curl -X POST -H 'Content-type: application/json' \
+                --data '{"text":"Starting Deployment ${env.JOB_NAME} #${env.BUILD_NUMBER} (<${env.BUILD_URL}|View Build>)"}' \
+                $SLACK_URL
+                """
+                }
             }
+
         }
 
         stage('Check Changes') {

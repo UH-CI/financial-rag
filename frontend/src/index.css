@@ -105,3 +105,49 @@
     @apply text-blue-600 hover:text-blue-800 underline;
   }
 }
+
+/* Print styles for fiscal notes */
+@media print {
+  /* Hide navigation and non-essential elements */
+  .print\\:hidden {
+    display: none !important;
+  }
+  
+  /* Show print-only elements */
+  .print\\:block {
+    display: block !important;
+  }
+  
+  /* Ensure proper page breaks */
+  .page-break-before {
+    page-break-before: always;
+  }
+  
+  /* Remove shadows and borders for cleaner print */
+  .shadow-sm,
+  .shadow-md,
+  .shadow-lg {
+    box-shadow: none !important;
+  }
+  
+  /* Ensure links are visible in print */
+  a[href]:after {
+    content: none !important;
+  }
+  
+  /* Make sure citations are visible */
+  .text-blue-600,
+  .text-green-600 {
+    color: #000 !important;
+  }
+  
+  /* Optimize spacing for print */
+  body {
+    background: white;
+  }
+  
+  /* Remove padding adjustments */
+  .print\\:pb-8 {
+    padding-bottom: 2rem !important;
+  }
+}
