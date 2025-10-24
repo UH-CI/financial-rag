@@ -1,6 +1,13 @@
 pipeline {
     agent any
 
+    options {
+        // Increase Git timeout to 30 minutes for large repositories
+        timeout(time: 30, unit: 'MINUTES')
+        // Skip default checkout, we'll do it manually with custom timeout
+        skipDefaultCheckout()
+    }
+
     environment {
         // Jenkins credentials IDsa
         SSH_CRED_ID = 'finance-js2-instance'
@@ -11,7 +18,18 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                checkout scm
+                script {
+                    // Checkout with increased timeout (30 minutes)
+                    checkout([
+                        $class: 'GitSCM',
+                        branches: scm.branches,
+                        extensions: [
+                            [$class: 'CloneOption', timeout: 30, depth: 0, noTags: false, shallow: false],
+                            [$class: 'CheckoutOption', timeout: 30]
+                        ],
+                        userRemoteConfigs: scm.userRemoteConfigs
+                    ])
+                }
             }
         }
 
@@ -119,12 +137,65 @@ pipeline {
         }
 
         failure {
-            withCredentials([string(credentialsId: env.SLACK_CRED_ID, variable: 'SLACK_URL')]) {
-                sh """
-                curl -X POST -H 'Content-type: application/json' \
-                --data '{"text":"❌ Deployment FAILED: Job ${env.JOB_NAME} #${env.BUILD_NUMBER} (<${env.BUILD_URL}|View Build>)"}' \
-                $SLACK_URL
-                """
+            script {
+                def failedStage = env.STAGE_NAME ?: 'Unknown Stage'
+                def buildUrl = env.BUILD_URL
+                def consoleUrl = "${buildUrl}console"
+                def jobName = env.JOB_NAME
+                def buildNumber = env.BUILD_NUMBER
+                
+                // Capture last 50 lines of console output for debugging
+                def consoleLog = sh(
+                    script: '''
+                        # Get the last 50 lines of the build log
+                        tail -50 "${JENKINS_HOME}/jobs/${JOB_NAME}/builds/${BUILD_NUMBER}/log" 2>/dev/null || echo "Could not retrieve console output"
+                    ''',
+                    returnStdout: true
+                ).trim()
+                
+                // Escape special characters for JSON
+                consoleLog = consoleLog
+                    .replaceAll('\\\\', '\\\\\\\\')
+                    .replaceAll('"', '\\\\"')
+                    .replaceAll('\n', '\\\\n')
+                    .take(3000) // Limit to 3000 chars to stay under Slack's limit
+                
+                withCredentials([string(credentialsId: env.SLACK_CRED_ID, variable: 'SLACK_URL')]) {
+                    sh """
+                    curl -X POST -H 'Content-type: application/json' \
+                    --data '{
+                        "text":"❌ *Deployment FAILED*",
+                        "attachments": [{
+                            "color": "danger",
+                            "fields": [
+                                {
+                                    "title": "Job",
+                                    "value": "${jobName} #${buildNumber}",
+                                    "short": true
+                                },
+                                {
+                                    "title": "Failed Stage",
+                                    "value": "${failedStage}",
+                                    "short": true
+                                },
+                                {
+                                    "title": "Console Output (Last 50 lines)",
+                                    "value": "```${consoleLog}```",
+                                    "short": false
+                                },
+                                {
+                                    "title": "Actions",
+                                    "value": "<${buildUrl}|View Build> | <${consoleUrl}|Full Console Output>",
+                                    "short": false
+                                }
+                            ],
+                            "footer": "Jenkins CI/CD",
+                            "ts": '"\$(date +%s)"'
+                        }]
+                    }' \
+                    \$SLACK_URL
+                    """
+                }
             }
         }
 
