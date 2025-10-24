@@ -123,6 +123,24 @@ const DocumentReferenceComponent: React.FC<DocumentReferenceProps> = ({ referenc
   const tooltipRef = useRef<HTMLDivElement>(null);
   const hideTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  // DEBUG: Log reference data when component mounts or reference changes
+  useEffect(() => {
+    console.log('📋 DocumentReference Data:', {
+      number: reference.number,
+      displayNumber: reference.displayNumber,
+      document_type: reference.document_type,
+      document_name: reference.document_name,
+      description: reference.description,
+      chunk_text_preview: reference.chunk_text?.substring(0, 150),
+      chunk_text_length: reference.chunk_text?.length,
+      similarity_score: reference.similarity_score,
+      sentence: reference.sentence,
+      chunk_id: reference.chunk_id,
+      document_category: reference.document_category,
+      full_reference: reference
+    });
+  }, [reference]);
+
   const updateTooltipPosition = () => {
     if (linkRef.current) {
       const rect = linkRef.current.getBoundingClientRect();

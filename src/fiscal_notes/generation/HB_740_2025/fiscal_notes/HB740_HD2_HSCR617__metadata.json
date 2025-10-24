@@ -15,17 +15,17 @@
     "HB740_HD2_HSCR617_"
   ],
   "numbers_used": 8,
-  "prompt_length": 99585,
+  "prompt_length": 102994,
   "response_metadata": {
-    "response_text": "{\n  \"overview\": \"The purpose of this Act is to establish an accessory dwelling unit financing and deed restriction program under the Hawaii housing finance and development corporation. [CHUNK 203] The program is designed to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on such property. [CHUNK 329] This version of the measure was amended to insert appropriate standards for grant awards and to clarify the exemption from conveyance taxes. [CHUNK 334, CHUNK 335]\",\n  \"appropriations\": \"\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"The Department of the Attorney General testified that the measure does not appear to contain legally sufficient standards for the award of such grants involving public money as required by the Hawaii State Constitution. [CHUNK 334] Accordingly, the measure was amended to insert appropriate standards for grant awards. [CHUNK 334] Your Committee notes that the Department of Taxation is requesting that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed exemption. [CHUNK 335]\",\n  \"economic_impact\": \"\",\n  \"policy_impact\": \"To address concerns from the Department of the Attorney General, this measure was amended by inserting appropriate standards for grant awards. [CHUNK 334] The bill now specifies minimum requirements for grant applicants, including compliance with anti-discrimination laws and indemnification of the State. [CHUNK 218, CHUNK 221] The measure was also amended to clarify that the conveyance tax exemption applies to any document or instrument conveying real property with a county-owned deed restriction, including the document conveying the deed restriction itself. [CHUNK 316, CHUNK 335]\",\n  \"revenue_sources\": \"The corporation may allocate funds from the dwelling unit revolving fund for the program. [CHUNK 212, CHUNK 213] The proceeds in the revolving fund shall be used for the administration and purchase of deed restrictions as part of the accessory dwelling unit financing and deed restriction program. [CHUNK 299, CHUNK 300] If a property with a deed restriction is sold to a nonresident, the corporation shall be entitled to fifty per cent of appreciation at the time of sale, to be placed in the dwelling unit revolving fund. [CHUNK 228, CHUNK 229]\",\n  \"six_year_fiscal_implications\": \"\",\n  \"operating_revenue_impact\": \"\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"The measure was amended to address testimony from the Department of the Attorney General that the bill did not contain legally sufficient standards for the award of grants involving public money. [CHUNK 333, CHUNK 334] Appropriate standards for grant awards were subsequently inserted into the bill. [CHUNK 334] Additionally, the bill was amended to clarify the exemption from conveyance taxes. [CHUNK 335]\"\n}",
+    "response_text": "{\n  \"overview\": \"The purpose of this Act is to establish an accessory dwelling unit financing and deed restriction program under the Hawaii housing finance and development corporation. [CHUNK_203] This measure is intended to promote the development of additional housing while securing that housing for local residents working in Hawaii. [CHUNK_203] The program allocates funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on such property. [CHUNK_329]\",\n  \"appropriations\": \"This measure does not contain a specific appropriation. [CHUNK_202] Instead, the bill authorizes the corporation to allocate funds from the dwelling unit revolving fund established under section 201H-191 to a county. [CHUNK_213] Upon application by a county, the corporation may allocate an annual lump sum, in an amount to be determined by the corporation, necessary for a county to purchase a voluntary deed restriction from an eligible homeowner or homebuyer. [CHUNK_215]\",\n  \"assumptions_and_methodology\": \"The fiscal impact is indeterminate as it depends on the number of counties that apply for funds and the number of homeowners who participate in the program. [CHUNK_214] Costs will be driven by the amount of grants provided to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with an accessory dwelling unit. [CHUNK_213] The amount paid for a deed restriction will be determined through negotiations between counties and eligible homeowners. [CHUNK_274]\",\n  \"agency_impact\": \"The Hawaii Housing Finance and Development Corporation (HHFDC) will establish the program, allocate funds from the dwelling unit revolving fund, and may adopt rules. [CHUNK_212] Counties are responsible for applying for funds, ensuring compliance with the subpart, and may contract with non-government entities for assistance. [CHUNK_226] The Department of Taxation requests that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction changes. [CHUNK_335]\",\n  \"economic_impact\": \"This program offers an effective solution to increase housing supply, especially in residential areas with available space for additional dwellings. [CHUNK_333] The program provides grants for ADU construction while ensuring long-term affordability through deed restrictions. [CHUNK_74] The legislative document specifies any document or instrument in which there is a consideration of $100 (HB740_HD2_.HTM.txt) or less paid or to be paid is exempt from the conveyance tax. [CHUNK_303]\",\n  \"policy_impact\": \"This measure establishes the Accessory Dwelling Unit Financing and Deed Restriction Program by adding a new subpart to chapter 201H, Hawaii Revised Statutes. [CHUNK_204] In response to testimony from the Department of the Attorney General, the measure was amended by inserting appropriate standards for grant awards. [CHUNK_334] The measure also provides that purchasing deed restrictions under the program is exempt from the Procurement Code and clarifies the exemption from conveyance taxes. [CHUNK_96, CHUNK_334]\",\n  \"revenue_sources\": \"The program will be funded by allocations from the dwelling unit revolving fund. [CHUNK_212] The corporation and each county may establish, revise, charge, and collect fees and premiums and impose costs as necessary to effectuate the purposes of this subpart. [CHUNK_230] If a property with a deed restriction is sold to a nonresident, the corporation shall be entitled to fifty per cent of appreciation at the time of sale, to be collected and placed in the dwelling unit revolving fund. [CHUNK_228]\",\n  \"six_year_fiscal_implications\": \"The six-year fiscal impact of this measure is indeterminate. [CHUNK_332] The Hawaii Housing Finance and Development Corporation (HHFDC) is authorized to allocate an annual lump sum from the dwelling unit revolving fund to counties that apply. [CHUNK_215] There will be an indeterminate loss of state revenue due to the conveyance tax exemption for any document or instrument conveying real property with a county-owned deed restriction. [CHUNK_316] The Committee notes that the Department of Taxation is requesting that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed exemption. [CHUNK_335] Ongoing administrative costs for program management and compliance monitoring will be incurred by HHFDC and participating counties. [CHUNK_226] Any contract entered into by a county pursuant to this subpart shall be exempt from chapter 103D. [CHUNK_240] If a county does not expend moneys allocated pursuant to this section within one year of receipt, the moneys shall be returned to the corporation and placed in the dwelling unit revolving fund. [CHUNK_229] The deed restriction shall be recorded against the property and shall run with the land in perpetuity, implying long-term monitoring costs and revenue loss. [CHUNK_232] No specific staffing increases are mentioned in the bill. [CHUNK_202] The Act has an effective date of July 1, 3000. [CHUNK_323]\",\n  \"operating_revenue_impact\": \"This measure will cause an indeterminate loss of state revenue. [CHUNK_332] Property sold for which a county has purchased a deed restriction pursuant to this subpart shall be exempt from chapter 247, the conveyance tax. [CHUNK_240] The Department of Taxation requests that the conveyance tax exemption take effect on January 1, 2026, to allow for necessary form and instruction changes. [CHUNK_335]\",\n  \"capital_expenditure_impact\": \"This measure does not directly appropriate funds for state capital expenditures. [CHUNK_202] The program provides grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit. [CHUNK_213] These funds are allocated to counties from the dwelling unit revolving fund and then disbursed to private property owners. [CHUNK_213]\",\n  \"fiscal_implications_after_6_years\": \"The fiscal implications of this program are expected to be ongoing and long-term. [CHUNK_79] A deed restriction shall be recorded against the property and shall run with the land in perpetuity, binding all future owners, successors, and assigns. [CHUNK_232] This will result in perpetual administrative and compliance monitoring costs for counties and a recurring loss of state conveyance tax revenue. [CHUNK_240, CHUNK_226]\",\n  \"updates_from_previous_fiscal_note\": \"Based on testimony from the Department of the Attorney General that the measure did not appear to contain legally sufficient standards for the award of grants, H.B. No. 740, H.D. 2 has been amended by inserting appropriate standards for grant awards. [CHUNK_334] The Department of Taxation requested clarification on the conveyance tax exemption, and H.D. 2 amends the bill by clarifying the exemption from conveyance taxes. [CHUNK_332, CHUNK_334] Specifically, the bill now exempts any document or instrument conveying a county-owned deed restriction itself. [CHUNK_316]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 59098,
-      "candidates_token_count": 696,
-      "total_token_count": 64391
+      "prompt_token_count": 59748,
+      "candidates_token_count": 1607,
+      "total_token_count": 63552
     },
     "candidates": [
       {
@@ -35,7 +35,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n  \"overview\": \"The purpose of this Act is to establish an accessory dwelling unit financing and deed restriction program under the Hawaii housing finance and development corporation. [CHUNK 203] The program is designed to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on such property. [CHUNK 329] This version of the measure was amended to insert appropriate standards for grant awards and to clarify the exemption from conveyance taxes. [CHUNK 334, CHUNK 335]\",\n  \"appropriations\": \"\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"The Department of the Attorney General testified that the measure does not appear to contain legally sufficient standards for the award of such grants involving public money as required by the Hawaii State Constitution. [CHUNK 334] Accordingly, the measure was amended to insert appropriate standards for grant awards. [CHUNK 334] Your Committee notes that the Department of Taxation is requesting that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed exemption. [CHUNK 335]\",\n  \"economic_impact\": \"\",\n  \"policy_impact\": \"To address concerns from the Department of the Attorney General, this measure was amended by inserting appropriate standards for grant awards. [CHUNK 334] The bill now specifies minimum requirements for grant applicants, including compliance with anti-discrimination laws and indemnification of the State. [CHUNK 218, CHUNK 221] The measure was also amended to clarify that the conveyance tax exemption applies to any document or instrument conveying real property with a county-owned deed restriction, including the document conveying the deed restriction itself. [CHUNK 316, CHUNK 335]\",\n  \"revenue_sources\": \"The corporation may allocate funds from the dwelling unit revolving fund for the program. [CHUNK 212, CHUNK 213] The proceeds in the revolving fund shall be used for the administration and purchase of deed restrictions as part of the accessory dwelling unit financing and deed restriction program. [CHUNK 299, CHUNK 300] If a property with a deed restriction is sold to a nonresident, the corporation shall be entitled to fifty per cent of appreciation at the time of sale, to be placed in the dwelling unit revolving fund. [CHUNK 228, CHUNK 229]\",\n  \"six_year_fiscal_implications\": \"\",\n  \"operating_revenue_impact\": \"\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"The measure was amended to address testimony from the Department of the Attorney General that the bill did not contain legally sufficient standards for the award of grants involving public money. [CHUNK 333, CHUNK 334] Appropriate standards for grant awards were subsequently inserted into the bill. [CHUNK 334] Additionally, the bill was amended to clarify the exemption from conveyance taxes. [CHUNK 335]\"\n}"
+              "text": "{\n  \"overview\": \"The purpose of this Act is to establish an accessory dwelling unit financing and deed restriction program under the Hawaii housing finance and development corporation. [CHUNK_203] This measure is intended to promote the development of additional housing while securing that housing for local residents working in Hawaii. [CHUNK_203] The program allocates funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on such property. [CHUNK_329]\",\n  \"appropriations\": \"This measure does not contain a specific appropriation. [CHUNK_202] Instead, the bill authorizes the corporation to allocate funds from the dwelling unit revolving fund established under section 201H-191 to a county. [CHUNK_213] Upon application by a county, the corporation may allocate an annual lump sum, in an amount to be determined by the corporation, necessary for a county to purchase a voluntary deed restriction from an eligible homeowner or homebuyer. [CHUNK_215]\",\n  \"assumptions_and_methodology\": \"The fiscal impact is indeterminate as it depends on the number of counties that apply for funds and the number of homeowners who participate in the program. [CHUNK_214] Costs will be driven by the amount of grants provided to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with an accessory dwelling unit. [CHUNK_213] The amount paid for a deed restriction will be determined through negotiations between counties and eligible homeowners. [CHUNK_274]\",\n  \"agency_impact\": \"The Hawaii Housing Finance and Development Corporation (HHFDC) will establish the program, allocate funds from the dwelling unit revolving fund, and may adopt rules. [CHUNK_212] Counties are responsible for applying for funds, ensuring compliance with the subpart, and may contract with non-government entities for assistance. [CHUNK_226] The Department of Taxation requests that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction changes. [CHUNK_335]\",\n  \"economic_impact\": \"This program offers an effective solution to increase housing supply, especially in residential areas with available space for additional dwellings. [CHUNK_333] The program provides grants for ADU construction while ensuring long-term affordability through deed restrictions. [CHUNK_74] The legislative document specifies any document or instrument in which there is a consideration of $100 (HB740_HD2_.HTM.txt) or less paid or to be paid is exempt from the conveyance tax. [CHUNK_303]\",\n  \"policy_impact\": \"This measure establishes the Accessory Dwelling Unit Financing and Deed Restriction Program by adding a new subpart to chapter 201H, Hawaii Revised Statutes. [CHUNK_204] In response to testimony from the Department of the Attorney General, the measure was amended by inserting appropriate standards for grant awards. [CHUNK_334] The measure also provides that purchasing deed restrictions under the program is exempt from the Procurement Code and clarifies the exemption from conveyance taxes. [CHUNK_96, CHUNK_334]\",\n  \"revenue_sources\": \"The program will be funded by allocations from the dwelling unit revolving fund. [CHUNK_212] The corporation and each county may establish, revise, charge, and collect fees and premiums and impose costs as necessary to effectuate the purposes of this subpart. [CHUNK_230] If a property with a deed restriction is sold to a nonresident, the corporation shall be entitled to fifty per cent of appreciation at the time of sale, to be collected and placed in the dwelling unit revolving fund. [CHUNK_228]\",\n  \"six_year_fiscal_implications\": \"The six-year fiscal impact of this measure is indeterminate. [CHUNK_332] The Hawaii Housing Finance and Development Corporation (HHFDC) is authorized to allocate an annual lump sum from the dwelling unit revolving fund to counties that apply. [CHUNK_215] There will be an indeterminate loss of state revenue due to the conveyance tax exemption for any document or instrument conveying real property with a county-owned deed restriction. [CHUNK_316] The Committee notes that the Department of Taxation is requesting that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed exemption. [CHUNK_335] Ongoing administrative costs for program management and compliance monitoring will be incurred by HHFDC and participating counties. [CHUNK_226] Any contract entered into by a county pursuant to this subpart shall be exempt from chapter 103D. [CHUNK_240] If a county does not expend moneys allocated pursuant to this section within one year of receipt, the moneys shall be returned to the corporation and placed in the dwelling unit revolving fund. [CHUNK_229] The deed restriction shall be recorded against the property and shall run with the land in perpetuity, implying long-term monitoring costs and revenue loss. [CHUNK_232] No specific staffing increases are mentioned in the bill. [CHUNK_202] The Act has an effective date of July 1, 3000. [CHUNK_323]\",\n  \"operating_revenue_impact\": \"This measure will cause an indeterminate loss of state revenue. [CHUNK_332] Property sold for which a county has purchased a deed restriction pursuant to this subpart shall be exempt from chapter 247, the conveyance tax. [CHUNK_240] The Department of Taxation requests that the conveyance tax exemption take effect on January 1, 2026, to allow for necessary form and instruction changes. [CHUNK_335]\",\n  \"capital_expenditure_impact\": \"This measure does not directly appropriate funds for state capital expenditures. [CHUNK_202] The program provides grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit. [CHUNK_213] These funds are allocated to counties from the dwelling unit revolving fund and then disbursed to private property owners. [CHUNK_213]\",\n  \"fiscal_implications_after_6_years\": \"The fiscal implications of this program are expected to be ongoing and long-term. [CHUNK_79] A deed restriction shall be recorded against the property and shall run with the land in perpetuity, binding all future owners, successors, and assigns. [CHUNK_232] This will result in perpetual administrative and compliance monitoring costs for counties and a recurring loss of state conveyance tax revenue. [CHUNK_240, CHUNK_226]\",\n  \"updates_from_previous_fiscal_note\": \"Based on testimony from the Department of the Attorney General that the measure did not appear to contain legally sufficient standards for the award of grants, H.B. No. 740, H.D. 2 has been amended by inserting appropriate standards for grant awards. [CHUNK_334] The Department of Taxation requested clarification on the conveyance tax exemption, and H.D. 2 amends the bill by clarifying the exemption from conveyance taxes. [CHUNK_332, CHUNK_334] Specifically, the bill now exempts any document or instrument conveying a county-owned deed restriction itself. [CHUNK_316]\"\n}"
             }
           ]
         },
@@ -2818,23 +2818,8 @@
           "document_name": "HB740_HD2"
         },
         {
-          "chunk_text": "Agree to use state funds exclusively for the purposes of this program; (3) Indicate capability to properly use the grant for the purpose of the accessory dwelling unit financing and deed restriction program; (4) Comply with all applicable federal and state laws prohibiting discrimination against any person on the basis",
-          "chunk_id": 218,
-          "document_name": "HB740_HD2"
-        },
-        {
-          "chunk_text": "officers, agents, and employees from and against any and all claims arising out of or resulting from activities carried out or projects undertaken with funds provided hereunder and procure sufficient insurance to provide this indemnification if requested to do so by the corporation; and (9) Agree to make available to",
-          "chunk_id": 221,
-          "document_name": "HB740_HD2"
-        },
-        {
-          "chunk_text": "Any document or instrument conveying real property with a county-owned deed restriction pursuant to subpart , part III of chapter 201H, including any document or instrument conveying such a county-owned deed restriction. \" SECTION 7 . Section 525-4, Hawaii Revised Statutes, is amended to read as follows: \" §525-4 Exclusions",
-          "chunk_id": 316,
-          "document_name": "HB740_HD2"
-        },
-        {
-          "chunk_text": "§201H-B Accessory dwelling unit financing and deed restriction program; established. (a) There shall be established within the corporation an accessory dwelling unit financing and deed restriction program. Under the accessory dwelling unit financing and deed restriction program, the corporation may allocate funds from the dwelling unit revolving fund established under",
-          "chunk_id": 212,
+          "chunk_text": "HB740 HD2 HOUSE OF REPRESENTATIVES H.B. NO. 740 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII A BILL FOR AN ACT RELATING TO HOUSING . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature believes that it is important to promote the development of",
+          "chunk_id": 202,
           "document_name": "HB740_HD2"
         },
         {
@@ -2843,13 +2828,43 @@
           "document_name": "HB740_HD2"
         },
         {
-          "chunk_text": "building costs, federal guarantees required for operational losses, and all things required by any federal agency in the construction and receipt of federal funds or low-income housing tax credits for housing projects[ . ] ; and (4) The administration and purchase of deed restrictions as part of the accessory dwelling",
-          "chunk_id": 299,
+          "chunk_text": "prescribed by the corporation, the corporation may allocate an annual lump sum, in an amount to be determined by the corporation, necessary for a county to purchase a voluntary deed restriction from an eligible homeowner or homebuyer; provided that the corporation shall not distribute funds solely based on the population",
+          "chunk_id": 215,
           "document_name": "HB740_HD2"
         },
         {
-          "chunk_text": "purchase of deed restrictions as part of the accessory dwelling unit financing and deed restriction program under subpart ; provided that there shall be no area median income requirements for moneys expended for the purposes of this program. \" SECTION 6 . Section 247-3, Hawaii Revised Statutes, is amended to",
-          "chunk_id": 300,
+          "chunk_text": "accessory dwelling unit; and (2) Purchase a deed restriction from eligible homeowners or homebuyers to be placed on the primary dwelling unit and accessory dwelling unit funded pursuant to this subpart. (b) Upon application by a county, in a form prescribed by the corporation, the corporation may allocate an annual",
+          "chunk_id": 214,
+          "document_name": "HB740_HD2"
+        },
+        {
+          "chunk_text": "for interest rate swaps; [ and ] (4) To enter into negotiations for, and purchase deed restrictions on, housing properties from eligible homeowners and homebuyers pursuant to subpart , part III of chapter 201H; and [ (4) ] (5) To do any and all other things necessary or appropriate to",
+          "chunk_id": 274,
+          "document_name": "HB740_HD2"
+        },
+        {
+          "chunk_text": "§201H-B Accessory dwelling unit financing and deed restriction program; established. (a) There shall be established within the corporation an accessory dwelling unit financing and deed restriction program. Under the accessory dwelling unit financing and deed restriction program, the corporation may allocate funds from the dwelling unit revolving fund established under",
+          "chunk_id": 212,
+          "document_name": "HB740_HD2"
+        },
+        {
+          "chunk_text": "restriction may be secondary only to conditions, covenants, and restrictions with a requisite first position. ( h ) Counties shall be responsible for validating the evidence and ensuring compliance with this subpart. Counties may contract with non-government persons or entities to ensure compliance with this subpart. Counties shall report any",
+          "chunk_id": 226,
+          "document_name": "HB740_HD2"
+        },
+        {
+          "chunk_text": "document or instrument between husband and wife, reciprocal beneficiaries, or parent and child, in which only a nominal consideration is paid; (5) Any document or instrument in which there is a consideration of $100 or less paid or to be paid; (6) Any document or instrument conveying real property that",
+          "chunk_id": 303,
+          "document_name": "HB740_HD2"
+        },
+        {
+          "chunk_text": "under the Hawaii housing finance and development corporation. SECTION 2. Chapter 201H, Hawaii Revised Statutes, is amended by adding a new subpart to part III to be appropriately designated and to read as follows: \" SUBPART . Accessory Dwelling Unit Financing And Deed Restriction Program §201H-A Definitions. As used in",
+          "chunk_id": 204,
+          "document_name": "HB740_HD2"
+        },
+        {
+          "chunk_text": "section within one year of receipt, the moneys shall be returned to the corporation and placed in the dwelling unit revolving fund established under section 201H-191. ( k ) The corporation and each county may establish, revise, charge, and collect fees and premiums and impose costs as necessary, reasonable, or",
+          "chunk_id": 230,
           "document_name": "HB740_HD2"
         },
         {
@@ -2858,8 +2873,28 @@
           "document_name": "HB740_HD2"
         },
         {
+          "chunk_text": "Any document or instrument conveying real property with a county-owned deed restriction pursuant to subpart , part III of chapter 201H, including any document or instrument conveying such a county-owned deed restriction. \" SECTION 7 . Section 525-4, Hawaii Revised Statutes, is amended to read as follows: \" §525-4 Exclusions",
+          "chunk_id": 316,
+          "document_name": "HB740_HD2"
+        },
+        {
+          "chunk_text": "(b) Property sold for which a county has purchased a deed restriction pursuant to this subpart shall be exempt from chapter 247. (c) Any contract entered into by a county pursuant to this subpart shall be exempt from chapter 103D. § 201H- F Annual reporting. No later than of each",
+          "chunk_id": 240,
+          "document_name": "HB740_HD2"
+        },
+        {
           "chunk_text": "cent of appreciation at the time of sale, to be collected by the corporation and placed in the dwelling unit revolving fund established under section 201H-191. ( j ) If a county does not expend moneys allocated pursuant to this section within one year of receipt, the moneys shall be",
           "chunk_id": 229,
+          "document_name": "HB740_HD2"
+        },
+        {
+          "chunk_text": "rules pursuant to chapter 91 for purposes of this subpart; provided that the rules shall not conflict with rules adopted by the corporation. § 201H-C Deed restriction; requirements. (a) Notwithstanding any other law to the contrary, a deed restriction shall be recorded against the property and shall run with the",
+          "chunk_id": 232,
+          "document_name": "HB740_HD2"
+        },
+        {
+          "chunk_text": "repealed is bracketed and stricken. New statutory material is underscored. SECTION 10. This Act shall take effect on July 1, 3000; provided that the amendments made to section 103D-102(b), Hawaii Revised Statutes, by section 4 of this Act shall not be repealed when that section is reenacted on July 1,",
+          "chunk_id": 323,
           "document_name": "HB740_HD2"
         }
       ],
@@ -2867,11 +2902,6 @@
         {
           "chunk_text": "Deed Restriction Program to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on such property. Your Committee received testimony in support of",
           "chunk_id": 329,
-          "document_name": "HB740_HD2_HSCR617_"
-        },
-        {
-          "chunk_text": "that the measure does not appear to contain legally sufficient standards for the award of such grants involving public money as required by the Hawaii State Constitution. Accordingly, your Committee has amended this measure by: (1) Inserting appropriate standards for grant awards; (2) Clarifying the exemption from conveyance taxes; and",
-          "chunk_id": 334,
           "document_name": "HB740_HD2_HSCR617_"
         },
         {
@@ -2883,6 +2913,33 @@
           "chunk_text": "Tax Foundation of Hawaii. Your Committee finds that this measure offers an effective solution to increase housing supply, especially in residential areas with available space for additional dwellings. Your Committee further finds that the Department of the Attorney General testified that the measure does not appear to contain legally sufficient",
           "chunk_id": 333,
           "document_name": "HB740_HD2_HSCR617_"
+        },
+        {
+          "chunk_text": "that the measure does not appear to contain legally sufficient standards for the award of such grants involving public money as required by the Hawaii State Constitution. Accordingly, your Committee has amended this measure by: (1) Inserting appropriate standards for grant awards; (2) Clarifying the exemption from conveyance taxes; and",
+          "chunk_id": 334,
+          "document_name": "HB740_HD2_HSCR617_"
+        },
+        {
+          "chunk_text": "Housing Hawai ʻ i's Future; Chamber of Commerce Hawaii; Maui Chamber of Commerce; and one individual. Your Committee received comments on this measure from the Department of the Attorney General; Department of Taxation; Hawai ʻ i Association of REALTORS; and Tax Foundation of Hawaii. Your Committee finds that this measure",
+          "chunk_id": 332,
+          "document_name": "HB740_HD2_HSCR617_"
+        }
+      ],
+      "5": [
+        {
+          "chunk_text": "of affordable housing causing an increase in cost burdened households and the subsequent displacement of local families. By providing grants for ADU construction while ensuring long-term affordability through deed restrictions, this bill offers a practical solution that could create immediate housing opportunities while preserving them for Hawaii's workforce. Approximately 56%",
+          "chunk_id": 74,
+          "document_name": "HB740_HD1_TESTIMONY_JHA_02-06-25_"
+        },
+        {
+          "chunk_text": "740 HD 1 Page 2 Amends section 103D-102, HRS, to provide that purchasing deed restrictions under the program is exempt from the Procurement Code. Makes a conforming change to section 201H-191, HRS, that governs the DURF. Amends section 247-3, HRS, to allow a conveyance tax exemption for any conveyance of",
+          "chunk_id": 96,
+          "document_name": "HB740_HD1_TESTIMONY_JHA_02-06-25_"
+        },
+        {
+          "chunk_text": "This helps prevent the conversion of these units to vacation rentals or investment properties and help establish a locals only market. Creates Sustainable Solutions: The perpetual deed restrictions ensure that these housing units will remain available for local workers and residents for generations to 2 https://www.talbuilders.com/adu/#:~:text=How%20Much%20Do%20ADUs%20Cost,to%20$350%20per% 20square%20foot. 1 https://uhero.hawaii.edu/wp-content/uploads/2024/05/HawaiiHousingFactbook2024.pdf Testimony",
+          "chunk_id": 79,
+          "document_name": "HB740_HD1_TESTIMONY_JHA_02-06-25_"
         }
       ]
     },
@@ -2918,7 +2975,19 @@
       },
       {
         "section": "overview",
-        "sentence": "The program is designed to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on such property.",
+        "sentence": "This measure is intended to promote the development of additional housing while securing that housing for local residents working in Hawaii.",
+        "chunks": [
+          {
+            "chunk_id": 203,
+            "citation_number": 6,
+            "chunk_text": "believes that it is important to promote the development of additional housing while securing that housing for local residents working in Hawaii. Accordingly, the purpose of this Act is to establish an accessory dwelling unit financing and deed restriction program under the Hawaii housing finance and development corporation. SECTION 2.",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "The program allocates funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on such property.",
         "chunks": [
           {
             "chunk_id": 329,
@@ -2929,117 +2998,21 @@
         ]
       },
       {
-        "section": "overview",
-        "sentence": "This version of the measure was amended to insert appropriate standards for grant awards and to clarify the exemption from conveyance taxes.",
+        "section": "appropriations",
+        "sentence": "This measure does not contain a specific appropriation.",
         "chunks": [
           {
-            "chunk_id": 334,
-            "citation_number": 7,
-            "chunk_text": "that the measure does not appear to contain legally sufficient standards for the award of such grants involving public money as required by the Hawaii State Constitution. Accordingly, your Committee has amended this measure by: (1) Inserting appropriate standards for grant awards; (2) Clarifying the exemption from conveyance taxes; and",
-            "document_name": "HB740_HD2_HSCR617_"
-          },
-          {
-            "chunk_id": 335,
-            "citation_number": 7,
-            "chunk_text": "grant awards; (2) Clarifying the exemption from conveyance taxes; and (3) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. Your Committee notes that the Department of Taxation is requesting that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction",
-            "document_name": "HB740_HD2_HSCR617_"
-          }
-        ]
-      },
-      {
-        "section": "agency_impact",
-        "sentence": "The Department of the Attorney General testified that the measure does not appear to contain legally sufficient standards for the award of such grants involving public money as required by the Hawaii State Constitution.",
-        "chunks": [
-          {
-            "chunk_id": 334,
-            "citation_number": 7,
-            "chunk_text": "that the measure does not appear to contain legally sufficient standards for the award of such grants involving public money as required by the Hawaii State Constitution. Accordingly, your Committee has amended this measure by: (1) Inserting appropriate standards for grant awards; (2) Clarifying the exemption from conveyance taxes; and",
-            "document_name": "HB740_HD2_HSCR617_"
-          }
-        ]
-      },
-      {
-        "section": "agency_impact",
-        "sentence": "Accordingly, the measure was amended to insert appropriate standards for grant awards.",
-        "chunks": [
-          {
-            "chunk_id": 334,
-            "citation_number": 7,
-            "chunk_text": "that the measure does not appear to contain legally sufficient standards for the award of such grants involving public money as required by the Hawaii State Constitution. Accordingly, your Committee has amended this measure by: (1) Inserting appropriate standards for grant awards; (2) Clarifying the exemption from conveyance taxes; and",
-            "document_name": "HB740_HD2_HSCR617_"
-          }
-        ]
-      },
-      {
-        "section": "agency_impact",
-        "sentence": "Your Committee notes that the Department of Taxation is requesting that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed exemption.",
-        "chunks": [
-          {
-            "chunk_id": 335,
-            "citation_number": 7,
-            "chunk_text": "grant awards; (2) Clarifying the exemption from conveyance taxes; and (3) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. Your Committee notes that the Department of Taxation is requesting that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction",
-            "document_name": "HB740_HD2_HSCR617_"
-          }
-        ]
-      },
-      {
-        "section": "policy_impact",
-        "sentence": "To address concerns from the Department of the Attorney General, this measure was amended by inserting appropriate standards for grant awards.",
-        "chunks": [
-          {
-            "chunk_id": 334,
-            "citation_number": 7,
-            "chunk_text": "that the measure does not appear to contain legally sufficient standards for the award of such grants involving public money as required by the Hawaii State Constitution. Accordingly, your Committee has amended this measure by: (1) Inserting appropriate standards for grant awards; (2) Clarifying the exemption from conveyance taxes; and",
-            "document_name": "HB740_HD2_HSCR617_"
-          }
-        ]
-      },
-      {
-        "section": "policy_impact",
-        "sentence": "The bill now specifies minimum requirements for grant applicants, including compliance with anti-discrimination laws and indemnification of the State.",
-        "chunks": [
-          {
-            "chunk_id": 218,
+            "chunk_id": 202,
             "citation_number": 6,
-            "chunk_text": "Agree to use state funds exclusively for the purposes of this program; (3) Indicate capability to properly use the grant for the purpose of the accessory dwelling unit financing and deed restriction program; (4) Comply with all applicable federal and state laws prohibiting discrimination against any person on the basis",
-            "document_name": "HB740_HD2"
-          },
-          {
-            "chunk_id": 221,
-            "citation_number": 6,
-            "chunk_text": "officers, agents, and employees from and against any and all claims arising out of or resulting from activities carried out or projects undertaken with funds provided hereunder and procure sufficient insurance to provide this indemnification if requested to do so by the corporation; and (9) Agree to make available to",
+            "chunk_text": "HB740 HD2 HOUSE OF REPRESENTATIVES H.B. NO. 740 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII A BILL FOR AN ACT RELATING TO HOUSING . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature believes that it is important to promote the development of",
             "document_name": "HB740_HD2"
           }
         ]
       },
       {
-        "section": "policy_impact",
-        "sentence": "The measure was also amended to clarify that the conveyance tax exemption applies to any document or instrument conveying real property with a county-owned deed restriction, including the document conveying the deed restriction itself.",
+        "section": "appropriations",
+        "sentence": "Instead, the bill authorizes the corporation to allocate funds from the dwelling unit revolving fund established under section 201H-191 to a county.",
         "chunks": [
-          {
-            "chunk_id": 316,
-            "citation_number": 6,
-            "chunk_text": "Any document or instrument conveying real property with a county-owned deed restriction pursuant to subpart , part III of chapter 201H, including any document or instrument conveying such a county-owned deed restriction. \" SECTION 7 . Section 525-4, Hawaii Revised Statutes, is amended to read as follows: \" §525-4 Exclusions",
-            "document_name": "HB740_HD2"
-          },
-          {
-            "chunk_id": 335,
-            "citation_number": 7,
-            "chunk_text": "grant awards; (2) Clarifying the exemption from conveyance taxes; and (3) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. Your Committee notes that the Department of Taxation is requesting that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction",
-            "document_name": "HB740_HD2_HSCR617_"
-          }
-        ]
-      },
-      {
-        "section": "revenue_sources",
-        "sentence": "The corporation may allocate funds from the dwelling unit revolving fund for the program.",
-        "chunks": [
-          {
-            "chunk_id": 212,
-            "citation_number": 6,
-            "chunk_text": "§201H-B Accessory dwelling unit financing and deed restriction program; established. (a) There shall be established within the corporation an accessory dwelling unit financing and deed restriction program. Under the accessory dwelling unit financing and deed restriction program, the corporation may allocate funds from the dwelling unit revolving fund established under",
-            "document_name": "HB740_HD2"
-          },
           {
             "chunk_id": 213,
             "citation_number": 6,
@@ -3049,33 +3022,279 @@
         ]
       },
       {
-        "section": "revenue_sources",
-        "sentence": "The proceeds in the revolving fund shall be used for the administration and purchase of deed restrictions as part of the accessory dwelling unit financing and deed restriction program.",
+        "section": "appropriations",
+        "sentence": "Upon application by a county, the corporation may allocate an annual lump sum, in an amount to be determined by the corporation, necessary for a county to purchase a voluntary deed restriction from an eligible homeowner or homebuyer.",
         "chunks": [
           {
-            "chunk_id": 299,
+            "chunk_id": 215,
             "citation_number": 6,
-            "chunk_text": "building costs, federal guarantees required for operational losses, and all things required by any federal agency in the construction and receipt of federal funds or low-income housing tax credits for housing projects[ . ] ; and (4) The administration and purchase of deed restrictions as part of the accessory dwelling",
+            "chunk_text": "prescribed by the corporation, the corporation may allocate an annual lump sum, in an amount to be determined by the corporation, necessary for a county to purchase a voluntary deed restriction from an eligible homeowner or homebuyer; provided that the corporation shall not distribute funds solely based on the population",
             "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The fiscal impact is indeterminate as it depends on the number of counties that apply for funds and the number of homeowners who participate in the program.",
+        "chunks": [
+          {
+            "chunk_id": 214,
+            "citation_number": 6,
+            "chunk_text": "accessory dwelling unit; and (2) Purchase a deed restriction from eligible homeowners or homebuyers to be placed on the primary dwelling unit and accessory dwelling unit funded pursuant to this subpart. (b) Upon application by a county, in a form prescribed by the corporation, the corporation may allocate an annual",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "Costs will be driven by the amount of grants provided to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with an accessory dwelling unit.",
+        "chunks": [
+          {
+            "chunk_id": 213,
+            "citation_number": 6,
+            "chunk_text": "allocate funds from the dwelling unit revolving fund established under section 201H-191 to a county to: (1) Provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of an accessory dwelling unit; and (2) Purchase a deed restriction from",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The amount paid for a deed restriction will be determined through negotiations between counties and eligible homeowners.",
+        "chunks": [
+          {
+            "chunk_id": 274,
+            "citation_number": 6,
+            "chunk_text": "for interest rate swaps; [ and ] (4) To enter into negotiations for, and purchase deed restrictions on, housing properties from eligible homeowners and homebuyers pursuant to subpart , part III of chapter 201H; and [ (4) ] (5) To do any and all other things necessary or appropriate to",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The Hawaii Housing Finance and Development Corporation (HHFDC) will establish the program, allocate funds from the dwelling unit revolving fund, and may adopt rules.",
+        "chunks": [
+          {
+            "chunk_id": 212,
+            "citation_number": 6,
+            "chunk_text": "§201H-B Accessory dwelling unit financing and deed restriction program; established. (a) There shall be established within the corporation an accessory dwelling unit financing and deed restriction program. Under the accessory dwelling unit financing and deed restriction program, the corporation may allocate funds from the dwelling unit revolving fund established under",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "Counties are responsible for applying for funds, ensuring compliance with the subpart, and may contract with non-government entities for assistance.",
+        "chunks": [
+          {
+            "chunk_id": 226,
+            "citation_number": 6,
+            "chunk_text": "restriction may be secondary only to conditions, covenants, and restrictions with a requisite first position. ( h ) Counties shall be responsible for validating the evidence and ensuring compliance with this subpart. Counties may contract with non-government persons or entities to ensure compliance with this subpart. Counties shall report any",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The Department of Taxation requests that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction changes.",
+        "chunks": [
+          {
+            "chunk_id": 335,
+            "citation_number": 7,
+            "chunk_text": "grant awards; (2) Clarifying the exemption from conveyance taxes; and (3) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. Your Committee notes that the Department of Taxation is requesting that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction",
+            "document_name": "HB740_HD2_HSCR617_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "This program offers an effective solution to increase housing supply, especially in residential areas with available space for additional dwellings.",
+        "chunks": [
+          {
+            "chunk_id": 333,
+            "citation_number": 7,
+            "chunk_text": "Tax Foundation of Hawaii. Your Committee finds that this measure offers an effective solution to increase housing supply, especially in residential areas with available space for additional dwellings. Your Committee further finds that the Department of the Attorney General testified that the measure does not appear to contain legally sufficient",
+            "document_name": "HB740_HD2_HSCR617_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "The program provides grants for ADU construction while ensuring long-term affordability through deed restrictions.",
+        "chunks": [
+          {
+            "chunk_id": 74,
+            "citation_number": 5,
+            "chunk_text": "of affordable housing causing an increase in cost burdened households and the subsequent displacement of local families. By providing grants for ADU construction while ensuring long-term affordability through deed restrictions, this bill offers a practical solution that could create immediate housing opportunities while preserving them for Hawaii's workforce. Approximately 56%",
+            "document_name": "HB740_HD1_TESTIMONY_JHA_02-06-25_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "The legislative document specifies any document or instrument in which there is a consideration of $100 (HB740_HD2_.HTM.txt) or less paid or to be paid is exempt from the conveyance tax.",
+        "chunks": [
+          {
+            "chunk_id": 303,
+            "citation_number": 6,
+            "chunk_text": "document or instrument between husband and wife, reciprocal beneficiaries, or parent and child, in which only a nominal consideration is paid; (5) Any document or instrument in which there is a consideration of $100 or less paid or to be paid; (6) Any document or instrument conveying real property that",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "This measure establishes the Accessory Dwelling Unit Financing and Deed Restriction Program by adding a new subpart to chapter 201H, Hawaii Revised Statutes.",
+        "chunks": [
+          {
+            "chunk_id": 204,
+            "citation_number": 6,
+            "chunk_text": "under the Hawaii housing finance and development corporation. SECTION 2. Chapter 201H, Hawaii Revised Statutes, is amended by adding a new subpart to part III to be appropriately designated and to read as follows: \" SUBPART . Accessory Dwelling Unit Financing And Deed Restriction Program §201H-A Definitions. As used in",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "In response to testimony from the Department of the Attorney General, the measure was amended by inserting appropriate standards for grant awards.",
+        "chunks": [
+          {
+            "chunk_id": 334,
+            "citation_number": 7,
+            "chunk_text": "that the measure does not appear to contain legally sufficient standards for the award of such grants involving public money as required by the Hawaii State Constitution. Accordingly, your Committee has amended this measure by: (1) Inserting appropriate standards for grant awards; (2) Clarifying the exemption from conveyance taxes; and",
+            "document_name": "HB740_HD2_HSCR617_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The measure also provides that purchasing deed restrictions under the program is exempt from the Procurement Code and clarifies the exemption from conveyance taxes.",
+        "chunks": [
+          {
+            "chunk_id": 96,
+            "citation_number": 5,
+            "chunk_text": "740 HD 1 Page 2 Amends section 103D-102, HRS, to provide that purchasing deed restrictions under the program is exempt from the Procurement Code. Makes a conforming change to section 201H-191, HRS, that governs the DURF. Amends section 247-3, HRS, to allow a conveyance tax exemption for any conveyance of",
+            "document_name": "HB740_HD1_TESTIMONY_JHA_02-06-25_"
           },
           {
-            "chunk_id": 300,
+            "chunk_id": 334,
+            "citation_number": 7,
+            "chunk_text": "that the measure does not appear to contain legally sufficient standards for the award of such grants involving public money as required by the Hawaii State Constitution. Accordingly, your Committee has amended this measure by: (1) Inserting appropriate standards for grant awards; (2) Clarifying the exemption from conveyance taxes; and",
+            "document_name": "HB740_HD2_HSCR617_"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The program will be funded by allocations from the dwelling unit revolving fund.",
+        "chunks": [
+          {
+            "chunk_id": 212,
             "citation_number": 6,
-            "chunk_text": "purchase of deed restrictions as part of the accessory dwelling unit financing and deed restriction program under subpart ; provided that there shall be no area median income requirements for moneys expended for the purposes of this program. \" SECTION 6 . Section 247-3, Hawaii Revised Statutes, is amended to",
+            "chunk_text": "§201H-B Accessory dwelling unit financing and deed restriction program; established. (a) There shall be established within the corporation an accessory dwelling unit financing and deed restriction program. Under the accessory dwelling unit financing and deed restriction program, the corporation may allocate funds from the dwelling unit revolving fund established under",
             "document_name": "HB740_HD2"
           }
         ]
       },
       {
         "section": "revenue_sources",
-        "sentence": "If a property with a deed restriction is sold to a nonresident, the corporation shall be entitled to fifty per cent of appreciation at the time of sale, to be placed in the dwelling unit revolving fund.",
+        "sentence": "The corporation and each county may establish, revise, charge, and collect fees and premiums and impose costs as necessary to effectuate the purposes of this subpart.",
+        "chunks": [
+          {
+            "chunk_id": 230,
+            "citation_number": 6,
+            "chunk_text": "section within one year of receipt, the moneys shall be returned to the corporation and placed in the dwelling unit revolving fund established under section 201H-191. ( k ) The corporation and each county may establish, revise, charge, and collect fees and premiums and impose costs as necessary, reasonable, or",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "If a property with a deed restriction is sold to a nonresident, the corporation shall be entitled to fifty per cent of appreciation at the time of sale, to be collected and placed in the dwelling unit revolving fund.",
         "chunks": [
           {
             "chunk_id": 228,
             "citation_number": 6,
             "chunk_text": "nonresident, or at sale it is determined that any dwelling unit on the property has been rented to a nonresident, the corporation may bring action against the homeowner in the appropriate circuit court and shall be entitled to fifty per cent of appreciation at the time of sale, to be",
             "document_name": "HB740_HD2"
-          },
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The six-year fiscal impact of this measure is indeterminate.",
+        "chunks": [
+          {
+            "chunk_id": 332,
+            "citation_number": 7,
+            "chunk_text": "Housing Hawai ʻ i's Future; Chamber of Commerce Hawaii; Maui Chamber of Commerce; and one individual. Your Committee received comments on this measure from the Department of the Attorney General; Department of Taxation; Hawai ʻ i Association of REALTORS; and Tax Foundation of Hawaii. Your Committee finds that this measure",
+            "document_name": "HB740_HD2_HSCR617_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The Hawaii Housing Finance and Development Corporation (HHFDC) is authorized to allocate an annual lump sum from the dwelling unit revolving fund to counties that apply.",
+        "chunks": [
+          {
+            "chunk_id": 215,
+            "citation_number": 6,
+            "chunk_text": "prescribed by the corporation, the corporation may allocate an annual lump sum, in an amount to be determined by the corporation, necessary for a county to purchase a voluntary deed restriction from an eligible homeowner or homebuyer; provided that the corporation shall not distribute funds solely based on the population",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "There will be an indeterminate loss of state revenue due to the conveyance tax exemption for any document or instrument conveying real property with a county-owned deed restriction.",
+        "chunks": [
+          {
+            "chunk_id": 316,
+            "citation_number": 6,
+            "chunk_text": "Any document or instrument conveying real property with a county-owned deed restriction pursuant to subpart , part III of chapter 201H, including any document or instrument conveying such a county-owned deed restriction. \" SECTION 7 . Section 525-4, Hawaii Revised Statutes, is amended to read as follows: \" §525-4 Exclusions",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The Committee notes that the Department of Taxation is requesting that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed exemption.",
+        "chunks": [
+          {
+            "chunk_id": 335,
+            "citation_number": 7,
+            "chunk_text": "grant awards; (2) Clarifying the exemption from conveyance taxes; and (3) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. Your Committee notes that the Department of Taxation is requesting that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction",
+            "document_name": "HB740_HD2_HSCR617_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Ongoing administrative costs for program management and compliance monitoring will be incurred by HHFDC and participating counties.",
+        "chunks": [
+          {
+            "chunk_id": 226,
+            "citation_number": 6,
+            "chunk_text": "restriction may be secondary only to conditions, covenants, and restrictions with a requisite first position. ( h ) Counties shall be responsible for validating the evidence and ensuring compliance with this subpart. Counties may contract with non-government persons or entities to ensure compliance with this subpart. Counties shall report any",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Any contract entered into by a county pursuant to this subpart shall be exempt from chapter 103D.",
+        "chunks": [
+          {
+            "chunk_id": 240,
+            "citation_number": 6,
+            "chunk_text": "(b) Property sold for which a county has purchased a deed restriction pursuant to this subpart shall be exempt from chapter 247. (c) Any contract entered into by a county pursuant to this subpart shall be exempt from chapter 103D. § 201H- F Annual reporting. No later than of each",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "If a county does not expend moneys allocated pursuant to this section within one year of receipt, the moneys shall be returned to the corporation and placed in the dwelling unit revolving fund.",
+        "chunks": [
           {
             "chunk_id": 229,
             "citation_number": 6,
@@ -3085,13 +3304,175 @@
         ]
       },
       {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "The measure was amended to address testimony from the Department of the Attorney General that the bill did not contain legally sufficient standards for the award of grants involving public money.",
+        "section": "six_year_fiscal_implications",
+        "sentence": "The deed restriction shall be recorded against the property and shall run with the land in perpetuity, implying long-term monitoring costs and revenue loss.",
         "chunks": [
           {
-            "chunk_id": 333,
+            "chunk_id": 232,
+            "citation_number": 6,
+            "chunk_text": "rules pursuant to chapter 91 for purposes of this subpart; provided that the rules shall not conflict with rules adopted by the corporation. § 201H-C Deed restriction; requirements. (a) Notwithstanding any other law to the contrary, a deed restriction shall be recorded against the property and shall run with the",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "No specific staffing increases are mentioned in the bill.",
+        "chunks": [
+          {
+            "chunk_id": 202,
+            "citation_number": 6,
+            "chunk_text": "HB740 HD2 HOUSE OF REPRESENTATIVES H.B. NO. 740 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII A BILL FOR AN ACT RELATING TO HOUSING . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature believes that it is important to promote the development of",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The Act has an effective date of July 1, 3000.",
+        "chunks": [
+          {
+            "chunk_id": 323,
+            "citation_number": 6,
+            "chunk_text": "repealed is bracketed and stricken. New statutory material is underscored. SECTION 10. This Act shall take effect on July 1, 3000; provided that the amendments made to section 103D-102(b), Hawaii Revised Statutes, by section 4 of this Act shall not be repealed when that section is reenacted on July 1,",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "This measure will cause an indeterminate loss of state revenue.",
+        "chunks": [
+          {
+            "chunk_id": 332,
             "citation_number": 7,
-            "chunk_text": "Tax Foundation of Hawaii. Your Committee finds that this measure offers an effective solution to increase housing supply, especially in residential areas with available space for additional dwellings. Your Committee further finds that the Department of the Attorney General testified that the measure does not appear to contain legally sufficient",
+            "chunk_text": "Housing Hawai ʻ i's Future; Chamber of Commerce Hawaii; Maui Chamber of Commerce; and one individual. Your Committee received comments on this measure from the Department of the Attorney General; Department of Taxation; Hawai ʻ i Association of REALTORS; and Tax Foundation of Hawaii. Your Committee finds that this measure",
+            "document_name": "HB740_HD2_HSCR617_"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "Property sold for which a county has purchased a deed restriction pursuant to this subpart shall be exempt from chapter 247, the conveyance tax.",
+        "chunks": [
+          {
+            "chunk_id": 240,
+            "citation_number": 6,
+            "chunk_text": "(b) Property sold for which a county has purchased a deed restriction pursuant to this subpart shall be exempt from chapter 247. (c) Any contract entered into by a county pursuant to this subpart shall be exempt from chapter 103D. § 201H- F Annual reporting. No later than of each",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "The Department of Taxation requests that the conveyance tax exemption take effect on January 1, 2026, to allow for necessary form and instruction changes.",
+        "chunks": [
+          {
+            "chunk_id": 335,
+            "citation_number": 7,
+            "chunk_text": "grant awards; (2) Clarifying the exemption from conveyance taxes; and (3) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. Your Committee notes that the Department of Taxation is requesting that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction",
+            "document_name": "HB740_HD2_HSCR617_"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "This measure does not directly appropriate funds for state capital expenditures.",
+        "chunks": [
+          {
+            "chunk_id": 202,
+            "citation_number": 6,
+            "chunk_text": "HB740 HD2 HOUSE OF REPRESENTATIVES H.B. NO. 740 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII A BILL FOR AN ACT RELATING TO HOUSING . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature believes that it is important to promote the development of",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The program provides grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit.",
+        "chunks": [
+          {
+            "chunk_id": 213,
+            "citation_number": 6,
+            "chunk_text": "allocate funds from the dwelling unit revolving fund established under section 201H-191 to a county to: (1) Provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of an accessory dwelling unit; and (2) Purchase a deed restriction from",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "These funds are allocated to counties from the dwelling unit revolving fund and then disbursed to private property owners.",
+        "chunks": [
+          {
+            "chunk_id": 213,
+            "citation_number": 6,
+            "chunk_text": "allocate funds from the dwelling unit revolving fund established under section 201H-191 to a county to: (1) Provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of an accessory dwelling unit; and (2) Purchase a deed restriction from",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The fiscal implications of this program are expected to be ongoing and long-term.",
+        "chunks": [
+          {
+            "chunk_id": 79,
+            "citation_number": 5,
+            "chunk_text": "This helps prevent the conversion of these units to vacation rentals or investment properties and help establish a locals only market. Creates Sustainable Solutions: The perpetual deed restrictions ensure that these housing units will remain available for local workers and residents for generations to 2 https://www.talbuilders.com/adu/#:~:text=How%20Much%20Do%20ADUs%20Cost,to%20$350%20per% 20square%20foot. 1 https://uhero.hawaii.edu/wp-content/uploads/2024/05/HawaiiHousingFactbook2024.pdf Testimony",
+            "document_name": "HB740_HD1_TESTIMONY_JHA_02-06-25_"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "A deed restriction shall be recorded against the property and shall run with the land in perpetuity, binding all future owners, successors, and assigns.",
+        "chunks": [
+          {
+            "chunk_id": 232,
+            "citation_number": 6,
+            "chunk_text": "rules pursuant to chapter 91 for purposes of this subpart; provided that the rules shall not conflict with rules adopted by the corporation. § 201H-C Deed restriction; requirements. (a) Notwithstanding any other law to the contrary, a deed restriction shall be recorded against the property and shall run with the",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "This will result in perpetual administrative and compliance monitoring costs for counties and a recurring loss of state conveyance tax revenue.",
+        "chunks": [
+          {
+            "chunk_id": 240,
+            "citation_number": 6,
+            "chunk_text": "(b) Property sold for which a county has purchased a deed restriction pursuant to this subpart shall be exempt from chapter 247. (c) Any contract entered into by a county pursuant to this subpart shall be exempt from chapter 103D. § 201H- F Annual reporting. No later than of each",
+            "document_name": "HB740_HD2"
+          },
+          {
+            "chunk_id": 226,
+            "citation_number": 6,
+            "chunk_text": "restriction may be secondary only to conditions, covenants, and restrictions with a requisite first position. ( h ) Counties shall be responsible for validating the evidence and ensuring compliance with this subpart. Counties may contract with non-government persons or entities to ensure compliance with this subpart. Counties shall report any",
+            "document_name": "HB740_HD2"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "No. 740, H.D. 2 has been amended by inserting appropriate standards for grant awards.",
+        "chunks": [
+          {
+            "chunk_id": 334,
+            "citation_number": 7,
+            "chunk_text": "that the measure does not appear to contain legally sufficient standards for the award of such grants involving public money as required by the Hawaii State Constitution. Accordingly, your Committee has amended this measure by: (1) Inserting appropriate standards for grant awards; (2) Clarifying the exemption from conveyance taxes; and",
+            "document_name": "HB740_HD2_HSCR617_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The Department of Taxation requested clarification on the conveyance tax exemption, and H.D. 2 amends the bill by clarifying the exemption from conveyance taxes.",
+        "chunks": [
+          {
+            "chunk_id": 332,
+            "citation_number": 7,
+            "chunk_text": "Housing Hawai ʻ i's Future; Chamber of Commerce Hawaii; Maui Chamber of Commerce; and one individual. Your Committee received comments on this measure from the Department of the Attorney General; Department of Taxation; Hawai ʻ i Association of REALTORS; and Tax Foundation of Hawaii. Your Committee finds that this measure",
             "document_name": "HB740_HD2_HSCR617_"
           },
           {
@@ -3104,25 +3485,13 @@
       },
       {
         "section": "updates_from_previous_fiscal_note",
-        "sentence": "Appropriate standards for grant awards were subsequently inserted into the bill.",
+        "sentence": "Specifically, the bill now exempts any document or instrument conveying a county-owned deed restriction itself.",
         "chunks": [
           {
-            "chunk_id": 334,
-            "citation_number": 7,
-            "chunk_text": "that the measure does not appear to contain legally sufficient standards for the award of such grants involving public money as required by the Hawaii State Constitution. Accordingly, your Committee has amended this measure by: (1) Inserting appropriate standards for grant awards; (2) Clarifying the exemption from conveyance taxes; and",
-            "document_name": "HB740_HD2_HSCR617_"
-          }
-        ]
-      },
-      {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "Additionally, the bill was amended to clarify the exemption from conveyance taxes.",
-        "chunks": [
-          {
-            "chunk_id": 335,
-            "citation_number": 7,
-            "chunk_text": "grant awards; (2) Clarifying the exemption from conveyance taxes; and (3) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. Your Committee notes that the Department of Taxation is requesting that the conveyance tax exemption take effect on January 1, 2026, to allow for form and instruction",
-            "document_name": "HB740_HD2_HSCR617_"
+            "chunk_id": 316,
+            "citation_number": 6,
+            "chunk_text": "Any document or instrument conveying real property with a county-owned deed restriction pursuant to subpart , part III of chapter 201H, including any document or instrument conveying such a county-owned deed restriction. \" SECTION 7 . Section 525-4, Hawaii Revised Statutes, is amended to read as follows: \" §525-4 Exclusions",
+            "document_name": "HB740_HD2"
           }
         ]
       }
@@ -4488,6 +4857,6 @@
       }
     ]
   },
-  "generation_timestamp": "2025-10-16T15:26:12.953125",
-  "generation_timestamp_unix": 1760664372.95313
+  "generation_timestamp": "2025-10-24T12:55:01.663734",
+  "generation_timestamp_unix": 1761346501.6637409
 }

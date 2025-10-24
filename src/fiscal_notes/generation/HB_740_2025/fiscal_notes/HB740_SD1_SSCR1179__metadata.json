@@ -20,17 +20,17 @@
     "HB740_SD1_SSCR1179_"
   ],
   "numbers_used": 12,
-  "prompt_length": 106460,
+  "prompt_length": 109605,
   "response_metadata": {
-    "response_text": "{\n  \"overview\": \"This measure has been amended to change the Accessory Dwelling Unit Financing and Deed Restriction Program from a grant program to an equity purchase program. [CHUNK 346] The purpose of this Act is to establish an accessory dwelling unit financing and deed restriction program to promote the development of additional housing while securing that housing for local residents working in Hawaii. [CHUNK 197] This Act shall be repealed on January 1, 2031. [CHUNK 325]\",\n  \"appropriations\": \"The corporation shall not allocate more than $2,000,000 (HB740_SD1_.HTM.txt) per year under this subpart. [CHUNK 210] The committee hearing specifies that HHFDC shall not allocate more than $2,000,000 (HB740_SD1_SSCR1179_.htm.txt) per year for the program between all counties. [CHUNK 348] The counties are authorized to use an unspecified percentage of awarded funds for administrative costs. [CHUNK 349]\",\n  \"assumptions_and_methodology\": \"The Committee notes that loans or other forms of investment, rather than a grant program, would allow the State to recover on its investment, thereby enabling the State to finance additional ADUs in the future. [CHUNK 344] The Dwelling Unit Revolving Fund Equity Program is an example that enables the State to share in the capital gain of units receiving state funds. [CHUNK 344, CHUNK 345] It is suggested that other ways for the State to unlock the value of its investment and maximize future housing construction should be explored. [CHUNK 345]\",\n  \"agency_impact\": \"The terms of the required indemnification agreement have been expanded to include the counties and county officers, agents, and employees, addressing a previous concern about liability. [CHUNK 349] The Hawaii housing finance and development corporation is required to submit a report of its evaluation of the program to the legislature no later than twenty days prior to the convening of the regular session of 2031. [CHUNK 322]\",\n  \"economic_impact\": \"\",\n  \"policy_impact\": \"The program has been changed from a grant program to an equity purchase program. [CHUNK 346] A new provision requires a homeowner participating in the purchase of equity program to repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first. [CHUNK 350, CHUNK 351] The amended measure inserts language to require the program to prioritize homeowners or homebuyers and prospective tenants that are government employees. [CHUNK 350]\",\n  \"revenue_sources\": \"The source of funding for the program has been changed from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund. [CHUNK 346] Moneys in the Rental Housing Revolving fund shall be used for the administration and purchase of deed restrictions as part of the accessory dwelling unit financing and deed restriction program. [CHUNK 299] If a county does not expend moneys allocated pursuant to this section within one year of receipt, the moneys shall be returned to the corporation and placed in the rental housing revolving fund. [CHUNK 226, CHUNK 227]\",\n  \"six_year_fiscal_implications\": \"The Hawaii Housing Finance and Development Corporation (HHFDC) shall not allocate more than $2,000,000 (HB740_SD1_.HTM.txt) per year for the program between all counties. [CHUNK 210, CHUNK 348] A homeowner participating in the program shall repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first. [CHUNK 225, CHUNK 226] If a property with a deed restriction is sold to a nonresident, the corporation may bring action against the homeowner and shall be entitled to fifty per cent of appreciation at the time of sale, to be collected and placed in the rental housing revolving fund. [CHUNK 224, CHUNK 225] The program is scheduled to sunset on January 1, 2031. [CHUNK 325]\",\n  \"operating_revenue_impact\": \"The State may realize operating revenue from a new repayment clause that requires a homeowner to repay the corporation its prorated share of the appraised value with appreciation within fifteen years or upon sale or transfer. [CHUNK 226] Additionally, if a property is sold to a nonresident, the corporation is entitled to fifty per cent of appreciation at the time of sale, which is to be collected by the corporation and placed in the rental housing revolving fund. [CHUNK 224, CHUNK 225]\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"This Act is repealed on January 1, 2031, which sunsets the program and its associated fiscal obligations. [CHUNK 325] However, any deed restriction recorded against a property under the program shall run with the land in perpetuity, binding all future owners, successors, and assigns. [CHUNK 229, CHUNK 230]\",\n  \"updates_from_previous_fiscal_note\": \"The program has been fundamentally changed from a grant program to an equity purchase program, with a new requirement for homeowners to repay the State's investment with appreciation within fifteen years or upon sale. [CHUNK 346, CHUNK 351] The funding source has been switched from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund, and an annual allocation cap of $2,000,000 (HB740_SD1_SSCR1179_.htm.txt) is now specified. [CHUNK 346, CHUNK 348] A key concern from the previous note regarding liability for county employees has been addressed by expanding the indemnification agreement to include county personnel. [CHUNK 349] The program is now set to sunset on January 1, 2031. [CHUNK 325]\"\n}",
+    "response_text": "{\n  \"overview\": \"The purpose of this Act is to establish an accessory dwelling unit financing and deed restriction program under the Hawaii housing finance and development corporation. [CHUNK_197] This measure establishes the Accessory Dwelling Unit Financing and Deed Restriction Program to allocate funds to the counties for the purchase of equity from eligible homeowners or homebuyers to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on the property. [CHUNK_327, CHUNK_332] The program sunsets on January 1, 2031, and requires the Hawaii housing finance and development corporation to submit a report of its evaluation to the legislature. [CHUNK_325, CHUNK_322]\",\n  \"appropriations\": \"The corporation shall not allocate more than $2,000,000.00 (HB740_SD1_.HTM.txt) per year for the program between all counties. [CHUNK_348, CHUNK_210] Funds are allocated from the rental housing revolving fund to counties to purchase equity from eligible homeowners or homebuyers to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of accessory dwelling units. [CHUNK_206, CHUNK_207] A county may use up to an unspecified per cent of allocated funds for administrative costs. [CHUNK_210]\",\n  \"assumptions_and_methodology\": \"The Accessory Dwelling Unit Financing and Deed Restriction Program was changed from a grant program to an equity purchase program. [CHUNK_346] A homeowner participating in the purchase of equity established pursuant to this subpart shall repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first. [CHUNK_226] The total contribution amount from a county distributed per accessory dwelling unit shall not exceed eight per cent of the appraised value of the property. [CHUNK_209]\",\n  \"agency_impact\": \"The Hawaii housing finance and development corporation (HHFDC) may allocate funds from the rental housing revolving fund to a county and may adopt rules pursuant to chapter 91 for the purposes of this subpart. [CHUNK_206, CHUNK_228] Counties shall be responsible for validating the evidence and ensuring compliance with this subpart and may contract with non-government persons or entities to ensure compliance. [CHUNK_222] The City and County of Honolulu noted existing challenges to implement this measure in its current form with regard to capacity, lack of positions and staff, potential impacts to real property tax revenues, eligibility criteria, implementation timelines, enforceability, and potential liability. [CHUNK_342]\",\n  \"economic_impact\": \"Incentivizing the construction of ADUs through the deed restriction program established by this measure could help increase housing stock that aligns with specific community needs. [CHUNK_338] The deed restriction program will create an inventory of homes for local residents, stabilize home prices, and reduce speculation in our housing market. [CHUNK_4] This measure will prevent the conversion of the units into vacation rentals or investment properties and reducing speculation in the State's housing market. [CHUNK_339]\",\n  \"policy_impact\": \"This measure changes the source of funding from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund and changes the program from a grant program to an equity purchase program. [CHUNK_346] The bill amends section 247-3, Hawaii Revised Statutes, to allow a conveyance tax exemption for any conveyance of real property with a county owned deed restriction under this program. [CHUNK_162, CHUNK_300] The deed restriction shall be recorded against the property and shall run with the land in perpetuity, binding all future owners, successors, and assigns. [CHUNK_230]\",\n  \"revenue_sources\": \"The source of funding for the program is from the Rental Housing Revolving Fund. [CHUNK_346] If a property with a deed restriction is sold to a nonresident, the corporation shall be entitled to fifty per cent of appreciation at the time of sale, to be collected by the corporation and placed in the rental housing revolving fund. [CHUNK_224, CHUNK_225] A homeowner participating in the purchase of equity program shall repay HHFDC its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first. [CHUNK_351]\",\n  \"six_year_fiscal_implications\": \"The corporation shall not allocate more than $2,000,000.00 (HB740_SD1_.HTM.txt) per year under this subpart. [CHUNK_210] This Act shall be repealed on January 1, 2031. [CHUNK_325] A homeowner participating in the purchase of equity program must repay HHFDC its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first. [CHUNK_351] If a county does not expend moneys allocated pursuant to this section within one year of receipt, the moneys shall be returned to the corporation and placed in the rental housing revolving fund. [CHUNK_226, CHUNK_227] The counties are authorized to use an unspecified percentage of awarded funds for administrative costs. [CHUNK_348] The owner of the property shall submit a written statement with accompanying evidence to the county verifying the property was occupied by a qualified owner-occupant or tenant during all of the prior calendar year. [CHUNK_239] This creates an ongoing administrative responsibility for counties. [CHUNK_36] The exemption to the Conveyance Tax shall apply to taxable years beginning January 1, 2026. [CHUNK_353] The bill has an effective date of July 1, 2050, to encourage further discussion. [CHUNK_353]\",\n  \"operating_revenue_impact\": \"If a property with a deed restriction in place pursuant to this subpart is sold to a nonresident, the corporation is entitled to fifty per cent of appreciation at the time of sale, which is to be collected by the corporation and placed in the rental housing revolving fund. [CHUNK_224, CHUNK_225] A homeowner participating in the equity program shall repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property. [CHUNK_226] The bill also exempts from conveyance tax any property with a county-owned deed restriction. [CHUNK_315]\",\n  \"capital_expenditure_impact\": \"The corporation may allocate funds from the rental housing revolving fund to a county to purchase equity from eligible homeowners or homebuyers. [CHUNK_206, CHUNK_207] These funds are intended to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of accessory dwelling units. [CHUNK_207] The total contribution amount from a county distributed per accessory dwelling unit shall not exceed eight per cent of the appraised value of the property. [CHUNK_209]\",\n  \"fiscal_implications_after_6_years\": \"The program is set to sunset on January 1, 2031. [CHUNK_325] A deed restriction shall be recorded against the property and shall run with the land in perpetuity, binding all future owners, successors, and assigns. [CHUNK_230] This creates a perpetual compliance and enforcement responsibility for counties, which will continue after program funding is terminated. [CHUNK_36]\",\n  \"updates_from_previous_fiscal_note\": \"The program has been significantly amended from a grant program to an equity purchase program. [CHUNK_346] The funding source was changed from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund. [CHUNK_346] A specific annual funding limit has been established, specifying that HHFDC shall not allocate more than $2,000,000.00 (HB740_SD1_.HTM.txt) per year for the program between all counties. [CHUNK_348] A repayment clause has been added, requiring a homeowner participating in the equity program to repay HHFDC its prorated share of the appraised value with appreciation within fifteen years or upon sale. [CHUNK_351] A sunset date of January 1, 2031 has been inserted, and a legislative report on the program is now required. [CHUNK_325, CHUNK_352] Unlike the previous version, the bill now expands the indemnification agreement to include counties and their employees and requires prioritization for government employees as tenants and homeowners. [CHUNK_349, CHUNK_350]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 62345,
-      "candidates_token_count": 1370,
-      "total_token_count": 67595
+      "prompt_token_count": 63055,
+      "candidates_token_count": 1944,
+      "total_token_count": 68699
     },
     "candidates": [
       {
@@ -40,7 +40,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n  \"overview\": \"This measure has been amended to change the Accessory Dwelling Unit Financing and Deed Restriction Program from a grant program to an equity purchase program. [CHUNK 346] The purpose of this Act is to establish an accessory dwelling unit financing and deed restriction program to promote the development of additional housing while securing that housing for local residents working in Hawaii. [CHUNK 197] This Act shall be repealed on January 1, 2031. [CHUNK 325]\",\n  \"appropriations\": \"The corporation shall not allocate more than $2,000,000 (HB740_SD1_.HTM.txt) per year under this subpart. [CHUNK 210] The committee hearing specifies that HHFDC shall not allocate more than $2,000,000 (HB740_SD1_SSCR1179_.htm.txt) per year for the program between all counties. [CHUNK 348] The counties are authorized to use an unspecified percentage of awarded funds for administrative costs. [CHUNK 349]\",\n  \"assumptions_and_methodology\": \"The Committee notes that loans or other forms of investment, rather than a grant program, would allow the State to recover on its investment, thereby enabling the State to finance additional ADUs in the future. [CHUNK 344] The Dwelling Unit Revolving Fund Equity Program is an example that enables the State to share in the capital gain of units receiving state funds. [CHUNK 344, CHUNK 345] It is suggested that other ways for the State to unlock the value of its investment and maximize future housing construction should be explored. [CHUNK 345]\",\n  \"agency_impact\": \"The terms of the required indemnification agreement have been expanded to include the counties and county officers, agents, and employees, addressing a previous concern about liability. [CHUNK 349] The Hawaii housing finance and development corporation is required to submit a report of its evaluation of the program to the legislature no later than twenty days prior to the convening of the regular session of 2031. [CHUNK 322]\",\n  \"economic_impact\": \"\",\n  \"policy_impact\": \"The program has been changed from a grant program to an equity purchase program. [CHUNK 346] A new provision requires a homeowner participating in the purchase of equity program to repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first. [CHUNK 350, CHUNK 351] The amended measure inserts language to require the program to prioritize homeowners or homebuyers and prospective tenants that are government employees. [CHUNK 350]\",\n  \"revenue_sources\": \"The source of funding for the program has been changed from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund. [CHUNK 346] Moneys in the Rental Housing Revolving fund shall be used for the administration and purchase of deed restrictions as part of the accessory dwelling unit financing and deed restriction program. [CHUNK 299] If a county does not expend moneys allocated pursuant to this section within one year of receipt, the moneys shall be returned to the corporation and placed in the rental housing revolving fund. [CHUNK 226, CHUNK 227]\",\n  \"six_year_fiscal_implications\": \"The Hawaii Housing Finance and Development Corporation (HHFDC) shall not allocate more than $2,000,000 (HB740_SD1_.HTM.txt) per year for the program between all counties. [CHUNK 210, CHUNK 348] A homeowner participating in the program shall repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first. [CHUNK 225, CHUNK 226] If a property with a deed restriction is sold to a nonresident, the corporation may bring action against the homeowner and shall be entitled to fifty per cent of appreciation at the time of sale, to be collected and placed in the rental housing revolving fund. [CHUNK 224, CHUNK 225] The program is scheduled to sunset on January 1, 2031. [CHUNK 325]\",\n  \"operating_revenue_impact\": \"The State may realize operating revenue from a new repayment clause that requires a homeowner to repay the corporation its prorated share of the appraised value with appreciation within fifteen years or upon sale or transfer. [CHUNK 226] Additionally, if a property is sold to a nonresident, the corporation is entitled to fifty per cent of appreciation at the time of sale, which is to be collected by the corporation and placed in the rental housing revolving fund. [CHUNK 224, CHUNK 225]\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"This Act is repealed on January 1, 2031, which sunsets the program and its associated fiscal obligations. [CHUNK 325] However, any deed restriction recorded against a property under the program shall run with the land in perpetuity, binding all future owners, successors, and assigns. [CHUNK 229, CHUNK 230]\",\n  \"updates_from_previous_fiscal_note\": \"The program has been fundamentally changed from a grant program to an equity purchase program, with a new requirement for homeowners to repay the State's investment with appreciation within fifteen years or upon sale. [CHUNK 346, CHUNK 351] The funding source has been switched from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund, and an annual allocation cap of $2,000,000 (HB740_SD1_SSCR1179_.htm.txt) is now specified. [CHUNK 346, CHUNK 348] A key concern from the previous note regarding liability for county employees has been addressed by expanding the indemnification agreement to include county personnel. [CHUNK 349] The program is now set to sunset on January 1, 2031. [CHUNK 325]\"\n}"
+              "text": "{\n  \"overview\": \"The purpose of this Act is to establish an accessory dwelling unit financing and deed restriction program under the Hawaii housing finance and development corporation. [CHUNK_197] This measure establishes the Accessory Dwelling Unit Financing and Deed Restriction Program to allocate funds to the counties for the purchase of equity from eligible homeowners or homebuyers to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on the property. [CHUNK_327, CHUNK_332] The program sunsets on January 1, 2031, and requires the Hawaii housing finance and development corporation to submit a report of its evaluation to the legislature. [CHUNK_325, CHUNK_322]\",\n  \"appropriations\": \"The corporation shall not allocate more than $2,000,000.00 (HB740_SD1_.HTM.txt) per year for the program between all counties. [CHUNK_348, CHUNK_210] Funds are allocated from the rental housing revolving fund to counties to purchase equity from eligible homeowners or homebuyers to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of accessory dwelling units. [CHUNK_206, CHUNK_207] A county may use up to an unspecified per cent of allocated funds for administrative costs. [CHUNK_210]\",\n  \"assumptions_and_methodology\": \"The Accessory Dwelling Unit Financing and Deed Restriction Program was changed from a grant program to an equity purchase program. [CHUNK_346] A homeowner participating in the purchase of equity established pursuant to this subpart shall repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first. [CHUNK_226] The total contribution amount from a county distributed per accessory dwelling unit shall not exceed eight per cent of the appraised value of the property. [CHUNK_209]\",\n  \"agency_impact\": \"The Hawaii housing finance and development corporation (HHFDC) may allocate funds from the rental housing revolving fund to a county and may adopt rules pursuant to chapter 91 for the purposes of this subpart. [CHUNK_206, CHUNK_228] Counties shall be responsible for validating the evidence and ensuring compliance with this subpart and may contract with non-government persons or entities to ensure compliance. [CHUNK_222] The City and County of Honolulu noted existing challenges to implement this measure in its current form with regard to capacity, lack of positions and staff, potential impacts to real property tax revenues, eligibility criteria, implementation timelines, enforceability, and potential liability. [CHUNK_342]\",\n  \"economic_impact\": \"Incentivizing the construction of ADUs through the deed restriction program established by this measure could help increase housing stock that aligns with specific community needs. [CHUNK_338] The deed restriction program will create an inventory of homes for local residents, stabilize home prices, and reduce speculation in our housing market. [CHUNK_4] This measure will prevent the conversion of the units into vacation rentals or investment properties and reducing speculation in the State's housing market. [CHUNK_339]\",\n  \"policy_impact\": \"This measure changes the source of funding from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund and changes the program from a grant program to an equity purchase program. [CHUNK_346] The bill amends section 247-3, Hawaii Revised Statutes, to allow a conveyance tax exemption for any conveyance of real property with a county owned deed restriction under this program. [CHUNK_162, CHUNK_300] The deed restriction shall be recorded against the property and shall run with the land in perpetuity, binding all future owners, successors, and assigns. [CHUNK_230]\",\n  \"revenue_sources\": \"The source of funding for the program is from the Rental Housing Revolving Fund. [CHUNK_346] If a property with a deed restriction is sold to a nonresident, the corporation shall be entitled to fifty per cent of appreciation at the time of sale, to be collected by the corporation and placed in the rental housing revolving fund. [CHUNK_224, CHUNK_225] A homeowner participating in the purchase of equity program shall repay HHFDC its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first. [CHUNK_351]\",\n  \"six_year_fiscal_implications\": \"The corporation shall not allocate more than $2,000,000.00 (HB740_SD1_.HTM.txt) per year under this subpart. [CHUNK_210] This Act shall be repealed on January 1, 2031. [CHUNK_325] A homeowner participating in the purchase of equity program must repay HHFDC its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first. [CHUNK_351] If a county does not expend moneys allocated pursuant to this section within one year of receipt, the moneys shall be returned to the corporation and placed in the rental housing revolving fund. [CHUNK_226, CHUNK_227] The counties are authorized to use an unspecified percentage of awarded funds for administrative costs. [CHUNK_348] The owner of the property shall submit a written statement with accompanying evidence to the county verifying the property was occupied by a qualified owner-occupant or tenant during all of the prior calendar year. [CHUNK_239] This creates an ongoing administrative responsibility for counties. [CHUNK_36] The exemption to the Conveyance Tax shall apply to taxable years beginning January 1, 2026. [CHUNK_353] The bill has an effective date of July 1, 2050, to encourage further discussion. [CHUNK_353]\",\n  \"operating_revenue_impact\": \"If a property with a deed restriction in place pursuant to this subpart is sold to a nonresident, the corporation is entitled to fifty per cent of appreciation at the time of sale, which is to be collected by the corporation and placed in the rental housing revolving fund. [CHUNK_224, CHUNK_225] A homeowner participating in the equity program shall repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property. [CHUNK_226] The bill also exempts from conveyance tax any property with a county-owned deed restriction. [CHUNK_315]\",\n  \"capital_expenditure_impact\": \"The corporation may allocate funds from the rental housing revolving fund to a county to purchase equity from eligible homeowners or homebuyers. [CHUNK_206, CHUNK_207] These funds are intended to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of accessory dwelling units. [CHUNK_207] The total contribution amount from a county distributed per accessory dwelling unit shall not exceed eight per cent of the appraised value of the property. [CHUNK_209]\",\n  \"fiscal_implications_after_6_years\": \"The program is set to sunset on January 1, 2031. [CHUNK_325] A deed restriction shall be recorded against the property and shall run with the land in perpetuity, binding all future owners, successors, and assigns. [CHUNK_230] This creates a perpetual compliance and enforcement responsibility for counties, which will continue after program funding is terminated. [CHUNK_36]\",\n  \"updates_from_previous_fiscal_note\": \"The program has been significantly amended from a grant program to an equity purchase program. [CHUNK_346] The funding source was changed from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund. [CHUNK_346] A specific annual funding limit has been established, specifying that HHFDC shall not allocate more than $2,000,000.00 (HB740_SD1_.HTM.txt) per year for the program between all counties. [CHUNK_348] A repayment clause has been added, requiring a homeowner participating in the equity program to repay HHFDC its prorated share of the appraised value with appreciation within fifteen years or upon sale. [CHUNK_351] A sunset date of January 1, 2031 has been inserted, and a legislative report on the program is now required. [CHUNK_325, CHUNK_352] Unlike the previous version, the bill now expands the indemnification agreement to include counties and their employees and requires prioritization for government employees as tenants and homeowners. [CHUNK_349, CHUNK_350]\"\n}"
             }
           ]
         },
@@ -2984,47 +2984,15 @@
       }
     ],
     "chunk_text_map": {
-      "12": [
-        {
-          "chunk_text": "explored. Your Committee has amended this measure by: (1) Changing the source of funding from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund; (2) Changing the Accessory Dwelling Unit Financing and Deed Restriction Program from a grant program to an equity purchase program; (3) Clarifying that the",
-          "chunk_id": 346,
-          "document_name": "HB740_SD1_SSCR1179_"
-        },
-        {
-          "chunk_text": "distributed per accessory dwelling unit shall not exceed eight percent of the appraised value of the property; (4) Specifying that HHFDC shall not allocate more than $2,000,000 per year for the program between all counties; (5) Authorizing the counties to use an unspecified percentage of awarded funds for administrative costs;",
-          "chunk_id": 348,
-          "document_name": "HB740_SD1_SSCR1179_"
-        },
-        {
-          "chunk_text": "use an unspecified percentage of awarded funds for administrative costs; (6) Clarifying that eligible homeowners or homebuyers under the program shall own no other real property; (7) Expanding the terms of the required indemnification agreement to include the counties and county officers, agents, and employees; (8) Inserting language to require",
-          "chunk_id": 349,
-          "document_name": "HB740_SD1_SSCR1179_"
-        },
-        {
-          "chunk_text": "process. Your Committee further notes that loans or other forms of investment, rather than a grant program, would allow the State to recover on its investment, thereby enabling the State to finance additional ADUs in the future. For example, the Dwelling Unit Revolving Fund Equity Program enables the State to",
-          "chunk_id": 344,
-          "document_name": "HB740_SD1_SSCR1179_"
-        },
-        {
-          "chunk_text": "Dwelling Unit Revolving Fund Equity Program enables the State to share in the capital gain of units receiving state funds. Alternatively, other ways for the State to unlock the value of its investment and maximize future housing construction should be explored. Your Committee has amended this measure by: (1) Changing",
-          "chunk_id": 345,
-          "document_name": "HB740_SD1_SSCR1179_"
-        },
-        {
-          "chunk_text": "county officers, agents, and employees; (8) Inserting language to require the program to prioritize homeowners or homebuyers and prospective tenants that are government employees; (9) Inserting language to require a homeowner participating in the purchase of equity program to repay HHFDC its prorated share of the appraised value of the",
-          "chunk_id": 350,
-          "document_name": "HB740_SD1_SSCR1179_"
-        },
-        {
-          "chunk_text": "HHFDC its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first; (10) Clarifying that each dwelling unit on the property shall be occupied exclusively by owner-occupants or tenants who meet certain",
-          "chunk_id": 351,
-          "document_name": "HB740_SD1_SSCR1179_"
-        }
-      ],
       "11": [
         {
           "chunk_text": "The legislature believes that it is important to promote the development of additional housing while securing that housing for local residents working in Hawaii. Accordingly, the purpose of this Act is to establish an accessory dwelling unit financing and deed restriction program under the Hawaii housing finance and development corporation.",
           "chunk_id": 197,
+          "document_name": "HB740_SD1"
+        },
+        {
+          "chunk_text": "Accessory Dwelling Units; Purchase of Equity; Voluntary Deed Restrictions Description: Establishes the Accessory Dwelling Unit Financing and Deed Restriction Program to allocate funds to the counties for the purchase of equity in an accessory dwelling unit by the State. Specifies eligible homeowners or homebuyers for the Program to finance construction",
+          "chunk_id": 327,
           "document_name": "HB740_SD1"
         },
         {
@@ -3033,18 +3001,23 @@
           "document_name": "HB740_SD1"
         },
         {
-          "chunk_text": "provided further that the corporation shall not allocate more than $2,000,000 per year under this subpart. A county may use up to per cent of allocated funds for administrative costs. (c) A county may deposit funds received from the corporation pursuant to subsection (b) into an escrow account until the",
-          "chunk_id": 210,
-          "document_name": "HB740_SD1"
-        },
-        {
           "chunk_text": "section 2 of this Act, including any proposed legislation, to the legislature no later than twenty days prior to the convening of the regular session of 2031 . SECTION 9. In codifying the new sections added by section 2 of this Act, the revisor of statutes shall substitute appropriate section",
           "chunk_id": 322,
           "document_name": "HB740_SD1"
         },
         {
-          "chunk_text": "income[ . ] ; and (4) The administration and purchase of deed restrictions as part of the accessory dwelling unit financing and deed restriction program under subpart ; provided that there shall be no area median income requirements for moneys expended for the purposes of this program. \" SECTION 6",
-          "chunk_id": 299,
+          "chunk_text": "provided further that the corporation shall not allocate more than $2,000,000 per year under this subpart. A county may use up to per cent of allocated funds for administrative costs. (c) A county may deposit funds received from the corporation pursuant to subsection (b) into an escrow account until the",
+          "chunk_id": 210,
+          "document_name": "HB740_SD1"
+        },
+        {
+          "chunk_text": "deed restriction program; established. (a) There shall be established within the corporation an accessory dwelling unit financing and deed restriction program. Under the accessory dwelling unit financing and deed restriction program, the corporation may allocate funds from the rental housing revolving fund established pursuant to section 201H-202 to a county",
+          "chunk_id": 206,
+          "document_name": "HB740_SD1"
+        },
+        {
+          "chunk_text": "revolving fund established pursuant to section 201H-202 to a county to: (1) Purchase equity from eligible homeowners or homebuyers to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of accessory dwelling units; and (2) Purchase deed restrictions from eligible homeowners or homebuyers to be placed",
+          "chunk_id": 207,
           "document_name": "HB740_SD1"
         },
         {
@@ -3053,13 +3026,28 @@
           "document_name": "HB740_SD1"
         },
         {
-          "chunk_text": "section within one year of receipt, the moneys shall be returned to the corporation and placed in the rental housing revolving fund established pursuant to section 201H-202. ( l ) The corporation and each county may establish, revise, charge, and collect fees and premiums and impose costs as necessary, reasonable,",
-          "chunk_id": 227,
+          "chunk_text": "allocate a dollar amount necessary for a county to carry out subsection (a); provided that the total contribution amount from a county distributed per accessory dwelling unit shall not exceed eight per cent of the appraised value of the property; provided further that the corporation shall not allocate more than",
+          "chunk_id": 209,
           "document_name": "HB740_SD1"
         },
         {
-          "chunk_text": "sale, to be collected by the corporation and placed in the rental housing revolving fund established under section 201H‑202. (j) A homeowner participating in the purchase of equity established pursuant to this subpart shall repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit,",
-          "chunk_id": 225,
+          "chunk_text": "collect fees and premiums and impose costs as necessary, reasonable, or convenient to effectuate the purposes of this subpart. ( m ) The corporation may adopt rules pursuant to chapter 91 for the purposes of this subpart. Each county may adopt rules pursuant to chapter 91 for purposes of this",
+          "chunk_id": 228,
+          "document_name": "HB740_SD1"
+        },
+        {
+          "chunk_text": "covenants, and restrictions with a requisite first position. ( h ) Counties shall be responsible for validating the evidence and ensuring compliance with this subpart. Counties may contract with non-government persons or entities to ensure compliance with this subpart. Counties shall report any property not in compliance with this subpart",
+          "chunk_id": 222,
+          "document_name": "HB740_SD1"
+        },
+        {
+          "chunk_text": "expended for the purposes of this program. \" SECTION 6 . Section 247-3, Hawaii Revised Statutes, is amended to read as follows: \" §247-3 Exemptions. The tax imposed by section 247-1 shall not apply to: (1) Any document or instrument that is executed [ prior to ] before January 1,",
+          "chunk_id": 300,
+          "document_name": "HB740_SD1"
+        },
+        {
+          "chunk_text": "shall be recorded against the property and shall run with the land in perpetuity, binding all future owners, successors, and assigns. (b) Notwithstanding any other law to the contrary, a deed restriction placed on a property and owned by a county pursuant to this subpart shall require that each dwelling",
+          "chunk_id": 230,
           "document_name": "HB740_SD1"
         },
         {
@@ -3068,14 +3056,98 @@
           "document_name": "HB740_SD1"
         },
         {
-          "chunk_text": "adopt rules pursuant to chapter 91 for purposes of this subpart; provided that the rules shall not conflict with rules adopted by the corporation. § 201H-C Deed restriction; requirements. (a) Notwithstanding any other law to the contrary, a deed restriction shall be recorded against the property and shall run with",
-          "chunk_id": 229,
+          "chunk_text": "sale, to be collected by the corporation and placed in the rental housing revolving fund established under section 201H‑202. (j) A homeowner participating in the purchase of equity established pursuant to this subpart shall repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit,",
+          "chunk_id": 225,
           "document_name": "HB740_SD1"
         },
         {
-          "chunk_text": "shall be recorded against the property and shall run with the land in perpetuity, binding all future owners, successors, and assigns. (b) Notwithstanding any other law to the contrary, a deed restriction placed on a property and owned by a county pursuant to this subpart shall require that each dwelling",
-          "chunk_id": 230,
+          "chunk_text": "section within one year of receipt, the moneys shall be returned to the corporation and placed in the rental housing revolving fund established pursuant to section 201H-202. ( l ) The corporation and each county may establish, revise, charge, and collect fees and premiums and impose costs as necessary, reasonable,",
+          "chunk_id": 227,
           "document_name": "HB740_SD1"
+        },
+        {
+          "chunk_text": "the deed restriction has been entered into, the owner of the property shall submit a written statement with accompanying evidence to the county verifying the property was occupied by a qualified owner-occupant or tenant during all of the prior calendar year; provided that, if applicable, a copy of the lease",
+          "chunk_id": 239,
+          "document_name": "HB740_SD1"
+        },
+        {
+          "chunk_text": "transfer on death deed as authorized under chapter 527[ . ] ; and (18) Any document or instrument conveying real property with a county-owned deed restriction pursuant to subpart , part III of chapter 201H, including any document or instrument conveying the county-owned deed restriction. \" SECTION 7 . Section",
+          "chunk_id": 315,
+          "document_name": "HB740_SD1"
+        }
+      ],
+      "12": [
+        {
+          "chunk_text": "Restriction Program to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on such property. Your Committee received testimony in support of this",
+          "chunk_id": 332,
+          "document_name": "HB740_SD1_SSCR1179_"
+        },
+        {
+          "chunk_text": "distributed per accessory dwelling unit shall not exceed eight percent of the appraised value of the property; (4) Specifying that HHFDC shall not allocate more than $2,000,000 per year for the program between all counties; (5) Authorizing the counties to use an unspecified percentage of awarded funds for administrative costs;",
+          "chunk_id": 348,
+          "document_name": "HB740_SD1_SSCR1179_"
+        },
+        {
+          "chunk_text": "explored. Your Committee has amended this measure by: (1) Changing the source of funding from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund; (2) Changing the Accessory Dwelling Unit Financing and Deed Restriction Program from a grant program to an equity purchase program; (3) Clarifying that the",
+          "chunk_id": 346,
+          "document_name": "HB740_SD1_SSCR1179_"
+        },
+        {
+          "chunk_text": "ADUs as an innovative approach to increase housing inventory but noting the County's existing challenges to implement this measure in its current form with regard to capacity, lack of positions and staff, potential impacts to real property tax revenues, eligibility criteria, implementation timelines, enforceability, and potential liability. Your Committee finds",
+          "chunk_id": 342,
+          "document_name": "HB740_SD1_SSCR1179_"
+        },
+        {
+          "chunk_text": "for homeowners interested in constructing ADUs, including high construction costs, financing challenges, and infrastructure insufficiencies. Incentivizing the construction of ADUs through the deed restriction program established by this measure could help increase housing stock that aligns with specific community needs while ensuring the units constructed are occupied by local workers,",
+          "chunk_id": 338,
+          "document_name": "HB740_SD1_SSCR1179_"
+        },
+        {
+          "chunk_text": "while ensuring the units constructed are occupied by local workers, thereby maintaining employment within the State and preventing the conversion of the units into vacation rentals or investment properties and reducing speculation in the State's housing market. Your Committee notes, however, that the counties already have the authority to implement",
+          "chunk_id": 339,
+          "document_name": "HB740_SD1_SSCR1179_"
+        },
+        {
+          "chunk_text": "HHFDC its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first; (10) Clarifying that each dwelling unit on the property shall be occupied exclusively by owner-occupants or tenants who meet certain",
+          "chunk_id": 351,
+          "document_name": "HB740_SD1_SSCR1179_"
+        },
+        {
+          "chunk_text": "(12) Clarifying the exemption to the Conveyance Tax shall apply to taxable years beginning January 1, 2026; (13) Sunsetting the program on December 31, 2030; (14) Inserting an effective date of July 1, 2050, to encourage further discussion; and (15) Making technical, nonsubstantive amendments for the purposes of clarity and",
+          "chunk_id": 353,
+          "document_name": "HB740_SD1_SSCR1179_"
+        },
+        {
+          "chunk_text": "be occupied exclusively by owner-occupants or tenants who meet certain eligibility criteria; (11) Requiring HHFDC to submit a report to the Legislature evaluating the program no later than twenty days prior to the convening of the Regular Session of 2031; (12) Clarifying the exemption to the Conveyance Tax shall apply",
+          "chunk_id": 352,
+          "document_name": "HB740_SD1_SSCR1179_"
+        },
+        {
+          "chunk_text": "use an unspecified percentage of awarded funds for administrative costs; (6) Clarifying that eligible homeowners or homebuyers under the program shall own no other real property; (7) Expanding the terms of the required indemnification agreement to include the counties and county officers, agents, and employees; (8) Inserting language to require",
+          "chunk_id": 349,
+          "document_name": "HB740_SD1_SSCR1179_"
+        },
+        {
+          "chunk_text": "county officers, agents, and employees; (8) Inserting language to require the program to prioritize homeowners or homebuyers and prospective tenants that are government employees; (9) Inserting language to require a homeowner participating in the purchase of equity program to repay HHFDC its prorated share of the appraised value of the",
+          "chunk_id": 350,
+          "document_name": "HB740_SD1_SSCR1179_"
+        }
+      ],
+      "10": [
+        {
+          "chunk_text": "Restriction program as a way to increase the inventory of rental units in the State. In addition, the deed restriction program will create an inventory of homes for local residents, stabilize home prices, and reduce speculation in our housing market. Thank you for the opportunity to testify on this bill.",
+          "chunk_id": 4,
+          "document_name": "HB740_HD2_TESTIMONY_HOU_03-11-25_"
+        },
+        {
+          "chunk_text": "restrictions under the program is exempt from the Procurement Code. Makes a conforming change to section 201H-191, HRS, that governs the DURF. Amends section 247-3, HRS, to allow a conveyance tax exemption for any conveyance of real property with a county owned deed restriction under this program. Makes a conforming",
+          "chunk_id": 162,
+          "document_name": "HB740_HD2_TESTIMONY_HOU_03-11-25_"
+        },
+        {
+          "chunk_text": "source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce the program, or meet the annual reporting requirements that will continue for the length of recorded deed restrictions, potentially into perpetuity, even if program funding is terminated at some point in the future. The Honorable",
+          "chunk_id": 36,
+          "document_name": "HB740_HD2_TESTIMONY_HOU_03-11-25_"
         }
       ]
     },
@@ -3099,19 +3171,7 @@
     "sentence_chunk_mapping": [
       {
         "section": "overview",
-        "sentence": "This measure has been amended to change the Accessory Dwelling Unit Financing and Deed Restriction Program from a grant program to an equity purchase program.",
-        "chunks": [
-          {
-            "chunk_id": 346,
-            "citation_number": 12,
-            "chunk_text": "explored. Your Committee has amended this measure by: (1) Changing the source of funding from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund; (2) Changing the Accessory Dwelling Unit Financing and Deed Restriction Program from a grant program to an equity purchase program; (3) Clarifying that the",
-            "document_name": "HB740_SD1_SSCR1179_"
-          }
-        ]
-      },
-      {
-        "section": "overview",
-        "sentence": "The purpose of this Act is to establish an accessory dwelling unit financing and deed restriction program to promote the development of additional housing while securing that housing for local residents working in Hawaii.",
+        "sentence": "The purpose of this Act is to establish an accessory dwelling unit financing and deed restriction program under the Hawaii housing finance and development corporation.",
         "chunks": [
           {
             "chunk_id": 197,
@@ -3123,6 +3183,300 @@
       },
       {
         "section": "overview",
+        "sentence": "This measure establishes the Accessory Dwelling Unit Financing and Deed Restriction Program to allocate funds to the counties for the purchase of equity from eligible homeowners or homebuyers to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on the property.",
+        "chunks": [
+          {
+            "chunk_id": 327,
+            "citation_number": 11,
+            "chunk_text": "Accessory Dwelling Units; Purchase of Equity; Voluntary Deed Restrictions Description: Establishes the Accessory Dwelling Unit Financing and Deed Restriction Program to allocate funds to the counties for the purchase of equity in an accessory dwelling unit by the State. Specifies eligible homeowners or homebuyers for the Program to finance construction",
+            "document_name": "HB740_SD1"
+          },
+          {
+            "chunk_id": 332,
+            "citation_number": 12,
+            "chunk_text": "Restriction Program to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on such property. Your Committee received testimony in support of this",
+            "document_name": "HB740_SD1_SSCR1179_"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "The program sunsets on January 1, 2031, and requires the Hawaii housing finance and development corporation to submit a report of its evaluation to the legislature.",
+        "chunks": [
+          {
+            "chunk_id": 325,
+            "citation_number": 11,
+            "chunk_text": "pursuant to section 4 of Act 150, Session Laws of Hawaii 2024; provided further that section 6 shall take effect on January 1, 2026; provided further that this Act shall be repealed on January 1, 2031, and sections 46-15.2, 103D-102, 201H-202, 247-3, and 525‑4, Hawaii Revised Statutes, shall be reenacted",
+            "document_name": "HB740_SD1"
+          },
+          {
+            "chunk_id": 322,
+            "citation_number": 11,
+            "chunk_text": "section 2 of this Act, including any proposed legislation, to the legislature no later than twenty days prior to the convening of the regular session of 2031 . SECTION 9. In codifying the new sections added by section 2 of this Act, the revisor of statutes shall substitute appropriate section",
+            "document_name": "HB740_SD1"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The corporation shall not allocate more than $2,000,000.00 (HB740_SD1_.HTM.txt) per year for the program between all counties.",
+        "chunks": [
+          {
+            "chunk_id": 348,
+            "citation_number": 12,
+            "chunk_text": "distributed per accessory dwelling unit shall not exceed eight percent of the appraised value of the property; (4) Specifying that HHFDC shall not allocate more than $2,000,000 per year for the program between all counties; (5) Authorizing the counties to use an unspecified percentage of awarded funds for administrative costs;",
+            "document_name": "HB740_SD1_SSCR1179_"
+          },
+          {
+            "chunk_id": 210,
+            "citation_number": 11,
+            "chunk_text": "provided further that the corporation shall not allocate more than $2,000,000 per year under this subpart. A county may use up to per cent of allocated funds for administrative costs. (c) A county may deposit funds received from the corporation pursuant to subsection (b) into an escrow account until the",
+            "document_name": "HB740_SD1"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "Funds are allocated from the rental housing revolving fund to counties to purchase equity from eligible homeowners or homebuyers to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of accessory dwelling units.",
+        "chunks": [
+          {
+            "chunk_id": 206,
+            "citation_number": 11,
+            "chunk_text": "deed restriction program; established. (a) There shall be established within the corporation an accessory dwelling unit financing and deed restriction program. Under the accessory dwelling unit financing and deed restriction program, the corporation may allocate funds from the rental housing revolving fund established pursuant to section 201H-202 to a county",
+            "document_name": "HB740_SD1"
+          },
+          {
+            "chunk_id": 207,
+            "citation_number": 11,
+            "chunk_text": "revolving fund established pursuant to section 201H-202 to a county to: (1) Purchase equity from eligible homeowners or homebuyers to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of accessory dwelling units; and (2) Purchase deed restrictions from eligible homeowners or homebuyers to be placed",
+            "document_name": "HB740_SD1"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "A county may use up to an unspecified per cent of allocated funds for administrative costs.",
+        "chunks": [
+          {
+            "chunk_id": 210,
+            "citation_number": 11,
+            "chunk_text": "provided further that the corporation shall not allocate more than $2,000,000 per year under this subpart. A county may use up to per cent of allocated funds for administrative costs. (c) A county may deposit funds received from the corporation pursuant to subsection (b) into an escrow account until the",
+            "document_name": "HB740_SD1"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The Accessory Dwelling Unit Financing and Deed Restriction Program was changed from a grant program to an equity purchase program.",
+        "chunks": [
+          {
+            "chunk_id": 346,
+            "citation_number": 12,
+            "chunk_text": "explored. Your Committee has amended this measure by: (1) Changing the source of funding from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund; (2) Changing the Accessory Dwelling Unit Financing and Deed Restriction Program from a grant program to an equity purchase program; (3) Clarifying that the",
+            "document_name": "HB740_SD1_SSCR1179_"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "A homeowner participating in the purchase of equity established pursuant to this subpart shall repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first.",
+        "chunks": [
+          {
+            "chunk_id": 226,
+            "citation_number": 11,
+            "chunk_text": "of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first. ( k ) If a county does not expend moneys allocated pursuant to this section within one year of receipt, the moneys shall be",
+            "document_name": "HB740_SD1"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The total contribution amount from a county distributed per accessory dwelling unit shall not exceed eight per cent of the appraised value of the property.",
+        "chunks": [
+          {
+            "chunk_id": 209,
+            "citation_number": 11,
+            "chunk_text": "allocate a dollar amount necessary for a county to carry out subsection (a); provided that the total contribution amount from a county distributed per accessory dwelling unit shall not exceed eight per cent of the appraised value of the property; provided further that the corporation shall not allocate more than",
+            "document_name": "HB740_SD1"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The Hawaii housing finance and development corporation (HHFDC) may allocate funds from the rental housing revolving fund to a county and may adopt rules pursuant to chapter 91 for the purposes of this subpart.",
+        "chunks": [
+          {
+            "chunk_id": 206,
+            "citation_number": 11,
+            "chunk_text": "deed restriction program; established. (a) There shall be established within the corporation an accessory dwelling unit financing and deed restriction program. Under the accessory dwelling unit financing and deed restriction program, the corporation may allocate funds from the rental housing revolving fund established pursuant to section 201H-202 to a county",
+            "document_name": "HB740_SD1"
+          },
+          {
+            "chunk_id": 228,
+            "citation_number": 11,
+            "chunk_text": "collect fees and premiums and impose costs as necessary, reasonable, or convenient to effectuate the purposes of this subpart. ( m ) The corporation may adopt rules pursuant to chapter 91 for the purposes of this subpart. Each county may adopt rules pursuant to chapter 91 for purposes of this",
+            "document_name": "HB740_SD1"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "Counties shall be responsible for validating the evidence and ensuring compliance with this subpart and may contract with non-government persons or entities to ensure compliance.",
+        "chunks": [
+          {
+            "chunk_id": 222,
+            "citation_number": 11,
+            "chunk_text": "covenants, and restrictions with a requisite first position. ( h ) Counties shall be responsible for validating the evidence and ensuring compliance with this subpart. Counties may contract with non-government persons or entities to ensure compliance with this subpart. Counties shall report any property not in compliance with this subpart",
+            "document_name": "HB740_SD1"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The City and County of Honolulu noted existing challenges to implement this measure in its current form with regard to capacity, lack of positions and staff, potential impacts to real property tax revenues, eligibility criteria, implementation timelines, enforceability, and potential liability.",
+        "chunks": [
+          {
+            "chunk_id": 342,
+            "citation_number": 12,
+            "chunk_text": "ADUs as an innovative approach to increase housing inventory but noting the County's existing challenges to implement this measure in its current form with regard to capacity, lack of positions and staff, potential impacts to real property tax revenues, eligibility criteria, implementation timelines, enforceability, and potential liability. Your Committee finds",
+            "document_name": "HB740_SD1_SSCR1179_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "Incentivizing the construction of ADUs through the deed restriction program established by this measure could help increase housing stock that aligns with specific community needs.",
+        "chunks": [
+          {
+            "chunk_id": 338,
+            "citation_number": 12,
+            "chunk_text": "for homeowners interested in constructing ADUs, including high construction costs, financing challenges, and infrastructure insufficiencies. Incentivizing the construction of ADUs through the deed restriction program established by this measure could help increase housing stock that aligns with specific community needs while ensuring the units constructed are occupied by local workers,",
+            "document_name": "HB740_SD1_SSCR1179_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "The deed restriction program will create an inventory of homes for local residents, stabilize home prices, and reduce speculation in our housing market.",
+        "chunks": [
+          {
+            "chunk_id": 4,
+            "citation_number": 10,
+            "chunk_text": "Restriction program as a way to increase the inventory of rental units in the State. In addition, the deed restriction program will create an inventory of homes for local residents, stabilize home prices, and reduce speculation in our housing market. Thank you for the opportunity to testify on this bill.",
+            "document_name": "HB740_HD2_TESTIMONY_HOU_03-11-25_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "This measure will prevent the conversion of the units into vacation rentals or investment properties and reducing speculation in the State's housing market.",
+        "chunks": [
+          {
+            "chunk_id": 339,
+            "citation_number": 12,
+            "chunk_text": "while ensuring the units constructed are occupied by local workers, thereby maintaining employment within the State and preventing the conversion of the units into vacation rentals or investment properties and reducing speculation in the State's housing market. Your Committee notes, however, that the counties already have the authority to implement",
+            "document_name": "HB740_SD1_SSCR1179_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "This measure changes the source of funding from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund and changes the program from a grant program to an equity purchase program.",
+        "chunks": [
+          {
+            "chunk_id": 346,
+            "citation_number": 12,
+            "chunk_text": "explored. Your Committee has amended this measure by: (1) Changing the source of funding from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund; (2) Changing the Accessory Dwelling Unit Financing and Deed Restriction Program from a grant program to an equity purchase program; (3) Clarifying that the",
+            "document_name": "HB740_SD1_SSCR1179_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The bill amends section 247-3, Hawaii Revised Statutes, to allow a conveyance tax exemption for any conveyance of real property with a county owned deed restriction under this program.",
+        "chunks": [
+          {
+            "chunk_id": 162,
+            "citation_number": 10,
+            "chunk_text": "restrictions under the program is exempt from the Procurement Code. Makes a conforming change to section 201H-191, HRS, that governs the DURF. Amends section 247-3, HRS, to allow a conveyance tax exemption for any conveyance of real property with a county owned deed restriction under this program. Makes a conforming",
+            "document_name": "HB740_HD2_TESTIMONY_HOU_03-11-25_"
+          },
+          {
+            "chunk_id": 300,
+            "citation_number": 11,
+            "chunk_text": "expended for the purposes of this program. \" SECTION 6 . Section 247-3, Hawaii Revised Statutes, is amended to read as follows: \" §247-3 Exemptions. The tax imposed by section 247-1 shall not apply to: (1) Any document or instrument that is executed [ prior to ] before January 1,",
+            "document_name": "HB740_SD1"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The deed restriction shall be recorded against the property and shall run with the land in perpetuity, binding all future owners, successors, and assigns.",
+        "chunks": [
+          {
+            "chunk_id": 230,
+            "citation_number": 11,
+            "chunk_text": "shall be recorded against the property and shall run with the land in perpetuity, binding all future owners, successors, and assigns. (b) Notwithstanding any other law to the contrary, a deed restriction placed on a property and owned by a county pursuant to this subpart shall require that each dwelling",
+            "document_name": "HB740_SD1"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The source of funding for the program is from the Rental Housing Revolving Fund.",
+        "chunks": [
+          {
+            "chunk_id": 346,
+            "citation_number": 12,
+            "chunk_text": "explored. Your Committee has amended this measure by: (1) Changing the source of funding from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund; (2) Changing the Accessory Dwelling Unit Financing and Deed Restriction Program from a grant program to an equity purchase program; (3) Clarifying that the",
+            "document_name": "HB740_SD1_SSCR1179_"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "If a property with a deed restriction is sold to a nonresident, the corporation shall be entitled to fifty per cent of appreciation at the time of sale, to be collected by the corporation and placed in the rental housing revolving fund.",
+        "chunks": [
+          {
+            "chunk_id": 224,
+            "citation_number": 11,
+            "chunk_text": "that any dwelling unit on the property has been rented to a nonresident, the corporation may bring action against the homeowner in the appropriate circuit court and shall be entitled to fifty per cent of appreciation at the time of sale, to be collected by the corporation and placed in",
+            "document_name": "HB740_SD1"
+          },
+          {
+            "chunk_id": 225,
+            "citation_number": 11,
+            "chunk_text": "sale, to be collected by the corporation and placed in the rental housing revolving fund established under section 201H‑202. (j) A homeowner participating in the purchase of equity established pursuant to this subpart shall repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit,",
+            "document_name": "HB740_SD1"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "A homeowner participating in the purchase of equity program shall repay HHFDC its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first.",
+        "chunks": [
+          {
+            "chunk_id": 351,
+            "citation_number": 12,
+            "chunk_text": "HHFDC its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first; (10) Clarifying that each dwelling unit on the property shall be occupied exclusively by owner-occupants or tenants who meet certain",
+            "document_name": "HB740_SD1_SSCR1179_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The corporation shall not allocate more than $2,000,000.00 (HB740_SD1_.HTM.txt) per year under this subpart.",
+        "chunks": [
+          {
+            "chunk_id": 210,
+            "citation_number": 11,
+            "chunk_text": "provided further that the corporation shall not allocate more than $2,000,000 per year under this subpart. A county may use up to per cent of allocated funds for administrative costs. (c) A county may deposit funds received from the corporation pursuant to subsection (b) into an escrow account until the",
+            "document_name": "HB740_SD1"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
         "sentence": "This Act shall be repealed on January 1, 2031.",
         "chunks": [
           {
@@ -3134,129 +3488,9 @@
         ]
       },
       {
-        "section": "appropriations",
-        "sentence": "The corporation shall not allocate more than $2,000,000 (HB740_SD1_.HTM.txt) per year under this subpart.",
+        "section": "six_year_fiscal_implications",
+        "sentence": "A homeowner participating in the purchase of equity program must repay HHFDC its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first.",
         "chunks": [
-          {
-            "chunk_id": 210,
-            "citation_number": 11,
-            "chunk_text": "provided further that the corporation shall not allocate more than $2,000,000 per year under this subpart. A county may use up to per cent of allocated funds for administrative costs. (c) A county may deposit funds received from the corporation pursuant to subsection (b) into an escrow account until the",
-            "document_name": "HB740_SD1"
-          }
-        ]
-      },
-      {
-        "section": "appropriations",
-        "sentence": "The committee hearing specifies that HHFDC shall not allocate more than $2,000,000 (HB740_SD1_SSCR1179_.htm.txt) per year for the program between all counties.",
-        "chunks": [
-          {
-            "chunk_id": 348,
-            "citation_number": 12,
-            "chunk_text": "distributed per accessory dwelling unit shall not exceed eight percent of the appraised value of the property; (4) Specifying that HHFDC shall not allocate more than $2,000,000 per year for the program between all counties; (5) Authorizing the counties to use an unspecified percentage of awarded funds for administrative costs;",
-            "document_name": "HB740_SD1_SSCR1179_"
-          }
-        ]
-      },
-      {
-        "section": "appropriations",
-        "sentence": "The counties are authorized to use an unspecified percentage of awarded funds for administrative costs.",
-        "chunks": [
-          {
-            "chunk_id": 349,
-            "citation_number": 12,
-            "chunk_text": "use an unspecified percentage of awarded funds for administrative costs; (6) Clarifying that eligible homeowners or homebuyers under the program shall own no other real property; (7) Expanding the terms of the required indemnification agreement to include the counties and county officers, agents, and employees; (8) Inserting language to require",
-            "document_name": "HB740_SD1_SSCR1179_"
-          }
-        ]
-      },
-      {
-        "section": "assumptions_and_methodology",
-        "sentence": "The Committee notes that loans or other forms of investment, rather than a grant program, would allow the State to recover on its investment, thereby enabling the State to finance additional ADUs in the future.",
-        "chunks": [
-          {
-            "chunk_id": 344,
-            "citation_number": 12,
-            "chunk_text": "process. Your Committee further notes that loans or other forms of investment, rather than a grant program, would allow the State to recover on its investment, thereby enabling the State to finance additional ADUs in the future. For example, the Dwelling Unit Revolving Fund Equity Program enables the State to",
-            "document_name": "HB740_SD1_SSCR1179_"
-          }
-        ]
-      },
-      {
-        "section": "assumptions_and_methodology",
-        "sentence": "The Dwelling Unit Revolving Fund Equity Program is an example that enables the State to share in the capital gain of units receiving state funds.",
-        "chunks": [
-          {
-            "chunk_id": 344,
-            "citation_number": 12,
-            "chunk_text": "process. Your Committee further notes that loans or other forms of investment, rather than a grant program, would allow the State to recover on its investment, thereby enabling the State to finance additional ADUs in the future. For example, the Dwelling Unit Revolving Fund Equity Program enables the State to",
-            "document_name": "HB740_SD1_SSCR1179_"
-          },
-          {
-            "chunk_id": 345,
-            "citation_number": 12,
-            "chunk_text": "Dwelling Unit Revolving Fund Equity Program enables the State to share in the capital gain of units receiving state funds. Alternatively, other ways for the State to unlock the value of its investment and maximize future housing construction should be explored. Your Committee has amended this measure by: (1) Changing",
-            "document_name": "HB740_SD1_SSCR1179_"
-          }
-        ]
-      },
-      {
-        "section": "assumptions_and_methodology",
-        "sentence": "It is suggested that other ways for the State to unlock the value of its investment and maximize future housing construction should be explored.",
-        "chunks": [
-          {
-            "chunk_id": 345,
-            "citation_number": 12,
-            "chunk_text": "Dwelling Unit Revolving Fund Equity Program enables the State to share in the capital gain of units receiving state funds. Alternatively, other ways for the State to unlock the value of its investment and maximize future housing construction should be explored. Your Committee has amended this measure by: (1) Changing",
-            "document_name": "HB740_SD1_SSCR1179_"
-          }
-        ]
-      },
-      {
-        "section": "agency_impact",
-        "sentence": "The terms of the required indemnification agreement have been expanded to include the counties and county officers, agents, and employees, addressing a previous concern about liability.",
-        "chunks": [
-          {
-            "chunk_id": 349,
-            "citation_number": 12,
-            "chunk_text": "use an unspecified percentage of awarded funds for administrative costs; (6) Clarifying that eligible homeowners or homebuyers under the program shall own no other real property; (7) Expanding the terms of the required indemnification agreement to include the counties and county officers, agents, and employees; (8) Inserting language to require",
-            "document_name": "HB740_SD1_SSCR1179_"
-          }
-        ]
-      },
-      {
-        "section": "agency_impact",
-        "sentence": "The Hawaii housing finance and development corporation is required to submit a report of its evaluation of the program to the legislature no later than twenty days prior to the convening of the regular session of 2031.",
-        "chunks": [
-          {
-            "chunk_id": 322,
-            "citation_number": 11,
-            "chunk_text": "section 2 of this Act, including any proposed legislation, to the legislature no later than twenty days prior to the convening of the regular session of 2031 . SECTION 9. In codifying the new sections added by section 2 of this Act, the revisor of statutes shall substitute appropriate section",
-            "document_name": "HB740_SD1"
-          }
-        ]
-      },
-      {
-        "section": "policy_impact",
-        "sentence": "The program has been changed from a grant program to an equity purchase program.",
-        "chunks": [
-          {
-            "chunk_id": 346,
-            "citation_number": 12,
-            "chunk_text": "explored. Your Committee has amended this measure by: (1) Changing the source of funding from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund; (2) Changing the Accessory Dwelling Unit Financing and Deed Restriction Program from a grant program to an equity purchase program; (3) Clarifying that the",
-            "document_name": "HB740_SD1_SSCR1179_"
-          }
-        ]
-      },
-      {
-        "section": "policy_impact",
-        "sentence": "A new provision requires a homeowner participating in the purchase of equity program to repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first.",
-        "chunks": [
-          {
-            "chunk_id": 350,
-            "citation_number": 12,
-            "chunk_text": "county officers, agents, and employees; (8) Inserting language to require the program to prioritize homeowners or homebuyers and prospective tenants that are government employees; (9) Inserting language to require a homeowner participating in the purchase of equity program to repay HHFDC its prorated share of the appraised value of the",
-            "document_name": "HB740_SD1_SSCR1179_"
-          },
           {
             "chunk_id": 351,
             "citation_number": 12,
@@ -3266,43 +3500,7 @@
         ]
       },
       {
-        "section": "policy_impact",
-        "sentence": "The amended measure inserts language to require the program to prioritize homeowners or homebuyers and prospective tenants that are government employees.",
-        "chunks": [
-          {
-            "chunk_id": 350,
-            "citation_number": 12,
-            "chunk_text": "county officers, agents, and employees; (8) Inserting language to require the program to prioritize homeowners or homebuyers and prospective tenants that are government employees; (9) Inserting language to require a homeowner participating in the purchase of equity program to repay HHFDC its prorated share of the appraised value of the",
-            "document_name": "HB740_SD1_SSCR1179_"
-          }
-        ]
-      },
-      {
-        "section": "revenue_sources",
-        "sentence": "The source of funding for the program has been changed from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund.",
-        "chunks": [
-          {
-            "chunk_id": 346,
-            "citation_number": 12,
-            "chunk_text": "explored. Your Committee has amended this measure by: (1) Changing the source of funding from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund; (2) Changing the Accessory Dwelling Unit Financing and Deed Restriction Program from a grant program to an equity purchase program; (3) Clarifying that the",
-            "document_name": "HB740_SD1_SSCR1179_"
-          }
-        ]
-      },
-      {
-        "section": "revenue_sources",
-        "sentence": "Moneys in the Rental Housing Revolving fund shall be used for the administration and purchase of deed restrictions as part of the accessory dwelling unit financing and deed restriction program.",
-        "chunks": [
-          {
-            "chunk_id": 299,
-            "citation_number": 11,
-            "chunk_text": "income[ . ] ; and (4) The administration and purchase of deed restrictions as part of the accessory dwelling unit financing and deed restriction program under subpart ; provided that there shall be no area median income requirements for moneys expended for the purposes of this program. \" SECTION 6",
-            "document_name": "HB740_SD1"
-          }
-        ]
-      },
-      {
-        "section": "revenue_sources",
+        "section": "six_year_fiscal_implications",
         "sentence": "If a county does not expend moneys allocated pursuant to this section within one year of receipt, the moneys shall be returned to the corporation and placed in the rental housing revolving fund.",
         "chunks": [
           {
@@ -3321,14 +3519,8 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "The Hawaii Housing Finance and Development Corporation (HHFDC) shall not allocate more than $2,000,000 (HB740_SD1_.HTM.txt) per year for the program between all counties.",
+        "sentence": "The counties are authorized to use an unspecified percentage of awarded funds for administrative costs.",
         "chunks": [
-          {
-            "chunk_id": 210,
-            "citation_number": 11,
-            "chunk_text": "provided further that the corporation shall not allocate more than $2,000,000 per year under this subpart. A county may use up to per cent of allocated funds for administrative costs. (c) A county may deposit funds received from the corporation pursuant to subsection (b) into an escrow account until the",
-            "document_name": "HB740_SD1"
-          },
           {
             "chunk_id": 348,
             "citation_number": 12,
@@ -3339,25 +3531,55 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "A homeowner participating in the program shall repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first.",
+        "sentence": "The owner of the property shall submit a written statement with accompanying evidence to the county verifying the property was occupied by a qualified owner-occupant or tenant during all of the prior calendar year.",
         "chunks": [
           {
-            "chunk_id": 225,
+            "chunk_id": 239,
             "citation_number": 11,
-            "chunk_text": "sale, to be collected by the corporation and placed in the rental housing revolving fund established under section 201H‑202. (j) A homeowner participating in the purchase of equity established pursuant to this subpart shall repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit,",
-            "document_name": "HB740_SD1"
-          },
-          {
-            "chunk_id": 226,
-            "citation_number": 11,
-            "chunk_text": "of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property, whichever occurs first. ( k ) If a county does not expend moneys allocated pursuant to this section within one year of receipt, the moneys shall be",
+            "chunk_text": "the deed restriction has been entered into, the owner of the property shall submit a written statement with accompanying evidence to the county verifying the property was occupied by a qualified owner-occupant or tenant during all of the prior calendar year; provided that, if applicable, a copy of the lease",
             "document_name": "HB740_SD1"
           }
         ]
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "If a property with a deed restriction is sold to a nonresident, the corporation may bring action against the homeowner and shall be entitled to fifty per cent of appreciation at the time of sale, to be collected and placed in the rental housing revolving fund.",
+        "sentence": "This creates an ongoing administrative responsibility for counties.",
+        "chunks": [
+          {
+            "chunk_id": 36,
+            "citation_number": 10,
+            "chunk_text": "source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce the program, or meet the annual reporting requirements that will continue for the length of recorded deed restrictions, potentially into perpetuity, even if program funding is terminated at some point in the future. The Honorable",
+            "document_name": "HB740_HD2_TESTIMONY_HOU_03-11-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The exemption to the Conveyance Tax shall apply to taxable years beginning January 1, 2026.",
+        "chunks": [
+          {
+            "chunk_id": 353,
+            "citation_number": 12,
+            "chunk_text": "(12) Clarifying the exemption to the Conveyance Tax shall apply to taxable years beginning January 1, 2026; (13) Sunsetting the program on December 31, 2030; (14) Inserting an effective date of July 1, 2050, to encourage further discussion; and (15) Making technical, nonsubstantive amendments for the purposes of clarity and",
+            "document_name": "HB740_SD1_SSCR1179_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The bill has an effective date of July 1, 2050, to encourage further discussion.",
+        "chunks": [
+          {
+            "chunk_id": 353,
+            "citation_number": 12,
+            "chunk_text": "(12) Clarifying the exemption to the Conveyance Tax shall apply to taxable years beginning January 1, 2026; (13) Sunsetting the program on December 31, 2030; (14) Inserting an effective date of July 1, 2050, to encourage further discussion; and (15) Making technical, nonsubstantive amendments for the purposes of clarity and",
+            "document_name": "HB740_SD1_SSCR1179_"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "If a property with a deed restriction in place pursuant to this subpart is sold to a nonresident, the corporation is entitled to fifty per cent of appreciation at the time of sale, which is to be collected by the corporation and placed in the rental housing revolving fund.",
         "chunks": [
           {
             "chunk_id": 224,
@@ -3374,20 +3596,8 @@
         ]
       },
       {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The program is scheduled to sunset on January 1, 2031.",
-        "chunks": [
-          {
-            "chunk_id": 325,
-            "citation_number": 11,
-            "chunk_text": "pursuant to section 4 of Act 150, Session Laws of Hawaii 2024; provided further that section 6 shall take effect on January 1, 2026; provided further that this Act shall be repealed on January 1, 2031, and sections 46-15.2, 103D-102, 201H-202, 247-3, and 525‑4, Hawaii Revised Statutes, shall be reenacted",
-            "document_name": "HB740_SD1"
-          }
-        ]
-      },
-      {
         "section": "operating_revenue_impact",
-        "sentence": "The State may realize operating revenue from a new repayment clause that requires a homeowner to repay the corporation its prorated share of the appraised value with appreciation within fifteen years or upon sale or transfer.",
+        "sentence": "A homeowner participating in the equity program shall repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit, with appreciation, within fifteen years or upon sale or transfer of the property.",
         "chunks": [
           {
             "chunk_id": 226,
@@ -3399,25 +3609,61 @@
       },
       {
         "section": "operating_revenue_impact",
-        "sentence": "Additionally, if a property is sold to a nonresident, the corporation is entitled to fifty per cent of appreciation at the time of sale, which is to be collected by the corporation and placed in the rental housing revolving fund.",
+        "sentence": "The bill also exempts from conveyance tax any property with a county-owned deed restriction.",
         "chunks": [
           {
-            "chunk_id": 224,
+            "chunk_id": 315,
             "citation_number": 11,
-            "chunk_text": "that any dwelling unit on the property has been rented to a nonresident, the corporation may bring action against the homeowner in the appropriate circuit court and shall be entitled to fifty per cent of appreciation at the time of sale, to be collected by the corporation and placed in",
+            "chunk_text": "transfer on death deed as authorized under chapter 527[ . ] ; and (18) Any document or instrument conveying real property with a county-owned deed restriction pursuant to subpart , part III of chapter 201H, including any document or instrument conveying the county-owned deed restriction. \" SECTION 7 . Section",
+            "document_name": "HB740_SD1"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The corporation may allocate funds from the rental housing revolving fund to a county to purchase equity from eligible homeowners or homebuyers.",
+        "chunks": [
+          {
+            "chunk_id": 206,
+            "citation_number": 11,
+            "chunk_text": "deed restriction program; established. (a) There shall be established within the corporation an accessory dwelling unit financing and deed restriction program. Under the accessory dwelling unit financing and deed restriction program, the corporation may allocate funds from the rental housing revolving fund established pursuant to section 201H-202 to a county",
             "document_name": "HB740_SD1"
           },
           {
-            "chunk_id": 225,
+            "chunk_id": 207,
             "citation_number": 11,
-            "chunk_text": "sale, to be collected by the corporation and placed in the rental housing revolving fund established under section 201H‑202. (j) A homeowner participating in the purchase of equity established pursuant to this subpart shall repay the corporation its prorated share of the appraised value of the completed accessory dwelling unit,",
+            "chunk_text": "revolving fund established pursuant to section 201H-202 to a county to: (1) Purchase equity from eligible homeowners or homebuyers to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of accessory dwelling units; and (2) Purchase deed restrictions from eligible homeowners or homebuyers to be placed",
+            "document_name": "HB740_SD1"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "These funds are intended to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of accessory dwelling units.",
+        "chunks": [
+          {
+            "chunk_id": 207,
+            "citation_number": 11,
+            "chunk_text": "revolving fund established pursuant to section 201H-202 to a county to: (1) Purchase equity from eligible homeowners or homebuyers to finance construction costs, development costs, and non‑reoccurring closing costs associated with the construction of accessory dwelling units; and (2) Purchase deed restrictions from eligible homeowners or homebuyers to be placed",
+            "document_name": "HB740_SD1"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The total contribution amount from a county distributed per accessory dwelling unit shall not exceed eight per cent of the appraised value of the property.",
+        "chunks": [
+          {
+            "chunk_id": 209,
+            "citation_number": 11,
+            "chunk_text": "allocate a dollar amount necessary for a county to carry out subsection (a); provided that the total contribution amount from a county distributed per accessory dwelling unit shall not exceed eight per cent of the appraised value of the property; provided further that the corporation shall not allocate more than",
             "document_name": "HB740_SD1"
           }
         ]
       },
       {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "This Act is repealed on January 1, 2031, which sunsets the program and its associated fiscal obligations.",
+        "sentence": "The program is set to sunset on January 1, 2031.",
         "chunks": [
           {
             "chunk_id": 325,
@@ -3429,14 +3675,8 @@
       },
       {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "However, any deed restriction recorded against a property under the program shall run with the land in perpetuity, binding all future owners, successors, and assigns.",
+        "sentence": "A deed restriction shall be recorded against the property and shall run with the land in perpetuity, binding all future owners, successors, and assigns.",
         "chunks": [
-          {
-            "chunk_id": 229,
-            "citation_number": 11,
-            "chunk_text": "adopt rules pursuant to chapter 91 for purposes of this subpart; provided that the rules shall not conflict with rules adopted by the corporation. § 201H-C Deed restriction; requirements. (a) Notwithstanding any other law to the contrary, a deed restriction shall be recorded against the property and shall run with",
-            "document_name": "HB740_SD1"
-          },
           {
             "chunk_id": 230,
             "citation_number": 11,
@@ -3446,15 +3686,57 @@
         ]
       },
       {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "This creates a perpetual compliance and enforcement responsibility for counties, which will continue after program funding is terminated.",
+        "chunks": [
+          {
+            "chunk_id": 36,
+            "citation_number": 10,
+            "chunk_text": "source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce the program, or meet the annual reporting requirements that will continue for the length of recorded deed restrictions, potentially into perpetuity, even if program funding is terminated at some point in the future. The Honorable",
+            "document_name": "HB740_HD2_TESTIMONY_HOU_03-11-25_"
+          }
+        ]
+      },
+      {
         "section": "updates_from_previous_fiscal_note",
-        "sentence": "The program has been fundamentally changed from a grant program to an equity purchase program, with a new requirement for homeowners to repay the State's investment with appreciation within fifteen years or upon sale.",
+        "sentence": "The program has been significantly amended from a grant program to an equity purchase program.",
         "chunks": [
           {
             "chunk_id": 346,
             "citation_number": 12,
             "chunk_text": "explored. Your Committee has amended this measure by: (1) Changing the source of funding from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund; (2) Changing the Accessory Dwelling Unit Financing and Deed Restriction Program from a grant program to an equity purchase program; (3) Clarifying that the",
             "document_name": "HB740_SD1_SSCR1179_"
-          },
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The funding source was changed from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund.",
+        "chunks": [
+          {
+            "chunk_id": 346,
+            "citation_number": 12,
+            "chunk_text": "explored. Your Committee has amended this measure by: (1) Changing the source of funding from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund; (2) Changing the Accessory Dwelling Unit Financing and Deed Restriction Program from a grant program to an equity purchase program; (3) Clarifying that the",
+            "document_name": "HB740_SD1_SSCR1179_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "A specific annual funding limit has been established, specifying that HHFDC shall not allocate more than $2,000,000.00 (HB740_SD1_.HTM.txt) per year for the program between all counties.",
+        "chunks": [
+          {
+            "chunk_id": 348,
+            "citation_number": 12,
+            "chunk_text": "distributed per accessory dwelling unit shall not exceed eight percent of the appraised value of the property; (4) Specifying that HHFDC shall not allocate more than $2,000,000 per year for the program between all counties; (5) Authorizing the counties to use an unspecified percentage of awarded funds for administrative costs;",
+            "document_name": "HB740_SD1_SSCR1179_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "A repayment clause has been added, requiring a homeowner participating in the equity program to repay HHFDC its prorated share of the appraised value with appreciation within fifteen years or upon sale.",
+        "chunks": [
           {
             "chunk_id": 351,
             "citation_number": 12,
@@ -3465,43 +3747,37 @@
       },
       {
         "section": "updates_from_previous_fiscal_note",
-        "sentence": "The funding source has been switched from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund, and an annual allocation cap of $2,000,000 (HB740_SD1_SSCR1179_.htm.txt) is now specified.",
-        "chunks": [
-          {
-            "chunk_id": 346,
-            "citation_number": 12,
-            "chunk_text": "explored. Your Committee has amended this measure by: (1) Changing the source of funding from the Dwelling Unit Revolving Fund to the Rental Housing Revolving Fund; (2) Changing the Accessory Dwelling Unit Financing and Deed Restriction Program from a grant program to an equity purchase program; (3) Clarifying that the",
-            "document_name": "HB740_SD1_SSCR1179_"
-          },
-          {
-            "chunk_id": 348,
-            "citation_number": 12,
-            "chunk_text": "distributed per accessory dwelling unit shall not exceed eight percent of the appraised value of the property; (4) Specifying that HHFDC shall not allocate more than $2,000,000 per year for the program between all counties; (5) Authorizing the counties to use an unspecified percentage of awarded funds for administrative costs;",
-            "document_name": "HB740_SD1_SSCR1179_"
-          }
-        ]
-      },
-      {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "A key concern from the previous note regarding liability for county employees has been addressed by expanding the indemnification agreement to include county personnel.",
-        "chunks": [
-          {
-            "chunk_id": 349,
-            "citation_number": 12,
-            "chunk_text": "use an unspecified percentage of awarded funds for administrative costs; (6) Clarifying that eligible homeowners or homebuyers under the program shall own no other real property; (7) Expanding the terms of the required indemnification agreement to include the counties and county officers, agents, and employees; (8) Inserting language to require",
-            "document_name": "HB740_SD1_SSCR1179_"
-          }
-        ]
-      },
-      {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "The program is now set to sunset on January 1, 2031.",
+        "sentence": "A sunset date of January 1, 2031 has been inserted, and a legislative report on the program is now required.",
         "chunks": [
           {
             "chunk_id": 325,
             "citation_number": 11,
             "chunk_text": "pursuant to section 4 of Act 150, Session Laws of Hawaii 2024; provided further that section 6 shall take effect on January 1, 2026; provided further that this Act shall be repealed on January 1, 2031, and sections 46-15.2, 103D-102, 201H-202, 247-3, and 525‑4, Hawaii Revised Statutes, shall be reenacted",
             "document_name": "HB740_SD1"
+          },
+          {
+            "chunk_id": 352,
+            "citation_number": 12,
+            "chunk_text": "be occupied exclusively by owner-occupants or tenants who meet certain eligibility criteria; (11) Requiring HHFDC to submit a report to the Legislature evaluating the program no later than twenty days prior to the convening of the Regular Session of 2031; (12) Clarifying the exemption to the Conveyance Tax shall apply",
+            "document_name": "HB740_SD1_SSCR1179_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "Unlike the previous version, the bill now expands the indemnification agreement to include counties and their employees and requires prioritization for government employees as tenants and homeowners.",
+        "chunks": [
+          {
+            "chunk_id": 349,
+            "citation_number": 12,
+            "chunk_text": "use an unspecified percentage of awarded funds for administrative costs; (6) Clarifying that eligible homeowners or homebuyers under the program shall own no other real property; (7) Expanding the terms of the required indemnification agreement to include the counties and county officers, agents, and employees; (8) Inserting language to require",
+            "document_name": "HB740_SD1_SSCR1179_"
+          },
+          {
+            "chunk_id": 350,
+            "citation_number": 12,
+            "chunk_text": "county officers, agents, and employees; (8) Inserting language to require the program to prioritize homeowners or homebuyers and prospective tenants that are government employees; (9) Inserting language to require a homeowner participating in the purchase of equity program to repay HHFDC its prorated share of the appraised value of the",
+            "document_name": "HB740_SD1_SSCR1179_"
           }
         ]
       }
@@ -4939,6 +5215,6 @@
       }
     ]
   },
-  "generation_timestamp": "2025-10-16T15:27:24.408029",
-  "generation_timestamp_unix": 1760664444.408036
+  "generation_timestamp": "2025-10-24T12:56:24.879757",
+  "generation_timestamp_unix": 1761346584.879765
 }

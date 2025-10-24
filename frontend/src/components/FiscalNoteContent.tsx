@@ -548,6 +548,16 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
     };
   }, [isStrikeoutMode, strikethroughs, addToHistory]);
 
+  // Track citation occurrences across ALL sections to properly cycle through chunks
+  // This needs to be outside renderAtomsForSection so it persists across all sections
+  const citationOccurrencesRef = useRef<Record<number, number>>({});
+
+  // Reset citation occurrences when fiscal note changes
+  useEffect(() => {
+    citationOccurrencesRef.current = {};
+    console.log('🔄 Reset citation occurrences for new fiscal note');
+  }, [fiscalNote.filename]);
+
   // Render atoms for a section with strikethroughs applied
   const renderAtomsForSection = (sectionKey: string): React.ReactNode => {
     const atoms = sectionAtoms[sectionKey];
@@ -562,8 +572,8 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
       console.log(`📝 Rendering section "${sectionKey}" with ${sectionStrikethroughs.length} strikethroughs:`, sectionStrikethroughs);
     }
 
-    // Track citation occurrences within this section to cycle through chunks
-    const citationOccurrences: Record<number, number> = {};
+    // Use the ref to track citation occurrences across all sections
+    const citationOccurrences = citationOccurrencesRef.current;
 
     return atoms.map((atom, atomIndex) => {
       if (atom.type === 'text') {
@@ -656,12 +666,31 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
         const docInfo = enhancedDocumentMapping[citationNumber];
         const chunkData = chunkTextMap[citationNumber];
         
+        // DEBUG: Log citation data for inspection
+        console.log('🔍 Citation Debug Info:', {
+          citationNumber,
+          chunkId,
+          refId: atom.refId,
+          display: atom.display,
+          docInfo,
+          chunkDataAvailable: !!chunkData,
+          chunkDataLength: chunkData?.length || 0,
+          allChunks: chunkData,
+          enhancedDocumentMappingKeys: Object.keys(enhancedDocumentMapping),
+          chunkTextMapKeys: Object.keys(chunkTextMap)
+        });
+        
         // Determine which chunk to use
         let chunkInfo = chunkData?.[0];
         
         if (chunkId !== undefined && chunkData) {
           // Citation has explicit chunk ID - find the matching chunk
-          chunkInfo = chunkData.find(c => c.chunk_id === chunkId) || chunkData[0];
+          const foundChunk = chunkData.find(c => c.chunk_id === chunkId);
+          console.log('  🔎 Looking for chunk ID:', chunkId, 'in', chunkData.length, 'chunks');
+          console.log('  🔎 Available chunk IDs:', chunkData.map(c => c.chunk_id));
+          console.log('  🔎 Found matching chunk:', foundChunk ? `Yes (chunk_id: ${foundChunk.chunk_id})` : 'No, using fallback');
+          chunkInfo = foundChunk || chunkData[0];
+          console.log('  ✓ Using explicit chunk ID:', chunkId, 'Found:', !!foundChunk, 'Selected chunk_id:', chunkInfo?.chunk_id);
         } else if (chunkData && chunkData.length > 0) {
           // No explicit chunk ID - cycle through available chunks
           // Track how many times we've seen this citation number
@@ -674,11 +703,29 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
           // Cycle through chunks using modulo
           const chunkIndex = occurrenceIndex % chunkData.length;
           chunkInfo = chunkData[chunkIndex];
+          console.log('  ✓ Cycling chunks - occurrence:', occurrenceIndex, 'chunkIndex:', chunkIndex, 'of', chunkData.length, 'chunks, selected chunk_id:', chunkInfo?.chunk_id);
+        } else {
+          console.warn('  ⚠️ No chunk data available for citation:', citationNumber);
         }
+        
+        console.log('  → Selected chunkInfo:', {
+          chunk_text_preview: chunkInfo?.chunk_text?.substring(0, 100),
+          attribution_score: chunkInfo?.attribution_score,
+          chunk_id: chunkInfo?.chunk_id,
+          document_name: chunkInfo?.document_name,
+          sentence: chunkInfo?.sentence
+        });
         
         const displayNumber = chunkInfo?.chunk_id 
           ? `${citationNumber}.${chunkInfo.chunk_id}` 
           : citationNumber.toString();
+        
+        console.log('  📊 Final Display Calculation:', {
+          citationNumber,
+          'chunkInfo?.chunk_id': chunkInfo?.chunk_id,
+          calculatedDisplayNumber: displayNumber,
+          formula: `${citationNumber}.${chunkInfo?.chunk_id}`
+        });
         
         return (
           <span

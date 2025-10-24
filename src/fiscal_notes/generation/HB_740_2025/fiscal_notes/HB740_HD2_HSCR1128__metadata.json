@@ -16,17 +16,17 @@
     "HB740_HD2_HSCR1128_"
   ],
   "numbers_used": 2,
-  "prompt_length": 77803,
+  "prompt_length": 81878,
   "response_metadata": {
-    "response_text": "{\n  \"overview\": \"This measure establishes the Accessory Dwelling Unit (ADU) Financing and Deed Restriction Program to allocate funds to the counties to provide grants to eligible homeowners or homebuyers. [CHUNK_2] The Hawai‘i Housing Finance and Development Corporation (HHFDC) supports the program as a way to increase the inventory of rental units in the State. [CHUNK_4] The purpose of this measure is to establish the Accessory Dwelling Unit Financing and Deed Restriction Program to finance construction costs, development costs, and non-reoccurring closing costs and purchase deed restrictions on the property. [CHUNK_250]\",\n  \"appropriations\": \"\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"The City and County of Honolulu's Office of Housing has concerns about capacity challenges, lack of positions and staff, potential impacts to real property tax revenues, eligibility criteria, implementation timelines, enforceability, and potential liability. [CHUNK_17] The City and County of Honolulu does not currently have the capacity to administer this program, and the bill’s language is unclear if a portion of the DURF funds provided to the counties could be used for administrative funding purposes. [CHUNK_21] The bill creates an immunity for State officers, employees, and agents, but it leaves out county officers, employees, and agents who would be administering the program. [CHUNK_28]\",\n  \"economic_impact\": \"The average price of a home in Hawai‘i has now surpassed $800,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt). [CHUNK_97] According to a DBEDT report, Native Hawaiians in Hawai‘i have medium annual earnings falling below $40,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt) for full-time, year-round work. [CHUNK_100] Between July 2022 and July 2023 alone, an average of twelve people left Hawai‘i every day. [CHUNK_110]\",\n  \"policy_impact\": \"The Hawai‘i Association of REALTORS® has concerns that the deed restrictions contained in this measure are in perpetuity, which can be problematic in land use planning as communities change over time. [CHUNK_35] They suggest that the deed restrictions be amortized over 10 years but are open to other proposals for alternative timeframes. [CHUNK_36] The Office of Housing raises concerns about the lack of an AMI requirement and the absence of a restriction on short-term rentals, which may make the program ripe for abuse. [CHUNK_25]\",\n  \"revenue_sources\": \"This bill would enable the Hawai‘i Housing Finance and Development Corporation (HHFDC) to allocate funds from the Dwelling Unit Revolving Fund (DURF) to the counties. [CHUNK_13] The Department of Taxation (DOTAX) estimates no material revenue impact for this bill. [CHUNK_9] The City and County of Honolulu notes that the bill’s language is unclear if a portion of the DURF funds could be used for administrative funding purposes. [CHUNK_21]\",\n  \"six_year_fiscal_implications\": \"The City and County of Honolulu has concerns that there is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce the program. [CHUNK_18] The annual reporting requirements will continue for the length of recorded deed restrictions, potentially into perpetuity, even if program funding is terminated at some point in the future. [CHUNK_19] If the City was to take on the responsibility of purchasing and owning deed restrictions, it would need appropriate funding and time to either onboard new staff, train existing staff, or contract out to a third-party entity. [CHUNK_23] The time and skill required to negotiate the price of a deed restriction on a case-by-case basis alone would require extensive costs. [CHUNK_24]\",\n  \"operating_revenue_impact\": \"The Department of Taxation (DOTAX) estimates no material revenue impact for this bill. [CHUNK_9]\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"The bill requires counties to meet annual reporting requirements that will continue for the length of recorded deed restrictions, potentially into perpetuity. [CHUNK_19] These requirements would continue even if program funding is terminated at some point in the future. [CHUNK_19]\",\n  \"updates_from_previous_fiscal_note\": \"New testimony from the City and County of Honolulu raises significant concerns regarding its capacity to administer the program, citing a lack of positions, staff, and a dedicated funding source for FTE positions. [CHUNK_17] The City also notes that county officers and employees are not provided the same statutory immunity as state personnel under the bill. [CHUNK_28] The Hawai‘i Association of REALTORS® introduced new policy concerns, suggesting that the perpetual deed restrictions be amortized over a set timeframe instead. [CHUNK_36]\"\n}",
+    "response_text": "{\n  \"overview\": \"The purpose of this measure is to establish the Accessory Dwelling Unit Financing and Deed Restriction Program to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on the property. [CHUNK_250] This bill would enable the Hawai‘i Housing Finance and Development Corporation (HHFDC) to allocate funds from the Dwelling Unit Revolving Fund (DURF) to the counties for the purposes of providing grants to homeowners to support the development of ADUs, and for the counties to purchase and own deed restrictions on eligible properties. [CHUNK_14] The upfront costs of designing and permitting an ADU are barriers for many homeowners. [CHUNK_3]\",\n  \"appropriations\": \"This measure does not contain a specific appropriation. [CHUNK_249] The bill allocates Dwelling Unit Revolving Fund resources to counties to administer grants and enforce deed restrictions. [CHUNK_72] The bill would enable the Hawai‘i Housing Finance and Development Corporation (HHFDC) to allocate funds from the Dwelling Unit Revolving Fund (DURF) to the counties. [CHUNK_13]\",\n  \"assumptions_and_methodology\": \"The lack of an AMI requirement raises concerns about whether this program will indeed increase the supply of “affordable” housing in the State. [CHUNK_25] The time and skill required to negotiate the price of a deed restriction on a case-by-case basis alone would require extensive costs. [CHUNK_23] Estimates for ADU construction in Hawaii is about $250-$350 per square feet. [CHUNK_56]\",\n  \"agency_impact\": \"The City and County of Honolulu does not currently have the capacity to administer this program, and the bill’s language is unclear if a portion of the DURF funds provided to the counties could be used for administrative funding purposes. [CHUNK_21] There is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce the program. [CHUNK_18] The bill creates an immunity for State officers, employees, and agents, however, it leaves out county officers, employees, and agents. [CHUNK_28]\",\n  \"economic_impact\": \"The average price of a home in Hawai‘i has now surpassed $800,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt). [CHUNK_97] According to DBEDT’s 2024 report on Demographic, Social, and Economic Characteristics of Hawai‘i’s Race Grouos, around 62 percent of Native Hawaiians in Hawai‘i are employed, yet they earn significantly less than other major race groups in the state, with medium annual earnings falling below $40,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt) for full-time, year-round work. [CHUNK_100] By reducing financial barriers to ADU construction, this bill encourages homeowners to develop additional housing units on their properties. [CHUNK_101]\",\n  \"policy_impact\": \"This measure establishes the Accessory Dwelling Unit Financing and Deed Restriction Program. [CHUNK_67] The Hawai‘i Association of REALTORS® has concerns that the deed restrictions contained in this measure are in perpetuity. [CHUNK_35] The absence of a restriction on short-term rentals may make this program ripe for abuse. [CHUNK_25]\",\n  \"revenue_sources\": \"The bill allocates Dwelling Unit Revolving Fund resources to counties to administer grants and enforce deed restrictions. [CHUNK_72] HHFDC supports HB 740 HD2, which establishes the Accessory Dwelling Unit (ADU) Financing and Deed Restriction Program to allocate funds to the counties. [CHUNK_2] While it also allows the counties to establish and collect fees and premiums to cover these costs, there is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions. [CHUNK_18]\",\n  \"six_year_fiscal_implications\": \"The Department of Taxation (DOTAX) estimates no material revenue impact for this bill. [CHUNK_9] The measure has a defective effective date of July 1, 3000. [CHUNK_8] The City and County of Honolulu has concerns about capacity challenges, lack of positions and staff, and potential liability associated with the bill in its current form. [CHUNK_17] There is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce the program. [CHUNK_18] Annual reporting requirements will continue for the length of recorded deed restrictions, potentially into perpetuity, even if program funding is terminated at some point in the future. [CHUNK_19] If the City was to take on this responsibility, we would need appropriate funding and time to either onboard new staff with the required expertise, train new and existing staff, or contract out to a third-party entity. [CHUNK_23] The time and skill required to negotiate the price of a deed restriction on a case-by-case basis alone would require extensive costs. [CHUNK_23] DOTAX requests that if this bill is passed, section 6 take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed conveyance tax exemption. [CHUNK_9] Purchasing deed restrictions under the program is exempt from the Procurement Code. [CHUNK_203] The deed restrictions contained in this measure are in perpetuity. [CHUNK_35]\",\n  \"operating_revenue_impact\": \"The Department of Taxation (DOTAX) estimates no material revenue impact for this bill. [CHUNK_9] Section 6 of H.B. 740, H.D. 2, amends section 247-3, Hawaii Revised Statutes (HRS), to exempt from conveyance tax any property with a county-owned deed restriction. [CHUNK_7] DOTAX requests that if this bill is passed, section 6 take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed conveyance tax exemption. [CHUNK_9]\",\n  \"capital_expenditure_impact\": \"The measure allocates funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit. [CHUNK_250] These funds are allocated from the Dwelling Unit Revolving Fund to the counties. [CHUNK_13] The grant program will make it possible for more moderate-income homeowners to participate in creating housing solutions. [CHUNK_57]\",\n  \"fiscal_implications_after_6_years\": \"Annual reporting requirements will continue for the length of recorded deed restrictions, potentially into perpetuity, even if program funding is terminated at some point in the future. [CHUNK_19] Having deed restrictions on a property in perpetuity can be problematic especially in land use planning, as communities can change and uses for a property may need to change as well over time. [CHUNK_35] The perpetual deed restrictions ensure that these housing units will remain available for local workers and residents for generations to come. [CHUNK_58]\",\n  \"updates_from_previous_fiscal_note\": \"A significant update from the previous fiscal note, which projected an indeterminate loss of revenue, is that the Department of Taxation (DOTAX) now estimates no material revenue impact for this bill. [CHUNK_9] New testimony from the City and County of Honolulu highlights major agency impacts, stating it does not currently have the capacity to administer this program and citing a lack of dedicated funding for FTE positions, training, and enforcement. [CHUNK_18] [CHUNK_20] Additional economic context is provided, with testimony noting the average home price in Hawai‘i has now surpassed $800,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt) and that Native Hawaiian median annual earnings fall below $40,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt). [CHUNK_97] [CHUNK_100] Stakeholders have raised new policy concerns, including that deed restrictions are in perpetuity and that the program lacks specific affordability requirements. [CHUNK_35] [CHUNK_25]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 47237,
-      "candidates_token_count": 1113,
-      "total_token_count": 50161
+      "prompt_token_count": 48077,
+      "candidates_token_count": 1866,
+      "total_token_count": 51993
     },
     "candidates": [
       {
@@ -36,7 +36,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n  \"overview\": \"This measure establishes the Accessory Dwelling Unit (ADU) Financing and Deed Restriction Program to allocate funds to the counties to provide grants to eligible homeowners or homebuyers. [CHUNK_2] The Hawai‘i Housing Finance and Development Corporation (HHFDC) supports the program as a way to increase the inventory of rental units in the State. [CHUNK_4] The purpose of this measure is to establish the Accessory Dwelling Unit Financing and Deed Restriction Program to finance construction costs, development costs, and non-reoccurring closing costs and purchase deed restrictions on the property. [CHUNK_250]\",\n  \"appropriations\": \"\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"The City and County of Honolulu's Office of Housing has concerns about capacity challenges, lack of positions and staff, potential impacts to real property tax revenues, eligibility criteria, implementation timelines, enforceability, and potential liability. [CHUNK_17] The City and County of Honolulu does not currently have the capacity to administer this program, and the bill’s language is unclear if a portion of the DURF funds provided to the counties could be used for administrative funding purposes. [CHUNK_21] The bill creates an immunity for State officers, employees, and agents, but it leaves out county officers, employees, and agents who would be administering the program. [CHUNK_28]\",\n  \"economic_impact\": \"The average price of a home in Hawai‘i has now surpassed $800,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt). [CHUNK_97] According to a DBEDT report, Native Hawaiians in Hawai‘i have medium annual earnings falling below $40,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt) for full-time, year-round work. [CHUNK_100] Between July 2022 and July 2023 alone, an average of twelve people left Hawai‘i every day. [CHUNK_110]\",\n  \"policy_impact\": \"The Hawai‘i Association of REALTORS® has concerns that the deed restrictions contained in this measure are in perpetuity, which can be problematic in land use planning as communities change over time. [CHUNK_35] They suggest that the deed restrictions be amortized over 10 years but are open to other proposals for alternative timeframes. [CHUNK_36] The Office of Housing raises concerns about the lack of an AMI requirement and the absence of a restriction on short-term rentals, which may make the program ripe for abuse. [CHUNK_25]\",\n  \"revenue_sources\": \"This bill would enable the Hawai‘i Housing Finance and Development Corporation (HHFDC) to allocate funds from the Dwelling Unit Revolving Fund (DURF) to the counties. [CHUNK_13] The Department of Taxation (DOTAX) estimates no material revenue impact for this bill. [CHUNK_9] The City and County of Honolulu notes that the bill’s language is unclear if a portion of the DURF funds could be used for administrative funding purposes. [CHUNK_21]\",\n  \"six_year_fiscal_implications\": \"The City and County of Honolulu has concerns that there is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce the program. [CHUNK_18] The annual reporting requirements will continue for the length of recorded deed restrictions, potentially into perpetuity, even if program funding is terminated at some point in the future. [CHUNK_19] If the City was to take on the responsibility of purchasing and owning deed restrictions, it would need appropriate funding and time to either onboard new staff, train existing staff, or contract out to a third-party entity. [CHUNK_23] The time and skill required to negotiate the price of a deed restriction on a case-by-case basis alone would require extensive costs. [CHUNK_24]\",\n  \"operating_revenue_impact\": \"The Department of Taxation (DOTAX) estimates no material revenue impact for this bill. [CHUNK_9]\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"The bill requires counties to meet annual reporting requirements that will continue for the length of recorded deed restrictions, potentially into perpetuity. [CHUNK_19] These requirements would continue even if program funding is terminated at some point in the future. [CHUNK_19]\",\n  \"updates_from_previous_fiscal_note\": \"New testimony from the City and County of Honolulu raises significant concerns regarding its capacity to administer the program, citing a lack of positions, staff, and a dedicated funding source for FTE positions. [CHUNK_17] The City also notes that county officers and employees are not provided the same statutory immunity as state personnel under the bill. [CHUNK_28] The Hawai‘i Association of REALTORS® introduced new policy concerns, suggesting that the perpetual deed restrictions be amortized over a set timeframe instead. [CHUNK_36]\"\n}"
+              "text": "{\n  \"overview\": \"The purpose of this measure is to establish the Accessory Dwelling Unit Financing and Deed Restriction Program to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on the property. [CHUNK_250] This bill would enable the Hawai‘i Housing Finance and Development Corporation (HHFDC) to allocate funds from the Dwelling Unit Revolving Fund (DURF) to the counties for the purposes of providing grants to homeowners to support the development of ADUs, and for the counties to purchase and own deed restrictions on eligible properties. [CHUNK_14] The upfront costs of designing and permitting an ADU are barriers for many homeowners. [CHUNK_3]\",\n  \"appropriations\": \"This measure does not contain a specific appropriation. [CHUNK_249] The bill allocates Dwelling Unit Revolving Fund resources to counties to administer grants and enforce deed restrictions. [CHUNK_72] The bill would enable the Hawai‘i Housing Finance and Development Corporation (HHFDC) to allocate funds from the Dwelling Unit Revolving Fund (DURF) to the counties. [CHUNK_13]\",\n  \"assumptions_and_methodology\": \"The lack of an AMI requirement raises concerns about whether this program will indeed increase the supply of “affordable” housing in the State. [CHUNK_25] The time and skill required to negotiate the price of a deed restriction on a case-by-case basis alone would require extensive costs. [CHUNK_23] Estimates for ADU construction in Hawaii is about $250-$350 per square feet. [CHUNK_56]\",\n  \"agency_impact\": \"The City and County of Honolulu does not currently have the capacity to administer this program, and the bill’s language is unclear if a portion of the DURF funds provided to the counties could be used for administrative funding purposes. [CHUNK_21] There is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce the program. [CHUNK_18] The bill creates an immunity for State officers, employees, and agents, however, it leaves out county officers, employees, and agents. [CHUNK_28]\",\n  \"economic_impact\": \"The average price of a home in Hawai‘i has now surpassed $800,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt). [CHUNK_97] According to DBEDT’s 2024 report on Demographic, Social, and Economic Characteristics of Hawai‘i’s Race Grouos, around 62 percent of Native Hawaiians in Hawai‘i are employed, yet they earn significantly less than other major race groups in the state, with medium annual earnings falling below $40,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt) for full-time, year-round work. [CHUNK_100] By reducing financial barriers to ADU construction, this bill encourages homeowners to develop additional housing units on their properties. [CHUNK_101]\",\n  \"policy_impact\": \"This measure establishes the Accessory Dwelling Unit Financing and Deed Restriction Program. [CHUNK_67] The Hawai‘i Association of REALTORS® has concerns that the deed restrictions contained in this measure are in perpetuity. [CHUNK_35] The absence of a restriction on short-term rentals may make this program ripe for abuse. [CHUNK_25]\",\n  \"revenue_sources\": \"The bill allocates Dwelling Unit Revolving Fund resources to counties to administer grants and enforce deed restrictions. [CHUNK_72] HHFDC supports HB 740 HD2, which establishes the Accessory Dwelling Unit (ADU) Financing and Deed Restriction Program to allocate funds to the counties. [CHUNK_2] While it also allows the counties to establish and collect fees and premiums to cover these costs, there is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions. [CHUNK_18]\",\n  \"six_year_fiscal_implications\": \"The Department of Taxation (DOTAX) estimates no material revenue impact for this bill. [CHUNK_9] The measure has a defective effective date of July 1, 3000. [CHUNK_8] The City and County of Honolulu has concerns about capacity challenges, lack of positions and staff, and potential liability associated with the bill in its current form. [CHUNK_17] There is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce the program. [CHUNK_18] Annual reporting requirements will continue for the length of recorded deed restrictions, potentially into perpetuity, even if program funding is terminated at some point in the future. [CHUNK_19] If the City was to take on this responsibility, we would need appropriate funding and time to either onboard new staff with the required expertise, train new and existing staff, or contract out to a third-party entity. [CHUNK_23] The time and skill required to negotiate the price of a deed restriction on a case-by-case basis alone would require extensive costs. [CHUNK_23] DOTAX requests that if this bill is passed, section 6 take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed conveyance tax exemption. [CHUNK_9] Purchasing deed restrictions under the program is exempt from the Procurement Code. [CHUNK_203] The deed restrictions contained in this measure are in perpetuity. [CHUNK_35]\",\n  \"operating_revenue_impact\": \"The Department of Taxation (DOTAX) estimates no material revenue impact for this bill. [CHUNK_9] Section 6 of H.B. 740, H.D. 2, amends section 247-3, Hawaii Revised Statutes (HRS), to exempt from conveyance tax any property with a county-owned deed restriction. [CHUNK_7] DOTAX requests that if this bill is passed, section 6 take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed conveyance tax exemption. [CHUNK_9]\",\n  \"capital_expenditure_impact\": \"The measure allocates funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit. [CHUNK_250] These funds are allocated from the Dwelling Unit Revolving Fund to the counties. [CHUNK_13] The grant program will make it possible for more moderate-income homeowners to participate in creating housing solutions. [CHUNK_57]\",\n  \"fiscal_implications_after_6_years\": \"Annual reporting requirements will continue for the length of recorded deed restrictions, potentially into perpetuity, even if program funding is terminated at some point in the future. [CHUNK_19] Having deed restrictions on a property in perpetuity can be problematic especially in land use planning, as communities can change and uses for a property may need to change as well over time. [CHUNK_35] The perpetual deed restrictions ensure that these housing units will remain available for local workers and residents for generations to come. [CHUNK_58]\",\n  \"updates_from_previous_fiscal_note\": \"A significant update from the previous fiscal note, which projected an indeterminate loss of revenue, is that the Department of Taxation (DOTAX) now estimates no material revenue impact for this bill. [CHUNK_9] New testimony from the City and County of Honolulu highlights major agency impacts, stating it does not currently have the capacity to administer this program and citing a lack of dedicated funding for FTE positions, training, and enforcement. [CHUNK_18] [CHUNK_20] Additional economic context is provided, with testimony noting the average home price in Hawai‘i has now surpassed $800,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt) and that Native Hawaiian median annual earnings fall below $40,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt). [CHUNK_97] [CHUNK_100] Stakeholders have raised new policy concerns, including that deed restrictions are in perpetuity and that the program lacks specific affordability requirements. [CHUNK_35] [CHUNK_25]\"\n}"
             }
           ]
         },
@@ -2112,25 +2112,62 @@
       }
     ],
     "chunk_text_map": {
+      "9": [
+        {
+          "chunk_text": "to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on the property. Your Committee received testimony in support of this measure from",
+          "chunk_id": 250,
+          "document_name": "HB740_HD2_HSCR1128_"
+        },
+        {
+          "chunk_text": "which was referred H.B. No. 740, H.D. 2, entitled: \"A BILL FOR AN ACT RELATING TO HOUSING,\" begs leave to report as follows: The purpose of this measure is to establish the Accessory Dwelling Unit Financing and Deed Restriction Program to allocate funds to the counties to provide grants to",
+          "chunk_id": 249,
+          "document_name": "HB740_HD2_HSCR1128_"
+        }
+      ],
       "8": [
         {
-          "chunk_text": "members of the Committee. HHFDC supports HB 740 HD2, which establishes the Accessory Dwelling Unit (ADU) Financing and Deed Restriction Program to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of",
-          "chunk_id": 2,
+          "chunk_text": "allocate funds from the Dwelling Unit Revolving Fund (DURF) to the counties for the purposes of: 1) providing grants to homeowners to support the development of ADUs, and; 2) for the counties to purchase and own deed restrictions on eligible properties with a primary dwelling unit and ADU. ADUs can",
+          "chunk_id": 14,
           "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
         },
         {
-          "chunk_text": "Restriction program as a way to increase the inventory of rental units in the State. Thank you for the opportunity to testify on this bill. JOSH GREEN M.D. GOVERNOR SYLVIA LUKE LT. GOVERNOR STATE OF HAWAI‘I DEPARTMENT OF TAXATION Ka ‘Oihana ‘Auhau P.O. BOX 259 HONOLULU, HAWAI‘I 96809 PHONE NO:",
-          "chunk_id": 4,
+          "chunk_text": "costs, and non-reoccurring closing costs associated with the construction of an ADU and purchase deed restrictions on such property. The upfront costs of designing and permitting an ADU are barriers for many homeowners. HHFDC supports the ADU Financing and Deed Restriction program as a way to increase the inventory of",
+          "chunk_id": 3,
           "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
         },
         {
-          "chunk_text": "housing inventory, we have concerns about capacity challenges, lack of positions and staff, potential impacts to real property tax revenues, eligibility criteria, implementation timelines, enforceability, and potential liability associated with the bill in its current form. HB740 HD2 requires that counties be responsible for administering, validating evidence, and ensuring compliance",
-          "chunk_id": 17,
+          "chunk_text": "rules, and submit annual reports. The bill allocates Dwelling Unit Revolving Fund resources to counties to administer grants and enforce deed restrictions. Counties will oversee compliance and take legal action when needed. Tax exemptions and procurement flexibility will streamline implementation. The Chamber supports this bill as a practical solution to",
+          "chunk_id": 72,
+          "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "supports the intent of HB740 HD2 that would establish the Accessory Dwelling Unit Financing and Deed Restriction Program to incentivize the development of Accessory Dwelling Units (ADUs). This bill would enable the Hawai‘i Housing Finance and Development Corporation (HHFDC) to allocate funds from the Dwelling Unit Revolving Fund (DURF) to",
+          "chunk_id": 13,
+          "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "for this evaluation has been established. The lack of an AMI requirement raises concerns about whether this program will indeed increase the supply of “affordable” housing in the State. The absence of a restriction on short-term rentals may make this program ripe for abuse, and the ambiguous restriction on the",
+          "chunk_id": 25,
+          "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "onboard new staff with the required expertise, train new and existing staff, or contract out to a third-party entity. The time and skill required to negotiate the price of a deed restriction on a case-by-case basis alone would require extensive costs and may require clarification that these purchases are in",
+          "chunk_id": 23,
+          "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "a place where residents can remain. We strongly support this measure for several key reasons: Addresses Financial Barriers: Estimates for ADU construction in Hawaii is about $250-$350 per square feet2. Many homeowners who wish to build ADUs to help address our housing crisis face significant financial barriers. The grant program",
+          "chunk_id": 56,
           "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
         },
         {
           "chunk_text": "to administer this program, and the bill’s language is unclear if a portion of the DURF funds provided to the counties could be used for administrative funding purposes. Additionally, the City is not currently in the business of purchasing and owning deed restrictions as this process usually is conducted by",
           "chunk_id": 21,
+          "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "counties be responsible for administering, validating evidence, and ensuring compliance with the program. While it also allows the counties to establish and collect fees and premiums to cover these costs, there is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce",
+          "chunk_id": 18,
           "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
         },
         {
@@ -2149,8 +2186,13 @@
           "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
         },
         {
-          "chunk_text": "result, many local families are being forced to leave in search of affordable living options elsewhere. Between July 2022 and July 2023 alone, an average of twelve people left Hawai‘i every day.1 More Native Hawaiians now live outside Hawai‘i than within it. This is a loss of our culture, traditions,",
-          "chunk_id": 110,
+          "chunk_text": "solutions that prioritize residents first and foremost. By reducing financial barriers to ADU construction, this bill encourages homeowners to develop additional housing units on their properties. These units can provide long-term rental options for local families, kūpuna, and workforce members who are struggling to find stable housing. In coupling financing",
+          "chunk_id": 101,
+          "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "Chair Takenouchi, and Members of the Committee: My name is Sherry Menor, President and CEO of the Chamber of Commerce Hawaii (\"The Chamber\"). The Chamber supports House Bill 740 House Draft 2 (HB740 HD2), which establishes the Accessory Dwelling Unit Financing and Deed Restriction Program to allocate funds to the",
+          "chunk_id": 67,
           "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
         },
         {
@@ -2159,18 +2201,8 @@
           "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
         },
         {
-          "chunk_text": "communities can change and uses for a property may need to change as well over time. We respectfully suggest that the deed restrictions be amortized over 10 years but are open to other proposals for alternative timeframes. We look forward to further discussions on this matter. Mahalo for the opportunity",
-          "chunk_id": 36,
-          "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
-        },
-        {
-          "chunk_text": "for this evaluation has been established. The lack of an AMI requirement raises concerns about whether this program will indeed increase the supply of “affordable” housing in the State. The absence of a restriction on short-term rentals may make this program ripe for abuse, and the ambiguous restriction on the",
-          "chunk_id": 25,
-          "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
-        },
-        {
-          "chunk_text": "supports the intent of HB740 HD2 that would establish the Accessory Dwelling Unit Financing and Deed Restriction Program to incentivize the development of Accessory Dwelling Units (ADUs). This bill would enable the Hawai‘i Housing Finance and Development Corporation (HHFDC) to allocate funds from the Dwelling Unit Revolving Fund (DURF) to",
-          "chunk_id": 13,
+          "chunk_text": "members of the Committee. HHFDC supports HB 740 HD2, which establishes the Accessory Dwelling Unit (ADU) Financing and Deed Restriction Program to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of",
+          "chunk_id": 2,
           "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
         },
         {
@@ -2179,8 +2211,13 @@
           "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
         },
         {
-          "chunk_text": "counties be responsible for administering, validating evidence, and ensuring compliance with the program. While it also allows the counties to establish and collect fees and premiums to cover these costs, there is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce",
-          "chunk_id": 18,
+          "chunk_text": "new provisions under chapter 201H, HRS, in this bill. Section 6 also exempts any document or instrument conveying a county-owned deed restriction. The measure has a defective effective date of July 1, 3000. DOTAX requests that if this bill is passed, section 6 take effect on January 1, 2026, to",
+          "chunk_id": 8,
+          "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "housing inventory, we have concerns about capacity challenges, lack of positions and staff, potential impacts to real property tax revenues, eligibility criteria, implementation timelines, enforceability, and potential liability associated with the bill in its current form. HB740 HD2 requires that counties be responsible for administering, validating evidence, and ensuring compliance",
+          "chunk_id": 17,
           "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
         },
         {
@@ -2189,21 +2226,29 @@
           "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
         },
         {
-          "chunk_text": "onboard new staff with the required expertise, train new and existing staff, or contract out to a third-party entity. The time and skill required to negotiate the price of a deed restriction on a case-by-case basis alone would require extensive costs and may require clarification that these purchases are in",
-          "chunk_id": 23,
+          "chunk_text": "103D-102, HRS, to provide that purchasing deed restrictions under the program is exempt from the Procurement Code. Makes a conforming change to section 201H-191, HRS, that governs the DURF. Amends section 247-3, HRS, to allow a conveyance tax exemption for any conveyance of real property with a county owned deed",
+          "chunk_id": 203,
           "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
         },
         {
-          "chunk_text": "costs and may require clarification that these purchases are in the public interest, despite being exempt from the procurement process. Furthermore, the bill requires that eligible homeowners or buyers indicate their capability to properly use the grant; however, no criteria for this evaluation has been established. The lack of an",
-          "chunk_id": 24,
+          "chunk_text": "the following comments regarding H.B. 740, H.D. 2, for your consideration. Section 6 of H.B. 740, H.D. 2, amends section 247-3, Hawaii Revised Statutes (HRS), to exempt from conveyance tax any property with a county-owned deed restriction according to the new provisions under chapter 201H, HRS, in this bill. Section",
+          "chunk_id": 7,
           "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
-        }
-      ],
-      "9": [
+        },
         {
-          "chunk_text": "to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on the property. Your Committee received testimony in support of this measure from",
-          "chunk_id": 250,
-          "document_name": "HB740_HD2_HSCR1128_"
+          "chunk_text": "our housing crisis face significant financial barriers. The grant program will make it possible for more moderate-income homeowners to participate in creating housing solutions. Protects Local Workforce: The deed restriction requirements ensuring occupancy by local workers, maintaining employment within the county, demonstrate a thoughtful approach to preserving housing for Hawaii's",
+          "chunk_id": 57,
+          "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "county, demonstrate a thoughtful approach to preserving housing for Hawaii's working families. This helps prevent the conversion of these units to vacation rentals or investment properties and help establish a locals only market. Creates Sustainable Solutions: The perpetual deed restrictions ensure that these housing units will remain available for local",
+          "chunk_id": 58,
+          "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "in the future. The Honorable Kyle T. Yamashita, Chair The Honorable Jenna Takenouchi, Vice Chair and Members of the House Committee on Finance February 24, 2025 Page 2 The City and County of Honolulu does not currently have the capacity to administer this program, and the bill’s language is unclear",
+          "chunk_id": 20,
+          "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
         }
       ]
     },
@@ -2227,31 +2272,7 @@
     "sentence_chunk_mapping": [
       {
         "section": "overview",
-        "sentence": "This measure establishes the Accessory Dwelling Unit (ADU) Financing and Deed Restriction Program to allocate funds to the counties to provide grants to eligible homeowners or homebuyers.",
-        "chunks": [
-          {
-            "chunk_id": 2,
-            "citation_number": 8,
-            "chunk_text": "members of the Committee. HHFDC supports HB 740 HD2, which establishes the Accessory Dwelling Unit (ADU) Financing and Deed Restriction Program to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of",
-            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "overview",
-        "sentence": "The Hawai‘i Housing Finance and Development Corporation (HHFDC) supports the program as a way to increase the inventory of rental units in the State.",
-        "chunks": [
-          {
-            "chunk_id": 4,
-            "citation_number": 8,
-            "chunk_text": "Restriction program as a way to increase the inventory of rental units in the State. Thank you for the opportunity to testify on this bill. JOSH GREEN M.D. GOVERNOR SYLVIA LUKE LT. GOVERNOR STATE OF HAWAI‘I DEPARTMENT OF TAXATION Ka ‘Oihana ‘Auhau P.O. BOX 259 HONOLULU, HAWAI‘I 96809 PHONE NO:",
-            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "overview",
-        "sentence": "The purpose of this measure is to establish the Accessory Dwelling Unit Financing and Deed Restriction Program to finance construction costs, development costs, and non-reoccurring closing costs and purchase deed restrictions on the property.",
+        "sentence": "The purpose of this measure is to establish the Accessory Dwelling Unit Financing and Deed Restriction Program to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on the property.",
         "chunks": [
           {
             "chunk_id": 250,
@@ -2262,13 +2283,97 @@
         ]
       },
       {
-        "section": "agency_impact",
-        "sentence": "The City and County of Honolulu's Office of Housing has concerns about capacity challenges, lack of positions and staff, potential impacts to real property tax revenues, eligibility criteria, implementation timelines, enforceability, and potential liability.",
+        "section": "overview",
+        "sentence": "This bill would enable the Hawai‘i Housing Finance and Development Corporation (HHFDC) to allocate funds from the Dwelling Unit Revolving Fund (DURF) to the counties for the purposes of providing grants to homeowners to support the development of ADUs, and for the counties to purchase and own deed restrictions on eligible properties.",
         "chunks": [
           {
-            "chunk_id": 17,
+            "chunk_id": 14,
             "citation_number": 8,
-            "chunk_text": "housing inventory, we have concerns about capacity challenges, lack of positions and staff, potential impacts to real property tax revenues, eligibility criteria, implementation timelines, enforceability, and potential liability associated with the bill in its current form. HB740 HD2 requires that counties be responsible for administering, validating evidence, and ensuring compliance",
+            "chunk_text": "allocate funds from the Dwelling Unit Revolving Fund (DURF) to the counties for the purposes of: 1) providing grants to homeowners to support the development of ADUs, and; 2) for the counties to purchase and own deed restrictions on eligible properties with a primary dwelling unit and ADU. ADUs can",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "The upfront costs of designing and permitting an ADU are barriers for many homeowners.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 8,
+            "chunk_text": "costs, and non-reoccurring closing costs associated with the construction of an ADU and purchase deed restrictions on such property. The upfront costs of designing and permitting an ADU are barriers for many homeowners. HHFDC supports the ADU Financing and Deed Restriction program as a way to increase the inventory of",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "This measure does not contain a specific appropriation.",
+        "chunks": [
+          {
+            "chunk_id": 249,
+            "citation_number": 9,
+            "chunk_text": "which was referred H.B. No. 740, H.D. 2, entitled: \"A BILL FOR AN ACT RELATING TO HOUSING,\" begs leave to report as follows: The purpose of this measure is to establish the Accessory Dwelling Unit Financing and Deed Restriction Program to allocate funds to the counties to provide grants to",
+            "document_name": "HB740_HD2_HSCR1128_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The bill allocates Dwelling Unit Revolving Fund resources to counties to administer grants and enforce deed restrictions.",
+        "chunks": [
+          {
+            "chunk_id": 72,
+            "citation_number": 8,
+            "chunk_text": "rules, and submit annual reports. The bill allocates Dwelling Unit Revolving Fund resources to counties to administer grants and enforce deed restrictions. Counties will oversee compliance and take legal action when needed. Tax exemptions and procurement flexibility will streamline implementation. The Chamber supports this bill as a practical solution to",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The bill would enable the Hawai‘i Housing Finance and Development Corporation (HHFDC) to allocate funds from the Dwelling Unit Revolving Fund (DURF) to the counties.",
+        "chunks": [
+          {
+            "chunk_id": 13,
+            "citation_number": 8,
+            "chunk_text": "supports the intent of HB740 HD2 that would establish the Accessory Dwelling Unit Financing and Deed Restriction Program to incentivize the development of Accessory Dwelling Units (ADUs). This bill would enable the Hawai‘i Housing Finance and Development Corporation (HHFDC) to allocate funds from the Dwelling Unit Revolving Fund (DURF) to",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The lack of an AMI requirement raises concerns about whether this program will indeed increase the supply of “affordable” housing in the State.",
+        "chunks": [
+          {
+            "chunk_id": 25,
+            "citation_number": 8,
+            "chunk_text": "for this evaluation has been established. The lack of an AMI requirement raises concerns about whether this program will indeed increase the supply of “affordable” housing in the State. The absence of a restriction on short-term rentals may make this program ripe for abuse, and the ambiguous restriction on the",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The time and skill required to negotiate the price of a deed restriction on a case-by-case basis alone would require extensive costs.",
+        "chunks": [
+          {
+            "chunk_id": 23,
+            "citation_number": 8,
+            "chunk_text": "onboard new staff with the required expertise, train new and existing staff, or contract out to a third-party entity. The time and skill required to negotiate the price of a deed restriction on a case-by-case basis alone would require extensive costs and may require clarification that these purchases are in",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "Estimates for ADU construction in Hawaii is about $250-$350 per square feet.",
+        "chunks": [
+          {
+            "chunk_id": 56,
+            "citation_number": 8,
+            "chunk_text": "a place where residents can remain. We strongly support this measure for several key reasons: Addresses Financial Barriers: Estimates for ADU construction in Hawaii is about $250-$350 per square feet2. Many homeowners who wish to build ADUs to help address our housing crisis face significant financial barriers. The grant program",
             "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
           }
         ]
@@ -2287,7 +2392,19 @@
       },
       {
         "section": "agency_impact",
-        "sentence": "The bill creates an immunity for State officers, employees, and agents, but it leaves out county officers, employees, and agents who would be administering the program.",
+        "sentence": "There is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce the program.",
+        "chunks": [
+          {
+            "chunk_id": 18,
+            "citation_number": 8,
+            "chunk_text": "counties be responsible for administering, validating evidence, and ensuring compliance with the program. While it also allows the counties to establish and collect fees and premiums to cover these costs, there is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The bill creates an immunity for State officers, employees, and agents, however, it leaves out county officers, employees, and agents.",
         "chunks": [
           {
             "chunk_id": 28,
@@ -2311,7 +2428,7 @@
       },
       {
         "section": "economic_impact",
-        "sentence": "According to a DBEDT report, Native Hawaiians in Hawai‘i have medium annual earnings falling below $40,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt) for full-time, year-round work.",
+        "sentence": "According to DBEDT’s 2024 report on Demographic, Social, and Economic Characteristics of Hawai‘i’s Race Grouos, around 62 percent of Native Hawaiians in Hawai‘i are employed, yet they earn significantly less than other major race groups in the state, with medium annual earnings falling below $40,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt) for full-time, year-round work.",
         "chunks": [
           {
             "chunk_id": 100,
@@ -2323,19 +2440,31 @@
       },
       {
         "section": "economic_impact",
-        "sentence": "Between July 2022 and July 2023 alone, an average of twelve people left Hawai‘i every day.",
+        "sentence": "By reducing financial barriers to ADU construction, this bill encourages homeowners to develop additional housing units on their properties.",
         "chunks": [
           {
-            "chunk_id": 110,
+            "chunk_id": 101,
             "citation_number": 8,
-            "chunk_text": "result, many local families are being forced to leave in search of affordable living options elsewhere. Between July 2022 and July 2023 alone, an average of twelve people left Hawai‘i every day.1 More Native Hawaiians now live outside Hawai‘i than within it. This is a loss of our culture, traditions,",
+            "chunk_text": "solutions that prioritize residents first and foremost. By reducing financial barriers to ADU construction, this bill encourages homeowners to develop additional housing units on their properties. These units can provide long-term rental options for local families, kūpuna, and workforce members who are struggling to find stable housing. In coupling financing",
             "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
           }
         ]
       },
       {
         "section": "policy_impact",
-        "sentence": "The Hawai‘i Association of REALTORS® has concerns that the deed restrictions contained in this measure are in perpetuity, which can be problematic in land use planning as communities change over time.",
+        "sentence": "This measure establishes the Accessory Dwelling Unit Financing and Deed Restriction Program.",
+        "chunks": [
+          {
+            "chunk_id": 67,
+            "citation_number": 8,
+            "chunk_text": "Chair Takenouchi, and Members of the Committee: My name is Sherry Menor, President and CEO of the Chamber of Commerce Hawaii (\"The Chamber\"). The Chamber supports House Bill 740 House Draft 2 (HB740 HD2), which establishes the Accessory Dwelling Unit Financing and Deed Restriction Program to allocate funds to the",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The Hawai‘i Association of REALTORS® has concerns that the deed restrictions contained in this measure are in perpetuity.",
         "chunks": [
           {
             "chunk_id": 35,
@@ -2347,19 +2476,7 @@
       },
       {
         "section": "policy_impact",
-        "sentence": "They suggest that the deed restrictions be amortized over 10 years but are open to other proposals for alternative timeframes.",
-        "chunks": [
-          {
-            "chunk_id": 36,
-            "citation_number": 8,
-            "chunk_text": "communities can change and uses for a property may need to change as well over time. We respectfully suggest that the deed restrictions be amortized over 10 years but are open to other proposals for alternative timeframes. We look forward to further discussions on this matter. Mahalo for the opportunity",
-            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "policy_impact",
-        "sentence": "The Office of Housing raises concerns about the lack of an AMI requirement and the absence of a restriction on short-term rentals, which may make the program ripe for abuse.",
+        "sentence": "The absence of a restriction on short-term rentals may make this program ripe for abuse.",
         "chunks": [
           {
             "chunk_id": 25,
@@ -2371,43 +2488,31 @@
       },
       {
         "section": "revenue_sources",
-        "sentence": "This bill would enable the Hawai‘i Housing Finance and Development Corporation (HHFDC) to allocate funds from the Dwelling Unit Revolving Fund (DURF) to the counties.",
+        "sentence": "The bill allocates Dwelling Unit Revolving Fund resources to counties to administer grants and enforce deed restrictions.",
         "chunks": [
           {
-            "chunk_id": 13,
+            "chunk_id": 72,
             "citation_number": 8,
-            "chunk_text": "supports the intent of HB740 HD2 that would establish the Accessory Dwelling Unit Financing and Deed Restriction Program to incentivize the development of Accessory Dwelling Units (ADUs). This bill would enable the Hawai‘i Housing Finance and Development Corporation (HHFDC) to allocate funds from the Dwelling Unit Revolving Fund (DURF) to",
+            "chunk_text": "rules, and submit annual reports. The bill allocates Dwelling Unit Revolving Fund resources to counties to administer grants and enforce deed restrictions. Counties will oversee compliance and take legal action when needed. Tax exemptions and procurement flexibility will streamline implementation. The Chamber supports this bill as a practical solution to",
             "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
           }
         ]
       },
       {
         "section": "revenue_sources",
-        "sentence": "The Department of Taxation (DOTAX) estimates no material revenue impact for this bill.",
+        "sentence": "HHFDC supports HB 740 HD2, which establishes the Accessory Dwelling Unit (ADU) Financing and Deed Restriction Program to allocate funds to the counties.",
         "chunks": [
           {
-            "chunk_id": 9,
+            "chunk_id": 2,
             "citation_number": 8,
-            "chunk_text": "passed, section 6 take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed conveyance tax exemption. DOTAX estimates no material revenue impact for this bill. Thank you for the opportunity to provide comments on this measure. OFFICE OF HOUSING KE KE‘ENA HO‘OL§L/T",
+            "chunk_text": "members of the Committee. HHFDC supports HB 740 HD2, which establishes the Accessory Dwelling Unit (ADU) Financing and Deed Restriction Program to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of",
             "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
           }
         ]
       },
       {
         "section": "revenue_sources",
-        "sentence": "The City and County of Honolulu notes that the bill’s language is unclear if a portion of the DURF funds could be used for administrative funding purposes.",
-        "chunks": [
-          {
-            "chunk_id": 21,
-            "citation_number": 8,
-            "chunk_text": "to administer this program, and the bill’s language is unclear if a portion of the DURF funds provided to the counties could be used for administrative funding purposes. Additionally, the City is not currently in the business of purchasing and owning deed restrictions as this process usually is conducted by",
-            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The City and County of Honolulu has concerns that there is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce the program.",
+        "sentence": "While it also allows the counties to establish and collect fees and premiums to cover these costs, there is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions.",
         "chunks": [
           {
             "chunk_id": 18,
@@ -2419,7 +2524,55 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "The annual reporting requirements will continue for the length of recorded deed restrictions, potentially into perpetuity, even if program funding is terminated at some point in the future.",
+        "sentence": "The Department of Taxation (DOTAX) estimates no material revenue impact for this bill.",
+        "chunks": [
+          {
+            "chunk_id": 9,
+            "citation_number": 8,
+            "chunk_text": "passed, section 6 take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed conveyance tax exemption. DOTAX estimates no material revenue impact for this bill. Thank you for the opportunity to provide comments on this measure. OFFICE OF HOUSING KE KE‘ENA HO‘OL§L/T",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The measure has a defective effective date of July 1, 3000.",
+        "chunks": [
+          {
+            "chunk_id": 8,
+            "citation_number": 8,
+            "chunk_text": "new provisions under chapter 201H, HRS, in this bill. Section 6 also exempts any document or instrument conveying a county-owned deed restriction. The measure has a defective effective date of July 1, 3000. DOTAX requests that if this bill is passed, section 6 take effect on January 1, 2026, to",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The City and County of Honolulu has concerns about capacity challenges, lack of positions and staff, and potential liability associated with the bill in its current form.",
+        "chunks": [
+          {
+            "chunk_id": 17,
+            "citation_number": 8,
+            "chunk_text": "housing inventory, we have concerns about capacity challenges, lack of positions and staff, potential impacts to real property tax revenues, eligibility criteria, implementation timelines, enforceability, and potential liability associated with the bill in its current form. HB740 HD2 requires that counties be responsible for administering, validating evidence, and ensuring compliance",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "There is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce the program.",
+        "chunks": [
+          {
+            "chunk_id": 18,
+            "citation_number": 8,
+            "chunk_text": "counties be responsible for administering, validating evidence, and ensuring compliance with the program. While it also allows the counties to establish and collect fees and premiums to cover these costs, there is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Annual reporting requirements will continue for the length of recorded deed restrictions, potentially into perpetuity, even if program funding is terminated at some point in the future.",
         "chunks": [
           {
             "chunk_id": 19,
@@ -2431,7 +2584,7 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "If the City was to take on the responsibility of purchasing and owning deed restrictions, it would need appropriate funding and time to either onboard new staff, train existing staff, or contract out to a third-party entity.",
+        "sentence": "If the City was to take on this responsibility, we would need appropriate funding and time to either onboard new staff with the required expertise, train new and existing staff, or contract out to a third-party entity.",
         "chunks": [
           {
             "chunk_id": 23,
@@ -2446,9 +2599,45 @@
         "sentence": "The time and skill required to negotiate the price of a deed restriction on a case-by-case basis alone would require extensive costs.",
         "chunks": [
           {
-            "chunk_id": 24,
+            "chunk_id": 23,
             "citation_number": 8,
-            "chunk_text": "costs and may require clarification that these purchases are in the public interest, despite being exempt from the procurement process. Furthermore, the bill requires that eligible homeowners or buyers indicate their capability to properly use the grant; however, no criteria for this evaluation has been established. The lack of an",
+            "chunk_text": "onboard new staff with the required expertise, train new and existing staff, or contract out to a third-party entity. The time and skill required to negotiate the price of a deed restriction on a case-by-case basis alone would require extensive costs and may require clarification that these purchases are in",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "DOTAX requests that if this bill is passed, section 6 take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed conveyance tax exemption.",
+        "chunks": [
+          {
+            "chunk_id": 9,
+            "citation_number": 8,
+            "chunk_text": "passed, section 6 take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed conveyance tax exemption. DOTAX estimates no material revenue impact for this bill. Thank you for the opportunity to provide comments on this measure. OFFICE OF HOUSING KE KE‘ENA HO‘OL§L/T",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Purchasing deed restrictions under the program is exempt from the Procurement Code.",
+        "chunks": [
+          {
+            "chunk_id": 203,
+            "citation_number": 8,
+            "chunk_text": "103D-102, HRS, to provide that purchasing deed restrictions under the program is exempt from the Procurement Code. Makes a conforming change to section 201H-191, HRS, that governs the DURF. Amends section 247-3, HRS, to allow a conveyance tax exemption for any conveyance of real property with a county owned deed",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The deed restrictions contained in this measure are in perpetuity.",
+        "chunks": [
+          {
+            "chunk_id": 35,
+            "citation_number": 8,
+            "chunk_text": "housing and help address Hawaii’s housing challenges. We do however have concerns that the deed restrictions contained in this measure are in perpetuity. Having deed restrictions on a property in perpetuity can be problematic especially in land use planning, as communities can change and uses for a property may need",
             "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
           }
         ]
@@ -2466,8 +2655,68 @@
         ]
       },
       {
+        "section": "operating_revenue_impact",
+        "sentence": "Section 6 of H.B. 740, H.D. 2, amends section 247-3, Hawaii Revised Statutes (HRS), to exempt from conveyance tax any property with a county-owned deed restriction.",
+        "chunks": [
+          {
+            "chunk_id": 7,
+            "citation_number": 8,
+            "chunk_text": "the following comments regarding H.B. 740, H.D. 2, for your consideration. Section 6 of H.B. 740, H.D. 2, amends section 247-3, Hawaii Revised Statutes (HRS), to exempt from conveyance tax any property with a county-owned deed restriction according to the new provisions under chapter 201H, HRS, in this bill. Section",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "DOTAX requests that if this bill is passed, section 6 take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed conveyance tax exemption.",
+        "chunks": [
+          {
+            "chunk_id": 9,
+            "citation_number": 8,
+            "chunk_text": "passed, section 6 take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed conveyance tax exemption. DOTAX estimates no material revenue impact for this bill. Thank you for the opportunity to provide comments on this measure. OFFICE OF HOUSING KE KE‘ENA HO‘OL§L/T",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The measure allocates funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit.",
+        "chunks": [
+          {
+            "chunk_id": 250,
+            "citation_number": 9,
+            "chunk_text": "to allocate funds to the counties to provide grants to eligible homeowners or homebuyers to finance construction costs, development costs, and non-reoccurring closing costs associated with the construction of an accessory dwelling unit and purchase deed restrictions on the property. Your Committee received testimony in support of this measure from",
+            "document_name": "HB740_HD2_HSCR1128_"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "These funds are allocated from the Dwelling Unit Revolving Fund to the counties.",
+        "chunks": [
+          {
+            "chunk_id": 13,
+            "citation_number": 8,
+            "chunk_text": "supports the intent of HB740 HD2 that would establish the Accessory Dwelling Unit Financing and Deed Restriction Program to incentivize the development of Accessory Dwelling Units (ADUs). This bill would enable the Hawai‘i Housing Finance and Development Corporation (HHFDC) to allocate funds from the Dwelling Unit Revolving Fund (DURF) to",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The grant program will make it possible for more moderate-income homeowners to participate in creating housing solutions.",
+        "chunks": [
+          {
+            "chunk_id": 57,
+            "citation_number": 8,
+            "chunk_text": "our housing crisis face significant financial barriers. The grant program will make it possible for more moderate-income homeowners to participate in creating housing solutions. Protects Local Workforce: The deed restriction requirements ensuring occupancy by local workers, maintaining employment within the county, demonstrate a thoughtful approach to preserving housing for Hawaii's",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "The bill requires counties to meet annual reporting requirements that will continue for the length of recorded deed restrictions, potentially into perpetuity.",
+        "sentence": "Annual reporting requirements will continue for the length of recorded deed restrictions, potentially into perpetuity, even if program funding is terminated at some point in the future.",
         "chunks": [
           {
             "chunk_id": 19,
@@ -2479,48 +2728,90 @@
       },
       {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "These requirements would continue even if program funding is terminated at some point in the future.",
+        "sentence": "Having deed restrictions on a property in perpetuity can be problematic especially in land use planning, as communities can change and uses for a property may need to change as well over time.",
         "chunks": [
           {
-            "chunk_id": 19,
+            "chunk_id": 35,
             "citation_number": 8,
-            "chunk_text": "full-time equivalent (FTE) positions to administer, train staff, and enforce the program, or meet the annual reporting requirements that will continue for the length of recorded deed restrictions, potentially into perpetuity, even if program funding is terminated at some point in the future. The Honorable Kyle T. Yamashita, Chair The",
+            "chunk_text": "housing and help address Hawaii’s housing challenges. We do however have concerns that the deed restrictions contained in this measure are in perpetuity. Having deed restrictions on a property in perpetuity can be problematic especially in land use planning, as communities can change and uses for a property may need",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The perpetual deed restrictions ensure that these housing units will remain available for local workers and residents for generations to come.",
+        "chunks": [
+          {
+            "chunk_id": 58,
+            "citation_number": 8,
+            "chunk_text": "county, demonstrate a thoughtful approach to preserving housing for Hawaii's working families. This helps prevent the conversion of these units to vacation rentals or investment properties and help establish a locals only market. Creates Sustainable Solutions: The perpetual deed restrictions ensure that these housing units will remain available for local",
             "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
           }
         ]
       },
       {
         "section": "updates_from_previous_fiscal_note",
-        "sentence": "New testimony from the City and County of Honolulu raises significant concerns regarding its capacity to administer the program, citing a lack of positions, staff, and a dedicated funding source for FTE positions.",
+        "sentence": "A significant update from the previous fiscal note, which projected an indeterminate loss of revenue, is that the Department of Taxation (DOTAX) now estimates no material revenue impact for this bill.",
         "chunks": [
           {
-            "chunk_id": 17,
+            "chunk_id": 9,
             "citation_number": 8,
-            "chunk_text": "housing inventory, we have concerns about capacity challenges, lack of positions and staff, potential impacts to real property tax revenues, eligibility criteria, implementation timelines, enforceability, and potential liability associated with the bill in its current form. HB740 HD2 requires that counties be responsible for administering, validating evidence, and ensuring compliance",
+            "chunk_text": "passed, section 6 take effect on January 1, 2026, to allow for form and instruction changes necessary to implement the proposed conveyance tax exemption. DOTAX estimates no material revenue impact for this bill. Thank you for the opportunity to provide comments on this measure. OFFICE OF HOUSING KE KE‘ENA HO‘OL§L/T",
             "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
           }
         ]
       },
       {
         "section": "updates_from_previous_fiscal_note",
-        "sentence": "The City also notes that county officers and employees are not provided the same statutory immunity as state personnel under the bill.",
+        "sentence": "New testimony from the City and County of Honolulu highlights major agency impacts, stating it does not currently have the capacity to administer this program and citing a lack of dedicated funding for FTE positions, training, and enforcement.",
         "chunks": [
           {
-            "chunk_id": 28,
+            "chunk_id": 18,
             "citation_number": 8,
-            "chunk_text": "State officers, employees, and agents. However, it leaves out county officers, employees, and agents. If the bill continues to insist that the counties administer the program, county officers, employees, and agents should be provided the same statutory protections. Given these concerns, if this measure is to move forward, we request",
+            "chunk_text": "counties be responsible for administering, validating evidence, and ensuring compliance with the program. While it also allows the counties to establish and collect fees and premiums to cover these costs, there is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          },
+          {
+            "chunk_id": 18,
+            "citation_number": 8,
+            "chunk_text": "counties be responsible for administering, validating evidence, and ensuring compliance with the program. While it also allows the counties to establish and collect fees and premiums to cover these costs, there is no dedicated funding source to establish and stand-up full-time equivalent (FTE) positions to administer, train staff, and enforce",
             "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
           }
         ]
       },
       {
         "section": "updates_from_previous_fiscal_note",
-        "sentence": "The Hawai‘i Association of REALTORS® introduced new policy concerns, suggesting that the perpetual deed restrictions be amortized over a set timeframe instead.",
+        "sentence": "Additional economic context is provided, with testimony noting the average home price in Hawai‘i has now surpassed $800,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt) and that Native Hawaiian median annual earnings fall below $40,000 (HB740_HD2_TESTIMONY_FIN_02-25-25_.PDF.txt).",
         "chunks": [
           {
-            "chunk_id": 36,
+            "chunk_id": 97,
             "citation_number": 8,
-            "chunk_text": "communities can change and uses for a property may need to change as well over time. We respectfully suggest that the deed restrictions be amortized over 10 years but are open to other proposals for alternative timeframes. We look forward to further discussions on this matter. Mahalo for the opportunity",
+            "chunk_text": "the ongoing and worsening impacts of the rising cost of living that make it difficult for working local and Native Hawaiian residents to secure attainable housing. The average price of a home in Hawai‘i has now surpassed $800,000. As a result, Native Hawaiians are forced to seek affordable housing out",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          },
+          {
+            "chunk_id": 97,
+            "citation_number": 8,
+            "chunk_text": "the ongoing and worsening impacts of the rising cost of living that make it difficult for working local and Native Hawaiian residents to secure attainable housing. The average price of a home in Hawai‘i has now surpassed $800,000. As a result, Native Hawaiians are forced to seek affordable housing out",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "Stakeholders have raised new policy concerns, including that deed restrictions are in perpetuity and that the program lacks specific affordability requirements.",
+        "chunks": [
+          {
+            "chunk_id": 35,
+            "citation_number": 8,
+            "chunk_text": "housing and help address Hawaii’s housing challenges. We do however have concerns that the deed restrictions contained in this measure are in perpetuity. Having deed restrictions on a property in perpetuity can be problematic especially in land use planning, as communities can change and uses for a property may need",
+            "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
+          },
+          {
+            "chunk_id": 35,
+            "citation_number": 8,
+            "chunk_text": "housing and help address Hawaii’s housing challenges. We do however have concerns that the deed restrictions contained in this measure are in perpetuity. Having deed restrictions on a property in perpetuity can be problematic especially in land use planning, as communities can change and uses for a property may need",
             "document_name": "HB740_HD2_TESTIMONY_FIN_02-25-25_"
           }
         ]
@@ -3555,6 +3846,6 @@
       }
     ]
   },
-  "generation_timestamp": "2025-10-16T15:26:41.504880",
-  "generation_timestamp_unix": 1760664401.504909
+  "generation_timestamp": "2025-10-24T12:55:38.181085",
+  "generation_timestamp_unix": 1761346538.181092
 }
