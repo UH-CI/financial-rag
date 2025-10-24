@@ -562,6 +562,9 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
       console.log(`📝 Rendering section "${sectionKey}" with ${sectionStrikethroughs.length} strikethroughs:`, sectionStrikethroughs);
     }
 
+    // Track citation occurrences within this section to cycle through chunks
+    const citationOccurrences: Record<number, number> = {};
+
     return atoms.map((atom, atomIndex) => {
       if (atom.type === 'text') {
         // Get segments for this text atom
@@ -653,11 +656,24 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
         const docInfo = enhancedDocumentMapping[citationNumber];
         const chunkData = chunkTextMap[citationNumber];
         
-        // If we have a specific chunk ID from the citation, use it
+        // Determine which chunk to use
         let chunkInfo = chunkData?.[0];
+        
         if (chunkId !== undefined && chunkData) {
-          // Find the chunk with matching chunk_id
+          // Citation has explicit chunk ID - find the matching chunk
           chunkInfo = chunkData.find(c => c.chunk_id === chunkId) || chunkData[0];
+        } else if (chunkData && chunkData.length > 0) {
+          // No explicit chunk ID - cycle through available chunks
+          // Track how many times we've seen this citation number
+          if (!citationOccurrences[citationNumber]) {
+            citationOccurrences[citationNumber] = 0;
+          }
+          const occurrenceIndex = citationOccurrences[citationNumber];
+          citationOccurrences[citationNumber]++;
+          
+          // Cycle through chunks using modulo
+          const chunkIndex = occurrenceIndex % chunkData.length;
+          chunkInfo = chunkData[chunkIndex];
         }
         
         const displayNumber = chunkInfo?.chunk_id 
