@@ -209,6 +209,26 @@ export const deleteFiscalNote = async (
 };
 
 /**
+ * Save strikethroughs for a fiscal note
+ */
+export const saveStrikethroughs = async (
+  filename: string,
+  strikethroughs: any[],
+  billType: string,
+  billNumber: string,
+  year: string = '2025'
+): Promise<{ success: boolean; message: string; filename: string; metadata_file: string }> => {
+  const response = await api.post('/api/fiscal-notes/save-strikethroughs', {
+    filename,
+    strikethroughs,
+    bill_type: billType,
+    bill_number: billNumber,
+    year
+  });
+  return response.data;
+};
+
+/**
  * Get available collections and their stats
  */
 export const getCollections = async (): Promise<CollectionsResponse> => {

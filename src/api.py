@@ -2103,6 +2103,7 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
                     sentence_attributions = []
                     sentence_chunk_mapping = []  # NEW: Load sentence-chunk mappings
                     new_documents_processed = []  # NEW: Documents used for this fiscal note
+                    strikethroughs = []  # NEW: Load strikethroughs
                     if os.path.exists(metadata_file):
                         try:
                             with open(metadata_file, 'r') as meta_f:
@@ -2116,7 +2117,9 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
                                 sentence_chunk_mapping = metadata.get('response_metadata', {}).get('sentence_chunk_mapping', [])
                                 # NEW: Load list of documents used for this fiscal note
                                 new_documents_processed = metadata.get('new_documents_processed', [])
-                                print(f"Loaded {len(numbers_data)} numbers, {len(chunks_data)} chunks, {len(sentence_attributions)} sentence attributions, {len(sentence_chunk_mapping)} sentence-chunk mappings, {len(new_documents_processed)} documents from metadata for {file['name']}")
+                                # NEW: Load strikethroughs
+                                strikethroughs = metadata.get('strikethroughs', [])
+                                print(f"Loaded {len(numbers_data)} numbers, {len(chunks_data)} chunks, {len(sentence_attributions)} sentence attributions, {len(sentence_chunk_mapping)} sentence-chunk mappings, {len(new_documents_processed)} documents, {len(strikethroughs)} strikethroughs from metadata for {file['name']}")
                         except Exception as e:
                             print(f"Error loading metadata for {file['name']}: {e}")
                     
@@ -2224,11 +2227,17 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
                     # Filter out chunk reference properties for frontend display
                     filtered_data = {k: v for k, v in processed_data.items() if not k.endswith('_chunk_references')}
                     
-                    fiscal_notes.append({
+                    fiscal_note_obj = {
                         'filename': file['name'],
                         'data': filtered_data,
                         'new_documents_processed': new_documents_processed  # Include documents used for this fiscal note
-                    })
+                    }
+                    
+                    # Include strikethroughs if they exist
+                    if strikethroughs:
+                        fiscal_note_obj['strikethroughs'] = strikethroughs
+                    
+                    fiscal_notes.append(fiscal_note_obj)
 
     with open(timeline_path, 'r') as f:
         timeline = json.load(f)
@@ -2413,6 +2422,88 @@ async def ask_llm(request: LLMRequest):
     except Exception as e:
         print(f"Error generating LLM response: {e}")
         raise HTTPException(status_code=500, detail=f"Failed to generate LLM response: {str(e)}")
+
+@app.post("/api/fiscal-notes/save-strikethroughs")
+async def save_strikethroughs(request: Request):
+    """
+    Save strikethroughs for a specific fiscal note to its metadata file
+    """
+    try:
+        data = await request.json()
+        filename = data.get('filename')
+        strikethroughs = data.get('strikethroughs', [])
+        bill_type = data.get('bill_type')
+        bill_number = data.get('bill_number')
+        year = data.get('year', '2025')
+        
+        if not filename:
+            raise HTTPException(status_code=400, detail="Filename is required")
+        
+        print(f"💾 Saving {len(strikethroughs)} strikethroughs for {filename}")
+        
+        # If bill info not provided, try to extract from URL context or use defaults
+        if not bill_type or not bill_number:
+            # Try to parse from filename if it contains underscores
+            parts = filename.split('_')
+            if len(parts) >= 3:
+                bill_type = parts[0]
+                bill_number = parts[1]
+                year = parts[2]
+                print(f"   Parsed from filename: bill_type={bill_type}, bill_number={bill_number}, year={year}")
+            else:
+                raise HTTPException(status_code=400, detail=f"Bill information required. Please provide bill_type, bill_number, and year")
+        
+        print(f"   Using: bill_type={bill_type}, bill_number={bill_number}, year={year}")
+        
+        # Construct path to fiscal notes directory
+        bill_dir = f"{bill_type}_{bill_number}_{year}"
+        
+        # Try enhanced fiscal notes first, fall back to regular
+        fiscal_notes_with_chunks_path = os.path.join(fiscal_notes_dir, bill_dir, "fiscal_notes_with_chunks")
+        fiscal_notes_path = os.path.join(fiscal_notes_dir, bill_dir, "fiscal_notes")
+        
+        if os.path.exists(fiscal_notes_with_chunks_path):
+            target_dir = fiscal_notes_with_chunks_path
+        elif os.path.exists(fiscal_notes_path):
+            target_dir = fiscal_notes_path
+        else:
+            raise HTTPException(status_code=404, detail=f"Fiscal notes directory not found for {bill_dir}")
+        
+        # Path to metadata file
+        metadata_file = os.path.join(target_dir, f"{filename}_metadata.json")
+        
+        # Load existing metadata or create new
+        metadata = {}
+        if os.path.exists(metadata_file):
+            try:
+                with open(metadata_file, 'r') as f:
+                    metadata = json.load(f)
+                print(f"📂 Loaded existing metadata from {metadata_file}")
+            except Exception as e:
+                print(f"⚠️ Error loading metadata, creating new: {e}")
+        
+        # Update strikethroughs in metadata
+        metadata['strikethroughs'] = strikethroughs
+        metadata['strikethroughs_updated_at'] = datetime.now().isoformat()
+        
+        # Save metadata
+        with open(metadata_file, 'w') as f:
+            json.dump(metadata, f, indent=2)
+        
+        print(f"✅ Saved strikethroughs to {metadata_file}")
+        
+        return {
+            "success": True,
+            "message": f"Saved {len(strikethroughs)} strikethroughs",
+            "filename": filename,
+            "metadata_file": metadata_file
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"❌ Error saving strikethroughs: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to save strikethroughs: {str(e)}")
 
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):

@@ -1,6 +1,8 @@
-import React from 'react';
-import type { FiscalNoteItem, DocumentReference, NumberCitationMapItem, ChunkTextMapItem, DocumentInfo } from '../types';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
+import type { FiscalNoteItem, DocumentInfo, NumbersDataItem, ChunkReference, StrikethroughItem, Atom } from '../types';
 import DocumentReferenceComponent from './DocumentReference';
+import { parseToAtoms, segmentsForAtom, isRefAtomFullyStruck, selectionToAtomRange } from '../utils/atomStrikethrough';
+import { saveStrikethroughs } from '../services/api';
 
 interface FiscalNoteContentProps {
   fiscalNote: FiscalNoteItem;
@@ -9,7 +11,11 @@ interface FiscalNoteContentProps {
   numbersData: any[]; // Keep for API compatibility but not used in current implementation
   numberCitationMap: Record<number, NumberCitationMapItem>;
   chunkTextMap: Record<number, ChunkTextMapItem[]>;
+  billType: string; // NEW: Bill type for saving strikethroughs
+  billNumber: string; // NEW: Bill number for saving strikethroughs
+  year: string; // NEW: Year for saving strikethroughs
   onClose?: () => void; // Optional close handler for split view
+  onAddSplitView?: () => void; // Optional handler to enable split view
 }
 
 const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
@@ -18,12 +24,146 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
   enhancedDocumentMapping,
   numberCitationMap,
   chunkTextMap,
-  onClose
+  billType,
+  billNumber,
+  year,
+  onClose,
+  onAddSplitView
 }) => {
+  // State for edit mode and tracking changes
+  // Initialize from localStorage to persist across view changes
+  const [isStrikeoutMode, setIsStrikeoutMode] = useState(() => {
+    const saved = localStorage.getItem(`strikeout-mode-${fiscalNote.filename}`);
+    return saved === 'true';
+  });
+  const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
+  
+  // Store strikethroughs as array of items
+  const [strikethroughs, setStrikethroughs] = useState<StrikethroughItem[]>([]);
+  
+  // Parse fiscal note data into atoms (memoized for performance)
+  const sectionAtoms = useMemo(() => {
+    const atoms: Record<string, Atom[]> = {};
+    if (fiscalNote.data && typeof fiscalNote.data === 'object') {
+      Object.entries(fiscalNote.data).forEach(([key, value]) => {
+        if (typeof value === 'string') {
+          atoms[key] = parseToAtoms(value);
+        }
+      });
+    }
+    return atoms;
+  }, [fiscalNote.data]);
+  
+  const contentRef = useRef<HTMLDivElement>(null);
+  
+  // Undo/Redo state
+  const [history, setHistory] = useState<StrikethroughItem[][]>([[]]);
+  const [historyIndex, setHistoryIndex] = useState(0);
+  const canUndo = historyIndex > 0;
+  const canRedo = historyIndex < history.length - 1;
+  
+  // Generate unique ID for this fiscal note instance
+  const printContentId = `fiscal-note-print-content-${fiscalNote.filename.replace(/[^a-zA-Z0-9]/g, '-')}`;
+  
+  // Clear localStorage strikethrough data on page load (not on component remount)
+  // Use a module-level flag to ensure this only runs once per page load
+  useEffect(() => {
+    // Check if we've already cleared localStorage in this page load
+    const clearFlagKey = 'fiscal-note-cleared-on-load';
+    const alreadyCleared = (window as any)[clearFlagKey];
+    
+    if (!alreadyCleared) {
+      // First component mount of this page load - clear all localStorage strikethrough data
+      console.log('🔄 Page load detected - clearing all localStorage strikethrough data');
+      const keysToRemove: string[] = [];
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key && key.startsWith('fiscal-note-strikethroughs-')) {
+          keysToRemove.push(key);
+        }
+      }
+      keysToRemove.forEach(key => {
+        console.log(`  🗑️ Removing: ${key}`);
+        localStorage.removeItem(key);
+      });
+      
+      // Set flag in window object (cleared on page refresh)
+      (window as any)[clearFlagKey] = true;
+      console.log('✅ localStorage cleared on page load');
+    } else {
+      console.log('♻️ Component remount - localStorage already cleared this session');
+    }
+  }, []); // Empty deps - runs once on mount
+  
+  // Load strikethroughs from backend when fiscal note changes
+  // localStorage is only used for temporary persistence during same session (between view changes)
+  useEffect(() => {
+    console.log(`🔄 Loading fiscal note: ${fiscalNote.filename}`);
+    
+    // Always prioritize backend data (source of truth)
+    const backendStrikethroughs = fiscalNote.strikethroughs || [];
+    
+    // Check localStorage for unsaved changes from this session
+    const localKey = `fiscal-note-strikethroughs-${fiscalNote.filename}`;
+    const savedLocal = localStorage.getItem(localKey);
+    
+    if (savedLocal) {
+      try {
+        const parsed = JSON.parse(savedLocal);
+        
+        // Only use localStorage if it's different from backend (indicates unsaved changes)
+        const isDifferent = JSON.stringify(parsed) !== JSON.stringify(backendStrikethroughs);
+        
+        if (isDifferent) {
+          setStrikethroughs(parsed);
+          setHistory([[], parsed]);
+          setHistoryIndex(1);
+          setHasUnsavedChanges(true);
+          console.log('💾 Loaded UNSAVED strikethroughs from localStorage:', parsed.length);
+          return;
+        } else {
+          // localStorage matches backend, clear it
+          localStorage.removeItem(localKey);
+          console.log('🧹 Cleared localStorage (matches backend)');
+        }
+      } catch (e) {
+        console.error('Failed to parse localStorage strikethroughs:', e);
+        localStorage.removeItem(localKey);
+      }
+    }
+    
+    // Load from backend
+    if (backendStrikethroughs.length > 0) {
+      setStrikethroughs(backendStrikethroughs);
+      setHistory([[], backendStrikethroughs]);
+      setHistoryIndex(1);
+      setHasUnsavedChanges(false);
+      console.log('📥 Loaded strikethroughs from backend:', backendStrikethroughs.length);
+    } else {
+      // Fresh fiscal note, no strikethroughs
+      setStrikethroughs([]);
+      setHistory([[]]);
+      setHistoryIndex(0);
+      setHasUnsavedChanges(false);
+      console.log('🆕 Fresh fiscal note, no strikethroughs');
+    }
+  }, [fiscalNote.filename, fiscalNote.strikethroughs]); // Reset when switching notes or backend data changes
+  
+  // Save strikethroughs to localStorage whenever they change
+  useEffect(() => {
+    console.log(`📊 Current strikethroughs for ${fiscalNote.filename}:`, strikethroughs.length, strikethroughs);
+    
+    if (strikethroughs.length > 0) {
+      const localKey = `fiscal-note-strikethroughs-${fiscalNote.filename}`;
+      localStorage.setItem(localKey, JSON.stringify(strikethroughs));
+      console.log('💾 Saved to localStorage:', localKey);
+    }
+  }, [strikethroughs, fiscalNote.filename]);
+  
   // Print handler - creates a custom print view
   const handlePrint = () => {
     // Get the fiscal note content element
-    const printContent = document.getElementById('fiscal-note-print-content');
+    const printContent = document.getElementById(printContentId);
     if (!printContent) return;
     
     // Create a new window for printing
@@ -105,6 +245,49 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
             li {
               margin-bottom: 4pt;
             }
+            /* Citation colors - preserve in print */
+            .text-blue-600 {
+              color: #2563eb;
+            }
+            .bg-blue-50 {
+              background-color: #eff6ff;
+            }
+            .text-green-600 {
+              color: #16a34a;
+            }
+            .bg-green-50 {
+              background-color: #f0fdf4;
+            }
+            .font-medium {
+              font-weight: 500;
+            }
+            .px-1 {
+              padding-left: 0.25rem;
+              padding-right: 0.25rem;
+            }
+            .py-0\.5 {
+              padding-top: 0.125rem;
+              padding-bottom: 0.125rem;
+            }
+            .rounded {
+              border-radius: 0.25rem;
+            }
+            .text-sm {
+              font-size: 0.875rem;
+            }
+            /* Previous section strikethrough */
+            .line-through {
+              text-decoration: line-through;
+            }
+            .text-gray-500 {
+              color: #6b7280;
+            }
+            .italic {
+              font-style: italic;
+            }
+            .opacity-70 {
+              opacity: 0.7;
+            }
           </style>
         </head>
         <body>
@@ -142,6 +325,309 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
   // Function to parse [number] citations from text
   // Track citation occurrences to cycle through chunks
   const citationOccurrences = React.useRef<{[key: number]: number}>({});
+
+  // Note: Strikethroughs are loaded from fiscalNote.strikethroughs in the effect above
+  // No localStorage needed - backend is source of truth
+
+  // Handle saving changes to backend
+  const handleSaveChanges = async () => {
+    try {
+      console.log(`💾 Saving ${strikethroughs.length} strikethroughs to backend...`);
+      
+      const result = await saveStrikethroughs(fiscalNote.filename, strikethroughs, billType, billNumber, year);
+      console.log('✅ Backend response:', result);
+      
+      setHasUnsavedChanges(false);
+      
+      // Clear localStorage after successful save
+      const localKey = `fiscal-note-strikethroughs-${fiscalNote.filename}`;
+      localStorage.removeItem(localKey);
+      
+      console.log('✅ Strikethroughs saved to backend and localStorage cleared');
+      alert(`Successfully saved ${strikethroughs.length} strikethroughs!`);
+    } catch (error) {
+      console.error('❌ Failed to save:', error);
+      alert(`Failed to save changes: ${error instanceof Error ? error.message : 'Unknown error'}`);
+    }
+  };
+
+  // Handle discarding changes
+  const handleDiscardChanges = () => {
+    // Restore from backend (fiscalNote.strikethroughs) or empty if none
+    const backendStrikethroughs = fiscalNote.strikethroughs || [];
+    setStrikethroughs(backendStrikethroughs);
+    setHasUnsavedChanges(false);
+    setHistory([[], backendStrikethroughs]);
+    setHistoryIndex(backendStrikethroughs.length > 0 ? 1 : 0);
+    
+    // Clear localStorage
+    const localKey = `fiscal-note-strikethroughs-${fiscalNote.filename}`;
+    localStorage.removeItem(localKey);
+    
+    console.log(`🗑️ Discarded changes - restored ${backendStrikethroughs.length} strikethroughs from backend`);
+  };
+
+  // Handle clearing all strikethroughs
+  const handleClearStrikethroughs = () => {
+    // Clear all strikethroughs and reset
+    setStrikethroughs([]);
+    setHasUnsavedChanges(false);
+    setHistory([[]]);
+    setHistoryIndex(0);
+    console.log('🗑️ All strikethroughs cleared');
+  };
+
+  // Handle undo
+  const handleUndo = () => {
+    if (!canUndo) return;
+    const newIndex = historyIndex - 1;
+    console.log('↩️ Undo:', {
+      from: historyIndex,
+      to: newIndex,
+      strikethroughs: history[newIndex].length
+    });
+    setHistoryIndex(newIndex);
+    setStrikethroughs(history[newIndex]);
+    setHasUnsavedChanges(newIndex > 0);
+  };
+
+  // Handle redo
+  const handleRedo = () => {
+    if (!canRedo) return;
+    const newIndex = historyIndex + 1;
+    console.log('↪️ Redo:', {
+      from: historyIndex,
+      to: newIndex,
+      strikethroughs: history[newIndex].length
+    });
+    setHistoryIndex(newIndex);
+    setStrikethroughs(history[newIndex]);
+    setHasUnsavedChanges(true);
+  };
+
+  // Add to history when strikethroughs change
+  const addToHistory = (newStrikethroughs: StrikethroughItem[]) => {
+    const newHistory = history.slice(0, historyIndex + 1);
+    newHistory.push(newStrikethroughs);
+    setHistory(newHistory);
+    setHistoryIndex(newHistory.length - 1);
+    setStrikethroughs(newStrikethroughs);
+  };
+
+  // Warn user before leaving if there are unsaved changes
+  useEffect(() => {
+    const handleBeforeUnload = (e: BeforeUnloadEvent) => {
+      if (hasUnsavedChanges) {
+        e.preventDefault();
+        e.returnValue = '';
+      }
+    };
+
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    return () => window.removeEventListener('beforeunload', handleBeforeUnload);
+  }, [hasUnsavedChanges]);
+
+  // Helper function to find section key from selection
+  const findSectionKeyFromSelection = (selection: Selection): string | null => {
+    const checkNode = (node: Node | null, label: string): string | null => {
+      console.log(`Checking ${label}:`, node);
+      let current = node;
+      let depth = 0;
+      
+      // Go all the way up the tree
+      while (current && depth < 20) {
+        console.log(`  Level ${depth}:`, current.nodeName, current instanceof HTMLElement ? (current as HTMLElement).className : 'not element');
+        
+        if (current instanceof HTMLElement) {
+          // Check if this element has the data-section-key attribute
+          const sectionKey = current.getAttribute('data-section-key');
+          if (sectionKey) {
+            console.log(`  ✅ Found section key at level ${depth}:`, sectionKey);
+            return sectionKey;
+          }
+        }
+        // Stop if we've reached contentRef or document
+        if (current === contentRef.current || current === document.body) {
+          console.log(`  Reached boundary at level ${depth}`);
+          break;
+        }
+        current = current.parentNode;
+        depth++;
+      }
+      return null;
+    };
+    
+    // Try anchor node first
+    let result = checkNode(selection.anchorNode, 'anchor node');
+    if (result) return result;
+    
+    // Try focus node
+    result = checkNode(selection.focusNode, 'focus node');
+    if (result) return result;
+    
+    // Try range common ancestor
+    try {
+      const range = selection.getRangeAt(0);
+      result = checkNode(range.commonAncestorContainer, 'range container');
+      if (result) return result;
+    } catch (e) {
+      // Ignore
+    }
+    
+    // Last resort: search within contentRef for any element with data-section-key
+    if (contentRef.current) {
+      const allSections = contentRef.current.querySelectorAll('[data-section-key]');
+      if (allSections.length > 0) {
+        // Return the first one as a fallback
+        const firstSection = allSections[0] as HTMLElement;
+        return firstSection.getAttribute('data-section-key');
+      }
+    }
+    
+    return null;
+  };
+
+
+  // Apply strikethrough immediately on selection
+  useEffect(() => {
+    if (!isStrikeoutMode || !contentRef.current) return;
+
+    const handleMouseUp = () => {
+      const selection = window.getSelection();
+      if (!selection || selection.isCollapsed) {
+        return;
+      }
+
+      const selectedText = selection.toString().trim();
+      if (!selectedText) {
+        return;
+      }
+
+      // Check if selection is within this component's content
+      const range = selection.getRangeAt(0);
+      if (!contentRef.current?.contains(range.commonAncestorContainer)) {
+        return;
+      }
+
+      // Map selection to atom range immediately
+      const atomRange = selectionToAtomRange();
+      if (!atomRange) {
+        console.warn('Could not map selection to atoms');
+        return;
+      }
+
+      // Find section key
+      const sectionKey = findSectionKeyFromSelection(selection);
+      if (!sectionKey) {
+        console.warn('Could not find section key');
+        return;
+      }
+
+      // Apply strikethrough immediately
+      const item: StrikethroughItem = {
+        id: `st-${Date.now()}-${Math.random()}`,
+        sectionKey,
+        textContent: selectedText,
+        timestamp: new Date().toISOString(),
+        startAtom: atomRange.startAtom,
+        startOffset: atomRange.startOffset,
+        endAtom: atomRange.endAtom,
+        endOffset: atomRange.endOffset
+      };
+
+      const newStrikethroughs = [...strikethroughs, item];
+      addToHistory(newStrikethroughs);
+      setHasUnsavedChanges(true);
+
+      console.log('✏️ Strikethrough applied:', {
+        text: selectedText,
+        section: sectionKey,
+        atomRange,
+        total: newStrikethroughs.length
+      });
+
+      // Clear selection
+      selection.removeAllRanges();
+    };
+
+    const contentElement = contentRef.current;
+    contentElement.addEventListener('mouseup', handleMouseUp);
+    
+    return () => {
+      contentElement.removeEventListener('mouseup', handleMouseUp);
+    };
+  }, [isStrikeoutMode, strikethroughs, addToHistory]);
+
+  // Render atoms for a section with strikethroughs applied
+  const renderAtomsForSection = (sectionKey: string): React.ReactNode => {
+    const atoms = sectionAtoms[sectionKey];
+    if (!atoms || atoms.length === 0) {
+      return null;
+    }
+
+    // Get strikethroughs for this section
+    const sectionStrikethroughs = strikethroughs.filter(st => st.sectionKey === sectionKey);
+    
+    if (sectionStrikethroughs.length > 0) {
+      console.log(`📝 Rendering section "${sectionKey}" with ${sectionStrikethroughs.length} strikethroughs:`, sectionStrikethroughs);
+    }
+
+    return atoms.map((atom, atomIndex) => {
+      if (atom.type === 'text') {
+        // Get segments for this text atom
+        const segments = segmentsForAtom(atomIndex, atom.text.length, sectionStrikethroughs);
+        
+        return segments.map((seg, segIndex) => (
+          <span
+            key={`${atomIndex}-${segIndex}`}
+            data-atom-index={atomIndex}
+            data-char-start={seg.start}
+            data-char-end={seg.end}
+            className={seg.struck ? 'line-through text-gray-500 italic' : undefined}
+          >
+            {atom.text.slice(seg.start, seg.end)}
+          </span>
+        ));
+      } else {
+        // Ref atom - render citation component
+        const isStruck = isRefAtomFullyStruck(atomIndex, sectionStrikethroughs);
+        const citationNumber = parseFloat(atom.refId);
+        
+        // Get document info for this citation
+        const docInfo = enhancedDocumentMapping[citationNumber];
+        const chunkData = chunkTextMap[citationNumber];
+        
+        return (
+          <span
+            key={atomIndex}
+            data-atom-index={atomIndex}
+            data-ref="true"
+            className={isStruck ? 'line-through text-gray-500 italic' : 'inline-flex items-center'}
+          >
+            <span className="text-blue-600">[</span>
+            <DocumentReferenceComponent
+              reference={{
+                type: 'document_reference',
+                number: citationNumber,
+                displayNumber: atom.display.slice(1, -1), // Remove brackets
+                url: generateDocumentUrl(docInfo?.name || ''),
+                document_type: docInfo?.type || 'Document',
+                document_name: docInfo?.name || `Document ${citationNumber}`,
+                description: docInfo?.description || '',
+                document_category: docInfo?.type,
+                document_icon: docInfo?.icon,
+                chunk_text: chunkData?.[0]?.chunk_text,
+                similarity_score: chunkData?.[0]?.attribution_score,
+                sentence: chunkData?.[0]?.sentence,
+                chunk_id: chunkData?.[0]?.chunk_id
+              }}
+            />
+            <span className="text-blue-600">]</span>
+          </span>
+        );
+      }
+    });
+  };
 
   const parseDocumentReferences = (text: string): React.ReactNode => {
     if (!text || typeof text !== 'string') {
@@ -401,15 +887,16 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
   };
 
   // Function to render any value (string, object, array)
-  const renderValue = (value: any, _key?: string): React.ReactNode => {
+  const renderValue = (value: any, sectionKey?: string): React.ReactNode => {
     if (value === null || value === undefined) {
       return <span className="text-gray-400 italic">Not specified</span>;
     }
 
     if (typeof value === 'string') {
+      // Use atom-based rendering with strikethroughs
       return (
-        <div className="text-gray-700 leading-relaxed">
-          {parseDocumentReferences(value)}
+        <div className="text-gray-700 leading-relaxed" data-section-key={sectionKey} style={{ whiteSpace: 'pre-wrap' }}>
+          {renderAtomsForSection(sectionKey || '')}
         </div>
       );
     }
@@ -532,12 +1019,13 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
   };
 
   // Render the main content (used for both display and print)
+  // Note: Not memoized - needs to re-render when strikethroughs change
   const renderContent = () => (
     <>
       {fiscalNote.data && typeof fiscalNote.data === 'object' ? (
         <div className="divide-y divide-gray-200">
           {Object.entries(fiscalNote.data).map(([key, value]) => (
-            <div key={key} className="p-6">
+            <div key={key} className="p-6" data-section-key={key}>
               <h3 className="text-lg font-semibold text-gray-900 mb-4">
                 {formatSectionTitle(key)}
               </h3>
@@ -560,7 +1048,7 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
   return (
     <div className="max-w-4xl mx-auto p-8">
       {/* Hidden print content container */}
-      <div id="fiscal-note-print-content" style={{ display: 'none' }}>
+      <div id={printContentId} style={{ display: 'none' }}>
         <h1>Fiscal Note Analysis</h1>
         <h2>{fiscalNote.filename}</h2>
         {renderContent()}
@@ -588,23 +1076,10 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
               {fiscalNote.filename}
             </h2>
           </div>
-          <div className="flex items-center gap-2">
-            {onClose && (
-              <button
-                onClick={onClose}
-                className="flex items-center gap-2 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors shadow-sm"
-                title="Close Split View"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <line x1="18" y1="6" x2="6" y2="18"></line>
-                  <line x1="6" y1="6" x2="18" y2="18"></line>
-                </svg>
-                Close
-              </button>
-            )}
+          <div className="flex flex-col gap-2 min-w-[140px]">
             <button
               onClick={handlePrint}
-              className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-sm"
+              className="flex items-center justify-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-sm w-full"
               title="Print Fiscal Note"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -614,13 +1089,76 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
               </svg>
               Print
             </button>
+            {onAddSplitView && (
+              <button
+                onClick={onAddSplitView}
+                className="flex items-center justify-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors shadow-sm w-full"
+                title="Compare fiscal notes side by side"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  {/* Left document */}
+                  <rect x="2" y="4" width="8" height="16" rx="1" opacity="0.3"></rect>
+                  {/* Right document */}
+                  <rect x="14" y="4" width="8" height="16" rx="1" opacity="0.3"></rect>
+                  {/* Left arrow pointing right */}
+                  <path d="M7 12h4"></path>
+                  <polyline points="9 10 11 12 9 14"></polyline>
+                  {/* Right arrow pointing left */}
+                  <path d="M17 12h-4"></path>
+                  <polyline points="15 10 13 12 15 14"></polyline>
+                </svg>
+                Compare
+              </button>
+            )}
+            {onClose && (
+              <button
+                onClick={onClose}
+                className="flex items-center justify-center gap-2 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors shadow-sm w-full"
+                title="Close Split View"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+                Close
+              </button>
+            )}
           </div>
         </div>
       </div>
 
       {/* Content */}
-      <div className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
-        {renderContent()}
+      <div 
+        className={`bg-white rounded-lg shadow-sm border overflow-hidden transition-all ${
+          isStrikeoutMode 
+            ? 'border-orange-400 border-2 cursor-text' 
+            : 'border-gray-200'
+        }`}
+        style={{ 
+          userSelect: isStrikeoutMode ? 'text' : 'auto',
+          cursor: isStrikeoutMode 
+            ? `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='24' viewBox='0 0 20 24'%3E%3Cg stroke='%23000' stroke-width='1.5' fill='none'%3E%3Cline x1='10' y1='2' x2='10' y2='22'/%3E%3Cline x1='6' y1='2' x2='14' y2='2'/%3E%3Cline x1='6' y1='22' x2='14' y2='22'/%3E%3C/g%3E%3Crect x='7' y='10' width='6' height='4' fill='white' stroke='%23f97316' stroke-width='1.5'/%3E%3Cline x1='4' y1='12' x2='16' y2='12' stroke='%23f97316' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E") 10 12, text`
+            : 'auto'
+        }}
+      >
+        {hasUnsavedChanges && (
+          <div className="bg-yellow-50 border-b border-yellow-200 px-4 py-2 text-sm text-yellow-800 font-medium flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            <span>Unsaved Strikethroughs - Click Save to persist changes</span>
+          </div>
+        )}
+        {isStrikeoutMode && (
+          <div className="bg-orange-50 border-b border-orange-200 px-4 py-2 text-sm text-orange-700 font-medium">
+            ✏️ Strikeout Mode Active - Select text to mark as removed
+          </div>
+        )}
+        <div ref={contentRef}>
+          {renderContent()}
+        </div>
       </div>
 
       {/* Footer with document mapping info */}
@@ -635,6 +1173,191 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
           </p>
         </div>
       )}
+
+      {/* Floating Edit Toolbar - Minimal */}
+      <div 
+        className="fixed z-50 transition-all duration-300" 
+        style={{ 
+          bottom: '5rem',
+          left: onClose ? (onAddSplitView ? '25%' : '75%') : '50%',
+          transform: 'translateX(-50%)'
+        }}
+      >
+        <div className="bg-white rounded-full shadow-2xl border-2 border-gray-300 px-3 py-2 flex items-center gap-2">
+          {/* Strikeout Mode Toggle */}
+          <div className="relative group">
+            <button
+              onClick={() => {
+                const newMode = !isStrikeoutMode;
+                setIsStrikeoutMode(newMode);
+                localStorage.setItem(`strikeout-mode-${fiscalNote.filename}`, String(newMode));
+              }}
+              className={`p-3 rounded-full transition-all ${
+                isStrikeoutMode
+                  ? 'bg-orange-600 text-white hover:bg-orange-700'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+              }`}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M16 4H9a3 3 0 0 0-2.83 4"></path>
+                <path d="M14 12a4 4 0 0 1 0 8H6"></path>
+                <line x1="4" y1="12" x2="20" y2="12"></line>
+              </svg>
+            </button>
+            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-gray-900 text-white text-sm rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+              {isStrikeoutMode ? 'Exit Strikeout Mode' : 'Enable Strikeout Mode'}
+            </div>
+          </div>
+
+          {/* Divider */}
+          <div className="w-px h-8 bg-gray-300"></div>
+
+          {/* Clear All Strikethroughs Button */}
+          {strikethroughs.length > 0 && (
+            <div className="relative group">
+              <button
+                onClick={async () => {
+                  if (window.confirm(`Are you sure you want to clear all ${strikethroughs.length} strikethroughs from this fiscal note? This will permanently remove them.`)) {
+                    try {
+                      console.log('🗑️ Clearing all strikethroughs and saving...');
+                      
+                      // Clear strikethroughs
+                      const newStrikethroughs: StrikethroughItem[] = [];
+                      setStrikethroughs(newStrikethroughs);
+                      setHistory([[], newStrikethroughs]);
+                      setHistoryIndex(1);
+                      
+                      // Clear localStorage
+                      const localKey = `fiscal-note-strikethroughs-${fiscalNote.filename}`;
+                      localStorage.removeItem(localKey);
+                      
+                      // Save immediately to backend
+                      const result = await saveStrikethroughs(fiscalNote.filename, newStrikethroughs, billType, billNumber, year);
+                      console.log('✅ Cleared and saved:', result);
+                      
+                      setHasUnsavedChanges(false);
+                      alert('All strikethroughs cleared and saved!');
+                    } catch (error) {
+                      console.error('❌ Failed to clear strikethroughs:', error);
+                      alert(`Failed to clear strikethroughs: ${error instanceof Error ? error.message : 'Unknown error'}`);
+                      // Revert on error
+                      setStrikethroughs(fiscalNote.strikethroughs || []);
+                    }
+                  }
+                }}
+                className="p-3 rounded-full bg-red-100 text-red-600 hover:bg-red-200 transition-all"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M3 6h18"></path>
+                  <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path>
+                  <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path>
+                  <line x1="10" y1="11" x2="10" y2="17"></line>
+                  <line x1="14" y1="11" x2="14" y2="17"></line>
+                </svg>
+              </button>
+              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-gray-900 text-white text-sm rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                Clear All Strikethroughs on This Fiscal Note ({strikethroughs.length})
+              </div>
+            </div>
+          )}
+
+          {/* Divider */}
+          {strikethroughs.length > 0 && (
+            <div className="w-px h-8 bg-gray-300"></div>
+          )}
+
+          {/* Undo Button */}
+          <div className="relative group">
+            <button
+              onClick={handleUndo}
+              disabled={!canUndo}
+              className={`p-3 rounded-full transition-all ${
+                canUndo
+                  ? 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  : 'bg-gray-50 text-gray-300 cursor-not-allowed'
+              }`}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M3 7v6h6"></path>
+                <path d="M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13"></path>
+              </svg>
+            </button>
+            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-gray-900 text-white text-sm rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+              Undo
+            </div>
+          </div>
+
+          {/* Redo Button */}
+          <div className="relative group">
+            <button
+              onClick={handleRedo}
+              disabled={!canRedo}
+              className={`p-3 rounded-full transition-all ${
+                canRedo
+                  ? 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  : 'bg-gray-50 text-gray-300 cursor-not-allowed'
+              }`}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21 7v6h-6"></path>
+                <path d="M3 17a9 9 0 0 1 9-9 9 9 0 0 1 6 2.3l3 2.7"></path>
+              </svg>
+            </button>
+            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-gray-900 text-white text-sm rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+              Redo
+            </div>
+          </div>
+
+          {/* Divider */}
+          {hasUnsavedChanges && (
+            <div className="w-px h-8 bg-gray-300"></div>
+          )}
+
+          {/* Discard Button */}
+          {hasUnsavedChanges && (
+            <div className="relative group">
+              <button
+                onClick={handleDiscardChanges}
+                className="p-3 rounded-full bg-gray-100 text-gray-700 hover:bg-red-100 hover:text-red-600 transition-all"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="3 6 5 6 21 6"></polyline>
+                  <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                  <line x1="10" y1="11" x2="10" y2="17"></line>
+                  <line x1="14" y1="11" x2="14" y2="17"></line>
+                </svg>
+              </button>
+              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-gray-900 text-white text-sm rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                Discard Changes
+              </div>
+            </div>
+          )}
+
+          {/* Save Button */}
+          {hasUnsavedChanges && (
+            <div className="relative group">
+              <button
+                onClick={handleSaveChanges}
+                className="p-3 rounded-full bg-green-600 text-white hover:bg-green-700 transition-all"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
+                  <polyline points="17 21 17 13 7 13 7 21"></polyline>
+                  <polyline points="7 3 7 8 15 8"></polyline>
+                </svg>
+              </button>
+              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-gray-900 text-white text-sm rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                Save Changes
+              </div>
+            </div>
+          )}
+
+          {/* Unsaved indicator dot */}
+          {hasUnsavedChanges && (
+            <div className="absolute -top-1 -right-1 w-3 h-3 bg-orange-500 rounded-full border-2 border-white"></div>
+          )}
+        </div>
+      </div>
     </div>
   );
 };

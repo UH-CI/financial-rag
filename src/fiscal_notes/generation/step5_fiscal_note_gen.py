@@ -930,8 +930,8 @@ def generate_fiscal_note_for_context(context_text, numbers_data=None, previous_n
             f"""
             You are generating a **new fiscal note** based on updated documents. 
 Compare it to the previous fiscal note (shown below). Only include information that is **new or has changed**. 
-If a section has no changes, leave it **blank**. 
-Do **not repeat content** from the previous fiscal note.
+If a section has no changes, and is still relevant, include it in the new fiscal note.
+If a section has no changes, and is not relevant, say how and why the previous section has changed from the previous fiscal note.
 Ensure that you use numbers according to the numbers.json file. Do not make up numbers.
 Previous fiscal note:
             """

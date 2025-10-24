@@ -3,6 +3,7 @@ import type { FiscalNoteData } from '../types';
 import { getFiscalNoteData } from '../services/api';
 import TimelineNavigation from './TimelineNavigation';
 import FiscalNoteContent from './FiscalNoteContent';
+import ErrorBoundary from './ErrorBoundary';
 
 interface FiscalNoteViewerProps {
   billType: 'HB' | 'SB';
@@ -235,14 +236,20 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
                   ))}
                 </select>
               </div>
-              <FiscalNoteContent
-                fiscalNote={fiscalNoteData.fiscal_notes[currentSplitView.leftIndex]}
-                documentMapping={fiscalNoteData.document_mapping}
-                enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
-                numbersData={fiscalNoteData.numbers_data || []}
-                numberCitationMap={fiscalNoteData.number_citation_map || {}}
-                chunkTextMap={fiscalNoteData.chunk_text_map || {}}
-              />
+              <ErrorBoundary>
+                <FiscalNoteContent
+                  key={fiscalNoteData.fiscal_notes[currentSplitView.leftIndex].filename}
+                  fiscalNote={fiscalNoteData.fiscal_notes[currentSplitView.leftIndex]}
+                  documentMapping={fiscalNoteData.document_mapping}
+                  enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
+                  numbersData={fiscalNoteData.numbers_data || []}
+                  numberCitationMap={fiscalNoteData.number_citation_map || {}}
+                  chunkTextMap={fiscalNoteData.chunk_text_map || {}}
+                  billType={billType}
+                  billNumber={billNumber}
+                  year={year}
+                />
+              </ErrorBoundary>
             </div>
 
             {/* Right Panel */}
@@ -260,15 +267,21 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
                   ))}
                 </select>
               </div>
-              <FiscalNoteContent
-                fiscalNote={fiscalNoteData.fiscal_notes[currentSplitView.rightIndex]}
-                documentMapping={fiscalNoteData.document_mapping}
-                enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
-                numbersData={fiscalNoteData.numbers_data || []}
-                numberCitationMap={fiscalNoteData.number_citation_map || {}}
-                chunkTextMap={fiscalNoteData.chunk_text_map || {}}
-                onClose={disableSplitView}
-              />
+              <ErrorBoundary>
+                <FiscalNoteContent
+                  key={fiscalNoteData.fiscal_notes[currentSplitView.rightIndex].filename}
+                  fiscalNote={fiscalNoteData.fiscal_notes[currentSplitView.rightIndex]}
+                  documentMapping={fiscalNoteData.document_mapping}
+                  enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
+                  numbersData={fiscalNoteData.numbers_data || []}
+                  numberCitationMap={fiscalNoteData.number_citation_map || {}}
+                  chunkTextMap={fiscalNoteData.chunk_text_map || {}}
+                  billType={billType}
+                  billNumber={billNumber}
+                  year={year}
+                  onClose={disableSplitView}
+                />
+              </ErrorBoundary>
             </div>
           </div>
         ) : (
@@ -295,41 +308,40 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
                 </div>
               </div>
               
-              {/* Content with floating Add button */}
-              <div className="overflow-y-auto h-full relative">
-                <FiscalNoteContent
-                  fiscalNote={fiscalNoteData.fiscal_notes[selectedNoteIndex]}
-                  documentMapping={fiscalNoteData.document_mapping}
-                  enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
-                  numbersData={fiscalNoteData.numbers_data || []}
-                  numberCitationMap={fiscalNoteData.number_citation_map || {}}
-                  chunkTextMap={fiscalNoteData.chunk_text_map || {}}
-                />
-                
-                {/* Add Split View Button - Floating button centered between content and right edge */}
-                <button
-                  onClick={enableSplitView}
-                  className="fixed opacity-75 top-1/2 -translate-y-1/2 flex flex-col items-center justify-center gap-2 w-32 h-32 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition-colors shadow-lg z-20"
-                  title="Compare fiscal notes side by side"
-                  style={{ left: 'calc(50% + 32rem + ((100vw - 50% - 32rem) / 2) - 2rem)' }}
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <line x1="12" y1="5" x2="12" y2="19"></line>
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                  </svg>
-                  <span className="text-xs font-medium">Add Fiscal Note</span>
-                </button>
+              {/* Content */}
+              <div className="overflow-y-auto h-full">
+                <ErrorBoundary>
+                  <FiscalNoteContent
+                    key={fiscalNoteData.fiscal_notes[selectedNoteIndex].filename}
+                    fiscalNote={fiscalNoteData.fiscal_notes[selectedNoteIndex]}
+                    documentMapping={fiscalNoteData.document_mapping}
+                    enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
+                    numbersData={fiscalNoteData.numbers_data || []}
+                    numberCitationMap={fiscalNoteData.number_citation_map || {}}
+                    chunkTextMap={fiscalNoteData.chunk_text_map || {}}
+                    billType={billType}
+                    billNumber={billNumber}
+                    year={year}
+                    onAddSplitView={enableSplitView}
+                  />
+                </ErrorBoundary>
               </div>
             </div>
           ) : (
-            <FiscalNoteContent
-              fiscalNote={fiscalNoteData.fiscal_notes[selectedNoteIndex]}
-              documentMapping={fiscalNoteData.document_mapping}
-              enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
-              numbersData={fiscalNoteData.numbers_data || []}
-              numberCitationMap={fiscalNoteData.number_citation_map || {}}
-              chunkTextMap={fiscalNoteData.chunk_text_map || {}}
-            />
+            <ErrorBoundary>
+              <FiscalNoteContent
+                key={fiscalNoteData.fiscal_notes[selectedNoteIndex].filename}
+                fiscalNote={fiscalNoteData.fiscal_notes[selectedNoteIndex]}
+                documentMapping={fiscalNoteData.document_mapping}
+                enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
+                numbersData={fiscalNoteData.numbers_data || []}
+                numberCitationMap={fiscalNoteData.number_citation_map || {}}
+                chunkTextMap={fiscalNoteData.chunk_text_map || {}}
+                billType={billType}
+                billNumber={billNumber}
+                year={year}
+              />
+            </ErrorBoundary>
           )
         )}
       </div>

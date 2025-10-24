@@ -186,10 +186,28 @@ export interface TimelineItem {
   documents: string[];
 }
 
+// Atom: stable unit for text rendering and selection mapping
+export type Atom =
+  | { type: 'text'; text: string }
+  | { type: 'ref'; refId: string; display: string };
+
+export interface StrikethroughItem {
+  id: string;
+  sectionKey: string;
+  textContent: string; // Keep for reference/display
+  timestamp: string;
+  // Atom-based positioning (stable, deterministic)
+  startAtom: number;   // Index in atom array
+  startOffset: number; // Character offset within startAtom (0 for refs)
+  endAtom: number;     // Index in atom array
+  endOffset: number;   // Character offset within endAtom
+}
+
 export interface FiscalNoteItem {
   filename: string;
   data: Record<string, any>;
   new_documents_processed?: string[]; // Documents used to create this specific fiscal note
+  strikethroughs?: StrikethroughItem[]; // Optional: User-applied strikethroughs
 }
 
 export interface NumbersDataItem {
