@@ -72,8 +72,29 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
       try {
         setLoading(true);
         setError(null);
+        // Reset index to 0 when loading new bill to prevent out of bounds errors
+        setSelectedNoteIndex(0);
         const data = await getFiscalNoteData(billType, billNumber, year);
         setFiscalNoteData(data);
+        
+        // Reset split view indices if they're out of bounds for the new data
+        if (data.fiscal_notes && data.fiscal_notes.length > 0) {
+          const maxIndex = data.fiscal_notes.length - 1;
+          setSplitViewState(prev => {
+            const currentState = prev[billKey];
+            if (currentState && (currentState.leftIndex > maxIndex || currentState.rightIndex > maxIndex)) {
+              return {
+                ...prev,
+                [billKey]: {
+                  enabled: false,
+                  leftIndex: 0,
+                  rightIndex: Math.min(1, maxIndex)
+                }
+              };
+            }
+            return prev;
+          });
+        }
         
         if (data.status === 'generating') {
           setError(data.message || 'Fiscal note generation in progress');
@@ -141,6 +162,11 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
     );
   }
 
+  // Safety check: Ensure selectedNoteIndex is within bounds
+  const safeSelectedIndex = Math.min(selectedNoteIndex, fiscalNoteData.fiscal_notes.length - 1);
+  const safeSplitViewLeftIndex = Math.min(currentSplitView.leftIndex, fiscalNoteData.fiscal_notes.length - 1);
+  const safeSplitViewRightIndex = Math.min(currentSplitView.rightIndex, fiscalNoteData.fiscal_notes.length - 1);
+
   return (
     <div className="flex flex-col lg:flex-row h-full w-full bg-gray-50">
       {/* Sidebar Container with relative positioning to allow button overflow */}
@@ -185,7 +211,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
             <div className="space-y-2 max-h-48 overflow-y-auto">
               {Object.entries(fiscalNoteData.document_mapping).map(([docName, docNumber]) => {
                 // Check if this document was used in the currently selected fiscal note
-                const selectedFiscalNote = fiscalNoteData.fiscal_notes[selectedNoteIndex];
+                const selectedFiscalNote = fiscalNoteData.fiscal_notes[safeSelectedIndex];
                 const isUsedInSelectedNote = selectedFiscalNote?.new_documents_processed?.includes(docName) || false;
                 
                 return (
@@ -208,7 +234,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
             <TimelineNavigation
               timeline={fiscalNoteData.timeline}
               fiscalNotes={fiscalNoteData.fiscal_notes}
-              selectedNoteIndex={selectedNoteIndex}
+              selectedNoteIndex={safeSelectedIndex}
               onTimelineItemClick={handleTimelineItemClick}
             />
           </div>
@@ -225,7 +251,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
             <div className="flex-1 border-r border-gray-300 relative h-full flex flex-col">
               <div className="sticky top-0 z-20 bg-white border-b border-gray-200 p-3 shadow-sm flex-shrink-0">
                 <select
-                  value={currentSplitView.leftIndex}
+                  value={safeSplitViewLeftIndex}
                   onChange={(e) => updateSplitViewIndex('left', parseInt(e.target.value))}
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                 >
@@ -239,8 +265,8 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
               <div className="flex-1 overflow-y-auto relative">
                 <ErrorBoundary>
                   <FiscalNoteContent
-                    key={fiscalNoteData.fiscal_notes[currentSplitView.leftIndex].filename}
-                    fiscalNote={fiscalNoteData.fiscal_notes[currentSplitView.leftIndex]}
+                    key={fiscalNoteData.fiscal_notes[safeSplitViewLeftIndex].filename}
+                    fiscalNote={fiscalNoteData.fiscal_notes[safeSplitViewLeftIndex]}
                     documentMapping={fiscalNoteData.document_mapping}
                     enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
                     numbersData={fiscalNoteData.numbers_data || []}
@@ -259,7 +285,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
             <div className="flex-1 relative h-full flex flex-col">
               <div className="sticky top-0 z-20 bg-white border-b border-gray-200 p-3 shadow-sm flex-shrink-0">
                 <select
-                  value={currentSplitView.rightIndex}
+                  value={safeSplitViewRightIndex}
                   onChange={(e) => updateSplitViewIndex('right', parseInt(e.target.value))}
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                 >
@@ -273,8 +299,8 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
               <div className="flex-1 overflow-y-auto relative">
                 <ErrorBoundary>
                   <FiscalNoteContent
-                    key={fiscalNoteData.fiscal_notes[currentSplitView.rightIndex].filename}
-                    fiscalNote={fiscalNoteData.fiscal_notes[currentSplitView.rightIndex]}
+                    key={fiscalNoteData.fiscal_notes[safeSplitViewRightIndex].filename}
+                    fiscalNote={fiscalNoteData.fiscal_notes[safeSplitViewRightIndex]}
                     documentMapping={fiscalNoteData.document_mapping}
                     enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
                     numbersData={fiscalNoteData.numbers_data || []}
@@ -303,7 +329,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
                       data-tab-index={index}
                       onClick={() => setSelectedNoteIndex(index)}
                       className={`px-3 lg:px-4 py-2 text-xs lg:text-sm font-medium rounded-lg whitespace-nowrap transition-colors ${
-                        selectedNoteIndex === index
+                        safeSelectedIndex === index
                           ? 'bg-blue-100 text-blue-700 border border-blue-200'
                           : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
                       }`}
@@ -318,8 +344,8 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
               <div className="overflow-y-auto h-full">
                 <ErrorBoundary>
                   <FiscalNoteContent
-                    key={fiscalNoteData.fiscal_notes[selectedNoteIndex].filename}
-                    fiscalNote={fiscalNoteData.fiscal_notes[selectedNoteIndex]}
+                    key={fiscalNoteData.fiscal_notes[safeSelectedIndex].filename}
+                    fiscalNote={fiscalNoteData.fiscal_notes[safeSelectedIndex]}
                     documentMapping={fiscalNoteData.document_mapping}
                     enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
                     numbersData={fiscalNoteData.numbers_data || []}
@@ -336,8 +362,8 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
           ) : (
             <ErrorBoundary>
               <FiscalNoteContent
-                key={fiscalNoteData.fiscal_notes[selectedNoteIndex].filename}
-                fiscalNote={fiscalNoteData.fiscal_notes[selectedNoteIndex]}
+                key={fiscalNoteData.fiscal_notes[safeSelectedIndex].filename}
+                fiscalNote={fiscalNoteData.fiscal_notes[safeSelectedIndex]}
                 documentMapping={fiscalNoteData.document_mapping}
                 enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
                 numbersData={fiscalNoteData.numbers_data || []}

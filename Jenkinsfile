@@ -12,15 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 checkout scm
-                withCredentials([string(credentialsId: env.SLACK_CRED_ID, variable: 'SLACK_URL')]) {
-                sh """
-                curl -X POST -H 'Content-type: application/json' \
-                --data '{"text":"Starting Deployment ${env.JOB_NAME} #${env.BUILD_NUMBER} (<${env.BUILD_URL}|View Build>)"}' \
-                $SLACK_URL
-                """
-                }
             }
-
         }
 
         stage('Check Changes') {
@@ -34,6 +26,15 @@ pipeline {
                                 echo "  Author: ${item.author}"
                                 echo "  Message: ${item.msg}"
                             }
+                        }
+                        
+                        // Send Slack notification only when changes are detected
+                        withCredentials([string(credentialsId: env.SLACK_CRED_ID, variable: 'SLACK_URL')]) {
+                            sh """
+                            curl -X POST -H 'Content-type: application/json' \
+                            --data '{"text":"🚀 Starting Deployment ${env.JOB_NAME} #${env.BUILD_NUMBER} (<${env.BUILD_URL}|View Build>)"}' \
+                            \$SLACK_URL
+                            """
                         }
                     } else {
                         echo "⚠️ No new commits since the last successful build. Skipping pipeline."
