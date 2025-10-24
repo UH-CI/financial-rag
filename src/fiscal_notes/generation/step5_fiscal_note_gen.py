@@ -142,13 +142,15 @@ def save_chunk_mapping(fiscal_note_name, chunks):
         bill_name_part = parts[0]  # "HB727" or "SB123"
         
         # Extract bill type and number from the first part
-        if len(bill_name_part) >= 3 and bill_name_part[:2] in ['HB', 'SB']:
-            bill_type = bill_name_part[:2]  # HB or SB
+        if len(bill_name_part) >= 3 and bill_name_part[:2] in ['HB', 'SB', 'HR', 'SR']:
+            bill_type = bill_name_part[:2]  # HB, SB, HR, or SR
             bill_number = bill_name_part[2:]  # 727
             year = "2025"  # Default year
             
+            # Save to fiscal_notes/generation directory
+            script_dir = os.path.dirname(os.path.abspath(__file__))
             bill_dir = f"{bill_type}_{bill_number}_{year}"
-            output_dir = os.path.join(bill_dir, "fiscal_notes")
+            output_dir = os.path.join(script_dir, bill_dir, "fiscal_notes")
             
             # Create directory if it doesn't exist
             os.makedirs(output_dir, exist_ok=True)

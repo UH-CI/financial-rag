@@ -89,9 +89,11 @@ pipeline {
                         ssh -o StrictHostKeyChecking=no exouser@${VM_HOST} '
                             set -e
                             cd /home/exouser/RAG-system
-                            git stash --include-untracked
+                            
+                            # Update code (gitignored files like fiscal notes are preserved)
                             git pull origin main
-                            git stash drop || true
+                            
+                            # Build and deploy frontend
                             cd /home/exouser/RAG-system/frontend
                             sudo npm install
                             sudo npm run build

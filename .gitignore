@@ -49,3 +49,6 @@ src/chroma_db/
 
 /src/bill_data/document_vectors.json
 /src/bill_data/introduction_document_vectors.json
+
+# Fiscal notes and user-generated data
+/src/fiscal_notes/generation/*
