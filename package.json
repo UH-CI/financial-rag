@@ -1,0 +1,19 @@
+{
+  "name": "financial-rag",
+  "version": "1.0.0",
+  "description": "Financial RAG System with Frontend and Backend",
+  "private": true,
+  "scripts": {
+    "prepare": "husky install",
+    "test": "cd frontend && npm run test:run",
+    "build": "cd frontend && npm run build",
+    "lint": "cd frontend && npm run lint"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UH-CI/financial-rag.git"
+  }
+}

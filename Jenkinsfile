@@ -20,6 +20,10 @@ pipeline {
             steps {
                 script {
                     // Checkout with increased timeout (30 minutes)
+                    // Note: Repository is large (~375MB) due to historical commits of:
+                    // - ChromaDB databases (468MB)
+                    // - Vector JSON files (570MB + 323MB)
+                    // See CLEANUP_LARGE_FILES.md for cleanup instructions
                     checkout([
                         $class: 'GitSCM',
                         branches: scm.branches,

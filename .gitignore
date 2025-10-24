@@ -8,6 +8,10 @@
 __pycache__/
 *.pyc
 
+# Node modules
+node_modules/
+package-lock.json
+
 # Temporarily removed ChromaDB ignores to commit database
 
 
