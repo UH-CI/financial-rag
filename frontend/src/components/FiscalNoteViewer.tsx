@@ -222,8 +222,8 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
           /* Split View - Two fiscal notes side by side */
           <div className="flex h-full">
             {/* Left Panel */}
-            <div className="flex-1 border-r border-gray-300 overflow-y-auto">
-              <div className="sticky top-0 z-20 bg-white border-b border-gray-200 p-3 shadow-sm">
+            <div className="flex-1 border-r border-gray-300 relative h-full flex flex-col">
+              <div className="sticky top-0 z-20 bg-white border-b border-gray-200 p-3 shadow-sm flex-shrink-0">
                 <select
                   value={currentSplitView.leftIndex}
                   onChange={(e) => updateSplitViewIndex('left', parseInt(e.target.value))}
@@ -236,25 +236,28 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
                   ))}
                 </select>
               </div>
-              <ErrorBoundary>
-                <FiscalNoteContent
-                  key={fiscalNoteData.fiscal_notes[currentSplitView.leftIndex].filename}
-                  fiscalNote={fiscalNoteData.fiscal_notes[currentSplitView.leftIndex]}
-                  documentMapping={fiscalNoteData.document_mapping}
-                  enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
-                  numbersData={fiscalNoteData.numbers_data || []}
-                  numberCitationMap={fiscalNoteData.number_citation_map || {}}
-                  chunkTextMap={fiscalNoteData.chunk_text_map || {}}
-                  billType={billType}
-                  billNumber={billNumber}
-                  year={year}
-                />
-              </ErrorBoundary>
+              <div className="flex-1 overflow-y-auto relative">
+                <ErrorBoundary>
+                  <FiscalNoteContent
+                    key={fiscalNoteData.fiscal_notes[currentSplitView.leftIndex].filename}
+                    fiscalNote={fiscalNoteData.fiscal_notes[currentSplitView.leftIndex]}
+                    documentMapping={fiscalNoteData.document_mapping}
+                    enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
+                    numbersData={fiscalNoteData.numbers_data || []}
+                    numberCitationMap={fiscalNoteData.number_citation_map || {}}
+                    chunkTextMap={fiscalNoteData.chunk_text_map || {}}
+                    billType={billType}
+                    billNumber={billNumber}
+                    year={year}
+                    position="left"
+                  />
+                </ErrorBoundary>
+              </div>
             </div>
 
             {/* Right Panel */}
-            <div className="flex-1 overflow-y-auto">
-              <div className="sticky top-0 z-20 bg-white border-b border-gray-200 p-3 shadow-sm">
+            <div className="flex-1 relative h-full flex flex-col">
+              <div className="sticky top-0 z-20 bg-white border-b border-gray-200 p-3 shadow-sm flex-shrink-0">
                 <select
                   value={currentSplitView.rightIndex}
                   onChange={(e) => updateSplitViewIndex('right', parseInt(e.target.value))}
@@ -267,21 +270,24 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
                   ))}
                 </select>
               </div>
-              <ErrorBoundary>
-                <FiscalNoteContent
-                  key={fiscalNoteData.fiscal_notes[currentSplitView.rightIndex].filename}
-                  fiscalNote={fiscalNoteData.fiscal_notes[currentSplitView.rightIndex]}
-                  documentMapping={fiscalNoteData.document_mapping}
-                  enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
-                  numbersData={fiscalNoteData.numbers_data || []}
-                  numberCitationMap={fiscalNoteData.number_citation_map || {}}
-                  chunkTextMap={fiscalNoteData.chunk_text_map || {}}
-                  billType={billType}
-                  billNumber={billNumber}
-                  year={year}
-                  onClose={disableSplitView}
-                />
-              </ErrorBoundary>
+              <div className="flex-1 overflow-y-auto relative">
+                <ErrorBoundary>
+                  <FiscalNoteContent
+                    key={fiscalNoteData.fiscal_notes[currentSplitView.rightIndex].filename}
+                    fiscalNote={fiscalNoteData.fiscal_notes[currentSplitView.rightIndex]}
+                    documentMapping={fiscalNoteData.document_mapping}
+                    enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
+                    numbersData={fiscalNoteData.numbers_data || []}
+                    numberCitationMap={fiscalNoteData.number_citation_map || {}}
+                    chunkTextMap={fiscalNoteData.chunk_text_map || {}}
+                    billType={billType}
+                    billNumber={billNumber}
+                    year={year}
+                    onClose={disableSplitView}
+                    position="right"
+                  />
+                </ErrorBoundary>
+              </div>
             </div>
           </div>
         ) : (

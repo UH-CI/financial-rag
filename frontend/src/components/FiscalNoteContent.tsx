@@ -16,6 +16,7 @@ interface FiscalNoteContentProps {
   year: string; // NEW: Year for saving strikethroughs
   onClose?: () => void; // Optional close handler for split view
   onAddSplitView?: () => void; // Optional handler to enable split view
+  position?: 'left' | 'right' | 'center'; // Position for toolbar in split view
 }
 
 const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
@@ -28,7 +29,8 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
   billNumber,
   year,
   onClose,
-  onAddSplitView
+  onAddSplitView,
+  position = 'center'
 }) => {
   // State for edit mode and tracking changes
   // Initialize from localStorage to persist across view changes
@@ -579,11 +581,88 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
       } else {
         // Ref atom - render citation component
         const isStruck = isRefAtomFullyStruck(atomIndex, sectionStrikethroughs);
-        const citationNumber = parseFloat(atom.refId);
+        const citationContent = atom.refId;
         
-        // Get document info for this citation
+        // Parse citation - could be "5", "5.3", or "CHUNK 1, NUMBER 5"
+        let citationNumber: number;
+        let chunkId: number | undefined;
+        
+        // Check if it's a complex citation format
+        if (citationContent.includes('CHUNK') && citationContent.includes('NUMBER')) {
+          const numberMatch = citationContent.match(/NUMBER\s+(\d+)/);
+          const chunkMatch = citationContent.match(/CHUNK\s+(\d+)/);
+          citationNumber = numberMatch ? parseInt(numberMatch[1]) : parseFloat(citationContent);
+          chunkId = chunkMatch ? parseInt(chunkMatch[1]) : undefined;
+        } else if (citationContent.includes('.')) {
+          // Format like "5.3" - document.chunk
+          const parts = citationContent.split('.');
+          citationNumber = parseInt(parts[0]);
+          chunkId = parts[1] ? parseInt(parts[1]) : undefined;
+        } else {
+          // Simple number
+          citationNumber = parseFloat(citationContent);
+        }
+        
+        // Check if this is a financial citation
+        const financialCitation = numberCitationMap[citationNumber];
+        
+        if (financialCitation) {
+          // Financial citation
+          const numberData = financialCitation.data;
+          const contextText = numberData ? numberData.text : `Amount referenced in ${financialCitation.filename}`;
+          
+          // Find the document number for this financial citation's document
+          let documentNumber: number | null = null;
+          for (const [docName, docNum] of Object.entries(documentMapping)) {
+            if (docName === financialCitation.document_name) {
+              documentNumber = docNum;
+              break;
+            }
+          }
+          
+          const displayNumber = documentNumber ? `${documentNumber}.${citationNumber}` : citationNumber.toString();
+          
+          return (
+            <span
+              key={atomIndex}
+              data-atom-index={atomIndex}
+              data-ref="true"
+              className={isStruck ? 'line-through text-gray-500 italic' : 'inline-flex items-center'}
+            >
+              <span className="text-green-600">[</span>
+              <DocumentReferenceComponent
+                reference={{
+                  type: 'document_reference',
+                  number: citationNumber,
+                  displayNumber: displayNumber,
+                  url: generateDocumentUrl(financialCitation.document_name),
+                  document_type: 'Financial Citation',
+                  document_name: financialCitation.document_name,
+                  description: `$${financialCitation.amount.toLocaleString()} from ${financialCitation.document_name}`,
+                  chunk_text: contextText,
+                  similarity_score: undefined,
+                  financial_amount: financialCitation.amount
+                }}
+              />
+              <span className="text-green-600">]</span>
+            </span>
+          );
+        }
+        
+        // Regular document citation
         const docInfo = enhancedDocumentMapping[citationNumber];
         const chunkData = chunkTextMap[citationNumber];
+        
+        // If we have a specific chunk ID from the citation, use it
+        let chunkInfo = chunkData?.[0];
+        if (chunkId !== undefined && chunkData) {
+          // Find the chunk with matching chunk_id
+          chunkInfo = chunkData.find(c => c.chunk_id === chunkId) || chunkData[0];
+        }
+        
+        const displayNumber = chunkInfo?.chunk_id 
+          ? `${citationNumber}.${chunkInfo.chunk_id}` 
+          : citationNumber.toString();
         
         return (
           <span
@@ -597,17 +676,17 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
               reference={{
                 type: 'document_reference',
                 number: citationNumber,
-                displayNumber: atom.display.slice(1, -1), // Remove brackets
+                displayNumber: displayNumber,
                 url: generateDocumentUrl(docInfo?.name || ''),
                 document_type: docInfo?.type || 'Document',
                 document_name: docInfo?.name || `Document ${citationNumber}`,
                 description: docInfo?.description || '',
                 document_category: docInfo?.type,
                 document_icon: docInfo?.icon,
-                chunk_text: chunkData?.[0]?.chunk_text,
-                similarity_score: chunkData?.[0]?.attribution_score,
-                sentence: chunkData?.[0]?.sentence,
-                chunk_id: chunkData?.[0]?.chunk_id
+                chunk_text: chunkInfo?.chunk_text,
+                similarity_score: chunkInfo?.attribution_score,
+                sentence: chunkInfo?.sentence,
+                chunk_id: chunkInfo?.chunk_id
               }}
             />
             <span className="text-blue-600">]</span>
@@ -777,9 +856,10 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
   );
 
   return (
-    <div className="max-w-4xl mx-auto p-8">
-      {/* Hidden print content container */}
-      <div id={printContentId} style={{ display: 'none' }}>
+    <div className="w-full h-full">
+      <div className="max-w-4xl mx-auto p-8 pb-32">
+        {/* Hidden print content container */}
+        <div id={printContentId} style={{ display: 'none' }}>
         <h1>Fiscal Note Analysis</h1>
         <h2>{fiscalNote.filename}</h2>
         {renderContent()}
@@ -806,54 +886,6 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
             <h2 className="text-xl text-gray-600">
               {fiscalNote.filename}
             </h2>
-          </div>
-          <div className="flex flex-col gap-2 min-w-[140px]">
-            <button
-              onClick={handlePrint}
-              className="flex items-center justify-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-sm w-full"
-              title="Print Fiscal Note"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <polyline points="6 9 6 2 18 2 18 9"></polyline>
-                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
-                <rect x="6" y="14" width="12" height="8"></rect>
-              </svg>
-              Print
-            </button>
-            {onAddSplitView && (
-              <button
-                onClick={onAddSplitView}
-                className="flex items-center justify-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors shadow-sm w-full"
-                title="Compare fiscal notes side by side"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  {/* Left document */}
-                  <rect x="2" y="4" width="8" height="16" rx="1" opacity="0.3"></rect>
-                  {/* Right document */}
-                  <rect x="14" y="4" width="8" height="16" rx="1" opacity="0.3"></rect>
-                  {/* Left arrow pointing right */}
-                  <path d="M7 12h4"></path>
-                  <polyline points="9 10 11 12 9 14"></polyline>
-                  {/* Right arrow pointing left */}
-                  <path d="M17 12h-4"></path>
-                  <polyline points="15 10 13 12 15 14"></polyline>
-                </svg>
-                Compare
-              </button>
-            )}
-            {onClose && (
-              <button
-                onClick={onClose}
-                className="flex items-center justify-center gap-2 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors shadow-sm w-full"
-                title="Close Split View"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <line x1="18" y1="6" x2="6" y2="18"></line>
-                  <line x1="6" y1="6" x2="18" y2="18"></line>
-                </svg>
-                Close
-              </button>
-            )}
           </div>
         </div>
       </div>
@@ -894,7 +926,7 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
 
       {/* Footer with document mapping info */}
       {documentMapping && Object.keys(documentMapping).length > 0 && (
-        <div className="mt-8 p-4 bg-gray-50 rounded-lg pb-32">
+        <div className="mt-8 p-4 bg-gray-50 rounded-lg">
           <h4 className="text-sm font-semibold text-gray-700 mb-2">
             Document Reference Guide
           </h4>
@@ -904,17 +936,18 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
           </p>
         </div>
       )}
+      </div>
 
-      {/* Floating Edit Toolbar - Minimal */}
+      {/* Floating Edit Toolbar - Fixed at bottom of viewport, always visible, aligned with content */}
       <div 
-        className="fixed z-50 transition-all duration-300" 
-        style={{ 
-          bottom: '5rem',
-          left: onClose ? (onAddSplitView ? '25%' : '75%') : '50%',
-          transform: 'translateX(-50%)'
+        className="fixed bottom-4 z-50 pointer-events-none"
+        style={{
+          left: position === 'left' ? '0' : position === 'right' ? '75%' : '0',
+          right: position === 'right' ? '0' : position === 'left' ? '0%' : '0'
         }}
       >
-        <div className="bg-white rounded-full shadow-2xl border-2 border-gray-300 px-3 py-2 flex items-center gap-2">
+        <div className="max-w-4xl mx-auto px-8 flex justify-center pointer-events-auto">
+        <div className="bg-white rounded-full shadow-2xl border-2 border-gray-300 px-2 py-2 flex items-center gap-1">
           {/* Strikeout Mode Toggle */}
           <div className="relative group">
             <button
@@ -923,78 +956,77 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
                 setIsStrikeoutMode(newMode);
                 localStorage.setItem(`strikeout-mode-${fiscalNote.filename}`, String(newMode));
               }}
-              className={`p-3 rounded-full transition-all ${
+              className={`p-2 rounded-full transition-all ${
                 isStrikeoutMode
                   ? 'bg-orange-600 text-white hover:bg-orange-700'
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               }`}
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M16 4H9a3 3 0 0 0-2.83 4"></path>
                 <path d="M14 12a4 4 0 0 1 0 8H6"></path>
                 <line x1="4" y1="12" x2="20" y2="12"></line>
               </svg>
             </button>
-            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-gray-900 text-white text-sm rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-gray-900 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
               {isStrikeoutMode ? 'Exit Strikeout Mode' : 'Enable Strikeout Mode'}
             </div>
           </div>
 
           {/* Divider */}
-          <div className="w-px h-8 bg-gray-300"></div>
+          <div className="w-px h-6 bg-gray-300"></div>
 
           {/* Clear All Strikethroughs Button */}
           {strikethroughs.length > 0 && (
-            <div className="relative group">
-              <button
-                onClick={async () => {
-                  if (window.confirm(`Are you sure you want to clear all ${strikethroughs.length} strikethroughs from this fiscal note? This will permanently remove them.`)) {
-                    try {
-                      console.log('🗑️ Clearing all strikethroughs and saving...');
-                      
-                      // Clear strikethroughs
-                      const newStrikethroughs: StrikethroughItem[] = [];
-                      setStrikethroughs(newStrikethroughs);
-                      setHistory([[], newStrikethroughs]);
-                      setHistoryIndex(1);
-                      
-                      // Clear localStorage
-                      const localKey = `fiscal-note-strikethroughs-${fiscalNote.filename}`;
-                      localStorage.removeItem(localKey);
-                      
-                      // Save immediately to backend
-                      const result = await saveStrikethroughs(fiscalNote.filename, newStrikethroughs, billType, billNumber, year);
-                      console.log('✅ Cleared and saved:', result);
-                      
-                      setHasUnsavedChanges(false);
-                      alert('All strikethroughs cleared and saved!');
-                    } catch (error) {
-                      console.error('❌ Failed to clear strikethroughs:', error);
-                      alert(`Failed to clear strikethroughs: ${error instanceof Error ? error.message : 'Unknown error'}`);
-                      // Revert on error
-                      setStrikethroughs(fiscalNote.strikethroughs || []);
+            <>
+              <div className="relative group">
+                <button
+                  onClick={async () => {
+                    if (window.confirm(`Are you sure you want to clear all ${strikethroughs.length} strikethroughs from this fiscal note? This will permanently remove them.`)) {
+                      try {
+                        console.log('🗑️ Clearing all strikethroughs and saving...');
+                        
+                        // Clear strikethroughs
+                        const newStrikethroughs: StrikethroughItem[] = [];
+                        setStrikethroughs(newStrikethroughs);
+                        setHistory([[], newStrikethroughs]);
+                        setHistoryIndex(1);
+                        
+                        // Clear localStorage
+                        const localKey = `fiscal-note-strikethroughs-${fiscalNote.filename}`;
+                        localStorage.removeItem(localKey);
+                        
+                        // Save immediately to backend
+                        const result = await saveStrikethroughs(fiscalNote.filename, newStrikethroughs, billType, billNumber, year);
+                        console.log('✅ Cleared and saved:', result);
+                        
+                        setHasUnsavedChanges(false);
+                        alert('All strikethroughs cleared and saved!');
+                      } catch (error) {
+                        console.error('❌ Failed to clear strikethroughs:', error);
+                        alert(`Failed to clear strikethroughs: ${error instanceof Error ? error.message : 'Unknown error'}`);
+                        // Revert on error
+                        setStrikethroughs(fiscalNote.strikethroughs || []);
+                      }
                     }
-                  }
-                }}
-                className="p-3 rounded-full bg-red-100 text-red-600 hover:bg-red-200 transition-all"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M3 6h18"></path>
-                  <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path>
-                  <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path>
-                  <line x1="10" y1="11" x2="10" y2="17"></line>
-                  <line x1="14" y1="11" x2="14" y2="17"></line>
-                </svg>
-              </button>
-              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-gray-900 text-white text-sm rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-                Clear All Strikethroughs on This Fiscal Note ({strikethroughs.length})
+                  }}
+                  className="p-2 rounded-full bg-red-100 text-red-600 hover:bg-red-200 transition-all"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M3 6h18"></path>
+                    <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path>
+                    <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path>
+                    <line x1="10" y1="11" x2="10" y2="17"></line>
+                    <line x1="14" y1="11" x2="14" y2="17"></line>
+                  </svg>
+                </button>
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-gray-900 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                  Clear All ({strikethroughs.length})
+                </div>
               </div>
-            </div>
-          )}
-
-          {/* Divider */}
-          {strikethroughs.length > 0 && (
-            <div className="w-px h-8 bg-gray-300"></div>
+              {/* Divider */}
+              <div className="w-px h-6 bg-gray-300"></div>
+            </>
           )}
 
           {/* Undo Button */}
@@ -1002,18 +1034,18 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
             <button
               onClick={handleUndo}
               disabled={!canUndo}
-              className={`p-3 rounded-full transition-all ${
+              className={`p-2 rounded-full transition-all ${
                 canUndo
                   ? 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   : 'bg-gray-50 text-gray-300 cursor-not-allowed'
               }`}
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M3 7v6h6"></path>
                 <path d="M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13"></path>
               </svg>
             </button>
-            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-gray-900 text-white text-sm rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-gray-900 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
               Undo
             </div>
           </div>
@@ -1023,25 +1055,25 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
             <button
               onClick={handleRedo}
               disabled={!canRedo}
-              className={`p-3 rounded-full transition-all ${
+              className={`p-2 rounded-full transition-all ${
                 canRedo
                   ? 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   : 'bg-gray-50 text-gray-300 cursor-not-allowed'
               }`}
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M21 7v6h-6"></path>
                 <path d="M3 17a9 9 0 0 1 9-9 9 9 0 0 1 6 2.3l3 2.7"></path>
               </svg>
             </button>
-            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-gray-900 text-white text-sm rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-gray-900 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
               Redo
             </div>
           </div>
 
           {/* Divider */}
           {hasUnsavedChanges && (
-            <div className="w-px h-8 bg-gray-300"></div>
+            <div className="w-px h-6 bg-gray-300"></div>
           )}
 
           {/* Discard Button */}
@@ -1049,16 +1081,16 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
             <div className="relative group">
               <button
                 onClick={handleDiscardChanges}
-                className="p-3 rounded-full bg-gray-100 text-gray-700 hover:bg-red-100 hover:text-red-600 transition-all"
+                className="p-2 rounded-full bg-gray-100 text-gray-700 hover:bg-red-100 hover:text-red-600 transition-all"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="3 6 5 6 21 6"></polyline>
                   <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
                   <line x1="10" y1="11" x2="10" y2="17"></line>
                   <line x1="14" y1="11" x2="14" y2="17"></line>
                 </svg>
               </button>
-              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-gray-900 text-white text-sm rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-gray-900 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
                 Discard Changes
               </div>
             </div>
@@ -1069,16 +1101,76 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
             <div className="relative group">
               <button
                 onClick={handleSaveChanges}
-                className="p-3 rounded-full bg-green-600 text-white hover:bg-green-700 transition-all"
+                className="p-2 rounded-full bg-green-600 text-white hover:bg-green-700 transition-all"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
                   <polyline points="17 21 17 13 7 13 7 21"></polyline>
                   <polyline points="7 3 7 8 15 8"></polyline>
                 </svg>
               </button>
-              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 bg-gray-900 text-white text-sm rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-gray-900 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
                 Save Changes
+              </div>
+            </div>
+          )}
+
+          {/* Divider */}
+          <div className="w-px h-6 bg-gray-300"></div>
+
+          {/* Print Button */}
+          <div className="relative group">
+            <button
+              onClick={handlePrint}
+              className="p-2 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 transition-all"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                <rect x="6" y="14" width="12" height="8"></rect>
+              </svg>
+            </button>
+            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-gray-900 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+              Print
+            </div>
+          </div>
+
+          {/* Compare Button */}
+          {onAddSplitView && (
+            <div className="relative group">
+              <button
+                onClick={onAddSplitView}
+                className="p-2 rounded-full bg-green-100 text-green-600 hover:bg-green-200 transition-all"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="2" y="4" width="8" height="16" rx="1" opacity="0.3"></rect>
+                  <rect x="14" y="4" width="8" height="16" rx="1" opacity="0.3"></rect>
+                  <path d="M7 12h4"></path>
+                  <polyline points="9 10 11 12 9 14"></polyline>
+                  <path d="M17 12h-4"></path>
+                  <polyline points="15 10 13 12 15 14"></polyline>
+                </svg>
+              </button>
+              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-gray-900 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                Compare
+              </div>
+            </div>
+          )}
+
+          {/* Close Button */}
+          {onClose && (
+            <div className="relative group">
+              <button
+                onClick={onClose}
+                className="p-2 rounded-full bg-red-100 text-red-600 hover:bg-red-200 transition-all"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </button>
+              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-gray-900 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                Close
               </div>
             </div>
           )}
@@ -1087,6 +1179,7 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
           {hasUnsavedChanges && (
             <div className="absolute -top-1 -right-1 w-3 h-3 bg-orange-500 rounded-full border-2 border-white"></div>
           )}
+        </div>
         </div>
       </div>
     </div>
