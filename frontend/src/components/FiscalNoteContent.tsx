@@ -1157,17 +1157,19 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
             <div className="relative group">
               <button
                 onClick={handleDiscardChanges}
-                className="p-2 rounded-full bg-gray-100 text-gray-700 hover:bg-red-100 hover:text-red-600 transition-all"
+                className="p-2 rounded-full bg-red-50 text-red-400 hover:bg-red-100 hover:text-red-600 transition-all"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <polyline points="3 6 5 6 21 6"></polyline>
-                  <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-                  <line x1="10" y1="11" x2="10" y2="17"></line>
-                  <line x1="14" y1="11" x2="14" y2="17"></line>
+                  {/* Pencil in background */}
+                  <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z" stroke="black"></path>
+                  {/* Circle */}
+                  <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"></circle>
+                  {/* Diagonal slash */}
+                  <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" strokeWidth="2.5"></line>
                 </svg>
               </button>
               <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-gray-900 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-                Discard Changes
+                Clear My Edits
               </div>
             </div>
           )}
