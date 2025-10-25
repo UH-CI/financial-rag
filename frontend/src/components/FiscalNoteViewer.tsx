@@ -32,6 +32,55 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
   const billKey = `${billType}${billNumber}_${year}`;
   const currentSplitView = splitViewState[billKey] || { enabled: false, leftIndex: 0, rightIndex: 1 };
 
+  // Extract loadFiscalNoteData so it can be called from save callback and split view close
+  const loadFiscalNoteData = async () => {
+    try {
+      setLoading(true);
+      setError(null);
+      const data = await getFiscalNoteData(billType, billNumber, year);
+      setFiscalNoteData(data);
+      
+      // Reset split view indices if they're out of bounds for the new data
+      if (data.fiscal_notes && data.fiscal_notes.length > 0) {
+        const maxIndex = data.fiscal_notes.length - 1;
+        setSplitViewState(prev => {
+          const currentState = prev[billKey];
+          if (currentState && (currentState.leftIndex > maxIndex || currentState.rightIndex > maxIndex)) {
+            return {
+              ...prev,
+              [billKey]: {
+                enabled: false,
+                leftIndex: 0,
+                rightIndex: Math.min(1, maxIndex)
+              }
+            };
+          }
+          return prev;
+        });
+      }
+      
+      if (data.status === 'generating') {
+        setError(data.message || 'Fiscal note generation in progress');
+      }
+    } catch (err: any) {
+      setError(err.message || 'Failed to load fiscal note data');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    // Reset index to 0 when loading new bill to prevent out of bounds errors
+    setSelectedNoteIndex(0);
+    loadFiscalNoteData();
+  }, [billType, billNumber, year]);
+  
+  // Callback to refresh data after save
+  const handleSaveSuccess = () => {
+    console.log('🔄 Refreshing fiscal note data after save...');
+    loadFiscalNoteData();
+  };
+
   // Enable split view
   const enableSplitView = () => {
     setSplitViewState(prev => ({
@@ -53,6 +102,9 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
         enabled: false
       }
     }));
+    // Refresh data when closing split view to ensure we have latest changes
+    console.log('🔄 Refreshing data after closing split view...');
+    loadFiscalNoteData();
   };
   
   // Update split view indices
@@ -66,48 +118,6 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
       }
     }));
   };
-
-  useEffect(() => {
-    const loadFiscalNoteData = async () => {
-      try {
-        setLoading(true);
-        setError(null);
-        // Reset index to 0 when loading new bill to prevent out of bounds errors
-        setSelectedNoteIndex(0);
-        const data = await getFiscalNoteData(billType, billNumber, year);
-        setFiscalNoteData(data);
-        
-        // Reset split view indices if they're out of bounds for the new data
-        if (data.fiscal_notes && data.fiscal_notes.length > 0) {
-          const maxIndex = data.fiscal_notes.length - 1;
-          setSplitViewState(prev => {
-            const currentState = prev[billKey];
-            if (currentState && (currentState.leftIndex > maxIndex || currentState.rightIndex > maxIndex)) {
-              return {
-                ...prev,
-                [billKey]: {
-                  enabled: false,
-                  leftIndex: 0,
-                  rightIndex: Math.min(1, maxIndex)
-                }
-              };
-            }
-            return prev;
-          });
-        }
-        
-        if (data.status === 'generating') {
-          setError(data.message || 'Fiscal note generation in progress');
-        }
-      } catch (err: any) {
-        setError(err.message || 'Failed to load fiscal note data');
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadFiscalNoteData();
-  }, [billType, billNumber, year]);
 
   const handleTimelineItemClick = (filename: string) => {
     // Find the index of the fiscal note with this filename
@@ -275,6 +285,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
                     billType={billType}
                     billNumber={billNumber}
                     year={year}
+                    onSaveSuccess={handleSaveSuccess}
                     position="left"
                   />
                 </ErrorBoundary>
@@ -309,6 +320,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
                     billType={billType}
                     billNumber={billNumber}
                     year={year}
+                    onSaveSuccess={handleSaveSuccess}
                     onClose={disableSplitView}
                     position="right"
                   />
@@ -354,6 +366,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
                     billType={billType}
                     billNumber={billNumber}
                     year={year}
+                    onSaveSuccess={handleSaveSuccess}
                     onAddSplitView={enableSplitView}
                   />
                 </ErrorBoundary>
@@ -372,6 +385,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
                 billType={billType}
                 billNumber={billNumber}
                 year={year}
+                onSaveSuccess={handleSaveSuccess}
               />
             </ErrorBoundary>
           )

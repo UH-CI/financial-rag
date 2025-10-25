@@ -16,6 +16,7 @@ interface FiscalNoteContentProps {
   year: string; // NEW: Year for saving strikethroughs
   onClose?: () => void; // Optional close handler for split view
   onAddSplitView?: () => void; // Optional handler to enable split view
+  onSaveSuccess?: () => void; // Optional callback after successful save to refresh data
   position?: 'left' | 'right' | 'center'; // Position for toolbar in split view
 }
 
@@ -30,6 +31,7 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
   year,
   onClose,
   onAddSplitView,
+  onSaveSuccess,
   position = 'center'
 }) => {
   // State for edit mode and tracking changes
@@ -337,11 +339,22 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
       
       setHasUnsavedChanges(false);
       
+      // Update the fiscalNote object to reflect the saved strikethroughs
+      // This prevents stale data when Compare is clicked
+      fiscalNote.strikethroughs = strikethroughs;
+      
       // Clear localStorage after successful save
       const localKey = `fiscal-note-strikethroughs-${fiscalNote.filename}`;
       localStorage.removeItem(localKey);
       
       console.log('✅ Strikethroughs saved to backend and localStorage cleared');
+      
+      // Notify parent to refresh data if callback provided
+      if (onSaveSuccess) {
+        console.log('🔄 Triggering parent refresh...');
+        onSaveSuccess();
+      }
+      
       alert(`Successfully saved ${strikethroughs.length} strikethroughs!`);
     } catch (error) {
       console.error('❌ Failed to save:', error);
