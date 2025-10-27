@@ -911,19 +911,19 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
       {fiscalNote.data && typeof fiscalNote.data === 'object' ? (
         <div className="divide-y divide-gray-200">
           {Object.entries(fiscalNote.data).map(([key, value]) => (
-            <div key={key} className="p-6" data-section-key={key}>
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">
+            <div key={key} className="p-3 lg:p-6" data-section-key={key}>
+              <h3 className="text-base lg:text-lg font-semibold text-gray-900 mb-2 lg:mb-4">
                 {formatSectionTitle(key)}
               </h3>
-              <div className="prose max-w-none">
+              <div className="prose prose-sm lg:prose max-w-none">
                 {renderValue(value, key)}
               </div>
             </div>
           ))}
         </div>
       ) : (
-        <div className="p-6">
-          <div className="prose max-w-none">
+        <div className="p-3 lg:p-6">
+          <div className="prose prose-sm lg:prose max-w-none">
             {renderValue(fiscalNote.data)}
           </div>
         </div>
@@ -933,7 +933,7 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
 
   return (
     <div className="w-full h-full">
-      <div className="max-w-4xl mx-auto p-8 pb-32">
+      <div className="max-w-4xl mx-auto p-4 lg:p-8 pb-24 lg:pb-32">
         {/* Hidden print content container */}
         <div id={printContentId} style={{ display: 'none' }}>
         <h1>Fiscal Note Analysis</h1>
@@ -953,13 +953,13 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
       </div>
 
       {/* Visible content */}
-      <div className="mb-8">
+      <div className="mb-4 lg:mb-8">
         <div className="flex justify-between items-start">
           <div>
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">
+            <h1 className="text-xl lg:text-3xl font-bold text-gray-900 mb-1 lg:mb-2">
               Fiscal Note Analysis
             </h1>
-            <h2 className="text-xl text-gray-600">
+            <h2 className="text-sm lg:text-xl text-gray-600 break-words">
               {fiscalNote.filename}
             </h2>
           </div>
@@ -967,8 +967,10 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
       </div>
 
       {/* Content */}
+      {/* Outer container with horizontal scroll for mobile */}
+      <div className="overflow-x-auto -mx-4 lg:mx-0 px-4 lg:px-0">
       <div 
-        className={`bg-white rounded-lg shadow-sm border overflow-hidden transition-all ${
+        className={`bg-white rounded-lg shadow-sm border transition-all min-w-[320px] ${
           isStrikeoutMode 
             ? 'border-orange-400 border-2 cursor-text' 
             : 'border-gray-200'
@@ -999,6 +1001,7 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
           {renderContent()}
         </div>
       </div>
+      </div>
 
       {/* Footer with document mapping info */}
       {documentMapping && Object.keys(documentMapping).length > 0 && (
@@ -1014,16 +1017,12 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
       )}
       </div>
 
-      {/* Floating Edit Toolbar - Fixed at bottom of viewport, always visible, aligned with content */}
+      {/* Floating Edit Toolbar - Hidden on mobile, visible on desktop */}
       <div 
-        className="fixed bottom-4 z-50 pointer-events-none"
-        style={{
-          left: position === 'left' ? '0' : position === 'right' ? '75%' : '0',
-          right: position === 'right' ? '0' : position === 'left' ? '0%' : '0'
-        }}
+        className="hidden lg:block fixed bottom-4 left-0 right-0 z-50 pointer-events-none"
       >
         <div className="max-w-4xl mx-auto px-8 flex justify-center pointer-events-auto">
-        <div className="bg-white rounded-full shadow-2xl border-2 border-gray-300 px-2 py-2 flex items-center gap-1">
+        <div className="bg-white rounded-full shadow-2xl border-2 border-gray-300 px-2 py-2 flex items-center gap-1 overflow-x-auto scrollbar-hide max-w-full">
           {/* Strikeout Mode Toggle */}
           <div className="relative group">
             <button

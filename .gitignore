@@ -52,3 +52,7 @@ src/chroma_db/
 
 # Fiscal notes and user-generated data
 /src/fiscal_notes/generation/*
+
+!src/fiscal_notes/generation/*.py
+!src/fiscal_notes/generation/*.json
+!src/fiscal_notes/generation/*.md

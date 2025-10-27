@@ -62,8 +62,10 @@ class GenericWebScraper:
         # Make it look like a regular user
         options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
         
-        # Uncomment to run headless
-        # options.add_argument('--headless')
+        # Headless mode for production (works better on Linux VMs)
+        options.add_argument('--headless=new')  # Use new headless mode
+        options.add_argument('--disable-gpu')
+        options.add_argument('--disable-software-rasterizer')
         
         try:
             self.driver = webdriver.Chrome(options=options)

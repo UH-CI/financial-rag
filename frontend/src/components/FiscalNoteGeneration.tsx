@@ -2,6 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import { getFiscalNoteFiles, createFiscalNote, getFiscalNote, deleteFiscalNote, getFiscalNoteFilesSeptember, getFiscalNoteSeptember } from "../services/api";
 import { Loader2 } from "lucide-react";
 import FiscalNoteViewer from "./FiscalNoteViewer";
+import SmartTooltip from "./SmartTooltip";
 
 interface CreateFiscalNoteForm {
   billType: 'HB' | 'SB';
@@ -29,6 +30,18 @@ const FiscalNoteGeneration = () => {
   const [wsConnected, setWsConnected] = useState<boolean>(false);
   const wsRef = useRef<WebSocket | null>(null);
   const pendingRequestsRef = useRef<Set<string>>(new Set());
+
+  // Mobile detection
+  const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth < 1024);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 1024);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   // Move fetch functions outside useEffect so WebSocket can access them
   const fetchFiscalNoteFiles = async () => {
@@ -340,10 +353,167 @@ const FiscalNoteGeneration = () => {
     }
   };
 
+  // MOBILE VIEW: Show either bill list OR fiscal note (full screen)
+  if (isMobile) {
+    // If a fiscal note is selected, show it full screen
+    if (selectedFiscalNote && useNewViewer) {
+      const parts = selectedFiscalNote.split('_');
+      if (parts.length >= 2) {
+        const billType = parts[0] as 'HB' | 'SB';
+        const billNumber = parts[1];
+        const year = parts[2] || '2025';
+        
+        return (
+          <div className="h-screen w-screen bg-gray-50 overflow-hidden">
+            {/* Fiscal Note Viewer with bill list for dropdown */}
+            <FiscalNoteViewer
+              billType={billType}
+              billNumber={billNumber}
+              year={year}
+              availableBills={fiscalNoteFiles}
+              onBillChange={(fileName) => handleSelectFile(fileName)}
+            />
+          </div>
+        );
+      }
+    }
+    
+    // Otherwise, show bill list
+    return (
+      <div className="h-screen w-screen bg-gray-50 overflow-auto pb-20">
+        <div className="p-4 space-y-4">
+          <h2 className="text-xl font-bold text-gray-900">Select a Bill</h2>
+          
+          {/* Available Fiscal Notes */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Available Fiscal Notes
+            </label>
+            <div className="space-y-2">
+              {fiscalNoteFiles.map((file) => (
+                <button
+                  key={file.name}
+                  onClick={() => handleSelectFile(file.name)}
+                  disabled={file.status !== 'ready'}
+                  className={`w-full text-left p-3 rounded-lg border transition-colors ${
+                    file.status === 'ready'
+                      ? 'border-gray-200 bg-white hover:bg-blue-50 hover:border-blue-300'
+                      : 'border-gray-200 bg-gray-50 cursor-not-allowed opacity-60'
+                  }`}
+                >
+                  <div className="flex items-center justify-between">
+                    <span className="font-medium text-gray-900">{file.name}</span>
+                    <span className={`w-6 h-6 rounded-full flex items-center justify-center text-white text-xs font-bold ${
+                      file.status === 'ready' ? 'bg-green-500' : 
+                      file.status === 'error' ? 'bg-red-500' : 'bg-yellow-500'
+                    }`}>
+                      {file.status === 'ready' ? '✓' : file.status === 'error' ? '✗' : '⧗'}
+                    </span>
+                  </div>
+                </button>
+              ))}
+              {fiscalNoteFiles.length === 0 && (
+                <p className="text-center text-gray-500 text-sm py-4">No fiscal notes available</p>
+              )}
+            </div>
+          </div>
+
+          {/* Create New Button */}
+          <button
+            onClick={() => setIsCreateModalOpen(true)}
+            className="w-full px-4 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+          >
+            + Create New Fiscal Note
+          </button>
+        </div>
+
+        {/* Create Modal */}
+        {isCreateModalOpen && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+            <div className="bg-white rounded-lg shadow-xl max-w-md w-full mx-4">
+              <div className="p-6">
+                <h2 className="text-xl font-bold text-gray-900 mb-4">Create New Fiscal Note</h2>
+
+                <div className="space-y-4">
+                  {/* Bill Type */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Bill Type
+                    </label>
+                    <select
+                      value={formData.billType}
+                      onChange={(e) => setFormData({ ...formData, billType: e.target.value as 'HB' | 'SB' })}
+                      className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    >
+                      <option value="HB">HB (House Bill)</option>
+                      <option value="SB">SB (Senate Bill)</option>
+                    </select>
+                  </div>
+
+                  {/* Bill Number */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Bill Number
+                    </label>
+                    <input
+                      type="text"
+                      value={formData.billNumber}
+                      onChange={(e) => setFormData({ ...formData, billNumber: e.target.value })}
+                      placeholder="e.g., 123"
+                      className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    />
+                  </div>
+
+                  {/* Year */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Year
+                    </label>
+                    <select
+                      value={formData.year}
+                      onChange={(e) => setFormData({ ...formData, year: e.target.value as '2025' })}
+                      className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    >
+                      <option value="2025">2025</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div className="mt-6 flex space-x-3">
+                  <button
+                    onClick={() => setIsCreateModalOpen(false)}
+                    className="flex-1 px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    onClick={handleCreateFiscalNote}
+                    disabled={isCreating || !formData.billNumber}
+                    className="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
+                  >
+                    {isCreating ? (
+                      <>
+                        <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                        Creating...
+                      </>
+                    ) : (
+                      'Create'
+                    )}
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  // DESKTOP VIEW: Sidebar + Content area
   return (
     <div className="flex h-screen w-screen bg-gray-50 overflow-x-hidden">
-      {/* Left Sidebar */}
-      <div className="w-80 min-w-0 bg-white shadow-lg border-r border-gray-200 flex flex-col flex-shrink-0 sticky top-0 h-screen overflow-y-auto">
+      {/* Left Sidebar - Hidden on mobile, visible on desktop */}
+      <div className="hidden lg:block w-80 min-w-0 bg-white shadow-lg border-r border-gray-200 flex flex-col flex-shrink-0 sticky top-0 h-screen overflow-y-auto">
         <div className="p-6 border-b border-gray-200">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold text-gray-900">Fiscal Note Generation</h1>
@@ -393,10 +563,20 @@ const FiscalNoteGeneration = () => {
                   {fiscalNoteFiles.map((file) => (
                     <tr key={file.name} className={`hover:bg-gray-50 ${file.name == selectedFiscalNote ? 'bg-blue-100' : ''}`}>
 
-                      <td className="px-3 py-2 whitespace-nowrap relative z-[10000]">
+                      <td className="px-3 py-2 whitespace-nowrap">
                         <div className="flex flex-col">
-                          {/* Status Button with Tooltip */}
-                          <div className="relative group">
+                          {/* Status Button with Smart Tooltip */}
+                          <SmartTooltip
+                            content={
+                              jobErrors[file.name]
+                                ? 'Error - Generation failed'
+                                : file.status === 'error'
+                                  ? 'Error - Generation failed'
+                                : file.status === 'ready'
+                                  ? 'Ready - Click to view'
+                                  : 'In Progress - ' + (jobProgress[file.name] ? jobProgress[file.name] : '')
+                            }
+                          >
                             <button
                               className={`w-6 h-6 rounded-full flex items-center justify-center text-white text-sm font-bold ${jobErrors[file.name]
                                   ? 'bg-red-500 hover:bg-red-600'
@@ -409,18 +589,7 @@ const FiscalNoteGeneration = () => {
                             >
                               {jobErrors[file.name] ? '!' : file.status === 'ready' ? '✓' : (file.status === 'error' ? '✗' : '⧗')}
                             </button>
-
-                            {/* Tooltip */}
-                            <div className="absolute bottom-full left-1/2 transform -translate-x-2 mb-2 px-2 py-1 text-xs text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-[99999] shadow-lg border border-gray-700">
-                              {jobErrors[file.name]
-                                ? 'Error - Generation failed'
-                                : file.status === 'error'
-                                  ? 'Error - Generation failed'
-                                : file.status === 'ready'
-                                  ? 'Ready - Click to view'
-                                  : 'In Progress - ' + (jobProgress[file.name] ? jobProgress[file.name] : '')}
-                            </div>
-                          </div>
+                          </SmartTooltip>
 
                           {/* Progress message */}
                           {/* {jobProgress[file.name] && (
@@ -516,17 +685,14 @@ const FiscalNoteGeneration = () => {
                       <tr key={file.name} className={`hover:bg-gray-50 ${file.name == selectedFiscalNote ? 'bg-blue-100' : ''}`}>
                         <td className="px-3 py-2 whitespace-nowrap">
                           <div className="flex flex-col">
-                            <div className="relative group">
+                            <SmartTooltip content="Ready - Click to view">
                               <button
                                 className={`w-6 h-6 rounded-full flex items-center justify-center text-white text-sm font-bold bg-green-500 hover:bg-green-600
                                 `}
                               >
                                 {file.status === 'ready' ? '✓' : (file.status === 'error' ? '✗' : '⧗')}
                               </button>
-                              <div className="absolute bottom-full left-1/2 transform -translate-x-2 mb-2 px-2 py-1 text-xs text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-[99999] shadow-lg border border-gray-700">
-                                Ready - Click to view
-                              </div>
-                            </div>
+                            </SmartTooltip>
                           </div>
                         </td>
                         <td className="px-3 py-2 whitespace-nowrap text-sm text-gray-500 cursor-pointer max-w-26 truncate" onClick={() => handleSelectSeptemberFile(file.name)}>
@@ -564,7 +730,7 @@ const FiscalNoteGeneration = () => {
         </div>
       </div>
 
-      {/* Main Content Area */}
+      {/* Main Content Area - Desktop */}
       <div className="flex-1 flex flex-col min-w-0">
         {selectedFiscalNote && useNewViewer ? (
           <div className="flex-1 h-full overflow-hidden">

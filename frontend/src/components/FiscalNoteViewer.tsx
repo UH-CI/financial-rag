@@ -9,18 +9,23 @@ interface FiscalNoteViewerProps {
   billType: 'HB' | 'SB';
   billNumber: string;
   year?: string;
+  availableBills?: { name: string; status: string }[];
+  onBillChange?: (fileName: string) => void;
 }
 
 const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
   billType,
   billNumber,
-  year = '2025'
+  year = '2025',
+  availableBills = [],
+  onBillChange
 }) => {
   const [fiscalNoteData, setFiscalNoteData] = useState<FiscalNoteData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedNoteIndex, setSelectedNoteIndex] = useState(0);
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [mobileReferencesExpanded, setMobileReferencesExpanded] = useState(false);
   
   // Split view state - store per bill
   const [splitViewState, setSplitViewState] = useState<Record<string, {
@@ -179,12 +184,55 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
 
   return (
     <div className="flex flex-col lg:flex-row h-full w-full bg-gray-50">
-      {/* Sidebar Container with relative positioning to allow button overflow */}
-      <div className="relative lg:flex-shrink-0">
-        {/* Collapse/Expand Button - positioned outside the sidebar */}
+      {/* Mobile Top Dropdowns - Only visible on mobile */}
+      <div className="lg:hidden bg-white border-b border-gray-200 p-3 space-y-2 sticky top-0 z-30">
+        {/* Bill Selection Dropdown */}
+        {availableBills.length > 0 && onBillChange && (
+          <div>
+            <label className="block text-xs font-medium text-gray-700 mb-1">
+              Select Bill
+            </label>
+            <select
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
+              value={`${billType}_${billNumber}_${year}`}
+              onChange={(e) => onBillChange(e.target.value)}
+            >
+              {availableBills.map((bill) => (
+                <option key={bill.name} value={bill.name}>
+                  {bill.name.replace(/_/g, ' ')}
+                </option>
+              ))}
+            </select>
+          </div>
+        )}
+        
+        {/* Fiscal Note Selection Dropdown */}
+        {fiscalNoteData.fiscal_notes.length > 1 && (
+          <div>
+            <label className="block text-xs font-medium text-gray-700 mb-1">
+              Select Fiscal Note Version
+            </label>
+            <select
+              value={safeSelectedIndex}
+              onChange={(e) => setSelectedNoteIndex(parseInt(e.target.value))}
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
+            >
+              {fiscalNoteData.fiscal_notes.map((note, index) => (
+                <option key={index} value={index}>
+                  {note.filename}
+                </option>
+              ))}
+            </select>
+          </div>
+        )}
+      </div>
+
+      {/* Desktop Sidebar - Hidden on mobile */}
+      <div className="hidden lg:block relative lg:flex-shrink-0">
+        {/* Desktop Collapse/Expand Button */}
         <button
           onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
-          className="hidden lg:flex absolute left-full top-1/2 -translate-y-1/2 -ml-3 z-50 w-8 h-8 items-center justify-center bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-colors"
+          className="absolute left-full top-1/2 -translate-y-1/2 -ml-3 z-50 w-8 h-8 flex items-center justify-center bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-colors"
           title={sidebarCollapsed ? 'Expand sidebar' : 'Collapse sidebar'}
         >
           <svg 
@@ -201,26 +249,23 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
           </svg>
         </button>
 
-        {/* Left Sidebar - Timeline and Document References */}
-        <div className={`transition-all duration-300 bg-white shadow-lg border-b lg:border-b-0 lg:border-r border-gray-200 flex flex-col lg:max-h-screen lg:sticky lg:top-0 overflow-y-auto ${
-          sidebarCollapsed 
-            ? 'w-0 lg:w-0 border-0' 
-            : 'w-full lg:w-96 max-h-64'
+        {/* Desktop Sidebar */}
+        <div className={`transition-all duration-300 bg-white shadow-lg border-gray-200 flex flex-col overflow-y-auto border-r max-h-screen sticky top-0 ${
+          sidebarCollapsed ? 'w-0 border-0' : 'w-96'
         }`}>
           <div className={`p-6 border-b border-gray-200 ${sidebarCollapsed ? 'hidden' : ''}`}>
-          <h2 className="text-xl font-bold text-gray-900">
-            {billType} {billNumber} ({year})
-          </h2>
-          <p className="text-sm text-gray-600 mt-1">Fiscal Note Analysis</p>
-        </div>
+            <h2 className="text-xl font-bold text-gray-900">
+              {billType} {billNumber} ({year})
+            </h2>
+            <p className="text-sm text-gray-600 mt-1">Fiscal Note Analysis</p>
+          </div>
 
-          {/* Document Reference Key */}
+          {/* Document References */}
           {!sidebarCollapsed && fiscalNoteData.document_mapping && Object.keys(fiscalNoteData.document_mapping).length > 0 && (
           <div className="p-4 border-b border-gray-200">
             <h3 className="text-sm font-semibold text-gray-700 mb-3">Document References</h3>
             <div className="space-y-2 max-h-48 overflow-y-auto">
               {Object.entries(fiscalNoteData.document_mapping).map(([docName, docNumber]) => {
-                // Check if this document was used in the currently selected fiscal note
                 const selectedFiscalNote = fiscalNoteData.fiscal_notes[safeSelectedIndex];
                 const isUsedInSelectedNote = selectedFiscalNote?.new_documents_processed?.includes(docName) || false;
                 
@@ -229,7 +274,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
                     <span className={`font-mono min-w-[24px] ${isUsedInSelectedNote ? 'text-blue-700 font-bold' : 'text-blue-600'}`}>
                       [{docNumber}]
                     </span>
-                    <span className={`leading-tight ${isUsedInSelectedNote ? 'text-gray-900 font-semibold bg-blue-50 px-1 py-0.5 rounded' : 'text-gray-600'}`}>
+                    <span className={`leading-tight break-words ${isUsedInSelectedNote ? 'text-gray-900 font-semibold bg-blue-50 px-1 py-0.5 rounded' : 'text-gray-600'}`}>
                       {docName}
                     </span>
                   </div>
@@ -251,19 +296,20 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
         </div>
       </div>
 
-      {/* Main Content Area */}
-      <div className="flex-1 min-w-0 w-full overflow-y-auto relative">
+      {/* Main Content Area - Full width on mobile */}
+      <div className="flex-1 min-w-0 w-full overflow-y-auto relative pb-20 lg:pb-0 flex flex-col">
 
         {currentSplitView.enabled ? (
           /* Split View - Two fiscal notes side by side */
-          <div className="flex h-full">
+          /* On mobile, stack vertically; on desktop, side by side */
+          <div className="flex flex-col lg:flex-row h-full">
             {/* Left Panel */}
-            <div className="flex-1 border-r border-gray-300 relative h-full flex flex-col">
-              <div className="sticky top-0 z-20 bg-white border-b border-gray-200 p-3 shadow-sm flex-shrink-0">
+            <div className="flex-1 border-b lg:border-b-0 lg:border-r border-gray-300 relative h-full flex flex-col min-h-[50vh] lg:min-h-0">
+              <div className="sticky top-0 z-20 bg-white border-b border-gray-200 p-2 lg:p-3 shadow-sm flex-shrink-0">
                 <select
                   value={safeSplitViewLeftIndex}
                   onChange={(e) => updateSplitViewIndex('left', parseInt(e.target.value))}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-2 lg:px-3 py-1.5 lg:py-2 border border-gray-300 rounded-lg text-xs lg:text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                 >
                   {fiscalNoteData.fiscal_notes.map((note, index) => (
                     <option key={index} value={index}>
@@ -293,12 +339,12 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
             </div>
 
             {/* Right Panel */}
-            <div className="flex-1 relative h-full flex flex-col">
-              <div className="sticky top-0 z-20 bg-white border-b border-gray-200 p-3 shadow-sm flex-shrink-0">
+            <div className="flex-1 relative h-full flex flex-col min-h-[50vh] lg:min-h-0">
+              <div className="sticky top-0 z-20 bg-white border-b border-gray-200 p-2 lg:p-3 shadow-sm flex-shrink-0">
                 <select
                   value={safeSplitViewRightIndex}
                   onChange={(e) => updateSplitViewIndex('right', parseInt(e.target.value))}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-2 lg:px-3 py-1.5 lg:py-2 border border-gray-300 rounded-lg text-xs lg:text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                 >
                   {fiscalNoteData.fiscal_notes.map((note, index) => (
                     <option key={index} value={index}>
@@ -332,15 +378,15 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
           /* Single View */
           fiscalNoteData.fiscal_notes.length > 1 ? (
             <div className="h-full">
-              {/* Tabs for multiple fiscal notes - Sticky at top */}
-              <div className="bg-white border-b border-gray-200 px-4 lg:px-6 py-3 sticky top-0 z-20 shadow-sm">
-                <div className="flex space-x-2 lg:space-x-4 overflow-x-auto">
+              {/* Tabs for multiple fiscal notes - Desktop only, hidden on mobile */}
+              <div className="hidden lg:block bg-white border-b border-gray-200 px-6 py-3 sticky top-0 z-20 shadow-sm">
+                <div className="flex space-x-4 overflow-x-auto scrollbar-hide">
                   {fiscalNoteData.fiscal_notes.map((note, index) => (
                     <button
                       key={note.filename}
                       data-tab-index={index}
                       onClick={() => setSelectedNoteIndex(index)}
-                      className={`px-3 lg:px-4 py-2 text-xs lg:text-sm font-medium rounded-lg whitespace-nowrap transition-colors ${
+                      className={`px-2 lg:px-4 py-1.5 lg:py-2 text-[10px] lg:text-sm font-medium rounded-lg whitespace-nowrap transition-colors flex-shrink-0 ${
                         safeSelectedIndex === index
                           ? 'bg-blue-100 text-blue-700 border border-blue-200'
                           : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
@@ -389,6 +435,77 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
               />
             </ErrorBoundary>
           )
+        )}
+
+        {/* Mobile Document References - Expandable panel at bottom, only on mobile */}
+        {fiscalNoteData.document_mapping && Object.keys(fiscalNoteData.document_mapping).length > 0 && (
+          <>
+            {/* Expandable References Panel */}
+            <div 
+              className={`lg:hidden fixed bottom-0 left-0 right-0 bg-white border-t-2 border-gray-300 shadow-2xl transition-transform duration-300 ease-in-out z-40 ${
+                mobileReferencesExpanded ? 'translate-y-0' : 'translate-y-full'
+              }`}
+              style={{ maxHeight: '70vh' }}
+            >
+              <div className="flex flex-col h-full">
+                {/* Header with close button */}
+                <div className="flex items-center justify-between p-4 border-b border-gray-200 bg-gray-50">
+                  <h3 className="text-sm font-semibold text-gray-900">Document References</h3>
+                  <button
+                    onClick={() => setMobileReferencesExpanded(false)}
+                    className="p-1 rounded-full hover:bg-gray-200 transition-colors"
+                  >
+                    <svg className="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                
+                {/* References list */}
+                <div className="flex-1 overflow-y-auto p-4 space-y-2">
+                  {Object.entries(fiscalNoteData.document_mapping).map(([docName, docNumber]) => {
+                    const selectedFiscalNote = fiscalNoteData.fiscal_notes[safeSelectedIndex];
+                    const isUsedInSelectedNote = selectedFiscalNote?.new_documents_processed?.includes(docName) || false;
+                    
+                    return (
+                      <div key={docName} className="flex items-start space-x-2 text-xs p-2 rounded hover:bg-gray-50">
+                        <span className={`font-mono min-w-[24px] flex-shrink-0 ${isUsedInSelectedNote ? 'text-blue-700 font-bold' : 'text-blue-600'}`}>
+                          [{docNumber}]
+                        </span>
+                        <span className={`leading-tight break-words ${isUsedInSelectedNote ? 'text-gray-900 font-semibold bg-blue-50 px-1 py-0.5 rounded' : 'text-gray-600'}`}>
+                          {docName}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+            
+            {/* Floating button to open references */}
+            <button
+              onClick={() => setMobileReferencesExpanded(!mobileReferencesExpanded)}
+              className={`lg:hidden fixed bottom-20 right-4 z-50 flex items-center space-x-2 px-4 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all ${
+                mobileReferencesExpanded ? 'opacity-0 pointer-events-none' : 'opacity-100'
+              }`}
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              <span className="text-sm font-medium">References</span>
+              <span className="bg-white text-blue-600 text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">
+                {Object.keys(fiscalNoteData.document_mapping).length}
+              </span>
+            </button>
+            
+            {/* Backdrop overlay when expanded */}
+            {mobileReferencesExpanded && (
+              <div 
+                className="lg:hidden fixed inset-0 bg-black bg-opacity-50 z-30"
+                onClick={() => setMobileReferencesExpanded(false)}
+              />
+            )}
+          </>
         )}
       </div>
     </div>

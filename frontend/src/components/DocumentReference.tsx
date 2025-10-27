@@ -142,12 +142,30 @@ const DocumentReferenceComponent: React.FC<DocumentReferenceProps> = ({ referenc
   }, [reference]);
 
   const updateTooltipPosition = () => {
-    if (linkRef.current) {
+    if (linkRef.current && tooltipRef.current) {
       const rect = linkRef.current.getBoundingClientRect();
-      setTooltipPosition({
-        x: rect.left + rect.width / 2,
-        y: rect.top - 8
-      });
+      const tooltipRect = tooltipRef.current.getBoundingClientRect();
+      const padding = 10;
+      
+      // Calculate ideal centered position
+      let x = rect.left + rect.width / 2;
+      const y = rect.top - 8;
+      
+      // Check if tooltip would go off left edge
+      const tooltipHalfWidth = tooltipRect.width / 2;
+      const idealLeft = x - tooltipHalfWidth;
+      const idealRight = x + tooltipHalfWidth;
+      
+      // Adjust x position if tooltip would overflow
+      if (idealLeft < padding) {
+        // Shift right to stay on screen
+        x = tooltipHalfWidth + padding;
+      } else if (idealRight > window.innerWidth - padding) {
+        // Shift left to stay on screen
+        x = window.innerWidth - tooltipHalfWidth - padding;
+      }
+      
+      setTooltipPosition({ x, y });
     }
   };
 
@@ -158,8 +176,20 @@ const DocumentReferenceComponent: React.FC<DocumentReferenceProps> = ({ referenc
       hideTimeoutRef.current = null;
     }
     setShowTooltip(true);
+    // Update position immediately and after render
     updateTooltipPosition();
+    requestAnimationFrame(() => updateTooltipPosition());
   };
+  
+  // Recalculate position when tooltip becomes visible
+  useEffect(() => {
+    if (showTooltip) {
+      updateTooltipPosition();
+      // Also update after a frame to ensure tooltip is fully rendered
+      const rafId = requestAnimationFrame(() => updateTooltipPosition());
+      return () => cancelAnimationFrame(rafId);
+    }
+  }, [showTooltip]);
   
   const handleMouseLeave = () => {
     // Delay hiding to allow mouse to move to tooltip
