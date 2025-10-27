@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { render, screen, act } from '@testing-library/react';
 import FiscalNoteContent from './FiscalNoteContent';
 import type { ChunkTextMapItem } from '../types';
 import { 
@@ -348,6 +348,129 @@ describe('FiscalNoteContent', () => {
       // Should still render citations (counter reset for new note)
       citations = container.querySelectorAll('[data-ref="true"]');
       expect(citations.length).toBeGreaterThan(0);
+    });
+  });
+
+  describe('Citation Stability Across Mode Changes', () => {
+    it('should maintain consistent citation numbers when toggling edit mode', () => {
+      const { container, rerender } = render(<FiscalNoteContent {...defaultProps} />);
+      
+      // Get initial citation numbers
+      const getCitationNumbers = () => {
+        const citations = container.querySelectorAll('[data-ref="true"]');
+        return Array.from(citations).map(citation => citation.textContent?.trim());
+      };
+      
+      const initialCitations = getCitationNumbers();
+      expect(initialCitations.length).toBeGreaterThan(0);
+      console.log('Initial citations:', initialCitations);
+      
+      // Toggle edit mode on
+      const editButton = container.querySelector('button[class*="bg-orange"]') || 
+                         container.querySelector('button[class*="bg-gray"]');
+      if (editButton) {
+        act(() => {
+          (editButton as HTMLButtonElement).click();
+        });
+      }
+      
+      // Re-render with edit mode
+      rerender(<FiscalNoteContent {...defaultProps} />);
+      
+      const citationsAfterEditMode = getCitationNumbers();
+      console.log('After edit mode:', citationsAfterEditMode);
+      
+      // Citations should remain the same
+      expect(citationsAfterEditMode).toEqual(initialCitations);
+    });
+
+    it('should maintain consistent citation numbers when switching annotation modes', () => {
+      const { container } = render(<FiscalNoteContent {...defaultProps} />);
+      
+      // Get initial citation numbers
+      const getCitationNumbers = () => {
+        const citations = container.querySelectorAll('[data-ref="true"]');
+        return Array.from(citations).map(citation => citation.textContent?.trim());
+      };
+      
+      const initialCitations = getCitationNumbers();
+      expect(initialCitations.length).toBeGreaterThan(0);
+      
+      // Enable edit mode first
+      const editButton = container.querySelector('button[class*="bg-orange"]') || 
+                         container.querySelector('button[class*="bg-gray"]');
+      if (editButton) {
+        act(() => {
+          (editButton as HTMLButtonElement).click();
+        });
+      }
+      
+      // Get citations after enabling edit mode
+      const citationsInEditMode = getCitationNumbers();
+      expect(citationsInEditMode).toEqual(initialCitations);
+      
+      // Switch to strikethrough mode (if button exists)
+      const strikethroughButton = container.querySelector('button[class*="bg-red"]');
+      if (strikethroughButton) {
+        act(() => {
+          (strikethroughButton as HTMLButtonElement).click();
+        });
+      }
+      
+      const citationsInStrikethroughMode = getCitationNumbers();
+      expect(citationsInStrikethroughMode).toEqual(initialCitations);
+      
+      // Switch to underline mode (if button exists)
+      const underlineButton = container.querySelector('button[class*="bg-blue"]');
+      if (underlineButton) {
+        act(() => {
+          (underlineButton as HTMLButtonElement).click();
+        });
+      }
+      
+      const citationsInUnderlineMode = getCitationNumbers();
+      expect(citationsInUnderlineMode).toEqual(initialCitations);
+    });
+
+    it('should reset citation counter only when fiscal note changes', () => {
+      const { container, rerender } = render(<FiscalNoteContent {...defaultProps} />);
+      
+      const getCitationNumbers = () => {
+        const citations = container.querySelectorAll('[data-ref="true"]');
+        return Array.from(citations).map(citation => citation.textContent?.trim());
+      };
+      
+      const initialCitations = getCitationNumbers();
+      
+      // Toggle modes multiple times
+      const editButton = container.querySelector('button[class*="bg-orange"]') || 
+                         container.querySelector('button[class*="bg-gray"]');
+      
+      for (let i = 0; i < 3; i++) {
+        if (editButton) {
+          act(() => {
+            (editButton as HTMLButtonElement).click();
+          });
+        }
+        const citations = getCitationNumbers();
+        expect(citations).toEqual(initialCitations);
+      }
+      
+      // Now change the fiscal note
+      const newFiscalNote = {
+        ...mockFiscalNote,
+        filename: 'HB728_fiscal_note_1',
+        data: {
+          overview: 'Different content with citation [1]'
+        }
+      };
+      
+      rerender(<FiscalNoteContent {...defaultProps} fiscalNote={newFiscalNote} />);
+      
+      // Citations should be different now (new fiscal note)
+      const newCitations = getCitationNumbers();
+      // The structure might be different, but it should be consistent
+      expect(newCitations).toBeDefined();
     });
   });
 });

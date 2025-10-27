@@ -2103,7 +2103,8 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
                     sentence_attributions = []
                     sentence_chunk_mapping = []  # NEW: Load sentence-chunk mappings
                     new_documents_processed = []  # NEW: Documents used for this fiscal note
-                    strikethroughs = []  # NEW: Load strikethroughs
+                    strikethroughs = []  # Legacy: Load strikethroughs
+                    annotations = []  # NEW: Load annotations
                     if os.path.exists(metadata_file):
                         try:
                             with open(metadata_file, 'r') as meta_f:
@@ -2117,9 +2118,22 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
                                 sentence_chunk_mapping = metadata.get('response_metadata', {}).get('sentence_chunk_mapping', [])
                                 # NEW: Load list of documents used for this fiscal note
                                 new_documents_processed = metadata.get('new_documents_processed', [])
-                                # NEW: Load strikethroughs
+                                # NEW: Load annotations (preferred) or migrate from strikethroughs (legacy)
+                                annotations = metadata.get('annotations', [])
                                 strikethroughs = metadata.get('strikethroughs', [])
-                                print(f"Loaded {len(numbers_data)} numbers, {len(chunks_data)} chunks, {len(sentence_attributions)} sentence attributions, {len(sentence_chunk_mapping)} sentence-chunk mappings, {len(new_documents_processed)} documents, {len(strikethroughs)} strikethroughs from metadata for {file['name']}")
+                                
+                                # Migration: If no annotations but strikethroughs exist, convert them
+                                if not annotations and strikethroughs:
+                                    annotations = []
+                                    for st in strikethroughs:
+                                        ann = st.copy() if isinstance(st, dict) else st
+                                        # Add type field if not present (default to strikethrough)
+                                        if isinstance(ann, dict) and 'type' not in ann:
+                                            ann['type'] = 'strikethrough'
+                                        annotations.append(ann)
+                                    print(f"Migrated {len(strikethroughs)} legacy strikethroughs to annotations for {file['name']}")
+                                
+                                print(f"Loaded {len(numbers_data)} numbers, {len(chunks_data)} chunks, {len(sentence_attributions)} sentence attributions, {len(sentence_chunk_mapping)} sentence-chunk mappings, {len(new_documents_processed)} documents, {len(annotations)} annotations from metadata for {file['name']}")
                         except Exception as e:
                             print(f"Error loading metadata for {file['name']}: {e}")
                     
@@ -2227,17 +2241,13 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
                     # Filter out chunk reference properties for frontend display
                     filtered_data = {k: v for k, v in processed_data.items() if not k.endswith('_chunk_references')}
                     
-                    fiscal_note_obj = {
+                    fiscal_notes.append({
                         'filename': file['name'],
-                        'data': filtered_data,
-                        'new_documents_processed': new_documents_processed  # Include documents used for this fiscal note
-                    }
-                    
-                    # Include strikethroughs if they exist
-                    if strikethroughs:
-                        fiscal_note_obj['strikethroughs'] = strikethroughs
-                    
-                    fiscal_notes.append(fiscal_note_obj)
+                        'data': processed_data,
+                        'new_documents_processed': new_documents_processed,  # NEW: Include documents used
+                        'strikethroughs': strikethroughs,  # Legacy: Include strikethroughs for backward compatibility
+                        'annotations': annotations  # NEW: Include annotations (strikethrough + underline)
+                    })
 
     with open(timeline_path, 'r') as f:
         timeline = json.load(f)
@@ -2426,12 +2436,15 @@ async def ask_llm(request: LLMRequest):
 @app.post("/api/fiscal-notes/save-strikethroughs")
 async def save_strikethroughs(request: Request):
     """
-    Save strikethroughs for a specific fiscal note to its metadata file
+    Save annotations (strikethroughs and underlines) for a specific fiscal note to its metadata file.
+    Supports both legacy 'strikethroughs' and new 'annotations' format.
     """
     try:
         data = await request.json()
         filename = data.get('filename')
+        # Support both legacy 'strikethroughs' and new 'annotations' format
         strikethroughs = data.get('strikethroughs', [])
+        annotations = data.get('annotations', [])
         bill_type = data.get('bill_type')
         bill_number = data.get('bill_number')
         year = data.get('year', '2025')
@@ -2439,7 +2452,19 @@ async def save_strikethroughs(request: Request):
         if not filename:
             raise HTTPException(status_code=400, detail="Filename is required")
         
-        print(f"💾 Saving {len(strikethroughs)} strikethroughs for {filename}")
+        # Use annotations if provided, otherwise use strikethroughs (backward compatibility)
+        if annotations:
+            print(f"💾 Saving {len(annotations)} annotations for {filename}")
+        else:
+            print(f"💾 Saving {len(strikethroughs)} strikethroughs (legacy) for {filename}")
+            # Convert legacy strikethroughs to annotations format
+            annotations = []
+            for st in strikethroughs:
+                ann = st.copy()
+                # Add type field if not present (default to strikethrough)
+                if 'type' not in ann:
+                    ann['type'] = 'strikethrough'
+                annotations.append(ann)
         
         # If bill info not provided, try to extract from URL context or use defaults
         if not bill_type or not bill_number:
@@ -2482,21 +2507,25 @@ async def save_strikethroughs(request: Request):
             except Exception as e:
                 print(f"⚠️ Error loading metadata, creating new: {e}")
         
-        # Update strikethroughs in metadata
-        metadata['strikethroughs'] = strikethroughs
+        # Update both annotations (new) and strikethroughs (legacy) in metadata
+        metadata['annotations'] = annotations
+        metadata['annotations_updated_at'] = datetime.now().isoformat()
+        # Keep strikethroughs for backward compatibility
+        metadata['strikethroughs'] = strikethroughs if strikethroughs else annotations
         metadata['strikethroughs_updated_at'] = datetime.now().isoformat()
         
         # Save metadata
         with open(metadata_file, 'w') as f:
             json.dump(metadata, f, indent=2)
         
-        print(f"✅ Saved strikethroughs to {metadata_file}")
+        print(f"✅ Saved annotations to {metadata_file}")
         
         return {
             "success": True,
-            "message": f"Saved {len(strikethroughs)} strikethroughs",
+            "message": f"Saved {len(annotations)} annotations",
             "filename": filename,
-            "metadata_file": metadata_file
+            "metadata_file": metadata_file,
+            "annotation_count": len(annotations)
         }
         
     except HTTPException:

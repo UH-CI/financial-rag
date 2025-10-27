@@ -1,35 +1,27 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-# Get the current branch name
-current_branch=$(git symbolic-ref --short HEAD)
+echo "🔍 Running pre-push checks for branch: $(git symbolic-ref --short HEAD)"
 
-# Only run checks if pushing to main
-if [ "$current_branch" = "main" ]; then
-  echo "🔍 Pre-push checks for main branch..."
-  
-  # Run frontend build
-  echo "📦 Building frontend..."
-  cd frontend
-  npm run build
-  if [ $? -ne 0 ]; then
-    echo "❌ Frontend build failed. Push aborted."
-    exit 1
-  fi
-  
-  # Run frontend tests
-  echo "🧪 Running frontend tests..."
-  npm run test:run
-  if [ $? -ne 0 ]; then
-    echo "❌ Frontend tests failed. Push aborted."
-    exit 1
-  fi
-  
-  cd ..
-  
-  echo "✅ All pre-push checks passed!"
-else
-  echo "ℹ️  Skipping pre-push checks (not pushing to main)"
+# Run frontend build
+echo "📦 Building frontend..."
+cd frontend
+npm run build
+if [ $? -ne 0 ]; then
+  echo "❌ Frontend build failed. Push aborted."
+  exit 1
 fi
+
+# Run frontend tests
+echo "🧪 Running frontend tests..."
+npm run test:run
+if [ $? -ne 0 ]; then
+  echo "❌ Frontend tests failed. Push aborted."
+  exit 1
+fi
+
+cd ..
+
+echo "✅ All pre-push checks passed!"
 
 exit 0

@@ -209,18 +209,23 @@ export const deleteFiscalNote = async (
 };
 
 /**
- * Save strikethroughs for a fiscal note
+ * Save annotations (strikethroughs and underlines) for a fiscal note
+ * Supports both legacy strikethroughs and new annotations format
  */
 export const saveStrikethroughs = async (
   filename: string,
-  strikethroughs: any[],
+  annotations: any[], // Can be strikethroughs (legacy) or annotations (new)
   billType: string,
   billNumber: string,
   year: string = '2025'
-): Promise<{ success: boolean; message: string; filename: string; metadata_file: string }> => {
+): Promise<{ success: boolean; message: string; filename: string; metadata_file: string; annotation_count?: number }> => {
+  // Check if annotations have 'type' field to determine format
+  const hasTypeField = annotations.length > 0 && annotations[0].type !== undefined;
+  
   const response = await api.post('/api/fiscal-notes/save-strikethroughs', {
     filename,
-    strikethroughs,
+    // Send as annotations if they have type field, otherwise as strikethroughs (legacy)
+    ...(hasTypeField ? { annotations } : { strikethroughs: annotations }),
     bill_type: billType,
     bill_number: billNumber,
     year

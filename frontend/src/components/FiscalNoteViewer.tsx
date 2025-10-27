@@ -24,15 +24,24 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedNoteIndex, setSelectedNoteIndex] = useState(0);
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  
+  // Load sidebar collapsed state from localStorage
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(() => {
+    const saved = localStorage.getItem('fiscal-note-sidebar-collapsed');
+    return saved === 'true';
+  });
+  
   const [mobileReferencesExpanded, setMobileReferencesExpanded] = useState(false);
   
-  // Split view state - store per bill
+  // Split view state - store per bill and persist to localStorage
   const [splitViewState, setSplitViewState] = useState<Record<string, {
     enabled: boolean;
     leftIndex: number;
     rightIndex: number;
-  }>>({});
+  }>>(() => {
+    const saved = localStorage.getItem('fiscal-note-split-view-state');
+    return saved ? JSON.parse(saved) : {};
+  });
   
   const billKey = `${billType}${billNumber}_${year}`;
   const currentSplitView = splitViewState[billKey] || { enabled: false, leftIndex: 0, rightIndex: 1 };
@@ -79,6 +88,11 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
     setSelectedNoteIndex(0);
     loadFiscalNoteData();
   }, [billType, billNumber, year]);
+  
+  // Persist split view state to localStorage whenever it changes
+  useEffect(() => {
+    localStorage.setItem('fiscal-note-split-view-state', JSON.stringify(splitViewState));
+  }, [splitViewState]);
   
   // Callback to refresh data after save
   const handleSaveSuccess = () => {
@@ -231,7 +245,11 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
       <div className="hidden lg:block relative lg:flex-shrink-0">
         {/* Desktop Collapse/Expand Button */}
         <button
-          onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
+          onClick={() => {
+            const newState = !sidebarCollapsed;
+            setSidebarCollapsed(newState);
+            localStorage.setItem('fiscal-note-sidebar-collapsed', String(newState));
+          }}
           className="absolute left-full top-1/2 -translate-y-1/2 -ml-3 z-50 w-8 h-8 flex items-center justify-center bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-colors"
           title={sidebarCollapsed ? 'Expand sidebar' : 'Collapse sidebar'}
         >
@@ -300,8 +318,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
       <div className="flex-1 min-w-0 w-full overflow-y-auto relative pb-20 lg:pb-0 flex flex-col">
 
         {currentSplitView.enabled ? (
-          /* Split View - Two fiscal notes side by side */
-          /* On mobile, stack vertically; on desktop, side by side */
+          /* Split View - Two fiscal notes side by side on desktop, single view on mobile */
           <div className="flex flex-col lg:flex-row h-full">
             {/* Left Panel */}
             <div className="flex-1 border-b lg:border-b-0 lg:border-r border-gray-300 relative h-full flex flex-col min-h-[50vh] lg:min-h-0">
@@ -338,8 +355,8 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
               </div>
             </div>
 
-            {/* Right Panel */}
-            <div className="flex-1 relative h-full flex flex-col min-h-[50vh] lg:min-h-0">
+            {/* Right Panel - Hidden on mobile, visible on desktop */}
+            <div className="hidden lg:flex flex-1 relative h-full flex-col min-h-[50vh] lg:min-h-0">
               <div className="sticky top-0 z-20 bg-white border-b border-gray-200 p-2 lg:p-3 shadow-sm flex-shrink-0">
                 <select
                   value={safeSplitViewRightIndex}

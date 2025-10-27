@@ -191,8 +191,13 @@ export type Atom =
   | { type: 'text'; text: string }
   | { type: 'ref'; refId: string; display: string };
 
-export interface StrikethroughItem {
+// Annotation types for Ramseyer format
+export type AnnotationType = 'strikethrough' | 'underline';
+
+// New unified annotation interface
+export interface AnnotationItem {
   id: string;
+  type: AnnotationType; // 'strikethrough' for deleted material, 'underline' for new material
   sectionKey: string;
   textContent: string; // Keep for reference/display
   timestamp: string;
@@ -203,11 +208,26 @@ export interface StrikethroughItem {
   endOffset: number;   // Character offset within endAtom
 }
 
+// Legacy type for backward compatibility
+export interface StrikethroughItem {
+  id: string;
+  sectionKey: string;
+  textContent: string; // Keep for reference/display
+  timestamp: string;
+  // Atom-based positioning (stable, deterministic)
+  startAtom: number;   // Index in atom array
+  startOffset: number; // Character offset within startAtom (0 for refs)
+  endAtom: number;     // Index in atom array
+  endOffset: number;   // Character offset within endAtom
+  type?: AnnotationType; // Optional for backward compatibility
+}
+
 export interface FiscalNoteItem {
   filename: string;
   data: Record<string, any>;
   new_documents_processed?: string[]; // Documents used to create this specific fiscal note
-  strikethroughs?: StrikethroughItem[]; // Optional: User-applied strikethroughs
+  strikethroughs?: StrikethroughItem[]; // Legacy: User-applied strikethroughs (backward compatibility)
+  annotations?: AnnotationItem[]; // New: User-applied annotations (strikethrough + underline)
 }
 
 export interface NumbersDataItem {
