@@ -23,7 +23,7 @@ pipeline {
                     // Note: Repository is large (~375MB) due to historical commits of:
                     // - ChromaDB databases (468MB)
                     // - Vector JSON files (570MB + 323MB)
-                    // See CLEANUP_LARGE_FILES.md for cleanup instructions
+                    // See CLEANUP_LARGE_FILES.md for cleanup instructionsasd
                     checkout([
                         $class: 'GitSCM',
                         branches: scm.branches,
