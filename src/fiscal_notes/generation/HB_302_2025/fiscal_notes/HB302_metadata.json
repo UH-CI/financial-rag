@@ -1,0 +1,668 @@
+{
+  "document_name": "HB302",
+  "new_documents_processed": [
+    "HB302"
+  ],
+  "all_documents_processed_so_far": [
+    "HB302"
+  ],
+  "numbers_used": 0,
+  "prompt_length": 10398,
+  "response_metadata": {
+    "response_text": "{\n  \"overview\": \"The purpose of this Act is to expand access to care by easing some of the burdens upon qualifying patients and primary caregivers. [CHUNK_7] This Act repeals the requirement that a provider-patient relationship be established in person and allows applicants or primary caregivers to temporarily purchase medical cannabis after the submission of the applicant's certification form. [CHUNK_8] The legislature finds that access for qualifying patients and primary caregivers to medical cannabis and particularly licensed medical cannabis dispensaries remains challenging due to limited access to medical providers and delays in obtaining allowed access. [CHUNK_1]\",\n  \"appropriations\": \"The provided legislative documents do not contain any information regarding appropriations. [CHUNK_0]\",\n  \"assumptions_and_methodology\": \"The provided legislative documents do not contain any assumptions or methodology for fiscal projections. [CHUNK_0]\",\n  \"agency_impact\": \"The department of health office of medical cannabis control and regulation shall facilitate the temporary authorization for applicants and primary caregivers. [CHUNK_16] The department of health shall require, in rules adopted pursuant to chapter 91, that all written certifications comply with a designated form completed by or on behalf of a qualifying patient. [CHUNK_10] After the submission of the applicant's form but before receipt of confirmed registration, the applicant may use the submission as proof for a one-time purchase from a licensed dispensary. [CHUNK_14]\",\n  \"economic_impact\": \"The legislature finds that registration for the medical cannabis program has decreased from a peak of 35,444 card-holding patients in August 2021 to 30,035 by November 2024. [CHUNK_2, CHUNK_3] This appears to indicate that residents are shifting away from licensed medical cannabis dispensaries, and instead are obtaining their medical cannabis from elsewhere due to difficulties, delays in registering, and the ease and lower costs in obtaining cannabis elsewhere. [CHUNK_3, CHUNK_4] This apparent shift away from licensed medical cannabis dispensaries toward the illicit market, undermines the purposes of the medical cannabis program in ensuring patient safety, product safety, and public safety. [CHUNK_4]\",\n  \"policy_impact\": \"This Act amends Section 329-123 and Section 329-126, Hawaii Revised Statutes. [CHUNK_9, CHUNK_17] It repeals the requirement that a bona fide physician-patient relationship or bona fide advanced practice registered nurse-patient relationship be established by conducting an initial in-person consultation. [CHUNK_13] The Act also allows an applicant or primary caregiver to make a one-time purchase of cannabis in an amount that is no more than fifty per cent of the dispensing limits while awaiting their registration card from the department. [CHUNK_15]\",\n  \"revenue_sources\": \"The provided legislative documents do not identify any revenue sources for this measure. [CHUNK_0]\",\n  \"six_year_fiscal_implications\": \"The provided legislative documents do not contain information regarding the six-year fiscal implications of this measure. [CHUNK_0]\",\n  \"operating_revenue_impact\": \"The provided legislative documents do not describe any anticipated impacts on operating revenues resulting from this measure. [CHUNK_0]\",\n  \"capital_expenditure_impact\": \"The provided legislative documents do not outline any expected capital expenditures related to this measure. [CHUNK_0]\",\n  \"fiscal_implications_after_6_years\": \"The provided legislative documents do not contain information regarding the fiscal implications after six years. [CHUNK_0]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison. [CHUNK_0]\"\n}",
+    "prompt_feedback": {
+      "block_reason": null,
+      "safety_ratings": []
+    },
+    "usage_metadata": {
+      "prompt_token_count": 4344,
+      "candidates_token_count": 788,
+      "total_token_count": 7670
+    },
+    "candidates": [
+      {
+        "index": 0,
+        "finish_reason": "FinishReason.STOP",
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n  \"overview\": \"The purpose of this Act is to expand access to care by easing some of the burdens upon qualifying patients and primary caregivers. [CHUNK_7] This Act repeals the requirement that a provider-patient relationship be established in person and allows applicants or primary caregivers to temporarily purchase medical cannabis after the submission of the applicant's certification form. [CHUNK_8] The legislature finds that access for qualifying patients and primary caregivers to medical cannabis and particularly licensed medical cannabis dispensaries remains challenging due to limited access to medical providers and delays in obtaining allowed access. [CHUNK_1]\",\n  \"appropriations\": \"The provided legislative documents do not contain any information regarding appropriations. [CHUNK_0]\",\n  \"assumptions_and_methodology\": \"The provided legislative documents do not contain any assumptions or methodology for fiscal projections. [CHUNK_0]\",\n  \"agency_impact\": \"The department of health office of medical cannabis control and regulation shall facilitate the temporary authorization for applicants and primary caregivers. [CHUNK_16] The department of health shall require, in rules adopted pursuant to chapter 91, that all written certifications comply with a designated form completed by or on behalf of a qualifying patient. [CHUNK_10] After the submission of the applicant's form but before receipt of confirmed registration, the applicant may use the submission as proof for a one-time purchase from a licensed dispensary. [CHUNK_14]\",\n  \"economic_impact\": \"The legislature finds that registration for the medical cannabis program has decreased from a peak of 35,444 card-holding patients in August 2021 to 30,035 by November 2024. [CHUNK_2, CHUNK_3] This appears to indicate that residents are shifting away from licensed medical cannabis dispensaries, and instead are obtaining their medical cannabis from elsewhere due to difficulties, delays in registering, and the ease and lower costs in obtaining cannabis elsewhere. [CHUNK_3, CHUNK_4] This apparent shift away from licensed medical cannabis dispensaries toward the illicit market, undermines the purposes of the medical cannabis program in ensuring patient safety, product safety, and public safety. [CHUNK_4]\",\n  \"policy_impact\": \"This Act amends Section 329-123 and Section 329-126, Hawaii Revised Statutes. [CHUNK_9, CHUNK_17] It repeals the requirement that a bona fide physician-patient relationship or bona fide advanced practice registered nurse-patient relationship be established by conducting an initial in-person consultation. [CHUNK_13] The Act also allows an applicant or primary caregiver to make a one-time purchase of cannabis in an amount that is no more than fifty per cent of the dispensing limits while awaiting their registration card from the department. [CHUNK_15]\",\n  \"revenue_sources\": \"The provided legislative documents do not identify any revenue sources for this measure. [CHUNK_0]\",\n  \"six_year_fiscal_implications\": \"The provided legislative documents do not contain information regarding the six-year fiscal implications of this measure. [CHUNK_0]\",\n  \"operating_revenue_impact\": \"The provided legislative documents do not describe any anticipated impacts on operating revenues resulting from this measure. [CHUNK_0]\",\n  \"capital_expenditure_impact\": \"The provided legislative documents do not outline any expected capital expenditures related to this measure. [CHUNK_0]\",\n  \"fiscal_implications_after_6_years\": \"The provided legislative documents do not contain information regarding the fiscal implications after six years. [CHUNK_0]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison. [CHUNK_0]\"\n}"
+            }
+          ]
+        },
+        "citation_metadata": null,
+        "safety_ratings": []
+      }
+    ],
+    "chunks_metadata": {
+      "total_chunks": 22,
+      "chunk_details": [
+        {
+          "chunk_id": 0,
+          "document_name": "HB302",
+          "chunk_text": "HB302 HOUSE OF REPRESENTATIVES H.B. NO. 302 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO CANNABIS . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that access for qualifying patients and primary caregivers to medical cannabis and",
+          "start_word": 0,
+          "end_word": 50,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 1,
+          "document_name": "HB302",
+          "chunk_text": "for qualifying patients and primary caregivers to medical cannabis and particularly licensed medical cannabis dispensaries remains challenging due to limited access to medical providers, delays in obtaining allowed access to enter and purchase medical cannabis, and the availability of cannabis through a thriving illicit market. The legislature further finds that",
+          "start_word": 40,
+          "end_word": 90,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 2,
+          "document_name": "HB302",
+          "chunk_text": "through a thriving illicit market. The legislature further finds that registration for the medical cannabis program has decreased in the last few years. While the number of registered medical cannabis patients reached its peak in August 2021, with 35,444 card-holding patients, since then, the number of patients has decreased over",
+          "start_word": 80,
+          "end_word": 130,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 3,
+          "document_name": "HB302",
+          "chunk_text": "patients, since then, the number of patients has decreased over fifteen per cent to 30,035 by November 2024. This appears to indicate that residents are shifting away from licensed medical cannabis dispensaries, and instead are obtaining their medical cannabis from elsewhere due to difficulties, delays in registering, and the ease",
+          "start_word": 120,
+          "end_word": 170,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 4,
+          "document_name": "HB302",
+          "chunk_text": "elsewhere due to difficulties, delays in registering, and the ease and lower costs in obtaining cannabis elsewhere. The legislature also finds that this apparent shift away from licensed medical cannabis dispensaries toward the illicit market, undermines the purposes of the medical cannabis program in ensuring patient safety, product safety, and",
+          "start_word": 160,
+          "end_word": 210,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 5,
+          "document_name": "HB302",
+          "chunk_text": "medical cannabis program in ensuring patient safety, product safety, and public safety. The legislature additionally finds that in 2021, Act 34, Session Laws of Hawaii 2021, eliminated the requirement for a physician-patient relationship to be established by an initial in-person consultation, and authorized the relationship to be established via telehealth.",
+          "start_word": 200,
+          "end_word": 250,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 6,
+          "document_name": "HB302",
+          "chunk_text": "consultation, and authorized the relationship to be established via telehealth. The legislature further finds that the department of health office of medical cannabis control and regulation has a comprehensive registration system that could temporarily allow a qualifying patient or primary caregiver to purchase medical cannabis, instead of having the patient's",
+          "start_word": 240,
+          "end_word": 290,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 7,
+          "document_name": "HB302",
+          "chunk_text": "caregiver to purchase medical cannabis, instead of having the patient's access to medical cannabis delayed by a few to several days while awaiting delivery of the registration card from the department. Accordingly, the purpose of this Act is to expand access to care by easing some of the burdens upon",
+          "start_word": 280,
+          "end_word": 330,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 8,
+          "document_name": "HB302",
+          "chunk_text": "access to care by easing some of the burdens upon qualifying patients and primary caregivers. Specifically, this Act: (1) Repeals the requirement that a provider-patient relationship be established in person; and (2) Allows applicants or primary caregivers to temporarily purchase medical cannabis after the submission of the applicant's certification form.",
+          "start_word": 320,
+          "end_word": 370,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 9,
+          "document_name": "HB302",
+          "chunk_text": "medical cannabis after the submission of the applicant's certification form. SECTION 2 . Section 329-123, Hawaii Revised Statutes, is amended by amending subsection (a) to read as follows: \"(a) Physicians or advanced practice registered nurses who issue written certifications shall provide, in each written certification, the name, address, patient identification",
+          "start_word": 360,
+          "end_word": 410,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 10,
+          "document_name": "HB302",
+          "chunk_text": "provide, in each written certification, the name, address, patient identification number, and other identifying information of the qualifying patient. The department of health shall require, in rules adopted pursuant to chapter 91, that all written certifications comply with a designated form completed by or on behalf of a qualifying patient.",
+          "start_word": 400,
+          "end_word": 450,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 11,
+          "document_name": "HB302",
+          "chunk_text": "form completed by or on behalf of a qualifying patient. The form shall require information from the applicant, primary caregiver, and physician or advanced practice registered nurse as specifically required or permitted by this chapter. The form shall require the address of the location where the cannabis is grown and",
+          "start_word": 440,
+          "end_word": 490,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 12,
+          "document_name": "HB302",
+          "chunk_text": "address of the location where the cannabis is grown and shall appear on the registry card issued by the department of health. The certifying physician or advanced practice registered nurse shall be required to have a bona fide physician-patient relationship or bona fide advanced practice registered nurse-patient relationship, as applicable,",
+          "start_word": 480,
+          "end_word": 530,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 13,
+          "document_name": "HB302",
+          "chunk_text": "or bona fide advanced practice registered nurse-patient relationship, as applicable, with the qualifying patient[ . ] ; provided that nothing under this part shall require that the bona fide physician-patient relationship or bona fide advanced practice registered nurse-patient relationship be established by conducting an initial in-person consultation. After the submission",
+          "start_word": 520,
+          "end_word": 570,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 14,
+          "document_name": "HB302",
+          "chunk_text": "established by conducting an initial in-person consultation. After the submission of the applicant's form but before receipt of confirmed registration from the department of health, the applicant or primary caregiver may use the submission of the applicant's form as proof and documentation authorizing the applicant or primary caregiver to enter",
+          "start_word": 560,
+          "end_word": 610,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 15,
+          "document_name": "HB302",
+          "chunk_text": "and documentation authorizing the applicant or primary caregiver to enter and make a one-time purchase of cannabis from a medical cannabis dispensary licensed under chapter 329D in an amount that is no more than fifty per cent of the dispensing limits under section 329D-13. The department of health office of",
+          "start_word": 600,
+          "end_word": 650,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 16,
+          "document_name": "HB302",
+          "chunk_text": "limits under section 329D-13. The department of health office of medical cannabis control and regulation shall facilitate the temporary authorization for applicants and primary caregivers. All current active medical cannabis permits shall be honored through their expiration date.\" SECTION 3 . Section 329-126, Hawaii Revised Statutes, is amended by amending",
+          "start_word": 640,
+          "end_word": 690,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 17,
+          "document_name": "HB302",
+          "chunk_text": ". Section 329-126, Hawaii Revised Statutes, is amended by amending subsection (b) to read as follows: \" (b) For purposes of this section, a bona fide physician-patient relationship may be established via telehealth, as defined in section 453-1.3(j), and a bona fide advanced practice registered nurse-patient relationship may be established",
+          "start_word": 680,
+          "end_word": 730,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 18,
+          "document_name": "HB302",
+          "chunk_text": "bona fide advanced practice registered nurse-patient relationship may be established via telehealth, as defined in section 457-2; provided that nothing under this part shall require that treatment recommendations that include certifying a patient for the medical use of cannabis via telehealth [ shall ] be allowed only after an initial",
+          "start_word": 720,
+          "end_word": 770,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 19,
+          "document_name": "HB302",
+          "chunk_text": "telehealth [ shall ] be allowed only after an initial in-person consultation between the certifying physician or advanced practice registered nurse and the patient. \" SECTION 4. Statutory material to be repealed is bracketed and stricken. New statutory material is underscored. SECTION 5. This Act shall take effect upon its",
+          "start_word": 760,
+          "end_word": 810,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 20,
+          "document_name": "HB302",
+          "chunk_text": "underscored. SECTION 5. This Act shall take effect upon its approval. INTRODUCED BY: _____________________________ Report Title: Medical Cannabis; Access; Providers; Certification Description: Repeals the requirement that a provider-patient relationship be established in person. Allows applicants or primary caregivers to temporarily purchase medical cannabis after the submission of the applicant's certification",
+          "start_word": 800,
+          "end_word": 850,
+          "word_count": 50
+        },
+        {
+          "chunk_id": 21,
+          "document_name": "HB302",
+          "chunk_text": "purchase medical cannabis after the submission of the applicant's certification form. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+          "start_word": 840,
+          "end_word": 874,
+          "word_count": 34
+        }
+      ]
+    },
+    "numbers_data": [],
+    "chunk_text_map": {
+      "1": [
+        {
+          "chunk_text": "caregiver to purchase medical cannabis, instead of having the patient's access to medical cannabis delayed by a few to several days while awaiting delivery of the registration card from the department. Accordingly, the purpose of this Act is to expand access to care by easing some of the burdens upon",
+          "chunk_id": 7,
+          "document_name": "HB302"
+        },
+        {
+          "chunk_text": "access to care by easing some of the burdens upon qualifying patients and primary caregivers. Specifically, this Act: (1) Repeals the requirement that a provider-patient relationship be established in person; and (2) Allows applicants or primary caregivers to temporarily purchase medical cannabis after the submission of the applicant's certification form.",
+          "chunk_id": 8,
+          "document_name": "HB302"
+        },
+        {
+          "chunk_text": "for qualifying patients and primary caregivers to medical cannabis and particularly licensed medical cannabis dispensaries remains challenging due to limited access to medical providers, delays in obtaining allowed access to enter and purchase medical cannabis, and the availability of cannabis through a thriving illicit market. The legislature further finds that",
+          "chunk_id": 1,
+          "document_name": "HB302"
+        },
+        {
+          "chunk_text": "HB302 HOUSE OF REPRESENTATIVES H.B. NO. 302 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO CANNABIS . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that access for qualifying patients and primary caregivers to medical cannabis and",
+          "chunk_id": 0,
+          "document_name": "HB302"
+        },
+        {
+          "chunk_text": "limits under section 329D-13. The department of health office of medical cannabis control and regulation shall facilitate the temporary authorization for applicants and primary caregivers. All current active medical cannabis permits shall be honored through their expiration date.\" SECTION 3 . Section 329-126, Hawaii Revised Statutes, is amended by amending",
+          "chunk_id": 16,
+          "document_name": "HB302"
+        },
+        {
+          "chunk_text": "provide, in each written certification, the name, address, patient identification number, and other identifying information of the qualifying patient. The department of health shall require, in rules adopted pursuant to chapter 91, that all written certifications comply with a designated form completed by or on behalf of a qualifying patient.",
+          "chunk_id": 10,
+          "document_name": "HB302"
+        },
+        {
+          "chunk_text": "established by conducting an initial in-person consultation. After the submission of the applicant's form but before receipt of confirmed registration from the department of health, the applicant or primary caregiver may use the submission of the applicant's form as proof and documentation authorizing the applicant or primary caregiver to enter",
+          "chunk_id": 14,
+          "document_name": "HB302"
+        },
+        {
+          "chunk_text": "through a thriving illicit market. The legislature further finds that registration for the medical cannabis program has decreased in the last few years. While the number of registered medical cannabis patients reached its peak in August 2021, with 35,444 card-holding patients, since then, the number of patients has decreased over",
+          "chunk_id": 2,
+          "document_name": "HB302"
+        },
+        {
+          "chunk_text": "patients, since then, the number of patients has decreased over fifteen per cent to 30,035 by November 2024. This appears to indicate that residents are shifting away from licensed medical cannabis dispensaries, and instead are obtaining their medical cannabis from elsewhere due to difficulties, delays in registering, and the ease",
+          "chunk_id": 3,
+          "document_name": "HB302"
+        },
+        {
+          "chunk_text": "elsewhere due to difficulties, delays in registering, and the ease and lower costs in obtaining cannabis elsewhere. The legislature also finds that this apparent shift away from licensed medical cannabis dispensaries toward the illicit market, undermines the purposes of the medical cannabis program in ensuring patient safety, product safety, and",
+          "chunk_id": 4,
+          "document_name": "HB302"
+        },
+        {
+          "chunk_text": "medical cannabis after the submission of the applicant's certification form. SECTION 2 . Section 329-123, Hawaii Revised Statutes, is amended by amending subsection (a) to read as follows: \"(a) Physicians or advanced practice registered nurses who issue written certifications shall provide, in each written certification, the name, address, patient identification",
+          "chunk_id": 9,
+          "document_name": "HB302"
+        },
+        {
+          "chunk_text": ". Section 329-126, Hawaii Revised Statutes, is amended by amending subsection (b) to read as follows: \" (b) For purposes of this section, a bona fide physician-patient relationship may be established via telehealth, as defined in section 453-1.3(j), and a bona fide advanced practice registered nurse-patient relationship may be established",
+          "chunk_id": 17,
+          "document_name": "HB302"
+        },
+        {
+          "chunk_text": "or bona fide advanced practice registered nurse-patient relationship, as applicable, with the qualifying patient[ . ] ; provided that nothing under this part shall require that the bona fide physician-patient relationship or bona fide advanced practice registered nurse-patient relationship be established by conducting an initial in-person consultation. After the submission",
+          "chunk_id": 13,
+          "document_name": "HB302"
+        },
+        {
+          "chunk_text": "and documentation authorizing the applicant or primary caregiver to enter and make a one-time purchase of cannabis from a medical cannabis dispensary licensed under chapter 329D in an amount that is no more than fifty per cent of the dispensing limits under section 329D-13. The department of health office of",
+          "chunk_id": 15,
+          "document_name": "HB302"
+        }
+      ]
+    },
+    "document_mapping": {
+      "HB302": 1,
+      "HB302_TESTIMONY_HLT_01-29-25_": 2,
+      "HB302_HD1": 3,
+      "HB302_HD1_HSCR33_": 4,
+      "HB302_HD1_TESTIMONY_CPC_02-06-25_": 5,
+      "HB302_HD2": 6,
+      "HB302_HD2_HSCR428_": 7,
+      "HB302_HD2_TESTIMONY_JHA_02-25-25_": 8,
+      "HB302_HD2_HSCR1079_": 9,
+      "HB302_HD2_TESTIMONY_HHS-CPN_03-19-25_": 10,
+      "HB302_SD1": 11,
+      "HB302_SD1_SSCR1329_": 12,
+      "HB302_SD1_TESTIMONY_WAM-JDC_04-01-25_": 13,
+      "HB302_SD2": 14,
+      "HB302_SD2_SSCR1816_": 15,
+      "HB302_CD1": 16,
+      "HB302_CD1_CCR255_": 17
+    },
+    "sentence_chunk_mapping": [
+      {
+        "section": "overview",
+        "sentence": "The purpose of this Act is to expand access to care by easing some of the burdens upon qualifying patients and primary caregivers.",
+        "chunks": [
+          {
+            "chunk_id": 7,
+            "citation_number": 1,
+            "chunk_text": "caregiver to purchase medical cannabis, instead of having the patient's access to medical cannabis delayed by a few to several days while awaiting delivery of the registration card from the department. Accordingly, the purpose of this Act is to expand access to care by easing some of the burdens upon",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "This Act repeals the requirement that a provider-patient relationship be established in person and allows applicants or primary caregivers to temporarily purchase medical cannabis after the submission of the applicant's certification form.",
+        "chunks": [
+          {
+            "chunk_id": 8,
+            "citation_number": 1,
+            "chunk_text": "access to care by easing some of the burdens upon qualifying patients and primary caregivers. Specifically, this Act: (1) Repeals the requirement that a provider-patient relationship be established in person; and (2) Allows applicants or primary caregivers to temporarily purchase medical cannabis after the submission of the applicant's certification form.",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "The legislature finds that access for qualifying patients and primary caregivers to medical cannabis and particularly licensed medical cannabis dispensaries remains challenging due to limited access to medical providers and delays in obtaining allowed access.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 1,
+            "chunk_text": "for qualifying patients and primary caregivers to medical cannabis and particularly licensed medical cannabis dispensaries remains challenging due to limited access to medical providers, delays in obtaining allowed access to enter and purchase medical cannabis, and the availability of cannabis through a thriving illicit market. The legislature further finds that",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The provided legislative documents do not contain any information regarding appropriations.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB302 HOUSE OF REPRESENTATIVES H.B. NO. 302 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO CANNABIS . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that access for qualifying patients and primary caregivers to medical cannabis and",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The provided legislative documents do not contain any assumptions or methodology for fiscal projections.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB302 HOUSE OF REPRESENTATIVES H.B. NO. 302 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO CANNABIS . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that access for qualifying patients and primary caregivers to medical cannabis and",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The department of health office of medical cannabis control and regulation shall facilitate the temporary authorization for applicants and primary caregivers.",
+        "chunks": [
+          {
+            "chunk_id": 16,
+            "citation_number": 1,
+            "chunk_text": "limits under section 329D-13. The department of health office of medical cannabis control and regulation shall facilitate the temporary authorization for applicants and primary caregivers. All current active medical cannabis permits shall be honored through their expiration date.\" SECTION 3 . Section 329-126, Hawaii Revised Statutes, is amended by amending",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The department of health shall require, in rules adopted pursuant to chapter 91, that all written certifications comply with a designated form completed by or on behalf of a qualifying patient.",
+        "chunks": [
+          {
+            "chunk_id": 10,
+            "citation_number": 1,
+            "chunk_text": "provide, in each written certification, the name, address, patient identification number, and other identifying information of the qualifying patient. The department of health shall require, in rules adopted pursuant to chapter 91, that all written certifications comply with a designated form completed by or on behalf of a qualifying patient.",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "After the submission of the applicant's form but before receipt of confirmed registration, the applicant may use the submission as proof for a one-time purchase from a licensed dispensary.",
+        "chunks": [
+          {
+            "chunk_id": 14,
+            "citation_number": 1,
+            "chunk_text": "established by conducting an initial in-person consultation. After the submission of the applicant's form but before receipt of confirmed registration from the department of health, the applicant or primary caregiver may use the submission of the applicant's form as proof and documentation authorizing the applicant or primary caregiver to enter",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "The legislature finds that registration for the medical cannabis program has decreased from a peak of 35,444 card-holding patients in August 2021 to 30,035 by November 2024.",
+        "chunks": [
+          {
+            "chunk_id": 2,
+            "citation_number": 1,
+            "chunk_text": "through a thriving illicit market. The legislature further finds that registration for the medical cannabis program has decreased in the last few years. While the number of registered medical cannabis patients reached its peak in August 2021, with 35,444 card-holding patients, since then, the number of patients has decreased over",
+            "document_name": "HB302"
+          },
+          {
+            "chunk_id": 3,
+            "citation_number": 1,
+            "chunk_text": "patients, since then, the number of patients has decreased over fifteen per cent to 30,035 by November 2024. This appears to indicate that residents are shifting away from licensed medical cannabis dispensaries, and instead are obtaining their medical cannabis from elsewhere due to difficulties, delays in registering, and the ease",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "This appears to indicate that residents are shifting away from licensed medical cannabis dispensaries, and instead are obtaining their medical cannabis from elsewhere due to difficulties, delays in registering, and the ease and lower costs in obtaining cannabis elsewhere.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 1,
+            "chunk_text": "patients, since then, the number of patients has decreased over fifteen per cent to 30,035 by November 2024. This appears to indicate that residents are shifting away from licensed medical cannabis dispensaries, and instead are obtaining their medical cannabis from elsewhere due to difficulties, delays in registering, and the ease",
+            "document_name": "HB302"
+          },
+          {
+            "chunk_id": 4,
+            "citation_number": 1,
+            "chunk_text": "elsewhere due to difficulties, delays in registering, and the ease and lower costs in obtaining cannabis elsewhere. The legislature also finds that this apparent shift away from licensed medical cannabis dispensaries toward the illicit market, undermines the purposes of the medical cannabis program in ensuring patient safety, product safety, and",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "This apparent shift away from licensed medical cannabis dispensaries toward the illicit market, undermines the purposes of the medical cannabis program in ensuring patient safety, product safety, and public safety.",
+        "chunks": [
+          {
+            "chunk_id": 4,
+            "citation_number": 1,
+            "chunk_text": "elsewhere due to difficulties, delays in registering, and the ease and lower costs in obtaining cannabis elsewhere. The legislature also finds that this apparent shift away from licensed medical cannabis dispensaries toward the illicit market, undermines the purposes of the medical cannabis program in ensuring patient safety, product safety, and",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "This Act amends Section 329-123 and Section 329-126, Hawaii Revised Statutes.",
+        "chunks": [
+          {
+            "chunk_id": 9,
+            "citation_number": 1,
+            "chunk_text": "medical cannabis after the submission of the applicant's certification form. SECTION 2 . Section 329-123, Hawaii Revised Statutes, is amended by amending subsection (a) to read as follows: \"(a) Physicians or advanced practice registered nurses who issue written certifications shall provide, in each written certification, the name, address, patient identification",
+            "document_name": "HB302"
+          },
+          {
+            "chunk_id": 17,
+            "citation_number": 1,
+            "chunk_text": ". Section 329-126, Hawaii Revised Statutes, is amended by amending subsection (b) to read as follows: \" (b) For purposes of this section, a bona fide physician-patient relationship may be established via telehealth, as defined in section 453-1.3(j), and a bona fide advanced practice registered nurse-patient relationship may be established",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "It repeals the requirement that a bona fide physician-patient relationship or bona fide advanced practice registered nurse-patient relationship be established by conducting an initial in-person consultation.",
+        "chunks": [
+          {
+            "chunk_id": 13,
+            "citation_number": 1,
+            "chunk_text": "or bona fide advanced practice registered nurse-patient relationship, as applicable, with the qualifying patient[ . ] ; provided that nothing under this part shall require that the bona fide physician-patient relationship or bona fide advanced practice registered nurse-patient relationship be established by conducting an initial in-person consultation. After the submission",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The Act also allows an applicant or primary caregiver to make a one-time purchase of cannabis in an amount that is no more than fifty per cent of the dispensing limits while awaiting their registration card from the department.",
+        "chunks": [
+          {
+            "chunk_id": 15,
+            "citation_number": 1,
+            "chunk_text": "and documentation authorizing the applicant or primary caregiver to enter and make a one-time purchase of cannabis from a medical cannabis dispensary licensed under chapter 329D in an amount that is no more than fifty per cent of the dispensing limits under section 329D-13. The department of health office of",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The provided legislative documents do not identify any revenue sources for this measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB302 HOUSE OF REPRESENTATIVES H.B. NO. 302 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO CANNABIS . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that access for qualifying patients and primary caregivers to medical cannabis and",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The provided legislative documents do not contain information regarding the six-year fiscal implications of this measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB302 HOUSE OF REPRESENTATIVES H.B. NO. 302 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO CANNABIS . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that access for qualifying patients and primary caregivers to medical cannabis and",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "The provided legislative documents do not describe any anticipated impacts on operating revenues resulting from this measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB302 HOUSE OF REPRESENTATIVES H.B. NO. 302 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO CANNABIS . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that access for qualifying patients and primary caregivers to medical cannabis and",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The provided legislative documents do not outline any expected capital expenditures related to this measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB302 HOUSE OF REPRESENTATIVES H.B. NO. 302 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO CANNABIS . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that access for qualifying patients and primary caregivers to medical cannabis and",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The provided legislative documents do not contain information regarding the fiscal implications after six years.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB302 HOUSE OF REPRESENTATIVES H.B. NO. 302 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO CANNABIS . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that access for qualifying patients and primary caregivers to medical cannabis and",
+            "document_name": "HB302"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "No previous fiscal note was provided for comparison.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB302 HOUSE OF REPRESENTATIVES H.B. NO. 302 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO CANNABIS . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that access for qualifying patients and primary caregivers to medical cannabis and",
+            "document_name": "HB302"
+          }
+        ]
+      }
+    ]
+  },
+  "chunk_mapping": {
+    "HB302": [
+      {
+        "chunk_number": 0,
+        "chunk_text": "HB302 HOUSE OF REPRESENTATIVES H.B. NO. 302 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO CANNABIS . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that access for qualifying patients and primary caregivers to medical cannabis and"
+      },
+      {
+        "chunk_number": 1,
+        "chunk_text": "for qualifying patients and primary caregivers to medical cannabis and particularly licensed medical cannabis dispensaries remains challenging due to limited access to medical providers, delays in obtaining allowed access to enter and purchase medical cannabis, and the availability of cannabis through a thriving illicit market. The legislature further finds that"
+      },
+      {
+        "chunk_number": 2,
+        "chunk_text": "through a thriving illicit market. The legislature further finds that registration for the medical cannabis program has decreased in the last few years. While the number of registered medical cannabis patients reached its peak in August 2021, with 35,444 card-holding patients, since then, the number of patients has decreased over"
+      },
+      {
+        "chunk_number": 3,
+        "chunk_text": "patients, since then, the number of patients has decreased over fifteen per cent to 30,035 by November 2024. This appears to indicate that residents are shifting away from licensed medical cannabis dispensaries, and instead are obtaining their medical cannabis from elsewhere due to difficulties, delays in registering, and the ease"
+      },
+      {
+        "chunk_number": 4,
+        "chunk_text": "elsewhere due to difficulties, delays in registering, and the ease and lower costs in obtaining cannabis elsewhere. The legislature also finds that this apparent shift away from licensed medical cannabis dispensaries toward the illicit market, undermines the purposes of the medical cannabis program in ensuring patient safety, product safety, and"
+      },
+      {
+        "chunk_number": 5,
+        "chunk_text": "medical cannabis program in ensuring patient safety, product safety, and public safety. The legislature additionally finds that in 2021, Act 34, Session Laws of Hawaii 2021, eliminated the requirement for a physician-patient relationship to be established by an initial in-person consultation, and authorized the relationship to be established via telehealth."
+      },
+      {
+        "chunk_number": 6,
+        "chunk_text": "consultation, and authorized the relationship to be established via telehealth. The legislature further finds that the department of health office of medical cannabis control and regulation has a comprehensive registration system that could temporarily allow a qualifying patient or primary caregiver to purchase medical cannabis, instead of having the patient's"
+      },
+      {
+        "chunk_number": 7,
+        "chunk_text": "caregiver to purchase medical cannabis, instead of having the patient's access to medical cannabis delayed by a few to several days while awaiting delivery of the registration card from the department. Accordingly, the purpose of this Act is to expand access to care by easing some of the burdens upon"
+      },
+      {
+        "chunk_number": 8,
+        "chunk_text": "access to care by easing some of the burdens upon qualifying patients and primary caregivers. Specifically, this Act: (1) Repeals the requirement that a provider-patient relationship be established in person; and (2) Allows applicants or primary caregivers to temporarily purchase medical cannabis after the submission of the applicant's certification form."
+      },
+      {
+        "chunk_number": 9,
+        "chunk_text": "medical cannabis after the submission of the applicant's certification form. SECTION 2 . Section 329-123, Hawaii Revised Statutes, is amended by amending subsection (a) to read as follows: \"(a) Physicians or advanced practice registered nurses who issue written certifications shall provide, in each written certification, the name, address, patient identification"
+      },
+      {
+        "chunk_number": 10,
+        "chunk_text": "provide, in each written certification, the name, address, patient identification number, and other identifying information of the qualifying patient. The department of health shall require, in rules adopted pursuant to chapter 91, that all written certifications comply with a designated form completed by or on behalf of a qualifying patient."
+      },
+      {
+        "chunk_number": 11,
+        "chunk_text": "form completed by or on behalf of a qualifying patient. The form shall require information from the applicant, primary caregiver, and physician or advanced practice registered nurse as specifically required or permitted by this chapter. The form shall require the address of the location where the cannabis is grown and"
+      },
+      {
+        "chunk_number": 12,
+        "chunk_text": "address of the location where the cannabis is grown and shall appear on the registry card issued by the department of health. The certifying physician or advanced practice registered nurse shall be required to have a bona fide physician-patient relationship or bona fide advanced practice registered nurse-patient relationship, as applicable,"
+      },
+      {
+        "chunk_number": 13,
+        "chunk_text": "or bona fide advanced practice registered nurse-patient relationship, as applicable, with the qualifying patient[ . ] ; provided that nothing under this part shall require that the bona fide physician-patient relationship or bona fide advanced practice registered nurse-patient relationship be established by conducting an initial in-person consultation. After the submission"
+      },
+      {
+        "chunk_number": 14,
+        "chunk_text": "established by conducting an initial in-person consultation. After the submission of the applicant's form but before receipt of confirmed registration from the department of health, the applicant or primary caregiver may use the submission of the applicant's form as proof and documentation authorizing the applicant or primary caregiver to enter"
+      },
+      {
+        "chunk_number": 15,
+        "chunk_text": "and documentation authorizing the applicant or primary caregiver to enter and make a one-time purchase of cannabis from a medical cannabis dispensary licensed under chapter 329D in an amount that is no more than fifty per cent of the dispensing limits under section 329D-13. The department of health office of"
+      },
+      {
+        "chunk_number": 16,
+        "chunk_text": "limits under section 329D-13. The department of health office of medical cannabis control and regulation shall facilitate the temporary authorization for applicants and primary caregivers. All current active medical cannabis permits shall be honored through their expiration date.\" SECTION 3 . Section 329-126, Hawaii Revised Statutes, is amended by amending"
+      },
+      {
+        "chunk_number": 17,
+        "chunk_text": ". Section 329-126, Hawaii Revised Statutes, is amended by amending subsection (b) to read as follows: \" (b) For purposes of this section, a bona fide physician-patient relationship may be established via telehealth, as defined in section 453-1.3(j), and a bona fide advanced practice registered nurse-patient relationship may be established"
+      },
+      {
+        "chunk_number": 18,
+        "chunk_text": "bona fide advanced practice registered nurse-patient relationship may be established via telehealth, as defined in section 457-2; provided that nothing under this part shall require that treatment recommendations that include certifying a patient for the medical use of cannabis via telehealth [ shall ] be allowed only after an initial"
+      },
+      {
+        "chunk_number": 19,
+        "chunk_text": "telehealth [ shall ] be allowed only after an initial in-person consultation between the certifying physician or advanced practice registered nurse and the patient. \" SECTION 4. Statutory material to be repealed is bracketed and stricken. New statutory material is underscored. SECTION 5. This Act shall take effect upon its"
+      },
+      {
+        "chunk_number": 20,
+        "chunk_text": "underscored. SECTION 5. This Act shall take effect upon its approval. INTRODUCED BY: _____________________________ Report Title: Medical Cannabis; Access; Providers; Certification Description: Repeals the requirement that a provider-patient relationship be established in person. Allows applicants or primary caregivers to temporarily purchase medical cannabis after the submission of the applicant's certification"
+      },
+      {
+        "chunk_number": 21,
+        "chunk_text": "purchase medical cannabis after the submission of the applicant's certification form. The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent."
+      }
+    ]
+  },
+  "generation_timestamp": "2025-10-16T15:31:34.762537",
+  "generation_timestamp_unix": 1760664694.762542
+}
