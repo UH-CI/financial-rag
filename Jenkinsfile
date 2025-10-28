@@ -90,6 +90,26 @@ pipeline {
                             set -e
                             cd /home/exouser/RAG-system
                             
+                            # Create backup directory if it doesn'\''t exist
+                            mkdir -p /home/exouser/fiscal_notes_backups
+                            
+                            # Create timestamped backup of fiscal notes (with user annotations)
+                            BACKUP_DATE=\$(date +%Y%m%d_%H%M%S)
+                            BACKUP_FILE="/home/exouser/fiscal_notes_backups/fiscal_notes_\${BACKUP_DATE}.tar.gz"
+                            
+                            if [ -d "src/fiscal_notes/generation" ]; then
+                                echo "📦 Creating backup: \${BACKUP_FILE}"
+                                tar -czf "\${BACKUP_FILE}" src/fiscal_notes/generation/
+                                echo "✅ Backup created successfully"
+                                
+                                # Keep only last 10 backups to save space
+                                cd /home/exouser/fiscal_notes_backups
+                                ls -t fiscal_notes_*.tar.gz | tail -n +11 | xargs -r rm
+                                echo "📊 Current backups:"
+                                ls -lh fiscal_notes_*.tar.gz 2>/dev/null || echo "No backups yet"
+                                cd /home/exouser/RAG-system
+                            fi
+                            
                             # Stash any local changes to fiscal notes (user annotations)
                             git add src/fiscal_notes/generation/ 2>/dev/null || true
                             git stash push -m "Preserve user annotations before pull" src/fiscal_notes/generation/ 2>/dev/null || true
