@@ -8,6 +8,7 @@ set -e
 # Configuration
 PRODUCTION_HOST="exouser@<YOUR_PRODUCTION_IP>"  # Update this with your production IP
 PRODUCTION_PATH="/home/exouser/RAG-system/src/fiscal_notes/generation"
+PRODUCTION_BACKUP_DIR="/home/exouser/RAG-system/fiscal_notes_backups"
 LOCAL_BACKUP_DIR="./fiscal_notes_backups"
 BACKUP_DATE=$(date +%Y%m%d_%H%M%S)
 BACKUP_FILE="${LOCAL_BACKUP_DIR}/fiscal_notes_${BACKUP_DATE}.tar.gz"

@@ -51,9 +51,10 @@ When Jenkins deploys to production:
 ```bash
 # 1. Create timestamped backup
 BACKUP_DATE=$(date +%Y%m%d_%H%M%S)
-tar -czf "/home/exouser/fiscal_notes_backups/fiscal_notes_${BACKUP_DATE}.tar.gz" src/fiscal_notes/generation/
+tar -czf "/home/exouser/RAG-system/fiscal_notes_backups/fiscal_notes_${BACKUP_DATE}.tar.gz" src/fiscal_notes/generation/
 
 # 2. Keep only last 10 backups
+cd /home/exouser/RAG-system/fiscal_notes_backups
 ls -t fiscal_notes_*.tar.gz | tail -n +11 | xargs -r rm
 
 # 3. Stash local changes (user annotations)
@@ -112,12 +113,12 @@ src/fiscal_notes/generation/
 
 Every time Jenkins deploys, it automatically:
 1. Creates a timestamped backup: `fiscal_notes_YYYYMMDD_HHMMSS.tar.gz`
-2. Stores it in: `/home/exouser/fiscal_notes_backups/`
+2. Stores it in: `/home/exouser/RAG-system/fiscal_notes_backups/`
 3. Keeps the last 10 backups (older ones are deleted)
 
 **Backup location on production:**
 ```
-/home/exouser/fiscal_notes_backups/
+/home/exouser/RAG-system/fiscal_notes_backups/
 ├── fiscal_notes_20251027_140000.tar.gz
 ├── fiscal_notes_20251027_150000.tar.gz
 ├── fiscal_notes_20251027_160000.tar.gz
@@ -149,12 +150,12 @@ This will:
 **View backups on production:**
 ```bash
 ssh exouser@production
-ls -lh /home/exouser/fiscal_notes_backups/
+ls -lh /home/exouser/RAG-system/fiscal_notes_backups/
 ```
 
 **Download specific backup:**
 ```bash
-scp exouser@production:/home/exouser/fiscal_notes_backups/fiscal_notes_20251027_152000.tar.gz .
+scp exouser@production:/home/exouser/RAG-system/fiscal_notes_backups/fiscal_notes_20251027_152000.tar.gz .
 ```
 
 ---
