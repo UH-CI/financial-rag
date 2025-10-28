@@ -51,8 +51,12 @@ src/chroma_db/
 /src/bill_data/introduction_document_vectors.json
 
 # Fiscal notes and user-generated data
-/src/fiscal_notes/generation/*
+# Ignore generated fiscal note directories but keep Python scripts
+/src/fiscal_notes/generation/HB_*/
+/src/fiscal_notes/generation/SB_*/
+/src/fiscal_notes/generation/september_archive/
 
+# Keep Python scripts, README, and root-level config files
 !src/fiscal_notes/generation/*.py
-!src/fiscal_notes/generation/*.json
 !src/fiscal_notes/generation/*.md
+!src/fiscal_notes/generation/README*.md
