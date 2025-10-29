@@ -29,7 +29,7 @@ import requests
 from app_types.requests import (
     CollectionRequest, SearchRequest, QueryRequest,
     ChunkingRequest, DocumentResponse, CrawlRequest,
-    UploadPDFRequest, ChatWithPDFRequest, DriveUploadRequest,
+    ChatWithPDFRequest, DriveUploadRequest,
     CollectionStatistics, CollectionsStatsResponse, LLMRequest
 )
 
@@ -39,7 +39,7 @@ from documents.step2_chunking.chunker import chunk_document
 from documents.step0_document_upload.web_scraper import scrape_bill_page_links
 
 
-from settings import Settings
+from settings import Settings, settings
 from documents.embeddings import DynamicChromeManager
 from query_processor import QueryProcessor
 from langgraph_agent import LangGraphRAGAgent
@@ -60,7 +60,11 @@ config = load_config()
 app = FastAPI(
     title=config["api"]["title"],
     description=config["api"]["description"],
-    version=config["api"]["version"]
+    version=config["api"]["version"],
+    # Temporarily disable automatic OpenAPI schema generation to work around FastAPI bug
+    openapi_url=None,
+    docs_url=None,
+    redoc_url=None
 )
 
 templates_path = Path(__file__).parent / "fiscal_notes" / "templates"
@@ -335,6 +339,56 @@ def search_relevant_documents(query: str, collections: Optional[List[str]] = Non
     
     return all_results[:num_results]
 
+# Custom OpenAPI endpoint with error handling
+from fastapi.openapi.utils import get_openapi as fastapi_get_openapi
+
+def custom_openapi():
+    if app.openapi_schema:
+        return app.openapi_schema
+    try:
+        openapi_schema = fastapi_get_openapi(
+            title=config["api"]["title"],
+            version=config["api"]["version"],
+            description=config["api"]["description"],
+            routes=app.routes,
+        )
+        app.openapi_schema = openapi_schema
+        return app.openapi_schema
+    except Exception as e:
+        # Return a minimal schema if generation fails
+        return {
+            "openapi": "3.1.0",
+            "info": {
+                "title": config["api"]["title"],
+                "version": config["api"]["version"],
+                "description": f"{config['api']['description']} (Schema generation error: {str(e)})"
+            },
+            "paths": {}
+        }
+
+app.openapi = custom_openapi
+
+# Re-enable docs with custom schema
+from fastapi.openapi.docs import get_swagger_ui_html, get_redoc_html
+
+@app.get("/docs", include_in_schema=False)
+async def custom_swagger_ui_html():
+    return get_swagger_ui_html(
+        openapi_url="/openapi.json",
+        title=f"{config['api']['title']} - Swagger UI"
+    )
+
+@app.get("/redoc", include_in_schema=False)
+async def redoc_html():
+    return get_redoc_html(
+        openapi_url="/openapi.json",
+        title=f"{config['api']['title']} - ReDoc"
+    )
+
+@app.get("/openapi.json", include_in_schema=False)
+async def get_open_api_endpoint():
+    return JSONResponse(custom_openapi())
+
 @app.get("/")
 async def root():
     if USE_NLP_BACKEND:
@@ -442,7 +496,7 @@ async def get_collections():
     }
 
 
-@app.get("/collections/stats", response_model=CollectionsStatsResponse)
+@app.get("/collections/stats")
 async def get_collections_statistics():
     """Get statistics about all collections in ChromaDB
     
@@ -466,7 +520,7 @@ async def get_collections_statistics():
         total_documents=total_documents
     )
 
-@app.post("/search", response_model=List[DocumentResponse])
+@app.post("/search")
 async def search_documents(request: SearchRequest):
     """Search documents across specified collections"""
     num_results = get_search_params(request.num_results)
@@ -2105,6 +2159,7 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
                     new_documents_processed = []  # NEW: Documents used for this fiscal note
                     strikethroughs = []  # Legacy: Load strikethroughs
                     annotations = []  # NEW: Load annotations
+                    enhanced_numbers = None  # NEW: Load enhanced numbers
                     if os.path.exists(metadata_file):
                         try:
                             with open(metadata_file, 'r') as meta_f:
@@ -2121,6 +2176,8 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
                                 # NEW: Load annotations (preferred) or migrate from strikethroughs (legacy)
                                 annotations = metadata.get('annotations', [])
                                 strikethroughs = metadata.get('strikethroughs', [])
+                                # NEW: Load enhanced numbers
+                                enhanced_numbers = metadata.get('enhanced_numbers')
                                 
                                 # Migration: If no annotations but strikethroughs exist, convert them
                                 if not annotations and strikethroughs:
@@ -2241,13 +2298,19 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
                     # Filter out chunk reference properties for frontend display
                     filtered_data = {k: v for k, v in processed_data.items() if not k.endswith('_chunk_references')}
                     
-                    fiscal_notes.append({
+                    fiscal_note_item = {
                         'filename': file['name'],
                         'data': processed_data,
                         'new_documents_processed': new_documents_processed,  # NEW: Include documents used
                         'strikethroughs': strikethroughs,  # Legacy: Include strikethroughs for backward compatibility
                         'annotations': annotations  # NEW: Include annotations (strikethrough + underline)
-                    })
+                    }
+                    
+                    # Add enhanced_numbers if available
+                    if enhanced_numbers:
+                        fiscal_note_item['enhanced_numbers'] = enhanced_numbers
+                    
+                    fiscal_notes.append(fiscal_note_item)
 
     with open(timeline_path, 'r') as f:
         timeline = json.load(f)

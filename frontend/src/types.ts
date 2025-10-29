@@ -222,12 +222,32 @@ export interface StrikethroughItem {
   type?: AnnotationType; // Optional for backward compatibility
 }
 
+export interface EnhancedNumber {
+  number: number;
+  filename: string;
+  document_type: string;
+  summary: string;
+  amount_type?: string;
+  unit?: string;
+  sentiment?: string;
+  category?: string;
+  service_description?: string;
+  expending_agency?: string;
+  means_of_financing?: string;
+}
+
+export interface EnhancedNumbers {
+  count: number;
+  numbers: EnhancedNumber[];
+}
+
 export interface FiscalNoteItem {
   filename: string;
   data: Record<string, any>;
   new_documents_processed?: string[]; // Documents used to create this specific fiscal note
   strikethroughs?: StrikethroughItem[]; // Legacy: User-applied strikethroughs (backward compatibility)
   annotations?: AnnotationItem[]; // New: User-applied annotations (strikethrough + underline)
+  enhanced_numbers?: EnhancedNumbers; // Enhanced financial numbers extracted from the bill
 }
 
 export interface NumbersDataItem {

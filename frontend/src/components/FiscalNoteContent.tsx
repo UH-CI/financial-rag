@@ -1051,6 +1051,89 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
       </div>
       </div>
 
+      {/* Enhanced Numbers Table */}
+      {fiscalNote.enhanced_numbers && fiscalNote.enhanced_numbers.count > 0 && (
+        <div className="mt-8 bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+          <div className="px-4 py-3 bg-gradient-to-r from-green-50 to-blue-50 border-b border-gray-200">
+            <h4 className="text-base font-semibold text-gray-900">
+              💰 Enhanced Financial Numbers ({fiscalNote.enhanced_numbers.count})
+            </h4>
+            <p className="text-xs text-gray-600 mt-1">
+              Detailed breakdown of financial amounts, fees, and fines referenced in this fiscal note
+            </p>
+          </div>
+          <div className="overflow-x-auto">
+            <table className="min-w-full divide-y divide-gray-200">
+              <thead className="bg-gray-50">
+                <tr>
+                  <th scope="col" className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Amount
+                  </th>
+                  <th scope="col" className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Type
+                  </th>
+                  <th scope="col" className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Summary
+                  </th>
+                  <th scope="col" className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Category
+                  </th>
+                  <th scope="col" className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Unit
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="bg-white divide-y divide-gray-200">
+                {fiscalNote.enhanced_numbers.numbers.map((item, index) => (
+                  <tr key={index} className="hover:bg-gray-50 transition-colors">
+                    <td className="px-4 py-3 whitespace-nowrap">
+                      <div className="flex items-center">
+                        <span className={`text-sm font-semibold ${
+                          item.sentiment === 'penalty' ? 'text-red-600' : 
+                          item.sentiment === 'neutral' ? 'text-blue-600' : 
+                          'text-green-600'
+                        }`}>
+                          ${item.number.toLocaleString()}
+                        </span>
+                      </div>
+                    </td>
+                    <td className="px-4 py-3 whitespace-nowrap">
+                      <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
+                        item.amount_type === 'fine' ? 'bg-red-100 text-red-800' :
+                        item.amount_type === 'fee' ? 'bg-blue-100 text-blue-800' :
+                        'bg-gray-100 text-gray-800'
+                      }`}>
+                        {item.amount_type || 'N/A'}
+                      </span>
+                    </td>
+                    <td className="px-4 py-3">
+                      <div className="text-sm text-gray-900 max-w-md">
+                        {item.summary}
+                      </div>
+                      {item.service_description && (
+                        <div className="text-xs text-gray-500 mt-1 italic">
+                          {item.service_description}
+                        </div>
+                      )}
+                    </td>
+                    <td className="px-4 py-3 whitespace-nowrap">
+                      <span className="text-sm text-gray-600 capitalize">
+                        {item.category || '-'}
+                      </span>
+                    </td>
+                    <td className="px-4 py-3 whitespace-nowrap">
+                      <span className="text-xs text-gray-500">
+                        {item.unit?.replace(/_/g, ' ') || '-'}
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
       {/* Footer with document mapping info */}
       {documentMapping && Object.keys(documentMapping).length > 0 && (
         <div className="mt-8 p-4 bg-gray-50 rounded-lg">

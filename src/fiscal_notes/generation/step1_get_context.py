@@ -16,10 +16,43 @@ from selenium.common.exceptions import TimeoutException, WebDriverException
 
 from bs4 import BeautifulSoup
 
+def get_chrome_version():
+    """
+    Detect the installed Chrome version automatically.
+    Returns the major version number (e.g., 141, 142).
+    """
+    import subprocess
+    import re
+    
+    try:
+        # Try to get Chrome version on macOS
+        result = subprocess.run(
+            ['/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', '--version'],
+            capture_output=True,
+            text=True,
+            timeout=5
+        )
+        version_string = result.stdout.strip()
+        # Extract major version number (e.g., "Google Chrome 141.0.7390.123" -> 141)
+        match = re.search(r'Chrome (\d+)\.', version_string)
+        if match:
+            version = int(match.group(1))
+            print(f"✓ Detected Chrome version: {version}")
+            return version
+    except Exception as e:
+        print(f"Could not detect Chrome version: {e}")
+    
+    # Default to None to let undetected-chromedriver auto-detect
+    return None
+
 def create_stealth_driver(download_dir=None, port=None):
     """
     Create a more stealth-oriented Chrome driver to bypass Cloudflare bot detection.
+    Automatically detects and uses the correct Chrome version.
     """
+    # Auto-detect Chrome version
+    chrome_version = get_chrome_version()
+    
     options = uc.ChromeOptions()
     
     # Basic stealth options
@@ -38,8 +71,11 @@ def create_stealth_driver(download_dir=None, port=None):
     # Headless mode with new implementation
     options.add_argument('--headless=new')
     
-    # Set a realistic user agent matching Chrome 141
-    options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36')
+    # Set a realistic user agent (dynamically set version if detected)
+    if chrome_version:
+        options.add_argument(f'--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{chrome_version}.0.0.0 Safari/537.36')
+    else:
+        options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36')
     
     # Window size to appear more realistic
     options.add_argument('--window-size=1920,1080')
@@ -63,23 +99,45 @@ def create_stealth_driver(download_dir=None, port=None):
         options.add_argument(f'--remote-debugging-port={port}')
     
     try:
-        # Create driver with version_main set to 141 to match the installed Chrome
-        driver = uc.Chrome(options=options, version_main=141, port=port if port else 0)
+        # Create driver with auto-detected version and enhanced stealth
+        if chrome_version:
+            print(f"Creating ChromeDriver with version_main={chrome_version}")
+            driver = uc.Chrome(
+                options=options, 
+                version_main=chrome_version, 
+                port=port if port else 0,
+                use_subprocess=True,  # Better stealth
+                driver_executable_path=None  # Let UC handle it
+            )
+        else:
+            print("Creating ChromeDriver with auto-detection")
+            driver = uc.Chrome(
+                options=options, 
+                port=port if port else 0,
+                use_subprocess=True
+            )
         
-        # Execute script to remove webdriver property
+        # Enhanced stealth scripts
+        driver.execute_cdp_cmd('Network.setUserAgentOverride', {
+            "userAgent": driver.execute_script("return navigator.userAgent").replace('HeadlessChrome', 'Chrome')
+        })
+        
+        # Remove webdriver traces
         driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        driver.execute_script("Object.defineProperty(navigator, 'plugins', {get: () => [1, 2, 3, 4, 5]})")
+        driver.execute_script("Object.defineProperty(navigator, 'languages', {get: () => ['en-US', 'en']})")
         
         return driver
     except Exception as e:
         print(f"Error creating stealth driver with full options: {e}")
         if "version" in str(e).lower() or "chrome" in str(e).lower():
             print("Chrome/ChromeDriver version mismatch detected. Trying fallback options...")
+        
         # Fallback to basic driver with minimal options
         basic_options = uc.ChromeOptions()
         basic_options.add_argument('--headless=new')
         basic_options.add_argument('--no-sandbox')
         basic_options.add_argument('--disable-dev-shm-usage')
-        basic_options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36')
         
         if download_dir:
             basic_options.add_experimental_option("prefs", {
@@ -89,19 +147,30 @@ def create_stealth_driver(download_dir=None, port=None):
             })
         
         try:
-            driver = uc.Chrome(options=basic_options, version_main=141, port=port if port else 0)
+            if chrome_version:
+                driver = uc.Chrome(options=basic_options, version_main=chrome_version, port=port if port else 0, use_subprocess=True)
+            else:
+                driver = uc.Chrome(options=basic_options, port=port if port else 0, use_subprocess=True)
+            
+            # Apply stealth scripts
+            try:
+                driver.execute_cdp_cmd('Network.setUserAgentOverride', {
+                    "userAgent": driver.execute_script("return navigator.userAgent").replace('HeadlessChrome', 'Chrome')
+                })
+            except:
+                pass
             driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
             return driver
         except Exception as e2:
             print(f"Error creating basic driver: {e2}")
-            # Ultimate fallback - let undetected-chromedriver auto-detect
+            # Ultimate fallback - let undetected-chromedriver fully auto-detect
             try:
-                driver = uc.Chrome(version_main=141, port=port if port else 0)
+                print("Trying ultimate fallback with auto-detection...")
+                driver = uc.Chrome(port=port if port else 0)
                 return driver
             except Exception as e3:
-                print(f"Error with version_main=141: {e3}")
-                # Final fallback
-                return uc.Chrome(port=port if port else 0)
+                print(f"All driver creation attempts failed: {e3}")
+                raise
 
 def wait_with_random_delay(min_seconds=2, max_seconds=5):
     """Wait with a random delay to appear more human-like."""

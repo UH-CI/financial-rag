@@ -4704,5 +4704,161 @@
   "generation_timestamp": "2025-10-23T10:24:27.136774",
   "generation_timestamp_unix": 1761251067.1367831,
   "strikethroughs": [],
-  "strikethroughs_updated_at": "2025-10-24T15:23:20.460567"
+  "strikethroughs_updated_at": "2025-10-24T15:23:20.460567",
+  "enhanced_numbers": {
+    "count": 15,
+    "numbers": [
+      {
+        "number": 20.0,
+        "filename": "HB1483_.HTM.txt",
+        "document_type": "document",
+        "summary": "An administrative fee of $20 is imposed for each fireworks infraction where judgment is entered in favor of the State, with the collected fees deposited into the judiciary computer system special fund.",
+        "amount_type": "fee",
+        "category": "enforcement",
+        "unit": "per_violation",
+        "sentiment": "neutral",
+        "means_of_financing": "special_funds",
+        "expending_agency": "judiciary",
+        "service_description": "administrative fee for fireworks infraction"
+      },
+      {
+        "number": 200.0,
+        "filename": "HB1483_.HTM.txt",
+        "document_type": "document",
+        "summary": "A person who violates subsection (a) regarding unlawful fireworks activities shall be subject to a $200 fine.",
+        "amount_type": "fine",
+        "unit": "per_violation",
+        "sentiment": "penalty",
+        "service_description": "Fine for violating subsection (a) related to unlawful fireworks activities, such as setting off fireworks without a permit or outside prescribed times."
+      },
+      {
+        "number": 1000.0,
+        "filename": "HB1483_.HTM.txt",
+        "document_type": "document",
+        "summary": "A $1,000 fine for any person who violates Subsection (b) of the section.",
+        "amount_type": "fine",
+        "unit": "per_violation",
+        "sentiment": "penalty",
+        "category": "enforcement"
+      },
+      {
+        "number": 1000.0,
+        "filename": "HB1483_.HTM.txt",
+        "document_type": "document",
+        "summary": "This is the fine amount for a first offense, or any offense not committed within five years of a prior judgment, for carriers or persons violating the specified section.",
+        "amount_type": "fine",
+        "category": "enforcement",
+        "unit": "per_offense",
+        "sentiment": "penalty"
+      },
+      {
+        "number": 2000.0,
+        "filename": "HB1483_.HTM.txt",
+        "document_type": "document",
+        "summary": "A $2,000 fine for a second offense committed within five years of a prior judgment for the State under this section.",
+        "amount_type": "fine",
+        "category": "enforcement",
+        "unit": "per_offense",
+        "sentiment": "penalty"
+      },
+      {
+        "number": 5000.0,
+        "filename": "HB1483_.HTM.txt",
+        "document_type": "document",
+        "summary": "A $5,000 fine for a carrier or person who commits a third or subsequent offense within five years of two or more prior judgments for the State under this section.",
+        "amount_type": "fine",
+        "unit": "per_offense",
+        "sentiment": "penalty",
+        "category": "enforcement"
+      },
+      {
+        "number": 25.0,
+        "filename": "HB1483_.HTM.txt",
+        "document_type": "document",
+        "summary": "A fee of $25 is required for permits to purchase and use consumer fireworks, specifically firecrackers and consumer fireworks for cultural uses outside of prescribed periods.",
+        "amount_type": "fee",
+        "unit": "per_permit",
+        "service_description": "Permit fee for purchase and use of consumer fireworks (firecrackers or for cultural uses)",
+        "sentiment": "neutral"
+      },
+      {
+        "number": 110.0,
+        "filename": "HB1483_.HTM.txt",
+        "document_type": "document",
+        "summary": "This is the fee for a permit required to purchase and use aerial devices, display fireworks, or articles pyrotechnic for the purposes of section 132D-16.",
+        "amount_type": "fee",
+        "category": "enforcement",
+        "unit": "per_permit",
+        "sentiment": "neutral",
+        "service_description": "permit for purchase and use of aerial devices, display fireworks, or articles pyrotechnic"
+      },
+      {
+        "number": 25.0,
+        "filename": "HB1483_.HTM.txt",
+        "document_type": "document",
+        "summary": "A fee of $25 is required for a permit to purchase and use consumer fireworks for cultural uses that occur outside of prescribed periods, or for consumer fireworks commonly known as firecrackers.",
+        "amount_type": "fee",
+        "unit": "per_permit",
+        "service_description": "Permit for consumer fireworks for cultural uses or for firecrackers"
+      },
+      {
+        "number": 300.0,
+        "filename": "HB1483_.HTM.txt",
+        "document_type": "document",
+        "summary": "A fine of $300 for possessing or handling aerial devices, display fireworks, or articles pyrotechnic weighing less than five pounds (when the total weight cannot be determined) in violation of the law.",
+        "amount_type": "fine",
+        "unit": "per_violation",
+        "sentiment": "penalty",
+        "category": "enforcement"
+      },
+      {
+        "number": 500.0,
+        "filename": "HB1483_.HTM.txt",
+        "document_type": "document",
+        "summary": "A minimum fine of $500 for each violation of certain provisions of the chapter, excluding those specifically provided for in subsections (a), (b), or (c), or for violating section 132D-14.5.",
+        "amount_type": "fine",
+        "unit": "minimum, per_violation",
+        "sentiment": "penalty",
+        "category": "enforcement"
+      },
+      {
+        "number": 5000.0,
+        "filename": "HB1483_.HTM.txt",
+        "document_type": "document",
+        "summary": "A maximum fine of $5,000 per violation for persons violating any provision of the chapter not otherwise specifically provided for, or specifically section 132D-14.5.",
+        "amount_type": "fine",
+        "unit": "maximum",
+        "sentiment": "penalty"
+      },
+      {
+        "number": 500.0,
+        "filename": "HB1483_.HTM.txt",
+        "document_type": "document",
+        "summary": "The minimum fine for violating any other provision of this chapter, or for violating section 132D-14.5, is $500 per violation.",
+        "amount_type": "fine",
+        "unit": "minimum, per_violation",
+        "sentiment": "penalty"
+      },
+      {
+        "number": 5000.0,
+        "filename": "HB1483_.HTM.txt",
+        "document_type": "document",
+        "summary": "The number $5,000 represents the maximum fine for each violation of certain provisions of the chapter, or for violating section 132D-14.5.",
+        "amount_type": "fine",
+        "unit": "maximum, per_violation",
+        "sentiment": "penalty",
+        "category": "enforcement"
+      },
+      {
+        "number": 2000.0,
+        "filename": "HB1483_.HTM.txt",
+        "document_type": "document",
+        "summary": "This number represents the maximum fine for a misdemeanor offense, specifically for threatening, obstructing, or molesting an inspector in the enforcement of the chapter.",
+        "amount_type": "fine",
+        "category": "enforcement",
+        "unit": "maximum",
+        "sentiment": "penalty"
+      }
+    ]
+  }
 }

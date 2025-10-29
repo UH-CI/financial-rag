@@ -2,8 +2,6 @@
 
 from pydantic import BaseModel, Field
 from typing import List, Optional, Dict, Any
-from fastapi import File
-from fastapi import UploadFile
 
 # Collection Request
 class CollectionRequest(BaseModel):
@@ -16,19 +14,19 @@ class DriveUploadRequest(BaseModel):
 class SearchRequest(BaseModel):
     query: str = Field(..., description="Search query")
     collections: Optional[List[str]] = Field(default=None, description="Collections to search in")
-    num_results: int = Field(default=None, description="Number of results to return")
+    num_results: Optional[int] = Field(default=None, description="Number of results to return")
     search_type: str = Field(default="semantic", description="Type of search: semantic, metadata, or both")
 
 class QueryRequest(BaseModel):
     query: str = Field(..., description="User query")
     collections: Optional[List[str]] = Field(default=None, description="Collections to search in")
     threshold: float = Field(default=0.5, ge=0.0, le=1.0, description="Similarity threshold (0.0 to 1.0) - only return documents with similarity scores above this threshold")
-    source_references: Optional[List[Dict[str, Any]]] = None
+    source_references: Optional[List[dict]] = None
     conversation_id: Optional[str] = None
 
 class DocumentResponse(BaseModel):
     content: str
-    metadata: Dict[str, Any]
+    metadata: dict
     score: Optional[float] = None
 
 class ChunkingRequest(BaseModel):
@@ -58,11 +56,6 @@ class CrawlRequest(BaseModel):
     extraction_prompt: str
     collection_name: str
     null_is_okay: bool = True
-
-class UploadPDFRequest(BaseModel):
-    collection_name: str
-    files: List[UploadFile]
-
 
 class CollectionStatistics(BaseModel):
     collection_name: str

@@ -9,15 +9,15 @@
   "numbers_used": 2,
   "prompt_length": 14031,
   "response_metadata": {
-    "response_text": "{\n  \"overview\": \"This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. [CHUNK_1] It appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. [CHUNK_36] The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. [CHUNK_6]\",\n  \"appropriations\": \"The legislative document appropriates various sums for operating costs to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5] For example, the legislative document specifies operating funds for JUD101 - Courts of Appeal as $9,592,659 (HB400_.HTM.txt) for FY 2026 and $9,657,093 (HB400_.HTM.txt) for FY 2027. [CHUNK_7] The legislative document also appropriates a sum of $9,900,000 (HB400_.HTM.txt) from general obligation bond funds for capital improvement projects. [CHUNK_11, CHUNK_15]\",\n  \"assumptions_and_methodology\": \"The legislative document specifies that sums are appropriated or authorized to accomplish the purposes and programs designated. [CHUNK_5] The total expenditures and the number of permanent and temporary positions shall not exceed the sums and the position ceilings indicated for each year. [CHUNK_6] For capital improvement projects, the amount after each cost element and the total funding for each project are listed in thousands of dollars. [CHUNK_17]\",\n  \"agency_impact\": \"The chief justice is authorized to transfer sufficient funds and positions between programs for operating purposes whenever the need arises. [CHUNK_11] The judiciary may delegate the planning, acquisition of land, design, construction, and equipment of any capital improvement project to other state or county agencies if it is determined to be advantageous. [CHUNK_24] If funds for a capital project are insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund. [CHUNK_26]\",\n  \"economic_impact\": \"This bill appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. [CHUNK_36] The legislative document specifies a sum of $9,900,000 (HB400_.HTM.txt) for capital improvement projects to be expended by the judiciary. [CHUNK_15] These projects include plans, design, construction, and equipment for general alterations, upgrades, and improvements to judiciary facilities statewide. [CHUNK_20]\",\n  \"policy_impact\": \"This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. [CHUNK_1] It provides that appropriations for capital improvement projects shall not lapse at the end of the fiscal year, but any funds unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23] All unrequired balances in the general obligation bond fund, after the objectives for capital improvements have been met, shall be transferred to the judiciary project adjustment fund. [CHUNK_25]\",\n  \"revenue_sources\": \"The means of financing are specified by letter symbols, which include A for General funds, B for Special funds, C for General obligation bond funds, and W for Revolving funds. [CHUNK_3] Capital improvement projects are funded by $9,900,000 (HB400_.HTM.txt) from General obligation bond funds (C). [CHUNK_11] The chief justice may also secure federal funds or funds from private organizations or individuals for programs authorized by this Act. [CHUNK_13]\",\n  \"six_year_fiscal_implications\": \"The bill appropriates funds for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5] For FY 2025-2026, operating appropriations from general funds include $9,592,659 (HB400_.HTM.txt) for JUD101 - Courts of Appeal and $98,130,866 (HB400_.HTM.txt) for JUD310 – First Circuit. [CHUNK_7] For FY 2026-2027, the appropriations for these programs are $9,657,093 (HB400_.HTM.txt) and $98,298,808 (HB400_.HTM.txt) respectively. [CHUNK_7, CHUNK_8] The legislative document also appropriates $9,900,000 (HB400_.HTM.txt) in investment capital from general obligation bond funds for FY 2025-2026. [CHUNK_11] This funding is designated for projects including $4,000,000 (HB400_.HTM.txt) for the new South Kohala Judiciary Complex, $900,000 (HB400_.HTM.txt) for the Pu‘uhonua Kaulike A/C Systems Replacement, and $5,000,000 (HB400_.HTM.txt) for lump sum CIP for Judiciary Facilities, Statewide. [CHUNK_18, CHUNK_19, CHUNK_20] General obligation bonds may be issued to finance these projects, provided the sum total does not exceed $9,900,000 (HB400_.HTM.txt). [CHUNK_21] Any capital improvement appropriations unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23] The document provides no fiscal details beyond the 2025-2027 biennium. [CHUNK_6]\",\n  \"operating_revenue_impact\": \"The document appropriates funds from general funds, special funds, and revolving funds for operations. [CHUNK_3] The chief justice may secure federal funds or funds from private organizations or individuals for authorized programs. [CHUNK_13] Additionally, the judiciary may transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash flow deficits. [CHUNK_14]\",\n  \"capital_expenditure_impact\": \"The legislative document specifies the sum of $9,900,000 (HB400_.HTM.txt) is appropriated for capital improvement projects for the judiciary. [CHUNK_15] Projects listed include $4,000,000 (HB400_.HTM.txt) for plans and design for a new judiciary complex in South Kohala, $900,000 (HB400_.HTM.txt) for A/C systems replacement in Kaua`i, and $5,000,000 (HB400_.HTM.txt) for lump sum CIP for judiciary facilities statewide. [CHUNK_18, CHUNK_19, CHUNK_20] General obligation bonds may be issued to finance these projects in an amount not to exceed $9,900,000 (HB400_.HTM.txt). [CHUNK_21]\",\n  \"fiscal_implications_after_6_years\": \"The appropriations in the bill are for the fiscal biennium ending June 30, 2027. [CHUNK_5] All appropriations made for capital improvement projects that are unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23] The document does not provide details on fiscal obligations beyond this period, as future funding would depend on subsequent Judiciary Appropriations Acts. [CHUNK_1]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the context documents.\"\n}",
+    "response_text": "{\n  \"overview\": \"This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. [CHUNK_1] It appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. [CHUNK_36] The following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5]\",\n  \"appropriations\": \"This Act appropriates sums to accomplish the purposes and programs designated to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5] The bill appropriates $9,900,000 (HB400_.HTM.txt) in general obligation bond funds for investment capital under JUD601 - Administration for fiscal year 2025-2026. [CHUNK_11] The sum of $9,900,000 (HB400_.HTM.txt) appropriated or authorized in part II of this Act for capital improvement projects shall be expended by the judiciary for the projects listed in the Act. [CHUNK_15]\",\n  \"assumptions_and_methodology\": \"The sums appropriated are designated for the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5] The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. [CHUNK_6] The appropriations made for capital improvement projects authorized in part II and listed in part IV of this Act shall not lapse at the end of the fiscal year for which the appropriations are made. [CHUNK_22]\",\n  \"agency_impact\": \"Whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes. [CHUNK_11] The judiciary may delegate to other state or county agencies the planning, acquisition of land, design, construction, and equipment of any capital improvement project when it is determined by the judiciary to be advantageous to do so. [CHUNK_24] The chief justice shall determine when and the manner in which the authorized capital improvement projects shall be initiated. [CHUNK_28]\",\n  \"economic_impact\": \"This Act appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. [CHUNK_36] If the chief justice, or any agency or government unit, secures federal funds or other property under any act of Congress, or any funds or other property from private organizations or individuals, to be expended in connection with any program or works authorized by this Act, they may enter into the undertaking. [CHUNK_13] The chief justice, or the agency or government unit with the chief justice's approval, may enter into the undertaking with the federal government, private organization, or individual. [CHUNK_14]\",\n  \"policy_impact\": \"This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. [CHUNK_1] The chief justice may transfer sufficient funds and positions between programs for operating purposes, provided no transfer shall be made to implement any collective bargaining contract signed after this legislature adjourns sine die. [CHUNK_11] If the amount allocated from the general obligation bond fund for a capital improvement project is insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund. [CHUNK_26]\",\n  \"revenue_sources\": \"The sources from which funds are appropriated are referred to as \\\"Means of Financing,\\\" or \\\"MOF\\\". [CHUNK_2] The letter symbols for funding sources are A for General funds, B for Special funds, C for General obligation bond funds, N for Federal funds, and W for Revolving funds. [CHUNK_3] General obligation bonds may be issued to yield the amount necessary to finance authorized projects, provided that the sum total of the bonds so issued shall not exceed $9,900,000 (HB400_.HTM.txt). [CHUNK_21]\",\n  \"six_year_fiscal_implications\": \"This Act appropriates funds for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5] For JUD101 - Courts of Appeal, the operating appropriation from general funds is $9,592,659 (HB400_.HTM.txt) in FY 2025-2026 and $9,657,093 (HB400_.HTM.txt) in FY 2026-2027. [CHUNK_7] For JUD310 – First Circuit, the general fund operating appropriations are $98,130,866 (HB400_.HTM.txt) for FY 2025-2026 and $98,298,808 (HB400_.HTM.txt) for FY 2026-2027. [CHUNK_8] This circuit also has special fund appropriations of $4,261,273 (HB400_.HTM.txt) for each fiscal year. [CHUNK_8] For JUD320 – Second Circuit, the general fund operating appropriation is $20,150,130 (HB400_.HTM.txt) for each fiscal year. [CHUNK_8] The general fund operating appropriation for JUD330 – Third Circuit is $24,912,104 (HB400_.HTM.txt) in FY 2025-2026 and $24,903,209 (HB400_.HTM.txt) in FY 2026-2027. [CHUNK_9] Under JUD601 - Administration, the bill authorizes investment capital of $9,900,000 (HB400_.HTM.txt) for FY 2025-2026 from general obligation bond funds. [CHUNK_11] The appropriations made for capital improvement projects shall not lapse at the end of the fiscal year for which the appropriations are made. [CHUNK_22] All appropriations made for fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23]\",\n  \"operating_revenue_impact\": \"The chief justice, or any agency or government unit, may secure federal funds or other property under any act of Congress, or any funds or other property from private organizations or individuals, to be expended in connection with any program or works authorized by this Act. [CHUNK_13] With the chief justice's approval, the agency or government unit may enter into the undertaking with the federal government, private organization, or individual. [CHUNK_14] The judiciary may also transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash flow deficits. [CHUNK_15]\",\n  \"capital_expenditure_impact\": \"The sum of $9,900,000 (HB400_.HTM.txt) is appropriated for capital improvement projects for FY 2025-2026. [CHUNK_15] The projects, with funding amounts listed in thousands of dollars in the Act, include $4,000,000 (HB400_.HTM.txt) for plans and design for a new South Kohala Judiciary Complex, $900,000 (HB400_.HTM.txt) for A/C systems replacement at Pu‘uhonua Kaulike, and $5,000,000 (HB400_.HTM.txt) for lump sum CIP for judiciary facilities statewide. [CHUNK_17, CHUNK_18, CHUNK_19, CHUNK_20] General obligation bonds may be issued to finance these projects, provided that the sum total so issued shall not exceed $9,900,000 (HB400_.HTM.txt). [CHUNK_21]\",\n  \"fiscal_implications_after_6_years\": \"The appropriations made for capital improvement projects authorized in this Act shall not lapse at the end of the fiscal year for which the appropriations are made. [CHUNK_22] All appropriations made for fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23] All unrequired balances in the general obligation bond fund, after the objectives for capital improvements program purposes have been met, shall be transferred to the judiciary project adjustment fund. [CHUNK_25]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison.\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
       "prompt_token_count": 7663,
-      "candidates_token_count": 1808,
-      "total_token_count": 13849
+      "candidates_token_count": 2083,
+      "total_token_count": 14744
     },
     "candidates": [
       {
@@ -27,11 +27,13 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n  \"overview\": \"This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. [CHUNK_1] It appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. [CHUNK_36] The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. [CHUNK_6]\",\n  \"appropriations\": \"The legislative document appropriates various sums for operating costs to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5] For example, the legislative document specifies operating funds for JUD101 - Courts of Appeal as $9,592,659 (HB400_.HTM.txt) for FY 2026 and $9,657,093 (HB400_.HTM.txt) for FY 2027. [CHUNK_7] The legislative document also appropriates a sum of $9,900,000 (HB400_.HTM.txt) from general obligation bond funds for capital improvement projects. [CHUNK_11, CHUNK_15]\",\n  \"assumptions_and_methodology\": \"The legislative document specifies that sums are appropriated or authorized to accomplish the purposes and programs designated. [CHUNK_5] The total expenditures and the number of permanent and temporary positions shall not exceed the sums and the position ceilings indicated for each year. [CHUNK_6] For capital improvement projects, the amount after each cost element and the total funding for each project are listed in thousands of dollars. [CHUNK_17]\",\n  \"agency_impact\": \"The chief justice is authorized to transfer sufficient funds and positions between programs for operating purposes whenever the need arises. [CHUNK_11] The judiciary may delegate the planning, acquisition of land, design, construction, and equipment of any capital improvement project to other state or county agencies if it is determined to be advantageous. [CHUNK_24] If funds for a capital project are insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund. [CHUNK_26]\",\n  \"economic_impact\": \"This bill appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. [CHUNK_36] The legislative document specifies a sum of $9,900,000 (HB400_.HTM.txt) for capital improvement projects to be expended by the judiciary. [CHUNK_15] These projects include plans, design, construction, and equipment for general alterations, upgrades, and improvements to judiciary facilities statewide. [CHUNK_20]\",\n  \"policy_impact\": \"This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. [CHUNK_1] It provides that appropriations for capital improvement projects shall not lapse at the end of the fiscal year, but any funds unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23] All unrequired balances in the general obligation bond fund, after the objectives for capital improvements have been met, shall be transferred to the judiciary project adjustment fund. [CHUNK_25]\",\n  \"revenue_sources\": \"The means of financing are specified by letter symbols, which include A for General funds, B for Special funds, C for General obligation bond funds, and W for Revolving funds. [CHUNK_3] Capital improvement projects are funded by $9,900,000 (HB400_.HTM.txt) from General obligation bond funds (C). [CHUNK_11] The chief justice may also secure federal funds or funds from private organizations or individuals for programs authorized by this Act. [CHUNK_13]\",\n  \"six_year_fiscal_implications\": \"The bill appropriates funds for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5] For FY 2025-2026, operating appropriations from general funds include $9,592,659 (HB400_.HTM.txt) for JUD101 - Courts of Appeal and $98,130,866 (HB400_.HTM.txt) for JUD310 – First Circuit. [CHUNK_7] For FY 2026-2027, the appropriations for these programs are $9,657,093 (HB400_.HTM.txt) and $98,298,808 (HB400_.HTM.txt) respectively. [CHUNK_7, CHUNK_8] The legislative document also appropriates $9,900,000 (HB400_.HTM.txt) in investment capital from general obligation bond funds for FY 2025-2026. [CHUNK_11] This funding is designated for projects including $4,000,000 (HB400_.HTM.txt) for the new South Kohala Judiciary Complex, $900,000 (HB400_.HTM.txt) for the Pu‘uhonua Kaulike A/C Systems Replacement, and $5,000,000 (HB400_.HTM.txt) for lump sum CIP for Judiciary Facilities, Statewide. [CHUNK_18, CHUNK_19, CHUNK_20] General obligation bonds may be issued to finance these projects, provided the sum total does not exceed $9,900,000 (HB400_.HTM.txt). [CHUNK_21] Any capital improvement appropriations unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23] The document provides no fiscal details beyond the 2025-2027 biennium. [CHUNK_6]\",\n  \"operating_revenue_impact\": \"The document appropriates funds from general funds, special funds, and revolving funds for operations. [CHUNK_3] The chief justice may secure federal funds or funds from private organizations or individuals for authorized programs. [CHUNK_13] Additionally, the judiciary may transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash flow deficits. [CHUNK_14]\",\n  \"capital_expenditure_impact\": \"The legislative document specifies the sum of $9,900,000 (HB400_.HTM.txt) is appropriated for capital improvement projects for the judiciary. [CHUNK_15] Projects listed include $4,000,000 (HB400_.HTM.txt) for plans and design for a new judiciary complex in South Kohala, $900,000 (HB400_.HTM.txt) for A/C systems replacement in Kaua`i, and $5,000,000 (HB400_.HTM.txt) for lump sum CIP for judiciary facilities statewide. [CHUNK_18, CHUNK_19, CHUNK_20] General obligation bonds may be issued to finance these projects in an amount not to exceed $9,900,000 (HB400_.HTM.txt). [CHUNK_21]\",\n  \"fiscal_implications_after_6_years\": \"The appropriations in the bill are for the fiscal biennium ending June 30, 2027. [CHUNK_5] All appropriations made for capital improvement projects that are unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23] The document does not provide details on fiscal obligations beyond this period, as future funding would depend on subsequent Judiciary Appropriations Acts. [CHUNK_1]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the context documents.\"\n}"
+              "text": "{\n  \"overview\": \"This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. [CHUNK_1] It appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. [CHUNK_36] The following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5]\",\n  \"appropriations\": \"This Act appropriates sums to accomplish the purposes and programs designated to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5] The bill appropriates $9,900,000 (HB400_.HTM.txt) in general obligation bond funds for investment capital under JUD601 - Administration for fiscal year 2025-2026. [CHUNK_11] The sum of $9,900,000 (HB400_.HTM.txt) appropriated or authorized in part II of this Act for capital improvement projects shall be expended by the judiciary for the projects listed in the Act. [CHUNK_15]\",\n  \"assumptions_and_methodology\": \"The sums appropriated are designated for the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5] The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. [CHUNK_6] The appropriations made for capital improvement projects authorized in part II and listed in part IV of this Act shall not lapse at the end of the fiscal year for which the appropriations are made. [CHUNK_22]\",\n  \"agency_impact\": \"Whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes. [CHUNK_11] The judiciary may delegate to other state or county agencies the planning, acquisition of land, design, construction, and equipment of any capital improvement project when it is determined by the judiciary to be advantageous to do so. [CHUNK_24] The chief justice shall determine when and the manner in which the authorized capital improvement projects shall be initiated. [CHUNK_28]\",\n  \"economic_impact\": \"This Act appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. [CHUNK_36] If the chief justice, or any agency or government unit, secures federal funds or other property under any act of Congress, or any funds or other property from private organizations or individuals, to be expended in connection with any program or works authorized by this Act, they may enter into the undertaking. [CHUNK_13] The chief justice, or the agency or government unit with the chief justice's approval, may enter into the undertaking with the federal government, private organization, or individual. [CHUNK_14]\",\n  \"policy_impact\": \"This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. [CHUNK_1] The chief justice may transfer sufficient funds and positions between programs for operating purposes, provided no transfer shall be made to implement any collective bargaining contract signed after this legislature adjourns sine die. [CHUNK_11] If the amount allocated from the general obligation bond fund for a capital improvement project is insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund. [CHUNK_26]\",\n  \"revenue_sources\": \"The sources from which funds are appropriated are referred to as \\\"Means of Financing,\\\" or \\\"MOF\\\". [CHUNK_2] The letter symbols for funding sources are A for General funds, B for Special funds, C for General obligation bond funds, N for Federal funds, and W for Revolving funds. [CHUNK_3] General obligation bonds may be issued to yield the amount necessary to finance authorized projects, provided that the sum total of the bonds so issued shall not exceed $9,900,000 (HB400_.HTM.txt). [CHUNK_21]\",\n  \"six_year_fiscal_implications\": \"This Act appropriates funds for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. [CHUNK_5] For JUD101 - Courts of Appeal, the operating appropriation from general funds is $9,592,659 (HB400_.HTM.txt) in FY 2025-2026 and $9,657,093 (HB400_.HTM.txt) in FY 2026-2027. [CHUNK_7] For JUD310 – First Circuit, the general fund operating appropriations are $98,130,866 (HB400_.HTM.txt) for FY 2025-2026 and $98,298,808 (HB400_.HTM.txt) for FY 2026-2027. [CHUNK_8] This circuit also has special fund appropriations of $4,261,273 (HB400_.HTM.txt) for each fiscal year. [CHUNK_8] For JUD320 – Second Circuit, the general fund operating appropriation is $20,150,130 (HB400_.HTM.txt) for each fiscal year. [CHUNK_8] The general fund operating appropriation for JUD330 – Third Circuit is $24,912,104 (HB400_.HTM.txt) in FY 2025-2026 and $24,903,209 (HB400_.HTM.txt) in FY 2026-2027. [CHUNK_9] Under JUD601 - Administration, the bill authorizes investment capital of $9,900,000 (HB400_.HTM.txt) for FY 2025-2026 from general obligation bond funds. [CHUNK_11] The appropriations made for capital improvement projects shall not lapse at the end of the fiscal year for which the appropriations are made. [CHUNK_22] All appropriations made for fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23]\",\n  \"operating_revenue_impact\": \"The chief justice, or any agency or government unit, may secure federal funds or other property under any act of Congress, or any funds or other property from private organizations or individuals, to be expended in connection with any program or works authorized by this Act. [CHUNK_13] With the chief justice's approval, the agency or government unit may enter into the undertaking with the federal government, private organization, or individual. [CHUNK_14] The judiciary may also transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash flow deficits. [CHUNK_15]\",\n  \"capital_expenditure_impact\": \"The sum of $9,900,000 (HB400_.HTM.txt) is appropriated for capital improvement projects for FY 2025-2026. [CHUNK_15] The projects, with funding amounts listed in thousands of dollars in the Act, include $4,000,000 (HB400_.HTM.txt) for plans and design for a new South Kohala Judiciary Complex, $900,000 (HB400_.HTM.txt) for A/C systems replacement at Pu‘uhonua Kaulike, and $5,000,000 (HB400_.HTM.txt) for lump sum CIP for judiciary facilities statewide. [CHUNK_17, CHUNK_18, CHUNK_19, CHUNK_20] General obligation bonds may be issued to finance these projects, provided that the sum total so issued shall not exceed $9,900,000 (HB400_.HTM.txt). [CHUNK_21]\",\n  \"fiscal_implications_after_6_years\": \"The appropriations made for capital improvement projects authorized in this Act shall not lapse at the end of the fiscal year for which the appropriations are made. [CHUNK_22] All appropriations made for fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that date. [CHUNK_23] All unrequired balances in the general obligation bond fund, after the objectives for capital improvements program purposes have been met, shall be transferred to the judiciary project adjustment fund. [CHUNK_25]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison.\"\n}"
             }
           ]
         },
-        "citation_metadata": null,
+        "citation_metadata": {
+          "citations": []
+        },
         "safety_ratings": []
       }
     ],
@@ -363,18 +365,8 @@
           "document_name": "HB400"
         },
         {
-          "chunk_text": "ending June 30, 2027. The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS",
-          "chunk_id": 6,
-          "document_name": "HB400"
-        },
-        {
           "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number",
           "chunk_id": 5,
-          "document_name": "HB400"
-        },
-        {
-          "chunk_text": "in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS OF APPEAL 85.00 * 85.00 * 0.48 # 0.48 # OPERATING JUD 9,592,659 A 9,657,093 A 2. JUD310 – FIRST CIRCUIT 1,115.50 * 1,115.50 * 57.58 # 57.58 # OPERATING JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD",
-          "chunk_id": 7,
           "document_name": "HB400"
         },
         {
@@ -388,8 +380,13 @@
           "document_name": "HB400"
         },
         {
-          "chunk_text": "combined shall not exceed the total of the sums specified for the projects separately. The amount after each cost element and the total funding for each project listed in this part are in thousands of dollars. THE JUDICIAL SYSTEM JUD601 - ADMINISTRATION 1. NON-POSITION RELATED PLANS AND DESIGN FOR NEW",
-          "chunk_id": 17,
+          "chunk_text": "ending June 30, 2027. The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS",
+          "chunk_id": 6,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "obligation bonds so issued shall not exceed $9,900,000. PART VI. SPECIAL PROVISIONS SECTION 9. Any law or any provision of this Act to the contrary notwithstanding, the appropriations made for capital improvement projects authorized in part II and listed in part IV of this Act shall not lapse at the",
+          "chunk_id": 22,
           "document_name": "HB400"
         },
         {
@@ -398,28 +395,8 @@
           "document_name": "HB400"
         },
         {
-          "chunk_text": "been met, shall be transferred to the judiciary project adjustment fund. SECTION 12. If the amount allocated from the general obligation bond fund for a capital improvement project listed in part IV of this Act is insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund;",
-          "chunk_id": 26,
-          "document_name": "HB400"
-        },
-        {
-          "chunk_text": "FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS, UPGRADES, AND IMPROVEMENTS TO JUDICIARY FACILITIES, STATEWIDE. PLANS 1,000 DESIGN 1,000 CONSTRUCTION 2,000 EQUIPMENT 1,000 TOTAL FUNDING JUD 5,000 C 0 C PART V. ISSUANCE OF BONDS SECTION 8. General obligation bonds may be issued, as provided by law, to",
-          "chunk_id": 20,
-          "document_name": "HB400"
-        },
-        {
-          "chunk_text": "part IV of this Act shall not lapse at the end of the fiscal year for which the appropriations are made; provided that all appropriations made for fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that date. SECTION 10.",
-          "chunk_id": 23,
-          "document_name": "HB400"
-        },
-        {
-          "chunk_text": "judiciary to be advantageous to do so. SECTION 11. All unrequired balances in the general obligation bond fund, after the objectives of part II appropriations for capital improvements program purposes listed as projects in part IV of this Act have been met, shall be transferred to the judiciary project adjustment",
-          "chunk_id": 25,
-          "document_name": "HB400"
-        },
-        {
-          "chunk_text": "funds B Special funds C General obligation bond funds N Federal funds W Revolving funds \"Position ceiling\" means the maximum number of permanent or temporary positions authorized for a particular program during a specified period or periods, as noted by an asterisk or pound sign, respectively. \"Program ID\" means the",
-          "chunk_id": 3,
+          "chunk_text": "the particular population being served, permit the reduction in the scope of a project listed in part IV of this Act, the chief justice may authorize such reduction of project scope. SECTION 14. The chief justice shall determine when and the manner in which the authorized capital improvement projects shall",
+          "chunk_id": 28,
           "document_name": "HB400"
         },
         {
@@ -428,8 +405,53 @@
           "document_name": "HB400"
         },
         {
+          "chunk_text": "or the agency or government unit with the chief justice's approval, may enter into the undertaking with the federal government, private organization, or individual. SECTION 6. Provided that the judiciary may transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash",
+          "chunk_id": 14,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "been met, shall be transferred to the judiciary project adjustment fund. SECTION 12. If the amount allocated from the general obligation bond fund for a capital improvement project listed in part IV of this Act is insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund;",
+          "chunk_id": 26,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "are appropriated, or authorized, as the case may be, to be expended for the programs and projects specified in this Act. All appropriations are followed by letter symbols. The letter symbols, where used, shall have the following meanings: A General funds B Special funds C General obligation bond funds N",
+          "chunk_id": 2,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "funds B Special funds C General obligation bond funds N Federal funds W Revolving funds \"Position ceiling\" means the maximum number of permanent or temporary positions authorized for a particular program during a specified period or periods, as noted by an asterisk or pound sign, respectively. \"Program ID\" means the",
+          "chunk_id": 3,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "obligation bonds may be issued, as provided by law, to yield the amount that may be necessary to finance projects authorized in part II and listed in part IV of this Act; provided that the sum total of the general obligation bonds so issued shall not exceed $9,900,000. PART VI.",
+          "chunk_id": 21,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS OF APPEAL 85.00 * 85.00 * 0.48 # 0.48 # OPERATING JUD 9,592,659 A 9,657,093 A 2. JUD310 – FIRST CIRCUIT 1,115.50 * 1,115.50 * 57.58 # 57.58 # OPERATING JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD",
+          "chunk_id": 7,
+          "document_name": "HB400"
+        },
+        {
           "chunk_text": "JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD 4,261,273 B 4,261,273 B 3. JUD320 – SECOND CIRCUIT 210.50 * 210.50 * 1.68 # 1.68 # OPERATING JUD 20,150,130 A 20,150,130 A 4. JUD330 – THIRD CIRCUIT 246.00 * 246.00 * 5.20 # 5.20 # OPERATING JUD 24,912,104 A",
           "chunk_id": 8,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "246.00 * 5.20 # 5.20 # OPERATING JUD 24,912,104 A 24,903,209 A 5. JUD350 – FIFTH CIRCUIT 103.00 * 103.00 * 2.60 # 2.60 # OPERATING JUD 9,225,420 A 9,225,420 A 6. JUD501 – JUDICIAL SELECTION COMMISSION 1.00 * 1.00 * OPERATING JUD 114,074 A 114,074 A 7. JUD601 -",
+          "chunk_id": 9,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "part IV of this Act shall not lapse at the end of the fiscal year for which the appropriations are made; provided that all appropriations made for fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that date. SECTION 10.",
+          "chunk_id": 23,
+          "document_name": "HB400"
+        },
+        {
+          "chunk_text": "combined shall not exceed the total of the sums specified for the projects separately. The amount after each cost element and the total funding for each project listed in this part are in thousands of dollars. THE JUDICIAL SYSTEM JUD601 - ADMINISTRATION 1. NON-POSITION RELATED PLANS AND DESIGN FOR NEW",
+          "chunk_id": 17,
           "document_name": "HB400"
         },
         {
@@ -443,13 +465,13 @@
           "document_name": "HB400"
         },
         {
-          "chunk_text": "obligation bonds may be issued, as provided by law, to yield the amount that may be necessary to finance projects authorized in part II and listed in part IV of this Act; provided that the sum total of the general obligation bonds so issued shall not exceed $9,900,000. PART VI.",
-          "chunk_id": 21,
+          "chunk_text": "FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS, UPGRADES, AND IMPROVEMENTS TO JUDICIARY FACILITIES, STATEWIDE. PLANS 1,000 DESIGN 1,000 CONSTRUCTION 2,000 EQUIPMENT 1,000 TOTAL FUNDING JUD 5,000 C 0 C PART V. ISSUANCE OF BONDS SECTION 8. General obligation bonds may be issued, as provided by law, to",
+          "chunk_id": 20,
           "document_name": "HB400"
         },
         {
-          "chunk_text": "or the agency or government unit with the chief justice's approval, may enter into the undertaking with the federal government, private organization, or individual. SECTION 6. Provided that the judiciary may transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash",
-          "chunk_id": 14,
+          "chunk_text": "judiciary to be advantageous to do so. SECTION 11. All unrequired balances in the general obligation bond fund, after the objectives of part II appropriations for capital improvements program purposes listed as projects in part IV of this Act have been met, shall be transferred to the judiciary project adjustment",
+          "chunk_id": 25,
           "document_name": "HB400"
         }
       ]
@@ -497,6 +519,66 @@
       },
       {
         "section": "overview",
+        "sentence": "The following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 1,
+            "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "This Act appropriates sums to accomplish the purposes and programs designated to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 1,
+            "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The bill appropriates $9,900,000 (HB400_.HTM.txt) in general obligation bond funds for investment capital under JUD601 - Administration for fiscal year 2025-2026.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "W 343,261 W INVESTMENT CAPITAL JUD 9,900,000 C 0 C PART III. PROGRAM PROVISIONS SECTION 4. Provided that whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes; provided further that no transfer shall",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The sum of $9,900,000 (HB400_.HTM.txt) appropriated or authorized in part II of this Act for capital improvement projects shall be expended by the judiciary for the projects listed in the Act.",
+        "chunks": [
+          {
+            "chunk_id": 15,
+            "citation_number": 1,
+            "chunk_text": "driver education and training fund to accommodate any temporary cash flow deficits. PART IV. CAPITAL IMPROVEMENT PROJECTS SECTION 7. The sum of $9,900,000 appropriated or authorized in part II of this Act for capital improvement projects shall be expended by the judiciary for the projects listed below; provided that several",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The sums appropriated are designated for the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 1,
+            "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
         "sentence": "The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act.",
         "chunks": [
           {
@@ -508,86 +590,20 @@
         ]
       },
       {
-        "section": "appropriations",
-        "sentence": "The legislative document appropriates various sums for operating costs to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027.",
-        "chunks": [
-          {
-            "chunk_id": 5,
-            "citation_number": 1,
-            "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number",
-            "document_name": "HB400"
-          }
-        ]
-      },
-      {
-        "section": "appropriations",
-        "sentence": "For example, the legislative document specifies operating funds for JUD101 - Courts of Appeal as $9,592,659 (HB400_.HTM.txt) for FY 2026 and $9,657,093 (HB400_.HTM.txt) for FY 2027.",
-        "chunks": [
-          {
-            "chunk_id": 7,
-            "citation_number": 1,
-            "chunk_text": "in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS OF APPEAL 85.00 * 85.00 * 0.48 # 0.48 # OPERATING JUD 9,592,659 A 9,657,093 A 2. JUD310 – FIRST CIRCUIT 1,115.50 * 1,115.50 * 57.58 # 57.58 # OPERATING JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD",
-            "document_name": "HB400"
-          }
-        ]
-      },
-      {
-        "section": "appropriations",
-        "sentence": "The legislative document also appropriates a sum of $9,900,000 (HB400_.HTM.txt) from general obligation bond funds for capital improvement projects.",
-        "chunks": [
-          {
-            "chunk_id": 11,
-            "citation_number": 1,
-            "chunk_text": "W 343,261 W INVESTMENT CAPITAL JUD 9,900,000 C 0 C PART III. PROGRAM PROVISIONS SECTION 4. Provided that whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes; provided further that no transfer shall",
-            "document_name": "HB400"
-          },
-          {
-            "chunk_id": 15,
-            "citation_number": 1,
-            "chunk_text": "driver education and training fund to accommodate any temporary cash flow deficits. PART IV. CAPITAL IMPROVEMENT PROJECTS SECTION 7. The sum of $9,900,000 appropriated or authorized in part II of this Act for capital improvement projects shall be expended by the judiciary for the projects listed below; provided that several",
-            "document_name": "HB400"
-          }
-        ]
-      },
-      {
         "section": "assumptions_and_methodology",
-        "sentence": "The legislative document specifies that sums are appropriated or authorized to accomplish the purposes and programs designated.",
+        "sentence": "The appropriations made for capital improvement projects authorized in part II and listed in part IV of this Act shall not lapse at the end of the fiscal year for which the appropriations are made.",
         "chunks": [
           {
-            "chunk_id": 5,
+            "chunk_id": 22,
             "citation_number": 1,
-            "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number",
-            "document_name": "HB400"
-          }
-        ]
-      },
-      {
-        "section": "assumptions_and_methodology",
-        "sentence": "The total expenditures and the number of permanent and temporary positions shall not exceed the sums and the position ceilings indicated for each year.",
-        "chunks": [
-          {
-            "chunk_id": 6,
-            "citation_number": 1,
-            "chunk_text": "ending June 30, 2027. The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS",
-            "document_name": "HB400"
-          }
-        ]
-      },
-      {
-        "section": "assumptions_and_methodology",
-        "sentence": "For capital improvement projects, the amount after each cost element and the total funding for each project are listed in thousands of dollars.",
-        "chunks": [
-          {
-            "chunk_id": 17,
-            "citation_number": 1,
-            "chunk_text": "combined shall not exceed the total of the sums specified for the projects separately. The amount after each cost element and the total funding for each project listed in this part are in thousands of dollars. THE JUDICIAL SYSTEM JUD601 - ADMINISTRATION 1. NON-POSITION RELATED PLANS AND DESIGN FOR NEW",
+            "chunk_text": "obligation bonds so issued shall not exceed $9,900,000. PART VI. SPECIAL PROVISIONS SECTION 9. Any law or any provision of this Act to the contrary notwithstanding, the appropriations made for capital improvement projects authorized in part II and listed in part IV of this Act shall not lapse at the",
             "document_name": "HB400"
           }
         ]
       },
       {
         "section": "agency_impact",
-        "sentence": "The chief justice is authorized to transfer sufficient funds and positions between programs for operating purposes whenever the need arises.",
+        "sentence": "Whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes.",
         "chunks": [
           {
             "chunk_id": 11,
@@ -599,7 +615,7 @@
       },
       {
         "section": "agency_impact",
-        "sentence": "The judiciary may delegate the planning, acquisition of land, design, construction, and equipment of any capital improvement project to other state or county agencies if it is determined to be advantageous.",
+        "sentence": "The judiciary may delegate to other state or county agencies the planning, acquisition of land, design, construction, and equipment of any capital improvement project when it is determined by the judiciary to be advantageous to do so.",
         "chunks": [
           {
             "chunk_id": 24,
@@ -611,19 +627,19 @@
       },
       {
         "section": "agency_impact",
-        "sentence": "If funds for a capital project are insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund.",
+        "sentence": "The chief justice shall determine when and the manner in which the authorized capital improvement projects shall be initiated.",
         "chunks": [
           {
-            "chunk_id": 26,
+            "chunk_id": 28,
             "citation_number": 1,
-            "chunk_text": "been met, shall be transferred to the judiciary project adjustment fund. SECTION 12. If the amount allocated from the general obligation bond fund for a capital improvement project listed in part IV of this Act is insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund;",
+            "chunk_text": "the particular population being served, permit the reduction in the scope of a project listed in part IV of this Act, the chief justice may authorize such reduction of project scope. SECTION 14. The chief justice shall determine when and the manner in which the authorized capital improvement projects shall",
             "document_name": "HB400"
           }
         ]
       },
       {
         "section": "economic_impact",
-        "sentence": "This bill appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027.",
+        "sentence": "This Act appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027.",
         "chunks": [
           {
             "chunk_id": 36,
@@ -635,24 +651,24 @@
       },
       {
         "section": "economic_impact",
-        "sentence": "The legislative document specifies a sum of $9,900,000 (HB400_.HTM.txt) for capital improvement projects to be expended by the judiciary.",
+        "sentence": "If the chief justice, or any agency or government unit, secures federal funds or other property under any act of Congress, or any funds or other property from private organizations or individuals, to be expended in connection with any program or works authorized by this Act, they may enter into the undertaking.",
         "chunks": [
           {
-            "chunk_id": 15,
+            "chunk_id": 13,
             "citation_number": 1,
-            "chunk_text": "driver education and training fund to accommodate any temporary cash flow deficits. PART IV. CAPITAL IMPROVEMENT PROJECTS SECTION 7. The sum of $9,900,000 appropriated or authorized in part II of this Act for capital improvement projects shall be expended by the judiciary for the projects listed below; provided that several",
+            "chunk_text": "federal funds or other property under any act of Congress, or any funds or other property from private organizations or individuals, to be expended in connection with any program or works authorized by this Act or otherwise, the chief justice, or the agency or government unit with the chief justice's",
             "document_name": "HB400"
           }
         ]
       },
       {
         "section": "economic_impact",
-        "sentence": "These projects include plans, design, construction, and equipment for general alterations, upgrades, and improvements to judiciary facilities statewide.",
+        "sentence": "The chief justice, or the agency or government unit with the chief justice's approval, may enter into the undertaking with the federal government, private organization, or individual.",
         "chunks": [
           {
-            "chunk_id": 20,
+            "chunk_id": 14,
             "citation_number": 1,
-            "chunk_text": "FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS, UPGRADES, AND IMPROVEMENTS TO JUDICIARY FACILITIES, STATEWIDE. PLANS 1,000 DESIGN 1,000 CONSTRUCTION 2,000 EQUIPMENT 1,000 TOTAL FUNDING JUD 5,000 C 0 C PART V. ISSUANCE OF BONDS SECTION 8. General obligation bonds may be issued, as provided by law, to",
+            "chunk_text": "or the agency or government unit with the chief justice's approval, may enter into the undertaking with the federal government, private organization, or individual. SECTION 6. Provided that the judiciary may transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash",
             "document_name": "HB400"
           }
         ]
@@ -671,31 +687,43 @@
       },
       {
         "section": "policy_impact",
-        "sentence": "It provides that appropriations for capital improvement projects shall not lapse at the end of the fiscal year, but any funds unencumbered as of June 30, 2028, shall lapse as of that date.",
+        "sentence": "The chief justice may transfer sufficient funds and positions between programs for operating purposes, provided no transfer shall be made to implement any collective bargaining contract signed after this legislature adjourns sine die.",
         "chunks": [
           {
-            "chunk_id": 23,
+            "chunk_id": 11,
             "citation_number": 1,
-            "chunk_text": "part IV of this Act shall not lapse at the end of the fiscal year for which the appropriations are made; provided that all appropriations made for fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that date. SECTION 10.",
+            "chunk_text": "W 343,261 W INVESTMENT CAPITAL JUD 9,900,000 C 0 C PART III. PROGRAM PROVISIONS SECTION 4. Provided that whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes; provided further that no transfer shall",
             "document_name": "HB400"
           }
         ]
       },
       {
         "section": "policy_impact",
-        "sentence": "All unrequired balances in the general obligation bond fund, after the objectives for capital improvements have been met, shall be transferred to the judiciary project adjustment fund.",
+        "sentence": "If the amount allocated from the general obligation bond fund for a capital improvement project is insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund.",
         "chunks": [
           {
-            "chunk_id": 25,
+            "chunk_id": 26,
             "citation_number": 1,
-            "chunk_text": "judiciary to be advantageous to do so. SECTION 11. All unrequired balances in the general obligation bond fund, after the objectives of part II appropriations for capital improvements program purposes listed as projects in part IV of this Act have been met, shall be transferred to the judiciary project adjustment",
+            "chunk_text": "been met, shall be transferred to the judiciary project adjustment fund. SECTION 12. If the amount allocated from the general obligation bond fund for a capital improvement project listed in part IV of this Act is insufficient, the chief justice may make supplemental allotments from the judiciary project adjustment fund;",
             "document_name": "HB400"
           }
         ]
       },
       {
         "section": "revenue_sources",
-        "sentence": "The means of financing are specified by letter symbols, which include A for General funds, B for Special funds, C for General obligation bond funds, and W for Revolving funds.",
+        "sentence": "The sources from which funds are appropriated are referred to as \"Means of Financing,\" or \"MOF\".",
+        "chunks": [
+          {
+            "chunk_id": 2,
+            "citation_number": 1,
+            "chunk_text": "are appropriated, or authorized, as the case may be, to be expended for the programs and projects specified in this Act. All appropriations are followed by letter symbols. The letter symbols, where used, shall have the following meanings: A General funds B Special funds C General obligation bond funds N",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The letter symbols for funding sources are A for General funds, B for Special funds, C for General obligation bond funds, N for Federal funds, and W for Revolving funds.",
         "chunks": [
           {
             "chunk_id": 3,
@@ -707,109 +735,7 @@
       },
       {
         "section": "revenue_sources",
-        "sentence": "Capital improvement projects are funded by $9,900,000 (HB400_.HTM.txt) from General obligation bond funds (C).",
-        "chunks": [
-          {
-            "chunk_id": 11,
-            "citation_number": 1,
-            "chunk_text": "W 343,261 W INVESTMENT CAPITAL JUD 9,900,000 C 0 C PART III. PROGRAM PROVISIONS SECTION 4. Provided that whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes; provided further that no transfer shall",
-            "document_name": "HB400"
-          }
-        ]
-      },
-      {
-        "section": "revenue_sources",
-        "sentence": "The chief justice may also secure federal funds or funds from private organizations or individuals for programs authorized by this Act.",
-        "chunks": [
-          {
-            "chunk_id": 13,
-            "citation_number": 1,
-            "chunk_text": "federal funds or other property under any act of Congress, or any funds or other property from private organizations or individuals, to be expended in connection with any program or works authorized by this Act or otherwise, the chief justice, or the agency or government unit with the chief justice's",
-            "document_name": "HB400"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The bill appropriates funds for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027.",
-        "chunks": [
-          {
-            "chunk_id": 5,
-            "citation_number": 1,
-            "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number",
-            "document_name": "HB400"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "For FY 2025-2026, operating appropriations from general funds include $9,592,659 (HB400_.HTM.txt) for JUD101 - Courts of Appeal and $98,130,866 (HB400_.HTM.txt) for JUD310 – First Circuit.",
-        "chunks": [
-          {
-            "chunk_id": 7,
-            "citation_number": 1,
-            "chunk_text": "in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS OF APPEAL 85.00 * 85.00 * 0.48 # 0.48 # OPERATING JUD 9,592,659 A 9,657,093 A 2. JUD310 – FIRST CIRCUIT 1,115.50 * 1,115.50 * 57.58 # 57.58 # OPERATING JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD",
-            "document_name": "HB400"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "For FY 2026-2027, the appropriations for these programs are $9,657,093 (HB400_.HTM.txt) and $98,298,808 (HB400_.HTM.txt) respectively.",
-        "chunks": [
-          {
-            "chunk_id": 7,
-            "citation_number": 1,
-            "chunk_text": "in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS OF APPEAL 85.00 * 85.00 * 0.48 # 0.48 # OPERATING JUD 9,592,659 A 9,657,093 A 2. JUD310 – FIRST CIRCUIT 1,115.50 * 1,115.50 * 57.58 # 57.58 # OPERATING JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD",
-            "document_name": "HB400"
-          },
-          {
-            "chunk_id": 8,
-            "citation_number": 1,
-            "chunk_text": "JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD 4,261,273 B 4,261,273 B 3. JUD320 – SECOND CIRCUIT 210.50 * 210.50 * 1.68 # 1.68 # OPERATING JUD 20,150,130 A 20,150,130 A 4. JUD330 – THIRD CIRCUIT 246.00 * 246.00 * 5.20 # 5.20 # OPERATING JUD 24,912,104 A",
-            "document_name": "HB400"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The legislative document also appropriates $9,900,000 (HB400_.HTM.txt) in investment capital from general obligation bond funds for FY 2025-2026.",
-        "chunks": [
-          {
-            "chunk_id": 11,
-            "citation_number": 1,
-            "chunk_text": "W 343,261 W INVESTMENT CAPITAL JUD 9,900,000 C 0 C PART III. PROGRAM PROVISIONS SECTION 4. Provided that whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes; provided further that no transfer shall",
-            "document_name": "HB400"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "This funding is designated for projects including $4,000,000 (HB400_.HTM.txt) for the new South Kohala Judiciary Complex, $900,000 (HB400_.HTM.txt) for the Pu‘uhonua Kaulike A/C Systems Replacement, and $5,000,000 (HB400_.HTM.txt) for lump sum CIP for Judiciary Facilities, Statewide.",
-        "chunks": [
-          {
-            "chunk_id": 18,
-            "citation_number": 1,
-            "chunk_text": "- ADMINISTRATION 1. NON-POSITION RELATED PLANS AND DESIGN FOR NEW JUDICIARY COMPLEX IN SOUTH KOHALA, HAWAI ` I. PLANS AND DESIGN FOR NEW SOUTH KOHALA JUDICIARY COMPLEX, HAWAI ` I. PLANS 500 DESIGN 3,500 TOTAL FUNDING JUD 4,000 C 0 C 2. PU ‘ UHONUA KAULIKE A/C SYSTEMS REPLACEMENT, KAUA",
-            "document_name": "HB400"
-          },
-          {
-            "chunk_id": 19,
-            "citation_number": 1,
-            "chunk_text": "C 2. PU ‘ UHONUA KAULIKE A/C SYSTEMS REPLACEMENT, KAUA ` I. EQUIPMENT FOR A/C SYSTEMS REPLACEMENT AT PU ` UHONUA KAULIKE, KAUA ` I. EQUIPMENT 900 TOTAL FUNDING JUD 900 C 0 C 3. LUMP SUM CIP FOR JUDICIARY FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS,",
-            "document_name": "HB400"
-          },
-          {
-            "chunk_id": 20,
-            "citation_number": 1,
-            "chunk_text": "FACILITIES, STATEWIDE. PLANS, DESIGN, CONSTRUCTION, AND EQUIPMENT FOR GENERAL ALTERATIONS, UPGRADES, AND IMPROVEMENTS TO JUDICIARY FACILITIES, STATEWIDE. PLANS 1,000 DESIGN 1,000 CONSTRUCTION 2,000 EQUIPMENT 1,000 TOTAL FUNDING JUD 5,000 C 0 C PART V. ISSUANCE OF BONDS SECTION 8. General obligation bonds may be issued, as provided by law, to",
-            "document_name": "HB400"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "General obligation bonds may be issued to finance these projects, provided the sum total does not exceed $9,900,000 (HB400_.HTM.txt).",
+        "sentence": "General obligation bonds may be issued to yield the amount necessary to finance authorized projects, provided that the sum total of the bonds so issued shall not exceed $9,900,000 (HB400_.HTM.txt).",
         "chunks": [
           {
             "chunk_id": 21,
@@ -821,7 +747,103 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "Any capital improvement appropriations unencumbered as of June 30, 2028, shall lapse as of that date.",
+        "sentence": "This Act appropriates funds for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 1,
+            "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "For JUD101 - Courts of Appeal, the operating appropriation from general funds is $9,592,659 (HB400_.HTM.txt) in FY 2025-2026 and $9,657,093 (HB400_.HTM.txt) in FY 2026-2027.",
+        "chunks": [
+          {
+            "chunk_id": 7,
+            "citation_number": 1,
+            "chunk_text": "in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS OF APPEAL 85.00 * 85.00 * 0.48 # 0.48 # OPERATING JUD 9,592,659 A 9,657,093 A 2. JUD310 – FIRST CIRCUIT 1,115.50 * 1,115.50 * 57.58 # 57.58 # OPERATING JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "For JUD310 – First Circuit, the general fund operating appropriations are $98,130,866 (HB400_.HTM.txt) for FY 2025-2026 and $98,298,808 (HB400_.HTM.txt) for FY 2026-2027.",
+        "chunks": [
+          {
+            "chunk_id": 8,
+            "citation_number": 1,
+            "chunk_text": "JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD 4,261,273 B 4,261,273 B 3. JUD320 – SECOND CIRCUIT 210.50 * 210.50 * 1.68 # 1.68 # OPERATING JUD 20,150,130 A 20,150,130 A 4. JUD330 – THIRD CIRCUIT 246.00 * 246.00 * 5.20 # 5.20 # OPERATING JUD 24,912,104 A",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "This circuit also has special fund appropriations of $4,261,273 (HB400_.HTM.txt) for each fiscal year.",
+        "chunks": [
+          {
+            "chunk_id": 8,
+            "citation_number": 1,
+            "chunk_text": "JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD 4,261,273 B 4,261,273 B 3. JUD320 – SECOND CIRCUIT 210.50 * 210.50 * 1.68 # 1.68 # OPERATING JUD 20,150,130 A 20,150,130 A 4. JUD330 – THIRD CIRCUIT 246.00 * 246.00 * 5.20 # 5.20 # OPERATING JUD 24,912,104 A",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "For JUD320 – Second Circuit, the general fund operating appropriation is $20,150,130 (HB400_.HTM.txt) for each fiscal year.",
+        "chunks": [
+          {
+            "chunk_id": 8,
+            "citation_number": 1,
+            "chunk_text": "JUD 98,130,866 A 98,298,808 A 35.00 * 35.00 * JUD 4,261,273 B 4,261,273 B 3. JUD320 – SECOND CIRCUIT 210.50 * 210.50 * 1.68 # 1.68 # OPERATING JUD 20,150,130 A 20,150,130 A 4. JUD330 – THIRD CIRCUIT 246.00 * 246.00 * 5.20 # 5.20 # OPERATING JUD 24,912,104 A",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The general fund operating appropriation for JUD330 – Third Circuit is $24,912,104 (HB400_.HTM.txt) in FY 2025-2026 and $24,903,209 (HB400_.HTM.txt) in FY 2026-2027.",
+        "chunks": [
+          {
+            "chunk_id": 9,
+            "citation_number": 1,
+            "chunk_text": "246.00 * 5.20 # 5.20 # OPERATING JUD 24,912,104 A 24,903,209 A 5. JUD350 – FIFTH CIRCUIT 103.00 * 103.00 * 2.60 # 2.60 # OPERATING JUD 9,225,420 A 9,225,420 A 6. JUD501 – JUDICIAL SELECTION COMMISSION 1.00 * 1.00 * OPERATING JUD 114,074 A 114,074 A 7. JUD601 -",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Under JUD601 - Administration, the bill authorizes investment capital of $9,900,000 (HB400_.HTM.txt) for FY 2025-2026 from general obligation bond funds.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 1,
+            "chunk_text": "W 343,261 W INVESTMENT CAPITAL JUD 9,900,000 C 0 C PART III. PROGRAM PROVISIONS SECTION 4. Provided that whenever the need arises, the chief justice, in administering an equitable and expeditious judicial process, may transfer sufficient funds and positions between programs for operating purposes; provided further that no transfer shall",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The appropriations made for capital improvement projects shall not lapse at the end of the fiscal year for which the appropriations are made.",
+        "chunks": [
+          {
+            "chunk_id": 22,
+            "citation_number": 1,
+            "chunk_text": "obligation bonds so issued shall not exceed $9,900,000. PART VI. SPECIAL PROVISIONS SECTION 9. Any law or any provision of this Act to the contrary notwithstanding, the appropriations made for capital improvement projects authorized in part II and listed in part IV of this Act shall not lapse at the",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "All appropriations made for fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that date.",
         "chunks": [
           {
             "chunk_id": 23,
@@ -832,32 +854,8 @@
         ]
       },
       {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The document provides no fiscal details beyond the 2025-2027 biennium.",
-        "chunks": [
-          {
-            "chunk_id": 6,
-            "citation_number": 1,
-            "chunk_text": "ending June 30, 2027. The total expenditures and the number of permanent and temporary positions established in each fiscal year of the fiscal biennium shall not exceed the sums and the position ceilings indicated for each year, except as provided in this Act. THE JUDICIAL SYSTEM 1. JUD101 - COURTS",
-            "document_name": "HB400"
-          }
-        ]
-      },
-      {
         "section": "operating_revenue_impact",
-        "sentence": "The document appropriates funds from general funds, special funds, and revolving funds for operations.",
-        "chunks": [
-          {
-            "chunk_id": 3,
-            "citation_number": 1,
-            "chunk_text": "funds B Special funds C General obligation bond funds N Federal funds W Revolving funds \"Position ceiling\" means the maximum number of permanent or temporary positions authorized for a particular program during a specified period or periods, as noted by an asterisk or pound sign, respectively. \"Program ID\" means the",
-            "document_name": "HB400"
-          }
-        ]
-      },
-      {
-        "section": "operating_revenue_impact",
-        "sentence": "The chief justice may secure federal funds or funds from private organizations or individuals for authorized programs.",
+        "sentence": "The chief justice, or any agency or government unit, may secure federal funds or other property under any act of Congress, or any funds or other property from private organizations or individuals, to be expended in connection with any program or works authorized by this Act.",
         "chunks": [
           {
             "chunk_id": 13,
@@ -869,7 +867,7 @@
       },
       {
         "section": "operating_revenue_impact",
-        "sentence": "Additionally, the judiciary may transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash flow deficits.",
+        "sentence": "With the chief justice's approval, the agency or government unit may enter into the undertaking with the federal government, private organization, or individual.",
         "chunks": [
           {
             "chunk_id": 14,
@@ -880,8 +878,8 @@
         ]
       },
       {
-        "section": "capital_expenditure_impact",
-        "sentence": "The legislative document specifies the sum of $9,900,000 (HB400_.HTM.txt) is appropriated for capital improvement projects for the judiciary.",
+        "section": "operating_revenue_impact",
+        "sentence": "The judiciary may also transfer savings from its general fund appropriation to the driver education and training fund to accommodate any temporary cash flow deficits.",
         "chunks": [
           {
             "chunk_id": 15,
@@ -893,8 +891,26 @@
       },
       {
         "section": "capital_expenditure_impact",
-        "sentence": "Projects listed include $4,000,000 (HB400_.HTM.txt) for plans and design for a new judiciary complex in South Kohala, $900,000 (HB400_.HTM.txt) for A/C systems replacement in Kaua`i, and $5,000,000 (HB400_.HTM.txt) for lump sum CIP for judiciary facilities statewide.",
+        "sentence": "The sum of $9,900,000 (HB400_.HTM.txt) is appropriated for capital improvement projects for FY 2025-2026.",
         "chunks": [
+          {
+            "chunk_id": 15,
+            "citation_number": 1,
+            "chunk_text": "driver education and training fund to accommodate any temporary cash flow deficits. PART IV. CAPITAL IMPROVEMENT PROJECTS SECTION 7. The sum of $9,900,000 appropriated or authorized in part II of this Act for capital improvement projects shall be expended by the judiciary for the projects listed below; provided that several",
+            "document_name": "HB400"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The projects, with funding amounts listed in thousands of dollars in the Act, include $4,000,000 (HB400_.HTM.txt) for plans and design for a new South Kohala Judiciary Complex, $900,000 (HB400_.HTM.txt) for A/C systems replacement at Pu‘uhonua Kaulike, and $5,000,000 (HB400_.HTM.txt) for lump sum CIP for judiciary facilities statewide.",
+        "chunks": [
+          {
+            "chunk_id": 17,
+            "citation_number": 1,
+            "chunk_text": "combined shall not exceed the total of the sums specified for the projects separately. The amount after each cost element and the total funding for each project listed in this part are in thousands of dollars. THE JUDICIAL SYSTEM JUD601 - ADMINISTRATION 1. NON-POSITION RELATED PLANS AND DESIGN FOR NEW",
+            "document_name": "HB400"
+          },
           {
             "chunk_id": 18,
             "citation_number": 1,
@@ -917,7 +933,7 @@
       },
       {
         "section": "capital_expenditure_impact",
-        "sentence": "General obligation bonds may be issued to finance these projects in an amount not to exceed $9,900,000 (HB400_.HTM.txt).",
+        "sentence": "General obligation bonds may be issued to finance these projects, provided that the sum total so issued shall not exceed $9,900,000 (HB400_.HTM.txt).",
         "chunks": [
           {
             "chunk_id": 21,
@@ -929,19 +945,19 @@
       },
       {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "The appropriations in the bill are for the fiscal biennium ending June 30, 2027.",
+        "sentence": "The appropriations made for capital improvement projects authorized in this Act shall not lapse at the end of the fiscal year for which the appropriations are made.",
         "chunks": [
           {
-            "chunk_id": 5,
+            "chunk_id": 22,
             "citation_number": 1,
-            "chunk_text": "following sums, or so much thereof as may be sufficient to accomplish the purposes and programs designated herein, are appropriated or authorized from the sources of funding specified to the judiciary for the fiscal biennium beginning July 1, 2025, and ending June 30, 2027. The total expenditures and the number",
+            "chunk_text": "obligation bonds so issued shall not exceed $9,900,000. PART VI. SPECIAL PROVISIONS SECTION 9. Any law or any provision of this Act to the contrary notwithstanding, the appropriations made for capital improvement projects authorized in part II and listed in part IV of this Act shall not lapse at the",
             "document_name": "HB400"
           }
         ]
       },
       {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "All appropriations made for capital improvement projects that are unencumbered as of June 30, 2028, shall lapse as of that date.",
+        "sentence": "All appropriations made for fiscal year 2025-2026 and fiscal year 2026-2027 that are unencumbered as of June 30, 2028, shall lapse as of that date.",
         "chunks": [
           {
             "chunk_id": 23,
@@ -953,12 +969,12 @@
       },
       {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "The document does not provide details on fiscal obligations beyond this period, as future funding would depend on subsequent Judiciary Appropriations Acts.",
+        "sentence": "All unrequired balances in the general obligation bond fund, after the objectives for capital improvements program purposes have been met, shall be transferred to the judiciary project adjustment fund.",
         "chunks": [
           {
-            "chunk_id": 1,
+            "chunk_id": 25,
             "citation_number": 1,
-            "chunk_text": "This Act shall be known and may be cited as the Judiciary Appropriations Act of 2025. SECTION 2. Unless otherwise clear from the context, as used in this Act: \"Means of Financing,\" or \"MOF,\" means the source from which funds are appropriated, or authorized, as the case may be, to",
+            "chunk_text": "judiciary to be advantageous to do so. SECTION 11. All unrequired balances in the general obligation bond fund, after the objectives of part II appropriations for capital improvements program purposes listed as projects in part IV of this Act have been met, shall be transferred to the judiciary project adjustment",
             "document_name": "HB400"
           }
         ]
@@ -1117,6 +1133,6 @@
       }
     ]
   },
-  "generation_timestamp": "2025-10-16T16:07:11.127016",
-  "generation_timestamp_unix": 1760666831.1270232
+  "generation_timestamp": "2025-10-29T12:04:41.672094",
+  "generation_timestamp_unix": 1761775481.672104
 }
