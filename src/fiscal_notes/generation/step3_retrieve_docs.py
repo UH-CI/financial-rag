@@ -17,14 +17,26 @@ def get_chrome_version():
     """
     Detect the installed Chrome version automatically.
     Returns the major version number (e.g., 141, 142).
+    Works on both macOS and Linux.
     """
     import subprocess
     import re
+    import platform
     
     try:
-        # Try to get Chrome version on macOS
+        # Determine Chrome path based on OS
+        system = platform.system()
+        if system == 'Darwin':  # macOS
+            chrome_path = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+        elif system == 'Linux':
+            chrome_path = 'google-chrome'
+        else:
+            print(f"Unsupported OS: {system}")
+            return None
+        
+        # Get Chrome version
         result = subprocess.run(
-            ['/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', '--version'],
+            [chrome_path, '--version'],
             capture_output=True,
             text=True,
             timeout=5
@@ -34,7 +46,7 @@ def get_chrome_version():
         match = re.search(r'Chrome (\d+)\.', version_string)
         if match:
             version = int(match.group(1))
-            print(f"✓ Detected Chrome version: {version}")
+            print(f"✓ Detected Chrome version: {version} on {system}")
             return version
     except Exception as e:
         print(f"Could not detect Chrome version: {e}")
