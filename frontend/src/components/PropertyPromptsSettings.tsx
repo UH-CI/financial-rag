@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { X, Plus, RotateCcw, Save, Trash2 } from 'lucide-react';
+import { X, Plus, RotateCcw, Save, Trash2, GripVertical } from 'lucide-react';
 import { getPropertyPrompts, savePropertyPrompts, resetPropertyPrompts } from '../services/api';
 import type { PropertyPrompts } from '../services/api';
 
@@ -16,6 +16,8 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
   const [error, setError] = useState<string | null>(null);
   const [successMessage, setSuccessMessage] = useState<string | null>(null);
   const [emptyFields, setEmptyFields] = useState<Set<string>>(new Set());
+  const [sectionOrder, setSectionOrder] = useState<string[]>([]);
+  const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
 
   useEffect(() => {
     if (isOpen) {
@@ -26,10 +28,11 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
   const loadPrompts = async () => {
     try {
       setIsLoading(true);
-      setError(null);
-      const response = await getPropertyPrompts();
-      setPrompts(response.prompts);
-      setIsCustom(response.is_custom);
+      const data = await getPropertyPrompts();
+      setPrompts(data.prompts);
+      setIsCustom(data.is_custom);
+      // Initialize section order from the keys
+      setSectionOrder(Object.keys(data.prompts));
     } catch (err: any) {
       setError(err.message || 'Failed to load property prompts');
     } finally {
@@ -80,7 +83,15 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
         return;
       }
 
-      const response = await savePropertyPrompts(prompts);
+      // Create ordered prompts object based on sectionOrder
+      const orderedPrompts: PropertyPrompts = {};
+      for (const key of sectionOrder) {
+        if (prompts[key]) {
+          orderedPrompts[key] = prompts[key];
+        }
+      }
+
+      const response = await savePropertyPrompts(orderedPrompts);
       setSuccessMessage(response.message);
       setIsCustom(true);
       
@@ -132,12 +143,18 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
     const newKeysMap = new Map(sectionKeys);
     newKeysMap.set(newKey, stableKey);
     setSectionKeys(newKeysMap);
+    
+    // Add to section order
+    setSectionOrder([...sectionOrder, newKey]);
   };
 
   const handleDeleteSection = (key: string) => {
     const newPrompts = { ...prompts };
     delete newPrompts[key];
     setPrompts(newPrompts);
+    
+    // Remove from section order
+    setSectionOrder(sectionOrder.filter(k => k !== key));
   };
 
   const handleUpdateSection = (key: string, field: 'prompt' | 'description', value: string) => {
@@ -174,6 +191,27 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
     });
     setSectionKeys(keysMap);
   }, [isLoading]);
+
+  const handleDragStart = (index: number) => {
+    setDraggedIndex(index);
+  };
+
+  const handleDragOver = (e: React.DragEvent, index: number) => {
+    e.preventDefault();
+    if (draggedIndex === null || draggedIndex === index) return;
+
+    const newOrder = [...sectionOrder];
+    const draggedKey = newOrder[draggedIndex];
+    newOrder.splice(draggedIndex, 1);
+    newOrder.splice(index, 0, draggedKey);
+
+    setSectionOrder(newOrder);
+    setDraggedIndex(index);
+  };
+
+  const handleDragEnd = () => {
+    setDraggedIndex(null);
+  };
 
   const handleRenameSection = (oldKey: string, newKey: string) => {
     if (oldKey === newKey) return;
@@ -259,38 +297,57 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
               )}
 
               {/* Prompt Sections */}
-              {Object.entries(prompts).map(([key, value]) => {
+              {sectionOrder.map((key, index) => {
+                const value = prompts[key];
+                if (!value) return null;
+                
                 // Use stable key for React, or fall back to current key
                 const stableKey = sectionKeys.get(key) || key;
                 return (
-                <div key={stableKey} className="border border-gray-200 rounded-lg p-4 bg-gray-50">
-                  <div className="flex items-start justify-between mb-3">
-                    <div className="flex-1 max-w-2xl">
+                <div 
+                  key={stableKey} 
+                  draggable
+                  onDragStart={() => handleDragStart(index)}
+                  onDragOver={(e) => handleDragOver(e, index)}
+                  onDragEnd={handleDragEnd}
+                  className={`border border-gray-200 rounded-lg p-3 bg-gray-50 cursor-move transition-all relative ${
+                    draggedIndex === index ? 'opacity-50' : ''
+                  }`}
+                >
+                  {/* Delete button in top right */}
+                  <button
+                    onClick={() => handleDeleteSection(key)}
+                    className="absolute top-2 right-2 text-red-600 hover:text-red-800 transition-colors"
+                    title="Delete section"
+                  >
+                    <Trash2 className="w-4 h-4" />
+                  </button>
+
+                  <div className="flex items-start gap-2 mb-1">
+                    {/* Drag Handle */}
+                    <div className="pt-1 text-gray-400 hover:text-gray-600 cursor-grab active:cursor-grabbing">
+                      <GripVertical className="w-5 h-5" />
+                    </div>
+                    
+                    <div className="flex-1 max-w-2xl pr-6">
                       <input
                         id={`${key}-name`}
                         type="text"
                         value={key}
                         onChange={(e) => handleRenameSection(key, e.target.value)}
-                        className={`w-full text-lg font-semibold text-gray-900 bg-transparent border-b ${
+                        className={`w-full text-base font-semibold text-gray-900 bg-transparent border-b ${
                           emptyFields.has(`${key}-name`) 
                             ? 'border-red-500 bg-red-50' 
                             : 'border-transparent hover:border-gray-300 focus:border-blue-500'
-                        } px-1 -ml-1`}
+                        } px-1 -ml-1 py-0.5`}
                         placeholder="Section name"
                       />
                     </div>
-                    <button
-                      onClick={() => handleDeleteSection(key)}
-                      className="text-red-600 hover:text-red-800 transition-colors ml-2"
-                      title="Delete section"
-                    >
-                      <Trash2 className="w-5 h-5" />
-                    </button>
                   </div>
 
-                  <div className="space-y-3">
+                  <div className="space-y-1.5 ml-7">
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-1">
+                      <label className="block text-xs font-medium text-gray-700 mb-0.5">
                         Description
                       </label>
                       <input
@@ -298,7 +355,7 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
                         type="text"
                         value={value.description}
                         onChange={(e) => handleUpdateSection(key, 'description', e.target.value)}
-                        className={`w-full border rounded-md px-3 py-2 focus:outline-none focus:ring-2 ${
+                        className={`w-full border rounded-md px-2 py-1.5 text-sm focus:outline-none focus:ring-2 ${
                           emptyFields.has(`${key}-description`)
                             ? 'border-red-500 bg-red-50 focus:ring-red-500'
                             : 'border-gray-300 focus:ring-blue-500 focus:border-transparent'
@@ -308,15 +365,15 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
                     </div>
 
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-1">
+                      <label className="block text-xs font-medium text-gray-700 mb-0.5">
                         Prompt
                       </label>
                       <textarea
                         id={`${key}-prompt`}
                         value={value.prompt}
                         onChange={(e) => handleUpdateSection(key, 'prompt', e.target.value)}
-                        rows={4}
-                        className={`w-full border rounded-md px-3 py-2 focus:outline-none focus:ring-2 font-mono text-sm ${
+                        rows={3}
+                        className={`w-full border rounded-md px-2 py-1.5 focus:outline-none focus:ring-2 font-mono text-xs ${
                           emptyFields.has(`${key}-prompt`)
                             ? 'border-red-500 bg-red-50 focus:ring-red-500'
                             : 'border-gray-300 focus:ring-blue-500 focus:border-transparent'
@@ -352,7 +409,7 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
             <span>Reset to Default</span>
           </button>
 
-          <div className="flex space-x-3">
+          <div className="flex items-center space-x-3">
             <button
               onClick={onClose}
               className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
@@ -367,6 +424,11 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
               <Save className="w-4 h-4" />
               <span>{isSaving ? 'Saving...' : 'Save Changes'}</span>
             </button>
+            {successMessage && (
+              <span className="text-green-600 font-medium text-sm animate-fade-in">
+                ✓ Changes saved
+              </span>
+            )}
           </div>
         </div>
       </div>

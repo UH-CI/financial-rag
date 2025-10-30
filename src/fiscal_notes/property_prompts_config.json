@@ -35,6 +35,10 @@
     "prompt": "Describe any anticipated impacts on operating revenues resulting from the program or measure, including increases, decreases, or changes in revenue streams. This should be around 3 sentences.",
     "description": "Operating revenue impacts"
   },
+  "Full Time Equivalent Positions": {
+    "prompt": "If there has been additions or modifications to any FTE positions. Be very specific on the number and whether it lists the cost.",
+    "description": "Full Time Equivalent Position"
+  },
   "capital_expenditure_impact": {
     "prompt": "Outline any expected capital expenditures related to the program or measure, such as investments in facilities, equipment, or technology infrastructure, based on capital budgets or agency plans. This should be around 3 sentences.",
     "description": "Capital expenditure requirements"
@@ -45,10 +49,6 @@
   },
   "updates_from_previous_fiscal_note": {
     "prompt": "If you are given a previous fisacl not. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fisacl note.",
-    "description": "dasd"
-  },
-  "custom_section_1761792424813": {
-    "prompt": "asd",
-    "description": "asda"
+    "description": "Updates from previous fiscal note"
   }
 }

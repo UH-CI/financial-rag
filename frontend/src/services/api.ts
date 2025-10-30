@@ -253,7 +253,7 @@ export const getFiscalNotePropertyPrompts = async (
   billNumber: string,
   fiscalNoteName: string,
   year: string = '2025'
-): Promise<{ prompts: PropertyPrompts; is_stored: boolean; message?: string }> => {
+): Promise<{ prompts: PropertyPrompts; is_stored: boolean; custom_prompts_used: boolean; message?: string }> => {
   const response = await api.get('/api/fiscal-note-property-prompts', {
     params: {
       bill_type: billType,

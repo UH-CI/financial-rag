@@ -11,6 +11,7 @@ from google.genai import types
 from dotenv import load_dotenv
 load_dotenv()
 
+# Default FiscalNoteModel (for backward compatibility)
 class FiscalNoteModel(BaseModel):
     overview: str
     appropriations:str
@@ -25,15 +26,38 @@ class FiscalNoteModel(BaseModel):
     fiscal_implications_after_6_years: str
     updates_from_previous_fiscal_note: str
 
+def create_dynamic_fiscal_note_model(property_prompts):
+    """
+    Dynamically create a Pydantic model based on property prompts.
+    This allows custom sections to be included in the schema.
+    """
+    # Create field definitions - all fields are strings
+    field_definitions = {}
+    for key in property_prompts.keys():
+        # Replace spaces and special characters with underscores for valid Python identifiers
+        field_name = key.replace(' ', '_').replace('-', '_')
+        field_definitions[field_name] = (str, ...)  # str type, required field
+    
+    # Create the dynamic model
+    DynamicFiscalNoteModel = create_model(
+        'DynamicFiscalNoteModel',
+        **field_definitions
+    )
+    
+    print(f"📋 Created dynamic model with fields: {list(field_definitions.keys())}")
+    return DynamicFiscalNoteModel
 
 # Example LLM query function (replace with your actual model)
-def query_gemini(prompt: str, chunks=None, numbers_data=None):
+def query_gemini(prompt: str, chunks=None, numbers_data=None, fiscal_note_schema=None):
     client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+    
+    # Use provided schema or fall back to default
+    schema_to_use = fiscal_note_schema if fiscal_note_schema is not None else FiscalNoteModel
     
     # Configure generation with JSON schema and grounding enabled
     config = types.GenerateContentConfig(
         response_mime_type="application/json",
-        response_schema=FiscalNoteModel,
+        response_schema=schema_to_use,
         # Enable grounding and citation features
         system_instruction="""You are a fiscal note analyst. Use EXACT WORDING from the provided document chunks whenever possible. Quote directly from the source material. When writing fiscal notes, preserve the original language and phrasing from the documents to maintain accuracy and authenticity.
 
@@ -65,9 +89,9 @@ DO NOT omit the [CHUNK_X] citations - they are required in every sentence."""
     if response.text:
         try:
             parsed_dict = json.loads(response.text)
-            parsed = FiscalNoteModel(**parsed_dict)
+            parsed = schema_to_use(**parsed_dict)
         except Exception as e:
-            print(f"Warning: Could not parse response as FiscalNoteModel: {e}")
+            print(f"Warning: Could not parse response as fiscal note model: {e}")
     
     return response.text, parsed, response, chunks
 
@@ -896,16 +920,24 @@ def load_property_prompts():
         parent_dir = os.path.dirname(script_dir)  # Go up to fiscal_notes directory
         custom_prompts_file = os.path.join(parent_dir, "property_prompts_config.json")
         
+        print(f"🔍 Looking for custom prompts at: {custom_prompts_file}")
+        print(f"🔍 File exists: {os.path.exists(custom_prompts_file)}")
+        
         if os.path.exists(custom_prompts_file):
             with open(custom_prompts_file, 'r') as f:
                 custom_prompts = json.load(f)
             print(f"✅ Loaded custom property prompts from {custom_prompts_file}")
+            print(f"✅ Number of sections: {len(custom_prompts)}")
+            print(f"✅ Section keys: {list(custom_prompts.keys())}")
             return custom_prompts
         else:
-            print(f"📋 Using default property prompts")
+            print(f"📋 Using default property prompts (file not found)")
+            print(f"📋 Number of default sections: {len(PROPERTY_PROMPTS)}")
             return PROPERTY_PROMPTS
     except Exception as e:
         print(f"⚠️ Error loading custom property prompts, using defaults: {e}")
+        import traceback
+        traceback.print_exc()
         return PROPERTY_PROMPTS
 
 def generate_fiscal_note_for_context(context_text, numbers_data=None, previous_note=None, document_sources=None, fiscal_note_name=None):
@@ -916,11 +948,16 @@ def generate_fiscal_note_for_context(context_text, numbers_data=None, previous_n
     # Load property prompts (custom or default)
     property_prompts = load_property_prompts()
     
+    # Create dynamic Pydantic model based on property prompts
+    DynamicFiscalNoteModel = create_dynamic_fiscal_note_model(property_prompts)
+    
     # Build a combined instruction
     combined_prompt = "You are tasked with generating a fiscal note based on the context that you are given on a set of documents.\n"
     combined_prompt += "Extract the following information:\n\n"
     for key, prop in property_prompts.items():
-        combined_prompt += f"- {key}: {prop['prompt']}\n"
+        # Use the field name that will be in the JSON schema (with underscores)
+        field_name = key.replace(' ', '_').replace('-', '_')
+        combined_prompt += f"- {field_name}: {prop['prompt']}\n"
 
     # Add specific instructions about using numbers
     combined_prompt += "\n**CRITICAL INSTRUCTIONS FOR FINANCIAL NUMBERS:**\n"
@@ -972,7 +1009,7 @@ Previous fiscal note:
         chunks = chunk_documents(document_sources, chunk_size=50, overlap=10, fiscal_note_name=fiscal_note_name)
         print(f"📝 Created {len(chunks)} chunks from {len(document_sources)} documents")
     
-    text, parsed, full_response, used_chunks = query_gemini(combined_prompt, chunks, numbers_data)
+    text, parsed, full_response, used_chunks = query_gemini(combined_prompt, chunks, numbers_data, fiscal_note_schema=DynamicFiscalNoteModel)
     
     # Extract metadata about chunk contributions
     response_metadata = extract_response_metadata(full_response)

@@ -2718,9 +2718,9 @@ async def get_fiscal_note_property_prompts(
             target_dir = fiscal_notes_path
         else:
             raise HTTPException(status_code=404, detail=f"Fiscal notes directory not found for {bill_dir}")
-        
+        print(fiscal_note_name)
         # Path to metadata file
-        metadata_file = os.path.join(target_dir, f"{fiscal_note_name}_metadata.json")
+        metadata_file = os.path.join(target_dir, f"{fiscal_note_name.split('_')[0] + fiscal_note_name.split('_')[1]}_metadata.json")
         
         if not os.path.exists(metadata_file):
             raise HTTPException(status_code=404, detail=f"Metadata file not found for {fiscal_note_name}")
@@ -2730,20 +2730,27 @@ async def get_fiscal_note_property_prompts(
             metadata = json.load(f)
         
         # Get property prompts from metadata
-        property_prompts = metadata.get('property_prompts_used', None)
+        property_prompts = metadata.get('response_metadata', None).get('property_prompts_used', None)
+        
+        # Load default prompts for comparison
+        from fiscal_notes.generation.step5_fiscal_note_gen import PROPERTY_PROMPTS
         
         if property_prompts is None:
             # If not stored in metadata, return default prompts
-            from fiscal_notes.generation.step5_fiscal_note_gen import PROPERTY_PROMPTS
             return {
                 "prompts": PROPERTY_PROMPTS,
                 "is_stored": False,
+                "custom_prompts_used": False,
                 "message": "Property prompts not stored in metadata, returning defaults"
             }
         
+        # Check if the stored prompts are different from defaults
+        custom_prompts_used = property_prompts != PROPERTY_PROMPTS
+        
         return {
             "prompts": property_prompts,
-            "is_stored": True
+            "is_stored": True,
+            "custom_prompts_used": custom_prompts_used
         }
     except HTTPException:
         raise

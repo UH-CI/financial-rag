@@ -22,6 +22,7 @@ const FiscalNotePromptsInfo = ({
 }: FiscalNotePromptsInfoProps) => {
   const [prompts, setPrompts] = useState<PropertyPrompts>({});
   const [isStored, setIsStored] = useState(false);
+  const [customPromptsUsed, setCustomPromptsUsed] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [message, setMessage] = useState<string | null>(null);
@@ -39,6 +40,7 @@ const FiscalNotePromptsInfo = ({
       const response = await getFiscalNotePropertyPrompts(billType, billNumber, fiscalNoteName, year);
       setPrompts(response.prompts);
       setIsStored(response.is_stored);
+      setCustomPromptsUsed(response.custom_prompts_used || false);
       setMessage(response.message || null);
     } catch (err: any) {
       setError(err.message || 'Failed to load property prompts');
@@ -55,13 +57,14 @@ const FiscalNotePromptsInfo = ({
         {/* Header */}
         <div className="p-6 border-b border-gray-200 flex items-center justify-between">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900">Property Prompts Used</h2>
-            <p className="text-sm text-gray-600 mt-1">
-              {fiscalNoteName}
-              {!isStored && message && (
-                <span className="ml-2 text-amber-600">({message})</span>
-              )}
-            </p>
+            <h2 className="text-2xl font-bold text-gray-900">Prompts</h2>
+            <div className="flex items-center gap-2 mt-1">
+              <p className="text-sm text-gray-600">{fiscalNoteName}</p>
+              <span className="text-sm">•</span>
+              <span className={`text-sm font-medium ${customPromptsUsed ? 'text-orange-600' : 'text-gray-600'}`}>
+                {customPromptsUsed ? 'Custom prompts used' : 'Default prompts used'}
+              </span>
+            </div>
           </div>
           <button
             onClick={onClose}
