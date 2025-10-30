@@ -21,11 +21,11 @@ const FiscalNotePromptsInfo = ({
   year = '2025'
 }: FiscalNotePromptsInfoProps) => {
   const [prompts, setPrompts] = useState<PropertyPrompts>({});
-  const [isStored, setIsStored] = useState(false);
+  const [, setIsStored] = useState(false);
   const [customPromptsUsed, setCustomPromptsUsed] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [message, setMessage] = useState<string | null>(null);
+  const [, setMessage] = useState<string | null>(null);
 
   useEffect(() => {
     if (isOpen) {
