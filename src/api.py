@@ -2597,6 +2597,160 @@ async def save_strikethroughs(request: Request):
         print(f"❌ Error saving strikethroughs: {e}")
         raise HTTPException(status_code=500, detail=f"Failed to save strikethroughs: {str(e)}")
 
+# Property Prompts Management Endpoints
+@app.get("/api/property-prompts")
+async def get_property_prompts():
+    """
+    Get the current property prompts configuration.
+    Returns custom prompts if they exist, otherwise returns defaults.
+    """
+    try:
+        from fiscal_notes.generation.step5_fiscal_note_gen import PROPERTY_PROMPTS
+        
+        # Check for custom prompts file
+        custom_prompts_file = Path(__file__).parent / "fiscal_notes" / "property_prompts_config.json"
+        
+        if custom_prompts_file.exists():
+            with open(custom_prompts_file, 'r') as f:
+                custom_prompts = json.load(f)
+            print(f"✅ Loaded custom property prompts from {custom_prompts_file}")
+            return {
+                "prompts": custom_prompts,
+                "is_custom": True
+            }
+        else:
+            print(f"📋 Returning default property prompts")
+            return {
+                "prompts": PROPERTY_PROMPTS,
+                "is_custom": False
+            }
+    except Exception as e:
+        print(f"❌ Error loading property prompts: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to load property prompts: {str(e)}")
+
+@app.post("/api/property-prompts")
+async def save_property_prompts(request: Request):
+    """
+    Save custom property prompts configuration.
+    Validates structure and saves to config file.
+    """
+    try:
+        data = await request.json()
+        prompts = data.get('prompts', {})
+        
+        # Validate structure
+        if not prompts or not isinstance(prompts, dict):
+            raise HTTPException(status_code=400, detail="Invalid prompts structure")
+        
+        # Validate each section has required fields
+        for section_key, section_data in prompts.items():
+            if not isinstance(section_data, dict):
+                raise HTTPException(status_code=400, detail=f"Section '{section_key}' must be an object")
+            if 'prompt' not in section_data or 'description' not in section_data:
+                raise HTTPException(status_code=400, detail=f"Section '{section_key}' missing required fields")
+        
+        # Save to config file
+        custom_prompts_file = Path(__file__).parent / "fiscal_notes" / "property_prompts_config.json"
+        custom_prompts_file.parent.mkdir(parents=True, exist_ok=True)
+        
+        with open(custom_prompts_file, 'w') as f:
+            json.dump(prompts, f, indent=2, ensure_ascii=False)
+        
+        print(f"✅ Saved custom property prompts to {custom_prompts_file}")
+        
+        return {
+            "success": True,
+            "message": f"Saved {len(prompts)} property prompt sections",
+            "section_count": len(prompts)
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"❌ Error saving property prompts: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to save property prompts: {str(e)}")
+
+@app.post("/api/property-prompts/reset")
+async def reset_property_prompts():
+    """
+    Reset property prompts to defaults by removing custom config file.
+    """
+    try:
+        from fiscal_notes.generation.step5_fiscal_note_gen import PROPERTY_PROMPTS
+        
+        custom_prompts_file = Path(__file__).parent / "fiscal_notes" / "property_prompts_config.json"
+        
+        if custom_prompts_file.exists():
+            custom_prompts_file.unlink()
+            print(f"✅ Deleted custom property prompts file")
+        
+        return {
+            "success": True,
+            "message": "Reset to default property prompts",
+            "prompts": PROPERTY_PROMPTS,
+            "is_custom": False
+        }
+    except Exception as e:
+        print(f"❌ Error resetting property prompts: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to reset property prompts: {str(e)}")
+
+@app.get("/api/fiscal-note-property-prompts")
+async def get_fiscal_note_property_prompts(
+    bill_type: Bill_type_options,
+    bill_number: str,
+    fiscal_note_name: str,
+    year: Year_options = Year_options.YEAR_2025
+):
+    """
+    Get the property prompts that were used to generate a specific fiscal note.
+    Returns the prompts from the fiscal note's metadata.
+    """
+    try:
+        bill_dir = f"{bill_type.value}_{bill_number}_{year.value}"
+        
+        # Try both fiscal_notes_with_chunks and fiscal_notes directories
+        fiscal_notes_with_chunks_path = os.path.join(fiscal_notes_dir, bill_dir, "fiscal_notes_with_chunks")
+        fiscal_notes_path = os.path.join(fiscal_notes_dir, bill_dir, "fiscal_notes")
+        
+        target_dir = None
+        if os.path.exists(fiscal_notes_with_chunks_path):
+            target_dir = fiscal_notes_with_chunks_path
+        elif os.path.exists(fiscal_notes_path):
+            target_dir = fiscal_notes_path
+        else:
+            raise HTTPException(status_code=404, detail=f"Fiscal notes directory not found for {bill_dir}")
+        
+        # Path to metadata file
+        metadata_file = os.path.join(target_dir, f"{fiscal_note_name}_metadata.json")
+        
+        if not os.path.exists(metadata_file):
+            raise HTTPException(status_code=404, detail=f"Metadata file not found for {fiscal_note_name}")
+        
+        # Load metadata
+        with open(metadata_file, 'r') as f:
+            metadata = json.load(f)
+        
+        # Get property prompts from metadata
+        property_prompts = metadata.get('property_prompts_used', None)
+        
+        if property_prompts is None:
+            # If not stored in metadata, return default prompts
+            from fiscal_notes.generation.step5_fiscal_note_gen import PROPERTY_PROMPTS
+            return {
+                "prompts": PROPERTY_PROMPTS,
+                "is_stored": False,
+                "message": "Property prompts not stored in metadata, returning defaults"
+            }
+        
+        return {
+            "prompts": property_prompts,
+            "is_stored": True
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"❌ Error loading fiscal note property prompts: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to load fiscal note property prompts: {str(e)}")
+
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
     print(f"🔌 WebSocket connection attempt from {websocket.client}")

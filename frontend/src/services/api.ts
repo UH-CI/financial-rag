@@ -209,6 +209,63 @@ export const deleteFiscalNote = async (
 };
 
 /**
+ * Property Prompts Management
+ */
+
+export interface PropertyPrompt {
+  prompt: string;
+  description: string;
+}
+
+export interface PropertyPrompts {
+  [key: string]: PropertyPrompt;
+}
+
+/**
+ * Get current property prompts configuration
+ */
+export const getPropertyPrompts = async (): Promise<{ prompts: PropertyPrompts; is_custom: boolean }> => {
+  const response = await api.get('/api/property-prompts');
+  return response.data;
+};
+
+/**
+ * Save custom property prompts
+ */
+export const savePropertyPrompts = async (prompts: PropertyPrompts): Promise<{ success: boolean; message: string; section_count: number }> => {
+  const response = await api.post('/api/property-prompts', { prompts });
+  return response.data;
+};
+
+/**
+ * Reset property prompts to defaults
+ */
+export const resetPropertyPrompts = async (): Promise<{ success: boolean; message: string; prompts: PropertyPrompts; is_custom: boolean }> => {
+  const response = await api.post('/api/property-prompts/reset');
+  return response.data;
+};
+
+/**
+ * Get property prompts used for a specific fiscal note
+ */
+export const getFiscalNotePropertyPrompts = async (
+  billType: 'HB' | 'SB',
+  billNumber: string,
+  fiscalNoteName: string,
+  year: string = '2025'
+): Promise<{ prompts: PropertyPrompts; is_stored: boolean; message?: string }> => {
+  const response = await api.get('/api/fiscal-note-property-prompts', {
+    params: {
+      bill_type: billType,
+      bill_number: billNumber,
+      fiscal_note_name: fiscalNoteName,
+      year: year
+    }
+  });
+  return response.data;
+};
+
+/**
  * Save annotations (strikethroughs and underlines) for a fiscal note
  * Supports both legacy strikethroughs and new annotations format
  */

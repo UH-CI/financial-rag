@@ -1,8 +1,10 @@
 import { useEffect, useState, useRef } from "react";
 import { getFiscalNoteFiles, createFiscalNote, getFiscalNote, deleteFiscalNote, getFiscalNoteFilesSeptember, getFiscalNoteSeptember } from "../services/api";
-import { Loader2 } from "lucide-react";
+import { Loader2, Settings, Info } from "lucide-react";
 import FiscalNoteViewer from "./FiscalNoteViewer";
 import SmartTooltip from "./SmartTooltip";
+import PropertyPromptsSettings from "./PropertyPromptsSettings";
+import FiscalNotePromptsInfo from "./FiscalNotePromptsInfo";
 
 interface CreateFiscalNoteForm {
   billType: 'HB' | 'SB';
@@ -30,6 +32,9 @@ const FiscalNoteGeneration = () => {
   const [wsConnected, setWsConnected] = useState<boolean>(false);
   const wsRef = useRef<WebSocket | null>(null);
   const pendingRequestsRef = useRef<Set<string>>(new Set());
+  const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
+  const [isPromptsInfoOpen, setIsPromptsInfoOpen] = useState<boolean>(false);
+  const [selectedBillForInfo, setSelectedBillForInfo] = useState<{ billType: 'HB' | 'SB', billNumber: string, fiscalNoteName: string, year: string } | null>(null);
 
   // Mobile detection
   const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth < 1024);
@@ -353,6 +358,23 @@ const FiscalNoteGeneration = () => {
     }
   };
 
+  const handleShowPromptsInfo = (fileName: string) => {
+    const parts = fileName.split('_');
+    if (parts.length >= 2) {
+      const billType = parts[0] as 'HB' | 'SB';
+      const billNumber = parts[1];
+      const year = parts[2] || '2025';
+      
+      setSelectedBillForInfo({
+        billType,
+        billNumber,
+        fiscalNoteName: fileName,
+        year
+      });
+      setIsPromptsInfoOpen(true);
+    }
+  };
+
   // MOBILE VIEW: Show either bill list OR fiscal note (full screen)
   if (isMobile) {
     // If a fiscal note is selected, show it full screen
@@ -527,16 +549,25 @@ const FiscalNoteGeneration = () => {
         </div>
 
         <div className="flex-1 p-6 space-y-4 overflow-y-auto pb-32">
-          {/* Create New Button */}
-          <button
-            onClick={() => setIsCreateModalOpen(true)}
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2"
-          >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
-            </svg>
-            <span>Create New Fiscal Note</span>
-          </button>
+          {/* Create New Button and Settings Button */}
+          <div className="flex space-x-2">
+            <button
+              onClick={() => setIsCreateModalOpen(true)}
+              className="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+              </svg>
+              <span>Create New Fiscal Note</span>
+            </button>
+            <button
+              onClick={() => setIsSettingsOpen(true)}
+              className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center"
+              title="Property Prompts Settings"
+            >
+              <Settings className="w-5 h-5" />
+            </button>
+          </div>
 
           {/* Fiscal Note Files Table */}
           <div>
@@ -604,6 +635,17 @@ const FiscalNoteGeneration = () => {
                       </td>
                       <td className="px-3 py-2 whitespace-nowrap text-sm text-gray-500">
                         <div className="flex items-center space-x-2">
+                          {/* Info Button */}
+                          <button
+                            onClick={() => handleShowPromptsInfo(file.name)}
+                            disabled={file.status !== 'ready'}
+                            className={`text-blue-600 hover:text-blue-900 p-1 rounded hover:bg-blue-50 transition-colors duration-200 ${
+                              file.status !== 'ready' ? 'opacity-50 cursor-not-allowed' : ''
+                            }`}
+                            title="View property prompts used"
+                          >
+                            <Info className="w-4 h-4" />
+                          </button>
 
                           {/* Delete Button */}
                           <button
@@ -615,18 +657,6 @@ const FiscalNoteGeneration = () => {
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
                             </svg>
                           </button>
-                          {/* View Button */}
-                          {/* <button
-                            onClick={() => handleSelectFile(file.name)}
-                            disabled={file.status === 'generating' || jobErrors[file.name]}
-                            className={`text-blue-600 hover:text-blue-900 font-medium ${
-                              (file.status === 'generating' || jobErrors[file.name]) ? 'opacity-50 cursor-not-allowed' : ''
-                            }`}
-                            title={file.status === 'ready' ? 'View fiscal note' : 'Cannot view while generating or in error state'}
-                          >
-                            {file.status === 'ready' ? 'View' : 'Generating...'}
-                          </button> */}
-
                         </div>
                       </td>
 
@@ -878,6 +908,27 @@ const FiscalNoteGeneration = () => {
             </div>
           </div>
         </div>
+      )}
+
+      {/* Property Prompts Settings Modal */}
+      <PropertyPromptsSettings
+        isOpen={isSettingsOpen}
+        onClose={() => setIsSettingsOpen(false)}
+      />
+
+      {/* Fiscal Note Prompts Info Modal */}
+      {selectedBillForInfo && (
+        <FiscalNotePromptsInfo
+          isOpen={isPromptsInfoOpen}
+          onClose={() => {
+            setIsPromptsInfoOpen(false);
+            setSelectedBillForInfo(null);
+          }}
+          billType={selectedBillForInfo.billType}
+          billNumber={selectedBillForInfo.billNumber}
+          fiscalNoteName={selectedBillForInfo.fiscalNoteName}
+          year={selectedBillForInfo.year}
+        />
       )}
     </div>
   );

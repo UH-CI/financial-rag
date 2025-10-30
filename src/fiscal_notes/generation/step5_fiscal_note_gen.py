@@ -884,18 +884,42 @@ PROPERTY_PROMPTS = {
     "operating_revenue_impact": { "prompt": "Describe any anticipated impacts on operating revenues resulting from the program or measure, including increases, decreases, or changes in revenue streams. This should be around 3 sentences.", "description": "Operating revenue impacts" }, 
     "capital_expenditure_impact": { "prompt": "Outline any expected capital expenditures related to the program or measure, such as investments in facilities, equipment, or technology infrastructure, based on capital budgets or agency plans. This should be around 3 sentences.", "description": "Capital expenditure requirements" }, 
     "fiscal_implications_after_6_years": { "prompt": "Summarize the ongoing fiscal obligations after the initial multi-year period for the program or measure, including annual operating costs, expected number of program sites or units, and the sustainability of funding. This should be around 3 sentences.", "description": "Long-term fiscal obligations beyond six years" },
-    "updates_from_previous_fiscal_note" : {"prompt": "If you are given a previous fisacl not. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fisacl note."}
+    "updates_from_previous_fiscal_note" : {"prompt": "If you are given a previous fisacl not. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fisacl note.", "description": "Updates from previous fiscal note"}
     }
+
+def load_property_prompts():
+    """
+    Load property prompts from custom config file if it exists, otherwise return defaults.
+    """
+    try:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        parent_dir = os.path.dirname(script_dir)  # Go up to fiscal_notes directory
+        custom_prompts_file = os.path.join(parent_dir, "property_prompts_config.json")
+        
+        if os.path.exists(custom_prompts_file):
+            with open(custom_prompts_file, 'r') as f:
+                custom_prompts = json.load(f)
+            print(f"✅ Loaded custom property prompts from {custom_prompts_file}")
+            return custom_prompts
+        else:
+            print(f"📋 Using default property prompts")
+            return PROPERTY_PROMPTS
+    except Exception as e:
+        print(f"⚠️ Error loading custom property prompts, using defaults: {e}")
+        return PROPERTY_PROMPTS
 
 def generate_fiscal_note_for_context(context_text, numbers_data=None, previous_note=None, document_sources=None, fiscal_note_name=None):
     """
     Generate a full fiscal note (all properties at once) using PROPERTY_PROMPTS.
     If previous_note is provided, instruct the LLM to avoid repeating information.
     """
+    # Load property prompts (custom or default)
+    property_prompts = load_property_prompts()
+    
     # Build a combined instruction
     combined_prompt = "You are tasked with generating a fiscal note based on the context that you are given on a set of documents.\n"
     combined_prompt += "Extract the following information:\n\n"
-    for key, prop in PROPERTY_PROMPTS.items():
+    for key, prop in property_prompts.items():
         combined_prompt += f"- {key}: {prop['prompt']}\n"
 
     # Add specific instructions about using numbers
@@ -1079,6 +1103,10 @@ Previous fiscal note:
         print(f"   - document_mapping: {len(response_metadata['document_mapping'])} entries")
         print(f"   - chunk_text_map: {len(response_metadata['chunk_text_map'])} entries")
         print(f"   - sentence_chunk_mapping: {len(response_metadata['sentence_chunk_mapping'])} entries")
+        
+        # Store property prompts used in metadata
+        response_metadata["property_prompts_used"] = property_prompts
+        print(f"   - property_prompts_used: {len(property_prompts)} sections")
         
         return fiscal_note, combined_prompt, response_metadata
     
