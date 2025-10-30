@@ -7,17 +7,17 @@
     "HB2"
   ],
   "numbers_used": 0,
-  "prompt_length": 6960,
+  "prompt_length": 6798,
   "response_metadata": {
-    "response_text": "{\n  \"overview\": \"The legislature finds that patrons leaving a liquor establishment can adversely affect neighboring residents and users of nearby public facilities. [CHUNK_1] The legislature further finds that section 281-39.5, Hawaii Revised Statutes, currently applies only to the issuance of new liquor licenses, but not the renewal of current licenses, thus creating a safe harbor for existing establishments seeking a renewal of their liquor license. [CHUNK_3] Accordingly, the purpose of this Act is to provide communities the opportunity to protest the renewal of certain liquor licenses. [CHUNK_4]\",\n  \"appropriations\": \"This measure does not contain an appropriation. [CHUNK_0]\",\n  \"assumptions_and_methodology\": \"The provided legislative documents do not contain information on the assumptions and methodology used for a fiscal impact statement. [CHUNK_9]\",\n  \"agency_impact\": \"This measure provides that the Liquor Commission or other licensing agency of each county shall deny the renewal of certain current liquor licenses upon receipt of sufficient protests. [CHUNK_8] By applying the protest provision to license renewals, this measure will likely increase the administrative workload for county liquor licensing agencies. [CHUNK_5]\",\n  \"economic_impact\": \"The provided legislative documents do not contain information regarding the economic impact of this measure. [CHUNK_9]\",\n  \"policy_impact\": \"This Act amends section 281-39.5, Hawaii Revised Statutes, to apply to both the issuance of new liquor licenses and the renewal of existing liquor licenses. [CHUNK_5] This change is intended to provide communities the opportunity to protest the renewal of certain liquor licenses, which they may wish to do after they have learned more about the establishment. [CHUNK_4] The Act does not affect rights and duties that matured, penalties that were incurred, and proceedings that were begun before its effective date. [CHUNK_6]\",\n  \"revenue_sources\": \"The provided legislative documents do not specify any revenue sources related to this measure. [CHUNK_9]\",\n  \"six_year_fiscal_implications\": \"The provided legislative documents do not contain information on the six-year fiscal implications of this measure. [CHUNK_9]\",\n  \"operating_revenue_impact\": \"The provided legislative documents do not contain information on the operating revenue impact of this measure. [CHUNK_9]\",\n  \"capital_expenditure_impact\": \"The provided legislative documents do not contain information on the capital expenditure impact of this measure. [CHUNK_9]\",\n  \"fiscal_implications_after_6_years\": \"The provided legislative documents do not contain information on the fiscal implications of this measure after six years. [CHUNK_9]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the source documents. [CHUNK_9]\",\n  \"Full_Time_Equivalent_Positions\": \"The provided legislative documents do not specify any impact on Full Time Equivalent (FTE) positions. [CHUNK_9]\"\n}",
+    "response_text": "{\n  \"overview\": \"The legislature finds that patrons leaving a liquor establishment can adversely affect neighboring residents and users of nearby public facilities. [CHUNK_1] The legislature further finds that section 281-39.5, Hawaii Revised Statutes, currently applies only to the issuance of new liquor licenses, but not the renewal of current licenses, thus creating a safe harbor for existing establishments. [CHUNK_2] Accordingly, the purpose of this Act is to provide communities the opportunity to protest the renewal of certain liquor licenses. [CHUNK_4]\",\n  \"appropriations\": \"The provided legislative documents for H.B. NO. 2 do not contain any appropriations. [CHUNK_0]\",\n  \"assumptions_and_methodology\": \"The provided documents do not contain any assumptions or methodology related to fiscal impact. [CHUNK_0]\",\n  \"agency_impact\": \"The Liquor Commission or other licensing agency of each county shall deny the renewal of certain current liquor licenses upon receipt of sufficient protests. [CHUNK_8] This section shall apply to both the issuance of new liquor licenses, and the renewal of existing liquor licenses, for on-site sale and consumption by the drink. [CHUNK_5] This Act does not affect rights and duties that matured, penalties that were incurred, and proceedings that were begun before its effective date. [CHUNK_6]\",\n  \"economic_impact\": \"The provided text does not specify any direct economic impacts resulting from this measure. [CHUNK_9]\",\n  \"policy_impact\": \"This Act amends Section 281-39.5, Hawaii Revised Statutes, to apply to both the issuance of new liquor licenses and the renewal of existing liquor licenses. [CHUNK_5] This removes what the legislature finds to be a safe harbor for existing establishments seeking a renewal of their liquor license. [CHUNK_3] The purpose of this Act is to provide communities the opportunity to protest the renewal of certain liquor licenses. [CHUNK_4]\",\n  \"revenue_sources\": \"The provided legislative documents do not specify any revenue sources. [CHUNK_0]\",\n  \"six_year_fiscal_implications\": \"The provided text does not contain information regarding any six-year fiscal implications for this measure. [CHUNK_9]\",\n  \"operating_revenue_impact\": \"The provided text does not contain information regarding any operating revenue impact for this measure. [CHUNK_9]\",\n  \"capital_expenditure_impact\": \"The provided text does not contain information regarding any capital expenditure impact for this measure. [CHUNK_9]\",\n  \"fiscal_implications_after_6_years\": \"The provided text does not contain information regarding any fiscal implications after six years for this measure. [CHUNK_9]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison. [CHUNK_0]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 2694,
-      "candidates_token_count": 632,
-      "total_token_count": 5417
+      "prompt_token_count": 2657,
+      "candidates_token_count": 603,
+      "total_token_count": 4879
     },
     "candidates": [
       {
@@ -27,7 +27,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n  \"overview\": \"The legislature finds that patrons leaving a liquor establishment can adversely affect neighboring residents and users of nearby public facilities. [CHUNK_1] The legislature further finds that section 281-39.5, Hawaii Revised Statutes, currently applies only to the issuance of new liquor licenses, but not the renewal of current licenses, thus creating a safe harbor for existing establishments seeking a renewal of their liquor license. [CHUNK_3] Accordingly, the purpose of this Act is to provide communities the opportunity to protest the renewal of certain liquor licenses. [CHUNK_4]\",\n  \"appropriations\": \"This measure does not contain an appropriation. [CHUNK_0]\",\n  \"assumptions_and_methodology\": \"The provided legislative documents do not contain information on the assumptions and methodology used for a fiscal impact statement. [CHUNK_9]\",\n  \"agency_impact\": \"This measure provides that the Liquor Commission or other licensing agency of each county shall deny the renewal of certain current liquor licenses upon receipt of sufficient protests. [CHUNK_8] By applying the protest provision to license renewals, this measure will likely increase the administrative workload for county liquor licensing agencies. [CHUNK_5]\",\n  \"economic_impact\": \"The provided legislative documents do not contain information regarding the economic impact of this measure. [CHUNK_9]\",\n  \"policy_impact\": \"This Act amends section 281-39.5, Hawaii Revised Statutes, to apply to both the issuance of new liquor licenses and the renewal of existing liquor licenses. [CHUNK_5] This change is intended to provide communities the opportunity to protest the renewal of certain liquor licenses, which they may wish to do after they have learned more about the establishment. [CHUNK_4] The Act does not affect rights and duties that matured, penalties that were incurred, and proceedings that were begun before its effective date. [CHUNK_6]\",\n  \"revenue_sources\": \"The provided legislative documents do not specify any revenue sources related to this measure. [CHUNK_9]\",\n  \"six_year_fiscal_implications\": \"The provided legislative documents do not contain information on the six-year fiscal implications of this measure. [CHUNK_9]\",\n  \"operating_revenue_impact\": \"The provided legislative documents do not contain information on the operating revenue impact of this measure. [CHUNK_9]\",\n  \"capital_expenditure_impact\": \"The provided legislative documents do not contain information on the capital expenditure impact of this measure. [CHUNK_9]\",\n  \"fiscal_implications_after_6_years\": \"The provided legislative documents do not contain information on the fiscal implications of this measure after six years. [CHUNK_9]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the source documents. [CHUNK_9]\",\n  \"Full_Time_Equivalent_Positions\": \"The provided legislative documents do not specify any impact on Full Time Equivalent (FTE) positions. [CHUNK_9]\"\n}"
+              "text": "{\n  \"overview\": \"The legislature finds that patrons leaving a liquor establishment can adversely affect neighboring residents and users of nearby public facilities. [CHUNK_1] The legislature further finds that section 281-39.5, Hawaii Revised Statutes, currently applies only to the issuance of new liquor licenses, but not the renewal of current licenses, thus creating a safe harbor for existing establishments. [CHUNK_2] Accordingly, the purpose of this Act is to provide communities the opportunity to protest the renewal of certain liquor licenses. [CHUNK_4]\",\n  \"appropriations\": \"The provided legislative documents for H.B. NO. 2 do not contain any appropriations. [CHUNK_0]\",\n  \"assumptions_and_methodology\": \"The provided documents do not contain any assumptions or methodology related to fiscal impact. [CHUNK_0]\",\n  \"agency_impact\": \"The Liquor Commission or other licensing agency of each county shall deny the renewal of certain current liquor licenses upon receipt of sufficient protests. [CHUNK_8] This section shall apply to both the issuance of new liquor licenses, and the renewal of existing liquor licenses, for on-site sale and consumption by the drink. [CHUNK_5] This Act does not affect rights and duties that matured, penalties that were incurred, and proceedings that were begun before its effective date. [CHUNK_6]\",\n  \"economic_impact\": \"The provided text does not specify any direct economic impacts resulting from this measure. [CHUNK_9]\",\n  \"policy_impact\": \"This Act amends Section 281-39.5, Hawaii Revised Statutes, to apply to both the issuance of new liquor licenses and the renewal of existing liquor licenses. [CHUNK_5] This removes what the legislature finds to be a safe harbor for existing establishments seeking a renewal of their liquor license. [CHUNK_3] The purpose of this Act is to provide communities the opportunity to protest the renewal of certain liquor licenses. [CHUNK_4]\",\n  \"revenue_sources\": \"The provided legislative documents do not specify any revenue sources. [CHUNK_0]\",\n  \"six_year_fiscal_implications\": \"The provided text does not contain information regarding any six-year fiscal implications for this measure. [CHUNK_9]\",\n  \"operating_revenue_impact\": \"The provided text does not contain information regarding any operating revenue impact for this measure. [CHUNK_9]\",\n  \"capital_expenditure_impact\": \"The provided text does not contain information regarding any capital expenditure impact for this measure. [CHUNK_9]\",\n  \"fiscal_implications_after_6_years\": \"The provided text does not contain information regarding any fiscal implications after six years for this measure. [CHUNK_9]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided for comparison. [CHUNK_0]\"\n}"
             }
           ]
         },
@@ -131,8 +131,8 @@
           "document_name": "HB2"
         },
         {
-          "chunk_text": "the renewal of current licenses, thus creating a safe harbor for existing establishments seeking a renewal of their liquor license. Although registered voters within five hundred feet of a liquor establishment may not be inclined to protest the initial issuance of a liquor license, they may wish to do so",
-          "chunk_id": 3,
+          "chunk_text": "parks, to promote an environment in which alcohol imbibing patrons do not interfere with minors or other residents. The legislature further finds that section 281-39.5, Hawaii Revised Statutes, currently applies only to the issuance of new liquor licenses, but not the renewal of current licenses, thus creating a safe harbor",
+          "chunk_id": 2,
           "document_name": "HB2"
         },
         {
@@ -143,11 +143,6 @@
         {
           "chunk_text": "HB2 HOUSE OF REPRESENTATIVES H.B. NO. 2 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO LIQUOR LICENSES . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that patrons leaving a liquor establishment can adversely affect neighboring residents",
           "chunk_id": 0,
-          "document_name": "HB2"
-        },
-        {
-          "chunk_text": "this page is for informational purposes only and is not legislation or evidence of legislative intent.",
-          "chunk_id": 9,
           "document_name": "HB2"
         },
         {
@@ -163,6 +158,16 @@
         {
           "chunk_text": "and the renewal of existing liquor licenses, for on-site sale and consumption by the drink [ and not to any renewal of such licenses ].\" SECTION 3. This Act does not affect rights and duties that matured, penalties that were incurred, and proceedings that were begun before its effective date.",
           "chunk_id": 6,
+          "document_name": "HB2"
+        },
+        {
+          "chunk_text": "this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+          "chunk_id": 9,
+          "document_name": "HB2"
+        },
+        {
+          "chunk_text": "the renewal of current licenses, thus creating a safe harbor for existing establishments seeking a renewal of their liquor license. Although registered voters within five hundred feet of a liquor establishment may not be inclined to protest the initial issuance of a liquor license, they may wish to do so",
+          "chunk_id": 3,
           "document_name": "HB2"
         }
       ]
@@ -185,12 +190,12 @@
       },
       {
         "section": "overview",
-        "sentence": "The legislature further finds that section 281-39.5, Hawaii Revised Statutes, currently applies only to the issuance of new liquor licenses, but not the renewal of current licenses, thus creating a safe harbor for existing establishments seeking a renewal of their liquor license.",
+        "sentence": "The legislature further finds that section 281-39.5, Hawaii Revised Statutes, currently applies only to the issuance of new liquor licenses, but not the renewal of current licenses, thus creating a safe harbor for existing establishments.",
         "chunks": [
           {
-            "chunk_id": 3,
+            "chunk_id": 2,
             "citation_number": 1,
-            "chunk_text": "the renewal of current licenses, thus creating a safe harbor for existing establishments seeking a renewal of their liquor license. Although registered voters within five hundred feet of a liquor establishment may not be inclined to protest the initial issuance of a liquor license, they may wish to do so",
+            "chunk_text": "parks, to promote an environment in which alcohol imbibing patrons do not interfere with minors or other residents. The legislature further finds that section 281-39.5, Hawaii Revised Statutes, currently applies only to the issuance of new liquor licenses, but not the renewal of current licenses, thus creating a safe harbor",
             "document_name": "HB2"
           }
         ]
@@ -209,7 +214,7 @@
       },
       {
         "section": "appropriations",
-        "sentence": "This measure does not contain an appropriation.",
+        "sentence": "NO. 2 do not contain any appropriations.",
         "chunks": [
           {
             "chunk_id": 0,
@@ -221,19 +226,19 @@
       },
       {
         "section": "assumptions_and_methodology",
-        "sentence": "The provided legislative documents do not contain information on the assumptions and methodology used for a fiscal impact statement.",
+        "sentence": "The provided documents do not contain any assumptions or methodology related to fiscal impact.",
         "chunks": [
           {
-            "chunk_id": 9,
+            "chunk_id": 0,
             "citation_number": 1,
-            "chunk_text": "this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+            "chunk_text": "HB2 HOUSE OF REPRESENTATIVES H.B. NO. 2 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO LIQUOR LICENSES . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that patrons leaving a liquor establishment can adversely affect neighboring residents",
             "document_name": "HB2"
           }
         ]
       },
       {
         "section": "agency_impact",
-        "sentence": "This measure provides that the Liquor Commission or other licensing agency of each county shall deny the renewal of certain current liquor licenses upon receipt of sufficient protests.",
+        "sentence": "The Liquor Commission or other licensing agency of each county shall deny the renewal of certain current liquor licenses upon receipt of sufficient protests.",
         "chunks": [
           {
             "chunk_id": 8,
@@ -245,7 +250,7 @@
       },
       {
         "section": "agency_impact",
-        "sentence": "By applying the protest provision to license renewals, this measure will likely increase the administrative workload for county liquor licensing agencies.",
+        "sentence": "This section shall apply to both the issuance of new liquor licenses, and the renewal of existing liquor licenses, for on-site sale and consumption by the drink.",
         "chunks": [
           {
             "chunk_id": 5,
@@ -256,44 +261,8 @@
         ]
       },
       {
-        "section": "economic_impact",
-        "sentence": "The provided legislative documents do not contain information regarding the economic impact of this measure.",
-        "chunks": [
-          {
-            "chunk_id": 9,
-            "citation_number": 1,
-            "chunk_text": "this page is for informational purposes only and is not legislation or evidence of legislative intent.",
-            "document_name": "HB2"
-          }
-        ]
-      },
-      {
-        "section": "policy_impact",
-        "sentence": "This Act amends section 281-39.5, Hawaii Revised Statutes, to apply to both the issuance of new liquor licenses and the renewal of existing liquor licenses.",
-        "chunks": [
-          {
-            "chunk_id": 5,
-            "citation_number": 1,
-            "chunk_text": "renewal of certain liquor licenses. SECTION 2 . Section 281-39.5, Hawaii Revised Statutes, is amended by amending subsection (b) to read as follows: \"(b) This section shall apply [ only ] to both the issuance of new liquor licenses , and the renewal of existing liquor licenses, for on-site sale",
-            "document_name": "HB2"
-          }
-        ]
-      },
-      {
-        "section": "policy_impact",
-        "sentence": "This change is intended to provide communities the opportunity to protest the renewal of certain liquor licenses, which they may wish to do after they have learned more about the establishment.",
-        "chunks": [
-          {
-            "chunk_id": 4,
-            "citation_number": 1,
-            "chunk_text": "of a liquor license, they may wish to do so when the license becomes subject to renewal and they have learned more about the establishment. Accordingly, the purpose of this Act is to provide communities the opportunity to protest the renewal of certain liquor licenses. SECTION 2 . Section 281-39.5,",
-            "document_name": "HB2"
-          }
-        ]
-      },
-      {
-        "section": "policy_impact",
-        "sentence": "The Act does not affect rights and duties that matured, penalties that were incurred, and proceedings that were begun before its effective date.",
+        "section": "agency_impact",
+        "sentence": "This Act does not affect rights and duties that matured, penalties that were incurred, and proceedings that were begun before its effective date.",
         "chunks": [
           {
             "chunk_id": 6,
@@ -304,8 +273,8 @@
         ]
       },
       {
-        "section": "revenue_sources",
-        "sentence": "The provided legislative documents do not specify any revenue sources related to this measure.",
+        "section": "economic_impact",
+        "sentence": "The provided text does not specify any direct economic impacts resulting from this measure.",
         "chunks": [
           {
             "chunk_id": 9,
@@ -316,8 +285,56 @@
         ]
       },
       {
+        "section": "policy_impact",
+        "sentence": "This Act amends Section 281-39.5, Hawaii Revised Statutes, to apply to both the issuance of new liquor licenses and the renewal of existing liquor licenses.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 1,
+            "chunk_text": "renewal of certain liquor licenses. SECTION 2 . Section 281-39.5, Hawaii Revised Statutes, is amended by amending subsection (b) to read as follows: \"(b) This section shall apply [ only ] to both the issuance of new liquor licenses , and the renewal of existing liquor licenses, for on-site sale",
+            "document_name": "HB2"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "This removes what the legislature finds to be a safe harbor for existing establishments seeking a renewal of their liquor license.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 1,
+            "chunk_text": "the renewal of current licenses, thus creating a safe harbor for existing establishments seeking a renewal of their liquor license. Although registered voters within five hundred feet of a liquor establishment may not be inclined to protest the initial issuance of a liquor license, they may wish to do so",
+            "document_name": "HB2"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The purpose of this Act is to provide communities the opportunity to protest the renewal of certain liquor licenses.",
+        "chunks": [
+          {
+            "chunk_id": 4,
+            "citation_number": 1,
+            "chunk_text": "of a liquor license, they may wish to do so when the license becomes subject to renewal and they have learned more about the establishment. Accordingly, the purpose of this Act is to provide communities the opportunity to protest the renewal of certain liquor licenses. SECTION 2 . Section 281-39.5,",
+            "document_name": "HB2"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The provided legislative documents do not specify any revenue sources.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB2 HOUSE OF REPRESENTATIVES H.B. NO. 2 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO LIQUOR LICENSES . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that patrons leaving a liquor establishment can adversely affect neighboring residents",
+            "document_name": "HB2"
+          }
+        ]
+      },
+      {
         "section": "six_year_fiscal_implications",
-        "sentence": "The provided legislative documents do not contain information on the six-year fiscal implications of this measure.",
+        "sentence": "The provided text does not contain information regarding any six-year fiscal implications for this measure.",
         "chunks": [
           {
             "chunk_id": 9,
@@ -329,7 +346,7 @@
       },
       {
         "section": "operating_revenue_impact",
-        "sentence": "The provided legislative documents do not contain information on the operating revenue impact of this measure.",
+        "sentence": "The provided text does not contain information regarding any operating revenue impact for this measure.",
         "chunks": [
           {
             "chunk_id": 9,
@@ -341,7 +358,7 @@
       },
       {
         "section": "capital_expenditure_impact",
-        "sentence": "The provided legislative documents do not contain information on the capital expenditure impact of this measure.",
+        "sentence": "The provided text does not contain information regarding any capital expenditure impact for this measure.",
         "chunks": [
           {
             "chunk_id": 9,
@@ -353,7 +370,7 @@
       },
       {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "The provided legislative documents do not contain information on the fiscal implications of this measure after six years.",
+        "sentence": "The provided text does not contain information regarding any fiscal implications after six years for this measure.",
         "chunks": [
           {
             "chunk_id": 9,
@@ -365,24 +382,12 @@
       },
       {
         "section": "updates_from_previous_fiscal_note",
-        "sentence": "No previous fiscal note was provided in the source documents.",
+        "sentence": "No previous fiscal note was provided for comparison.",
         "chunks": [
           {
-            "chunk_id": 9,
+            "chunk_id": 0,
             "citation_number": 1,
-            "chunk_text": "this page is for informational purposes only and is not legislation or evidence of legislative intent.",
-            "document_name": "HB2"
-          }
-        ]
-      },
-      {
-        "section": "Full_Time_Equivalent_Positions",
-        "sentence": "The provided legislative documents do not specify any impact on Full Time Equivalent (FTE) positions.",
-        "chunks": [
-          {
-            "chunk_id": 9,
-            "citation_number": 1,
-            "chunk_text": "this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+            "chunk_text": "HB2 HOUSE OF REPRESENTATIVES H.B. NO. 2 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT RELATING TO LIQUOR LICENSES . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that patrons leaving a liquor establishment can adversely affect neighboring residents",
             "document_name": "HB2"
           }
         ]
@@ -434,12 +439,8 @@
         "description": "Long-term fiscal obligations beyond six years"
       },
       "updates_from_previous_fiscal_note": {
-        "prompt": "If you are given a previous fisacl not. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fisacl note.",
+        "prompt": "If you are given a previous fiscal note. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fiscal note.",
         "description": "Updates from previous fiscal note"
-      },
-      "Full Time Equivalent Positions": {
-        "prompt": "If there has been additions or modifications to any FTE positions. Be very specific on the number and whether it lists the cost.",
-        "description": "Full Time Equivalent Position"
       }
     }
   },
@@ -487,6 +488,6 @@
       }
     ]
   },
-  "generation_timestamp": "2025-10-30T11:32:42.935146",
-  "generation_timestamp_unix": 1761859962.935154
+  "generation_timestamp": "2025-10-30T13:26:04.943617",
+  "generation_timestamp_unix": 1761866764.943625
 }

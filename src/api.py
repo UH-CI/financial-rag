@@ -2597,77 +2597,293 @@ async def save_strikethroughs(request: Request):
         print(f"❌ Error saving strikethroughs: {e}")
         raise HTTPException(status_code=500, detail=f"Failed to save strikethroughs: {str(e)}")
 
+# Property Prompts Management - Helper Functions
+def get_prompts_config_file():
+    """Get path to property prompts config file"""
+    return Path(__file__).parent / "fiscal_notes" / "property_prompts_config.json"
+
+def migrate_old_config_to_templates():
+    """Migrate old single-prompt config to new template structure"""
+    from fiscal_notes.generation.step5_fiscal_note_gen import PROPERTY_PROMPTS
+    from datetime import datetime
+    
+    config_file = get_prompts_config_file()
+    
+    if not config_file.exists():
+        # No config exists, create default
+        return {
+            "templates": [
+                {
+                    "id": "default",
+                    "name": "Default",
+                    "is_default": True,
+                    "created_at": datetime.now().isoformat(),
+                    "prompts": PROPERTY_PROMPTS
+                }
+            ],
+            "active_template_id": "default"
+        }
+    
+    with open(config_file, 'r') as f:
+        old_config = json.load(f)
+    
+    # Check if already migrated
+    if "templates" in old_config:
+        return old_config
+    
+    # Old format - migrate
+    print("🔄 Migrating old property prompts config to template format...")
+    
+    new_config = {
+        "templates": [
+            {
+                "id": "default",
+                "name": "Default",
+                "is_default": True,
+                "created_at": datetime.now().isoformat(),
+                "prompts": PROPERTY_PROMPTS
+            }
+        ],
+        "active_template_id": "default"
+    }
+    
+    # If old config was custom (different from default), preserve it
+    if old_config != PROPERTY_PROMPTS:
+        new_config["templates"].append({
+            "id": "custom_migrated",
+            "name": "Custom Template",
+            "is_default": False,
+            "created_at": datetime.now().isoformat(),
+            "prompts": old_config
+        })
+        new_config["active_template_id"] = "custom_migrated"
+        print("✅ Migrated custom prompts to 'Custom Template'")
+    
+    # Save migrated config
+    with open(config_file, 'w') as f:
+        json.dump(new_config, f, indent=2, ensure_ascii=False)
+    
+    print("✅ Migration complete")
+    return new_config
+
+def load_templates_config():
+    """Load templates config, migrating if necessary"""
+    config = migrate_old_config_to_templates()
+    return config
+
+def save_templates_config(config):
+    """Save templates config to file"""
+    config_file = get_prompts_config_file()
+    config_file.parent.mkdir(parents=True, exist_ok=True)
+    with open(config_file, 'w') as f:
+        json.dump(config, f, indent=2, ensure_ascii=False)
+
 # Property Prompts Management Endpoints
 @app.get("/api/property-prompts")
 async def get_property_prompts():
     """
-    Get the current property prompts configuration.
-    Returns custom prompts if they exist, otherwise returns defaults.
+    Get all property prompt templates and active template ID.
+    Automatically migrates old config format if needed.
     """
     try:
-        from fiscal_notes.generation.step5_fiscal_note_gen import PROPERTY_PROMPTS
-        
-        # Check for custom prompts file
-        custom_prompts_file = Path(__file__).parent / "fiscal_notes" / "property_prompts_config.json"
-        
-        if custom_prompts_file.exists():
-            with open(custom_prompts_file, 'r') as f:
-                custom_prompts = json.load(f)
-            print(f"✅ Loaded custom property prompts from {custom_prompts_file}")
-            return {
-                "prompts": custom_prompts,
-                "is_custom": True
-            }
-        else:
-            print(f"📋 Returning default property prompts")
-            return {
-                "prompts": PROPERTY_PROMPTS,
-                "is_custom": False
-            }
+        config = load_templates_config()
+        return {
+            "templates": config.get("templates", []),
+            "active_template_id": config.get("active_template_id", "default")
+        }
     except Exception as e:
         print(f"❌ Error loading property prompts: {e}")
         raise HTTPException(status_code=500, detail=f"Failed to load property prompts: {str(e)}")
 
-@app.post("/api/property-prompts")
-async def save_property_prompts(request: Request):
+@app.post("/api/property-prompts/template")
+async def create_template(request: Request):
     """
-    Save custom property prompts configuration.
-    Validates structure and saves to config file.
+    Create a new template by copying an existing one.
     """
     try:
+        from datetime import datetime
+        import time
+        
         data = await request.json()
-        prompts = data.get('prompts', {})
+        source_template_id = data.get('source_template_id')
+        name = data.get('name', 'New Template')
         
-        # Validate structure
-        if not prompts or not isinstance(prompts, dict):
-            raise HTTPException(status_code=400, detail="Invalid prompts structure")
+        if not source_template_id:
+            raise HTTPException(status_code=400, detail="source_template_id is required")
         
-        # Validate each section has required fields
-        for section_key, section_data in prompts.items():
-            if not isinstance(section_data, dict):
-                raise HTTPException(status_code=400, detail=f"Section '{section_key}' must be an object")
-            if 'prompt' not in section_data or 'description' not in section_data:
-                raise HTTPException(status_code=400, detail=f"Section '{section_key}' missing required fields")
+        config = load_templates_config()
         
-        # Save to config file
-        custom_prompts_file = Path(__file__).parent / "fiscal_notes" / "property_prompts_config.json"
-        custom_prompts_file.parent.mkdir(parents=True, exist_ok=True)
+        # Find source template
+        source_template = None
+        for template in config['templates']:
+            if template['id'] == source_template_id:
+                source_template = template
+                break
         
-        with open(custom_prompts_file, 'w') as f:
-            json.dump(prompts, f, indent=2, ensure_ascii=False)
+        if not source_template:
+            raise HTTPException(status_code=404, detail=f"Source template '{source_template_id}' not found")
         
-        print(f"✅ Saved custom property prompts to {custom_prompts_file}")
+        # Create new template
+        new_template = {
+            "id": f"custom_{int(time.time())}",
+            "name": name,
+            "is_default": False,
+            "created_at": datetime.now().isoformat(),
+            "prompts": source_template['prompts'].copy()
+        }
+        
+        config['templates'].append(new_template)
+        save_templates_config(config)
+        
+        print(f"✅ Created new template: {new_template['name']} (ID: {new_template['id']})")
         
         return {
             "success": True,
-            "message": f"Saved {len(prompts)} property prompt sections",
-            "section_count": len(prompts)
+            "template": new_template,
+            "message": f"Created template '{name}'"
         }
     except HTTPException:
         raise
     except Exception as e:
-        print(f"❌ Error saving property prompts: {e}")
-        raise HTTPException(status_code=500, detail=f"Failed to save property prompts: {str(e)}")
+        print(f"❌ Error creating template: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to create template: {str(e)}")
+
+@app.put("/api/property-prompts/template/{template_id}")
+async def update_template(template_id: str, request: Request):
+    """
+    Update an existing template's name and/or prompts.
+    """
+    try:
+        data = await request.json()
+        name = data.get('name')
+        prompts = data.get('prompts')
+        
+        config = load_templates_config()
+        
+        # Find template
+        template = None
+        for t in config['templates']:
+            if t['id'] == template_id:
+                template = t
+                break
+        
+        if not template:
+            raise HTTPException(status_code=404, detail=f"Template '{template_id}' not found")
+        
+        # Cannot modify default template name
+        if template['is_default'] and name and name != "Default":
+            raise HTTPException(status_code=400, detail="Cannot rename default template")
+        
+        # Update fields
+        if name:
+            template['name'] = name
+        
+        if prompts:
+            # Validate prompts structure
+            if not isinstance(prompts, dict):
+                raise HTTPException(status_code=400, detail="Invalid prompts structure")
+            
+            for section_key, section_data in prompts.items():
+                if not isinstance(section_data, dict):
+                    raise HTTPException(status_code=400, detail=f"Section '{section_key}' must be an object")
+                if 'prompt' not in section_data or 'description' not in section_data:
+                    raise HTTPException(status_code=400, detail=f"Section '{section_key}' missing required fields")
+            
+            template['prompts'] = prompts
+        
+        save_templates_config(config)
+        
+        print(f"✅ Updated template: {template['name']} (ID: {template_id})")
+        
+        return {
+            "success": True,
+            "template": template,
+            "message": f"Updated template '{template['name']}'"
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"❌ Error updating template: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to update template: {str(e)}")
+
+@app.delete("/api/property-prompts/template/{template_id}")
+async def delete_template(template_id: str):
+    """
+    Delete a template. Cannot delete default or active template.
+    """
+    try:
+        config = load_templates_config()
+        
+        # Find template
+        template = None
+        template_index = None
+        for i, t in enumerate(config['templates']):
+            if t['id'] == template_id:
+                template = t
+                template_index = i
+                break
+        
+        if not template:
+            raise HTTPException(status_code=404, detail=f"Template '{template_id}' not found")
+        
+        # Cannot delete default template
+        if template['is_default']:
+            raise HTTPException(status_code=400, detail="Cannot delete default template")
+        
+        # Cannot delete active template
+        if config['active_template_id'] == template_id:
+            raise HTTPException(status_code=400, detail="Cannot delete active template. Switch to another template first.")
+        
+        # Delete template
+        config['templates'].pop(template_index)
+        save_templates_config(config)
+        
+        print(f"✅ Deleted template: {template['name']} (ID: {template_id})")
+        
+        return {
+            "success": True,
+            "message": f"Deleted template '{template['name']}'"
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"❌ Error deleting template: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to delete template: {str(e)}")
+
+@app.put("/api/property-prompts/active")
+async def set_active_template(request: Request):
+    """
+    Set the active template for fiscal note generation.
+    """
+    try:
+        data = await request.json()
+        template_id = data.get('template_id')
+        
+        if not template_id:
+            raise HTTPException(status_code=400, detail="template_id is required")
+        
+        config = load_templates_config()
+        
+        # Verify template exists
+        template_exists = any(t['id'] == template_id for t in config['templates'])
+        if not template_exists:
+            raise HTTPException(status_code=404, detail=f"Template '{template_id}' not found")
+        
+        config['active_template_id'] = template_id
+        save_templates_config(config)
+        
+        print(f"✅ Set active template to: {template_id}")
+        
+        return {
+            "success": True,
+            "active_template_id": template_id,
+            "message": f"Active template set to '{template_id}'"
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"❌ Error setting active template: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to set active template: {str(e)}")
 
 @app.post("/api/property-prompts/reset")
 async def reset_property_prompts():

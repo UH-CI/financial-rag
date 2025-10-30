@@ -445,7 +445,7 @@ const FiscalNoteGeneration = () => {
             onClick={() => setIsCreateModalOpen(true)}
             className="w-full px-4 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
           >
-            + Create New Fiscal Note
+            + New Fiscal Note
           </button>
         </div>
 
@@ -558,11 +558,11 @@ const FiscalNoteGeneration = () => {
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
               </svg>
-              <span>Create New Fiscal Note</span>
+              <span>New Fiscal Note</span>
             </button>
             <button
               onClick={() => setIsSettingsOpen(true)}
-              className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center"
+              className="bg-gray-300 hover:bg-gray-200 text-gray-900 font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center"
               title="Property Prompts Settings"
             >
               <Settings className="w-5 h-5" />

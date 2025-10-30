@@ -221,28 +221,55 @@ export interface PropertyPrompts {
   [key: string]: PropertyPrompt;
 }
 
+export interface PropertyPromptTemplate {
+  id: string;
+  name: string;
+  is_default: boolean;
+  created_at: string;
+  prompts: PropertyPrompts;
+}
+
 /**
- * Get current property prompts configuration
- */
-export const getPropertyPrompts = async (): Promise<{ prompts: PropertyPrompts; is_custom: boolean }> => {
-  const response = await api.get('/api/property-prompts');
-  return response.data;
+* Get all property prompt templates and active template ID
+*/
+export const getPropertyPrompts = async (): Promise<{ templates: PropertyPromptTemplate[]; active_template_id: string }> => {
+const response = await api.get('/api/property-prompts');
+return response.data;
 };
 
 /**
- * Save custom property prompts
- */
-export const savePropertyPrompts = async (prompts: PropertyPrompts): Promise<{ success: boolean; message: string; section_count: number }> => {
-  const response = await api.post('/api/property-prompts', { prompts });
-  return response.data;
+* Create a new template by copying an existing one
+*/
+export const createPropertyPromptTemplate = async (sourceTemplateId: string, name: string): Promise<{ success: boolean; template: PropertyPromptTemplate; message: string }> => {
+const response = await api.post('/api/property-prompts/template', {
+source_template_id: sourceTemplateId,
+name
+});
+return response.data;
 };
 
 /**
- * Reset property prompts to defaults
- */
-export const resetPropertyPrompts = async (): Promise<{ success: boolean; message: string; prompts: PropertyPrompts; is_custom: boolean }> => {
-  const response = await api.post('/api/property-prompts/reset');
-  return response.data;
+* Update an existing template
+*/
+export const updatePropertyPromptTemplate = async (templateId: string, data: { name?: string; prompts?: PropertyPrompts }): Promise<{ success: boolean; template: PropertyPromptTemplate; message: string }> => {
+const response = await api.put(`/api/property-prompts/template/${templateId}`, data);
+return response.data;
+};
+
+/**
+* Delete a template
+*/
+export const deletePropertyPromptTemplate = async (templateId: string): Promise<{ success: boolean; message: string }> => {
+const response = await api.delete(`/api/property-prompts/template/${templateId}`);
+return response.data;
+};
+
+/**
+* Set the active template for fiscal note generation
+*/
+export const setActivePropertyPromptTemplate = async (templateId: string): Promise<{ success: boolean; active_template_id: string; message: string }> => {
+const response = await api.put('/api/property-prompts/active', { template_id: templateId });
+return response.data;
 };
 
 /**

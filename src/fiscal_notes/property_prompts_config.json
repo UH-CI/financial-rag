@@ -1,54 +1,173 @@
 {
-  "overview": {
-    "prompt": "Using the provided legislative documents, statutes, and testimonies, write a clear summary describing the purpose, scope, and key components of the proposed measure or bill, including any pilot or permanent programs, reporting requirements, and sunset clauses. This should be around 3 sentences.",
-    "description": "General overview and summary of the measure"
-  },
-  "appropriations": {
-    "prompt": "Based on budgetary data and legislative appropriations, detail the funding allocated for the program or measure, including fiscal years, amounts, intended uses such as staffing, training, contracts, technology, etc... This should be around 3 sentences.",
-    "description": "Funding allocation and appropriations details"
-  },
-  "assumptions_and_methodology": {
-    "prompt": "Explain the assumptions, cost estimation methods, and data sources used to calculate the financial projections for this program or measure, referencing comparable programs or historical budgets where applicable. This should be around 3 sentences.",
-    "description": "Cost estimation methodology and assumptions"
-  },
-  "agency_impact": {
-    "prompt": "Describe the anticipated operational, administrative, and budgetary impact of the program or measure on the relevant government agency or department, including supervision, staffing, and resource allocation. This should be around 3 sentences.",
-    "description": "Impact on government agencies and departments"
-  },
-  "economic_impact": {
-    "prompt": "Summarize the expected economic effects of the program or measure, such as cost savings, potential reductions in related expenditures, benefits to the community, and any relevant performance or participation statistics. This should be around 3 sentences.",
-    "description": "Economic effects and community benefits"
-  },
-  "policy_impact": {
-    "prompt": "Analyze the policy implications of the measure, including how it modifies existing laws or programs, its role within broader legislative strategies, and its potential effects on state or local governance. This should be around 3 sentences.",
-    "description": "Policy implications and legislative analysis"
-  },
-  "revenue_sources": {
-    "prompt": "Identify and describe the funding sources that will support the program or measure, such as general funds, grants, fees, or other revenue streams, based on the provided fiscal documents. This should be around 3 sentences.",
-    "description": "Funding sources and revenue streams"
-  },
-  "six_year_fiscal_implications": {
-    "prompt": "Provide a multi-year fiscal outlook (e.g., six years) for the program or measure, projecting costs, staffing changes, recurring expenses, and assumptions about program expansion or permanence using available budget and workload data. This should be around 10 sentences.",
-    "description": "Six-year fiscal projections and outlook"
-  },
-  "operating_revenue_impact": {
-    "prompt": "Describe any anticipated impacts on operating revenues resulting from the program or measure, including increases, decreases, or changes in revenue streams. This should be around 3 sentences.",
-    "description": "Operating revenue impacts"
-  },
-  "Full Time Equivalent Positions": {
-    "prompt": "If there has been additions or modifications to any FTE positions. Be very specific on the number and whether it lists the cost.",
-    "description": "Full Time Equivalent Position"
-  },
-  "capital_expenditure_impact": {
-    "prompt": "Outline any expected capital expenditures related to the program or measure, such as investments in facilities, equipment, or technology infrastructure, based on capital budgets or agency plans. This should be around 3 sentences.",
-    "description": "Capital expenditure requirements"
-  },
-  "fiscal_implications_after_6_years": {
-    "prompt": "Summarize the ongoing fiscal obligations after the initial multi-year period for the program or measure, including annual operating costs, expected number of program sites or units, and the sustainability of funding. This should be around 3 sentences.",
-    "description": "Long-term fiscal obligations beyond six years"
-  },
-  "updates_from_previous_fiscal_note": {
-    "prompt": "If you are given a previous fisacl not. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fisacl note.",
-    "description": "Updates from previous fiscal note"
-  }
+  "templates": [
+    {
+      "id": "default",
+      "name": "Default",
+      "is_default": true,
+      "created_at": "2025-10-30T13:13:33.740784",
+      "prompts": {
+        "overview": {
+          "prompt": "Using the provided legislative documents, statutes, and testimonies, write a clear summary describing the purpose, scope, and key components of the proposed measure or bill, including any pilot or permanent programs, reporting requirements, and sunset clauses. This should be around 3 sentences.",
+          "description": "General overview and summary of the measure"
+        },
+        "appropriations": {
+          "prompt": "Based on budgetary data and legislative appropriations, detail the funding allocated for the program or measure, including fiscal years, amounts, intended uses such as staffing, training, contracts, technology, etc... This should be around 3 sentences.",
+          "description": "Funding allocation and appropriations details"
+        },
+        "assumptions_and_methodology": {
+          "prompt": "Explain the assumptions, cost estimation methods, and data sources used to calculate the financial projections for this program or measure, referencing comparable programs or historical budgets where applicable. This should be around 3 sentences.",
+          "description": "Cost estimation methodology and assumptions"
+        },
+        "agency_impact": {
+          "prompt": "Describe the anticipated operational, administrative, and budgetary impact of the program or measure on the relevant government agency or department, including supervision, staffing, and resource allocation. This should be around 3 sentences.",
+          "description": "Impact on government agencies and departments"
+        },
+        "economic_impact": {
+          "prompt": "Summarize the expected economic effects of the program or measure, such as cost savings, potential reductions in related expenditures, benefits to the community, and any relevant performance or participation statistics. This should be around 3 sentences.",
+          "description": "Economic effects and community benefits"
+        },
+        "policy_impact": {
+          "prompt": "Analyze the policy implications of the measure, including how it modifies existing laws or programs, its role within broader legislative strategies, and its potential effects on state or local governance. This should be around 3 sentences.",
+          "description": "Policy implications and legislative analysis"
+        },
+        "revenue_sources": {
+          "prompt": "Identify and describe the funding sources that will support the program or measure, such as general funds, grants, fees, or other revenue streams, based on the provided fiscal documents. This should be around 3 sentences.",
+          "description": "Funding sources and revenue streams"
+        },
+        "six_year_fiscal_implications": {
+          "prompt": "Provide a multi-year fiscal outlook (e.g., six years) for the program or measure, projecting costs, staffing changes, recurring expenses, and assumptions about program expansion or permanence using available budget and workload data. This should be around 10 sentences.",
+          "description": "Six-year fiscal projections and outlook"
+        },
+        "operating_revenue_impact": {
+          "prompt": "Describe any anticipated impacts on operating revenues resulting from the program or measure, including increases, decreases, or changes in revenue streams. This should be around 3 sentences.",
+          "description": "Operating revenue impacts"
+        },
+        "capital_expenditure_impact": {
+          "prompt": "Outline any expected capital expenditures related to the program or measure, such as investments in facilities, equipment, or technology infrastructure, based on capital budgets or agency plans. This should be around 3 sentences.",
+          "description": "Capital expenditure requirements"
+        },
+        "fiscal_implications_after_6_years": {
+          "prompt": "Summarize the ongoing fiscal obligations after the initial multi-year period for the program or measure, including annual operating costs, expected number of program sites or units, and the sustainability of funding. This should be around 3 sentences.",
+          "description": "Long-term fiscal obligations beyond six years"
+        },
+        "updates_from_previous_fiscal_note": {
+          "prompt": "If you are given a previous fiscal note. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fiscal note.",
+          "description": "Updates from previous fiscal note"
+        }
+      }
+    },
+    {
+      "id": "custom_migrated",
+      "name": "Custom Template",
+      "is_default": false,
+      "created_at": "2025-10-30T13:13:33.740795",
+      "prompts": {
+        "overview": {
+          "prompt": "Using the provided legislative documents, statutes, and testimonies, write a clear summary describing the purpose, scope, and key components of the proposed measure or bill, including any pilot or permanent programs, reporting requirements, and sunset clauses. This should be around 3 sentences.",
+          "description": "General overview and summary of the measure"
+        },
+        "appropriations": {
+          "prompt": "Based on budgetary data and legislative appropriations, detail the funding allocated for the program or measure, including fiscal years, amounts, intended uses such as staffing, training, contracts, technology, etc... This should be around 3 sentences.",
+          "description": "Funding allocation and appropriations details"
+        },
+        "assumptions_and_methodology": {
+          "prompt": "Explain the assumptions, cost estimation methods, and data sources used to calculate the financial projections for this program or measure, referencing comparable programs or historical budgets where applicable. This should be around 3 sentences.",
+          "description": "Cost estimation methodology and assumptions"
+        },
+        "agency_impact": {
+          "prompt": "Describe the anticipated operational, administrative, and budgetary impact of the program or measure on the relevant government agency or department, including supervision, staffing, and resource allocation. This should be around 3 sentences.",
+          "description": "Impact on government agencies and departments"
+        },
+        "economic_impact": {
+          "prompt": "Summarize the expected economic effects of the program or measure, such as cost savings, potential reductions in related expenditures, benefits to the community, and any relevant performance or participation statistics. This should be around 3 sentences.",
+          "description": "Economic effects and community benefits"
+        },
+        "policy_impact": {
+          "prompt": "Analyze the policy implications of the measure, including how it modifies existing laws or programs, its role within broader legislative strategies, and its potential effects on state or local governance. This should be around 3 sentences.",
+          "description": "Policy implications and legislative analysis"
+        },
+        "revenue_sources": {
+          "prompt": "Identify and describe the funding sources that will support the program or measure, such as general funds, grants, fees, or other revenue streams, based on the provided fiscal documents. This should be around 3 sentences.",
+          "description": "Funding sources and revenue streams"
+        },
+        "six_year_fiscal_implications": {
+          "prompt": "Provide a multi-year fiscal outlook (e.g., six years) for the program or measure, projecting costs, staffing changes, recurring expenses, and assumptions about program expansion or permanence using available budget and workload data. This should be around 10 sentences.",
+          "description": "Six-year fiscal projections and outlook"
+        },
+        "operating_revenue_impact": {
+          "prompt": "Describe any anticipated impacts on operating revenues resulting from the program or measure, including increases, decreases, or changes in revenue streams. This should be around 3 sentences.",
+          "description": "Operating revenue impacts"
+        },
+        "capital_expenditure_impact": {
+          "prompt": "Outline any expected capital expenditures related to the program or measure, such as investments in facilities, equipment, or technology infrastructure, based on capital budgets or agency plans. This should be around 3 sentences.",
+          "description": "Capital expenditure requirements"
+        },
+        "fiscal_implications_after_6_years": {
+          "prompt": "Summarize the ongoing fiscal obligations after the initial multi-year period for the program or measure, including annual operating costs, expected number of program sites or units, and the sustainability of funding. This should be around 3 sentences.",
+          "description": "Long-term fiscal obligations beyond six years"
+        },
+        "updates_from_previous_fiscal_note": {
+          "prompt": "If you are given a previous fisacl not. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fisacl note.",
+          "description": "Updates from previous fiscal note"
+        }
+      }
+    },
+    {
+      "id": "custom_1761867089",
+      "name": "RJ Template",
+      "is_default": false,
+      "created_at": "2025-10-30T13:31:29.407295",
+      "prompts": {
+        "overview": {
+          "prompt": "Using the provided legislative documents, statutes, and testimonies, write a clear summary describing the purpose, scope, and key components of the proposed measure or bill, including any pilot or permanent programs, reporting requirements, and sunset clauses. This should be around 3 sentences.",
+          "description": "General overview and summary of the measure"
+        },
+        "appropriations": {
+          "prompt": "Based on budgetary data and legislative appropriations, detail the funding allocated for the program or measure, including fiscal years, amounts, intended uses such as staffing, training, contracts, technology, etc... This should be around 3 sentences.",
+          "description": "Funding allocation and appropriations details"
+        },
+        "assumptions_and_methodology": {
+          "prompt": "Explain the assumptions, cost estimation methods, and data sources used to calculate the financial projections for this program or measure, referencing comparable programs or historical budgets where applicable. This should be around 3 sentences.",
+          "description": "Cost estimation methodology and assumptions"
+        },
+        "agency_impact": {
+          "prompt": "Describe the anticipated operational, administrative, and budgetary impact of the program or measure on the relevant government agency or department, including supervision, staffing, and resource allocation. This should be around 3 sentences.",
+          "description": "Impact on government agencies and departments"
+        },
+        "economic_impact": {
+          "prompt": "Summarize the expected economic effects of the program or measure, such as cost savings, potential reductions in related expenditures, benefits to the community, and any relevant performance or participation statistics. This should be around 3 sentences.",
+          "description": "Economic effects and community benefits"
+        },
+        "policy_impact": {
+          "prompt": "Analyze the policy implications of the measure, including how it modifies existing laws or programs, its role within broader legislative strategies, and its potential effects on state or local governance. This should be around 3 sentences.",
+          "description": "Policy implications and legislative analysis"
+        },
+        "revenue_sources": {
+          "prompt": "Identify and describe the funding sources that will support the program or measure, such as general funds, grants, fees, or other revenue streams, based on the provided fiscal documents. This should be around 3 sentences.",
+          "description": "Funding sources and revenue streams"
+        },
+        "six_year_fiscal_implications": {
+          "prompt": "Provide a multi-year fiscal outlook (e.g., six years) for the program or measure, projecting costs, staffing changes, recurring expenses, and assumptions about program expansion or permanence using available budget and workload data. This should be around 10 sentences.",
+          "description": "Six-year fiscal projections and outlook"
+        },
+        "operating_revenue_impact": {
+          "prompt": "Describe any anticipated impacts on operating revenues resulting from the program or measure, including increases, decreases, or changes in revenue streams. This should be around 3 sentences.",
+          "description": "Operating revenue impacts"
+        },
+        "capital_expenditure_impact": {
+          "prompt": "Outline any expected capital expenditures related to the program or measure, such as investments in facilities, equipment, or technology infrastructure, based on capital budgets or agency plans. This should be around 3 sentences.",
+          "description": "Capital expenditure requirements"
+        },
+        "fiscal_implications_after_6_years": {
+          "prompt": "Summarize the ongoing fiscal obligations after the initial multi-year period for the program or measure, including annual operating costs, expected number of program sites or units, and the sustainability of funding. This should be around 3 sentences.",
+          "description": "Long-term fiscal obligations beyond six years"
+        },
+        "updates_from_previous_fiscal_note": {
+          "prompt": "If you are given a previous fiscal note. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fiscal note.",
+          "description": "Updates from previous fiscal note"
+        }
+      }
+    }
+  ],
+  "active_template_id": "default"
 }

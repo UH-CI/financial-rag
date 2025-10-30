@@ -908,35 +908,67 @@ PROPERTY_PROMPTS = {
     "operating_revenue_impact": { "prompt": "Describe any anticipated impacts on operating revenues resulting from the program or measure, including increases, decreases, or changes in revenue streams. This should be around 3 sentences.", "description": "Operating revenue impacts" }, 
     "capital_expenditure_impact": { "prompt": "Outline any expected capital expenditures related to the program or measure, such as investments in facilities, equipment, or technology infrastructure, based on capital budgets or agency plans. This should be around 3 sentences.", "description": "Capital expenditure requirements" }, 
     "fiscal_implications_after_6_years": { "prompt": "Summarize the ongoing fiscal obligations after the initial multi-year period for the program or measure, including annual operating costs, expected number of program sites or units, and the sustainability of funding. This should be around 3 sentences.", "description": "Long-term fiscal obligations beyond six years" },
-    "updates_from_previous_fiscal_note" : {"prompt": "If you are given a previous fisacl not. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fisacl note.", "description": "Updates from previous fiscal note"}
+    "updates_from_previous_fiscal_note" : {"prompt": "If you are given a previous fiscal note. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fiscal note.", "description": "Updates from previous fiscal note"}
     }
 
 def load_property_prompts():
     """
-    Load property prompts from custom config file if it exists, otherwise return defaults.
+    Load property prompts from the active template in config file.
+    Falls back to default prompts if config doesn't exist or has issues.
     """
+    import os
+    import json
+    import traceback
+    
     try:
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        parent_dir = os.path.dirname(script_dir)  # Go up to fiscal_notes directory
-        custom_prompts_file = os.path.join(parent_dir, "property_prompts_config.json")
+        # Path to prompts config
+        config_path = os.path.join(
+            os.path.dirname(os.path.dirname(__file__)),
+            "property_prompts_config.json"
+        )
         
-        print(f"🔍 Looking for custom prompts at: {custom_prompts_file}")
-        print(f"🔍 File exists: {os.path.exists(custom_prompts_file)}")
+        print(f"🔍 Looking for custom prompts at: {config_path}")
+        print(f"🔍 File exists: {os.path.exists(config_path)}")
         
-        if os.path.exists(custom_prompts_file):
-            with open(custom_prompts_file, 'r') as f:
-                custom_prompts = json.load(f)
-            print(f"✅ Loaded custom property prompts from {custom_prompts_file}")
-            print(f"✅ Number of sections: {len(custom_prompts)}")
-            print(f"✅ Section keys: {list(custom_prompts.keys())}")
-            return custom_prompts
-        else:
-            print(f"📋 Using default property prompts (file not found)")
-            print(f"📋 Number of default sections: {len(PROPERTY_PROMPTS)}")
+        if not os.path.exists(config_path):
+            print(f"📋 No config found, using defaults")
             return PROPERTY_PROMPTS
+        
+        with open(config_path, 'r') as f:
+            config = json.load(f)
+        
+        # Check if new template format
+        if "templates" in config:
+            active_template_id = config.get("active_template_id", "default")
+            print(f"✅ Using template-based config, active template: {active_template_id}")
+            
+            # Find active template
+            for template in config.get("templates", []):
+                if template["id"] == active_template_id:
+                    prompts = template["prompts"]
+                    print(f"✅ Loaded prompts from template: {template['name']}")
+                    print(f"✅ Number of sections: {len(prompts)}")
+                    print(f"✅ Section keys: {list(prompts.keys())}")
+                    return prompts
+            
+            # Active template not found, use default template
+            print(f"⚠️ Active template '{active_template_id}' not found, using default")
+            for template in config.get("templates", []):
+                if template.get("is_default", False):
+                    return template["prompts"]
+            
+            # No default template found, use PROPERTY_PROMPTS
+            print(f"⚠️ No default template found, using hardcoded defaults")
+            return PROPERTY_PROMPTS
+        else:
+            # Old format - direct prompts object
+            print(f"✅ Loaded custom property prompts (old format)")
+            print(f"✅ Number of sections: {len(config)}")
+            print(f"✅ Section keys: {list(config.keys())}")
+            return config
+            
     except Exception as e:
-        print(f"⚠️ Error loading custom property prompts, using defaults: {e}")
-        import traceback
+        print(f"❌ Error loading custom prompts: {e}")
         traceback.print_exc()
         return PROPERTY_PROMPTS
 
