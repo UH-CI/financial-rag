@@ -709,31 +709,14 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
         const docInfo = enhancedDocumentMapping[citationNumber];
         const chunkData = chunkTextMap[citationNumber];
         
-        // DEBUG: Log citation data for inspection
-        console.log('🔍 Citation Debug Info:', {
-          citationNumber,
-          chunkId,
-          refId: atom.refId,
-          display: atom.display,
-          docInfo,
-          chunkDataAvailable: !!chunkData,
-          chunkDataLength: chunkData?.length || 0,
-          allChunks: chunkData,
-          enhancedDocumentMappingKeys: Object.keys(enhancedDocumentMapping),
-          chunkTextMapKeys: Object.keys(chunkTextMap)
-        });
-        
+
         // Determine which chunk to use
         let chunkInfo = chunkData?.[0];
         
         if (chunkId !== undefined && chunkData) {
           // Citation has explicit chunk ID - find the matching chunk
           const foundChunk = chunkData.find(c => c.chunk_id === chunkId);
-          console.log('  🔎 Looking for chunk ID:', chunkId, 'in', chunkData.length, 'chunks');
-          console.log('  🔎 Available chunk IDs:', chunkData.map(c => c.chunk_id));
-          console.log('  🔎 Found matching chunk:', foundChunk ? `Yes (chunk_id: ${foundChunk.chunk_id})` : 'No, using fallback');
           chunkInfo = foundChunk || chunkData[0];
-          console.log('  ✓ Using explicit chunk ID:', chunkId, 'Found:', !!foundChunk, 'Selected chunk_id:', chunkInfo?.chunk_id);
         } else if (chunkData && chunkData.length > 0) {
           // No explicit chunk ID - cycle through available chunks
           // Track how many times we've seen this citation number
@@ -746,29 +729,17 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
           // Cycle through chunks using modulo
           const chunkIndex = occurrenceIndex % chunkData.length;
           chunkInfo = chunkData[chunkIndex];
-          console.log('  ✓ Cycling chunks - occurrence:', occurrenceIndex, 'chunkIndex:', chunkIndex, 'of', chunkData.length, 'chunks, selected chunk_id:', chunkInfo?.chunk_id);
         } else {
           console.warn('  ⚠️ No chunk data available for citation:', citationNumber);
         }
         
-        console.log('  → Selected chunkInfo:', {
-          chunk_text_preview: chunkInfo?.chunk_text?.substring(0, 100),
-          attribution_score: chunkInfo?.attribution_score,
-          chunk_id: chunkInfo?.chunk_id,
-          document_name: chunkInfo?.document_name,
-          sentence: chunkInfo?.sentence
-        });
+
         
         const displayNumber = chunkInfo?.chunk_id 
           ? `${citationNumber}.${chunkInfo.chunk_id}` 
           : citationNumber.toString();
         
-        console.log('  📊 Final Display Calculation:', {
-          citationNumber,
-          'chunkInfo?.chunk_id': chunkInfo?.chunk_id,
-          calculatedDisplayNumber: displayNumber,
-          formula: `${citationNumber}.${chunkInfo?.chunk_id}`
-        });
+
         
         return (
           <span
@@ -973,7 +944,7 @@ const FiscalNoteContent: React.FC<FiscalNoteContentProps> = ({
   );
 
   return (
-    <div className="w-full h-full">
+    <div className="w-full">
       <div className="max-w-4xl mx-auto p-4 lg:p-8 pb-24 lg:pb-32">
         {/* Hidden print content container */}
         <div id={printContentId} style={{ display: 'none' }}>

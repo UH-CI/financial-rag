@@ -14,17 +14,17 @@
     "HB400_HD1_HSCR1171_"
   ],
   "numbers_used": 124,
-  "prompt_length": 107267,
+  "prompt_length": 110969,
   "response_metadata": {
-    "response_text": "{\n  \"overview\": \"This measure appropriates funds for the Judiciary for the 2025–2027 biennium. [CHUNK_1] Operating resource requests center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court, an additional District Court Judge in Kona, cybersecurity costs, funding for the Criminal Justice Research Institute, and restoration of funding for essential staffing. [CHUNK_7, CHUNK_8] The purpose of this measure is to appropriate funds for the operating and capital improvement costs of the Judiciary Branch for fiscal biennium 2025-2027. [CHUNK_209]\",\n  \"appropriations\": \"The Judiciary requests additional operating resources in the amount of $6.17M in FY 2026, and $6.25M in FY 2027. [CHUNK_2, CHUNK_3] This measure, as amended, appropriates $11,900,000 (HB400_HD1_HSCR1171_.PDF.txt) in General Obligation Bonds for Capital Improvements for FY 2025-2026. [CHUNK_214] The legislative document specifies the total sum of general obligation bonds issued shall not exceed $11,900,000 (HB400_HD1_.HTM.txt). [CHUNK_192, NUMBER_123]\",\n  \"assumptions_and_methodology\": \"The Judiciary's resource requirements are based on current circumstances and projected resource needs for the future. [CHUNK_2] The request for additional operating resources constitutes an addition of approximately 3% to the Judiciary’s operating budget. [CHUNK_3] The increased request for capital improvement bond funds is due to new information that the relocation of the Children’s Justice Center on O‘ahu will require at least $2M (from testimony) more than previously appropriated. [CHUNK_5, CHUNK_6, NUMBER_114, NUMBER_115]\",\n  \"agency_impact\": \"The Judiciary requests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary FTE. [CHUNK_2] Nine of the 18 requested positions are to continue current staffing, as seven temporary positions for the Women’s Court Pilot Project and two positions for the CJRI are set to expire. [CHUNK_9] The remaining requested positions will significantly expand capacity to certain operations, such as adding a new District Court Judge in Kona and fully staffing the new Wahiawā District Court. [CHUNK_7, CHUNK_8, CHUNK_10]\",\n  \"economic_impact\": \"The Women’s Court program aims to aid participants in bettering their economic conditions and life circumstances as an alternative to incarceration. [CHUNK_14] The Driving While Impaired (DWI) Court Program seeks to reduce recidivism among repeat and high-risk offenders, which may reduce public safety costs. [CHUNK_22, CHUNK_23] This measure also provides critical funding for civil legal services to low- and moderate-income individuals in Hawai‘i. [CHUNK_121]\",\n  \"policy_impact\": \"This measure will establish a permanent Women’s Court, as the three-year pilot project is set to expire at the end of FY 2025. [CHUNK_11, CHUNK_12] It also seeks to make the Driving While Impaired (DWI) Court Program permanent, which was initially supported by federal funding. [CHUNK_20, CHUNK_21] The bill continues resources for the Criminal Justice Research Institute (CJRI), established by Act 179 (SLH 2019), and restores funding for positions that were defunded during the early part of the COVID-19 pandemic. [CHUNK_8, CHUNK_53]\",\n  \"revenue_sources\": \"The appropriations in this measure are primarily from general funds and general obligation bond funds. [CHUNK_175] The legislative document authorizes the issuance of general obligation bonds not to exceed $11,900,000 (HB400_HD1_.HTM.txt) to finance capital improvement projects. [CHUNK_192, NUMBER_123] Public testimony requests an additional $1,000,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) for the civil legal services line item, which is supported by the Judiciary's overall budget. [CHUNK_155, NUMBER_121]\",\n  \"six_year_fiscal_implications\": \"The Judiciary requests additional operating resources of $6.17M in FY 2026, and $6.25M in FY 2027. [CHUNK_2, CHUNK_3] The request for the Women’s Court is $705,416 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $705,416 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_11, CHUNK_12, NUMBER_61, NUMBER_62] For the Truancy Court and EEIP, the request is $188,388 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $183,288 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_16, NUMBER_63, NUMBER_64] The DWI Court Program requests funding of $232,412 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $237,612 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_19, NUMBER_65, NUMBER_66] For the new Kona District Court Judge and support staff, the Judiciary requests $368,943 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $360,048 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_41, NUMBER_77, NUMBER_78] A request for cybersecurity includes $1,175,300 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $1,175,300 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to upgrade email subscriptions and $458,224 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in both fiscal years for cybersecurity staff. [CHUNK_45, CHUNK_49, NUMBER_79, NUMBER_80, NUMBER_81] The Criminal Justice Research Institute requests include $512,624 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $577,058 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) for a permanent Project Specialist and software, plus $71,016 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in both years for a temporary Project Specialist. [CHUNK_53, CHUNK_54, CHUNK_59, NUMBER_84, NUMBER_85, NUMBER_86] The Office of the Public Guardian requests $136,314 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $125,424 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027 for three positions. [CHUNK_61, CHUNK_62, NUMBER_87, NUMBER_88] The Judiciary also requests $151,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $151,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to cover an increase in risk management costs. [CHUNK_67, NUMBER_90, NUMBER_91] Five requests to fully staff the Wahiawā District Court total $936,058 in FY 2026 and $1,104,888 in FY 2027. [CHUNK_24]\",\n  \"operating_revenue_impact\": \"The Judiciary remains vigilant during a period of uncertainty over federal funding and its possible impact on budgets and operations. [CHUNK_3] Testimony notes that there have been dramatic reductions in available federal funds for victims of crime and domestic-violence survivors. [CHUNK_157] The documents do not identify any new sources of operating revenue resulting from this measure. [CHUNK_4]\",\n  \"capital_expenditure_impact\": \"The Judiciary requests a total of $11.9M (from testimony) in bond funds for capital improvement projects in FY 2026. [CHUNK_4, CHUNK_5, NUMBER_110] This measure authorizes general obligation bonds not to exceed $11,900,000 (HB400_HD1_.HTM.txt). [CHUNK_192, NUMBER_123] Specific projects include $4.0 million (from testimony) to design a new South Kohala District Courthouse, $900,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to replace an A/C chiller on Kaua‘i, and $7.0 million (from testimony) in lump sum bond funds for statewide facility improvements, which includes $2.0 million (from testimony) for the relocation of the Children’s Justice Center on Oʻahu. [CHUNK_100, CHUNK_101, CHUNK_102, CHUNK_103, NUMBER_112, NUMBER_113, NUMBER_114]\",\n  \"fiscal_implications_after_6_years\": \"Securing permanent funding would allow the DWI Court Program to continue and grow beyond the biennium. [CHUNK_23] The requests to establish a permanent Women's Court and restore funding for numerous permanent positions imply ongoing operational costs after FY 2027. [CHUNK_12, CHUNK_69] The new Wahiawā District Court, scheduled to open in Spring 2026, will require sustained funding for staffing and operations in subsequent years. [CHUNK_24]\",\n  \"updates_from_previous_fiscal_note\": \"The total capital improvement project (CIP) appropriation has been updated. [CHUNK_5] The previous fiscal note cited a request for $9.9M in bond funds, whereas the amended measure appropriates and the new testimony requests a total of $11,900,000 (HB400_HD1_HSCR1171_.PDF.txt) in general obligation bonds for FY 2026. [CHUNK_214, NUMBER_122] This increase incorporates a request for $2M (from testimony) more in lump sum bond funds because the relocation of the Children’s Justice Center on O‘ahu will require more funding than previously appropriated. [CHUNK_5, CHUNK_6, NUMBER_114] The current documents provide a more detailed breakdown of the five separate funding requests to fully staff and operate the new Wahiawā District Court, totaling over $936,000 for FY 2026. [CHUNK_24] Finally, new testimony reiterates the request for a $1,000,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) increase for civil legal services providers. [CHUNK_116, CHUNK_122, NUMBER_121]\"\n}",
+    "response_text": "{\n  \"overview\": \"This measure appropriates funds for the Judiciary for the 2025–2027 biennium. [CHUNK_1] Operating resource requests center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court that will open during this biennium, an additional District Court Judge and support staff in Kona, cybersecurity and critical technology costs, funding for the Criminal Justice Research Institute (CJRI), and restoration of funding for essential staffing that was defunded during the early part of the COVID-19 pandemic. [CHUNK_8] The purpose of this measure is to appropriate funds for the operating and capital improvement costs of the Judiciary Branch for fiscal biennium 2025-2027. [CHUNK_209]\",\n  \"appropriations\": \"The Judiciary requests additional operating resources in the amount of $6.17M in FY 2026, and $6.25M in FY 2027. [CHUNK_2] As amended, this measure appropriates $11,900,000 (HB400_HD1_HSCR1171_.pdf) in General Obligation Bonds for Capital Improvements in FY 2025-2026. [CHUNK_214] Testimony from The Legal Clinic supports the current budget of $1.2 million (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) and an increase of an additional $1 million (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to the Judiciary’s civil legal services fund. [CHUNK_117]\",\n  \"assumptions_and_methodology\": \"The Judiciary's budget request is based on current circumstances and projected resource needs for the future. [CHUNK_2] Cost estimations are based on making pilot programs permanent, such as the Women's Court which is set to expire at the end of FY 2025. [CHUNK_11] The methodology also includes costs for staffing new facilities like the Wahiawā District Court, which will open to the public in Spring 2026, and restoring funding for selected positions defunded during the early part of the pandemic. [CHUNK_24] [CHUNK_69]\",\n  \"agency_impact\": \"The appropriations would allow the Judiciary to establish a permanent Women’s Court with 8.0 FTE permanent positions. [CHUNK_12] It would significantly expand the Truancy Court and EEIP on O‘ahu and make the DWI Court Program permanent. [CHUNK_16] [CHUNK_20] Additionally, the funding will fully staff the new Wahiawā District Court, add a District Court Judge in Kona to address an extraordinary caseload, and create a dedicated cybersecurity staff. [CHUNK_7] [CHUNK_41] [CHUNK_49]\",\n  \"economic_impact\": \"The goal of the Women's Court program is to aid the participants in bettering their economic conditions and life circumstances. [CHUNK_14] Securing permanent funding for the DWI Court Program would allow it to continue to provide accountability and monitoring of the treatment and recovery process for repeat and high-risk offenders, potentially reducing recidivism. [CHUNK_23] Testimony from Volunteer Legal Services Hawai‘i highlights that there are many unmet legal needs for low-income residents facing critical issues, like landlord/tenant or child custody issues, and requests an increase in funding for civil legal services. [CHUNK_124] [CHUNK_122]\",\n  \"policy_impact\": \"This measure transitions the Women’s Court Pilot Project, established in July of 2022, into a permanent Women's Court. [CHUNK_11] [CHUNK_12] It also secures permanent funding for the Driving While Impaired (DWI) Court Program, which has been operational since 2013 with initial federal funding. [CHUNK_20] [CHUNK_21] The bill reverses a pandemic-era policy by restoring funding for selected defunded positions that were removed from the Judiciary's budget to help the State's economic crisis at that time. [CHUNK_69] [CHUNK_70]\",\n  \"revenue_sources\": \"The bill authorizes general obligation bonds to be issued to yield an amount that shall not exceed $11,900,000 (HB400_HD1_.HTM.txt) to finance capital improvement projects. [CHUNK_192] The Judiciary requests a total of $11.9M (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in bond funds for capital improvement projects in FY 2026. [CHUNK_5] Third-party testimony also requests an increase of an additional $1,000,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to the line item for legal services. [CHUNK_155]\",\n  \"six_year_fiscal_implications\": \"The Judiciary requests additional operating resources of $6.17M in FY 2026 and $6.25M in FY 2027. [CHUNK_2] The request for the Women’s Court is $705,416 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $705,416 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_12] The Truancy Court and Early Education Intervention Program requests funding of $188,388 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $183,288 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_16] The DWI Court Program requests funding of $232,412 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $237,612 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_19] A request for the Wahiawā District Court is for contracted security personnel for $346,209 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $486,967 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_30] The request for an additional Kona District Court Judge is $368,943 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $360,048 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_41] For cybersecurity, the Judiciary requests $1,175,300 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $1,175,300 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027 to upgrade email subscriptions. [CHUNK_45] A request for the Criminal Justice Research Institute is for $512,624 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $577,058 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_53] [CHUNK_54] Making these programs and positions permanent will result in recurring costs beyond the 2025-2027 biennium. [CHUNK_10]\",\n  \"operating_revenue_impact\": \"The provided documents do not indicate any anticipated impacts on operating revenues as a result of this measure. [CHUNK_2]\",\n  \"capital_expenditure_impact\": \"The Judiciary requests a total of $11.9M (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in bond funds for capital improvement projects in FY 2026. [CHUNK_5] Specific requests include $4.0 million (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to design a new South Kohala District Courthouse, $900,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to replace an A/C chiller on Kaua‘i, and $7.0 million (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in lump sum bond funds. [CHUNK_100] [CHUNK_101] [CHUNK_102] The lump sum request includes $2.0 million (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to address a shortfall in funding for the relocation of the Children’s Justice Center on Oʻahu. [CHUNK_102] [CHUNK_103]\",\n  \"fiscal_implications_after_6_years\": \"Establishing a permanent Women’s Court and making the DWI Court Program permanent will create ongoing operational costs beyond the initial biennium. [CHUNK_12] [CHUNK_20] Restoring funding for various essential staff positions that were previously defunded will also result in recurring expenses in future fiscal years. [CHUNK_69] These ongoing fiscal obligations will require continued appropriations to maintain the expanded services and staffing levels. [CHUNK_10]\",\n  \"updates_from_previous_fiscal_note\": \"The capital improvement projects appropriation has been amended and clarified in this version. [CHUNK_212] The measure now appropriates $11,900,000 (HB400_HD1_HSCR1171_.pdf) in General Obligation Bonds, an increase from the previously mentioned $9.9 million request and different from the $7 million consideration in the prior fiscal note. [CHUNK_214] This increase is partly due to new information that the relocation of the Children’s Justice Center on O‘ahu will require at least $2M (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) more than previously appropriated. [CHUNK_6] The effective date of the bill has been changed to July 1, 3000, to encourage further discussion. [CHUNK_212]\",\n  \"fte_positions\": \"The Judiciary requests additional operating resources for 17.0 permanent FTE and 1.0 temporary FTE. [CHUNK_2] The request to establish a permanent Women's Court includes 8.0 FTE permanent positions, which is a net increase of one position. [CHUNK_12] [CHUNK_15] Other requests include 4.0 FTE permanent positions for an additional District Court Judge and support staff in Kona, and 3.0 FTE permanent positions for Social Services Assistants for the Office of the Public Guardian. [CHUNK_41] [CHUNK_62]\",\n  \"appropriations_changes\": \"The capital improvement projects appropriation has been amended in this version of the bill. [CHUNK_212] The measure now appropriates a total of $11,900,000 (HB400_HD1_HSCR1171_.pdf) in General Obligation Bonds. [CHUNK_214] This amount is an increase from the $9.9 million initially requested by the Judiciary and considered in the previous fiscal note. [CHUNK_210]\",\n  \"funding_sources_changes\": \"The method of funding for capital improvements is specified as $11,900,000 (HB400_HD1_HSCR1171_.pdf) in General Obligation Bonds for fiscal year 2025-2026. [CHUNK_214] This final appropriation amount replaces the preliminary request and committee consideration figures mentioned in the previous fiscal note. [CHUNK_210] No other changes to the method of funding are identified. [CHUNK_213]\",\n  \"department_impact\": \"There have been no changes in departmental responsibility; all appropriations are for the Judiciary. [CHUNK_209]\",\n  \"reports_required\": \"The provided documents do not identify any new or modified reporting requirements. [CHUNK_212]\",\n  \"pilot_program\": \"The Women’s Court Pilot Project was established by the Legislature in July of 2022 with funding for a three-year pilot. [CHUNK_11] This bill requests funding to establish a permanent Women’s Court, as the pilot positions and funding are set to expire at the end of FY 2025. [CHUNK_11] [CHUNK_15] The DWI Court Program was established in April 2012 with initial federal funding, and this bill seeks to make the program permanent. [CHUNK_20] [CHUNK_21]\",\n  \"sunset_date\": \"The seven temporary positions for the Women’s Court Pilot Project are set to expire at the end of FY 2025. [CHUNK_11] Additionally, funding for one permanent and one temporary Project Specialist position for the Criminal Justice Research Institute (CJRI) ends on June 30, 2025. [CHUNK_57] [CHUNK_60]\",\n  \"effective_date\": \"The Committee on Finance has amended this measure by changing the effective date to July 1, 3000, to encourage further discussion. [CHUNK_212] This replaces the previously standard or unspecified effective date. [CHUNK_207]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 62759,
-      "candidates_token_count": 2865,
-      "total_token_count": 70138
+      "prompt_token_count": 63598,
+      "candidates_token_count": 3215,
+      "total_token_count": 69485
     },
     "candidates": [
       {
@@ -34,7 +34,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n  \"overview\": \"This measure appropriates funds for the Judiciary for the 2025–2027 biennium. [CHUNK_1] Operating resource requests center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court, an additional District Court Judge in Kona, cybersecurity costs, funding for the Criminal Justice Research Institute, and restoration of funding for essential staffing. [CHUNK_7, CHUNK_8] The purpose of this measure is to appropriate funds for the operating and capital improvement costs of the Judiciary Branch for fiscal biennium 2025-2027. [CHUNK_209]\",\n  \"appropriations\": \"The Judiciary requests additional operating resources in the amount of $6.17M in FY 2026, and $6.25M in FY 2027. [CHUNK_2, CHUNK_3] This measure, as amended, appropriates $11,900,000 (HB400_HD1_HSCR1171_.PDF.txt) in General Obligation Bonds for Capital Improvements for FY 2025-2026. [CHUNK_214] The legislative document specifies the total sum of general obligation bonds issued shall not exceed $11,900,000 (HB400_HD1_.HTM.txt). [CHUNK_192, NUMBER_123]\",\n  \"assumptions_and_methodology\": \"The Judiciary's resource requirements are based on current circumstances and projected resource needs for the future. [CHUNK_2] The request for additional operating resources constitutes an addition of approximately 3% to the Judiciary’s operating budget. [CHUNK_3] The increased request for capital improvement bond funds is due to new information that the relocation of the Children’s Justice Center on O‘ahu will require at least $2M (from testimony) more than previously appropriated. [CHUNK_5, CHUNK_6, NUMBER_114, NUMBER_115]\",\n  \"agency_impact\": \"The Judiciary requests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary FTE. [CHUNK_2] Nine of the 18 requested positions are to continue current staffing, as seven temporary positions for the Women’s Court Pilot Project and two positions for the CJRI are set to expire. [CHUNK_9] The remaining requested positions will significantly expand capacity to certain operations, such as adding a new District Court Judge in Kona and fully staffing the new Wahiawā District Court. [CHUNK_7, CHUNK_8, CHUNK_10]\",\n  \"economic_impact\": \"The Women’s Court program aims to aid participants in bettering their economic conditions and life circumstances as an alternative to incarceration. [CHUNK_14] The Driving While Impaired (DWI) Court Program seeks to reduce recidivism among repeat and high-risk offenders, which may reduce public safety costs. [CHUNK_22, CHUNK_23] This measure also provides critical funding for civil legal services to low- and moderate-income individuals in Hawai‘i. [CHUNK_121]\",\n  \"policy_impact\": \"This measure will establish a permanent Women’s Court, as the three-year pilot project is set to expire at the end of FY 2025. [CHUNK_11, CHUNK_12] It also seeks to make the Driving While Impaired (DWI) Court Program permanent, which was initially supported by federal funding. [CHUNK_20, CHUNK_21] The bill continues resources for the Criminal Justice Research Institute (CJRI), established by Act 179 (SLH 2019), and restores funding for positions that were defunded during the early part of the COVID-19 pandemic. [CHUNK_8, CHUNK_53]\",\n  \"revenue_sources\": \"The appropriations in this measure are primarily from general funds and general obligation bond funds. [CHUNK_175] The legislative document authorizes the issuance of general obligation bonds not to exceed $11,900,000 (HB400_HD1_.HTM.txt) to finance capital improvement projects. [CHUNK_192, NUMBER_123] Public testimony requests an additional $1,000,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) for the civil legal services line item, which is supported by the Judiciary's overall budget. [CHUNK_155, NUMBER_121]\",\n  \"six_year_fiscal_implications\": \"The Judiciary requests additional operating resources of $6.17M in FY 2026, and $6.25M in FY 2027. [CHUNK_2, CHUNK_3] The request for the Women’s Court is $705,416 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $705,416 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_11, CHUNK_12, NUMBER_61, NUMBER_62] For the Truancy Court and EEIP, the request is $188,388 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $183,288 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_16, NUMBER_63, NUMBER_64] The DWI Court Program requests funding of $232,412 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $237,612 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_19, NUMBER_65, NUMBER_66] For the new Kona District Court Judge and support staff, the Judiciary requests $368,943 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $360,048 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_41, NUMBER_77, NUMBER_78] A request for cybersecurity includes $1,175,300 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $1,175,300 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to upgrade email subscriptions and $458,224 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in both fiscal years for cybersecurity staff. [CHUNK_45, CHUNK_49, NUMBER_79, NUMBER_80, NUMBER_81] The Criminal Justice Research Institute requests include $512,624 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $577,058 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) for a permanent Project Specialist and software, plus $71,016 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in both years for a temporary Project Specialist. [CHUNK_53, CHUNK_54, CHUNK_59, NUMBER_84, NUMBER_85, NUMBER_86] The Office of the Public Guardian requests $136,314 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $125,424 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027 for three positions. [CHUNK_61, CHUNK_62, NUMBER_87, NUMBER_88] The Judiciary also requests $151,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $151,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to cover an increase in risk management costs. [CHUNK_67, NUMBER_90, NUMBER_91] Five requests to fully staff the Wahiawā District Court total $936,058 in FY 2026 and $1,104,888 in FY 2027. [CHUNK_24]\",\n  \"operating_revenue_impact\": \"The Judiciary remains vigilant during a period of uncertainty over federal funding and its possible impact on budgets and operations. [CHUNK_3] Testimony notes that there have been dramatic reductions in available federal funds for victims of crime and domestic-violence survivors. [CHUNK_157] The documents do not identify any new sources of operating revenue resulting from this measure. [CHUNK_4]\",\n  \"capital_expenditure_impact\": \"The Judiciary requests a total of $11.9M (from testimony) in bond funds for capital improvement projects in FY 2026. [CHUNK_4, CHUNK_5, NUMBER_110] This measure authorizes general obligation bonds not to exceed $11,900,000 (HB400_HD1_.HTM.txt). [CHUNK_192, NUMBER_123] Specific projects include $4.0 million (from testimony) to design a new South Kohala District Courthouse, $900,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to replace an A/C chiller on Kaua‘i, and $7.0 million (from testimony) in lump sum bond funds for statewide facility improvements, which includes $2.0 million (from testimony) for the relocation of the Children’s Justice Center on Oʻahu. [CHUNK_100, CHUNK_101, CHUNK_102, CHUNK_103, NUMBER_112, NUMBER_113, NUMBER_114]\",\n  \"fiscal_implications_after_6_years\": \"Securing permanent funding would allow the DWI Court Program to continue and grow beyond the biennium. [CHUNK_23] The requests to establish a permanent Women's Court and restore funding for numerous permanent positions imply ongoing operational costs after FY 2027. [CHUNK_12, CHUNK_69] The new Wahiawā District Court, scheduled to open in Spring 2026, will require sustained funding for staffing and operations in subsequent years. [CHUNK_24]\",\n  \"updates_from_previous_fiscal_note\": \"The total capital improvement project (CIP) appropriation has been updated. [CHUNK_5] The previous fiscal note cited a request for $9.9M in bond funds, whereas the amended measure appropriates and the new testimony requests a total of $11,900,000 (HB400_HD1_HSCR1171_.PDF.txt) in general obligation bonds for FY 2026. [CHUNK_214, NUMBER_122] This increase incorporates a request for $2M (from testimony) more in lump sum bond funds because the relocation of the Children’s Justice Center on O‘ahu will require more funding than previously appropriated. [CHUNK_5, CHUNK_6, NUMBER_114] The current documents provide a more detailed breakdown of the five separate funding requests to fully staff and operate the new Wahiawā District Court, totaling over $936,000 for FY 2026. [CHUNK_24] Finally, new testimony reiterates the request for a $1,000,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) increase for civil legal services providers. [CHUNK_116, CHUNK_122, NUMBER_121]\"\n}"
+              "text": "{\n  \"overview\": \"This measure appropriates funds for the Judiciary for the 2025–2027 biennium. [CHUNK_1] Operating resource requests center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court that will open during this biennium, an additional District Court Judge and support staff in Kona, cybersecurity and critical technology costs, funding for the Criminal Justice Research Institute (CJRI), and restoration of funding for essential staffing that was defunded during the early part of the COVID-19 pandemic. [CHUNK_8] The purpose of this measure is to appropriate funds for the operating and capital improvement costs of the Judiciary Branch for fiscal biennium 2025-2027. [CHUNK_209]\",\n  \"appropriations\": \"The Judiciary requests additional operating resources in the amount of $6.17M in FY 2026, and $6.25M in FY 2027. [CHUNK_2] As amended, this measure appropriates $11,900,000 (HB400_HD1_HSCR1171_.pdf) in General Obligation Bonds for Capital Improvements in FY 2025-2026. [CHUNK_214] Testimony from The Legal Clinic supports the current budget of $1.2 million (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) and an increase of an additional $1 million (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to the Judiciary’s civil legal services fund. [CHUNK_117]\",\n  \"assumptions_and_methodology\": \"The Judiciary's budget request is based on current circumstances and projected resource needs for the future. [CHUNK_2] Cost estimations are based on making pilot programs permanent, such as the Women's Court which is set to expire at the end of FY 2025. [CHUNK_11] The methodology also includes costs for staffing new facilities like the Wahiawā District Court, which will open to the public in Spring 2026, and restoring funding for selected positions defunded during the early part of the pandemic. [CHUNK_24] [CHUNK_69]\",\n  \"agency_impact\": \"The appropriations would allow the Judiciary to establish a permanent Women’s Court with 8.0 FTE permanent positions. [CHUNK_12] It would significantly expand the Truancy Court and EEIP on O‘ahu and make the DWI Court Program permanent. [CHUNK_16] [CHUNK_20] Additionally, the funding will fully staff the new Wahiawā District Court, add a District Court Judge in Kona to address an extraordinary caseload, and create a dedicated cybersecurity staff. [CHUNK_7] [CHUNK_41] [CHUNK_49]\",\n  \"economic_impact\": \"The goal of the Women's Court program is to aid the participants in bettering their economic conditions and life circumstances. [CHUNK_14] Securing permanent funding for the DWI Court Program would allow it to continue to provide accountability and monitoring of the treatment and recovery process for repeat and high-risk offenders, potentially reducing recidivism. [CHUNK_23] Testimony from Volunteer Legal Services Hawai‘i highlights that there are many unmet legal needs for low-income residents facing critical issues, like landlord/tenant or child custody issues, and requests an increase in funding for civil legal services. [CHUNK_124] [CHUNK_122]\",\n  \"policy_impact\": \"This measure transitions the Women’s Court Pilot Project, established in July of 2022, into a permanent Women's Court. [CHUNK_11] [CHUNK_12] It also secures permanent funding for the Driving While Impaired (DWI) Court Program, which has been operational since 2013 with initial federal funding. [CHUNK_20] [CHUNK_21] The bill reverses a pandemic-era policy by restoring funding for selected defunded positions that were removed from the Judiciary's budget to help the State's economic crisis at that time. [CHUNK_69] [CHUNK_70]\",\n  \"revenue_sources\": \"The bill authorizes general obligation bonds to be issued to yield an amount that shall not exceed $11,900,000 (HB400_HD1_.HTM.txt) to finance capital improvement projects. [CHUNK_192] The Judiciary requests a total of $11.9M (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in bond funds for capital improvement projects in FY 2026. [CHUNK_5] Third-party testimony also requests an increase of an additional $1,000,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to the line item for legal services. [CHUNK_155]\",\n  \"six_year_fiscal_implications\": \"The Judiciary requests additional operating resources of $6.17M in FY 2026 and $6.25M in FY 2027. [CHUNK_2] The request for the Women’s Court is $705,416 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $705,416 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_12] The Truancy Court and Early Education Intervention Program requests funding of $188,388 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $183,288 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_16] The DWI Court Program requests funding of $232,412 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $237,612 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_19] A request for the Wahiawā District Court is for contracted security personnel for $346,209 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $486,967 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_30] The request for an additional Kona District Court Judge is $368,943 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $360,048 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_41] For cybersecurity, the Judiciary requests $1,175,300 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $1,175,300 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027 to upgrade email subscriptions. [CHUNK_45] A request for the Criminal Justice Research Institute is for $512,624 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $577,058 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027. [CHUNK_53] [CHUNK_54] Making these programs and positions permanent will result in recurring costs beyond the 2025-2027 biennium. [CHUNK_10]\",\n  \"operating_revenue_impact\": \"The provided documents do not indicate any anticipated impacts on operating revenues as a result of this measure. [CHUNK_2]\",\n  \"capital_expenditure_impact\": \"The Judiciary requests a total of $11.9M (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in bond funds for capital improvement projects in FY 2026. [CHUNK_5] Specific requests include $4.0 million (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to design a new South Kohala District Courthouse, $900,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to replace an A/C chiller on Kaua‘i, and $7.0 million (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in lump sum bond funds. [CHUNK_100] [CHUNK_101] [CHUNK_102] The lump sum request includes $2.0 million (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to address a shortfall in funding for the relocation of the Children’s Justice Center on Oʻahu. [CHUNK_102] [CHUNK_103]\",\n  \"fiscal_implications_after_6_years\": \"Establishing a permanent Women’s Court and making the DWI Court Program permanent will create ongoing operational costs beyond the initial biennium. [CHUNK_12] [CHUNK_20] Restoring funding for various essential staff positions that were previously defunded will also result in recurring expenses in future fiscal years. [CHUNK_69] These ongoing fiscal obligations will require continued appropriations to maintain the expanded services and staffing levels. [CHUNK_10]\",\n  \"updates_from_previous_fiscal_note\": \"The capital improvement projects appropriation has been amended and clarified in this version. [CHUNK_212] The measure now appropriates $11,900,000 (HB400_HD1_HSCR1171_.pdf) in General Obligation Bonds, an increase from the previously mentioned $9.9 million request and different from the $7 million consideration in the prior fiscal note. [CHUNK_214] This increase is partly due to new information that the relocation of the Children’s Justice Center on O‘ahu will require at least $2M (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) more than previously appropriated. [CHUNK_6] The effective date of the bill has been changed to July 1, 3000, to encourage further discussion. [CHUNK_212]\",\n  \"fte_positions\": \"The Judiciary requests additional operating resources for 17.0 permanent FTE and 1.0 temporary FTE. [CHUNK_2] The request to establish a permanent Women's Court includes 8.0 FTE permanent positions, which is a net increase of one position. [CHUNK_12] [CHUNK_15] Other requests include 4.0 FTE permanent positions for an additional District Court Judge and support staff in Kona, and 3.0 FTE permanent positions for Social Services Assistants for the Office of the Public Guardian. [CHUNK_41] [CHUNK_62]\",\n  \"appropriations_changes\": \"The capital improvement projects appropriation has been amended in this version of the bill. [CHUNK_212] The measure now appropriates a total of $11,900,000 (HB400_HD1_HSCR1171_.pdf) in General Obligation Bonds. [CHUNK_214] This amount is an increase from the $9.9 million initially requested by the Judiciary and considered in the previous fiscal note. [CHUNK_210]\",\n  \"funding_sources_changes\": \"The method of funding for capital improvements is specified as $11,900,000 (HB400_HD1_HSCR1171_.pdf) in General Obligation Bonds for fiscal year 2025-2026. [CHUNK_214] This final appropriation amount replaces the preliminary request and committee consideration figures mentioned in the previous fiscal note. [CHUNK_210] No other changes to the method of funding are identified. [CHUNK_213]\",\n  \"department_impact\": \"There have been no changes in departmental responsibility; all appropriations are for the Judiciary. [CHUNK_209]\",\n  \"reports_required\": \"The provided documents do not identify any new or modified reporting requirements. [CHUNK_212]\",\n  \"pilot_program\": \"The Women’s Court Pilot Project was established by the Legislature in July of 2022 with funding for a three-year pilot. [CHUNK_11] This bill requests funding to establish a permanent Women’s Court, as the pilot positions and funding are set to expire at the end of FY 2025. [CHUNK_11] [CHUNK_15] The DWI Court Program was established in April 2012 with initial federal funding, and this bill seeks to make the program permanent. [CHUNK_20] [CHUNK_21]\",\n  \"sunset_date\": \"The seven temporary positions for the Women’s Court Pilot Project are set to expire at the end of FY 2025. [CHUNK_11] Additionally, funding for one permanent and one temporary Project Specialist position for the Criminal Justice Research Institute (CJRI) ends on June 30, 2025. [CHUNK_57] [CHUNK_60]\",\n  \"effective_date\": \"The Committee on Finance has amended this measure by changing the effective date to July 1, 3000, to encourage further discussion. [CHUNK_212] This replaces the previously standard or unspecified effective date. [CHUNK_207]\"\n}"
             }
           ]
         },
@@ -2537,11 +2537,6 @@
           "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
         },
         {
-          "chunk_text": "Relating to the Judiciary House Committee on Finance Wednesday, March 5, 2025 Page 2 Operating Requests: Operating resource requests center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court that will open during this biennium, an additional District Court",
-          "chunk_id": 7,
-          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-        },
-        {
           "chunk_text": "that will open during this biennium, an additional District Court Judge and support staff in Kona, cybersecurity and critical technology costs, funding for the Criminal Justice Research Institute (CJRI), and restoration of funding for essential staffing that was defunded during the early part of the COVID-19 pandemic. As for positions,",
           "chunk_id": 8,
           "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
@@ -2552,38 +2547,8 @@
           "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
         },
         {
-          "chunk_text": "1.0 temporary FTE, and $6.17M in FY 2026, and $6.25M in FY 2027. This is an addition of approximately 3% to the Judiciary’s operating budget. The Judiciary remains vigilant during this period of uncertainty over federal funding and the possible impact on the State and Judiciary budgets and operations. We",
-          "chunk_id": 3,
-          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-        },
-        {
-          "chunk_text": "the early part of the COVID-19 pandemic. As for positions, nine of the 18 (17.0 permanent and 1.0 temporary) are requested to continue current staffing. This is because seven temporary positions for the Women’s Court Pilot Project, along with one permanent position and one temporary position for the CJRI, will",
-          "chunk_id": 9,
-          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-        },
-        {
-          "chunk_text": "permanent position and one temporary position for the CJRI, will expire, but there are compelling reasons to continue these programs and the necessary staffing. The remaining requested positions will significantly expand capacity to certain operations. Brief details of each request are provided below: Women’s Court – The Women’s Court Pilot",
-          "chunk_id": 10,
-          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-        },
-        {
-          "chunk_text": "substance use disorders, and/or unhealthy relationships. The goal of the program is for the participants to identify and address issues, to prevent re-entry into criminality, and to aid the participants in bettering their economic conditions and life circumstances. Given the need for the program, a strong start as a three-year",
-          "chunk_id": 14,
-          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-        },
-        {
-          "chunk_text": "DWI Court Program confronts the persistent problem of impaired driving and seeks to reduce recidivism among repeat and high-risk offenders by addressing the underlying cause of impaired driving, which is alcohol and/or substance use disorder. Without intervention, this population of chronically impaired drivers might continue to reoffend and endanger public",
-          "chunk_id": 22,
-          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-        },
-        {
-          "chunk_text": "chronically impaired drivers might continue to reoffend and endanger public safety on our roadways. Securing permanent funding would allow the DWI Court Program to continue, grow, and provide accountability and monitoring of the treatment and recovery process for repeat and high-risk offenders. Wahiawā District Court – There are five requests",
-          "chunk_id": 23,
-          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-        },
-        {
-          "chunk_text": "TAKENOUCHI, AND MEMBERS OF THE COMMITTEE ON FINANCE: Volunteer Legal Services Hawai‘i supports the passage of H.B. 400. This critical funding would go to funding civil legal services, including but not limited to the delivery of civil legal services to low- and moderate- income individuals in Hawai‘i. Volunteer Legal is",
-          "chunk_id": 121,
+          "chunk_text": "safety net providers are continually growing. For example, with the current federal administration’s immigration enforcement actions and rhetoric, TLC anticipates an exponential increase in those needing support in immigration proceedings. Thus, TLC supports the current budget of $1.2 million and an increase of an additional $1 million to the Judiciary’s",
+          "chunk_id": 117,
           "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
         },
         {
@@ -2592,38 +2557,8 @@
           "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
         },
         {
-          "chunk_text": "end of FY 2025. The request of $705,416 in FY 2026 and $705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s Court. The Women’s Court, also known as Mohala Wahine, was created to address the rapid growth in the incarceration of women in the United",
-          "chunk_id": 12,
-          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-        },
-        {
-          "chunk_text": "to be a Social Worker IV and Specialty Court Coordinator, and additional expenses, to make the DWI House Bill No. 400, Relating to the Judiciary House Committee on Finance Wednesday, March 5, 2025 Page 3 Court Program permanent. The DWI Court Program was established in April 2012 and has been",
-          "chunk_id": 20,
-          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-        },
-        {
-          "chunk_text": "Court Program was established in April 2012 and has been operational since January 2013, with initial federal funding for the program from the National Highway Traffic Safety Administration (NHTSA) through a grant administered by the State Department of Transportation. The DWI Court Program confronts the persistent problem of impaired driving",
-          "chunk_id": 21,
-          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-        },
-        {
-          "chunk_text": "their useful lifespan. Criminal Justice Research Institute (CJRI) – There are two requests related to the Criminal Justice Research Institute, established by Act 179 (SLH 2019). Both are to continue the resources appropriated in Act 147 (SLH 2023). More specifically, the first is $512,624 in FY 2026 and $577,058 in",
-          "chunk_id": 53,
-          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-        },
-        {
           "chunk_text": "high-risk offenders. Wahiawā District Court – There are five requests related to the Wahiawā District Court, which will open to the public in Spring 2026. The first relates to restoring funding for three positions in the amount of $192,408 in FY 2026 and $192,408 in FY 2027 to transition to",
           "chunk_id": 24,
-          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-        },
-        {
-          "chunk_text": "facing significant fiscal pressures due to potential federal funding cuts. In addition, changes to the federal funding and policy landscape also require additional support for Hawaiʻi’s legal services providers. Recently, there have been dramatic reductions in available federal funds for victims of crime and domestic-violence survivors. Legal Aid receives substantial",
-          "chunk_id": 157,
-          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-        },
-        {
-          "chunk_text": "impact on the State and Judiciary budgets and operations. We have assessed federally-funded grant projects of the Judiciary and are committed to ongoing communication with the Legislature and with local non-governmental partners of the Judiciary who rely on federal funding. The Judiciary also requests a total of $11.9M in bond",
-          "chunk_id": 4,
           "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
         },
         {
@@ -2632,8 +2567,148 @@
           "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
         },
         {
+          "chunk_text": "end of FY 2025. The request of $705,416 in FY 2026 and $705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s Court. The Women’s Court, also known as Mohala Wahine, was created to address the rapid growth in the incarceration of women in the United",
+          "chunk_id": 12,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "increase of one), including one substance use counselor. Truancy Court and Early Education Intervention Program (EEIP) – The Judiciary requests funding of $188,388 in FY 2026 and $183,288 in FY 2027 to restore funding for three redescribed Social Worker positions and additional expenses to significantly expand the Truancy Court and",
+          "chunk_id": 16,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "to be a Social Worker IV and Specialty Court Coordinator, and additional expenses, to make the DWI House Bill No. 400, Relating to the Judiciary House Committee on Finance Wednesday, March 5, 2025 Page 3 Court Program permanent. The DWI Court Program was established in April 2012 and has been",
+          "chunk_id": 20,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "Relating to the Judiciary House Committee on Finance Wednesday, March 5, 2025 Page 2 Operating Requests: Operating resource requests center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court that will open during this biennium, an additional District Court",
+          "chunk_id": 7,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "efficient manner. Kona District Court Judge – The Judiciary requests $368,943 in FY 2026 and $360,048 in FY 2027, and 4.0 FTE permanent positions, for an additional District Court Judge and three necessary support staff. The additional judgeship is needed to address the current extraordinary caseload in Kona, as well",
+          "chunk_id": 41,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "request is for $458,224 in FYs 2026 and 2027 to restore funding for four positions that have since been redescribed to a modern need—a dedicated cybersecurity staff. In addition, this funding would allow for additional tools required to manage the Judiciary’s inventory of assets in an efficient and secure way.",
+          "chunk_id": 49,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "substance use disorders, and/or unhealthy relationships. The goal of the program is for the participants to identify and address issues, to prevent re-entry into criminality, and to aid the participants in bettering their economic conditions and life circumstances. Given the need for the program, a strong start as a three-year",
+          "chunk_id": 14,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "chronically impaired drivers might continue to reoffend and endanger public safety on our roadways. Securing permanent funding would allow the DWI Court Program to continue, grow, and provide accountability and monitoring of the treatment and recovery process for repeat and high-risk offenders. Wahiawā District Court – There are five requests",
+          "chunk_id": 23,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "We are more worried than ever about the impact that the limiting of services has on the safety net of legal services. There are many unmet needs1, and Volunteer Legal is often the last line of defense for someone facing critical issues, like landlord/tenant or child custody issues. In the",
+          "chunk_id": 124,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "low- and moderate- income individuals in Hawai‘i. Volunteer Legal is pursuing a one million (1,000,000) dollar increase in funding for the civil legal services line item for providers. The civil legal services line item was initially intended for statewide general civil legal service providers. Other important legal service providers are",
+          "chunk_id": 122,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "Court Program was established in April 2012 and has been operational since January 2013, with initial federal funding for the program from the National Highway Traffic Safety Administration (NHTSA) through a grant administered by the State Department of Transportation. The DWI Court Program confronts the persistent problem of impaired driving",
+          "chunk_id": 21,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "part of the pandemic, over $11 million was removed from the Judiciary’s budget for 192 vacant positions, to help the State’s economic crisis at that time. The Judiciary has continued to refine staffing statewide, including redescribing positions to modern needs and employing additional recruitment methods, particularly for positions where there",
+          "chunk_id": 70,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
           "chunk_text": "The Judiciary also requests a total of $11.9M in bond funds for capital improvement projects in FY 2026. This amount in bond funds includes a request for $2M more in lump sum bond funds than the Judiciary’s request as introduced. This is because in recent weeks the Judiciary received new",
           "chunk_id": 5,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "legal needs. There are now four legal service providers recieving this critical funding, and all of our low- income and vulnerable populations statewide and across demographics are positively impacted by this support. We respectfully request that you increase support for legal services by adding an additional $1,000,000 to the line",
+          "chunk_id": 155,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "visit campuses weekly to meet with students identified as having attendance issues. Driving While Impaired (DWI) Court Program – The Judiciary requests funding of $232,412 in FY 2026 and $237,612 in FY 2027 for two positions that will be redescribed to be a Social Worker IV and Specialty Court Coordinator,",
+          "chunk_id": 19,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "who enter and use the facility. The third request for Wahiawā District Court is funding of $346,209 in FY 2026 and $486,967 in FY 2027 to provide contracted security personnel for patrol, primarily interior. The new courthouse will have two courtrooms and expand its services to include Ho‘okele (court information",
+          "chunk_id": 30,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "of factors has led to unsustainable court congestion and delays. Cybersecurity and Technology – The Judiciary has three requests pertaining to cybersecurity and other technology. First, is a request for $1,175,300 in FY 2026 and $1,175,300 in FY 2027 to upgrade email subscriptions to improve security capabilities. The Judiciary currently",
+          "chunk_id": 45,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "their useful lifespan. Criminal Justice Research Institute (CJRI) – There are two requests related to the Criminal Justice Research Institute, established by Act 179 (SLH 2019). Both are to continue the resources appropriated in Act 147 (SLH 2023). More specifically, the first is $512,624 in FY 2026 and $577,058 in",
+          "chunk_id": 53,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "the first is $512,624 in FY 2026 and $577,058 in FY 2027, for a 1.0 FTE permanent Project Specialist position and software. Act 147 (SLH 2023) appropriated funds for a permanent Project Specialist and software/technology costs for two years to begin to establish a centralized statewide criminal pretrial justice data",
+          "chunk_id": 54,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "permanent position and one temporary position for the CJRI, will expire, but there are compelling reasons to continue these programs and the necessary staffing. The remaining requested positions will significantly expand capacity to certain operations. Brief details of each request are provided below: Women’s Court – The Women’s Court Pilot",
+          "chunk_id": 10,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "totaling $11.9 million for FY 2026 to address critical needs, some of which relate to the health and safety of Judiciary employees and the public. Specifically, the Judiciary is requesting $4.0 million to design a new South Kohala District Courthouse. The current South Kohala District Court carries significant concerns for",
+          "chunk_id": 100,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "The current South Kohala District Court carries significant concerns for safety, space, temperature, noise, and is quite simply inadequate to serve the community’s court-related needs. The Judiciary also requests $900,000 to replace an A/C chiller on Kaua‘i, at Pu‘uhonua Kaulike. The chiller is near the end of its lifecycle, and",
+          "chunk_id": 101,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "The chiller is near the end of its lifecycle, and A/C manufacturing is experiencing hardships resulting in long lead times. The Judiciary also requests $7.0 million in lump sum bond funds to address both continuing and emerging building issues statewide. As stated above, this includes $2.0 million that will be",
+          "chunk_id": 102,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "As stated above, this includes $2.0 million that will be directed to a shortfall in funding for relocation of the Children’s Justice Center on Oʻahu. The Legislature provided $6.0 million for that project in 2023. Since then, we have located a site and, along with DAGS, are proceeding. While the",
+          "chunk_id": 103,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "This is because in recent weeks the Judiciary received new information that the relocation of the Children’s Justice Center on O‘ahu will require at least $2M more than previously appropriated. These circumstances are detailed further below. House Bill No. 400, Relating to the Judiciary House Committee on Finance Wednesday, March",
+          "chunk_id": 6,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "need for the program, a strong start as a three-year pilot created by the Legislature, and that the program (and positions and funding) will expire at the end of FY 2025, the Judiciary requests funding and eight positions (a net increase of one), including one substance use counselor. Truancy Court",
+          "chunk_id": 15,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "Judiciary requests $136,314 in FY 2026 and $125,424 in FY 2027, and 3.0 FTE permanent positions, for three Social Services Assistant IV House Bill No. 400, Relating to the Judiciary House Committee on Finance Wednesday, March 5, 2025 Page 6 positions and related equipment for the Office of the Public",
+          "chunk_id": 62,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "Staff have been trained with software to ingest data into the data warehouse and established preliminary datasets for pretrial research. The Project Specialist position was created to support CJRI with in-house IT expertise. Although the position is permanent, funding ends on June 30, 2025. To build upon this firm foundation,",
+          "chunk_id": 57,
+          "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+        },
+        {
+          "chunk_text": "temporary full-time Project Specialist position, also with two-year funding ending on June 30, 2025. This position ensures that the Judiciary can fully support CJRI’s technical needs with a position in the Judiciary’s IT department focused on the CJRI. As Judiciary data is ingested into the data warehouse, CJRI researchers need",
+          "chunk_id": 60,
           "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
         }
       ],
@@ -2647,12 +2722,32 @@
           "chunk_text": "2025-2026 FY 2026-2027 GENERAL FUNDS 0 0 GENERAL OBLIGATION BONDS 11,900,000 0 ALL MEANS OF FINANCE 11,900,000 0 As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of",
           "chunk_id": 214,
           "document_name": "HB400_HD1_HSCR1171_"
+        },
+        {
+          "chunk_text": "Hawai ʻ i. Your Committee received comments on this measure from SanHi Government Strategies. Your Committee has amended this measure by: (1) Clarifying capital improvement projects amounts and cost elements; (2) Changing the effective date to July 1, 3000, to encourage further discussion; and (3) Making technical, nonsubstantive amendments for",
+          "chunk_id": 212,
+          "document_name": "HB400_HD1_HSCR1171_"
+        },
+        {
+          "chunk_text": "Judiciary Branch for fiscal biennium 2025-2027. As introduced, this measure appropriates: Operating FY 2025-2026 FY 2026-2027 GENERAL FUNDS 203,319,009 203,391,600 ALL MEANS OF FINANCE 216,164,762 216,237,353 Capital Improvements FY 2025-2026 FY 2026-2027 GENERAL FUNDS 0 0 GENERAL OBLIGATION BONDS 9,900,000 0 ALL MEANS OF FINANCE 9,900,000 0 Your Committee received",
+          "chunk_id": 210,
+          "document_name": "HB400_HD1_HSCR1171_"
+        },
+        {
+          "chunk_text": "encourage further discussion; and (3) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As amended, this measure appropriates: Operating FY 2025-2026 FY 2026-2027 GENERAL FUNDS 203,319,009 203,391,600 ALL MEANS OF FINANCE 216,164,762 216,237,353 Capital Improvements FY 2025-2026 FY 2026-2027 GENERAL FUNDS 0 0 GENERAL OBLIGATION BONDS",
+          "chunk_id": 213,
+          "document_name": "HB400_HD1_HSCR1171_"
         }
       ],
       "5": [
         {
-          "chunk_text": "from which funds are appropriated, or authorized, as the case may be, to be expended for the programs and projects specified in this Act. All appropriations are followed by letter symbols. The letter symbols, where used, shall have the following meanings: A General funds B Special funds C General obligation",
-          "chunk_id": 175,
+          "chunk_text": "yield the amount that may be necessary to finance projects authorized in part II and listed in part IV of this Act; provided that the sum total of the general obligation bonds so issued shall not exceed $11,900,000 . PART VI. SPECIAL PROVISIONS SECTION 9. Any law or any provision",
+          "chunk_id": 192,
+          "document_name": "HB400_HD1"
+        },
+        {
+          "chunk_text": "Description: Appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. Effective 7/1/3000. (HD1) The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+          "chunk_id": 207,
           "document_name": "HB400_HD1"
         }
       ]
@@ -2688,14 +2783,8 @@
       },
       {
         "section": "overview",
-        "sentence": "Operating resource requests center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court, an additional District Court Judge in Kona, cybersecurity costs, funding for the Criminal Justice Research Institute, and restoration of funding for essential staffing.",
+        "sentence": "Operating resource requests center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court that will open during this biennium, an additional District Court Judge and support staff in Kona, cybersecurity and critical technology costs, funding for the Criminal Justice Research Institute (CJRI), and restoration of funding for essential staffing that was defunded during the early part of the COVID-19 pandemic.",
         "chunks": [
-          {
-            "chunk_id": 7,
-            "citation_number": 4,
-            "chunk_text": "Relating to the Judiciary House Committee on Finance Wednesday, March 5, 2025 Page 2 Operating Requests: Operating resource requests center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court that will open during this biennium, an additional District Court",
-            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-          },
           {
             "chunk_id": 8,
             "citation_number": 4,
@@ -2725,18 +2814,12 @@
             "citation_number": 4,
             "chunk_text": "of House Bill No. 400, which reflects the Judiciary’s resource requirements for Fiscal Biennium 2025–2027. Based on current circumstances and projected resource needs for the future, the Judiciary requests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary FTE, and $6.17M in FY 2026, and $6.25M",
             "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-          },
-          {
-            "chunk_id": 3,
-            "citation_number": 4,
-            "chunk_text": "1.0 temporary FTE, and $6.17M in FY 2026, and $6.25M in FY 2027. This is an addition of approximately 3% to the Judiciary’s operating budget. The Judiciary remains vigilant during this period of uncertainty over federal funding and the possible impact on the State and Judiciary budgets and operations. We",
-            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
           }
         ]
       },
       {
         "section": "appropriations",
-        "sentence": "This measure, as amended, appropriates $11,900,000 (HB400_HD1_HSCR1171_.PDF.txt) in General Obligation Bonds for Capital Improvements for FY 2025-2026.",
+        "sentence": "As amended, this measure appropriates $11,900,000 (HB400_HD1_HSCR1171_.pdf) in General Obligation Bonds for Capital Improvements in FY 2025-2026.",
         "chunks": [
           {
             "chunk_id": 214,
@@ -2747,8 +2830,20 @@
         ]
       },
       {
+        "section": "appropriations",
+        "sentence": "Testimony from The Legal Clinic supports the current budget of $1.2 million (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) and an increase of an additional $1 million (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to the Judiciary’s civil legal services fund.",
+        "chunks": [
+          {
+            "chunk_id": 117,
+            "citation_number": 4,
+            "chunk_text": "safety net providers are continually growing. For example, with the current federal administration’s immigration enforcement actions and rhetoric, TLC anticipates an exponential increase in those needing support in immigration proceedings. Thus, TLC supports the current budget of $1.2 million and an increase of an additional $1 million to the Judiciary’s",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
         "section": "assumptions_and_methodology",
-        "sentence": "The Judiciary's resource requirements are based on current circumstances and projected resource needs for the future.",
+        "sentence": "The Judiciary's budget request is based on current circumstances and projected resource needs for the future.",
         "chunks": [
           {
             "chunk_id": 2,
@@ -2760,43 +2855,67 @@
       },
       {
         "section": "assumptions_and_methodology",
-        "sentence": "The request for additional operating resources constitutes an addition of approximately 3% to the Judiciary’s operating budget.",
+        "sentence": "Cost estimations are based on making pilot programs permanent, such as the Women's Court which is set to expire at the end of FY 2025.",
         "chunks": [
           {
-            "chunk_id": 3,
+            "chunk_id": 11,
             "citation_number": 4,
-            "chunk_text": "1.0 temporary FTE, and $6.17M in FY 2026, and $6.25M in FY 2027. This is an addition of approximately 3% to the Judiciary’s operating budget. The Judiciary remains vigilant during this period of uncertainty over federal funding and the possible impact on the State and Judiciary budgets and operations. We",
+            "chunk_text": "are provided below: Women’s Court – The Women’s Court Pilot Project was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot that included seven temporary positions, which are set to expire at the end of FY 2025. The request of $705,416 in FY",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The methodology also includes costs for staffing new facilities like the Wahiawā District Court, which will open to the public in Spring 2026, and restoring funding for selected positions defunded during the early part of the pandemic.",
+        "chunks": [
+          {
+            "chunk_id": 24,
+            "citation_number": 4,
+            "chunk_text": "high-risk offenders. Wahiawā District Court – There are five requests related to the Wahiawā District Court, which will open to the public in Spring 2026. The first relates to restoring funding for three positions in the amount of $192,408 in FY 2026 and $192,408 in FY 2027 to transition to",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          },
+          {
+            "chunk_id": 24,
+            "citation_number": 4,
+            "chunk_text": "high-risk offenders. Wahiawā District Court – There are five requests related to the Wahiawā District Court, which will open to the public in Spring 2026. The first relates to restoring funding for three positions in the amount of $192,408 in FY 2026 and $192,408 in FY 2027 to transition to",
             "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
           }
         ]
       },
       {
         "section": "agency_impact",
-        "sentence": "The Judiciary requests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary FTE.",
+        "sentence": "The appropriations would allow the Judiciary to establish a permanent Women’s Court with 8.0 FTE permanent positions.",
         "chunks": [
           {
-            "chunk_id": 2,
+            "chunk_id": 12,
             "citation_number": 4,
-            "chunk_text": "of House Bill No. 400, which reflects the Judiciary’s resource requirements for Fiscal Biennium 2025–2027. Based on current circumstances and projected resource needs for the future, the Judiciary requests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary FTE, and $6.17M in FY 2026, and $6.25M",
+            "chunk_text": "end of FY 2025. The request of $705,416 in FY 2026 and $705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s Court. The Women’s Court, also known as Mohala Wahine, was created to address the rapid growth in the incarceration of women in the United",
             "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
           }
         ]
       },
       {
         "section": "agency_impact",
-        "sentence": "Nine of the 18 requested positions are to continue current staffing, as seven temporary positions for the Women’s Court Pilot Project and two positions for the CJRI are set to expire.",
+        "sentence": "It would significantly expand the Truancy Court and EEIP on O‘ahu and make the DWI Court Program permanent.",
         "chunks": [
           {
-            "chunk_id": 9,
+            "chunk_id": 16,
             "citation_number": 4,
-            "chunk_text": "the early part of the COVID-19 pandemic. As for positions, nine of the 18 (17.0 permanent and 1.0 temporary) are requested to continue current staffing. This is because seven temporary positions for the Women’s Court Pilot Project, along with one permanent position and one temporary position for the CJRI, will",
+            "chunk_text": "increase of one), including one substance use counselor. Truancy Court and Early Education Intervention Program (EEIP) – The Judiciary requests funding of $188,388 in FY 2026 and $183,288 in FY 2027 to restore funding for three redescribed Social Worker positions and additional expenses to significantly expand the Truancy Court and",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          },
+          {
+            "chunk_id": 16,
+            "citation_number": 4,
+            "chunk_text": "increase of one), including one substance use counselor. Truancy Court and Early Education Intervention Program (EEIP) – The Judiciary requests funding of $188,388 in FY 2026 and $183,288 in FY 2027 to restore funding for three redescribed Social Worker positions and additional expenses to significantly expand the Truancy Court and",
             "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
           }
         ]
       },
       {
         "section": "agency_impact",
-        "sentence": "The remaining requested positions will significantly expand capacity to certain operations, such as adding a new District Court Judge in Kona and fully staffing the new Wahiawā District Court.",
+        "sentence": "Additionally, the funding will fully staff the new Wahiawā District Court, add a District Court Judge in Kona to address an extraordinary caseload, and create a dedicated cybersecurity staff.",
         "chunks": [
           {
             "chunk_id": 7,
@@ -2805,22 +2924,22 @@
             "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
           },
           {
-            "chunk_id": 8,
+            "chunk_id": 7,
             "citation_number": 4,
-            "chunk_text": "that will open during this biennium, an additional District Court Judge and support staff in Kona, cybersecurity and critical technology costs, funding for the Criminal Justice Research Institute (CJRI), and restoration of funding for essential staffing that was defunded during the early part of the COVID-19 pandemic. As for positions,",
+            "chunk_text": "Relating to the Judiciary House Committee on Finance Wednesday, March 5, 2025 Page 2 Operating Requests: Operating resource requests center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court that will open during this biennium, an additional District Court",
             "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
           },
           {
-            "chunk_id": 10,
+            "chunk_id": 7,
             "citation_number": 4,
-            "chunk_text": "permanent position and one temporary position for the CJRI, will expire, but there are compelling reasons to continue these programs and the necessary staffing. The remaining requested positions will significantly expand capacity to certain operations. Brief details of each request are provided below: Women’s Court – The Women’s Court Pilot",
+            "chunk_text": "Relating to the Judiciary House Committee on Finance Wednesday, March 5, 2025 Page 2 Operating Requests: Operating resource requests center around funding to make permanent or expand three Specialty Courts on O‘ahu, to fully staff the new Wahiawā District Court that will open during this biennium, an additional District Court",
             "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
           }
         ]
       },
       {
         "section": "economic_impact",
-        "sentence": "The Women’s Court program aims to aid participants in bettering their economic conditions and life circumstances as an alternative to incarceration.",
+        "sentence": "The goal of the Women's Court program is to aid the participants in bettering their economic conditions and life circumstances.",
         "chunks": [
           {
             "chunk_id": 14,
@@ -2832,14 +2951,8 @@
       },
       {
         "section": "economic_impact",
-        "sentence": "The Driving While Impaired (DWI) Court Program seeks to reduce recidivism among repeat and high-risk offenders, which may reduce public safety costs.",
+        "sentence": "Securing permanent funding for the DWI Court Program would allow it to continue to provide accountability and monitoring of the treatment and recovery process for repeat and high-risk offenders, potentially reducing recidivism.",
         "chunks": [
-          {
-            "chunk_id": 22,
-            "citation_number": 4,
-            "chunk_text": "DWI Court Program confronts the persistent problem of impaired driving and seeks to reduce recidivism among repeat and high-risk offenders by addressing the underlying cause of impaired driving, which is alcohol and/or substance use disorder. Without intervention, this population of chronically impaired drivers might continue to reoffend and endanger public",
-            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-          },
           {
             "chunk_id": 23,
             "citation_number": 4,
@@ -2850,19 +2963,25 @@
       },
       {
         "section": "economic_impact",
-        "sentence": "This measure also provides critical funding for civil legal services to low- and moderate-income individuals in Hawai‘i.",
+        "sentence": "Testimony from Volunteer Legal Services Hawai‘i highlights that there are many unmet legal needs for low-income residents facing critical issues, like landlord/tenant or child custody issues, and requests an increase in funding for civil legal services.",
         "chunks": [
           {
-            "chunk_id": 121,
+            "chunk_id": 124,
             "citation_number": 4,
-            "chunk_text": "TAKENOUCHI, AND MEMBERS OF THE COMMITTEE ON FINANCE: Volunteer Legal Services Hawai‘i supports the passage of H.B. 400. This critical funding would go to funding civil legal services, including but not limited to the delivery of civil legal services to low- and moderate- income individuals in Hawai‘i. Volunteer Legal is",
+            "chunk_text": "We are more worried than ever about the impact that the limiting of services has on the safety net of legal services. There are many unmet needs1, and Volunteer Legal is often the last line of defense for someone facing critical issues, like landlord/tenant or child custody issues. In the",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          },
+          {
+            "chunk_id": 124,
+            "citation_number": 4,
+            "chunk_text": "We are more worried than ever about the impact that the limiting of services has on the safety net of legal services. There are many unmet needs1, and Volunteer Legal is often the last line of defense for someone facing critical issues, like landlord/tenant or child custody issues. In the",
             "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
           }
         ]
       },
       {
         "section": "policy_impact",
-        "sentence": "This measure will establish a permanent Women’s Court, as the three-year pilot project is set to expire at the end of FY 2025.",
+        "sentence": "This measure transitions the Women’s Court Pilot Project, established in July of 2022, into a permanent Women's Court.",
         "chunks": [
           {
             "chunk_id": 11,
@@ -2871,16 +2990,16 @@
             "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
           },
           {
-            "chunk_id": 12,
+            "chunk_id": 11,
             "citation_number": 4,
-            "chunk_text": "end of FY 2025. The request of $705,416 in FY 2026 and $705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s Court. The Women’s Court, also known as Mohala Wahine, was created to address the rapid growth in the incarceration of women in the United",
+            "chunk_text": "are provided below: Women’s Court – The Women’s Court Pilot Project was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot that included seven temporary positions, which are set to expire at the end of FY 2025. The request of $705,416 in FY",
             "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
           }
         ]
       },
       {
         "section": "policy_impact",
-        "sentence": "It also seeks to make the Driving While Impaired (DWI) Court Program permanent, which was initially supported by federal funding.",
+        "sentence": "It also secures permanent funding for the Driving While Impaired (DWI) Court Program, which has been operational since 2013 with initial federal funding.",
         "chunks": [
           {
             "chunk_id": 20,
@@ -2889,129 +3008,21 @@
             "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
           },
           {
-            "chunk_id": 21,
+            "chunk_id": 20,
             "citation_number": 4,
-            "chunk_text": "Court Program was established in April 2012 and has been operational since January 2013, with initial federal funding for the program from the National Highway Traffic Safety Administration (NHTSA) through a grant administered by the State Department of Transportation. The DWI Court Program confronts the persistent problem of impaired driving",
+            "chunk_text": "to be a Social Worker IV and Specialty Court Coordinator, and additional expenses, to make the DWI House Bill No. 400, Relating to the Judiciary House Committee on Finance Wednesday, March 5, 2025 Page 3 Court Program permanent. The DWI Court Program was established in April 2012 and has been",
             "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
           }
         ]
       },
       {
         "section": "policy_impact",
-        "sentence": "The bill continues resources for the Criminal Justice Research Institute (CJRI), established by Act 179 (SLH 2019), and restores funding for positions that were defunded during the early part of the COVID-19 pandemic.",
+        "sentence": "The bill reverses a pandemic-era policy by restoring funding for selected defunded positions that were removed from the Judiciary's budget to help the State's economic crisis at that time.",
         "chunks": [
           {
-            "chunk_id": 8,
+            "chunk_id": 69,
             "citation_number": 4,
-            "chunk_text": "that will open during this biennium, an additional District Court Judge and support staff in Kona, cybersecurity and critical technology costs, funding for the Criminal Justice Research Institute (CJRI), and restoration of funding for essential staffing that was defunded during the early part of the COVID-19 pandemic. As for positions,",
-            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-          },
-          {
-            "chunk_id": 53,
-            "citation_number": 4,
-            "chunk_text": "their useful lifespan. Criminal Justice Research Institute (CJRI) – There are two requests related to the Criminal Justice Research Institute, established by Act 179 (SLH 2019). Both are to continue the resources appropriated in Act 147 (SLH 2023). More specifically, the first is $512,624 in FY 2026 and $577,058 in",
-            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-          }
-        ]
-      },
-      {
-        "section": "revenue_sources",
-        "sentence": "The appropriations in this measure are primarily from general funds and general obligation bond funds.",
-        "chunks": [
-          {
-            "chunk_id": 175,
-            "citation_number": 5,
-            "chunk_text": "from which funds are appropriated, or authorized, as the case may be, to be expended for the programs and projects specified in this Act. All appropriations are followed by letter symbols. The letter symbols, where used, shall have the following meanings: A General funds B Special funds C General obligation",
-            "document_name": "HB400_HD1"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The Judiciary requests additional operating resources of $6.17M in FY 2026, and $6.25M in FY 2027.",
-        "chunks": [
-          {
-            "chunk_id": 2,
-            "citation_number": 4,
-            "chunk_text": "of House Bill No. 400, which reflects the Judiciary’s resource requirements for Fiscal Biennium 2025–2027. Based on current circumstances and projected resource needs for the future, the Judiciary requests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary FTE, and $6.17M in FY 2026, and $6.25M",
-            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-          },
-          {
-            "chunk_id": 3,
-            "citation_number": 4,
-            "chunk_text": "1.0 temporary FTE, and $6.17M in FY 2026, and $6.25M in FY 2027. This is an addition of approximately 3% to the Judiciary’s operating budget. The Judiciary remains vigilant during this period of uncertainty over federal funding and the possible impact on the State and Judiciary budgets and operations. We",
-            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "Five requests to fully staff the Wahiawā District Court total $936,058 in FY 2026 and $1,104,888 in FY 2027.",
-        "chunks": [
-          {
-            "chunk_id": 24,
-            "citation_number": 4,
-            "chunk_text": "high-risk offenders. Wahiawā District Court – There are five requests related to the Wahiawā District Court, which will open to the public in Spring 2026. The first relates to restoring funding for three positions in the amount of $192,408 in FY 2026 and $192,408 in FY 2027 to transition to",
-            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-          }
-        ]
-      },
-      {
-        "section": "operating_revenue_impact",
-        "sentence": "The Judiciary remains vigilant during a period of uncertainty over federal funding and its possible impact on budgets and operations.",
-        "chunks": [
-          {
-            "chunk_id": 3,
-            "citation_number": 4,
-            "chunk_text": "1.0 temporary FTE, and $6.17M in FY 2026, and $6.25M in FY 2027. This is an addition of approximately 3% to the Judiciary’s operating budget. The Judiciary remains vigilant during this period of uncertainty over federal funding and the possible impact on the State and Judiciary budgets and operations. We",
-            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-          }
-        ]
-      },
-      {
-        "section": "operating_revenue_impact",
-        "sentence": "Testimony notes that there have been dramatic reductions in available federal funds for victims of crime and domestic-violence survivors.",
-        "chunks": [
-          {
-            "chunk_id": 157,
-            "citation_number": 4,
-            "chunk_text": "facing significant fiscal pressures due to potential federal funding cuts. In addition, changes to the federal funding and policy landscape also require additional support for Hawaiʻi’s legal services providers. Recently, there have been dramatic reductions in available federal funds for victims of crime and domestic-violence survivors. Legal Aid receives substantial",
-            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-          }
-        ]
-      },
-      {
-        "section": "operating_revenue_impact",
-        "sentence": "The documents do not identify any new sources of operating revenue resulting from this measure.",
-        "chunks": [
-          {
-            "chunk_id": 4,
-            "citation_number": 4,
-            "chunk_text": "impact on the State and Judiciary budgets and operations. We have assessed federally-funded grant projects of the Judiciary and are committed to ongoing communication with the Legislature and with local non-governmental partners of the Judiciary who rely on federal funding. The Judiciary also requests a total of $11.9M in bond",
-            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-          }
-        ]
-      },
-      {
-        "section": "fiscal_implications_after_6_years",
-        "sentence": "Securing permanent funding would allow the DWI Court Program to continue and grow beyond the biennium.",
-        "chunks": [
-          {
-            "chunk_id": 23,
-            "citation_number": 4,
-            "chunk_text": "chronically impaired drivers might continue to reoffend and endanger public safety on our roadways. Securing permanent funding would allow the DWI Court Program to continue, grow, and provide accountability and monitoring of the treatment and recovery process for repeat and high-risk offenders. Wahiawā District Court – There are five requests",
-            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
-          }
-        ]
-      },
-      {
-        "section": "fiscal_implications_after_6_years",
-        "sentence": "The requests to establish a permanent Women's Court and restore funding for numerous permanent positions imply ongoing operational costs after FY 2027.",
-        "chunks": [
-          {
-            "chunk_id": 12,
-            "citation_number": 4,
-            "chunk_text": "end of FY 2025. The request of $705,416 in FY 2026 and $705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s Court. The Women’s Court, also known as Mohala Wahine, was created to address the rapid growth in the incarceration of women in the United",
+            "chunk_text": "policy premiums. DAGS notified the Judiciary that its share of the risk management costs would increase by approximately $151,000. Targeted Funding Restoration – The Judiciary’s next group of requests is to restore funding for selected defunded positions. During the early part of the pandemic, over $11 million was removed from",
             "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
           },
           {
@@ -3023,20 +3034,20 @@
         ]
       },
       {
-        "section": "fiscal_implications_after_6_years",
-        "sentence": "The new Wahiawā District Court, scheduled to open in Spring 2026, will require sustained funding for staffing and operations in subsequent years.",
+        "section": "revenue_sources",
+        "sentence": "The bill authorizes general obligation bonds to be issued to yield an amount that shall not exceed $11,900,000 (HB400_HD1_.HTM.txt) to finance capital improvement projects.",
         "chunks": [
           {
-            "chunk_id": 24,
-            "citation_number": 4,
-            "chunk_text": "high-risk offenders. Wahiawā District Court – There are five requests related to the Wahiawā District Court, which will open to the public in Spring 2026. The first relates to restoring funding for three positions in the amount of $192,408 in FY 2026 and $192,408 in FY 2027 to transition to",
-            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+            "chunk_id": 192,
+            "citation_number": 5,
+            "chunk_text": "yield the amount that may be necessary to finance projects authorized in part II and listed in part IV of this Act; provided that the sum total of the general obligation bonds so issued shall not exceed $11,900,000 . PART VI. SPECIAL PROVISIONS SECTION 9. Any law or any provision",
+            "document_name": "HB400_HD1"
           }
         ]
       },
       {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "The total capital improvement project (CIP) appropriation has been updated.",
+        "section": "revenue_sources",
+        "sentence": "The Judiciary requests a total of $11.9M (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in bond funds for capital improvement projects in FY 2026.",
         "chunks": [
           {
             "chunk_id": 5,
@@ -3047,18 +3058,616 @@
         ]
       },
       {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "The current documents provide a more detailed breakdown of the five separate funding requests to fully staff and operate the new Wahiawā District Court, totaling over $936,000 for FY 2026.",
+        "section": "revenue_sources",
+        "sentence": "Third-party testimony also requests an increase of an additional $1,000,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to the line item for legal services.",
         "chunks": [
           {
-            "chunk_id": 24,
+            "chunk_id": 155,
             "citation_number": 4,
-            "chunk_text": "high-risk offenders. Wahiawā District Court – There are five requests related to the Wahiawā District Court, which will open to the public in Spring 2026. The first relates to restoring funding for three positions in the amount of $192,408 in FY 2026 and $192,408 in FY 2027 to transition to",
+            "chunk_text": "legal needs. There are now four legal service providers recieving this critical funding, and all of our low- income and vulnerable populations statewide and across demographics are positively impacted by this support. We respectfully request that you increase support for legal services by adding an additional $1,000,000 to the line",
             "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
           }
         ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The Judiciary requests additional operating resources of $6.17M in FY 2026 and $6.25M in FY 2027.",
+        "chunks": [
+          {
+            "chunk_id": 2,
+            "citation_number": 4,
+            "chunk_text": "of House Bill No. 400, which reflects the Judiciary’s resource requirements for Fiscal Biennium 2025–2027. Based on current circumstances and projected resource needs for the future, the Judiciary requests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary FTE, and $6.17M in FY 2026, and $6.25M",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The request for the Women’s Court is $705,416 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $705,416 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027.",
+        "chunks": [
+          {
+            "chunk_id": 12,
+            "citation_number": 4,
+            "chunk_text": "end of FY 2025. The request of $705,416 in FY 2026 and $705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s Court. The Women’s Court, also known as Mohala Wahine, was created to address the rapid growth in the incarceration of women in the United",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The Truancy Court and Early Education Intervention Program requests funding of $188,388 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $183,288 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027.",
+        "chunks": [
+          {
+            "chunk_id": 16,
+            "citation_number": 4,
+            "chunk_text": "increase of one), including one substance use counselor. Truancy Court and Early Education Intervention Program (EEIP) – The Judiciary requests funding of $188,388 in FY 2026 and $183,288 in FY 2027 to restore funding for three redescribed Social Worker positions and additional expenses to significantly expand the Truancy Court and",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The DWI Court Program requests funding of $232,412 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $237,612 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027.",
+        "chunks": [
+          {
+            "chunk_id": 19,
+            "citation_number": 4,
+            "chunk_text": "visit campuses weekly to meet with students identified as having attendance issues. Driving While Impaired (DWI) Court Program – The Judiciary requests funding of $232,412 in FY 2026 and $237,612 in FY 2027 for two positions that will be redescribed to be a Social Worker IV and Specialty Court Coordinator,",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "A request for the Wahiawā District Court is for contracted security personnel for $346,209 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $486,967 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027.",
+        "chunks": [
+          {
+            "chunk_id": 30,
+            "citation_number": 4,
+            "chunk_text": "who enter and use the facility. The third request for Wahiawā District Court is funding of $346,209 in FY 2026 and $486,967 in FY 2027 to provide contracted security personnel for patrol, primarily interior. The new courthouse will have two courtrooms and expand its services to include Ho‘okele (court information",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The request for an additional Kona District Court Judge is $368,943 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $360,048 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027.",
+        "chunks": [
+          {
+            "chunk_id": 41,
+            "citation_number": 4,
+            "chunk_text": "efficient manner. Kona District Court Judge – The Judiciary requests $368,943 in FY 2026 and $360,048 in FY 2027, and 4.0 FTE permanent positions, for an additional District Court Judge and three necessary support staff. The additional judgeship is needed to address the current extraordinary caseload in Kona, as well",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "For cybersecurity, the Judiciary requests $1,175,300 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $1,175,300 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027 to upgrade email subscriptions.",
+        "chunks": [
+          {
+            "chunk_id": 45,
+            "citation_number": 4,
+            "chunk_text": "of factors has led to unsustainable court congestion and delays. Cybersecurity and Technology – The Judiciary has three requests pertaining to cybersecurity and other technology. First, is a request for $1,175,300 in FY 2026 and $1,175,300 in FY 2027 to upgrade email subscriptions to improve security capabilities. The Judiciary currently",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "A request for the Criminal Justice Research Institute is for $512,624 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2026 and $577,058 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in FY 2027.",
+        "chunks": [
+          {
+            "chunk_id": 53,
+            "citation_number": 4,
+            "chunk_text": "their useful lifespan. Criminal Justice Research Institute (CJRI) – There are two requests related to the Criminal Justice Research Institute, established by Act 179 (SLH 2019). Both are to continue the resources appropriated in Act 147 (SLH 2023). More specifically, the first is $512,624 in FY 2026 and $577,058 in",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          },
+          {
+            "chunk_id": 53,
+            "citation_number": 4,
+            "chunk_text": "their useful lifespan. Criminal Justice Research Institute (CJRI) – There are two requests related to the Criminal Justice Research Institute, established by Act 179 (SLH 2019). Both are to continue the resources appropriated in Act 147 (SLH 2023). More specifically, the first is $512,624 in FY 2026 and $577,058 in",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Making these programs and positions permanent will result in recurring costs beyond the 2025-2027 biennium.",
+        "chunks": [
+          {
+            "chunk_id": 10,
+            "citation_number": 4,
+            "chunk_text": "permanent position and one temporary position for the CJRI, will expire, but there are compelling reasons to continue these programs and the necessary staffing. The remaining requested positions will significantly expand capacity to certain operations. Brief details of each request are provided below: Women’s Court – The Women’s Court Pilot",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "The provided documents do not indicate any anticipated impacts on operating revenues as a result of this measure.",
+        "chunks": [
+          {
+            "chunk_id": 2,
+            "citation_number": 4,
+            "chunk_text": "of House Bill No. 400, which reflects the Judiciary’s resource requirements for Fiscal Biennium 2025–2027. Based on current circumstances and projected resource needs for the future, the Judiciary requests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary FTE, and $6.17M in FY 2026, and $6.25M",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The Judiciary requests a total of $11.9M (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in bond funds for capital improvement projects in FY 2026.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 4,
+            "chunk_text": "The Judiciary also requests a total of $11.9M in bond funds for capital improvement projects in FY 2026. This amount in bond funds includes a request for $2M more in lump sum bond funds than the Judiciary’s request as introduced. This is because in recent weeks the Judiciary received new",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "Specific requests include $4.0 million (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to design a new South Kohala District Courthouse, $900,000 (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to replace an A/C chiller on Kaua‘i, and $7.0 million (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) in lump sum bond funds.",
+        "chunks": [
+          {
+            "chunk_id": 100,
+            "citation_number": 4,
+            "chunk_text": "totaling $11.9 million for FY 2026 to address critical needs, some of which relate to the health and safety of Judiciary employees and the public. Specifically, the Judiciary is requesting $4.0 million to design a new South Kohala District Courthouse. The current South Kohala District Court carries significant concerns for",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          },
+          {
+            "chunk_id": 100,
+            "citation_number": 4,
+            "chunk_text": "totaling $11.9 million for FY 2026 to address critical needs, some of which relate to the health and safety of Judiciary employees and the public. Specifically, the Judiciary is requesting $4.0 million to design a new South Kohala District Courthouse. The current South Kohala District Court carries significant concerns for",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          },
+          {
+            "chunk_id": 100,
+            "citation_number": 4,
+            "chunk_text": "totaling $11.9 million for FY 2026 to address critical needs, some of which relate to the health and safety of Judiciary employees and the public. Specifically, the Judiciary is requesting $4.0 million to design a new South Kohala District Courthouse. The current South Kohala District Court carries significant concerns for",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The lump sum request includes $2.0 million (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) to address a shortfall in funding for the relocation of the Children’s Justice Center on Oʻahu.",
+        "chunks": [
+          {
+            "chunk_id": 102,
+            "citation_number": 4,
+            "chunk_text": "The chiller is near the end of its lifecycle, and A/C manufacturing is experiencing hardships resulting in long lead times. The Judiciary also requests $7.0 million in lump sum bond funds to address both continuing and emerging building issues statewide. As stated above, this includes $2.0 million that will be",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          },
+          {
+            "chunk_id": 102,
+            "citation_number": 4,
+            "chunk_text": "The chiller is near the end of its lifecycle, and A/C manufacturing is experiencing hardships resulting in long lead times. The Judiciary also requests $7.0 million in lump sum bond funds to address both continuing and emerging building issues statewide. As stated above, this includes $2.0 million that will be",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "Establishing a permanent Women’s Court and making the DWI Court Program permanent will create ongoing operational costs beyond the initial biennium.",
+        "chunks": [
+          {
+            "chunk_id": 12,
+            "citation_number": 4,
+            "chunk_text": "end of FY 2025. The request of $705,416 in FY 2026 and $705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s Court. The Women’s Court, also known as Mohala Wahine, was created to address the rapid growth in the incarceration of women in the United",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          },
+          {
+            "chunk_id": 12,
+            "citation_number": 4,
+            "chunk_text": "end of FY 2025. The request of $705,416 in FY 2026 and $705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s Court. The Women’s Court, also known as Mohala Wahine, was created to address the rapid growth in the incarceration of women in the United",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "Restoring funding for various essential staff positions that were previously defunded will also result in recurring expenses in future fiscal years.",
+        "chunks": [
+          {
+            "chunk_id": 69,
+            "citation_number": 4,
+            "chunk_text": "policy premiums. DAGS notified the Judiciary that its share of the risk management costs would increase by approximately $151,000. Targeted Funding Restoration – The Judiciary’s next group of requests is to restore funding for selected defunded positions. During the early part of the pandemic, over $11 million was removed from",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "These ongoing fiscal obligations will require continued appropriations to maintain the expanded services and staffing levels.",
+        "chunks": [
+          {
+            "chunk_id": 10,
+            "citation_number": 4,
+            "chunk_text": "permanent position and one temporary position for the CJRI, will expire, but there are compelling reasons to continue these programs and the necessary staffing. The remaining requested positions will significantly expand capacity to certain operations. Brief details of each request are provided below: Women’s Court – The Women’s Court Pilot",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The capital improvement projects appropriation has been amended and clarified in this version.",
+        "chunks": [
+          {
+            "chunk_id": 212,
+            "citation_number": 6,
+            "chunk_text": "Hawai ʻ i. Your Committee received comments on this measure from SanHi Government Strategies. Your Committee has amended this measure by: (1) Clarifying capital improvement projects amounts and cost elements; (2) Changing the effective date to July 1, 3000, to encourage further discussion; and (3) Making technical, nonsubstantive amendments for",
+            "document_name": "HB400_HD1_HSCR1171_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The measure now appropriates $11,900,000 (HB400_HD1_HSCR1171_.pdf) in General Obligation Bonds, an increase from the previously mentioned $9.9 million request and different from the $7 million consideration in the prior fiscal note.",
+        "chunks": [
+          {
+            "chunk_id": 214,
+            "citation_number": 6,
+            "chunk_text": "2025-2026 FY 2026-2027 GENERAL FUNDS 0 0 GENERAL OBLIGATION BONDS 11,900,000 0 ALL MEANS OF FINANCE 11,900,000 0 As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of",
+            "document_name": "HB400_HD1_HSCR1171_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "This increase is partly due to new information that the relocation of the Children’s Justice Center on O‘ahu will require at least $2M (HB400_TESTIMONY_FIN_03-05-25_.PDF.txt) more than previously appropriated.",
+        "chunks": [
+          {
+            "chunk_id": 6,
+            "citation_number": 4,
+            "chunk_text": "This is because in recent weeks the Judiciary received new information that the relocation of the Children’s Justice Center on O‘ahu will require at least $2M more than previously appropriated. These circumstances are detailed further below. House Bill No. 400, Relating to the Judiciary House Committee on Finance Wednesday, March",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The effective date of the bill has been changed to July 1, 3000, to encourage further discussion.",
+        "chunks": [
+          {
+            "chunk_id": 212,
+            "citation_number": 6,
+            "chunk_text": "Hawai ʻ i. Your Committee received comments on this measure from SanHi Government Strategies. Your Committee has amended this measure by: (1) Clarifying capital improvement projects amounts and cost elements; (2) Changing the effective date to July 1, 3000, to encourage further discussion; and (3) Making technical, nonsubstantive amendments for",
+            "document_name": "HB400_HD1_HSCR1171_"
+          }
+        ]
+      },
+      {
+        "section": "fte_positions",
+        "sentence": "The Judiciary requests additional operating resources for 17.0 permanent FTE and 1.0 temporary FTE.",
+        "chunks": [
+          {
+            "chunk_id": 2,
+            "citation_number": 4,
+            "chunk_text": "of House Bill No. 400, which reflects the Judiciary’s resource requirements for Fiscal Biennium 2025–2027. Based on current circumstances and projected resource needs for the future, the Judiciary requests additional operating resources in the amount of 17.0 permanent FTE and 1.0 temporary FTE, and $6.17M in FY 2026, and $6.25M",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "fte_positions",
+        "sentence": "The request to establish a permanent Women's Court includes 8.0 FTE permanent positions, which is a net increase of one position.",
+        "chunks": [
+          {
+            "chunk_id": 12,
+            "citation_number": 4,
+            "chunk_text": "end of FY 2025. The request of $705,416 in FY 2026 and $705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s Court. The Women’s Court, also known as Mohala Wahine, was created to address the rapid growth in the incarceration of women in the United",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          },
+          {
+            "chunk_id": 12,
+            "citation_number": 4,
+            "chunk_text": "end of FY 2025. The request of $705,416 in FY 2026 and $705,416 in FY 2027, and 8.0 FTE permanent positions will establish a permanent Women’s Court. The Women’s Court, also known as Mohala Wahine, was created to address the rapid growth in the incarceration of women in the United",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "fte_positions",
+        "sentence": "Other requests include 4.0 FTE permanent positions for an additional District Court Judge and support staff in Kona, and 3.0 FTE permanent positions for Social Services Assistants for the Office of the Public Guardian.",
+        "chunks": [
+          {
+            "chunk_id": 41,
+            "citation_number": 4,
+            "chunk_text": "efficient manner. Kona District Court Judge – The Judiciary requests $368,943 in FY 2026 and $360,048 in FY 2027, and 4.0 FTE permanent positions, for an additional District Court Judge and three necessary support staff. The additional judgeship is needed to address the current extraordinary caseload in Kona, as well",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          },
+          {
+            "chunk_id": 41,
+            "citation_number": 4,
+            "chunk_text": "efficient manner. Kona District Court Judge – The Judiciary requests $368,943 in FY 2026 and $360,048 in FY 2027, and 4.0 FTE permanent positions, for an additional District Court Judge and three necessary support staff. The additional judgeship is needed to address the current extraordinary caseload in Kona, as well",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations_changes",
+        "sentence": "The capital improvement projects appropriation has been amended in this version of the bill.",
+        "chunks": [
+          {
+            "chunk_id": 212,
+            "citation_number": 6,
+            "chunk_text": "Hawai ʻ i. Your Committee received comments on this measure from SanHi Government Strategies. Your Committee has amended this measure by: (1) Clarifying capital improvement projects amounts and cost elements; (2) Changing the effective date to July 1, 3000, to encourage further discussion; and (3) Making technical, nonsubstantive amendments for",
+            "document_name": "HB400_HD1_HSCR1171_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations_changes",
+        "sentence": "The measure now appropriates a total of $11,900,000 (HB400_HD1_HSCR1171_.pdf) in General Obligation Bonds.",
+        "chunks": [
+          {
+            "chunk_id": 214,
+            "citation_number": 6,
+            "chunk_text": "2025-2026 FY 2026-2027 GENERAL FUNDS 0 0 GENERAL OBLIGATION BONDS 11,900,000 0 ALL MEANS OF FINANCE 11,900,000 0 As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of",
+            "document_name": "HB400_HD1_HSCR1171_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations_changes",
+        "sentence": "This amount is an increase from the $9.9 million initially requested by the Judiciary and considered in the previous fiscal note.",
+        "chunks": [
+          {
+            "chunk_id": 210,
+            "citation_number": 6,
+            "chunk_text": "Judiciary Branch for fiscal biennium 2025-2027. As introduced, this measure appropriates: Operating FY 2025-2026 FY 2026-2027 GENERAL FUNDS 203,319,009 203,391,600 ALL MEANS OF FINANCE 216,164,762 216,237,353 Capital Improvements FY 2025-2026 FY 2026-2027 GENERAL FUNDS 0 0 GENERAL OBLIGATION BONDS 9,900,000 0 ALL MEANS OF FINANCE 9,900,000 0 Your Committee received",
+            "document_name": "HB400_HD1_HSCR1171_"
+          }
+        ]
+      },
+      {
+        "section": "funding_sources_changes",
+        "sentence": "The method of funding for capital improvements is specified as $11,900,000 (HB400_HD1_HSCR1171_.pdf) in General Obligation Bonds for fiscal year 2025-2026.",
+        "chunks": [
+          {
+            "chunk_id": 214,
+            "citation_number": 6,
+            "chunk_text": "2025-2026 FY 2026-2027 GENERAL FUNDS 0 0 GENERAL OBLIGATION BONDS 11,900,000 0 ALL MEANS OF FINANCE 11,900,000 0 As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of",
+            "document_name": "HB400_HD1_HSCR1171_"
+          }
+        ]
+      },
+      {
+        "section": "funding_sources_changes",
+        "sentence": "This final appropriation amount replaces the preliminary request and committee consideration figures mentioned in the previous fiscal note.",
+        "chunks": [
+          {
+            "chunk_id": 210,
+            "citation_number": 6,
+            "chunk_text": "Judiciary Branch for fiscal biennium 2025-2027. As introduced, this measure appropriates: Operating FY 2025-2026 FY 2026-2027 GENERAL FUNDS 203,319,009 203,391,600 ALL MEANS OF FINANCE 216,164,762 216,237,353 Capital Improvements FY 2025-2026 FY 2026-2027 GENERAL FUNDS 0 0 GENERAL OBLIGATION BONDS 9,900,000 0 ALL MEANS OF FINANCE 9,900,000 0 Your Committee received",
+            "document_name": "HB400_HD1_HSCR1171_"
+          }
+        ]
+      },
+      {
+        "section": "funding_sources_changes",
+        "sentence": "No other changes to the method of funding are identified.",
+        "chunks": [
+          {
+            "chunk_id": 213,
+            "citation_number": 6,
+            "chunk_text": "encourage further discussion; and (3) Making technical, nonsubstantive amendments for the purposes of clarity, consistency, and style. As amended, this measure appropriates: Operating FY 2025-2026 FY 2026-2027 GENERAL FUNDS 203,319,009 203,391,600 ALL MEANS OF FINANCE 216,164,762 216,237,353 Capital Improvements FY 2025-2026 FY 2026-2027 GENERAL FUNDS 0 0 GENERAL OBLIGATION BONDS",
+            "document_name": "HB400_HD1_HSCR1171_"
+          }
+        ]
+      },
+      {
+        "section": "department_impact",
+        "sentence": "There have been no changes in departmental responsibility; all appropriations are for the Judiciary.",
+        "chunks": [
+          {
+            "chunk_id": 209,
+            "citation_number": 6,
+            "chunk_text": "which was referred H.B. No. 400 entitled: \"A BILL FOR AN ACT RELATING TO THE JUDICIARY,\" begs leave to report as follows: The purpose of this measure is to appropriate funds for the operating and capital improvement costs of the Judiciary Branch for fiscal biennium 2025-2027. As introduced, this measure",
+            "document_name": "HB400_HD1_HSCR1171_"
+          }
+        ]
+      },
+      {
+        "section": "reports_required",
+        "sentence": "The provided documents do not identify any new or modified reporting requirements.",
+        "chunks": [
+          {
+            "chunk_id": 212,
+            "citation_number": 6,
+            "chunk_text": "Hawai ʻ i. Your Committee received comments on this measure from SanHi Government Strategies. Your Committee has amended this measure by: (1) Clarifying capital improvement projects amounts and cost elements; (2) Changing the effective date to July 1, 3000, to encourage further discussion; and (3) Making technical, nonsubstantive amendments for",
+            "document_name": "HB400_HD1_HSCR1171_"
+          }
+        ]
+      },
+      {
+        "section": "pilot_program",
+        "sentence": "The Women’s Court Pilot Project was established by the Legislature in July of 2022 with funding for a three-year pilot.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 4,
+            "chunk_text": "are provided below: Women’s Court – The Women’s Court Pilot Project was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot that included seven temporary positions, which are set to expire at the end of FY 2025. The request of $705,416 in FY",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "pilot_program",
+        "sentence": "This bill requests funding to establish a permanent Women’s Court, as the pilot positions and funding are set to expire at the end of FY 2025.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 4,
+            "chunk_text": "are provided below: Women’s Court – The Women’s Court Pilot Project was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot that included seven temporary positions, which are set to expire at the end of FY 2025. The request of $705,416 in FY",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          },
+          {
+            "chunk_id": 11,
+            "citation_number": 4,
+            "chunk_text": "are provided below: Women’s Court – The Women’s Court Pilot Project was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot that included seven temporary positions, which are set to expire at the end of FY 2025. The request of $705,416 in FY",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "pilot_program",
+        "sentence": "The DWI Court Program was established in April 2012 with initial federal funding, and this bill seeks to make the program permanent.",
+        "chunks": [
+          {
+            "chunk_id": 20,
+            "citation_number": 4,
+            "chunk_text": "to be a Social Worker IV and Specialty Court Coordinator, and additional expenses, to make the DWI House Bill No. 400, Relating to the Judiciary House Committee on Finance Wednesday, March 5, 2025 Page 3 Court Program permanent. The DWI Court Program was established in April 2012 and has been",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          },
+          {
+            "chunk_id": 20,
+            "citation_number": 4,
+            "chunk_text": "to be a Social Worker IV and Specialty Court Coordinator, and additional expenses, to make the DWI House Bill No. 400, Relating to the Judiciary House Committee on Finance Wednesday, March 5, 2025 Page 3 Court Program permanent. The DWI Court Program was established in April 2012 and has been",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "sunset_date",
+        "sentence": "The seven temporary positions for the Women’s Court Pilot Project are set to expire at the end of FY 2025.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 4,
+            "chunk_text": "are provided below: Women’s Court – The Women’s Court Pilot Project was established by the Legislature in July of 2022 (Act 243/22) with funding for a three-year pilot that included seven temporary positions, which are set to expire at the end of FY 2025. The request of $705,416 in FY",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "sunset_date",
+        "sentence": "Additionally, funding for one permanent and one temporary Project Specialist position for the Criminal Justice Research Institute (CJRI) ends on June 30, 2025.",
+        "chunks": [
+          {
+            "chunk_id": 57,
+            "citation_number": 4,
+            "chunk_text": "Staff have been trained with software to ingest data into the data warehouse and established preliminary datasets for pretrial research. The Project Specialist position was created to support CJRI with in-house IT expertise. Although the position is permanent, funding ends on June 30, 2025. To build upon this firm foundation,",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          },
+          {
+            "chunk_id": 57,
+            "citation_number": 4,
+            "chunk_text": "Staff have been trained with software to ingest data into the data warehouse and established preliminary datasets for pretrial research. The Project Specialist position was created to support CJRI with in-house IT expertise. Although the position is permanent, funding ends on June 30, 2025. To build upon this firm foundation,",
+            "document_name": "HB400_TESTIMONY_FIN_03-05-25_"
+          }
+        ]
+      },
+      {
+        "section": "effective_date",
+        "sentence": "The Committee on Finance has amended this measure by changing the effective date to July 1, 3000, to encourage further discussion.",
+        "chunks": [
+          {
+            "chunk_id": 212,
+            "citation_number": 6,
+            "chunk_text": "Hawai ʻ i. Your Committee received comments on this measure from SanHi Government Strategies. Your Committee has amended this measure by: (1) Clarifying capital improvement projects amounts and cost elements; (2) Changing the effective date to July 1, 3000, to encourage further discussion; and (3) Making technical, nonsubstantive amendments for",
+            "document_name": "HB400_HD1_HSCR1171_"
+          }
+        ]
+      },
+      {
+        "section": "effective_date",
+        "sentence": "This replaces the previously standard or unspecified effective date.",
+        "chunks": [
+          {
+            "chunk_id": 207,
+            "citation_number": 5,
+            "chunk_text": "Description: Appropriates funds for the Judiciary for the fiscal biennium beginning 7/1/2025, and ending 6/30/2027. Effective 7/1/3000. (HD1) The summary description of legislation appearing on this page is for informational purposes only and is not legislation or evidence of legislative intent.",
+            "document_name": "HB400_HD1"
+          }
+        ]
       }
-    ]
+    ],
+    "property_prompts_used": {
+      "overview": {
+        "prompt": "Using the provided legislative documents, statutes, and testimonies, write a clear summary describing the purpose, scope, and key components of the proposed measure or bill, including any pilot or permanent programs, reporting requirements, and sunset clauses. This should be around 3 sentences.",
+        "description": "General overview and summary of the measure"
+      },
+      "appropriations": {
+        "prompt": "Based on budgetary data and legislative appropriations, detail the funding allocated for the program or measure, including fiscal years, amounts, intended uses such as staffing, training, contracts, technology, etc... This should be around 3 sentences.",
+        "description": "Funding allocation and appropriations details"
+      },
+      "assumptions_and_methodology": {
+        "prompt": "Explain the assumptions, cost estimation methods, and data sources used to calculate the financial projections for this program or measure, referencing comparable programs or historical budgets where applicable. This should be around 3 sentences.",
+        "description": "Cost estimation methodology and assumptions"
+      },
+      "agency_impact": {
+        "prompt": "Describe the anticipated operational, administrative, and budgetary impact of the program or measure on the relevant government agency or department, including supervision, staffing, and resource allocation. This should be around 3 sentences.",
+        "description": "Impact on government agencies and departments"
+      },
+      "economic_impact": {
+        "prompt": "Summarize the expected economic effects of the program or measure, such as cost savings, potential reductions in related expenditures, benefits to the community, and any relevant performance or participation statistics. This should be around 3 sentences.",
+        "description": "Economic effects and community benefits"
+      },
+      "policy_impact": {
+        "prompt": "Analyze the policy implications of the measure, including how it modifies existing laws or programs, its role within broader legislative strategies, and its potential effects on state or local governance. This should be around 3 sentences.",
+        "description": "Policy implications and legislative analysis"
+      },
+      "revenue_sources": {
+        "prompt": "Identify and describe the funding sources that will support the program or measure, such as general funds, grants, fees, or other revenue streams, based on the provided fiscal documents. This should be around 3 sentences.",
+        "description": "Funding sources and revenue streams"
+      },
+      "six_year_fiscal_implications": {
+        "prompt": "Provide a multi-year fiscal outlook (e.g., six years) for the program or measure, projecting costs, staffing changes, recurring expenses, and assumptions about program expansion or permanence using available budget and workload data. This should be around 10 sentences.",
+        "description": "Six-year fiscal projections and outlook"
+      },
+      "operating_revenue_impact": {
+        "prompt": "Describe any anticipated impacts on operating revenues resulting from the program or measure, including increases, decreases, or changes in revenue streams. This should be around 3 sentences.",
+        "description": "Operating revenue impacts"
+      },
+      "capital_expenditure_impact": {
+        "prompt": "Outline any expected capital expenditures related to the program or measure, such as investments in facilities, equipment, or technology infrastructure, based on capital budgets or agency plans. This should be around 3 sentences.",
+        "description": "Capital expenditure requirements"
+      },
+      "fiscal_implications_after_6_years": {
+        "prompt": "Summarize the ongoing fiscal obligations after the initial multi-year period for the program or measure, including annual operating costs, expected number of program sites or units, and the sustainability of funding. This should be around 3 sentences.",
+        "description": "Long-term fiscal obligations beyond six years"
+      },
+      "updates_from_previous_fiscal_note": {
+        "prompt": "If you are given a previous fiscal note. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fiscal note.",
+        "description": "Updates from previous fiscal note"
+      },
+      "fte_positions": {
+        "prompt": "Detail any Full Time Equivalent (FTE) positions that have been added or modified in this version of the bill, including the number of positions, their roles, and any changes from previous versions. This should be around 3 sentences.",
+        "description": "FTE (Full Time Equivalent) position changes"
+      },
+      "appropriations_changes": {
+        "prompt": "Identify and describe any appropriations that were previously unspecified or have been modified between versions of the bill, including the amounts and purposes of the appropriations. This should be around 3 sentences.",
+        "description": "Changes to appropriations between bill versions"
+      },
+      "funding_sources_changes": {
+        "prompt": "Specify the method of funding (MOF) for appropriations and identify any changes in funding sources between versions, such as shifts between general fund and special fund appropriations. This should be around 3 sentences.",
+        "description": "Changes to funding sources and method of funding"
+      },
+      "department_impact": {
+        "prompt": "Describe any changes in which department is responsible for expending appropriations, including shifts from one department to another between bill versions (e.g., from Department of Health to Judiciary). This should be around 3 sentences.",
+        "description": "Changes in department responsibility for appropriations"
+      },
+      "reports_required": {
+        "prompt": "Identify any reports that agencies are required to submit to the legislature, including new reporting requirements or modifications to existing ones. This should be around 3 sentences.",
+        "description": "Reporting requirements for agencies"
+      },
+      "pilot_program": {
+        "prompt": "If the bill creates a pilot program, describe the length of the pilot program and whether it was initially intended to be a pilot program or a permanent program. This should be around 3 sentences.",
+        "description": "Pilot program details and duration"
+      },
+      "sunset_date": {
+        "prompt": "Identify the sunset date for the bill or program, including any modifications to the sunset date between versions. This should be around 2 sentences.",
+        "description": "Sunset date and changes"
+      },
+      "effective_date": {
+        "prompt": "Identify the effective date of the bill, noting if there was a defective effective date in a previous version and what the corrected effective date is. This should be around 2 sentences.",
+        "description": "Effective date and corrections"
+      }
+    }
   },
   "chunk_mapping": {
     "HB400_HD1_HSCR1171_": [
@@ -3932,6 +4541,6 @@
       }
     ]
   },
-  "generation_timestamp": "2025-10-29T12:06:14.844187",
-  "generation_timestamp_unix": 1761775574.8441951
+  "generation_timestamp": "2025-10-31T18:23:48.294542",
+  "generation_timestamp_unix": 1761971028.29455
 }

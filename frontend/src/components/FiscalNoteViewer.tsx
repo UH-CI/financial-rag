@@ -4,6 +4,7 @@ import { getFiscalNoteData } from '../services/api';
 import TimelineNavigation from './TimelineNavigation';
 import FiscalNoteContent from './FiscalNoteContent';
 import ErrorBoundary from './ErrorBoundary';
+import NumberTrackingSection from './NumberTrackingSection';
 
 interface FiscalNoteViewerProps {
   billType: 'HB' | 'SB';
@@ -53,6 +54,23 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
       setError(null);
       const data = await getFiscalNoteData(billType, billNumber, year);
       setFiscalNoteData(data);
+      
+      // Debug: Log tracking data
+      console.log('📊 Fiscal Note Data Loaded:', {
+        has_tracking: data.has_tracking,
+        chronological_tracking: data.chronological_tracking ? 'Present' : 'Missing',
+        fiscal_notes_count: data.fiscal_notes?.length,
+        first_note_has_tracking: data.fiscal_notes?.[0]?.number_tracking ? 'Yes' : 'No'
+      });
+      
+      // Debug: Log each fiscal note's tracking status
+      data.fiscal_notes?.forEach((note, idx) => {
+        console.log(`📋 Fiscal Note ${idx}: ${note.filename}`, {
+          has_number_tracking: !!note.number_tracking,
+          segment_id: note.number_tracking?.segment_id,
+          numbers_count: note.number_tracking?.numbers?.length || 0
+        });
+      });
       
       // Reset split view indices if they're out of bounds for the new data
       if (data.fiscal_notes && data.fiscal_notes.length > 0) {
@@ -315,14 +333,14 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
       </div>
 
       {/* Main Content Area - Full width on mobile */}
-      <div className="flex-1 min-w-0 w-full overflow-y-auto relative pb-20 lg:pb-0 flex flex-col">
+      <div className="flex-1 min-w-0 w-full relative pb-20 lg:pb-0 flex flex-col overflow-hidden">
 
         {currentSplitView.enabled ? (
           /* Split View - Two fiscal notes side by side on desktop, single view on mobile */
           <div className="flex flex-col lg:flex-row h-full">
             {/* Left Panel */}
             <div className="flex-1 border-b lg:border-b-0 lg:border-r border-gray-300 relative h-full flex flex-col min-h-[50vh] lg:min-h-0">
-              <div className="sticky top-0 z-20 bg-white border-b border-gray-200 p-2 lg:p-3 shadow-sm flex-shrink-0">
+              <div className="z-20 bg-white border-b border-gray-200 p-2 lg:p-3 shadow-sm flex-shrink-0">
                 <select
                   value={safeSplitViewLeftIndex}
                   onChange={(e) => updateSplitViewIndex('left', parseInt(e.target.value))}
@@ -357,7 +375,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
 
             {/* Right Panel - Hidden on mobile, visible on desktop */}
             <div className="hidden lg:flex flex-1 relative h-full flex-col min-h-[50vh] lg:min-h-0">
-              <div className="sticky top-0 z-20 bg-white border-b border-gray-200 p-2 lg:p-3 shadow-sm flex-shrink-0">
+              <div className="z-20 bg-white border-b border-gray-200 p-2 lg:p-3 shadow-sm flex-shrink-0">
                 <select
                   value={safeSplitViewRightIndex}
                   onChange={(e) => updateSplitViewIndex('right', parseInt(e.target.value))}
@@ -394,9 +412,9 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
         ) : (
           /* Single View */
           fiscalNoteData.fiscal_notes.length > 1 ? (
-            <div className="h-full">
+            <div className="h-full flex flex-col overflow-hidden">
               {/* Tabs for multiple fiscal notes - Desktop only, hidden on mobile */}
-              <div className="hidden lg:block bg-white border-b border-gray-200 px-6 py-3 sticky top-0 z-20 shadow-sm">
+              <div className="hidden lg:block bg-white border-b border-gray-200 px-6 py-3 flex-shrink-0 z-20 shadow-sm">
                 <div className="flex space-x-4 overflow-x-auto scrollbar-hide">
                   {fiscalNoteData.fiscal_notes.map((note, index) => (
                     <button
@@ -416,7 +434,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
               </div>
               
               {/* Content */}
-              <div className="overflow-y-auto h-full">
+              <div className="flex-1 overflow-y-auto overflow-x-hidden">
                 <ErrorBoundary>
                   <FiscalNoteContent
                     key={fiscalNoteData.fiscal_notes[safeSelectedIndex].filename}
@@ -432,25 +450,51 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
                     onSaveSuccess={handleSaveSuccess}
                     onAddSplitView={enableSplitView}
                   />
+                  
+                  {/* Number Tracking Section - Only show if tracking is available */}
+                  {fiscalNoteData.has_tracking && (
+                    <div className="max-w-4xl mx-auto px-4 lg:px-8">
+                      <NumberTrackingSection
+                        tracking={fiscalNoteData.fiscal_notes[safeSelectedIndex].number_tracking}
+                        fiscalNoteName={fiscalNoteData.fiscal_notes[safeSelectedIndex].filename}
+                        allTrackingData={fiscalNoteData.chronological_tracking}
+                        documentMapping={fiscalNoteData.document_mapping}
+                      />
+                    </div>
+                  )}
                 </ErrorBoundary>
               </div>
             </div>
           ) : (
-            <ErrorBoundary>
-              <FiscalNoteContent
-                key={fiscalNoteData.fiscal_notes[safeSelectedIndex].filename}
-                fiscalNote={fiscalNoteData.fiscal_notes[safeSelectedIndex]}
-                documentMapping={fiscalNoteData.document_mapping}
-                enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
-                numbersData={fiscalNoteData.numbers_data || []}
-                numberCitationMap={fiscalNoteData.number_citation_map || {}}
-                chunkTextMap={fiscalNoteData.chunk_text_map || {}}
-                billType={billType}
-                billNumber={billNumber}
-                year={year}
-                onSaveSuccess={handleSaveSuccess}
-              />
-            </ErrorBoundary>
+            <div className="flex-1 overflow-y-auto overflow-x-hidden">
+              <ErrorBoundary>
+                <FiscalNoteContent
+                  key={fiscalNoteData.fiscal_notes[safeSelectedIndex].filename}
+                  fiscalNote={fiscalNoteData.fiscal_notes[safeSelectedIndex]}
+                  documentMapping={fiscalNoteData.document_mapping}
+                  enhancedDocumentMapping={fiscalNoteData.enhanced_document_mapping || {}}
+                  numbersData={fiscalNoteData.numbers_data || []}
+                  numberCitationMap={fiscalNoteData.number_citation_map || {}}
+                  chunkTextMap={fiscalNoteData.chunk_text_map || {}}
+                  billType={billType}
+                  billNumber={billNumber}
+                  year={year}
+                  onSaveSuccess={handleSaveSuccess}
+                />
+                
+                {/* Number Tracking Section - Only show if tracking is available */}
+                {fiscalNoteData.has_tracking && (
+                  <div className="max-w-4xl mx-auto px-4 lg:px-8">
+                    <NumberTrackingSection
+                      tracking={fiscalNoteData.fiscal_notes[safeSelectedIndex].number_tracking}
+                      fiscalNoteName={fiscalNoteData.fiscal_notes[safeSelectedIndex].filename}
+                      allTrackingData={fiscalNoteData.chronological_tracking}
+                      documentMapping={fiscalNoteData.document_mapping}
+                    />
+                  </div>
+                )}
+              </ErrorBoundary>
+            </div>
           )
         )}
 

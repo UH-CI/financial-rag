@@ -294,6 +294,108 @@ export interface DocumentInfo {
   icon: string;
 }
 
+// Chronological Number Tracking Types
+export interface HistoryEntry {
+  segment_id: number;
+  number: number;
+  summary?: string;
+  similarity_score: number;
+  amount_type?: string;
+  category?: string;
+  fiscal_year?: string[];
+  expending_agency?: string;
+  source_documents?: string[];
+  filename?: string;
+  document_type?: string;
+}
+
+export interface TrackedNumber {
+  number: number;
+  text: string;
+  filename: string;
+  document_type: string;
+  summary?: string;
+  
+  // Enhanced properties (from step 6)
+  entity_name?: string;
+  type?: string;
+  fund_type?: string;
+  fiscal_year?: string[];
+  expending_agency?: string;
+  category?: string;
+  amount_type?: string;
+  
+  // Tracking metadata (from step 7)
+  change_type: 'new' | 'continued' | 'modified' | 'no_change';
+  first_appeared_in_segment: number;
+  source_documents?: string[];
+  history: HistoryEntry[];
+  history_length?: number;
+  carried_forward?: boolean;
+  previous_number?: number;
+  
+  // Advanced tracking
+  all_merged_numbers?: any[];
+  exact_match_low_similarity?: {
+    previous_segment: number;
+    similarity: number;
+    previous_summary: string;
+  };
+}
+
+export interface NumberTrackingSegment {
+  segment_id: number;
+  segment_name: string;
+  documents: string[];
+  ends_with_committee_report: boolean;
+  counts: {
+    total: number;
+    new: number;
+    continued: number;
+    modified: number;
+    carried_forward: number;
+  };
+  numbers: TrackedNumber[];
+  is_carried_forward?: boolean; // NEW: Flag indicating if this data was carried forward
+  carried_forward_from?: number; // NEW: Original segment_id if carried forward
+}
+
+export interface ChronologicalTracking {
+  bill_name: string;
+  generated_at: string;
+  numbers_source: 'enhanced' | 'regular';
+  statistics: {
+    total_segments: number;
+    total_number_entries: number;
+    new_numbers: number;
+    continued_numbers: number;
+    modified_numbers: number;
+    no_change_numbers: number;
+  };
+  segments: NumberTrackingSegment[];
+  timeline: Array<{
+    segment_id: number;
+    segment_name: string;
+    new_numbers: number;
+    modified_numbers: number;
+    total_numbers: number;
+  }>;
+  metadata?: {
+    total_segments: number;
+    has_committee_reports: boolean;
+  };
+}
+
+export interface FiscalNoteItem {
+  filename: string;
+  data: Record<string, any>;
+  new_documents_processed?: string[]; // Documents used to create this specific fiscal note
+  strikethroughs?: StrikethroughItem[]; // Legacy: User-applied strikethroughs (backward compatibility)
+  annotations?: AnnotationItem[]; // New: User-applied annotations (strikethrough + underline)
+  enhanced_numbers?: EnhancedNumbers; // Enhanced financial numbers extracted from the bill
+  number_tracking?: NumberTrackingSegment; // NEW: Chronological number tracking for this fiscal note version
+}
+
 export interface FiscalNoteData {
   status: 'ready' | 'generating' | 'error';
   message?: string;
@@ -305,4 +407,6 @@ export interface FiscalNoteData {
   number_citation_map: Record<number, NumberCitationMapItem>; // Each citation number maps to a single item
   chunk_text_map: Record<number, ChunkTextMapItem[]>; // Document citations to chunk text
   chunk_metadata?: ChunkMetadata; // Chunk information for CHUNK citations
+  chronological_tracking?: ChronologicalTracking; // NEW: Full chronological tracking data
+  has_tracking?: boolean; // NEW: Flag indicating if tracking data is available
 }

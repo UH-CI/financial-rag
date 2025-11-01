@@ -20,6 +20,8 @@ from fiscal_notes.generation.step2_reorder_context import reorder_documents
 from fiscal_notes.generation.step3_retrieve_docs import retrieve_documents
 from fiscal_notes.generation.step4_get_numbers import extract_number_context
 from fiscal_notes.generation.step5_fiscal_note_gen import generate_fiscal_notes
+from fiscal_notes.generation.step6_enhance_numbers import enhance_numbers_for_bill
+from fiscal_notes.generation.step7_track_chronological import track_chronological_changes
 
 import shutil
 from enum import Enum
@@ -46,6 +48,14 @@ from langgraph_agent import LangGraphRAGAgent
 from chatbot_engine.nlp_backend import NLPBackend
 
 from bill_data.bill_similarity_search import BillSimilaritySearcher
+
+# ============================================================================
+# FEATURE FLAGS - Fiscal Note Generation Pipeline
+# ============================================================================
+# Set these to True/False to enable/disable specific steps in the pipeline
+ENABLE_STEP6_ENHANCE_NUMBERS = False  # Step 6: Enhance numbers with RAG agent
+ENABLE_STEP7_TRACK_CHRONOLOGICAL = False  # Step 7: Track chronological changes
+# ============================================================================
 
 # Load configuration
 def load_config() -> Dict[str, Any]:
@@ -2064,7 +2074,7 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
     bill_number = bill_number
     year = year
 
-    job_id = f"{bill_type.value}_{bill_number}_{year}"
+    job_id = f"{bill_type.value}_{bill_number}_{year.value}"
     if get_job_status(job_id):
         return {
             "message": "Fiscal note generation already in progress",
@@ -2312,6 +2322,112 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
                     
                     fiscal_notes.append(fiscal_note_item)
 
+    # Load chronological tracking data if available
+    tracking_summary_file = os.path.join(base_dir, f"{job_id}_number_changes_summary.json")
+    tracking_file = os.path.join(base_dir, f"{job_id}_chronological_tracking.json")
+    
+    print(f"🔍 Looking for tracking files:")
+    print(f"   base_dir: {base_dir}")
+    print(f"   job_id: {job_id}")
+    print(f"   Summary file: {tracking_summary_file}")
+    print(f"   Summary exists: {os.path.exists(tracking_summary_file)}")
+    print(f"   Tracking file: {tracking_file}")
+    print(f"   Tracking exists: {os.path.exists(tracking_file)}")
+    
+    chronological_tracking = None
+    has_tracking = False
+    
+    # Prefer summary file (frontend-optimized), fall back to full tracking
+    if os.path.exists(tracking_summary_file):
+        try:
+            with open(tracking_summary_file, 'r') as f:
+                chronological_tracking = json.load(f)
+            has_tracking = True
+            print(f"✅ Loaded chronological tracking summary: {tracking_summary_file}")
+        except Exception as e:
+            print(f"⚠️  Error loading tracking summary: {e}")
+    elif os.path.exists(tracking_file):
+        try:
+            with open(tracking_file, 'r') as f:
+                chronological_tracking = json.load(f)
+            has_tracking = True
+            print(f"✅ Loaded chronological tracking: {tracking_file}")
+        except Exception as e:
+            print(f"⚠️  Error loading tracking file: {e}")
+    else:
+        print(f"ℹ️  No chronological tracking data found for {job_id}")
+        print(f"   Checked: {tracking_summary_file}")
+        print(f"   Checked: {tracking_file}")
+    
+    # Map tracking segments to fiscal notes by matching document names
+    if has_tracking and chronological_tracking:
+        tracking_segments = chronological_tracking.get('segments', [])
+        
+        print(f"📊 Tracking segments: {len(tracking_segments)} total")
+        print(f"📋 Fiscal notes: {len(fiscal_notes)}")
+        
+        # Helper function to find matching segment for a fiscal note
+        def find_matching_segment(fiscal_note_filename, segments):
+            """Find segment that contains a document matching the fiscal note filename."""
+            # Try to match by checking if any segment document is a prefix of the fiscal note
+            # Use longest match to avoid matching "HB1483" when "HB1483_HD1" is available
+            best_match = None
+            best_match_length = 0
+            
+            for segment in segments:
+                for doc in segment.get('documents', []):
+                    # Check if document name is a prefix of fiscal note filename
+                    # e.g., "HB1483_HD1" matches "HB1483_HD1_HSCR983_"
+                    if fiscal_note_filename.startswith(doc):
+                        # Use longest matching document to avoid false positives
+                        if len(doc) > best_match_length:
+                            best_match = segment
+                            best_match_length = len(doc)
+            
+            return best_match
+        
+        last_segment = None  # Track the most recent segment for carry-forward
+        
+        for idx, fiscal_note in enumerate(fiscal_notes):
+            fiscal_note_name = fiscal_note['filename']
+            
+            # Try to find exact match by document name
+            matching_segment = find_matching_segment(fiscal_note_name, tracking_segments)
+            
+            if matching_segment:
+                # Direct match found
+                fiscal_note['number_tracking'] = {
+                    'segment_id': matching_segment.get('segment_id'),
+                    'segment_name': matching_segment.get('segment_name'),
+                    'documents': matching_segment.get('documents', []),
+                    'ends_with_committee_report': matching_segment.get('ends_with_committee_report', False),
+                    'counts': matching_segment.get('counts', {}),
+                    'numbers': matching_segment.get('numbers', []),
+                    'is_carried_forward': False
+                }
+                last_segment = matching_segment
+                print(f"✅ Matched segment {matching_segment.get('segment_id')} to fiscal note {idx}: {fiscal_note_name}")
+                print(f"   Segment documents: {matching_segment.get('documents', [])}")
+                print(f"   Numbers count: {len(matching_segment.get('numbers', []))}")
+            elif last_segment:
+                # No match - carry forward from most recent segment
+                fiscal_note['number_tracking'] = {
+                    'segment_id': last_segment.get('segment_id'),
+                    'segment_name': last_segment.get('segment_name'),
+                    'documents': last_segment.get('documents', []),
+                    'ends_with_committee_report': last_segment.get('ends_with_committee_report', False),
+                    'counts': last_segment.get('counts', {}),
+                    'numbers': last_segment.get('numbers', []),
+                    'is_carried_forward': True,
+                    'carried_forward_from': last_segment.get('segment_id')
+                }
+                print(f"🔄 Carried forward segment {last_segment.get('segment_id')} to fiscal note {idx}: {fiscal_note_name}")
+                print(f"   (No matching segment found, using previous segment's data)")
+            else:
+                # No match and no previous segment
+                print(f"⚠️  No tracking segment found for fiscal note {idx}: {fiscal_note_name}")
+                print(f"   (This is the first fiscal note with no matching segment)")
+
     with open(timeline_path, 'r') as f:
         timeline = json.load(f)
 
@@ -2324,7 +2440,9 @@ async def get_fiscal_note_data(bill_type: Bill_type_options, bill_number: str, y
             "numbers_data": all_numbers_data,
             "number_citation_map": all_number_citation_maps,
             "chunk_text_map": all_chunk_text_maps,
-            "sentence_chunk_mappings": all_sentence_chunk_mappings  # NEW: Include sentence mappings
+            "sentence_chunk_mappings": all_sentence_chunk_mappings,
+            "chronological_tracking": chronological_tracking,  # NEW: Full tracking data
+            "has_tracking": has_tracking  # NEW: Flag indicating if tracking is available
         }
 
 async def create_fiscal_note_job(bill_type: Bill_type_options, bill_number: str, year: str):
@@ -2377,6 +2495,48 @@ async def create_fiscal_note_job(bill_type: Bill_type_options, bill_number: str,
         }))
         
         fiscal_notes_path = generate_fiscal_notes(documents_path, numbers_file_path)
+        
+        # Step 6: Enhance numbers with RAG agent (optional, non-blocking)
+        if ENABLE_STEP6_ENHANCE_NUMBERS:
+            await manager.broadcast(json.dumps({
+                "type": "job_progress",
+                "job_id": job_id,
+                "status": "enhancing_numbers",
+                "message": "Enhancing numbers with RAG agent..."
+            }))
+            
+            try:
+                enhanced_numbers_path = enhance_numbers_for_bill(base_dir)
+                if enhanced_numbers_path:
+                    print(f"✅ Step 6 completed: {enhanced_numbers_path}")
+                else:
+                    print(f"⚠️  Step 6 skipped or failed (non-critical)")
+            except Exception as e:
+                print(f"⚠️  Step 6 error (non-critical): {e}")
+        else:
+            print(f"⏭️  Step 6 (Enhance Numbers) is disabled - skipping")
+        
+        # Step 7: Track chronological changes (optional, non-blocking)
+        if ENABLE_STEP7_TRACK_CHRONOLOGICAL:
+            await manager.broadcast(json.dumps({
+                "type": "job_progress",
+                "job_id": job_id,
+                "status": "tracking_changes",
+                "message": "Tracking chronological number changes..."
+            }))
+            
+            try:
+                tracking_result = track_chronological_changes(base_dir)
+                if tracking_result:
+                    print(f"✅ Step 7 completed:")
+                    print(f"   - {tracking_result.get('tracking_file')}")
+                    print(f"   - {tracking_result.get('summary_file')}")
+                else:
+                    print(f"⚠️  Step 7 skipped or failed (non-critical)")
+            except Exception as e:
+                print(f"⚠️  Step 7 error (non-critical): {e}")
+        else:
+            print(f"⏭️  Step 7 (Track Chronological Changes) is disabled - skipping")
         
         # Send completion notification
         await manager.broadcast(json.dumps({

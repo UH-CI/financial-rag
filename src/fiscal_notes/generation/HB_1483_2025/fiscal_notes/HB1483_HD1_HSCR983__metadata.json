@@ -13,17 +13,17 @@
     "HB1483_HD1_HSCR983_"
   ],
   "numbers_used": 0,
-  "prompt_length": 54949,
+  "prompt_length": 54697,
   "response_metadata": {
-    "response_text": "{\n  \"overview\": \"The purpose of this measure is to establish an adjudication system and procedures to process fireworks infractions and to amend and establish various definitions and penalties for fireworks offenses. [CHUNK_143, CHUNK_144] The bill seeks to facilitate more effective enforcement of Hawaii’s fireworks control laws by amending definitions, strengthening and clarifying existing criminal offenses, establishing new offenses, and establishing non-criminal fireworks infractions for the lowest-level offenses. [CHUNK_2, CHUNK_3] This bill would largely address the concerns raised by prosecutors, and provide greater clarity and efficiency for law enforcement, prosecutors, and the courts that handle these cases. [CHUNK_8]\",\n  \"appropriations\": \"This measure appropriates funds to the Judiciary to implement this measure. [CHUNK_144] According to the Department of Law Enforcement, the appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective. [CHUNK_40] The provided documents do not specify any dollar amounts for this appropriation. [CHUNK_40]\",\n  \"assumptions_and_methodology\": \"The fiscal impact is based on the appropriation of funds required for the Judiciary to implement the measure. [CHUNK_144] Testimony introduced concerns that a complex adjudication system risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns. [CHUNK_59, CHUNK_60] It was also noted that the creation of a separate fireworks infraction system could be a costly specialty court, which may not effectively deter illegal fireworks use. [CHUNK_60]\",\n  \"agency_impact\": \"The Department of the Attorney General recommends amending the definition of \\\"inspector\\\" by deleting the phrase, \\\"any law enforcement officer or . [CHUNK_31] . [CHUNK_31]\\\" The Department is unclear which law enforcement officers may be designated as administrative inspectors for purposes of section 132D-22, HRS, as amended. [CHUNK_32] The Department also recommends amendments to clarify wording for permit and license holders to ensure they may continue to use their permits and licenses as intended. [CHUNK_9, CHUNK_13]\",\n  \"economic_impact\": \"Testimony from fireworks distributors expressed concern that the measure imposes additional restrictions on consumer fireworks and could have unintended negative consequences for businesses. [CHUNK_74, CHUNK_85] A complex adjudication system also risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns. [CHUNK_59, CHUNK_60] The Honolulu Police Department believes better enforcement of fireworks control laws is essential to safeguard property from preventable fire damage and protect the community from injuries. [CHUNK_45]\",\n  \"policy_impact\": \"The Office of the Public Defender has asserted that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges brought under existing fireworks control laws. [CHUNK_148, CHUNK_149] The Department of the Attorney General has suggested several amendments to further clarify and correct various aspects of the fireworks control laws, including conforming amendments for the terms \\\"distribute\\\" and \\\"distribution\\\". [CHUNK_9, CHUNK_20] TNT Fireworks requested a safe harbor provision to allow licensed retailers and wholesalers to transport and store consumer fireworks, even in counties where use is restricted. [CHUNK_82]\",\n  \"revenue_sources\": \"The measure appropriates funds to the Judiciary, but the new documents do not specify the source or amount of funding. [CHUNK_144] The previous fiscal note identified revenue from fines and fees, but the current testimonies and committee report do not contain specific dollar amounts. [CHUNK_144]\",\n  \"six_year_fiscal_implications\": \"The appropriation of funds will be crucial for implementing the new procedures established in the bill. [CHUNK_40] The creation of a separate fireworks infraction system is described in testimony as a potentially costly specialty court. [CHUNK_60] This system may burden the judicial system with minor infractions and divert resources from more serious public safety concerns. [CHUNK_59, CHUNK_60] The Department of Law Enforcement (DLE) stated its strong support for the bill and noted the establishment of an adjudication system represents a significant step forward. [CHUNK_35, CHUNK_36] The proposed heightened penalties for fireworks offenses are described as critical deterrents. [CHUNK_37] The bill provides law enforcement with additional tools to combat illegal fireworks activities. [CHUNK_39] The Illegal Fireworks Task Force has already successfully removed hundreds of thousands of pounds of illegal fireworks from Hawaii's streets. [CHUNK_40] This measure complements the efforts of the Illegal Fireworks Task Force by providing a more robust framework for enforcement and accountability. [CHUNK_36, CHUNK_37] The provided documents do not contain specific financial projections for a six-year period. [CHUNK_144]\",\n  \"operating_revenue_impact\": \"The new documents do not provide any new information or specific figures regarding the potential impact on operating revenue. [CHUNK_142]\",\n  \"capital_expenditure_impact\": \"This measure appropriates funds to the Judiciary to implement this measure. [CHUNK_144] The new documents do not specify whether these funds are for capital expenditures or provide any cost estimates. [CHUNK_144]\",\n  \"fiscal_implications_after_6_years\": \"The provided documents do not contain information on fiscal implications beyond the initial implementation phase of the measure. [CHUNK_142] Long-term implications would depend on the volume of infractions and the operational costs of the adjudication system. [CHUNK_60]\",\n  \"updates_from_previous_fiscal_note\": \"New information is primarily from testimony provided to the House Committee on Finance. [CHUNK_142] The Department of the Attorney General offered specific amendments to clarify the status of permit and license holders and questioned the scope of law enforcement's role as administrative inspectors. [CHUNK_9, CHUNK_13, CHUNK_31] The Office of the Public Defender asserted that the underlying issue is a lack of enforcement, not insufficient penalties. [CHUNK_148, CHUNK_149] Industry stakeholders voiced concerns about the bill's impact on legal consumer fireworks, with some requesting a 'safe harbor provision' for transport and storage. [CHUNK_74, CHUNK_82]\"\n}",
+    "response_text": "{\n  \"overview\": \"The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws. [CHUNK_2] This measure will establish an adjudication system and procedures to process fireworks infractions, amend and establish various definitions and penalties for fireworks offenses, and appropriate funds to the Judiciary to implement this measure. [CHUNK_143] [CHUNK_144] The bill aims to strengthen and clarify existing criminal offenses, establish new offenses, establish heightened penalties for repeat offenders, and establish non-criminal fireworks infractions for the lowest-level offenses. [CHUNK_2] [CHUNK_3]\",\n  \"appropriations\": \"The appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective. [CHUNK_40] The measure appropriates funds to the Judiciary to implement this measure. [CHUNK_144]\",\n  \"assumptions_and_methodology\": \"For many years, Hawaii’s state laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these types of cases. [CHUNK_4] Prosecutors have repeatedly cited challenges posed by \\\"gathering evidence and meeting the high burden of proof necessary for convictions\\\", as well as \\\"stringent definitions [in statute, that] . . . routinely create roadblocks to effective prosecution.\\\" [CHUNK_5] This bill would largely address the concerns raised by prosecutors, and provide greater clarity and efficiency for law enforcement, prosecutors, and the courts that handle these cases. [CHUNK_8]\",\n  \"agency_impact\": \"The establishment of various criminal offenses and penalties related to fireworks and articles pyrotechnics will provide law enforcement with additional tools to combat illegal fireworks activities. [CHUNK_39] The Honolulu Police Department (HPD) supports this bill, which seeks to clarify the definitions of fireworks and improve enforcement. [CHUNK_44] The Department of the Attorney General recommends amending the definition of \\\"inspector\\\" and is unclear which law enforcement officers may be designated as administrative inspectors. [CHUNK_31] [CHUNK_32]\",\n  \"economic_impact\": \"Better enforcement of the fireworks control laws is essential not only to safeguard property from preventable fire damage but also to protect the community from injuries related to fires and explosions, respiratory issues caused by air pollution, and ongoing trauma experienced by individuals due to loud explosions. [CHUNK_45] [CHUNK_46] These bombs increasingly go off without regard to date and terrorize pets and people alike. [CHUNK_68] The unpredictable barrage makes it impossible to prepare and creates sustained stress, which can do lasting damage to emotional, mental and physical health. [CHUNK_68] [CHUNK_69]\",\n  \"policy_impact\": \"This bill complements the efforts of the Illegal Fireworks Task Force, established under Act 67, Session Laws of Hawai'i, 2023, by providing a more robust framework for enforcement and accountability. [CHUNK_36] [CHUNK_37] The measure establishes heightened penalties for fireworks offenses, particularly in cases resulting in substantial bodily injury, serious bodily injury, or death. [CHUNK_37] The Department of the Attorney General recommends amendments to ensure that anyone who holds a permit or license for fireworks can continue using them as intended. [CHUNK_9] [CHUNK_13]\",\n  \"revenue_sources\": \"The bill establishes an adjudication system and procedures to process fireworks infractions and amends penalties for fireworks offenses. [CHUNK_65] The measure appropriates funds to the Judiciary to implement the measure. [CHUNK_144] The appropriation of funds will be crucial for implementing new procedures and supporting the enforcement infrastructure. [CHUNK_40]\",\n  \"six_year_fiscal_implications\": \"The purpose of this measure is to establish an adjudication system and procedures to process fireworks infractions. [CHUNK_143] It also amends and establishes various definitions and penalties for fireworks offenses. [CHUNK_143] [CHUNK_144] The bill will establish various criminal offenses and penalties related to fireworks or articles pyrotechnics. [CHUNK_144] Funds are appropriated to the Judiciary to implement this measure. [CHUNK_144] The appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective. [CHUNK_40] This bill complements the efforts of the Illegal Fireworks Task Force, which has already successfully removed hundreds of thousands of pounds of illegal fireworks from Hawaii's streets. [CHUNK_36] [CHUNK_40] The proposed heightened penalties are critical deterrents that appropriately reflect the serious nature of these violations. [CHUNK_37] The Department of Law Enforcement stated these enhanced penalties will serve as a stronger deterrent and help protect communities. [CHUNK_38] A complex adjudication system risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns. [CHUNK_59] [CHUNK_60] The creation of a separate fireworks infraction system, a costly specialty court, may not effectively deter illegal fireworks use. [CHUNK_60]\",\n  \"operating_revenue_impact\": \"This measure establishes various criminal offenses and penalties related to fireworks or articles pyrotechnics. [CHUNK_144] It amends and establishes various definitions and penalties for fireworks offenses. [CHUNK_143] The provided documents do not contain specific details on the operating revenue impact.\",\n  \"capital_expenditure_impact\": \"This measure appropriates funds to the Judiciary to implement this measure. [CHUNK_144] The appropriation of funds will be crucial for implementing new procedures and supporting the enforcement infrastructure necessary to make this system effective. [CHUNK_40] No specific capital expenditures are detailed in the provided documents.\",\n  \"fiscal_implications_after_6_years\": \"The establishment of an adjudication system and procedures to process fireworks infractions represents a significant step forward in addressing the ongoing challenges of illegal fireworks in Hawaii. [CHUNK_36] The appropriation of funds will be crucial for supporting the enforcement infrastructure necessary to make this system effective on an ongoing basis. [CHUNK_40] The creation of a separate fireworks infraction system may function as a costly specialty court. [CHUNK_60]\",\n  \"updates_from_previous_fiscal_note\": \"The new fiscal note is based on testimony that provides significantly more context than the documents in the previous note. [CHUNK_145] Unlike the previous note, this one does not mention a future effective date of July 1, 3000, suggesting the fiscal impacts are now considered immediate. [CHUNK_150] The previous note cited specific dollar amounts for fines and fees, whereas the current documents do not contain these figures, focusing instead on the appropriation of unspecified funds to the Judiciary. [CHUNK_144] New information includes detailed testimony from the Department of the Attorney General with specific suggested amendments to the bill's language concerning permit holders and definitions. [CHUNK_9] Testimony from the Department of Law Enforcement highlights the ongoing success of the Illegal Fireworks Task Force and frames this bill as a complementary effort. [CHUNK_39] [CHUNK_40] Additionally, there is now testimony from opponents like the Libertarian Party of Hawaii and industry stakeholders like TNT Fireworks and Phantom Fireworks, who raise concerns about infringing on freedoms, burdening law enforcement, and imposing unnecessary restrictions on legal consumer fireworks. [CHUNK_48] [CHUNK_74] [CHUNK_55]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 30697,
-      "candidates_token_count": 1374,
-      "total_token_count": 35894
+      "prompt_token_count": 30523,
+      "candidates_token_count": 1563,
+      "total_token_count": 33054
     },
     "candidates": [
       {
@@ -33,7 +33,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n  \"overview\": \"The purpose of this measure is to establish an adjudication system and procedures to process fireworks infractions and to amend and establish various definitions and penalties for fireworks offenses. [CHUNK_143, CHUNK_144] The bill seeks to facilitate more effective enforcement of Hawaii’s fireworks control laws by amending definitions, strengthening and clarifying existing criminal offenses, establishing new offenses, and establishing non-criminal fireworks infractions for the lowest-level offenses. [CHUNK_2, CHUNK_3] This bill would largely address the concerns raised by prosecutors, and provide greater clarity and efficiency for law enforcement, prosecutors, and the courts that handle these cases. [CHUNK_8]\",\n  \"appropriations\": \"This measure appropriates funds to the Judiciary to implement this measure. [CHUNK_144] According to the Department of Law Enforcement, the appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective. [CHUNK_40] The provided documents do not specify any dollar amounts for this appropriation. [CHUNK_40]\",\n  \"assumptions_and_methodology\": \"The fiscal impact is based on the appropriation of funds required for the Judiciary to implement the measure. [CHUNK_144] Testimony introduced concerns that a complex adjudication system risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns. [CHUNK_59, CHUNK_60] It was also noted that the creation of a separate fireworks infraction system could be a costly specialty court, which may not effectively deter illegal fireworks use. [CHUNK_60]\",\n  \"agency_impact\": \"The Department of the Attorney General recommends amending the definition of \\\"inspector\\\" by deleting the phrase, \\\"any law enforcement officer or . [CHUNK_31] . [CHUNK_31]\\\" The Department is unclear which law enforcement officers may be designated as administrative inspectors for purposes of section 132D-22, HRS, as amended. [CHUNK_32] The Department also recommends amendments to clarify wording for permit and license holders to ensure they may continue to use their permits and licenses as intended. [CHUNK_9, CHUNK_13]\",\n  \"economic_impact\": \"Testimony from fireworks distributors expressed concern that the measure imposes additional restrictions on consumer fireworks and could have unintended negative consequences for businesses. [CHUNK_74, CHUNK_85] A complex adjudication system also risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns. [CHUNK_59, CHUNK_60] The Honolulu Police Department believes better enforcement of fireworks control laws is essential to safeguard property from preventable fire damage and protect the community from injuries. [CHUNK_45]\",\n  \"policy_impact\": \"The Office of the Public Defender has asserted that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges brought under existing fireworks control laws. [CHUNK_148, CHUNK_149] The Department of the Attorney General has suggested several amendments to further clarify and correct various aspects of the fireworks control laws, including conforming amendments for the terms \\\"distribute\\\" and \\\"distribution\\\". [CHUNK_9, CHUNK_20] TNT Fireworks requested a safe harbor provision to allow licensed retailers and wholesalers to transport and store consumer fireworks, even in counties where use is restricted. [CHUNK_82]\",\n  \"revenue_sources\": \"The measure appropriates funds to the Judiciary, but the new documents do not specify the source or amount of funding. [CHUNK_144] The previous fiscal note identified revenue from fines and fees, but the current testimonies and committee report do not contain specific dollar amounts. [CHUNK_144]\",\n  \"six_year_fiscal_implications\": \"The appropriation of funds will be crucial for implementing the new procedures established in the bill. [CHUNK_40] The creation of a separate fireworks infraction system is described in testimony as a potentially costly specialty court. [CHUNK_60] This system may burden the judicial system with minor infractions and divert resources from more serious public safety concerns. [CHUNK_59, CHUNK_60] The Department of Law Enforcement (DLE) stated its strong support for the bill and noted the establishment of an adjudication system represents a significant step forward. [CHUNK_35, CHUNK_36] The proposed heightened penalties for fireworks offenses are described as critical deterrents. [CHUNK_37] The bill provides law enforcement with additional tools to combat illegal fireworks activities. [CHUNK_39] The Illegal Fireworks Task Force has already successfully removed hundreds of thousands of pounds of illegal fireworks from Hawaii's streets. [CHUNK_40] This measure complements the efforts of the Illegal Fireworks Task Force by providing a more robust framework for enforcement and accountability. [CHUNK_36, CHUNK_37] The provided documents do not contain specific financial projections for a six-year period. [CHUNK_144]\",\n  \"operating_revenue_impact\": \"The new documents do not provide any new information or specific figures regarding the potential impact on operating revenue. [CHUNK_142]\",\n  \"capital_expenditure_impact\": \"This measure appropriates funds to the Judiciary to implement this measure. [CHUNK_144] The new documents do not specify whether these funds are for capital expenditures or provide any cost estimates. [CHUNK_144]\",\n  \"fiscal_implications_after_6_years\": \"The provided documents do not contain information on fiscal implications beyond the initial implementation phase of the measure. [CHUNK_142] Long-term implications would depend on the volume of infractions and the operational costs of the adjudication system. [CHUNK_60]\",\n  \"updates_from_previous_fiscal_note\": \"New information is primarily from testimony provided to the House Committee on Finance. [CHUNK_142] The Department of the Attorney General offered specific amendments to clarify the status of permit and license holders and questioned the scope of law enforcement's role as administrative inspectors. [CHUNK_9, CHUNK_13, CHUNK_31] The Office of the Public Defender asserted that the underlying issue is a lack of enforcement, not insufficient penalties. [CHUNK_148, CHUNK_149] Industry stakeholders voiced concerns about the bill's impact on legal consumer fireworks, with some requesting a 'safe harbor provision' for transport and storage. [CHUNK_74, CHUNK_82]\"\n}"
+              "text": "{\n  \"overview\": \"The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws. [CHUNK_2] This measure will establish an adjudication system and procedures to process fireworks infractions, amend and establish various definitions and penalties for fireworks offenses, and appropriate funds to the Judiciary to implement this measure. [CHUNK_143] [CHUNK_144] The bill aims to strengthen and clarify existing criminal offenses, establish new offenses, establish heightened penalties for repeat offenders, and establish non-criminal fireworks infractions for the lowest-level offenses. [CHUNK_2] [CHUNK_3]\",\n  \"appropriations\": \"The appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective. [CHUNK_40] The measure appropriates funds to the Judiciary to implement this measure. [CHUNK_144]\",\n  \"assumptions_and_methodology\": \"For many years, Hawaii’s state laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these types of cases. [CHUNK_4] Prosecutors have repeatedly cited challenges posed by \\\"gathering evidence and meeting the high burden of proof necessary for convictions\\\", as well as \\\"stringent definitions [in statute, that] . . . routinely create roadblocks to effective prosecution.\\\" [CHUNK_5] This bill would largely address the concerns raised by prosecutors, and provide greater clarity and efficiency for law enforcement, prosecutors, and the courts that handle these cases. [CHUNK_8]\",\n  \"agency_impact\": \"The establishment of various criminal offenses and penalties related to fireworks and articles pyrotechnics will provide law enforcement with additional tools to combat illegal fireworks activities. [CHUNK_39] The Honolulu Police Department (HPD) supports this bill, which seeks to clarify the definitions of fireworks and improve enforcement. [CHUNK_44] The Department of the Attorney General recommends amending the definition of \\\"inspector\\\" and is unclear which law enforcement officers may be designated as administrative inspectors. [CHUNK_31] [CHUNK_32]\",\n  \"economic_impact\": \"Better enforcement of the fireworks control laws is essential not only to safeguard property from preventable fire damage but also to protect the community from injuries related to fires and explosions, respiratory issues caused by air pollution, and ongoing trauma experienced by individuals due to loud explosions. [CHUNK_45] [CHUNK_46] These bombs increasingly go off without regard to date and terrorize pets and people alike. [CHUNK_68] The unpredictable barrage makes it impossible to prepare and creates sustained stress, which can do lasting damage to emotional, mental and physical health. [CHUNK_68] [CHUNK_69]\",\n  \"policy_impact\": \"This bill complements the efforts of the Illegal Fireworks Task Force, established under Act 67, Session Laws of Hawai'i, 2023, by providing a more robust framework for enforcement and accountability. [CHUNK_36] [CHUNK_37] The measure establishes heightened penalties for fireworks offenses, particularly in cases resulting in substantial bodily injury, serious bodily injury, or death. [CHUNK_37] The Department of the Attorney General recommends amendments to ensure that anyone who holds a permit or license for fireworks can continue using them as intended. [CHUNK_9] [CHUNK_13]\",\n  \"revenue_sources\": \"The bill establishes an adjudication system and procedures to process fireworks infractions and amends penalties for fireworks offenses. [CHUNK_65] The measure appropriates funds to the Judiciary to implement the measure. [CHUNK_144] The appropriation of funds will be crucial for implementing new procedures and supporting the enforcement infrastructure. [CHUNK_40]\",\n  \"six_year_fiscal_implications\": \"The purpose of this measure is to establish an adjudication system and procedures to process fireworks infractions. [CHUNK_143] It also amends and establishes various definitions and penalties for fireworks offenses. [CHUNK_143] [CHUNK_144] The bill will establish various criminal offenses and penalties related to fireworks or articles pyrotechnics. [CHUNK_144] Funds are appropriated to the Judiciary to implement this measure. [CHUNK_144] The appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective. [CHUNK_40] This bill complements the efforts of the Illegal Fireworks Task Force, which has already successfully removed hundreds of thousands of pounds of illegal fireworks from Hawaii's streets. [CHUNK_36] [CHUNK_40] The proposed heightened penalties are critical deterrents that appropriately reflect the serious nature of these violations. [CHUNK_37] The Department of Law Enforcement stated these enhanced penalties will serve as a stronger deterrent and help protect communities. [CHUNK_38] A complex adjudication system risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns. [CHUNK_59] [CHUNK_60] The creation of a separate fireworks infraction system, a costly specialty court, may not effectively deter illegal fireworks use. [CHUNK_60]\",\n  \"operating_revenue_impact\": \"This measure establishes various criminal offenses and penalties related to fireworks or articles pyrotechnics. [CHUNK_144] It amends and establishes various definitions and penalties for fireworks offenses. [CHUNK_143] The provided documents do not contain specific details on the operating revenue impact.\",\n  \"capital_expenditure_impact\": \"This measure appropriates funds to the Judiciary to implement this measure. [CHUNK_144] The appropriation of funds will be crucial for implementing new procedures and supporting the enforcement infrastructure necessary to make this system effective. [CHUNK_40] No specific capital expenditures are detailed in the provided documents.\",\n  \"fiscal_implications_after_6_years\": \"The establishment of an adjudication system and procedures to process fireworks infractions represents a significant step forward in addressing the ongoing challenges of illegal fireworks in Hawaii. [CHUNK_36] The appropriation of funds will be crucial for supporting the enforcement infrastructure necessary to make this system effective on an ongoing basis. [CHUNK_40] The creation of a separate fireworks infraction system may function as a costly specialty court. [CHUNK_60]\",\n  \"updates_from_previous_fiscal_note\": \"The new fiscal note is based on testimony that provides significantly more context than the documents in the previous note. [CHUNK_145] Unlike the previous note, this one does not mention a future effective date of July 1, 3000, suggesting the fiscal impacts are now considered immediate. [CHUNK_150] The previous note cited specific dollar amounts for fines and fees, whereas the current documents do not contain these figures, focusing instead on the appropriation of unspecified funds to the Judiciary. [CHUNK_144] New information includes detailed testimony from the Department of the Attorney General with specific suggested amendments to the bill's language concerning permit holders and definitions. [CHUNK_9] Testimony from the Department of Law Enforcement highlights the ongoing success of the Illegal Fireworks Task Force and frames this bill as a complementary effort. [CHUNK_39] [CHUNK_40] Additionally, there is now testimony from opponents like the Libertarian Party of Hawaii and industry stakeholders like TNT Fireworks and Phantom Fireworks, who raise concerns about infringing on freedoms, burdening law enforcement, and imposing unnecessary restrictions on legal consumer fireworks. [CHUNK_48] [CHUNK_74] [CHUNK_55]\"\n}"
             }
           ]
         },
@@ -1256,33 +1256,6 @@
     },
     "numbers_data": [],
     "chunk_text_map": {
-      "6": [
-        {
-          "chunk_text": "which was referred H.B. No. 1483, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO FIREWORKS,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for",
-          "chunk_id": 143,
-          "document_name": "HB1483_HD1_HSCR983_"
-        },
-        {
-          "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of",
-          "chunk_id": 144,
-          "document_name": "HB1483_HD1_HSCR983_"
-        },
-        {
-          "chunk_text": "inspectors. Your Committee further notes the concerns of the Office of the Public Defender regarding the concurrent trial provision in this measure and the office's assertion that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges",
-          "chunk_id": 148,
-          "document_name": "HB1483_HD1_HSCR983_"
-        },
-        {
-          "chunk_text": "penalties, that has resulted in the low number of charges brought under existing fireworks control laws. As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No.",
-          "chunk_id": 149,
-          "document_name": "HB1483_HD1_HSCR983_"
-        },
-        {
-          "chunk_text": "HSCR983 STAND. COM. REP. NO. 983 Honolulu, Hawaii , 2025 RE: H.B. No. 1483 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1483, H.D. 1, entitled: \"A",
-          "chunk_id": 142,
-          "document_name": "HB1483_HD1_HSCR983_"
-        }
-      ],
       "5": [
         {
           "chunk_text": "offers the following comments and suggested amendments. The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws, by: (1) amending definitions to reflect more common-sense standards; (2) strengthening and clarifying existing criminal offenses; (3) establishing new offenses; (4) establishing heightened penalties for repeat offenders",
@@ -1295,23 +1268,33 @@
           "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
         },
         {
-          "chunk_text": "in a largely \"ineffective deterrent\" to the distribution and use of illicit fireworks. This bill would largely address the concerns raised by prosecutors, and provide greater clarity and efficiency for law enforcement, prosecutors, and the courts that handle these cases. SUGGESTED AMENDMENTS The Department recommends the following amendments, to further",
-          "chunk_id": 8,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-        },
-        {
           "chunk_text": "ongoing efforts through the Illegal Fireworks Task Force, which has already successfully removed hundreds of thousands of pounds of illegal fireworks from Hawaii's streets. The appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective. Thank you for",
           "chunk_id": 40,
           "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
         },
         {
-          "chunk_text": "of the aerial fireworks. Instead of penalizing residents who follow the rules, the legislature should strengthen measures to detect and intercept illegal fireworks and provide the proper resources for better enforcement of existing laws. Additionally, this bill introduces a complex adjudication system that risks burdening the judicial system with minor",
-          "chunk_id": 59,
+          "chunk_text": "illegal activity when they are effectively enforced and prosecuted. For many years, however, Hawaii’s state laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these types of cases. When asked, prosecutors have repeatedly cited challenges posed by \"gathering evidence and meeting the",
+          "chunk_id": 4,
           "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
         },
         {
-          "chunk_text": "adjudication system that risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns. The creation of a separate fireworks infraction system, a costly specialty court, may not effectively deter illegal fireworks use, as enforcement has historically been a challenge due to the limited resources",
-          "chunk_id": 60,
+          "chunk_text": "repeatedly cited challenges posed by \"gathering evidence and meeting the high burden of proof necessary for convictions\",1 as well as \"stringent definitions [in statute, that] . . . routinely create roadblocks to effective prosecution.\"2 Thus, only a small number of criminal fireworks 1 See Legislative Reference Bureau of Hawaii, Blast",
+          "chunk_id": 5,
+          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "in a largely \"ineffective deterrent\" to the distribution and use of illicit fireworks. This bill would largely address the concerns raised by prosecutors, and provide greater clarity and efficiency for law enforcement, prosecutors, and the courts that handle these cases. SUGGESTED AMENDMENTS The Department recommends the following amendments, to further",
+          "chunk_id": 8,
+          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "Relating to FIREWORKS Page 2 The establishment of various criminal offenses and penalties related to fireworks and articles pyrotechnics will provide law enforcement with additional tools to combat illegal fireworks activities. This systematic approach to enforcement aligns with the DLE's ongoing efforts through the Illegal Fireworks Task Force, which has",
+          "chunk_id": 39,
+          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "tvlajor of the NarcoticsA/ice Division of the Honolulu Police Department (HPD), City and County of Honolulu. The HPD supports House Bill No. 1483, H.D. 1, Relating to Fireworks. The HPD supports this bill, which seeks to clarify the definitions of fireworks and improve enforcement. The HPD also believes that better",
+          "chunk_id": 44,
           "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
         },
         {
@@ -1325,43 +1308,23 @@
           "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
         },
         {
-          "chunk_text": "SUGGESTED AMENDMENTS The Department recommends the following amendments, to further clarify and correct various aspects of the fireworks control laws. Permit holders To ensure that anyone who holds a permit to use aerial devices, display fireworks, or articles pyrotechnic pursuant to sections 132D-10 and 132D-16, Hawaii Revised Statutes (HRS), is",
-          "chunk_id": 9,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-        },
-        {
-          "chunk_text": "as amended, but unintentionally omitted from section 132D-A. License holders To ensure that anyone licensed to purchase or distribute consumer fireworks at wholesale or retail pursuant to section 132D-7, HRS, is able to continue using the license as intended, the Department recommends amending the wording in section 132D-E(a) and (b)",
-          "chunk_id": 13,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-        },
-        {
-          "chunk_text": "as it relates to “consumer fireworks.” The key issue is this measure imposes additional restrictions on consumer fireworks. Rather than expanding restrictions on all fireworks, officials should focus on the more pressing issue of curbing illegal aerial fireworks. Broadening the ban would force authorities to allocate scarce resources towards penalizing",
-          "chunk_id": 74,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-        },
-        {
-          "chunk_text": "instructions. This creates uncertainty and the potential for disruption in the licensing process. While well intended, this measure requires additional consideration on unintended negative consequences for businesses, agencies, and the continued safe and responsible use of consumer fireworks where permitted. We urge the committee to consider these points and work",
-          "chunk_id": 85,
-          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-        },
-        {
           "chunk_text": "fireworks and improve enforcement. The HPD also believes that better enforcement of the fireworks control laws is essential not only to safeguard property from preventable fire damage but also to protect the community from injuries related to fires and explosions, respiratory issues caused by air pollution, and ongoing trauma experienced",
           "chunk_id": 45,
           "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
         },
         {
-          "chunk_text": "wording found in section 132D-8(d), HRS, regarding the lawful use of licenses. Conforming amendments The Department also recommends adding a new section to the bill, to amend section 132D-8, HRS, by amending subsections (b) and (d), to conform with the newly defined terms, \"distribute\" and \"distribution,\" as follows: (b) Each",
-          "chunk_id": 20,
+          "chunk_text": "respiratory issues caused by air pollution, and ongoing trauma experienced by individuals due to loud explosions. The HPD urges you to support House Bill No. 1483, H.D. 1, Relating to Fireworks. Thank you for the opportunity to testify. APPROVED: Sincerely, Arthur J Chief of Na Seraing With Integrity, Respect, Fairness,",
+          "chunk_id": 46,
           "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
         },
         {
-          "chunk_text": "that such transport and storage comply with all applicable state and federal safety regulations. Additionally, we request a safe harbor provision to specifically allow licensed retailers and wholesalers to transport and store consumer fireworks, even in counties where use is restricted, provided they are transporting them to or storing them",
-          "chunk_id": 82,
+          "chunk_text": "against fireworks infractions by creating a new system of adjudication and new penalties to address the current failures of our legal system. These bombs increasingly go off without regard to date and terrorize pets and people alike. The unpredictable barrage makes it impossible to prepare and creates sustained stress, which",
+          "chunk_id": 68,
           "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
         },
         {
-          "chunk_text": "the House Committee on FINANCE Tuesday, February 25, 2025, 12:00 p.m. State Capitol Conference Room 308 & Videoconference WRITTEN TESTIMONY ONLY Chair Yamashita, Vice Chair Takenouchi, and members of the Committee: The Department of Law Enforcement (DLE) strongly supports House Bill 1483. The establishment of an adjudication system and procedures",
-          "chunk_id": 35,
+          "chunk_text": "makes it impossible to prepare and creates sustained stress, which can do lasting damage to emotional, mental and physical health. Please pass HB1483, HD1, and hold the perpetrators of these crimes accountable. Mahalo for your consideration. AMERICAN PROMOTIONAL EVENTS, INC. 2120 MILWAUKEE WAY • TACOMA, WA 98421 TACOMA (253) 922-0800",
+          "chunk_id": 69,
           "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
         },
         {
@@ -1375,9 +1338,71 @@
           "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
         },
         {
-          "chunk_text": "Relating to FIREWORKS Page 2 The establishment of various criminal offenses and penalties related to fireworks and articles pyrotechnics will provide law enforcement with additional tools to combat illegal fireworks activities. This systematic approach to enforcement aligns with the DLE's ongoing efforts through the Illegal Fireworks Task Force, which has",
-          "chunk_id": 39,
+          "chunk_text": "SUGGESTED AMENDMENTS The Department recommends the following amendments, to further clarify and correct various aspects of the fireworks control laws. Permit holders To ensure that anyone who holds a permit to use aerial devices, display fireworks, or articles pyrotechnic pursuant to sections 132D-10 and 132D-16, Hawaii Revised Statutes (HRS), is",
+          "chunk_id": 9,
           "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "as amended, but unintentionally omitted from section 132D-A. License holders To ensure that anyone licensed to purchase or distribute consumer fireworks at wholesale or retail pursuant to section 132D-7, HRS, is able to continue using the license as intended, the Department recommends amending the wording in section 132D-E(a) and (b)",
+          "chunk_id": 13,
+          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "of the Hawaiian Humane Society, thank you for considering our support for House Bill 1483, HD1, which establishes an adjudication system and procedures to process fireworks infractions; amends multiple definitions and penalties for fireworks offenses, including heightened penalties if another person suffers substantial bodily injury, serious bodily injury, or death",
+          "chunk_id": 65,
+          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "critical deterrents that appropriately reflect the serious nature of these violations. These enhanced penalties will serve as a stronger deterrent and help protect our communities from the dangerous consequences of illegal fireworks use. Department of Law Enforcement Testimony on HB1483 Relating to FIREWORKS Page 2 The establishment of various criminal",
+          "chunk_id": 38,
+          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "of the aerial fireworks. Instead of penalizing residents who follow the rules, the legislature should strengthen measures to detect and intercept illegal fireworks and provide the proper resources for better enforcement of existing laws. Additionally, this bill introduces a complex adjudication system that risks burdening the judicial system with minor",
+          "chunk_id": 59,
+          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "adjudication system that risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns. The creation of a separate fireworks infraction system, a costly specialty court, may not effectively deter illegal fireworks use, as enforcement has historically been a challenge due to the limited resources",
+          "chunk_id": 60,
+          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "Hawaii, I am writing to express our strong opposition to any prohibitions and enforcement measures targeting fireworks. We believe Hawaiians have the right to pursue and engage in any activities that bring them joy and fulfillment. Fireworks prohibitions and regulations infringe upon the freedom of our citizens to partake in",
+          "chunk_id": 48,
+          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "as it relates to “consumer fireworks.” The key issue is this measure imposes additional restrictions on consumer fireworks. Rather than expanding restrictions on all fireworks, officials should focus on the more pressing issue of curbing illegal aerial fireworks. Broadening the ban would force authorities to allocate scarce resources towards penalizing",
+          "chunk_id": 74,
+          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+        },
+        {
+          "chunk_text": "with our enforcement officials and our inspection history is pristine. However banning or further restrictions to consumer fireworks does nothing to gain information or control of the illegal fireworks market, but instead punishes those that do play by the rules. HB 1483, HD1 would impose unnecessary additional restrictions on consumer",
+          "chunk_id": 55,
+          "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+        }
+      ],
+      "6": [
+        {
+          "chunk_text": "which was referred H.B. No. 1483, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO FIREWORKS,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for",
+          "chunk_id": 143,
+          "document_name": "HB1483_HD1_HSCR983_"
+        },
+        {
+          "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of",
+          "chunk_id": 144,
+          "document_name": "HB1483_HD1_HSCR983_"
+        },
+        {
+          "chunk_text": "implement this measure. Your Committee received testimony in support of this measure from the Department of Law Enforcement; Honolulu Police Department; Hawaiian Humane Society; and four individuals. Your Committee received testimony in opposition to this measure from the Office of the Public Defender; Libertarian Party of Hawaii; and two individuals.",
+          "chunk_id": 145,
+          "document_name": "HB1483_HD1_HSCR983_"
+        },
+        {
+          "chunk_text": "in accord with the intent and purpose of H.B. No. 1483, H.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Finance, ____________________________ KYLE T. YAMASHITA, Chair",
+          "chunk_id": 150,
+          "document_name": "HB1483_HD1_HSCR983_"
         }
       ]
     },
@@ -1391,8 +1416,8 @@
       "HB1483_HD1_TESTIMONY_PSM-JDC_03-13-25_": 7,
       "HB1483_SD1": 8,
       "HB1483_SD1_SSCR1268_": 9,
-      "HB1483_SD1_TESTIMONY_WAM_04-04-25_": 10,
-      "HB1483_SD1_SSCR1831_": 11,
+      "HB1483_SD1_SSCR1831_": 10,
+      "HB1483_SD1_TESTIMONY_WAM_04-04-25_": 11,
       "HB1483_CD1": 12,
       "HB1483_CD1_CCR233_": 13,
       "HB1483_CD1_HFA7": 14,
@@ -1402,7 +1427,19 @@
     "sentence_chunk_mapping": [
       {
         "section": "overview",
-        "sentence": "The purpose of this measure is to establish an adjudication system and procedures to process fireworks infractions and to amend and establish various definitions and penalties for fireworks offenses.",
+        "sentence": "The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws.",
+        "chunks": [
+          {
+            "chunk_id": 2,
+            "citation_number": 5,
+            "chunk_text": "offers the following comments and suggested amendments. The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws, by: (1) amending definitions to reflect more common-sense standards; (2) strengthening and clarifying existing criminal offenses; (3) establishing new offenses; (4) establishing heightened penalties for repeat offenders",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "This measure will establish an adjudication system and procedures to process fireworks infractions, amend and establish various definitions and penalties for fireworks offenses, and appropriate funds to the Judiciary to implement this measure.",
         "chunks": [
           {
             "chunk_id": 143,
@@ -1410,6 +1447,48 @@
             "chunk_text": "which was referred H.B. No. 1483, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO FIREWORKS,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for",
             "document_name": "HB1483_HD1_HSCR983_"
           },
+          {
+            "chunk_id": 143,
+            "citation_number": 6,
+            "chunk_text": "which was referred H.B. No. 1483, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO FIREWORKS,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "The bill aims to strengthen and clarify existing criminal offenses, establish new offenses, establish heightened penalties for repeat offenders, and establish non-criminal fireworks infractions for the lowest-level offenses.",
+        "chunks": [
+          {
+            "chunk_id": 2,
+            "citation_number": 5,
+            "chunk_text": "offers the following comments and suggested amendments. The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws, by: (1) amending definitions to reflect more common-sense standards; (2) strengthening and clarifying existing criminal offenses; (3) establishing new offenses; (4) establishing heightened penalties for repeat offenders",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          },
+          {
+            "chunk_id": 2,
+            "citation_number": 5,
+            "chunk_text": "offers the following comments and suggested amendments. The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws, by: (1) amending definitions to reflect more common-sense standards; (2) strengthening and clarifying existing criminal offenses; (3) establishing new offenses; (4) establishing heightened penalties for repeat offenders",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective.",
+        "chunks": [
+          {
+            "chunk_id": 40,
+            "citation_number": 5,
+            "chunk_text": "ongoing efforts through the Illegal Fireworks Task Force, which has already successfully removed hundreds of thousands of pounds of illegal fireworks from Hawaii's streets. The appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective. Thank you for",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The measure appropriates funds to the Judiciary to implement this measure.",
+        "chunks": [
           {
             "chunk_id": 144,
             "citation_number": 6,
@@ -1419,25 +1498,19 @@
         ]
       },
       {
-        "section": "overview",
-        "sentence": "The bill seeks to facilitate more effective enforcement of Hawaii’s fireworks control laws by amending definitions, strengthening and clarifying existing criminal offenses, establishing new offenses, and establishing non-criminal fireworks infractions for the lowest-level offenses.",
+        "section": "assumptions_and_methodology",
+        "sentence": "For many years, Hawaii’s state laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these types of cases.",
         "chunks": [
           {
-            "chunk_id": 2,
+            "chunk_id": 4,
             "citation_number": 5,
-            "chunk_text": "offers the following comments and suggested amendments. The purpose of this bill is to facilitate more effective enforcement of Hawaii’s fireworks control laws, by: (1) amending definitions to reflect more common-sense standards; (2) strengthening and clarifying existing criminal offenses; (3) establishing new offenses; (4) establishing heightened penalties for repeat offenders",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          },
-          {
-            "chunk_id": 3,
-            "citation_number": 5,
-            "chunk_text": "establishing new offenses; (4) establishing heightened penalties for repeat offenders and offenses that result in substantial or serious bodily injury or death; and (5) establishing non- criminal fireworks infractions for the lowest-level offenses. Criminal statutes serve as a deterrent to illegal activity when they are effectively enforced and prosecuted. For",
+            "chunk_text": "illegal activity when they are effectively enforced and prosecuted. For many years, however, Hawaii’s state laws regarding illicit fireworks have made it difficult for state and county agencies to enforce or prosecute these types of cases. When asked, prosecutors have repeatedly cited challenges posed by \"gathering evidence and meeting the",
             "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
           }
         ]
       },
       {
-        "section": "overview",
+        "section": "assumptions_and_methodology",
         "sentence": "This bill would largely address the concerns raised by prosecutors, and provide greater clarity and efficiency for law enforcement, prosecutors, and the courts that handle these cases.",
         "chunks": [
           {
@@ -1449,320 +1522,8 @@
         ]
       },
       {
-        "section": "appropriations",
-        "sentence": "This measure appropriates funds to the Judiciary to implement this measure.",
-        "chunks": [
-          {
-            "chunk_id": 144,
-            "citation_number": 6,
-            "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of",
-            "document_name": "HB1483_HD1_HSCR983_"
-          }
-        ]
-      },
-      {
-        "section": "appropriations",
-        "sentence": "According to the Department of Law Enforcement, the appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective.",
-        "chunks": [
-          {
-            "chunk_id": 40,
-            "citation_number": 5,
-            "chunk_text": "ongoing efforts through the Illegal Fireworks Task Force, which has already successfully removed hundreds of thousands of pounds of illegal fireworks from Hawaii's streets. The appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective. Thank you for",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "appropriations",
-        "sentence": "The provided documents do not specify any dollar amounts for this appropriation.",
-        "chunks": [
-          {
-            "chunk_id": 40,
-            "citation_number": 5,
-            "chunk_text": "ongoing efforts through the Illegal Fireworks Task Force, which has already successfully removed hundreds of thousands of pounds of illegal fireworks from Hawaii's streets. The appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective. Thank you for",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "assumptions_and_methodology",
-        "sentence": "The fiscal impact is based on the appropriation of funds required for the Judiciary to implement the measure.",
-        "chunks": [
-          {
-            "chunk_id": 144,
-            "citation_number": 6,
-            "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of",
-            "document_name": "HB1483_HD1_HSCR983_"
-          }
-        ]
-      },
-      {
-        "section": "assumptions_and_methodology",
-        "sentence": "Testimony introduced concerns that a complex adjudication system risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns.",
-        "chunks": [
-          {
-            "chunk_id": 59,
-            "citation_number": 5,
-            "chunk_text": "of the aerial fireworks. Instead of penalizing residents who follow the rules, the legislature should strengthen measures to detect and intercept illegal fireworks and provide the proper resources for better enforcement of existing laws. Additionally, this bill introduces a complex adjudication system that risks burdening the judicial system with minor",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          },
-          {
-            "chunk_id": 60,
-            "citation_number": 5,
-            "chunk_text": "adjudication system that risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns. The creation of a separate fireworks infraction system, a costly specialty court, may not effectively deter illegal fireworks use, as enforcement has historically been a challenge due to the limited resources",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "assumptions_and_methodology",
-        "sentence": "It was also noted that the creation of a separate fireworks infraction system could be a costly specialty court, which may not effectively deter illegal fireworks use.",
-        "chunks": [
-          {
-            "chunk_id": 60,
-            "citation_number": 5,
-            "chunk_text": "adjudication system that risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns. The creation of a separate fireworks infraction system, a costly specialty court, may not effectively deter illegal fireworks use, as enforcement has historically been a challenge due to the limited resources",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
         "section": "agency_impact",
-        "sentence": "The Department of the Attorney General recommends amending the definition of \"inspector\" by deleting the phrase, \"any law enforcement officer or . . \" The Department is unclear which law enforcement officers may be designated as administrative inspectors for purposes of section 132D-22, HRS, as amended.",
-        "chunks": [
-          {
-            "chunk_id": 31,
-            "citation_number": 5,
-            "chunk_text": "and changing the word \"or\" to \"and\" (consistent with section 132D-8(e)). Inspectors The Department recommends amending the definition of \"inspector\" on page 72, line 8, by deleting the phrase, \"any law enforcement officer or . . . \" The Department is unclear which law enforcement officers may be designated as",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          },
-          {
-            "chunk_id": 31,
-            "citation_number": 5,
-            "chunk_text": "and changing the word \"or\" to \"and\" (consistent with section 132D-8(e)). Inspectors The Department recommends amending the definition of \"inspector\" on page 72, line 8, by deleting the phrase, \"any law enforcement officer or . . . \" The Department is unclear which law enforcement officers may be designated as",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          },
-          {
-            "chunk_id": 31,
-            "citation_number": 5,
-            "chunk_text": "and changing the word \"or\" to \"and\" (consistent with section 132D-8(e)). Inspectors The Department recommends amending the definition of \"inspector\" on page 72, line 8, by deleting the phrase, \"any law enforcement officer or . . . \" The Department is unclear which law enforcement officers may be designated as",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "agency_impact",
-        "sentence": "The Department also recommends amendments to clarify wording for permit and license holders to ensure they may continue to use their permits and licenses as intended.",
-        "chunks": [
-          {
-            "chunk_id": 9,
-            "citation_number": 5,
-            "chunk_text": "SUGGESTED AMENDMENTS The Department recommends the following amendments, to further clarify and correct various aspects of the fireworks control laws. Permit holders To ensure that anyone who holds a permit to use aerial devices, display fireworks, or articles pyrotechnic pursuant to sections 132D-10 and 132D-16, Hawaii Revised Statutes (HRS), is",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          },
-          {
-            "chunk_id": 13,
-            "citation_number": 5,
-            "chunk_text": "as amended, but unintentionally omitted from section 132D-A. License holders To ensure that anyone licensed to purchase or distribute consumer fireworks at wholesale or retail pursuant to section 132D-7, HRS, is able to continue using the license as intended, the Department recommends amending the wording in section 132D-E(a) and (b)",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "economic_impact",
-        "sentence": "Testimony from fireworks distributors expressed concern that the measure imposes additional restrictions on consumer fireworks and could have unintended negative consequences for businesses.",
-        "chunks": [
-          {
-            "chunk_id": 74,
-            "citation_number": 5,
-            "chunk_text": "as it relates to “consumer fireworks.” The key issue is this measure imposes additional restrictions on consumer fireworks. Rather than expanding restrictions on all fireworks, officials should focus on the more pressing issue of curbing illegal aerial fireworks. Broadening the ban would force authorities to allocate scarce resources towards penalizing",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          },
-          {
-            "chunk_id": 85,
-            "citation_number": 5,
-            "chunk_text": "instructions. This creates uncertainty and the potential for disruption in the licensing process. While well intended, this measure requires additional consideration on unintended negative consequences for businesses, agencies, and the continued safe and responsible use of consumer fireworks where permitted. We urge the committee to consider these points and work",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "economic_impact",
-        "sentence": "A complex adjudication system also risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns.",
-        "chunks": [
-          {
-            "chunk_id": 59,
-            "citation_number": 5,
-            "chunk_text": "of the aerial fireworks. Instead of penalizing residents who follow the rules, the legislature should strengthen measures to detect and intercept illegal fireworks and provide the proper resources for better enforcement of existing laws. Additionally, this bill introduces a complex adjudication system that risks burdening the judicial system with minor",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          },
-          {
-            "chunk_id": 60,
-            "citation_number": 5,
-            "chunk_text": "adjudication system that risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns. The creation of a separate fireworks infraction system, a costly specialty court, may not effectively deter illegal fireworks use, as enforcement has historically been a challenge due to the limited resources",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "economic_impact",
-        "sentence": "The Honolulu Police Department believes better enforcement of fireworks control laws is essential to safeguard property from preventable fire damage and protect the community from injuries.",
-        "chunks": [
-          {
-            "chunk_id": 45,
-            "citation_number": 5,
-            "chunk_text": "fireworks and improve enforcement. The HPD also believes that better enforcement of the fireworks control laws is essential not only to safeguard property from preventable fire damage but also to protect the community from injuries related to fires and explosions, respiratory issues caused by air pollution, and ongoing trauma experienced",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "policy_impact",
-        "sentence": "The Office of the Public Defender has asserted that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges brought under existing fireworks control laws.",
-        "chunks": [
-          {
-            "chunk_id": 148,
-            "citation_number": 6,
-            "chunk_text": "inspectors. Your Committee further notes the concerns of the Office of the Public Defender regarding the concurrent trial provision in this measure and the office's assertion that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges",
-            "document_name": "HB1483_HD1_HSCR983_"
-          },
-          {
-            "chunk_id": 149,
-            "citation_number": 6,
-            "chunk_text": "penalties, that has resulted in the low number of charges brought under existing fireworks control laws. As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No.",
-            "document_name": "HB1483_HD1_HSCR983_"
-          }
-        ]
-      },
-      {
-        "section": "policy_impact",
-        "sentence": "The Department of the Attorney General has suggested several amendments to further clarify and correct various aspects of the fireworks control laws, including conforming amendments for the terms \"distribute\" and \"distribution\".",
-        "chunks": [
-          {
-            "chunk_id": 9,
-            "citation_number": 5,
-            "chunk_text": "SUGGESTED AMENDMENTS The Department recommends the following amendments, to further clarify and correct various aspects of the fireworks control laws. Permit holders To ensure that anyone who holds a permit to use aerial devices, display fireworks, or articles pyrotechnic pursuant to sections 132D-10 and 132D-16, Hawaii Revised Statutes (HRS), is",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          },
-          {
-            "chunk_id": 20,
-            "citation_number": 5,
-            "chunk_text": "wording found in section 132D-8(d), HRS, regarding the lawful use of licenses. Conforming amendments The Department also recommends adding a new section to the bill, to amend section 132D-8, HRS, by amending subsections (b) and (d), to conform with the newly defined terms, \"distribute\" and \"distribution,\" as follows: (b) Each",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "policy_impact",
-        "sentence": "TNT Fireworks requested a safe harbor provision to allow licensed retailers and wholesalers to transport and store consumer fireworks, even in counties where use is restricted.",
-        "chunks": [
-          {
-            "chunk_id": 82,
-            "citation_number": 5,
-            "chunk_text": "that such transport and storage comply with all applicable state and federal safety regulations. Additionally, we request a safe harbor provision to specifically allow licensed retailers and wholesalers to transport and store consumer fireworks, even in counties where use is restricted, provided they are transporting them to or storing them",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "revenue_sources",
-        "sentence": "The measure appropriates funds to the Judiciary, but the new documents do not specify the source or amount of funding.",
-        "chunks": [
-          {
-            "chunk_id": 144,
-            "citation_number": 6,
-            "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of",
-            "document_name": "HB1483_HD1_HSCR983_"
-          }
-        ]
-      },
-      {
-        "section": "revenue_sources",
-        "sentence": "The previous fiscal note identified revenue from fines and fees, but the current testimonies and committee report do not contain specific dollar amounts.",
-        "chunks": [
-          {
-            "chunk_id": 144,
-            "citation_number": 6,
-            "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of",
-            "document_name": "HB1483_HD1_HSCR983_"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The appropriation of funds will be crucial for implementing the new procedures established in the bill.",
-        "chunks": [
-          {
-            "chunk_id": 40,
-            "citation_number": 5,
-            "chunk_text": "ongoing efforts through the Illegal Fireworks Task Force, which has already successfully removed hundreds of thousands of pounds of illegal fireworks from Hawaii's streets. The appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective. Thank you for",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The creation of a separate fireworks infraction system is described in testimony as a potentially costly specialty court.",
-        "chunks": [
-          {
-            "chunk_id": 60,
-            "citation_number": 5,
-            "chunk_text": "adjudication system that risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns. The creation of a separate fireworks infraction system, a costly specialty court, may not effectively deter illegal fireworks use, as enforcement has historically been a challenge due to the limited resources",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "This system may burden the judicial system with minor infractions and divert resources from more serious public safety concerns.",
-        "chunks": [
-          {
-            "chunk_id": 59,
-            "citation_number": 5,
-            "chunk_text": "of the aerial fireworks. Instead of penalizing residents who follow the rules, the legislature should strengthen measures to detect and intercept illegal fireworks and provide the proper resources for better enforcement of existing laws. Additionally, this bill introduces a complex adjudication system that risks burdening the judicial system with minor",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          },
-          {
-            "chunk_id": 60,
-            "citation_number": 5,
-            "chunk_text": "adjudication system that risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns. The creation of a separate fireworks infraction system, a costly specialty court, may not effectively deter illegal fireworks use, as enforcement has historically been a challenge due to the limited resources",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The Department of Law Enforcement (DLE) stated its strong support for the bill and noted the establishment of an adjudication system represents a significant step forward.",
-        "chunks": [
-          {
-            "chunk_id": 35,
-            "citation_number": 5,
-            "chunk_text": "the House Committee on FINANCE Tuesday, February 25, 2025, 12:00 p.m. State Capitol Conference Room 308 & Videoconference WRITTEN TESTIMONY ONLY Chair Yamashita, Vice Chair Takenouchi, and members of the Committee: The Department of Law Enforcement (DLE) strongly supports House Bill 1483. The establishment of an adjudication system and procedures",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          },
-          {
-            "chunk_id": 36,
-            "citation_number": 5,
-            "chunk_text": "Bill 1483. The establishment of an adjudication system and procedures to process fireworks infractions represents a significant step forward in addressing the ongoing challenges of illegal fireworks in Hawaii. This bill complements the efforts of the Illegal Fireworks Task Force, established under Act 67, Session Laws of Hawai'i, 2023, by",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The proposed heightened penalties for fireworks offenses are described as critical deterrents.",
-        "chunks": [
-          {
-            "chunk_id": 37,
-            "citation_number": 5,
-            "chunk_text": "established under Act 67, Session Laws of Hawai'i, 2023, by providing a more robust framework for enforcement and accountability. The proposed heightened penalties for fireworks offenses, particularly in cases resulting in substantial bodily injury, serious bodily injury, or death, are critical deterrents that appropriately reflect the serious nature of these",
-            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The bill provides law enforcement with additional tools to combat illegal fireworks activities.",
+        "sentence": "The establishment of various criminal offenses and penalties related to fireworks and articles pyrotechnics will provide law enforcement with additional tools to combat illegal fireworks activities.",
         "chunks": [
           {
             "chunk_id": 39,
@@ -1773,8 +1534,158 @@
         ]
       },
       {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The Illegal Fireworks Task Force has already successfully removed hundreds of thousands of pounds of illegal fireworks from Hawaii's streets.",
+        "section": "agency_impact",
+        "sentence": "The Honolulu Police Department (HPD) supports this bill, which seeks to clarify the definitions of fireworks and improve enforcement.",
+        "chunks": [
+          {
+            "chunk_id": 44,
+            "citation_number": 5,
+            "chunk_text": "tvlajor of the NarcoticsA/ice Division of the Honolulu Police Department (HPD), City and County of Honolulu. The HPD supports House Bill No. 1483, H.D. 1, Relating to Fireworks. The HPD supports this bill, which seeks to clarify the definitions of fireworks and improve enforcement. The HPD also believes that better",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The Department of the Attorney General recommends amending the definition of \"inspector\" and is unclear which law enforcement officers may be designated as administrative inspectors.",
+        "chunks": [
+          {
+            "chunk_id": 31,
+            "citation_number": 5,
+            "chunk_text": "and changing the word \"or\" to \"and\" (consistent with section 132D-8(e)). Inspectors The Department recommends amending the definition of \"inspector\" on page 72, line 8, by deleting the phrase, \"any law enforcement officer or . . . \" The Department is unclear which law enforcement officers may be designated as",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          },
+          {
+            "chunk_id": 31,
+            "citation_number": 5,
+            "chunk_text": "and changing the word \"or\" to \"and\" (consistent with section 132D-8(e)). Inspectors The Department recommends amending the definition of \"inspector\" on page 72, line 8, by deleting the phrase, \"any law enforcement officer or . . . \" The Department is unclear which law enforcement officers may be designated as",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "Better enforcement of the fireworks control laws is essential not only to safeguard property from preventable fire damage but also to protect the community from injuries related to fires and explosions, respiratory issues caused by air pollution, and ongoing trauma experienced by individuals due to loud explosions.",
+        "chunks": [
+          {
+            "chunk_id": 45,
+            "citation_number": 5,
+            "chunk_text": "fireworks and improve enforcement. The HPD also believes that better enforcement of the fireworks control laws is essential not only to safeguard property from preventable fire damage but also to protect the community from injuries related to fires and explosions, respiratory issues caused by air pollution, and ongoing trauma experienced",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          },
+          {
+            "chunk_id": 45,
+            "citation_number": 5,
+            "chunk_text": "fireworks and improve enforcement. The HPD also believes that better enforcement of the fireworks control laws is essential not only to safeguard property from preventable fire damage but also to protect the community from injuries related to fires and explosions, respiratory issues caused by air pollution, and ongoing trauma experienced",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "These bombs increasingly go off without regard to date and terrorize pets and people alike.",
+        "chunks": [
+          {
+            "chunk_id": 68,
+            "citation_number": 5,
+            "chunk_text": "against fireworks infractions by creating a new system of adjudication and new penalties to address the current failures of our legal system. These bombs increasingly go off without regard to date and terrorize pets and people alike. The unpredictable barrage makes it impossible to prepare and creates sustained stress, which",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "The unpredictable barrage makes it impossible to prepare and creates sustained stress, which can do lasting damage to emotional, mental and physical health.",
+        "chunks": [
+          {
+            "chunk_id": 68,
+            "citation_number": 5,
+            "chunk_text": "against fireworks infractions by creating a new system of adjudication and new penalties to address the current failures of our legal system. These bombs increasingly go off without regard to date and terrorize pets and people alike. The unpredictable barrage makes it impossible to prepare and creates sustained stress, which",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          },
+          {
+            "chunk_id": 68,
+            "citation_number": 5,
+            "chunk_text": "against fireworks infractions by creating a new system of adjudication and new penalties to address the current failures of our legal system. These bombs increasingly go off without regard to date and terrorize pets and people alike. The unpredictable barrage makes it impossible to prepare and creates sustained stress, which",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "This bill complements the efforts of the Illegal Fireworks Task Force, established under Act 67, Session Laws of Hawai'i, 2023, by providing a more robust framework for enforcement and accountability.",
+        "chunks": [
+          {
+            "chunk_id": 36,
+            "citation_number": 5,
+            "chunk_text": "Bill 1483. The establishment of an adjudication system and procedures to process fireworks infractions represents a significant step forward in addressing the ongoing challenges of illegal fireworks in Hawaii. This bill complements the efforts of the Illegal Fireworks Task Force, established under Act 67, Session Laws of Hawai'i, 2023, by",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          },
+          {
+            "chunk_id": 36,
+            "citation_number": 5,
+            "chunk_text": "Bill 1483. The establishment of an adjudication system and procedures to process fireworks infractions represents a significant step forward in addressing the ongoing challenges of illegal fireworks in Hawaii. This bill complements the efforts of the Illegal Fireworks Task Force, established under Act 67, Session Laws of Hawai'i, 2023, by",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The measure establishes heightened penalties for fireworks offenses, particularly in cases resulting in substantial bodily injury, serious bodily injury, or death.",
+        "chunks": [
+          {
+            "chunk_id": 37,
+            "citation_number": 5,
+            "chunk_text": "established under Act 67, Session Laws of Hawai'i, 2023, by providing a more robust framework for enforcement and accountability. The proposed heightened penalties for fireworks offenses, particularly in cases resulting in substantial bodily injury, serious bodily injury, or death, are critical deterrents that appropriately reflect the serious nature of these",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The Department of the Attorney General recommends amendments to ensure that anyone who holds a permit or license for fireworks can continue using them as intended.",
+        "chunks": [
+          {
+            "chunk_id": 9,
+            "citation_number": 5,
+            "chunk_text": "SUGGESTED AMENDMENTS The Department recommends the following amendments, to further clarify and correct various aspects of the fireworks control laws. Permit holders To ensure that anyone who holds a permit to use aerial devices, display fireworks, or articles pyrotechnic pursuant to sections 132D-10 and 132D-16, Hawaii Revised Statutes (HRS), is",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          },
+          {
+            "chunk_id": 9,
+            "citation_number": 5,
+            "chunk_text": "SUGGESTED AMENDMENTS The Department recommends the following amendments, to further clarify and correct various aspects of the fireworks control laws. Permit holders To ensure that anyone who holds a permit to use aerial devices, display fireworks, or articles pyrotechnic pursuant to sections 132D-10 and 132D-16, Hawaii Revised Statutes (HRS), is",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The bill establishes an adjudication system and procedures to process fireworks infractions and amends penalties for fireworks offenses.",
+        "chunks": [
+          {
+            "chunk_id": 65,
+            "citation_number": 5,
+            "chunk_text": "of the Hawaiian Humane Society, thank you for considering our support for House Bill 1483, HD1, which establishes an adjudication system and procedures to process fireworks infractions; amends multiple definitions and penalties for fireworks offenses, including heightened penalties if another person suffers substantial bodily injury, serious bodily injury, or death",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The measure appropriates funds to the Judiciary to implement the measure.",
+        "chunks": [
+          {
+            "chunk_id": 144,
+            "citation_number": 6,
+            "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The appropriation of funds will be crucial for implementing new procedures and supporting the enforcement infrastructure.",
         "chunks": [
           {
             "chunk_id": 40,
@@ -1786,7 +1697,73 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "This measure complements the efforts of the Illegal Fireworks Task Force by providing a more robust framework for enforcement and accountability.",
+        "sentence": "The purpose of this measure is to establish an adjudication system and procedures to process fireworks infractions.",
+        "chunks": [
+          {
+            "chunk_id": 143,
+            "citation_number": 6,
+            "chunk_text": "which was referred H.B. No. 1483, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO FIREWORKS,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "It also amends and establishes various definitions and penalties for fireworks offenses.",
+        "chunks": [
+          {
+            "chunk_id": 143,
+            "citation_number": 6,
+            "chunk_text": "which was referred H.B. No. 1483, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO FIREWORKS,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for",
+            "document_name": "HB1483_HD1_HSCR983_"
+          },
+          {
+            "chunk_id": 143,
+            "citation_number": 6,
+            "chunk_text": "which was referred H.B. No. 1483, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO FIREWORKS,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The bill will establish various criminal offenses and penalties related to fireworks or articles pyrotechnics.",
+        "chunks": [
+          {
+            "chunk_id": 144,
+            "citation_number": 6,
+            "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Funds are appropriated to the Judiciary to implement this measure.",
+        "chunks": [
+          {
+            "chunk_id": 144,
+            "citation_number": 6,
+            "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective.",
+        "chunks": [
+          {
+            "chunk_id": 40,
+            "citation_number": 5,
+            "chunk_text": "ongoing efforts through the Illegal Fireworks Task Force, which has already successfully removed hundreds of thousands of pounds of illegal fireworks from Hawaii's streets. The appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective. Thank you for",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "This bill complements the efforts of the Illegal Fireworks Task Force, which has already successfully removed hundreds of thousands of pounds of illegal fireworks from Hawaii's streets.",
         "chunks": [
           {
             "chunk_id": 36,
@@ -1794,6 +1771,18 @@
             "chunk_text": "Bill 1483. The establishment of an adjudication system and procedures to process fireworks infractions represents a significant step forward in addressing the ongoing challenges of illegal fireworks in Hawaii. This bill complements the efforts of the Illegal Fireworks Task Force, established under Act 67, Session Laws of Hawai'i, 2023, by",
             "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
           },
+          {
+            "chunk_id": 36,
+            "citation_number": 5,
+            "chunk_text": "Bill 1483. The establishment of an adjudication system and procedures to process fireworks infractions represents a significant step forward in addressing the ongoing challenges of illegal fireworks in Hawaii. This bill complements the efforts of the Illegal Fireworks Task Force, established under Act 67, Session Laws of Hawai'i, 2023, by",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The proposed heightened penalties are critical deterrents that appropriately reflect the serious nature of these violations.",
+        "chunks": [
           {
             "chunk_id": 37,
             "citation_number": 5,
@@ -1804,7 +1793,49 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "The provided documents do not contain specific financial projections for a six-year period.",
+        "sentence": "The Department of Law Enforcement stated these enhanced penalties will serve as a stronger deterrent and help protect communities.",
+        "chunks": [
+          {
+            "chunk_id": 38,
+            "citation_number": 5,
+            "chunk_text": "critical deterrents that appropriately reflect the serious nature of these violations. These enhanced penalties will serve as a stronger deterrent and help protect our communities from the dangerous consequences of illegal fireworks use. Department of Law Enforcement Testimony on HB1483 Relating to FIREWORKS Page 2 The establishment of various criminal",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "A complex adjudication system risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns.",
+        "chunks": [
+          {
+            "chunk_id": 59,
+            "citation_number": 5,
+            "chunk_text": "of the aerial fireworks. Instead of penalizing residents who follow the rules, the legislature should strengthen measures to detect and intercept illegal fireworks and provide the proper resources for better enforcement of existing laws. Additionally, this bill introduces a complex adjudication system that risks burdening the judicial system with minor",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          },
+          {
+            "chunk_id": 59,
+            "citation_number": 5,
+            "chunk_text": "of the aerial fireworks. Instead of penalizing residents who follow the rules, the legislature should strengthen measures to detect and intercept illegal fireworks and provide the proper resources for better enforcement of existing laws. Additionally, this bill introduces a complex adjudication system that risks burdening the judicial system with minor",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The creation of a separate fireworks infraction system, a costly specialty court, may not effectively deter illegal fireworks use.",
+        "chunks": [
+          {
+            "chunk_id": 60,
+            "citation_number": 5,
+            "chunk_text": "adjudication system that risks burdening the judicial system with minor infractions, diverting resources from more serious public safety concerns. The creation of a separate fireworks infraction system, a costly specialty court, may not effectively deter illegal fireworks use, as enforcement has historically been a challenge due to the limited resources",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "This measure establishes various criminal offenses and penalties related to fireworks or articles pyrotechnics.",
         "chunks": [
           {
             "chunk_id": 144,
@@ -1816,12 +1847,12 @@
       },
       {
         "section": "operating_revenue_impact",
-        "sentence": "The new documents do not provide any new information or specific figures regarding the potential impact on operating revenue.",
+        "sentence": "It amends and establishes various definitions and penalties for fireworks offenses.",
         "chunks": [
           {
-            "chunk_id": 142,
+            "chunk_id": 143,
             "citation_number": 6,
-            "chunk_text": "HSCR983 STAND. COM. REP. NO. 983 Honolulu, Hawaii , 2025 RE: H.B. No. 1483 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1483, H.D. 1, entitled: \"A",
+            "chunk_text": "which was referred H.B. No. 1483, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO FIREWORKS,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for",
             "document_name": "HB1483_HD1_HSCR983_"
           }
         ]
@@ -1840,31 +1871,43 @@
       },
       {
         "section": "capital_expenditure_impact",
-        "sentence": "The new documents do not specify whether these funds are for capital expenditures or provide any cost estimates.",
+        "sentence": "The appropriation of funds will be crucial for implementing new procedures and supporting the enforcement infrastructure necessary to make this system effective.",
         "chunks": [
           {
-            "chunk_id": 144,
-            "citation_number": 6,
-            "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of",
-            "document_name": "HB1483_HD1_HSCR983_"
+            "chunk_id": 40,
+            "citation_number": 5,
+            "chunk_text": "ongoing efforts through the Illegal Fireworks Task Force, which has already successfully removed hundreds of thousands of pounds of illegal fireworks from Hawaii's streets. The appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective. Thank you for",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
           }
         ]
       },
       {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "The provided documents do not contain information on fiscal implications beyond the initial implementation phase of the measure.",
+        "sentence": "The establishment of an adjudication system and procedures to process fireworks infractions represents a significant step forward in addressing the ongoing challenges of illegal fireworks in Hawaii.",
         "chunks": [
           {
-            "chunk_id": 142,
-            "citation_number": 6,
-            "chunk_text": "HSCR983 STAND. COM. REP. NO. 983 Honolulu, Hawaii , 2025 RE: H.B. No. 1483 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1483, H.D. 1, entitled: \"A",
-            "document_name": "HB1483_HD1_HSCR983_"
+            "chunk_id": 36,
+            "citation_number": 5,
+            "chunk_text": "Bill 1483. The establishment of an adjudication system and procedures to process fireworks infractions represents a significant step forward in addressing the ongoing challenges of illegal fireworks in Hawaii. This bill complements the efforts of the Illegal Fireworks Task Force, established under Act 67, Session Laws of Hawai'i, 2023, by",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
           }
         ]
       },
       {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "Long-term implications would depend on the volume of infractions and the operational costs of the adjudication system.",
+        "sentence": "The appropriation of funds will be crucial for supporting the enforcement infrastructure necessary to make this system effective on an ongoing basis.",
+        "chunks": [
+          {
+            "chunk_id": 40,
+            "citation_number": 5,
+            "chunk_text": "ongoing efforts through the Illegal Fireworks Task Force, which has already successfully removed hundreds of thousands of pounds of illegal fireworks from Hawaii's streets. The appropriation of funds will be crucial for implementing these new procedures and supporting the enforcement infrastructure necessary to make this system effective. Thank you for",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The creation of a separate fireworks infraction system may function as a costly specialty court.",
         "chunks": [
           {
             "chunk_id": 60,
@@ -1876,72 +1919,90 @@
       },
       {
         "section": "updates_from_previous_fiscal_note",
-        "sentence": "New information is primarily from testimony provided to the House Committee on Finance.",
+        "sentence": "The new fiscal note is based on testimony that provides significantly more context than the documents in the previous note.",
         "chunks": [
           {
-            "chunk_id": 142,
+            "chunk_id": 145,
             "citation_number": 6,
-            "chunk_text": "HSCR983 STAND. COM. REP. NO. 983 Honolulu, Hawaii , 2025 RE: H.B. No. 1483 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1483, H.D. 1, entitled: \"A",
+            "chunk_text": "implement this measure. Your Committee received testimony in support of this measure from the Department of Law Enforcement; Honolulu Police Department; Hawaiian Humane Society; and four individuals. Your Committee received testimony in opposition to this measure from the Office of the Public Defender; Libertarian Party of Hawaii; and two individuals.",
             "document_name": "HB1483_HD1_HSCR983_"
           }
         ]
       },
       {
         "section": "updates_from_previous_fiscal_note",
-        "sentence": "The Department of the Attorney General offered specific amendments to clarify the status of permit and license holders and questioned the scope of law enforcement's role as administrative inspectors.",
+        "sentence": "Unlike the previous note, this one does not mention a future effective date of July 1, 3000, suggesting the fiscal impacts are now considered immediate.",
+        "chunks": [
+          {
+            "chunk_id": 150,
+            "citation_number": 6,
+            "chunk_text": "in accord with the intent and purpose of H.B. No. 1483, H.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Finance, ____________________________ KYLE T. YAMASHITA, Chair",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The previous note cited specific dollar amounts for fines and fees, whereas the current documents do not contain these figures, focusing instead on the appropriation of unspecified funds to the Judiciary.",
+        "chunks": [
+          {
+            "chunk_id": 144,
+            "citation_number": 6,
+            "chunk_text": "infractions; (2) Amend and establish various definitions and penalties for fireworks offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds to the Judiciary to implement this measure. Your Committee received testimony in support of",
+            "document_name": "HB1483_HD1_HSCR983_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "New information includes detailed testimony from the Department of the Attorney General with specific suggested amendments to the bill's language concerning permit holders and definitions.",
         "chunks": [
           {
             "chunk_id": 9,
             "citation_number": 5,
             "chunk_text": "SUGGESTED AMENDMENTS The Department recommends the following amendments, to further clarify and correct various aspects of the fireworks control laws. Permit holders To ensure that anyone who holds a permit to use aerial devices, display fireworks, or articles pyrotechnic pursuant to sections 132D-10 and 132D-16, Hawaii Revised Statutes (HRS), is",
             "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
-          },
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "Testimony from the Department of Law Enforcement highlights the ongoing success of the Illegal Fireworks Task Force and frames this bill as a complementary effort.",
+        "chunks": [
           {
-            "chunk_id": 13,
+            "chunk_id": 39,
             "citation_number": 5,
-            "chunk_text": "as amended, but unintentionally omitted from section 132D-A. License holders To ensure that anyone licensed to purchase or distribute consumer fireworks at wholesale or retail pursuant to section 132D-7, HRS, is able to continue using the license as intended, the Department recommends amending the wording in section 132D-E(a) and (b)",
+            "chunk_text": "Relating to FIREWORKS Page 2 The establishment of various criminal offenses and penalties related to fireworks and articles pyrotechnics will provide law enforcement with additional tools to combat illegal fireworks activities. This systematic approach to enforcement aligns with the DLE's ongoing efforts through the Illegal Fireworks Task Force, which has",
             "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
           },
           {
-            "chunk_id": 31,
+            "chunk_id": 39,
             "citation_number": 5,
-            "chunk_text": "and changing the word \"or\" to \"and\" (consistent with section 132D-8(e)). Inspectors The Department recommends amending the definition of \"inspector\" on page 72, line 8, by deleting the phrase, \"any law enforcement officer or . . . \" The Department is unclear which law enforcement officers may be designated as",
+            "chunk_text": "Relating to FIREWORKS Page 2 The establishment of various criminal offenses and penalties related to fireworks and articles pyrotechnics will provide law enforcement with additional tools to combat illegal fireworks activities. This systematic approach to enforcement aligns with the DLE's ongoing efforts through the Illegal Fireworks Task Force, which has",
             "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
           }
         ]
       },
       {
         "section": "updates_from_previous_fiscal_note",
-        "sentence": "The Office of the Public Defender asserted that the underlying issue is a lack of enforcement, not insufficient penalties.",
+        "sentence": "Additionally, there is now testimony from opponents like the Libertarian Party of Hawaii and industry stakeholders like TNT Fireworks and Phantom Fireworks, who raise concerns about infringing on freedoms, burdening law enforcement, and imposing unnecessary restrictions on legal consumer fireworks.",
         "chunks": [
           {
-            "chunk_id": 148,
-            "citation_number": 6,
-            "chunk_text": "inspectors. Your Committee further notes the concerns of the Office of the Public Defender regarding the concurrent trial provision in this measure and the office's assertion that it is the lack of enforcement, rather than the lack or severity of penalties, that has resulted in the low number of charges",
-            "document_name": "HB1483_HD1_HSCR983_"
-          },
-          {
-            "chunk_id": 149,
-            "citation_number": 6,
-            "chunk_text": "penalties, that has resulted in the low number of charges brought under existing fireworks control laws. As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No.",
-            "document_name": "HB1483_HD1_HSCR983_"
-          }
-        ]
-      },
-      {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "Industry stakeholders voiced concerns about the bill's impact on legal consumer fireworks, with some requesting a 'safe harbor provision' for transport and storage.",
-        "chunks": [
-          {
-            "chunk_id": 74,
+            "chunk_id": 48,
             "citation_number": 5,
-            "chunk_text": "as it relates to “consumer fireworks.” The key issue is this measure imposes additional restrictions on consumer fireworks. Rather than expanding restrictions on all fireworks, officials should focus on the more pressing issue of curbing illegal aerial fireworks. Broadening the ban would force authorities to allocate scarce resources towards penalizing",
+            "chunk_text": "Hawaii, I am writing to express our strong opposition to any prohibitions and enforcement measures targeting fireworks. We believe Hawaiians have the right to pursue and engage in any activities that bring them joy and fulfillment. Fireworks prohibitions and regulations infringe upon the freedom of our citizens to partake in",
             "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
           },
           {
-            "chunk_id": 82,
+            "chunk_id": 48,
             "citation_number": 5,
-            "chunk_text": "that such transport and storage comply with all applicable state and federal safety regulations. Additionally, we request a safe harbor provision to specifically allow licensed retailers and wholesalers to transport and store consumer fireworks, even in counties where use is restricted, provided they are transporting them to or storing them",
+            "chunk_text": "Hawaii, I am writing to express our strong opposition to any prohibitions and enforcement measures targeting fireworks. We believe Hawaiians have the right to pursue and engage in any activities that bring them joy and fulfillment. Fireworks prohibitions and regulations infringe upon the freedom of our citizens to partake in",
+            "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
+          },
+          {
+            "chunk_id": 48,
+            "citation_number": 5,
+            "chunk_text": "Hawaii, I am writing to express our strong opposition to any prohibitions and enforcement measures targeting fireworks. We believe Hawaiians have the right to pursue and engage in any activities that bring them joy and fulfillment. Fireworks prohibitions and regulations infringe upon the freedom of our citizens to partake in",
             "document_name": "HB1483_HD1_TESTIMONY_FIN_02-25-25_"
           }
         ]
@@ -1993,12 +2054,8 @@
         "description": "Long-term fiscal obligations beyond six years"
       },
       "updates_from_previous_fiscal_note": {
-        "prompt": "If you are given a previous fisacl not. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fisacl note.",
+        "prompt": "If you are given a previous fiscal note. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fiscal note.",
         "description": "Updates from previous fiscal note"
-      },
-      "Full Time Equivalent Positions": {
-        "prompt": "If there has been additions or modifications to any FTE positions. Be very specific on the number and whether it lists the cost.",
-        "description": "Full Time Equivalent Position"
       }
     }
   },
@@ -2610,6 +2667,6 @@
       }
     ]
   },
-  "generation_timestamp": "2025-10-30T10:39:56.970144",
-  "generation_timestamp_unix": 1761856796.970154
+  "generation_timestamp": "2025-10-30T16:58:08.727729",
+  "generation_timestamp_unix": 1761879488.7277381
 }

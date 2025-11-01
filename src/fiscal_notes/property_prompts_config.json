@@ -53,6 +53,38 @@
         "updates_from_previous_fiscal_note": {
           "prompt": "If you are given a previous fiscal note. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fiscal note.",
           "description": "Updates from previous fiscal note"
+        },
+        "fte_positions": {
+          "prompt": "Detail any Full Time Equivalent (FTE) positions that have been added or modified in this version of the bill, including the number of positions, their roles, and any changes from previous versions. This should be around 3 sentences.",
+          "description": "FTE (Full Time Equivalent) position changes"
+        },
+        "appropriations_changes": {
+          "prompt": "Identify and describe any appropriations that were previously unspecified or have been modified between versions of the bill, including the amounts and purposes of the appropriations. This should be around 3 sentences.",
+          "description": "Changes to appropriations between bill versions"
+        },
+        "funding_sources_changes": {
+          "prompt": "Specify the method of funding (MOF) for appropriations and identify any changes in funding sources between versions, such as shifts between general fund and special fund appropriations. This should be around 3 sentences.",
+          "description": "Changes to funding sources and method of funding"
+        },
+        "department_impact": {
+          "prompt": "Describe any changes in which department is responsible for expending appropriations, including shifts from one department to another between bill versions (e.g., from Department of Health to Judiciary). This should be around 3 sentences.",
+          "description": "Changes in department responsibility for appropriations"
+        },
+        "reports_required": {
+          "prompt": "Identify any reports that agencies are required to submit to the legislature, including new reporting requirements or modifications to existing ones. This should be around 3 sentences.",
+          "description": "Reporting requirements for agencies"
+        },
+        "pilot_program": {
+          "prompt": "If the bill creates a pilot program, describe the length of the pilot program and whether it was initially intended to be a pilot program or a permanent program. This should be around 3 sentences.",
+          "description": "Pilot program details and duration"
+        },
+        "sunset_date": {
+          "prompt": "Identify the sunset date for the bill or program, including any modifications to the sunset date between versions. This should be around 2 sentences.",
+          "description": "Sunset date and changes"
+        },
+        "effective_date": {
+          "prompt": "Identify the effective date of the bill, noting if there was a defective effective date in a previous version and what the corrected effective date is. This should be around 2 sentences.",
+          "description": "Effective date and corrections"
         }
       }
     },
@@ -109,6 +141,38 @@
         "updates_from_previous_fiscal_note": {
           "prompt": "If you are given a previous fisacl not. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fisacl note.",
           "description": "Updates from previous fiscal note"
+        },
+        "fte_positions": {
+          "prompt": "Detail any Full Time Equivalent (FTE) positions that have been added or modified in this version of the bill, including the number of positions, their roles, and any changes from previous versions. This should be around 3 sentences.",
+          "description": "FTE (Full Time Equivalent) position changes"
+        },
+        "appropriations_changes": {
+          "prompt": "Identify and describe any appropriations that were previously unspecified or have been modified between versions of the bill, including the amounts and purposes of the appropriations. This should be around 3 sentences.",
+          "description": "Changes to appropriations between bill versions"
+        },
+        "funding_sources_changes": {
+          "prompt": "Specify the method of funding (MOF) for appropriations and identify any changes in funding sources between versions, such as shifts between general fund and special fund appropriations. This should be around 3 sentences.",
+          "description": "Changes to funding sources and method of funding"
+        },
+        "department_impact": {
+          "prompt": "Describe any changes in which department is responsible for expending appropriations, including shifts from one department to another between bill versions (e.g., from Department of Health to Judiciary). This should be around 3 sentences.",
+          "description": "Changes in department responsibility for appropriations"
+        },
+        "reports_required": {
+          "prompt": "Identify any reports that agencies are required to submit to the legislature, including new reporting requirements or modifications to existing ones. This should be around 3 sentences.",
+          "description": "Reporting requirements for agencies"
+        },
+        "pilot_program": {
+          "prompt": "If the bill creates a pilot program, describe the length of the pilot program and whether it was initially intended to be a pilot program or a permanent program. This should be around 3 sentences.",
+          "description": "Pilot program details and duration"
+        },
+        "sunset_date": {
+          "prompt": "Identify the sunset date for the bill or program, including any modifications to the sunset date between versions. This should be around 2 sentences.",
+          "description": "Sunset date and changes"
+        },
+        "effective_date": {
+          "prompt": "Identify the effective date of the bill, noting if there was a defective effective date in a previous version and what the corrected effective date is. This should be around 2 sentences.",
+          "description": "Effective date and corrections"
         }
       }
     },
