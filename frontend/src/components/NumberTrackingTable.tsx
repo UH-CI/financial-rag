@@ -6,7 +6,7 @@ interface NumberTrackingTableProps {
   numbers: TrackedNumber[];
   fiscalNoteName: string;
   currentSegmentId: number; // To show cumulative numbers up to this segment
-  documentMapping?: Record<string, number>; // Document name -> reference number
+  documentMapping?: Record<string, number>; // Document name -> reference numbera
 }
 
 type FilterType = 'all' | 'new' | 'continued' | 'modified' | 'no_change' | 'from_previous';
