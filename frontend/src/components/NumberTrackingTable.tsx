@@ -14,8 +14,8 @@ type SortBy = 'amount' | 'change_type' | 'first_appeared';
 
 const NumberTrackingTable: React.FC<NumberTrackingTableProps> = ({ numbers, currentSegmentId, documentMapping, fiscalNoteName }) => {
   const [filterType, setFilterType] = useState<FilterType>('all');
-  const [sortBy, setSortBy] = useState<SortBy>('amount');
-  const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('desc');
+  const [sortBy, ] = useState<SortBy>('amount');
+  const [sortDirection, ] = useState<'asc' | 'desc'>('desc');
   const [expandedRows, setExpandedRows] = useState<Set<number>>(new Set());
   
   // Collapse all rows when fiscal note changes
@@ -109,14 +109,6 @@ const NumberTrackingTable: React.FC<NumberTrackingTableProps> = ({ numbers, curr
     return filtered;
   }, [numbers, filterType, sortBy, sortDirection]);
   
-  const handleSort = (newSortBy: SortBy) => {
-    if (sortBy === newSortBy) {
-      setSortDirection(prev => prev === 'asc' ? 'desc' : 'asc');
-    } else {
-      setSortBy(newSortBy);
-      setSortDirection('desc');
-    }
-  };
   
   // Helper to render cell value
   const renderCellValue = (value: any) => {
