@@ -60,3 +60,7 @@ src/chroma_db/
 !src/fiscal_notes/generation/*.py
 !src/fiscal_notes/generation/*.md
 !src/fiscal_notes/generation/README*.md
+
+# Ignore generated fiscal note files
+src/fiscal_notes/generation/*/fiscal_notes/*.json
+src/fiscal_notes/generation/*/retrieval_log.json
