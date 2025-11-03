@@ -28,6 +28,7 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
   const [sectionOrder, setSectionOrder] = useState<string[]>([]);
   const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
   const [sectionKeys, setSectionKeys] = useState<Map<string, string>>(new Map());
+  const [editingSectionNames, setEditingSectionNames] = useState<Map<string, string>>(new Map());
 
   useEffect(() => {
     if (isOpen) {
@@ -252,6 +253,29 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
     setDraggedIndex(null);
   };
 
+  const handleSectionNameChange = (key: string, value: string) => {
+    const newEditingNames = new Map(editingSectionNames);
+    newEditingNames.set(key, value);
+    setEditingSectionNames(newEditingNames);
+  };
+
+  const handleSectionNameBlur = (oldKey: string) => {
+    const newKey = editingSectionNames.get(oldKey);
+    if (newKey && newKey !== oldKey) {
+      handleRenameSection(oldKey, newKey);
+    }
+    // Clear the editing state
+    const newEditingNames = new Map(editingSectionNames);
+    newEditingNames.delete(oldKey);
+    setEditingSectionNames(newEditingNames);
+  };
+
+  const handleSectionNameKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      e.currentTarget.blur(); // This will trigger handleSectionNameBlur
+    }
+  };
+
   const handleRenameSection = (oldKey: string, newKey: string) => {
     if (oldKey === newKey) return;
     
@@ -397,8 +421,10 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
                       <input
                         id={`${key}-name`}
                         type="text"
-                        value={key}
-                        onChange={(e) => handleRenameSection(key, e.target.value)}
+                        value={editingSectionNames.get(key) ?? key}
+                        onChange={(e) => handleSectionNameChange(key, e.target.value)}
+                        onBlur={() => handleSectionNameBlur(key)}
+                        onKeyPress={(e) => handleSectionNameKeyPress(e)}
                         className={`w-full text-base font-semibold text-gray-900 bg-transparent border-b ${
                           emptyFields.has(`${key}-name`) 
                             ? 'border-red-500 bg-red-50' 

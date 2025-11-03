@@ -402,7 +402,7 @@ const FiscalNoteGeneration = () => {
     
     // Otherwise, show bill list
     return (
-      <div className="h-screen w-screen bg-gray-50 overflow-auto pb-20">
+      <div className="h-screen w-screen bg-gray-50 overflow-auto scroll-smooth pb-20">
         <div className="p-4 space-y-4">
           <h2 className="text-xl font-bold text-gray-900">Select a Bill</h2>
           
@@ -535,7 +535,7 @@ const FiscalNoteGeneration = () => {
   return (
     <div className="flex h-screen w-screen bg-gray-50 overflow-x-hidden">
       {/* Left Sidebar - Hidden on mobile, visible on desktop */}
-      <div className="hidden lg:block w-80 min-w-0 bg-white shadow-lg border-r border-gray-200 flex flex-col flex-shrink-0 sticky top-0 h-screen overflow-y-auto">
+      <div className="hidden lg:block w-80 min-w-0 bg-white shadow-lg border-r border-gray-200 flex flex-col flex-shrink-0 sticky top-0 h-screen overflow-y-auto scroll-smooth">
         <div className="p-6 border-b border-gray-200">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold text-gray-900">Fiscal Note Generation</h1>
@@ -548,7 +548,7 @@ const FiscalNoteGeneration = () => {
           </div>
         </div>
 
-        <div className="flex-1 p-6 space-y-4 overflow-y-auto pb-32">
+        <div className="flex-1 p-6 space-y-4 overflow-y-auto scroll-smooth pb-32">
           {/* Create New Button and Settings Button */}
           <div className="flex space-x-2">
             <button
@@ -789,7 +789,7 @@ const FiscalNoteGeneration = () => {
             })()}
           </div>
         ) : fiscalNoteHtml ? (
-          <div className="flex-1 overflow-auto p-6">
+          <div className="flex-1 overflow-auto scroll-smooth p-6">
             {loadingFiscalNote && (
               <div className="flex items-center justify-center">
                 <Loader2 className="w-8 h-8 text-blue-600 animate-spin" />

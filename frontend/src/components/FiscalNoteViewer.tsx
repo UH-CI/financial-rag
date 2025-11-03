@@ -321,7 +321,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
         )}
 
           {/* Timeline Navigation */}
-          <div className={`flex-1 overflow-y-auto ${sidebarCollapsed ? 'hidden' : ''}`}>
+          <div className={`flex-1 overflow-y-auto scroll-smooth ${sidebarCollapsed ? 'hidden' : ''}`}>
             <TimelineNavigation
               timeline={fiscalNoteData.timeline}
               fiscalNotes={fiscalNoteData.fiscal_notes}
@@ -353,7 +353,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
                   ))}
                 </select>
               </div>
-              <div className="flex-1 overflow-y-auto relative">
+              <div className="flex-1 overflow-y-auto scroll-smooth relative">
                 <ErrorBoundary>
                   <FiscalNoteContent
                     key={fiscalNoteData.fiscal_notes[safeSplitViewLeftIndex].filename}
@@ -388,7 +388,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
                   ))}
                 </select>
               </div>
-              <div className="flex-1 overflow-y-auto relative">
+              <div className="flex-1 overflow-y-auto scroll-smooth relative">
                 <ErrorBoundary>
                   <FiscalNoteContent
                     key={fiscalNoteData.fiscal_notes[safeSplitViewRightIndex].filename}
@@ -434,7 +434,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
               </div>
               
               {/* Content */}
-              <div className="flex-1 overflow-y-auto overflow-x-hidden">
+              <div className="flex-1 overflow-y-auto overflow-x-hidden scroll-smooth">
                 <ErrorBoundary>
                   <FiscalNoteContent
                     key={fiscalNoteData.fiscal_notes[safeSelectedIndex].filename}
@@ -466,7 +466,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
               </div>
             </div>
           ) : (
-            <div className="flex-1 overflow-y-auto overflow-x-hidden">
+            <div className="flex-1 overflow-y-auto overflow-x-hidden scroll-smooth">
               <ErrorBoundary>
                 <FiscalNoteContent
                   key={fiscalNoteData.fiscal_notes[safeSelectedIndex].filename}
@@ -523,7 +523,7 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
                 </div>
                 
                 {/* References list */}
-                <div className="flex-1 overflow-y-auto p-4 space-y-2">
+                <div className="flex-1 overflow-y-auto scroll-smooth p-4 space-y-2">
                   {Object.entries(fiscalNoteData.document_mapping).map(([docName, docNumber]) => {
                     const selectedFiscalNote = fiscalNoteData.fiscal_notes[safeSelectedIndex];
                     const isUsedInSelectedNote = selectedFiscalNote?.new_documents_processed?.includes(docName) || false;
