@@ -6,6 +6,7 @@ import CreateGroupModal from './components/CreateGroupModal';
 import FiscalNoteGeneration from './components/FiscalNoteGeneration';
 import SimilarBillSearch from './components/SimilarBillSearch';
 import MobileBottomNav from './components/MobileBottomNav';
+import MobileScrollDebug from './components/MobileScrollDebug';
   import type { Collection } from './types';
 import { getCollections } from './services/api';
 
@@ -17,6 +18,7 @@ function App() {
   const [collectionsLoading, setCollectionsLoading] = useState(true);
   const [collectionsError, setCollectionsError] = useState<string | null>(null);
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
+  const [showMobileDebug, setShowMobileDebug] = useState(false);
 
   // Load collections on app start
   const loadCollections = useCallback(async () => {
@@ -147,6 +149,14 @@ function App() {
                 </button>
               </nav>
               
+              {/* Mobile Debug Button - Only visible on mobile */}
+              <button
+                onClick={() => setShowMobileDebug(!showMobileDebug)}
+                className="lg:hidden px-2 py-1 text-xs bg-red-600 text-white rounded"
+              >
+                Debug
+              </button>
+              
               {/* Status Indicator */}
               <div className="flex items-center space-x-2">
               {collectionsLoading && (
@@ -237,6 +247,11 @@ function App() {
         currentView={currentView === 'chat' ? 'fiscal-note-generation' : currentView}
         onViewChange={(view) => setCurrentView(view)}
       />
+      
+      {/* Mobile Debug Component */}
+      {showMobileDebug && (
+        <MobileScrollDebug onClose={() => setShowMobileDebug(false)} />
+      )}
     </div>
   );
 }

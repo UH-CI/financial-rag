@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Mobile Scroll Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f3f4f6;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            background: white;
+            padding: 1rem;
+            border-bottom: 1px solid #e5e7eb;
+            flex-shrink: 0;
+        }
+        
+        .content {
+            flex: 1;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            transform: translateZ(0);
+            will-change: scroll-position;
+            backface-visibility: hidden;
+            perspective: 1000px;
+        }
+        
+        .scroll-area {
+            background: white;
+            margin: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .scroll-item {
+            padding: 1rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .scroll-item:last-child {
+            border-bottom: none;
+        }
+        
+        .debug-info {
+            position: fixed;
+            top: 60px;
+            right: 10px;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            z-index: 1000;
+        }
+        
+        .footer {
+            background: white;
+            padding: 1rem;
+            border-top: 1px solid #e5e7eb;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Mobile Scroll Test</h1>
+            <p>Test scrolling behavior on your mobile device</p>
+        </div>
+        
+        <div class="content" id="scrollArea">
+            <div class="scroll-area">
+                <div class="scroll-item">
+                    <h3>Test Item 1</h3>
+                    <p>This is a test item. Try scrolling through this content on your mobile device.</p>
+                </div>
+                <div class="scroll-item">
+                    <h3>Test Item 2</h3>
+                    <p>If scrolling works here but not in your app, there might be CSS conflicts or missing properties.</p>
+                </div>
+                <div class="scroll-item">
+                    <h3>Test Item 3</h3>
+                    <p>This test page uses the same CSS properties we added to your app.</p>
+                </div>
+                <div class="scroll-item">
+                    <h3>Test Item 4</h3>
+                    <p>-webkit-overflow-scrolling: touch</p>
+                    <p>transform: translateZ(0)</p>
+                    <p>will-change: scroll-position</p>
+                </div>
+                <div class="scroll-item">
+                    <h3>Test Item 5</h3>
+                    <p>Keep scrolling to test momentum scrolling...</p>
+                </div>
+                <div class="scroll-item">
+                    <h3>Test Item 6</h3>
+                    <p>On iOS, you should feel momentum when you flick to scroll.</p>
+                </div>
+                <div class="scroll-item">
+                    <h3>Test Item 7</h3>
+                    <p>On Android, scrolling should be smooth and responsive.</p>
+                </div>
+                <div class="scroll-item">
+                    <h3>Test Item 8</h3>
+                    <p>If this works but your app doesn't, check for:</p>
+                    <ul>
+                        <li>Conflicting CSS</li>
+                        <li>JavaScript preventing default touch events</li>
+                        <li>Missing viewport meta tag</li>
+                    </ul>
+                </div>
+                <div class="scroll-item">
+                    <h3>Test Item 9</h3>
+                    <p>More content to scroll through...</p>
+                </div>
+                <div class="scroll-item">
+                    <h3>Test Item 10</h3>
+                    <p>Even more content...</p>
+                </div>
+                <div class="scroll-item">
+                    <h3>Test Item 11</h3>
+                    <p>Keep going...</p>
+                </div>
+                <div class="scroll-item">
+                    <h3>Test Item 12</h3>
+                    <p>Almost there...</p>
+                </div>
+                <div class="scroll-item">
+                    <h3>Test Item 13</h3>
+                    <p>Last item! If you can scroll smoothly through all of this, the CSS is working.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Footer - Should stay at bottom</p>
+        </div>
+    </div>
+    
+    <div class="debug-info" id="debugInfo">
+        <div>Loading debug info...</div>
+    </div>
+    
+    <script>
+        const debugInfo = document.getElementById('debugInfo');
+        const scrollArea = document.getElementById('scrollArea');
+        
+        function updateDebugInfo() {
+            const info = [
+                `User Agent: ${navigator.userAgent.includes('Mobile') ? 'Mobile' : 'Desktop'}`,
+                `Touch: ${('ontouchstart' in window) ? 'Yes' : 'No'}`,
+                `iOS: ${/iPad|iPhone|iPod/.test(navigator.userAgent) ? 'Yes' : 'No'}`,
+                `Viewport: ${window.innerWidth}x${window.innerHeight}`,
+                `Scroll: ${scrollArea.scrollTop}px`
+            ];
+            debugInfo.innerHTML = info.join('<br>');
+        }
+        
+        updateDebugInfo();
+        scrollArea.addEventListener('scroll', updateDebugInfo);
+        window.addEventListener('resize', updateDebugInfo);
+        
+        // Log touch events
+        let touchCount = 0;
+        document.addEventListener('touchstart', (e) => {
+            console.log('Touch start:', e.touches.length, 'touches');
+            touchCount++;
+        });
+        
+        document.addEventListener('touchmove', (e) => {
+            console.log('Touch move:', e.touches.length, 'touches');
+        });
+        
+        scrollArea.addEventListener('scroll', (e) => {
+            console.log('Scroll event:', e.target.scrollTop);
+        });
+    </script>
+</body>
+</html>

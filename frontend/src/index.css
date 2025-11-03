@@ -230,6 +230,41 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+/* Enhanced mobile scrolling fixes */
+@media (max-width: 1024px) {
+  /* Force hardware acceleration for scrolling containers */
+  .overflow-y-auto,
+  .overflow-auto,
+  .scroll-smooth {
+    -webkit-overflow-scrolling: touch;
+    transform: translateZ(0);
+    will-change: scroll-position;
+  }
+  
+  /* Prevent iOS bounce scrolling on body */
+  body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  /* Allow scrolling on main app container */
+  #root {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Ensure scrollable areas have proper momentum */
+  .mobile-scroll {
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+  }
+}
+
 /* Ensure tables are scrollable on mobile */
 @media (max-width: 768px) {
   table {
