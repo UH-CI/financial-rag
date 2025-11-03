@@ -1,7 +1,9 @@
 services:
   # API Server
   api:
-    image: ghcr.io/uh-ci/rag-system-src
+    build:
+      context: ./src
+      dockerfile: Dockerfile
     container_name: rag-api
     ports:
       - "8200:8200"

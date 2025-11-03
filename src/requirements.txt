@@ -1,12 +1,16 @@
 # Core RAG Dependencies
 chromadb
-openai
-langchain
-langchain-openai
-langchain-community
-langchain-google-genai
+openai==1.109.1
+langchain==0.2.17
+langchain-openai==0.1.25
+langchain-community==0.2.19
+langchain-text-splitters==0.2.4
 langgraph
-google-generativeai==0.3.2
+
+# Google AI - install these without strict version constraints to avoid conflicts
+google-generativeai
+google-genai
+langchain-google-genai
 
 # Document Processing
 PyPDF2
@@ -30,13 +34,13 @@ requests
 
 # Configuration and Environment
 python-dotenv==1.0.0
-pydantic==2.5.0
-pydantic-settings==2.1.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
 pyyaml
 
 # API and Web Framework (for future milestones)
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
 
 # Testing
 pytest
@@ -62,7 +66,8 @@ webdriver-manager
 beautifulsoup4
 undetected-chromedriver
 
-google-api-python-client
-google_auth
-google-auth-oauthlib
-google-auth-httplib2
+google-api-python-client==2.184.0
+google-auth==2.41.1
+google-auth-oauthlib==1.2.2
+google-auth-httplib2==0.2.0
+google-api-core==2.26.0
