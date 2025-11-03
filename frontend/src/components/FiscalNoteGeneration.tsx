@@ -386,7 +386,7 @@ const FiscalNoteGeneration = () => {
         const year = parts[2] || '2025';
         
         return (
-          <div className="h-screen w-screen bg-gray-50 overflow-hidden">
+          <div className="h-screen w-screen bg-gray-50">
             {/* Fiscal Note Viewer with bill list for dropdown */}
             <FiscalNoteViewer
               billType={billType}
@@ -763,7 +763,7 @@ const FiscalNoteGeneration = () => {
       {/* Main Content Area - Desktop */}
       <div className="flex-1 flex flex-col min-w-0">
         {selectedFiscalNote && useNewViewer ? (
-          <div className="flex-1 h-full overflow-hidden">
+          <div className="flex-1 h-full">
             {(() => {
               const parts = selectedFiscalNote.split('_');
               if (parts.length >= 2) {

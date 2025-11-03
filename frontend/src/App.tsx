@@ -73,7 +73,7 @@ function App() {
   }, []);
 
   return (
-    <div className="h-screen bg-gray-100 flex overflow-hidden">
+    <div className="h-screen bg-gray-100 flex">
       {/* Sidebar */}
       {/* <CollectionsSidebar
         collections={collections}
@@ -185,7 +185,7 @@ function App() {
         </header>
 
         {/* Main Content - Add bottom padding on mobile for navbar */}
-        <div className="flex-1 overflow-hidden pb-16 lg:pb-0">
+        <div className="flex-1 pb-16 lg:pb-0">
           {currentView === 'fiscal-note-generation' ? (
             <FiscalNoteGeneration />
           ) : currentView === 'similar-bill-search' ? (

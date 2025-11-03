@@ -787,12 +787,14 @@
                 const content = fiscalNoteData[section];
                 if (!content) return '';
 
-                const processedContent = processContentWithCitations(content);
+                const processedContent = processContentWithSentenceAttribution(content, section);
+                const sectionAttributions = getSectionAttributions(content);
 
                 return `
                     <div class="fiscal-section">
                         <h2 class="section-title">${section.replace(/_/g, ' ')}</h2>
                         <div class="section-content">${processedContent}</div>
+                        ${sectionAttributions.length > 0 ? generateSectionAttributionSummary(sectionAttributions) : ''}
                     </div>
                 `;
             }).join('');
@@ -997,30 +999,16 @@
         }
 
         function processContentWithCitations(content) {
-            // Replace numbered citations [X] with interactive elements
-            return content.replace(/\[(\d+)\]/g, (match, citationNum) => {
-                const citationNumber = parseInt(citationNum);
+            // Replace [CHUNK:X] and [CHUNK:X:$amount] with interactive elements
+            return content.replace(/\[CHUNK:(\d+)(?::(\$[\d,]+))?\]/g, (match, chunkId, amount) => {
+                const chunk = chunkMap.get(parseInt(chunkId));
+                const hasAmount = amount ? 'with-amount' : '';
                 
-                // Get chunk text from chunk_text_map
-                const chunkTextData = metadataData.response_metadata?.chunk_text_map?.[citationNumber];
-                const chunkText = chunkTextData?.[0]?.chunk_text || 'Content not available';
-                
-                // Get document name from document_mapping
-                let documentName = 'Unknown Document';
-                if (metadataData.response_metadata?.document_mapping) {
-                    for (const [docName, docCitation] of Object.entries(metadataData.response_metadata.document_mapping)) {
-                        if (docCitation === citationNumber) {
-                            documentName = docName;
-                            break;
-                        }
-                    }
-                }
-                
-                return `<span class="citation-number" 
-                              data-citation-num="${citationNumber}"
-                              data-document="${documentName}"
-                              data-chunk-text="${chunkText.replace(/"/g, '&quot;')}"
-                              title="Click for details">${match}</span>`;
+                return `<span class="chunk-citation ${hasAmount}" 
+                              data-chunk-id="${chunkId}" 
+                              data-amount="${amount || ''}"
+                              data-document="${chunk?.document_name || 'Unknown'}"
+                              data-content="${chunk?.chunk_text || 'Chunk not found'}">${match}</span>`;
             });
         }
 
@@ -1046,9 +1034,11 @@
 
         function showCitationTooltip(event) {
             const citation = event.target;
-            const citationNum = citation.dataset.citationNum;
+            const chunkId = citation.dataset.chunkId;
+            const method = citation.dataset.method;
+            const reason = citation.dataset.reason;
             const chunkText = citation.dataset.chunkText;
-            const documentName = citation.dataset.document;
+            const document = citation.dataset.document;
 
             // Remove any existing tooltips
             const existingTooltips = document.querySelectorAll('.citation-tooltip');
@@ -1057,10 +1047,16 @@
             const tooltip = document.createElement('div');
             tooltip.className = 'citation-tooltip';
             
+            const displayChunkId = chunkId && chunkId.toString().startsWith('NUMBER_') ? 
+                `Number ${chunkId.replace('NUMBER_', '')}` : 
+                `Chunk ${chunkId}`;
+            
             tooltip.innerHTML = `
-                <div class="citation-tooltip-header">Citation [${citationNum}]</div>
-                <div style="color: #81C784;">Document: ${documentName}</div>
-                <div class="citation-tooltip-content">${chunkText.substring(0, 300)}...</div>
+                <div class="citation-tooltip-header">${displayChunkId}</div>
+                <div class="citation-tooltip-method">Method: ${method.replace('_', ' ')}</div>
+                <div style="color: #81C784;">Document: ${document}</div>
+                <div style="color: #FFB74D; margin: 4px 0;">Reason: ${reason}</div>
+                <div class="citation-tooltip-content">${chunkText.substring(0, 200)}...</div>
             `;
 
             document.body.appendChild(tooltip);
@@ -1089,11 +1085,18 @@
         function showCitationDetails(event) {
             event.preventDefault();
             const citation = event.target;
-            const citationNum = citation.dataset.citationNum;
+            const chunkId = citation.dataset.chunkId;
+            const method = citation.dataset.method;
+            const score = citation.dataset.score;
+            const reason = citation.dataset.reason;
             const chunkText = citation.dataset.chunkText;
-            const documentName = citation.dataset.document;
+            const document = citation.dataset.document;
+            
+            const displayChunkId = chunkId && chunkId.toString().startsWith('NUMBER_') ? 
+                `Number ${chunkId.replace('NUMBER_', '')}` : 
+                `Chunk ${chunkId}`;
 
-            alert(`Citation Details:\\n\\nCitation [${citationNum}]\\nDocument: ${documentName}\\n\\nContent:\\n${chunkText.substring(0, 500)}...`);
+            alert(`Citation Details:\\n\\n${displayChunkId}\\nMethod: ${method}\\nScore: ${score}\\nReason: ${reason}\\nDocument: ${document}\\n\\nContent:\\n${chunkText.substring(0, 500)}...`);
         }
 
         function showSentenceDetails(event) {
