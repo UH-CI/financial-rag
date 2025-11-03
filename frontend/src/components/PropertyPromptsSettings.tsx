@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { X, Plus, Save, Trash2, GripVertical } from 'lucide-react';
+import { X, Plus, Save, Trash2, GripVertical, Lock } from 'lucide-react';
 import { 
   getPropertyPrompts, 
   createPropertyPromptTemplate,
@@ -29,6 +29,12 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
   const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
   const [sectionKeys, setSectionKeys] = useState<Map<string, string>>(new Map());
   const [editingSectionNames, setEditingSectionNames] = useState<Map<string, string>>(new Map());
+
+  // Helper function to check if current template is default
+  const isDefaultTemplate = () => {
+    const template = templates.find(t => t.id === selectedTabId);
+    return template?.is_default || false;
+  };
 
   useEffect(() => {
     if (isOpen) {
@@ -403,13 +409,23 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
                   }`}
                 >
                   {/* Delete button in top right */}
-                  <button
-                    onClick={() => handleDeleteSection(key)}
-                    className="absolute top-2 right-2 text-red-600 hover:text-red-800 transition-colors"
-                    title="Delete section"
-                  >
-                    <Trash2 className="w-4 h-4" />
-                  </button>
+                  {isDefaultTemplate() ? (
+                    <button
+                      disabled
+                      className="absolute top-2 right-2 text-gray-400 cursor-not-allowed"
+                      title="Default prompts cannot be edited. Create a new template to customize prompts."
+                    >
+                      <Trash2 className="w-4 h-4" />
+                    </button>
+                  ) : (
+                    <button
+                      onClick={() => handleDeleteSection(key)}
+                      className="absolute top-2 right-2 text-red-600 hover:text-red-800 transition-colors"
+                      title="Delete section"
+                    >
+                      <Trash2 className="w-4 h-4" />
+                    </button>
+                  )}
 
                   <div className="flex items-start gap-2 mb-1">
                     {/* Drag Handle */}
@@ -417,21 +433,36 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
                       <GripVertical className="w-5 h-5" />
                     </div>
                     
-                    <div className="flex-1 max-w-2xl pr-6">
-                      <input
-                        id={`${key}-name`}
-                        type="text"
-                        value={editingSectionNames.get(key) ?? key}
-                        onChange={(e) => handleSectionNameChange(key, e.target.value)}
-                        onBlur={() => handleSectionNameBlur(key)}
-                        onKeyPress={(e) => handleSectionNameKeyPress(e)}
-                        className={`w-full text-base font-semibold text-gray-900 bg-transparent border-b ${
-                          emptyFields.has(`${key}-name`) 
-                            ? 'border-red-500 bg-red-50' 
-                            : 'border-transparent hover:border-gray-300 focus:border-blue-500'
-                        } px-1 -ml-1 py-0.5`}
-                        placeholder="Section name"
-                      />
+                    <div className="flex-1 max-w-2xl pr-6 relative">
+                      {isDefaultTemplate() ? (
+                        <>
+                          <input
+                            id={`${key}-name`}
+                            type="text"
+                            value={key}
+                            readOnly
+                            className="w-full text-base font-semibold text-gray-600 bg-gray-100 border-b border-gray-300 px-1 -ml-1 py-0.5 cursor-not-allowed pr-6"
+                            placeholder="Section name"
+                            title="Default prompts cannot be edited. Create a new template to customize prompts."
+                          />
+                          <Lock className="absolute right-2 top-1 w-4 h-4 text-gray-400" />
+                        </>
+                      ) : (
+                        <input
+                          id={`${key}-name`}
+                          type="text"
+                          value={editingSectionNames.get(key) ?? key}
+                          onChange={(e) => handleSectionNameChange(key, e.target.value)}
+                          onBlur={() => handleSectionNameBlur(key)}
+                          onKeyPress={(e) => handleSectionNameKeyPress(e)}
+                          className={`w-full text-base font-semibold text-gray-900 bg-transparent border-b ${
+                            emptyFields.has(`${key}-name`) 
+                              ? 'border-red-500 bg-red-50' 
+                              : 'border-transparent hover:border-gray-300 focus:border-blue-500'
+                          } px-1 -ml-1 py-0.5`}
+                          placeholder="Section name"
+                        />
+                      )}
                     </div>
                   </div>
 
@@ -440,36 +471,70 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
                       <label className="block text-xs font-medium text-gray-700 mb-0.5">
                         Description
                       </label>
-                      <input
-                        id={`${key}-description`}
-                        type="text"
-                        value={value.description}
-                        onChange={(e) => handleUpdateSection(key, 'description', e.target.value)}
-                        className={`w-full border rounded-md px-2 py-1.5 text-sm focus:outline-none focus:ring-2 ${
-                          emptyFields.has(`${key}-description`)
-                            ? 'border-red-500 bg-red-50 focus:ring-red-500'
-                            : 'border-gray-300 focus:ring-blue-500 focus:border-transparent'
-                        }`}
-                        placeholder="Brief description of this section"
-                      />
+                      <div className="relative">
+                        {isDefaultTemplate() ? (
+                          <>
+                            <input
+                              id={`${key}-description`}
+                              type="text"
+                              value={value.description}
+                              readOnly
+                              className="w-full border rounded-md px-2 py-1.5 text-sm bg-gray-100 border-gray-300 text-gray-600 cursor-not-allowed pr-8"
+                              placeholder="Brief description of this section"
+                              title="Default prompts cannot be edited. Create a new template to customize prompts."
+                            />
+                            <Lock className="absolute right-2 top-2 w-4 h-4 text-gray-400" />
+                          </>
+                        ) : (
+                          <input
+                            id={`${key}-description`}
+                            type="text"
+                            value={value.description}
+                            onChange={(e) => handleUpdateSection(key, 'description', e.target.value)}
+                            className={`w-full border rounded-md px-2 py-1.5 text-sm focus:outline-none focus:ring-2 ${
+                              emptyFields.has(`${key}-description`)
+                                ? 'border-red-500 bg-red-50 focus:ring-red-500'
+                                : 'border-gray-300 focus:ring-blue-500 focus:border-transparent'
+                            }`}
+                            placeholder="Brief description of this section"
+                          />
+                        )}
+                      </div>
                     </div>
 
                     <div>
                       <label className="block text-xs font-medium text-gray-700 mb-0.5">
                         Prompt
                       </label>
-                      <textarea
-                        id={`${key}-prompt`}
-                        value={value.prompt}
-                        onChange={(e) => handleUpdateSection(key, 'prompt', e.target.value)}
-                        rows={3}
-                        className={`w-full border rounded-md px-2 py-1.5 focus:outline-none focus:ring-2 font-mono text-xs ${
-                          emptyFields.has(`${key}-prompt`)
-                            ? 'border-red-500 bg-red-50 focus:ring-red-500'
-                            : 'border-gray-300 focus:ring-blue-500 focus:border-transparent'
-                        }`}
-                        placeholder="Enter the prompt for generating this section..."
-                      />
+                      <div className="relative">
+                        {isDefaultTemplate() ? (
+                          <>
+                            <textarea
+                              id={`${key}-prompt`}
+                              value={value.prompt}
+                              readOnly
+                              rows={3}
+                              className="w-full border rounded-md px-2 py-1.5 font-mono text-xs bg-gray-100 border-gray-300 text-gray-600 cursor-not-allowed resize-none pr-8"
+                              placeholder="Enter the prompt for generating this section..."
+                              title="Default prompts cannot be edited. Create a new template to customize prompts."
+                            />
+                            <Lock className="absolute right-2 top-2 w-4 h-4 text-gray-400" />
+                          </>
+                        ) : (
+                          <textarea
+                            id={`${key}-prompt`}
+                            value={value.prompt}
+                            onChange={(e) => handleUpdateSection(key, 'prompt', e.target.value)}
+                            rows={3}
+                            className={`w-full border rounded-md px-2 py-1.5 focus:outline-none focus:ring-2 font-mono text-xs ${
+                              emptyFields.has(`${key}-prompt`)
+                                ? 'border-red-500 bg-red-50 focus:ring-red-500'
+                                : 'border-gray-300 focus:ring-blue-500 focus:border-transparent'
+                            }`}
+                            placeholder="Enter the prompt for generating this section..."
+                          />
+                        )}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -477,13 +542,24 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
               })}
 
               {/* Add Section Button */}
-              <button
-                onClick={handleAddSection}
-                className="w-full border-2 border-dashed border-gray-300 rounded-lg px-4 py-6 text-gray-600 hover:border-blue-500 hover:text-blue-600 transition-colors flex items-center justify-center space-x-2"
-              >
-                <Plus className="w-5 h-5" />
-                <span className="font-medium">Add Section</span>
-              </button>
+              {isDefaultTemplate() ? (
+                <button
+                  disabled
+                  className="w-full border-2 border-dashed border-gray-200 rounded-lg px-4 py-6 text-gray-400 cursor-not-allowed flex items-center justify-center space-x-2"
+                  title="Default prompts cannot be edited. Create a new template to customize prompts."
+                >
+                  <Plus className="w-5 h-5" />
+                  <span className="font-medium">Add Section</span>
+                </button>
+              ) : (
+                <button
+                  onClick={handleAddSection}
+                  className="w-full border-2 border-dashed border-gray-300 rounded-lg px-4 py-6 text-gray-600 hover:border-blue-500 hover:text-blue-600 transition-colors flex items-center justify-center space-x-2"
+                >
+                  <Plus className="w-5 h-5" />
+                  <span className="font-medium">Add Section</span>
+                </button>
+              )}
             </div>
           )}
         </div>
@@ -506,14 +582,25 @@ const PropertyPromptsSettings = ({ isOpen, onClose }: PropertyPromptsSettingsPro
             <button onClick={onClose} className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50">
               Cancel
             </button>
-            <button
-              onClick={handleSave}
-              disabled={isLoading || isSaving}
-              className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50"
-            >
-              <Save className="w-4 h-4" />
-              <span>{isSaving ? 'Saving...' : 'Save'}</span>
-            </button>
+            {isDefaultTemplate() ? (
+              <button
+                disabled
+                className="flex items-center space-x-2 px-4 py-2 bg-gray-400 text-white rounded-lg cursor-not-allowed opacity-50"
+                title="Default prompts cannot be edited. Create a new template to customize prompts."
+              >
+                <Save className="w-4 h-4" />
+                <span>Save</span>
+              </button>
+            ) : (
+              <button
+                onClick={handleSave}
+                disabled={isLoading || isSaving}
+                className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50"
+              >
+                <Save className="w-4 h-4" />
+                <span>{isSaving ? 'Saving...' : 'Save'}</span>
+              </button>
+            )}
             {successMessage && <span className="text-green-600 font-medium text-sm">✓ {successMessage}</span>}
           </div>
         </div>

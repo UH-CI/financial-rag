@@ -250,26 +250,29 @@
     perspective: 1000;
   }
   
-  /* Prevent iOS bounce scrolling only on the body, but allow normal scrolling */
-  body {
-    -webkit-overflow-scrolling: touch;
-    /* Ensure body can scroll on mobile */
-    overflow: auto;
-  }
-  
-  /* Ensure root container allows scrolling */
-  #root {
-    height: 100vh;
-    overflow: auto;
-    /* Additional mobile scroll support */
-    -webkit-overflow-scrolling: touch;
-  }
-  
-  /* Fix for iOS Safari viewport issues */
-  html {
+  /* Critical mobile scroll fix - avoid 100vh issues */
+  html, body {
     height: 100%;
-    overflow: auto;
+    overflow: visible;
     -webkit-overflow-scrolling: touch;
+    /* Prevent iOS bounce but allow scrolling */
+    overscroll-behavior: contain;
+  }
+  
+  /* Fix root container - use min-height instead of height */
+  #root {
+    min-height: 100vh;
+    min-height: -webkit-fill-available; /* iOS Safari fix */
+    overflow: visible;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Ensure h-screen class works properly on mobile */
+  .h-screen {
+    height: 100vh;
+    height: -webkit-fill-available; /* iOS Safari fix */
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
   }
 }
 
