@@ -20,17 +20,17 @@
     "HB72_SD1_SSCR1082_"
   ],
   "numbers_used": 4,
-  "prompt_length": 48264,
+  "prompt_length": 55739,
   "response_metadata": {
-    "response_text": "{\n  \"overview\": \"Beginning 1/1/2026, this measure requires pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy. [CHUNK 132] It imposes a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians. [CHUNK 133] The measure specifies that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns and has an effective date of December 31, 2050. [CHUNK 133] [CHUNK 128]\",\n  \"appropriations\": \"\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"To align the measure with the Board’s current Hawaii Administrative Rules (HAR), the Board requested amendments which were adopted by the committee. [CHUNK 14] [CHUNK 138] The committee deleted language that would have required the supervision of a registered pharmacy technician by a registered pharmacist to be \\\"direct\\\". [CHUNK 139] The committee also deleted language from the definition of \\\"supervision\\\" that would have required the responsible registered pharmacist to be physically present to oversee a registered pharmacy technician or pharmacy technician performing certain acts. [CHUNK 140]\",\n  \"economic_impact\": \"The registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK 72] Any person who violates any of the provisions of this chapter or the rules adopted pursuant to this chapter shall be fined no less than $100.00 (HB72_SD1_.HTM.txt) and no more than $1,000.00 (HB72_SD1_.HTM.txt) for each violation. [CHUNK 126]\",\n  \"policy_impact\": \"The measure adds new definitions to chapter 461, Hawaii Revised Statutes, for \\\"Auxiliary pharmacy personnel\\\", \\\"Registered pharmacy technician\\\", and \\\"Supervision\\\". [CHUNK 78] It amends the powers and duties of the board to include issuing certificates of registration for registered pharmacy technicians. [CHUNK 86] Disciplinary actions under section 461-21 are expanded to allow the board to deny, revoke, or suspend any registration. [CHUNK 119]\",\n  \"revenue_sources\": \"Revenue will be generated from a registration fee for pharmacy technicians. [CHUNK 72] The registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK 72] Each certificate of registration shall be valid through December 31 of each odd-numbered year, upon which a new registration shall be required. [CHUNK 71]\",\n  \"six_year_fiscal_implications\": \"Beginning January 1, 2026, the State will collect revenue from a biennial registration fee for pharmacy technicians. [CHUNK 70] [CHUNK 71] The registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK 72] Each certificate of registration shall be valid through December 31 of each odd-numbered year. [CHUNK 71] This will require the board to issue certificates of registration for registered pharmacy technicians and renew permits to operate pharmacies. [CHUNK 86] The board may also fine, suspend, or revoke any registration or permit for any cause prescribed by this chapter. [CHUNK 88] Any person who violates any of the provisions of this chapter shall be fined no less than $100.00 (HB72_SD1_.HTM.txt) and no more than $1,000.00 (HB72_SD1_.HTM.txt) for each violation. [CHUNK 126] The supervising registered pharmacist shall be responsible for the actions of the registered pharmacy technician. [CHUNK 74] A registered pharmacy technician may perform filling, packaging, manipulative, repetitive, or other nondiscretionary tasks, only while assisting and while under the supervision and control of a registered pharmacist. [CHUNK 103] Section 26H-6, Hawaii Revised Statutes, which concerns the repeal of professional and occupational licensing acts, shall not apply to this Act. [CHUNK 127] This Act shall take effect on December 31, 2050. [CHUNK 128]\",\n  \"operating_revenue_impact\": \"Operating revenue will increase from the collection of biennial registration fees. [CHUNK 71] The registration fee for a pharmacy technician is $20.00 (HB72_SD1_.HTM.txt). [CHUNK 72] Additional, non-recurring revenue may be generated from fines for violations, which range from $100.00 (HB72_SD1_.HTM.txt) to $1,000.00 (HB72_SD1_.HTM.txt). [CHUNK 126]\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"Ongoing fiscal implications will include recurring biennial revenue from the pharmacy technician registration fee of $20.00 (HB72_SD1_.HTM.txt). [CHUNK 72] The requirement for biennial renewal of the certificate of registration will ensure a continuous revenue stream. [CHUNK 71] The committee inserted an effective date of December 31, 2050, to encourage further discussion. [CHUNK 140]\",\n  \"updates_from_previous_fiscal_note\": \"This measure has been amended to include a new registration fee for pharmacy technicians of $20.00 (HB72_SD1_.HTM.txt) and fines for violations ranging from $100.00 (HB72_SD1_.HTM.txt) to $1,000.00 (HB72_SD1_.HTM.txt). [CHUNK 72] [CHUNK 126] Following recommendations from the Board of Pharmacy, language that would have required supervision to be \\\"direct\\\" or for the pharmacist to be \\\"physically present\\\" has been deleted. [CHUNK 139] [CHUNK 140] The measure now statutorily defines \\\"Auxiliary pharmacy personnel\\\", \\\"Registered pharmacy technician\\\", and \\\"Supervision\\\". [CHUNK 78] A new effective date of December 31, 2050, has been inserted to encourage further discussion. [CHUNK 140]\"\n}",
+    "response_text": "{\n  \"overview\": \"The purpose and intent of this measure is to require pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy, beginning January 1, 2026. [CHUNK_132] The bill imposes a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians. [CHUNK_133] It also specifies that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns. [CHUNK_133]\",\n  \"appropriations\": \"The provided legislative documents do not contain any specific appropriations for this measure. [CHUNK_69] However, the bill specifies that the registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK_72, NUMBER_0] Testimony indicates that this initiative comes at a reasonable cost and represents a prudent investment. [CHUNK_66]\",\n  \"assumptions_and_methodology\": \"The fiscal analysis is based on the specific fees and fines established in the bill text. [CHUNK_72, CHUNK_125] The measure establishes a registration fee of $20.00 (HB72_SD1_.HTM.txt) for pharmacy technicians, which will generate revenue. [CHUNK_72, NUMBER_0] The provided documents do not contain quantitative projections on the number of pharmacy technicians in Hawai'i, making a total revenue estimate difficult. [CHUNK_56]\",\n  \"agency_impact\": \"The Board of Pharmacy will be required to issue certificates of registration for registered pharmacy technicians. [CHUNK_86] The Board may fine, suspend, or revoke any registration for any cause prescribed by this chapter. [CHUNK_88] The Board voted unanimously to support this measure and has already formed a permitted interaction group to look at the best methods to regulate pharmacy technicians. [CHUNK_9, CHUNK_11]\",\n  \"economic_impact\": \"Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians, and this measure aligns Hawaiʻi with national best practices. [CHUNK_3, CHUNK_28] This important measure will bring a regulatory framework to the critical role that pharmacy technicians fill. [CHUNK_25] Any person who violates any of the provisions of this chapter shall be fined no less than $100.00 (HB72_SD1_.HTM.txt) and no more than $1,000.00 (HB72_SD1_.HTM.txt) for each violation. [CHUNK_125, CHUNK_126, NUMBER_1, NUMBER_2]\",\n  \"policy_impact\": \"This measure builds upon Act 104 of the 2024 legislative session that allows pharmacy technicians the ability to administer immunizations and vaccinations. [CHUNK_14, CHUNK_24] Your Committee has amended this measure by deleting language that would have required the supervision to be \\\"direct\\\" and deleting language that would have required the pharmacist to be physically present. [CHUNK_139, CHUNK_140] The bill also specifies that Section 26H-6, Hawaii Revised Statutes, which relates to sunrise analysis requirements, shall not apply to this Act. [CHUNK_127]\",\n  \"revenue_sources\": \"The bill establishes a new revenue source through a registration fee for pharmacy technicians. [CHUNK_72] The registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK_72, NUMBER_0] Additional revenue may be generated from fines for violations, which shall be no less than $100.00 (HB72_SD1_.HTM.txt) and no more than $1,000.00 (HB72_SD1_.HTM.txt) for each violation. [CHUNK_125, CHUNK_126, NUMBER_1, NUMBER_2]\",\n  \"six_year_fiscal_implications\": \"The provided documents do not contain a six-year fiscal projection. [CHUNK_131] A new revenue stream will be created from registration fees. [CHUNK_72] The registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK_72, NUMBER_0] Each certificate of registration shall be valid through December 31 of each odd-numbered year, upon which a new registration shall be required, suggesting a biennial renewal process. [CHUNK_71] Without a formal registry, there is little visibility into the number of technicians working in the state, making precise revenue projections difficult. [CHUNK_55] The Board of Pharmacy may also impose fines between $100.00 (HB72_SD1_.HTM.txt) and $1,000.00 (HB72_SD1_.HTM.txt) for each violation. [CHUNK_126, NUMBER_1, NUMBER_2] The creation of a pharmacy technician data repository is an essential step forward, but any associated administrative costs are not specified. [CHUNK_41] Testimony describes the measure as a prudent investment in the safety, efficiency, and adaptability of the pharmacy workforce. [CHUNK_43] This bill is a crucial step toward strengthening Hawai'i’s healthcare infrastructure. [CHUNK_32] The Board agreed that a registration for all technicians may be a prudent initial step regarding the regulation of pharmacy technicians. [CHUNK_13]\",\n  \"operating_revenue_impact\": \"This measure will generate new operating revenue for the state. [CHUNK_72] A registration fee of $20.00 (HB72_SD1_.HTM.txt) will be collected from each pharmacy technician on a biennial basis. [CHUNK_72, CHUNK_71, NUMBER_0] Additional, though less predictable, revenue may be generated from fines for violations, which can range from $100.00 (HB72_SD1_.HTM.txt) to $1,000.00 (HB72_SD1_.HTM.txt). [CHUNK_125, CHUNK_126, NUMBER_1, NUMBER_2]\",\n  \"capital_expenditure_impact\": \"The provided legislative documents do not indicate any capital expenditures are required for this measure. [CHUNK_69, CHUNK_131] No investments in facilities, equipment, or technology are mentioned in the bill text or supporting testimonies. [CHUNK_69, CHUNK_0] The purpose and intent of this measure is to establish a regulatory system, not to fund capital projects. [CHUNK_132]\",\n  \"fiscal_implications_after_6_years\": \"The ongoing fiscal impact of this measure will be the recurring revenue from the biennial renewal of pharmacy technician registrations. [CHUNK_71] The registration fee is established at $20.00 (HB72_SD1_.HTM.txt). [CHUNK_72, NUMBER_0] Because Hawai'i currently lacks a managed list of practicing pharmacy technicians, the total number of registrants and long-term revenue potential is unknown. [CHUNK_39]\",\n  \"updates_from_previous_fiscal_note\": \"This fiscal note is based on H.B. No. 72, S.D. 1, which contains significant changes from prior versions. [CHUNK_131] The bill now establishes a specific registration fee for a pharmacy technician of $20.00 (HB72_SD1_.HTM.txt), creating a defined revenue source. [CHUNK_72, NUMBER_0] It also introduces fines for violations of no less than $100.00 (HB72_SD1_.HTM.txt) and no more than $1,000.00 (HB72_SD1_.HTM.txt). [CHUNK_125, CHUNK_126, NUMBER_1, NUMBER_2] The Committee on Health and Human Services amended the measure by deleting language requiring supervision to be \\\"direct\\\" and removing the requirement for a pharmacist to be \\\"physically present\\\". [CHUNK_139, CHUNK_140] A new effective date of December 31, 2050 has been inserted to encourage further discussion, resolving the defective date in the previous version. [CHUNK_140, CHUNK_128]\",\n  \"fte_positions\": \"The provided legislative documents and testimonies do not specify the addition or modification of any Full Time Equivalent (FTE) positions. [CHUNK_69, CHUNK_131] There is no mention of new staffing being required to implement or manage the registration program. [CHUNK_131] The bill's focus is on establishing the regulatory requirements for pharmacy technicians. [CHUNK_132]\",\n  \"appropriations_changes\": \"No appropriations were specified in the previous version, and no new appropriations are included in H.B. No. 72, S.D. 1. [CHUNK_69] This version of the bill establishes a funding mechanism through the creation of a registration fee. [CHUNK_72] The registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK_72, NUMBER_0]\",\n  \"funding_sources_changes\": \"This version of the bill establishes a specific funding source through registration fees, which was not defined in previous versions. [CHUNK_72] The bill states that the registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK_72, NUMBER_0] The documents do not specify whether these fees will be deposited into the general fund or a special fund for the Board of Pharmacy. [CHUNK_69]\",\n  \"department_impact\": \"The department impacted by this measure remains the Department of Commerce and Consumer Affairs, under which the Board of Pharmacy operates. [CHUNK_86, CHUNK_27] There is no change in the responsible department from previous versions of the bill. [CHUNK_131] The Board of Pharmacy has confirmed its support for the measure's intent to regulate pharmacy technicians. [CHUNK_11]\",\n  \"reports_required\": \"The reporting requirements in this version of the bill are unchanged. [CHUNK_131] If a registered pharmacy technician is suspected to have violated any law or rule, the pharmacist-in-charge shall notify the board, in writing, within ten days. [CHUNK_76] Any registered pharmacist who has knowledge or suspicion of another registered pharmacy technician in violation of any law or rule shall also notify the board. [CHUNK_77]\",\n  \"pilot_program\": \"This measure does not create a pilot program. [CHUNK_91] It establishes a permanent registration requirement for pharmacy technicians beginning January 1, 2026. [CHUNK_70] The bill is intended to align Hawai'i with national pharmacy technician regulation standards on a permanent basis. [CHUNK_40]\",\n  \"sunset_date\": \"The Committee on Health and Human Services amended the measure by inserting an effective date of December 31, 2050. [CHUNK_140] This date was inserted to encourage further discussion and is not a traditional sunset clause. [CHUNK_140]\",\n  \"effective_date\": \"An effective date, which was previously defective, has been specified in this version of the bill. [CHUNK_140] This Act shall take effect on December 31, 2050. [CHUNK_128]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 25072,
-      "candidates_token_count": 1424,
-      "total_token_count": 30256
+      "prompt_token_count": 26614,
+      "candidates_token_count": 2546,
+      "total_token_count": 33396
     },
     "candidates": [
       {
@@ -40,7 +40,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n  \"overview\": \"Beginning 1/1/2026, this measure requires pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy. [CHUNK 132] It imposes a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians. [CHUNK 133] The measure specifies that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns and has an effective date of December 31, 2050. [CHUNK 133] [CHUNK 128]\",\n  \"appropriations\": \"\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"To align the measure with the Board’s current Hawaii Administrative Rules (HAR), the Board requested amendments which were adopted by the committee. [CHUNK 14] [CHUNK 138] The committee deleted language that would have required the supervision of a registered pharmacy technician by a registered pharmacist to be \\\"direct\\\". [CHUNK 139] The committee also deleted language from the definition of \\\"supervision\\\" that would have required the responsible registered pharmacist to be physically present to oversee a registered pharmacy technician or pharmacy technician performing certain acts. [CHUNK 140]\",\n  \"economic_impact\": \"The registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK 72] Any person who violates any of the provisions of this chapter or the rules adopted pursuant to this chapter shall be fined no less than $100.00 (HB72_SD1_.HTM.txt) and no more than $1,000.00 (HB72_SD1_.HTM.txt) for each violation. [CHUNK 126]\",\n  \"policy_impact\": \"The measure adds new definitions to chapter 461, Hawaii Revised Statutes, for \\\"Auxiliary pharmacy personnel\\\", \\\"Registered pharmacy technician\\\", and \\\"Supervision\\\". [CHUNK 78] It amends the powers and duties of the board to include issuing certificates of registration for registered pharmacy technicians. [CHUNK 86] Disciplinary actions under section 461-21 are expanded to allow the board to deny, revoke, or suspend any registration. [CHUNK 119]\",\n  \"revenue_sources\": \"Revenue will be generated from a registration fee for pharmacy technicians. [CHUNK 72] The registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK 72] Each certificate of registration shall be valid through December 31 of each odd-numbered year, upon which a new registration shall be required. [CHUNK 71]\",\n  \"six_year_fiscal_implications\": \"Beginning January 1, 2026, the State will collect revenue from a biennial registration fee for pharmacy technicians. [CHUNK 70] [CHUNK 71] The registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK 72] Each certificate of registration shall be valid through December 31 of each odd-numbered year. [CHUNK 71] This will require the board to issue certificates of registration for registered pharmacy technicians and renew permits to operate pharmacies. [CHUNK 86] The board may also fine, suspend, or revoke any registration or permit for any cause prescribed by this chapter. [CHUNK 88] Any person who violates any of the provisions of this chapter shall be fined no less than $100.00 (HB72_SD1_.HTM.txt) and no more than $1,000.00 (HB72_SD1_.HTM.txt) for each violation. [CHUNK 126] The supervising registered pharmacist shall be responsible for the actions of the registered pharmacy technician. [CHUNK 74] A registered pharmacy technician may perform filling, packaging, manipulative, repetitive, or other nondiscretionary tasks, only while assisting and while under the supervision and control of a registered pharmacist. [CHUNK 103] Section 26H-6, Hawaii Revised Statutes, which concerns the repeal of professional and occupational licensing acts, shall not apply to this Act. [CHUNK 127] This Act shall take effect on December 31, 2050. [CHUNK 128]\",\n  \"operating_revenue_impact\": \"Operating revenue will increase from the collection of biennial registration fees. [CHUNK 71] The registration fee for a pharmacy technician is $20.00 (HB72_SD1_.HTM.txt). [CHUNK 72] Additional, non-recurring revenue may be generated from fines for violations, which range from $100.00 (HB72_SD1_.HTM.txt) to $1,000.00 (HB72_SD1_.HTM.txt). [CHUNK 126]\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"Ongoing fiscal implications will include recurring biennial revenue from the pharmacy technician registration fee of $20.00 (HB72_SD1_.HTM.txt). [CHUNK 72] The requirement for biennial renewal of the certificate of registration will ensure a continuous revenue stream. [CHUNK 71] The committee inserted an effective date of December 31, 2050, to encourage further discussion. [CHUNK 140]\",\n  \"updates_from_previous_fiscal_note\": \"This measure has been amended to include a new registration fee for pharmacy technicians of $20.00 (HB72_SD1_.HTM.txt) and fines for violations ranging from $100.00 (HB72_SD1_.HTM.txt) to $1,000.00 (HB72_SD1_.HTM.txt). [CHUNK 72] [CHUNK 126] Following recommendations from the Board of Pharmacy, language that would have required supervision to be \\\"direct\\\" or for the pharmacist to be \\\"physically present\\\" has been deleted. [CHUNK 139] [CHUNK 140] The measure now statutorily defines \\\"Auxiliary pharmacy personnel\\\", \\\"Registered pharmacy technician\\\", and \\\"Supervision\\\". [CHUNK 78] A new effective date of December 31, 2050, has been inserted to encourage further discussion. [CHUNK 140]\"\n}"
+              "text": "{\n  \"overview\": \"The purpose and intent of this measure is to require pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy, beginning January 1, 2026. [CHUNK_132] The bill imposes a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians. [CHUNK_133] It also specifies that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns. [CHUNK_133]\",\n  \"appropriations\": \"The provided legislative documents do not contain any specific appropriations for this measure. [CHUNK_69] However, the bill specifies that the registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK_72, NUMBER_0] Testimony indicates that this initiative comes at a reasonable cost and represents a prudent investment. [CHUNK_66]\",\n  \"assumptions_and_methodology\": \"The fiscal analysis is based on the specific fees and fines established in the bill text. [CHUNK_72, CHUNK_125] The measure establishes a registration fee of $20.00 (HB72_SD1_.HTM.txt) for pharmacy technicians, which will generate revenue. [CHUNK_72, NUMBER_0] The provided documents do not contain quantitative projections on the number of pharmacy technicians in Hawai'i, making a total revenue estimate difficult. [CHUNK_56]\",\n  \"agency_impact\": \"The Board of Pharmacy will be required to issue certificates of registration for registered pharmacy technicians. [CHUNK_86] The Board may fine, suspend, or revoke any registration for any cause prescribed by this chapter. [CHUNK_88] The Board voted unanimously to support this measure and has already formed a permitted interaction group to look at the best methods to regulate pharmacy technicians. [CHUNK_9, CHUNK_11]\",\n  \"economic_impact\": \"Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians, and this measure aligns Hawaiʻi with national best practices. [CHUNK_3, CHUNK_28] This important measure will bring a regulatory framework to the critical role that pharmacy technicians fill. [CHUNK_25] Any person who violates any of the provisions of this chapter shall be fined no less than $100.00 (HB72_SD1_.HTM.txt) and no more than $1,000.00 (HB72_SD1_.HTM.txt) for each violation. [CHUNK_125, CHUNK_126, NUMBER_1, NUMBER_2]\",\n  \"policy_impact\": \"This measure builds upon Act 104 of the 2024 legislative session that allows pharmacy technicians the ability to administer immunizations and vaccinations. [CHUNK_14, CHUNK_24] Your Committee has amended this measure by deleting language that would have required the supervision to be \\\"direct\\\" and deleting language that would have required the pharmacist to be physically present. [CHUNK_139, CHUNK_140] The bill also specifies that Section 26H-6, Hawaii Revised Statutes, which relates to sunrise analysis requirements, shall not apply to this Act. [CHUNK_127]\",\n  \"revenue_sources\": \"The bill establishes a new revenue source through a registration fee for pharmacy technicians. [CHUNK_72] The registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK_72, NUMBER_0] Additional revenue may be generated from fines for violations, which shall be no less than $100.00 (HB72_SD1_.HTM.txt) and no more than $1,000.00 (HB72_SD1_.HTM.txt) for each violation. [CHUNK_125, CHUNK_126, NUMBER_1, NUMBER_2]\",\n  \"six_year_fiscal_implications\": \"The provided documents do not contain a six-year fiscal projection. [CHUNK_131] A new revenue stream will be created from registration fees. [CHUNK_72] The registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK_72, NUMBER_0] Each certificate of registration shall be valid through December 31 of each odd-numbered year, upon which a new registration shall be required, suggesting a biennial renewal process. [CHUNK_71] Without a formal registry, there is little visibility into the number of technicians working in the state, making precise revenue projections difficult. [CHUNK_55] The Board of Pharmacy may also impose fines between $100.00 (HB72_SD1_.HTM.txt) and $1,000.00 (HB72_SD1_.HTM.txt) for each violation. [CHUNK_126, NUMBER_1, NUMBER_2] The creation of a pharmacy technician data repository is an essential step forward, but any associated administrative costs are not specified. [CHUNK_41] Testimony describes the measure as a prudent investment in the safety, efficiency, and adaptability of the pharmacy workforce. [CHUNK_43] This bill is a crucial step toward strengthening Hawai'i’s healthcare infrastructure. [CHUNK_32] The Board agreed that a registration for all technicians may be a prudent initial step regarding the regulation of pharmacy technicians. [CHUNK_13]\",\n  \"operating_revenue_impact\": \"This measure will generate new operating revenue for the state. [CHUNK_72] A registration fee of $20.00 (HB72_SD1_.HTM.txt) will be collected from each pharmacy technician on a biennial basis. [CHUNK_72, CHUNK_71, NUMBER_0] Additional, though less predictable, revenue may be generated from fines for violations, which can range from $100.00 (HB72_SD1_.HTM.txt) to $1,000.00 (HB72_SD1_.HTM.txt). [CHUNK_125, CHUNK_126, NUMBER_1, NUMBER_2]\",\n  \"capital_expenditure_impact\": \"The provided legislative documents do not indicate any capital expenditures are required for this measure. [CHUNK_69, CHUNK_131] No investments in facilities, equipment, or technology are mentioned in the bill text or supporting testimonies. [CHUNK_69, CHUNK_0] The purpose and intent of this measure is to establish a regulatory system, not to fund capital projects. [CHUNK_132]\",\n  \"fiscal_implications_after_6_years\": \"The ongoing fiscal impact of this measure will be the recurring revenue from the biennial renewal of pharmacy technician registrations. [CHUNK_71] The registration fee is established at $20.00 (HB72_SD1_.HTM.txt). [CHUNK_72, NUMBER_0] Because Hawai'i currently lacks a managed list of practicing pharmacy technicians, the total number of registrants and long-term revenue potential is unknown. [CHUNK_39]\",\n  \"updates_from_previous_fiscal_note\": \"This fiscal note is based on H.B. No. 72, S.D. 1, which contains significant changes from prior versions. [CHUNK_131] The bill now establishes a specific registration fee for a pharmacy technician of $20.00 (HB72_SD1_.HTM.txt), creating a defined revenue source. [CHUNK_72, NUMBER_0] It also introduces fines for violations of no less than $100.00 (HB72_SD1_.HTM.txt) and no more than $1,000.00 (HB72_SD1_.HTM.txt). [CHUNK_125, CHUNK_126, NUMBER_1, NUMBER_2] The Committee on Health and Human Services amended the measure by deleting language requiring supervision to be \\\"direct\\\" and removing the requirement for a pharmacist to be \\\"physically present\\\". [CHUNK_139, CHUNK_140] A new effective date of December 31, 2050 has been inserted to encourage further discussion, resolving the defective date in the previous version. [CHUNK_140, CHUNK_128]\",\n  \"fte_positions\": \"The provided legislative documents and testimonies do not specify the addition or modification of any Full Time Equivalent (FTE) positions. [CHUNK_69, CHUNK_131] There is no mention of new staffing being required to implement or manage the registration program. [CHUNK_131] The bill's focus is on establishing the regulatory requirements for pharmacy technicians. [CHUNK_132]\",\n  \"appropriations_changes\": \"No appropriations were specified in the previous version, and no new appropriations are included in H.B. No. 72, S.D. 1. [CHUNK_69] This version of the bill establishes a funding mechanism through the creation of a registration fee. [CHUNK_72] The registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK_72, NUMBER_0]\",\n  \"funding_sources_changes\": \"This version of the bill establishes a specific funding source through registration fees, which was not defined in previous versions. [CHUNK_72] The bill states that the registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt). [CHUNK_72, NUMBER_0] The documents do not specify whether these fees will be deposited into the general fund or a special fund for the Board of Pharmacy. [CHUNK_69]\",\n  \"department_impact\": \"The department impacted by this measure remains the Department of Commerce and Consumer Affairs, under which the Board of Pharmacy operates. [CHUNK_86, CHUNK_27] There is no change in the responsible department from previous versions of the bill. [CHUNK_131] The Board of Pharmacy has confirmed its support for the measure's intent to regulate pharmacy technicians. [CHUNK_11]\",\n  \"reports_required\": \"The reporting requirements in this version of the bill are unchanged. [CHUNK_131] If a registered pharmacy technician is suspected to have violated any law or rule, the pharmacist-in-charge shall notify the board, in writing, within ten days. [CHUNK_76] Any registered pharmacist who has knowledge or suspicion of another registered pharmacy technician in violation of any law or rule shall also notify the board. [CHUNK_77]\",\n  \"pilot_program\": \"This measure does not create a pilot program. [CHUNK_91] It establishes a permanent registration requirement for pharmacy technicians beginning January 1, 2026. [CHUNK_70] The bill is intended to align Hawai'i with national pharmacy technician regulation standards on a permanent basis. [CHUNK_40]\",\n  \"sunset_date\": \"The Committee on Health and Human Services amended the measure by inserting an effective date of December 31, 2050. [CHUNK_140] This date was inserted to encourage further discussion and is not a traditional sunset clause. [CHUNK_140]\",\n  \"effective_date\": \"An effective date, which was previously defective, has been specified in this version of the bill. [CHUNK_140] This Act shall take effect on December 31, 2050. [CHUNK_128]\"\n}"
             }
           ]
         },
@@ -1244,11 +1244,6 @@
           "document_name": "HB72_SD1_SSCR1082_"
         },
         {
-          "chunk_text": "appropriate background and supervision, can receive timely communications and updates regarding relevant practice and regulation changes that impact their work, and are able to access training opportunities as the scope of practice of pharmacy technicians expands nationwide. Your Committee has amended this measure by: (1) Deleting language that would have",
-          "chunk_id": 138,
-          "document_name": "HB72_SD1_SSCR1082_"
-        },
-        {
           "chunk_text": "amended this measure by: (1) Deleting language that would have required the supervision of a registered pharmacy technician by a registered pharmacist to be \"direct\" ; (2) Deleting language from the definition of \"supervision\" that would have required the responsible registered pharmacist to be physically present to oversee a registered",
           "chunk_id": 139,
           "document_name": "HB72_SD1_SSCR1082_"
@@ -1257,12 +1252,17 @@
           "chunk_text": "registered pharmacist to be physically present to oversee a registered pharmacy technician or pharmacy technician performing certain acts; (3) Inserting an effective date of December 31, 2050, to encourage further discussion; and (4) Making technical, nonsubstantive amendments for the purposes of clarity and consistency. As affirmed by the record of",
           "chunk_id": 140,
           "document_name": "HB72_SD1_SSCR1082_"
+        },
+        {
+          "chunk_text": "SSCR1082 STAND. COM. REP. NO. 1082 Honolulu, Hawaii RE: H.B. No. 72 H.D. 2 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Health and Human Services, to which was referred H.B. No. 72, H.D.",
+          "chunk_id": 131,
+          "document_name": "HB72_SD1_SSCR1082_"
         }
       ],
       "11": [
         {
-          "chunk_text": "SECTION 11. This Act shall take effect on December 31, 2050. Report Title: Board of Pharmacy; Registered Pharmacy Technicians; Certificate of Registration; Pharmacists-in-charge; Supervision Description: Beginning 1/1/2026, requires pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy. Imposes a duty on pharmacists-in-charge",
-          "chunk_id": 128,
+          "chunk_text": "HB72 SD1 HOUSE OF REPRESENTATIVES H.B. NO. 72 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII S.D. 1 A BILL FOR AN ACT RELATING TO PHARMACY . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 461, Hawaii Revised Statutes, is amended by adding a",
+          "chunk_id": 69,
           "document_name": "HB72_SD1"
         },
         {
@@ -1271,13 +1271,8 @@
           "document_name": "HB72_SD1"
         },
         {
-          "chunk_text": "no less than $100 [ nor ] and no more than $1,000 for each violation. (c) All proceedings for denial, suspension, fine, or revocation of a license , registration, or permit on any grounds specified in subsection (a) shall be conducted pursuant to chapter 91, including the right of judicial",
-          "chunk_id": 126,
-          "document_name": "HB72_SD1"
-        },
-        {
-          "chunk_text": "any danger to the public health or safety exists, immediately. \" SECTION 2. Section 461-1, Hawaii Revised Statutes, is amended by adding three new definitions to be appropriately inserted and to read as follows: \" \"Auxiliary pharmacy personnel\" means a person who works in a pharmacy assisting a registered pharmacist",
-          "chunk_id": 78,
+          "chunk_text": "(12) Prescribing or dispensing contraceptive supplies without complying with section 461-11.6. (b) Any person who violates any of the provisions of this chapter or the rules adopted pursuant [ thereto ] to this chapter shall be fined [ not ] no less than $100 [ nor ] and no more",
+          "chunk_id": 125,
           "document_name": "HB72_SD1"
         },
         {
@@ -1286,8 +1281,13 @@
           "document_name": "HB72_SD1"
         },
         {
-          "chunk_text": "or older.\" SECTION 8 . Section 461-21, Hawaii Revised Statutes, is amended to read as follows: \" §461-21 Disciplinary action. (a) In addition to any other actions authorized by law, the board may deny, revoke, or suspend any license , registration, or permit applied for or issued by the board,",
-          "chunk_id": 119,
+          "chunk_text": "with the board's requirements and that the applicant possesses the reference materials and technical clinical equipment and supplies as may be specified in rules adopted under this chapter; (4) May fine, suspend, or revoke any license , registration, or permit for any cause prescribed by this chapter, or for any",
+          "chunk_id": 88,
+          "document_name": "HB72_SD1"
+        },
+        {
+          "chunk_text": "conducted pursuant to chapter 91, including the right of judicial review.\" SECTION 9. Section 26H-6, Hawaii Revised Statutes, shall not apply to this Act. SECTION 10. Statutory material to be repealed is bracketed and stricken. New statutory material is underscored. SECTION 11. This Act shall take effect on December 31,",
+          "chunk_id": 127,
           "document_name": "HB72_SD1"
         },
         {
@@ -1296,35 +1296,120 @@
           "document_name": "HB72_SD1"
         },
         {
+          "chunk_text": "SECTION 11. This Act shall take effect on December 31, 2050. Report Title: Board of Pharmacy; Registered Pharmacy Technicians; Certificate of Registration; Pharmacists-in-charge; Supervision Description: Beginning 1/1/2026, requires pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy. Imposes a duty on pharmacists-in-charge",
+          "chunk_id": 128,
+          "document_name": "HB72_SD1"
+        },
+        {
+          "chunk_text": "have violated any of these laws or rules, the pharmacist-in-charge shall notify the board, in writing, within ten days or, if any danger to the public health or safety exists, immediately. Any registered pharmacist, whether or not practicing in the same pharmacy, who has knowledge or suspicion of another registered",
+          "chunk_id": 76,
+          "document_name": "HB72_SD1"
+        },
+        {
+          "chunk_text": "same pharmacy, who has knowledge or suspicion of another registered pharmacy technician in violation of any law or rule regarding the practice of pharmacy, legend drugs, or controlled substances shall notify the board, in writing, within ten days or, if any danger to the public health or safety exists, immediately.",
+          "chunk_id": 77,
+          "document_name": "HB72_SD1"
+        },
+        {
+          "chunk_text": "to this paragraph shall be a matter of public record; and (6) May approve pilot and demonstration research projects for innovative applications in the practice of pharmacy; provided that the projects shall not include therapeutic substitution or substitution of a medical device used in patient care; provided further that nothing",
+          "chunk_id": 91,
+          "document_name": "HB72_SD1"
+        },
+        {
           "chunk_text": "Chapter 461, Hawaii Revised Statutes, is amended by adding a new section to be appropriately designated and to read as follows: \" §461- Registered pharmacy technicians; certificate of registration required. (a) Beginning January 1, 2026, no person shall act as a pharmacy technician without first obtaining a valid certificate of",
           "chunk_id": 70,
-          "document_name": "HB72_SD1"
-        },
-        {
-          "chunk_text": "with the board's requirements and that the applicant possesses the reference materials and technical clinical equipment and supplies as may be specified in rules adopted under this chapter; (4) May fine, suspend, or revoke any license , registration, or permit for any cause prescribed by this chapter, or for any",
-          "chunk_id": 88,
-          "document_name": "HB72_SD1"
-        },
-        {
-          "chunk_text": "chapter. The supervising registered pharmacist shall be responsible for the actions of the registered pharmacy technician. (e) The certificate of registration shall be prominently displayed in an area accessible to the public in the workplace where the registered pharmacy technician is employed or practices. (f) If the registered pharmacy technician",
-          "chunk_id": 74,
-          "document_name": "HB72_SD1"
-        },
-        {
-          "chunk_text": "of the pharmacy intern. (c) A registered pharmacy technician may be employed to [ assist the ] perform filling, packaging, manipulative, repetitive, or other nondiscretionary tasks, and tasks specified in section 461-11.4, only while assisting and while under the supervision and control of a registered pharmacist and under rules adopted",
-          "chunk_id": 103,
-          "document_name": "HB72_SD1"
-        },
-        {
-          "chunk_text": "conducted pursuant to chapter 91, including the right of judicial review.\" SECTION 9. Section 26H-6, Hawaii Revised Statutes, shall not apply to this Act. SECTION 10. Statutory material to be repealed is bracketed and stricken. New statutory material is underscored. SECTION 11. This Act shall take effect on December 31,",
-          "chunk_id": 127,
           "document_name": "HB72_SD1"
         }
       ],
       "10": [
         {
+          "chunk_text": "in the future. Across the country, pharmacy technicians are taking on advanced roles, such as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost",
+          "chunk_id": 66,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "visibility into the number of technicians working in the state, their training levels, or their distribution across the islands. This lack of information makes it difficult to assess workforce needs and implement policies to support pharmacy professionals effectively. By requiring registration, Hawai’i would gain critical insights that can help reduce",
+          "chunk_id": 56,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "2025 1:00 p.m. Conference Room 225 and Videoconference On the following measure: H. B. 72, H.D. 2, RELATING TO PHARMACY Chair Yamashita and Members of the Committee: My name is James Skizewski, Executive Officer of the Board of Pharmacy (Board). The Board voted unanimously to support this measure but requests",
+          "chunk_id": 9,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "technicians; and (3) specify that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns. The Board supports this measure’s intent to regulate pharmacy technicians. The Board recently formed a permitted interaction group to look at the best methods to regulate pharmacy technicians for quality",
+          "chunk_id": 11,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "the supervision of a pharmacist, and have an essential role in the daily operation of pharmacies. Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians. Legislation to address this oversight is important for supporting public health and safety by ensuring that these essential health",
+          "chunk_id": 3,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "without an active and managed registry of practicing pharmacy technicians. This lack of oversight presents challenges in ensuring consistent training, competency, and accountability within the pharmacy technician workforce. By mandating a registration process, HB72 enhances patient safety, improves workforce standards, and aligns Hawai'i with national best practices. Pharmacy technicians play",
+          "chunk_id": 28,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "measure will bring a regulatory framework to the critical role that pharmacy technicians fill, which Walgreens supports. For these reasons, we ask the committee to pass this bill. Thank you for the opportunity to submit this testimony. I SanHi GOVERNMENT STRATEGIES A umrsn LIABILITY LAW PARTNERSHIP Testimony presented before the",
+          "chunk_id": 25,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
           "chunk_text": "nationally certified should also be recognized. The expansion should include allowances such as those provided in Act 104 of the 2024 legislative session. To align the measure with the Board’s current Hawaii Administrative Rules (HAR), the Board requests the term “direct” be removed from page 4, line 7, and page",
           "chunk_id": 14,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "pharmacy interns the ability to administer immunizations and vaccinations to persons three years and older under the direct supervision of a pharmacist. This measure builds upon Act 104 to require that pharmacy technicians are registered by the state. This important measure will bring a regulatory framework to the critical role",
+          "chunk_id": 24,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "potential risks for medication errors. Adopting HB72 would reduce healthcare risks and align Hawai’i with national best practices. Beyond patient safety, implementing registration for pharmacy technicians would provide valuable data for workforce development. Without a formal registry, there is little visibility into the number of technicians working in the state,",
+          "chunk_id": 55,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "of training and competency across the profession. Creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. Beyond enhancing patient safety, HB72 HD2 lays the foundation for pharmacy technicians in Hawai‘i to expand their scope of practice in",
+          "chunk_id": 41,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "to our communities. HB72 HD2 represents a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future. I strongly support HB72 HD2, respectfully ask you to pass it out of committee. Many thanks for your consideration, Forrest Batz, PharmD Keaau, HI HB-72-HD-2 Submitted on: 3/8/2025",
+          "chunk_id": 43,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "and enhance patient care. Additionally, establishing a technician registry will create a vital data repository that enables clear communication of regulatory and practice updates, ensuring the workforce remains aligned with evolving state and federal requirements. HPhA believes that HB72 is a crucial step toward strengthening Hawai'i’s healthcare infrastructure. We feel",
+          "chunk_id": 32,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "who have received extensive on the job training. The Board agreed that a registration for all technicians may be a prudent initial step regarding the regulation of pharmacy technicians. An expansion to the scope of practice to technicians that are nationally certified should also be recognized. The expansion should include",
+          "chunk_id": 13,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "UNIVERSITY OF HAWAI‘I SYSTEM ʻŌNAEHANA KULANUI O HAWAIʻI Legislative Testimony Hōʻike Manaʻo I Mua O Ka ʻAhaʻōlelo _____________________________________________________________ Testimony Presented Before the Senate Committee on Health and Human Services Monday, March 10, 2025 at 1:00 p.m. By Bonnie Irwin, Chancellor and Rae Matsumoto, Dean Daniel K. Inouye College of Pharmacy",
+          "chunk_id": 0,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "on pharmacists-in-charge to report violations conducted by registered pharmacy technicians; and, specifies that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns. Hawai‘i is the only state in the nation without an active, managed list of practicing pharmacy technicians, leaving a significant gap in",
+          "chunk_id": 39,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "members of the Committee, The Hawai'i Pharmacists Association (HPhA) strongly supports HB72 with minor amendments, which will require the registration of pharmacy technicians through the Department of Commerce and Consumer Affairs. Currently, Hawai'i is the only state in the nation without an active and managed registry of practicing pharmacy technicians.",
+          "chunk_id": 27,
+          "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+        },
+        {
+          "chunk_text": "list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. HB72 HD2 aligns with national pharmacy technician regulation standards to strengthen pharmacy practice in Hawai‘i. HB72 HD2 serves as the backbone for consistent standards of training and competency across the profession. Creation of a",
+          "chunk_id": 40,
           "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
         }
       ]
@@ -1350,7 +1435,7 @@
     "sentence_chunk_mapping": [
       {
         "section": "overview",
-        "sentence": "Beginning 1/1/2026, this measure requires pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy.",
+        "sentence": "The purpose and intent of this measure is to require pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy, beginning January 1, 2026.",
         "chunks": [
           {
             "chunk_id": 132,
@@ -1362,7 +1447,7 @@
       },
       {
         "section": "overview",
-        "sentence": "It imposes a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians.",
+        "sentence": "The bill imposes a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians.",
         "chunks": [
           {
             "chunk_id": 133,
@@ -1374,103 +1459,73 @@
       },
       {
         "section": "overview",
-        "sentence": "The measure specifies that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns and has an effective date of December 31, 2050.",
+        "sentence": "It also specifies that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns.",
         "chunks": [
           {
             "chunk_id": 133,
             "citation_number": 12,
             "chunk_text": "require pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy; (2) Impose a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians; and (3) Specify that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy",
             "document_name": "HB72_SD1_SSCR1082_"
-          },
-          {
-            "chunk_id": 133,
-            "citation_number": 12,
-            "chunk_text": "require pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy; (2) Impose a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians; and (3) Specify that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy",
-            "document_name": "HB72_SD1_SSCR1082_"
           }
         ]
       },
       {
-        "section": "agency_impact",
-        "sentence": "To align the measure with the Board’s current Hawaii Administrative Rules (HAR), the Board requested amendments which were adopted by the committee.",
+        "section": "appropriations",
+        "sentence": "The provided legislative documents do not contain any specific appropriations for this measure.",
         "chunks": [
           {
-            "chunk_id": 14,
+            "chunk_id": 69,
+            "citation_number": 11,
+            "chunk_text": "HB72 SD1 HOUSE OF REPRESENTATIVES H.B. NO. 72 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII S.D. 1 A BILL FOR AN ACT RELATING TO PHARMACY . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 461, Hawaii Revised Statutes, is amended by adding a",
+            "document_name": "HB72_SD1"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "Testimony indicates that this initiative comes at a reasonable cost and represents a prudent investment.",
+        "chunks": [
+          {
+            "chunk_id": 66,
             "citation_number": 10,
-            "chunk_text": "nationally certified should also be recognized. The expansion should include allowances such as those provided in Act 104 of the 2024 legislative session. To align the measure with the Board’s current Hawaii Administrative Rules (HAR), the Board requests the term “direct” be removed from page 4, line 7, and page",
-            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
-          },
-          {
-            "chunk_id": 14,
-            "citation_number": 10,
-            "chunk_text": "nationally certified should also be recognized. The expansion should include allowances such as those provided in Act 104 of the 2024 legislative session. To align the measure with the Board’s current Hawaii Administrative Rules (HAR), the Board requests the term “direct” be removed from page 4, line 7, and page",
+            "chunk_text": "in the future. Across the country, pharmacy technicians are taking on advanced roles, such as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost",
             "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
           }
         ]
       },
       {
-        "section": "agency_impact",
-        "sentence": "The committee deleted language that would have required the supervision of a registered pharmacy technician by a registered pharmacist to be \"direct\".",
-        "chunks": [
-          {
-            "chunk_id": 139,
-            "citation_number": 12,
-            "chunk_text": "amended this measure by: (1) Deleting language that would have required the supervision of a registered pharmacy technician by a registered pharmacist to be \"direct\" ; (2) Deleting language from the definition of \"supervision\" that would have required the responsible registered pharmacist to be physically present to oversee a registered",
-            "document_name": "HB72_SD1_SSCR1082_"
-          }
-        ]
-      },
-      {
-        "section": "agency_impact",
-        "sentence": "The committee also deleted language from the definition of \"supervision\" that would have required the responsible registered pharmacist to be physically present to oversee a registered pharmacy technician or pharmacy technician performing certain acts.",
-        "chunks": [
-          {
-            "chunk_id": 140,
-            "citation_number": 12,
-            "chunk_text": "registered pharmacist to be physically present to oversee a registered pharmacy technician or pharmacy technician performing certain acts; (3) Inserting an effective date of December 31, 2050, to encourage further discussion; and (4) Making technical, nonsubstantive amendments for the purposes of clarity and consistency. As affirmed by the record of",
-            "document_name": "HB72_SD1_SSCR1082_"
-          }
-        ]
-      },
-      {
-        "section": "economic_impact",
-        "sentence": "The registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt).",
+        "section": "assumptions_and_methodology",
+        "sentence": "The fiscal analysis is based on the specific fees and fines established in the bill text.",
         "chunks": [
           {
             "chunk_id": 72,
             "citation_number": 11,
             "chunk_text": "and a new registration shall be required. (c) The registration fee for a pharmacy technician shall be $20. (d) Beginning January 1, 2026, a pharmacy shall only employ registered pharmacy technicians to perform pharmacy technician duties. The pharmacist-in-charge shall verify that the person is registered as a pharmacy technician and",
             "document_name": "HB72_SD1"
-          }
-        ]
-      },
-      {
-        "section": "economic_impact",
-        "sentence": "Any person who violates any of the provisions of this chapter or the rules adopted pursuant to this chapter shall be fined no less than $100.00 (HB72_SD1_.HTM.txt) and no more than $1,000.00 (HB72_SD1_.HTM.txt) for each violation.",
-        "chunks": [
+          },
           {
-            "chunk_id": 126,
+            "chunk_id": 125,
             "citation_number": 11,
-            "chunk_text": "no less than $100 [ nor ] and no more than $1,000 for each violation. (c) All proceedings for denial, suspension, fine, or revocation of a license , registration, or permit on any grounds specified in subsection (a) shall be conducted pursuant to chapter 91, including the right of judicial",
+            "chunk_text": "(12) Prescribing or dispensing contraceptive supplies without complying with section 461-11.6. (b) Any person who violates any of the provisions of this chapter or the rules adopted pursuant [ thereto ] to this chapter shall be fined [ not ] no less than $100 [ nor ] and no more",
             "document_name": "HB72_SD1"
           }
         ]
       },
       {
-        "section": "policy_impact",
-        "sentence": "The measure adds new definitions to chapter 461, Hawaii Revised Statutes, for \"Auxiliary pharmacy personnel\", \"Registered pharmacy technician\", and \"Supervision\".",
+        "section": "assumptions_and_methodology",
+        "sentence": "The provided documents do not contain quantitative projections on the number of pharmacy technicians in Hawai'i, making a total revenue estimate difficult.",
         "chunks": [
           {
-            "chunk_id": 78,
-            "citation_number": 11,
-            "chunk_text": "any danger to the public health or safety exists, immediately. \" SECTION 2. Section 461-1, Hawaii Revised Statutes, is amended by adding three new definitions to be appropriately inserted and to read as follows: \" \"Auxiliary pharmacy personnel\" means a person who works in a pharmacy assisting a registered pharmacist",
-            "document_name": "HB72_SD1"
+            "chunk_id": 56,
+            "citation_number": 10,
+            "chunk_text": "visibility into the number of technicians working in the state, their training levels, or their distribution across the islands. This lack of information makes it difficult to assess workforce needs and implement policies to support pharmacy professionals effectively. By requiring registration, Hawai’i would gain critical insights that can help reduce",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
           }
         ]
       },
       {
-        "section": "policy_impact",
-        "sentence": "It amends the powers and duties of the board to include issuing certificates of registration for registered pharmacy technicians.",
+        "section": "agency_impact",
+        "sentence": "The Board of Pharmacy will be required to issue certificates of registration for registered pharmacy technicians.",
         "chunks": [
           {
             "chunk_id": 86,
@@ -1481,110 +1536,8 @@
         ]
       },
       {
-        "section": "policy_impact",
-        "sentence": "Disciplinary actions under section 461-21 are expanded to allow the board to deny, revoke, or suspend any registration.",
-        "chunks": [
-          {
-            "chunk_id": 119,
-            "citation_number": 11,
-            "chunk_text": "or older.\" SECTION 8 . Section 461-21, Hawaii Revised Statutes, is amended to read as follows: \" §461-21 Disciplinary action. (a) In addition to any other actions authorized by law, the board may deny, revoke, or suspend any license , registration, or permit applied for or issued by the board,",
-            "document_name": "HB72_SD1"
-          }
-        ]
-      },
-      {
-        "section": "revenue_sources",
-        "sentence": "Revenue will be generated from a registration fee for pharmacy technicians.",
-        "chunks": [
-          {
-            "chunk_id": 72,
-            "citation_number": 11,
-            "chunk_text": "and a new registration shall be required. (c) The registration fee for a pharmacy technician shall be $20. (d) Beginning January 1, 2026, a pharmacy shall only employ registered pharmacy technicians to perform pharmacy technician duties. The pharmacist-in-charge shall verify that the person is registered as a pharmacy technician and",
-            "document_name": "HB72_SD1"
-          }
-        ]
-      },
-      {
-        "section": "revenue_sources",
-        "sentence": "The registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt).",
-        "chunks": [
-          {
-            "chunk_id": 72,
-            "citation_number": 11,
-            "chunk_text": "and a new registration shall be required. (c) The registration fee for a pharmacy technician shall be $20. (d) Beginning January 1, 2026, a pharmacy shall only employ registered pharmacy technicians to perform pharmacy technician duties. The pharmacist-in-charge shall verify that the person is registered as a pharmacy technician and",
-            "document_name": "HB72_SD1"
-          }
-        ]
-      },
-      {
-        "section": "revenue_sources",
-        "sentence": "Each certificate of registration shall be valid through December 31 of each odd-numbered year, upon which a new registration shall be required.",
-        "chunks": [
-          {
-            "chunk_id": 71,
-            "citation_number": 11,
-            "chunk_text": "a pharmacy technician without first obtaining a valid certificate of registration issued by the board pursuant to this section. (b) Each certificate of registration shall be valid through December 31 of each odd-numbered year, upon which the registration shall lapse and a new registration shall be required. (c) The registration",
-            "document_name": "HB72_SD1"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "Beginning January 1, 2026, the State will collect revenue from a biennial registration fee for pharmacy technicians.",
-        "chunks": [
-          {
-            "chunk_id": 70,
-            "citation_number": 11,
-            "chunk_text": "Chapter 461, Hawaii Revised Statutes, is amended by adding a new section to be appropriately designated and to read as follows: \" §461- Registered pharmacy technicians; certificate of registration required. (a) Beginning January 1, 2026, no person shall act as a pharmacy technician without first obtaining a valid certificate of",
-            "document_name": "HB72_SD1"
-          },
-          {
-            "chunk_id": 70,
-            "citation_number": 11,
-            "chunk_text": "Chapter 461, Hawaii Revised Statutes, is amended by adding a new section to be appropriately designated and to read as follows: \" §461- Registered pharmacy technicians; certificate of registration required. (a) Beginning January 1, 2026, no person shall act as a pharmacy technician without first obtaining a valid certificate of",
-            "document_name": "HB72_SD1"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The registration fee for a pharmacy technician shall be $20.00 (HB72_SD1_.HTM.txt).",
-        "chunks": [
-          {
-            "chunk_id": 72,
-            "citation_number": 11,
-            "chunk_text": "and a new registration shall be required. (c) The registration fee for a pharmacy technician shall be $20. (d) Beginning January 1, 2026, a pharmacy shall only employ registered pharmacy technicians to perform pharmacy technician duties. The pharmacist-in-charge shall verify that the person is registered as a pharmacy technician and",
-            "document_name": "HB72_SD1"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "Each certificate of registration shall be valid through December 31 of each odd-numbered year.",
-        "chunks": [
-          {
-            "chunk_id": 71,
-            "citation_number": 11,
-            "chunk_text": "a pharmacy technician without first obtaining a valid certificate of registration issued by the board pursuant to this section. (b) Each certificate of registration shall be valid through December 31 of each odd-numbered year, upon which the registration shall lapse and a new registration shall be required. (c) The registration",
-            "document_name": "HB72_SD1"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "This will require the board to issue certificates of registration for registered pharmacy technicians and renew permits to operate pharmacies.",
-        "chunks": [
-          {
-            "chunk_id": 86,
-            "citation_number": 11,
-            "chunk_text": "registered pharmacists and wholesale prescription drug distributors[ , ] ; issue certificates of registration for registered pharmacy technicians; and issue and renew permits to operate pharmacies; (3) May require the inspection of any wholesale prescription drug distributor premises in the State to ensure compliance with this chapter and rules adopted",
-            "document_name": "HB72_SD1"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The board may also fine, suspend, or revoke any registration or permit for any cause prescribed by this chapter.",
+        "section": "agency_impact",
+        "sentence": "The Board may fine, suspend, or revoke any registration for any cause prescribed by this chapter.",
         "chunks": [
           {
             "chunk_id": 88,
@@ -1595,44 +1548,92 @@
         ]
       },
       {
-        "section": "six_year_fiscal_implications",
-        "sentence": "Any person who violates any of the provisions of this chapter shall be fined no less than $100.00 (HB72_SD1_.HTM.txt) and no more than $1,000.00 (HB72_SD1_.HTM.txt) for each violation.",
+        "section": "agency_impact",
+        "sentence": "The Board voted unanimously to support this measure and has already formed a permitted interaction group to look at the best methods to regulate pharmacy technicians.",
         "chunks": [
           {
-            "chunk_id": 126,
-            "citation_number": 11,
-            "chunk_text": "no less than $100 [ nor ] and no more than $1,000 for each violation. (c) All proceedings for denial, suspension, fine, or revocation of a license , registration, or permit on any grounds specified in subsection (a) shall be conducted pursuant to chapter 91, including the right of judicial",
-            "document_name": "HB72_SD1"
+            "chunk_id": 9,
+            "citation_number": 10,
+            "chunk_text": "2025 1:00 p.m. Conference Room 225 and Videoconference On the following measure: H. B. 72, H.D. 2, RELATING TO PHARMACY Chair Yamashita and Members of the Committee: My name is James Skizewski, Executive Officer of the Board of Pharmacy (Board). The Board voted unanimously to support this measure but requests",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+          },
+          {
+            "chunk_id": 11,
+            "citation_number": 10,
+            "chunk_text": "technicians; and (3) specify that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns. The Board supports this measure’s intent to regulate pharmacy technicians. The Board recently formed a permitted interaction group to look at the best methods to regulate pharmacy technicians for quality",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
           }
         ]
       },
       {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The supervising registered pharmacist shall be responsible for the actions of the registered pharmacy technician.",
+        "section": "economic_impact",
+        "sentence": "Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians, and this measure aligns Hawaiʻi with national best practices.",
         "chunks": [
           {
-            "chunk_id": 74,
-            "citation_number": 11,
-            "chunk_text": "chapter. The supervising registered pharmacist shall be responsible for the actions of the registered pharmacy technician. (e) The certificate of registration shall be prominently displayed in an area accessible to the public in the workplace where the registered pharmacy technician is employed or practices. (f) If the registered pharmacy technician",
-            "document_name": "HB72_SD1"
+            "chunk_id": 3,
+            "citation_number": 10,
+            "chunk_text": "the supervision of a pharmacist, and have an essential role in the daily operation of pharmacies. Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians. Legislation to address this oversight is important for supporting public health and safety by ensuring that these essential health",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+          },
+          {
+            "chunk_id": 28,
+            "citation_number": 10,
+            "chunk_text": "without an active and managed registry of practicing pharmacy technicians. This lack of oversight presents challenges in ensuring consistent training, competency, and accountability within the pharmacy technician workforce. By mandating a registration process, HB72 enhances patient safety, improves workforce standards, and aligns Hawai'i with national best practices. Pharmacy technicians play",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
           }
         ]
       },
       {
-        "section": "six_year_fiscal_implications",
-        "sentence": "A registered pharmacy technician may perform filling, packaging, manipulative, repetitive, or other nondiscretionary tasks, only while assisting and while under the supervision and control of a registered pharmacist.",
+        "section": "economic_impact",
+        "sentence": "This important measure will bring a regulatory framework to the critical role that pharmacy technicians fill.",
         "chunks": [
           {
-            "chunk_id": 103,
-            "citation_number": 11,
-            "chunk_text": "of the pharmacy intern. (c) A registered pharmacy technician may be employed to [ assist the ] perform filling, packaging, manipulative, repetitive, or other nondiscretionary tasks, and tasks specified in section 461-11.4, only while assisting and while under the supervision and control of a registered pharmacist and under rules adopted",
-            "document_name": "HB72_SD1"
+            "chunk_id": 25,
+            "citation_number": 10,
+            "chunk_text": "measure will bring a regulatory framework to the critical role that pharmacy technicians fill, which Walgreens supports. For these reasons, we ask the committee to pass this bill. Thank you for the opportunity to submit this testimony. I SanHi GOVERNMENT STRATEGIES A umrsn LIABILITY LAW PARTNERSHIP Testimony presented before the",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
           }
         ]
       },
       {
-        "section": "six_year_fiscal_implications",
-        "sentence": "Section 26H-6, Hawaii Revised Statutes, which concerns the repeal of professional and occupational licensing acts, shall not apply to this Act.",
+        "section": "policy_impact",
+        "sentence": "This measure builds upon Act 104 of the 2024 legislative session that allows pharmacy technicians the ability to administer immunizations and vaccinations.",
+        "chunks": [
+          {
+            "chunk_id": 14,
+            "citation_number": 10,
+            "chunk_text": "nationally certified should also be recognized. The expansion should include allowances such as those provided in Act 104 of the 2024 legislative session. To align the measure with the Board’s current Hawaii Administrative Rules (HAR), the Board requests the term “direct” be removed from page 4, line 7, and page",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+          },
+          {
+            "chunk_id": 24,
+            "citation_number": 10,
+            "chunk_text": "pharmacy interns the ability to administer immunizations and vaccinations to persons three years and older under the direct supervision of a pharmacist. This measure builds upon Act 104 to require that pharmacy technicians are registered by the state. This important measure will bring a regulatory framework to the critical role",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "Your Committee has amended this measure by deleting language that would have required the supervision to be \"direct\" and deleting language that would have required the pharmacist to be physically present.",
+        "chunks": [
+          {
+            "chunk_id": 139,
+            "citation_number": 12,
+            "chunk_text": "amended this measure by: (1) Deleting language that would have required the supervision of a registered pharmacy technician by a registered pharmacist to be \"direct\" ; (2) Deleting language from the definition of \"supervision\" that would have required the responsible registered pharmacist to be physically present to oversee a registered",
+            "document_name": "HB72_SD1_SSCR1082_"
+          },
+          {
+            "chunk_id": 140,
+            "citation_number": 12,
+            "chunk_text": "registered pharmacist to be physically present to oversee a registered pharmacy technician or pharmacy technician performing certain acts; (3) Inserting an effective date of December 31, 2050, to encourage further discussion; and (4) Making technical, nonsubstantive amendments for the purposes of clarity and consistency. As affirmed by the record of",
+            "document_name": "HB72_SD1_SSCR1082_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The bill also specifies that Section 26H-6, Hawaii Revised Statutes, which relates to sunrise analysis requirements, shall not apply to this Act.",
         "chunks": [
           {
             "chunk_id": 127,
@@ -1643,9 +1644,237 @@
         ]
       },
       {
-        "section": "six_year_fiscal_implications",
-        "sentence": "This Act shall take effect on December 31, 2050.",
+        "section": "revenue_sources",
+        "sentence": "The bill establishes a new revenue source through a registration fee for pharmacy technicians.",
         "chunks": [
+          {
+            "chunk_id": 72,
+            "citation_number": 11,
+            "chunk_text": "and a new registration shall be required. (c) The registration fee for a pharmacy technician shall be $20. (d) Beginning January 1, 2026, a pharmacy shall only employ registered pharmacy technicians to perform pharmacy technician duties. The pharmacist-in-charge shall verify that the person is registered as a pharmacy technician and",
+            "document_name": "HB72_SD1"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The provided documents do not contain a six-year fiscal projection.",
+        "chunks": [
+          {
+            "chunk_id": 131,
+            "citation_number": 12,
+            "chunk_text": "SSCR1082 STAND. COM. REP. NO. 1082 Honolulu, Hawaii RE: H.B. No. 72 H.D. 2 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Health and Human Services, to which was referred H.B. No. 72, H.D.",
+            "document_name": "HB72_SD1_SSCR1082_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "A new revenue stream will be created from registration fees.",
+        "chunks": [
+          {
+            "chunk_id": 72,
+            "citation_number": 11,
+            "chunk_text": "and a new registration shall be required. (c) The registration fee for a pharmacy technician shall be $20. (d) Beginning January 1, 2026, a pharmacy shall only employ registered pharmacy technicians to perform pharmacy technician duties. The pharmacist-in-charge shall verify that the person is registered as a pharmacy technician and",
+            "document_name": "HB72_SD1"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Each certificate of registration shall be valid through December 31 of each odd-numbered year, upon which a new registration shall be required, suggesting a biennial renewal process.",
+        "chunks": [
+          {
+            "chunk_id": 71,
+            "citation_number": 11,
+            "chunk_text": "a pharmacy technician without first obtaining a valid certificate of registration issued by the board pursuant to this section. (b) Each certificate of registration shall be valid through December 31 of each odd-numbered year, upon which the registration shall lapse and a new registration shall be required. (c) The registration",
+            "document_name": "HB72_SD1"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Without a formal registry, there is little visibility into the number of technicians working in the state, making precise revenue projections difficult.",
+        "chunks": [
+          {
+            "chunk_id": 55,
+            "citation_number": 10,
+            "chunk_text": "potential risks for medication errors. Adopting HB72 would reduce healthcare risks and align Hawai’i with national best practices. Beyond patient safety, implementing registration for pharmacy technicians would provide valuable data for workforce development. Without a formal registry, there is little visibility into the number of technicians working in the state,",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The creation of a pharmacy technician data repository is an essential step forward, but any associated administrative costs are not specified.",
+        "chunks": [
+          {
+            "chunk_id": 41,
+            "citation_number": 10,
+            "chunk_text": "of training and competency across the profession. Creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. Beyond enhancing patient safety, HB72 HD2 lays the foundation for pharmacy technicians in Hawai‘i to expand their scope of practice in",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "Testimony describes the measure as a prudent investment in the safety, efficiency, and adaptability of the pharmacy workforce.",
+        "chunks": [
+          {
+            "chunk_id": 43,
+            "citation_number": 10,
+            "chunk_text": "to our communities. HB72 HD2 represents a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future. I strongly support HB72 HD2, respectfully ask you to pass it out of committee. Many thanks for your consideration, Forrest Batz, PharmD Keaau, HI HB-72-HD-2 Submitted on: 3/8/2025",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "This bill is a crucial step toward strengthening Hawai'i’s healthcare infrastructure.",
+        "chunks": [
+          {
+            "chunk_id": 32,
+            "citation_number": 10,
+            "chunk_text": "and enhance patient care. Additionally, establishing a technician registry will create a vital data repository that enables clear communication of regulatory and practice updates, ensuring the workforce remains aligned with evolving state and federal requirements. HPhA believes that HB72 is a crucial step toward strengthening Hawai'i’s healthcare infrastructure. We feel",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The Board agreed that a registration for all technicians may be a prudent initial step regarding the regulation of pharmacy technicians.",
+        "chunks": [
+          {
+            "chunk_id": 13,
+            "citation_number": 10,
+            "chunk_text": "who have received extensive on the job training. The Board agreed that a registration for all technicians may be a prudent initial step regarding the regulation of pharmacy technicians. An expansion to the scope of practice to technicians that are nationally certified should also be recognized. The expansion should include",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "This measure will generate new operating revenue for the state.",
+        "chunks": [
+          {
+            "chunk_id": 72,
+            "citation_number": 11,
+            "chunk_text": "and a new registration shall be required. (c) The registration fee for a pharmacy technician shall be $20. (d) Beginning January 1, 2026, a pharmacy shall only employ registered pharmacy technicians to perform pharmacy technician duties. The pharmacist-in-charge shall verify that the person is registered as a pharmacy technician and",
+            "document_name": "HB72_SD1"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The provided legislative documents do not indicate any capital expenditures are required for this measure.",
+        "chunks": [
+          {
+            "chunk_id": 69,
+            "citation_number": 11,
+            "chunk_text": "HB72 SD1 HOUSE OF REPRESENTATIVES H.B. NO. 72 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII S.D. 1 A BILL FOR AN ACT RELATING TO PHARMACY . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 461, Hawaii Revised Statutes, is amended by adding a",
+            "document_name": "HB72_SD1"
+          },
+          {
+            "chunk_id": 131,
+            "citation_number": 12,
+            "chunk_text": "SSCR1082 STAND. COM. REP. NO. 1082 Honolulu, Hawaii RE: H.B. No. 72 H.D. 2 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Health and Human Services, to which was referred H.B. No. 72, H.D.",
+            "document_name": "HB72_SD1_SSCR1082_"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "No investments in facilities, equipment, or technology are mentioned in the bill text or supporting testimonies.",
+        "chunks": [
+          {
+            "chunk_id": 69,
+            "citation_number": 11,
+            "chunk_text": "HB72 SD1 HOUSE OF REPRESENTATIVES H.B. NO. 72 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII S.D. 1 A BILL FOR AN ACT RELATING TO PHARMACY . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 461, Hawaii Revised Statutes, is amended by adding a",
+            "document_name": "HB72_SD1"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 10,
+            "chunk_text": "UNIVERSITY OF HAWAI‘I SYSTEM ʻŌNAEHANA KULANUI O HAWAIʻI Legislative Testimony Hōʻike Manaʻo I Mua O Ka ʻAhaʻōlelo _____________________________________________________________ Testimony Presented Before the Senate Committee on Health and Human Services Monday, March 10, 2025 at 1:00 p.m. By Bonnie Irwin, Chancellor and Rae Matsumoto, Dean Daniel K. Inouye College of Pharmacy",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The purpose and intent of this measure is to establish a regulatory system, not to fund capital projects.",
+        "chunks": [
+          {
+            "chunk_id": 132,
+            "citation_number": 12,
+            "chunk_text": "Human Services, to which was referred H.B. No. 72, H.D. 2, entitled: \"A BILL FOR AN ACT RELATING TO PHARMACY,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Beginning January 1, 2026, require pharmacy technicians to be registered with and obtain a",
+            "document_name": "HB72_SD1_SSCR1082_"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The ongoing fiscal impact of this measure will be the recurring revenue from the biennial renewal of pharmacy technician registrations.",
+        "chunks": [
+          {
+            "chunk_id": 71,
+            "citation_number": 11,
+            "chunk_text": "a pharmacy technician without first obtaining a valid certificate of registration issued by the board pursuant to this section. (b) Each certificate of registration shall be valid through December 31 of each odd-numbered year, upon which the registration shall lapse and a new registration shall be required. (c) The registration",
+            "document_name": "HB72_SD1"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "Because Hawai'i currently lacks a managed list of practicing pharmacy technicians, the total number of registrants and long-term revenue potential is unknown.",
+        "chunks": [
+          {
+            "chunk_id": 39,
+            "citation_number": 10,
+            "chunk_text": "on pharmacists-in-charge to report violations conducted by registered pharmacy technicians; and, specifies that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns. Hawai‘i is the only state in the nation without an active, managed list of practicing pharmacy technicians, leaving a significant gap in",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "No. 72, S.D. 1, which contains significant changes from prior versions.",
+        "chunks": [
+          {
+            "chunk_id": 131,
+            "citation_number": 12,
+            "chunk_text": "SSCR1082 STAND. COM. REP. NO. 1082 Honolulu, Hawaii RE: H.B. No. 72 H.D. 2 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Health and Human Services, to which was referred H.B. No. 72, H.D.",
+            "document_name": "HB72_SD1_SSCR1082_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The Committee on Health and Human Services amended the measure by deleting language requiring supervision to be \"direct\" and removing the requirement for a pharmacist to be \"physically present\".",
+        "chunks": [
+          {
+            "chunk_id": 139,
+            "citation_number": 12,
+            "chunk_text": "amended this measure by: (1) Deleting language that would have required the supervision of a registered pharmacy technician by a registered pharmacist to be \"direct\" ; (2) Deleting language from the definition of \"supervision\" that would have required the responsible registered pharmacist to be physically present to oversee a registered",
+            "document_name": "HB72_SD1_SSCR1082_"
+          },
+          {
+            "chunk_id": 140,
+            "citation_number": 12,
+            "chunk_text": "registered pharmacist to be physically present to oversee a registered pharmacy technician or pharmacy technician performing certain acts; (3) Inserting an effective date of December 31, 2050, to encourage further discussion; and (4) Making technical, nonsubstantive amendments for the purposes of clarity and consistency. As affirmed by the record of",
+            "document_name": "HB72_SD1_SSCR1082_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "A new effective date of December 31, 2050 has been inserted to encourage further discussion, resolving the defective date in the previous version.",
+        "chunks": [
+          {
+            "chunk_id": 140,
+            "citation_number": 12,
+            "chunk_text": "registered pharmacist to be physically present to oversee a registered pharmacy technician or pharmacy technician performing certain acts; (3) Inserting an effective date of December 31, 2050, to encourage further discussion; and (4) Making technical, nonsubstantive amendments for the purposes of clarity and consistency. As affirmed by the record of",
+            "document_name": "HB72_SD1_SSCR1082_"
+          },
           {
             "chunk_id": 128,
             "citation_number": 11,
@@ -1655,20 +1884,62 @@
         ]
       },
       {
-        "section": "operating_revenue_impact",
-        "sentence": "Operating revenue will increase from the collection of biennial registration fees.",
+        "section": "fte_positions",
+        "sentence": "The provided legislative documents and testimonies do not specify the addition or modification of any Full Time Equivalent (FTE) positions.",
         "chunks": [
           {
-            "chunk_id": 71,
+            "chunk_id": 69,
             "citation_number": 11,
-            "chunk_text": "a pharmacy technician without first obtaining a valid certificate of registration issued by the board pursuant to this section. (b) Each certificate of registration shall be valid through December 31 of each odd-numbered year, upon which the registration shall lapse and a new registration shall be required. (c) The registration",
+            "chunk_text": "HB72 SD1 HOUSE OF REPRESENTATIVES H.B. NO. 72 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII S.D. 1 A BILL FOR AN ACT RELATING TO PHARMACY . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 461, Hawaii Revised Statutes, is amended by adding a",
+            "document_name": "HB72_SD1"
+          },
+          {
+            "chunk_id": 131,
+            "citation_number": 12,
+            "chunk_text": "SSCR1082 STAND. COM. REP. NO. 1082 Honolulu, Hawaii RE: H.B. No. 72 H.D. 2 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Health and Human Services, to which was referred H.B. No. 72, H.D.",
+            "document_name": "HB72_SD1_SSCR1082_"
+          }
+        ]
+      },
+      {
+        "section": "fte_positions",
+        "sentence": "There is no mention of new staffing being required to implement or manage the registration program.",
+        "chunks": [
+          {
+            "chunk_id": 131,
+            "citation_number": 12,
+            "chunk_text": "SSCR1082 STAND. COM. REP. NO. 1082 Honolulu, Hawaii RE: H.B. No. 72 H.D. 2 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Health and Human Services, to which was referred H.B. No. 72, H.D.",
+            "document_name": "HB72_SD1_SSCR1082_"
+          }
+        ]
+      },
+      {
+        "section": "fte_positions",
+        "sentence": "The bill's focus is on establishing the regulatory requirements for pharmacy technicians.",
+        "chunks": [
+          {
+            "chunk_id": 132,
+            "citation_number": 12,
+            "chunk_text": "Human Services, to which was referred H.B. No. 72, H.D. 2, entitled: \"A BILL FOR AN ACT RELATING TO PHARMACY,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Beginning January 1, 2026, require pharmacy technicians to be registered with and obtain a",
+            "document_name": "HB72_SD1_SSCR1082_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations_changes",
+        "sentence": "No. 72, S.D. 1.",
+        "chunks": [
+          {
+            "chunk_id": 69,
+            "citation_number": 11,
+            "chunk_text": "HB72 SD1 HOUSE OF REPRESENTATIVES H.B. NO. 72 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII S.D. 1 A BILL FOR AN ACT RELATING TO PHARMACY . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 461, Hawaii Revised Statutes, is amended by adding a",
             "document_name": "HB72_SD1"
           }
         ]
       },
       {
-        "section": "operating_revenue_impact",
-        "sentence": "The registration fee for a pharmacy technician is $20.00 (HB72_SD1_.HTM.txt).",
+        "section": "appropriations_changes",
+        "sentence": "This version of the bill establishes a funding mechanism through the creation of a registration fee.",
         "chunks": [
           {
             "chunk_id": 72,
@@ -1679,20 +1950,8 @@
         ]
       },
       {
-        "section": "operating_revenue_impact",
-        "sentence": "Additional, non-recurring revenue may be generated from fines for violations, which range from $100.00 (HB72_SD1_.HTM.txt) to $1,000.00 (HB72_SD1_.HTM.txt).",
-        "chunks": [
-          {
-            "chunk_id": 126,
-            "citation_number": 11,
-            "chunk_text": "no less than $100 [ nor ] and no more than $1,000 for each violation. (c) All proceedings for denial, suspension, fine, or revocation of a license , registration, or permit on any grounds specified in subsection (a) shall be conducted pursuant to chapter 91, including the right of judicial",
-            "document_name": "HB72_SD1"
-          }
-        ]
-      },
-      {
-        "section": "fiscal_implications_after_6_years",
-        "sentence": "Ongoing fiscal implications will include recurring biennial revenue from the pharmacy technician registration fee of $20.00 (HB72_SD1_.HTM.txt).",
+        "section": "funding_sources_changes",
+        "sentence": "This version of the bill establishes a specific funding source through registration fees, which was not defined in previous versions.",
         "chunks": [
           {
             "chunk_id": 72,
@@ -1703,20 +1962,134 @@
         ]
       },
       {
-        "section": "fiscal_implications_after_6_years",
-        "sentence": "The requirement for biennial renewal of the certificate of registration will ensure a continuous revenue stream.",
+        "section": "funding_sources_changes",
+        "sentence": "The documents do not specify whether these fees will be deposited into the general fund or a special fund for the Board of Pharmacy.",
         "chunks": [
           {
-            "chunk_id": 71,
+            "chunk_id": 69,
             "citation_number": 11,
-            "chunk_text": "a pharmacy technician without first obtaining a valid certificate of registration issued by the board pursuant to this section. (b) Each certificate of registration shall be valid through December 31 of each odd-numbered year, upon which the registration shall lapse and a new registration shall be required. (c) The registration",
+            "chunk_text": "HB72 SD1 HOUSE OF REPRESENTATIVES H.B. NO. 72 THIRTY-THIRD LEGISLATURE, 2025 H.D. 2 STATE OF HAWAII S.D. 1 A BILL FOR AN ACT RELATING TO PHARMACY . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. Chapter 461, Hawaii Revised Statutes, is amended by adding a",
             "document_name": "HB72_SD1"
           }
         ]
       },
       {
-        "section": "fiscal_implications_after_6_years",
-        "sentence": "The committee inserted an effective date of December 31, 2050, to encourage further discussion.",
+        "section": "department_impact",
+        "sentence": "The department impacted by this measure remains the Department of Commerce and Consumer Affairs, under which the Board of Pharmacy operates.",
+        "chunks": [
+          {
+            "chunk_id": 86,
+            "citation_number": 11,
+            "chunk_text": "registered pharmacists and wholesale prescription drug distributors[ , ] ; issue certificates of registration for registered pharmacy technicians; and issue and renew permits to operate pharmacies; (3) May require the inspection of any wholesale prescription drug distributor premises in the State to ensure compliance with this chapter and rules adopted",
+            "document_name": "HB72_SD1"
+          },
+          {
+            "chunk_id": 27,
+            "citation_number": 10,
+            "chunk_text": "members of the Committee, The Hawai'i Pharmacists Association (HPhA) strongly supports HB72 with minor amendments, which will require the registration of pharmacy technicians through the Department of Commerce and Consumer Affairs. Currently, Hawai'i is the only state in the nation without an active and managed registry of practicing pharmacy technicians.",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+          }
+        ]
+      },
+      {
+        "section": "department_impact",
+        "sentence": "There is no change in the responsible department from previous versions of the bill.",
+        "chunks": [
+          {
+            "chunk_id": 131,
+            "citation_number": 12,
+            "chunk_text": "SSCR1082 STAND. COM. REP. NO. 1082 Honolulu, Hawaii RE: H.B. No. 72 H.D. 2 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Health and Human Services, to which was referred H.B. No. 72, H.D.",
+            "document_name": "HB72_SD1_SSCR1082_"
+          }
+        ]
+      },
+      {
+        "section": "department_impact",
+        "sentence": "The Board of Pharmacy has confirmed its support for the measure's intent to regulate pharmacy technicians.",
+        "chunks": [
+          {
+            "chunk_id": 11,
+            "citation_number": 10,
+            "chunk_text": "technicians; and (3) specify that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns. The Board supports this measure’s intent to regulate pharmacy technicians. The Board recently formed a permitted interaction group to look at the best methods to regulate pharmacy technicians for quality",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+          }
+        ]
+      },
+      {
+        "section": "reports_required",
+        "sentence": "The reporting requirements in this version of the bill are unchanged.",
+        "chunks": [
+          {
+            "chunk_id": 131,
+            "citation_number": 12,
+            "chunk_text": "SSCR1082 STAND. COM. REP. NO. 1082 Honolulu, Hawaii RE: H.B. No. 72 H.D. 2 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Health and Human Services, to which was referred H.B. No. 72, H.D.",
+            "document_name": "HB72_SD1_SSCR1082_"
+          }
+        ]
+      },
+      {
+        "section": "reports_required",
+        "sentence": "If a registered pharmacy technician is suspected to have violated any law or rule, the pharmacist-in-charge shall notify the board, in writing, within ten days.",
+        "chunks": [
+          {
+            "chunk_id": 76,
+            "citation_number": 11,
+            "chunk_text": "have violated any of these laws or rules, the pharmacist-in-charge shall notify the board, in writing, within ten days or, if any danger to the public health or safety exists, immediately. Any registered pharmacist, whether or not practicing in the same pharmacy, who has knowledge or suspicion of another registered",
+            "document_name": "HB72_SD1"
+          }
+        ]
+      },
+      {
+        "section": "reports_required",
+        "sentence": "Any registered pharmacist who has knowledge or suspicion of another registered pharmacy technician in violation of any law or rule shall also notify the board.",
+        "chunks": [
+          {
+            "chunk_id": 77,
+            "citation_number": 11,
+            "chunk_text": "same pharmacy, who has knowledge or suspicion of another registered pharmacy technician in violation of any law or rule regarding the practice of pharmacy, legend drugs, or controlled substances shall notify the board, in writing, within ten days or, if any danger to the public health or safety exists, immediately.",
+            "document_name": "HB72_SD1"
+          }
+        ]
+      },
+      {
+        "section": "pilot_program",
+        "sentence": "This measure does not create a pilot program.",
+        "chunks": [
+          {
+            "chunk_id": 91,
+            "citation_number": 11,
+            "chunk_text": "to this paragraph shall be a matter of public record; and (6) May approve pilot and demonstration research projects for innovative applications in the practice of pharmacy; provided that the projects shall not include therapeutic substitution or substitution of a medical device used in patient care; provided further that nothing",
+            "document_name": "HB72_SD1"
+          }
+        ]
+      },
+      {
+        "section": "pilot_program",
+        "sentence": "It establishes a permanent registration requirement for pharmacy technicians beginning January 1, 2026.",
+        "chunks": [
+          {
+            "chunk_id": 70,
+            "citation_number": 11,
+            "chunk_text": "Chapter 461, Hawaii Revised Statutes, is amended by adding a new section to be appropriately designated and to read as follows: \" §461- Registered pharmacy technicians; certificate of registration required. (a) Beginning January 1, 2026, no person shall act as a pharmacy technician without first obtaining a valid certificate of",
+            "document_name": "HB72_SD1"
+          }
+        ]
+      },
+      {
+        "section": "pilot_program",
+        "sentence": "The bill is intended to align Hawai'i with national pharmacy technician regulation standards on a permanent basis.",
+        "chunks": [
+          {
+            "chunk_id": 40,
+            "citation_number": 10,
+            "chunk_text": "list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. HB72 HD2 aligns with national pharmacy technician regulation standards to strengthen pharmacy practice in Hawai‘i. HB72 HD2 serves as the backbone for consistent standards of training and competency across the profession. Creation of a",
+            "document_name": "HB72_HD2_TESTIMONY_HHS_03-10-25_"
+          }
+        ]
+      },
+      {
+        "section": "sunset_date",
+        "sentence": "The Committee on Health and Human Services amended the measure by inserting an effective date of December 31, 2050.",
         "chunks": [
           {
             "chunk_id": 140,
@@ -1727,66 +2100,124 @@
         ]
       },
       {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "This measure has been amended to include a new registration fee for pharmacy technicians of $20.00 (HB72_SD1_.HTM.txt) and fines for violations ranging from $100.00 (HB72_SD1_.HTM.txt) to $1,000.00 (HB72_SD1_.HTM.txt).",
-        "chunks": [
-          {
-            "chunk_id": 72,
-            "citation_number": 11,
-            "chunk_text": "and a new registration shall be required. (c) The registration fee for a pharmacy technician shall be $20. (d) Beginning January 1, 2026, a pharmacy shall only employ registered pharmacy technicians to perform pharmacy technician duties. The pharmacist-in-charge shall verify that the person is registered as a pharmacy technician and",
-            "document_name": "HB72_SD1"
-          },
-          {
-            "chunk_id": 72,
-            "citation_number": 11,
-            "chunk_text": "and a new registration shall be required. (c) The registration fee for a pharmacy technician shall be $20. (d) Beginning January 1, 2026, a pharmacy shall only employ registered pharmacy technicians to perform pharmacy technician duties. The pharmacist-in-charge shall verify that the person is registered as a pharmacy technician and",
-            "document_name": "HB72_SD1"
-          }
-        ]
-      },
-      {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "Following recommendations from the Board of Pharmacy, language that would have required supervision to be \"direct\" or for the pharmacist to be \"physically present\" has been deleted.",
-        "chunks": [
-          {
-            "chunk_id": 139,
-            "citation_number": 12,
-            "chunk_text": "amended this measure by: (1) Deleting language that would have required the supervision of a registered pharmacy technician by a registered pharmacist to be \"direct\" ; (2) Deleting language from the definition of \"supervision\" that would have required the responsible registered pharmacist to be physically present to oversee a registered",
-            "document_name": "HB72_SD1_SSCR1082_"
-          },
-          {
-            "chunk_id": 139,
-            "citation_number": 12,
-            "chunk_text": "amended this measure by: (1) Deleting language that would have required the supervision of a registered pharmacy technician by a registered pharmacist to be \"direct\" ; (2) Deleting language from the definition of \"supervision\" that would have required the responsible registered pharmacist to be physically present to oversee a registered",
-            "document_name": "HB72_SD1_SSCR1082_"
-          }
-        ]
-      },
-      {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "The measure now statutorily defines \"Auxiliary pharmacy personnel\", \"Registered pharmacy technician\", and \"Supervision\".",
-        "chunks": [
-          {
-            "chunk_id": 78,
-            "citation_number": 11,
-            "chunk_text": "any danger to the public health or safety exists, immediately. \" SECTION 2. Section 461-1, Hawaii Revised Statutes, is amended by adding three new definitions to be appropriately inserted and to read as follows: \" \"Auxiliary pharmacy personnel\" means a person who works in a pharmacy assisting a registered pharmacist",
-            "document_name": "HB72_SD1"
-          }
-        ]
-      },
-      {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "A new effective date of December 31, 2050, has been inserted to encourage further discussion.",
+        "section": "sunset_date",
+        "sentence": "This date was inserted to encourage further discussion and is not a traditional sunset clause.",
         "chunks": [
           {
             "chunk_id": 140,
             "citation_number": 12,
             "chunk_text": "registered pharmacist to be physically present to oversee a registered pharmacy technician or pharmacy technician performing certain acts; (3) Inserting an effective date of December 31, 2050, to encourage further discussion; and (4) Making technical, nonsubstantive amendments for the purposes of clarity and consistency. As affirmed by the record of",
             "document_name": "HB72_SD1_SSCR1082_"
+          }
+        ]
+      },
+      {
+        "section": "effective_date",
+        "sentence": "An effective date, which was previously defective, has been specified in this version of the bill.",
+        "chunks": [
+          {
+            "chunk_id": 140,
+            "citation_number": 12,
+            "chunk_text": "registered pharmacist to be physically present to oversee a registered pharmacy technician or pharmacy technician performing certain acts; (3) Inserting an effective date of December 31, 2050, to encourage further discussion; and (4) Making technical, nonsubstantive amendments for the purposes of clarity and consistency. As affirmed by the record of",
+            "document_name": "HB72_SD1_SSCR1082_"
+          }
+        ]
+      },
+      {
+        "section": "effective_date",
+        "sentence": "This Act shall take effect on December 31, 2050.",
+        "chunks": [
+          {
+            "chunk_id": 128,
+            "citation_number": 11,
+            "chunk_text": "SECTION 11. This Act shall take effect on December 31, 2050. Report Title: Board of Pharmacy; Registered Pharmacy Technicians; Certificate of Registration; Pharmacists-in-charge; Supervision Description: Beginning 1/1/2026, requires pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy. Imposes a duty on pharmacists-in-charge",
+            "document_name": "HB72_SD1"
           }
         ]
       }
-    ]
+    ],
+    "property_prompts_used": {
+      "overview": {
+        "prompt": "Using the provided legislative documents, statutes, and testimonies, write a clear summary describing the purpose, scope, and key components of the proposed measure or bill, including any pilot or permanent programs, reporting requirements, and sunset clauses. This should be around 3 sentences.",
+        "description": "General overview and summary of the measure"
+      },
+      "appropriations": {
+        "prompt": "Based on budgetary data and legislative appropriations, detail the funding allocated for the program or measure, including fiscal years, amounts, intended uses such as staffing, training, contracts, technology, etc... This should be around 3 sentences.",
+        "description": "Funding allocation and appropriations details"
+      },
+      "assumptions_and_methodology": {
+        "prompt": "Explain the assumptions, cost estimation methods, and data sources used to calculate the financial projections for this program or measure, referencing comparable programs or historical budgets where applicable. This should be around 3 sentences.",
+        "description": "Cost estimation methodology and assumptions"
+      },
+      "agency_impact": {
+        "prompt": "Describe the anticipated operational, administrative, and budgetary impact of the program or measure on the relevant government agency or department, including supervision, staffing, and resource allocation. This should be around 3 sentences.",
+        "description": "Impact on government agencies and departments"
+      },
+      "economic_impact": {
+        "prompt": "Summarize the expected economic effects of the program or measure, such as cost savings, potential reductions in related expenditures, benefits to the community, and any relevant performance or participation statistics. This should be around 3 sentences.",
+        "description": "Economic effects and community benefits"
+      },
+      "policy_impact": {
+        "prompt": "Analyze the policy implications of the measure, including how it modifies existing laws or programs, its role within broader legislative strategies, and its potential effects on state or local governance. This should be around 3 sentences.",
+        "description": "Policy implications and legislative analysis"
+      },
+      "revenue_sources": {
+        "prompt": "Identify and describe the funding sources that will support the program or measure, such as general funds, grants, fees, or other revenue streams, based on the provided fiscal documents. This should be around 3 sentences.",
+        "description": "Funding sources and revenue streams"
+      },
+      "six_year_fiscal_implications": {
+        "prompt": "Provide a multi-year fiscal outlook (e.g., six years) for the program or measure, projecting costs, staffing changes, recurring expenses, and assumptions about program expansion or permanence using available budget and workload data. This should be around 10 sentences.",
+        "description": "Six-year fiscal projections and outlook"
+      },
+      "operating_revenue_impact": {
+        "prompt": "Describe any anticipated impacts on operating revenues resulting from the program or measure, including increases, decreases, or changes in revenue streams. This should be around 3 sentences.",
+        "description": "Operating revenue impacts"
+      },
+      "capital_expenditure_impact": {
+        "prompt": "Outline any expected capital expenditures related to the program or measure, such as investments in facilities, equipment, or technology infrastructure, based on capital budgets or agency plans. This should be around 3 sentences.",
+        "description": "Capital expenditure requirements"
+      },
+      "fiscal_implications_after_6_years": {
+        "prompt": "Summarize the ongoing fiscal obligations after the initial multi-year period for the program or measure, including annual operating costs, expected number of program sites or units, and the sustainability of funding. This should be around 3 sentences.",
+        "description": "Long-term fiscal obligations beyond six years"
+      },
+      "updates_from_previous_fiscal_note": {
+        "prompt": "If you are given a previous fisacl not. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fisacl note.",
+        "description": "Updates from previous fiscal note"
+      },
+      "fte_positions": {
+        "prompt": "Detail any Full Time Equivalent (FTE) positions that have been added or modified in this version of the bill, including the number of positions, their roles, and any changes from previous versions. This should be around 3 sentences.",
+        "description": "FTE (Full Time Equivalent) position changes"
+      },
+      "appropriations_changes": {
+        "prompt": "Identify and describe any appropriations that were previously unspecified or have been modified between versions of the bill, including the amounts and purposes of the appropriations. This should be around 3 sentences.",
+        "description": "Changes to appropriations between bill versions"
+      },
+      "funding_sources_changes": {
+        "prompt": "Specify the method of funding (MOF) for appropriations and identify any changes in funding sources between versions, such as shifts between general fund and special fund appropriations. This should be around 3 sentences.",
+        "description": "Changes to funding sources and method of funding"
+      },
+      "department_impact": {
+        "prompt": "Describe any changes in which department is responsible for expending appropriations, including shifts from one department to another between bill versions (e.g., from Department of Health to Judiciary). This should be around 3 sentences.",
+        "description": "Changes in department responsibility for appropriations"
+      },
+      "reports_required": {
+        "prompt": "Identify any reports that agencies are required to submit to the legislature, including new reporting requirements or modifications to existing ones. This should be around 3 sentences.",
+        "description": "Reporting requirements for agencies"
+      },
+      "pilot_program": {
+        "prompt": "If the bill creates a pilot program, describe the length of the pilot program and whether it was initially intended to be a pilot program or a permanent program. This should be around 3 sentences.",
+        "description": "Pilot program details and duration"
+      },
+      "sunset_date": {
+        "prompt": "Identify the sunset date for the bill or program, including any modifications to the sunset date between versions. This should be around 2 sentences.",
+        "description": "Sunset date and changes"
+      },
+      "effective_date": {
+        "prompt": "Identify the effective date of the bill, noting if there was a defective effective date in a previous version and what the corrected effective date is. This should be around 2 sentences.",
+        "description": "Effective date and corrections"
+      }
+    }
   },
   "chunk_mapping": {
     "HB72_SD1_SSCR1082_": [
@@ -2368,6 +2799,6 @@
       }
     ]
   },
-  "generation_timestamp": "2025-10-16T15:26:30.122783",
-  "generation_timestamp_unix": 1760664390.1227908
+  "generation_timestamp": "2025-11-03T18:12:08.301471",
+  "generation_timestamp_unix": 1762229528.301476
 }

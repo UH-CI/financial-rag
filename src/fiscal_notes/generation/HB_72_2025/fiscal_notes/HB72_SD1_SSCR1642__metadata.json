@@ -21,17 +21,17 @@
     "HB72_SD1_SSCR1642_"
   ],
   "numbers_used": 0,
-  "prompt_length": 33086,
+  "prompt_length": 39250,
   "response_metadata": {
-    "response_text": "{\n  \"overview\": \"Your Committee finds that Hawaii is the only state that does not maintain a list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. [CHUNK_76] This measure provides the regulatory oversight needed to ensure that these essential health care workers have the appropriate background and supervision, while also facilitating access to training opportunities and expanding their scope of practice through additional certifications. [CHUNK_78] This measure builds upon Act 104 that allows, in part, pharmacists, pharmacy technicians and pharmacy interns the ability to administer immunizations and vaccinations to persons three years and older under the direct supervision of a pharmacist. [CHUNK_39]\",\n  \"appropriations\": \"\",\n  \"assumptions_and_methodology\": \"Testimony states this initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce. [CHUNK_21] Testimony also suggests that the measure is a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future. [CHUNK_30]\",\n  \"agency_impact\": \"The Board of Pharmacy recently formed a permitted interaction group to look at the best methods to regulate pharmacy technicians for quality and general assurance. [CHUNK_3] The Board agreed that a registration for all technicians may be a prudent initial step regarding the regulation of pharmacy technicians. [CHUNK_4] The creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. [CHUNK_19]\",\n  \"economic_impact\": \"The registration of pharmacy technicians is warranted and appropriate for the level of responsibility and trust afforded by the public. [CHUNK_13] This measure supports public health and safety by ensuring that these essential health care workers have the appropriate background and supervision. [CHUNK_10] Regulation will allow Hawai‘i to adapt to changes and avoid falling behind in providing the best possible care to our communities. [CHUNK_21]\",\n  \"policy_impact\": \"This measure builds upon Act 104 to require that pharmacy technicians are registered by the state. [CHUNK_39] This measure is exempt from the requirements of a sunrise analysis due to the exigent need for technician regulation. [CHUNK_36] The Board of Pharmacy supports an expansion to the scope of practice for nationally certified technicians, including allowances provided in Act 104 of the 2024 legislative session. [CHUNK_5]\",\n  \"revenue_sources\": \"\",\n  \"six_year_fiscal_implications\": \"This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce. [CHUNK_62] The registration of pharmacy technicians is important for protecting patient safety because pharmacy technicians are essential team members who are critical to the workflow of a pharmacy. [CHUNK_66] Currently, there is no requirement for reporting violations, so violators can easily move from one pharmacy to another. [CHUNK_53] This bill will require the pharmacist in charge to report violations conducted by registered technicians. [CHUNK_53]\",\n  \"operating_revenue_impact\": \"\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"New testimony and committee reports emphasize that Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians, which creates a significant gap in oversight that can impact patient safety. [CHUNK_9] The measure is now explicitly linked to and builds upon Act 104 of the 2024 legislative session, which expanded the roles of pharmacy technicians to include administering immunizations. [CHUNK_39] The Board of Pharmacy's support is further detailed, noting the formation of a permitted interaction group which concluded that registration is a prudent initial step. [CHUNK_3] Testimony highlights the creation of a pharmacy technician data repository as an essential tool for communicating practice changes. [CHUNK_19] The measure is noted to be exempt from the requirements of a sunrise analysis due to the exigent need for technician regulation. [CHUNK_36] Multiple testimonies characterize the initiative as a 'reasonable cost' and a 'prudent investment'. [CHUNK_21]\"\n}",
+    "response_text": "{\n  \"overview\": \"The purpose and intent of this measure is to, beginning January 1, 2026, require pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy. [CHUNK_73] [CHUNK_74] This measure will impose a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians. [CHUNK_74] It also will specify that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns. [CHUNK_74] [CHUNK_75]\",\n  \"appropriations\": \"The provided legislative documents do not contain any specific appropriations for this measure. [CHUNK_72] Testimony suggests the initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce. [CHUNK_21] [CHUNK_62] [CHUNK_70] The documents do not specify any intended uses for funding such as staffing, training, or technology. [CHUNK_0] [CHUNK_72]\",\n  \"assumptions_and_methodology\": \"The provided documents do not contain financial projections or a detailed cost estimation methodology for this measure. [CHUNK_0] [CHUNK_72] The fiscal impact is described qualitatively, with testimony stating the initiative comes at a reasonable cost. [CHUNK_47] [CHUNK_62] [CHUNK_70] No data sources for calculating financial projections are mentioned in the bill or testimony. [CHUNK_0] [CHUNK_72]\",\n  \"agency_impact\": \"The Board of Pharmacy will be required to register pharmacy technicians and issue a certificate of registration starting January 1, 2026. [CHUNK_73] [CHUNK_74] The Board of Pharmacy voted unanimously to support this measure. [CHUNK_1] The Board recently formed a permitted interaction group to look at the best methods to regulate pharmacy technicians for quality and general assurance. [CHUNK_3]\",\n  \"economic_impact\": \"Your Committee finds that Hawaii is the only state that does not maintain a list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. [CHUNK_75] [CHUNK_76] This measure provides the regulatory oversight needed to ensure that these essential health care workers have the appropriate background and supervision. [CHUNK_77] [CHUNK_78] Testimony describes the measure as a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future. [CHUNK_30] [CHUNK_47] [CHUNK_62] [CHUNK_70]\",\n  \"policy_impact\": \"This measure builds upon Act 104 of the 2024 legislative session, which allows pharmacy technicians to administer immunizations and vaccinations. [CHUNK_5] [CHUNK_39] By establishing registration, the bill lays the foundation for pharmacy technicians in Hawai‘i to expand their scope of practice in the future, aligning with national trends. [CHUNK_20] [CHUNK_29] [CHUNK_46] [CHUNK_61] The bill addresses a significant gap, as Hawai‘i is the only state in the nation without an active, managed list of practicing pharmacy technicians. [CHUNK_18] [CHUNK_27] [CHUNK_44] [CHUNK_58] [CHUNK_65] [CHUNK_76]\",\n  \"revenue_sources\": \"The provided documents for H.B. 72, H.D. 2, S.D. 1 do not identify or describe any funding sources to support the measure. [CHUNK_0] [CHUNK_72] There is no mention of general funds, grants, or fees in the committee report or submitted testimony. [CHUNK_0] [CHUNK_72] The documents do not establish any revenue streams to cover the administrative costs of the registration program. [CHUNK_0] [CHUNK_72]\",\n  \"six_year_fiscal_implications\": \"The provided documents do not contain a six-year fiscal projection for this measure. [CHUNK_0] [CHUNK_72] The initiative is described as coming at a reasonable cost, but no specific recurring expenses are quantified. [CHUNK_21] [CHUNK_47] [CHUNK_62] [CHUNK_70] The creation of a pharmacy technician data repository is noted as an essential step forward, but any associated administrative or technology costs are not specified in the documents. [CHUNK_19] [CHUNK_28] [CHUNK_45] [CHUNK_60] Since Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians, there is no existing data to project the number of registrants. [CHUNK_9] [CHUNK_18] [CHUNK_76] The Board of Pharmacy has formed a permitted interaction group to look at regulation methods, but any costs associated with this group are not detailed. [CHUNK_3] No staffing changes are mentioned. [CHUNK_0] [CHUNK_72] The measure does not establish a revenue stream from registration fees or fines in the provided documents. [CHUNK_0] [CHUNK_72] This measure is considered a prudent investment in the safety, efficiency, and adaptability of the pharmacy workforce. [CHUNK_30] [CHUNK_48] [CHUNK_62] [CHUNK_70]\",\n  \"operating_revenue_impact\": \"The legislative documents provided for this version of the bill do not indicate any impact on operating revenues. [CHUNK_0] [CHUNK_72] There is no mention of new revenue from registration fees, fines, or other sources. [CHUNK_0] [CHUNK_72] Therefore, no changes to the state's operating revenue streams are anticipated based on the current documents. [CHUNK_0] [CHUNK_72]\",\n  \"capital_expenditure_impact\": \"The provided legislative documents do not indicate any capital expenditures are required for this measure. [CHUNK_0] [CHUNK_72] No investments in facilities, equipment, or technology infrastructure are mentioned in the committee report or supporting testimonies. [CHUNK_0] [CHUNK_72] The purpose of the measure is to establish a regulatory system for pharmacy technicians, not to fund capital projects. [CHUNK_73]\",\n  \"fiscal_implications_after_6_years\": \"The provided documents do not specify any ongoing fiscal obligations after a six-year period. [CHUNK_0] [CHUNK_72] The testimony suggests it is a long-term prudent investment in the pharmacy workforce, but does not quantify annual operating costs. [CHUNK_30] [CHUNK_47] [CHUNK_62] [CHUNK_70] The sustainability of the program is not addressed, as no funding sources are identified in the current documents. [CHUNK_0] [CHUNK_72]\",\n  \"updates_from_previous_fiscal_note\": \"The primary change from the previous fiscal note is the absence of specific financial details in the current source documents. [CHUNK_0] [CHUNK_72] The previous note cited specific figures for a registration fee and fines for violations, which are not present in the committee report or testimony for H.B. 72, H.D. 2, S.D. 1. [CHUNK_0] [CHUNK_72] Additionally, the previous note mentioned an effective date of December 31, 2050, which is not mentioned in the current documents. [CHUNK_0] [CHUNK_72]\",\n  \"fte_positions\": \"The provided legislative documents and testimonies for H.B. 72, H.D. 2, S.D. 1 do not specify the addition or modification of any Full Time Equivalent (FTE) positions. [CHUNK_0] [CHUNK_72] There is no mention of new staffing being required by the Board of Pharmacy to implement or manage the registration program. [CHUNK_1] [CHUNK_74] The bill's focus is on establishing the regulatory requirements and duties for pharmacy technicians and pharmacists. [CHUNK_73] [CHUNK_74]\",\n  \"appropriations_changes\": \"Similar to the previous version, the current version of the bill does not contain any appropriations. [CHUNK_0] [CHUNK_72] However, unlike the documents supporting the previous fiscal note, the current documents do not establish an alternative funding mechanism through registration fees. [CHUNK_0] [CHUNK_72] Therefore, no appropriations or funding sources are specified in this version. [CHUNK_0] [CHUNK_72]\",\n  \"funding_sources_changes\": \"There is a significant change in funding sources between the versions. [CHUNK_0] [CHUNK_72] The previous fiscal note was based on documents that established a funding source through registration fees and fines. [CHUNK_0] [CHUNK_72] The current documents for H.B. 72, H.D. 2, S.D. 1 do not specify any method of funding. [CHUNK_0] [CHUNK_72]\",\n  \"department_impact\": \"The department impacted by this measure remains the Department of Commerce and Consumer Affairs, under which the Board of Pharmacy operates. [CHUNK_8] [CHUNK_74] This is consistent with the previous version of the bill. [CHUNK_0] [CHUNK_72] The Board of Pharmacy has provided testimony in support of the measure. [CHUNK_1]\",\n  \"reports_required\": \"The reporting requirements appear consistent with the previous version. [CHUNK_0] [CHUNK_72] The bill imposes a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians to the Board of Pharmacy. [CHUNK_74] The provided documents do not specify new or modified reports to the legislature. [CHUNK_0] [CHUNK_72]\",\n  \"pilot_program\": \"This measure does not create a pilot program. [CHUNK_73] It establishes a permanent registration requirement for pharmacy technicians beginning January 1, 2026. [CHUNK_73] This initiative is intended to align Hawai‘i with national pharmacy technician regulation standards on an ongoing basis. [CHUNK_22] [CHUNK_28] [CHUNK_63]\",\n  \"sunset_date\": \"The provided documents for H.B. 72, H.D. 2, S.D. 1 do not contain a sunset date. [CHUNK_0] [CHUNK_72] This differs from the previous fiscal note, which noted a placeholder effective date of December 31, 2050, that was inserted to encourage further discussion. [CHUNK_0] [CHUNK_72]\",\n  \"effective_date\": \"The provided documents do not specify an effective date for the Act itself. [CHUNK_0] [CHUNK_72] However, the bill specifies that the requirement for pharmacy technicians to be registered shall begin on January 1, 2026. [CHUNK_73]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 16464,
-      "candidates_token_count": 907,
-      "total_token_count": 19658
+      "prompt_token_count": 17907,
+      "candidates_token_count": 2362,
+      "total_token_count": 23047
     },
     "candidates": [
       {
@@ -41,7 +41,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n  \"overview\": \"Your Committee finds that Hawaii is the only state that does not maintain a list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. [CHUNK_76] This measure provides the regulatory oversight needed to ensure that these essential health care workers have the appropriate background and supervision, while also facilitating access to training opportunities and expanding their scope of practice through additional certifications. [CHUNK_78] This measure builds upon Act 104 that allows, in part, pharmacists, pharmacy technicians and pharmacy interns the ability to administer immunizations and vaccinations to persons three years and older under the direct supervision of a pharmacist. [CHUNK_39]\",\n  \"appropriations\": \"\",\n  \"assumptions_and_methodology\": \"Testimony states this initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce. [CHUNK_21] Testimony also suggests that the measure is a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future. [CHUNK_30]\",\n  \"agency_impact\": \"The Board of Pharmacy recently formed a permitted interaction group to look at the best methods to regulate pharmacy technicians for quality and general assurance. [CHUNK_3] The Board agreed that a registration for all technicians may be a prudent initial step regarding the regulation of pharmacy technicians. [CHUNK_4] The creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. [CHUNK_19]\",\n  \"economic_impact\": \"The registration of pharmacy technicians is warranted and appropriate for the level of responsibility and trust afforded by the public. [CHUNK_13] This measure supports public health and safety by ensuring that these essential health care workers have the appropriate background and supervision. [CHUNK_10] Regulation will allow Hawai‘i to adapt to changes and avoid falling behind in providing the best possible care to our communities. [CHUNK_21]\",\n  \"policy_impact\": \"This measure builds upon Act 104 to require that pharmacy technicians are registered by the state. [CHUNK_39] This measure is exempt from the requirements of a sunrise analysis due to the exigent need for technician regulation. [CHUNK_36] The Board of Pharmacy supports an expansion to the scope of practice for nationally certified technicians, including allowances provided in Act 104 of the 2024 legislative session. [CHUNK_5]\",\n  \"revenue_sources\": \"\",\n  \"six_year_fiscal_implications\": \"This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce. [CHUNK_62] The registration of pharmacy technicians is important for protecting patient safety because pharmacy technicians are essential team members who are critical to the workflow of a pharmacy. [CHUNK_66] Currently, there is no requirement for reporting violations, so violators can easily move from one pharmacy to another. [CHUNK_53] This bill will require the pharmacist in charge to report violations conducted by registered technicians. [CHUNK_53]\",\n  \"operating_revenue_impact\": \"\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"New testimony and committee reports emphasize that Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians, which creates a significant gap in oversight that can impact patient safety. [CHUNK_9] The measure is now explicitly linked to and builds upon Act 104 of the 2024 legislative session, which expanded the roles of pharmacy technicians to include administering immunizations. [CHUNK_39] The Board of Pharmacy's support is further detailed, noting the formation of a permitted interaction group which concluded that registration is a prudent initial step. [CHUNK_3] Testimony highlights the creation of a pharmacy technician data repository as an essential tool for communicating practice changes. [CHUNK_19] The measure is noted to be exempt from the requirements of a sunrise analysis due to the exigent need for technician regulation. [CHUNK_36] Multiple testimonies characterize the initiative as a 'reasonable cost' and a 'prudent investment'. [CHUNK_21]\"\n}"
+              "text": "{\n  \"overview\": \"The purpose and intent of this measure is to, beginning January 1, 2026, require pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy. [CHUNK_73] [CHUNK_74] This measure will impose a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians. [CHUNK_74] It also will specify that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns. [CHUNK_74] [CHUNK_75]\",\n  \"appropriations\": \"The provided legislative documents do not contain any specific appropriations for this measure. [CHUNK_72] Testimony suggests the initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce. [CHUNK_21] [CHUNK_62] [CHUNK_70] The documents do not specify any intended uses for funding such as staffing, training, or technology. [CHUNK_0] [CHUNK_72]\",\n  \"assumptions_and_methodology\": \"The provided documents do not contain financial projections or a detailed cost estimation methodology for this measure. [CHUNK_0] [CHUNK_72] The fiscal impact is described qualitatively, with testimony stating the initiative comes at a reasonable cost. [CHUNK_47] [CHUNK_62] [CHUNK_70] No data sources for calculating financial projections are mentioned in the bill or testimony. [CHUNK_0] [CHUNK_72]\",\n  \"agency_impact\": \"The Board of Pharmacy will be required to register pharmacy technicians and issue a certificate of registration starting January 1, 2026. [CHUNK_73] [CHUNK_74] The Board of Pharmacy voted unanimously to support this measure. [CHUNK_1] The Board recently formed a permitted interaction group to look at the best methods to regulate pharmacy technicians for quality and general assurance. [CHUNK_3]\",\n  \"economic_impact\": \"Your Committee finds that Hawaii is the only state that does not maintain a list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. [CHUNK_75] [CHUNK_76] This measure provides the regulatory oversight needed to ensure that these essential health care workers have the appropriate background and supervision. [CHUNK_77] [CHUNK_78] Testimony describes the measure as a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future. [CHUNK_30] [CHUNK_47] [CHUNK_62] [CHUNK_70]\",\n  \"policy_impact\": \"This measure builds upon Act 104 of the 2024 legislative session, which allows pharmacy technicians to administer immunizations and vaccinations. [CHUNK_5] [CHUNK_39] By establishing registration, the bill lays the foundation for pharmacy technicians in Hawai‘i to expand their scope of practice in the future, aligning with national trends. [CHUNK_20] [CHUNK_29] [CHUNK_46] [CHUNK_61] The bill addresses a significant gap, as Hawai‘i is the only state in the nation without an active, managed list of practicing pharmacy technicians. [CHUNK_18] [CHUNK_27] [CHUNK_44] [CHUNK_58] [CHUNK_65] [CHUNK_76]\",\n  \"revenue_sources\": \"The provided documents for H.B. 72, H.D. 2, S.D. 1 do not identify or describe any funding sources to support the measure. [CHUNK_0] [CHUNK_72] There is no mention of general funds, grants, or fees in the committee report or submitted testimony. [CHUNK_0] [CHUNK_72] The documents do not establish any revenue streams to cover the administrative costs of the registration program. [CHUNK_0] [CHUNK_72]\",\n  \"six_year_fiscal_implications\": \"The provided documents do not contain a six-year fiscal projection for this measure. [CHUNK_0] [CHUNK_72] The initiative is described as coming at a reasonable cost, but no specific recurring expenses are quantified. [CHUNK_21] [CHUNK_47] [CHUNK_62] [CHUNK_70] The creation of a pharmacy technician data repository is noted as an essential step forward, but any associated administrative or technology costs are not specified in the documents. [CHUNK_19] [CHUNK_28] [CHUNK_45] [CHUNK_60] Since Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians, there is no existing data to project the number of registrants. [CHUNK_9] [CHUNK_18] [CHUNK_76] The Board of Pharmacy has formed a permitted interaction group to look at regulation methods, but any costs associated with this group are not detailed. [CHUNK_3] No staffing changes are mentioned. [CHUNK_0] [CHUNK_72] The measure does not establish a revenue stream from registration fees or fines in the provided documents. [CHUNK_0] [CHUNK_72] This measure is considered a prudent investment in the safety, efficiency, and adaptability of the pharmacy workforce. [CHUNK_30] [CHUNK_48] [CHUNK_62] [CHUNK_70]\",\n  \"operating_revenue_impact\": \"The legislative documents provided for this version of the bill do not indicate any impact on operating revenues. [CHUNK_0] [CHUNK_72] There is no mention of new revenue from registration fees, fines, or other sources. [CHUNK_0] [CHUNK_72] Therefore, no changes to the state's operating revenue streams are anticipated based on the current documents. [CHUNK_0] [CHUNK_72]\",\n  \"capital_expenditure_impact\": \"The provided legislative documents do not indicate any capital expenditures are required for this measure. [CHUNK_0] [CHUNK_72] No investments in facilities, equipment, or technology infrastructure are mentioned in the committee report or supporting testimonies. [CHUNK_0] [CHUNK_72] The purpose of the measure is to establish a regulatory system for pharmacy technicians, not to fund capital projects. [CHUNK_73]\",\n  \"fiscal_implications_after_6_years\": \"The provided documents do not specify any ongoing fiscal obligations after a six-year period. [CHUNK_0] [CHUNK_72] The testimony suggests it is a long-term prudent investment in the pharmacy workforce, but does not quantify annual operating costs. [CHUNK_30] [CHUNK_47] [CHUNK_62] [CHUNK_70] The sustainability of the program is not addressed, as no funding sources are identified in the current documents. [CHUNK_0] [CHUNK_72]\",\n  \"updates_from_previous_fiscal_note\": \"The primary change from the previous fiscal note is the absence of specific financial details in the current source documents. [CHUNK_0] [CHUNK_72] The previous note cited specific figures for a registration fee and fines for violations, which are not present in the committee report or testimony for H.B. 72, H.D. 2, S.D. 1. [CHUNK_0] [CHUNK_72] Additionally, the previous note mentioned an effective date of December 31, 2050, which is not mentioned in the current documents. [CHUNK_0] [CHUNK_72]\",\n  \"fte_positions\": \"The provided legislative documents and testimonies for H.B. 72, H.D. 2, S.D. 1 do not specify the addition or modification of any Full Time Equivalent (FTE) positions. [CHUNK_0] [CHUNK_72] There is no mention of new staffing being required by the Board of Pharmacy to implement or manage the registration program. [CHUNK_1] [CHUNK_74] The bill's focus is on establishing the regulatory requirements and duties for pharmacy technicians and pharmacists. [CHUNK_73] [CHUNK_74]\",\n  \"appropriations_changes\": \"Similar to the previous version, the current version of the bill does not contain any appropriations. [CHUNK_0] [CHUNK_72] However, unlike the documents supporting the previous fiscal note, the current documents do not establish an alternative funding mechanism through registration fees. [CHUNK_0] [CHUNK_72] Therefore, no appropriations or funding sources are specified in this version. [CHUNK_0] [CHUNK_72]\",\n  \"funding_sources_changes\": \"There is a significant change in funding sources between the versions. [CHUNK_0] [CHUNK_72] The previous fiscal note was based on documents that established a funding source through registration fees and fines. [CHUNK_0] [CHUNK_72] The current documents for H.B. 72, H.D. 2, S.D. 1 do not specify any method of funding. [CHUNK_0] [CHUNK_72]\",\n  \"department_impact\": \"The department impacted by this measure remains the Department of Commerce and Consumer Affairs, under which the Board of Pharmacy operates. [CHUNK_8] [CHUNK_74] This is consistent with the previous version of the bill. [CHUNK_0] [CHUNK_72] The Board of Pharmacy has provided testimony in support of the measure. [CHUNK_1]\",\n  \"reports_required\": \"The reporting requirements appear consistent with the previous version. [CHUNK_0] [CHUNK_72] The bill imposes a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians to the Board of Pharmacy. [CHUNK_74] The provided documents do not specify new or modified reports to the legislature. [CHUNK_0] [CHUNK_72]\",\n  \"pilot_program\": \"This measure does not create a pilot program. [CHUNK_73] It establishes a permanent registration requirement for pharmacy technicians beginning January 1, 2026. [CHUNK_73] This initiative is intended to align Hawai‘i with national pharmacy technician regulation standards on an ongoing basis. [CHUNK_22] [CHUNK_28] [CHUNK_63]\",\n  \"sunset_date\": \"The provided documents for H.B. 72, H.D. 2, S.D. 1 do not contain a sunset date. [CHUNK_0] [CHUNK_72] This differs from the previous fiscal note, which noted a placeholder effective date of December 31, 2050, that was inserted to encourage further discussion. [CHUNK_0] [CHUNK_72]\",\n  \"effective_date\": \"The provided documents do not specify an effective date for the Act itself. [CHUNK_0] [CHUNK_72] However, the bill specifies that the requirement for pharmacy technicians to be registered shall begin on January 1, 2026. [CHUNK_73]\"\n}"
             }
           ]
         },
@@ -706,8 +706,33 @@
     "chunk_text_map": {
       "14": [
         {
+          "chunk_text": "Consumer Protection, to which was referred H.B. No. 72, H.D. 2, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO PHARMACY,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Beginning January 1, 2026, require pharmacy technicians to be registered with and",
+          "chunk_id": 73,
+          "document_name": "HB72_SD1_SSCR1642_"
+        },
+        {
+          "chunk_text": "1, 2026, require pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy; (2) Impose a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians; and (3) Specify that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians",
+          "chunk_id": 74,
+          "document_name": "HB72_SD1_SSCR1642_"
+        },
+        {
+          "chunk_text": "pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns. Your Committee received testimony in support of this measure from the University of Hawai ʻ i System, Board of Pharmacy, Walgreen Co., and nine individuals. Your Committee finds that Hawaii is the only state that does not",
+          "chunk_id": 75,
+          "document_name": "HB72_SD1_SSCR1642_"
+        },
+        {
+          "chunk_text": "SSCR1642 STAND. COM. REP. NO. 1642 Honolulu, Hawaii RE: H.B. No. 72 H.D. 2 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Commerce and Consumer Protection, to which was referred H.B. No. 72, H.D.",
+          "chunk_id": 72,
+          "document_name": "HB72_SD1_SSCR1642_"
+        },
+        {
           "chunk_text": "finds that Hawaii is the only state that does not maintain a list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. As career professionals in the health care workforce, pharmacy technicians play an essential role in the daily operation of pharmacies and perform",
           "chunk_id": 76,
+          "document_name": "HB72_SD1_SSCR1642_"
+        },
+        {
+          "chunk_text": "essential role in the daily operation of pharmacies and perform functions under the supervision of pharmacists, including the dispensing of medications, processing insurance claims, preparing sterile compounds, and with additional certifications, administering vaccines to patients. This measure provides the regulatory oversight needed to ensure that these essential health care workers",
+          "chunk_id": 77,
           "document_name": "HB72_SD1_SSCR1642_"
         },
         {
@@ -718,53 +743,8 @@
       ],
       "13": [
         {
-          "chunk_text": "technicians and pharmacy interns the ability to administer immunizations and vaccinations to persons three years and older under the direct supervision of a pharmacist. This measure builds upon Act 104 to require that pharmacy technicians are registered by the state. This important measure will bring a regulatory framework to the",
-          "chunk_id": 39,
-          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-        },
-        {
           "chunk_text": "advanced roles, such as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and",
           "chunk_id": 21,
-          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-        },
-        {
-          "chunk_text": "the country, registered pharmacy technicians are taking on advanced roles. Without regulation, Hawai‘i cannot adopt these changes and risks falling behind in providing the best possible care to our communities. HB72 HD2 SD1 represents a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future.",
-          "chunk_id": 30,
-          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-        },
-        {
-          "chunk_text": "this measure’s intent to regulate pharmacy technicians. The Board recently formed a permitted interaction group to look at the best methods to regulate pharmacy technicians for quality and general assurance. The group noted the need to recognize national certifications provided by entities such as the Pharmacy Technician Certification Board, while",
-          "chunk_id": 3,
-          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-        },
-        {
-          "chunk_text": "by entities such as the Pharmacy Technician Certification Board, while still acknowledging the presence of local technicians who have received extensive on the job training. The Board agreed that a registration for all technicians may be a prudent initial step regarding the regulation of pharmacy technicians. An expansion to the",
-          "chunk_id": 4,
-          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-        },
-        {
-          "chunk_text": "the safe preparation and delivery of medications, and this initiative will serve as the backbone for consistent standards of training and competency across the profession. Additionally, the creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. Beyond",
-          "chunk_id": 19,
-          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-        },
-        {
-          "chunk_text": "such as intravenous (IV) solutions and chemotherapy, and with additional certifications, administering vaccines to patients. As career professionals in the health care workforce, the registration of pharmacy technicians is warranted and appropriate for the level of responsibility and trust afforded by the public. Thank you for the opportunity to testify",
-          "chunk_id": 13,
-          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-        },
-        {
-          "chunk_text": "practicing pharmacy technicians. Legislation to address this oversight is important for supporting public health and safety by ensuring that these essential health care workers have the appropriate background and supervision, can receive timely communications and updates regarding relevant practice and regulation changes that impact their work, and facilitate access to",
-          "chunk_id": 10,
-          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-        },
-        {
-          "chunk_text": "technician, clarifies a pharmacist’s supervision of a technician, establishes the specific functions of a pharmacy technician in statute, and exempts this measure from the requirements of a sunrise analysis due to the exigent need for technician regulation. Pharmacy technicians play an important role in the pharmacy setting by handling a",
-          "chunk_id": 36,
-          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-        },
-        {
-          "chunk_text": "regarding the regulation of pharmacy technicians. An expansion to the scope of practice to technicians that are nationally certified should also be recognized. The expansion should include allowances such as those provided in Act 104 of the 2024 legislative session. Thank you for the opportunity to testify on this bill.",
-          "chunk_id": 5,
           "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
         },
         {
@@ -773,18 +753,133 @@
           "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
         },
         {
-          "chunk_text": "practicing pharmacy technicians. The registration of pharmacy technicians is important for protecting patient safety because pharmacy technicians are essential team members who are critical to the workflow of a pharmacy. Working under the supervision of pharmacists, pharmacy technicians perform important functions such as preparing and delivering medications safely and accurately,",
-          "chunk_id": 66,
+          "chunk_text": "role of pharmacy technicians and their impact on the public, this initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, adaptability, and quality of our pharmacy workforce. I urge the Committee to support HB72 and thank you for the opportunity to testify. With",
+          "chunk_id": 70,
           "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
         },
         {
-          "chunk_text": "techs have expanded, and with this comes increased responsibilities and requirements. This bill will also require the pharmacist in charge to report violations conducted by registered technicians. Currently, there is no requirement for reporting, so violators can easily move from one pharmacy to another. Pharmacy technicians have access to controlled",
-          "chunk_id": 53,
+          "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+          "chunk_id": 0,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and adaptability of our",
+          "chunk_id": 47,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "Chair Keohokalole and Members of the Committee: My name is James Skizewski, Executive Officer of the Board of Pharmacy (Board). The Board voted unanimously to support this measure. The purpose of this bill beginning 1/1/2026 is to: (1) require pharmacy technicians to be registered; (2) impose a duty on pharmacists-in-charge",
+          "chunk_id": 1,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "this measure’s intent to regulate pharmacy technicians. The Board recently formed a permitted interaction group to look at the best methods to regulate pharmacy technicians for quality and general assurance. The group noted the need to recognize national certifications provided by entities such as the Pharmacy Technician Certification Board, while",
+          "chunk_id": 3,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "the country, registered pharmacy technicians are taking on advanced roles. Without regulation, Hawai‘i cannot adopt these changes and risks falling behind in providing the best possible care to our communities. HB72 HD2 SD1 represents a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future.",
+          "chunk_id": 30,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "regarding the regulation of pharmacy technicians. An expansion to the scope of practice to technicians that are nationally certified should also be recognized. The expansion should include allowances such as those provided in Act 104 of the 2024 legislative session. Thank you for the opportunity to testify on this bill.",
+          "chunk_id": 5,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "technicians and pharmacy interns the ability to administer immunizations and vaccinations to persons three years and older under the direct supervision of a pharmacist. This measure builds upon Act 104 to require that pharmacy technicians are registered by the state. This important measure will bring a regulatory framework to the",
+          "chunk_id": 39,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "a centralized resource for communicating practice and regulatory changes. Beyond enhancing patient safety, HB72 will lay the foundation for pharmacy technicians in Hawai‘i to expand their scope of practice in the future. Across the country, pharmacy technicians are taking on advanced roles, such as administering immunizations and assisting with medication",
+          "chunk_id": 20,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. Beyond enhancing patient safety, HB72 HD2 SD1 lays the foundation for pharmacy technicians in Hawai‘i to expand their scope of practice in the future. Across the country, registered pharmacy technicians are taking on advanced roles.",
+          "chunk_id": 29,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "for communicating practice and regulatory changes. Beyond enhancing patient safety, HB72 will lay the foundation for pharmacy technicians in Hawai‘i to expand their scope of practice in the future. Across the country, pharmacy technicians are taking on advanced roles, such as administering immunizations and assisting with medication management. Without regulation,",
+          "chunk_id": 46,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "HB72 will lay the foundation for pharmacy technicians in Hawai‘i to be better able to expand their scope of practice in the future. Across the country, pharmacy technicians are taking on advanced roles, such as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes",
+          "chunk_id": 61,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "pharmacy Hawai‘i is the ONLY state in the nation without an active, managed list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. Pharmacy technicians play an essential role in supporting pharmacists and ensuring the safe preparation and delivery of medications, and this initiative",
+          "chunk_id": 18,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "and ensuring the safe preparation and delivery of medications across our state. Hawai‘i is the only state in the nation without an active, managed list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. HB72 HD2 SD1 aligns with national pharmacy technician regulation standards",
+          "chunk_id": 27,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "the only state in the nation without an active, managed list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. Pharmacy technicians play an essential role in supporting pharmacists and ensuring the safe preparation and delivery of medications, and this initiative will serve as",
+          "chunk_id": 44,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "in performing the non-clinical pharmacy tasks (packaging products, answering phones, addressing customers, stocking shelves, etc…) that are critical to the workflow of the pharmacy. Hawai‘i is the only state in the nation without an active, managed list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact",
+          "chunk_id": 58,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "Commerce and Consumer Protection As a pharmacy student and future pharmacist, I strongly support HB72, which will establish the registration of pharmacy technicians in our state. Hawai‘i is the only state in the nation without an active, managed list of practicing pharmacy technicians. The registration of pharmacy technicians is important",
+          "chunk_id": 65,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "the safe preparation and delivery of medications, and this initiative will serve as the backbone for consistent standards of training and competency across the profession. Additionally, the creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. Beyond",
+          "chunk_id": 19,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "HB72 HD2 SD1 aligns with national pharmacy technician regulation standards to strengthen pharmacy practice in Hawai‘i. HB72 HD2 SD1 serves as the backbone for consistent standards of training and competency across the profession. Creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for",
+          "chunk_id": 28,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "and delivery of medications, and this initiative will serve as the backbone for consistent standards of training and competency across the profession. Additionally, the creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. Beyond enhancing patient safety,",
+          "chunk_id": 45,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "more accountability in practice for each technician. Additionally, having pharmacy technicians registering with the state will create a data repository which is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. Beyond enhancing patient safety, HB72 will lay the foundation for pharmacy technicians in Hawai‘i",
+          "chunk_id": 60,
           "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
         },
         {
           "chunk_text": "of Commerce and Consumer Affairs. Pharmacy technicians are career professionals working under the supervision of a pharmacist, and have an essential role in the daily operation of pharmacies. Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians. Legislation to address this oversight is important",
           "chunk_id": 9,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce. \u0010\u0005\u0018 I urge the Committee to support HB72 and help Hawai‘i align with national pharmacy technician regulation standards to strengthen pharmacy practice in our state. Sincerely, Nicole Young, PharmD Associate Professor of Pharmacy Practice and Critical Care Pharmacist",
+          "chunk_id": 48,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "of the Committee: Thank you for the opportunity to submit testimony on HB 72 HD2 SD1. The University of Hawaiʻi at Hilo (UH Hilo) supports HB 72 HD2 SD1, which will require the registration of pharmacy technicians through the Department of Commerce and Consumer Affairs. Pharmacy technicians are career professionals",
+          "chunk_id": 8,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "represents a prudent investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce. I urge the Committee to support HB72 and help Hawai‘i align with national pharmacy technician regulation standards to strengthen pharmacy practice in our state. Lara Gomez, PharmD HB-72-SD-1 Submitted on: 3/24/2025 9:46:30 AM Testimony for",
+          "chunk_id": 22,
+          "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+        },
+        {
+          "chunk_text": "and adaptability of our pharmacy workforce. I urge the Committee to support HB72 and help Hawai‘i align with national pharmacy technician regulation standards to strengthen pharmacy practice in our state. Sincerely, Joy Matsuyama, PharmD, BCPS Clinical Services Manager Pharmacare International %%mW Testimony for HB72-HD2-SD1: A bill to mandate pharmacy technician",
+          "chunk_id": 63,
           "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
         }
       ]
@@ -810,44 +905,80 @@
     "sentence_chunk_mapping": [
       {
         "section": "overview",
-        "sentence": "Your Committee finds that Hawaii is the only state that does not maintain a list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety.",
+        "sentence": "The purpose and intent of this measure is to, beginning January 1, 2026, require pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy.",
         "chunks": [
           {
-            "chunk_id": 76,
+            "chunk_id": 73,
             "citation_number": 14,
-            "chunk_text": "finds that Hawaii is the only state that does not maintain a list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. As career professionals in the health care workforce, pharmacy technicians play an essential role in the daily operation of pharmacies and perform",
+            "chunk_text": "Consumer Protection, to which was referred H.B. No. 72, H.D. 2, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO PHARMACY,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Beginning January 1, 2026, require pharmacy technicians to be registered with and",
+            "document_name": "HB72_SD1_SSCR1642_"
+          },
+          {
+            "chunk_id": 73,
+            "citation_number": 14,
+            "chunk_text": "Consumer Protection, to which was referred H.B. No. 72, H.D. 2, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO PHARMACY,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Beginning January 1, 2026, require pharmacy technicians to be registered with and",
             "document_name": "HB72_SD1_SSCR1642_"
           }
         ]
       },
       {
         "section": "overview",
-        "sentence": "This measure provides the regulatory oversight needed to ensure that these essential health care workers have the appropriate background and supervision, while also facilitating access to training opportunities and expanding their scope of practice through additional certifications.",
+        "sentence": "This measure will impose a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians.",
         "chunks": [
           {
-            "chunk_id": 78,
+            "chunk_id": 74,
             "citation_number": 14,
-            "chunk_text": "oversight needed to ensure that these essential health care workers have the appropriate background and supervision, while also facilitating access to training opportunities and expanding their scope of practice through additional certifications. Your Committee therefore believes the registration of pharmacy technicians is warranted and appropriate for the level of responsibility",
+            "chunk_text": "1, 2026, require pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy; (2) Impose a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians; and (3) Specify that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians",
             "document_name": "HB72_SD1_SSCR1642_"
           }
         ]
       },
       {
         "section": "overview",
-        "sentence": "This measure builds upon Act 104 that allows, in part, pharmacists, pharmacy technicians and pharmacy interns the ability to administer immunizations and vaccinations to persons three years and older under the direct supervision of a pharmacist.",
+        "sentence": "It also will specify that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns.",
         "chunks": [
           {
-            "chunk_id": 39,
+            "chunk_id": 74,
+            "citation_number": 14,
+            "chunk_text": "1, 2026, require pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy; (2) Impose a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians; and (3) Specify that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians",
+            "document_name": "HB72_SD1_SSCR1642_"
+          },
+          {
+            "chunk_id": 74,
+            "citation_number": 14,
+            "chunk_text": "1, 2026, require pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy; (2) Impose a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians; and (3) Specify that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians",
+            "document_name": "HB72_SD1_SSCR1642_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "The provided legislative documents do not contain any specific appropriations for this measure.",
+        "chunks": [
+          {
+            "chunk_id": 72,
+            "citation_number": 14,
+            "chunk_text": "SSCR1642 STAND. COM. REP. NO. 1642 Honolulu, Hawaii RE: H.B. No. 72 H.D. 2 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Commerce and Consumer Protection, to which was referred H.B. No. 72, H.D.",
+            "document_name": "HB72_SD1_SSCR1642_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations",
+        "sentence": "Testimony suggests the initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce.",
+        "chunks": [
+          {
+            "chunk_id": 21,
             "citation_number": 13,
-            "chunk_text": "technicians and pharmacy interns the ability to administer immunizations and vaccinations to persons three years and older under the direct supervision of a pharmacist. This measure builds upon Act 104 to require that pharmacy technicians are registered by the state. This important measure will bring a regulatory framework to the",
+            "chunk_text": "advanced roles, such as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and",
             "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-          }
-        ]
-      },
-      {
-        "section": "assumptions_and_methodology",
-        "sentence": "Testimony states this initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce.",
-        "chunks": [
+          },
+          {
+            "chunk_id": 21,
+            "citation_number": 13,
+            "chunk_text": "advanced roles, such as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
           {
             "chunk_id": 21,
             "citation_number": 13,
@@ -857,9 +988,183 @@
         ]
       },
       {
-        "section": "assumptions_and_methodology",
-        "sentence": "Testimony also suggests that the measure is a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future.",
+        "section": "appropriations",
+        "sentence": "The documents do not specify any intended uses for funding such as staffing, training, or technology.",
         "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The provided documents do not contain financial projections or a detailed cost estimation methodology for this measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "The fiscal impact is described qualitatively, with testimony stating the initiative comes at a reasonable cost.",
+        "chunks": [
+          {
+            "chunk_id": 47,
+            "citation_number": 13,
+            "chunk_text": "as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and adaptability of our",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 47,
+            "citation_number": 13,
+            "chunk_text": "as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and adaptability of our",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 47,
+            "citation_number": 13,
+            "chunk_text": "as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and adaptability of our",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "assumptions_and_methodology",
+        "sentence": "No data sources for calculating financial projections are mentioned in the bill or testimony.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The Board of Pharmacy will be required to register pharmacy technicians and issue a certificate of registration starting January 1, 2026.",
+        "chunks": [
+          {
+            "chunk_id": 73,
+            "citation_number": 14,
+            "chunk_text": "Consumer Protection, to which was referred H.B. No. 72, H.D. 2, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO PHARMACY,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Beginning January 1, 2026, require pharmacy technicians to be registered with and",
+            "document_name": "HB72_SD1_SSCR1642_"
+          },
+          {
+            "chunk_id": 73,
+            "citation_number": 14,
+            "chunk_text": "Consumer Protection, to which was referred H.B. No. 72, H.D. 2, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO PHARMACY,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Beginning January 1, 2026, require pharmacy technicians to be registered with and",
+            "document_name": "HB72_SD1_SSCR1642_"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The Board of Pharmacy voted unanimously to support this measure.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 13,
+            "chunk_text": "Chair Keohokalole and Members of the Committee: My name is James Skizewski, Executive Officer of the Board of Pharmacy (Board). The Board voted unanimously to support this measure. The purpose of this bill beginning 1/1/2026 is to: (1) require pharmacy technicians to be registered; (2) impose a duty on pharmacists-in-charge",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The Board recently formed a permitted interaction group to look at the best methods to regulate pharmacy technicians for quality and general assurance.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 13,
+            "chunk_text": "this measure’s intent to regulate pharmacy technicians. The Board recently formed a permitted interaction group to look at the best methods to regulate pharmacy technicians for quality and general assurance. The group noted the need to recognize national certifications provided by entities such as the Pharmacy Technician Certification Board, while",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "Your Committee finds that Hawaii is the only state that does not maintain a list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety.",
+        "chunks": [
+          {
+            "chunk_id": 75,
+            "citation_number": 14,
+            "chunk_text": "pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns. Your Committee received testimony in support of this measure from the University of Hawai ʻ i System, Board of Pharmacy, Walgreen Co., and nine individuals. Your Committee finds that Hawaii is the only state that does not",
+            "document_name": "HB72_SD1_SSCR1642_"
+          },
+          {
+            "chunk_id": 75,
+            "citation_number": 14,
+            "chunk_text": "pharmacists are responsible for the actions of registered pharmacy technicians and pharmacy interns. Your Committee received testimony in support of this measure from the University of Hawai ʻ i System, Board of Pharmacy, Walgreen Co., and nine individuals. Your Committee finds that Hawaii is the only state that does not",
+            "document_name": "HB72_SD1_SSCR1642_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "This measure provides the regulatory oversight needed to ensure that these essential health care workers have the appropriate background and supervision.",
+        "chunks": [
+          {
+            "chunk_id": 77,
+            "citation_number": 14,
+            "chunk_text": "essential role in the daily operation of pharmacies and perform functions under the supervision of pharmacists, including the dispensing of medications, processing insurance claims, preparing sterile compounds, and with additional certifications, administering vaccines to patients. This measure provides the regulatory oversight needed to ensure that these essential health care workers",
+            "document_name": "HB72_SD1_SSCR1642_"
+          },
+          {
+            "chunk_id": 77,
+            "citation_number": 14,
+            "chunk_text": "essential role in the daily operation of pharmacies and perform functions under the supervision of pharmacists, including the dispensing of medications, processing insurance claims, preparing sterile compounds, and with additional certifications, administering vaccines to patients. This measure provides the regulatory oversight needed to ensure that these essential health care workers",
+            "document_name": "HB72_SD1_SSCR1642_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "Testimony describes the measure as a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future.",
+        "chunks": [
+          {
+            "chunk_id": 30,
+            "citation_number": 13,
+            "chunk_text": "the country, registered pharmacy technicians are taking on advanced roles. Without regulation, Hawai‘i cannot adopt these changes and risks falling behind in providing the best possible care to our communities. HB72 HD2 SD1 represents a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future.",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 30,
+            "citation_number": 13,
+            "chunk_text": "the country, registered pharmacy technicians are taking on advanced roles. Without regulation, Hawai‘i cannot adopt these changes and risks falling behind in providing the best possible care to our communities. HB72 HD2 SD1 represents a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future.",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 30,
+            "citation_number": 13,
+            "chunk_text": "the country, registered pharmacy technicians are taking on advanced roles. Without regulation, Hawai‘i cannot adopt these changes and risks falling behind in providing the best possible care to our communities. HB72 HD2 SD1 represents a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future.",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
           {
             "chunk_id": 30,
             "citation_number": 13,
@@ -869,105 +1174,15 @@
         ]
       },
       {
-        "section": "agency_impact",
-        "sentence": "The Board of Pharmacy recently formed a permitted interaction group to look at the best methods to regulate pharmacy technicians for quality and general assurance.",
-        "chunks": [
-          {
-            "chunk_id": 3,
-            "citation_number": 13,
-            "chunk_text": "this measure’s intent to regulate pharmacy technicians. The Board recently formed a permitted interaction group to look at the best methods to regulate pharmacy technicians for quality and general assurance. The group noted the need to recognize national certifications provided by entities such as the Pharmacy Technician Certification Board, while",
-            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-          }
-        ]
-      },
-      {
-        "section": "agency_impact",
-        "sentence": "The Board agreed that a registration for all technicians may be a prudent initial step regarding the regulation of pharmacy technicians.",
-        "chunks": [
-          {
-            "chunk_id": 4,
-            "citation_number": 13,
-            "chunk_text": "by entities such as the Pharmacy Technician Certification Board, while still acknowledging the presence of local technicians who have received extensive on the job training. The Board agreed that a registration for all technicians may be a prudent initial step regarding the regulation of pharmacy technicians. An expansion to the",
-            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-          }
-        ]
-      },
-      {
-        "section": "agency_impact",
-        "sentence": "The creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for communicating practice and regulatory changes.",
-        "chunks": [
-          {
-            "chunk_id": 19,
-            "citation_number": 13,
-            "chunk_text": "the safe preparation and delivery of medications, and this initiative will serve as the backbone for consistent standards of training and competency across the profession. Additionally, the creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. Beyond",
-            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-          }
-        ]
-      },
-      {
-        "section": "economic_impact",
-        "sentence": "The registration of pharmacy technicians is warranted and appropriate for the level of responsibility and trust afforded by the public.",
-        "chunks": [
-          {
-            "chunk_id": 13,
-            "citation_number": 13,
-            "chunk_text": "such as intravenous (IV) solutions and chemotherapy, and with additional certifications, administering vaccines to patients. As career professionals in the health care workforce, the registration of pharmacy technicians is warranted and appropriate for the level of responsibility and trust afforded by the public. Thank you for the opportunity to testify",
-            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-          }
-        ]
-      },
-      {
-        "section": "economic_impact",
-        "sentence": "This measure supports public health and safety by ensuring that these essential health care workers have the appropriate background and supervision.",
-        "chunks": [
-          {
-            "chunk_id": 10,
-            "citation_number": 13,
-            "chunk_text": "practicing pharmacy technicians. Legislation to address this oversight is important for supporting public health and safety by ensuring that these essential health care workers have the appropriate background and supervision, can receive timely communications and updates regarding relevant practice and regulation changes that impact their work, and facilitate access to",
-            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-          }
-        ]
-      },
-      {
-        "section": "economic_impact",
-        "sentence": "Regulation will allow Hawai‘i to adapt to changes and avoid falling behind in providing the best possible care to our communities.",
-        "chunks": [
-          {
-            "chunk_id": 21,
-            "citation_number": 13,
-            "chunk_text": "advanced roles, such as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and",
-            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-          }
-        ]
-      },
-      {
         "section": "policy_impact",
-        "sentence": "This measure builds upon Act 104 to require that pharmacy technicians are registered by the state.",
+        "sentence": "This measure builds upon Act 104 of the 2024 legislative session, which allows pharmacy technicians to administer immunizations and vaccinations.",
         "chunks": [
           {
-            "chunk_id": 39,
+            "chunk_id": 5,
             "citation_number": 13,
-            "chunk_text": "technicians and pharmacy interns the ability to administer immunizations and vaccinations to persons three years and older under the direct supervision of a pharmacist. This measure builds upon Act 104 to require that pharmacy technicians are registered by the state. This important measure will bring a regulatory framework to the",
+            "chunk_text": "regarding the regulation of pharmacy technicians. An expansion to the scope of practice to technicians that are nationally certified should also be recognized. The expansion should include allowances such as those provided in Act 104 of the 2024 legislative session. Thank you for the opportunity to testify on this bill.",
             "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-          }
-        ]
-      },
-      {
-        "section": "policy_impact",
-        "sentence": "This measure is exempt from the requirements of a sunrise analysis due to the exigent need for technician regulation.",
-        "chunks": [
-          {
-            "chunk_id": 36,
-            "citation_number": 13,
-            "chunk_text": "technician, clarifies a pharmacist’s supervision of a technician, establishes the specific functions of a pharmacy technician in statute, and exempts this measure from the requirements of a sunrise analysis due to the exigent need for technician regulation. Pharmacy technicians play an important role in the pharmacy setting by handling a",
-            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-          }
-        ]
-      },
-      {
-        "section": "policy_impact",
-        "sentence": "The Board of Pharmacy supports an expansion to the scope of practice for nationally certified technicians, including allowances provided in Act 104 of the 2024 legislative session.",
-        "chunks": [
+          },
           {
             "chunk_id": 5,
             "citation_number": 13,
@@ -977,57 +1192,225 @@
         ]
       },
       {
-        "section": "six_year_fiscal_implications",
-        "sentence": "This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce.",
+        "section": "policy_impact",
+        "sentence": "By establishing registration, the bill lays the foundation for pharmacy technicians in Hawai‘i to expand their scope of practice in the future, aligning with national trends.",
         "chunks": [
           {
-            "chunk_id": 62,
+            "chunk_id": 20,
             "citation_number": 13,
-            "chunk_text": "medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce. I urge the Committee",
+            "chunk_text": "a centralized resource for communicating practice and regulatory changes. Beyond enhancing patient safety, HB72 will lay the foundation for pharmacy technicians in Hawai‘i to expand their scope of practice in the future. Across the country, pharmacy technicians are taking on advanced roles, such as administering immunizations and assisting with medication",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 20,
+            "citation_number": 13,
+            "chunk_text": "a centralized resource for communicating practice and regulatory changes. Beyond enhancing patient safety, HB72 will lay the foundation for pharmacy technicians in Hawai‘i to expand their scope of practice in the future. Across the country, pharmacy technicians are taking on advanced roles, such as administering immunizations and assisting with medication",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 20,
+            "citation_number": 13,
+            "chunk_text": "a centralized resource for communicating practice and regulatory changes. Beyond enhancing patient safety, HB72 will lay the foundation for pharmacy technicians in Hawai‘i to expand their scope of practice in the future. Across the country, pharmacy technicians are taking on advanced roles, such as administering immunizations and assisting with medication",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 20,
+            "citation_number": 13,
+            "chunk_text": "a centralized resource for communicating practice and regulatory changes. Beyond enhancing patient safety, HB72 will lay the foundation for pharmacy technicians in Hawai‘i to expand their scope of practice in the future. Across the country, pharmacy technicians are taking on advanced roles, such as administering immunizations and assisting with medication",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The bill addresses a significant gap, as Hawai‘i is the only state in the nation without an active, managed list of practicing pharmacy technicians.",
+        "chunks": [
+          {
+            "chunk_id": 18,
+            "citation_number": 13,
+            "chunk_text": "pharmacy Hawai‘i is the ONLY state in the nation without an active, managed list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. Pharmacy technicians play an essential role in supporting pharmacists and ensuring the safe preparation and delivery of medications, and this initiative",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 18,
+            "citation_number": 13,
+            "chunk_text": "pharmacy Hawai‘i is the ONLY state in the nation without an active, managed list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. Pharmacy technicians play an essential role in supporting pharmacists and ensuring the safe preparation and delivery of medications, and this initiative",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 18,
+            "citation_number": 13,
+            "chunk_text": "pharmacy Hawai‘i is the ONLY state in the nation without an active, managed list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. Pharmacy technicians play an essential role in supporting pharmacists and ensuring the safe preparation and delivery of medications, and this initiative",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 18,
+            "citation_number": 13,
+            "chunk_text": "pharmacy Hawai‘i is the ONLY state in the nation without an active, managed list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. Pharmacy technicians play an essential role in supporting pharmacists and ensuring the safe preparation and delivery of medications, and this initiative",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 18,
+            "citation_number": 13,
+            "chunk_text": "pharmacy Hawai‘i is the ONLY state in the nation without an active, managed list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. Pharmacy technicians play an essential role in supporting pharmacists and ensuring the safe preparation and delivery of medications, and this initiative",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 18,
+            "citation_number": 13,
+            "chunk_text": "pharmacy Hawai‘i is the ONLY state in the nation without an active, managed list of practicing pharmacy technicians, leaving a significant gap in oversight that can impact patient safety. Pharmacy technicians play an essential role in supporting pharmacists and ensuring the safe preparation and delivery of medications, and this initiative",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The provided documents for H.B. 72, H.D. 2, S.D. 1 do not identify or describe any funding sources to support the measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "There is no mention of general funds, grants, or fees in the committee report or submitted testimony.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The documents do not establish any revenue streams to cover the administrative costs of the registration program.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
             "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
           }
         ]
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "The registration of pharmacy technicians is important for protecting patient safety because pharmacy technicians are essential team members who are critical to the workflow of a pharmacy.",
+        "sentence": "The provided documents do not contain a six-year fiscal projection for this measure.",
         "chunks": [
           {
-            "chunk_id": 66,
+            "chunk_id": 0,
             "citation_number": 13,
-            "chunk_text": "practicing pharmacy technicians. The registration of pharmacy technicians is important for protecting patient safety because pharmacy technicians are essential team members who are critical to the workflow of a pharmacy. Working under the supervision of pharmacists, pharmacy technicians perform important functions such as preparing and delivering medications safely and accurately,",
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
             "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
           }
         ]
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "Currently, there is no requirement for reporting violations, so violators can easily move from one pharmacy to another.",
+        "sentence": "The initiative is described as coming at a reasonable cost, but no specific recurring expenses are quantified.",
         "chunks": [
           {
-            "chunk_id": 53,
+            "chunk_id": 21,
             "citation_number": 13,
-            "chunk_text": "techs have expanded, and with this comes increased responsibilities and requirements. This bill will also require the pharmacist in charge to report violations conducted by registered technicians. Currently, there is no requirement for reporting, so violators can easily move from one pharmacy to another. Pharmacy technicians have access to controlled",
+            "chunk_text": "advanced roles, such as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 21,
+            "citation_number": 13,
+            "chunk_text": "advanced roles, such as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 21,
+            "citation_number": 13,
+            "chunk_text": "advanced roles, such as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 21,
+            "citation_number": 13,
+            "chunk_text": "advanced roles, such as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and",
             "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
           }
         ]
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "This bill will require the pharmacist in charge to report violations conducted by registered technicians.",
+        "sentence": "The creation of a pharmacy technician data repository is noted as an essential step forward, but any associated administrative or technology costs are not specified in the documents.",
         "chunks": [
           {
-            "chunk_id": 53,
+            "chunk_id": 19,
             "citation_number": 13,
-            "chunk_text": "techs have expanded, and with this comes increased responsibilities and requirements. This bill will also require the pharmacist in charge to report violations conducted by registered technicians. Currently, there is no requirement for reporting, so violators can easily move from one pharmacy to another. Pharmacy technicians have access to controlled",
+            "chunk_text": "the safe preparation and delivery of medications, and this initiative will serve as the backbone for consistent standards of training and competency across the profession. Additionally, the creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. Beyond",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 19,
+            "citation_number": 13,
+            "chunk_text": "the safe preparation and delivery of medications, and this initiative will serve as the backbone for consistent standards of training and competency across the profession. Additionally, the creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. Beyond",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 19,
+            "citation_number": 13,
+            "chunk_text": "the safe preparation and delivery of medications, and this initiative will serve as the backbone for consistent standards of training and competency across the profession. Additionally, the creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. Beyond",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 19,
+            "citation_number": 13,
+            "chunk_text": "the safe preparation and delivery of medications, and this initiative will serve as the backbone for consistent standards of training and competency across the profession. Additionally, the creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. Beyond",
             "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
           }
         ]
       },
       {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "New testimony and committee reports emphasize that Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians, which creates a significant gap in oversight that can impact patient safety.",
+        "section": "six_year_fiscal_implications",
+        "sentence": "Since Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians, there is no existing data to project the number of registrants.",
         "chunks": [
+          {
+            "chunk_id": 9,
+            "citation_number": 13,
+            "chunk_text": "of Commerce and Consumer Affairs. Pharmacy technicians are career professionals working under the supervision of a pharmacist, and have an essential role in the daily operation of pharmacies. Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians. Legislation to address this oversight is important",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 9,
+            "citation_number": 13,
+            "chunk_text": "of Commerce and Consumer Affairs. Pharmacy technicians are career professionals working under the supervision of a pharmacist, and have an essential role in the daily operation of pharmacies. Hawaiʻi is the only state that does not maintain a list of practicing pharmacy technicians. Legislation to address this oversight is important",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
           {
             "chunk_id": 9,
             "citation_number": 13,
@@ -1037,20 +1420,8 @@
         ]
       },
       {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "The measure is now explicitly linked to and builds upon Act 104 of the 2024 legislative session, which expanded the roles of pharmacy technicians to include administering immunizations.",
-        "chunks": [
-          {
-            "chunk_id": 39,
-            "citation_number": 13,
-            "chunk_text": "technicians and pharmacy interns the ability to administer immunizations and vaccinations to persons three years and older under the direct supervision of a pharmacist. This measure builds upon Act 104 to require that pharmacy technicians are registered by the state. This important measure will bring a regulatory framework to the",
-            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
-          }
-        ]
-      },
-      {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "The Board of Pharmacy's support is further detailed, noting the formation of a permitted interaction group which concluded that registration is a prudent initial step.",
+        "section": "six_year_fiscal_implications",
+        "sentence": "The Board of Pharmacy has formed a permitted interaction group to look at regulation methods, but any costs associated with this group are not detailed.",
         "chunks": [
           {
             "chunk_id": 3,
@@ -1061,42 +1432,748 @@
         ]
       },
       {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "Testimony highlights the creation of a pharmacy technician data repository as an essential tool for communicating practice changes.",
+        "section": "six_year_fiscal_implications",
+        "sentence": "No staffing changes are mentioned.",
         "chunks": [
           {
-            "chunk_id": 19,
+            "chunk_id": 0,
             "citation_number": 13,
-            "chunk_text": "the safe preparation and delivery of medications, and this initiative will serve as the backbone for consistent standards of training and competency across the profession. Additionally, the creation of a pharmacy technician data repository is an essential step forward, providing a centralized resource for communicating practice and regulatory changes. Beyond",
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The measure does not establish a revenue stream from registration fees or fines in the provided documents.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "This measure is considered a prudent investment in the safety, efficiency, and adaptability of the pharmacy workforce.",
+        "chunks": [
+          {
+            "chunk_id": 30,
+            "citation_number": 13,
+            "chunk_text": "the country, registered pharmacy technicians are taking on advanced roles. Without regulation, Hawai‘i cannot adopt these changes and risks falling behind in providing the best possible care to our communities. HB72 HD2 SD1 represents a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future.",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 30,
+            "citation_number": 13,
+            "chunk_text": "the country, registered pharmacy technicians are taking on advanced roles. Without regulation, Hawai‘i cannot adopt these changes and risks falling behind in providing the best possible care to our communities. HB72 HD2 SD1 represents a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future.",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 30,
+            "citation_number": 13,
+            "chunk_text": "the country, registered pharmacy technicians are taking on advanced roles. Without regulation, Hawai‘i cannot adopt these changes and risks falling behind in providing the best possible care to our communities. HB72 HD2 SD1 represents a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future.",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 30,
+            "citation_number": 13,
+            "chunk_text": "the country, registered pharmacy technicians are taking on advanced roles. Without regulation, Hawai‘i cannot adopt these changes and risks falling behind in providing the best possible care to our communities. HB72 HD2 SD1 represents a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future.",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "The legislative documents provided for this version of the bill do not indicate any impact on operating revenues.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "There is no mention of new revenue from registration fees, fines, or other sources.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "Therefore, no changes to the state's operating revenue streams are anticipated based on the current documents.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The provided legislative documents do not indicate any capital expenditures are required for this measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "No investments in facilities, equipment, or technology infrastructure are mentioned in the committee report or supporting testimonies.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The purpose of the measure is to establish a regulatory system for pharmacy technicians, not to fund capital projects.",
+        "chunks": [
+          {
+            "chunk_id": 73,
+            "citation_number": 14,
+            "chunk_text": "Consumer Protection, to which was referred H.B. No. 72, H.D. 2, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO PHARMACY,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Beginning January 1, 2026, require pharmacy technicians to be registered with and",
+            "document_name": "HB72_SD1_SSCR1642_"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The provided documents do not specify any ongoing fiscal obligations after a six-year period.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The testimony suggests it is a long-term prudent investment in the pharmacy workforce, but does not quantify annual operating costs.",
+        "chunks": [
+          {
+            "chunk_id": 30,
+            "citation_number": 13,
+            "chunk_text": "the country, registered pharmacy technicians are taking on advanced roles. Without regulation, Hawai‘i cannot adopt these changes and risks falling behind in providing the best possible care to our communities. HB72 HD2 SD1 represents a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future.",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 30,
+            "citation_number": 13,
+            "chunk_text": "the country, registered pharmacy technicians are taking on advanced roles. Without regulation, Hawai‘i cannot adopt these changes and risks falling behind in providing the best possible care to our communities. HB72 HD2 SD1 represents a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future.",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 30,
+            "citation_number": 13,
+            "chunk_text": "the country, registered pharmacy technicians are taking on advanced roles. Without regulation, Hawai‘i cannot adopt these changes and risks falling behind in providing the best possible care to our communities. HB72 HD2 SD1 represents a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future.",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 30,
+            "citation_number": 13,
+            "chunk_text": "the country, registered pharmacy technicians are taking on advanced roles. Without regulation, Hawai‘i cannot adopt these changes and risks falling behind in providing the best possible care to our communities. HB72 HD2 SD1 represents a prudent investment in the safety, efficiency, and adaptability of our pharmacy workforce into the future.",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The sustainability of the program is not addressed, as no funding sources are identified in the current documents.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
             "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
           }
         ]
       },
       {
         "section": "updates_from_previous_fiscal_note",
-        "sentence": "The measure is noted to be exempt from the requirements of a sunrise analysis due to the exigent need for technician regulation.",
+        "sentence": "The primary change from the previous fiscal note is the absence of specific financial details in the current source documents.",
         "chunks": [
           {
-            "chunk_id": 36,
+            "chunk_id": 0,
             "citation_number": 13,
-            "chunk_text": "technician, clarifies a pharmacist’s supervision of a technician, establishes the specific functions of a pharmacy technician in statute, and exempts this measure from the requirements of a sunrise analysis due to the exigent need for technician regulation. Pharmacy technicians play an important role in the pharmacy setting by handling a",
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
             "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
           }
         ]
       },
       {
         "section": "updates_from_previous_fiscal_note",
-        "sentence": "Multiple testimonies characterize the initiative as a 'reasonable cost' and a 'prudent investment'.",
+        "sentence": "The previous note cited specific figures for a registration fee and fines for violations, which are not present in the committee report or testimony for H.B. 72, H.D. 2, S.D. 1.",
         "chunks": [
           {
-            "chunk_id": 21,
+            "chunk_id": 0,
             "citation_number": 13,
-            "chunk_text": "advanced roles, such as administering immunizations and assisting with medication management. Without regulation, Hawai‘i cannot adapt to these changes and risks falling behind in providing the best possible care to our communities. This initiative comes at a reasonable cost and represents a prudent investment in ensuring the safety, efficiency, and",
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
             "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "Additionally, the previous note mentioned an effective date of December 31, 2050, which is not mentioned in the current documents.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "fte_positions",
+        "sentence": "The provided legislative documents and testimonies for H.B. 72, H.D. 2, S.D. 1 do not specify the addition or modification of any Full Time Equivalent (FTE) positions.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "fte_positions",
+        "sentence": "There is no mention of new staffing being required by the Board of Pharmacy to implement or manage the registration program.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 13,
+            "chunk_text": "Chair Keohokalole and Members of the Committee: My name is James Skizewski, Executive Officer of the Board of Pharmacy (Board). The Board voted unanimously to support this measure. The purpose of this bill beginning 1/1/2026 is to: (1) require pharmacy technicians to be registered; (2) impose a duty on pharmacists-in-charge",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 1,
+            "citation_number": 13,
+            "chunk_text": "Chair Keohokalole and Members of the Committee: My name is James Skizewski, Executive Officer of the Board of Pharmacy (Board). The Board voted unanimously to support this measure. The purpose of this bill beginning 1/1/2026 is to: (1) require pharmacy technicians to be registered; (2) impose a duty on pharmacists-in-charge",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "fte_positions",
+        "sentence": "The bill's focus is on establishing the regulatory requirements and duties for pharmacy technicians and pharmacists.",
+        "chunks": [
+          {
+            "chunk_id": 73,
+            "citation_number": 14,
+            "chunk_text": "Consumer Protection, to which was referred H.B. No. 72, H.D. 2, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO PHARMACY,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Beginning January 1, 2026, require pharmacy technicians to be registered with and",
+            "document_name": "HB72_SD1_SSCR1642_"
+          },
+          {
+            "chunk_id": 73,
+            "citation_number": 14,
+            "chunk_text": "Consumer Protection, to which was referred H.B. No. 72, H.D. 2, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO PHARMACY,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Beginning January 1, 2026, require pharmacy technicians to be registered with and",
+            "document_name": "HB72_SD1_SSCR1642_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations_changes",
+        "sentence": "Similar to the previous version, the current version of the bill does not contain any appropriations.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations_changes",
+        "sentence": "However, unlike the documents supporting the previous fiscal note, the current documents do not establish an alternative funding mechanism through registration fees.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations_changes",
+        "sentence": "Therefore, no appropriations or funding sources are specified in this version.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "funding_sources_changes",
+        "sentence": "There is a significant change in funding sources between the versions.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "funding_sources_changes",
+        "sentence": "The previous fiscal note was based on documents that established a funding source through registration fees and fines.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "funding_sources_changes",
+        "sentence": "The current documents for H.B. 72, H.D. 2, S.D. 1 do not specify any method of funding.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "department_impact",
+        "sentence": "The department impacted by this measure remains the Department of Commerce and Consumer Affairs, under which the Board of Pharmacy operates.",
+        "chunks": [
+          {
+            "chunk_id": 8,
+            "citation_number": 13,
+            "chunk_text": "of the Committee: Thank you for the opportunity to submit testimony on HB 72 HD2 SD1. The University of Hawaiʻi at Hilo (UH Hilo) supports HB 72 HD2 SD1, which will require the registration of pharmacy technicians through the Department of Commerce and Consumer Affairs. Pharmacy technicians are career professionals",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 8,
+            "citation_number": 13,
+            "chunk_text": "of the Committee: Thank you for the opportunity to submit testimony on HB 72 HD2 SD1. The University of Hawaiʻi at Hilo (UH Hilo) supports HB 72 HD2 SD1, which will require the registration of pharmacy technicians through the Department of Commerce and Consumer Affairs. Pharmacy technicians are career professionals",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "department_impact",
+        "sentence": "This is consistent with the previous version of the bill.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "department_impact",
+        "sentence": "The Board of Pharmacy has provided testimony in support of the measure.",
+        "chunks": [
+          {
+            "chunk_id": 1,
+            "citation_number": 13,
+            "chunk_text": "Chair Keohokalole and Members of the Committee: My name is James Skizewski, Executive Officer of the Board of Pharmacy (Board). The Board voted unanimously to support this measure. The purpose of this bill beginning 1/1/2026 is to: (1) require pharmacy technicians to be registered; (2) impose a duty on pharmacists-in-charge",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "reports_required",
+        "sentence": "The reporting requirements appear consistent with the previous version.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "reports_required",
+        "sentence": "The bill imposes a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians to the Board of Pharmacy.",
+        "chunks": [
+          {
+            "chunk_id": 74,
+            "citation_number": 14,
+            "chunk_text": "1, 2026, require pharmacy technicians to be registered with and obtain a certificate of registration from the Board of Pharmacy; (2) Impose a duty on pharmacists-in-charge to report violations conducted by registered pharmacy technicians; and (3) Specify that supervising registered pharmacists are responsible for the actions of registered pharmacy technicians",
+            "document_name": "HB72_SD1_SSCR1642_"
+          }
+        ]
+      },
+      {
+        "section": "reports_required",
+        "sentence": "The provided documents do not specify new or modified reports to the legislature.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "pilot_program",
+        "sentence": "This measure does not create a pilot program.",
+        "chunks": [
+          {
+            "chunk_id": 73,
+            "citation_number": 14,
+            "chunk_text": "Consumer Protection, to which was referred H.B. No. 72, H.D. 2, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO PHARMACY,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Beginning January 1, 2026, require pharmacy technicians to be registered with and",
+            "document_name": "HB72_SD1_SSCR1642_"
+          }
+        ]
+      },
+      {
+        "section": "pilot_program",
+        "sentence": "It establishes a permanent registration requirement for pharmacy technicians beginning January 1, 2026.",
+        "chunks": [
+          {
+            "chunk_id": 73,
+            "citation_number": 14,
+            "chunk_text": "Consumer Protection, to which was referred H.B. No. 72, H.D. 2, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO PHARMACY,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Beginning January 1, 2026, require pharmacy technicians to be registered with and",
+            "document_name": "HB72_SD1_SSCR1642_"
+          }
+        ]
+      },
+      {
+        "section": "pilot_program",
+        "sentence": "This initiative is intended to align Hawai‘i with national pharmacy technician regulation standards on an ongoing basis.",
+        "chunks": [
+          {
+            "chunk_id": 22,
+            "citation_number": 13,
+            "chunk_text": "represents a prudent investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce. I urge the Committee to support HB72 and help Hawai‘i align with national pharmacy technician regulation standards to strengthen pharmacy practice in our state. Lara Gomez, PharmD HB-72-SD-1 Submitted on: 3/24/2025 9:46:30 AM Testimony for",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 22,
+            "citation_number": 13,
+            "chunk_text": "represents a prudent investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce. I urge the Committee to support HB72 and help Hawai‘i align with national pharmacy technician regulation standards to strengthen pharmacy practice in our state. Lara Gomez, PharmD HB-72-SD-1 Submitted on: 3/24/2025 9:46:30 AM Testimony for",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 22,
+            "citation_number": 13,
+            "chunk_text": "represents a prudent investment in ensuring the safety, efficiency, and adaptability of our pharmacy workforce. I urge the Committee to support HB72 and help Hawai‘i align with national pharmacy technician regulation standards to strengthen pharmacy practice in our state. Lara Gomez, PharmD HB-72-SD-1 Submitted on: 3/24/2025 9:46:30 AM Testimony for",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "sunset_date",
+        "sentence": "The provided documents for H.B. 72, H.D. 2, S.D. 1 do not contain a sunset date.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "sunset_date",
+        "sentence": "This differs from the previous fiscal note, which noted a placeholder effective date of December 31, 2050, that was inserted to encourage further discussion.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "effective_date",
+        "sentence": "The provided documents do not specify an effective date for the Act itself.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          },
+          {
+            "chunk_id": 0,
+            "citation_number": 13,
+            "chunk_text": "Testimony of the Board of Pharmacy Before the Senate Committee on Commerce and Consumer Protection Thursday, March 27, 2025 9:30 a.m. Conference Room 229 and Videoconference On the following measure: H. B. 72, H.D. 2, S.D. 1, RELATING TO PHARMACY Chair Keohokalole and Members of the Committee: My name is",
+            "document_name": "HB72_SD1_TESTIMONY_CPN_03-27-25_"
+          }
+        ]
+      },
+      {
+        "section": "effective_date",
+        "sentence": "However, the bill specifies that the requirement for pharmacy technicians to be registered shall begin on January 1, 2026.",
+        "chunks": [
+          {
+            "chunk_id": 73,
+            "citation_number": 14,
+            "chunk_text": "Consumer Protection, to which was referred H.B. No. 72, H.D. 2, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO PHARMACY,\" begs leave to report as follows: The purpose and intent of this measure is to: (1) Beginning January 1, 2026, require pharmacy technicians to be registered with and",
+            "document_name": "HB72_SD1_SSCR1642_"
           }
         ]
       }
-    ]
+    ],
+    "property_prompts_used": {
+      "overview": {
+        "prompt": "Using the provided legislative documents, statutes, and testimonies, write a clear summary describing the purpose, scope, and key components of the proposed measure or bill, including any pilot or permanent programs, reporting requirements, and sunset clauses. This should be around 3 sentences.",
+        "description": "General overview and summary of the measure"
+      },
+      "appropriations": {
+        "prompt": "Based on budgetary data and legislative appropriations, detail the funding allocated for the program or measure, including fiscal years, amounts, intended uses such as staffing, training, contracts, technology, etc... This should be around 3 sentences.",
+        "description": "Funding allocation and appropriations details"
+      },
+      "assumptions_and_methodology": {
+        "prompt": "Explain the assumptions, cost estimation methods, and data sources used to calculate the financial projections for this program or measure, referencing comparable programs or historical budgets where applicable. This should be around 3 sentences.",
+        "description": "Cost estimation methodology and assumptions"
+      },
+      "agency_impact": {
+        "prompt": "Describe the anticipated operational, administrative, and budgetary impact of the program or measure on the relevant government agency or department, including supervision, staffing, and resource allocation. This should be around 3 sentences.",
+        "description": "Impact on government agencies and departments"
+      },
+      "economic_impact": {
+        "prompt": "Summarize the expected economic effects of the program or measure, such as cost savings, potential reductions in related expenditures, benefits to the community, and any relevant performance or participation statistics. This should be around 3 sentences.",
+        "description": "Economic effects and community benefits"
+      },
+      "policy_impact": {
+        "prompt": "Analyze the policy implications of the measure, including how it modifies existing laws or programs, its role within broader legislative strategies, and its potential effects on state or local governance. This should be around 3 sentences.",
+        "description": "Policy implications and legislative analysis"
+      },
+      "revenue_sources": {
+        "prompt": "Identify and describe the funding sources that will support the program or measure, such as general funds, grants, fees, or other revenue streams, based on the provided fiscal documents. This should be around 3 sentences.",
+        "description": "Funding sources and revenue streams"
+      },
+      "six_year_fiscal_implications": {
+        "prompt": "Provide a multi-year fiscal outlook (e.g., six years) for the program or measure, projecting costs, staffing changes, recurring expenses, and assumptions about program expansion or permanence using available budget and workload data. This should be around 10 sentences.",
+        "description": "Six-year fiscal projections and outlook"
+      },
+      "operating_revenue_impact": {
+        "prompt": "Describe any anticipated impacts on operating revenues resulting from the program or measure, including increases, decreases, or changes in revenue streams. This should be around 3 sentences.",
+        "description": "Operating revenue impacts"
+      },
+      "capital_expenditure_impact": {
+        "prompt": "Outline any expected capital expenditures related to the program or measure, such as investments in facilities, equipment, or technology infrastructure, based on capital budgets or agency plans. This should be around 3 sentences.",
+        "description": "Capital expenditure requirements"
+      },
+      "fiscal_implications_after_6_years": {
+        "prompt": "Summarize the ongoing fiscal obligations after the initial multi-year period for the program or measure, including annual operating costs, expected number of program sites or units, and the sustainability of funding. This should be around 3 sentences.",
+        "description": "Long-term fiscal obligations beyond six years"
+      },
+      "updates_from_previous_fiscal_note": {
+        "prompt": "If you are given a previous fisacl not. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fisacl note.",
+        "description": "Updates from previous fiscal note"
+      },
+      "fte_positions": {
+        "prompt": "Detail any Full Time Equivalent (FTE) positions that have been added or modified in this version of the bill, including the number of positions, their roles, and any changes from previous versions. This should be around 3 sentences.",
+        "description": "FTE (Full Time Equivalent) position changes"
+      },
+      "appropriations_changes": {
+        "prompt": "Identify and describe any appropriations that were previously unspecified or have been modified between versions of the bill, including the amounts and purposes of the appropriations. This should be around 3 sentences.",
+        "description": "Changes to appropriations between bill versions"
+      },
+      "funding_sources_changes": {
+        "prompt": "Specify the method of funding (MOF) for appropriations and identify any changes in funding sources between versions, such as shifts between general fund and special fund appropriations. This should be around 3 sentences.",
+        "description": "Changes to funding sources and method of funding"
+      },
+      "department_impact": {
+        "prompt": "Describe any changes in which department is responsible for expending appropriations, including shifts from one department to another between bill versions (e.g., from Department of Health to Judiciary). This should be around 3 sentences.",
+        "description": "Changes in department responsibility for appropriations"
+      },
+      "reports_required": {
+        "prompt": "Identify any reports that agencies are required to submit to the legislature, including new reporting requirements or modifications to existing ones. This should be around 3 sentences.",
+        "description": "Reporting requirements for agencies"
+      },
+      "pilot_program": {
+        "prompt": "If the bill creates a pilot program, describe the length of the pilot program and whether it was initially intended to be a pilot program or a permanent program. This should be around 3 sentences.",
+        "description": "Pilot program details and duration"
+      },
+      "sunset_date": {
+        "prompt": "Identify the sunset date for the bill or program, including any modifications to the sunset date between versions. This should be around 2 sentences.",
+        "description": "Sunset date and changes"
+      },
+      "effective_date": {
+        "prompt": "Identify the effective date of the bill, noting if there was a defective effective date in a previous version and what the corrected effective date is. This should be around 2 sentences.",
+        "description": "Effective date and corrections"
+      }
+    }
   },
   "chunk_mapping": {
     "HB72_SD1_SSCR1642_": [
@@ -1426,6 +2503,6 @@
       }
     ]
   },
-  "generation_timestamp": "2025-10-16T15:26:59.228374",
-  "generation_timestamp_unix": 1760664419.228378
+  "generation_timestamp": "2025-11-03T18:12:50.914472",
+  "generation_timestamp_unix": 1762229570.914481
 }
