@@ -59,14 +59,63 @@ def create_stealth_driver(download_dir=None, port=None):
     Create a more stealth-oriented Chrome driver to bypass Cloudflare bot detection.
     Automatically detects and uses the correct Chrome version.
     """
+    import os
+    
+    # Check if we're in Docker environment
+    is_docker = os.path.exists('/.dockerenv') or os.environ.get('DOCKER_ENV') == 'true'
+    
+    if is_docker:
+        # Use standard Selenium WebDriver in Docker for better compatibility
+        from selenium import webdriver
+        from selenium.webdriver.chrome.options import Options
+        
+        options = Options()
+        # Essential Docker Chrome options
+        options.add_argument('--headless=new')
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+        options.add_argument('--disable-gpu')
+        options.add_argument('--single-process')
+        options.add_argument('--disable-web-security')
+        options.add_argument('--allow-running-insecure-content')
+        options.add_argument('--window-size=1920,1080')
+        
+        if download_dir:
+            options.add_experimental_option("prefs", {
+                "download.default_directory": download_dir,
+                "download.prompt_for_download": False,
+                "plugins.always_open_pdf_externally": True,
+                "download.directory_upgrade": True,
+                "safebrowsing.enabled": True
+            })
+        
+        try:
+            driver = webdriver.Chrome(options=options)
+            print("✅ Created Chrome driver using standard Selenium WebDriver")
+            return driver
+        except Exception as e:
+            print(f"❌ Failed to create standard Chrome driver: {e}")
+            raise
+    
+    # Original undetected_chromedriver code for non-Docker environments
     # Auto-detect Chrome version
     chrome_version = get_chrome_version()
     
     options = uc.ChromeOptions()
     
-    # Basic stealth options
+    # Docker-specific Chrome options
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--disable-software-rasterizer')
+    options.add_argument('--disable-background-timer-throttling')
+    options.add_argument('--disable-backgrounding-occluded-windows')
+    options.add_argument('--disable-renderer-backgrounding')
+    options.add_argument('--disable-features=TranslateUI')
+    options.add_argument('--disable-ipc-flooding-protection')
+    options.add_argument('--single-process')
+    
+    # Basic stealth options
     options.add_argument('--disable-blink-features=AutomationControlled')
     options.add_argument('--disable-extensions')
     options.add_argument('--disable-plugins-discovery')
@@ -79,6 +128,10 @@ def create_stealth_driver(download_dir=None, port=None):
     
     # Headless mode with new implementation
     options.add_argument('--headless=new')
+    
+    # Memory and performance optimizations for Docker
+    options.add_argument('--memory-pressure-off')
+    options.add_argument('--max_old_space_size=4096')
     
     # Set a realistic user agent (dynamically set version if detected)
     if chrome_version:
@@ -154,9 +207,9 @@ def create_stealth_driver(download_dir=None, port=None):
         
         try:
             if chrome_version:
-                driver = uc.Chrome(options=basic_options, version_main=chrome_version, port=port if port else 0, use_subprocess=True)
+                driver = uc.Chrome(options=basic_options, version_main=chrome_version, use_subprocess=True)
             else:
-                driver = uc.Chrome(options=basic_options, port=port if port else 0, use_subprocess=True)
+                driver = uc.Chrome(options=basic_options, use_subprocess=True)
             
             # Apply stealth scripts
             try:
@@ -172,7 +225,7 @@ def create_stealth_driver(download_dir=None, port=None):
             # Ultimate fallback - let undetected-chromedriver fully auto-detect
             try:
                 print("Trying ultimate fallback with auto-detection...")
-                driver = uc.Chrome(port=port if port else 0)
+                driver = uc.Chrome()
                 return driver
             except Exception as e3:
                 print(f"All driver creation attempts failed: {e3}")

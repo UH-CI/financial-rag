@@ -1,6 +1,78 @@
 # Default Docker Compose (Development)
-# This file includes the development configuration by default
+# This file extends the development configuration by default
 # Use GO.sh with 'prod' flag for production or 'dev' flag for development
 
-include:
-  - docker-compose.dev.yml
+version: '3.8'
+
+services:
+  # Selenium Chrome Service
+  selenium:
+    image: selenium/standalone-chrome:latest
+    container_name: selenium-chrome
+    ports:
+      - "4444:4444"
+      - "7900:7900"  # VNC port for debugging
+    environment:
+      - SE_NODE_MAX_SESSIONS=2
+      - SE_NODE_SESSION_TIMEOUT=300
+    volumes:
+      - /dev/shm:/dev/shm  # Shared memory for better performance
+    networks:
+      - rag-network
+
+  # API Server (Development)
+  api:
+    build:
+      context: ./src
+      dockerfile: Dockerfile.dev
+    container_name: rag-api-dev
+    ports:
+      - "8200:8200"
+    environment:
+      - PYTHONPATH=/src
+      - PYTHONUNBUFFERED=1
+      - ENV=development
+      - SELENIUM_REMOTE_URL=http://selenium:4444/wd/hub
+    restart: unless-stopped
+    depends_on:
+      - selenium
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8200/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    volumes:
+      - ./src/.env:/src/.env:ro  # Mount environment file
+      - ./src/chroma_db:/src/chroma_db
+      - ./src:/src  # Mount source code for hot reload
+    networks:
+      - rag-network
+
+  # Frontend Server (Development) 
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.dev
+      args:
+        - VITE_API_BASE_URL=http://localhost:8200
+        - VITE_WS_URL=ws://localhost:8200/ws
+    container_name: rag-frontend-dev
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_API_BASE_URL=http://localhost:8200
+      - VITE_WS_URL=ws://localhost:8200/ws
+      - NODE_ENV=development
+    restart: unless-stopped
+    depends_on:
+      - api
+    volumes:
+      - ./frontend/src:/app/src  # Mount source for hot reload
+      - ./frontend/public:/app/public
+      - /app/node_modules  # Prevent node_modules from being overwritten
+    networks:
+      - rag-network
+
+networks:
+  rag-network:
+    driver: bridge

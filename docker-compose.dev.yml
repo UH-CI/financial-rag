@@ -3,7 +3,7 @@ services:
   api:
     build:
       context: ./src
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
     container_name: rag-api-dev
     ports:
       - "8200:8200"
