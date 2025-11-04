@@ -64,3 +64,5 @@ src/chroma_db/
 # Ignore generated fiscal note files
 src/fiscal_notes/generation/*/fiscal_notes/*.json
 src/fiscal_notes/generation/*/retrieval_log.json
+
+# Note: property_prompts_config.json is tracked in git but preserved on production server via Jenkinsfile

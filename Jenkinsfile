@@ -110,14 +110,14 @@ pipeline {
                                 cd /home/exouser/RAG-system
                             fi
                             
-                            # Stash any local changes to fiscal notes (user annotations)
-                            git add src/fiscal_notes/generation/ 2>/dev/null || true
-                            git stash push -m "Preserve user annotations before pull" src/fiscal_notes/generation/ 2>/dev/null || true
+                            # Stash any local changes to fiscal notes and property prompts (user data)
+                            git add src/fiscal_notes/generation/ src/fiscal_notes/property_prompts_config.json 2>/dev/null || true
+                            git stash push -m "Preserve user annotations before pull" src/fiscal_notes/generation/ src/fiscal_notes/property_prompts_config.json 2>/dev/null || true
                             
                             # Update code (gitignored files like fiscal notes are preserved)
                             git pull origin main
                             
-                            # Restore local changes (user annotations)
+                            # Restore local changes (user annotations and property prompts)
                             git stash pop 2>/dev/null || true
                             
                             # Build and deploy frontend
