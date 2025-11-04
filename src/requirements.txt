@@ -32,6 +32,9 @@ scikit-learn
 # Web Access
 requests
 
+# Redis for job queuing and caching
+redis>=5.0.0
+
 # Configuration and Environment
 python-dotenv==1.0.0
 pydantic>=2.5.0

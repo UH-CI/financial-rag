@@ -7,17 +7,17 @@
     "HB1483"
   ],
   "numbers_used": 15,
-  "prompt_length": 89620,
+  "prompt_length": 91412,
   "response_metadata": {
-    "response_text": "{\n  \"overview\": \"The purpose of this Act is to establish an adjudication system and procedures to process fireworks infractions. [CHUNK_12] This bill also amends and establishes various definitions and penalties for firework offenses, including establishing heightened penalties under certain circumstances, and establishes various criminal offenses and penalties related to fireworks or articles pyrotechnics. [CHUNK_12] The Act also appropriates funds to carry out its purposes. [CHUNK_13]\",\n  \"appropriations\": \"There is appropriated out of the general revenues of the State of Hawaii the sum of $ (HB1483_.HTM.txt) or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027. [CHUNK_321] The funds are to carry out the purposes of this Act, including to update the judiciary information management system to implement the adjudications process established by section 2 of this Act. [CHUNK_322] The sums appropriated shall be expended by the judiciary for the purposes of this Act. [CHUNK_322]\",\n  \"assumptions_and_methodology\": \"The provided legislative documents do not specify the assumptions or methodology used for fiscal projections. [CHUNK_0] The fiscal impact is based on the creation of a new adjudication system, an appropriation of an unspecified amount for the judiciary, and the establishment of new fines and fees for violations. [CHUNK_12] The revenue generated would depend on the number of infractions processed, for which no estimate is provided in the bill. [CHUNK_15]\",\n  \"agency_impact\": \"This bill establishes a dedicated adjudication system for fireworks infractions, which will impact the judiciary by requiring it to process these cases. [CHUNK_10] The judiciary's information management system will need to be updated to implement the new adjudications process. [CHUNK_322] Law enforcement agencies will be responsible for issuing notices of infraction, and county fire department officers will act as inspectors with authority to enter and inspect premises. [CHUNK_18] [CHUNK_304]\",\n  \"economic_impact\": \"The legislature finds that the widespread use of illegal fireworks poses an extreme danger and lethal risk to public health and safety, resulting in fires, serious burn injuries, and fatalities. [CHUNK_1] This measure is intended to reduce the societal costs associated with illegal fireworks by improving enforcement. [CHUNK_8] The bill also generates revenue through new fines and fees, such as a $20 (HB1483_.HTM.txt) administrative fee for each infraction [CHUNK_104], a $25 (HB1483_.HTM.txt) permit fee for firecrackers [CHUNK_227], and fines ranging from $500 (HB1483_.HTM.txt) to $5,000 (HB1483_.HTM.txt) for certain violations. [CHUNK_261]\",\n  \"policy_impact\": \"This Act establishes a new chapter in the Hawaii Revised Statutes to create a dedicated adjudication system for fireworks infractions, similar to the existing traffic infraction system. [CHUNK_10] The measure amends multiple definitions and penalties for fireworks offenses and establishes various new criminal offenses related to fireworks. [CHUNK_12] It also confers concurrent jurisdiction on district courts to hear and dispose of cases of fireworks infractions by children. [CHUNK_307]\",\n  \"revenue_sources\": \"Revenue to support the bill's provisions will be generated from monetary assessments, fees, and fines. [CHUNK_102] A permit for consumer fireworks known as firecrackers requires a fee of $25 (HB1483_.HTM.txt), while a permit for aerial devices requires a fee of $110 (HB1483_.HTM.txt). [CHUNK_227] [CHUNK_228] The court shall impose an administrative fee of $20 (HB1483_.HTM.txt) for each fireworks infraction, which is deposited into the judiciary computer system special fund, and fines collected are split with eighty per cent to the county and twenty per cent to the State. [CHUNK_105] [CHUNK_263]\",\n  \"six_year_fiscal_implications\": \"The bill appropriates an unspecified sum for fiscal year 2025-2026 and fiscal year 2026-2027 to update the judiciary information management system. [CHUNK_321] This is expected to be an initial cost, with potential for recurring maintenance expenses. [CHUNK_322] The new adjudication system for fireworks infractions will create ongoing operational costs for the judiciary and law enforcement agencies. [CHUNK_11] The bill establishes new recurring revenue streams from various fees and fines. [CHUNK_102] These include a $25 (HB1483_.HTM.txt) permit fee for firecrackers and a $110 (HB1483_.HTM.txt) fee for aerial devices. [CHUNK_227] [CHUNK_228] Fines for violations range from $200 (HB1483_.HTM.txt) for illegal use of consumer fireworks to $5,000 (HB1483_.HTM.txt) for repeat carrier offenses. [CHUNK_159] [CHUNK_168] The court will also impose a $20 (HB1483_.HTM.txt) administrative fee for each fireworks infraction where judgment is entered for the State. [CHUNK_104] Of the fines collected, eighty per cent shall be paid to the county and twenty per cent to the State. [CHUNK_263] The precise fiscal impact over six years is indeterminate as it depends on the number of violations that will be cited and adjudicated, for which the provided documents offer no estimate. [CHUNK_0] This Act shall take effect on July 1, 2025, meaning the fiscal implications begin in FY 2026. [CHUNK_325]\",\n  \"operating_revenue_impact\": \"The measure will increase operating revenues for the State and counties through the collection of new fines, fees, and monetary assessments. [CHUNK_102] [CHUNK_263] Sources include a $25 (HB1483_.HTM.txt) fee for consumer fireworks permits and a $20 (HB1483_.HTM.txt) administrative fee for each infraction deposited into the judiciary computer system special fund. [CHUNK_227] [CHUNK_105] Fines for violations, such as a $1,000 (HB1483_.HTM.txt) fine for a carrier's first offense, will be collected, with eighty per cent allocated to the county and twenty per cent to the State. [CHUNK_167] [CHUNK_263]\",\n  \"capital_expenditure_impact\": \"The bill appropriates an unspecified amount of funds to update the judiciary information management system. [CHUNK_322] This expenditure is for the implementation of the new adjudications process for fireworks infractions. [CHUNK_322] The provided text does not specify any other capital expenditures for facilities or equipment. [CHUNK_322]\",\n  \"fiscal_implications_after_6_years\": \"After the initial six-year period, the adjudication system for fireworks infractions will represent an ongoing operational cost for the judiciary. [CHUNK_11] Revenue from the established fines and fees is expected to be recurring, providing a continuous source of funds for the State and counties. [CHUNK_102] The 80/20 split of fine revenue between the counties and the State will create a sustained funding stream for county law enforcement purposes. [CHUNK_263]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the context documents for comparison.\"\n}",
+    "response_text": "{\n  \"overview\": \"The purpose of this Act is to establish an adjudication system and procedures to process fireworks infractions, similar to the existing traffic infraction system. [CHUNK_12] This bill amends and establishes various definitions and penalties for firework offenses, including establishing heightened penalties under certain circumstances. [CHUNK_12] It also establishes various criminal offenses and penalties related to fireworks or articles pyrotechnics and appropriates funds. [CHUNK_12]\",\n  \"appropriations\": \"There is appropriated out of the general revenues of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027. [CHUNK_321] The funds are to carry out the purposes of this Act, including to update the judiciary information management system to implement the adjudications process established by section 2 of this Act. [CHUNK_322] The sums appropriated shall be expended by the judiciary for the purposes of this Act. [CHUNK_322]\",\n  \"assumptions_and_methodology\": \"No specific assumptions or methodology for the financial projections were provided in the legislative documents. [CHUNK_0] The bill creates a new adjudication system and establishes various fines and fees without detailing the expected volume of infractions or revenue. [CHUNK_12] The appropriation amount for the judiciary is unspecified in the bill. [CHUNK_320]\",\n  \"agency_impact\": \"Creating a fireworks infractions system will allow law enforcement agencies and the judiciary to quickly and efficiently process low-level cases. [CHUNK_11] The judiciary is responsible for expending the appropriated funds to update its information management system to implement the new adjudication process. [CHUNK_322] The bill also confers concurrent jurisdiction on district courts to hear and dispose of cases of fireworks infractions by children. [CHUNK_307]\",\n  \"economic_impact\": \"The widespread use of illegal fireworks poses an extreme danger and lethal risk to public health and safety, resulting in fires, serious burn injuries, and fatalities. [CHUNK_1] The bill establishes various fines, including a $200 (HB1483_.HTM.txt) fine for certain consumer fireworks prohibitions and up to a $5,000 (HB1483_.HTM.txt) fine for carriers on a third offense. [CHUNK_159, NUMBER_1] [CHUNK_168, NUMBER_5] Of the fines collected, eighty per cent will be paid to the county in which the fine was imposed to be expended for law enforcement purposes. [CHUNK_263]\",\n  \"policy_impact\": \"This Act establishes a dedicated adjudication system for fireworks infractions, similar to the existing traffic infraction system. [CHUNK_10] It amends chapter 132D, Hawaii Revised Statutes, by adding new criminal offenses and establishing heightened penalties for offenses that result in injury or death. [CHUNK_10] The measure also amends definitions for terms such as \\\"aerial device\\\" and \\\"consumer fireworks\\\" to provide clarity and improve enforcement of fireworks control laws. [CHUNK_174] [CHUNK_179]\",\n  \"revenue_sources\": \"The bill appropriates an unspecified sum out of the general revenues of the State of Hawaii for fiscal years 2025-2026 and 2026-2027. [CHUNK_320] Revenue will also be generated from various fees and fines, including a permit fee of $25 (HB1483_.HTM.txt) for firecrackers and an administrative fee of $20 (HB1483_.HTM.txt) for each fireworks infraction. [CHUNK_227, NUMBER_6] [CHUNK_104, NUMBER_0] The court shall collect the fines imposed, paying twenty per cent to the State and eighty per cent to the county in which the fine was imposed. [CHUNK_263]\",\n  \"six_year_fiscal_implications\": \"The bill appropriates an unspecified amount from the general fund for fiscal year 2025-2026 and fiscal year 2026-2027. [CHUNK_321] These funds are to be expended by the judiciary to update the judiciary information management system and implement the new adjudications process. [CHUNK_322] Ongoing costs will be incurred by the judiciary to manage the adjudication of fireworks infractions. [CHUNK_11] Revenue will be generated through monetary assessments, fees, and fines. [CHUNK_102] The bill establishes an administrative fee of $20 (HB1483_.HTM.txt) for each fireworks infraction in which judgment is entered in favor of the State. [CHUNK_104, NUMBER_0] Permit fees include $25 (HB1483_.HTM.txt) for consumer fireworks and $110 (HB1483_.HTM.txt) for aerial devices. [CHUNK_227, NUMBER_6] [CHUNK_228, NUMBER_7] Fines for violations range from $200 (HB1483_.HTM.txt) to $5,000 (HB1483_.HTM.txt). [CHUNK_159, NUMBER_1] [CHUNK_261, NUMBER_13] The State will receive twenty per cent of collected fines, while counties will receive eighty per cent. [CHUNK_263] The bill does not provide a fiscal projection beyond fiscal year 2026-2027. [CHUNK_321]\",\n  \"operating_revenue_impact\": \"The court shall impose an administrative fee of $20 (HB1483_.HTM.txt) for each fireworks infraction, which will be deposited into the judiciary computer system special fund. [CHUNK_105, NUMBER_0] Of the fines collected for violations, the State shall receive twenty per cent. [CHUNK_263] The remaining eighty per cent of fines collected shall be paid to the county in which the fine was imposed. [CHUNK_263]\",\n  \"capital_expenditure_impact\": \"The bill appropriates funds to update the judiciary information management system to implement the adjudications process. [CHUNK_322] The specific amount for this update is not specified in the appropriation. [CHUNK_320] No other capital expenditures are mentioned in the bill. [CHUNK_0]\",\n  \"fiscal_implications_after_6_years\": \"The bill does not specify fiscal implications after six years. [CHUNK_0] The adjudication system for fireworks infractions is established as a permanent measure, suggesting ongoing administrative costs for the judiciary. [CHUNK_12] Continued revenue from fines and fees is expected as long as the law is in effect. [CHUNK_102]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the documents. [CHUNK_0]\",\n  \"fte_positions\": \"The provided legislative documents do not mention the addition or modification of any Full Time Equivalent (FTE) positions. [CHUNK_0]\",\n  \"appropriations_changes\": \"No previous version of the bill was provided. [CHUNK_0] The current bill appropriates an unspecified sum of money for fiscal years 2025-2026 and 2026-2027. [CHUNK_321] The appropriation is for the judiciary to update its information management system. [CHUNK_322]\",\n  \"funding_sources_changes\": \"No previous version of the bill was provided. [CHUNK_0] The method of funding identified for the appropriation is the general revenues of the State of Hawaii. [CHUNK_320]\",\n  \"department_impact\": \"No previous version of the bill was provided. [CHUNK_0] The sums appropriated shall be expended by the judiciary for the purposes of this Act. [CHUNK_322]\",\n  \"reports_required\": \"Health care facilities in this State shall report all incidents of serious injuries and fatalities caused by legal and illegal consumer fireworks, aerial devices, display fireworks, or articles pyrotechnic. [CHUNK_286] These reports must be made to the department of health and the police department of the county in which the person was attended or treated. [CHUNK_287] All reports shall be in writing or in the manner specified by the department of health. [CHUNK_288]\",\n  \"pilot_program\": \"The bill does not create a pilot program. [CHUNK_12] Instead, it establishes a permanent adjudication system for fireworks infractions. [CHUNK_10] This system is intended to be applied uniformly throughout the State and in all counties. [CHUNK_21]\",\n  \"sunset_date\": \"The provided legislative documents do not contain a sunset date for the bill or its provisions. [CHUNK_325]\",\n  \"effective_date\": \"This Act shall take effect on July 1, 2025. [CHUNK_325] No defective effective date from a previous version was mentioned. [CHUNK_0]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 49436,
-      "candidates_token_count": 1727,
-      "total_token_count": 53265
+      "prompt_token_count": 49787,
+      "candidates_token_count": 1982,
+      "total_token_count": 53580
     },
     "candidates": [
       {
@@ -27,7 +27,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n  \"overview\": \"The purpose of this Act is to establish an adjudication system and procedures to process fireworks infractions. [CHUNK_12] This bill also amends and establishes various definitions and penalties for firework offenses, including establishing heightened penalties under certain circumstances, and establishes various criminal offenses and penalties related to fireworks or articles pyrotechnics. [CHUNK_12] The Act also appropriates funds to carry out its purposes. [CHUNK_13]\",\n  \"appropriations\": \"There is appropriated out of the general revenues of the State of Hawaii the sum of $ (HB1483_.HTM.txt) or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027. [CHUNK_321] The funds are to carry out the purposes of this Act, including to update the judiciary information management system to implement the adjudications process established by section 2 of this Act. [CHUNK_322] The sums appropriated shall be expended by the judiciary for the purposes of this Act. [CHUNK_322]\",\n  \"assumptions_and_methodology\": \"The provided legislative documents do not specify the assumptions or methodology used for fiscal projections. [CHUNK_0] The fiscal impact is based on the creation of a new adjudication system, an appropriation of an unspecified amount for the judiciary, and the establishment of new fines and fees for violations. [CHUNK_12] The revenue generated would depend on the number of infractions processed, for which no estimate is provided in the bill. [CHUNK_15]\",\n  \"agency_impact\": \"This bill establishes a dedicated adjudication system for fireworks infractions, which will impact the judiciary by requiring it to process these cases. [CHUNK_10] The judiciary's information management system will need to be updated to implement the new adjudications process. [CHUNK_322] Law enforcement agencies will be responsible for issuing notices of infraction, and county fire department officers will act as inspectors with authority to enter and inspect premises. [CHUNK_18] [CHUNK_304]\",\n  \"economic_impact\": \"The legislature finds that the widespread use of illegal fireworks poses an extreme danger and lethal risk to public health and safety, resulting in fires, serious burn injuries, and fatalities. [CHUNK_1] This measure is intended to reduce the societal costs associated with illegal fireworks by improving enforcement. [CHUNK_8] The bill also generates revenue through new fines and fees, such as a $20 (HB1483_.HTM.txt) administrative fee for each infraction [CHUNK_104], a $25 (HB1483_.HTM.txt) permit fee for firecrackers [CHUNK_227], and fines ranging from $500 (HB1483_.HTM.txt) to $5,000 (HB1483_.HTM.txt) for certain violations. [CHUNK_261]\",\n  \"policy_impact\": \"This Act establishes a new chapter in the Hawaii Revised Statutes to create a dedicated adjudication system for fireworks infractions, similar to the existing traffic infraction system. [CHUNK_10] The measure amends multiple definitions and penalties for fireworks offenses and establishes various new criminal offenses related to fireworks. [CHUNK_12] It also confers concurrent jurisdiction on district courts to hear and dispose of cases of fireworks infractions by children. [CHUNK_307]\",\n  \"revenue_sources\": \"Revenue to support the bill's provisions will be generated from monetary assessments, fees, and fines. [CHUNK_102] A permit for consumer fireworks known as firecrackers requires a fee of $25 (HB1483_.HTM.txt), while a permit for aerial devices requires a fee of $110 (HB1483_.HTM.txt). [CHUNK_227] [CHUNK_228] The court shall impose an administrative fee of $20 (HB1483_.HTM.txt) for each fireworks infraction, which is deposited into the judiciary computer system special fund, and fines collected are split with eighty per cent to the county and twenty per cent to the State. [CHUNK_105] [CHUNK_263]\",\n  \"six_year_fiscal_implications\": \"The bill appropriates an unspecified sum for fiscal year 2025-2026 and fiscal year 2026-2027 to update the judiciary information management system. [CHUNK_321] This is expected to be an initial cost, with potential for recurring maintenance expenses. [CHUNK_322] The new adjudication system for fireworks infractions will create ongoing operational costs for the judiciary and law enforcement agencies. [CHUNK_11] The bill establishes new recurring revenue streams from various fees and fines. [CHUNK_102] These include a $25 (HB1483_.HTM.txt) permit fee for firecrackers and a $110 (HB1483_.HTM.txt) fee for aerial devices. [CHUNK_227] [CHUNK_228] Fines for violations range from $200 (HB1483_.HTM.txt) for illegal use of consumer fireworks to $5,000 (HB1483_.HTM.txt) for repeat carrier offenses. [CHUNK_159] [CHUNK_168] The court will also impose a $20 (HB1483_.HTM.txt) administrative fee for each fireworks infraction where judgment is entered for the State. [CHUNK_104] Of the fines collected, eighty per cent shall be paid to the county and twenty per cent to the State. [CHUNK_263] The precise fiscal impact over six years is indeterminate as it depends on the number of violations that will be cited and adjudicated, for which the provided documents offer no estimate. [CHUNK_0] This Act shall take effect on July 1, 2025, meaning the fiscal implications begin in FY 2026. [CHUNK_325]\",\n  \"operating_revenue_impact\": \"The measure will increase operating revenues for the State and counties through the collection of new fines, fees, and monetary assessments. [CHUNK_102] [CHUNK_263] Sources include a $25 (HB1483_.HTM.txt) fee for consumer fireworks permits and a $20 (HB1483_.HTM.txt) administrative fee for each infraction deposited into the judiciary computer system special fund. [CHUNK_227] [CHUNK_105] Fines for violations, such as a $1,000 (HB1483_.HTM.txt) fine for a carrier's first offense, will be collected, with eighty per cent allocated to the county and twenty per cent to the State. [CHUNK_167] [CHUNK_263]\",\n  \"capital_expenditure_impact\": \"The bill appropriates an unspecified amount of funds to update the judiciary information management system. [CHUNK_322] This expenditure is for the implementation of the new adjudications process for fireworks infractions. [CHUNK_322] The provided text does not specify any other capital expenditures for facilities or equipment. [CHUNK_322]\",\n  \"fiscal_implications_after_6_years\": \"After the initial six-year period, the adjudication system for fireworks infractions will represent an ongoing operational cost for the judiciary. [CHUNK_11] Revenue from the established fines and fees is expected to be recurring, providing a continuous source of funds for the State and counties. [CHUNK_102] The 80/20 split of fine revenue between the counties and the State will create a sustained funding stream for county law enforcement purposes. [CHUNK_263]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the context documents for comparison.\"\n}"
+              "text": "{\n  \"overview\": \"The purpose of this Act is to establish an adjudication system and procedures to process fireworks infractions, similar to the existing traffic infraction system. [CHUNK_12] This bill amends and establishes various definitions and penalties for firework offenses, including establishing heightened penalties under certain circumstances. [CHUNK_12] It also establishes various criminal offenses and penalties related to fireworks or articles pyrotechnics and appropriates funds. [CHUNK_12]\",\n  \"appropriations\": \"There is appropriated out of the general revenues of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027. [CHUNK_321] The funds are to carry out the purposes of this Act, including to update the judiciary information management system to implement the adjudications process established by section 2 of this Act. [CHUNK_322] The sums appropriated shall be expended by the judiciary for the purposes of this Act. [CHUNK_322]\",\n  \"assumptions_and_methodology\": \"No specific assumptions or methodology for the financial projections were provided in the legislative documents. [CHUNK_0] The bill creates a new adjudication system and establishes various fines and fees without detailing the expected volume of infractions or revenue. [CHUNK_12] The appropriation amount for the judiciary is unspecified in the bill. [CHUNK_320]\",\n  \"agency_impact\": \"Creating a fireworks infractions system will allow law enforcement agencies and the judiciary to quickly and efficiently process low-level cases. [CHUNK_11] The judiciary is responsible for expending the appropriated funds to update its information management system to implement the new adjudication process. [CHUNK_322] The bill also confers concurrent jurisdiction on district courts to hear and dispose of cases of fireworks infractions by children. [CHUNK_307]\",\n  \"economic_impact\": \"The widespread use of illegal fireworks poses an extreme danger and lethal risk to public health and safety, resulting in fires, serious burn injuries, and fatalities. [CHUNK_1] The bill establishes various fines, including a $200 (HB1483_.HTM.txt) fine for certain consumer fireworks prohibitions and up to a $5,000 (HB1483_.HTM.txt) fine for carriers on a third offense. [CHUNK_159, NUMBER_1] [CHUNK_168, NUMBER_5] Of the fines collected, eighty per cent will be paid to the county in which the fine was imposed to be expended for law enforcement purposes. [CHUNK_263]\",\n  \"policy_impact\": \"This Act establishes a dedicated adjudication system for fireworks infractions, similar to the existing traffic infraction system. [CHUNK_10] It amends chapter 132D, Hawaii Revised Statutes, by adding new criminal offenses and establishing heightened penalties for offenses that result in injury or death. [CHUNK_10] The measure also amends definitions for terms such as \\\"aerial device\\\" and \\\"consumer fireworks\\\" to provide clarity and improve enforcement of fireworks control laws. [CHUNK_174] [CHUNK_179]\",\n  \"revenue_sources\": \"The bill appropriates an unspecified sum out of the general revenues of the State of Hawaii for fiscal years 2025-2026 and 2026-2027. [CHUNK_320] Revenue will also be generated from various fees and fines, including a permit fee of $25 (HB1483_.HTM.txt) for firecrackers and an administrative fee of $20 (HB1483_.HTM.txt) for each fireworks infraction. [CHUNK_227, NUMBER_6] [CHUNK_104, NUMBER_0] The court shall collect the fines imposed, paying twenty per cent to the State and eighty per cent to the county in which the fine was imposed. [CHUNK_263]\",\n  \"six_year_fiscal_implications\": \"The bill appropriates an unspecified amount from the general fund for fiscal year 2025-2026 and fiscal year 2026-2027. [CHUNK_321] These funds are to be expended by the judiciary to update the judiciary information management system and implement the new adjudications process. [CHUNK_322] Ongoing costs will be incurred by the judiciary to manage the adjudication of fireworks infractions. [CHUNK_11] Revenue will be generated through monetary assessments, fees, and fines. [CHUNK_102] The bill establishes an administrative fee of $20 (HB1483_.HTM.txt) for each fireworks infraction in which judgment is entered in favor of the State. [CHUNK_104, NUMBER_0] Permit fees include $25 (HB1483_.HTM.txt) for consumer fireworks and $110 (HB1483_.HTM.txt) for aerial devices. [CHUNK_227, NUMBER_6] [CHUNK_228, NUMBER_7] Fines for violations range from $200 (HB1483_.HTM.txt) to $5,000 (HB1483_.HTM.txt). [CHUNK_159, NUMBER_1] [CHUNK_261, NUMBER_13] The State will receive twenty per cent of collected fines, while counties will receive eighty per cent. [CHUNK_263] The bill does not provide a fiscal projection beyond fiscal year 2026-2027. [CHUNK_321]\",\n  \"operating_revenue_impact\": \"The court shall impose an administrative fee of $20 (HB1483_.HTM.txt) for each fireworks infraction, which will be deposited into the judiciary computer system special fund. [CHUNK_105, NUMBER_0] Of the fines collected for violations, the State shall receive twenty per cent. [CHUNK_263] The remaining eighty per cent of fines collected shall be paid to the county in which the fine was imposed. [CHUNK_263]\",\n  \"capital_expenditure_impact\": \"The bill appropriates funds to update the judiciary information management system to implement the adjudications process. [CHUNK_322] The specific amount for this update is not specified in the appropriation. [CHUNK_320] No other capital expenditures are mentioned in the bill. [CHUNK_0]\",\n  \"fiscal_implications_after_6_years\": \"The bill does not specify fiscal implications after six years. [CHUNK_0] The adjudication system for fireworks infractions is established as a permanent measure, suggesting ongoing administrative costs for the judiciary. [CHUNK_12] Continued revenue from fines and fees is expected as long as the law is in effect. [CHUNK_102]\",\n  \"updates_from_previous_fiscal_note\": \"No previous fiscal note was provided in the documents. [CHUNK_0]\",\n  \"fte_positions\": \"The provided legislative documents do not mention the addition or modification of any Full Time Equivalent (FTE) positions. [CHUNK_0]\",\n  \"appropriations_changes\": \"No previous version of the bill was provided. [CHUNK_0] The current bill appropriates an unspecified sum of money for fiscal years 2025-2026 and 2026-2027. [CHUNK_321] The appropriation is for the judiciary to update its information management system. [CHUNK_322]\",\n  \"funding_sources_changes\": \"No previous version of the bill was provided. [CHUNK_0] The method of funding identified for the appropriation is the general revenues of the State of Hawaii. [CHUNK_320]\",\n  \"department_impact\": \"No previous version of the bill was provided. [CHUNK_0] The sums appropriated shall be expended by the judiciary for the purposes of this Act. [CHUNK_322]\",\n  \"reports_required\": \"Health care facilities in this State shall report all incidents of serious injuries and fatalities caused by legal and illegal consumer fireworks, aerial devices, display fireworks, or articles pyrotechnic. [CHUNK_286] These reports must be made to the department of health and the police department of the county in which the person was attended or treated. [CHUNK_287] All reports shall be in writing or in the manner specified by the department of health. [CHUNK_288]\",\n  \"pilot_program\": \"The bill does not create a pilot program. [CHUNK_12] Instead, it establishes a permanent adjudication system for fireworks infractions. [CHUNK_10] This system is intended to be applied uniformly throughout the State and in all counties. [CHUNK_21]\",\n  \"sunset_date\": \"The provided legislative documents do not contain a sunset date for the bill or its provisions. [CHUNK_325]\",\n  \"effective_date\": \"This Act shall take effect on July 1, 2025. [CHUNK_325] No defective effective date from a previous version was mentioned. [CHUNK_0]\"\n}"
             }
           ]
         },
@@ -2764,11 +2764,6 @@
           "document_name": "HB1483"
         },
         {
-          "chunk_text": "fireworks or articles pyrotechnics; and (4) Appropriate funds. SECTION 2 . The Hawaii Revised Statutes is amended by adding a new chapter to title 38 to be appropriately designated and to read as follows: \" Chapter ADJUDICATION OF FIREWORKS INFRACTIONS § -1 Definitions. As used in this chapter: \"Concurrent trial\"",
-          "chunk_id": 13,
-          "document_name": "HB1483"
-        },
-        {
           "chunk_text": "of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 to carry out the purposes of this Act, including to update the judiciary",
           "chunk_id": 321,
           "document_name": "HB1483"
@@ -2784,73 +2779,8 @@
           "document_name": "HB1483"
         },
         {
-          "chunk_text": "criminal case for any related criminal offense, with trials to be held in one court on the same date and at the same time. \"Fireworks infraction\" means any violation of chapter 132D, any rule adopted pursuant to chapter 132D, or any county ordinance or rule enacted pursuant to chapter 132D,",
-          "chunk_id": 15,
-          "document_name": "HB1483"
-        },
-        {
-          "chunk_text": "be established to promote compliance with the fireworks control laws, including graduated penalties for repeat or felony level offenses, enhanced penalties for offenses that result in injury or death, and a dedicated adjudication system for fireworks infractions, similar to the existing traffic infraction system. Creating a fireworks infractions system will",
-          "chunk_id": 10,
-          "document_name": "HB1483"
-        },
-        {
-          "chunk_text": "enforcement officer\" means any employee of any federal, state, county, or military agency authorized by law to issue a notice of infraction. \"Notice of infraction\" means the citation form that is issued to the defendant at or after the time of the fireworks infraction and notifies the defendant of the",
-          "chunk_id": 18,
-          "document_name": "HB1483"
-        },
-        {
-          "chunk_text": "inspector may use force to enter the premises. (f) For purposes of this section[ , \"premises ] : \"Inspector\" means any county fire department officer, including firefighters. \"Premises of a licensee or permittee\" does not include the licensee's or permittee's private residence or a dwelling that is considered to be",
-          "chunk_id": 304,
-          "document_name": "HB1483"
-        },
-        {
-          "chunk_text": "use of illegal fireworks poses an extreme danger and lethal risk to public health and safety, resulting in fires, serious burn injuries, and fatalities to innocent bystanders. The cost to the community far outweighs any intrinsic benefit, as numerous lives have been lost over the years from the use of",
-          "chunk_id": 1,
-          "document_name": "HB1483"
-        },
-        {
-          "chunk_text": "illegal fireworks. There can be no more gray areas when lives are lost while this black market flourishes. The legislature also finds that improved enforcement of the fireworks control laws is necessary, not only to protect property from avoidable fire damage, but also to protect the community from fire- and",
-          "chunk_id": 8,
-          "document_name": "HB1483"
-        },
-        {
-          "chunk_text": "scheduled date of payment; and (2) The cost of service of a penal summons issued pursuant to this chapter. (c) In addition to any monetary assessment imposed for a fireworks infraction, the court shall impose an administrative fee of $20 for each fireworks infraction in which judgment is entered in",
-          "chunk_id": 104,
-          "document_name": "HB1483"
-        },
-        {
-          "chunk_text": "be revoked. \" SECTION 9 . Section 132D-10, Hawaii Revised Statutes, is amended to read as follows: \" §132D-10 Permits. (a) A permit shall be required for the purchase and use of: (1) Any consumer fireworks commonly known as firecrackers upon payment of a fee of $25; (2) Any aerial",
-          "chunk_id": 227,
-          "document_name": "HB1483"
-        },
-        {
-          "chunk_text": "of this chapter, shall be guilty of a violation and fined no less than $500 and no more than $5,000 for each violation. [ Notwithstanding any provision to the contrary in this section, any person violating section 132D-14.5 shall be fined at least $500 and no more than $5,000. ]",
-          "chunk_id": 261,
-          "document_name": "HB1483"
-        },
-        {
-          "chunk_text": "of cases of violation of traffic laws, traffic ordinances, [ or ] emergency period rules , or fireworks infractions established pursuant to chapter , by children, provision to the contrary in section 571-11 or elsewhere notwithstanding. The exercise of jurisdiction over children by district courts shall, nevertheless, be considered noncriminal",
-          "chunk_id": 307,
-          "document_name": "HB1483"
-        },
-        {
-          "chunk_text": "-6(e). § -8 Monetary assessments. (a) A defendant found to have committed a fireworks infraction shall be assessed a monetary assessment not to exceed the maximum fine specified in the law or rule defining the fireworks infraction. The court shall consider the defendant's financial circumstances, if disclosed, in determining the",
-          "chunk_id": 102,
-          "document_name": "HB1483"
-        },
-        {
-          "chunk_text": "upon payment of a fee of $25; (2) Any aerial devices, display fireworks, or articles pyrotechnic for the purposes of section 132D-16 upon payment of a fee of $110; and (3) Any consumer fireworks [ for the purposes of section 132D-5 or ] for cultural uses that occur at any",
-          "chunk_id": 228,
-          "document_name": "HB1483"
-        },
-        {
-          "chunk_text": "for each fireworks infraction in which judgment is entered in favor of the State. The clerk of the district court shall deposit the administrative fees collected into the judiciary computer system special fund pursuant to section 601-3.7. (d) Upon request of a defendant claiming inability to pay a monetary assessment,",
-          "chunk_id": 105,
-          "document_name": "HB1483"
-        },
-        {
-          "chunk_text": "fines collected, shall pay twenty per cent to the State and eighty per cent to the county in which the fine was imposed, which shall be expended by the county for law enforcement purposes. [ (d) ] (g) Notwithstanding any penalty set forth herein, violations of subsection (a)(1) [ or",
-          "chunk_id": 263,
+          "chunk_text": "any proceeds or other property acquired or maintained with the proceeds from violation of section 132D-14(a)(1) [ or (3) ] may be subject to forfeiture pursuant to chapter 712A.\" SECTION 23 . There is appropriated out of the general revenues of the State of Hawaii the sum of $ or",
+          "chunk_id": 320,
           "document_name": "HB1483"
         },
         {
@@ -2859,23 +2789,63 @@
           "document_name": "HB1483"
         },
         {
-          "chunk_text": "times provided in subsections (a)(2) and (b). (d) Any person who violates: (1) Subsection (a) shall be subject to a $200 fine; (2) Subsection (b) shall be subject to a $1,000 fine; and (3) This section shall be subject to proceedings under chapter ; provided that nothing in this section",
-          "chunk_id": 159,
+          "chunk_text": "of cases of violation of traffic laws, traffic ordinances, [ or ] emergency period rules , or fireworks infractions established pursuant to chapter , by children, provision to the contrary in section 571-11 or elsewhere notwithstanding. The exercise of jurisdiction over children by district courts shall, nevertheless, be considered noncriminal",
+          "chunk_id": 307,
           "document_name": "HB1483"
         },
         {
-          "chunk_text": "the carrier or person shall be subject to a $2,000 fine. (d) For a third or subsequent offense committed within five years of two or more prior judgements for the State under this section, the carrier or person shall be subject to a $5,000 fine. (e) All violations of this",
-          "chunk_id": 168,
+          "chunk_text": "use of illegal fireworks poses an extreme danger and lethal risk to public health and safety, resulting in fires, serious burn injuries, and fatalities to innocent bystanders. The cost to the community far outweighs any intrinsic benefit, as numerous lives have been lost over the years from the use of",
+          "chunk_id": 1,
+          "document_name": "HB1483"
+        },
+        {
+          "chunk_text": "fines collected, shall pay twenty per cent to the State and eighty per cent to the county in which the fine was imposed, which shall be expended by the county for law enforcement purposes. [ (d) ] (g) Notwithstanding any penalty set forth herein, violations of subsection (a)(1) [ or",
+          "chunk_id": 263,
+          "document_name": "HB1483"
+        },
+        {
+          "chunk_text": "be established to promote compliance with the fireworks control laws, including graduated penalties for repeat or felony level offenses, enhanced penalties for offenses that result in injury or death, and a dedicated adjudication system for fireworks infractions, similar to the existing traffic infraction system. Creating a fireworks infractions system will",
+          "chunk_id": 10,
+          "document_name": "HB1483"
+        },
+        {
+          "chunk_text": "Tearing, rupture, or corrosive damage to the esophagus, viscera, or other internal organs. \" 2. By amending the definition of \"aerial device\" to read: \"\"Aerial device\" means any fireworks [ containing one hundred thirty milligrams or less of explosive materials that produces an audible or visible effect and is designed",
+          "chunk_id": 174,
+          "document_name": "HB1483"
+        },
+        {
+          "chunk_text": "a circle with a radius of twelve feet as measured from the point where the item was placed and ignited, aerial shells, and mines.\" 3. By amending the definition of \"consumer fireworks\" to read: \"\"Consumer fireworks\" means any fireworks [ designed primarily for retail sale to the public during authorized",
+          "chunk_id": 179,
+          "document_name": "HB1483"
+        },
+        {
+          "chunk_text": "-6(e). § -8 Monetary assessments. (a) A defendant found to have committed a fireworks infraction shall be assessed a monetary assessment not to exceed the maximum fine specified in the law or rule defining the fireworks infraction. The court shall consider the defendant's financial circumstances, if disclosed, in determining the",
+          "chunk_id": 102,
+          "document_name": "HB1483"
+        },
+        {
+          "chunk_text": "than this chapter. \" SECTION 16 . Section 132D-21, Hawaii Revised Statutes, is amended to read as follows: \" §132D-21 Health care facilities; report of fireworks and articles pyrotechnic incidents. (a) Health care facilities in this State shall report all incidents of serious injuries and fatalities caused by legal and",
+          "chunk_id": 286,
+          "document_name": "HB1483"
+        },
+        {
+          "chunk_text": "incidents of serious injuries and fatalities caused by legal and illegal consumer fireworks , aerial devices, display fireworks, or articles pyrotechnic to the department of health and the police department of the county in which the person was attended or treated. All reports shall be in writing or in the",
+          "chunk_id": 287,
+          "document_name": "HB1483"
+        },
+        {
+          "chunk_text": "treated. All reports shall be in writing or in the manner specified by the department of health. (b) As used in this section, \"health care facilities\" includes any outpatient clinic, emergency room, or physician's office, private or public, whether organized for profit or not, used, operated, or designed to provide",
+          "chunk_id": 288,
+          "document_name": "HB1483"
+        },
+        {
+          "chunk_text": "minors, shall be adjudicated pursuant to this chapter, except as provided in subsection (b). This chapter shall be applied uniformly throughout the State and in all counties. No penal sanction that includes imprisonment shall apply to a violation of state law, or county ordinance or rule, that would constitute a",
+          "chunk_id": 21,
           "document_name": "HB1483"
         },
         {
           "chunk_text": ". This Act shall take effect on July 1, 2025. INTRODUCED BY: _____________________________ Report Title: Fireworks; Adjudication; Criminal Offenses; Penalties; Infractions; Appropriation Description: Establishes an adjudication system and procedures to process fireworks infractions. Amends multiple definitions and penalties for fireworks offenses, including heightened penalties if another person suffers substantial bodily",
           "chunk_id": 325,
-          "document_name": "HB1483"
-        },
-        {
-          "chunk_text": "of a prior judgment for the State under this section, the carrier or person shall be subject to a $1,000 fine. (c) For a second offense committed within five years of a prior judgment for the State under this section, the carrier or person shall be subject to a $2,000",
-          "chunk_id": 167,
           "document_name": "HB1483"
         }
       ]
@@ -2895,13 +2865,13 @@
       "HB1483_CD1": 12,
       "HB1483_CD1_CCR233_": 13,
       "HB1483_CD1_HFA7": 14,
-      "HB1483_CD2": 15,
-      "HB1483_CD1_SFA12": 16
+      "HB1483_CD1_SFA12": 15,
+      "HB1483_CD2": 16
     },
     "sentence_chunk_mapping": [
       {
         "section": "overview",
-        "sentence": "The purpose of this Act is to establish an adjudication system and procedures to process fireworks infractions.",
+        "sentence": "The purpose of this Act is to establish an adjudication system and procedures to process fireworks infractions, similar to the existing traffic infraction system.",
         "chunks": [
           {
             "chunk_id": 12,
@@ -2913,7 +2883,7 @@
       },
       {
         "section": "overview",
-        "sentence": "This bill also amends and establishes various definitions and penalties for firework offenses, including establishing heightened penalties under certain circumstances, and establishes various criminal offenses and penalties related to fireworks or articles pyrotechnics.",
+        "sentence": "This bill amends and establishes various definitions and penalties for firework offenses, including establishing heightened penalties under certain circumstances.",
         "chunks": [
           {
             "chunk_id": 12,
@@ -2925,19 +2895,19 @@
       },
       {
         "section": "overview",
-        "sentence": "The Act also appropriates funds to carry out its purposes.",
+        "sentence": "It also establishes various criminal offenses and penalties related to fireworks or articles pyrotechnics and appropriates funds.",
         "chunks": [
           {
-            "chunk_id": 13,
+            "chunk_id": 12,
             "citation_number": 1,
-            "chunk_text": "fireworks or articles pyrotechnics; and (4) Appropriate funds. SECTION 2 . The Hawaii Revised Statutes is amended by adding a new chapter to title 38 to be appropriately designated and to read as follows: \" Chapter ADJUDICATION OF FIREWORKS INFRACTIONS § -1 Definitions. As used in this chapter: \"Concurrent trial\"",
+            "chunk_text": "is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for firework offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds. SECTION 2",
             "document_name": "HB1483"
           }
         ]
       },
       {
         "section": "appropriations",
-        "sentence": "There is appropriated out of the general revenues of the State of Hawaii the sum of $ (HB1483_.HTM.txt) or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027.",
+        "sentence": "There is appropriated out of the general revenues of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027.",
         "chunks": [
           {
             "chunk_id": 321,
@@ -2973,7 +2943,7 @@
       },
       {
         "section": "assumptions_and_methodology",
-        "sentence": "The provided legislative documents do not specify the assumptions or methodology used for fiscal projections.",
+        "sentence": "No specific assumptions or methodology for the financial projections were provided in the legislative documents.",
         "chunks": [
           {
             "chunk_id": 0,
@@ -2985,7 +2955,7 @@
       },
       {
         "section": "assumptions_and_methodology",
-        "sentence": "The fiscal impact is based on the creation of a new adjudication system, an appropriation of an unspecified amount for the judiciary, and the establishment of new fines and fees for violations.",
+        "sentence": "The bill creates a new adjudication system and establishes various fines and fees without detailing the expected volume of infractions or revenue.",
         "chunks": [
           {
             "chunk_id": 12,
@@ -2997,31 +2967,31 @@
       },
       {
         "section": "assumptions_and_methodology",
-        "sentence": "The revenue generated would depend on the number of infractions processed, for which no estimate is provided in the bill.",
+        "sentence": "The appropriation amount for the judiciary is unspecified in the bill.",
         "chunks": [
           {
-            "chunk_id": 15,
+            "chunk_id": 320,
             "citation_number": 1,
-            "chunk_text": "criminal case for any related criminal offense, with trials to be held in one court on the same date and at the same time. \"Fireworks infraction\" means any violation of chapter 132D, any rule adopted pursuant to chapter 132D, or any county ordinance or rule enacted pursuant to chapter 132D,",
+            "chunk_text": "any proceeds or other property acquired or maintained with the proceeds from violation of section 132D-14(a)(1) [ or (3) ] may be subject to forfeiture pursuant to chapter 712A.\" SECTION 23 . There is appropriated out of the general revenues of the State of Hawaii the sum of $ or",
             "document_name": "HB1483"
           }
         ]
       },
       {
         "section": "agency_impact",
-        "sentence": "This bill establishes a dedicated adjudication system for fireworks infractions, which will impact the judiciary by requiring it to process these cases.",
+        "sentence": "Creating a fireworks infractions system will allow law enforcement agencies and the judiciary to quickly and efficiently process low-level cases.",
         "chunks": [
           {
-            "chunk_id": 10,
+            "chunk_id": 11,
             "citation_number": 1,
-            "chunk_text": "be established to promote compliance with the fireworks control laws, including graduated penalties for repeat or felony level offenses, enhanced penalties for offenses that result in injury or death, and a dedicated adjudication system for fireworks infractions, similar to the existing traffic infraction system. Creating a fireworks infractions system will",
+            "chunk_text": "existing traffic infraction system. Creating a fireworks infractions system will allow law enforcement agencies and the judiciary to quickly and efficiently process low-level cases, while also allowing them to prioritize higher-level cases as appropriate. Accordingly, the purpose of this Act is to: (1) Establish an adjudication system and procedures to",
             "document_name": "HB1483"
           }
         ]
       },
       {
         "section": "agency_impact",
-        "sentence": "The judiciary's information management system will need to be updated to implement the new adjudications process.",
+        "sentence": "The judiciary is responsible for expending the appropriated funds to update its information management system to implement the new adjudication process.",
         "chunks": [
           {
             "chunk_id": 322,
@@ -3033,25 +3003,19 @@
       },
       {
         "section": "agency_impact",
-        "sentence": "Law enforcement agencies will be responsible for issuing notices of infraction, and county fire department officers will act as inspectors with authority to enter and inspect premises.",
+        "sentence": "The bill also confers concurrent jurisdiction on district courts to hear and dispose of cases of fireworks infractions by children.",
         "chunks": [
           {
-            "chunk_id": 18,
+            "chunk_id": 307,
             "citation_number": 1,
-            "chunk_text": "enforcement officer\" means any employee of any federal, state, county, or military agency authorized by law to issue a notice of infraction. \"Notice of infraction\" means the citation form that is issued to the defendant at or after the time of the fireworks infraction and notifies the defendant of the",
-            "document_name": "HB1483"
-          },
-          {
-            "chunk_id": 18,
-            "citation_number": 1,
-            "chunk_text": "enforcement officer\" means any employee of any federal, state, county, or military agency authorized by law to issue a notice of infraction. \"Notice of infraction\" means the citation form that is issued to the defendant at or after the time of the fireworks infraction and notifies the defendant of the",
+            "chunk_text": "of cases of violation of traffic laws, traffic ordinances, [ or ] emergency period rules , or fireworks infractions established pursuant to chapter , by children, provision to the contrary in section 571-11 or elsewhere notwithstanding. The exercise of jurisdiction over children by district courts shall, nevertheless, be considered noncriminal",
             "document_name": "HB1483"
           }
         ]
       },
       {
         "section": "economic_impact",
-        "sentence": "The legislature finds that the widespread use of illegal fireworks poses an extreme danger and lethal risk to public health and safety, resulting in fires, serious burn injuries, and fatalities.",
+        "sentence": "The widespread use of illegal fireworks poses an extreme danger and lethal risk to public health and safety, resulting in fires, serious burn injuries, and fatalities.",
         "chunks": [
           {
             "chunk_id": 1,
@@ -3063,43 +3027,19 @@
       },
       {
         "section": "economic_impact",
-        "sentence": "This measure is intended to reduce the societal costs associated with illegal fireworks by improving enforcement.",
+        "sentence": "Of the fines collected, eighty per cent will be paid to the county in which the fine was imposed to be expended for law enforcement purposes.",
         "chunks": [
           {
-            "chunk_id": 8,
+            "chunk_id": 263,
             "citation_number": 1,
-            "chunk_text": "illegal fireworks. There can be no more gray areas when lives are lost while this black market flourishes. The legislature also finds that improved enforcement of the fireworks control laws is necessary, not only to protect property from avoidable fire damage, but also to protect the community from fire- and",
-            "document_name": "HB1483"
-          }
-        ]
-      },
-      {
-        "section": "economic_impact",
-        "sentence": "The bill also generates revenue through new fines and fees, such as a $20 (HB1483_.HTM.txt) administrative fee for each infraction , a $25 (HB1483_.HTM.txt) permit fee for firecrackers , and fines ranging from $500 (HB1483_.HTM.txt) to $5,000 (HB1483_.HTM.txt) for certain violations.",
-        "chunks": [
-          {
-            "chunk_id": 104,
-            "citation_number": 1,
-            "chunk_text": "scheduled date of payment; and (2) The cost of service of a penal summons issued pursuant to this chapter. (c) In addition to any monetary assessment imposed for a fireworks infraction, the court shall impose an administrative fee of $20 for each fireworks infraction in which judgment is entered in",
-            "document_name": "HB1483"
-          },
-          {
-            "chunk_id": 104,
-            "citation_number": 1,
-            "chunk_text": "scheduled date of payment; and (2) The cost of service of a penal summons issued pursuant to this chapter. (c) In addition to any monetary assessment imposed for a fireworks infraction, the court shall impose an administrative fee of $20 for each fireworks infraction in which judgment is entered in",
-            "document_name": "HB1483"
-          },
-          {
-            "chunk_id": 104,
-            "citation_number": 1,
-            "chunk_text": "scheduled date of payment; and (2) The cost of service of a penal summons issued pursuant to this chapter. (c) In addition to any monetary assessment imposed for a fireworks infraction, the court shall impose an administrative fee of $20 for each fireworks infraction in which judgment is entered in",
+            "chunk_text": "fines collected, shall pay twenty per cent to the State and eighty per cent to the county in which the fine was imposed, which shall be expended by the county for law enforcement purposes. [ (d) ] (g) Notwithstanding any penalty set forth herein, violations of subsection (a)(1) [ or",
             "document_name": "HB1483"
           }
         ]
       },
       {
         "section": "policy_impact",
-        "sentence": "This Act establishes a new chapter in the Hawaii Revised Statutes to create a dedicated adjudication system for fireworks infractions, similar to the existing traffic infraction system.",
+        "sentence": "This Act establishes a dedicated adjudication system for fireworks infractions, similar to the existing traffic infraction system.",
         "chunks": [
           {
             "chunk_id": 10,
@@ -3111,79 +3051,61 @@
       },
       {
         "section": "policy_impact",
-        "sentence": "The measure amends multiple definitions and penalties for fireworks offenses and establishes various new criminal offenses related to fireworks.",
+        "sentence": "It amends chapter 132D, Hawaii Revised Statutes, by adding new criminal offenses and establishing heightened penalties for offenses that result in injury or death.",
         "chunks": [
           {
-            "chunk_id": 12,
+            "chunk_id": 10,
             "citation_number": 1,
-            "chunk_text": "is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for firework offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds. SECTION 2",
+            "chunk_text": "be established to promote compliance with the fireworks control laws, including graduated penalties for repeat or felony level offenses, enhanced penalties for offenses that result in injury or death, and a dedicated adjudication system for fireworks infractions, similar to the existing traffic infraction system. Creating a fireworks infractions system will",
             "document_name": "HB1483"
           }
         ]
       },
       {
         "section": "policy_impact",
-        "sentence": "It also confers concurrent jurisdiction on district courts to hear and dispose of cases of fireworks infractions by children.",
+        "sentence": "The measure also amends definitions for terms such as \"aerial device\" and \"consumer fireworks\" to provide clarity and improve enforcement of fireworks control laws.",
         "chunks": [
           {
-            "chunk_id": 307,
+            "chunk_id": 174,
             "citation_number": 1,
-            "chunk_text": "of cases of violation of traffic laws, traffic ordinances, [ or ] emergency period rules , or fireworks infractions established pursuant to chapter , by children, provision to the contrary in section 571-11 or elsewhere notwithstanding. The exercise of jurisdiction over children by district courts shall, nevertheless, be considered noncriminal",
-            "document_name": "HB1483"
-          }
-        ]
-      },
-      {
-        "section": "revenue_sources",
-        "sentence": "Revenue to support the bill's provisions will be generated from monetary assessments, fees, and fines.",
-        "chunks": [
-          {
-            "chunk_id": 102,
-            "citation_number": 1,
-            "chunk_text": "-6(e). § -8 Monetary assessments. (a) A defendant found to have committed a fireworks infraction shall be assessed a monetary assessment not to exceed the maximum fine specified in the law or rule defining the fireworks infraction. The court shall consider the defendant's financial circumstances, if disclosed, in determining the",
-            "document_name": "HB1483"
-          }
-        ]
-      },
-      {
-        "section": "revenue_sources",
-        "sentence": "A permit for consumer fireworks known as firecrackers requires a fee of $25 (HB1483_.HTM.txt), while a permit for aerial devices requires a fee of $110 (HB1483_.HTM.txt).",
-        "chunks": [
-          {
-            "chunk_id": 227,
-            "citation_number": 1,
-            "chunk_text": "be revoked. \" SECTION 9 . Section 132D-10, Hawaii Revised Statutes, is amended to read as follows: \" §132D-10 Permits. (a) A permit shall be required for the purchase and use of: (1) Any consumer fireworks commonly known as firecrackers upon payment of a fee of $25; (2) Any aerial",
+            "chunk_text": "Tearing, rupture, or corrosive damage to the esophagus, viscera, or other internal organs. \" 2. By amending the definition of \"aerial device\" to read: \"\"Aerial device\" means any fireworks [ containing one hundred thirty milligrams or less of explosive materials that produces an audible or visible effect and is designed",
             "document_name": "HB1483"
           },
           {
-            "chunk_id": 227,
+            "chunk_id": 174,
             "citation_number": 1,
-            "chunk_text": "be revoked. \" SECTION 9 . Section 132D-10, Hawaii Revised Statutes, is amended to read as follows: \" §132D-10 Permits. (a) A permit shall be required for the purchase and use of: (1) Any consumer fireworks commonly known as firecrackers upon payment of a fee of $25; (2) Any aerial",
+            "chunk_text": "Tearing, rupture, or corrosive damage to the esophagus, viscera, or other internal organs. \" 2. By amending the definition of \"aerial device\" to read: \"\"Aerial device\" means any fireworks [ containing one hundred thirty milligrams or less of explosive materials that produces an audible or visible effect and is designed",
             "document_name": "HB1483"
           }
         ]
       },
       {
         "section": "revenue_sources",
-        "sentence": "The court shall impose an administrative fee of $20 (HB1483_.HTM.txt) for each fireworks infraction, which is deposited into the judiciary computer system special fund, and fines collected are split with eighty per cent to the county and twenty per cent to the State.",
+        "sentence": "The bill appropriates an unspecified sum out of the general revenues of the State of Hawaii for fiscal years 2025-2026 and 2026-2027.",
         "chunks": [
           {
-            "chunk_id": 105,
+            "chunk_id": 320,
             "citation_number": 1,
-            "chunk_text": "for each fireworks infraction in which judgment is entered in favor of the State. The clerk of the district court shall deposit the administrative fees collected into the judiciary computer system special fund pursuant to section 601-3.7. (d) Upon request of a defendant claiming inability to pay a monetary assessment,",
+            "chunk_text": "any proceeds or other property acquired or maintained with the proceeds from violation of section 132D-14(a)(1) [ or (3) ] may be subject to forfeiture pursuant to chapter 712A.\" SECTION 23 . There is appropriated out of the general revenues of the State of Hawaii the sum of $ or",
             "document_name": "HB1483"
-          },
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The court shall collect the fines imposed, paying twenty per cent to the State and eighty per cent to the county in which the fine was imposed.",
+        "chunks": [
           {
-            "chunk_id": 105,
+            "chunk_id": 263,
             "citation_number": 1,
-            "chunk_text": "for each fireworks infraction in which judgment is entered in favor of the State. The clerk of the district court shall deposit the administrative fees collected into the judiciary computer system special fund pursuant to section 601-3.7. (d) Upon request of a defendant claiming inability to pay a monetary assessment,",
+            "chunk_text": "fines collected, shall pay twenty per cent to the State and eighty per cent to the county in which the fine was imposed, which shall be expended by the county for law enforcement purposes. [ (d) ] (g) Notwithstanding any penalty set forth herein, violations of subsection (a)(1) [ or",
             "document_name": "HB1483"
           }
         ]
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "The bill appropriates an unspecified sum for fiscal year 2025-2026 and fiscal year 2026-2027 to update the judiciary information management system.",
+        "sentence": "The bill appropriates an unspecified amount from the general fund for fiscal year 2025-2026 and fiscal year 2026-2027.",
         "chunks": [
           {
             "chunk_id": 321,
@@ -3195,7 +3117,7 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "This is expected to be an initial cost, with potential for recurring maintenance expenses.",
+        "sentence": "These funds are to be expended by the judiciary to update the judiciary information management system and implement the new adjudications process.",
         "chunks": [
           {
             "chunk_id": 322,
@@ -3207,7 +3129,7 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "The new adjudication system for fireworks infractions will create ongoing operational costs for the judiciary and law enforcement agencies.",
+        "sentence": "Ongoing costs will be incurred by the judiciary to manage the adjudication of fireworks infractions.",
         "chunks": [
           {
             "chunk_id": 11,
@@ -3219,7 +3141,7 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "The bill establishes new recurring revenue streams from various fees and fines.",
+        "sentence": "Revenue will be generated through monetary assessments, fees, and fines.",
         "chunks": [
           {
             "chunk_id": 102,
@@ -3231,55 +3153,7 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "These include a $25 (HB1483_.HTM.txt) permit fee for firecrackers and a $110 (HB1483_.HTM.txt) fee for aerial devices.",
-        "chunks": [
-          {
-            "chunk_id": 227,
-            "citation_number": 1,
-            "chunk_text": "be revoked. \" SECTION 9 . Section 132D-10, Hawaii Revised Statutes, is amended to read as follows: \" §132D-10 Permits. (a) A permit shall be required for the purchase and use of: (1) Any consumer fireworks commonly known as firecrackers upon payment of a fee of $25; (2) Any aerial",
-            "document_name": "HB1483"
-          },
-          {
-            "chunk_id": 227,
-            "citation_number": 1,
-            "chunk_text": "be revoked. \" SECTION 9 . Section 132D-10, Hawaii Revised Statutes, is amended to read as follows: \" §132D-10 Permits. (a) A permit shall be required for the purchase and use of: (1) Any consumer fireworks commonly known as firecrackers upon payment of a fee of $25; (2) Any aerial",
-            "document_name": "HB1483"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "Fines for violations range from $200 (HB1483_.HTM.txt) for illegal use of consumer fireworks to $5,000 (HB1483_.HTM.txt) for repeat carrier offenses.",
-        "chunks": [
-          {
-            "chunk_id": 159,
-            "citation_number": 1,
-            "chunk_text": "times provided in subsections (a)(2) and (b). (d) Any person who violates: (1) Subsection (a) shall be subject to a $200 fine; (2) Subsection (b) shall be subject to a $1,000 fine; and (3) This section shall be subject to proceedings under chapter ; provided that nothing in this section",
-            "document_name": "HB1483"
-          },
-          {
-            "chunk_id": 159,
-            "citation_number": 1,
-            "chunk_text": "times provided in subsections (a)(2) and (b). (d) Any person who violates: (1) Subsection (a) shall be subject to a $200 fine; (2) Subsection (b) shall be subject to a $1,000 fine; and (3) This section shall be subject to proceedings under chapter ; provided that nothing in this section",
-            "document_name": "HB1483"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The court will also impose a $20 (HB1483_.HTM.txt) administrative fee for each fireworks infraction where judgment is entered for the State.",
-        "chunks": [
-          {
-            "chunk_id": 104,
-            "citation_number": 1,
-            "chunk_text": "scheduled date of payment; and (2) The cost of service of a penal summons issued pursuant to this chapter. (c) In addition to any monetary assessment imposed for a fireworks infraction, the court shall impose an administrative fee of $20 for each fireworks infraction in which judgment is entered in",
-            "document_name": "HB1483"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "Of the fines collected, eighty per cent shall be paid to the county and twenty per cent to the State.",
+        "sentence": "The State will receive twenty per cent of collected fines, while counties will receive eighty per cent.",
         "chunks": [
           {
             "chunk_id": 263,
@@ -3291,7 +3165,67 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "The precise fiscal impact over six years is indeterminate as it depends on the number of violations that will be cited and adjudicated, for which the provided documents offer no estimate.",
+        "sentence": "The bill does not provide a fiscal projection beyond fiscal year 2026-2027.",
+        "chunks": [
+          {
+            "chunk_id": 321,
+            "citation_number": 1,
+            "chunk_text": "of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 to carry out the purposes of this Act, including to update the judiciary",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "Of the fines collected for violations, the State shall receive twenty per cent.",
+        "chunks": [
+          {
+            "chunk_id": 263,
+            "citation_number": 1,
+            "chunk_text": "fines collected, shall pay twenty per cent to the State and eighty per cent to the county in which the fine was imposed, which shall be expended by the county for law enforcement purposes. [ (d) ] (g) Notwithstanding any penalty set forth herein, violations of subsection (a)(1) [ or",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "The remaining eighty per cent of fines collected shall be paid to the county in which the fine was imposed.",
+        "chunks": [
+          {
+            "chunk_id": 263,
+            "citation_number": 1,
+            "chunk_text": "fines collected, shall pay twenty per cent to the State and eighty per cent to the county in which the fine was imposed, which shall be expended by the county for law enforcement purposes. [ (d) ] (g) Notwithstanding any penalty set forth herein, violations of subsection (a)(1) [ or",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The bill appropriates funds to update the judiciary information management system to implement the adjudications process.",
+        "chunks": [
+          {
+            "chunk_id": 322,
+            "citation_number": 1,
+            "chunk_text": "the purposes of this Act, including to update the judiciary information management system to implement the adjudications process established by section 2 of this Act . The sums appropriated shall be expended by the judiciary for the purposes of this Act. SECTION 24. In codifying the new sections added by",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The specific amount for this update is not specified in the appropriation.",
+        "chunks": [
+          {
+            "chunk_id": 320,
+            "citation_number": 1,
+            "chunk_text": "any proceeds or other property acquired or maintained with the proceeds from violation of section 132D-14(a)(1) [ or (3) ] may be subject to forfeiture pursuant to chapter 712A.\" SECTION 23 . There is appropriated out of the general revenues of the State of Hawaii the sum of $ or",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "No other capital expenditures are mentioned in the bill.",
         "chunks": [
           {
             "chunk_id": 0,
@@ -3302,8 +3236,224 @@
         ]
       },
       {
-        "section": "six_year_fiscal_implications",
-        "sentence": "This Act shall take effect on July 1, 2025, meaning the fiscal implications begin in FY 2026.",
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The bill does not specify fiscal implications after six years.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB1483 HOUSE OF REPRESENTATIVES H.B. NO. 1483 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to fireworks . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds the widespread use of illegal fireworks poses an extreme danger and lethal",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The adjudication system for fireworks infractions is established as a permanent measure, suggesting ongoing administrative costs for the judiciary.",
+        "chunks": [
+          {
+            "chunk_id": 12,
+            "citation_number": 1,
+            "chunk_text": "is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for firework offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds. SECTION 2",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "Continued revenue from fines and fees is expected as long as the law is in effect.",
+        "chunks": [
+          {
+            "chunk_id": 102,
+            "citation_number": 1,
+            "chunk_text": "-6(e). § -8 Monetary assessments. (a) A defendant found to have committed a fireworks infraction shall be assessed a monetary assessment not to exceed the maximum fine specified in the law or rule defining the fireworks infraction. The court shall consider the defendant's financial circumstances, if disclosed, in determining the",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "No previous fiscal note was provided in the documents.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB1483 HOUSE OF REPRESENTATIVES H.B. NO. 1483 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to fireworks . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds the widespread use of illegal fireworks poses an extreme danger and lethal",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "fte_positions",
+        "sentence": "The provided legislative documents do not mention the addition or modification of any Full Time Equivalent (FTE) positions.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB1483 HOUSE OF REPRESENTATIVES H.B. NO. 1483 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to fireworks . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds the widespread use of illegal fireworks poses an extreme danger and lethal",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "appropriations_changes",
+        "sentence": "No previous version of the bill was provided.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB1483 HOUSE OF REPRESENTATIVES H.B. NO. 1483 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to fireworks . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds the widespread use of illegal fireworks poses an extreme danger and lethal",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "appropriations_changes",
+        "sentence": "The current bill appropriates an unspecified sum of money for fiscal years 2025-2026 and 2026-2027.",
+        "chunks": [
+          {
+            "chunk_id": 321,
+            "citation_number": 1,
+            "chunk_text": "of the State of Hawaii the sum of $ or so much thereof as may be necessary for fiscal year 2025-2026 and the same sum or so much thereof as may be necessary for fiscal year 2026-2027 to carry out the purposes of this Act, including to update the judiciary",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "appropriations_changes",
+        "sentence": "The appropriation is for the judiciary to update its information management system.",
+        "chunks": [
+          {
+            "chunk_id": 322,
+            "citation_number": 1,
+            "chunk_text": "the purposes of this Act, including to update the judiciary information management system to implement the adjudications process established by section 2 of this Act . The sums appropriated shall be expended by the judiciary for the purposes of this Act. SECTION 24. In codifying the new sections added by",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "funding_sources_changes",
+        "sentence": "No previous version of the bill was provided.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB1483 HOUSE OF REPRESENTATIVES H.B. NO. 1483 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to fireworks . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds the widespread use of illegal fireworks poses an extreme danger and lethal",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "funding_sources_changes",
+        "sentence": "The method of funding identified for the appropriation is the general revenues of the State of Hawaii.",
+        "chunks": [
+          {
+            "chunk_id": 320,
+            "citation_number": 1,
+            "chunk_text": "any proceeds or other property acquired or maintained with the proceeds from violation of section 132D-14(a)(1) [ or (3) ] may be subject to forfeiture pursuant to chapter 712A.\" SECTION 23 . There is appropriated out of the general revenues of the State of Hawaii the sum of $ or",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "department_impact",
+        "sentence": "No previous version of the bill was provided.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 1,
+            "chunk_text": "HB1483 HOUSE OF REPRESENTATIVES H.B. NO. 1483 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to fireworks . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds the widespread use of illegal fireworks poses an extreme danger and lethal",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "department_impact",
+        "sentence": "The sums appropriated shall be expended by the judiciary for the purposes of this Act.",
+        "chunks": [
+          {
+            "chunk_id": 322,
+            "citation_number": 1,
+            "chunk_text": "the purposes of this Act, including to update the judiciary information management system to implement the adjudications process established by section 2 of this Act . The sums appropriated shall be expended by the judiciary for the purposes of this Act. SECTION 24. In codifying the new sections added by",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "reports_required",
+        "sentence": "Health care facilities in this State shall report all incidents of serious injuries and fatalities caused by legal and illegal consumer fireworks, aerial devices, display fireworks, or articles pyrotechnic.",
+        "chunks": [
+          {
+            "chunk_id": 286,
+            "citation_number": 1,
+            "chunk_text": "than this chapter. \" SECTION 16 . Section 132D-21, Hawaii Revised Statutes, is amended to read as follows: \" §132D-21 Health care facilities; report of fireworks and articles pyrotechnic incidents. (a) Health care facilities in this State shall report all incidents of serious injuries and fatalities caused by legal and",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "reports_required",
+        "sentence": "These reports must be made to the department of health and the police department of the county in which the person was attended or treated.",
+        "chunks": [
+          {
+            "chunk_id": 287,
+            "citation_number": 1,
+            "chunk_text": "incidents of serious injuries and fatalities caused by legal and illegal consumer fireworks , aerial devices, display fireworks, or articles pyrotechnic to the department of health and the police department of the county in which the person was attended or treated. All reports shall be in writing or in the",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "reports_required",
+        "sentence": "All reports shall be in writing or in the manner specified by the department of health.",
+        "chunks": [
+          {
+            "chunk_id": 288,
+            "citation_number": 1,
+            "chunk_text": "treated. All reports shall be in writing or in the manner specified by the department of health. (b) As used in this section, \"health care facilities\" includes any outpatient clinic, emergency room, or physician's office, private or public, whether organized for profit or not, used, operated, or designed to provide",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "pilot_program",
+        "sentence": "The bill does not create a pilot program.",
+        "chunks": [
+          {
+            "chunk_id": 12,
+            "citation_number": 1,
+            "chunk_text": "is to: (1) Establish an adjudication system and procedures to process fireworks infractions; (2) Amend and establish various definitions and penalties for firework offenses, including establishing heightened penalties under certain circumstances; (3) Establish various criminal offenses and penalties related to fireworks or articles pyrotechnics; and (4) Appropriate funds. SECTION 2",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "pilot_program",
+        "sentence": "Instead, it establishes a permanent adjudication system for fireworks infractions.",
+        "chunks": [
+          {
+            "chunk_id": 10,
+            "citation_number": 1,
+            "chunk_text": "be established to promote compliance with the fireworks control laws, including graduated penalties for repeat or felony level offenses, enhanced penalties for offenses that result in injury or death, and a dedicated adjudication system for fireworks infractions, similar to the existing traffic infraction system. Creating a fireworks infractions system will",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "pilot_program",
+        "sentence": "This system is intended to be applied uniformly throughout the State and in all counties.",
+        "chunks": [
+          {
+            "chunk_id": 21,
+            "citation_number": 1,
+            "chunk_text": "minors, shall be adjudicated pursuant to this chapter, except as provided in subsection (b). This chapter shall be applied uniformly throughout the State and in all counties. No penal sanction that includes imprisonment shall apply to a violation of state law, or county ordinance or rule, that would constitute a",
+            "document_name": "HB1483"
+          }
+        ]
+      },
+      {
+        "section": "sunset_date",
+        "sentence": "The provided legislative documents do not contain a sunset date for the bill or its provisions.",
         "chunks": [
           {
             "chunk_id": 325,
@@ -3314,127 +3464,25 @@
         ]
       },
       {
-        "section": "operating_revenue_impact",
-        "sentence": "The measure will increase operating revenues for the State and counties through the collection of new fines, fees, and monetary assessments.",
+        "section": "effective_date",
+        "sentence": "This Act shall take effect on July 1, 2025.",
         "chunks": [
           {
-            "chunk_id": 102,
+            "chunk_id": 325,
             "citation_number": 1,
-            "chunk_text": "-6(e). § -8 Monetary assessments. (a) A defendant found to have committed a fireworks infraction shall be assessed a monetary assessment not to exceed the maximum fine specified in the law or rule defining the fireworks infraction. The court shall consider the defendant's financial circumstances, if disclosed, in determining the",
-            "document_name": "HB1483"
-          },
-          {
-            "chunk_id": 102,
-            "citation_number": 1,
-            "chunk_text": "-6(e). § -8 Monetary assessments. (a) A defendant found to have committed a fireworks infraction shall be assessed a monetary assessment not to exceed the maximum fine specified in the law or rule defining the fireworks infraction. The court shall consider the defendant's financial circumstances, if disclosed, in determining the",
+            "chunk_text": ". This Act shall take effect on July 1, 2025. INTRODUCED BY: _____________________________ Report Title: Fireworks; Adjudication; Criminal Offenses; Penalties; Infractions; Appropriation Description: Establishes an adjudication system and procedures to process fireworks infractions. Amends multiple definitions and penalties for fireworks offenses, including heightened penalties if another person suffers substantial bodily",
             "document_name": "HB1483"
           }
         ]
       },
       {
-        "section": "operating_revenue_impact",
-        "sentence": "Sources include a $25 (HB1483_.HTM.txt) fee for consumer fireworks permits and a $20 (HB1483_.HTM.txt) administrative fee for each infraction deposited into the judiciary computer system special fund.",
+        "section": "effective_date",
+        "sentence": "No defective effective date from a previous version was mentioned.",
         "chunks": [
           {
-            "chunk_id": 227,
+            "chunk_id": 0,
             "citation_number": 1,
-            "chunk_text": "be revoked. \" SECTION 9 . Section 132D-10, Hawaii Revised Statutes, is amended to read as follows: \" §132D-10 Permits. (a) A permit shall be required for the purchase and use of: (1) Any consumer fireworks commonly known as firecrackers upon payment of a fee of $25; (2) Any aerial",
-            "document_name": "HB1483"
-          },
-          {
-            "chunk_id": 227,
-            "citation_number": 1,
-            "chunk_text": "be revoked. \" SECTION 9 . Section 132D-10, Hawaii Revised Statutes, is amended to read as follows: \" §132D-10 Permits. (a) A permit shall be required for the purchase and use of: (1) Any consumer fireworks commonly known as firecrackers upon payment of a fee of $25; (2) Any aerial",
-            "document_name": "HB1483"
-          }
-        ]
-      },
-      {
-        "section": "operating_revenue_impact",
-        "sentence": "Fines for violations, such as a $1,000 (HB1483_.HTM.txt) fine for a carrier's first offense, will be collected, with eighty per cent allocated to the county and twenty per cent to the State.",
-        "chunks": [
-          {
-            "chunk_id": 167,
-            "citation_number": 1,
-            "chunk_text": "of a prior judgment for the State under this section, the carrier or person shall be subject to a $1,000 fine. (c) For a second offense committed within five years of a prior judgment for the State under this section, the carrier or person shall be subject to a $2,000",
-            "document_name": "HB1483"
-          },
-          {
-            "chunk_id": 167,
-            "citation_number": 1,
-            "chunk_text": "of a prior judgment for the State under this section, the carrier or person shall be subject to a $1,000 fine. (c) For a second offense committed within five years of a prior judgment for the State under this section, the carrier or person shall be subject to a $2,000",
-            "document_name": "HB1483"
-          }
-        ]
-      },
-      {
-        "section": "capital_expenditure_impact",
-        "sentence": "The bill appropriates an unspecified amount of funds to update the judiciary information management system.",
-        "chunks": [
-          {
-            "chunk_id": 322,
-            "citation_number": 1,
-            "chunk_text": "the purposes of this Act, including to update the judiciary information management system to implement the adjudications process established by section 2 of this Act . The sums appropriated shall be expended by the judiciary for the purposes of this Act. SECTION 24. In codifying the new sections added by",
-            "document_name": "HB1483"
-          }
-        ]
-      },
-      {
-        "section": "capital_expenditure_impact",
-        "sentence": "This expenditure is for the implementation of the new adjudications process for fireworks infractions.",
-        "chunks": [
-          {
-            "chunk_id": 322,
-            "citation_number": 1,
-            "chunk_text": "the purposes of this Act, including to update the judiciary information management system to implement the adjudications process established by section 2 of this Act . The sums appropriated shall be expended by the judiciary for the purposes of this Act. SECTION 24. In codifying the new sections added by",
-            "document_name": "HB1483"
-          }
-        ]
-      },
-      {
-        "section": "capital_expenditure_impact",
-        "sentence": "The provided text does not specify any other capital expenditures for facilities or equipment.",
-        "chunks": [
-          {
-            "chunk_id": 322,
-            "citation_number": 1,
-            "chunk_text": "the purposes of this Act, including to update the judiciary information management system to implement the adjudications process established by section 2 of this Act . The sums appropriated shall be expended by the judiciary for the purposes of this Act. SECTION 24. In codifying the new sections added by",
-            "document_name": "HB1483"
-          }
-        ]
-      },
-      {
-        "section": "fiscal_implications_after_6_years",
-        "sentence": "After the initial six-year period, the adjudication system for fireworks infractions will represent an ongoing operational cost for the judiciary.",
-        "chunks": [
-          {
-            "chunk_id": 11,
-            "citation_number": 1,
-            "chunk_text": "existing traffic infraction system. Creating a fireworks infractions system will allow law enforcement agencies and the judiciary to quickly and efficiently process low-level cases, while also allowing them to prioritize higher-level cases as appropriate. Accordingly, the purpose of this Act is to: (1) Establish an adjudication system and procedures to",
-            "document_name": "HB1483"
-          }
-        ]
-      },
-      {
-        "section": "fiscal_implications_after_6_years",
-        "sentence": "Revenue from the established fines and fees is expected to be recurring, providing a continuous source of funds for the State and counties.",
-        "chunks": [
-          {
-            "chunk_id": 102,
-            "citation_number": 1,
-            "chunk_text": "-6(e). § -8 Monetary assessments. (a) A defendant found to have committed a fireworks infraction shall be assessed a monetary assessment not to exceed the maximum fine specified in the law or rule defining the fireworks infraction. The court shall consider the defendant's financial circumstances, if disclosed, in determining the",
-            "document_name": "HB1483"
-          }
-        ]
-      },
-      {
-        "section": "fiscal_implications_after_6_years",
-        "sentence": "The 80/20 split of fine revenue between the counties and the State will create a sustained funding stream for county law enforcement purposes.",
-        "chunks": [
-          {
-            "chunk_id": 263,
-            "citation_number": 1,
-            "chunk_text": "fines collected, shall pay twenty per cent to the State and eighty per cent to the county in which the fine was imposed, which shall be expended by the county for law enforcement purposes. [ (d) ] (g) Notwithstanding any penalty set forth herein, violations of subsection (a)(1) [ or",
+            "chunk_text": "HB1483 HOUSE OF REPRESENTATIVES H.B. NO. 1483 THIRTY-THIRD LEGISLATURE, 2025 STATE OF HAWAII A BILL FOR AN ACT relating to fireworks . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds the widespread use of illegal fireworks poses an extreme danger and lethal",
             "document_name": "HB1483"
           }
         ]
@@ -3488,6 +3536,38 @@
       "updates_from_previous_fiscal_note": {
         "prompt": "If you are given a previous fiscal note. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fiscal note.",
         "description": "Updates from previous fiscal note"
+      },
+      "fte_positions": {
+        "prompt": "Detail any Full Time Equivalent (FTE) positions that have been added or modified in this version of the bill, including the number of positions, their roles, and any changes from previous versions. This should be around 3 sentences.",
+        "description": "FTE (Full Time Equivalent) position changes"
+      },
+      "appropriations_changes": {
+        "prompt": "Identify and describe any appropriations that were previously unspecified or have been modified between versions of the bill, including the amounts and purposes of the appropriations. This should be around 3 sentences.",
+        "description": "Changes to appropriations between bill versions"
+      },
+      "funding_sources_changes": {
+        "prompt": "Specify the method of funding (MOF) for appropriations and identify any changes in funding sources between versions, such as shifts between general fund and special fund appropriations. This should be around 3 sentences.",
+        "description": "Changes to funding sources and method of funding"
+      },
+      "department_impact": {
+        "prompt": "Describe any changes in which department is responsible for expending appropriations, including shifts from one department to another between bill versions (e.g., from Department of Health to Judiciary). This should be around 3 sentences.",
+        "description": "Changes in department responsibility for appropriations"
+      },
+      "reports_required": {
+        "prompt": "Identify any reports that agencies are required to submit to the legislature, including new reporting requirements or modifications to existing ones. This should be around 3 sentences.",
+        "description": "Reporting requirements for agencies"
+      },
+      "pilot_program": {
+        "prompt": "If the bill creates a pilot program, describe the length of the pilot program and whether it was initially intended to be a pilot program or a permanent program. This should be around 3 sentences.",
+        "description": "Pilot program details and duration"
+      },
+      "sunset_date": {
+        "prompt": "Identify the sunset date for the bill or program, including any modifications to the sunset date between versions. This should be around 2 sentences.",
+        "description": "Sunset date and changes"
+      },
+      "effective_date": {
+        "prompt": "Identify the effective date of the bill, noting if there was a defective effective date in a previous version and what the corrected effective date is. This should be around 2 sentences.",
+        "description": "Effective date and corrections"
       }
     }
   },
@@ -4807,6 +4887,6 @@
       }
     ]
   },
-  "generation_timestamp": "2025-10-30T16:56:59.173130",
-  "generation_timestamp_unix": 1761879419.17314
+  "generation_timestamp": "2025-11-04T23:36:01.205725",
+  "generation_timestamp_unix": 1762299361.2057347
 }

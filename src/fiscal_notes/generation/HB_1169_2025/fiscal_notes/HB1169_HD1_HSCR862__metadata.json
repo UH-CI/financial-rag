@@ -1,29 +1,26 @@
 {
   "document_name": "HB1169_HD1_HSCR862_",
   "new_documents_processed": [
-    "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
     "HB1169_HD1_HSCR862_"
   ],
   "all_documents_processed_so_far": [
     "HB1169",
-    "HB1169_TESTIMONY_HED-EDN_02-05-25_",
     "HB1169_HD1",
     "HB1169_HD1_HSCR308_",
-    "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
     "HB1169_HD1_HSCR862_"
   ],
   "numbers_used": 0,
-  "prompt_length": 11622,
+  "prompt_length": 14149,
   "response_metadata": {
-    "response_text": "{\n  \"overview\": \"The purpose of this measure is to: (1) Establish the University of Hawaii Conference Center Revolving Fund to facilitate the administration of conference center programs among various campuses and operating units of the University of Hawaii System; (2) Repeal the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund; and (3) Appropriate funds out of the University of Hawaii Conference Center Revolving Fund. [CHUNK_7] [CHUNK_8] [CHUNK_9] The University of Hawai‘i (UH) supports HB 1169 HD1, Relating to University of Hawaii Conference Center Revolving Fund. [CHUNK_2] This bill would create one UH Conference Center Revolving Fund and each campus would have accounts within this overarching fund, which would allow all campuses to standardize conference center programs across all campuses while eliminating unnecessary duplication of statutes. [CHUNK_3] [CHUNK_4]\",\n  \"appropriations\": \"A purpose of this measure is to appropriate funds out of the University of Hawaii Conference Center Revolving Fund. [CHUNK_9]\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"\",\n  \"economic_impact\": \"\",\n  \"policy_impact\": \"\",\n  \"revenue_sources\": \"\",\n  \"six_year_fiscal_implications\": \"\",\n  \"operating_revenue_impact\": \"\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"A key update to the measure is the added purpose to appropriate funds out of the University of Hawaii Conference Center Revolving Fund. [CHUNK_9] The Committee on Finance received testimony in support of this measure from the University of Hawaiʻi System and recommends that H.B. No. 1169, H.D. 1, pass Third Reading. [CHUNK_9] [CHUNK_11] The previous version's effective date of July 1, 3000, is not included in the documentation for H.B. No. 1169, H.D. 1. [CHUNK_11]\"\n}",
+    "response_text": "{\n  \"overview\": \"The purpose of this measure is to establish the University of Hawaii Conference Center Revolving Fund to facilitate the administration of conference center programs among various campuses and operating units of the University of Hawaii System. [CHUNK_2] This bill also repeals the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund and lapses all unencumbered funds to the new fund. [CHUNK_3] The measure also intends to appropriate funds out of the University of Hawaii Conference Center Revolving Fund. [CHUNK_3]\",\n  \"appropriations\": \"The provided documents state that a purpose of this measure is to appropriate funds out of the University of Hawaii Conference Center Revolving Fund. [CHUNK_3] However, no specific dollar amount for the appropriation is mentioned in the latest committee report. [CHUNK_3]\",\n  \"assumptions_and_methodology\": \"The latest committee report does not contain information regarding the assumptions and methodology used for financial projections. [CHUNK_0]\",\n  \"agency_impact\": \"The latest committee report does not contain any new information regarding the agency impact of this measure. [CHUNK_0]\",\n  \"economic_impact\": \"The latest committee report does not contain any new information regarding the economic impact of this measure. [CHUNK_0]\",\n  \"policy_impact\": \"The latest committee report does not contain any new information regarding the policy impact of this measure. [CHUNK_0]\",\n  \"revenue_sources\": \"The latest committee report reaffirms that the measure will lapse all unencumbered funds from the repealed revolving funds to the University of Hawaii Conference Center Revolving Fund. [CHUNK_3]\",\n  \"six_year_fiscal_implications\": \"The latest committee report does not contain information regarding the six-year fiscal implications of this measure. [CHUNK_0]\",\n  \"operating_revenue_impact\": \"The latest committee report does not contain any new information regarding the operating revenue impact of this measure. [CHUNK_0]\",\n  \"capital_expenditure_impact\": \"The latest committee report does not contain information regarding any capital expenditure impact. [CHUNK_0]\",\n  \"fiscal_implications_after_6_years\": \"The latest committee report does not contain information regarding the fiscal implications after six years. [CHUNK_0]\",\n  \"updates_from_previous_fiscal_note\": \"The previous fiscal note was based on the text of H.B. No. 1169, H.D. 1. [CHUNK_1] The new document, HSCR862, is a report from the Committee on Finance which received testimony in support of the measure from the University of Hawaiʻi System. [CHUNK_4] The Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, and recommends that it pass Third Reading, but the report itself does not introduce any new fiscal changes or amendments. [CHUNK_5]\",\n  \"fte_positions\": \"The latest committee report does not mention the addition or modification of any FTE positions. [CHUNK_0]\",\n  \"appropriations_changes\": \"The latest committee report does not specify a dollar amount for the appropriation, which is consistent with the previous version of the bill. [CHUNK_3]\",\n  \"funding_sources_changes\": \"The latest committee report does not indicate any changes to the funding sources for this measure. [CHUNK_0]\",\n  \"department_impact\": \"The latest committee report does not indicate any changes to the department responsible for this measure. [CHUNK_0]\",\n  \"reports_required\": \"The latest committee report does not contain any new information regarding reporting requirements. [CHUNK_0]\",\n  \"pilot_program\": \"The latest committee report does not establish a pilot program. [CHUNK_0]\",\n  \"sunset_date\": \"The latest committee report does not contain a sunset date for the bill or program. [CHUNK_0]\",\n  \"effective_date\": \"The latest committee report does not contain any information regarding the effective date of the measure. [CHUNK_0]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 4264,
-      "candidates_token_count": 493,
-      "total_token_count": 8123
+      "prompt_token_count": 4095,
+      "candidates_token_count": 876,
+      "total_token_count": 7460
     },
     "candidates": [
       {
@@ -33,7 +30,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n  \"overview\": \"The purpose of this measure is to: (1) Establish the University of Hawaii Conference Center Revolving Fund to facilitate the administration of conference center programs among various campuses and operating units of the University of Hawaii System; (2) Repeal the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund; and (3) Appropriate funds out of the University of Hawaii Conference Center Revolving Fund. [CHUNK_7] [CHUNK_8] [CHUNK_9] The University of Hawai‘i (UH) supports HB 1169 HD1, Relating to University of Hawaii Conference Center Revolving Fund. [CHUNK_2] This bill would create one UH Conference Center Revolving Fund and each campus would have accounts within this overarching fund, which would allow all campuses to standardize conference center programs across all campuses while eliminating unnecessary duplication of statutes. [CHUNK_3] [CHUNK_4]\",\n  \"appropriations\": \"A purpose of this measure is to appropriate funds out of the University of Hawaii Conference Center Revolving Fund. [CHUNK_9]\",\n  \"assumptions_and_methodology\": \"\",\n  \"agency_impact\": \"\",\n  \"economic_impact\": \"\",\n  \"policy_impact\": \"\",\n  \"revenue_sources\": \"\",\n  \"six_year_fiscal_implications\": \"\",\n  \"operating_revenue_impact\": \"\",\n  \"capital_expenditure_impact\": \"\",\n  \"fiscal_implications_after_6_years\": \"\",\n  \"updates_from_previous_fiscal_note\": \"A key update to the measure is the added purpose to appropriate funds out of the University of Hawaii Conference Center Revolving Fund. [CHUNK_9] The Committee on Finance received testimony in support of this measure from the University of Hawaiʻi System and recommends that H.B. No. 1169, H.D. 1, pass Third Reading. [CHUNK_9] [CHUNK_11] The previous version's effective date of July 1, 3000, is not included in the documentation for H.B. No. 1169, H.D. 1. [CHUNK_11]\"\n}"
+              "text": "{\n  \"overview\": \"The purpose of this measure is to establish the University of Hawaii Conference Center Revolving Fund to facilitate the administration of conference center programs among various campuses and operating units of the University of Hawaii System. [CHUNK_2] This bill also repeals the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund and lapses all unencumbered funds to the new fund. [CHUNK_3] The measure also intends to appropriate funds out of the University of Hawaii Conference Center Revolving Fund. [CHUNK_3]\",\n  \"appropriations\": \"The provided documents state that a purpose of this measure is to appropriate funds out of the University of Hawaii Conference Center Revolving Fund. [CHUNK_3] However, no specific dollar amount for the appropriation is mentioned in the latest committee report. [CHUNK_3]\",\n  \"assumptions_and_methodology\": \"The latest committee report does not contain information regarding the assumptions and methodology used for financial projections. [CHUNK_0]\",\n  \"agency_impact\": \"The latest committee report does not contain any new information regarding the agency impact of this measure. [CHUNK_0]\",\n  \"economic_impact\": \"The latest committee report does not contain any new information regarding the economic impact of this measure. [CHUNK_0]\",\n  \"policy_impact\": \"The latest committee report does not contain any new information regarding the policy impact of this measure. [CHUNK_0]\",\n  \"revenue_sources\": \"The latest committee report reaffirms that the measure will lapse all unencumbered funds from the repealed revolving funds to the University of Hawaii Conference Center Revolving Fund. [CHUNK_3]\",\n  \"six_year_fiscal_implications\": \"The latest committee report does not contain information regarding the six-year fiscal implications of this measure. [CHUNK_0]\",\n  \"operating_revenue_impact\": \"The latest committee report does not contain any new information regarding the operating revenue impact of this measure. [CHUNK_0]\",\n  \"capital_expenditure_impact\": \"The latest committee report does not contain information regarding any capital expenditure impact. [CHUNK_0]\",\n  \"fiscal_implications_after_6_years\": \"The latest committee report does not contain information regarding the fiscal implications after six years. [CHUNK_0]\",\n  \"updates_from_previous_fiscal_note\": \"The previous fiscal note was based on the text of H.B. No. 1169, H.D. 1. [CHUNK_1] The new document, HSCR862, is a report from the Committee on Finance which received testimony in support of the measure from the University of Hawaiʻi System. [CHUNK_4] The Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, and recommends that it pass Third Reading, but the report itself does not introduce any new fiscal changes or amendments. [CHUNK_5]\",\n  \"fte_positions\": \"The latest committee report does not mention the addition or modification of any FTE positions. [CHUNK_0]\",\n  \"appropriations_changes\": \"The latest committee report does not specify a dollar amount for the appropriation, which is consistent with the previous version of the bill. [CHUNK_3]\",\n  \"funding_sources_changes\": \"The latest committee report does not indicate any changes to the funding sources for this measure. [CHUNK_0]\",\n  \"department_impact\": \"The latest committee report does not indicate any changes to the department responsible for this measure. [CHUNK_0]\",\n  \"reports_required\": \"The latest committee report does not contain any new information regarding reporting requirements. [CHUNK_0]\",\n  \"pilot_program\": \"The latest committee report does not establish a pilot program. [CHUNK_0]\",\n  \"sunset_date\": \"The latest committee report does not contain a sunset date for the bill or program. [CHUNK_0]\",\n  \"effective_date\": \"The latest committee report does not contain any information regarding the effective date of the measure. [CHUNK_0]\"\n}"
             }
           ]
         },
@@ -42,58 +39,10 @@
       }
     ],
     "chunks_metadata": {
-      "total_chunks": 12,
+      "total_chunks": 6,
       "chunk_details": [
         {
           "chunk_id": 0,
-          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
-          "chunk_text": "UNIVERSITY OF HAWAI‘I SYSTEM ʻŌNAEHANA KULANUI O HAWAIʻI Legislative Testimony Hōʻike Manaʻo I Mua O Ka ʻAhaʻōlelo _____________________________________________________________ Testimony Presented Before the House Committee on Finance February 21, 2025 at 10:00 a.m. By Kalbert K. Young Vice President for Budget and Finance/Chief Financial Officer University of Hawai‘i System HB 1169",
-          "start_word": 0,
-          "end_word": 50,
-          "word_count": 50
-        },
-        {
-          "chunk_id": 1,
-          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
-          "chunk_text": "and Finance/Chief Financial Officer University of Hawai‘i System HB 1169 HD1 – RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND Chair Yamashita, Vice Chair Takenouchi, and Members of the Committee: Thank you for the opportunity to present testimony today. The University of Hawai‘i (UH) supports HB 1169 HD1, Relating",
-          "start_word": 40,
-          "end_word": 90,
-          "word_count": 50
-        },
-        {
-          "chunk_id": 2,
-          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
-          "chunk_text": "The University of Hawai‘i (UH) supports HB 1169 HD1, Relating to University of Hawaii Conference Center Revolving Fund. This bill establishes the University of Hawaii Conference Center Revolving Fund and accounts under the fund to facilitate the administration of the fund for conference center programs among various campuses and operating",
-          "start_word": 80,
-          "end_word": 130,
-          "word_count": 50
-        },
-        {
-          "chunk_id": 3,
-          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
-          "chunk_text": "fund for conference center programs among various campuses and operating units of the UH system. Conference Center Revolving Funds already exist for the Community Colleges and UH-Hilo. This bill would create one UH Conference Center Revolving Fund and each campus would have accounts within this overarching fund, which would allow",
-          "start_word": 120,
-          "end_word": 170,
-          "word_count": 50
-        },
-        {
-          "chunk_id": 4,
-          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
-          "chunk_text": "would have accounts within this overarching fund, which would allow all campuses to standardize conference center programs across all campuses while eliminating unnecessary duplication of statutes. This structure is similar to many other UH funds, including the Tuition and Fees Special Fund, the Auxiliary Enterprises Special Fund, and the Student",
-          "start_word": 160,
-          "end_word": 210,
-          "word_count": 50
-        },
-        {
-          "chunk_id": 5,
-          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_",
-          "chunk_text": "Special Fund, the Auxiliary Enterprises Special Fund, and the Student Activities Revolving Fund. Thank you for this opportunity to testify.",
-          "start_word": 200,
-          "end_word": 220,
-          "word_count": 20
-        },
-        {
-          "chunk_id": 6,
           "document_name": "HB1169_HD1_HSCR862_",
           "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
           "start_word": 0,
@@ -101,7 +50,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 7,
+          "chunk_id": 1,
           "document_name": "HB1169_HD1_HSCR862_",
           "chunk_text": "which was referred H.B. No. 1169, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish the University of Hawaii Conference Center Revolving Fund to facilitate the administration",
           "start_word": 40,
@@ -109,7 +58,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 8,
+          "chunk_id": 2,
           "document_name": "HB1169_HD1_HSCR862_",
           "chunk_text": "of Hawaii Conference Center Revolving Fund to facilitate the administration of conference center programs among various campuses and operating units of the University of Hawaii System; (2) Repeal the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund and lapse all",
           "start_word": 80,
@@ -117,7 +66,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 9,
+          "chunk_id": 3,
           "document_name": "HB1169_HD1_HSCR862_",
           "chunk_text": "and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund; and (3) Appropriate funds out of the University of Hawaii Conference Center Revolving Fund. Your Committee received testimony in support of this measure from the University of Hawai ʻ",
           "start_word": 120,
@@ -125,7 +74,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 10,
+          "chunk_id": 4,
           "document_name": "HB1169_HD1_HSCR862_",
           "chunk_text": "support of this measure from the University of Hawai ʻ i System. As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, and",
           "start_word": 160,
@@ -133,7 +82,7 @@
           "word_count": 50
         },
         {
-          "chunk_id": 11,
+          "chunk_id": 5,
           "document_name": "HB1169_HD1_HSCR862_",
           "chunk_text": "intent and purpose of H.B. No. 1169, H.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Finance, ____________________________ KYLE T. YAMASHITA, Chair",
           "start_word": 200,
@@ -146,41 +95,34 @@
     "chunk_text_map": {
       "6": [
         {
-          "chunk_text": "which was referred H.B. No. 1169, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish the University of Hawaii Conference Center Revolving Fund to facilitate the administration",
-          "chunk_id": 7,
-          "document_name": "HB1169_HD1_HSCR862_"
-        },
-        {
           "chunk_text": "of Hawaii Conference Center Revolving Fund to facilitate the administration of conference center programs among various campuses and operating units of the University of Hawaii System; (2) Repeal the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund and lapse all",
-          "chunk_id": 8,
+          "chunk_id": 2,
           "document_name": "HB1169_HD1_HSCR862_"
         },
         {
           "chunk_text": "and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund; and (3) Appropriate funds out of the University of Hawaii Conference Center Revolving Fund. Your Committee received testimony in support of this measure from the University of Hawai ʻ",
-          "chunk_id": 9,
+          "chunk_id": 3,
+          "document_name": "HB1169_HD1_HSCR862_"
+        },
+        {
+          "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+          "chunk_id": 0,
+          "document_name": "HB1169_HD1_HSCR862_"
+        },
+        {
+          "chunk_text": "which was referred H.B. No. 1169, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish the University of Hawaii Conference Center Revolving Fund to facilitate the administration",
+          "chunk_id": 1,
+          "document_name": "HB1169_HD1_HSCR862_"
+        },
+        {
+          "chunk_text": "support of this measure from the University of Hawai ʻ i System. As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, and",
+          "chunk_id": 4,
           "document_name": "HB1169_HD1_HSCR862_"
         },
         {
           "chunk_text": "intent and purpose of H.B. No. 1169, H.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Finance, ____________________________ KYLE T. YAMASHITA, Chair",
-          "chunk_id": 11,
+          "chunk_id": 5,
           "document_name": "HB1169_HD1_HSCR862_"
-        }
-      ],
-      "5": [
-        {
-          "chunk_text": "The University of Hawai‘i (UH) supports HB 1169 HD1, Relating to University of Hawaii Conference Center Revolving Fund. This bill establishes the University of Hawaii Conference Center Revolving Fund and accounts under the fund to facilitate the administration of the fund for conference center programs among various campuses and operating",
-          "chunk_id": 2,
-          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_"
-        },
-        {
-          "chunk_text": "fund for conference center programs among various campuses and operating units of the UH system. Conference Center Revolving Funds already exist for the Community Colleges and UH-Hilo. This bill would create one UH Conference Center Revolving Fund and each campus would have accounts within this overarching fund, which would allow",
-          "chunk_id": 3,
-          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_"
-        },
-        {
-          "chunk_text": "would have accounts within this overarching fund, which would allow all campuses to standardize conference center programs across all campuses while eliminating unnecessary duplication of statutes. This structure is similar to many other UH funds, including the Tuition and Fees Special Fund, the Auxiliary Enterprises Special Fund, and the Student",
-          "chunk_id": 4,
-          "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_"
         }
       ]
     },
@@ -203,64 +145,46 @@
     "sentence_chunk_mapping": [
       {
         "section": "overview",
-        "sentence": "The purpose of this measure is to: (1) Establish the University of Hawaii Conference Center Revolving Fund to facilitate the administration of conference center programs among various campuses and operating units of the University of Hawaii System; (2) Repeal the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund; and (3) Appropriate funds out of the University of Hawaii Conference Center Revolving Fund.",
-        "chunks": [
-          {
-            "chunk_id": 7,
-            "citation_number": 6,
-            "chunk_text": "which was referred H.B. No. 1169, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish the University of Hawaii Conference Center Revolving Fund to facilitate the administration",
-            "document_name": "HB1169_HD1_HSCR862_"
-          },
-          {
-            "chunk_id": 7,
-            "citation_number": 6,
-            "chunk_text": "which was referred H.B. No. 1169, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish the University of Hawaii Conference Center Revolving Fund to facilitate the administration",
-            "document_name": "HB1169_HD1_HSCR862_"
-          },
-          {
-            "chunk_id": 7,
-            "citation_number": 6,
-            "chunk_text": "which was referred H.B. No. 1169, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish the University of Hawaii Conference Center Revolving Fund to facilitate the administration",
-            "document_name": "HB1169_HD1_HSCR862_"
-          }
-        ]
-      },
-      {
-        "section": "overview",
-        "sentence": "The University of Hawai‘i (UH) supports HB 1169 HD1, Relating to University of Hawaii Conference Center Revolving Fund.",
+        "sentence": "The purpose of this measure is to establish the University of Hawaii Conference Center Revolving Fund to facilitate the administration of conference center programs among various campuses and operating units of the University of Hawaii System.",
         "chunks": [
           {
             "chunk_id": 2,
-            "citation_number": 5,
-            "chunk_text": "The University of Hawai‘i (UH) supports HB 1169 HD1, Relating to University of Hawaii Conference Center Revolving Fund. This bill establishes the University of Hawaii Conference Center Revolving Fund and accounts under the fund to facilitate the administration of the fund for conference center programs among various campuses and operating",
-            "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_"
+            "citation_number": 6,
+            "chunk_text": "of Hawaii Conference Center Revolving Fund to facilitate the administration of conference center programs among various campuses and operating units of the University of Hawaii System; (2) Repeal the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund and lapse all",
+            "document_name": "HB1169_HD1_HSCR862_"
           }
         ]
       },
       {
         "section": "overview",
-        "sentence": "This bill would create one UH Conference Center Revolving Fund and each campus would have accounts within this overarching fund, which would allow all campuses to standardize conference center programs across all campuses while eliminating unnecessary duplication of statutes.",
+        "sentence": "This bill also repeals the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund and lapses all unencumbered funds to the new fund.",
         "chunks": [
           {
             "chunk_id": 3,
-            "citation_number": 5,
-            "chunk_text": "fund for conference center programs among various campuses and operating units of the UH system. Conference Center Revolving Funds already exist for the Community Colleges and UH-Hilo. This bill would create one UH Conference Center Revolving Fund and each campus would have accounts within this overarching fund, which would allow",
-            "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_"
-          },
+            "citation_number": 6,
+            "chunk_text": "and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund; and (3) Appropriate funds out of the University of Hawaii Conference Center Revolving Fund. Your Committee received testimony in support of this measure from the University of Hawai ʻ",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "overview",
+        "sentence": "The measure also intends to appropriate funds out of the University of Hawaii Conference Center Revolving Fund.",
+        "chunks": [
           {
             "chunk_id": 3,
-            "citation_number": 5,
-            "chunk_text": "fund for conference center programs among various campuses and operating units of the UH system. Conference Center Revolving Funds already exist for the Community Colleges and UH-Hilo. This bill would create one UH Conference Center Revolving Fund and each campus would have accounts within this overarching fund, which would allow",
-            "document_name": "HB1169_HD1_TESTIMONY_FIN_02-21-25_"
+            "citation_number": 6,
+            "chunk_text": "and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund; and (3) Appropriate funds out of the University of Hawaii Conference Center Revolving Fund. Your Committee received testimony in support of this measure from the University of Hawai ʻ",
+            "document_name": "HB1169_HD1_HSCR862_"
           }
         ]
       },
       {
         "section": "appropriations",
-        "sentence": "A purpose of this measure is to appropriate funds out of the University of Hawaii Conference Center Revolving Fund.",
+        "sentence": "The provided documents state that a purpose of this measure is to appropriate funds out of the University of Hawaii Conference Center Revolving Fund.",
         "chunks": [
           {
-            "chunk_id": 9,
+            "chunk_id": 3,
             "citation_number": 6,
             "chunk_text": "and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund; and (3) Appropriate funds out of the University of Hawaii Conference Center Revolving Fund. Your Committee received testimony in support of this measure from the University of Hawai ʻ",
             "document_name": "HB1169_HD1_HSCR862_"
@@ -268,11 +192,11 @@
         ]
       },
       {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "A key update to the measure is the added purpose to appropriate funds out of the University of Hawaii Conference Center Revolving Fund.",
+        "section": "appropriations",
+        "sentence": "However, no specific dollar amount for the appropriation is mentioned in the latest committee report.",
         "chunks": [
           {
-            "chunk_id": 9,
+            "chunk_id": 3,
             "citation_number": 6,
             "chunk_text": "and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund; and (3) Appropriate funds out of the University of Hawaii Conference Center Revolving Fund. Your Committee received testimony in support of this measure from the University of Hawai ʻ",
             "document_name": "HB1169_HD1_HSCR862_"
@@ -280,19 +204,109 @@
         ]
       },
       {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "No. 1169, H.D. 1, pass Third Reading.",
+        "section": "assumptions_and_methodology",
+        "sentence": "The latest committee report does not contain information regarding the assumptions and methodology used for financial projections.",
         "chunks": [
           {
-            "chunk_id": 9,
+            "chunk_id": 0,
+            "citation_number": 6,
+            "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "agency_impact",
+        "sentence": "The latest committee report does not contain any new information regarding the agency impact of this measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 6,
+            "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "economic_impact",
+        "sentence": "The latest committee report does not contain any new information regarding the economic impact of this measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 6,
+            "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "policy_impact",
+        "sentence": "The latest committee report does not contain any new information regarding the policy impact of this measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 6,
+            "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "revenue_sources",
+        "sentence": "The latest committee report reaffirms that the measure will lapse all unencumbered funds from the repealed revolving funds to the University of Hawaii Conference Center Revolving Fund.",
+        "chunks": [
+          {
+            "chunk_id": 3,
             "citation_number": 6,
             "chunk_text": "and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund; and (3) Appropriate funds out of the University of Hawaii Conference Center Revolving Fund. Your Committee received testimony in support of this measure from the University of Hawai ʻ",
             "document_name": "HB1169_HD1_HSCR862_"
-          },
+          }
+        ]
+      },
+      {
+        "section": "six_year_fiscal_implications",
+        "sentence": "The latest committee report does not contain information regarding the six-year fiscal implications of this measure.",
+        "chunks": [
           {
-            "chunk_id": 9,
+            "chunk_id": 0,
             "citation_number": 6,
-            "chunk_text": "and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund; and (3) Appropriate funds out of the University of Hawaii Conference Center Revolving Fund. Your Committee received testimony in support of this measure from the University of Hawai ʻ",
+            "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "operating_revenue_impact",
+        "sentence": "The latest committee report does not contain any new information regarding the operating revenue impact of this measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 6,
+            "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "capital_expenditure_impact",
+        "sentence": "The latest committee report does not contain information regarding any capital expenditure impact.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 6,
+            "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "fiscal_implications_after_6_years",
+        "sentence": "The latest committee report does not contain information regarding the fiscal implications after six years.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 6,
+            "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
             "document_name": "HB1169_HD1_HSCR862_"
           }
         ]
@@ -302,67 +316,245 @@
         "sentence": "No. 1169, H.D. 1.",
         "chunks": [
           {
-            "chunk_id": 11,
+            "chunk_id": 1,
+            "citation_number": 6,
+            "chunk_text": "which was referred H.B. No. 1169, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish the University of Hawaii Conference Center Revolving Fund to facilitate the administration",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The new document, HSCR862, is a report from the Committee on Finance which received testimony in support of the measure from the University of Hawaiʻi System.",
+        "chunks": [
+          {
+            "chunk_id": 4,
+            "citation_number": 6,
+            "chunk_text": "support of this measure from the University of Hawai ʻ i System. As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, and",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "No. 1169, H.D. 1, and recommends that it pass Third Reading, but the report itself does not introduce any new fiscal changes or amendments.",
+        "chunks": [
+          {
+            "chunk_id": 5,
             "citation_number": 6,
             "chunk_text": "intent and purpose of H.B. No. 1169, H.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Finance, ____________________________ KYLE T. YAMASHITA, Chair",
             "document_name": "HB1169_HD1_HSCR862_"
           }
         ]
+      },
+      {
+        "section": "fte_positions",
+        "sentence": "The latest committee report does not mention the addition or modification of any FTE positions.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 6,
+            "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations_changes",
+        "sentence": "The latest committee report does not specify a dollar amount for the appropriation, which is consistent with the previous version of the bill.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 6,
+            "chunk_text": "and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund; and (3) Appropriate funds out of the University of Hawaii Conference Center Revolving Fund. Your Committee received testimony in support of this measure from the University of Hawai ʻ",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "funding_sources_changes",
+        "sentence": "The latest committee report does not indicate any changes to the funding sources for this measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 6,
+            "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "department_impact",
+        "sentence": "The latest committee report does not indicate any changes to the department responsible for this measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 6,
+            "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "reports_required",
+        "sentence": "The latest committee report does not contain any new information regarding reporting requirements.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 6,
+            "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "pilot_program",
+        "sentence": "The latest committee report does not establish a pilot program.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 6,
+            "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "sunset_date",
+        "sentence": "The latest committee report does not contain a sunset date for the bill or program.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 6,
+            "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
+      },
+      {
+        "section": "effective_date",
+        "sentence": "The latest committee report does not contain any information regarding the effective date of the measure.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 6,
+            "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A",
+            "document_name": "HB1169_HD1_HSCR862_"
+          }
+        ]
       }
-    ]
+    ],
+    "property_prompts_used": {
+      "overview": {
+        "prompt": "Using the provided legislative documents, statutes, and testimonies, write a clear summary describing the purpose, scope, and key components of the proposed measure or bill, including any pilot or permanent programs, reporting requirements, and sunset clauses. This should be around 3 sentences.",
+        "description": "General overview and summary of the measure"
+      },
+      "appropriations": {
+        "prompt": "Based on budgetary data and legislative appropriations, detail the funding allocated for the program or measure, including fiscal years, amounts, intended uses such as staffing, training, contracts, technology, etc... This should be around 3 sentences.",
+        "description": "Funding allocation and appropriations details"
+      },
+      "assumptions_and_methodology": {
+        "prompt": "Explain the assumptions, cost estimation methods, and data sources used to calculate the financial projections for this program or measure, referencing comparable programs or historical budgets where applicable. This should be around 3 sentences.",
+        "description": "Cost estimation methodology and assumptions"
+      },
+      "agency_impact": {
+        "prompt": "Describe the anticipated operational, administrative, and budgetary impact of the program or measure on the relevant government agency or department, including supervision, staffing, and resource allocation. This should be around 3 sentences.",
+        "description": "Impact on government agencies and departments"
+      },
+      "economic_impact": {
+        "prompt": "Summarize the expected economic effects of the program or measure, such as cost savings, potential reductions in related expenditures, benefits to the community, and any relevant performance or participation statistics. This should be around 3 sentences.",
+        "description": "Economic effects and community benefits"
+      },
+      "policy_impact": {
+        "prompt": "Analyze the policy implications of the measure, including how it modifies existing laws or programs, its role within broader legislative strategies, and its potential effects on state or local governance. This should be around 3 sentences.",
+        "description": "Policy implications and legislative analysis"
+      },
+      "revenue_sources": {
+        "prompt": "Identify and describe the funding sources that will support the program or measure, such as general funds, grants, fees, or other revenue streams, based on the provided fiscal documents. This should be around 3 sentences.",
+        "description": "Funding sources and revenue streams"
+      },
+      "six_year_fiscal_implications": {
+        "prompt": "Provide a multi-year fiscal outlook (e.g., six years) for the program or measure, projecting costs, staffing changes, recurring expenses, and assumptions about program expansion or permanence using available budget and workload data. This should be around 10 sentences.",
+        "description": "Six-year fiscal projections and outlook"
+      },
+      "operating_revenue_impact": {
+        "prompt": "Describe any anticipated impacts on operating revenues resulting from the program or measure, including increases, decreases, or changes in revenue streams. This should be around 3 sentences.",
+        "description": "Operating revenue impacts"
+      },
+      "capital_expenditure_impact": {
+        "prompt": "Outline any expected capital expenditures related to the program or measure, such as investments in facilities, equipment, or technology infrastructure, based on capital budgets or agency plans. This should be around 3 sentences.",
+        "description": "Capital expenditure requirements"
+      },
+      "fiscal_implications_after_6_years": {
+        "prompt": "Summarize the ongoing fiscal obligations after the initial multi-year period for the program or measure, including annual operating costs, expected number of program sites or units, and the sustainability of funding. This should be around 3 sentences.",
+        "description": "Long-term fiscal obligations beyond six years"
+      },
+      "updates_from_previous_fiscal_note": {
+        "prompt": "If you are given a previous fiscal note. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fiscal note.",
+        "description": "Updates from previous fiscal note"
+      },
+      "fte_positions": {
+        "prompt": "Detail any Full Time Equivalent (FTE) positions that have been added or modified in this version of the bill, including the number of positions, their roles, and any changes from previous versions. This should be around 3 sentences.",
+        "description": "FTE (Full Time Equivalent) position changes"
+      },
+      "appropriations_changes": {
+        "prompt": "Identify and describe any appropriations that were previously unspecified or have been modified between versions of the bill, including the amounts and purposes of the appropriations. This should be around 3 sentences.",
+        "description": "Changes to appropriations between bill versions"
+      },
+      "funding_sources_changes": {
+        "prompt": "Specify the method of funding (MOF) for appropriations and identify any changes in funding sources between versions, such as shifts between general fund and special fund appropriations. This should be around 3 sentences.",
+        "description": "Changes to funding sources and method of funding"
+      },
+      "department_impact": {
+        "prompt": "Describe any changes in which department is responsible for expending appropriations, including shifts from one department to another between bill versions (e.g., from Department of Health to Judiciary). This should be around 3 sentences.",
+        "description": "Changes in department responsibility for appropriations"
+      },
+      "reports_required": {
+        "prompt": "Identify any reports that agencies are required to submit to the legislature, including new reporting requirements or modifications to existing ones. This should be around 3 sentences.",
+        "description": "Reporting requirements for agencies"
+      },
+      "pilot_program": {
+        "prompt": "If the bill creates a pilot program, describe the length of the pilot program and whether it was initially intended to be a pilot program or a permanent program. This should be around 3 sentences.",
+        "description": "Pilot program details and duration"
+      },
+      "sunset_date": {
+        "prompt": "Identify the sunset date for the bill or program, including any modifications to the sunset date between versions. This should be around 2 sentences.",
+        "description": "Sunset date and changes"
+      },
+      "effective_date": {
+        "prompt": "Identify the effective date of the bill, noting if there was a defective effective date in a previous version and what the corrected effective date is. This should be around 2 sentences.",
+        "description": "Effective date and corrections"
+      }
+    }
   },
   "chunk_mapping": {
     "HB1169_HD1_HSCR862_": [
       {
         "chunk_number": 0,
-        "chunk_text": "UNIVERSITY OF HAWAI‘I SYSTEM ʻŌNAEHANA KULANUI O HAWAIʻI Legislative Testimony Hōʻike Manaʻo I Mua O Ka ʻAhaʻōlelo _____________________________________________________________ Testimony Presented Before the House Committee on Finance February 21, 2025 at 10:00 a.m. By Kalbert K. Young Vice President for Budget and Finance/Chief Financial Officer University of Hawai‘i System HB 1169"
-      },
-      {
-        "chunk_number": 1,
-        "chunk_text": "and Finance/Chief Financial Officer University of Hawai‘i System HB 1169 HD1 – RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND Chair Yamashita, Vice Chair Takenouchi, and Members of the Committee: Thank you for the opportunity to present testimony today. The University of Hawai‘i (UH) supports HB 1169 HD1, Relating"
-      },
-      {
-        "chunk_number": 2,
-        "chunk_text": "The University of Hawai‘i (UH) supports HB 1169 HD1, Relating to University of Hawaii Conference Center Revolving Fund. This bill establishes the University of Hawaii Conference Center Revolving Fund and accounts under the fund to facilitate the administration of the fund for conference center programs among various campuses and operating"
-      },
-      {
-        "chunk_number": 3,
-        "chunk_text": "fund for conference center programs among various campuses and operating units of the UH system. Conference Center Revolving Funds already exist for the Community Colleges and UH-Hilo. This bill would create one UH Conference Center Revolving Fund and each campus would have accounts within this overarching fund, which would allow"
-      },
-      {
-        "chunk_number": 4,
-        "chunk_text": "would have accounts within this overarching fund, which would allow all campuses to standardize conference center programs across all campuses while eliminating unnecessary duplication of statutes. This structure is similar to many other UH funds, including the Tuition and Fees Special Fund, the Auxiliary Enterprises Special Fund, and the Student"
-      },
-      {
-        "chunk_number": 5,
-        "chunk_text": "Special Fund, the Auxiliary Enterprises Special Fund, and the Student Activities Revolving Fund. Thank you for this opportunity to testify."
-      },
-      {
-        "chunk_number": 6,
         "chunk_text": "HSCR862 STAND. COM. REP. NO. 862 Honolulu, Hawaii , 2025 RE: H.B. No. 1169 H.D. 1 Honorable Nadine K. Nakamura Speaker, House of Representatives Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Madame: Your Committee on Finance, to which was referred H.B. No. 1169, H.D. 1, entitled: \"A"
       },
       {
-        "chunk_number": 7,
+        "chunk_number": 1,
         "chunk_text": "which was referred H.B. No. 1169, H.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO UNIVERSITY OF HAWAII CONFERENCE CENTER REVOLVING FUND,\" begs leave to report as follows: The purpose of this measure is to: (1) Establish the University of Hawaii Conference Center Revolving Fund to facilitate the administration"
       },
       {
-        "chunk_number": 8,
+        "chunk_number": 2,
         "chunk_text": "of Hawaii Conference Center Revolving Fund to facilitate the administration of conference center programs among various campuses and operating units of the University of Hawaii System; (2) Repeal the Conference Center Revolving Fund for the University of Hawaii at Hilo and Community College Conference Center Revolving Fund and lapse all"
       },
       {
-        "chunk_number": 9,
+        "chunk_number": 3,
         "chunk_text": "and Community College Conference Center Revolving Fund and lapse all unencumbered funds to the University of Hawaii Conference Center Revolving Fund; and (3) Appropriate funds out of the University of Hawaii Conference Center Revolving Fund. Your Committee received testimony in support of this measure from the University of Hawai ʻ"
       },
       {
-        "chunk_number": 10,
+        "chunk_number": 4,
         "chunk_text": "support of this measure from the University of Hawai ʻ i System. As affirmed by the record of votes of the members of your Committee on Finance that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1169, H.D. 1, and"
       },
       {
-        "chunk_number": 11,
+        "chunk_number": 5,
         "chunk_text": "intent and purpose of H.B. No. 1169, H.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Finance, ____________________________ KYLE T. YAMASHITA, Chair"
       }
     ]
   },
-  "generation_timestamp": "2025-10-16T15:25:06.254181",
-  "generation_timestamp_unix": 1760664306.254187
+  "generation_timestamp": "2025-11-04T23:43:36.354851",
+  "generation_timestamp_unix": 1762299816.3548634
 }

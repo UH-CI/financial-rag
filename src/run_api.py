@@ -55,6 +55,7 @@ Each collection has specific fields that will be embedded as specified in config
                        help='Append documents to existing collections without resetting (same as --no-reset)')
     parser.add_argument('--host', default='0.0.0.0', help='Host to bind server to')
     parser.add_argument('--port', type=int, default=8200, help='Port to bind server to')
+    parser.add_argument('--workers', type=int, help='Number of worker processes (overrides environment variable)')
     parser.add_argument('--no-reload', action='store_true', help='Disable auto-reload (enabled by default for development)')
     parser.add_argument('--log-level', choices=['debug', 'info', 'warning', 'error'], default='info',
                        help='Log level')
@@ -294,20 +295,44 @@ Each collection has specific fields that will be embedded as specified in config
             print("✅ Document ingestion completed successfully. Exiting.")
             return
         
+        # Determine number of workers
+        workers = args.workers or int(os.environ.get('WORKERS', 1))
+        
         print(f"\n🌐 Starting server at http://{args.host}:{args.port}")
         print(f"📖 API Documentation: http://localhost:{args.port}/docs")
         print(f"🔍 Interactive API: http://localhost:{args.port}/redoc")
+        
+        if workers > 1:
+            print(f"👥 Running with {workers} worker processes")
+            print("⚠️  Auto-reload disabled for multi-worker mode")
+            print("💡 Redis is required for multi-worker job coordination")
+        else:
+            print(f"👤 Running with single worker process")
+        
         print("\nPress Ctrl+C to stop the server\n")
         
-        # Start the server
-        uvicorn.run(
-            "api:app",
-            host=args.host,
-            port=args.port,
-            reload=not args.no_reload,
-            log_level=args.log_level,
-            access_log=True
-        )
+        # Start the server with appropriate configuration
+        if workers > 1:
+            # Multi-worker mode - disable reload
+            uvicorn.run(
+                "api:app",
+                host=args.host,
+                port=args.port,
+                workers=workers,
+                log_level=args.log_level,
+                access_log=True,
+                reload=False  # Always disable reload for multi-worker
+            )
+        else:
+            # Single worker mode - allow reload for development
+            uvicorn.run(
+                "api:app",
+                host=args.host,
+                port=args.port,
+                reload=not args.no_reload,
+                log_level=args.log_level,
+                access_log=True
+            )
         
     except ImportError as e:
         print(f"❌ Import Error: {e}")

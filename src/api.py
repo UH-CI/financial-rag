@@ -1186,11 +1186,16 @@ async def debug_managers():
 # Option 1: Redis (recommended)
 try:
     import redis
-    redis_client = redis.Redis(host='localhost', port=6379, db=0, decode_responses=True)
+    import os
+    
+    # Use Redis URL from environment or fallback to localhost
+    redis_url = os.environ.get('REDIS_URL', 'redis://localhost:6379')
+    redis_client = redis.from_url(redis_url, decode_responses=True)
+    
     # Test connection
     redis_client.ping()
     USE_REDIS = True
-    print("✅ Redis connected for multi-worker job tracking")
+    print(f"✅ Redis connected for multi-worker job tracking at {redis_url}")
 except Exception as e:
     print(f"⚠️  Redis not available: {e}")
     print("🔄 Falling back to in-memory jobs (single worker only)")

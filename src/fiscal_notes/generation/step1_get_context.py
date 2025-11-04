@@ -72,11 +72,29 @@ def create_stealth_driver(download_dir=None, port=None):
         from selenium.webdriver.chrome.options import Options
         
         options = Options()
-        # Basic options for remote Selenium
+        # Enhanced options to bypass Cloudflare protection
+        options.add_argument('--headless')  # Use standard headless mode
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
         options.add_argument('--disable-gpu')
+        options.add_argument('--remote-debugging-port=9222')
         options.add_argument('--window-size=1920,1080')
+        
+        # Anti-detection options
+        options.add_argument('--disable-blink-features=AutomationControlled')
+        options.add_argument('--disable-extensions')
+        options.add_argument('--no-first-run')
+        options.add_argument('--disable-default-apps')
+        options.add_argument('--disable-infobars')
+        options.add_argument('--disable-web-security')
+        options.add_argument('--allow-running-insecure-content')
+        
+        # Set realistic user agent
+        options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
+        
+        # Additional stealth options
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option('useAutomationExtension', False)
         
         if download_dir:
             options.add_experimental_option("prefs", {
@@ -92,6 +110,23 @@ def create_stealth_driver(download_dir=None, port=None):
                 command_executor=selenium_remote_url,
                 options=options
             )
+            
+            # Execute stealth scripts to hide automation traces
+            driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+            driver.execute_script("Object.defineProperty(navigator, 'plugins', {get: () => [1, 2, 3, 4, 5]})")
+            driver.execute_script("Object.defineProperty(navigator, 'languages', {get: () => ['en-US', 'en']})")
+            driver.execute_script("Object.defineProperty(navigator, 'permissions', {get: () => ({query: () => Promise.resolve({state: 'granted'})})})")
+            
+            # Set viewport and other browser properties
+            driver.execute_script("Object.defineProperty(screen, 'width', {get: () => 1920})")
+            driver.execute_script("Object.defineProperty(screen, 'height', {get: () => 1080})")
+            driver.execute_script("Object.defineProperty(screen, 'availWidth', {get: () => 1920})")
+            driver.execute_script("Object.defineProperty(screen, 'availHeight', {get: () => 1040})")
+            
+            # Add some randomness to make it appear more human
+            driver.execute_script("Object.defineProperty(navigator, 'hardwareConcurrency', {get: () => 8})")
+            driver.execute_script("Object.defineProperty(navigator, 'deviceMemory', {get: () => 8})")
+            
             print(f"✅ Created remote Chrome driver using Selenium at {selenium_remote_url}")
             return driver
         except Exception as e:
@@ -300,9 +335,10 @@ def create_stealth_driver(download_dir=None, port=None):
                 print(f"All driver creation attempts failed: {e3}")
                 raise
 
-def wait_with_random_delay(min_seconds=2, max_seconds=5):
+def wait_with_random_delay(min_seconds=0, max_seconds=1):
     """Wait with a random delay to appear more human-like."""
     delay = random.uniform(min_seconds, max_seconds)
+    print(f"⏳ Waiting {delay:.1f} seconds...")
     time.sleep(delay)
 
 def retry_with_backoff(func, max_retries=3, base_delay=2):
@@ -480,14 +516,46 @@ def fetch_documents(measure_url: str) -> str:
 
     def load_page_with_retry():
         driver.get(measure_url)
-        wait_with_random_delay(3, 6)  # Wait longer to bypass Cloudflare
         
-        # Check if we hit Cloudflare protection
+        # Wait for initial page load
+        wait_with_random_delay(0, 1)
+        
+        # Check for Cloudflare challenge and wait if needed
+        max_cloudflare_wait = 30  # Maximum time to wait for Cloudflare
+        start_time = time.time()
+        
+        while time.time() - start_time < max_cloudflare_wait:
+            page_source = driver.page_source.lower()
+            
+            # Check for various Cloudflare indicators
+            cloudflare_indicators = [
+                "checking your browser",
+                "cloudflare",
+                "attention required",
+                "please wait",
+                "ray id",
+                "cf-browser-verification"
+            ]
+            
+            if any(indicator in page_source for indicator in cloudflare_indicators):
+                print("🔄 Cloudflare challenge detected, waiting...")
+                wait_with_random_delay(0, 1)
+                continue
+            
+            # Check if we have actual content (Hawaii Legislature specific)
+            if "hawaii" in page_source and ("legislature" in page_source or "capitol" in page_source):
+                print(f"✅ Page loaded successfully. Title: {driver.title}")
+                return True
+            
+            # If no Cloudflare but also no expected content, wait a bit more
+            wait_with_random_delay(0, 1)
+        
+        # Final check after timeout
         page_source = driver.page_source.lower()
-        if "cloudflare" in page_source or "attention required" in page_source:
-            raise WebDriverException("Cloudflare protection detected")
+        if any(indicator in page_source for indicator in ["checking your browser", "cloudflare", "attention required"]):
+            raise WebDriverException("Cloudflare protection could not be bypassed")
         
-        print(f"Page loaded successfully. First 500 chars: {driver.page_source[:500]}")
+        print(f"Page loaded (timeout reached). First 500 chars: {driver.page_source[:500]}")
         return True
 
     try:
