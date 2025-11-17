@@ -1,6 +1,6 @@
 import React from 'react';
-import type { TrackedNumber } from '../types';
-import ChangeTypeBadge from './ChangeTypeBadge';
+import type { TrackedNumber } from '../../../types';
+import ChangeTypeBadge from '../Badge/ChangeTypeBadge';
 
 interface NumberDetailModalProps {
   number: TrackedNumber;

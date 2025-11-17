@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Loader2, Brain, AlertCircle, ChevronDown, ChevronUp, X } from 'lucide-react';
-import { getBillSimilaritySearch, askLLM } from '../services/api';
-import type { BillSimilaritySearch, BillVectors } from '../types';
+import { getBillSimilaritySearch, askLLM } from '../../../services/api';
+import type { BillSimilaritySearch, BillVectors } from '../../../types';
 import ReactMarkdown from 'react-markdown';
 
 const SimilarBillSearch = () => {

@@ -1,9 +1,9 @@
 import { useEffect, useState, useRef } from "react";
-import { getFiscalNoteFiles, createFiscalNote, getFiscalNote, deleteFiscalNote, getFiscalNoteFilesSeptember, getFiscalNoteSeptember } from "../services/api";
+import { getFiscalNoteFiles, createFiscalNote, getFiscalNote, deleteFiscalNote, getFiscalNoteFilesSeptember, getFiscalNoteSeptember } from "../../../services/api";
 import { Loader2, Settings, Info } from "lucide-react";
 import FiscalNoteViewer from "./FiscalNoteViewer";
-import SmartTooltip from "./SmartTooltip";
-import PropertyPromptsSettings from "./PropertyPromptsSettings";
+import SmartTooltip from "../../ui/Tooltip/SmartTooltip";
+import PropertyPromptsSettings from "../settings/PropertyPromptsSettings";
 import FiscalNotePromptsInfo from "./FiscalNotePromptsInfo";
 
 interface CreateFiscalNoteForm {

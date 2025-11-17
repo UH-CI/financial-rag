@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import type { DocumentReference } from '../types';
+import type { DocumentReference } from '../../../types';
 
 // Utility function to highlight financial amounts in text
 const highlightFinancialAmounts = (text: string, targetAmount?: number): React.ReactNode => {

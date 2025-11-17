@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { useConversation } from '../hooks/useConversation';
-import type { ChatMessage } from '../types';
+import { useConversation } from '../../../hooks/useConversation';
+import type { ChatMessage } from '../../../types';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 

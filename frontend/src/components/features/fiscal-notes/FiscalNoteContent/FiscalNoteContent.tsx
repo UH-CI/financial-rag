@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
-import type { FiscalNoteItem, DocumentInfo, AnnotationItem, AnnotationType, Atom, NumberCitationMapItem, ChunkTextMapItem } from '../types';
-import DocumentReferenceComponent from './DocumentReference';
-import { parseToAtoms, segmentsForAtom, isRefAtomAnnotated, selectionToAtomRange } from '../utils/atomAnnotations';
-import { saveStrikethroughs } from '../services/api';
+import type { FiscalNoteItem, DocumentInfo, AnnotationItem, AnnotationType, Atom, NumberCitationMapItem, ChunkTextMapItem } from '../../../../types';
+import DocumentReferenceComponent from '../../documents/DocumentReference';
+import { parseToAtoms, segmentsForAtom, isRefAtomAnnotated, selectionToAtomRange } from '../../../../utils/atomAnnotations';
+import { saveStrikethroughs } from '../../../../services/api';
 
 interface FiscalNoteContentProps {
   fiscalNote: FiscalNoteItem;

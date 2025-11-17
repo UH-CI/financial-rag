@@ -1,5 +1,5 @@
 import React from 'react';
-import type { HistoryEntry, TrackedNumber } from '../types';
+import type { HistoryEntry, TrackedNumber } from '../../../types';
 
 interface NumberHistoryTimelineProps {
   history: HistoryEntry[];

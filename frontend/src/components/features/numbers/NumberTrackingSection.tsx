@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
-import type { NumberTrackingSegment, ChronologicalTracking } from '../types';
+import type { NumberTrackingSegment, ChronologicalTracking } from '../../../types';
 import NumberTrackingTable from './NumberTrackingTable';
-import { buildNumberHistoryForSegments } from '../utils/buildNumberHistory';
+import { buildNumberHistoryForSegments } from '../../../utils/buildNumberHistory';
 
 interface NumberTrackingSectionProps {
   tracking?: NumberTrackingSegment;

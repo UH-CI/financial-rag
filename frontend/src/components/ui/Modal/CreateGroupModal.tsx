@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { X, Upload, FileText, ChevronDown, ChevronUp, HelpCircle, Link, Trash2 } from "lucide-react";
-import { createCollection, uploadPDFToCollection, uploadFromGoogleDrive, uploadFromWebUrl, extractText, chunkText } from "../services/api";
+import { createCollection, uploadPDFToCollection, uploadFromGoogleDrive, uploadFromWebUrl, extractText, chunkText } from "../../../services/api";
 
 // Modal component props interface
 

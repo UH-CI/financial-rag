@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import type { FiscalNoteData } from '../types';
-import { getFiscalNoteData } from '../services/api';
-import TimelineNavigation from './TimelineNavigation';
-import FiscalNoteContent from './FiscalNoteContent';
-import ErrorBoundary from './ErrorBoundary';
-import NumberTrackingSection from './NumberTrackingSection';
+import type { FiscalNoteData } from '../../../types';
+import { getFiscalNoteData } from '../../../services/api';
+import TimelineNavigation from '../../ui/Navigation/TimelineNavigation';
+import FiscalNoteContent from './FiscalNoteContent/FiscalNoteContent';
+import ErrorBoundary from '../../ui/ErrorBoundary/ErrorBoundary';
+import NumberTrackingSection from '../numbers/NumberTrackingSection';
 
 interface FiscalNoteViewerProps {
   billType: 'HB' | 'SB';
@@ -54,9 +54,9 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
       setError(null);
       const data = await getFiscalNoteData(billType, billNumber, year);
       setFiscalNoteData(data);
-      
+      console.log(data)
       // Debug: Log tracking data
-      console.log('📊 Fiscal Note Data Loaded:', {
+      console.log('📊 Fiscal Note Data Loadasdasdasdased:', {
         has_tracking: data.has_tracking,
         chronological_tracking: data.chronological_tracking ? 'Present' : 'Missing',
         fiscal_notes_count: data.fiscal_notes?.length,
@@ -286,14 +286,14 @@ const FiscalNoteViewer: React.FC<FiscalNoteViewerProps> = ({
         </button>
 
         {/* Desktop Sidebar */}
-        <div className={`transition-all duration-300 bg-white shadow-lg border-gray-200 flex flex-col overflow-y-auto border-r max-h-screen sticky top-0 ${
+        <div className={`transition-all duration-300 bg-white shadow-lg border-gray-200 flex flex-col overflow-y-auto border-r max-h-screen sticky top-0 mb-2 ${
           sidebarCollapsed ? 'w-0 border-0' : 'w-96'
         }`}>
           <div className={`p-6 border-b border-gray-200 ${sidebarCollapsed ? 'hidden' : ''}`}>
             <h2 className="text-xl font-bold text-gray-900">
               {billType} {billNumber} ({year})
             </h2>
-            <p className="text-sm text-gray-600 mt-1">Fiscal Note Analysis</p>
+            <p className="text-sm text-gray-600 mt-1 mb-10">Fiscal Note Analysis</p>
           </div>
 
           {/* Document References */}

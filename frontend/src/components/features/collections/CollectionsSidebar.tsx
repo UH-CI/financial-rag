@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { AlertCircle, RefreshCw, Plus, X, CheckCircle, Clock, AlertTriangle } from 'lucide-react';
-import type { Collection } from '../types';
-import { getCollections } from '../services/api';
+import type { Collection } from '../../../types';
+import { getCollections } from '../../../services/api';
 
 interface CollectionsSidebarProps {
   collections: Collection[];

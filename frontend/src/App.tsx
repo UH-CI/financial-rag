@@ -1,12 +1,12 @@
 import { useState, useEffect, useCallback } from 'react';
 import { MessageSquare, AlertCircle, Loader2, FileText, Search } from 'lucide-react';
-// import CollectionsSidebar from './components/CollectionsSidebar';
-import { ConversationChat } from './components/ConversationChat';
-import CreateGroupModal from './components/CreateGroupModal';
-import FiscalNoteGeneration from './components/FiscalNoteGeneration';
-import SimilarBillSearch from './components/SimilarBillSearch';
-import MobileBottomNav from './components/MobileBottomNav';
-import MobileScrollDebug from './components/MobileScrollDebug';
+// import CollectionsSidebar from './components/features/collections/CollectionsSidebar';
+import { ConversationChat } from './components/features/chat/ConversationChat';
+import CreateGroupModal from './components/ui/Modal/CreateGroupModal';
+import FiscalNoteGeneration from './components/features/fiscal-notes/FiscalNoteGeneration';
+import SimilarBillSearch from './components/features/documents/SimilarBillSearch';
+import MobileBottomNav from './components/ui/Navigation/MobileBottomNav';
+import MobileScrollDebug from './components/debug/MobileScrollDebug';
   import type { Collection } from './types';
 import { getCollections } from './services/api';
 

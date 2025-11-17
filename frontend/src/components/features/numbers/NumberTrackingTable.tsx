@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import type { TrackedNumber } from '../types';
+import type { TrackedNumber } from '../../../types';
 import NumberHistoryTimeline from './NumberHistoryTimeline';
 
 interface NumberTrackingTableProps {

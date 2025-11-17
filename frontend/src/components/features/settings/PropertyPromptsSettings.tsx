@@ -6,8 +6,8 @@ import {
   updatePropertyPromptTemplate,
   deletePropertyPromptTemplate,
   setActivePropertyPromptTemplate
-} from '../services/api';
-import type { PropertyPrompts, PropertyPromptTemplate } from '../services/api';
+} from '../../../services/api';
+import type { PropertyPrompts, PropertyPromptTemplate } from '../../../services/api';
 
 interface PropertyPromptsSettingsProps {
   isOpen: boolean;

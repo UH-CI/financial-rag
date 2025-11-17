@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { X, Info } from 'lucide-react';
-import { getFiscalNotePropertyPrompts } from '../services/api';
-import type { PropertyPrompts } from '../services/api';
+import { getFiscalNotePropertyPrompts } from '../../../services/api';
+import type { PropertyPrompts } from '../../../services/api';
 
 interface FiscalNotePromptsInfoProps {
   isOpen: boolean;
