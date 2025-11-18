@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Send, User, Bot, Copy, Loader2 } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import type { ChatMessage, SearchResult } from '../types';
+import type { ChatMessage, SearchResult } from '../../../types';
 
 interface ChatInterfaceProps {
   messages: ChatMessage[];

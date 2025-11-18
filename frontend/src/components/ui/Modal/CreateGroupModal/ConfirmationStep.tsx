@@ -1,6 +1,6 @@
 import React from 'react';
 import { CheckCircle, Clock, AlertCircle, File, Settings, Upload, Loader2 } from 'lucide-react';
-import type { CreateGroupData, DocumentParsingType, UploadProgress } from '../../types';
+import type { CreateGroupData, DocumentParsingType, UploadProgress } from '../../../../types';
 
 interface ConfirmationStepProps {
   groupData: CreateGroupData;
@@ -94,7 +94,7 @@ const ConfirmationStep: React.FC<ConfirmationStepProps> = ({
                 <span className="text-gray-600">Total size:</span>
                 <span className="font-medium text-gray-900">
                   {formatFileSize(
-                    groupData.documents.reduce((total, file) => total + file.size, 0)
+                    groupData.documents.reduce((total: number, file: File) => total + file.size, 0)
                   )}
                 </span>
               </div>
@@ -103,7 +103,7 @@ const ConfirmationStep: React.FC<ConfirmationStepProps> = ({
             {groupData.documents.length > 0 && (
               <div className="mt-3 pt-3 border-t border-gray-300">
                 <div className="max-h-32 overflow-y-auto space-y-1">
-                  {groupData.documents.map((file, index) => (
+                  {groupData.documents.map((file: File, index: number) => (
                     <div key={index} className="flex justify-between text-xs">
                       <span className="text-gray-600 truncate">{file.name}</span>
                       <span className="text-gray-500 ml-2">{formatFileSize(file.size)}</span>

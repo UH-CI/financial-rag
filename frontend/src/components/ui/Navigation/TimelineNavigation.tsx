@@ -1,5 +1,5 @@
 import React from 'react';
-import type { TimelineItem, FiscalNoteItem } from '../types';
+import type { TimelineItem, FiscalNoteItem } from '../../../types';
 
 interface TimelineNavigationProps {
   timeline: TimelineItem[];
@@ -46,7 +46,7 @@ const TimelineNavigation: React.FC<TimelineNavigationProps> = ({
                 {/* Documents */}
                 {item.documents && item.documents.length > 0 && (
                   <div className="space-y-1">
-                    {item.documents.map((doc, docIndex) => {
+                    {item.documents.map((doc: string, docIndex: number) => {
                       const cleanDocName = doc.replace('.json', '');
                       const isSelected = cleanDocName === selectedFilename;
                       const hasCorrespondingNote = fiscalNotes.some(note => note.filename === cleanDocName);

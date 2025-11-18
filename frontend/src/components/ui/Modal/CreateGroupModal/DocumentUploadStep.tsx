@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react';
 import { Upload, File, X, AlertCircle } from 'lucide-react';
-import type { CreateGroupData } from '../../types';
+import type { CreateGroupData } from '../../../../types';
 
 interface DocumentUploadStepProps {
   groupData: CreateGroupData;
@@ -50,7 +50,7 @@ const DocumentUploadStep: React.FC<DocumentUploadStepProps> = ({ groupData, onUp
     if (!hasError && validFiles.length > 0) {
       setError(null);
       // Add to existing documents, avoiding duplicates
-      const existingNames = groupData.documents.map(f => f.name);
+      const existingNames = groupData.documents.map((f: File) => f.name);
       const newFiles = validFiles.filter(f => !existingNames.includes(f.name));
       onUpdate({ documents: [...groupData.documents, ...newFiles] });
     }
@@ -80,7 +80,7 @@ const DocumentUploadStep: React.FC<DocumentUploadStepProps> = ({ groupData, onUp
   }, [handleFiles]);
 
   const removeFile = useCallback((index: number) => {
-    const newDocuments = groupData.documents.filter((_, i) => i !== index);
+    const newDocuments = groupData.documents.filter((_: File, i: number) => i !== index);
     onUpdate({ documents: newDocuments });
   }, [groupData.documents, onUpdate]);
 
@@ -160,7 +160,7 @@ const DocumentUploadStep: React.FC<DocumentUploadStepProps> = ({ groupData, onUp
             Selected Files ({groupData.documents.length})
           </h4>
           <div className="space-y-2 max-h-60 overflow-y-auto">
-            {groupData.documents.map((file, index) => (
+            {groupData.documents.map((file: File, index: number) => (
               <div
                 key={`${file.name}-${index}`}
                 className="flex items-center justify-between p-3 bg-gray-50 rounded-lg border"
@@ -189,7 +189,7 @@ const DocumentUploadStep: React.FC<DocumentUploadStepProps> = ({ groupData, onUp
           
           <div className="mt-3 text-sm text-gray-600">
             Total size: {formatFileSize(
-              groupData.documents.reduce((total, file) => total + file.size, 0)
+              groupData.documents.reduce((total: number, file: File) => total + file.size, 0)
             )}
           </div>
         </div>

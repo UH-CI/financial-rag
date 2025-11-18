@@ -1,6 +1,6 @@
 import React from 'react';
 import { Settings, FileText, Image, Camera, Wrench } from 'lucide-react';
-import type { CreateGroupData, DocumentParsingType } from '../../types';
+import type { CreateGroupData, DocumentParsingType } from '../../../../types';
 
 interface ParsingTypeStepProps {
   groupData: CreateGroupData;

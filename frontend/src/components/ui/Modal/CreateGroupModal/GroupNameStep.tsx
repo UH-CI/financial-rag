@@ -1,6 +1,6 @@
 import React from 'react';
 import { FileText } from 'lucide-react';
-import type { CreateGroupData } from '../../types';
+import type { CreateGroupData } from '../../../../types';
 
 interface GroupNameStepProps {
   groupData: CreateGroupData;
