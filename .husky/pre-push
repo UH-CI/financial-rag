@@ -3,6 +3,13 @@
 
 echo "🔍 Running pre-push checks for branch: $(git symbolic-ref --short HEAD)"
 
+# Check if npm is available
+if ! command -v npm >/dev/null 2>&1; then
+  echo "⚠️  npm not found in PATH, skipping frontend build check"
+  echo "✅ Pre-push checks completed (build check skipped)"
+  exit 0
+fi
+
 # Run frontend build
 echo "📦 Building frontend..."
 cd frontend
