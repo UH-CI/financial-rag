@@ -108,8 +108,8 @@ class NLPBackend:
         self.collection_names = config["collections"]
         
         # Load real data files
-        self.chunked_data_path = "/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/chunked_text/bills/bills_chunked_no_sentence.json"
-        self.extracted_data_path = "/Users/rodericktabalba/Documents/GitHub/financial-rag/src/documents/extracted_text/bills/filtered_documents.json"
+        self.chunked_data_path = "./documents/chunked_text/bills/bills_chunked_no_sentence.json"
+        self.extracted_data_path = "./documents/extracted_text/bills/filtered_documents.json"
         
         # Load chunked data for retrieval
         try:

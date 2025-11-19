@@ -4,6 +4,10 @@ FastAPI Server Startup Script
 Launches the House Finance Document API server
 """
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 import sys
 import os
 import uvicorn

@@ -1,68 +1,59 @@
 # Core RAG Dependencies
-chromadb
-openai
-langchain
-langchain-openai
-langchain-community
+chromadb==0.4.24
+pysqlite3-binary==0.5.4
+openai==1.109.1
+langchain==0.2.17
+langchain-openai==0.1.25
+langchain-community==0.2.19
 langchain-google-genai
-langgraph
-google-generativeai==0.3.2
-
+google-generativeai
+google-genai
+langgraph==0.4.0
+redis==7.0.1
 # Document Processing
-PyPDF2
-pdfplumber
-camelot-py
-pandas
-PyMuPDF
-pillow
-pytesseract
-
+PyPDF2==3.0.1
+pdfplumber==0.11.7
+camelot-py==1.0.9
+pandas==2.3.3
+PyMuPDF==1.26.4
+pillow==11.3.0
+pytesseract==0.3.13
 # Additional dependencies for camelot
-opencv-python
-
+opencv-python==4.11.0.86
 # Embeddings and ML
-sentence-transformers
+sentence-transformers==5.1.1
 numpy
 scikit-learn
-
 # Web Access
 requests
-
 # Configuration and Environment
 python-dotenv==1.0.0
-pydantic==2.5.0
+pydantic==2.11.10
 pydantic-settings==2.1.0
-pyyaml
-
+PyYAML
 # API and Web Framework (for future milestones)
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-
+fastapi==0.120.2
+uvicorn==0.38.0
 # Testing
-pytest
-pytest-asyncio
-
+pytest==8.4.2
+pytest-asyncio==1.2.0
 # Utilities
-tqdm
-click
-colorama
-
+tqdm==4.67.1
+click==8.3.0
+colorama==0.4.6
 # Development Tools
-black
-flake8
-isort
-
+black==25.9.0
+flake8==7.3.0
+isort==6.1.0
 # Additional dependencies
 python-multipart==0.0.6
 pathlib==1.0.1
 typing-extensions>=4.9.0
-
-selenium
-webdriver-manager 
+selenium==4.36.0
+webdriver-manager==4.0.2
 beautifulsoup4
-undetected-chromedriver
-
-google-api-python-client
+undetected-chromedriver==3.5.5
+google-api-python-client==2.184.0
 google_auth
-google-auth-oauthlib
-google-auth-httplib2
+google-auth-oauthlib==1.2.2
+google-auth-httplib2==0.2.0

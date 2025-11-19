@@ -6,36 +6,34 @@ A document search and question-answering system built with ChromaDB and Google A
 
 ### Prerequisites
 - Docker installed on your system
-- Google API key (for embeddings)
 - Git
+- Conda/Python 3
 
 ### 1. Clone and Setup
 ```bash
 # Clone the repository
 git clone https://github.com/UH-CI/financial-rag.git
-git checkout financial_data
-cd RAG-system
+```
 
-# Navigate to source directory and setup environment
-cd src/
+### 2. Start the frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### 3. Configure and Start backend
+Configure your environment
+```bash
+cd src
 cp .env.example .env
-# Edit .env and paste in your Google API key
 ```
-
-### 2. Setup chroma_db
-download the chroma_db.tar.zst file from https://koacloud.its.hawaii.edu/f/8581276
-place file in /src
-then run the following command
+Edit .env and paste in your Google API key
+Install requirements and start the backend
 ```bash
-# in RAG-system/src
-zstd -cd chroma_db.tar.zst | tar -xf -
-```
-
-### 3. Start the frontend and backend
-```bash
-# Return to project root and run deployment with ingestion
-cd ..
-./GO --init # if your first time running the project, otherwise, omit the "--init" flag
+source .env
+pip install -r requirements.txt
+python3 run_api.py
 ```
 
 **That's it! 🎉** Your API is running at `http://localhost:8200`
