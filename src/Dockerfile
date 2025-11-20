@@ -9,6 +9,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code into a src subdirectory
 COPY . .
+# create storage_documents dir
+RUN mkdir -p documents/storage_documents
 
 # Note: ChromaDB data will be provided via volume mount in production
 # (chroma_db/ should be excluded via .dockerignore to avoid conflicts)

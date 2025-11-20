@@ -9,38 +9,31 @@ A document search and question-answering system built with ChromaDB and Google A
 - Google API key (for embeddings)
 - Git
 
-### 1. Clone and Setup
+### 1. Clone and Configure
 ```bash
 # Clone the repository
 git clone https://github.com/UH-CI/financial-rag.git
-git checkout financial_data
-cd RAG-system
-
-# Navigate to source directory and setup environment
-cd src/
-cp .env.example .env
-# Edit .env and paste in your Google API key
+cd financial-rag
+# Create .env file
+cp src/.env.example src/.env
 ```
 
-### 2. Setup chroma_db
-download the chroma_db.tar.zst file from https://koacloud.its.hawaii.edu/f/8581276
-place file in /src
-then run the following command
+- Edit src/.env with your Google API key
+- Download the JSON file at https://drive.google.com/file/d/1fzWErNIG2jY69DxkItURMT6RtvKs7DHN/view?usp=sharing and copy the file to src/bill_data/
+
+### 2. Start the System
 ```bash
-# in RAG-system/src
-zstd -cd chroma_db.tar.zst | tar -xf -
+./GO.sh development
+# If changes have been made to the repo you can rebuild modified containers with the --build tag
 ```
 
-### 3. Start the frontend and backend
-```bash
-# Return to project root and run deployment with ingestion
-cd ..
-./GO --init # if your first time running the project, otherwise, omit the "--init" flag
+**That's it! 🎉** Your API is running at `http://localhost:8200` and the site is running at `http://localhost:3000`. You can go to `http://localhost:8200/docs` for API documentation.
+
+### 3. Shutdown the system
+```bashss
+./GO.sh development --down
 ```
 
-**That's it! 🎉** Your API is running at `http://localhost:8200`
-
----
 
 ## 💡 Example Usage
 

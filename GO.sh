@@ -89,9 +89,6 @@ while [ $i -le $# ]; do
         prod|production)
             ENVIRONMENT="prod"
             ;;
-        --init)
-            INIT=true
-            ;;
         --down)
             DOWN=true
             ;;
@@ -171,27 +168,6 @@ if [ "$LOGS" = true ]; then
     print_info "Showing logs for $ENVIRONMENT environment..."
     docker compose -f "$COMPOSE_FILE" logs -f
     exit 0
-fi
-
-# --- Frontend Initialization ---
-if [ "$INIT" = true ]; then
-    print_info "Initializing frontend dependencies..."
-    
-    if [ ! -d "$FRONTEND_DIR" ]; then
-        print_error "Frontend directory '$FRONTEND_DIR' not found!"
-        exit 1
-    fi
-
-    cd "$FRONTEND_DIR" || exit
-    
-    print_info "Installing npm dependencies..."
-    if ! npm install; then
-        print_error "npm install failed."
-        exit 1
-    fi
-    
-    cd .. || exit
-    print_success "Frontend initialization complete."
 fi
 
 # --- Docker Compose Commands ---

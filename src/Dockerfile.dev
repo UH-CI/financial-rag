@@ -28,6 +28,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY . .
+# create storage_documents dir
+RUN mkdir -p documents/storage_documents
 
 # Set environment variables
 ENV PYTHONPATH=/src
