@@ -11,7 +11,7 @@ import {
 } from '../../../../test/mockData';
 
 // Mock the API
-vi.mock('../services/api', () => ({
+vi.mock('../../../../services/api', () => ({
   saveStrikethroughs: vi.fn().mockResolvedValue({ success: true })
 }));
 
