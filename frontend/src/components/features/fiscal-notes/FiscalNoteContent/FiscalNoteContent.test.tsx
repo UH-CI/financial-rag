@@ -104,7 +104,7 @@ describe('FiscalNoteContent', () => {
 
   describe('API Integration', () => {
     it('should have API module available', async () => {
-      const { saveStrikethroughs } = await import('../services/api');
+      const { saveStrikethroughs } = await import('../../../../services/api');
       
       // API should be mocked and available
       expect(saveStrikethroughs).toBeDefined();
