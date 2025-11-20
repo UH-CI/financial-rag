@@ -2,13 +2,13 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, act } from '@testing-library/react';
 import FiscalNoteContent from './FiscalNoteContent';
 import type { ChunkTextMapItem } from '../types';
-import { 
-  mockFiscalNote, 
-  mockDocumentMapping, 
+import {
+  mockFiscalNote,
+  mockDocumentMapping,
   mockEnhancedDocumentMapping,
   mockNumberCitationMap,
-  mockChunkTextMap 
-} from '../test/mockData';
+  mockChunkTextMap
+} from '../../../../test/mockData';
 
 // Mock the API
 vi.mock('../services/api', () => ({
