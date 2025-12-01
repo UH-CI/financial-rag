@@ -1,9 +1,11 @@
 import React from 'react';
 import { FileText, Search } from 'lucide-react';
 
+type Tabs = 'fiscal-note-generation' | 'similar-bill-search' | 'hrs-search';
+
 interface MobileBottomNavProps {
-  currentView: 'fiscal-note-generation' | 'similar-bill-search';
-  onViewChange: (view: 'fiscal-note-generation' | 'similar-bill-search') => void;
+  currentView: Tabs;
+  onViewChange: (view: Tabs) => void;
 }
 
 const MobileBottomNav: React.FC<MobileBottomNavProps> = ({ currentView, onViewChange }) => {
@@ -34,6 +36,19 @@ const MobileBottomNav: React.FC<MobileBottomNavProps> = ({ currentView, onViewCh
         >
           <Search className={`w-6 h-6 mb-1 ${currentView === 'similar-bill-search' ? 'stroke-[2.5]' : ''}`} />
           <span className="text-xs font-medium">Bill Search</span>
+        </button>
+
+        {/* HRS Search */}
+        <button
+          onClick={() => onViewChange('hrs-search')}
+          className={`flex flex-col items-center justify-center flex-1 h-full transition-colors ${
+            currentView === 'hrs-search'
+              ? 'text-purple-600 bg-purple-50'
+              : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+          }`}
+        >
+          <Search className={`w-6 h-6 mb-1 ${currentView === 'hrs-search' ? 'stroke-[2.5]' : ''}`} />
+          <span className="text-xs font-medium">HRS Search</span>
         </button>
       </div>
     </nav>

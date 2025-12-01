@@ -5,12 +5,13 @@ import { ConversationChat } from './components/features/chat/ConversationChat';
 import CreateGroupModal from './components/ui/Modal/CreateGroupModal';
 import FiscalNoteGeneration from './components/features/fiscal-notes/FiscalNoteGeneration';
 import SimilarBillSearch from './components/features/documents/SimilarBillSearch';
+import HRSSearch from './components/features/hrs/HRSSearch';
 import MobileBottomNav from './components/ui/Navigation/MobileBottomNav';
 import MobileScrollDebug from './components/debug/MobileScrollDebug';
   import type { Collection } from './types';
 import { getCollections } from './services/api';
 
-type AppView = 'chat' | 'fiscal-note-generation' | 'similar-bill-search';
+type AppView = 'chat' | 'fiscal-note-generation' | 'similar-bill-search' | 'hrs-search';
 
 function App() {
   const [currentView, setCurrentView] = useState<AppView>('fiscal-note-generation');
@@ -103,9 +104,10 @@ function App() {
               </div>
               <div className="min-w-0">
                 <h1 className="text-base lg:text-xl font-bold text-gray-900 truncate">
-                  {currentView === 'chat' && 'FinBot'}
-                  {currentView === 'fiscal-note-generation' && 'Fiscal Note Generation'}
-                  {currentView === 'similar-bill-search' && 'Similar Bill Search'}
+                  {currentView === 'chat'}
+                  {currentView === 'fiscal-note-generation'}
+                  {currentView === 'similar-bill-search'}
+                  {currentView === 'hrs-search'}
                 </h1>
                 <p className="text-xs lg:text-sm text-gray-500 line-clamp-2 lg:line-clamp-1">
                   {currentView === 'chat'
@@ -114,7 +116,10 @@ function App() {
                     ? 'Upload documents and analyze using selected collections'
                     : currentView === 'similar-bill-search'
                     ? 'Search for bills similar to a specific bill using advanced algorithms'
+                    : currentView === 'hrs-search'
+                    ? 'Search Hawaiʻi Revised Statutes'
                     : 'Generate a fiscal note for a specific bill'
+                    
                   }
                 </p>
               </div>
@@ -145,6 +150,18 @@ function App() {
                 >
                   <Search className="w-3 h-3 lg:w-4 lg:h-4 inline mr-1 lg:mr-2" />
                   <span className="hidden sm:inline">Similar Bill Search</span>
+                  <span className="sm:hidden">Search</span>
+                </button>
+                <button
+                  onClick={() => setCurrentView('hrs-search')}
+                  className={`px-2 lg:px-3 py-1.5 lg:py-2 rounded-lg text-xs lg:text-sm font-medium transition-colors whitespace-nowrap ${
+                    currentView === 'hrs-search'
+                      ? 'bg-purple-100 text-purple-700'
+                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+                  }`}
+                >
+                  <Search className="w-3 h-3 lg:w-4 lg:h-4 inline mr-1 lg:mr-2" />
+                  <span className="hidden sm:inline">HRS Search</span>
                   <span className="sm:hidden">Search</span>
                 </button>
               </nav>
@@ -190,6 +207,8 @@ function App() {
             <FiscalNoteGeneration />
           ) : currentView === 'similar-bill-search' ? (
             <SimilarBillSearch />
+          ) : currentView === 'hrs-search' ? (
+            <HRSSearch />
           ) : (
             collectionsLoading ? (
             <div className="flex items-center justify-center h-full">
