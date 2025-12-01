@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # RAG System Startup Script
-# Usage: ./GO.sh [dev|prod] [--init] [--down] [--logs] [--build] [--workers N]
+# Usage: ./GO.sh [dev|prod] [--init] [--down] [--logs] [--build] [--workers N] [--backup] [--deploy]
 # 
 # Flags:
 #   dev        - Start development environment (default)
@@ -10,7 +10,9 @@
 #   --down     - Stop all services
 #   --logs     - Show service logs
 #   --build    - Force rebuild containers
-#   --workers  - Number of API workers (default: 1, recommended: 10 for production)
+#   --workers  - Number of API workers (default: 1, recommended: 4 for production)
+#   --backup   - Create backup of fiscal notes before deployment
+#   --deploy   - Full production deployment with backup and health checks
 
 # --- Configuration ---
 FRONTEND_DIR="frontend"
@@ -41,8 +43,97 @@ print_warning() {
     echo -e "${YELLOW}⚠️  $1${NC}"
 }
 
+# --- Backup Functions ---
+create_fiscal_notes_backup() {
+    print_info "📦 Creating backup of fiscal notes..."
+    if [ -d "src/fiscal_notes/generation" ]; then
+        mkdir -p fiscal_notes_backups
+        BACKUP_DATE=$(date +%Y%m%d_%H%M%S)
+        BACKUP_FILE="fiscal_notes_backups/fiscal_notes_${BACKUP_DATE}.tar.gz"
+        tar -czf "${BACKUP_FILE}" src/fiscal_notes/generation/
+        print_success "Backup created: ${BACKUP_FILE}"
+        
+        # Keep only last 10 backups to save space
+        cd fiscal_notes_backups
+        ls -t fiscal_notes_*.tar.gz | tail -n +11 | xargs -r rm 2>/dev/null
+        print_info "📊 Current backups:"
+        ls -lh fiscal_notes_*.tar.gz 2>/dev/null || print_info "No previous backups found"
+        cd ..
+    else
+        print_info "No fiscal notes directory found, skipping backup"
+    fi
+}
+
+# --- Health Check Functions ---
+wait_for_api() {
+    local max_attempts=10
+    local attempt=1
+    
+    print_info "🧪 Testing API endpoint..."
+    while [ $attempt -le $max_attempts ]; do
+        if curl -f http://localhost:8200/ > /dev/null 2>&1; then
+            print_success "API is responding"
+            return 0
+        fi
+        print_info "⏳ Waiting for API... (attempt $attempt/$max_attempts)"
+        sleep 10
+        attempt=$((attempt + 1))
+    done
+    
+    print_error "API health check failed after $max_attempts attempts"
+    return 1
+}
+
+# --- Docker Management Functions ---
+cleanup_docker_resources() {
+    print_info "🧹 Cleaning up old Docker images..."
+    docker image prune -f || true
+}
+
+deploy_production() {
+    print_info "🚀 Starting Full Production Deployment"
+    print_info "======================================"
+    
+    # Create backup if requested
+    if [ "$BACKUP" = true ]; then
+        create_fiscal_notes_backup
+    fi
+    
+    # Stop existing containers gracefully
+    print_info "🛑 Stopping existing containers..."
+    docker compose -f "$COMPOSE_FILE" down --remove-orphans || true
+    
+    # Clean up resources
+    cleanup_docker_resources
+    
+    # Build and start production containers
+    print_info "🚀 Building and starting production containers..."
+    if ! docker compose -f "$COMPOSE_FILE" up -d --build; then
+        print_error "Failed to start containers"
+        return 1
+    fi
+    
+    # Wait for services to be ready
+    print_info "⏳ Waiting for services to start..."
+    sleep 30
+    
+    # Check container health
+    print_info "🔍 Checking container health..."
+    docker compose -f "$COMPOSE_FILE" ps
+    
+    # Test API endpoint
+    if ! wait_for_api; then
+        print_error "📋 Container logs:"
+        docker compose -f "$COMPOSE_FILE" logs --tail=50
+        return 1
+    fi
+    
+    print_success "✅ Production deployment completed successfully!"
+    return 0
+}
+
 show_usage() {
-    echo "Usage: $0 [dev|prod] [--init] [--down] [--logs] [--build] [--workers N]"
+    echo "Usage: $0 [dev|prod] [--init] [--down] [--logs] [--build] [--workers N] [--backup] [--deploy]"
     echo ""
     echo "Environment:"
     echo "  dev     Start development environment (default)"
@@ -53,21 +144,25 @@ show_usage() {
     echo "  --down       Stop all services"
     echo "  --logs       Show service logs"
     echo "  --build      Force rebuild containers"
-    echo "  --workers N  Number of API workers (default: 1)"
+    echo "  --workers N  Number of API workers (default: 1 for dev, 4 for prod)"
+    echo "  --backup     Create backup of fiscal notes before deployment"
+    echo "  --deploy     Full production deployment with backup and health checks"
     echo "  --help       Show this help message"
     echo ""
     echo "Examples:"
     echo "  $0                    # Start development environment (1 worker)"
     echo "  $0 dev --init         # Initialize and start development"
-    echo "  $0 dev --workers 10   # Start development with 10 API workers"
-    echo "  $0 prod --workers 10  # Start production with 10 API workers"
+    echo "  $0 dev --workers 4    # Start development with 4 API workers"
+    echo "  $0 prod --deploy      # Full production deployment with backup"
+    echo "  $0 prod --workers 8   # Start production with 8 API workers"
     echo "  $0 --down             # Stop all services"
     echo "  $0 dev --logs         # Show development logs"
     echo ""
     echo "Worker Recommendations:"
-    echo "  • Development: 1-3 workers (easier debugging)"
-    echo "  • Production: 10 workers (matches 12 Chrome sessions)"
-    echo "  • Testing: 10 workers (test full parallel capacity)"
+    echo "  • Development: 1 worker (easier debugging)"
+    echo "  • Dev Testing: 2-4 workers (test multi-worker behavior)"
+    echo "  • Production: 4-8 workers (optimal performance)"
+    echo "  • High Load: 8+ workers (high-traffic scenarios)"
 }
 
 # --- Parse Arguments ---
@@ -77,6 +172,8 @@ DOWN=false
 LOGS=false
 BUILD=false
 WORKERS=""
+BACKUP=false
+DEPLOY=false
 
 # Parse arguments with support for --workers N
 i=1
@@ -97,6 +194,14 @@ while [ $i -le $# ]; do
             ;;
         --build)
             BUILD=true
+            ;;
+        --backup)
+            BACKUP=true
+            ;;
+        --deploy)
+            DEPLOY=true
+            BACKUP=true  # Deploy always includes backup
+            BUILD=true   # Deploy always rebuilds
             ;;
         --workers)
             # Get next argument as worker count
@@ -170,7 +275,33 @@ if [ "$LOGS" = true ]; then
     exit 0
 fi
 
-# --- Docker Compose Commands ---
+# --- Handle --backup flag ---
+if [ "$BACKUP" = true ] && [ "$DEPLOY" = false ]; then
+    create_fiscal_notes_backup
+    exit 0
+fi
+
+# --- Handle --deploy flag ---
+if [ "$DEPLOY" = true ]; then
+    if [ "$ENVIRONMENT" != "prod" ]; then
+        print_error "--deploy flag can only be used with production environment"
+        print_info "Use: ./GO.sh prod --deploy"
+        exit 1
+    fi
+    
+    if deploy_production; then
+        print_success "🎉 Production deployment completed successfully!"
+        # Show final status and exit
+        print_info "📊 Final container status:"
+        docker compose -f "$COMPOSE_FILE" ps
+        exit 0
+    else
+        print_error "Production deployment failed"
+        exit 1
+    fi
+fi
+
+# --- Standard Docker Compose Commands ---
 DOCKER_CMD="docker compose -f $COMPOSE_FILE"
 
 if [ "$BUILD" = true ]; then
@@ -213,15 +344,22 @@ if [ "$ENVIRONMENT" = "dev" ]; then
     print_info "  ./GO.sh --logs              # View logs"
     print_info "  ./GO.sh --down              # Stop services"
     print_info "  ./GO.sh --build             # Rebuild containers"
-    print_info "  ./GO.sh dev --workers 10    # Restart with 10 workers"
+    print_info "  ./GO.sh dev --workers 4     # Restart with 4 workers"
+    print_info "  ./GO.sh --backup            # Create fiscal notes backup"
 else
     echo ""
     print_success "🌐 Production Environment Ready!"
     print_info "Application: http://localhost (via Nginx)"
     print_info "API: http://localhost:8200"
     print_info "Frontend: http://localhost:3000"
+    if [ -n "$WORKERS" ]; then
+        print_info "API Workers: $WORKERS processes"
+        print_info "Redis: Enabled for multi-worker coordination"
+    fi
     echo ""
     print_info "Useful commands:"
-    print_info "  ./GO.sh prod --logs  # View logs"
-    print_info "  ./GO.sh --down       # Stop services"
+    print_info "  ./GO.sh prod --logs          # View logs"
+    print_info "  ./GO.sh prod --deploy        # Full deployment with backup"
+    print_info "  ./GO.sh --backup             # Create fiscal notes backup"
+    print_info "  ./GO.sh --down               # Stop services"
 fi

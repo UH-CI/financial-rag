@@ -144,10 +144,10 @@ pipeline {
             }
         }
 
-        stage('Deploy with Docker Compose') {
+        stage('Deploy with GO.sh') {
             steps {
                 script {
-                    echo "🔄 Starting Docker Compose deployment..."
+                    echo "🔄 Starting production deployment with GO.sh..."
                 }
                 withCredentials([
                     string(credentialsId: env.VM_HOST_CRED_ID, variable: 'VM_HOST')
@@ -158,54 +158,18 @@ pipeline {
                             set -e
                             cd /home/exouser/RAG-system
                             
-                            # Stop existing containers gracefully
-                            echo "🛑 Stopping existing containers..."
-                            docker-compose -f docker-compose.prod.yml down --remove-orphans || true
+                            # Make sure GO.sh is executable
+                            chmod +x GO.sh
                             
-                            # Clean up old images to save space (keep last 2 versions)
-                            echo "🧹 Cleaning up old Docker images..."
-                            docker image prune -f || true
-                            
-                            # Build and start production containers
-                            echo "🚀 Building and starting production containers..."
-                            docker-compose -f docker-compose.prod.yml up -d --build
-                            
-                            # Wait for services to be ready
-                            echo "⏳ Waiting for services to start..."
-                            sleep 30
-                            
-                            # Check container health
-                            echo "🔍 Checking container health..."
-                            docker-compose -f docker-compose.prod.yml ps
-                            
-                            # Test API endpoint
-                            echo "🧪 Testing API endpoint..."
-                            for i in {1..10}; do
-                                if curl -f http://localhost:8200/ > /dev/null 2>&1; then
-                                    echo "✅ API is responding"
-                                    break
-                                fi
-                                echo "⏳ Waiting for API... (attempt \$i/10)"
-                                sleep 10
-                            done
-                            
-                            # Final health check
-                            if ! curl -f http://localhost:8200/ > /dev/null 2>&1; then
-                                echo "❌ API health check failed"
-                                echo "📋 Container logs:"
-                                docker-compose -f docker-compose.prod.yml logs --tail=50
-                                exit 1
-                            fi
-                            
-                            echo "✅ All services are healthy and running"
-                            echo "📊 Final container status:"
-                            docker-compose -f docker-compose.prod.yml ps
+                            # Run full production deployment with GO.sh
+                            # This includes: backup, stop containers, cleanup, build, start, health checks
+                            ./GO.sh prod --deploy --workers \${WORKERS:-4}
                         '
                         """
                     }
                 }
                 script {
-                    echo "✅ Docker Compose deployment completed successfully"
+                    echo "✅ Production deployment with GO.sh completed successfully"
                 }
             }
         }

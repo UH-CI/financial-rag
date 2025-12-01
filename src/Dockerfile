@@ -42,4 +42,21 @@ EXPOSE 8200 8280
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
     CMD curl -f http://localhost:8200/ || exit 1
 
-CMD ["python", "run_api.py"] 
+# Create startup script for flexible uvicorn configuration
+RUN echo '#!/bin/bash\n\
+uvicorn api:app \\\n\
+    --host 0.0.0.0 \\\n\
+    --port 8200 \\\n\
+    --workers ${WORKERS:-4} \\\n\
+    --log-level ${LOG_LEVEL:-info} \\\n\
+    --access-log \\\n\
+    --loop uvloop \\\n\
+    --http httptools \\\n\
+    --ws websockets \\\n\
+    --lifespan on \\\n\
+    --timeout-keep-alive 30 \\\n\
+    --timeout-graceful-shutdown 30 \\\n\
+    --backlog 2048' > /start.sh && chmod +x /start.sh
+
+# Production uvicorn command with optimized settings
+CMD ["/start.sh"] 

@@ -64,7 +64,8 @@ services:
       - ENV=production
       - SELENIUM_REMOTE_URL=http://selenium-hub:4444/wd/hub
       - REDIS_URL=redis://redis:6379
-      - WORKERS=${WORKERS:-2}  # Default to 2 workers for production
+      - WORKERS=${WORKERS:-4}  # Default to 4 workers for production
+      - LOG_LEVEL=${LOG_LEVEL:-info}  # Default to info log level
     restart: unless-stopped
     depends_on:
       - redis

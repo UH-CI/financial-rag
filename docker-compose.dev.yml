@@ -88,7 +88,8 @@ services:
       - ENV=development
       - SELENIUM_REMOTE_URL=http://selenium-hub:4444/wd/hub
       - REDIS_URL=redis://redis:6379
-      - WORKERS=${WORKERS:-1}  # Default to 1 worker, can be overridden
+      - WORKERS=${WORKERS:-1}  # Default to 1 worker for development, can be overridden
+      - LOG_LEVEL=${LOG_LEVEL:-debug}  # Default to debug log level for development
     restart: unless-stopped
     depends_on:
       - redis
