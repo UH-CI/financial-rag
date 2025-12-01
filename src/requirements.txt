@@ -5,7 +5,7 @@ langchain==0.2.17
 langchain-openai==0.1.25
 langchain-community==0.2.19
 langchain-text-splitters==0.2.4
-langgraph
+langgraph==0.4.0
 
 # Google AI - install these without strict version constraints to avoid conflicts
 google-generativeai

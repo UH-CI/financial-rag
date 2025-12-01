@@ -21,9 +21,10 @@ RUN apt-get update && apt-get install -y \
 # Set working directory
 WORKDIR /src
 
-# Copy requirements and install Python dependencies
+# Copy requirements and install Python dependencies with optimizations
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --upgrade pip setuptools wheel && \
+    pip install --no-cache-dir --timeout=600 --retries=3 --prefer-binary -r requirements.txt
 
 # Copy application code
 COPY . .

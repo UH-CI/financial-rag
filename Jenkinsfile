@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     options {
-        // Increase Git timeout to 30 minutes for large repositories
-        timeout(time: 30, unit: 'MINUTES')
+        // Increase timeout to 45 minutes for Docker builds with complex dependencies
+        timeout(time: 45, unit: 'MINUTES')
         // Skip default checkout, we'll do it manually with custom timeout
         skipDefaultCheckout()
     }
