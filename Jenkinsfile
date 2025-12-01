@@ -125,9 +125,15 @@ pipeline {
                             set -e
                             cd /home/exouser/RAG-system
                             
+                            # Clean up temporary files that might conflict
+                            rm -f src/log.txt uvicorn.pid logs/*.log 2>/dev/null || true
+                            
                             # Stash any local changes to fiscal notes and property prompts (user data)
                             git add src/fiscal_notes/generation/ src/fiscal_notes/property_prompts_config.json 2>/dev/null || true
                             git stash push -m "Preserve user annotations before pull" src/fiscal_notes/generation/ src/fiscal_notes/property_prompts_config.json 2>/dev/null || true
+                            
+                            # Reset any other local changes that might conflict
+                            git reset --hard HEAD
                             
                             # Update code (gitignored files like fiscal notes are preserved)
                             git pull origin main

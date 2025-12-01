@@ -66,5 +66,11 @@ src/fiscal_notes/generation/*/fiscal_notes/*.json
 src/fiscal_notes/generation/*/retrieval_log.json
 
 src/log.txt
+uvicorn.pid
+logs/*.log
+logs/*.pid
+
+# Backup directories created by deployment scripts
+fiscal_notes_backups/
 
 # Note: property_prompts_config.json is tracked in git but preserved on production server via Jenkinsfile
