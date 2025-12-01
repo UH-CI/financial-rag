@@ -1,0 +1,200 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: financial-rag-api
+  labels:
+    app: financial-rag-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: financial-rag-api
+  template:
+    metadata:
+      labels:
+        app: financial-rag-api
+    spec:
+      initContainers:
+      - name: init-documents
+        image: busybox
+        command: ['sh', '-c']
+        args:
+        - |
+          mkdir -p /src/documents/data/storage_documents
+          mkdir -p /src/documents/data/extracted_text
+          mkdir -p /src/documents/data/chunked_text
+          ln -sf /src/documents/data/storage_documents /src/documents/storage_documents
+          ln -sf /src/documents/data/extracted_text /src/documents/extracted_text
+          ln -sf /src/documents/data/chunked_text /src/documents/chunked_text
+          echo "Documents directory structure created with symlinks"
+        volumeMounts:
+        - name: documents-storage
+          mountPath: /src/documents/data
+      containers:
+      - name: financial-rag-api
+        image: ghcr.io/uh-ci/rag-system-src:latest
+        ports:
+        - containerPort: 8200
+          name: http
+        env:
+        - name: PYTHONPATH
+          value: "/src"
+        - name: PYTHONUNBUFFERED
+          value: "1"
+        command: ["/bin/sh"]
+        args:
+        - -c
+        - |
+          ln -sf /src/documents/data/storage_documents /src/documents/storage_documents
+          ln -sf /src/documents/data/extracted_text /src/documents/extracted_text
+          ln -sf /src/documents/data/chunked_text /src/documents/chunked_text
+          python run_api.py
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "2Gi"
+            cpu: "1000m"
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 8200
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 8200
+          initialDelaySeconds: 5
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 3
+        volumeMounts:
+        - name: chroma-db-storage
+          mountPath: /src/chroma_db
+        - name: documents-storage
+          mountPath: /src/documents/data
+        - name: config-volume
+          mountPath: /src/.env
+          subPath: .env
+          readOnly: true
+      volumes:
+      - name: chroma-db-storage
+        persistentVolumeClaim:
+          claimName: chroma-db-pvc
+      - name: documents-storage
+        persistentVolumeClaim:
+          claimName: documents-pvc
+      - name: config-volume
+        configMap:
+          name: financial-rag-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: financial-rag-service
+  labels:
+    app: financial-rag-api
+spec:
+  type: ClusterIP
+  ports:
+  - port: 8200
+    targetPort: 8200
+    protocol: TCP
+    name: http
+  selector:
+    app: financial-rag-api
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: financial-rag-config
+data:
+  .env: |
+    LLAMA_API_KEY: bfa9578e-8707-4f32-a07c-4de1ffcd1a77
+    GEMINI_API_KEY: AIzaSyAdmHIhoIPCg9gdWCfjTBMVetVy4xgAGLw
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: chroma-db-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+  storageClassName: standard
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: documents-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi
+  storageClassName: standard
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: financial-rag-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: financial-rag-api
+  minReplicas: 2
+  maxReplicas: 10
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 70
+  - type: Resource
+    resource:
+      name: memory
+      target:
+        type: Utilization
+        averageUtilization: 80
+  behavior:
+    scaleUp:
+      stabilizationWindowSeconds: 60
+      policies:
+      - type: Percent
+        value: 100
+        periodSeconds: 15
+    scaleDown:
+      stabilizationWindowSeconds: 300
+      policies:
+      - type: Percent
+        value: 10
+        periodSeconds: 60
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: financial-rag-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+spec:
+  rules:
+  - host: 127.0.0.1
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: financial-rag-service
+            port:
+              number: 8200

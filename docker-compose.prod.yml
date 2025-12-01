@@ -1,4 +1,55 @@
 services:
+  # Selenium Hub
+  selenium-hub:
+    image: seleniarm/hub:latest
+    container_name: selenium-hub
+    ports:
+      - "4444:4444"
+    environment:
+      - SE_SESSION_REQUEST_TIMEOUT=300
+      - SE_SESSION_RETRY_INTERVAL=5
+    networks:
+      - rag-network
+    restart: unless-stopped
+
+  # Selenium Chrome Node (Production - fewer sessions)
+  selenium-chrome:
+    image: seleniarm/node-chromium:latest
+    container_name: selenium-chrome-node
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=4
+      - SE_NODE_SESSION_TIMEOUT=300
+      - HUB_HOST=selenium-hub
+    volumes:
+      - /dev/shm:/dev/shm  # Shared memory for better performance
+    networks:
+      - rag-network
+    shm_size: 1gb
+    restart: unless-stopped
+    depends_on:
+      - selenium-hub
+
+  # Redis for job queuing and caching
+  redis:
+    image: redis:7-alpine
+    container_name: redis-server
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    networks:
+      - rag-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+
   # API Server
   api:
     build:
@@ -11,7 +62,14 @@ services:
       - PYTHONPATH=/src
       - PYTHONUNBUFFERED=1
       - ENV=production
+      - SELENIUM_REMOTE_URL=http://selenium-hub:4444/wd/hub
+      - REDIS_URL=redis://redis:6379
+      - WORKERS=${WORKERS:-2}  # Default to 2 workers for production
     restart: unless-stopped
+    depends_on:
+      - redis
+      - selenium-hub
+      - selenium-chrome
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8200/"]
       interval: 30s
@@ -20,6 +78,7 @@ services:
     volumes:
       - ./src/.env:/src/.env:ro  # Mount environment file
       - ./src/chroma_db:/src/chroma_db
+      - ./src/fiscal_notes:/src/fiscal_notes  # Persist fiscal notes data
     networks:
       - rag-network
 
@@ -28,36 +87,42 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
+      args:
+        - VITE_API_BASE_URL=https://finbot.its.hawaii.edu/api
+        - VITE_WS_URL=wss://finbot.its.hawaii.edu/ws
     container_name: rag-frontend
     ports:
       - "3000:3000"
     environment:
-      - VITE_API_BASE_URL=https://finbot.its.hawaii.edu/api
-      - VITE_WS_URL=wss://finbot.its.hawaii.edu/ws
       - NODE_ENV=production
+    command: ["sh", "-c", "npm run build && npm run preview"]
     restart: unless-stopped
     depends_on:
       - api
     networks:
       - rag-network
 
-  # Nginx Reverse Proxy
-  nginx:
-    image: nginx:alpine
-    container_name: rag-nginx
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - /etc/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
-      - /etc/letsencrypt/live:/etc/nginx/ssl:ro  # Mount SSL certificates
-    restart: unless-stopped
-    depends_on:
-      - api
-      - frontend
-    networks:
-      - rag-network
+  # Nginx Reverse Proxy (Optional - comment out if using host nginx)
+  # nginx:
+  #   image: nginx:alpine
+  #   container_name: rag-nginx
+  #   ports:
+  #     - "80:80"
+  #     - "443:443"
+  #   volumes:
+  #     - /etc/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+  #     - /etc/letsencrypt/live:/etc/nginx/ssl:ro  # Mount SSL certificates
+  #   restart: unless-stopped
+  #   depends_on:
+  #     - api
+  #     - frontend
+  #   networks:
+  #     - rag-network
 
 networks:
   rag-network:
     driver: bridge
+
+volumes:
+  redis_data:
+    driver: local

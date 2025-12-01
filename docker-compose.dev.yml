@@ -78,7 +78,7 @@ services:
   api:
     build:
       context: ./src
-      dockerfile: Dockerfile.dev
+      dockerfile: Dockerfile
     container_name: rag-api-dev
     ports:
       - "8200:8200"
@@ -111,7 +111,7 @@ services:
   frontend:
     build:
       context: ./frontend
-      dockerfile: Dockerfile.dev
+      dockerfile: Dockerfile
       args:
         - VITE_API_BASE_URL=http://localhost:8200
         - VITE_WS_URL=ws://localhost:8200/ws

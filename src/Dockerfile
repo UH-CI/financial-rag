@@ -1,4 +1,22 @@
-FROM ghcr.io/uh-ci/rag-system-extended-dependencies:latest
+# Production Dockerfile - Chrome runs in separate Selenium container
+FROM python:3.11-slim
+
+# Install system dependencies for OpenCV, PDF processing, and other tools
+RUN apt-get update && apt-get install -y \
+    curl \
+    libgl1 \
+    libglib2.0-0 \
+    libsm6 \
+    libxext6 \
+    libxrender1 \
+    libgomp1 \
+    libgtk-3-0 \
+    libgstreamer1.0-0 \
+    libgstreamer-plugins-base1.0-0 \
+    libjpeg62-turbo \
+    libpng16-16 \
+    libtiff6 \
+    && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
 WORKDIR /src
@@ -7,17 +25,15 @@ WORKDIR /src
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code into a src subdirectory
+# Copy application code
 COPY . .
 # create storage_documents dir
 RUN mkdir -p documents/storage_documents
 
-# Note: ChromaDB data will be provided via volume mount in production
-# (chroma_db/ should be excluded via .dockerignore to avoid conflicts)
-
 # Set environment variables
 ENV PYTHONPATH=/src
 ENV PYTHONUNBUFFERED=1
+ENV DOCKER_ENV=true
 
 # Expose ports (8200 for API, 8280 for test interface)
 EXPOSE 8200 8280
@@ -26,10 +42,4 @@ EXPOSE 8200 8280
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
     CMD curl -f http://localhost:8200/ || exit 1
 
-# Default command runs API server
-CMD ["python", "run_api.py"]
-
-# Alternative commands:
-# docker run -p 8200:8200 your-image                    # API server
-# docker run -p 8280:8280 your-image python tests/test_server.py  # Test interface
-# docker run -p 8200:8200 -p 8280:8280 your-image bash # Interactive 
+CMD ["python", "run_api.py"] 

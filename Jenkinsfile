@@ -68,29 +68,21 @@ pipeline {
             }
         }
 
-        stage('Deploy Frontend') {
+        stage('Backup Data') {
             steps {
                 script {
-                    try {
-                        echo "🔄 Starting Frontend Deployment..."
-                        echo "Loading credentials..."
-                    } catch (Exception e) {
-                        echo "❌ Frontend deployment failed: ${e.getMessage()}"
-                        throw e
-                    }
+                    echo "🔄 Starting data backup..."
                 }
                 withCredentials([
                     string(credentialsId: env.VM_HOST_CRED_ID, variable: 'VM_HOST')
                 ]) {
-                    echo "✅ VM_HOST credential loaded"
                     sshagent(credentials: [env.SSH_CRED_ID]) {
-                        echo "✅ SSH agent started with credential: ${env.SSH_CRED_ID}"
                         sh """
                         ssh -o StrictHostKeyChecking=no exouser@${VM_HOST} '
                             set -e
                             cd /home/exouser/RAG-system
                             
-                            # Create backup directory in RAG-system folder (where we have permissions)
+                            # Create backup directory
                             mkdir -p /home/exouser/RAG-system/fiscal_notes_backups
                             
                             # Create timestamped backup of fiscal notes (with user annotations)
@@ -109,6 +101,29 @@ pipeline {
                                 ls -lh fiscal_notes_*.tar.gz 2>/dev/null || echo "No backups yet"
                                 cd /home/exouser/RAG-system
                             fi
+                        '
+                        """
+                    }
+                }
+                script {
+                    echo "✅ Data backup completed successfully"
+                }
+            }
+        }
+
+        stage('Update Code') {
+            steps {
+                script {
+                    echo "🔄 Updating code from repository..."
+                }
+                withCredentials([
+                    string(credentialsId: env.VM_HOST_CRED_ID, variable: 'VM_HOST')
+                ]) {
+                    sshagent(credentials: [env.SSH_CRED_ID]) {
+                        sh """
+                        ssh -o StrictHostKeyChecking=no exouser@${VM_HOST} '
+                            set -e
+                            cd /home/exouser/RAG-system
                             
                             # Stash any local changes to fiscal notes and property prompts (user data)
                             git add src/fiscal_notes/generation/ src/fiscal_notes/property_prompts_config.json 2>/dev/null || true
@@ -119,25 +134,21 @@ pipeline {
                             
                             # Restore local changes (user annotations and property prompts)
                             git stash pop 2>/dev/null || true
-                            
-                            # Build and deploy frontend
-                            cd /home/exouser/RAG-system/frontend
-                            sudo npm install
-                            sudo npm run build
-                            sudo nginx -t
-                            sudo systemctl reload nginx
                         '
                         """
                     }
                 }
                 script {
-                    echo "✅ Frontend deployment completed successfully"
+                    echo "✅ Code update completed successfully"
                 }
             }
         }
 
-        stage('Deploy Backend') {
+        stage('Deploy with Docker Compose') {
             steps {
+                script {
+                    echo "🔄 Starting Docker Compose deployment..."
+                }
                 withCredentials([
                     string(credentialsId: env.VM_HOST_CRED_ID, variable: 'VM_HOST')
                 ]) {
@@ -145,14 +156,56 @@ pipeline {
                         sh """
                         ssh -o StrictHostKeyChecking=no exouser@${VM_HOST} '
                             set -e
-                            cd /home/exouser/RAG-system/src
-                            source .env
-                            cd ..
-                            ./stop_production.sh
-                            ./start_production.sh
+                            cd /home/exouser/RAG-system
+                            
+                            # Stop existing containers gracefully
+                            echo "🛑 Stopping existing containers..."
+                            docker-compose -f docker-compose.prod.yml down --remove-orphans || true
+                            
+                            # Clean up old images to save space (keep last 2 versions)
+                            echo "🧹 Cleaning up old Docker images..."
+                            docker image prune -f || true
+                            
+                            # Build and start production containers
+                            echo "🚀 Building and starting production containers..."
+                            docker-compose -f docker-compose.prod.yml up -d --build
+                            
+                            # Wait for services to be ready
+                            echo "⏳ Waiting for services to start..."
+                            sleep 30
+                            
+                            # Check container health
+                            echo "🔍 Checking container health..."
+                            docker-compose -f docker-compose.prod.yml ps
+                            
+                            # Test API endpoint
+                            echo "🧪 Testing API endpoint..."
+                            for i in {1..10}; do
+                                if curl -f http://localhost:8200/ > /dev/null 2>&1; then
+                                    echo "✅ API is responding"
+                                    break
+                                fi
+                                echo "⏳ Waiting for API... (attempt \$i/10)"
+                                sleep 10
+                            done
+                            
+                            # Final health check
+                            if ! curl -f http://localhost:8200/ > /dev/null 2>&1; then
+                                echo "❌ API health check failed"
+                                echo "📋 Container logs:"
+                                docker-compose -f docker-compose.prod.yml logs --tail=50
+                                exit 1
+                            fi
+                            
+                            echo "✅ All services are healthy and running"
+                            echo "📊 Final container status:"
+                            docker-compose -f docker-compose.prod.yml ps
                         '
                         """
                     }
+                }
+                script {
+                    echo "✅ Docker Compose deployment completed successfully"
                 }
             }
         }

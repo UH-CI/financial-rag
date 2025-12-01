@@ -1229,6 +1229,50 @@ def cleanup_job(job_id: str):
     else:
         jobs.pop(job_id, None)
 
+def cleanup_selenium_temp_files():
+    """Clean up temporary files in Selenium containers to prevent disk space issues"""
+    try:
+        import subprocess
+        import os
+        
+        # Only run if we're in a Docker environment
+        if os.environ.get('DOCKER_ENV'):
+            print("🧹 Cleaning up Selenium temporary files...")
+            
+            # Get list of Selenium containers
+            result = subprocess.run(['docker', 'ps', '--filter', 'name=selenium', '--format', '{{.Names}}'], 
+                                  capture_output=True, text=True, timeout=10)
+            
+            if result.returncode == 0:
+                containers = result.stdout.strip().split('\n')
+                containers = [c for c in containers if c]  # Remove empty strings
+                
+                for container in containers:
+                    try:
+                        # Clean up Chrome temp directories older than 1 hour
+                        subprocess.run([
+                            'docker', 'exec', container, 'find', '/tmp', 
+                            '-name', '.org.chromium.*', '-type', 'd', 
+                            '-mmin', '+60', '-exec', 'rm', '-rf', '{}', '+'], 
+                            timeout=30, capture_output=True)
+                        
+                        # Clean up other temp files older than 1 hour
+                        subprocess.run([
+                            'docker', 'exec', container, 'find', '/tmp', 
+                            '-type', 'f', '-mmin', '+60', '-name', 'tmp*', 
+                            '-exec', 'rm', '-f', '{}', '+'], 
+                            timeout=30, capture_output=True)
+                        
+                        print(f"✅ Cleaned temp files in {container}")
+                    except Exception as e:
+                        print(f"⚠️ Failed to clean {container}: {e}")
+            else:
+                print("⚠️ No Selenium containers found")
+                
+    except Exception as e:
+        print(f"⚠️ Selenium cleanup failed: {e}")
+        # Don't raise - this is non-critical
+
 # WebSocket connection manager
 class ConnectionManager:
     def __init__(self):
@@ -2554,8 +2598,16 @@ async def create_fiscal_note_job(bill_type: Bill_type_options, bill_number: str,
         print(f"Fiscal note generation completed for {job_id}")
         send_success_msg_to_slack(f"Fiscal note for {job_id} has been generated successfully!")
         
+        # Clean up Selenium temp files to prevent disk space issues
+        cleanup_selenium_temp_files()
+        
     except Exception as e:
         error_msg = f"Error in fiscal note generation job {job_id}: {str(e)}"
+        print(f"❌ {error_msg}")
+        
+        # Clean up job immediately on error
+        cleanup_job(job_id)
+        print(f"🧹 Cleaned up failed job: {job_id}")
         
         send_error_to_slack(error_msg)
 
@@ -2566,8 +2618,13 @@ async def create_fiscal_note_job(bill_type: Bill_type_options, bill_number: str,
             "status": "error",
             "message": f"Failed to generate fiscal note for {job_id}: {str(e)}"
         }))
+        
+        # Re-raise the exception to ensure it's properly logged
+        raise
     finally:
+        # Ensure cleanup happens regardless (defensive programming)
         cleanup_job(job_id)
+        print(f"🧹 Final cleanup for job: {job_id}")
 
 @app.post("/generate-fiscal-note")
 async def generate_fiscal_note(request: Request, bill_type: Bill_type_options, bill_number: str, year: str = "2025"):
@@ -2599,16 +2656,32 @@ async def generate_fiscal_note(request: Request, bill_type: Bill_type_options, b
     
     set_job_status(job_id, True)
     
-    # Create independent background task with error handling
-    task = asyncio.create_task(create_fiscal_note_job(bill_type, bill_number, year))
-    # Add done callback to handle any unhandled exceptions
-    task.add_done_callback(lambda t: t.exception() if t.exception() else None)
+    try:
+        # Create independent background task with error handling
+        task = asyncio.create_task(create_fiscal_note_job(bill_type, bill_number, year))
+        # Add done callback to handle any unhandled exceptions and ensure cleanup
+        def handle_task_completion(task):
+            if task.exception():
+                print(f"❌ Unhandled exception in fiscal note job {job_id}: {task.exception()}")
+                cleanup_job(job_id)
+                print(f"🧹 Emergency cleanup for job: {job_id}")
+        
+        task.add_done_callback(handle_task_completion)
 
-    return {
-        "message": "Fiscal note queued for generation",
-        "job_id": job_id,
-        "success": True
-    }
+        return {
+            "message": "Fiscal note queued for generation",
+            "job_id": job_id,
+            "success": True
+        }
+    except Exception as e:
+        # If task creation fails, clean up immediately
+        cleanup_job(job_id)
+        print(f"❌ Failed to create fiscal note task for {job_id}: {e}")
+        return {
+            "message": f"Failed to queue fiscal note generation: {str(e)}",
+            "job_id": job_id,
+            "success": False
+        }
 
 @app.post("/bill_search_query")
 async def bill_search_query(request: Request, bill_type: Bill_type_options, bill_number: str, year: str = "2025"):
