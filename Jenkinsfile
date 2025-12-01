@@ -163,7 +163,7 @@ pipeline {
                             
                             # Run full production deployment with GO.sh
                             # This includes: backup, stop containers, cleanup, build, start, health checks
-                            ./GO.sh prod --deploy --workers \${WORKERS:-4}
+                            ./GO.sh prod --deploy --workers \${WORKERS:-8}
                         '
                         """
                     }
