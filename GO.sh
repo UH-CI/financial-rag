@@ -84,7 +84,7 @@ wait_for_api() {
     return 1
 }
 
-# --- Docker Management Functions ---
+# --- Docker Management Functions -a--
 cleanup_docker_resources() {
     print_info "🧹 Cleaning up old Docker images..."
     docker image prune -f || true
