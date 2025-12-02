@@ -106,14 +106,39 @@ stop_all_containers() {
     docker compose -f docker-compose.dev.yml down --remove-orphans 2>/dev/null || true
     docker compose -f docker-compose.prod.yml down --remove-orphans 2>/dev/null || true
     
-    # Force stop any containers using our ports
-    docker ps -q --filter "publish=6379" | xargs -r docker stop 2>/dev/null || true
-    docker ps -q --filter "publish=8200" | xargs -r docker stop 2>/dev/null || true
-    docker ps -q --filter "publish=3000" | xargs -r docker stop 2>/dev/null || true
-    docker ps -q --filter "publish=4444" | xargs -r docker stop 2>/dev/null || true
+    # Kill any processes using our ports
+    print_info "🔍 Checking for processes using ports..."
+    
+    # Check what's using port 8200
+    PORT_8200_PID=$(lsof -ti:8200 2>/dev/null || true)
+    if [ -n "$PORT_8200_PID" ]; then
+        print_warning "Port 8200 is in use by PID: $PORT_8200_PID"
+        kill -9 $PORT_8200_PID 2>/dev/null || true
+        sleep 2
+    fi
+    
+    # Check what's using port 6379
+    PORT_6379_PID=$(lsof -ti:6379 2>/dev/null || true)
+    if [ -n "$PORT_6379_PID" ]; then
+        print_warning "Port 6379 is in use by PID: $PORT_6379_PID"
+        kill -9 $PORT_6379_PID 2>/dev/null || true
+        sleep 2
+    fi
+    
+    # Force stop any containers using our ports (alternative method)
+    docker ps -q --filter "publish=6379" | xargs -r docker kill 2>/dev/null || true
+    docker ps -q --filter "publish=8200" | xargs -r docker kill 2>/dev/null || true
+    docker ps -q --filter "publish=3000" | xargs -r docker kill 2>/dev/null || true
+    docker ps -q --filter "publish=4444" | xargs -r docker kill 2>/dev/null || true
     
     # Remove any stopped containers
     docker container prune -f || true
+    
+    # Wait a moment for ports to be released
+    sleep 3
+    
+    print_info "📋 Port status after cleanup:"
+    netstat -tlnp | grep -E ":(6379|8200|3000|4444)" || print_info "All target ports are free"
     
     print_info "📋 Remaining running containers:"
     docker ps --format "table {{.Names}}\t{{.Ports}}" || true
@@ -133,6 +158,17 @@ deploy_production() {
     
     # Clean up Docker resources
     cleanup_docker_resources
+    
+    # Final port check before deployment
+    print_info "🔍 Final port availability check..."
+    PORTS_IN_USE=$(netstat -tlnp | grep -E ":(6379|8200|3000|4444)" || true)
+    if [ -n "$PORTS_IN_USE" ]; then
+        print_error "Ports still in use after cleanup:"
+        echo "$PORTS_IN_USE"
+        print_error "Deployment cannot proceed with ports in use"
+        return 1
+    fi
+    print_success "All required ports are available"
     
     # Build and start production containers
     print_info "🚀 Building and starting production containers..."
