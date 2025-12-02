@@ -84,10 +84,39 @@ wait_for_api() {
     return 1
 }
 
-# --- Docker Management Functions -a--
+# --- Docker Management Functions ---
 cleanup_docker_resources() {
-    print_info "🧹 Cleaning up old Docker images..."
+    print_info "🧹 Cleaning up Docker resources..."
+    
+    # Remove unused images
     docker image prune -f || true
+    
+    # Remove build cache to save space
+    docker builder prune -f || true
+    
+    print_info "📊 Disk space after cleanup:"
+    df -h / | tail -1 || true
+}
+
+stop_all_containers() {
+    print_info "🛑 Stopping all containers and cleaning up ports..."
+    
+    # Stop all compose projects that might be running
+    docker compose -f docker-compose.yml down --remove-orphans 2>/dev/null || true
+    docker compose -f docker-compose.dev.yml down --remove-orphans 2>/dev/null || true
+    docker compose -f docker-compose.prod.yml down --remove-orphans 2>/dev/null || true
+    
+    # Force stop any containers using our ports
+    docker ps -q --filter "publish=6379" | xargs -r docker stop 2>/dev/null || true
+    docker ps -q --filter "publish=8200" | xargs -r docker stop 2>/dev/null || true
+    docker ps -q --filter "publish=3000" | xargs -r docker stop 2>/dev/null || true
+    docker ps -q --filter "publish=4444" | xargs -r docker stop 2>/dev/null || true
+    
+    # Remove any stopped containers
+    docker container prune -f || true
+    
+    print_info "📋 Remaining running containers:"
+    docker ps --format "table {{.Names}}\t{{.Ports}}" || true
 }
 
 deploy_production() {
@@ -99,11 +128,10 @@ deploy_production() {
         create_fiscal_notes_backup
     fi
     
-    # Stop existing containers gracefully
-    print_info "🛑 Stopping existing containers..."
-    docker compose -f "$COMPOSE_FILE" down --remove-orphans || true
+    # Stop all containers and clean up ports
+    stop_all_containers
     
-    # Clean up resources
+    # Clean up Docker resources
     cleanup_docker_resources
     
     # Build and start production containers
