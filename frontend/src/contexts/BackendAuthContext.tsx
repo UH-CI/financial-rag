@@ -1,0 +1,250 @@
+import React, { createContext, useContext, useEffect, useState } from 'react';
+import { useAuth0, User } from '@auth0/auth0-react';
+import { useAuthenticatedApi, type UserProfileWithPermissions } from '../services/authApi';
+
+export interface UserProfile {
+  uid: string;
+  email: string;
+  displayName: string;
+  photoURL?: string;
+  isAdmin: boolean;
+  permissions: {
+    fiscalNoteGeneration: boolean;
+    similarBillSearch: boolean;
+    hrsSearch: boolean;
+    adminPanel: boolean;
+    userManagement: boolean;
+    auditLogView: boolean;
+  };
+  createdAt: Date;
+  lastLoginAt: Date;
+}
+
+interface AuthContextType {
+  currentUser: User | null;
+  userProfile: UserProfile | null;
+  loading: boolean;
+  signInWithGoogle: () => Promise<void>;
+  signInWithEmail: (email: string, password: string) => Promise<void>;
+  signUpWithEmail: (email: string, password: string, name: string) => Promise<void>;
+  logout: () => Promise<void>;
+  refreshUserProfile: () => Promise<void>;
+  getAllUsers: () => Promise<UserProfile[]>;
+  updateUserPermissions: (userId: string, permissions: UserProfile['permissions']) => Promise<void>;
+  createManualUser: (userData: { email: string; displayName: string; isAdmin: boolean }) => Promise<UserProfile>;
+  // New backend methods
+  hasPermission: (permission: string) => boolean;
+  syncWithBackend: () => Promise<void>;
+}
+
+const AuthContext = createContext<AuthContextType | undefined>(undefined);
+
+export const useAuth = () => {
+  const context = useContext(AuthContext);
+  if (context === undefined) {
+    throw new Error('useAuth must be used within an AuthProvider');
+  }
+  return context;
+};
+
+// Map backend permissions to frontend format
+const mapBackendPermissions = (backendPermissions: string[]) => ({
+  fiscalNoteGeneration: backendPermissions.includes('fiscal-note-generation'),
+  similarBillSearch: backendPermissions.includes('similar-bill-search'),
+  hrsSearch: backendPermissions.includes('hrs-search'),
+  adminPanel: backendPermissions.includes('admin-panel'),
+  userManagement: backendPermissions.includes('user-management'),
+  auditLogView: backendPermissions.includes('audit-log-view'),
+});
+
+// Convert backend user profile to frontend format
+const convertBackendProfile = (backendProfile: UserProfileWithPermissions): UserProfile => {
+  const permissionNames = backendProfile.permissions.map(p => p.name);
+  
+  return {
+    uid: backendProfile.user.auth0_user_id,
+    email: backendProfile.user.email,
+    displayName: backendProfile.user.display_name || backendProfile.user.email,
+    isAdmin: backendProfile.user.is_admin,
+    permissions: mapBackendPermissions(permissionNames),
+    createdAt: new Date(backendProfile.user.created_at),
+    lastLoginAt: new Date(backendProfile.user.updated_at),
+  };
+};
+
+export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const { 
+    user, 
+    isAuthenticated, 
+    isLoading, 
+    loginWithRedirect,
+    logout: auth0Logout
+  } = useAuth0();
+  
+  const [userProfile, setUserProfile] = useState<UserProfile | null>(null);
+  const [contextLoading, setContextLoading] = useState(true);
+  const authApi = useAuthenticatedApi();
+
+  // Sync user profile from backend
+  const syncWithBackend = async () => {
+    if (!isAuthenticated || !user) return;
+
+    try {
+      console.log('🔄 Syncing user profile from backend...');
+      
+      // First sync user with backend
+      await authApi.syncUser();
+      
+      // Then get full profile with permissions
+      const backendProfile = await authApi.getUserProfile();
+      const frontendProfile = convertBackendProfile(backendProfile);
+      
+      setUserProfile(frontendProfile);
+      console.log('✅ User profile synced successfully:', frontendProfile.email);
+      
+    } catch (error) {
+      console.error('❌ Failed to sync user profile:', error);
+      
+      // Fallback to basic profile if backend sync fails
+      const fallbackProfile: UserProfile = {
+        uid: user.sub || '',
+        email: user.email || '',
+        displayName: user.name || user.email || '',
+        photoURL: user.picture,
+        isAdmin: user.email === 'tabalbar@hawaii.edu',
+        permissions: {
+          fiscalNoteGeneration: user.email === 'tabalbar@hawaii.edu',
+          similarBillSearch: user.email === 'tabalbar@hawaii.edu',
+          hrsSearch: user.email === 'tabalbar@hawaii.edu',
+          adminPanel: user.email === 'tabalbar@hawaii.edu',
+          userManagement: user.email === 'tabalbar@hawaii.edu',
+          auditLogView: user.email === 'tabalbar@hawaii.edu',
+        },
+        createdAt: new Date(),
+        lastLoginAt: new Date(),
+      };
+      
+      setUserProfile(fallbackProfile);
+    }
+  };
+
+  // Initialize user profile when authenticated
+  useEffect(() => {
+    const initializeProfile = async () => {
+      setContextLoading(true);
+      
+      if (isAuthenticated && user) {
+        await syncWithBackend();
+      } else {
+        setUserProfile(null);
+      }
+      
+      setContextLoading(false);
+    };
+
+    if (!isLoading) {
+      initializeProfile();
+    }
+  }, [isAuthenticated, user, isLoading]);
+
+  // Check if user has specific permission
+  const hasPermission = (permission: string): boolean => {
+    if (!userProfile) return false;
+    if (userProfile.isAdmin) return true; // Admins have all permissions
+    
+    const permissionMap: { [key: string]: keyof UserProfile['permissions'] } = {
+      'fiscal-note-generation': 'fiscalNoteGeneration',
+      'similar-bill-search': 'similarBillSearch',
+      'hrs-search': 'hrsSearch',
+      'admin-panel': 'adminPanel',
+      'user-management': 'userManagement',
+      'audit-log-view': 'auditLogView',
+    };
+    
+    const frontendPermission = permissionMap[permission];
+    return frontendPermission ? userProfile.permissions[frontendPermission] : false;
+  };
+
+  const refreshUserProfile = async () => {
+    await syncWithBackend();
+  };
+
+  const signInWithGoogle = async () => {
+    await loginWithRedirect();
+  };
+
+  const signInWithEmail = async (_email: string, _password: string) => {
+    // Auth0 handles this through loginWithRedirect
+    await loginWithRedirect();
+  };
+
+  const signUpWithEmail = async (_email: string, _password: string, _name: string) => {
+    // Auth0 handles this through loginWithRedirect
+    await loginWithRedirect();
+  };
+
+  const logout = async () => {
+    setUserProfile(null);
+    await auth0Logout({ logoutParams: { returnTo: window.location.origin } });
+  };
+
+  // Admin functions (these would need backend integration)
+  const getAllUsers = async (): Promise<UserProfile[]> => {
+    try {
+      const backendUsers = await authApi.getAllUsers();
+      // Convert backend users to frontend format
+      // This is simplified - you'd need to get permissions for each user
+      return backendUsers.map(user => ({
+        uid: user.auth0_user_id,
+        email: user.email,
+        displayName: user.display_name || user.email,
+        isAdmin: user.is_admin,
+        permissions: {
+          fiscalNoteGeneration: false, // Would need to fetch actual permissions
+          similarBillSearch: false,
+          hrsSearch: false,
+          adminPanel: user.is_admin,
+          userManagement: user.is_admin,
+          auditLogView: user.is_admin,
+        },
+        createdAt: new Date(user.created_at),
+        lastLoginAt: new Date(user.updated_at),
+      }));
+    } catch (error) {
+      console.error('Failed to get all users:', error);
+      return [];
+    }
+  };
+
+  const updateUserPermissions = async (_userId: string, _permissions: UserProfile['permissions']): Promise<void> => {
+    // This would need to be implemented with backend API calls
+    console.log('Update user permissions not yet implemented for backend');
+  };
+
+  const createManualUser = async (_userData: { email: string; displayName: string; isAdmin: boolean }): Promise<UserProfile> => {
+    // This would need backend implementation
+    throw new Error('Manual user creation not implemented for backend');
+  };
+
+  const value: AuthContextType = {
+    currentUser: user || null,
+    userProfile,
+    loading: isLoading || contextLoading,
+    signInWithGoogle,
+    signInWithEmail,
+    signUpWithEmail,
+    logout,
+    refreshUserProfile,
+    getAllUsers,
+    updateUserPermissions,
+    createManualUser,
+    hasPermission,
+    syncWithBackend,
+  };
+
+  return (
+    <AuthContext.Provider value={value}>
+      {children}
+    </AuthContext.Provider>
+  );
+};

@@ -90,6 +90,9 @@ services:
       - REDIS_URL=redis://redis:6379
       - WORKERS=${WORKERS:-1}  # Default to 1 worker for development, can be overridden
       - LOG_LEVEL=${LOG_LEVEL:-debug}  # Default to debug log level for development
+      # Auth0 Configuration for JWT validation
+      - AUTH0_DOMAIN=${AUTH0_DOMAIN:-dev-example.us.auth0.com}
+      - AUTH0_AUDIENCE=${AUTH0_AUDIENCE:-https://api.financial-rag.com}
     restart: unless-stopped
     depends_on:
       - redis

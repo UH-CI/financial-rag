@@ -28,8 +28,8 @@ RUN pip install --upgrade pip setuptools wheel && \
 
 # Copy application code
 COPY . .
-# create storage_documents dir
-RUN mkdir -p documents/storage_documents
+# create required directories
+RUN mkdir -p documents/storage_documents chroma_db/data
 
 # Set environment variables
 ENV PYTHONPATH=/src
@@ -45,19 +45,19 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
 
 # Create startup script for flexible uvicorn configuration
 RUN echo '#!/bin/bash\n\
-uvicorn api:app \\\n\
+echo "🚀 Starting API server..."\n\
+echo "📍 Working directory: $(pwd)"\n\
+echo "📍 Python path: $PYTHONPATH"\n\
+echo "🔍 Testing API import..."\n\
+python -c "import main; print(\"✅ Main imported, app found:\", hasattr(main, \"app\"))" || echo "❌ Main import failed"\n\
+echo "🌐 Starting uvicorn..."\n\
+python -m uvicorn main:app \\\n\
     --host 0.0.0.0 \\\n\
     --port 8200 \\\n\
-    --workers ${WORKERS:-4} \\\n\
-    --log-level ${LOG_LEVEL:-info} \\\n\
+    --workers 1 \\\n\
+    --log-level debug \\\n\
     --access-log \\\n\
-    --loop uvloop \\\n\
-    --http httptools \\\n\
-    --ws websockets \\\n\
-    --lifespan on \\\n\
-    --timeout-keep-alive 30 \\\n\
-    --timeout-graceful-shutdown 30 \\\n\
-    --backlog 2048' > /start.sh && chmod +x /start.sh
+    --reload' > /start.sh && chmod +x /start.sh
 
 # Production uvicorn command with optimized settings
 CMD ["/start.sh"] 

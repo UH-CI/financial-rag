@@ -13,7 +13,7 @@ __pycache__/
 README.md
 *.md
 .env
-fiscal_notes/generation/*/
+# fiscal_notes/generation/*/ - commented out to allow Python files
 documents/storage_documents/
 documents/extracted_text/
 documents/chunked_text/
