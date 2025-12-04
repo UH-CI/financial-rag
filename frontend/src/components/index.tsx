@@ -32,6 +32,3 @@ export { default as NumberHistoryTimeline } from './features/numbers/NumberHisto
 
 // Feature Components - Settings
 export { default as PropertyPromptsSettings } from './features/settings/PropertyPromptsSettings';
-
-// Debug Components
-export { default as MobileScrollDebug } from './debug/MobileScrollDebug';
