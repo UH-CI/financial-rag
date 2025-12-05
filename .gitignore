@@ -12,8 +12,18 @@ __pycache__/
 node_modules/
 package-lock.json
 
-# Temporarily removed ChromaDB ignores to commit database
+# Large data files that shouldn't be in Git
+src/bill_data/*.json
+src/chroma_db/data_backup_*/
+src/chroma_db/**/*.bin
+src/chroma_db/**/*.sqlite3
+src/documents/**/*.json
+src/__pycache__/
 
+# Text extraction output files
+text_extraction_methods/**/*.json
+text_extraction_methods/**/*.bin
+text_extraction_methods/**/*.sqlite3
 
 # Database files
 *.sqlite3
