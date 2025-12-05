@@ -21,26 +21,6 @@ RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key
     && apt-get install -y google-chrome-stable \
     && rm -rf /var/lib/apt/lists/* 
 
-# Set environment variables to force CPU-only packages
-ENV TORCH_CUDA_ARCH_LIST=""
-ENV FORCE_CUDA="0"
-ENV CUDA_VISIBLE_DEVICES=""
-
 # Copy requirements and install Python dependencies
 COPY requirements.txt .
-
-# Install PyTorch CPU-only first to avoid CUDA dependencies
-RUN pip install --no-cache-dir --timeout=1800 --retries=5 \
-    torch==2.1.0+cpu torchvision==0.16.0+cpu \
-    --index-url https://download.pytorch.org/whl/cpu
-
-# Install remaining dependencies (without chromadb and sentence-transformers)
-RUN pip install --no-cache-dir --timeout=1800 --retries=5 -r requirements.txt
-
-# Install packages that might pull CUDA AFTER PyTorch CPU is locked in
-RUN pip install --no-cache-dir --timeout=1800 --retries=5 chromadb camelot-py
-
-# Install sentence-transformers dependencies manually, then sentence-transformers with --no-deps
-RUN pip install --no-cache-dir --timeout=1800 --retries=5 \
-    transformers tqdm requests filelock huggingface-hub tokenizers safetensors
-RUN pip install --no-cache-dir --timeout=1800 --retries=5 --no-deps sentence-transformers
+RUN pip install --no-cache-dir --timeout=600 --retries=5 -r requirements.txt

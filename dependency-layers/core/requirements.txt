@@ -1,4 +1,5 @@
-# Core RAG Dependencies (chromadb installed via Dockerfile to avoid CUDA)
+# Core RAG Dependencies
+chromadb
 openai
 langchain
 langchain-openai
@@ -7,21 +8,22 @@ langchain-google-genai
 langgraph
 google-generativeai==0.3.2
 
-# Document Processing (camelot-py installed via Dockerfile to avoid CUDA)
+# Document Processing
 PyPDF2
 pdfplumber
+camelot-py
 pandas
 PyMuPDF
 pillow
 pytesseract
 
 # Additional dependencies for camelot
-opencv-python-headless
+opencv-python
 
 # Embeddings and ML
+sentence-transformers
 numpy
 scikit-learn
-# Note: PyTorch and sentence-transformers installed via Dockerfile to avoid CUDA
 
 # Web Access
 requests
@@ -51,14 +53,6 @@ webdriver-manager
 beautifulsoup4
 undetected-chromedriver
 
-# Authentication
-PyJWT==2.8.0
-cryptography==41.0.7
-
-# Database
-sqlalchemy==2.0.23
-
-# Google APIs
 google-api-python-client
 google_auth
 google-auth-oauthlib

@@ -1,4 +1,5 @@
-# Core RAG Dependencies (chromadb installed via Dockerfile to avoid CUDA)
+# Core RAG Dependencies
+chromadb
 openai==1.109.1
 langchain==0.2.17
 langchain-openai==0.1.25
@@ -14,7 +15,7 @@ langchain-google-genai
 # Document Processing
 PyPDF2
 pdfplumber
-# camelot-py installed via Dockerfile to avoid CUDA
+camelot-py
 pandas
 PyMuPDF
 pillow
@@ -23,7 +24,8 @@ pytesseract
 # Additional dependencies for camelot
 opencv-python
 
-# Embeddings and ML (sentence-transformers installed via Dockerfile to avoid CUDA)
+# Embeddings and ML
+sentence-transformers
 numpy
 scikit-learn
 
