@@ -23,8 +23,7 @@ opencv-python-headless
 # Embeddings and ML
 numpy
 scikit-learn
-# Note: PyTorch CPU-only versions installed via Dockerfile
-sentence-transformers
+# Note: PyTorch and sentence-transformers installed via Dockerfile to avoid CUDA
 
 # Web Access
 requests
