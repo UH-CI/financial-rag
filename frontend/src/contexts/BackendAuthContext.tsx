@@ -170,17 +170,34 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const signInWithGoogle = async () => {
-    await loginWithRedirect();
+    await loginWithRedirect({
+      authorizationParams: {
+        connection: 'google-oauth2'
+      }
+    });
   };
 
   const signInWithEmail = async (_email: string, _password: string) => {
-    // Auth0 handles this through loginWithRedirect
-    await loginWithRedirect();
+    // Auth0 handles this through loginWithRedirect with database connection
+    // Note: This will show Auth0's login page for email/password authentication
+    await loginWithRedirect({
+      authorizationParams: {
+        connection: 'Username-Password-Authentication',
+        login_hint: _email // Pre-fill the email field
+      }
+    });
   };
 
   const signUpWithEmail = async (_email: string, _password: string, _name: string) => {
-    // Auth0 handles this through loginWithRedirect
-    await loginWithRedirect();
+    // Auth0 handles this through loginWithRedirect with database connection
+    // Note: This will show Auth0's signup page
+    await loginWithRedirect({
+      authorizationParams: {
+        connection: 'Username-Password-Authentication',
+        screen_hint: 'signup',
+        login_hint: _email // Pre-fill the email field
+      }
+    });
   };
 
   const logout = async () => {

@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException, Query, Form, File, UploadFile, Request, BackgroundTasks, WebSocket, WebSocketDisconnect
 import asyncio
+from contextlib import asynccontextmanager
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
 from typing import List, Dict, Any, Optional, Union
@@ -53,6 +54,8 @@ from bill_data.bill_similarity_search import BillSimilaritySearcher
 from api.users import router as users_router
 from api.admin import router as admin_router
 from api.protected_tools import router as tools_router
+from database.connection import db_manager
+from database.init_db import init_permissions, init_admin_user
 
 # ============================================================================
 # FEATURE FLAGS - Fiscal Note Generation Pipeline
@@ -77,11 +80,46 @@ def load_config() -> Dict[str, Any]:
 
 config = load_config()
 
-# Initialize FastAPI app with config
+# Database initialization lifespan handler
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Handle application lifespan events (startup and shutdown)"""
+    # Startup
+    try:
+        print("🔄 Checking database initialization...")
+        
+        # Create database tables if they don't exist
+        db_manager.create_tables()
+        print("✅ Database tables verified/created")
+        
+        # Initialize default permissions
+        init_permissions()
+        print("✅ Default permissions verified/created")
+        
+        # Initialize admin user
+        init_admin_user()
+        print("✅ Admin user verified/created")
+        
+        print("🎉 Database initialization completed successfully!")
+        
+    except Exception as e:
+        print(f"❌ Database initialization failed: {e}")
+        # Don't raise the exception to prevent app startup failure
+        # The app can still run, but user management features may not work
+        print("⚠️  Continuing startup without user management features...")
+    
+    # Yield control to the application
+    yield
+    
+    # Shutdown (cleanup code can go here if needed)
+    print("🔄 Application shutting down...")
+
+# Initialize FastAPI app with config and lifespan handler
 app = FastAPI(
     title=config["api"]["title"],
     description=config["api"]["description"],
     version=config["api"]["version"],
+    lifespan=lifespan,
     # Temporarily disable automatic OpenAPI schema generation to work around FastAPI bug
     openapi_url=None,
     docs_url=None,

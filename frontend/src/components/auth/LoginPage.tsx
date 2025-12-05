@@ -47,15 +47,9 @@ const LoginPage: React.FC = () => {
       <div className="max-w-md w-full">
         {/* Logo/Header */}
         <div className="text-center mb-8">
-          <div className="mx-auto w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-4">
-            <LogIn className="w-8 h-8 text-white" />
-          </div>
           <h1 className="text-3xl font-bold text-gray-900 mb-2">
-            Financial RAG System
+            Hawaii Bill Analysis System
           </h1>
-          <p className="text-gray-600">
-            State of Hawaii Budget Analysis Platform
-          </p>
         </div>
 
         {/* Login Card */}
@@ -65,7 +59,7 @@ const LoginPage: React.FC = () => {
               Welcome Back
             </h2>
             <p className="text-gray-600">
-              Sign in to access the budget analysis tools
+              Sign in to access the bill analysis tools
             </p>
           </div>
 
@@ -144,7 +138,7 @@ const LoginPage: React.FC = () => {
           </form>
 
           {/* Toggle Sign Up/Sign In */}
-          <div className="text-center">
+          <div className="text-center pt-4">
             <button
               type="button"
               onClick={() => setIsSignUp(!isSignUp)}
@@ -155,7 +149,7 @@ const LoginPage: React.FC = () => {
           </div>
 
           {/* Divider */}
-          <div className="relative">
+          <div className="relative py-5">
             <div className="absolute inset-0 flex items-center">
               <div className="w-full border-t border-gray-300" />
             </div>
@@ -201,14 +195,17 @@ const LoginPage: React.FC = () => {
             <p className="text-xs text-gray-500">
               By signing in, you agree to access the State of Hawaii
               <br />
-              budget analysis and fiscal note generation system.
+              bill analysis system.
             </p>
           </div>
         </div>
 
         {/* Footer */}
         <div className="text-center mt-8 text-sm text-gray-500">
-          <p>University of Hawaii • State Budget Analysis</p>
+          <p>© 2025 Research Cyberinfrastructure, University of Hawai‘i System.
+            <br/> All rights reserved.
+          
+This work is the property of the Research Cyberinfrastructure program within the University of Hawai‘i System. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the University of Hawai‘i System, except in the case of brief quotations permitted by copyright law.</p>
         </div>
       </div>
     </div>
