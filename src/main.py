@@ -120,7 +120,7 @@ app = FastAPI(
     description=config["api"]["description"],
     version=config["api"]["version"],
     lifespan=lifespan,
-    # Temporarily disable automatic OpenAPI schema generation to work around FastAPI bug
+    # Temporarily disable automatic OpenAPI sachema generation to work around FastAPI bug
     openapi_url=None,
     docs_url=None,
     redoc_url=None
