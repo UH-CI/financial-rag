@@ -73,6 +73,58 @@ const convertBackendProfile = (backendProfile: UserProfileWithPermissions): User
 };
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  // 🚀 DEVELOPMENT MODE - Hardcoded fake user data
+  const isDevelopment = true;
+  
+  if (isDevelopment) {
+    const mockUser: User = {
+      sub: 'dev-user-123',
+      email: 'dev@hawaii.edu',
+      name: 'Development User',
+      picture: 'https://via.placeholder.com/150'
+    };
+
+    const mockUserProfile: UserProfile = {
+      uid: 'dev-user-123',
+      email: 'dev@hawaii.edu',
+      displayName: 'Development User',
+      photoURL: 'https://via.placeholder.com/150',
+      isAdmin: true,
+      permissions: {
+        fiscalNoteGeneration: true,
+        similarBillSearch: true,
+        hrsSearch: true,
+        adminPanel: true,
+        userManagement: true,
+        auditLogView: true,
+      },
+      createdAt: new Date(),
+      lastLoginAt: new Date(),
+    };
+
+    const mockAuthContext: AuthContextType = {
+      currentUser: mockUser,
+      userProfile: mockUserProfile,
+      loading: false,
+      signInWithGoogle: async () => console.log('🚀 Mock Google sign in'),
+      signInWithEmail: async () => console.log('🚀 Mock email sign in'),
+      signUpWithEmail: async () => console.log('🚀 Mock email sign up'),
+      logout: async () => console.log('🚀 Mock logout'),
+      refreshUserProfile: async () => console.log('🚀 Mock refresh profile'),
+      getAllUsers: async () => [mockUserProfile],
+      updateUserPermissions: async () => console.log('🚀 Mock update permissions'),
+      createManualUser: async () => mockUserProfile,
+      hasPermission: () => true,
+      syncWithBackend: async () => console.log('🚀 Mock sync with backend'),
+    };
+
+    return (
+      <AuthContext.Provider value={mockAuthContext}>
+        {children}
+      </AuthContext.Provider>
+    );
+  }
+
   const { 
     user, 
     isAuthenticated, 
