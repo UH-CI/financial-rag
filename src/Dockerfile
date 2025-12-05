@@ -21,10 +21,30 @@ RUN apt-get update && apt-get install -y \
 # Set working directory
 WORKDIR /src
 
+# Set environment variables to force CPU-only packages
+ENV TORCH_CUDA_ARCH_LIST=""
+ENV FORCE_CUDA="0"
+ENV CUDA_VISIBLE_DEVICES=""
+
 # Copy requirements and install Python dependencies with optimizations
 COPY requirements.txt .
-RUN pip install --upgrade pip setuptools wheel && \
-    pip install --no-cache-dir --timeout=600 --retries=3 --prefer-binary -r requirements.txt
+
+# Install PyTorch CPU-only first to avoid CUDA dependencies
+RUN pip install --upgrade pip setuptools wheel
+RUN pip install --no-cache-dir --timeout=1800 --retries=5 \
+    torch==2.1.0+cpu torchvision==0.16.0+cpu \
+    --index-url https://download.pytorch.org/whl/cpu
+
+# Install remaining dependencies (without chromadb, sentence-transformers, camelot-py)
+RUN pip install --no-cache-dir --timeout=1800 --retries=5 --prefer-binary -r requirements.txt
+
+# Install packages that might pull CUDA AFTER PyTorch CPU is locked in
+RUN pip install --no-cache-dir --timeout=1800 --retries=5 chromadb camelot-py
+
+# Install sentence-transformers dependencies manually, then sentence-transformers with --no-deps
+RUN pip install --no-cache-dir --timeout=1800 --retries=5 \
+    transformers tqdm requests filelock huggingface-hub tokenizers safetensors
+RUN pip install --no-cache-dir --timeout=1800 --retries=5 --no-deps sentence-transformers
 
 # Copy application code
 COPY . .
