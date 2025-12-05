@@ -18,12 +18,13 @@ pillow
 pytesseract
 
 # Additional dependencies for camelot
-opencv-python
+opencv-python-headless
 
 # Embeddings and ML
-sentence-transformers
 numpy
 scikit-learn
+# Note: PyTorch CPU-only versions installed via Dockerfile
+sentence-transformers
 
 # Web Access
 requests
@@ -53,6 +54,14 @@ webdriver-manager
 beautifulsoup4
 undetected-chromedriver
 
+# Authentication
+PyJWT==2.8.0
+cryptography==41.0.7
+
+# Database
+sqlalchemy==2.0.23
+
+# Google APIs
 google-api-python-client
 google_auth
 google-auth-oauthlib
