@@ -34,8 +34,13 @@ RUN pip install --no-cache-dir --timeout=1800 --retries=5 \
     torch==2.1.0+cpu torchvision==0.16.0+cpu \
     --index-url https://download.pytorch.org/whl/cpu
 
-# Install remaining dependencies (without sentence-transformers)
+# Install remaining dependencies (without chromadb and sentence-transformers)
 RUN pip install --no-cache-dir --timeout=1800 --retries=5 -r requirements.txt
 
-# Install sentence-transformers AFTER PyTorch CPU is locked in
-RUN pip install --no-cache-dir --timeout=1800 --retries=5 sentence-transformers
+# Install packages that might pull CUDA AFTER PyTorch CPU is locked in
+RUN pip install --no-cache-dir --timeout=1800 --retries=5 chromadb camelot-py
+
+# Install sentence-transformers dependencies manually, then sentence-transformers with --no-deps
+RUN pip install --no-cache-dir --timeout=1800 --retries=5 \
+    transformers tqdm requests filelock huggingface-hub tokenizers safetensors
+RUN pip install --no-cache-dir --timeout=1800 --retries=5 --no-deps sentence-transformers

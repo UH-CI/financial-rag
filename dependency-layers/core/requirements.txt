@@ -1,5 +1,4 @@
-# Core RAG Dependencies
-chromadb
+# Core RAG Dependencies (chromadb installed via Dockerfile to avoid CUDA)
 openai
 langchain
 langchain-openai
@@ -8,10 +7,9 @@ langchain-google-genai
 langgraph
 google-generativeai==0.3.2
 
-# Document Processing
+# Document Processing (camelot-py installed via Dockerfile to avoid CUDA)
 PyPDF2
 pdfplumber
-camelot-py
 pandas
 PyMuPDF
 pillow
