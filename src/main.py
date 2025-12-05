@@ -7,11 +7,11 @@ from typing import List, Dict, Any, Optional, Union
 import os
 from pathlib import Path
 import json
+from datetime import datetime
 import google.generativeai as genai
 from document_type_classifier import classify_document_type, get_document_type_description, get_document_type_icon
 from tqdm import tqdm
 import logging
-from datetime import datetime
 from documents.step0_document_upload.web_scraper import ai_crawler
 from typing import Generator
 from fastapi.templating import Jinja2Templates
