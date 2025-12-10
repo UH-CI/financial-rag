@@ -8,6 +8,7 @@ interface AddUserModalProps {
     email: string;
     displayName: string;
     isAdmin: boolean;
+    isSuperAdmin: boolean;
   }) => void;
 }
 
@@ -15,6 +16,7 @@ const AddUserModal: React.FC<AddUserModalProps> = ({ isOpen, onClose, onAddUser 
   const [email, setEmail] = useState('');
   const [displayName, setDisplayName] = useState('');
   const [isAdmin, setIsAdmin] = useState(false);
+  const [isSuperAdmin, setIsSuperAdmin] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -32,12 +34,14 @@ const AddUserModal: React.FC<AddUserModalProps> = ({ isOpen, onClose, onAddUser 
         email: email.trim(),
         displayName: displayName.trim(),
         isAdmin,
+        isSuperAdmin,
       });
       
       // Reset form
       setEmail('');
       setDisplayName('');
       setIsAdmin(false);
+      setIsSuperAdmin(false);
       onClose();
     } catch (error) {
       console.error('Error adding user:', error);
@@ -52,6 +56,7 @@ const AddUserModal: React.FC<AddUserModalProps> = ({ isOpen, onClose, onAddUser 
       setEmail('');
       setDisplayName('');
       setIsAdmin(false);
+      setIsSuperAdmin(false);
       onClose();
     }
   };
@@ -129,6 +134,21 @@ const AddUserModal: React.FC<AddUserModalProps> = ({ isOpen, onClose, onAddUser 
               <label htmlFor="isAdmin" className="flex items-center space-x-2 text-sm text-gray-700">
                 <Shield className="w-4 h-4 text-blue-600" />
                 <span>Administrator privileges</span>
+              </label>
+            </div>
+            
+            <div className="flex items-center space-x-3">
+              <input
+                id="isSuperAdmin"
+                type="checkbox"
+                checked={isSuperAdmin}
+                onChange={(e) => setIsSuperAdmin(e.target.checked)}
+                disabled={isSubmitting}
+                className="w-4 h-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"
+              />
+              <label htmlFor="isSuperAdmin" className="flex items-center space-x-2 text-sm text-gray-700">
+                <Shield className="w-4 h-4 text-purple-600" />
+                <span>Super Administrator privileges (can manage other admins)</span>
               </label>
             </div>
           </div>

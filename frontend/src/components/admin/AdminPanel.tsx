@@ -26,21 +26,48 @@ const AdminPanel: React.FC = () => {
   const [editingUser, setEditingUser] = useState<EditingUser | null>(null);
   const [showAddUserModal, setShowAddUserModal] = useState(false);
 
+  // Helper function to check if current admin can manage a specific user
+  const canManageUser = (targetUser: UserProfile): boolean => {
+    if (!userProfile) return false;
+    
+    // Super admins can manage everyone
+    if (userProfile.isSuperAdmin) return true;
+    
+    // Regular admins can manage regular users but not other admins
+    if (userProfile.isAdmin) {
+      return !targetUser.isAdmin && !targetUser.isSuperAdmin;
+    }
+    
+    return false;
+  };
+
+  // Helper function to check if current admin can grant a specific permission
+  const canGrantPermission = (permissionKey: keyof UserProfile['permissions']): boolean => {
+    if (!userProfile) return false;
+    
+    // Super admins can grant all permissions
+    if (userProfile.isSuperAdmin) return true;
+    
+    // Regular admins can only grant permissions they have
+    if (userProfile.isAdmin) {
+      return userProfile.permissions[permissionKey];
+    }
+    
+    return false;
+  };
+
+  // Get user role display text
+  const getUserRole = (user: UserProfile): string => {
+    if (user.isSuperAdmin) return 'Super Admin';
+    if (user.isAdmin) return 'Admin';
+    return 'User';
+  };
+
   useEffect(() => {
     loadUsers();
   }, []);
 
-  // Also refresh when the component becomes visible (e.g., navigating to admin panel)
-  useEffect(() => {
-    const handleVisibilityChange = () => {
-      if (!document.hidden) {
-        loadUsers();
-      }
-    };
-
-    document.addEventListener('visibilitychange', handleVisibilityChange);
-    return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
-  }, []);
+  // Removed visibility change listener to prevent unnecessary API calls
 
   // Convert backend user format to frontend format
   const convertBackendUser = (backendUser: any): UserProfile => {
@@ -52,6 +79,7 @@ const AdminPanel: React.FC = () => {
       email: backendUser.email,
       displayName: backendUser.display_name,
       isAdmin: backendUser.is_admin,
+      isSuperAdmin: backendUser.is_super_admin || false,
       permissions: {
         fiscalNoteGeneration: permissions.includes('fiscal-note-generation'),
         similarBillSearch: permissions.includes('similar-bill-search'),
@@ -135,19 +163,39 @@ const AdminPanel: React.FC = () => {
   };
 
   const handleDeleteUser = async (uid: string) => {
-    if (!confirm('Are you sure you want to delete this user? This action cannot be undone.')) {
+    const user = users.find(u => u.uid === uid);
+    if (!user) return;
+
+    if (!confirm(`Are you sure you want to delete ${user.email}? This will remove them from both the local database and Auth0. This action cannot be undone.`)) {
       return;
     }
 
     try {
-      // In a real implementation, you'd delete via your backend API
-      setUsers(users.filter(user => user.uid !== uid));
-    } catch (error) {
-      console.error('Error deleting user:', error);
+      console.log(`🗑️ Deleting user: ${user.email} (ID: ${uid})`);
+      
+      // Call the backend API to delete the user
+      const result = await authApi.deleteUser(parseInt(uid));
+      console.log('✅ User deletion result:', result);
+      
+      // Show success message with details
+      const message = result.auth0_deletion_success 
+        ? `User ${user.email} deleted successfully from both databases.`
+        : `User ${user.email} deleted from local database. Auth0 deletion ${result.auth0_error ? 'failed: ' + result.auth0_error : 'may have failed'}.`;
+      
+      alert(message);
+      
+      // Remove from frontend state
+      setUsers(users.filter(u => u.uid !== uid));
+      
+    } catch (error: any) {
+      console.error('❌ Error deleting user:', error);
+      
+      const errorMessage = error.response?.data?.detail || error.message || 'Unknown error occurred';
+      alert(`Failed to delete user: ${errorMessage}`);
     }
   };
 
-  const handleAddUser = async (userData: { email: string; displayName: string; isAdmin: boolean }) => {
+  const handleAddUser = async (userData: { email: string; displayName: string; isAdmin: boolean; isSuperAdmin: boolean }) => {
     try {
       console.log('🔄 Creating user in backend...', userData);
       
@@ -155,7 +203,8 @@ const AdminPanel: React.FC = () => {
       const backendUser = await authApi.createUser({
         email: userData.email,
         display_name: userData.displayName,
-        is_admin: userData.isAdmin
+        is_admin: userData.isAdmin,
+        is_super_admin: userData.isSuperAdmin
       });
       
       console.log('✅ User created in backend:', backendUser);
@@ -166,6 +215,7 @@ const AdminPanel: React.FC = () => {
         email: backendUser.email,
         displayName: backendUser.display_name,
         isAdmin: backendUser.is_admin,
+        isSuperAdmin: backendUser.is_super_admin || false,
         permissions: {
           fiscalNoteGeneration: false,
           similarBillSearch: false,
@@ -284,7 +334,11 @@ const AdminPanel: React.FC = () => {
               <div className="ml-4">
                 <p className="text-sm font-medium text-gray-600">Admin Users</p>
                 <p className="text-2xl font-bold text-gray-900">
-                  {users.filter(user => user.isAdmin).length}
+                  {users.filter(user => user.isAdmin || user.isSuperAdmin).length}
+                </p>
+                <p className="text-xs text-gray-500">
+                  {users.filter(user => user.isSuperAdmin).length} Super Admin{users.filter(user => user.isSuperAdmin).length !== 1 ? 's' : ''}, {' '}
+                  {users.filter(user => user.isAdmin && !user.isSuperAdmin).length} Regular Admin{users.filter(user => user.isAdmin && !user.isSuperAdmin).length !== 1 ? 's' : ''}
                 </p>
               </div>
             </div>
@@ -365,11 +419,13 @@ const AdminPanel: React.FC = () => {
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         <span className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${
-                          user.isAdmin 
+                          user.isSuperAdmin 
+                            ? 'bg-purple-100 text-purple-800'
+                            : user.isAdmin 
                             ? 'bg-red-100 text-red-800' 
                             : 'bg-green-100 text-green-800'
                         }`}>
-                          {user.isAdmin ? 'Admin' : 'User'}
+                          {getUserRole(user)}
                         </span>
                       </td>
                       <td className="px-6 py-4">
@@ -380,27 +436,45 @@ const AdminPanel: React.FC = () => {
                                 type="checkbox"
                                 checked={editingUser.permissions.fiscalNoteGeneration}
                                 onChange={(e) => updateEditingPermission('fiscalNoteGeneration', e.target.checked)}
-                                className="rounded border-gray-300"
+                                disabled={!canGrantPermission('fiscalNoteGeneration')}
+                                className="rounded border-gray-300 disabled:opacity-50"
                               />
-                              <span className="text-sm">Fiscal Note Generation</span>
+                              <span className={`text-sm ${!canGrantPermission('fiscalNoteGeneration') ? 'text-gray-400' : ''}`}>
+                                Fiscal Note Generation
+                                {!canGrantPermission('fiscalNoteGeneration') && (
+                                  <span className="text-xs text-gray-400 ml-1">(requires permission)</span>
+                                )}
+                              </span>
                             </label>
                             <label className="flex items-center space-x-2">
                               <input
                                 type="checkbox"
                                 checked={editingUser.permissions.similarBillSearch}
                                 onChange={(e) => updateEditingPermission('similarBillSearch', e.target.checked)}
-                                className="rounded border-gray-300"
+                                disabled={!canGrantPermission('similarBillSearch')}
+                                className="rounded border-gray-300 disabled:opacity-50"
                               />
-                              <span className="text-sm">Similar Bill Search</span>
+                              <span className={`text-sm ${!canGrantPermission('similarBillSearch') ? 'text-gray-400' : ''}`}>
+                                Similar Bill Search
+                                {!canGrantPermission('similarBillSearch') && (
+                                  <span className="text-xs text-gray-400 ml-1">(requires permission)</span>
+                                )}
+                              </span>
                             </label>
                             <label className="flex items-center space-x-2">
                               <input
                                 type="checkbox"
                                 checked={editingUser.permissions.hrsSearch}
                                 onChange={(e) => updateEditingPermission('hrsSearch', e.target.checked)}
-                                className="rounded border-gray-300"
+                                disabled={!canGrantPermission('hrsSearch')}
+                                className="rounded border-gray-300 disabled:opacity-50"
                               />
-                              <span className="text-sm">HRS Search</span>
+                              <span className={`text-sm ${!canGrantPermission('hrsSearch') ? 'text-gray-400' : ''}`}>
+                                HRS Search
+                                {!canGrantPermission('hrsSearch') && (
+                                  <span className="text-xs text-gray-400 ml-1">(requires permission)</span>
+                                )}
+                              </span>
                             </label>
                           </div>
                         ) : (
@@ -444,16 +518,20 @@ const AdminPanel: React.FC = () => {
                           </div>
                         ) : (
                           <div className="flex space-x-2">
-                            <button
-                              onClick={() => handleEditPermissions(user)}
-                              className="text-blue-600 hover:text-blue-900"
-                            >
-                              <Edit className="w-4 h-4" />
-                            </button>
-                            {!user.isAdmin && (
+                            {canManageUser(user) && (
+                              <button
+                                onClick={() => handleEditPermissions(user)}
+                                className="text-blue-600 hover:text-blue-900"
+                                title={`Edit ${getUserRole(user).toLowerCase()} permissions`}
+                              >
+                                <Edit className="w-4 h-4" />
+                              </button>
+                            )}
+                            {canManageUser(user) && (
                               <button
                                 onClick={() => handleDeleteUser(user.uid)}
                                 className="text-red-600 hover:text-red-900"
+                                title={`Delete ${getUserRole(user).toLowerCase()}`}
                               >
                                 <Trash2 className="w-4 h-4" />
                               </button>

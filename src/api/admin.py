@@ -6,15 +6,52 @@ from pydantic import BaseModel, field_serializer
 from datetime import datetime
 import logging
 import json
+import uuid
 
 from database.connection import get_db
 from database.models import User, Permission, UserPermission, AuditLog
-from auth.middleware import require_admin, get_current_user
+from auth.middleware import require_admin, require_super_admin, get_current_user
 from auth.permissions import permission_checker
+from .auth_helpers import auth0_mgmt
 
 logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/api/admin", tags=["admin"])
+
+def can_admin_manage_permission(admin_user: User, permission_name: str, db: Session) -> bool:
+    """
+    Check if an admin can manage a specific permission based on hierarchical rules:
+    - Super admins can manage all permissions
+    - Regular admins can only manage permissions they themselves have
+    """
+    # Super admins can manage everything
+    if admin_user.is_super_admin:
+        return True
+    
+    # Regular admins can only manage permissions they have
+    if admin_user.is_admin:
+        admin_permissions = permission_checker.get_user_permissions(admin_user.id, db)
+        return permission_name in admin_permissions
+    
+    # Non-admins can't manage any permissions
+    return False
+
+def can_admin_manage_user(admin_user: User, target_user: User) -> bool:
+    """
+    Check if an admin can manage a specific user based on hierarchical rules:
+    - Super admins can manage everyone (including other admins)
+    - Regular admins can manage regular users but not other admins
+    """
+    # Super admins can manage everyone
+    if admin_user.is_super_admin:
+        return True
+    
+    # Regular admins cannot manage other admins or super admins
+    if admin_user.is_admin:
+        return not (target_user.is_admin or target_user.is_super_admin)
+    
+    # Non-admins can't manage anyone
+    return False
 
 # Pydantic models for API responses
 class UserSummary(BaseModel):
@@ -24,6 +61,7 @@ class UserSummary(BaseModel):
     display_name: str
     is_active: bool
     is_admin: bool
+    is_super_admin: bool
     created_at: str
     updated_at: str
     permission_count: int
@@ -41,6 +79,7 @@ class CreateUserRequest(BaseModel):
     email: str
     display_name: str
     is_admin: bool = False
+    is_super_admin: bool = False
 
 class UpdateUserPermissionsRequest(BaseModel):
     permission_names: List[str]
@@ -52,6 +91,7 @@ class UserSummaryWithPermissions(BaseModel):
     display_name: str
     is_active: bool
     is_admin: bool
+    is_super_admin: bool
     created_at: str
     updated_at: str
     permissions: List[str]  # List of permission names
@@ -136,6 +176,7 @@ async def list_users(
                 display_name=user.display_name,
                 is_active=user.is_active,
                 is_admin=user.is_admin,
+                is_super_admin=user.is_super_admin or False,
                 created_at=user.created_at.isoformat(),
                 updated_at=user.updated_at.isoformat(),
                 permissions=permission_names
@@ -162,12 +203,26 @@ async def create_user(
             raise HTTPException(status_code=400, detail="User with this email already exists")
         
         # Create new user (without auth0_user_id since they haven't logged in yet)
+        # Check if admin can create this type of user
+        if user_data.is_super_admin and not admin_user.is_super_admin:
+            raise HTTPException(
+                status_code=403, 
+                detail="Only super admins can create other super admins"
+            )
+        
+        if user_data.is_admin and not admin_user.is_super_admin:
+            raise HTTPException(
+                status_code=403, 
+                detail="Only super admins can create admin users"
+            )
+
         new_user = User(
-            auth0_user_id="",  # Will be set when they first log in
+            auth0_user_id=f"temp_{uuid.uuid4().hex[:16]}",  # Unique temporary ID until they first log in
             email=user_data.email,
             display_name=user_data.display_name,
             is_active=True,
-            is_admin=user_data.is_admin
+            is_admin=user_data.is_admin,
+            is_super_admin=user_data.is_super_admin
         )
         
         db.add(new_user)
@@ -197,6 +252,7 @@ async def create_user(
             display_name=new_user.display_name,
             is_active=new_user.is_active,
             is_admin=new_user.is_admin,
+            is_super_admin=new_user.is_super_admin or False,
             created_at=new_user.created_at.isoformat(),
             updated_at=new_user.updated_at.isoformat(),
             permission_count=0  # New user has no permissions yet
@@ -300,6 +356,7 @@ async def get_user_detail(
             display_name=user.display_name or "",
             is_active=user.is_active,
             is_admin=user.is_admin,
+            is_super_admin=user.is_super_admin or False,
             created_at=user.created_at.isoformat(),
             updated_at=user.updated_at.isoformat(),
             permission_count=len(permissions)
@@ -352,6 +409,7 @@ async def update_user(
             display_name=user.display_name or "",
             is_active=user.is_active,
             is_admin=user.is_admin,
+            is_super_admin=user.is_super_admin or False,
             created_at=user.created_at.isoformat(),
             updated_at=user.updated_at.isoformat(),
             permission_count=permission_count
@@ -382,6 +440,20 @@ async def grant_permission(
         permission = db.query(Permission).filter(Permission.id == permission_id).first()
         if not permission:
             raise HTTPException(status_code=404, detail="Permission not found")
+        
+        # Check if admin can manage this permission
+        if not can_admin_manage_permission(admin_user, permission.name, db):
+            raise HTTPException(
+                status_code=403, 
+                detail=f"Insufficient privileges to grant '{permission.name}' permission. You can only grant permissions you have."
+            )
+        
+        # Check if admin can manage this user
+        if not can_admin_manage_user(admin_user, user):
+            raise HTTPException(
+                status_code=403, 
+                detail="Insufficient privileges to manage this user. Only super admins can manage other admins."
+            )
         
         # Grant permission
         granted = permission_checker.grant_permission(
@@ -429,6 +501,20 @@ async def revoke_permission(
         permission = db.query(Permission).filter(Permission.id == permission_id).first()
         if not permission:
             raise HTTPException(status_code=404, detail="Permission not found")
+        
+        # Check if admin can manage this permission
+        if not can_admin_manage_permission(admin_user, permission.name, db):
+            raise HTTPException(
+                status_code=403, 
+                detail=f"Insufficient privileges to revoke '{permission.name}' permission. You can only manage permissions you have."
+            )
+        
+        # Check if admin can manage this user
+        if not can_admin_manage_user(admin_user, user):
+            raise HTTPException(
+                status_code=403, 
+                detail="Insufficient privileges to manage this user. Only super admins can manage other admins."
+            )
         
         # Revoke permission
         revoked = permission_checker.revoke_permission(
@@ -529,4 +615,97 @@ async def get_audit_log(
         
     except Exception as e:
         logger.error(f"Error getting audit log: {e}")
+        raise HTTPException(status_code=500, detail="Internal server error")
+
+@router.delete("/users/{user_id}")
+async def delete_user(
+    user_id: int,
+    admin_user: User = Depends(require_admin()),
+    db: Session = Depends(get_db)
+):
+    """Delete a user from both local database and Auth0 (admin only)"""
+    try:
+        # Get the user to delete
+        user_to_delete = db.query(User).filter(User.id == user_id).first()
+        if not user_to_delete:
+            raise HTTPException(status_code=404, detail="User not found")
+        
+        # Don't allow deleting yourself
+        if user_to_delete.id == admin_user.id:
+            raise HTTPException(status_code=400, detail="Cannot delete your own account")
+        
+        # Check if admin can manage this user
+        if not can_admin_manage_user(admin_user, user_to_delete):
+            raise HTTPException(
+                status_code=403, 
+                detail="Insufficient privileges to delete this user. Only super admins can delete other admins."
+            )
+        
+        user_email = user_to_delete.email
+        auth0_user_id = user_to_delete.auth0_user_id
+        
+        # Try to delete from Auth0 first (if user has auth0_user_id)
+        auth0_deletion_success = False
+        auth0_error = None
+        
+        if auth0_user_id and auth0_user_id != "":
+            try:
+                await auth0_mgmt.delete_user_from_auth0(user_email)
+                auth0_deletion_success = True
+                logger.info(f"Successfully deleted user from Auth0: {user_email}")
+            except Exception as e:
+                auth0_error = str(e)
+                logger.warning(f"Failed to delete user from Auth0: {user_email} - {e}")
+                # Continue with local deletion even if Auth0 deletion fails
+        
+        # Delete user permissions first (foreign key constraint)
+        db.query(UserPermission).filter(UserPermission.user_id == user_id).delete()
+        
+        # Delete audit logs for this user
+        db.query(AuditLog).filter(AuditLog.user_id == user_id).delete()
+        
+        # Delete the user from local database
+        db.delete(user_to_delete)
+        
+        # Log the deletion
+        deletion_details = {
+            "deleted_user_email": user_email,
+            "deleted_user_id": user_id,
+            "auth0_user_id": auth0_user_id,
+            "auth0_deletion_success": auth0_deletion_success
+        }
+        
+        if auth0_error:
+            deletion_details["auth0_error"] = auth0_error
+        
+        audit_log = AuditLog(
+            user_id=admin_user.id,
+            action="user_deleted",
+            resource="user_management",
+            details=json.dumps(deletion_details)
+        )
+        db.add(audit_log)
+        
+        db.commit()
+        
+        # Prepare response message
+        message = f"User {user_email} deleted successfully from local database"
+        if auth0_deletion_success:
+            message += " and Auth0"
+        elif auth0_error:
+            message += f" (Auth0 deletion failed: {auth0_error})"
+        
+        return {
+            "message": message,
+            "user_email": user_email,
+            "local_deletion_success": True,
+            "auth0_deletion_success": auth0_deletion_success,
+            "auth0_error": auth0_error
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error deleting user: {e}")
+        db.rollback()
         raise HTTPException(status_code=500, detail="Internal server error")

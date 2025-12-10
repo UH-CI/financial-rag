@@ -7,14 +7,16 @@ interface ProtectedRouteProps {
   children: React.ReactNode;
   requiredPermission?: keyof NonNullable<ReturnType<typeof useAuth>['userProfile']>['permissions'];
   adminOnly?: boolean;
+  skipEmailVerification?: boolean; // Allow access even if email is not verified
 }
 
 const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ 
   children, 
   requiredPermission,
-  adminOnly = false 
+  adminOnly = false,
+  skipEmailVerification = false
 }) => {
-  const { currentUser, userProfile, loading } = useAuth();
+  const { currentUser, userProfile, loading, emailVerificationRequired } = useAuth();
 
   // Show loading spinner while authentication state is being determined
   if (loading) {
@@ -29,12 +31,22 @@ const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
   }
 
   // Redirect to login if not authenticated
-  if (!currentUser || !userProfile) {
+  if (!currentUser) {
     return <Navigate to="/login" replace />;
   }
 
-  // Check admin permission
-  if (adminOnly && !userProfile.isAdmin) {
+  // Handle email verification requirement (unless we're skipping it for this route)
+  if (!skipEmailVerification && emailVerificationRequired) {
+    return <Navigate to="/verify-email" replace />;
+  }
+
+  // If we don't have a user profile and we're not skipping email verification, redirect to login
+  if (!skipEmailVerification && !userProfile) {
+    return <Navigate to="/login" replace />;
+  }
+
+  // Check admin permission (only if we have a user profile)
+  if (adminOnly && userProfile && !userProfile.isAdmin) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center max-w-md">
@@ -54,8 +66,8 @@ const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
     );
   }
 
-  // Check specific permission
-  if (requiredPermission && !userProfile.permissions[requiredPermission]) {
+  // Check specific permission (only if we have a user profile)
+  if (requiredPermission && userProfile && !userProfile.permissions[requiredPermission]) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center max-w-md">

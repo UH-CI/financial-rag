@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Auth0Provider, useAuth0 } from '@auth0/auth0-react';
-import { AuthProvider } from './contexts/BackendAuthContext';
+import { AuthProvider, useAuth } from './contexts/BackendAuthContext';
 import { auth0Config } from './config/auth0';
 import LoginPage from './components/auth/LoginPage';
 import Dashboard from './components/dashboard/Dashboard';
@@ -9,10 +9,12 @@ import AdminPanel from './components/admin/AdminPanel';
 import FiscalNoteGenerationPage from './components/pages/FiscalNoteGenerationPage';
 import SimilarBillSearchPage from './components/pages/SimilarBillSearchPage';
 import HRSSearchPage from './components/pages/HRSSearchPage';
+import EmailVerificationPage from './components/auth/EmailVerificationPage';
 
 // Component to handle the root route and Auth0 callback
 const RootHandler = () => {
   const { isLoading, isAuthenticated, error } = useAuth0();
+  const { emailVerificationRequired } = useAuth();
   
   // If there's an Auth0 error, redirect to login
   if (error) {
@@ -31,6 +33,11 @@ const RootHandler = () => {
         </div>
       </div>
     );
+  }
+  
+  // Check for email verification requirement
+  if (isAuthenticated && emailVerificationRequired) {
+    return <Navigate to="/verify-email" replace />;
   }
   
   // After Auth0 processing is complete, redirect based on auth state
@@ -53,8 +60,18 @@ function App() {
       <AuthProvider>
         <Router>
           <Routes>
-            {/* Public route */}
+            {/* Public routes */}
             <Route path="/login" element={<LoginPage />} />
+            
+            {/* Email verification route - requires authentication but not email verification */}
+            <Route 
+              path="/verify-email" 
+              element={
+                <ProtectedRoute skipEmailVerification>
+                  <EmailVerificationPage />
+                </ProtectedRoute>
+              } 
+            />
             
             {/* Protected routes */}
             <Route 

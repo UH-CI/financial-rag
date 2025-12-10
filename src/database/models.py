@@ -14,6 +14,8 @@ class User(Base):
     display_name = Column(String(255))
     is_active = Column(Boolean, default=True, nullable=False)
     is_admin = Column(Boolean, default=False, nullable=False)
+    is_super_admin = Column(Boolean, default=False, nullable=False)  # Super admin can manage other admins
+    email_verified = Column(Boolean, default=False, nullable=False)  # Track email verification status
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
     

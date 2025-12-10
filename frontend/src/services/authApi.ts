@@ -23,20 +23,8 @@ export const createAuthenticatedApi = (getAccessTokenSilently: () => Promise<str
   authApi.interceptors.request.use(
     async (config) => {
       try {
-        // Try to get access token with email scope
-        let token;
-        try {
-          token = await (getAccessTokenSilently as any)({
-            authorizationParams: {
-              audience: import.meta.env.VITE_AUTH0_AUDIENCE || 'https://api.financial-rag.com',
-              scope: 'openid profile email',
-            },
-          });
-        } catch (error) {
-          console.warn('Failed to get token with email scope, trying without:', error);
-          // Fallback: get token without specific scope
-          token = await getAccessTokenSilently();
-        }
+        // Get access token (Auth0 config already includes email scope)
+        const token = await getAccessTokenSilently();
         config.headers.Authorization = `Bearer ${token}`;
         console.log('🔐 Added auth token to request:', config.url);
       } catch (error) {
@@ -61,6 +49,7 @@ export interface UserProfile {
   display_name: string;
   is_active: boolean;
   is_admin: boolean;
+  is_super_admin?: boolean;
   created_at: string;
   updated_at: string;
 }
@@ -122,7 +111,7 @@ export const createUserApi = (getAccessTokenSilently: () => Promise<string>) => 
       return response.data;
     },
 
-    async createUser(userData: { email: string; display_name: string; is_admin: boolean }): Promise<UserProfile> {
+    async createUser(userData: { email: string; display_name: string; is_admin: boolean; is_super_admin?: boolean }): Promise<UserProfile> {
       const response = await authApi.post('/api/admin/users', userData);
       return response.data;
     },
@@ -141,6 +130,11 @@ export const createUserApi = (getAccessTokenSilently: () => Promise<string>) => 
 
     async updateUser(userId: number, data: { display_name?: string; is_active?: boolean }): Promise<UserProfile> {
       const response = await authApi.put(`/api/admin/users/${userId}`, data);
+      return response.data;
+    },
+
+    async deleteUser(userId: number): Promise<{ message: string; user_email: string; local_deletion_success: boolean; auth0_deletion_success: boolean; auth0_error?: string }> {
+      const response = await authApi.delete(`/api/admin/users/${userId}`);
       return response.data;
     },
 
@@ -184,6 +178,17 @@ export const createUserApi = (getAccessTokenSilently: () => Promise<string>) => 
 
     async toolsHealthCheck(): Promise<{ status: string; user: string; permissions: string }> {
       const response = await authApi.get('/api/tools/health');
+      return response.data;
+    },
+
+    // Email verification methods
+    async resendVerificationEmail(email: string): Promise<{ message: string; success: boolean }> {
+      const response = await authApi.post('/api/auth/resend-verification', { email });
+      return response.data;
+    },
+
+    async checkVerificationStatus(): Promise<{ email_verified: boolean }> {
+      const response = await authApi.get('/api/auth/check-verification-status');
       return response.data;
     }
   };

@@ -22,6 +22,7 @@ class UserProfile(BaseModel):
     display_name: str
     is_active: bool
     is_admin: bool
+    is_super_admin: bool
     created_at: str
     updated_at: str
     
@@ -86,6 +87,7 @@ async def get_user_profile(
             display_name=current_user.display_name,
             is_active=current_user.is_active,
             is_admin=current_user.is_admin,
+            is_super_admin=current_user.is_super_admin or False,
             created_at=current_user.created_at.isoformat(),
             updated_at=current_user.updated_at.isoformat()
         )
@@ -112,7 +114,17 @@ async def update_user_profile(
         db.refresh(current_user)
         
         logger.info(f"User {current_user.email} updated profile")
-        return UserProfile.from_orm(current_user)
+        return UserProfile(
+            id=current_user.id,
+            auth0_user_id=current_user.auth0_user_id,
+            email=current_user.email,
+            display_name=current_user.display_name,
+            is_active=current_user.is_active,
+            is_admin=current_user.is_admin,
+            is_super_admin=current_user.is_super_admin or False,
+            created_at=current_user.created_at.isoformat(),
+            updated_at=current_user.updated_at.isoformat()
+        )
         
     except Exception as e:
         logger.error(f"Error updating user profile: {e}")

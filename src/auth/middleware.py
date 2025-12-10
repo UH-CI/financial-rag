@@ -55,6 +55,13 @@ class AuthMiddleware:
                     detail="User account is deactivated"
                 )
             
+            # Enforce email verification
+            if not user.email_verified:
+                raise HTTPException(
+                    status_code=403,
+                    detail="Email verification required. Please check your email and verify your account."
+                )
+            
             return user
             
         except HTTPException:
@@ -118,7 +125,11 @@ def require_permission(permission_name: str):
     ) -> User:
         """Check if current user has required permission"""
         
-        # Admin users have all permissions
+        # Super admin users have all permissions
+        if current_user.is_super_admin:
+            return current_user
+        
+        # Regular admin users have all permissions
         if current_user.is_admin:
             return current_user
         
@@ -161,7 +172,7 @@ def require_admin():
     ) -> User:
         """Check if current user is admin"""
         
-        if not current_user.is_admin:
+        if not (current_user.is_admin or current_user.is_super_admin):
             raise HTTPException(
                 status_code=403,
                 detail="Admin privileges required"
@@ -170,6 +181,28 @@ def require_admin():
         return current_user
     
     return admin_dependency
+
+def require_super_admin():
+    """
+    Decorator for requiring super admin privileges
+    
+    Returns:
+        FastAPI dependency function
+    """
+    def super_admin_dependency(
+        current_user: User = Depends(AuthMiddleware.get_current_user)
+    ) -> User:
+        """Check if current user is super admin"""
+        
+        if not current_user.is_super_admin:
+            raise HTTPException(
+                status_code=403,
+                detail="Super administrator privileges required"
+            )
+        
+        return current_user
+    
+    return super_admin_dependency
 
 # Convenience dependencies
 get_current_user = AuthMiddleware.get_current_user

@@ -8,6 +8,7 @@ export interface UserProfile {
   displayName: string;
   photoURL?: string;
   isAdmin: boolean;
+  isSuperAdmin: boolean;
   permissions: {
     fiscalNoteGeneration: boolean;
     similarBillSearch: boolean;
@@ -24,6 +25,7 @@ interface AuthContextType {
   currentUser: User | null;
   userProfile: UserProfile | null;
   loading: boolean;
+  emailVerificationRequired: boolean;
   signInWithGoogle: () => Promise<void>;
   signInWithEmail: (email: string, password: string) => Promise<void>;
   signUpWithEmail: (email: string, password: string, name: string) => Promise<void>;
@@ -35,6 +37,7 @@ interface AuthContextType {
   // New backend methods
   hasPermission: (permission: string) => boolean;
   syncWithBackend: () => Promise<void>;
+  checkEmailVerification: () => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -66,6 +69,7 @@ const convertBackendProfile = (backendProfile: UserProfileWithPermissions): User
     email: backendProfile.user.email,
     displayName: backendProfile.user.display_name || backendProfile.user.email,
     isAdmin: backendProfile.user.is_admin,
+    isSuperAdmin: backendProfile.user.is_super_admin || false,
     permissions: mapBackendPermissions(permissionNames),
     createdAt: new Date(backendProfile.user.created_at),
     lastLoginAt: new Date(backendProfile.user.updated_at),
@@ -74,7 +78,7 @@ const convertBackendProfile = (backendProfile: UserProfileWithPermissions): User
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   // 🚀 DEVELOPMENT MODE - Hardcoded fake user data
-  const isDevelopment = true;
+  const isDevelopment = false;
   
   if (isDevelopment) {
     const mockUser: User = {
@@ -90,6 +94,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       displayName: 'Development User',
       photoURL: 'https://via.placeholder.com/150',
       isAdmin: true,
+      isSuperAdmin: true,
       permissions: {
         fiscalNoteGeneration: true,
         similarBillSearch: true,
@@ -106,6 +111,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       currentUser: mockUser,
       userProfile: mockUserProfile,
       loading: false,
+      emailVerificationRequired: false,
       signInWithGoogle: async () => console.log('🚀 Mock Google sign in'),
       signInWithEmail: async () => console.log('🚀 Mock email sign in'),
       signUpWithEmail: async () => console.log('🚀 Mock email sign up'),
@@ -116,6 +122,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       createManualUser: async () => mockUserProfile,
       hasPermission: () => true,
       syncWithBackend: async () => console.log('🚀 Mock sync with backend'),
+      checkEmailVerification: async () => console.log('🚀 Mock check email verification'),
     };
 
     return (
@@ -130,40 +137,51 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     isAuthenticated, 
     isLoading, 
     loginWithRedirect,
-    logout: auth0Logout
+    logout: auth0Logout,
+    getAccessTokenSilently
   } = useAuth0();
   
   const [userProfile, setUserProfile] = useState<UserProfile | null>(null);
   const [contextLoading, setContextLoading] = useState(true);
+  const [emailVerificationRequired, setEmailVerificationRequired] = useState(false);
+  const [syncInProgress, setSyncInProgress] = useState(false);
   const authApi = useAuthenticatedApi();
 
   // Sync user profile from backend
   const syncWithBackend = async () => {
-    if (!isAuthenticated || !user) return;
+    if (!isAuthenticated || !user || syncInProgress) return;
 
+    setSyncInProgress(true);
     try {
       console.log('🔄 Syncing user profile from backend...');
       
-      // First sync user with backend
-      await authApi.syncUser();
-      
-      // Then get full profile with permissions
+      // Get full profile with permissions (this also syncs the user)
       const backendProfile = await authApi.getUserProfile();
       const frontendProfile = convertBackendProfile(backendProfile);
       
       setUserProfile(frontendProfile);
       console.log('✅ User profile synced successfully:', frontendProfile.email);
       
-    } catch (error) {
+    } catch (error: any) {
       console.error('❌ Failed to sync user profile:', error);
       
-      // Fallback to basic profile if backend sync fails
+      // Check if this is an email verification error
+      if (error?.response?.status === 403 && 
+          error?.response?.data?.detail?.includes('Email verification required')) {
+        console.log('📧 Email verification required');
+        setEmailVerificationRequired(true);
+        setUserProfile(null);
+        return; // Don't throw error, just set the state
+      }
+      
+      // Fallback to basic profile if backend sync fails for other reasons
       const fallbackProfile: UserProfile = {
         uid: user.sub || '',
         email: user.email || '',
         displayName: user.name || user.email || '',
         photoURL: user.picture,
         isAdmin: user.email === 'tabalbar@hawaii.edu',
+        isSuperAdmin: user.email === 'tabalbar@hawaii.edu',
         permissions: {
           fiscalNoteGeneration: user.email === 'tabalbar@hawaii.edu',
           similarBillSearch: user.email === 'tabalbar@hawaii.edu',
@@ -177,6 +195,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       };
       
       setUserProfile(fallbackProfile);
+    } finally {
+      setSyncInProgress(false);
     }
   };
 
@@ -202,7 +222,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   // Check if user has specific permission
   const hasPermission = (permission: string): boolean => {
     if (!userProfile) return false;
-    if (userProfile.isAdmin) return true; // Admins have all permissions
+    if (userProfile.isSuperAdmin) return true; // Super admins have all permissions
+    if (userProfile.isAdmin) return true; // Regular admins have all permissions
     
     const permissionMap: { [key: string]: keyof UserProfile['permissions'] } = {
       'fiscal-note-generation': 'fiscalNoteGeneration',
@@ -268,6 +289,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         email: user.email,
         displayName: user.display_name || user.email,
         isAdmin: user.is_admin,
+        isSuperAdmin: user.is_super_admin || false,
         permissions: {
           fiscalNoteGeneration: false, // Would need to fetch actual permissions
           similarBillSearch: false,
@@ -295,10 +317,50 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     throw new Error('Manual user creation not implemented for backend');
   };
 
+  const checkEmailVerification = async () => {
+    if (syncInProgress) return;
+    
+    try {
+      console.log('🔄 Checking email verification status...');
+      
+      // Call the backend verification check endpoint
+      const verificationStatus = await authApi.checkVerificationStatus();
+      
+      if (verificationStatus.email_verified) {
+        console.log('✅ Email verification confirmed by backend');
+        setEmailVerificationRequired(false);
+        // Refresh the user profile to get updated verification status
+        await syncWithBackend();
+      } else {
+        console.log('📧 Email still not verified according to backend');
+        setEmailVerificationRequired(true);
+      }
+      
+    } catch (error: any) {
+      console.error('❌ Email verification check failed:', error);
+      
+      // If the backend call fails, try syncing with backend as fallback
+      try {
+        await syncWithBackend();
+        // If sync succeeds, verification was successful
+        console.log('✅ Email verification check passed via sync');
+        setEmailVerificationRequired(false);
+      } catch (syncError: any) {
+        if (syncError?.response?.status === 403) {
+          console.log('📧 Email still not verified (403 from backend)');
+          setEmailVerificationRequired(true);
+        } else {
+          console.error('Unexpected error during verification check:', syncError);
+        }
+      }
+    }
+  };
+
   const value: AuthContextType = {
     currentUser: user || null,
     userProfile,
     loading: isLoading || contextLoading,
+    emailVerificationRequired,
     signInWithGoogle,
     signInWithEmail,
     signUpWithEmail,
@@ -309,6 +371,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     createManualUser,
     hasPermission,
     syncWithBackend,
+    checkEmailVerification,
   };
 
   return (

@@ -25,8 +25,18 @@ class PermissionChecker:
         auth0_user_id = auth0_user_info.get("auth0_user_id")
         email = auth0_user_info.get("email")
         
-        if not auth0_user_id or not email:
-            raise ValueError("Missing required user information from Auth0")
+        if not auth0_user_id:
+            raise ValueError("Missing auth0_user_id from Auth0")
+        
+        if not email:
+            # Try to find existing user by auth0_user_id when email is temporarily unavailable (e.g., rate limiting)
+            logger.warning(f"Email missing from Auth0 info for user {auth0_user_id}, attempting to find existing user")
+            existing_user = session.query(User).filter_by(auth0_user_id=auth0_user_id).first()
+            if existing_user:
+                logger.info(f"Found existing user by auth0_user_id: {existing_user.email}")
+                return existing_user
+            else:
+                raise ValueError("Missing required user email from Auth0 and no existing user found")
         
         # Check if user exists by auth0_user_id first
         user = session.query(User).filter_by(auth0_user_id=auth0_user_id).first()
@@ -39,12 +49,25 @@ class PermissionChecker:
                 user.auth0_user_id = auth0_user_id
                 logger.info(f"Updated existing user with new auth0_user_id: {email}")
         
+        # Determine email verification status
+        # Google OAuth users are automatically verified
+        is_google_oauth = auth0_user_id.startswith("google-oauth2|")
+        
+        if is_google_oauth:
+            # Google OAuth users are always verified (Google already verified them)
+            email_verified = True
+        else:
+            # For Email/Password users, strictly check Auth0's email_verified flag
+            # Default to False if not explicitly set to True
+            email_verified = auth0_user_info.get("email_verified") is True
+        
         if user:
             # Update existing user
             user.email = email
+            user.email_verified = email_verified
             user.display_name = auth0_user_info.get("display_name") or user.display_name
             user.updated_at = user.updated_at  # This will trigger the onupdate
-            logger.info(f"Updated existing user: {email}")
+            logger.info(f"Updated existing user: {email} (email_verified: {email_verified})")
         else:
             # Create new user
             user = User(
@@ -52,8 +75,11 @@ class PermissionChecker:
                 email=email,
                 display_name=auth0_user_info.get("display_name"),
                 is_active=True,
-                is_admin=(email == "tabalbar@hawaii.edu")  # Auto-admin for specific email
+                is_admin=(email == "tabalbar@hawaii.edu"),  # Auto-admin for specific email
+                is_super_admin=(email == "tabalbar@hawaii.edu"),  # Auto-super-admin for specific email
+                email_verified=email_verified
             )
+            logger.info(f"Creating new user: {email} (email_verified: {email_verified})")
             session.add(user)
             logger.info(f"Created new user: {email}")
             session.flush()  # Get the user ID

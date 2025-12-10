@@ -102,6 +102,8 @@ class Auth0TokenValidator:
                         user_info["display_name"] = userinfo.get("name") or userinfo.get("nickname") or user_info["display_name"]
                         user_info["picture"] = userinfo.get("picture") or user_info["picture"]
                         logger.info(f"Successfully fetched email from userinfo: {user_info.get('email')}")
+                    elif response.status_code == 429:
+                        logger.warning("Auth0 userinfo endpoint rate limited (429). Continuing with token data.")
                     else:
                         logger.warning(f"Failed to fetch userinfo: {response.status_code}")
                 except Exception as e:

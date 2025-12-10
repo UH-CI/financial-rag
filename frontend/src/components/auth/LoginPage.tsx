@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { LogIn, AlertCircle, Loader2 } from 'lucide-react';
 import { useAuth } from '../../contexts/BackendAuthContext';
+import { clearAuth0Storage } from '../../utils/auth0Helper';
 
 const LoginPage: React.FC = () => {
   const { signInWithGoogle, signInWithEmail, signUpWithEmail } = useAuth();
@@ -10,6 +11,11 @@ const LoginPage: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
+
+  // Clear any lingering Auth0 storage when login page loads
+  useEffect(() => {
+    clearAuth0Storage();
+  }, []);
 
   const handleGoogleSignIn = async () => {
     setIsLoading(true);
