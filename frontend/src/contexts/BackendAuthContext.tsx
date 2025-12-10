@@ -137,8 +137,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     isAuthenticated, 
     isLoading, 
     loginWithRedirect,
-    logout: auth0Logout,
-    getAccessTokenSilently
+    logout: auth0Logout
   } = useAuth0();
   
   const [userProfile, setUserProfile] = useState<UserProfile | null>(null);
