@@ -6,7 +6,7 @@ Production Migration Script for Super Admin Feature
 This script safely adds the is_super_admin column to production database
 and sets up proper super admin permissions.
 
-IMPORTANT: Run this AFTER deploying the new code but BEFORE the application starts.
+IMPORTANT: Run this AFTER deploying the new code but BEFORE the application starts..
 """
 
 import os
