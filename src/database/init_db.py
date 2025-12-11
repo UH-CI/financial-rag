@@ -61,47 +61,52 @@ def init_permissions():
                 print(f"Permission already exists: {perm_data['name']}")
 
 def init_admin_user():
-    """Initialize the default admin user"""
-    admin_email = "tabalbar@hawaii.edu"
+    """Initialize the default admin users"""
+    admin_emails = [
+        "tabalbar@hawaii.edu",
+        "v.chang@capitol.hawaii.gov"
+    ]
     
     with db_manager.get_session() as session:
-        # Check if admin user already exists
-        existing_admin = session.query(User).filter_by(email=admin_email).first()
-        if not existing_admin:
-            # Create admin user (will be synced with Auth0 on first login)
-            admin_user = User(
-                auth0_user_id="placeholder_auth0_id",  # Will be updated on first Auth0 sync
-                email=admin_email,
-                display_name="Admin User",
-                is_active=True,
-                is_admin=True
-            )
-            session.add(admin_user)
-            session.flush()  # Get the user ID
-            
-            # Grant all permissions to admin
-            permissions = session.query(Permission).all()
-            for permission in permissions:
-                user_permission = UserPermission(
-                    user_id=admin_user.id,
-                    permission_id=permission.id,
-                    granted_by=admin_user.id  # Self-granted
+        for admin_email in admin_emails:
+            # Check if admin user already exists
+            existing_admin = session.query(User).filter_by(email=admin_email).first()
+            if not existing_admin:
+                # Create admin user (will be synced with Auth0 on first login)
+                admin_user = User(
+                    auth0_user_id=f"placeholder_{admin_email.replace('@', '_').replace('.', '_')}",  # Will be updated on first Auth0 sync
+                    email=admin_email,
+                    display_name="Super Admin User",
+                    is_active=True,
+                    is_admin=True,
+                    is_super_admin=True  # Make the default admin a super admin
                 )
-                session.add(user_permission)
-            
-            # Log the admin creation
-            audit_log = AuditLog(
-                user_id=admin_user.id,
-                action="admin_user_created",
-                resource="user_management",
-                details=f"Admin user created for {admin_email}",
-                ip_address="127.0.0.1"
-            )
-            session.add(audit_log)
-            
-            print(f"Created admin user: {admin_email}")
-        else:
-            print(f"Admin user already exists: {admin_email}")
+                session.add(admin_user)
+                session.flush()  # Get the user ID
+                
+                # Grant all permissions to admin
+                permissions = session.query(Permission).all()
+                for permission in permissions:
+                    user_permission = UserPermission(
+                        user_id=admin_user.id,
+                        permission_id=permission.id,
+                        granted_by=admin_user.id  # Self-granted
+                    )
+                    session.add(user_permission)
+                
+                # Log the admin creation
+                audit_log = AuditLog(
+                    user_id=admin_user.id,
+                    action="admin_user_created",
+                    resource="user_management",
+                    details=f"Super admin user created for {admin_email}",
+                    ip_address="127.0.0.1"
+                )
+                session.add(audit_log)
+                
+                print(f"Created super admin user: {admin_email}")
+            else:
+                print(f"Admin user already exists: {admin_email}")
 
 def main():
     """Main initialization function"""

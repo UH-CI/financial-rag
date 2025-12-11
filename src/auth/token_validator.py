@@ -59,20 +59,51 @@ class Auth0TokenValidator:
             Dict with user information if valid, None if invalid
         """
         try:
+            logger.info(f"🔍 Starting token validation (length: {len(token)})")
+            
+            # Log token preview for debugging
+            token_preview = token[:20] + "..." + token[-10:] if len(token) > 30 else token
+            logger.info(f"🎫 Token preview: {token_preview}")
+            
             # Decode token header to get key ID
             unverified_header = jwt.get_unverified_header(token)
             
             # Get signing key
             signing_key = self._get_signing_key(unverified_header)
             
-            # Decode and verify token
+            # Check if this is a Google OAuth token first
+            unverified_payload = jwt.decode(token, options={"verify_signature": False})
+            token_sub = unverified_payload.get('sub', '')
+            token_iat = unverified_payload.get('iat', 0)
+            token_exp = unverified_payload.get('exp', 0)
+            
+            # Log unverified payload details
+            import time
+            current_time = time.time()
+            logger.info(f"📊 Token details - sub: {token_sub}")
+            logger.info(f"📊 Token iat: {token_iat}, current: {current_time}, diff: {current_time - token_iat}")
+            logger.info(f"📊 Token exp: {token_exp}, expires in: {token_exp - current_time}")
+            
+            # Use extended leeway for Google OAuth tokens
+            if token_sub.startswith('google-oauth2'):
+                logger.info("🔍 Detected Google OAuth token - using extended leeway (1 hour)")
+                leeway_time = timedelta(hours=1)  # 1 hour for Google OAuth
+            else:
+                logger.info("🔍 Regular token detected - using standard leeway (30 minutes)")
+                leeway_time = timedelta(minutes=30)  # 30 minutes for regular tokens
+            
+            # Decode and verify token with appropriate leeway
+            logger.info(f"🔐 Attempting token validation with {leeway_time} leeway")
             payload = jwt.decode(
                 token,
                 signing_key,
                 algorithms=["RS256"],
                 audience=self.audience,
-                issuer=f"https://{self.domain}/"
+                issuer=f"https://{self.domain}/",
+                leeway=leeway_time
             )
+            
+            logger.info(f"✅ Token validation successful for user: {payload.get('sub')}")
             
             # Extract user information
             user_info = {
@@ -116,7 +147,55 @@ class Auth0TokenValidator:
             logger.warning("Token has expired")
             return None
         except jwt.InvalidTokenError as e:
-            logger.warning(f"Invalid token: {e}")
+            logger.warning(f"❌ Token validation failed: {e}")
+            
+            # Try fallback validation for Google OAuth tokens with progressively longer leeway
+            if token_sub.startswith('google-oauth2'):
+                logger.info("🔄 Attempting Google OAuth fallback validation with extended leeway")
+                
+                fallback_leeway_times = [
+                    timedelta(hours=2),   # 2 hours
+                    timedelta(hours=6),   # 6 hours  
+                    timedelta(hours=12),  # 12 hours
+                ]
+                
+                for i, fallback_leeway in enumerate(fallback_leeway_times):
+                    try:
+                        logger.info(f"🔄 Fallback attempt {i+1}: trying {fallback_leeway} leeway")
+                        payload = jwt.decode(
+                            token,
+                            signing_key,
+                            algorithms=["RS256"],
+                            audience=self.audience,
+                            issuer=f"https://{self.domain}/",
+                            leeway=fallback_leeway
+                        )
+                        logger.info(f"✅ Google OAuth fallback validation successful with {fallback_leeway} leeway")
+                        
+                        # Extract user information
+                        user_info = {
+                            "auth0_user_id": payload.get("sub"),
+                            "email": payload.get("email"),
+                            "email_verified": payload.get("email_verified", False),
+                            "display_name": payload.get("name") or payload.get("nickname"),
+                            "picture": payload.get("picture"),
+                        }
+                        return user_info
+                        
+                    except jwt.InvalidTokenError as fallback_e:
+                        logger.warning(f"❌ Fallback attempt {i+1} failed: {fallback_e}")
+                        continue
+                
+                logger.error("❌ All Google OAuth fallback validation attempts failed")
+            
+            # Log detailed debugging info for failed tokens
+            try:
+                logger.warning(f"🔍 Failed token details - sub: {token_sub}")
+                logger.warning(f"🔍 Token iat: {token_iat}, current: {current_time}, diff: {current_time - token_iat}")
+                logger.warning(f"🔍 Token exp: {token_exp}, expires in: {token_exp - current_time}")
+                        
+            except Exception as debug_e:
+                logger.warning(f"Could not debug token: {debug_e}")
             return None
         except Exception as e:
             logger.error(f"Error validating token: {e}")

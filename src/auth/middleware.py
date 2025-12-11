@@ -19,6 +19,7 @@ class AuthMiddleware:
     
     @staticmethod
     def get_current_user(
+        request: Request,
         credentials: HTTPAuthorizationCredentials = Depends(security),
         db: Session = Depends(get_db)
     ) -> User:
@@ -26,6 +27,7 @@ class AuthMiddleware:
         FastAPI dependency to get current authenticated user
         
         Args:
+            request: FastAPI request object
             credentials: HTTP Bearer credentials
             db: Database session
             
@@ -36,6 +38,19 @@ class AuthMiddleware:
             HTTPException: If authentication fails
         """
         try:
+            # Enhanced request logging
+            logger.info(f"🌐 Auth request: {request.method} {request.url.path}")
+            logger.info(f"📋 Request headers: {dict(request.headers)}")
+            
+            # Log token info for debugging
+            if credentials and credentials.credentials:
+                token_length = len(credentials.credentials)
+                token_preview = credentials.credentials[:20] + "..." + credentials.credentials[-10:] if token_length > 30 else credentials.credentials
+                logger.info(f"🔍 Received token (length: {token_length}): {token_preview}")
+            else:
+                logger.warning("❌ No credentials provided")
+                raise HTTPException(status_code=401, detail="No authorization token provided")
+            
             # Validate token
             validator = get_token_validator()
             user_info = validator.validate_token(credentials.credentials)
