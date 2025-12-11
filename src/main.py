@@ -1469,6 +1469,33 @@ async def get_fiscal_note_files():
                     dirs.append({"name": file, "status": "error"})
     return dirs
 
+# Middleware to handle /api/ prefix stripping for non-auth routes only
+@app.middleware("http")
+async def selective_api_prefix_middleware(request: Request, call_next):
+    """Strip /api/ prefix only for routes that don't have /api/ in backend"""
+    if request.url.path.startswith("/api/"):
+        # Routes that should KEEP the /api/ prefix (auth/admin routes)
+        keep_api_routes = [
+            "/api/admin/", "/api/tools/", "/api/auth/", 
+            "/api/users/", "/api/property-prompts", "/api/fiscal-note"
+        ]
+        
+        # Check if this route should keep the /api/ prefix
+        should_keep_prefix = any(request.url.path.startswith(route) for route in keep_api_routes)
+        
+        if not should_keep_prefix:
+            # Strip /api/ prefix for regular routes like /api/get_fiscal_note_files
+            stripped_path = request.url.path[4:]  # Remove "/api"
+            if not stripped_path.startswith("/"):
+                stripped_path = "/" + stripped_path
+            
+            # Update the request path
+            request.scope["path"] = stripped_path
+            request.scope["raw_path"] = stripped_path.encode()
+    
+    response = await call_next(request)
+    return response
+
 def process_fiscal_note_references(fiscal_note_data, document_mapping):
     """
     Process fiscal note data to replace filename references with numbered references and clickable links.
@@ -2572,7 +2599,7 @@ async def create_fiscal_note_job(bill_type: Bill_type_options, bill_number: str,
         }))
         print("Entering fetch_documents")
         
-        saved_path = fetch_documents(measure_url)
+        saved_path = await asyncio.to_thread(fetch_documents, measure_url)
 
         print("Exiting fetch_documents")
 
@@ -2583,8 +2610,8 @@ async def create_fiscal_note_job(bill_type: Bill_type_options, bill_number: str,
             "message": "Reordering documents chronologically..."
         }))
         
-        chronological_path = reorder_documents(saved_path)
-        documents_path = retrieve_documents(chronological_path)
+        chronological_path = await asyncio.to_thread(reorder_documents, saved_path)
+        documents_path = await asyncio.to_thread(retrieve_documents, chronological_path)
         
         await manager.broadcast(json.dumps({
             "type": "job_progress",
@@ -2595,7 +2622,7 @@ async def create_fiscal_note_job(bill_type: Bill_type_options, bill_number: str,
         
         base_dir = os.path.dirname(documents_path)
         numbers_file_path = os.path.join(base_dir, f"{bill_type.value}_{bill_number}_{year}_numbers.json")
-        extract_number_context(documents_path, numbers_file_path)
+        await asyncio.to_thread(extract_number_context, documents_path, numbers_file_path)
         
         await manager.broadcast(json.dumps({
             "type": "job_progress",
@@ -2604,7 +2631,7 @@ async def create_fiscal_note_job(bill_type: Bill_type_options, bill_number: str,
             "message": "Generating fiscal note content..."
         }))
         
-        fiscal_notes_path = generate_fiscal_notes(documents_path, numbers_file_path)
+        fiscal_notes_path = await asyncio.to_thread(generate_fiscal_notes, documents_path, numbers_file_path)
         
         # Step 6: Enhance numbers with RAG agent (optional, non-blocking)
         if ENABLE_STEP6_ENHANCE_NUMBERS:
@@ -2616,7 +2643,7 @@ async def create_fiscal_note_job(bill_type: Bill_type_options, bill_number: str,
             }))
             
             try:
-                enhanced_numbers_path = enhance_numbers_for_bill(base_dir)
+                enhanced_numbers_path = await asyncio.to_thread(enhance_numbers_for_bill, base_dir)
                 if enhanced_numbers_path:
                     print(f"✅ Step 6 completed: {enhanced_numbers_path}")
                 else:
@@ -2636,7 +2663,7 @@ async def create_fiscal_note_job(bill_type: Bill_type_options, bill_number: str,
             }))
             
             try:
-                tracking_result = track_chronological_changes(base_dir)
+                tracking_result = await asyncio.to_thread(track_chronological_changes, base_dir)
                 if tracking_result:
                     print(f"✅ Step 7 completed:")
                     print(f"   - {tracking_result.get('tracking_file')}")

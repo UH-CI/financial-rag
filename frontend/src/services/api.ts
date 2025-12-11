@@ -14,7 +14,7 @@ import type {
 // For production deployment, use the same domain with /api path
 let API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://finbot.its.hawaii.edu/api';
 if (window.location.hostname === 'localhost') {
-  API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8200/';
+  API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8200';
 }
 console.log(window.location.hostname, API_BASE_URL)
 const api = axios.create({
@@ -233,7 +233,7 @@ export interface PropertyPromptTemplate {
 * Get all property prompt templates and active template ID
 */
 export const getPropertyPrompts = async (): Promise<{ templates: PropertyPromptTemplate[]; active_template_id: string }> => {
-const response = await api.get('/api/property-prompts');
+const response = await api.get('/property-prompts');
 return response.data;
 };
 
@@ -241,7 +241,7 @@ return response.data;
 * Create a new template by copying an existing one
 */
 export const createPropertyPromptTemplate = async (sourceTemplateId: string, name: string): Promise<{ success: boolean; template: PropertyPromptTemplate; message: string }> => {
-const response = await api.post('/api/property-prompts/template', {
+const response = await api.post('/property-prompts/template', {
 source_template_id: sourceTemplateId,
 name
 });
@@ -252,7 +252,7 @@ return response.data;
 * Update an existing template
 */
 export const updatePropertyPromptTemplate = async (templateId: string, data: { name?: string; prompts?: PropertyPrompts }): Promise<{ success: boolean; template: PropertyPromptTemplate; message: string }> => {
-const response = await api.put(`/api/property-prompts/template/${templateId}`, data);
+const response = await api.put(`/property-prompts/template/${templateId}`, data);
 return response.data;
 };
 
@@ -260,7 +260,7 @@ return response.data;
 * Delete a template
 */
 export const deletePropertyPromptTemplate = async (templateId: string): Promise<{ success: boolean; message: string }> => {
-const response = await api.delete(`/api/property-prompts/template/${templateId}`);
+const response = await api.delete(`/property-prompts/template/${templateId}`);
 return response.data;
 };
 
@@ -268,7 +268,7 @@ return response.data;
 * Set the active template for fiscal note generation
 */
 export const setActivePropertyPromptTemplate = async (templateId: string): Promise<{ success: boolean; active_template_id: string; message: string }> => {
-const response = await api.put('/api/property-prompts/active', { template_id: templateId });
+const response = await api.put('/property-prompts/active', { template_id: templateId });
 return response.data;
 };
 
@@ -281,7 +281,7 @@ export const getFiscalNotePropertyPrompts = async (
   fiscalNoteName: string,
   year: string = '2025'
 ): Promise<{ prompts: PropertyPrompts; is_stored: boolean; custom_prompts_used: boolean; message?: string }> => {
-  const response = await api.get('/api/fiscal-note-property-prompts', {
+  const response = await api.get('/fiscal-note-property-prompts', {
     params: {
       bill_type: billType,
       bill_number: billNumber,
@@ -306,7 +306,7 @@ export const saveStrikethroughs = async (
   // Check if annotations have 'type' field to determine format
   const hasTypeField = annotations.length > 0 && annotations[0].type !== undefined;
   
-  const response = await api.post('/api/fiscal-notes/save-strikethroughs', {
+  const response = await api.post('/fiscal-notes/save-strikethroughs', {
     filename,
     // Send as annotations if they have type field, otherwise as strikethroughs (legacy)
     ...(hasTypeField ? { annotations } : { strikethroughs: annotations }),
