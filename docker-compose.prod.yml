@@ -80,6 +80,7 @@ services:
       - ./src/.env:/src/.env:ro  # Mount environment file
       - ./src/chroma_db:/src/chroma_db
       - ./src/fiscal_notes:/src/fiscal_notes  # Persist fiscal notes data
+      - ./src/database:/src/database  # Persist database data
     networks:
       - rag-network
 
