@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException, Query, Form, File, UploadFile, Reque
 import asyncio
 from contextlib import asynccontextmanager
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse, StreamingResponse
+from fastapi.responses import JSONResponse, StreamingResponse, FileResponse, HTMLResponse, PlainTextResponse
 from typing import List, Dict, Any, Optional, Union
 import os
 from pathlib import Path
@@ -3270,6 +3270,102 @@ async def get_fiscal_note_property_prompts(
     except Exception as e:
         print(f"❌ Error loading fiscal note property prompts: {e}")
         raise HTTPException(status_code=500, detail=f"Failed to load fiscal note property prompts: {str(e)}")
+
+
+def get_sorted_leaves(data, route = []):
+    if not isinstance(data, dict):
+        yield data + [route]
+    else:
+        keys = sorted(data)
+        for key in keys:
+            yield from get_sorted_leaves(data[key], route + [key])
+
+def get_filtered_hrs_index(volume, chapter, section):
+    hrs_index_file = "hrs_data/index/hrs_index.json"
+    index = None
+    with open(hrs_index_file, "r") as f:
+        index = json.load(f)
+    if volume is not None and volume in index:
+        index = index[volume]
+        if chapter is not None and chapter in index:
+            index = index[chapter]
+            if section is not None and section in index:
+                index = index[section]
+    return index
+
+def get_hrs_index_skeleton():
+    hrs_index_file = "hrs_data/index/hrs_index.json"
+    index_skeleton = {}
+    index = None
+    with open(hrs_index_file, "r") as f:
+        index = json.load(f)
+    for volume in index:
+        index_skeleton[volume] = {}
+        for chapter in index[volume]:
+            index_skeleton[volume][chapter] = list(index[volume][chapter].keys())
+    return index_skeleton
+        
+        
+
+@app.get("/hrs/find")
+@app.get("/hrs/find/{volume}")
+@app.get("/hrs/find/{volume}/{chapter}")
+@app.get("/hrs/find/{volume}/{chapter}/{section}")
+async def read_hrs(
+    q: str,
+    volume: str | None = None, 
+    chapter: str | None = None, 
+    section: str | None = None
+):
+    index = get_filtered_hrs_index(volume, chapter, section)
+    query_route = [value for value in [volume, chapter, section] if value]
+    matches = []
+    for text, html, idx_route in get_sorted_leaves(index):
+        if q in text:
+            route = query_route + idx_route
+            matches.append(route)
+
+    return matches
+
+
+@app.get("/hrs/raw")
+@app.get("/hrs/raw/{volume}")
+@app.get("/hrs/raw/{volume}/{chapter}")
+@app.get("/hrs/raw/{volume}/{chapter}/{section}")
+async def get_hrs_raw(
+    volume: str | None = None, 
+    chapter: str | None = None, 
+    section: str | None = None
+):
+    index = get_filtered_hrs_index(volume, chapter, section)
+    text_data = ""
+    for text, html, route in get_sorted_leaves(index):
+        text_data += f"\n\n{text}"
+
+    return PlainTextResponse(content = text_data, status_code = 200)
+
+@app.get("/hrs/html")
+@app.get("/hrs/html/{volume}")
+@app.get("/hrs/html/{volume}/{chapter}")
+@app.get("/hrs/html/{volume}/{chapter}/{section}")
+async def get_hrs_html(
+    volume: str | None = None, 
+    chapter: str | None = None, 
+    section: str | None = None
+):
+    index = get_filtered_hrs_index(volume, chapter, section)
+    html_data = ""
+    for text, html, route in get_sorted_leaves(index):
+        html_data += f"</br>{html}"
+
+    return HTMLResponse(content = html_data, status_code = 200)
+
+@app.get("/hrs/index")
+async def get_hrs_index():
+    index = get_hrs_index_skeleton()
+    return index
+
+
 
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):

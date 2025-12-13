@@ -9,6 +9,7 @@ import type {
   BillSimilaritySearch,
   FiscalNoteData
 } from '../types';
+import type { HRSIndex } from '../components/features/hrs/HRSIndexView';
 
 // API configuration
 // For production deployment, use the same domain with /api path
@@ -165,8 +166,6 @@ export const getFiscalNoteData = async (
       year: year
     }
   });
-  console.log(response.data)
-
   return response.data;
 };
 
@@ -186,7 +185,6 @@ export const getFiscalNoteSeptember = async (
     },
     responseType: 'text' // Important: expect HTML response
   });
-  console.log(response.data)
   return response.data;
 };
 
@@ -849,3 +847,81 @@ export const getBillFiscalNote = async (billId: string): Promise<FiscalNote> => 
     });
 }; 
 
+/**
+ * Get HRS HTML data
+ */
+export const getHRSHTML = async (
+  volume?: string,
+  chapter?: string,
+  section?: string
+): Promise<string> => {
+  let pathOrder = [volume, chapter, section];
+  let urlPathParts = ["hrs", "html"];
+  for(let part of pathOrder) {
+    if(part !== undefined) {
+      urlPathParts.push(part);
+    }
+    else {
+      break;
+    }
+  }
+  const response = await api.get(`/${urlPathParts.join("/")}`);
+  return response.data;
+};
+
+
+/**
+ * Get HRS text data
+ */
+export const getHRSRaw = async (
+  volume?: string,
+  chapter?: string,
+  section?: string
+): Promise<string> => {
+  let pathOrder = [volume, chapter, section];
+  let urlPathParts = ["hrs", "raw"];
+  for(let part of pathOrder) {
+    if(part !== undefined) {
+      urlPathParts.push(part);
+    }
+    else {
+      break;
+    }
+  }
+  const response = await api.get(`/${urlPathParts.join("/")}`);
+  return response.data;
+};
+
+
+/**
+ * Search HRS
+ */
+export const searchHRS = async (
+  searchText: string,
+  volume?: string,
+  chapter?: string,
+  section?: string
+): Promise<[string, string, string][]> => {
+  let pathOrder = [volume, chapter, section];
+  const queryString = encodeURIComponent(searchText);
+  let urlPathParts = ["hrs", "find"];
+  for(let part of pathOrder) {
+    if(part !== undefined) {
+      urlPathParts.push(part);
+    }
+    else {
+      break;
+    }
+  }
+  const response = await api.get(`/${urlPathParts.join("/")}?q=${queryString}`);
+  return response.data;
+};
+
+
+/**
+ * Get HRS text data
+ */
+export const getHRSIndex = async (): Promise<HRSIndex> => {
+  const response = await api.get("/hrs/index");
+  return response.data;
+};

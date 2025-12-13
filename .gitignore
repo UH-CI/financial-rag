@@ -83,4 +83,6 @@ logs/*.pid
 # Backup directories created by deployment scripts
 fiscal_notes_backups/
 
+src/hrs_data
+
 # Note: property_prompts_config.json is tracked in git but preserved on production server via Jenkinsfile
