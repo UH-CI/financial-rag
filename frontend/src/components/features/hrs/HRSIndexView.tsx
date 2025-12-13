@@ -1,5 +1,6 @@
 import { Loader2 } from 'lucide-react';
 import React, { useState } from 'react';
+import { cleanStatuteValue } from '../../../services/util';
 
 export interface HRSFilter {
   volume?: string;
@@ -82,7 +83,7 @@ const VolumeRow: React.FC<{
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexGrow: 1}}>
           <Chevron isOpen={isOpen} />
           <Badge label="Volume" color="#6b7280" bg="#f3f4f6" />
-          <span style={{ fontSize: '16px', fontWeight: 600, color: '#111827' }}>{name}</span>
+          <span style={{ fontSize: '16px', fontWeight: 600, color: '#111827' }}>{cleanStatuteValue(name)}</span>
         </div>
         
 
@@ -143,7 +144,7 @@ const ChapterRow: React.FC<{
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexGrow: 1 }}>
           <Chevron isOpen={isOpen} />
           <Badge label="Chapter" color="#8b5cf6" bg="#f5f3ff" />
-          <span style={{ fontSize: '15px', fontWeight: 500, color: '#374151' }}>{name}</span>
+          <span style={{ fontSize: '15px', fontWeight: 500, color: '#374151' }}>{cleanStatuteValue(name)}</span>
         </div>
 
         <FilterBtn active={isActive} onClick={handleFilter} />
@@ -199,7 +200,7 @@ const SectionRow: React.FC<{
     }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexGrow: 1 }}>
         <Badge label="Section" color="#059669" bg="#ecfdf5" />
-        <span style={{ fontSize: '14px', color: '#4b5563', fontWeight: 500 }}>{name}</span>
+        <span style={{ fontSize: '14px', color: '#4b5563', fontWeight: 500 }}>{cleanStatuteValue(name)}</span>
       </div>
 
       <LinkToBtn onClick={handleLink} />

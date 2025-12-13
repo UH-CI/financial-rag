@@ -140,7 +140,7 @@ const HRSSearch = () => {
 
       <div className="flex flex-1  bg-gray-50 overflow-x-hidden">
         {/* Left Sidebar - Hidden on mobile, visible on desktop */}
-        <div className="hidden w-[330px] lg:block min-w-0 bg-white shadow-lg border-r border-gray-200 flex flex-col flex-shrink-0 sticky top-0 overflow-y-auto scroll-smooth mobile-scroll">
+        <div className="hidden w-80 lg:block min-w-0 bg-white shadow-lg border-r border-gray-200 flex flex-col flex-shrink-0 sticky top-0 overflow-y-auto scroll-smooth mobile-scroll">
           <div className="p-6 border-b border-gray-200">
             <div className="flex items-center justify-between">
               <h1 className="text-2xl font-bold text-gray-900">Statutes Index</h1>

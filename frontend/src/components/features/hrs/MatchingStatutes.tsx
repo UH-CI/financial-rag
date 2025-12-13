@@ -1,4 +1,5 @@
 import React from 'react';
+import { cleanStatuteValue } from '../../../services/util';
 
 type StatuteRow = [string, string, string];
 
@@ -40,13 +41,13 @@ export const MatchingStatutes: React.FC<MatchingStatutesProps> = ({ data, onRowC
               className="hover:bg-blue-50 cursor-pointer transition-colors duration-150"
             >
               <td className="px-3 whitespace-nowrap text-sm text-gray-900 font-medium">
-                {row[0]}
+                {cleanStatuteValue(row[0])}
               </td>
               <td className="px-3 whitespace-nowrap text-sm text-gray-500">
-                {row[1]}
+                {cleanStatuteValue(row[1])}
               </td>
               <td className="px-3 whitespace-nowrap text-sm text-gray-500">
-                {row[2]}
+                {cleanStatuteValue(row[2])}
               </td>
             </tr>
           ))}
