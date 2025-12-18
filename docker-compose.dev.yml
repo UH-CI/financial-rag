@@ -111,30 +111,30 @@ services:
     networks:
       - rag-network
 
-  # Frontend Server (Development) 
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-      args:
-        - VITE_API_BASE_URL=http://localhost:8200
-        - VITE_WS_URL=ws://localhost:8200/ws
-    container_name: rag-frontend-dev
-    ports:
-      - "3000:3000"
-    environment:
-      - VITE_API_BASE_URL=http://localhost:8200
-      - VITE_WS_URL=ws://localhost:8200/ws
-      - NODE_ENV=development
-    restart: unless-stopped
-    depends_on:
-      - api
-    volumes:
-      - ./frontend/src:/app/src  # Mount source for hot reload
-      - ./frontend/public:/app/public
-      - /app/node_modules  # Prevent node_modules from being overwritten
-    networks:
-      - rag-network
+  # # Frontend Server (Development) 
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #     dockerfile: Dockerfile
+  #     args:
+  #       - VITE_API_BASE_URL=http://localhost:8200
+  #       - VITE_WS_URL=ws://localhost:8200/ws
+  #   container_name: rag-frontend-dev
+  #   ports:
+  #     - "3000:3000"
+  #   environment:
+  #     - VITE_API_BASE_URL=http://localhost:8200
+  #     - VITE_WS_URL=ws://localhost:8200/ws
+  #     - NODE_ENV=development
+  #   restart: unless-stopped
+  #   depends_on:
+  #     - api
+  #   volumes:
+  #     - ./frontend/src:/app/src  # Mount source for hot reload
+  #     - ./frontend/public:/app/public
+  #     - /app/node_modules  # Prevent node_modules from being overwritten
+  #   networks:
+  #     - rag-network
 
 networks:
   rag-network:
