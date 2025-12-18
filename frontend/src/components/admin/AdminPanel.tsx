@@ -217,12 +217,12 @@ const AdminPanel: React.FC = () => {
         isAdmin: backendUser.is_admin,
         isSuperAdmin: backendUser.is_super_admin || false,
         permissions: {
-          fiscalNoteGeneration: false,
-          similarBillSearch: false,
-          hrsSearch: false,
-          adminPanel: backendUser.is_admin,
-          userManagement: backendUser.is_admin,
-          auditLogView: backendUser.is_admin,
+          fiscalNoteGeneration: false || userData.isSuperAdmin,
+          similarBillSearch: false || userData.isSuperAdmin,
+          hrsSearch: false || userData.isSuperAdmin,
+          adminPanel: backendUser.is_admin || userData.isSuperAdmin,
+          userManagement: backendUser.is_admin || userData.isSuperAdmin,
+          auditLogView: backendUser.is_admin || userData.isSuperAdmin,
         },
         createdAt: new Date(backendUser.created_at),
         lastLoginAt: new Date(backendUser.updated_at),
@@ -302,19 +302,6 @@ const AdminPanel: React.FC = () => {
 
       {/* Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Debug Info */}
-        <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-6">
-          <h3 className="text-sm font-medium text-yellow-800 mb-2">Debug Info:</h3>
-          <p className="text-sm text-yellow-700">
-            Total users in storage: {users.length} | 
-            Last refresh: {new Date().toLocaleTimeString()}
-          </p>
-          {users.length > 0 && (
-            <p className="text-sm text-yellow-700 mt-1">
-              Users: {users.map(u => u.email).join(', ')}
-            </p>
-          )}
-        </div>
 
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">

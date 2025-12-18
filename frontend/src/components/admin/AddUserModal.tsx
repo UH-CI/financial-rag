@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { X, User, Mail, Shield } from 'lucide-react';
+import { useAuth } from '../../contexts/BackendAuthContext';
 
 interface AddUserModalProps {
   isOpen: boolean;
@@ -18,6 +19,8 @@ const AddUserModal: React.FC<AddUserModalProps> = ({ isOpen, onClose, onAddUser 
   const [isAdmin, setIsAdmin] = useState(false);
   const [isSuperAdmin, setIsSuperAdmin] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const { userProfile } = useAuth();
+
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -143,7 +146,7 @@ const AddUserModal: React.FC<AddUserModalProps> = ({ isOpen, onClose, onAddUser 
                 type="checkbox"
                 checked={isSuperAdmin}
                 onChange={(e) => setIsSuperAdmin(e.target.checked)}
-                disabled={isSubmitting}
+                disabled={isSubmitting || !userProfile?.isSuperAdmin}
                 className="w-4 h-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"
               />
               <label htmlFor="isSuperAdmin" className="flex items-center space-x-2 text-sm text-gray-700">

@@ -391,12 +391,17 @@ def extract_measure_links(html, base_url):
     measure_divs += soup.find_all("div", class_="measure-status card shadow text-center")
 
     # Find the "Committee Reports" card
-    committee_reports_div = soup.find("h2", string="Committee Reports").find_parent("div", class_="measure-status")
-
-    # Extract all <a> links that are NOT the PDF ones (only the text links)
-    links = committee_reports_div.select("a[id^='MainContent_RepeaterCommRpt_CategoryLink']")
-
-    names = [link.get_text(strip=True) for link in links]
+    committee_reports_h2 = soup.find("h2", string="Committee Reports")
+    names = []
+    
+    if committee_reports_h2:
+        committee_reports_div = committee_reports_h2.find_parent("div", class_="measure-status")
+        if committee_reports_div:
+            # Extract all <a> links that are NOT the PDF ones (only the text links)
+            links_elements = committee_reports_div.select("a[id^='MainContent_RepeaterCommRpt_CategoryLink']")
+            names = [link.get_text(strip=True) for link in links_elements]
+    else:
+        print("Warning: No 'Committee Reports' section found on the page")
 
 
     for div in measure_divs:

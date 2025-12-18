@@ -59,7 +59,7 @@
         {
           "chunk_id": 1,
           "document_name": "HB727_CD1",
-          "chunk_text": "OF HAWAII: PART I SECTION 1. The legislature finds that there has been a significant increase in the number of women in Hawai ʻ i jails and prisons over the past forty years, resulting in a higher proportion of women who are incarcerated. Research reflects that for women, histories of",
+          "chunk_text": "OF HAWAII: PART I SECTION 1. The legislature finds that there has been a significant increase in the number of women in Hawai \u02bb i jails and prisons over the past forty years, resulting in a higher proportion of women who are incarcerated. Research reflects that for women, histories of",
           "start_word": 40,
           "end_word": 90,
           "word_count": 50
@@ -115,7 +115,7 @@
         {
           "chunk_id": 8,
           "document_name": "HB727_CD1",
-          "chunk_text": "reports to the legislature regarding the pilot program for women's court. PART II SECTION 2. Chapter 603, Hawaii Revised Statutes, is amended by adding a new section to be appropriately designated and to read as follows: \" §603- Women's court program; first circuit. (a) There shall be established within the",
+          "chunk_text": "reports to the legislature regarding the pilot program for women's court. PART II SECTION 2. Chapter 603, Hawaii Revised Statutes, is amended by adding a new section to be appropriately designated and to read as follows: \" \u00a7603- Women's court program; first circuit. (a) There shall be established within the",
           "start_word": 320,
           "end_word": 370,
           "word_count": 50
@@ -1381,7 +1381,7 @@
       },
       {
         "chunk_number": 1,
-        "chunk_text": "OF HAWAII: PART I SECTION 1. The legislature finds that there has been a significant increase in the number of women in Hawai ʻ i jails and prisons over the past forty years, resulting in a higher proportion of women who are incarcerated. Research reflects that for women, histories of"
+        "chunk_text": "OF HAWAII: PART I SECTION 1. The legislature finds that there has been a significant increase in the number of women in Hawai \u02bb i jails and prisons over the past forty years, resulting in a higher proportion of women who are incarcerated. Research reflects that for women, histories of"
       },
       {
         "chunk_number": 2,
@@ -1409,7 +1409,7 @@
       },
       {
         "chunk_number": 8,
-        "chunk_text": "reports to the legislature regarding the pilot program for women's court. PART II SECTION 2. Chapter 603, Hawaii Revised Statutes, is amended by adding a new section to be appropriately designated and to read as follows: \" §603- Women's court program; first circuit. (a) There shall be established within the"
+        "chunk_text": "reports to the legislature regarding the pilot program for women's court. PART II SECTION 2. Chapter 603, Hawaii Revised Statutes, is amended by adding a new section to be appropriately designated and to read as follows: \" \u00a7603- Women's court program; first circuit. (a) There shall be established within the"
       },
       {
         "chunk_number": 9,
@@ -1533,6 +1533,15 @@
       }
     ]
   },
+<<<<<<< Updated upstream
   "generation_timestamp": "2025-11-04T23:39:11.046557",
   "generation_timestamp_unix": 1762299551.0465672
+=======
+  "generation_timestamp": "2025-10-31T17:26:08.888805",
+  "generation_timestamp_unix": 1761967568.8888168,
+  "annotations": [],
+  "annotations_updated_at": "2025-11-25T19:37:31.594544",
+  "strikethroughs": [],
+  "strikethroughs_updated_at": "2025-11-25T19:37:31.594571"
+>>>>>>> Stashed changes
 }

@@ -2,9 +2,9 @@ import axios from 'axios';
 import { useAuth0 } from '@auth0/auth0-react';
 
 // API configuration for user permissions
-let API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8200';
+let API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://finbot.its.hawaii.edu/api';
 if (window.location.hostname === 'localhost') {
-  API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8200';
+  API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8200/';
 }
 
 console.log('🔧 API Base URL configured as:', API_BASE_URL);
@@ -23,12 +23,48 @@ export const createAuthenticatedApi = (getAccessTokenSilently: () => Promise<str
   authApi.interceptors.request.use(
     async (config) => {
       try {
-        // Get access token (Auth0 config already includes email scope)
-        const token = await getAccessTokenSilently();
-        config.headers.Authorization = `Bearer ${token}`;
-        console.log('🔐 Added auth token to request:', config.url);
+        // Retry logic for token retrieval
+        let token = null;
+        const maxRetries = 3;
+        
+        for (let attempt = 1; attempt <= maxRetries; attempt++) {
+          try {
+            console.log(`🔄 Requesting fresh token from Auth0 (attempt ${attempt}/${maxRetries})...`);
+            
+            token = await getAccessTokenSilently();
+            
+            // Log token characteristics for debugging
+            console.log('✅ Token received from Auth0:', {
+              attempt,
+              length: token.length,
+              preview: token.substring(0, 20) + '...' + token.substring(token.length - 10),
+              startsWithEyJ: token.startsWith('eyJ'),
+              hasThreeParts: token.split('.').length === 3
+            });
+            
+            break; // Success, exit retry loop
+            
+          } catch (tokenError) {
+            console.warn(`⚠️ Token retrieval attempt ${attempt} failed:`, tokenError);
+            
+            if (attempt === maxRetries) {
+              throw tokenError; // Re-throw on final attempt
+            }
+            
+            // Wait before retry (exponential backoff)
+            await new Promise(resolve => setTimeout(resolve, Math.pow(2, attempt) * 1000));
+          }
+        }
+        
+        if (token) {
+          config.headers.Authorization = `Bearer ${token}`;
+          console.log('🔐 Added auth token to request:', config.url);
+        } else {
+          throw new Error('Failed to obtain token after all retry attempts');
+        }
       } catch (error) {
-        console.error('❌ Failed to get access token:', error);
+        console.error('❌ Failed to get access token after retries:', error);
+        // Don't throw here - let the request proceed and fail with proper 401
       }
       return config;
     },
@@ -82,74 +118,74 @@ export const createUserApi = (getAccessTokenSilently: () => Promise<string>) => 
   return {
     // User endpoints
     async getUserProfile(): Promise<UserProfileWithPermissions> {
-      const response = await authApi.get('/api/users/profile');
+      const response = await authApi.get('/users/profile');
       return response.data;
     },
 
     async updateUserProfile(displayName: string): Promise<UserProfile> {
-      const response = await authApi.put('/api/users/profile', {
+      const response = await authApi.put('/users/profile', {
         display_name: displayName
       });
       return response.data;
     },
 
     async getUserPermissions(): Promise<string[]> {
-      const response = await authApi.get('/api/users/permissions');
+      const response = await authApi.get('/users/permissions');
       return response.data;
     },
 
     async syncUser(): Promise<{ message: string; user_id: number; email: string }> {
-      const response = await authApi.post('/api/users/sync');
+      const response = await authApi.post('/users/sync');
       return response.data;
     },
 
     // Admin endpoints
     async getAllUsers(skip = 0, limit = 100, activeOnly = true): Promise<UserProfile[]> {
-      const response = await authApi.get('/api/admin/users', {
+      const response = await authApi.get('/admin/users', {
         params: { skip, limit, active_only: activeOnly }
       });
       return response.data;
     },
 
     async createUser(userData: { email: string; display_name: string; is_admin: boolean; is_super_admin?: boolean }): Promise<UserProfile> {
-      const response = await authApi.post('/api/admin/users', userData);
+      const response = await authApi.post('/admin/users', userData);
       return response.data;
     },
 
     async updateUserPermissions(userId: string, permissions: string[]): Promise<{ message: string; user_id: number }> {
-      const response = await authApi.put(`/api/admin/users/${userId}/permissions`, {
+      const response = await authApi.put(`/admin/users/${userId}/permissions`, {
         permission_names: permissions
       });
       return response.data;
     },
 
     async getUserDetail(userId: number): Promise<{ user: UserProfile; permissions: UserPermissionInfo[] }> {
-      const response = await authApi.get(`/api/admin/users/${userId}`);
+      const response = await authApi.get(`/admin/users/${userId}`);
       return response.data;
     },
 
     async updateUser(userId: number, data: { display_name?: string; is_active?: boolean }): Promise<UserProfile> {
-      const response = await authApi.put(`/api/admin/users/${userId}`, data);
+      const response = await authApi.put(`/admin/users/${userId}`, data);
       return response.data;
     },
 
     async deleteUser(userId: number): Promise<{ message: string; user_email: string; local_deletion_success: boolean; auth0_deletion_success: boolean; auth0_error?: string }> {
-      const response = await authApi.delete(`/api/admin/users/${userId}`);
+      const response = await authApi.delete(`/admin/users/${userId}`);
       return response.data;
     },
 
     async grantPermission(userId: number, permissionId: number): Promise<{ message: string }> {
-      const response = await authApi.post(`/api/admin/users/${userId}/permissions/${permissionId}`);
+      const response = await authApi.post(`/admin/users/${userId}/permissions/${permissionId}`);
       return response.data;
     },
 
     async revokePermission(userId: number, permissionId: number): Promise<{ message: string }> {
-      const response = await authApi.delete(`/api/admin/users/${userId}/permissions/${permissionId}`);
+      const response = await authApi.delete(`/admin/users/${userId}/permissions/${permissionId}`);
       return response.data;
     },
 
     async getAllPermissions(): Promise<PermissionSummary[]> {
-      const response = await authApi.get('/api/admin/permissions');
+      const response = await authApi.get('/admin/permissions');
       return response.data;
     },
 
@@ -197,5 +233,43 @@ export const createUserApi = (getAccessTokenSilently: () => Promise<string>) => 
 // Hook for using authenticated API
 export const useAuthenticatedApi = () => {
   const { getAccessTokenSilently } = useAuth0();
-  return createUserApi(getAccessTokenSilently);
+  
+  // Create wrapper function that handles the Auth0 parameters
+  const getTokenWrapper = async () => {
+    try {
+      return await getAccessTokenSilently({
+        authorizationParams: {
+          audience: 'https://api.financial-rag.com',
+          scope: 'openid profile email' // Removed offline_access to avoid refresh token issues
+        },
+        cacheMode: 'off', // Force fresh tokens
+        timeoutInSeconds: 10 // Shorter timeout
+      });
+    } catch (error: any) {
+      console.error('🔴 Auth0 token error:', error);
+      
+      // If refresh token fails, try to get a new token by redirecting
+      if (error.message?.includes('Missing Refresh Token') || error.message?.includes('refresh_token')) {
+        console.log('🔄 Refresh token failed, clearing Auth0 cache and retrying...');
+        
+        // Clear Auth0 cache and try again with different cache mode
+        try {
+          return await getAccessTokenSilently({
+            authorizationParams: {
+              audience: 'https://api.financial-rag.com',
+              scope: 'openid profile email'
+            },
+            cacheMode: 'cache-only' // Try cache-only mode first
+          });
+        } catch (retryError) {
+          console.error('🔴 Retry failed, user needs to re-authenticate');
+          throw new Error('Authentication session expired. Please log out and log back in.');
+        }
+      }
+      
+      throw error;
+    }
+  };
+  
+  return createUserApi(getTokenWrapper);
 };

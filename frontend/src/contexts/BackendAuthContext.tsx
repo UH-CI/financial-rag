@@ -154,6 +154,9 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     try {
       console.log('🔄 Syncing user profile from backend...');
       
+      // Add a small delay to ensure Auth0 session is fully established
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      
       // Get full profile with permissions (this also syncs the user)
       const backendProfile = await authApi.getUserProfile();
       const frontendProfile = convertBackendProfile(backendProfile);
@@ -242,9 +245,23 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const signInWithGoogle = async () => {
+    // Clear any existing Auth0 cache before Google OAuth
+    try {
+      await auth0Logout({ 
+        logoutParams: { 
+          returnTo: window.location.origin 
+        },
+        openUrl: false // Don't redirect, just clear cache
+      });
+    } catch (e) {
+      console.log('Cache clear attempt (expected to fail):', e);
+    }
+    
     await loginWithRedirect({
       authorizationParams: {
-        connection: 'google-oauth2'
+        connection: 'google-oauth2',
+        audience: 'https://api.financial-rag.com', // Explicit audience
+        scope: 'openid profile email'
       }
     });
   };
