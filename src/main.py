@@ -3249,7 +3249,7 @@ async def get_fiscal_note_property_prompts(
     try:
         bill_dir = f"{bill_type.value}_{bill_number}_{year.value}"
         
-        # Try both fiscal_notes_with_chunks and fiscal_notes directories
+        # Try both fiscal_notes_with_chunks and fiscal_notes directoriesa
         fiscal_notes_with_chunks_path = os.path.join(fiscal_notes_dir, bill_dir, "fiscal_notes_with_chunks")
         fiscal_notes_path = os.path.join(fiscal_notes_dir, bill_dir, "fiscal_notes")
         
