@@ -6,45 +6,45 @@ import { VirtualizedHTML } from '../../common/VirtualizedHTML'; // Added import
 
 export const HRSTextView = ({ filter, link, selectedMatch }: { filter: HRSFilter, link: HRSFilter, selectedMatch: { statute: [string, string, string], text: string } | null }) => {
   const [HRSData, setHRSData] = useState<string | null>(null);
-  const [highlightedSection, setHighlightedSection] = useState<any>(null);
+  // const [highlightedSection, setHighlightedSection] = useState<any>(null);
 
-  function highlightSection(section: HTMLElement) {
-    const highlightClasses = ['ring-2', 'p-2'];
-    if (section === highlightedSection) {
-      section.classList.remove(...highlightClasses);
-      setHighlightedSection(null);
-    }
-    else {
-      highlightedSection?.classList.remove(...highlightClasses);
-      section.classList.add(...highlightClasses);
-      setHighlightedSection(section);
-    }
-  }
+  // function highlightSection(section: HTMLElement) {
+  //   const highlightClasses = ['ring-2', 'p-2'];
+  //   if (section === highlightedSection) {
+  //     section.classList.remove(...highlightClasses);
+  //     setHighlightedSection(null);
+  //   }
+  //   else {
+  //     highlightedSection?.classList.remove(...highlightClasses);
+  //     section.classList.add(...highlightClasses);
+  //     setHighlightedSection(section);
+  //   }
+  // }
 
 
-  function clearHighlights(element: HTMLElement): void {
-    // Query specific 'mark' elements
-    const marks = element.querySelectorAll('mark');
+  // function clearHighlights(element: HTMLElement): void {
+  //   // Query specific 'mark' elements
+  //   const marks = element.querySelectorAll('mark');
 
-    marks.forEach((mark) => {
-      const parent = mark.parentNode;
-      const text = mark.textContent;
+  //   marks.forEach((mark) => {
+  //     const parent = mark.parentNode;
+  //     const text = mark.textContent;
 
-      // Safety check:
-      // 1. Ensure the mark is actually attached to a parent
-      // 2. Ensure the mark actually has text content to restore
-      if (parent && text !== null) {
-        parent.replaceChild(document.createTextNode(text), mark);
-        parent.normalize(); // Merges adjacent text nodes back together
-      }
-    });
-  }
+  //     // Safety check:
+  //     // 1. Ensure the mark is actually attached to a parent
+  //     // 2. Ensure the mark actually has text content to restore
+  //     if (parent && text !== null) {
+  //       parent.replaceChild(document.createTextNode(text), mark);
+  //       parent.normalize(); // Merges adjacent text nodes back together
+  //     }
+  //   });
+  // }
 
-  function highlightText(element: HTMLElement, searchText: string): HTMLElement[] {
-    // Highlighting logic removed from this component scope for performance
-    // It should be moved to VirtualizedHTML or CSS in the future
-    return [];
-  }
+  // function highlightText(element: HTMLElement, searchText: string): HTMLElement[] {
+  //   // Highlighting logic removed from this component scope for performance
+  //   // It should be moved to VirtualizedHTML or CSS in the future
+  //   return [];
+  // }
 
 
   useEffect(() => {
