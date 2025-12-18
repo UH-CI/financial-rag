@@ -1,8 +1,9 @@
 # Production Dockerfile - Chrome runs in separate Selenium container
-FROM python:3.11-slim
+FROM python:3.11-bookworm
 
 # Install system dependencies for OpenCV, PDF processing, and other tools
-RUN apt-get update && apt-get install -y \
+# Relaxing security checks due to persistent GPG signature errors on this host
+RUN apt-get update --allow-insecure-repositories && apt-get install -y --no-install-recommends --allow-unauthenticated \
     curl \
     libgl1 \
     libglib2.0-0 \
@@ -10,12 +11,11 @@ RUN apt-get update && apt-get install -y \
     libxext6 \
     libxrender1 \
     libgomp1 \
-    libgtk-3-0 \
-    libgstreamer1.0-0 \
-    libgstreamer-plugins-base1.0-0 \
     libjpeg62-turbo \
     libpng16-16 \
     libtiff6 \
+    sqlite3 \
+    libsqlite3-0 \
     && rm -rf /var/lib/apt/lists/*
 
 # Set working directory

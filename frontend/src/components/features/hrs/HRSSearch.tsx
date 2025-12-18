@@ -3,6 +3,7 @@ import { HRSTextView } from "./HRSTextView";
 import { HRSIndexView, type HRSFilter, type HRSIndex } from './HRSIndexView';
 import { MatchingStatutes } from './MatchingStatutes';
 import { getHRSIndex, getHRSRaw, searchHRS } from '../../../services/api';
+import { hrsCache } from '../../../services/hrsCache';
 
 const HRSSearch = () => {
 
@@ -14,14 +15,14 @@ const HRSSearch = () => {
   const [index, setIndex] = useState<HRSIndex | null>(null);
   const [searchText, setSearchText] = useState<string>("");
   const [matchingStatutes, setMatchingStatutes] = useState<[string, string, string][] | null>(null);
-  const [selectedMatch, setSelectedMatch] = useState<{statute: [string, string, string], text: string} | null>(null);
+  const [selectedMatch, setSelectedMatch] = useState<{ statute: [string, string, string], text: string } | null>(null);
 
 
   async function openRawDataTab() {
     const { volume, chapter, section } = filter;
     const raw = await getHRSRaw(volume, chapter, section);
     const blob = new Blob([raw], { type: 'text/plain' });
-    
+
     const url = URL.createObjectURL(blob);
     window.open(url, '_blank');
   }
@@ -31,6 +32,17 @@ const HRSSearch = () => {
     const { volume, chapter, section } = filter;
     const found = await searchHRS(searchText, volume, chapter, section);
     setMatchingStatutes(found);
+
+    // Prefetch content for top results (async, non-blocking)
+    if (found && found.length > 0) {
+      // Prefetch top 10 results
+      const toPrefetch = found.slice(0, 10).map(row => ({
+        volume: row[0],
+        chapter: row[1],
+        section: row[2]
+      }));
+      hrsCache.prefetch(toPrefetch);
+    }
   }
 
   const handleFilterChange = (newFilter: HRSFilter) => {
@@ -40,7 +52,7 @@ const HRSSearch = () => {
   };
 
   const handleLinkChange = (newFilter: HRSFilter) => {
-    setLink(newFilter); 
+    setLink(newFilter);
   };
 
   useEffect(() => {
@@ -50,21 +62,21 @@ const HRSSearch = () => {
     }
     getData();
   }, []);
-  
+
 
   useLayoutEffect(() => {
     const header = document.querySelector('header');
-    if(header) {
+    if (header) {
       const calculateHeight = () => {
         const headerHeight = header.offsetHeight;
         setContentHeight(`calc(100vh - ${headerHeight}px)`);
       };
-  
+
       calculateHeight();
       const resizeObserver = new ResizeObserver(() => {
         calculateHeight();
       });
-  
+
       resizeObserver.observe(header);
       return () => resizeObserver.disconnect();
     }
@@ -72,14 +84,14 @@ const HRSSearch = () => {
 
   return (
     <div className="flex flex-col"
-    style={{ 
-      height: contentHeight
-    }}>
+      style={{
+        height: contentHeight
+      }}>
       <div className="bg-white border-b border-gray-200 p-6">
         <div className="max-w-4xl mx-auto">
-          
+
           <div className="flex items-center space-x-4">
-          <h2 className="text-2xl font-bold text-gray-900 pt-5">HRS Search</h2>
+            <h2 className="text-2xl font-bold text-gray-900 pt-5">HRS Search</h2>
 
             {/* Search Type Dropdown */}
             <div className="flex-shrink-0">
@@ -92,7 +104,8 @@ const HRSSearch = () => {
                 className="block w-50 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                 disabled
               >
-                <option value="keyword">Find in Document</option>
+                {/* <option value="keyword">Find in Document</option> */}
+                <option value="keyword">More options coming soon!</option>
                 <option value="keyword">Keyword Search</option>
                 <option value="semantic">Semantic Search</option>
               </select>
@@ -152,8 +165,8 @@ const HRSSearch = () => {
           <div className="flex-1 p-6 space-y-4 overflow-y-auto scroll-smooth mobile-scroll pb-32">
 
             {/* Matching Statutes Table */}
-            
-            
+
+
 
 
             <div>
@@ -166,22 +179,22 @@ const HRSSearch = () => {
                   className="text-sm text-blue-600 hover:text-blue-800 flex items-center space-x-1"
                 >
                   <span>{isMatchesExpanded ? 'Collapse' : 'Expand'}</span>
-                  <svg 
-                    className={`w-4 h-4 transform transition-transform ${isMatchesExpanded ? 'rotate-180' : ''}`} 
-                    fill="none" 
-                    stroke="currentColor" 
+                  <svg
+                    className={`w-4 h-4 transform transition-transform ${isMatchesExpanded ? 'rotate-180' : ''}`}
+                    fill="none"
+                    stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </button>
               </div>
-              
+
               {isMatchesExpanded && (
                 <div>
-                  <MatchingStatutes 
-                    data={matchingStatutes} 
-                    onRowClick={(statute) => setSelectedMatch({statute, text: searchText})} 
+                  <MatchingStatutes
+                    data={matchingStatutes}
+                    onRowClick={(statute) => setSelectedMatch({ statute, text: searchText })}
                   />
                 </div>
               )}
@@ -198,22 +211,22 @@ const HRSSearch = () => {
                   className="text-sm text-blue-600 hover:text-blue-800 flex items-center space-x-1"
                 >
                   <span>{isIndexExpanded ? 'Collapse' : 'Expand'}</span>
-                  <svg 
-                    className={`w-4 h-4 transform transition-transform ${isIndexExpanded ? 'rotate-180' : ''}`} 
-                    fill="none" 
-                    stroke="currentColor" 
+                  <svg
+                    className={`w-4 h-4 transform transition-transform ${isIndexExpanded ? 'rotate-180' : ''}`}
+                    fill="none"
+                    stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </button>
               </div>
-              
+
               {isIndexExpanded && (
                 <div>
-                  <HRSIndexView 
+                  <HRSIndexView
                     index={index}
-                    selectedFilter={filter} 
+                    selectedFilter={filter}
                     onFilterChange={handleFilterChange}
                     onLinkChange={handleLinkChange}
                   />
@@ -224,7 +237,7 @@ const HRSSearch = () => {
         </div>
 
 
-      
+
 
 
         <HRSTextView
@@ -233,10 +246,10 @@ const HRSSearch = () => {
           link={link}>
         </HRSTextView>
 
-        
-      
+
+
       </div>
-      
+
 
 
 
@@ -244,7 +257,7 @@ const HRSSearch = () => {
 
 
     </div>
-   
+
   );
 };
 
