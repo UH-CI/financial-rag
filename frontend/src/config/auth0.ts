@@ -5,7 +5,7 @@ export const auth0Config = {
   authorizationParams: {
     redirect_uri: `${window.location.origin}/`,
     audience: import.meta.env.VITE_AUTH0_AUDIENCE, // API audience for backend authentication
-    scope: 'openid profile email', // Request email and profile information
+    scope: 'openid profile email offline_access', // Request email, profile, and refresh token
   },
   cacheLocation: 'localstorage' as const,
   useRefreshTokens: true,

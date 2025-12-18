@@ -63,7 +63,7 @@ const mapBackendPermissions = (backendPermissions: string[]) => ({
 // Convert backend user profile to frontend format
 const convertBackendProfile = (backendProfile: UserProfileWithPermissions): UserProfile => {
   const permissionNames = backendProfile.permissions.map(p => p.name);
-  
+
   return {
     uid: backendProfile.user.auth0_user_id,
     email: backendProfile.user.email,
@@ -79,7 +79,7 @@ const convertBackendProfile = (backendProfile: UserProfileWithPermissions): User
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   // 🚀 DEVELOPMENT MODE - Hardcoded fake user data
   const isDevelopment = false;
-  
+
   if (isDevelopment) {
     const mockUser: User = {
       sub: 'dev-user-123',
@@ -132,14 +132,14 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     );
   }
 
-  const { 
-    user, 
-    isAuthenticated, 
-    isLoading, 
+  const {
+    user,
+    isAuthenticated,
+    isLoading,
     loginWithRedirect,
     logout: auth0Logout
   } = useAuth0();
-  
+
   const [userProfile, setUserProfile] = useState<UserProfile | null>(null);
   const [contextLoading, setContextLoading] = useState(true);
   const [emailVerificationRequired, setEmailVerificationRequired] = useState(false);
@@ -153,29 +153,29 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     setSyncInProgress(true);
     try {
       console.log('🔄 Syncing user profile from backend...');
-      
+
       // Add a small delay to ensure Auth0 session is fully established
       await new Promise(resolve => setTimeout(resolve, 1000));
-      
+
       // Get full profile with permissions (this also syncs the user)
       const backendProfile = await authApi.getUserProfile();
       const frontendProfile = convertBackendProfile(backendProfile);
-      
+
       setUserProfile(frontendProfile);
       console.log('✅ User profile synced successfully:', frontendProfile.email);
-      
+
     } catch (error: any) {
       console.error('❌ Failed to sync user profile:', error);
-      
+
       // Check if this is an email verification error
-      if (error?.response?.status === 403 && 
-          error?.response?.data?.detail?.includes('Email verification required')) {
+      if (error?.response?.status === 403 &&
+        error?.response?.data?.detail?.includes('Email verification required')) {
         console.log('📧 Email verification required');
         setEmailVerificationRequired(true);
         setUserProfile(null);
         return; // Don't throw error, just set the state
       }
-      
+
       // Fallback to basic profile if backend sync fails for other reasons
       const fallbackProfile: UserProfile = {
         uid: user.sub || '',
@@ -195,7 +195,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         createdAt: new Date(),
         lastLoginAt: new Date(),
       };
-      
+
       setUserProfile(fallbackProfile);
     } finally {
       setSyncInProgress(false);
@@ -206,13 +206,13 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   useEffect(() => {
     const initializeProfile = async () => {
       setContextLoading(true);
-      
+
       if (isAuthenticated && user) {
         await syncWithBackend();
       } else {
         setUserProfile(null);
       }
-      
+
       setContextLoading(false);
     };
 
@@ -226,7 +226,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     if (!userProfile) return false;
     if (userProfile.isSuperAdmin) return true; // Super admins have all permissions
     if (userProfile.isAdmin) return true; // Regular admins have all permissions
-    
+
     const permissionMap: { [key: string]: keyof UserProfile['permissions'] } = {
       'fiscal-note-generation': 'fiscalNoteGeneration',
       'similar-bill-search': 'similarBillSearch',
@@ -235,7 +235,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       'user-management': 'userManagement',
       'audit-log-view': 'auditLogView',
     };
-    
+
     const frontendPermission = permissionMap[permission];
     return frontendPermission ? userProfile.permissions[frontendPermission] : false;
   };
@@ -247,21 +247,21 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const signInWithGoogle = async () => {
     // Clear any existing Auth0 cache before Google OAuth
     try {
-      await auth0Logout({ 
-        logoutParams: { 
-          returnTo: window.location.origin 
+      await auth0Logout({
+        logoutParams: {
+          returnTo: window.location.origin
         },
         openUrl: false // Don't redirect, just clear cache
       });
     } catch (e) {
       console.log('Cache clear attempt (expected to fail):', e);
     }
-    
+
     await loginWithRedirect({
       authorizationParams: {
         connection: 'google-oauth2',
         audience: 'https://api.financial-rag.com', // Explicit audience
-        scope: 'openid profile email'
+        scope: 'openid profile email offline_access'
       }
     });
   };
@@ -272,7 +272,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     await loginWithRedirect({
       authorizationParams: {
         connection: 'Username-Password-Authentication',
-        login_hint: _email // Pre-fill the email field
+        login_hint: _email, // Pre-fill the email field
+        scope: 'openid profile email offline_access'
       }
     });
   };
@@ -284,7 +285,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       authorizationParams: {
         connection: 'Username-Password-Authentication',
         screen_hint: 'signup',
-        login_hint: _email // Pre-fill the email field
+        login_hint: _email, // Pre-fill the email field
+        scope: 'openid profile email offline_access'
       }
     });
   };
@@ -335,13 +337,13 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const checkEmailVerification = async () => {
     if (syncInProgress) return;
-    
+
     try {
       console.log('🔄 Checking email verification status...');
-      
+
       // Call the backend verification check endpoint
       const verificationStatus = await authApi.checkVerificationStatus();
-      
+
       if (verificationStatus.email_verified) {
         console.log('✅ Email verification confirmed by backend');
         setEmailVerificationRequired(false);
@@ -351,10 +353,10 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         console.log('📧 Email still not verified according to backend');
         setEmailVerificationRequired(true);
       }
-      
+
     } catch (error: any) {
       console.error('❌ Email verification check failed:', error);
-      
+
       // If the backend call fails, try syncing with backend as fallback
       try {
         await syncWithBackend();
