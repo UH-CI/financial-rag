@@ -15,8 +15,10 @@ interface EditingUser {
     adminPanel: boolean;
     userManagement: boolean;
     auditLogView: boolean;
+    refBot: boolean;
   };
 }
+
 
 const AdminPanel: React.FC = () => {
   const { userProfile } = useAuth();
@@ -29,30 +31,30 @@ const AdminPanel: React.FC = () => {
   // Helper function to check if current admin can manage a specific user
   const canManageUser = (targetUser: UserProfile): boolean => {
     if (!userProfile) return false;
-    
+
     // Super admins can manage everyone
     if (userProfile.isSuperAdmin) return true;
-    
+
     // Regular admins can manage regular users but not other admins
     if (userProfile.isAdmin) {
       return !targetUser.isAdmin && !targetUser.isSuperAdmin;
     }
-    
+
     return false;
   };
 
   // Helper function to check if current admin can grant a specific permission
   const canGrantPermission = (permissionKey: keyof UserProfile['permissions']): boolean => {
     if (!userProfile) return false;
-    
+
     // Super admins can grant all permissions
     if (userProfile.isSuperAdmin) return true;
-    
+
     // Regular admins can only grant permissions they have
     if (userProfile.isAdmin) {
       return userProfile.permissions[permissionKey];
     }
-    
+
     return false;
   };
 
@@ -73,7 +75,7 @@ const AdminPanel: React.FC = () => {
   const convertBackendUser = (backendUser: any): UserProfile => {
     // Convert backend permission names to frontend permissions
     const permissions = backendUser.permissions || [];
-    
+
     return {
       uid: backendUser.id.toString(),
       email: backendUser.email,
@@ -87,6 +89,7 @@ const AdminPanel: React.FC = () => {
         adminPanel: permissions.includes('admin-panel'),
         userManagement: permissions.includes('user-management'),
         auditLogView: permissions.includes('audit-log-view'),
+        refBot: permissions.includes('refbot-access'),
       },
       createdAt: new Date(backendUser.created_at),
       lastLoginAt: new Date(backendUser.updated_at),
@@ -98,16 +101,16 @@ const AdminPanel: React.FC = () => {
       // Get all users from the backend API
       const backendUsers = await authApi.getAllUsers();
       const convertedUsers = backendUsers.map(convertBackendUser);
-      
+
       // Merge with any locally added users that might not be in backend yet
       const localUsers = users.filter(user => user.uid.startsWith('temp_'));
       const allUsers = [...convertedUsers, ...localUsers];
-      
+
       setUsers(allUsers);
       console.log('✅ Loaded users from backend:', convertedUsers.length, 'backend +', localUsers.length, 'local');
     } catch (error) {
       console.error('❌ Error loading users from backend:', error);
-      
+
       // If backend is not available, keep existing users (including locally added ones)
       if (users.length === 0) {
         // Only show error if we have no users at all
@@ -132,7 +135,7 @@ const AdminPanel: React.FC = () => {
 
     try {
       console.log('🔄 Saving permissions for user:', editingUser.uid, editingUser.permissions);
-      
+
       // Convert frontend permissions to backend permission names
       const backendPermissions: string[] = [];
       if (editingUser.permissions.fiscalNoteGeneration) backendPermissions.push('fiscal-note-generation');
@@ -141,17 +144,18 @@ const AdminPanel: React.FC = () => {
       if (editingUser.permissions.adminPanel) backendPermissions.push('admin-panel');
       if (editingUser.permissions.userManagement) backendPermissions.push('user-management');
       if (editingUser.permissions.auditLogView) backendPermissions.push('audit-log-view');
-      
+      if (editingUser.permissions.refBot) backendPermissions.push('refbot-access');
+
       console.log('🔄 Backend permissions:', backendPermissions);
-      
+
       // Update permissions in backend
       await authApi.updateUserPermissions(editingUser.uid, backendPermissions);
-      
+
       console.log('✅ Permissions updated in backend');
-      
+
       // Update local state
-      setUsers(users.map(user => 
-        user.uid === editingUser.uid 
+      setUsers(users.map(user =>
+        user.uid === editingUser.uid
           ? { ...user, permissions: { ...user.permissions, ...editingUser.permissions } }
           : user
       ));
@@ -172,24 +176,24 @@ const AdminPanel: React.FC = () => {
 
     try {
       console.log(`🗑️ Deleting user: ${user.email} (ID: ${uid})`);
-      
+
       // Call the backend API to delete the user
       const result = await authApi.deleteUser(parseInt(uid));
       console.log('✅ User deletion result:', result);
-      
+
       // Show success message with details
-      const message = result.auth0_deletion_success 
+      const message = result.auth0_deletion_success
         ? `User ${user.email} deleted successfully from both databases.`
         : `User ${user.email} deleted from local database. Auth0 deletion ${result.auth0_error ? 'failed: ' + result.auth0_error : 'may have failed'}.`;
-      
+
       alert(message);
-      
+
       // Remove from frontend state
       setUsers(users.filter(u => u.uid !== uid));
-      
+
     } catch (error: any) {
       console.error('❌ Error deleting user:', error);
-      
+
       const errorMessage = error.response?.data?.detail || error.message || 'Unknown error occurred';
       alert(`Failed to delete user: ${errorMessage}`);
     }
@@ -198,7 +202,7 @@ const AdminPanel: React.FC = () => {
   const handleAddUser = async (userData: { email: string; displayName: string; isAdmin: boolean; isSuperAdmin: boolean }) => {
     try {
       console.log('🔄 Creating user in backend...', userData);
-      
+
       // Create user in backend database
       const backendUser = await authApi.createUser({
         email: userData.email,
@@ -206,9 +210,9 @@ const AdminPanel: React.FC = () => {
         is_admin: userData.isAdmin,
         is_super_admin: userData.isSuperAdmin
       });
-      
+
       console.log('✅ User created in backend:', backendUser);
-      
+
       // Convert backend user to frontend format
       const newUser: UserProfile = {
         uid: backendUser.id.toString(),
@@ -223,14 +227,15 @@ const AdminPanel: React.FC = () => {
           adminPanel: backendUser.is_admin || userData.isSuperAdmin,
           userManagement: backendUser.is_admin || userData.isSuperAdmin,
           auditLogView: backendUser.is_admin || userData.isSuperAdmin,
+          refBot: userData.isSuperAdmin,
         },
         createdAt: new Date(backendUser.created_at),
         lastLoginAt: new Date(backendUser.updated_at),
       };
-      
+
       // Add to local state
       setUsers([...users, newUser]);
-      
+
     } catch (error) {
       console.error('❌ Error creating user:', error);
       throw error;
@@ -239,7 +244,7 @@ const AdminPanel: React.FC = () => {
 
   const updateEditingPermission = (permission: keyof EditingUser['permissions'], value: boolean) => {
     if (!editingUser) return;
-    
+
     setEditingUser({
       ...editingUser,
       permissions: {
@@ -265,7 +270,7 @@ const AdminPanel: React.FC = () => {
     <div className="min-h-screen bg-gray-50">
       {/* Header with logout button */}
       <AppHeader />
-      
+
       {/* Page Header */}
       <div className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -277,7 +282,7 @@ const AdminPanel: React.FC = () => {
                 <p className="text-gray-600">Manage users and system permissions</p>
               </div>
             </div>
-            
+
             <div className="flex items-center space-x-3">
               <button
                 onClick={loadUsers}
@@ -287,7 +292,7 @@ const AdminPanel: React.FC = () => {
                 <RefreshCw className="w-4 h-4" />
                 <span>Refresh</span>
               </button>
-              
+
               <button
                 onClick={() => setShowAddUserModal(true)}
                 className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
@@ -314,7 +319,7 @@ const AdminPanel: React.FC = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="bg-white rounded-lg shadow p-6">
             <div className="flex items-center">
               <Shield className="w-8 h-8 text-green-600" />
@@ -330,7 +335,7 @@ const AdminPanel: React.FC = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="bg-white rounded-lg shadow p-6">
             <div className="flex items-center">
               <Users className="w-8 h-8 text-purple-600" />
@@ -353,7 +358,7 @@ const AdminPanel: React.FC = () => {
           <div className="px-6 py-4 border-b border-gray-200">
             <h2 className="text-lg font-semibold text-gray-900">User Management</h2>
           </div>
-          
+
           {loading ? (
             <div className="p-8 text-center">
               <p className="text-gray-600">Loading users...</p>
@@ -405,13 +410,12 @@ const AdminPanel: React.FC = () => {
                         </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
-                        <span className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${
-                          user.isSuperAdmin 
-                            ? 'bg-purple-100 text-purple-800'
-                            : user.isAdmin 
-                            ? 'bg-red-100 text-red-800' 
+                        <span className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${user.isSuperAdmin
+                          ? 'bg-purple-100 text-purple-800'
+                          : user.isAdmin
+                            ? 'bg-red-100 text-red-800'
                             : 'bg-green-100 text-green-800'
-                        }`}>
+                          }`}>
                           {getUserRole(user)}
                         </span>
                       </td>
@@ -463,6 +467,21 @@ const AdminPanel: React.FC = () => {
                                 )}
                               </span>
                             </label>
+                            <label className="flex items-center space-x-2">
+                              <input
+                                type="checkbox"
+                                checked={editingUser.permissions.refBot}
+                                onChange={(e) => updateEditingPermission('refBot', e.target.checked)}
+                                disabled={!canGrantPermission('refBot')}
+                                className="rounded border-gray-300 disabled:opacity-50"
+                              />
+                              <span className={`text-sm ${!canGrantPermission('refBot') ? 'text-gray-400' : ''}`}>
+                                RefBot Access
+                                {!canGrantPermission('refBot') && (
+                                  <span className="text-xs text-gray-400 ml-1">(requires permission)</span>
+                                )}
+                              </span>
+                            </label>
                           </div>
                         ) : (
                           <div className="space-y-1">
@@ -479,6 +498,11 @@ const AdminPanel: React.FC = () => {
                             {user.permissions.hrsSearch && (
                               <span className="inline-block px-2 py-1 text-xs bg-green-100 text-green-800 rounded mr-1">
                                 HRS Search
+                              </span>
+                            )}
+                            {user.permissions.refBot && (
+                              <span className="inline-block px-2 py-1 text-xs bg-orange-100 text-orange-800 rounded mr-1">
+                                RefBot
                               </span>
                             )}
                           </div>
