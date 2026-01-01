@@ -80,7 +80,7 @@ const convertBackendProfile = (backendProfile: UserProfileWithPermissions): User
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   // 🚀 DEVELOPMENT MODE - Hardcoded fake user data
-  const isDevelopment = true;
+  const isDevelopment = false;
 
   if (isDevelopment) {
     const mockUser: User = {
