@@ -5,12 +5,16 @@ import json
 import logging
 from pathlib import Path
 from typing import List, Dict, Any, Optional
-from fastapi import APIRouter, UploadFile, File, Form, HTTPException
+from fastapi import APIRouter, UploadFile, File, Form, HTTPException, Depends
 from pydantic import BaseModel
 from redis import Redis
 from rq import Queue
 from rq.job import Job
 from rq.registry import StartedJobRegistry
+
+# Auth imports
+from auth.middleware import require_permission
+from database.models import User
 
 # Import task and constants
 from .tasks import process_refbot_upload_task, DATA_DIR, RESULTS_DIR
@@ -19,6 +23,7 @@ router = APIRouter(
     prefix="/refbot",
     tags=["RefBot"],
     responses={404: {"description": "Not found"}},
+    dependencies=[Depends(require_permission("refbot-access"))]
 )
 
 # Redis Connection
