@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useAuth0 } from '@auth0/auth0-react';
 import AppHeader from '../layout/AppHeader';
 
 interface CommitteeInfo {
@@ -162,11 +163,28 @@ const RefBotPage: React.FC = () => {
 
     const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8200';
 
+    const { getAccessTokenSilently } = useAuth0();
+
+    const getAuthToken = async () => {
+        try {
+            return await getAccessTokenSilently({
+                authorizationParams: {
+                    audience: 'https://api.financial-rag.com',
+                    scope: 'openid profile email offline_access'
+                }
+            });
+        } catch (error) {
+            console.error("Error getting auth token", error);
+            return null;
+        }
+    };
+
     const fetchResults = async () => {
         try {
+            const token = await getAuthToken();
             const response = await fetch(`${API_URL}/refbot/results`, {
                 headers: {
-                    'Authorization': `Bearer ${localStorage.getItem('auth_token')}`
+                    'Authorization': `Bearer ${token}`
                 }
             });
             if (response.ok) {
@@ -234,10 +252,11 @@ const RefBotPage: React.FC = () => {
         formData.append('file', file);
 
         try {
+            const token = await getAuthToken();
             const response = await fetch(`${API_URL}/refbot/upload`, {
                 method: 'POST',
                 headers: {
-                    'Authorization': `Bearer ${localStorage.getItem('auth_token')}`
+                    'Authorization': `Bearer ${token}`
                 },
                 body: formData,
             });
@@ -270,10 +289,11 @@ const RefBotPage: React.FC = () => {
         }
 
         try {
+            const token = await getAuthToken();
             const response = await fetch(`${API_URL}/refbot/results/${filename}`, {
                 method: 'DELETE',
                 headers: {
-                    'Authorization': `Bearer ${localStorage.getItem('auth_token')}`
+                    'Authorization': `Bearer ${token}`
                 }
             });
 

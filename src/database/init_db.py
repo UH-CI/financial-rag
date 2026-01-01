@@ -46,6 +46,11 @@ def init_permissions():
             'name': 'audit-log-view',
             'description': 'Ability to view audit logs',
             'category': 'admin'
+        },
+        {
+            'name': 'refbot-access',
+            'description': 'Access to RefBot functionality',
+            'category': 'tool'
         }
     ]
     

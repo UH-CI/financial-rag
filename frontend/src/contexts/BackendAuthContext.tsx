@@ -59,7 +59,7 @@ const mapBackendPermissions = (backendPermissions: string[]) => ({
   adminPanel: backendPermissions.includes('admin-panel'),
   userManagement: backendPermissions.includes('user-management'),
   auditLogView: backendPermissions.includes('audit-log-view'),
-  refBot: backendPermissions.includes('ref-bot'),
+  refBot: backendPermissions.includes('refbot-access'),
 });
 
 // Convert backend user profile to frontend format
@@ -238,7 +238,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       'admin-panel': 'adminPanel',
       'user-management': 'userManagement',
       'audit-log-view': 'auditLogView',
-      'ref-bot': 'refBot',
+      'refbot-access': 'refBot',
     };
 
     const frontendPermission = permissionMap[permission];
