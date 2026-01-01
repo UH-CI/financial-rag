@@ -1,0 +1,470 @@
+{
+    "status": "success",
+    "message": "Processed 100 files.qwerty",
+    "directory": "refbot_data/bills7",
+    "results": [
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB1005_.PDF.pdf",
+            "committees": [
+                "LAB",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB126_.PDF.pdf",
+            "committees": [
+                "JHA"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB129_.PDF.pdf",
+            "committees": [
+                "JHA"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB1584_.PDF.pdf",
+            "committees": [
+                "AGR",
+                "JHA",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB1600_.PDF.pdf",
+            "committees": [
+                "JHA"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB1690_.PDF.pdf",
+            "committees": [
+                "EEP",
+                "CPC",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB1701_.PDF.pdf",
+            "committees": [
+                "HSG",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB1754_.PDF.pdf",
+            "committees": [
+                "JHA"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB1782_.PDF.pdf",
+            "committees": [
+                "AGR",
+                "HLT",
+                "JHA"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB1856_.PDF.pdf",
+            "committees": [
+                "TRN",
+                "WAL",
+                "JHA"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB1875_.pdf",
+            "committees": [
+                "TOU",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB1891_.pdf",
+            "committees": [
+                "EEP",
+                "TRN",
+                "WAL"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB1898_.PDF.pdf",
+            "committees": [
+                "EEP",
+                "JHA",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB1907_.PDF.pdf",
+            "committees": [
+                "WAL",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB1911_.PDF.pdf",
+            "committees": [
+                "JHA",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB2003_.PDF.pdf",
+            "committees": [
+                "HLT",
+                "HSH",
+                "JHA",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB2140_.PDF.pdf",
+            "committees": [
+                "AGR",
+                "HED",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB2204_.PDF.pdf",
+            "committees": [
+                "HSG",
+                "PBS",
+                "JHA"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB2205_.pdf",
+            "committees": [
+                "JHA",
+                "LAB"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB237_.PDF.pdf",
+            "committees": [
+                "JHA",
+                "CPC",
+                "HLT",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB241_.PDF.pdf",
+            "committees": [
+                "HSH",
+                "EDN",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB2526_.PDF.pdf",
+            "committees": [
+                "TRN",
+                "JHA",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB2649_.PDF.pdf",
+            "committees": [
+                "HLT",
+                "CPC",
+                "JHA"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB2652_.PDF.pdf",
+            "committees": [
+                "JHA",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB2658_.PDF.pdf",
+            "committees": [
+                "LAB",
+                "LMG"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB2662_.PDF.pdf",
+            "committees": [
+                "HSH",
+                "HSG",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB2665_.PDF.pdf",
+            "committees": [
+                "LMG",
+                "WAL",
+                "EEP",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB286_.PDF.pdf",
+            "committees": [
+                "HSG",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB293_.PDF.pdf",
+            "committees": [
+                "JHA",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB378_.PDF.pdf",
+            "committees": [
+                "HLT",
+                "EDN",
+                "JHA"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB40_.PDF.pdf",
+            "committees": [
+                "LAB",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB457_.PDF.pdf",
+            "committees": [
+                "WAL",
+                "CAA",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB470_.PDF.pdf",
+            "committees": [
+                "HSH",
+                "JHA",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB473_.PDF.pdf",
+            "committees": [
+                "CAA",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB474_.PDF.pdf",
+            "committees": [
+                "CAA",
+                "JHA",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB497_.PDF.pdf",
+            "committees": [
+                "EDN",
+                "HSG",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB521_.PDF.pdf",
+            "committees": [
+                "AGR",
+                "HLT",
+                "CPC",
+                "JHA"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB537_.PDF.pdf",
+            "committees": [
+                "HLT",
+                "CPC",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB570_.PDF.pdf",
+            "committees": [
+                "HLT",
+                "JHA",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB572_.PDF.pdf",
+            "committees": [
+                "JHA",
+                "LAB"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB606_.PDF.pdf",
+            "committees": [
+                "AGR",
+                "HSH",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB780_.PDF.pdf",
+            "committees": [
+                "HSH",
+                "HSG",
+                "JHA"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB797_.PDF.pdf",
+            "committees": [
+                "CPC",
+                "LAB",
+                "ACD"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB814_.PDF.pdf",
+            "committees": [
+                "WAL",
+                "HSG",
+                "JHA"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB824_.PDF.pdf",
+            "committees": [
+                "PBS",
+                "HLT",
+                "JHA",
+                "FIN"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB827_.PDF.pdf",
+            "committees": [
+                "EDN",
+                "PBS"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB966_.PDF.pdf",
+            "committees": [
+                "HLT",
+                "CPC",
+                "JHA"
+            ],
+            "reasoning": ""
+        },
+        {
+            "prompt_style": "This is the combination of one bill and three shot",
+            "bill_name": "HB991_.PDF.pdf",
+            "committees": [
+                "ACD",
+                "EEP",
+                "FIN"
+            ],
+            "reasoning": ""
+        }
+    ]
+}

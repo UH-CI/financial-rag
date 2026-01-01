@@ -16,6 +16,7 @@ RUN apt-get update --allow-insecure-repositories && apt-get install -y --no-inst
     libtiff6 \
     sqlite3 \
     libsqlite3-0 \
+    tesseract-ocr \
     && rm -rf /var/lib/apt/lists/*
 
 # Set working directory

@@ -55,6 +55,7 @@ from api.users import router as users_router
 from api.admin import router as admin_router
 from api.protected_tools import router as tools_router
 from api.routes.auth_routes import router as auth_router
+from refbot.routes import router as refbot_router
 from database.connection import db_manager
 from database.init_db import init_permissions, init_admin_user
 
@@ -144,6 +145,7 @@ app.include_router(users_router)
 app.include_router(admin_router)
 app.include_router(tools_router)
 app.include_router(auth_router)
+app.include_router(refbot_router)
 
 # Initialize BillSimilaritySearcher
 bill_similarity_searcher = BillSimilaritySearcher("./bill_data/introduction_document_vectors.json")

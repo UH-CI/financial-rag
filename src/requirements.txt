@@ -34,6 +34,7 @@ requests
 
 # Redis for job queuing and caching
 redis>=5.0.0
+rq
 
 # Configuration and Environment
 python-dotenv==1.0.0

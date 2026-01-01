@@ -1,0 +1,715 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Committee Assignment Comparison</title>
+        <style>
+            body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; padding: 20px; background: #f5f5f7; color: #1d1d1f; }
+            h1 { text-align: center; margin-bottom: 30px; }
+            .container { max-width: 1000px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; }
+            table { width: 100%; border-collapse: collapse; }
+            th, td { padding: 12px 16px; text-align: left; border-bottom: 1px solid #e5e5e5; }
+            th { background: #f5f5f7; font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; }
+            tr:last-child td { border-bottom: none; }
+            tr:hover { background-color: #f9f9fa; }
+            .match { color: green; font-weight: bold; }
+            .mismatch { color: #d70015; }
+            .partial { color: #f5a623; }
+            .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: 500; margin-right: 4px; background: #e8e8ed; color: #1d1d1f; }
+            .notes { font-size: 11px; color: #86868b; display: block; margin-top: 4px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Committee Assignments Comparison</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Bill Name</th>
+                        <th>Predicted Committees</th>
+                        <th>Actual Committees (RefKey)</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                    <tr>
+                        <td>HB1005</td>
+                        <td>
+                            <span class="badge">LAB</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            LGO (LMG), FIN
+                            
+                        </td>
+                        <td class="partial">
+                            33% (1/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB126</td>
+                        <td>
+                            <span class="badge">JHA</span>
+                        </td>
+                        <td>
+                            JHA, FIN
+                            
+                        </td>
+                        <td class="partial">
+                            50% (1/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB129</td>
+                        <td>
+                            <span class="badge">JHA</span>
+                        </td>
+                        <td>
+                            JHA
+                            
+                        </td>
+                        <td class="match">
+                            100% (1/1)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB1584</td>
+                        <td>
+                            <span class="badge">AGR</span><span class="badge">JHA</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            AGR, JHA, FIN
+                            
+                        </td>
+                        <td class="match">
+                            100% (3/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB1600</td>
+                        <td>
+                            <span class="badge">JHA</span>
+                        </td>
+                        <td>
+                            JHA
+                            
+                        </td>
+                        <td class="match">
+                            100% (1/1)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB1690</td>
+                        <td>
+                            <span class="badge">EEP</span><span class="badge">CPC</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            CPC/EEP,FIN
+                            
+                        </td>
+                        <td class="match">
+                            100% (3/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB1701</td>
+                        <td>
+                            <span class="badge">HSG</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            HSG, FIN
+                            
+                        </td>
+                        <td class="match">
+                            100% (2/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB1754</td>
+                        <td>
+                            <span class="badge">JHA</span>
+                        </td>
+                        <td>
+                            JHA, FIN
+                            
+                        </td>
+                        <td class="partial">
+                            50% (1/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB1782</td>
+                        <td>
+                            <span class="badge">AGR</span><span class="badge">HLT</span><span class="badge">JHA</span>
+                        </td>
+                        <td>
+                            AGR, JHA
+                            
+                        </td>
+                        <td class="match">
+                            100% (2/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB1856</td>
+                        <td>
+                            <span class="badge">TRN</span><span class="badge">WAL</span><span class="badge">JHA</span>
+                        </td>
+                        <td>
+                            TRN, JHA
+                            
+                        </td>
+                        <td class="match">
+                            100% (2/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB1875</td>
+                        <td>
+                            <span class="badge">TOU</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            TOU, LGO (LMG), JHA, FIN
+                            
+                        </td>
+                        <td class="partial">
+                            40% (2/5)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB1891</td>
+                        <td>
+                            <span class="badge">EEP</span><span class="badge">TRN</span><span class="badge">WAL</span>
+                        </td>
+                        <td>
+                            EEP/CPC
+                            
+                        </td>
+                        <td class="partial">
+                            50% (1/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB1898</td>
+                        <td>
+                            <span class="badge">EEP</span><span class="badge">JHA</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            EEP/WAL, FIN
+                            
+                        </td>
+                        <td class="partial">
+                            66% (2/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB1907</td>
+                        <td>
+                            <span class="badge">WAL</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            WAL, FIN
+                            
+                        </td>
+                        <td class="match">
+                            100% (2/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB1911</td>
+                        <td>
+                            <span class="badge">JHA</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            JHA, FIN
+                            
+                        </td>
+                        <td class="match">
+                            100% (2/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB2003</td>
+                        <td>
+                            <span class="badge">HLT</span><span class="badge">HSH</span><span class="badge">JHA</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            HLT, LGO, FIN
+                            
+                        </td>
+                        <td class="partial">
+                            66% (2/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB2140</td>
+                        <td>
+                            <span class="badge">AGR</span><span class="badge">HED</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            AGR, HET (HED), FIN
+                            
+                        </td>
+                        <td class="partial">
+                            75% (3/4)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB2204</td>
+                        <td>
+                            <span class="badge">HSG</span><span class="badge">PBS</span><span class="badge">JHA</span>
+                        </td>
+                        <td>
+                            WAL/HSG,JHA
+                            
+                        </td>
+                        <td class="partial">
+                            66% (2/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB2205</td>
+                        <td>
+                            <span class="badge">JHA</span><span class="badge">LAB</span>
+                        </td>
+                        <td>
+                            JHA, FIN
+                            
+                        </td>
+                        <td class="partial">
+                            50% (1/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB237</td>
+                        <td>
+                            <span class="badge">JHA</span><span class="badge">CPC</span><span class="badge">HLT</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            JHA/HLT, CPC, FIN
+                            
+                        </td>
+                        <td class="match">
+                            100% (4/4)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB241</td>
+                        <td>
+                            <span class="badge">HSH</span><span class="badge">EDN</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            ECD,FIN
+                            
+                        </td>
+                        <td class="partial">
+                            50% (1/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB2526</td>
+                        <td>
+                            <span class="badge">TRN</span><span class="badge">JHA</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            TRN, JHA
+                            
+                        </td>
+                        <td class="match">
+                            100% (2/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB2649</td>
+                        <td>
+                            <span class="badge">HLT</span><span class="badge">CPC</span><span class="badge">JHA</span>
+                        </td>
+                        <td>
+                            HLT/CPC, FIN
+                            
+                        </td>
+                        <td class="partial">
+                            66% (2/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB2652</td>
+                        <td>
+                            <span class="badge">JHA</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            FIN
+                            
+                        </td>
+                        <td class="match">
+                            100% (1/1)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB2658</td>
+                        <td>
+                            <span class="badge">LAB</span><span class="badge">LMG</span>
+                        </td>
+                        <td>
+                            LGO (LMG), FIN
+                            
+                        </td>
+                        <td class="partial">
+                            33% (1/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB2662</td>
+                        <td>
+                            <span class="badge">HSH</span><span class="badge">HSG</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            HUS (HSH), FIN
+                            
+                        </td>
+                        <td class="partial">
+                            66% (2/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB2665</td>
+                        <td>
+                            <span class="badge">LMG</span><span class="badge">WAL</span><span class="badge">EEP</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            EEP, FIN
+                            
+                        </td>
+                        <td class="match">
+                            100% (2/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB286</td>
+                        <td>
+                            <span class="badge">HSG</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            WAL, FIN
+                            
+                        </td>
+                        <td class="partial">
+                            50% (1/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB293</td>
+                        <td>
+                            <span class="badge">JHA</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            ECD/LGO (LMG), JHA, FIN
+                            
+                        </td>
+                        <td class="partial">
+                            40% (2/5)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB378</td>
+                        <td>
+                            <span class="badge">HLT</span><span class="badge">EDN</span><span class="badge">JHA</span>
+                        </td>
+                        <td>
+                            HLT, CPC
+                            
+                        </td>
+                        <td class="partial">
+                            50% (1/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB40</td>
+                        <td>
+                            <span class="badge">LAB</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            FIN
+                            <span class="notes">*ECD, FIN acceptable</span>
+                        </td>
+                        <td class="match">
+                            100% (1/1)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB457</td>
+                        <td>
+                            <span class="badge">WAL</span><span class="badge">CAA</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            WAL, JHA, FIN
+                            
+                        </td>
+                        <td class="partial">
+                            66% (2/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB470</td>
+                        <td>
+                            <span class="badge">HSH</span><span class="badge">JHA</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            HUS (HSH), JHA
+                            
+                        </td>
+                        <td class="partial">
+                            66% (2/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB473</td>
+                        <td>
+                            <span class="badge">CAA</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            CAI (CAA), FIN
+                            
+                        </td>
+                        <td class="partial">
+                            66% (2/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB474</td>
+                        <td>
+                            <span class="badge">CAA</span><span class="badge">JHA</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            TCA, WAM
+                            
+                        </td>
+                        <td class="mismatch">
+                            0% (0/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB497</td>
+                        <td>
+                            <span class="badge">EDN</span><span class="badge">HSG</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            EDU/HOU, WAM
+                            
+                        </td>
+                        <td class="mismatch">
+                            0% (0/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB521</td>
+                        <td>
+                            <span class="badge">AGR</span><span class="badge">HLT</span><span class="badge">CPC</span><span class="badge">JHA</span>
+                        </td>
+                        <td>
+                            CPC, FIN
+                            <span class="notes">*AGR, CPC acceptable</span>
+                        </td>
+                        <td class="partial">
+                            50% (1/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB537</td>
+                        <td>
+                            <span class="badge">HLT</span><span class="badge">CPC</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            CPC, JHA, FIN
+                            
+                        </td>
+                        <td class="partial">
+                            66% (2/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB570</td>
+                        <td>
+                            <span class="badge">HLT</span><span class="badge">JHA</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            HLT, JHA, FIN
+                            
+                        </td>
+                        <td class="match">
+                            100% (3/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB572</td>
+                        <td>
+                            <span class="badge">JHA</span><span class="badge">LAB</span>
+                        </td>
+                        <td>
+                            LGO, JHA
+                            
+                        </td>
+                        <td class="partial">
+                            50% (1/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB606</td>
+                        <td>
+                            <span class="badge">AGR</span><span class="badge">HSH</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            AGR, FIN
+                            
+                        </td>
+                        <td class="match">
+                            100% (2/2)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB780</td>
+                        <td>
+                            <span class="badge">HSH</span><span class="badge">HSG</span><span class="badge">JHA</span>
+                        </td>
+                        <td>
+                            HSG/HLT,FIN
+                            
+                        </td>
+                        <td class="partial">
+                            33% (1/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB797</td>
+                        <td>
+                            <span class="badge">CPC</span><span class="badge">LAB</span><span class="badge">ACD</span>
+                        </td>
+                        <td>
+                            CPC
+                            
+                        </td>
+                        <td class="match">
+                            100% (1/1)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB814</td>
+                        <td>
+                            <span class="badge">WAL</span><span class="badge">HSG</span><span class="badge">JHA</span>
+                        </td>
+                        <td>
+                            HSG, WAL, FIN
+                            
+                        </td>
+                        <td class="partial">
+                            66% (2/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB824</td>
+                        <td>
+                            <span class="badge">PBS</span><span class="badge">HLT</span><span class="badge">JHA</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            CMV (PBS), JHA, FIN
+                            
+                        </td>
+                        <td class="partial">
+                            75% (3/4)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB827</td>
+                        <td>
+                            <span class="badge">EDN</span><span class="badge">PBS</span>
+                        </td>
+                        <td>
+                            WAL/EDN, FIN
+                            
+                        </td>
+                        <td class="partial">
+                            33% (1/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB966</td>
+                        <td>
+                            <span class="badge">HLT</span><span class="badge">CPC</span><span class="badge">JHA</span>
+                        </td>
+                        <td>
+                            HLT, CPC, FIN
+                            
+                        </td>
+                        <td class="partial">
+                            66% (2/3)
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>HB991</td>
+                        <td>
+                            <span class="badge">ACD</span><span class="badge">EEP</span><span class="badge">FIN</span>
+                        </td>
+                        <td>
+                            ECD,FIN
+                            
+                        </td>
+                        <td class="partial">
+                            50% (1/2)
+                        </td>
+                    </tr>
+        
+                </tbody>
+            </table>
+        </div>
+    </body>
+    </html>
+    

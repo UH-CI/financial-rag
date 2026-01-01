@@ -1,0 +1,92 @@
+[
+    {
+        "committee_id": "AGR",
+        "committee_name": "Agriculture & Food Systems",
+        "description": "whose scope shall be those programs relating to the Department of Agriculture, agriculture, aquaculture, crop and livestock production, food production and distribution, agricultural parks, animal welfare, invasive species, and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "CPC",
+        "committee_name": "Consumer Protection & Commerce",
+        "description": "whose scope shall be those programs relating to consumer protection, the Department of Commerce and Consumer Affairs, the regulation of trade, business, professions, occupations, and utilities, the Residential Landlord-Tenant Code, condominiums, housing cooperatives, planned communities, insurance, financial institutions, and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "CAA",
+        "committee_name": "Culture & Arts",
+        "description": "whose scope shall be those programs related to Hawaii's multi-cultural heritage and the State Foundation on Culture and the Arts; and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "ECD",
+        "committee_name": "Economic Development & Technology",
+        "description": "whose scope shall be those programs relating to private sector job creation, public- private business or investment partnerships or ventures, new industry development, planning for economic development and diversification, industrial and product promotion and financial and technical assistance to business for interstate and intrastate commerce, broadband and cable communications and services, intergovernmental relations, and technology and cybersecurity, and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "EDN",
+        "committee_name": "Education",
+        "description": "whose scope shall be those programs relating to early childhood education, primary and secondary schools, continuing education, libraries, and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "EEP",
+        "committee_name": "Energy & Environmental Protection",
+        "description": "whose scope shall be those programs relating to energy resources, electric and gas utilities, the development of new energy resources, energy efficiency, and electrification of transportation; programs relating to climate change mitigation, including decarbonization, emissions reduction, and carbon sequestration; programs relating to environmental health, including air pollution, drinking water, hazardous waste, solid waste, recycling, and wastewater management; programs relating to natural resources protection and conservation; programs relating to environmental impact assessment and chapter 343, Hawaii Revised Statutes; and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "FIN",
+        "committee_name": "Finance",
+        "description": "whose scope shall be those programs relating to overall state financing policies, including taxation and other revenues, cash and debt management, statewide implementation of planning, programming, budgeting, and evaluation, and procurement and the Procurement Code, and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "HLT",
+        "committee_name": "Health",
+        "description": "whose scope shall be those programs relating to general health, maternal and child care, dental health, medical and hospital services, mental health, hospitals, community health care facilities, and communicable diseases; and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "HED",
+        "committee_name": "Higher Education",
+        "description": "whose scope shall be those programs relating to the University of Hawaii, the community colleges, and other institutions of post-secondary education, intercollegiate athletics, and the Waikiki Aquarium; and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "HSG",
+        "committee_name": "Housing",
+        "description": "whose scope shall be those programs relating to housing development financing, assistance for homebuyers and renters, affordable and rental housing, public housing, and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "HSH",
+        "committee_name": "Human Services & Homelessness",
+        "description": "whose scope shall be those programs relating to financial assistance, medical assistance, vocational rehabilitation, social welfare services, the general well-being of the State's elderly and youth, and juvenile correctional services, and homeless services and sheltering, and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "JHA",
+        "committee_name": "Judiciary & Hawaiian Affairs",
+        "description": "whose scope shall be those programs relating to the courts, crime prevention and control, penal code, criminal enforcement, police and law enforcement, prosecution, sentencing, disposition, and punishment, probation, parole, furlough, and other alternatives to incarceration, indigent legal representation and defense matters, civil law, firearms, weapons, judicial and legal questions, constitutional matters, the Attorney General, the Judiciary, individual rights, civil rights and liberties, the Civil Rights Commission, the Ethics Code, campaign spending, and elections; and persons of Hawaiian ancestry, including programs administered by the Department of Hawaiian Home Lands and the Office of Hawaiian Affairs; and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "LAB",
+        "committee_name": "Labor",
+        "description": "whose scope shall be those programs relating to employment, government operations and efficiency, employee pay and benefits, employee recruitment, classification and training, career development, employee performance, employment conditions, standards of conduct for employers and employees, collective bargaining in public employment, the civil service system, workers' compensation, unemployment compensation, temporary disability insurance, prepaid health care, employment opportunities, and labor- management relations in the private sector; and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "LMG",
+        "committee_name": "Legislative Management",
+        "description": "whose scope shall be those programs relating to the administrative operations and legislative services of the House, including the Legislative Reference Bureau, Legislative Auditor, Office of the Ombudsman, Public Access Room, the Hawaii State General Plan, and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "PBS",
+        "committee_name": "Public Safety",
+        "description": "whose scope shall be those programs relating to adult corrections, rehabilitation, and correctional facilities and industries; military facilities, activities, and veterans’ affairs; and emergency management, including prevention, preparation, response, and recovery from civilian emergencies and disasters, and the safety, welfare, and defense of the State and its people; and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "TOU",
+        "committee_name": "Tourism",
+        "description": "whose scope shall be those programs relating to tourism, including the Hawaii Convention Center, Hawaii Visitors and Convention Bureau, and Hawaii Tourism Authority, and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "TRN",
+        "committee_name": "Transportation",
+        "description": "whose scope shall be those programs relating to the development and maintenance of air, water, and ground transportation, infrastructure, and facilities, and other pertinent matters referred to it by the House."
+    },
+    {
+        "committee_id": "WAL",
+        "committee_name": "Water & Land",
+        "description": "whose scope shall be those programs relating to climate adaptation to the actual or expected impacts of climate change; land and water resource administration and use, coastal lands, the Land Use Commission, county land use planning and zoning, the Hawaii Community Development Authority, infrastructure development, outdoor recreation, fresh water and brackish waters, small boat harbors and their infrastructure, State parks, historic sites development and protection, ocean activities and outdoor marine matters, the Coastal Zone Management Act; and other pertinent matters referred to it by the House."
+    }
+]

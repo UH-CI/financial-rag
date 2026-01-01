@@ -10,18 +10,19 @@ import FiscalNoteGenerationPage from './components/pages/FiscalNoteGenerationPag
 import SimilarBillSearchPage from './components/pages/SimilarBillSearchPage';
 import HRSSearchPage from './components/pages/HRSSearchPage';
 import EmailVerificationPage from './components/auth/EmailVerificationPage';
+import RefBotPage from './components/pages/RefBotPage';
 
 // Component to handle the root route and Auth0 callback
 const RootHandler = () => {
   const { isLoading, isAuthenticated, error } = useAuth0();
   const { emailVerificationRequired } = useAuth();
-  
+
   // If there's an Auth0 error, redirect to login
   if (error) {
     console.error('Auth0 error:', error);
     return <Navigate to="/login" replace />;
   }
-  
+
   // If Auth0 is still loading/processing, show loading screen
   // This includes initial load, callback processing, and session restoration
   if (isLoading) {
@@ -34,12 +35,12 @@ const RootHandler = () => {
       </div>
     );
   }
-  
+
   // Check for email verification requirement
   if (isAuthenticated && emailVerificationRequired) {
     return <Navigate to="/verify-email" replace />;
   }
-  
+
   // After Auth0 processing is complete, redirect based on auth state
   if (isAuthenticated) {
     return <Navigate to="/dashboard" replace />;
@@ -62,66 +63,75 @@ function App() {
           <Routes>
             {/* Public routes */}
             <Route path="/login" element={<LoginPage />} />
-            
+
             {/* Email verification route - requires authentication but not email verification */}
-            <Route 
-              path="/verify-email" 
+            <Route
+              path="/verify-email"
               element={
                 <ProtectedRoute skipEmailVerification>
                   <EmailVerificationPage />
                 </ProtectedRoute>
-              } 
+              }
             />
-            
+
             {/* Protected routes */}
-            <Route 
-              path="/dashboard" 
+            <Route
+              path="/dashboard"
               element={
                 <ProtectedRoute>
                   <Dashboard />
                 </ProtectedRoute>
-              } 
+              }
             />
-            
-            <Route 
-              path="/fiscal-note-generation" 
+
+            <Route
+              path="/fiscal-note-generation"
               element={
                 <ProtectedRoute requiredPermission="fiscalNoteGeneration">
                   <FiscalNoteGenerationPage />
                 </ProtectedRoute>
-              } 
+              }
             />
-            
-            <Route 
-              path="/similar-bill-search" 
+
+            <Route
+              path="/similar-bill-search"
               element={
                 <ProtectedRoute requiredPermission="similarBillSearch">
                   <SimilarBillSearchPage />
                 </ProtectedRoute>
-              } 
+              }
             />
-            
-            <Route 
-              path="/hrs-search" 
+
+            <Route
+              path="/hrs-search"
               element={
                 <ProtectedRoute requiredPermission="hrsSearch">
                   <HRSSearchPage />
                 </ProtectedRoute>
-              } 
+              }
             />
-            
-            <Route 
-              path="/admin" 
+
+            <Route
+              path="/refbot"
+              element={
+                <ProtectedRoute requiredPermission="refBot">
+                  <RefBotPage />
+                </ProtectedRoute>
+              }
+            />
+
+            <Route
+              path="/admin"
               element={
                 <ProtectedRoute adminOnly>
                   <AdminPanel />
                 </ProtectedRoute>
-              } 
+              }
             />
-            
+
             {/* Root route - handles Auth0 callback and redirects */}
             <Route path="/" element={<RootHandler />} />
-            
+
             {/* Catch all - redirect to dashboard */}
             <Route path="*" element={<Navigate to="/dashboard" replace />} />
           </Routes>

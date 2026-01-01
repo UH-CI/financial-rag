@@ -170,6 +170,10 @@ pipeline {
                             # Run full production deployment with GO.sh
                             # This includes: backup, stop containers, cleanup, build, start, health checks
                             ./GO.sh prod --deploy --workers \${WORKERS:-8}
+                            
+                            # Start RefBot background worker (detached)
+                            echo "🚀 Starting RefBot background worker..."
+                            docker compose -f docker-compose.prod.yml exec -d api bash src/start_worker.sh
                         '
                         """
                     }

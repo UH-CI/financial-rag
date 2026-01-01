@@ -16,6 +16,7 @@ export interface UserProfile {
     adminPanel: boolean;
     userManagement: boolean;
     auditLogView: boolean;
+    refBot: boolean;
   };
   createdAt: Date;
   lastLoginAt: Date;
@@ -58,6 +59,7 @@ const mapBackendPermissions = (backendPermissions: string[]) => ({
   adminPanel: backendPermissions.includes('admin-panel'),
   userManagement: backendPermissions.includes('user-management'),
   auditLogView: backendPermissions.includes('audit-log-view'),
+  refBot: backendPermissions.includes('ref-bot'),
 });
 
 // Convert backend user profile to frontend format
@@ -78,7 +80,7 @@ const convertBackendProfile = (backendProfile: UserProfileWithPermissions): User
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   // 🚀 DEVELOPMENT MODE - Hardcoded fake user data
-  const isDevelopment = false;
+  const isDevelopment = true;
 
   if (isDevelopment) {
     const mockUser: User = {
@@ -102,6 +104,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         adminPanel: true,
         userManagement: true,
         auditLogView: true,
+        refBot: true,
       },
       createdAt: new Date(),
       lastLoginAt: new Date(),
@@ -191,6 +194,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
           adminPanel: user.email === 'tabalbar@hawaii.edu',
           userManagement: user.email === 'tabalbar@hawaii.edu',
           auditLogView: user.email === 'tabalbar@hawaii.edu',
+          refBot: user.email === 'tabalbar@hawaii.edu',
         },
         createdAt: new Date(),
         lastLoginAt: new Date(),
@@ -234,6 +238,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       'admin-panel': 'adminPanel',
       'user-management': 'userManagement',
       'audit-log-view': 'auditLogView',
+      'ref-bot': 'refBot',
     };
 
     const frontendPermission = permissionMap[permission];
@@ -315,6 +320,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
           adminPanel: user.is_admin,
           userManagement: user.is_admin,
           auditLogView: user.is_admin,
+          refBot: false,
         },
         createdAt: new Date(user.created_at),
         lastLoginAt: new Date(user.updated_at),
