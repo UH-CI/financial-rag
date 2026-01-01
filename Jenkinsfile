@@ -150,6 +150,36 @@ pipeline {
             }
         }
 
+        stage('Build Frontend') {
+            steps {
+                script {
+                    echo "🏗️ Building frontend..."
+                }
+                withCredentials([
+                    string(credentialsId: env.VM_HOST_CRED_ID, variable: 'VM_HOST')
+                ]) {
+                    sshagent(credentials: [env.SSH_CRED_ID]) {
+                        sh """
+                        ssh -o StrictHostKeyChecking=no exouser@${VM_HOST} '
+                            set -e
+                            cd /home/exouser/RAG-system/frontend
+                            
+                            # Install dependencies and build
+                            echo "📦 Installing frontend dependencies..."
+                            npm install
+                            
+                            echo "🔨 Building frontend..."
+                            npm run build
+                        '
+                        """
+                    }
+                }
+                script {
+                    echo "✅ Frontend build completed successfully"
+                }
+            }
+        }
+
         stage('Deploy with GO.sh') {
             steps {
                 script {
