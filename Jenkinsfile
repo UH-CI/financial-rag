@@ -169,7 +169,7 @@ pipeline {
                             npm install
                             
                             echo "🔨 Building frontend..."
-                            npm run build
+                            sudo npm run build
                         '
                         """
                     }
