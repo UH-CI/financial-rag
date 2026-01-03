@@ -164,12 +164,16 @@ pipeline {
                             set -e
                             cd /home/exouser/RAG-system/frontend
                             
+                            # Fix permissions from previous sudo builds
+                            echo "🔧 Fixing permissions..."
+                            sudo chown -R $(whoami) .
+
                             # Install dependencies and build
                             echo "📦 Installing frontend dependencies..."
                             npm install
                             
                             echo "🔨 Building frontend..."
-                            sudo npm run build
+                            npm run build
                         '
                         """
                     }
