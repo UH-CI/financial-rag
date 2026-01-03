@@ -447,7 +447,20 @@ const RefBotPage: React.FC = () => {
                                             </tr>
                                         </thead>
                                         <tbody className="bg-white divide-y divide-gray-200">
-                                            {currentResult.data?.map((item: any, idx: number) => {
+                                            {currentResult.data?.sort((a: any, b: any) => {
+                                                const nameA = cleanBillName(a.bill_name);
+                                                const nameB = cleanBillName(b.bill_name);
+
+                                                // Extract numbers
+                                                const numA = parseInt(nameA.replace(/\D/g, '')) || 0;
+                                                const numB = parseInt(nameB.replace(/\D/g, '')) || 0;
+
+                                                // Sort by number
+                                                if (numA !== numB) return numA - numB;
+
+                                                // Fallback to string comparison if numbers are equal (e.g. HB1 vs SB1)
+                                                return nameA.localeCompare(nameB);
+                                            }).map((item: any, idx: number) => {
                                                 const isOdd = idx % 2 !== 0;
                                                 const rowBg = isOdd ? 'bg-gray-300' : 'bg-white';
 
