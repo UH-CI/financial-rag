@@ -166,7 +166,7 @@ pipeline {
                             
                             # Fix permissions from previous sudo builds
                             echo "🔧 Fixing permissions..."
-                            sudo chown -R $(whoami) .
+                            sudo chown -R \$(whoami) .
 
                             # Install dependencies and build
                             echo "📦 Installing frontend dependencies..."
