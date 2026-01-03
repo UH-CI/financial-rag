@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
+import { getRefBotResults, uploadRefBotCollection, deleteRefBotResult } from '../../services/api';
 import AppHeader from '../layout/AppHeader';
 
 interface CommitteeInfo {
@@ -161,7 +162,7 @@ const RefBotPage: React.FC = () => {
     const [uploading, setUploading] = useState(false);
     const [uploadError, setUploadError] = useState<string | null>(null);
 
-    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8200';
+
 
     const { getAccessTokenSilently } = useAuth0();
 
@@ -182,36 +183,31 @@ const RefBotPage: React.FC = () => {
     const fetchResults = async () => {
         try {
             const token = await getAuthToken();
-            const response = await fetch(`${API_URL}/refbot/results`, {
-                headers: {
-                    'Authorization': `Bearer ${token}`
-                }
-            });
-            if (response.ok) {
-                const data = await response.json();
+            if (!token) return;
 
-                // Handle new format { completed: [], jobs: [] }
-                let completed = [];
-                let jobs = [];
+            const data = await getRefBotResults(token);
 
-                if (data.completed) {
-                    completed = data.completed;
-                    jobs = data.jobs || [];
-                } else if (Array.isArray(data)) {
-                    // Fallback for legacy array response
-                    completed = data;
-                }
+            // Handle new format { completed: [], jobs: [] }
+            let completed = [];
+            let jobs = [];
 
-                setResultsList(completed);
-                setJobsList(jobs);
+            if (data.completed) {
+                completed = data.completed;
+                jobs = data.jobs || [];
+            } else if (Array.isArray(data)) {
+                // Fallback for legacy array response
+                completed = data;
+            }
 
-                if (completed.length > 0 && !activeTab) {
-                    setActiveTab(completed[0].filename); // Select most recent by default
-                } else if (completed.length > 0 && activeTab) {
-                    // Keep active tab if it still exists
-                    const exists = completed.find((r: AnalysisResult) => r.filename === activeTab);
-                    if (!exists) setActiveTab(completed[0].filename);
-                }
+            setResultsList(completed);
+            setJobsList(jobs);
+
+            if (completed.length > 0 && !activeTab) {
+                setActiveTab(completed[0].filename); // Select most recent by default
+            } else if (completed.length > 0 && activeTab) {
+                // Keep active tab if it still exists
+                const exists = completed.find((r: AnalysisResult) => r.filename === activeTab);
+                if (!exists) setActiveTab(completed[0].filename);
             }
         } catch (e) {
             console.error("Failed to fetch results", e);
@@ -253,21 +249,9 @@ const RefBotPage: React.FC = () => {
 
         try {
             const token = await getAuthToken();
-            const response = await fetch(`${API_URL}/refbot/upload`, {
-                method: 'POST',
-                headers: {
-                    'Authorization': `Bearer ${token}`
-                },
-                body: formData,
-            });
+            if (!token) throw new Error("Authentication failed");
 
-            if (!response.ok) {
-                const err = await response.json();
-                throw new Error(err.detail || `Error: ${response.statusText}`);
-            }
-
-            // Response now returns { status: 'queued', job_id: ... }
-            await response.json();
+            await uploadRefBotCollection(token, name, file);
 
             // Close modal and refresh immediately to show queue status
             setIsModalOpen(false);
@@ -290,22 +274,16 @@ const RefBotPage: React.FC = () => {
 
         try {
             const token = await getAuthToken();
-            const response = await fetch(`${API_URL}/refbot/results/${filename}`, {
-                method: 'DELETE',
-                headers: {
-                    'Authorization': `Bearer ${token}`
-                }
-            });
+            if (!token) return;
 
-            if (response.ok) {
-                // If the deleted tab was active, clear it so the next fetch selects a default
-                if (activeTab === filename) {
-                    setActiveTab(null);
-                }
-                await fetchResults();
-            } else {
-                alert("Failed to delete result.");
+            await deleteRefBotResult(token, filename);
+
+            // If the deleted tab was active, clear it so the next fetch selects a default
+            if (activeTab === filename) {
+                setActiveTab(null);
             }
+            await fetchResults();
+
         } catch (error) {
             console.error("Error deleting result:", error);
             alert("Error deleting result.");

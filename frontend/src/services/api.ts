@@ -1,8 +1,8 @@
 import axios from 'axios';
-import type { 
-  SearchResponse, 
-  QuestionResponse, 
-  ApiError, 
+import type {
+  SearchResponse,
+  QuestionResponse,
+  ApiError,
   CollectionsResponse,
   Bill,
   FiscalNote,
@@ -231,43 +231,43 @@ export interface PropertyPromptTemplate {
 * Get all property prompt templates and active template ID
 */
 export const getPropertyPrompts = async (): Promise<{ templates: PropertyPromptTemplate[]; active_template_id: string }> => {
-const response = await api.get('/property-prompts');
-return response.data;
+  const response = await api.get('/property-prompts');
+  return response.data;
 };
 
 /**
 * Create a new template by copying an existing one
 */
 export const createPropertyPromptTemplate = async (sourceTemplateId: string, name: string): Promise<{ success: boolean; template: PropertyPromptTemplate; message: string }> => {
-const response = await api.post('/property-prompts/template', {
-source_template_id: sourceTemplateId,
-name
-});
-return response.data;
+  const response = await api.post('/property-prompts/template', {
+    source_template_id: sourceTemplateId,
+    name
+  });
+  return response.data;
 };
 
 /**
 * Update an existing template
 */
 export const updatePropertyPromptTemplate = async (templateId: string, data: { name?: string; prompts?: PropertyPrompts }): Promise<{ success: boolean; template: PropertyPromptTemplate; message: string }> => {
-const response = await api.put(`/property-prompts/template/${templateId}`, data);
-return response.data;
+  const response = await api.put(`/property-prompts/template/${templateId}`, data);
+  return response.data;
 };
 
 /**
 * Delete a template
 */
 export const deletePropertyPromptTemplate = async (templateId: string): Promise<{ success: boolean; message: string }> => {
-const response = await api.delete(`/property-prompts/template/${templateId}`);
-return response.data;
+  const response = await api.delete(`/property-prompts/template/${templateId}`);
+  return response.data;
 };
 
 /**
 * Set the active template for fiscal note generation
 */
 export const setActivePropertyPromptTemplate = async (templateId: string): Promise<{ success: boolean; active_template_id: string; message: string }> => {
-const response = await api.put('/property-prompts/active', { template_id: templateId });
-return response.data;
+  const response = await api.put('/property-prompts/active', { template_id: templateId });
+  return response.data;
 };
 
 /**
@@ -303,7 +303,7 @@ export const saveStrikethroughs = async (
 ): Promise<{ success: boolean; message: string; filename: string; metadata_file: string; annotation_count?: number }> => {
   // Check if annotations have 'type' field to determine format
   const hasTypeField = annotations.length > 0 && annotations[0].type !== undefined;
-  
+
   const response = await api.post('/fiscal-notes/save-strikethroughs', {
     filename,
     // Send as annotations if they have type field, otherwise as strikethroughs (legacy)
@@ -341,7 +341,7 @@ export const searchDocuments = async (
 
   // Transform the backend response to match our frontend types
   const backendResults = response.data;
-  
+
   return {
     results: backendResults.map((item: any) => ({
       id: item.metadata?.id || `result_${Math.random()}`,
@@ -383,7 +383,7 @@ export const askQuestion = async (
 
   // Transform the backend response to match our frontend types
   const backendData = response.data;
-  
+
   return {
     answer: backendData.answer || 'No answer available',
     sources: (backendData.sources || []).map((source: any) => ({
@@ -419,11 +419,11 @@ export const uploadDocuments = async (
   onProgress?: (fileName: string, progress: number) => void
 ): Promise<{ message: string; processed_files: number }> => {
   const formData = new FormData();
-  
+
   files.forEach((file) => {
     formData.append('files', file);
   });
-  
+
   formData.append('parsing_type', parsingType);
   if (customParsingDescription) {
     formData.append('custom_description', customParsingDescription);
@@ -498,7 +498,7 @@ export const uploadPDFToCollection = async (
   const formData = new FormData();
   files.forEach(file => formData.append('files', file));
   formData.append('collection_path', collection_path);
-  
+
   const response = await api.post('/upload-pdf', formData, {
     headers: {
       'Content-Type': 'multipart/form-data'
@@ -653,7 +653,7 @@ export const askQuestionWithCollections = async (
   });
 
   const backendData = response.data;
-  
+
   return {
     answer: backendData.response || 'No answer available',
     sources: (backendData.sources || []).map((source: any) => ({
@@ -710,7 +710,7 @@ export const streamChatWithPDF = async (
   try {
     console.log('🚀 FRONTEND: Starting streaming connection...');
     console.log('📝 Request data:', { query: query.substring(0, 50) + '...', sessionCollection, contextCollections, threshold });
-    
+
     const response = await fetch(`${API_BASE_URL}/chat-with-pdf-stream`, {
       method: 'POST',
       headers: {
@@ -752,9 +752,9 @@ export const streamChatWithPDF = async (
         const chunk = decoder.decode(value, { stream: true });
         buffer += chunk;
         messageCount++;
-        
+
         console.log(`📨 FRONTEND: Received chunk ${messageCount}:`, chunk.substring(0, 100) + (chunk.length > 100 ? '...' : ''));
-        
+
         const lines = buffer.split('\n');
         buffer = lines.pop() || ''; // Keep incomplete line in buffer
 
@@ -764,9 +764,9 @@ export const streamChatWithPDF = async (
               const jsonData = line.slice(6);
               console.log('🔍 FRONTEND: Parsing JSON:', jsonData.substring(0, 200) + (jsonData.length > 200 ? '...' : ''));
               const data = JSON.parse(jsonData);
-              
+
               console.log('✅ FRONTEND: Parsed data:', data.type, data.message?.substring(0, 50));
-              
+
               if (data.type === 'error') {
                 console.log('❌ FRONTEND: Error received:', data.message);
                 onError(data.message);
@@ -796,6 +796,42 @@ export const streamChatWithPDF = async (
   }
 };
 
+/**
+ * RefBot API Methods
+ */
+
+export const getRefBotResults = async (token: string): Promise<{ completed: any[], jobs: any[] }> => {
+  const response = await api.get('/refbot/results', {
+    headers: {
+      'Authorization': `Bearer ${token}`
+    }
+  });
+  return response.data;
+};
+
+export const uploadRefBotCollection = async (token: string, name: string, file: File): Promise<any> => {
+  const formData = new FormData();
+  formData.append('name', name);
+  formData.append('file', file);
+
+  const response = await api.post('/refbot/upload', formData, {
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Content-Type': 'multipart/form-data'
+    }
+  });
+  return response.data;
+};
+
+export const deleteRefBotResult = async (token: string, filename: string): Promise<any> => {
+  const response = await api.delete(`/refbot/results/${filename}`, {
+    headers: {
+      'Authorization': `Bearer ${token}`
+    }
+  });
+  return response.data;
+};
+
 export default api;
 
 
@@ -815,8 +851,8 @@ const MOCK_FISCAL_NOTE_HB400: FiscalNote = {
 };
 
 const MOCK_BILLS: Bill[] = [
-    { id: 'hb400', name: 'HB400' },
-    { id: 'sb500', name: 'SB500' },
+  { id: 'hb400', name: 'HB400' },
+  { id: 'sb500', name: 'SB500' },
 ];
 
 /**
@@ -835,17 +871,17 @@ export const getBills = async (): Promise<Bill[]> => {
  * MOCKUP: Get fiscal note for a specific bill
  */
 export const getBillFiscalNote = async (billId: string): Promise<FiscalNote> => {
-    console.log(`Fetching mock fiscal note for ${billId}...`);
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            if (billId === 'hb400') {
-                resolve(MOCK_FISCAL_NOTE_HB400);
-            } else {
-                reject(new Error(`No fiscal note found for bill ${billId}`));
-            }
-        }, 1000);
-    });
-}; 
+  console.log(`Fetching mock fiscal note for ${billId}...`);
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      if (billId === 'hb400') {
+        resolve(MOCK_FISCAL_NOTE_HB400);
+      } else {
+        reject(new Error(`No fiscal note found for bill ${billId}`));
+      }
+    }, 1000);
+  });
+};
 
 /**
  * Get HRS HTML data
@@ -857,8 +893,8 @@ export const getHRSHTML = async (
 ): Promise<string> => {
   let pathOrder = [volume, chapter, section];
   let urlPathParts = ["hrs", "html"];
-  for(let part of pathOrder) {
-    if(part !== undefined) {
+  for (let part of pathOrder) {
+    if (part !== undefined) {
       urlPathParts.push(part);
     }
     else {
@@ -880,8 +916,8 @@ export const getHRSRaw = async (
 ): Promise<string> => {
   let pathOrder = [volume, chapter, section];
   let urlPathParts = ["hrs", "raw"];
-  for(let part of pathOrder) {
-    if(part !== undefined) {
+  for (let part of pathOrder) {
+    if (part !== undefined) {
       urlPathParts.push(part);
     }
     else {
@@ -905,8 +941,8 @@ export const searchHRS = async (
   let pathOrder = [volume, chapter, section];
   const queryString = encodeURIComponent(searchText);
   let urlPathParts = ["hrs", "find"];
-  for(let part of pathOrder) {
-    if(part !== undefined) {
+  for (let part of pathOrder) {
+    if (part !== undefined) {
       urlPathParts.push(part);
     }
     else {
