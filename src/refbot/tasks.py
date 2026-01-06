@@ -168,6 +168,8 @@ Please give me a json where each entry has the bill name and your decision of wh
 A single bill is allowed to have between 1 to 4 committees, it is not limited to or restricted to having more or less,
 only apply those that make sense using the rules.
 
+Also note that a bill discussing a constitutional amendment should be assigned to both the JHA and FIN committees, along with any other committees that make sense.
+
 Please use this as the layout for the produced output (use the prompt style given here):
 [  
       {{
