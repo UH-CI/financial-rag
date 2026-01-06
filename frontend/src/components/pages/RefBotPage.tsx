@@ -328,6 +328,38 @@ const RefBotPage: React.FC = () => {
         return clean.split('_')[0];
     };
 
+    const downloadCSV = () => {
+        if (!currentResult || !currentResult.data) return;
+
+        // Define CSV headers
+        const headers = ['Bill Name', 'Committees'];
+
+        // Map data to CSV rows
+        const rows = currentResult.data.map((item: any) => {
+            const billName = cleanBillName(item.bill_name);
+            const committees = item.committees ? item.committees.join(', ') : '';
+            // Escape quotes if needed, though simple names usually don't need it
+            return `"${billName}","${committees}"`;
+        });
+
+        // Combine headers and rows
+        const csvContent = [
+            headers.join(','),
+            ...rows
+        ].join('\n');
+
+        // Create blob and download link
+        const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.setAttribute('href', url);
+        link.setAttribute('download', `${currentResult.name || 'export'}.csv`);
+        link.style.visibility = 'hidden';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
         <div className="min-h-screen bg-gray-50 flex flex-col">
             <AppHeader />
@@ -364,7 +396,7 @@ const RefBotPage: React.FC = () => {
                 <div className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden min-h-[500px]">
                     {/* Tabs Header */}
                     <div className="bg-gray-100 border-b border-gray-200 flex items-center justify-between px-2 pt-2">
-                        <div className="flex space-x-1 overflow-x-auto no-scrollbar scroll-smooth items-end">
+                        <div className="flex space-x-1 overflow-x-auto no-scrollbar scroll-smooth items-end flex-grow">
                             {/* Render Jobs First */}
                             {jobsList.map((job) => (
                                 <div
@@ -412,16 +444,32 @@ const RefBotPage: React.FC = () => {
                             )}
                         </div>
 
-                        {/* Add new button */}
-                        <button
-                            onClick={() => setIsModalOpen(true)}
-                            className="mb-1 ml-2 p-1.5 rounded-full bg-blue-600 text-white hover:bg-blue-700 shadow-sm transition-colors flex-shrink-0"
-                            title="Add new dataset"
-                        >
-                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
-                            </svg>
-                        </button>
+                        {/* Actions Area */}
+                        <div className="flex items-center space-x-2 pl-2 mb-1">
+                            {/* Export CSV Button */}
+                            {currentResult && (
+                                <button
+                                    onClick={downloadCSV}
+                                    className="p-1.5 rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200 hover:text-gray-800 shadow-sm transition-colors border border-gray-300"
+                                    title="Export as CSV"
+                                >
+                                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                                    </svg>
+                                </button>
+                            )}
+
+                            {/* Add new button */}
+                            <button
+                                onClick={() => setIsModalOpen(true)}
+                                className="p-1.5 rounded-full bg-blue-600 text-white hover:bg-blue-700 shadow-sm transition-colors flex-shrink-0"
+                                title="Add new dataset"
+                            >
+                                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
+                                </svg>
+                            </button>
+                        </div>
                     </div>
 
                     {/* Content Area */}
@@ -432,18 +480,16 @@ const RefBotPage: React.FC = () => {
                                     Failed to load data: {currentResult.error}
                                 </div>
                             ) : (
-                                <div className="overflow-auto max-h-[calc(100vh-400px)] border border-gray-200 rounded-lg">
-                                    <table className="min-w-full divide-y divide-gray-200 border-separate border-spacing-0">
-                                        <thead className="bg-gray-50 sticky top-0 z-20">
+                                <div className="overflow-auto max-h-[calc(100vh-400px)] border-t border-gray-200">
+                                    <table className="min-w-full divide-y divide-gray-200">
+                                        <thead className="bg-gray-50 sticky top-0 z-20 shadow-sm">
                                             <tr>
-                                                <th scope="col" className="px-3 py-2 text-left text-xs font-bold text-gray-700 uppercase tracking-wider sticky left-0 bg-gray-50 border-b border-gray-300 border-r border-r-gray-300 z-30 shadow-[4px_0_8px_-4px_rgba(0,0,0,0.1)]">
+                                                <th scope="col" className="px-6 py-3 text-left text-xs font-bold text-gray-700 uppercase tracking-wider w-1/4">
                                                     Bill Name
                                                 </th>
-                                                {COMMITTEE_LEGEND.map(c => (
-                                                    <th key={c.committee_id} scope="col" className="px-1 py-2 text-center text-[10px] font-bold text-gray-700 border-b border-gray-300 min-w-[3rem] bg-gray-50 border-r border-gray-300 last:border-r-0 group relative" title={`${c.committee_name}: ${c.description}`}>
-                                                        <div className=" w-full h-full flex items-center justify-center">{c.committee_id}</div>
-                                                    </th>
-                                                ))}
+                                                <th scope="col" className="px-6 py-3 text-left text-xs font-bold text-gray-700 uppercase tracking-wider w-3/4">
+                                                    Committees
+                                                </th>
                                             </tr>
                                         </thead>
                                         <tbody className="bg-white divide-y divide-gray-200">
@@ -458,32 +504,38 @@ const RefBotPage: React.FC = () => {
                                                 // Sort by number
                                                 if (numA !== numB) return numA - numB;
 
-                                                // Fallback to string comparison if numbers are equal (e.g. HB1 vs SB1)
+                                                // Fallback to string comparison
                                                 return nameA.localeCompare(nameB);
                                             }).map((item: any, idx: number) => {
-                                                const isOdd = idx % 2 !== 0;
-                                                const rowBg = isOdd ? 'bg-gray-300' : 'bg-white';
+                                                // Actually let's use hover effect mainly.
 
                                                 return (
-                                                    <tr key={idx} className={`${rowBg} hover:bg-blue-100 transition-colors group`}>
-                                                        <td className={`px-3 py-1.5 whitespace-nowrap text-sm font-medium text-gray-900 border-r border-gray-300 sticky left-0 ${rowBg} group-hover:bg-blue-100 shadow-[4px_0_8px_-4px_rgba(0,0,0,0.1)] z-10`}>
+                                                    <tr key={idx} className="hover:bg-gray-50 transition-colors">
+                                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 border-r border-gray-100">
                                                             {cleanBillName(item.bill_name)}
                                                         </td>
-                                                        {COMMITTEE_LEGEND.map(c => {
-                                                            const hasRef = item.committees?.includes(c.committee_id);
+                                                        <td className="px-6 py-4">
+                                                            <div className="flex flex-wrap gap-2">
+                                                                {item.committees && item.committees.length > 0 ? (
+                                                                    item.committees.map((committeeId: string) => {
+                                                                        const committeeInfo = COMMITTEE_LEGEND.find(c => c.committee_id === committeeId);
+                                                                        const colorStyle = getCommitteeColorStyle(committeeId);
 
-                                                            return (
-                                                                <td key={c.committee_id} className="px-1 py-1 text-center border-r border-gray-500 last:border-r-0">
-                                                                    {hasRef && (
-                                                                        <div className="flex justify-center">
-                                                                            <span className="inline-flex items-center justify-center w-5 h-5 rounded-full text-[10px] font-bold bg-blue-600 text-white shadow-sm cursor-default" title={`${c.committee_name}: ${c.description}`}>
-                                                                                ✓
+                                                                        return (
+                                                                            <span
+                                                                                key={committeeId}
+                                                                                className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium border ${colorStyle} cursor-help`}
+                                                                                title={committeeInfo ? `${committeeInfo.committee_name}: ${committeeInfo.description}` : committeeId}
+                                                                            >
+                                                                                {committeeId}
                                                                             </span>
-                                                                        </div>
-                                                                    )}
-                                                                </td>
-                                                            );
-                                                        })}
+                                                                        );
+                                                                    })
+                                                                ) : (
+                                                                    <span className="text-gray-400 text-xs italic">No committees assigned</span>
+                                                                )}
+                                                            </div>
+                                                        </td>
                                                     </tr>
                                                 );
                                             })}
