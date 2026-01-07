@@ -77,7 +77,7 @@ def process_refbot_upload_task(name: str, zip_file_path_str: str, target_dir_str
 
         # 8. Process each PDF
         results = []
-        model = genai.GenerativeModel('gemini-2.5-pro')
+        model = genai.GenerativeModel('gemini-2.5-flash')
         
         for pdf_path in pdf_files:
             try:
@@ -186,10 +186,37 @@ Please use this as the layout for the produced output (use the prompt style give
        }}
     ]
 """
-                # Call Gemini
-                response = model.generate_content(prompt)
-                response_text = response.text
+                # Call Gemini with retry logic
+                max_retries = 5
+                retry_delay = 10
                 
+                for attempt in range(max_retries):
+                    try:
+                        response = model.generate_content(prompt)
+                        response_text = response.text
+                        break
+                    except Exception as e:
+                        error_str = str(e)
+                        if "429" in error_str:
+                            logging.warning(f"Rate limit hit for {pdf_path.name}. Attempt {attempt + 1}/{max_retries}. Error: {error_str[:100]}...")
+                            
+                            # Try to extract wait time from error message
+                            import re
+                            wait_match = re.search(r"retry in (\d+(\.\d+)?)s", error_str)
+                            if wait_match:
+                                wait_time = float(wait_match.group(1)) + 1  # Add 1s buffer
+                                logging.info(f"Waiting {wait_time:.2f}s as requested by API...")
+                                time.sleep(wait_time)
+                            else:
+                                # Exponential backoff
+                                sleep_time = retry_delay * (2 ** attempt)
+                                logging.info(f"Waiting {sleep_time}s before retry...")
+                                time.sleep(sleep_time)
+                        else:
+                            raise e
+                else:
+                    raise Exception(f"Failed to process {pdf_path.name} after {max_retries} attempts due to rate limiting.")
+
                 # Parse JSON
                 cleaned_json = clean_json_response(response_text)
                 bill_data = json.loads(cleaned_json)
@@ -207,14 +234,26 @@ Please use this as the layout for the produced output (use the prompt style give
                 else:
                     results.append(bill_data)
                     
+                # Add a small delay between successful requests to be nice to the API
+                time.sleep(1)
+                    
             except Exception as e:
                 logging.error(f"Error processing PDF {pdf_path.name}: {e}")
                 results.append({
                     "bill_name": pdf_path.name,
                     "error": str(e)
                 })
+            
+            # Save incremental results after each bill
+            try:
+                RESULTS_DIR.mkdir(exist_ok=True)
+                results_file = RESULTS_DIR / f"{name}.json"
+                with open(results_file, 'w', encoding='utf-8') as f:
+                    json.dump(results, f, indent=2, ensure_ascii=False)
+            except Exception as save_e:
+                logging.error(f"Failed to save incremental results: {save_e}")
 
-        # Save results to file
+        # Final save (redundant but safe)
         RESULTS_DIR.mkdir(exist_ok=True)
         results_file = RESULTS_DIR / f"{name}.json"
         
