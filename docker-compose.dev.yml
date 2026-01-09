@@ -111,6 +111,28 @@ services:
     networks:
       - rag-network
 
+  # Background Worker
+  worker:
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+    container_name: rag-worker-dev
+    command: rq worker -u redis://redis:6379
+    environment:
+      - PYTHONPATH=/src
+      - PYTHONUNBUFFERED=1
+      - ENV=development
+      - REDIS_URL=redis://redis:6379
+    restart: unless-stopped
+    depends_on:
+      - redis
+    volumes:
+      - ./src/.env:/src/.env:ro
+      - ./src/chroma_db:/src/chroma_db
+      - ./src:/src
+    networks:
+      - rag-network
+
   # Frontend Server (Development) 
   frontend:
     build:

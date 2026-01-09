@@ -817,7 +817,7 @@ export const uploadRefBotCollection = async (token: string, name: string, file: 
   const response = await api.post('/refbot/upload', formData, {
     headers: {
       'Authorization': `Bearer ${token}`,
-      'Content-Type': 'multipart/form-data'
+      'Content-Type': undefined,
     }
   });
   return response.data;

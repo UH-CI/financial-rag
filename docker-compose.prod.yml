@@ -81,6 +81,33 @@ services:
       - ./src/chroma_db:/src/chroma_db
       - ./src/fiscal_notes:/src/fiscal_notes  # Persist fiscal notes data
       - ./src/database:/src/database  # Persist database data
+      - refbot_data:/src/refbot_data # Shared volume for RefBot uploads
+      - ./src/refbot/results:/src/refbot/results # Shared volume for results
+    networks:
+      - rag-network
+
+  # Background Worker
+  worker:
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+    container_name: rag-worker
+    command: rq worker -u redis://redis:6379
+    environment:
+      - PYTHONPATH=/src
+      - PYTHONUNBUFFERED=1
+      - ENV=production
+      - REDIS_URL=redis://redis:6379
+    restart: unless-stopped
+    depends_on:
+      - redis
+    volumes:
+      - ./src/.env:/src/.env:ro
+      - ./src/chroma_db:/src/chroma_db
+      - ./src/fiscal_notes:/src/fiscal_notes # Persist fiscal notes data
+      - ./src/database:/src/database # Persist database data
+      - refbot_data:/src/refbot_data # Shared volume for RefBot uploads
+      - ./src/refbot/results:/src/refbot/results # Shared volume for results
     networks:
       - rag-network
 
@@ -127,4 +154,7 @@ networks:
 
 volumes:
   redis_data:
+    driver: local
+
+  refbot_data:
     driver: local

@@ -13,9 +13,10 @@ from documents.step1_text_extraction.pdf_text_extractor import PDFTextExtractor
 
 # Setup Paths
 # Assuming this file is in src/refbot/
-DATA_DIR = Path("refbot_data")
-CONTEXT_DIR = Path(__file__).parent / "context"
-RESULTS_DIR = Path(__file__).parent / "results"
+# Use .resolve() to convert to absolute paths to avoid issues when paths are passed as strings to worker
+DATA_DIR = Path("refbot_data").resolve()
+CONTEXT_DIR = Path(__file__).parent.resolve() / "context"
+RESULTS_DIR = Path(__file__).parent.resolve() / "results"
 
 # Configure GenAI
 if settings.google_api_key:
@@ -45,7 +46,7 @@ def process_refbot_upload_task(name: str, zip_file_path_str: str, target_dir_str
     try:
         # 5. Unzip the file
         extract_dir = target_dir / "extracted"
-        extract_dir.mkdir(exist_ok=True)
+        extract_dir.mkdir(parents=True, exist_ok=True)
         with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
             zip_ref.extractall(extract_dir)
             
@@ -169,6 +170,23 @@ A single bill is allowed to have between 1 to 4 committees, it is not limited to
 only apply those that make sense using the rules.
 
 Also note that a bill discussing a constitutional amendment should be assigned to both the JHA and FIN committees, along with any other committees that make sense.
+The order of the referrals should first go by subject matter, then jurisdiction, and then application effects
+If the measure has the word short form in the report title, it is only referred to the subject matter (first) commttee
+If a bill states "Claims against the state" then it should be JHA, FIN. and then if it is a bill relating to "statutory revision" it should just be JHA. 
+
+When determining the order of committees, you must follow this hierarchy:
+1. Primary Jurisdiction: The first committee must be the one whose subject matter is most directly aligned with the bill's core intent (Direct Jurisdiction as defined in the Committee Description)
+2. Statewide Jurisdiction: Secondary referrals should go to committees with broader statewide oversight relevant to the bill.
+3. Constitutional Amendments: Any bill proposing a constitutional amendment MUST include both JHA and FIN
+4. The "CPC-JHA-FIN" Anchor : If the referral includes CPC, JHA, or FIN, they must ALWAYS appear in this specific relative order:
+    - CPC (Consumer Protection & Commerce) always comes before JHA
+    - JHA (Judiciary & Hawaiian Affairs) always comes after CPC but before FIN
+    - FIN (Finance) is always the FINAL referral in any sequence 
+    * (Example: If a bill is referred to AGR, CPC, and FIN, the order must be AGR, CPC, FIN)
+5. If the rules suggest more than 4 committees, prioritize the primary jurisdiction, JHA, and FIN, and truncate the relevant secondary committee to stay within the 4-committee limit 
+6. Short Form Bills: If the measure contains the word "short form" in the report title, it is only referred to the subject matter committee and does not follow the multi-committee hierarchy described 
+7. Revision bills: If the measure contains the word "revision bill" in the report title, it is only referred to JHA and does not follow the multi-committee hierarchy described
+8. Claims against the State: If the measure contains he words "claims against the state" in th report tile it is only referred to JHA, and FIN.
 
 Please use this as the layout for the produced output (use the prompt style given here):
 [  
