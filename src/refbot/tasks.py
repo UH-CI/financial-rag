@@ -182,8 +182,8 @@ When determining the order of committees, you must follow this hierarchy:
     - CPC (Consumer Protection & Commerce) always comes before JHA
     - JHA (Judiciary & Hawaiian Affairs) always comes after CPC but before FIN
     - FIN (Finance) is always the FINAL referral in any sequence 
-    * (Example: If a bill is referred to AGR, CPC, and FIN, the order must be AGR, CPC, FIN)
-5. If the rules suggest more than 4 committees, prioritize the primary jurisdiction, JHA, and FIN, and truncate the relevant secondary committee to stay within the 4-committee limit 
+* (Example: If a bill is referred to AGR, CPC, and FIN, the order must be AGR, CPC, FIN)
+5. If the rules suggest more than 4 committees, prioritize the primary jurisdiction, CPC, JHA, and FIN, and truncate the relevant secondary committee to stay within the 4-committee limit
 6. Short Form Bills: If the measure contains the word "short form" in the report title, it is only referred to the subject matter committee and does not follow the multi-committee hierarchy described 
 7. Revision bills: If the measure contains the word "revision bill" in the report title, it is only referred to JHA and does not follow the multi-committee hierarchy described
 8. Claims against the State: If the measure contains he words "claims against the state" in th report tile it is only referred to JHA, and FIN.

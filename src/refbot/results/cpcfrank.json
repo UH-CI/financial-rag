@@ -1,0 +1,33 @@
+[
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2442_.pdf",
+    "committees": [
+      "HLT",
+      "CPC",
+      "JHA"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "hb2766.pdf",
+    "committees": [
+      "EEP",
+      "WAL",
+      "PBS",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "hb77.pdf",
+    "committees": [
+      "LAB",
+      "EDN",
+      "FIN"
+    ],
+    "reasoning": "The bill clarifies that public charter school teachers and other personnel are included in collective bargaining unit (5). This directly falls under the scope of the **Labor (LAB)** committee, which covers 'employment, collective bargaining in public employment, and labor-management relations'. The bill also concerns 'teachers' and 'public charter schools', which are programs related to 'primary and secondary schools' under the **Education (EDN)** committee's scope. Finally, changes to collective bargaining units for public employees, even if a clarification, can have implications for state expenditures and overall financing policies, thus warranting referral to the **Finance (FIN)** committee. The order prioritizes LAB for its direct jurisdiction over collective bargaining, followed by EDN for the subject matter of education/teachers, and FIN as the final referral due to potential financial implications as per rules 13.1 and 13.2 and the CPC-JHA-FIN anchor rule."
+  }
+]
