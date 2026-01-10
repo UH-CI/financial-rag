@@ -59,17 +59,165 @@ def get_chrome_version():
 
 def create_stealth_driver(download_dir=None, port=None):
     """
-    Create a more stealth-oriented Chrome driver to bypass Cloudflare bot detection.
-    Automatically detects and uses the correct Chrome version.
+    Create a Chrome driver using remote Selenium or local installation.
     """
+    import os
+    
+    # Check for remote Selenium URL
+    selenium_remote_url = os.environ.get('SELENIUM_REMOTE_URL')
+    
+    if selenium_remote_url:
+        # Use remote Selenium service
+        from selenium import webdriver
+        from selenium.webdriver.chrome.options import Options
+        
+        options = Options()
+        # Enhanced options to bypass Cloudflare protection
+        options.add_argument('--headless')  # Use standard headless mode
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+        options.add_argument('--disable-gpu')
+        options.add_argument('--remote-debugging-port=9222')
+        options.add_argument('--window-size=1920,1080')
+        
+        # Anti-detection options
+        options.add_argument('--disable-blink-features=AutomationControlled')
+        options.add_argument('--disable-extensions')
+        options.add_argument('--no-first-run')
+        options.add_argument('--disable-default-apps')
+        options.add_argument('--disable-infobars')
+        options.add_argument('--disable-web-security')
+        options.add_argument('--allow-running-insecure-content')
+        
+        # Set realistic user agent
+        options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
+        
+        # Additional stealth options
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option('useAutomationExtension', False)
+        
+        if download_dir:
+            options.add_experimental_option("prefs", {
+                "download.default_directory": download_dir,
+                "download.prompt_for_download": False,
+                "plugins.always_open_pdf_externally": True,
+                "download.directory_upgrade": True,
+                "safebrowsing.enabled": True
+            })
+        
+        try:
+            driver = webdriver.Remote(
+                command_executor=selenium_remote_url,
+                options=options
+            )
+            
+            # Execute stealth scripts to hide automation traces
+            driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+            driver.execute_script("Object.defineProperty(navigator, 'plugins', {get: () => [1, 2, 3, 4, 5]})")
+            driver.execute_script("Object.defineProperty(navigator, 'languages', {get: () => ['en-US', 'en']})")
+            driver.execute_script("Object.defineProperty(navigator, 'permissions', {get: () => ({query: () => Promise.resolve({state: 'granted'})})})")
+            
+            # Set viewport and other browser properties
+            driver.execute_script("Object.defineProperty(screen, 'width', {get: () => 1920})")
+            driver.execute_script("Object.defineProperty(screen, 'height', {get: () => 1080})")
+            driver.execute_script("Object.defineProperty(screen, 'availWidth', {get: () => 1920})")
+            driver.execute_script("Object.defineProperty(screen, 'availHeight', {get: () => 1040})")
+            
+            # Add some randomness to make it appear more human
+            driver.execute_script("Object.defineProperty(navigator, 'hardwareConcurrency', {get: () => 8})")
+            driver.execute_script("Object.defineProperty(navigator, 'deviceMemory', {get: () => 8})")
+            
+            print(f"✅ Created remote Chrome driver using Selenium at {selenium_remote_url}")
+            return driver
+        except Exception as e:
+            print(f"❌ Failed to create remote Chrome driver: {e}")
+            raise
+    
+    # Check if we're in Docker environment (fallback)
+    is_docker = os.path.exists('/.dockerenv') or os.environ.get('DOCKER_ENV') == 'true'
+    
+    if is_docker:
+        # Use standard Selenium WebDriver in Docker for better compatibility
+        from selenium import webdriver
+        from selenium.webdriver.chrome.options import Options
+        
+        options = Options()
+        # Essential Docker Chrome options
+        options.add_argument('--headless=new')
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+        options.add_argument('--disable-gpu')
+        options.add_argument('--disable-software-rasterizer')
+        options.add_argument('--disable-background-timer-throttling')
+        options.add_argument('--disable-backgrounding-occluded-windows')
+        options.add_argument('--disable-renderer-backgrounding')
+        options.add_argument('--disable-features=TranslateUI,VizDisplayCompositor')
+        options.add_argument('--disable-ipc-flooding-protection')
+        options.add_argument('--disable-extensions')
+        options.add_argument('--disable-default-apps')
+        options.add_argument('--disable-sync')
+        options.add_argument('--no-first-run')
+        options.add_argument('--no-default-browser-check')
+        options.add_argument('--disable-background-networking')
+        options.add_argument('--disable-component-extensions-with-background-pages')
+        options.add_argument('--disable-client-side-phishing-detection')
+        options.add_argument('--disable-hang-monitor')
+        options.add_argument('--disable-prompt-on-repost')
+        options.add_argument('--disable-web-security')
+        options.add_argument('--allow-running-insecure-content')
+        options.add_argument('--window-size=1920,1080')
+        options.add_argument('--virtual-time-budget=5000')
+        options.add_argument('--disable-features=VizDisplayCompositor')
+        
+        # Use webdriver-manager for automatic ChromeDriver management
+        from webdriver_manager.chrome import ChromeDriverManager
+        from selenium.webdriver.chrome.service import Service
+        
+        if download_dir:
+            options.add_experimental_option("prefs", {
+                "download.default_directory": download_dir,
+                "download.prompt_for_download": False,
+                "plugins.always_open_pdf_externally": True,
+                "download.directory_upgrade": True,
+                "safebrowsing.enabled": True
+            })
+        
+        try:
+            # Use webdriver-manager to automatically handle ChromeDriver
+            service = Service(ChromeDriverManager().install())
+            driver = webdriver.Chrome(service=service, options=options)
+            print("✅ Created Chrome driver using webdriver-manager")
+            return driver
+        except Exception as e:
+            print(f"❌ Failed to create Chrome driver with webdriver-manager: {e}")
+            # Fallback: try without service (assumes ChromeDriver in PATH)
+            try:
+                driver = webdriver.Chrome(options=options)
+                print("✅ Created Chrome driver using system ChromeDriver")
+                return driver
+            except Exception as e2:
+                print(f"❌ Failed to create Chrome driver (fallback): {e2}")
+                raise
+    
+    # Original undetected_chromedriver code for non-Docker environments
     # Auto-detect Chrome version
     chrome_version = get_chrome_version()
     
     options = uc.ChromeOptions()
     
-    # Basic stealth options
+    # Docker-specific Chrome options
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--disable-software-rasterizer')
+    options.add_argument('--disable-background-timer-throttling')
+    options.add_argument('--disable-backgrounding-occluded-windows')
+    options.add_argument('--disable-renderer-backgrounding')
+    options.add_argument('--disable-features=TranslateUI')
+    options.add_argument('--disable-ipc-flooding-protection')
+    options.add_argument('--single-process')
+    
+    # Basic stealth options
     options.add_argument('--disable-blink-features=AutomationControlled')
     options.add_argument('--disable-extensions')
     options.add_argument('--disable-plugins-discovery')
@@ -82,6 +230,10 @@ def create_stealth_driver(download_dir=None, port=None):
     
     # Headless mode with new implementation
     options.add_argument('--headless=new')
+    
+    # Memory and performance optimizations for Docker
+    options.add_argument('--memory-pressure-off')
+    options.add_argument('--max_old_space_size=4096')
     
     # Set a realistic user agent (dynamically set version if detected)
     if chrome_version:
@@ -102,8 +254,7 @@ def create_stealth_driver(download_dir=None, port=None):
             "safebrowsing.enabled": True
         })
     
-    # Additional experimental options to avoid detection
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    # Additional experimental options to avoid detection (simplified for Docker)
     options.add_experimental_option('useAutomationExtension', False)
     
     # Add unique port if specified to avoid conflicts
@@ -160,9 +311,9 @@ def create_stealth_driver(download_dir=None, port=None):
         
         try:
             if chrome_version:
-                driver = uc.Chrome(options=basic_options, version_main=chrome_version, port=port if port else 0, use_subprocess=True)
+                driver = uc.Chrome(options=basic_options, version_main=chrome_version, use_subprocess=True)
             else:
-                driver = uc.Chrome(options=basic_options, port=port if port else 0, use_subprocess=True)
+                driver = uc.Chrome(options=basic_options, use_subprocess=True)
             
             # Apply stealth scripts
             try:
@@ -178,15 +329,16 @@ def create_stealth_driver(download_dir=None, port=None):
             # Ultimate fallback - let undetected-chromedriver fully auto-detect
             try:
                 print("Trying ultimate fallback with auto-detection...")
-                driver = uc.Chrome(port=port if port else 0)
+                driver = uc.Chrome()
                 return driver
             except Exception as e3:
                 print(f"All driver creation attempts failed: {e3}")
                 raise
 
-def wait_with_random_delay(min_seconds=2, max_seconds=5):
+def wait_with_random_delay(min_seconds=0, max_seconds=1):
     """Wait with a random delay to appear more human-like."""
     delay = random.uniform(min_seconds, max_seconds)
+    print(f"⏳ Waiting {delay:.1f} seconds...")
     time.sleep(delay)
 
 def retry_with_backoff(func, max_retries=3, base_delay=2):
@@ -239,12 +391,17 @@ def extract_measure_links(html, base_url):
     measure_divs += soup.find_all("div", class_="measure-status card shadow text-center")
 
     # Find the "Committee Reports" card
-    committee_reports_div = soup.find("h2", string="Committee Reports").find_parent("div", class_="measure-status")
-
-    # Extract all <a> links that are NOT the PDF ones (only the text links)
-    links = committee_reports_div.select("a[id^='MainContent_RepeaterCommRpt_CategoryLink']")
-
-    names = [link.get_text(strip=True) for link in links]
+    committee_reports_h2 = soup.find("h2", string="Committee Reports")
+    names = []
+    
+    if committee_reports_h2:
+        committee_reports_div = committee_reports_h2.find_parent("div", class_="measure-status")
+        if committee_reports_div:
+            # Extract all <a> links that are NOT the PDF ones (only the text links)
+            links_elements = committee_reports_div.select("a[id^='MainContent_RepeaterCommRpt_CategoryLink']")
+            names = [link.get_text(strip=True) for link in links_elements]
+    else:
+        print("Warning: No 'Committee Reports' section found on the page")
 
 
     for div in measure_divs:
@@ -364,14 +521,46 @@ def fetch_documents(measure_url: str) -> str:
 
     def load_page_with_retry():
         driver.get(measure_url)
-        wait_with_random_delay(3, 6)  # Wait longer to bypass Cloudflare
         
-        # Check if we hit Cloudflare protection
+        # Wait for initial page load
+        wait_with_random_delay(0, 1)
+        
+        # Check for Cloudflare challenge and wait if needed
+        max_cloudflare_wait = 30  # Maximum time to wait for Cloudflare
+        start_time = time.time()
+        
+        while time.time() - start_time < max_cloudflare_wait:
+            page_source = driver.page_source.lower()
+            
+            # Check for various Cloudflare indicators
+            cloudflare_indicators = [
+                "checking your browser",
+                "cloudflare",
+                "attention required",
+                "please wait",
+                "ray id",
+                "cf-browser-verification"
+            ]
+            
+            if any(indicator in page_source for indicator in cloudflare_indicators):
+                print("🔄 Cloudflare challenge detected, waiting...")
+                wait_with_random_delay(0, 1)
+                continue
+            
+            # Check if we have actual content (Hawaii Legislature specific)
+            if "hawaii" in page_source and ("legislature" in page_source or "capitol" in page_source):
+                print(f"✅ Page loaded successfully. Title: {driver.title}")
+                return True
+            
+            # If no Cloudflare but also no expected content, wait a bit more
+            wait_with_random_delay(0, 1)
+        
+        # Final check after timeout
         page_source = driver.page_source.lower()
-        if "cloudflare" in page_source or "attention required" in page_source:
-            raise WebDriverException("Cloudflare protection detected")
+        if any(indicator in page_source for indicator in ["checking your browser", "cloudflare", "attention required"]):
+            raise WebDriverException("Cloudflare protection could not be bypassed")
         
-        print(f"Page loaded successfully. First 500 chars: {driver.page_source[:500]}")
+        print(f"Page loaded (timeout reached). First 500 chars: {driver.page_source[:500]}")
         return True
 
     try:

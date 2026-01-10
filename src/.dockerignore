@@ -1,1 +1,19 @@
 chroma_db/
+myenv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.log
+*.pid
+.DS_Store
+.git
+.gitignore
+README.md
+*.md
+.env
+# fiscal_notes/generation/*/ - commented out to allow Python files
+documents/storage_documents/
+documents/extracted_text/
+documents/chunked_text/

@@ -1,0 +1,993 @@
+[
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB570_.PDF.pdf",
+    "committees": [
+      "HLT",
+      "JHA",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2716.pdf",
+    "committees": [
+      "JHA"
+    ],
+    "reasoning": "The bill explicitly relates to \"criminal homicide,\" \"involuntary manslaughter,\" and \"voluntary manslaughter,\" and amends Chapter 707 of the Hawaii Revised Statutes, which is the Penal Code. The Judiciary & Hawaiian Affairs (JHA) committee's scope includes \"programs relating to the courts, crime prevention and control, penal code, criminal enforcement, police and law enforcement, prosecution, sentencing, disposition, and punishment, probation, parole, furlough, and other alternatives to incarceration, indigent legal representation and defense matters, civil law, firearms, weapons, judicial and legal questions, constitutional matters, the Attorney General, the Judiciary, individual rights, civil rights and liberties, the Civil Rights Commission, the Ethics Code, campaign spending, and elections.\" This bill clearly falls under JHA's responsibility regarding the penal code and criminal law. There is no appropriation language or other elements that would necessitate referral to the Finance committee or any other committee based on the provided rules."
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB40_.PDF.pdf",
+    "committees": [
+      "JHA",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2206.pdf",
+    "committees": [
+      "CPC"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2199.pdf",
+    "committees": [
+      "LAB",
+      "JHA",
+      "FIN",
+      "AGR"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB814_.PDF.pdf",
+    "committees": [
+      "HSG",
+      "WAL",
+      "ECD"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2234.pdf",
+    "committees": [
+      "JHA",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2140_.PDF.pdf",
+    "committees": [
+      "AGR",
+      "HED",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2803.pdf",
+    "committees": [
+      "HED"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2365.pdf",
+    "committees": [
+      "TRN",
+      "PBS",
+      "HSG",
+      "WAL"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2220.pdf",
+    "committees": [
+      "JHA",
+      "PBS"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB1584_.PDF.pdf",
+    "committees": [
+      "AGR",
+      "JHA",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB1701_.PDF.pdf",
+    "committees": [
+      "HSG",
+      "FIN",
+      "CPC"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB470_.PDF.pdf",
+    "committees": [
+      "HSH",
+      "JHA",
+      "HLT",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2205_.pdf",
+    "committees": [
+      "JHA",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2254.pdf",
+    "committees": [
+      "LAB",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB1898_.PDF.pdf",
+    "committees": [
+      "EEP",
+      "HLT",
+      "JHA",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB474_.PDF.pdf",
+    "committees": [
+      "CAA",
+      "EDN",
+      "EEP",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB129_.PDF.pdf",
+    "committees": [
+      "JHA"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB126_.PDF.pdf",
+    "committees": [
+      "JHA",
+      "PBS",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2208.pdf",
+    "committees": [
+      "HLT",
+      "WAL",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB780_.PDF.pdf",
+    "committees": [
+      "HSH",
+      "HSG",
+      "WAL",
+      "JHA"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2806.pdf",
+    "committees": [
+      "HLT",
+      "FIN",
+      "CPC",
+      "PBS"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2221.pdf",
+    "committees": [
+      "HLT",
+      "HED",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB1875_.pdf",
+    "committees": [
+      "FIN",
+      "TOU"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB606_.PDF.pdf",
+    "committees": [
+      "AGR",
+      "WAL",
+      "HSH",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2745.pdf",
+    "committees": [
+      "LMG"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2704.pdf",
+    "committees": [
+      "JHA"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2339.pdf",
+    "committees": [
+      "PBS",
+      "ECD",
+      "CPC",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2213.pdf",
+    "committees": [
+      "CPC",
+      "JHA"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2280.pdf",
+    "committees": [
+      "TRN",
+      "EDN",
+      "LAB",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2320.pdf",
+    "committees": [
+      "JHA",
+      "PBS"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB572_.PDF.pdf",
+    "committees": [
+      "JHA",
+      "LMG"
+    ],
+    "reasoning": "The bill amends Section 91-3, Hawaii Revised Statutes, which governs administrative rulemaking procedures. \n\n**JHA (Judiciary & Hawaiian Affairs):** This committee's scope includes 'judicial and legal questions' and 'civil law.' Amending the Hawaii Revised Statutes concerning administrative procedures falls directly under the purview of legal framework oversight, as it dictates how state agencies exercise their delegated legal authority. The Attorney General and Judiciary are often involved in the review and interpretation of administrative rules.\n\n**LMG (Legislative Management):** This committee's scope includes 'administrative operations' and the 'Public Access Room.' The bill's focus on requiring 'electronic notice' and internet posting for proposed rules directly relates to enhancing public access to administrative processes, improving transparency, and standardizing 'administrative operations' across state agencies. While LMG's primary focus is House operations, the 'administrative operations' and 'public access' elements can extend to statewide administrative processes concerning public information."
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2734.pdf",
+    "committees": [
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2330.pdf",
+    "committees": [
+      "HLT",
+      "PBS",
+      "LAB",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2215.pdf",
+    "committees": [
+      "HLT",
+      "HSH",
+      "LAB",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2665_.PDF.pdf",
+    "committees": [
+      "LMG",
+      "EEP",
+      "WAL",
+      "TRN",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB1782_.PDF.pdf",
+    "committees": [
+      "HLT",
+      "JHA",
+      "CPC",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2697.pdf",
+    "committees": [
+      "WAL",
+      "JHA",
+      "HED",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2335.pdf",
+    "committees": [
+      "AGR",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2531.pdf",
+    "committees": [
+      "HLT",
+      "JHA",
+      "LAB"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2375.pdf",
+    "committees": [
+      "FIN",
+      "PBS",
+      "WAL"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2325.pdf",
+    "committees": [
+      "HSH",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2258.pdf",
+    "committees": [
+      "LAB",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2302.pdf",
+    "committees": [
+      "FIN",
+      "EDN",
+      "HLT",
+      "WAL"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB1856_.PDF.pdf",
+    "committees": [
+      "TRN",
+      "PBS",
+      "WAL",
+      "JHA"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB966_.PDF.pdf",
+    "committees": [
+      "HLT",
+      "CPC",
+      "JHA"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB1907_.PDF.pdf",
+    "committees": [
+      "WAL",
+      "PBS",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2381.pdf",
+    "committees": [
+      "FIN",
+      "LAB"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2649_.PDF.pdf",
+    "committees": [
+      "HLT",
+      "JHA",
+      "CPC"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB293_.PDF.pdf",
+    "committees": [
+      "JHA",
+      "FIN"
+    ],
+    "reasoning": "This bill proposes an amendment to Article VIII, Section 3 of the Hawaii Constitution relating to the functions, powers, and duties of real property taxation. According to the special rule, 'a bill discussing a constitutional amendment should be assigned to both the JHA and FIN committees.'\n\n1.  **JHA (Judiciary & Hawaiian Affairs)**: Its scope includes 'constitutional matters,' which is directly applicable to a proposed constitutional amendment.\n2.  **FIN (Finance)**: Its scope includes 'overall state financing policies, including taxation and other revenues.' The bill's core subject is the change in authority over real property taxation and its impact on state tax revenue policies (e.g., eliminating income taxes, offsetting with property taxes), making FIN an essential committee."
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2660.pdf",
+    "committees": [
+      "JHA",
+      "LMG",
+      "FIN",
+      "AGR",
+      "WAL",
+      "HLT",
+      "CPC",
+      "LAB",
+      "TOU"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2324.pdf",
+    "committees": [
+      "HSG",
+      "HSH",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2298.pdf",
+    "committees": [
+      "CPC",
+      "AGR",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB497_.PDF.pdf",
+    "committees": [
+      "EDN",
+      "HSG",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB1690_.PDF.pdf",
+    "committees": [
+      "FIN",
+      "EEP",
+      "CPC"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB378_.PDF.pdf",
+    "committees": [
+      "HLT",
+      "JHA",
+      "PBS",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2392.pdf",
+    "committees": [
+      "CPC",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB991_.PDF.pdf",
+    "committees": [
+      "ECD",
+      "EEP",
+      "FIN",
+      "LAB"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2278.pdf",
+    "committees": [
+      "AGR",
+      "CPC"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2733.pdf",
+    "committees": [
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2573.pdf",
+    "committees": [
+      "CPC",
+      "JHA"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB237_.PDF.pdf",
+    "committees": [
+      "FIN",
+      "HLT",
+      "JHA",
+      "ECD"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2253.pdf",
+    "committees": [
+      "HLT",
+      "JHA",
+      "CPC",
+      "TOU"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB1754_.PDF.pdf",
+    "committees": [
+      "JHA"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2658_.PDF.pdf",
+    "committees": [
+      "LAB",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2232.pdf",
+    "committees": [
+      "JHA",
+      "LAB",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2204_.PDF.pdf",
+    "committees": [
+      "HSG",
+      "PBS",
+      "WAL",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB457_.PDF.pdf",
+    "committees": [
+      "WAL",
+      "CAA",
+      "TRN",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB1005_.PDF.pdf",
+    "committees": [
+      "LAB",
+      "FIN",
+      "EDN",
+      "JHA",
+      "HLT"
+    ]
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2682.pdf",
+    "committees": [
+      "HED",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2297.pdf",
+    "committees": [
+      "EEP",
+      "TRN",
+      "ECD",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB827_.PDF.pdf",
+    "committees": [
+      "EDN",
+      "PBS",
+      "WAL"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB537_.PDF.pdf",
+    "committees": [
+      "FIN",
+      "CPC",
+      "HLT"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB1600_.PDF.pdf",
+    "committees": [
+      "JHA"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB241_.PDF.pdf",
+    "committees": [
+      "FIN",
+      "EDN",
+      "HSH"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2405.pdf",
+    "committees": [
+      "HLT",
+      "HSH",
+      "JHA",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2197.pdf",
+    "committees": [
+      "LAB",
+      "CPC",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB473_.PDF.pdf",
+    "committees": [
+      "CAA",
+      "LAB",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2652_.PDF.pdf",
+    "committees": [
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2776.pdf",
+    "committees": [
+      "FIN",
+      "EDN",
+      "HED",
+      "EEP",
+      "WAL"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2769.pdf",
+    "committees": [
+      "FIN",
+      "EDN",
+      "TRN",
+      "HSG"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2326.pdf",
+    "committees": [
+      "HSH",
+      "HSG",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2191.pdf",
+    "committees": [
+      "AGR",
+      "HLT",
+      "EEP",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2240.pdf",
+    "committees": [
+      "EDN",
+      "HED",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB824_.PDF.pdf",
+    "committees": [
+      "PBS",
+      "HLT",
+      "JHA",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB1891_.pdf",
+    "committees": [
+      "EEP",
+      "TRN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2662_.PDF.pdf",
+    "committees": [
+      "HSG",
+      "HSH",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB1911_.PDF.pdf",
+    "committees": [
+      "JHA",
+      "FIN",
+      "WAL"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2276.pdf",
+    "committees": [
+      "HLT",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB797_.PDF.pdf",
+    "committees": [
+      "CPC",
+      "LAB",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2526_.PDF.pdf",
+    "committees": [
+      "TRN",
+      "JHA",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2528.pdf",
+    "committees": [
+      "EEP",
+      "JHA",
+      "PBS",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2397.pdf",
+    "committees": [
+      "EDN",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB286_.PDF.pdf",
+    "committees": [
+      "FIN",
+      "HSG"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2781.pdf",
+    "committees": [
+      "FIN",
+      "EDN",
+      "HSH"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2209.pdf",
+    "committees": [
+      "CPC",
+      "JHA"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB2003_.PDF.pdf",
+    "committees": [
+      "HLT",
+      "HSH",
+      "FIN"
+    ],
+    "reasoning": ""
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB 2207.pdf",
+    "committees": [
+      "CPC"
+    ],
+    "reasoning": "The bill's purpose is to allow persons to apply for a permit to act as solicitors or representatives for wineries, brewpubs, and small craft producer pubs across counties. This directly falls under the scope of the Committee on Consumer Protection & Commerce (CPC), which covers 'the regulation of trade, business, professions, occupations'."
+  },
+  {
+    "prompt_style": "This is the combination of one bill and three shot",
+    "bill_name": "HB521_.PDF.pdf",
+    "committees": [
+      "AGR",
+      "HLT",
+      "CPC"
+    ],
+    "reasoning": ""
+  }
+]

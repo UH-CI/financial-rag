@@ -9,10 +9,11 @@ A document search and question-answering system built with ChromaDB and Google A
 - Git
 - Conda/Python 3
 
-### 1. Clone and Setup
+### 1. Clone and Configure
 ```bash
 # Clone the repository
 git clone https://github.com/UH-CI/financial-rag.git
+<<<<<<< HEAD
 ```
 
 ### 2. Start the frontend
@@ -34,11 +35,29 @@ Install requirements and start the backend
 source .env
 pip install -r requirements.txt
 python3 run_api.py
+=======
+cd financial-rag
+# Create .env file
+cp src/.env.example src/.env
 ```
 
-**That's it! 🎉** Your API is running at `http://localhost:8200`
+- Edit src/.env with your Google API key
+- Download the JSON file at https://drive.google.com/file/d/1fzWErNIG2jY69DxkItURMT6RtvKs7DHN/view?usp=sharing and copy the file to src/bill_data/
 
----
+### 2. Start the System
+```bash
+./GO.sh development
+# If changes have been made to the repo you can rebuild modified containers with the --build tag
+>>>>>>> 7b65429d23ad58fb6ded7a17b5de2508562d0a5d
+```
+
+**That's it! 🎉** Your API is running at `http://localhost:8200` and the site is running at `http://localhost:3000`. You can go to `http://localhost:8200/docs` for API documentation.
+
+### 3. Shutdown the system
+```bashss
+./GO.sh development --down
+```
+
 
 ## 💡 Example Usage
 

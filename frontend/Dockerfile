@@ -1,39 +1,25 @@
-# Frontend Dockerfile
-FROM node:18-alpine AS builder
+# Frontend Dockerfile - supports both development and production
+FROM node:18-alpine
 
 WORKDIR /app
 
 # Copy package files
 COPY package*.json ./
 
-# Install dependencies
-RUN npm ci --only=production
+# Install all dependencies (including dev dependencies for development)
+RUN npm ci
 
 # Copy source code
 COPY . .
 
 # Set build-time environment variables
-ARG VITE_API_BASE_URL=https://finbot.its.hawaii.edu/api
-ARG VITE_WS_URL=wss://finbot.its.hawaii.edu/ws
+ARG VITE_API_BASE_URL=http://localhost:8200
+ARG VITE_WS_URL=ws://localhost:8200/ws
 ENV VITE_API_BASE_URL=$VITE_API_BASE_URL
 ENV VITE_WS_URL=$VITE_WS_URL
-
-# Build the application
-RUN npm run build
-
-# Production stage
-FROM node:18-alpine AS runner
-
-WORKDIR /app
-
-# Install serve to serve the built files
-RUN npm install -g serve
-
-# Copy built files from builder stage
-COPY --from=builder /app/dist /app/dist
 
 # Expose port
 EXPOSE 3000
 
-# Serve the application
-CMD ["serve", "-s", "dist", "-l", "3000"]
+# Default command for development (can be overridden for production)
+CMD ["npm", "run", "dev"]

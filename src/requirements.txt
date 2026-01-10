@@ -1,15 +1,17 @@
 # Core RAG Dependencies
-chromadb==0.4.24
-pysqlite3-binary==0.5.4
+chromadb
 openai==1.109.1
 langchain==0.2.17
 langchain-openai==0.1.25
 langchain-community==0.2.19
-langchain-google-genai
+langchain-text-splitters==0.2.4
+langgraph==0.4.0
+
+# Google AI - install these without strict version constraints to avoid conflicts
 google-generativeai
 google-genai
-langgraph==0.4.0
-redis==7.0.1
+langchain-google-genai
+
 # Document Processing
 PyPDF2==3.0.1
 pdfplumber==0.11.7
@@ -26,14 +28,21 @@ numpy
 scikit-learn
 # Web Access
 requests
+
+# Redis for job queuing and caching
+redis>=5.0.0
+rq
+
 # Configuration and Environment
 python-dotenv==1.0.0
-pydantic==2.11.10
-pydantic-settings==2.1.0
-PyYAML
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+pyyaml
+
 # API and Web Framework (for future milestones)
-fastapi==0.120.2
-uvicorn==0.38.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+
 # Testing
 pytest==8.4.2
 pytest-asyncio==1.2.0
@@ -52,8 +61,14 @@ typing-extensions>=4.9.0
 selenium==4.36.0
 webdriver-manager==4.0.2
 beautifulsoup4
-undetected-chromedriver==3.5.5
+undetected-chromedriver
+
 google-api-python-client==2.184.0
-google_auth
+google-auth==2.41.1
 google-auth-oauthlib==1.2.2
 google-auth-httplib2==0.2.0
+google-api-core==2.26.0
+
+sqlalchemy>=2.0.0
+pyjwt>=2.8.0
+auth0-python>=4.7.0  # Auth0 SDK

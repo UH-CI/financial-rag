@@ -5,28 +5,25 @@
   ],
   "all_documents_processed_so_far": [
     "HB1483",
-    "HB1483_TESTIMONY_JHA_02-06-25_",
     "HB1483_HD1",
     "HB1483_HD1_HSCR629_",
-    "HB1483_HD1_TESTIMONY_FIN_02-25-25_",
     "HB1483_HD1_HSCR983_",
-    "HB1483_HD1_TESTIMONY_PSM-JDC_03-13-25_",
     "HB1483_SD1",
     "HB1483_SD1_SSCR1268_",
     "HB1483_SD1_SSCR1831_"
   ],
   "numbers_used": 0,
-  "prompt_length": 16187,
+  "prompt_length": 17481,
   "response_metadata": {
-    "response_text": "{\n  \"overview\": \"The purpose and intent of this measure is to strengthen state fireworks laws. [CHUNK_1] Specifically, the measure amends various definitions, increases certain penalties for fireworks offenses, establishes processes for the adjudication of fireworks infractions, and appropriates moneys. [CHUNK_2] Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework and establishes a sensible penalty structure. [CHUNK_5]\",\n  \"appropriations\": \"The measure appropriates moneys. [CHUNK_2] The provided document, a committee report, does not specify the amount, source, or intended use of the appropriation. [CHUNK_2]\",\n  \"assumptions_and_methodology\": \"Your Committee recognizes the need to reform the State's approach to enforcing fireworks laws. [CHUNK_4] This measure is assumed to address shortcomings in the current regulatory framework. [CHUNK_5] The bill establishes a sensible penalty structure that imposes just consequences based on the severity of violations. [CHUNK_5]\",\n  \"agency_impact\": \"Your Committee received written comments in support of this measure from the Department of the Attorney General; Honolulu Police Department; Hawaii County Police Department; Department of the Prosecuting Attorney, County of Maui; Hawaiian Humane Society; and four individuals. [CHUNK_3] Opposition was received from Hawaii Explosives and Pyrotechnics and one individual. [CHUNK_4] The documents do not detail specific operational impacts on these agencies.\",\n  \"economic_impact\": \"The provided committee report does not contain information regarding the economic impact of this measure. [CHUNK_0] It focuses on reforming the State's approach to enforcing fireworks laws and addressing shortcomings in the current regulatory framework. [CHUNK_4] [CHUNK_5]\",\n  \"policy_impact\": \"The measure aims to strengthen state fireworks laws. [CHUNK_1] It amends various definitions relating to fireworks and increases certain penalties for fireworks offenses. [CHUNK_2] It also establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic and establishes processes relating to the adjudication of fireworks infractions. [CHUNK_2]\",\n  \"revenue_sources\": \"The measure appropriates moneys, but the specific revenue source is not identified in the provided committee report. [CHUNK_2] Unlike the previous fiscal note, the current source documents do not mention specific fines or fees that would generate revenue. [CHUNK_2]\",\n  \"six_year_fiscal_implications\": \"The measure appropriates moneys, but no specific amount or multi-year projection is provided in the committee report. [CHUNK_2] The Committee on Ways and Means notes that it is in accord with the intent and purpose of H.B. No. 1483, H.D. 1, S.D. 1, and recommends that it pass Third Reading. [CHUNK_6] The provided documents do not contain a six-year fiscal outlook. [CHUNK_0]\",\n  \"operating_revenue_impact\": \"The provided committee report does not include details on any potential impacts to operating revenue. [CHUNK_0] Information on fines, fees, or other revenue-generating mechanisms mentioned in the previous fiscal note is not present in the current documents. [CHUNK_2]\",\n  \"capital_expenditure_impact\": \"The provided document chunks do not contain any information regarding capital expenditures related to this measure. [CHUNK_0] [CHUNK_1] [CHUNK_2]\",\n  \"fiscal_implications_after_6_years\": \"The provided committee report does not contain information regarding ongoing fiscal obligations or long-term implications after a six-year period. [CHUNK_0] [CHUNK_1] [CHUNK_2]\",\n  \"updates_from_previous_fiscal_note\": \"This fiscal note is based on a Standing Committee Report (SSCR1831), which provides a high-level summary of the measure's intent and does not contain the specific financial details found in the previous note. [CHUNK_0] The new document confirms that the measure appropriates moneys, but omits specific dollar amounts, fines, and fees that were previously cited. [CHUNK_2] New information includes a detailed list of entities that submitted written comments in support, such as the Department of the Attorney General and county police departments, and in opposition, such as Hawaii Explosives and Pyrotechnics. [CHUNK_3] [CHUNK_4]\"\n}",
+    "response_text": "{\n  \"overview\": \"The purpose and intent of this measure is to strengthen state fireworks laws. [CHUNK_1] Specifically, the measure amends various definitions relating to fireworks, increases certain penalties for fireworks offenses, establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic, and establishes processes relating to the adjudication of fireworks infractions. [CHUNK_2] The measure also appropriates moneys. [CHUNK_2]\",\n  \"appropriations\": \"The measure appropriates moneys. [CHUNK_2] The provided document does not specify the amount or fiscal years for the appropriation. [CHUNK_2]\",\n  \"assumptions_and_methodology\": \"The provided legislative documents do not contain specific assumptions or a methodology for calculating financial projections. [CHUNK_0] The document only indicates that the measure appropriates moneys without further detail. [CHUNK_2]\",\n  \"agency_impact\": \"Your Committee received written comments in support of this measure from the Department of the Attorney General; Honolulu Police Department; Hawaii County Police Department; Department of the Prosecuting Attorney, County of Maui; Hawaiian Humane Society; and four individuals. [CHUNK_3] Your Committee received written comments in opposition to this measure from Hawaii Explosives and Pyrotechnics and one individual. [CHUNK_4]\",\n  \"economic_impact\": \"The provided legislative documents do not contain any new information regarding the economic impact of this measure. [CHUNK_0]\",\n  \"policy_impact\": \"Your Committee recognizes the need to reform the State's approach to enforcing fireworks laws. [CHUNK_4] Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework. [CHUNK_4] It also establishes a sensible penalty structure that imposes just consequences based on the severity of violations. [CHUNK_5]\",\n  \"revenue_sources\": \"The provided legislative documents do not specify any revenue sources. [CHUNK_0] The measure appropriates moneys, but the source is not identified in the committee report. [CHUNK_2]\",\n  \"six_year_fiscal_implications\": \"The provided legislative documents do not contain information on the six-year fiscal implications of this measure. [CHUNK_0]\",\n  \"operating_revenue_impact\": \"The provided legislative documents do not contain information regarding the impact on operating revenue. [CHUNK_0]\",\n  \"capital_expenditure_impact\": \"The provided legislative documents do not contain any mention of capital expenditures. [CHUNK_0]\",\n  \"fiscal_implications_after_6_years\": \"The provided legislative documents do not contain information on the fiscal implications after six years. [CHUNK_0]\",\n  \"updates_from_previous_fiscal_note\": \"This fiscal note is based on a committee report which provides a high-level summary and does not contain the specific financial details, such as fee and fine amounts, that were present in the previous version of the bill. [CHUNK_5] The record of testimony has been updated to reflect new comments in support from entities including the Department of the Attorney General, various police departments, the Hawaiian Humane Society, and four individuals. [CHUNK_3] New opposition testimony was received from Hawaii Explosives and Pyrotechnics and one individual. [CHUNK_4]\",\n  \"fte_positions\": \"The provided legislative documents do not contain any mention of the creation or modification of Full Time Equivalent (FTE) positions. [CHUNK_0]\",\n  \"appropriations_changes\": \"This version of the bill states that it appropriates moneys, but unlike the previous fiscal note, it does not specify the fiscal years for the appropriation. [CHUNK_2]\",\n  \"funding_sources_changes\": \"The provided legislative documents do not specify the method of funding or note any changes from previous versions. [CHUNK_0]\",\n  \"department_impact\": \"The provided legislative documents do not specify which department is responsible for expending appropriations. [CHUNK_0]\",\n  \"reports_required\": \"The provided legislative documents do not mention any reporting requirements. [CHUNK_0]\",\n  \"pilot_program\": \"The provided legislative documents do not establish a pilot program. [CHUNK_0]\",\n  \"sunset_date\": \"No sunset date is mentioned in the provided legislative documents. [CHUNK_0]\",\n  \"effective_date\": \"No effective date is mentioned in the provided legislative documents. [CHUNK_0]\"\n}",
     "prompt_feedback": {
       "block_reason": null,
       "safety_ratings": []
     },
     "usage_metadata": {
-      "prompt_token_count": 4820,
-      "candidates_token_count": 918,
-      "total_token_count": 8310
+      "prompt_token_count": 5137,
+      "candidates_token_count": 914,
+      "total_token_count": 8344
     },
     "candidates": [
       {
@@ -36,7 +33,7 @@
           "role": "model",
           "parts": [
             {
-              "text": "{\n  \"overview\": \"The purpose and intent of this measure is to strengthen state fireworks laws. [CHUNK_1] Specifically, the measure amends various definitions, increases certain penalties for fireworks offenses, establishes processes for the adjudication of fireworks infractions, and appropriates moneys. [CHUNK_2] Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework and establishes a sensible penalty structure. [CHUNK_5]\",\n  \"appropriations\": \"The measure appropriates moneys. [CHUNK_2] The provided document, a committee report, does not specify the amount, source, or intended use of the appropriation. [CHUNK_2]\",\n  \"assumptions_and_methodology\": \"Your Committee recognizes the need to reform the State's approach to enforcing fireworks laws. [CHUNK_4] This measure is assumed to address shortcomings in the current regulatory framework. [CHUNK_5] The bill establishes a sensible penalty structure that imposes just consequences based on the severity of violations. [CHUNK_5]\",\n  \"agency_impact\": \"Your Committee received written comments in support of this measure from the Department of the Attorney General; Honolulu Police Department; Hawaii County Police Department; Department of the Prosecuting Attorney, County of Maui; Hawaiian Humane Society; and four individuals. [CHUNK_3] Opposition was received from Hawaii Explosives and Pyrotechnics and one individual. [CHUNK_4] The documents do not detail specific operational impacts on these agencies.\",\n  \"economic_impact\": \"The provided committee report does not contain information regarding the economic impact of this measure. [CHUNK_0] It focuses on reforming the State's approach to enforcing fireworks laws and addressing shortcomings in the current regulatory framework. [CHUNK_4] [CHUNK_5]\",\n  \"policy_impact\": \"The measure aims to strengthen state fireworks laws. [CHUNK_1] It amends various definitions relating to fireworks and increases certain penalties for fireworks offenses. [CHUNK_2] It also establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic and establishes processes relating to the adjudication of fireworks infractions. [CHUNK_2]\",\n  \"revenue_sources\": \"The measure appropriates moneys, but the specific revenue source is not identified in the provided committee report. [CHUNK_2] Unlike the previous fiscal note, the current source documents do not mention specific fines or fees that would generate revenue. [CHUNK_2]\",\n  \"six_year_fiscal_implications\": \"The measure appropriates moneys, but no specific amount or multi-year projection is provided in the committee report. [CHUNK_2] The Committee on Ways and Means notes that it is in accord with the intent and purpose of H.B. No. 1483, H.D. 1, S.D. 1, and recommends that it pass Third Reading. [CHUNK_6] The provided documents do not contain a six-year fiscal outlook. [CHUNK_0]\",\n  \"operating_revenue_impact\": \"The provided committee report does not include details on any potential impacts to operating revenue. [CHUNK_0] Information on fines, fees, or other revenue-generating mechanisms mentioned in the previous fiscal note is not present in the current documents. [CHUNK_2]\",\n  \"capital_expenditure_impact\": \"The provided document chunks do not contain any information regarding capital expenditures related to this measure. [CHUNK_0] [CHUNK_1] [CHUNK_2]\",\n  \"fiscal_implications_after_6_years\": \"The provided committee report does not contain information regarding ongoing fiscal obligations or long-term implications after a six-year period. [CHUNK_0] [CHUNK_1] [CHUNK_2]\",\n  \"updates_from_previous_fiscal_note\": \"This fiscal note is based on a Standing Committee Report (SSCR1831), which provides a high-level summary of the measure's intent and does not contain the specific financial details found in the previous note. [CHUNK_0] The new document confirms that the measure appropriates moneys, but omits specific dollar amounts, fines, and fees that were previously cited. [CHUNK_2] New information includes a detailed list of entities that submitted written comments in support, such as the Department of the Attorney General and county police departments, and in opposition, such as Hawaii Explosives and Pyrotechnics. [CHUNK_3] [CHUNK_4]\"\n}"
+              "text": "{\n  \"overview\": \"The purpose and intent of this measure is to strengthen state fireworks laws. [CHUNK_1] Specifically, the measure amends various definitions relating to fireworks, increases certain penalties for fireworks offenses, establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic, and establishes processes relating to the adjudication of fireworks infractions. [CHUNK_2] The measure also appropriates moneys. [CHUNK_2]\",\n  \"appropriations\": \"The measure appropriates moneys. [CHUNK_2] The provided document does not specify the amount or fiscal years for the appropriation. [CHUNK_2]\",\n  \"assumptions_and_methodology\": \"The provided legislative documents do not contain specific assumptions or a methodology for calculating financial projections. [CHUNK_0] The document only indicates that the measure appropriates moneys without further detail. [CHUNK_2]\",\n  \"agency_impact\": \"Your Committee received written comments in support of this measure from the Department of the Attorney General; Honolulu Police Department; Hawaii County Police Department; Department of the Prosecuting Attorney, County of Maui; Hawaiian Humane Society; and four individuals. [CHUNK_3] Your Committee received written comments in opposition to this measure from Hawaii Explosives and Pyrotechnics and one individual. [CHUNK_4]\",\n  \"economic_impact\": \"The provided legislative documents do not contain any new information regarding the economic impact of this measure. [CHUNK_0]\",\n  \"policy_impact\": \"Your Committee recognizes the need to reform the State's approach to enforcing fireworks laws. [CHUNK_4] Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework. [CHUNK_4] It also establishes a sensible penalty structure that imposes just consequences based on the severity of violations. [CHUNK_5]\",\n  \"revenue_sources\": \"The provided legislative documents do not specify any revenue sources. [CHUNK_0] The measure appropriates moneys, but the source is not identified in the committee report. [CHUNK_2]\",\n  \"six_year_fiscal_implications\": \"The provided legislative documents do not contain information on the six-year fiscal implications of this measure. [CHUNK_0]\",\n  \"operating_revenue_impact\": \"The provided legislative documents do not contain information regarding the impact on operating revenue. [CHUNK_0]\",\n  \"capital_expenditure_impact\": \"The provided legislative documents do not contain any mention of capital expenditures. [CHUNK_0]\",\n  \"fiscal_implications_after_6_years\": \"The provided legislative documents do not contain information on the fiscal implications after six years. [CHUNK_0]\",\n  \"updates_from_previous_fiscal_note\": \"This fiscal note is based on a committee report which provides a high-level summary and does not contain the specific financial details, such as fee and fine amounts, that were present in the previous version of the bill. [CHUNK_5] The record of testimony has been updated to reflect new comments in support from entities including the Department of the Attorney General, various police departments, the Hawaiian Humane Society, and four individuals. [CHUNK_3] New opposition testimony was received from Hawaii Explosives and Pyrotechnics and one individual. [CHUNK_4]\",\n  \"fte_positions\": \"The provided legislative documents do not contain any mention of the creation or modification of Full Time Equivalent (FTE) positions. [CHUNK_0]\",\n  \"appropriations_changes\": \"This version of the bill states that it appropriates moneys, but unlike the previous fiscal note, it does not specify the fiscal years for the appropriation. [CHUNK_2]\",\n  \"funding_sources_changes\": \"The provided legislative documents do not specify the method of funding or note any changes from previous versions. [CHUNK_0]\",\n  \"department_impact\": \"The provided legislative documents do not specify which department is responsible for expending appropriations. [CHUNK_0]\",\n  \"reports_required\": \"The provided legislative documents do not mention any reporting requirements. [CHUNK_0]\",\n  \"pilot_program\": \"The provided legislative documents do not establish a pilot program. [CHUNK_0]\",\n  \"sunset_date\": \"No sunset date is mentioned in the provided legislative documents. [CHUNK_0]\",\n  \"effective_date\": \"No effective date is mentioned in the provided legislative documents. [CHUNK_0]\"\n}"
             }
           ]
         },
@@ -127,13 +124,8 @@
           "document_name": "HB1483_SD1_SSCR1831_"
         },
         {
-          "chunk_text": "appropriately addresses shortcomings in the current regulatory framework and establishes a sensible penalty structure that imposes just consequences based on the severity of violations. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached to this report, your Committee is",
-          "chunk_id": 5,
-          "document_name": "HB1483_SD1_SSCR1831_"
-        },
-        {
-          "chunk_text": "four individuals. Your Committee received written comments in opposition to this measure from Hawaii Explosives and Pyrotechnics and one individual. Your Committee recognizes the need to reform the State's approach to enforcing fireworks laws. Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework and establishes",
-          "chunk_id": 4,
+          "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
+          "chunk_id": 0,
           "document_name": "HB1483_SD1_SSCR1831_"
         },
         {
@@ -142,13 +134,13 @@
           "document_name": "HB1483_SD1_SSCR1831_"
         },
         {
-          "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
-          "chunk_id": 0,
+          "chunk_text": "four individuals. Your Committee received written comments in opposition to this measure from Hawaii Explosives and Pyrotechnics and one individual. Your Committee recognizes the need to reform the State's approach to enforcing fireworks laws. Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework and establishes",
+          "chunk_id": 4,
           "document_name": "HB1483_SD1_SSCR1831_"
         },
         {
-          "chunk_text": "Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1483, H.D. 1, S.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Ways and Means, ________________________________ DONOVAN M. DELA",
-          "chunk_id": 6,
+          "chunk_text": "appropriately addresses shortcomings in the current regulatory framework and establishes a sensible penalty structure that imposes just consequences based on the severity of violations. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached to this report, your Committee is",
+          "chunk_id": 5,
           "document_name": "HB1483_SD1_SSCR1831_"
         }
       ]
@@ -168,8 +160,8 @@
       "HB1483_CD1": 12,
       "HB1483_CD1_CCR233_": 13,
       "HB1483_CD1_HFA7": 14,
-      "HB1483_CD2": 15,
-      "HB1483_CD1_SFA12": 16
+      "HB1483_CD1_SFA12": 15,
+      "HB1483_CD2": 16
     },
     "sentence_chunk_mapping": [
       {
@@ -186,7 +178,7 @@
       },
       {
         "section": "overview",
-        "sentence": "Specifically, the measure amends various definitions, increases certain penalties for fireworks offenses, establishes processes for the adjudication of fireworks infractions, and appropriates moneys.",
+        "sentence": "Specifically, the measure amends various definitions relating to fireworks, increases certain penalties for fireworks offenses, establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic, and establishes processes relating to the adjudication of fireworks infractions.",
         "chunks": [
           {
             "chunk_id": 2,
@@ -198,12 +190,12 @@
       },
       {
         "section": "overview",
-        "sentence": "Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework and establishes a sensible penalty structure.",
+        "sentence": "The measure also appropriates moneys.",
         "chunks": [
           {
-            "chunk_id": 5,
+            "chunk_id": 2,
             "citation_number": 10,
-            "chunk_text": "appropriately addresses shortcomings in the current regulatory framework and establishes a sensible penalty structure that imposes just consequences based on the severity of violations. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached to this report, your Committee is",
+            "chunk_text": "Specifically, the measure: (1) Amends various definitions relating to fireworks; (2) Increases certain penalties for fireworks offenses; (3) Establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic; (4) Establishes processes relating to the adjudication of fireworks infractions; and (5) Appropriates moneys. Your Committee received written comments in",
             "document_name": "HB1483_SD1_SSCR1831_"
           }
         ]
@@ -222,7 +214,7 @@
       },
       {
         "section": "appropriations",
-        "sentence": "The provided document, a committee report, does not specify the amount, source, or intended use of the appropriation.",
+        "sentence": "The provided document does not specify the amount or fiscal years for the appropriation.",
         "chunks": [
           {
             "chunk_id": 2,
@@ -234,36 +226,24 @@
       },
       {
         "section": "assumptions_and_methodology",
-        "sentence": "Your Committee recognizes the need to reform the State's approach to enforcing fireworks laws.",
+        "sentence": "The provided legislative documents do not contain specific assumptions or a methodology for calculating financial projections.",
         "chunks": [
           {
-            "chunk_id": 4,
+            "chunk_id": 0,
             "citation_number": 10,
-            "chunk_text": "four individuals. Your Committee received written comments in opposition to this measure from Hawaii Explosives and Pyrotechnics and one individual. Your Committee recognizes the need to reform the State's approach to enforcing fireworks laws. Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework and establishes",
+            "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
             "document_name": "HB1483_SD1_SSCR1831_"
           }
         ]
       },
       {
         "section": "assumptions_and_methodology",
-        "sentence": "This measure is assumed to address shortcomings in the current regulatory framework.",
+        "sentence": "The document only indicates that the measure appropriates moneys without further detail.",
         "chunks": [
           {
-            "chunk_id": 5,
+            "chunk_id": 2,
             "citation_number": 10,
-            "chunk_text": "appropriately addresses shortcomings in the current regulatory framework and establishes a sensible penalty structure that imposes just consequences based on the severity of violations. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached to this report, your Committee is",
-            "document_name": "HB1483_SD1_SSCR1831_"
-          }
-        ]
-      },
-      {
-        "section": "assumptions_and_methodology",
-        "sentence": "The bill establishes a sensible penalty structure that imposes just consequences based on the severity of violations.",
-        "chunks": [
-          {
-            "chunk_id": 5,
-            "citation_number": 10,
-            "chunk_text": "appropriately addresses shortcomings in the current regulatory framework and establishes a sensible penalty structure that imposes just consequences based on the severity of violations. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached to this report, your Committee is",
+            "chunk_text": "Specifically, the measure: (1) Amends various definitions relating to fireworks; (2) Increases certain penalties for fireworks offenses; (3) Establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic; (4) Establishes processes relating to the adjudication of fireworks infractions; and (5) Appropriates moneys. Your Committee received written comments in",
             "document_name": "HB1483_SD1_SSCR1831_"
           }
         ]
@@ -282,7 +262,7 @@
       },
       {
         "section": "agency_impact",
-        "sentence": "Opposition was received from Hawaii Explosives and Pyrotechnics and one individual.",
+        "sentence": "Your Committee received written comments in opposition to this measure from Hawaii Explosives and Pyrotechnics and one individual.",
         "chunks": [
           {
             "chunk_id": 4,
@@ -294,7 +274,7 @@
       },
       {
         "section": "economic_impact",
-        "sentence": "The provided committee report does not contain information regarding the economic impact of this measure.",
+        "sentence": "The provided legislative documents do not contain any new information regarding the economic impact of this measure.",
         "chunks": [
           {
             "chunk_id": 0,
@@ -305,15 +285,9 @@
         ]
       },
       {
-        "section": "economic_impact",
-        "sentence": "It focuses on reforming the State's approach to enforcing fireworks laws and addressing shortcomings in the current regulatory framework.",
+        "section": "policy_impact",
+        "sentence": "Your Committee recognizes the need to reform the State's approach to enforcing fireworks laws.",
         "chunks": [
-          {
-            "chunk_id": 4,
-            "citation_number": 10,
-            "chunk_text": "four individuals. Your Committee received written comments in opposition to this measure from Hawaii Explosives and Pyrotechnics and one individual. Your Committee recognizes the need to reform the State's approach to enforcing fireworks laws. Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework and establishes",
-            "document_name": "HB1483_SD1_SSCR1831_"
-          },
           {
             "chunk_id": 4,
             "citation_number": 10,
@@ -324,55 +298,43 @@
       },
       {
         "section": "policy_impact",
-        "sentence": "The measure aims to strengthen state fireworks laws.",
+        "sentence": "Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework.",
         "chunks": [
           {
-            "chunk_id": 1,
+            "chunk_id": 4,
             "citation_number": 10,
-            "chunk_text": "Means, to which was referred H.B. No. 1483, H.D. 1, S.D. 1, entitled: \"A BILL FOR AN ACT RELATING TO FIREWORKS,\" begs leave to report as follows: The purpose and intent of this measure is to strengthen state fireworks laws. Specifically, the measure: (1) Amends various definitions relating to fireworks;",
+            "chunk_text": "four individuals. Your Committee received written comments in opposition to this measure from Hawaii Explosives and Pyrotechnics and one individual. Your Committee recognizes the need to reform the State's approach to enforcing fireworks laws. Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework and establishes",
             "document_name": "HB1483_SD1_SSCR1831_"
           }
         ]
       },
       {
         "section": "policy_impact",
-        "sentence": "It amends various definitions relating to fireworks and increases certain penalties for fireworks offenses.",
+        "sentence": "It also establishes a sensible penalty structure that imposes just consequences based on the severity of violations.",
         "chunks": [
           {
-            "chunk_id": 2,
+            "chunk_id": 5,
             "citation_number": 10,
-            "chunk_text": "Specifically, the measure: (1) Amends various definitions relating to fireworks; (2) Increases certain penalties for fireworks offenses; (3) Establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic; (4) Establishes processes relating to the adjudication of fireworks infractions; and (5) Appropriates moneys. Your Committee received written comments in",
-            "document_name": "HB1483_SD1_SSCR1831_"
-          }
-        ]
-      },
-      {
-        "section": "policy_impact",
-        "sentence": "It also establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic and establishes processes relating to the adjudication of fireworks infractions.",
-        "chunks": [
-          {
-            "chunk_id": 2,
-            "citation_number": 10,
-            "chunk_text": "Specifically, the measure: (1) Amends various definitions relating to fireworks; (2) Increases certain penalties for fireworks offenses; (3) Establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic; (4) Establishes processes relating to the adjudication of fireworks infractions; and (5) Appropriates moneys. Your Committee received written comments in",
+            "chunk_text": "appropriately addresses shortcomings in the current regulatory framework and establishes a sensible penalty structure that imposes just consequences based on the severity of violations. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached to this report, your Committee is",
             "document_name": "HB1483_SD1_SSCR1831_"
           }
         ]
       },
       {
         "section": "revenue_sources",
-        "sentence": "The measure appropriates moneys, but the specific revenue source is not identified in the provided committee report.",
+        "sentence": "The provided legislative documents do not specify any revenue sources.",
         "chunks": [
           {
-            "chunk_id": 2,
+            "chunk_id": 0,
             "citation_number": 10,
-            "chunk_text": "Specifically, the measure: (1) Amends various definitions relating to fireworks; (2) Increases certain penalties for fireworks offenses; (3) Establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic; (4) Establishes processes relating to the adjudication of fireworks infractions; and (5) Appropriates moneys. Your Committee received written comments in",
+            "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
             "document_name": "HB1483_SD1_SSCR1831_"
           }
         ]
       },
       {
         "section": "revenue_sources",
-        "sentence": "Unlike the previous fiscal note, the current source documents do not mention specific fines or fees that would generate revenue.",
+        "sentence": "The measure appropriates moneys, but the source is not identified in the committee report.",
         "chunks": [
           {
             "chunk_id": 2,
@@ -384,31 +346,7 @@
       },
       {
         "section": "six_year_fiscal_implications",
-        "sentence": "The measure appropriates moneys, but no specific amount or multi-year projection is provided in the committee report.",
-        "chunks": [
-          {
-            "chunk_id": 2,
-            "citation_number": 10,
-            "chunk_text": "Specifically, the measure: (1) Amends various definitions relating to fireworks; (2) Increases certain penalties for fireworks offenses; (3) Establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic; (4) Establishes processes relating to the adjudication of fireworks infractions; and (5) Appropriates moneys. Your Committee received written comments in",
-            "document_name": "HB1483_SD1_SSCR1831_"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "No. 1483, H.D. 1, S.D. 1, and recommends that it pass Third Reading.",
-        "chunks": [
-          {
-            "chunk_id": 6,
-            "citation_number": 10,
-            "chunk_text": "Means that is attached to this report, your Committee is in accord with the intent and purpose of H.B. No. 1483, H.D. 1, S.D. 1, and recommends that it pass Third Reading. Respectfully submitted on behalf of the members of the Committee on Ways and Means, ________________________________ DONOVAN M. DELA",
-            "document_name": "HB1483_SD1_SSCR1831_"
-          }
-        ]
-      },
-      {
-        "section": "six_year_fiscal_implications",
-        "sentence": "The provided documents do not contain a six-year fiscal outlook.",
+        "sentence": "The provided legislative documents do not contain information on the six-year fiscal implications of this measure.",
         "chunks": [
           {
             "chunk_id": 0,
@@ -420,44 +358,20 @@
       },
       {
         "section": "operating_revenue_impact",
-        "sentence": "The provided committee report does not include details on any potential impacts to operating revenue.",
+        "sentence": "The provided legislative documents do not contain information regarding the impact on operating revenue.",
         "chunks": [
           {
             "chunk_id": 0,
             "citation_number": 10,
             "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
-            "document_name": "HB1483_SD1_SSCR1831_"
-          }
-        ]
-      },
-      {
-        "section": "operating_revenue_impact",
-        "sentence": "Information on fines, fees, or other revenue-generating mechanisms mentioned in the previous fiscal note is not present in the current documents.",
-        "chunks": [
-          {
-            "chunk_id": 2,
-            "citation_number": 10,
-            "chunk_text": "Specifically, the measure: (1) Amends various definitions relating to fireworks; (2) Increases certain penalties for fireworks offenses; (3) Establishes various criminal offenses and penalties related to fireworks or articles pyrotechnic; (4) Establishes processes relating to the adjudication of fireworks infractions; and (5) Appropriates moneys. Your Committee received written comments in",
             "document_name": "HB1483_SD1_SSCR1831_"
           }
         ]
       },
       {
         "section": "capital_expenditure_impact",
-        "sentence": "The provided document chunks do not contain any information regarding capital expenditures related to this measure.",
+        "sentence": "The provided legislative documents do not contain any mention of capital expenditures.",
         "chunks": [
-          {
-            "chunk_id": 0,
-            "citation_number": 10,
-            "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
-            "document_name": "HB1483_SD1_SSCR1831_"
-          },
-          {
-            "chunk_id": 0,
-            "citation_number": 10,
-            "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
-            "document_name": "HB1483_SD1_SSCR1831_"
-          },
           {
             "chunk_id": 0,
             "citation_number": 10,
@@ -468,31 +382,7 @@
       },
       {
         "section": "fiscal_implications_after_6_years",
-        "sentence": "The provided committee report does not contain information regarding ongoing fiscal obligations or long-term implications after a six-year period.",
-        "chunks": [
-          {
-            "chunk_id": 0,
-            "citation_number": 10,
-            "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
-            "document_name": "HB1483_SD1_SSCR1831_"
-          },
-          {
-            "chunk_id": 0,
-            "citation_number": 10,
-            "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
-            "document_name": "HB1483_SD1_SSCR1831_"
-          },
-          {
-            "chunk_id": 0,
-            "citation_number": 10,
-            "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
-            "document_name": "HB1483_SD1_SSCR1831_"
-          }
-        ]
-      },
-      {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "This fiscal note is based on a Standing Committee Report (SSCR1831), which provides a high-level summary of the measure's intent and does not contain the specific financial details found in the previous note.",
+        "sentence": "The provided legislative documents do not contain information on the fiscal implications after six years.",
         "chunks": [
           {
             "chunk_id": 0,
@@ -504,7 +394,55 @@
       },
       {
         "section": "updates_from_previous_fiscal_note",
-        "sentence": "The new document confirms that the measure appropriates moneys, but omits specific dollar amounts, fines, and fees that were previously cited.",
+        "sentence": "This fiscal note is based on a committee report which provides a high-level summary and does not contain the specific financial details, such as fee and fine amounts, that were present in the previous version of the bill.",
+        "chunks": [
+          {
+            "chunk_id": 5,
+            "citation_number": 10,
+            "chunk_text": "appropriately addresses shortcomings in the current regulatory framework and establishes a sensible penalty structure that imposes just consequences based on the severity of violations. As affirmed by the record of votes of the members of your Committee on Ways and Means that is attached to this report, your Committee is",
+            "document_name": "HB1483_SD1_SSCR1831_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "The record of testimony has been updated to reflect new comments in support from entities including the Department of the Attorney General, various police departments, the Hawaiian Humane Society, and four individuals.",
+        "chunks": [
+          {
+            "chunk_id": 3,
+            "citation_number": 10,
+            "chunk_text": "and (5) Appropriates moneys. Your Committee received written comments in support of this measure from the Department of the Attorney General; Honolulu Police Department; Hawaii County Police Department; Department of the Prosecuting Attorney, County of Maui; Hawaiian Humane Society; and four individuals. Your Committee received written comments in opposition to",
+            "document_name": "HB1483_SD1_SSCR1831_"
+          }
+        ]
+      },
+      {
+        "section": "updates_from_previous_fiscal_note",
+        "sentence": "New opposition testimony was received from Hawaii Explosives and Pyrotechnics and one individual.",
+        "chunks": [
+          {
+            "chunk_id": 4,
+            "citation_number": 10,
+            "chunk_text": "four individuals. Your Committee received written comments in opposition to this measure from Hawaii Explosives and Pyrotechnics and one individual. Your Committee recognizes the need to reform the State's approach to enforcing fireworks laws. Your Committee believes that this measure appropriately addresses shortcomings in the current regulatory framework and establishes",
+            "document_name": "HB1483_SD1_SSCR1831_"
+          }
+        ]
+      },
+      {
+        "section": "fte_positions",
+        "sentence": "The provided legislative documents do not contain any mention of the creation or modification of Full Time Equivalent (FTE) positions.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 10,
+            "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
+            "document_name": "HB1483_SD1_SSCR1831_"
+          }
+        ]
+      },
+      {
+        "section": "appropriations_changes",
+        "sentence": "This version of the bill states that it appropriates moneys, but unlike the previous fiscal note, it does not specify the fiscal years for the appropriation.",
         "chunks": [
           {
             "chunk_id": 2,
@@ -515,19 +453,73 @@
         ]
       },
       {
-        "section": "updates_from_previous_fiscal_note",
-        "sentence": "New information includes a detailed list of entities that submitted written comments in support, such as the Department of the Attorney General and county police departments, and in opposition, such as Hawaii Explosives and Pyrotechnics.",
+        "section": "funding_sources_changes",
+        "sentence": "The provided legislative documents do not specify the method of funding or note any changes from previous versions.",
         "chunks": [
           {
-            "chunk_id": 3,
+            "chunk_id": 0,
             "citation_number": 10,
-            "chunk_text": "and (5) Appropriates moneys. Your Committee received written comments in support of this measure from the Department of the Attorney General; Honolulu Police Department; Hawaii County Police Department; Department of the Prosecuting Attorney, County of Maui; Hawaiian Humane Society; and four individuals. Your Committee received written comments in opposition to",
+            "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
             "document_name": "HB1483_SD1_SSCR1831_"
-          },
+          }
+        ]
+      },
+      {
+        "section": "department_impact",
+        "sentence": "The provided legislative documents do not specify which department is responsible for expending appropriations.",
+        "chunks": [
           {
-            "chunk_id": 3,
+            "chunk_id": 0,
             "citation_number": 10,
-            "chunk_text": "and (5) Appropriates moneys. Your Committee received written comments in support of this measure from the Department of the Attorney General; Honolulu Police Department; Hawaii County Police Department; Department of the Prosecuting Attorney, County of Maui; Hawaiian Humane Society; and four individuals. Your Committee received written comments in opposition to",
+            "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
+            "document_name": "HB1483_SD1_SSCR1831_"
+          }
+        ]
+      },
+      {
+        "section": "reports_required",
+        "sentence": "The provided legislative documents do not mention any reporting requirements.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 10,
+            "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
+            "document_name": "HB1483_SD1_SSCR1831_"
+          }
+        ]
+      },
+      {
+        "section": "pilot_program",
+        "sentence": "The provided legislative documents do not establish a pilot program.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 10,
+            "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
+            "document_name": "HB1483_SD1_SSCR1831_"
+          }
+        ]
+      },
+      {
+        "section": "sunset_date",
+        "sentence": "No sunset date is mentioned in the provided legislative documents.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 10,
+            "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
+            "document_name": "HB1483_SD1_SSCR1831_"
+          }
+        ]
+      },
+      {
+        "section": "effective_date",
+        "sentence": "No effective date is mentioned in the provided legislative documents.",
+        "chunks": [
+          {
+            "chunk_id": 0,
+            "citation_number": 10,
+            "chunk_text": "SSCR1831 STAND. COM. REP. NO. 1831 Honolulu, Hawaii RE: H.B. No. 1483 H.D. 1 S.D. 1 Honorable Ronald D. Kouchi President of the Senate Thirty-Third State Legislature Regular Session of 2025 State of Hawaii Sir: Your Committee on Ways and Means, to which was referred H.B. No. 1483, H.D. 1,",
             "document_name": "HB1483_SD1_SSCR1831_"
           }
         ]
@@ -581,6 +573,38 @@
       "updates_from_previous_fiscal_note": {
         "prompt": "If you are given a previous fiscal note. Please summarize the MAIN POINTS that are different from the previous fiscal note and the new fiscal note.",
         "description": "Updates from previous fiscal note"
+      },
+      "fte_positions": {
+        "prompt": "Detail any Full Time Equivalent (FTE) positions that have been added or modified in this version of the bill, including the number of positions, their roles, and any changes from previous versions. This should be around 3 sentences.",
+        "description": "FTE (Full Time Equivalent) position changes"
+      },
+      "appropriations_changes": {
+        "prompt": "Identify and describe any appropriations that were previously unspecified or have been modified between versions of the bill, including the amounts and purposes of the appropriations. This should be around 3 sentences.",
+        "description": "Changes to appropriations between bill versions"
+      },
+      "funding_sources_changes": {
+        "prompt": "Specify the method of funding (MOF) for appropriations and identify any changes in funding sources between versions, such as shifts between general fund and special fund appropriations. This should be around 3 sentences.",
+        "description": "Changes to funding sources and method of funding"
+      },
+      "department_impact": {
+        "prompt": "Describe any changes in which department is responsible for expending appropriations, including shifts from one department to another between bill versions (e.g., from Department of Health to Judiciary). This should be around 3 sentences.",
+        "description": "Changes in department responsibility for appropriations"
+      },
+      "reports_required": {
+        "prompt": "Identify any reports that agencies are required to submit to the legislature, including new reporting requirements or modifications to existing ones. This should be around 3 sentences.",
+        "description": "Reporting requirements for agencies"
+      },
+      "pilot_program": {
+        "prompt": "If the bill creates a pilot program, describe the length of the pilot program and whether it was initially intended to be a pilot program or a permanent program. This should be around 3 sentences.",
+        "description": "Pilot program details and duration"
+      },
+      "sunset_date": {
+        "prompt": "Identify the sunset date for the bill or program, including any modifications to the sunset date between versions. This should be around 2 sentences.",
+        "description": "Sunset date and changes"
+      },
+      "effective_date": {
+        "prompt": "Identify the effective date of the bill, noting if there was a defective effective date in a previous version and what the corrected effective date is. This should be around 2 sentences.",
+        "description": "Effective date and corrections"
       }
     }
   },
@@ -620,6 +644,6 @@
       }
     ]
   },
-  "generation_timestamp": "2025-10-30T16:59:20.085425",
-  "generation_timestamp_unix": 1761879560.085433
+  "generation_timestamp": "2025-11-04T23:38:05.049810",
+  "generation_timestamp_unix": 1762299485.0498245
 }

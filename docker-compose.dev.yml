@@ -1,0 +1,167 @@
+services:
+  # Selenium Hub
+  selenium-hub:
+    image: seleniarm/hub:latest
+    container_name: selenium-hub
+    ports:
+      - "4444:4444"
+    environment:
+      - SE_SESSION_REQUEST_TIMEOUT=300
+      - SE_SESSION_RETRY_INTERVAL=5
+    networks:
+      - rag-network
+    restart: unless-stopped
+
+  # Selenium Chrome Node 1 (8 sessions)
+  selenium-chrome-1:
+    image: seleniarm/node-chromium:latest
+    container_name: selenium-chrome-node-1
+    ports:
+      - "7900:7900"  # VNC port for debugging
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=8
+      - SE_NODE_SESSION_TIMEOUT=300
+      - HUB_HOST=selenium-hub
+    volumes:
+      - /dev/shm:/dev/shm  # Shared memory for better performance
+    networks:
+      - rag-network
+    shm_size: 2gb
+    restart: unless-stopped
+    depends_on:
+      - selenium-hub
+
+  # Selenium Chrome Node 2 (4 sessions) - Total: 12 sessions
+  selenium-chrome-2:
+    image: seleniarm/node-chromium:latest
+    container_name: selenium-chrome-node-2
+    ports:
+      - "7901:7900"  # VNC port for debugging (different port)
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=4
+      - SE_NODE_SESSION_TIMEOUT=300
+      - HUB_HOST=selenium-hub
+    volumes:
+      - /dev/shm:/dev/shm  # Shared memory for better performance
+    networks:
+      - rag-network
+    shm_size: 2gb
+    restart: unless-stopped
+    depends_on:
+      - selenium-hub
+
+  # Redis for job queuing and caching
+  redis:
+    image: redis:7-alpine
+    container_name: redis-server
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    networks:
+      - rag-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+
+  # API Server (Development)
+  api:
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+    container_name: rag-api-dev
+    ports:
+      - "8200:8200"
+    environment:
+      - PYTHONPATH=/src
+      - PYTHONUNBUFFERED=1
+      - ENV=development
+      - SELENIUM_REMOTE_URL=http://selenium-hub:4444/wd/hub
+      - REDIS_URL=redis://redis:6379
+      - WORKERS=${WORKERS:-1}  # Default to 1 worker for development, can be overridden
+      - LOG_LEVEL=${LOG_LEVEL:-debug}  # Default to debug log level for development
+      # Auth0 Configuration for JWT validation
+      - AUTH0_DOMAIN=${AUTH0_DOMAIN:-dev-example.us.auth0.com}
+      - AUTH0_AUDIENCE=${AUTH0_AUDIENCE:-https://api.financial-rag.com}
+    restart: unless-stopped
+    depends_on:
+      - redis
+      - selenium-hub
+      - selenium-chrome-1
+      - selenium-chrome-2
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8200/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    volumes:
+      - ./src/.env:/src/.env:ro  # Mount environment file
+      - ./src/chroma_db:/src/chroma_db
+      - ./src:/src  # Mount source code for hot reload
+    networks:
+      - rag-network
+
+  # Background Worker
+  worker:
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+    container_name: rag-worker-dev
+    command: rq worker -u redis://redis:6379
+    environment:
+      - PYTHONPATH=/src
+      - PYTHONUNBUFFERED=1
+      - ENV=development
+      - REDIS_URL=redis://redis:6379
+    restart: unless-stopped
+    depends_on:
+      - redis
+    volumes:
+      - ./src/.env:/src/.env:ro
+      - ./src/chroma_db:/src/chroma_db
+      - ./src:/src
+    networks:
+      - rag-network
+
+  # Frontend Server (Development) 
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - VITE_API_BASE_URL=http://localhost:8200
+        - VITE_WS_URL=ws://localhost:8200/ws
+    container_name: rag-frontend-dev
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_API_BASE_URL=http://localhost:8200
+      - VITE_WS_URL=ws://localhost:8200/ws
+      - NODE_ENV=development
+    restart: unless-stopped
+    depends_on:
+      - api
+    volumes:
+      - ./frontend/src:/app/src  # Mount source for hot reload
+      - ./frontend/public:/app/public
+      - /app/node_modules  # Prevent node_modules from being overwritten
+    networks:
+      - rag-network
+
+networks:
+  rag-network:
+    driver: bridge
+
+volumes:
+  redis_data:
+    driver: local

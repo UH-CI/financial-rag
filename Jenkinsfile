@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     options {
-        // Increase Git timeout to 30 minutes for large repositories
-        timeout(time: 30, unit: 'MINUTES')
+        // Increase timeout to 45 minutes for Docker builds with complex dependencies
+        timeout(time: 45, unit: 'MINUTES')
         // Skip default checkout, we'll do it manually with custom timeout
         skipDefaultCheckout()
     }
@@ -68,29 +68,21 @@ pipeline {
             }
         }
 
-        stage('Deploy Frontend') {
+        stage('Backup Data') {
             steps {
                 script {
-                    try {
-                        echo "🔄 Starting Frontend Deployment..."
-                        echo "Loading credentials..."
-                    } catch (Exception e) {
-                        echo "❌ Frontend deployment failed: ${e.getMessage()}"
-                        throw e
-                    }
+                    echo "🔄 Starting data backup..."
                 }
                 withCredentials([
                     string(credentialsId: env.VM_HOST_CRED_ID, variable: 'VM_HOST')
                 ]) {
-                    echo "✅ VM_HOST credential loaded"
                     sshagent(credentials: [env.SSH_CRED_ID]) {
-                        echo "✅ SSH agent started with credential: ${env.SSH_CRED_ID}"
                         sh """
                         ssh -o StrictHostKeyChecking=no exouser@${VM_HOST} '
                             set -e
                             cd /home/exouser/RAG-system
                             
-                            # Create backup directory in RAG-system folder (where we have permissions)
+                            # Create backup directory
                             mkdir -p /home/exouser/RAG-system/fiscal_notes_backups
                             
                             # Create timestamped backup of fiscal notes (with user annotations)
@@ -109,35 +101,21 @@ pipeline {
                                 ls -lh fiscal_notes_*.tar.gz 2>/dev/null || echo "No backups yet"
                                 cd /home/exouser/RAG-system
                             fi
-                            
-                            # Stash any local changes to fiscal notes and property prompts (user data)
-                            git add src/fiscal_notes/generation/ src/fiscal_notes/property_prompts_config.json 2>/dev/null || true
-                            git stash push -m "Preserve user annotations before pull" src/fiscal_notes/generation/ src/fiscal_notes/property_prompts_config.json 2>/dev/null || true
-                            
-                            # Update code (gitignored files like fiscal notes are preserved)
-                            git pull origin main
-                            
-                            # Restore local changes (user annotations and property prompts)
-                            git stash pop 2>/dev/null || true
-                            
-                            # Build and deploy frontend
-                            cd /home/exouser/RAG-system/frontend
-                            sudo npm install
-                            sudo npm run build
-                            sudo nginx -t
-                            sudo systemctl reload nginx
                         '
                         """
                     }
                 }
                 script {
-                    echo "✅ Frontend deployment completed successfully"
+                    echo "✅ Data backup completed successfully"
                 }
             }
         }
 
-        stage('Deploy Backend') {
+        stage('Update Code') {
             steps {
+                script {
+                    echo "🔄 Updating code from repository..."
+                }
                 withCredentials([
                     string(credentialsId: env.VM_HOST_CRED_ID, variable: 'VM_HOST')
                 ]) {
@@ -145,14 +123,97 @@ pipeline {
                         sh """
                         ssh -o StrictHostKeyChecking=no exouser@${VM_HOST} '
                             set -e
-                            cd /home/exouser/RAG-system/src
-                            source .env
-                            cd ..
-                            ./stop_production.sh
-                            ./start_production.sh
+                            cd /home/exouser/RAG-system
+                            
+                            # Clean up temporary files that might conflict
+                            rm -f src/log.txt uvicorn.pid logs/*.log 2>/dev/null || true
+                            
+                            # Stash any local changes to fiscal notes and property prompts (user data)
+                            git add src/fiscal_notes/generation/ src/fiscal_notes/property_prompts_config.json 2>/dev/null || true
+                            git stash push -m "Preserve user annotations before pull" src/fiscal_notes/generation/ src/fiscal_notes/property_prompts_config.json 2>/dev/null || true
+                            
+                            # Reset any other local changes that might conflict
+                            git reset --hard HEAD
+                            
+                            # Update code (gitignored files like fiscal notes are preserved)
+                            git pull origin main
+                            
+                            # Restore local changes (user annotations and property prompts)
+                            git stash pop 2>/dev/null || true
                         '
                         """
                     }
+                }
+                script {
+                    echo "✅ Code update completed successfully"
+                }
+            }
+        }
+
+        stage('Build Frontend') {
+            steps {
+                script {
+                    echo "🏗️ Building frontend..."
+                }
+                withCredentials([
+                    string(credentialsId: env.VM_HOST_CRED_ID, variable: 'VM_HOST')
+                ]) {
+                    sshagent(credentials: [env.SSH_CRED_ID]) {
+                        sh """
+                        ssh -o StrictHostKeyChecking=no exouser@${VM_HOST} '
+                            set -e
+                            cd /home/exouser/RAG-system/frontend
+                            
+                            # Fix permissions from previous sudo builds
+                            echo "🔧 Fixing permissions..."
+                            sudo chown -R \$(whoami) .
+
+                            # Install dependencies and build
+                            echo "📦 Installing frontend dependencies..."
+                            npm install
+                            
+                            echo "🔨 Building frontend..."
+                            npm run build
+                        '
+                        """
+                    }
+                }
+                script {
+                    echo "✅ Frontend build completed successfully"
+                }
+            }
+        }
+
+        stage('Deploy with GO.sh') {
+            steps {
+                script {
+                    echo "🔄 Starting production deployment with GO.sh..."
+                }
+                withCredentials([
+                    string(credentialsId: env.VM_HOST_CRED_ID, variable: 'VM_HOST')
+                ]) {
+                    sshagent(credentials: [env.SSH_CRED_ID]) {
+                        sh """
+                        ssh -o StrictHostKeyChecking=no exouser@${VM_HOST} '
+                            set -e
+                            cd /home/exouser/RAG-system
+                            
+                            # Make sure GO.sh is executable
+                            chmod +x GO.sh
+                            
+                            # Run full production deployment with GO.sh
+                            # This includes: backup, stop containers, cleanup, build, start, health checks
+                            ./GO.sh prod --deploy --workers \${WORKERS:-8}
+                            
+                            # Start RefBot background worker (detached)
+                            echo "🚀 Starting RefBot background worker..."
+                            docker compose -f docker-compose.prod.yml exec -d api bash src/start_worker.sh
+                        '
+                        """
+                    }
+                }
+                script {
+                    echo "✅ Production deployment with GO.sh completed successfully"
                 }
             }
         }
