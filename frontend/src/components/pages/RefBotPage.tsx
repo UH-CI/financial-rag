@@ -119,7 +119,7 @@ interface JobInfo {
     enqueued_at: string;
 }
 
-// Deterministic color mapping for committees
+// Deterministic color mapping for committeess
 const getCommitteeColorStyle = (id: string) => {
     const colors = [
         'bg-red-100 text-red-800 border-red-200',
