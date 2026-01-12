@@ -93,17 +93,30 @@ async def get_refbot_results():
     completed_list = []
     if RESULTS_DIR.exists():
         for results_file in RESULTS_DIR.glob("*.json"):
+            if results_file.name.endswith("_metadata.json"):
+                continue
             try:
                 with open(results_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                 
                 item_count = len(data) if isinstance(data, list) else 1
                 
+                # Check for metadata file
+                metadata = {}
+                metadata_file = RESULTS_DIR / f"{results_file.stem}_metadata.json"
+                if metadata_file.exists():
+                    try:
+                        with open(metadata_file, 'r', encoding='utf-8') as mf:
+                            metadata = json.load(mf)
+                    except Exception as meta_e:
+                        logging.error(f"Error reading metadata file {metadata_file}: {meta_e}")
+                
                 completed_list.append({
                     "filename": results_file.name,
                     "name": results_file.stem,
                     "item_count": item_count,
                     "data": data,
+                    "metadata": metadata,
                     "created_at": results_file.stat().st_mtime
                 })
             except Exception as e:

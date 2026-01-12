@@ -276,6 +276,23 @@ Please use this as the layout for the produced output (use the prompt style give
             json.dump(results, f, indent=2, ensure_ascii=False)
 
         execution_time = time.time() - start_time
+        
+        # Save Metadata
+        try:
+            metadata = {
+                "name": name,
+                "timestamp": int(start_time),
+                "execution_time_seconds": execution_time,
+                "processed_count": len(pdf_files),
+                "examples_3_shot": examples_3_shot,
+                "formatted_constraints": formatted_constraints
+            }
+            metadata_file = RESULTS_DIR / f"{name}_metadata.json"
+            with open(metadata_file, 'w', encoding='utf-8') as f:
+                json.dump(metadata, f, indent=2, ensure_ascii=False)
+        except Exception as meta_e:
+            logging.error(f"Failed to save metadata: {meta_e}")
+
         return {
             "status": "success",
             "message": f"Processed {len(pdf_files)} files.",
