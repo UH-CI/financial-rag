@@ -832,6 +832,42 @@ export const deleteRefBotResult = async (token: string, filename: string): Promi
   return response.data;
 };
 
+export const getRefBotConstraints = async (token: string): Promise<any[]> => {
+  const response = await api.get('/refbot/context/constraints', {
+    headers: {
+      'Authorization': `Bearer ${token}`
+    }
+  });
+  return response.data;
+};
+
+export const addRefBotConstraint = async (token: string, text: string): Promise<any> => {
+  const response = await api.post('/refbot/context/constraints', { text }, {
+    headers: {
+      'Authorization': `Bearer ${token}`
+    }
+  });
+  return response.data;
+};
+
+export const updateRefBotConstraint = async (token: string, index: number, text: string): Promise<any> => {
+  const response = await api.put(`/refbot/context/constraints/${index}`, { text }, {
+    headers: {
+      'Authorization': `Bearer ${token}`
+    }
+  });
+  return response.data;
+};
+
+export const deleteRefBotConstraint = async (token: string, index: number): Promise<any> => {
+  const response = await api.delete(`/refbot/context/constraints/${index}`, {
+    headers: {
+      'Authorization': `Bearer ${token}`
+    }
+  });
+  return response.data;
+};
+
 export default api;
 
 

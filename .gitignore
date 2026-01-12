@@ -88,3 +88,4 @@ src/hrs_data
 # Note: property_prompts_config.json is tracked in git but preserved on production server via Jenkinsfile
 
 src/refbot_data
+src/refbot/results

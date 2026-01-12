@@ -72,6 +72,14 @@ def process_refbot_upload_task(name: str, zip_file_path_str: str, target_dir_str
             hre_content = load_context_content("HouseRules_extracted.txt")
             lsr_content = load_context_content("LegislativeSpecialResponsibility.txt")
             examples_3_shot = load_context_content("examples_3_shot.json")
+            
+            # Load and format constraints
+            constraints_json_str = load_context_content("constraints.json")
+            if constraints_json_str:
+                constraints_list = json.loads(constraints_json_str)
+                formatted_constraints = "\n".join([f"{i+1}. {c.get('text', '')}" for i, c in enumerate(constraints_list)])
+            else:
+                formatted_constraints = ""
         except Exception as e:
             logging.error(f"Error loading context files: {e}")
             raise Exception(f"Error loading context files: {str(e)}")
@@ -174,19 +182,8 @@ The order of the referrals should first go by subject matter, then jurisdiction,
 If the measure has the word short form in the report title, it is only referred to the subject matter (first) commttee
 If a bill states "Claims against the state" then it should be JHA, FIN. and then if it is a bill relating to "statutory revision" it should just be JHA. 
 
-When determining the order of committees, you must follow this hierarchy:
-1. Primary Jurisdiction: The first committee must be the one whose subject matter is most directly aligned with the bill's core intent (Direct Jurisdiction as defined in the Committee Description)
-2. Statewide Jurisdiction: Secondary referrals should go to committees with broader statewide oversight relevant to the bill.
-3. Constitutional Amendments: Any bill proposing a constitutional amendment MUST include both JHA and FIN
-4. The "CPC-JHA-FIN" Anchor : If the referral includes CPC, JHA, or FIN, they must ALWAYS appear in this specific relative order:
-    - CPC (Consumer Protection & Commerce) always comes before JHA
-    - JHA (Judiciary & Hawaiian Affairs) always comes after CPC but before FIN
-    - FIN (Finance) is always the FINAL referral in any sequence 
-* (Example: If a bill is referred to AGR, CPC, and FIN, the order must be AGR, CPC, FIN)
-5. If the rules suggest more than 4 committees, prioritize the primary jurisdiction, CPC, JHA, and FIN, and truncate the relevant secondary committee to stay within the 4-committee limit
-6. Short Form Bills: If the measure contains the word "short form" in the report title, it is only referred to the subject matter committee and does not follow the multi-committee hierarchy described 
-7. Revision bills: If the measure contains the word "revision bill" in the report title, it is only referred to JHA and does not follow the multi-committee hierarchy described
-8. Claims against the State: If the measure contains he words "claims against the state" in th report tile it is only referred to JHA, and FIN.
+When determining the order of committees, you must follow these constraints:
+{formatted_constraints}
 
 Please use this as the layout for the produced output (use the prompt style given here):
 [  

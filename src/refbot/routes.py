@@ -17,7 +17,7 @@ from auth.middleware import require_permission
 from database.models import User
 
 # Import task and constants
-from .tasks import process_refbot_upload_task, DATA_DIR, RESULTS_DIR
+from .tasks import process_refbot_upload_task, DATA_DIR, RESULTS_DIR, CONTEXT_DIR
 
 router = APIRouter(
     prefix="/refbot",
@@ -226,3 +226,88 @@ async def rename_refbot_result(filename: str, request: RenameRequest):
         raise HTTPException(status_code=500, detail=f"Failed to rename: {str(e)}")
 
 
+
+class ConstraintItem(BaseModel):
+    text: str
+
+@router.get("/context/constraints")
+async def get_constraints():
+    """Get the list of committee assignment constraints."""
+    constraints_file = CONTEXT_DIR / "constraints.json"
+    if not constraints_file.exists():
+        return []
+    try:
+        with open(constraints_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to load constraints: {e}")
+
+@router.post("/context/constraints")
+async def add_constraint(item: ConstraintItem):
+    """Add a new constraint to the list."""
+    constraints_file = CONTEXT_DIR / "constraints.json"
+    data = []
+    if constraints_file.exists():
+        try:
+            with open(constraints_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+                if content.strip():
+                    data = json.loads(content)
+        except Exception:
+            data = []
+    
+    data.append({"text": item.text})
+    
+    # Ensure directory exists
+    constraints_file.parent.mkdir(parents=True, exist_ok=True)
+    
+    with open(constraints_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=4)
+    
+    return {"status": "success", "constraints": data}
+
+@router.put("/context/constraints/{index}")
+async def update_constraint(index: int, item: ConstraintItem):
+    """Update a specific constraint by index."""
+    constraints_file = CONTEXT_DIR / "constraints.json"
+    if not constraints_file.exists():
+        raise HTTPException(status_code=404, detail="Constraints file not found")
+        
+    try:
+        with open(constraints_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except Exception:
+        raise HTTPException(status_code=500, detail="Failed to parse constraints file")
+        
+    if index < 0 or index >= len(data):
+        raise HTTPException(status_code=404, detail="Constraint index out of range")
+        
+    data[index]["text"] = item.text
+    
+    with open(constraints_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=4)
+        
+    return {"status": "success", "constraints": data}
+
+@router.delete("/context/constraints/{index}")
+async def delete_constraint(index: int):
+    """Delete a specific constraint by index."""
+    constraints_file = CONTEXT_DIR / "constraints.json"
+    if not constraints_file.exists():
+        raise HTTPException(status_code=404, detail="Constraints file not found")
+        
+    try:
+        with open(constraints_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except Exception:
+        raise HTTPException(status_code=500, detail="Failed to parse constraints file")
+        
+    if index < 0 or index >= len(data):
+        raise HTTPException(status_code=404, detail="Constraint index out of range")
+        
+    deleted = data.pop(index)
+    
+    with open(constraints_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=4)
+        
+    return {"status": "success", "deleted": deleted, "constraints": data}
