@@ -86,6 +86,35 @@ ChromaDB is run as a service within the Docker Compose setup, and its data is pe
 6.  **Augmentation & Generation**: The retrieved chunks are then passed to a large language model, along with the original query, to generate a comprehensive and contextually-aware answer.
 7.  **Response**: The final answer is streamed back to the user through the frontend.
 
+---
+
+## 📚 Documentation
+
+**Comprehensive documentation is now available:**
+
+- **[SYSTEM_DOCUMENTATION.md](./SYSTEM_DOCUMENTATION.md)** - Complete system architecture, features, deployment, and API documentation
+- **[QUICK_REFERENCE.md](./QUICK_REFERENCE.md)** - Quick reference guide for common tasks and commands  
+- **[DOCUMENTATION_SUMMARY.md](./DOCUMENTATION_SUMMARY.md)** - Summary of what has been documented
+
+### Key Features Documented
+
+✅ **Fiscal Note Generation** - 7-step AI-powered pipeline  
+✅ **RefBot Committee Assignment** - 0.89 precision on top committees  
+✅ **Similar Bill Search** - Dual embedding strategy (Gemini + TF-IDF)  
+✅ **HRS Search** - Full-text search of Hawaii Revised Statutes  
+✅ **User Management** - 3-tier role system (Super Admin, Admin, User)  
+✅ **Production Deployment** - Jenkins CI/CD pipeline
+
+### Need Help?
+
+- **Quick Start**: See above
+- **Detailed Setup**: See [Development Environment](./SYSTEM_DOCUMENTATION.md#development-environment)
+- **Deployment**: See [Production Environment](./SYSTEM_DOCUMENTATION.md#production-environment)
+- **Troubleshooting**: See [Troubleshooting](./SYSTEM_DOCUMENTATION.md#troubleshooting)
+- **API Reference**: See [API Documentation](./SYSTEM_DOCUMENTATION.md#api-documentation)
+
+---
+
 ## 📄 License
 
 [Your License Here]
