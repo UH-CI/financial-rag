@@ -519,8 +519,8 @@ const RefBotPage: React.FC = () => {
                                         {res.name} <span className="ml-1 text-xs opacity-60">({res.item_count})</span>
                                     </button>
 
-                                    {/* Info Button - Only active tab */}
-                                    {activeTab === res.filename && (
+                                    {/* Info Button - Only active tab and superadmin */}
+                                    {activeTab === res.filename && isSuperAdmin && (
                                         <button
                                             onClick={(e) => {
                                                 e.stopPropagation();
@@ -714,120 +714,122 @@ const RefBotPage: React.FC = () => {
                                                         />
                                                     </div>
 
-                                                    <div className="border-t border-gray-200 pt-4 mt-4">
-                                                        <h4 className="text-sm font-medium text-gray-900 mb-2">Processing Constraints</h4>
-                                                        <p className="text-xs text-gray-500 mb-3">
-                                                            Define the rules for committee assignment. These constraints will be used by the AI Model.
-                                                        </p>
+                                                    {isSuperAdmin && (
+                                                        <div className="border-t border-gray-200 pt-4 mt-4">
+                                                            <h4 className="text-sm font-medium text-gray-900 mb-2">Processing Constraints</h4>
+                                                            <p className="text-xs text-gray-500 mb-3">
+                                                                Define the rules for committee assignment. These constraints will be used by the AI Model.
+                                                            </p>
 
-                                                        {loadingConstraints ? (
-                                                            <div className="text-sm text-gray-500 italic">Loading constraints...</div>
-                                                        ) : (
-                                                            <div className="space-y-3 max-h-96 overflow-y-auto mb-4 pr-1">
-                                                                {constraints.map((c, idx) => (
-                                                                    <div key={idx} className="flex items-start bg-gray-50 p-2 rounded border border-gray-200">
-                                                                        <div className="flex-shrink-0 mr-2 mt-0.5 text-xs font-bold text-gray-400 w-5">
-                                                                            {idx + 1}.
+                                                            {loadingConstraints ? (
+                                                                <div className="text-sm text-gray-500 italic">Loading constraints...</div>
+                                                            ) : (
+                                                                <div className="space-y-3 max-h-96 overflow-y-auto mb-4 pr-1">
+                                                                    {constraints.map((c, idx) => (
+                                                                        <div key={idx} className="flex items-start bg-gray-50 p-2 rounded border border-gray-200">
+                                                                            <div className="flex-shrink-0 mr-2 mt-0.5 text-xs font-bold text-gray-400 w-5">
+                                                                                {idx + 1}.
+                                                                            </div>
+
+                                                                            <div className="flex-grow min-w-0">
+                                                                                {editingConstraintIndex === idx ? (
+                                                                                    <textarea
+                                                                                        value={editingConstraintText}
+                                                                                        onChange={(e) => setEditingConstraintText(e.target.value)}
+                                                                                        className="w-full text-sm border-gray-300 rounded p-1 focus:ring-blue-500 focus:border-blue-500"
+                                                                                        rows={2}
+                                                                                    />
+                                                                                ) : (
+                                                                                    <div className="text-sm text-gray-700 whitespace-pre-wrap break-words">
+                                                                                        {c.text}
+                                                                                    </div>
+                                                                                )}
+                                                                            </div>
+
+                                                                            <div className="flex-shrink-0 ml-2 flex space-x-1">
+                                                                                {editingConstraintIndex === idx ? (
+                                                                                    <>
+                                                                                        <button
+                                                                                            type="button"
+                                                                                            onClick={() => handleUpdateConstraint(idx)}
+                                                                                            className="text-green-600 hover:text-green-800 p-1"
+                                                                                            title="Save"
+                                                                                        >
+                                                                                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                                                                                            </svg>
+                                                                                        </button>
+                                                                                        <button
+                                                                                            type="button"
+                                                                                            onClick={cancelEditing}
+                                                                                            className="text-gray-500 hover:text-gray-700 p-1"
+                                                                                            title="Cancel"
+                                                                                        >
+                                                                                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                                                                                            </svg>
+                                                                                        </button>
+                                                                                    </>
+                                                                                ) : (
+                                                                                    <>
+                                                                                        <button
+                                                                                            type="button"
+                                                                                            onClick={() => startEditing(idx, c.text)}
+                                                                                            className={`p-1 ${!isSuperAdmin ? 'text-gray-300 cursor-not-allowed' : 'text-blue-500 hover:text-blue-700'}`}
+                                                                                            title={!isSuperAdmin ? "Only superadmins can edit constraints" : "Edit"}
+                                                                                            disabled={uploading || !isSuperAdmin}
+                                                                                        >
+                                                                                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                                                                            </svg>
+                                                                                        </button>
+                                                                                        <button
+                                                                                            type="button"
+                                                                                            onClick={() => handleDeleteConstraint(idx)}
+                                                                                            className={`p-1 ${!isSuperAdmin ? 'text-gray-300 cursor-not-allowed' : 'text-red-500 hover:text-red-700'}`}
+                                                                                            title={!isSuperAdmin ? "Only superadmins can delete constraints" : "Delete"}
+                                                                                            disabled={uploading || !isSuperAdmin}
+                                                                                        >
+                                                                                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                                                                            </svg>
+                                                                                        </button>
+                                                                                    </>
+                                                                                )}
+                                                                            </div>
                                                                         </div>
+                                                                    ))}
+                                                                </div>
+                                                            )}
 
-                                                                        <div className="flex-grow min-w-0">
-                                                                            {editingConstraintIndex === idx ? (
-                                                                                <textarea
-                                                                                    value={editingConstraintText}
-                                                                                    onChange={(e) => setEditingConstraintText(e.target.value)}
-                                                                                    className="w-full text-sm border-gray-300 rounded p-1 focus:ring-blue-500 focus:border-blue-500"
-                                                                                    rows={2}
-                                                                                />
-                                                                            ) : (
-                                                                                <div className="text-sm text-gray-700 whitespace-pre-wrap break-words">
-                                                                                    {c.text}
-                                                                                </div>
-                                                                            )}
-                                                                        </div>
-
-                                                                        <div className="flex-shrink-0 ml-2 flex space-x-1">
-                                                                            {editingConstraintIndex === idx ? (
-                                                                                <>
-                                                                                    <button
-                                                                                        type="button"
-                                                                                        onClick={() => handleUpdateConstraint(idx)}
-                                                                                        className="text-green-600 hover:text-green-800 p-1"
-                                                                                        title="Save"
-                                                                                    >
-                                                                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                                                                        </svg>
-                                                                                    </button>
-                                                                                    <button
-                                                                                        type="button"
-                                                                                        onClick={cancelEditing}
-                                                                                        className="text-gray-500 hover:text-gray-700 p-1"
-                                                                                        title="Cancel"
-                                                                                    >
-                                                                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-                                                                                        </svg>
-                                                                                    </button>
-                                                                                </>
-                                                                            ) : (
-                                                                                <>
-                                                                                    <button
-                                                                                        type="button"
-                                                                                        onClick={() => startEditing(idx, c.text)}
-                                                                                        className={`p-1 ${!isSuperAdmin ? 'text-gray-300 cursor-not-allowed' : 'text-blue-500 hover:text-blue-700'}`}
-                                                                                        title={!isSuperAdmin ? "Only superadmins can edit constraints" : "Edit"}
-                                                                                        disabled={uploading || !isSuperAdmin}
-                                                                                    >
-                                                                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                                                                                        </svg>
-                                                                                    </button>
-                                                                                    <button
-                                                                                        type="button"
-                                                                                        onClick={() => handleDeleteConstraint(idx)}
-                                                                                        className={`p-1 ${!isSuperAdmin ? 'text-gray-300 cursor-not-allowed' : 'text-red-500 hover:text-red-700'}`}
-                                                                                        title={!isSuperAdmin ? "Only superadmins can delete constraints" : "Delete"}
-                                                                                        disabled={uploading || !isSuperAdmin}
-                                                                                    >
-                                                                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                                                                                        </svg>
-                                                                                    </button>
-                                                                                </>
-                                                                            )}
-                                                                        </div>
-                                                                    </div>
-                                                                ))}
-                                                            </div>
-                                                        )}
-
-                                                        {isSuperAdmin ? (
-                                                            <div className="flex items-center space-x-2">
-                                                                <input
-                                                                    type="text"
-                                                                    value={newConstraintText}
-                                                                    onChange={(e) => setNewConstraintText(e.target.value)}
-                                                                    className="flex-grow text-sm border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
-                                                                    placeholder="Add a new constraint..."
-                                                                    disabled={uploading}
-                                                                />
-                                                                <button
-                                                                    type="button"
-                                                                    onClick={handleAddConstraint}
-                                                                    disabled={!newConstraintText.trim() || uploading}
-                                                                    className="inline-flex items-center p-2 border border-transparent rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50"
-                                                                >
-                                                                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
-                                                                    </svg>
-                                                                </button>
-                                                            </div>
-                                                        ) : (
-                                                            <div className="text-sm text-gray-500 italic border border-gray-200 rounded-md p-3 bg-gray-50">
-                                                                Only superadmins can add new constraints.
-                                                            </div>
-                                                        )}
-                                                    </div>
+                                                            {isSuperAdmin ? (
+                                                                <div className="flex items-center space-x-2">
+                                                                    <input
+                                                                        type="text"
+                                                                        value={newConstraintText}
+                                                                        onChange={(e) => setNewConstraintText(e.target.value)}
+                                                                        className="flex-grow text-sm border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                                                                        placeholder="Add a new constraint..."
+                                                                        disabled={uploading}
+                                                                    />
+                                                                    <button
+                                                                        type="button"
+                                                                        onClick={handleAddConstraint}
+                                                                        disabled={!newConstraintText.trim() || uploading}
+                                                                        className="inline-flex items-center p-2 border border-transparent rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50"
+                                                                    >
+                                                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
+                                                                        </svg>
+                                                                    </button>
+                                                                </div>
+                                                            ) : (
+                                                                <div className="text-sm text-gray-500 italic border border-gray-200 rounded-md p-3 bg-gray-50">
+                                                                    Only superadmins can add new constraints.
+                                                                </div>
+                                                            )}
+                                                        </div>
+                                                    )}
 
                                                     {uploadError && (
                                                         <div className="text-red-500 text-sm">{uploadError}</div>
