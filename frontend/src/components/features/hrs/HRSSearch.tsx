@@ -16,6 +16,7 @@ const HRSSearch = () => {
   const [searchText, setSearchText] = useState<string>("");
   const [matchingStatutes, setMatchingStatutes] = useState<[string, string, string][] | null>(null);
   const [selectedMatch, setSelectedMatch] = useState<{ statute: [string, string, string], text: string } | null>(null);
+  const [lastSearchValue, setLastSearchValue] = useState<string | null>(null);
 
 
   async function openRawDataTab() {
@@ -27,10 +28,10 @@ const HRSSearch = () => {
     window.open(url, '_blank');
   }
 
-  async function searchDocument() {
+  async function searchDocument(text: string) {
     setSelectedMatch(null);
     const { volume, chapter, section } = filter;
-    const found = await searchHRS(searchText, volume, chapter, section);
+    const found = await searchHRS(text, volume, chapter, section);
     setMatchingStatutes(found);
 
     // Prefetch content for top results (async, non-blocking)
@@ -43,12 +44,17 @@ const HRSSearch = () => {
       }));
       hrsCache.prefetch(toPrefetch);
     }
+    setLastSearchValue(text);
   }
+
+  useEffect(() => {
+    if(lastSearchValue) {
+      searchDocument(lastSearchValue);
+    }
+  }, [filter]);
 
   const handleFilterChange = (newFilter: HRSFilter) => {
     setFilter(newFilter);
-    setMatchingStatutes(null);
-    setMatchingStatutes(null);
   };
 
   const handleLinkChange = (newFilter: HRSFilter) => {
@@ -130,7 +136,7 @@ const HRSSearch = () => {
             <div className="flex-shrink-0 pt-6">
               <button
                 className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
-                onClick={searchDocument}
+                onClick={() => {searchDocument(searchText)}}
                 disabled={searchText ? false : true}
               >
                 Search

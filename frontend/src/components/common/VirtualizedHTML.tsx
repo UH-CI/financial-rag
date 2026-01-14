@@ -3,10 +3,10 @@ import React, { useMemo, useState, useEffect, useRef } from 'react';
 interface VirtualizedHTMLProps {
     htmlContent: string;
     chunkSize?: number; // Characters per chunk, default ~100KB
-    scrollToId?: string | null;
+    scrollTo?: ScrollToData | null;
 }
 
-export const VirtualizedHTML: React.FC<VirtualizedHTMLProps> = ({ htmlContent, chunkSize = 100000, scrollToId }) => {
+export const VirtualizedHTML: React.FC<VirtualizedHTMLProps> = ({ htmlContent, chunkSize = 100000, scrollTo }) => {
     // 1. Chunking Logic
     const chunks = useMemo(() => {
         if (!htmlContent) return [];
@@ -51,7 +51,7 @@ export const VirtualizedHTML: React.FC<VirtualizedHTMLProps> = ({ htmlContent, c
     const containerRef = useRef<HTMLDivElement>(null);
 
     // Track if we need to perform a scroll action after rendering
-    const [pendingScrollId, setPendingScrollId] = useState<string | null>(null);
+    const [pendingScrollData, setPendingScrollData] = useState<ScrollToData | null>(null);
 
     // Reset when content changes
     useEffect(() => {
@@ -60,44 +60,56 @@ export const VirtualizedHTML: React.FC<VirtualizedHTMLProps> = ({ htmlContent, c
 
     // 3. Handle External Scroll Request
     useEffect(() => {
-        if (!scrollToId || chunks.length === 0) return;
+        if (!scrollTo || chunks.length === 0) return;
+
+        const { elementID } = scrollTo;
 
         // Find which chunk contains the ID
-        const chunkIndex = chunks.findIndex(chunk => chunk.includes(`id="${scrollToId}"`) || chunk.includes(`id='${scrollToId}'`));
+        const chunkIndex = chunks.findIndex(chunk => chunk.includes(`id="${elementID}"`) || chunk.includes(`id='${elementID}'`));
 
         if (chunkIndex !== -1) {
-            console.log(`[IncrementalHTML] Found ID ${scrollToId} in chunk ${chunkIndex}`);
+            console.log(`[IncrementalHTML] Found ID ${elementID} in chunk ${chunkIndex}`);
             // Ensure we've rendered enough chunks
             if (chunkIndex >= renderedCount) {
                 setRenderedCount(chunkIndex + 1);
             }
-            setPendingScrollId(scrollToId);
+            setPendingScrollData(scrollTo);
         } else {
-            console.warn(`[IncrementalHTML] ID ${scrollToId} not found in any chunk`);
+            console.warn(`[IncrementalHTML] ID ${elementID} not found in any chunk`);
         }
-    }, [scrollToId, chunks]);
+    }, [scrollTo, chunks]);
 
     // 4. Perform Scroll Effect (after render)
     useEffect(() => {
-        if (pendingScrollId && containerRef.current) {
+        if (pendingScrollData && containerRef.current) {
             // Need a small timeout to let the DOM update
             const timer = setTimeout(() => {
-                const element = document.getElementById(pendingScrollId);
-                if (element) {
+                const { elementID, highlightOnScroll, highlightPeriod, cb } = pendingScrollData;
+                const element = document.getElementById(elementID);
+                if(element) {
                     element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    
                     // Highlight the element
-                    element.classList.add('ring-2', 'ring-blue-500', 'bg-blue-50');
-                    setTimeout(() => element.classList.remove('ring-2', 'ring-blue-500', 'bg-blue-50'), 3000);
-
-                    setPendingScrollId(null); // Clear pending scroll
-                } else {
+                    if(highlightOnScroll) {
+                        element.classList.add('ring-2', 'ring-blue-500', 'bg-blue-50');
+                        if(highlightPeriod !== undefined && highlightPeriod > 0) {
+                            setTimeout(() => element.classList.remove('ring-2', 'ring-blue-500', 'bg-blue-50'), highlightPeriod);
+                        }
+                    }
+                    setPendingScrollData(null); // Clear pending scroll
+                    // trigger callback if specified
+                    if(cb) {
+                        cb(element);
+                    }
+                }
+                else {
                     // Retry a few times if needed? For now just log
-                    console.log(`[IncrementalHTML] Element ${pendingScrollId} not found in DOM yet`);
+                    console.log(`[IncrementalHTML] Element ${elementID} not found in DOM yet`);
                 }
             }, 100);
             return () => clearTimeout(timer);
         }
-    }, [renderedCount, pendingScrollId]);
+    }, [renderedCount, pendingScrollData]);
 
 
     // 5. Intersection Observer to load more when scrolling to bottom
@@ -139,3 +151,11 @@ export const VirtualizedHTML: React.FC<VirtualizedHTMLProps> = ({ htmlContent, c
         </div>
     );
 };
+
+
+export interface ScrollToData {
+    elementID: string,
+    highlightOnScroll: boolean,
+    highlightPeriod?: number,
+    cb?: (element: HTMLElement) => void
+}

@@ -31,7 +31,12 @@ export const HRSIndexView: React.FC<HRSIndexViewProps> = ({ index, selectedFilte
   return (
     <>
       {index ? (
+        
         <div style={{ fontFamily: '-apple-system, sans-serif', maxWidth: '1000px', border: '1px solid #e5e7eb', borderRadius: '8px', overflow: 'hidden' }}>
+
+        <ClearFilterBtn onClick={() => onFilterChange({})} />
+
+
         {Object.entries(index).map(([volName, chapters]) => (
           <VolumeRow 
             key={volName} 
@@ -54,6 +59,7 @@ export const HRSIndexView: React.FC<HRSIndexViewProps> = ({ index, selectedFilte
   );
 };
 
+
 // --- Level 1: Volume ---
 const VolumeRow: React.FC<{ 
   name: string; 
@@ -64,11 +70,11 @@ const VolumeRow: React.FC<{
 }> = ({ name, chapters, selectedFilter, onFilterChange, onLinkChange }) => {
   const [isOpen, setIsOpen] = useState(false);
   
-  const thisFilter: HRSFilter = { volume: name };
-  const isActive = isSameFilter(selectedFilter, thisFilter);
+  const volumeFilter: HRSFilter = { volume: name };
+  const isActive = isSameFilter(selectedFilter, volumeFilter);
 
   const handleFilter = () => {
-    onFilterChange(isActive ? {} : thisFilter);
+    onFilterChange(isActive ? {} : volumeFilter);
   };
 
   return (
@@ -122,11 +128,11 @@ const ChapterRow: React.FC<{
 }> = ({ name, volumeName, sections, selectedFilter, onFilterChange, onLinkChange }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const thisFilter: HRSFilter = { volume: volumeName, chapter: name };
-  const isActive = isSameFilter(selectedFilter, thisFilter);
+  const chapterFilter: HRSFilter = { volume: volumeName, chapter: name };
+  const isActive = isSameFilter(selectedFilter, chapterFilter);
 
   const handleFilter = () => {
-    onFilterChange(isActive ? {} : thisFilter);
+    onFilterChange(isActive ? {} : chapterFilter);
   };
 
 
@@ -179,15 +185,15 @@ const SectionRow: React.FC<{
   onLinkChange: (f: HRSFilter) => void;
 }> = ({ name, volumeName, chapterName, selectedFilter, onFilterChange, onLinkChange }) => {
   
-  const thisFilter: HRSFilter = { volume: volumeName, chapter: chapterName, section: name };
-  const isActive = isSameFilter(selectedFilter, thisFilter);
+  const sectionFilter: HRSFilter = { volume: volumeName, chapter: chapterName, section: name };
+  const isActive = isSameFilter(selectedFilter, sectionFilter);
 
   const handleFilter = () => {
-    onFilterChange(isActive ? {} : thisFilter);
+    onFilterChange(isActive ? {} : sectionFilter);
   };
 
   const handleLink = () => {
-    onLinkChange(thisFilter)
+    onLinkChange(sectionFilter)
   }
 
   return (
@@ -303,6 +309,69 @@ const LinkToBtn: React.FC<{ onClick: (e: React.MouseEvent) => void }> = ({ onCli
       title="Go to section"
     >
       <LinkIcon />
+    </button>
+  );
+};
+
+
+
+
+const ClearFilterIcon = () => (
+  <div style={{ 
+    display: 'flex', 
+    alignItems: 'center',
+    gap: '8px'
+  }}>
+    <span className='text-gray-700'>Clear Filters</span>
+    <svg 
+      width="16" 
+      height="16" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      strokeWidth="2" 
+      strokeLinecap="round" 
+      strokeLinejoin="round"
+      style={{ overflow: 'visible' }} 
+    >
+      <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3" />
+      <line x1="4" y1="-2" x2="22" y2="21" />
+    </svg>
+  </div>
+);
+
+const ClearFilterBtn: React.FC<{ onClick: (e: React.MouseEvent) => void }> = ({ onClick }) => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    onClick(e);
+  };
+
+  return (
+    <button
+      onClick={handleClick}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      className="w-full"
+      style={{
+        background: isHovered ? '#f3f4f6' : 'white',
+        color: isHovered ? '#ef4444' : '#9ca3af',
+        border: isHovered ? '1px solid #ef4444' : '1px solid #e5e7eb',
+        cursor: 'pointer',
+        padding: '6px',
+        borderRadius: '8px 8px 0 0',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        transition: 'all 0.2s',
+        boxShadow: 'none',
+        marginRight: "5px"
+      }}
+      title="Clear Filters"
+      aria-label="Clear Filters"
+    >
+      <ClearFilterIcon />
     </button>
   );
 };

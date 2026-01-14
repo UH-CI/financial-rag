@@ -75,6 +75,9 @@ src/chroma_db/
 src/fiscal_notes/generation/*/fiscal_notes/*.json
 src/fiscal_notes/generation/*/retrieval_log.json
 
+**/pyenv
+
+# Note: property_prompts_config.json is tracked in git but preserved on production server via Jenkinsfile
 src/log.txt
 uvicorn.pid
 logs/*.log

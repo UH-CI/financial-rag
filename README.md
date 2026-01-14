@@ -6,13 +6,34 @@ A document search and question-answering system built with ChromaDB and Google A
 
 ### Prerequisites
 - Docker installed on your system
-- Google API key (for embeddings)
 - Git
+- Conda/Python 3
 
 ### 1. Clone and Configure
 ```bash
 # Clone the repository
 git clone https://github.com/UH-CI/financial-rag.git
+```
+
+### 2. Start the frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### 3. Configure and Start backend
+Configure your environment
+```bash
+cd src
+cp .env.example .env
+```
+Edit .env and paste in your Google API key
+Install requirements and start the backend
+```bash
+source .env
+pip install -r requirements.txt
+python3 run_api.py
 cd financial-rag
 # Create .env file
 cp src/.env.example src/.env
