@@ -3352,7 +3352,7 @@ async def read_hrs(
     query_route = [value for value in [volume, chapter, section] if value]
     matches = []
     for text, html, idx_route in get_sorted_leaves(index):
-        if q in text:
+        if q.lower() in text.lower():
             route = query_route + idx_route
             matches.append(route)
 

@@ -3,6 +3,10 @@ import { getHRSHTML } from './api';
 class HRSCacheService {
     private cacheName = 'hrs-content-v1';
 
+    constructor() {
+        this.clear();
+    }
+
     // Helper to generate a consistent request URL/Key for the cache
     private getCacheKey(volume?: string, chapter?: string, section?: string): string {
         // Mimic the logic in api.ts getHRSHTML for path construction
