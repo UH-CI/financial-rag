@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
-import { getRefBotResults, uploadRefBotCollection, deleteRefBotResult } from '../../services/api';
+import { useAuth } from '../../contexts/BackendAuthContext';
+import { getRefBotResults, uploadRefBotCollection, deleteRefBotResult, getRefBotConstraints, addRefBotConstraint, updateRefBotConstraint, deleteRefBotConstraint } from '../../services/api';
 import AppHeader from '../layout/AppHeader';
 
 interface CommitteeInfo {
@@ -107,6 +108,7 @@ interface AnalysisResult {
     name: string;
     item_count: number;
     data: any[];
+    metadata?: any;
     created_at: number;
     error?: string;
 }
@@ -118,7 +120,7 @@ interface JobInfo {
     enqueued_at: string;
 }
 
-// Deterministic color mapping for committees
+// Deterministic color mapping for committeess
 const getCommitteeColorStyle = (id: string) => {
     const colors = [
         'bg-red-100 text-red-800 border-red-200',
@@ -155,6 +157,9 @@ const RefBotPage: React.FC = () => {
     const [resultsList, setResultsList] = useState<AnalysisResult[]>([]);
     const [jobsList, setJobsList] = useState<JobInfo[]>([]);
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [metadataModalOpen, setMetadataModalOpen] = useState(false);
+
+    // Upload State
 
     // Upload State
     const [name, setName] = useState('');
@@ -162,9 +167,18 @@ const RefBotPage: React.FC = () => {
     const [uploading, setUploading] = useState(false);
     const [uploadError, setUploadError] = useState<string | null>(null);
 
+    // Constraints State
+    const [constraints, setConstraints] = useState<any[]>([]);
+    const [loadingConstraints, setLoadingConstraints] = useState(false);
+    const [newConstraintText, setNewConstraintText] = useState('');
+    const [editingConstraintIndex, setEditingConstraintIndex] = useState<number | null>(null);
+    const [editingConstraintText, setEditingConstraintText] = useState('');
+
 
 
     const { getAccessTokenSilently } = useAuth0();
+    const { userProfile } = useAuth();
+    const isSuperAdmin = userProfile?.isSuperAdmin || false;
 
     const getAuthToken = async () => {
         try {
@@ -233,8 +247,86 @@ const RefBotPage: React.FC = () => {
         }
     };
 
+    const fetchConstraints = async () => {
+        try {
+            setLoadingConstraints(true);
+            const token = await getAuthToken();
+            if (!token) return;
+            const data = await getRefBotConstraints(token);
+            setConstraints(data);
+        } catch (e) {
+            console.error("Failed to fetch constraints", e);
+        } finally {
+            setLoadingConstraints(false);
+        }
+    };
+
+    useEffect(() => {
+        if (isModalOpen) {
+            fetchConstraints();
+        }
+    }, [isModalOpen]);
+
+    const handleAddConstraint = async () => {
+        if (!newConstraintText.trim()) return;
+        try {
+            const token = await getAuthToken();
+            if (!token) return;
+            await addRefBotConstraint(token, newConstraintText);
+            setNewConstraintText('');
+            await fetchConstraints();
+        } catch (e) {
+            console.error("Failed to add constraint", e);
+            alert("Failed to add constraint");
+        }
+    };
+
+    const handleUpdateConstraint = async (index: number) => {
+        if (!editingConstraintText.trim()) return;
+        try {
+            const token = await getAuthToken();
+            if (!token) return;
+            await updateRefBotConstraint(token, index, editingConstraintText);
+            setEditingConstraintIndex(null);
+            setEditingConstraintText('');
+            await fetchConstraints();
+        } catch (e) {
+            console.error("Failed to update constraint", e);
+            alert("Failed to update constraint");
+        }
+    };
+
+    const handleDeleteConstraint = async (index: number) => {
+        if (!confirm("Are you sure you want to delete this constraint?")) return;
+        try {
+            const token = await getAuthToken();
+            if (!token) return;
+            await deleteRefBotConstraint(token, index);
+            await fetchConstraints();
+        } catch (e) {
+            console.error("Failed to delete constraint", e);
+            alert("Failed to delete constraint");
+        }
+    };
+
+    const startEditing = (index: number, text: string) => {
+        setEditingConstraintIndex(index);
+        setEditingConstraintText(text);
+    };
+
+    const cancelEditing = () => {
+        setEditingConstraintIndex(null);
+        setEditingConstraintText('');
+    };
+
     const handleUpload = async (e: React.FormEvent) => {
         e.preventDefault();
+
+        if (editingConstraintIndex !== null) {
+            alert("You need to save or cancel the constraint edit before you can submit a job.");
+            return;
+        }
+
         if (!name || !file) {
             setUploadError('Please provide both a name and a zip file.');
             return;
@@ -417,7 +509,7 @@ const RefBotPage: React.FC = () => {
                                     <button
                                         onClick={() => setActiveTab(res.filename)}
                                         className={`
-                                     px-4 py-4 text-sm font-medium rounded-t-md border-t border-l border-r whitespace-nowrap transition-all duration-200 pr-8
+                                     px-4 py-4 text-sm font-medium rounded-t-md border-t border-l border-r whitespace-nowrap transition-all duration-200 pr-16
                                     ${activeTab === res.filename
                                                 ? 'bg-white border-gray-200 text-blue-700 border-b-white z-10 shadow-sm'
                                                 : 'bg-gray-200 border-transparent text-gray-500 hover:text-gray-700 hover:bg-gray-100 mb-1'
@@ -426,6 +518,23 @@ const RefBotPage: React.FC = () => {
                                     >
                                         {res.name} <span className="ml-1 text-xs opacity-60">({res.item_count})</span>
                                     </button>
+
+                                    {/* Info Button - Only active tab and superadmin */}
+                                    {activeTab === res.filename && isSuperAdmin && (
+                                        <button
+                                            onClick={(e) => {
+                                                e.stopPropagation();
+                                                setMetadataModalOpen(true);
+                                            }}
+                                            className="absolute right-7 top-3 p-1 rounded-full text-blue-500 hover:text-blue-700 hover:bg-blue-50 z-20 transition-opacity"
+                                            title="See Details"
+                                        >
+                                            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                        </button>
+                                    )}
+
                                     <button
                                         onClick={(e) => handleDelete(res.filename, e)}
                                         className={`absolute right-1 top-3 p-1 rounded-full text-gray-400 hover:text-red-500 hover:bg-gray-100 
@@ -458,6 +567,8 @@ const RefBotPage: React.FC = () => {
                                     </svg>
                                 </button>
                             )}
+
+
 
                             {/* Add new button */}
                             <button
@@ -557,82 +668,265 @@ const RefBotPage: React.FC = () => {
                 </div>
 
                 {/* Modal */}
-                {isModalOpen && (
-                    <div className="fixed inset-0 z-50 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
-                        <div className="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
-                            <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true" onClick={() => !uploading && setIsModalOpen(false)}></div>
-                            <span className="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+                {
+                    isModalOpen && (
+                        <div className="fixed inset-0 z-50 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+                            <div className="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                                <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true" onClick={() => !uploading && setIsModalOpen(false)}></div>
+                                <span className="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
 
-                            <div className="inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full sm:p-6">
-                                <div className="sm:flex sm:items-start">
-                                    <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-blue-100 sm:mx-0 sm:h-10 sm:w-10">
-                                        <svg className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-                                        </svg>
-                                    </div>
-                                    <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left w-full">
-                                        <h3 className="text-lg leading-6 font-medium text-gray-900" id="modal-title">
-                                            Upload New Collection
-                                        </h3>
-                                        <div className="mt-2">
-                                            <p className="text-sm text-gray-500 mb-4">
-                                                Create a new dataset by uploading a ZIP file containing bill PDFs.
-                                            </p>
+                                <div className="inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full sm:p-6">
+                                    <div className="sm:flex sm:items-start">
+                                        <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-blue-100 sm:mx-0 sm:h-10 sm:w-10">
+                                            <svg className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                                            </svg>
+                                        </div>
+                                        <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left w-full">
+                                            <h3 className="text-lg leading-6 font-medium text-gray-900" id="modal-title">
+                                                Upload New Collection
+                                            </h3>
+                                            <div className="mt-2">
+                                                <p className="text-sm text-gray-500 mb-4">
+                                                    Create a new dataset by uploading a ZIP file containing bill PDFs.
+                                                </p>
 
-                                            <form onSubmit={handleUpload} className="space-y-4">
-                                                <div>
-                                                    <label htmlFor="name" className="block text-sm font-medium text-gray-700">Dataset Name</label>
-                                                    <input
-                                                        type="text"
-                                                        id="name"
-                                                        value={name}
-                                                        onChange={(e) => setName(e.target.value)}
-                                                        className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-                                                        placeholder="e.g. Session 2024 Batch 1"
-                                                    />
-                                                </div>
-                                                <div>
-                                                    <label htmlFor="file" className="block text-sm font-medium text-gray-700">Zip File</label>
-                                                    <input
-                                                        type="file"
-                                                        id="file"
-                                                        accept=".zip"
-                                                        onChange={handleFileChange}
-                                                        className="mt-1 block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
-                                                    />
-                                                </div>
+                                                <form onSubmit={handleUpload} className="space-y-4">
+                                                    <div>
+                                                        <label htmlFor="name" className="block text-sm font-medium text-gray-700">Dataset Name</label>
+                                                        <input
+                                                            type="text"
+                                                            id="name"
+                                                            value={name}
+                                                            onChange={(e) => setName(e.target.value)}
+                                                            className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                                                            placeholder="e.g. Session 2024 Batch 1"
+                                                        />
+                                                    </div>
+                                                    <div>
+                                                        <label htmlFor="file" className="block text-sm font-medium text-gray-700">Zip File</label>
+                                                        <input
+                                                            type="file"
+                                                            id="file"
+                                                            accept=".zip"
+                                                            onChange={handleFileChange}
+                                                            className="mt-1 block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
+                                                        />
+                                                    </div>
 
-                                                {uploadError && (
-                                                    <div className="text-red-500 text-sm">{uploadError}</div>
-                                                )}
+                                                    {isSuperAdmin && (
+                                                        <div className="border-t border-gray-200 pt-4 mt-4">
+                                                            <h4 className="text-sm font-medium text-gray-900 mb-2">Processing Constraints</h4>
+                                                            <p className="text-xs text-gray-500 mb-3">
+                                                                Define the rules for committee assignment. These constraints will be used by the AI Model.
+                                                            </p>
 
-                                                <div className="mt-5 sm:mt-4 sm:flex sm:flex-row-reverse">
-                                                    <button
-                                                        type="submit"
-                                                        disabled={uploading}
-                                                        className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-600 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm disabled:opacity-50"
-                                                    >
-                                                        {uploading ? 'Processing...' : 'Upload'}
-                                                    </button>
-                                                    <button
-                                                        type="button"
-                                                        onClick={() => setIsModalOpen(false)}
-                                                        disabled={uploading}
-                                                        className="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:mt-0 sm:w-auto sm:text-sm"
-                                                    >
-                                                        Cancel
-                                                    </button>
-                                                </div>
-                                            </form>
+                                                            {loadingConstraints ? (
+                                                                <div className="text-sm text-gray-500 italic">Loading constraints...</div>
+                                                            ) : (
+                                                                <div className="space-y-3 max-h-96 overflow-y-auto mb-4 pr-1">
+                                                                    {constraints.map((c, idx) => (
+                                                                        <div key={idx} className="flex items-start bg-gray-50 p-2 rounded border border-gray-200">
+                                                                            <div className="flex-shrink-0 mr-2 mt-0.5 text-xs font-bold text-gray-400 w-5">
+                                                                                {idx + 1}.
+                                                                            </div>
+
+                                                                            <div className="flex-grow min-w-0">
+                                                                                {editingConstraintIndex === idx ? (
+                                                                                    <textarea
+                                                                                        value={editingConstraintText}
+                                                                                        onChange={(e) => setEditingConstraintText(e.target.value)}
+                                                                                        className="w-full text-sm border-gray-300 rounded p-1 focus:ring-blue-500 focus:border-blue-500"
+                                                                                        rows={2}
+                                                                                    />
+                                                                                ) : (
+                                                                                    <div className="text-sm text-gray-700 whitespace-pre-wrap break-words">
+                                                                                        {c.text}
+                                                                                    </div>
+                                                                                )}
+                                                                            </div>
+
+                                                                            <div className="flex-shrink-0 ml-2 flex space-x-1">
+                                                                                {editingConstraintIndex === idx ? (
+                                                                                    <>
+                                                                                        <button
+                                                                                            type="button"
+                                                                                            onClick={() => handleUpdateConstraint(idx)}
+                                                                                            className="text-green-600 hover:text-green-800 p-1"
+                                                                                            title="Save"
+                                                                                        >
+                                                                                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                                                                                            </svg>
+                                                                                        </button>
+                                                                                        <button
+                                                                                            type="button"
+                                                                                            onClick={cancelEditing}
+                                                                                            className="text-gray-500 hover:text-gray-700 p-1"
+                                                                                            title="Cancel"
+                                                                                        >
+                                                                                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                                                                                            </svg>
+                                                                                        </button>
+                                                                                    </>
+                                                                                ) : (
+                                                                                    <>
+                                                                                        <button
+                                                                                            type="button"
+                                                                                            onClick={() => startEditing(idx, c.text)}
+                                                                                            className={`p-1 ${!isSuperAdmin ? 'text-gray-300 cursor-not-allowed' : 'text-blue-500 hover:text-blue-700'}`}
+                                                                                            title={!isSuperAdmin ? "Only superadmins can edit constraints" : "Edit"}
+                                                                                            disabled={uploading || !isSuperAdmin}
+                                                                                        >
+                                                                                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                                                                            </svg>
+                                                                                        </button>
+                                                                                        <button
+                                                                                            type="button"
+                                                                                            onClick={() => handleDeleteConstraint(idx)}
+                                                                                            className={`p-1 ${!isSuperAdmin ? 'text-gray-300 cursor-not-allowed' : 'text-red-500 hover:text-red-700'}`}
+                                                                                            title={!isSuperAdmin ? "Only superadmins can delete constraints" : "Delete"}
+                                                                                            disabled={uploading || !isSuperAdmin}
+                                                                                        >
+                                                                                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                                                                            </svg>
+                                                                                        </button>
+                                                                                    </>
+                                                                                )}
+                                                                            </div>
+                                                                        </div>
+                                                                    ))}
+                                                                </div>
+                                                            )}
+
+                                                            {isSuperAdmin ? (
+                                                                <div className="flex items-center space-x-2">
+                                                                    <input
+                                                                        type="text"
+                                                                        value={newConstraintText}
+                                                                        onChange={(e) => setNewConstraintText(e.target.value)}
+                                                                        className="flex-grow text-sm border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                                                                        placeholder="Add a new constraint..."
+                                                                        disabled={uploading}
+                                                                    />
+                                                                    <button
+                                                                        type="button"
+                                                                        onClick={handleAddConstraint}
+                                                                        disabled={!newConstraintText.trim() || uploading}
+                                                                        className="inline-flex items-center p-2 border border-transparent rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50"
+                                                                    >
+                                                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
+                                                                        </svg>
+                                                                    </button>
+                                                                </div>
+                                                            ) : (
+                                                                <div className="text-sm text-gray-500 italic border border-gray-200 rounded-md p-3 bg-gray-50">
+                                                                    Only superadmins can add new constraints.
+                                                                </div>
+                                                            )}
+                                                        </div>
+                                                    )}
+
+                                                    {uploadError && (
+                                                        <div className="text-red-500 text-sm">{uploadError}</div>
+                                                    )}
+
+                                                    <div className="mt-5 sm:mt-4 sm:flex sm:flex-row-reverse">
+                                                        <button
+                                                            type="submit"
+                                                            disabled={uploading}
+                                                            className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-600 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm disabled:opacity-50"
+                                                        >
+                                                            {uploading ? 'Processing...' : 'Upload'}
+                                                        </button>
+                                                        <button
+                                                            type="button"
+                                                            onClick={() => setIsModalOpen(false)}
+                                                            disabled={uploading}
+                                                            className="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:mt-0 sm:w-auto sm:text-sm"
+                                                        >
+                                                            Cancel
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                )}
-            </main>
-        </div>
+                    )
+                }
+                {/* Metadata Modal */}
+                {
+                    metadataModalOpen && currentResult && (
+                        <div className="fixed inset-0 z-50 overflow-y-auto" aria-labelledby="metadata-modal-title" role="dialog" aria-modal="true">
+                            <div className="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                                <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true" onClick={() => setMetadataModalOpen(false)}></div>
+                                <span className="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+
+                                <div className="inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-3xl sm:w-full sm:p-6">
+                                    <div className="sm:flex sm:items-start">
+                                        <div className="mt-3 text-center sm:mt-0 sm:text-left w-full">
+                                            <div className="flex justify-between items-center mb-4">
+                                                <h3 className="text-lg leading-6 font-medium text-gray-900" id="metadata-modal-title">
+                                                    Dataset Details: {currentResult.name}
+                                                </h3>
+                                                <button onClick={() => setMetadataModalOpen(false)} className="text-gray-400 hover:text-gray-500">
+                                                    <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                                                    </svg>
+                                                </button>
+                                            </div>
+
+                                            <div className="mt-2 space-y-4">
+                                                <div className="grid grid-cols-2 gap-4 text-sm">
+                                                    <div className="bg-gray-50 p-3 rounded">
+                                                        <span className="block text-gray-500 text-xs uppercase">Process Time</span>
+                                                        <span className="font-medium">{currentResult.metadata?.execution_time_seconds ? currentResult.metadata.execution_time_seconds.toFixed(2) + 's' : 'N/A'}</span>
+                                                    </div>
+                                                    <div className="bg-gray-50 p-3 rounded">
+                                                        <span className="block text-gray-500 text-xs uppercase">Files Processed</span>
+                                                        <span className="font-medium">{currentResult.metadata?.processed_count ?? 'N/A'}</span>
+                                                    </div>
+                                                </div>
+
+                                                <div>
+                                                    <h4 className="text-sm font-bold text-gray-900 mb-2">3-Shot Examples Used</h4>
+                                                    <div className="bg-gray-50 p-3 rounded text-xs font-mono whitespace-pre-wrap max-h-48 overflow-y-auto border border-gray-200">
+                                                        {currentResult.metadata?.examples_3_shot || "N/A"}
+                                                    </div>
+                                                </div>
+
+                                                <div>
+                                                    <h4 className="text-sm font-bold text-gray-900 mb-2">Constraints Used</h4>
+                                                    <div className="bg-gray-50 p-3 rounded text-sm whitespace-pre-wrap max-h-48 overflow-y-auto border border-gray-200">
+                                                        {currentResult.metadata?.formatted_constraints || "N/A"}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="mt-5 sm:mt-4 sm:flex sm:flex-row-reverse">
+                                        <button
+                                            type="button"
+                                            onClick={() => setMetadataModalOpen(false)}
+                                            className="w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm"
+                                        >
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                }
+            </main >
+        </div >
     );
 };
 

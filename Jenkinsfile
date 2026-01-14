@@ -207,7 +207,7 @@ pipeline {
                             
                             # Start RefBot background worker (detached)
                             echo "🚀 Starting RefBot background worker..."
-                            docker compose -f docker-compose.prod.yml exec -d api bash src/start_worker.sh
+                            docker compose -f docker-compose.prod.yml exec -d api bash /src/start_worker.sh
                         '
                         """
                     }
